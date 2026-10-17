@@ -45,6 +45,10 @@ and clear bare reuse suggestions. Explicit selection of one distribution keeps
 the unselected match under `unselectedAlternatives`; it preserves other unknowns
 and never promotes source evidence. Matching assembly versions do not prove
 matching bytes or interchangeable TFMs; no whole-package equivalence is asserted.
+Actual archive fingerprints contain four Unity Newtonsoft DLL assets across
+3.0.2/3.2.2 and sixteen NuGet DLL assets across 13.0.3/13.0.4. None of the four
+Unity hashes equals a recorded NuGet asset hash. Unity AOT/Runtime folder names
+do not certify a NuGet TFM, so no cross-distribution file reuse is certified.
 
 Services Core, Authentication, Purchasing/IAP, Odin Serializer, YooAsset and
 ZString are `onDemandCandidates` only: official source, license hint where known,
