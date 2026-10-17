@@ -79,6 +79,15 @@ def parser() -> argparse.ArgumentParser:
     export.add_argument("--lock", required=True)
     export.add_argument("--out", required=True)
     export.add_argument("--materialized", help="Materialization receipt JSON file")
+    classify = commands.add_parser("classify", help="Propose declaration routes before native selection; original writer must authenticate")
+    classify.add_argument("--inventory", required=True, help="Complete normalized original declaration inventory JSON")
+    classify.add_argument("--registry",default=DEFAULT_REGISTRY)
+    classify.add_argument("--matches")
+    classify.add_argument("--profile")
+    classify.add_argument("--decisions",help="Explicitly bound original-writer decision receipt; never inferred")
+    classify.add_argument("--restore-id",action="append",default=[])
+    classify.add_argument("--restore-reason")
+    classify.add_argument("--out",required=True,help="New local directory for classification and worksets")
     return result
 
 
@@ -129,6 +138,25 @@ def main(argv: list[str] | None = None) -> int:
             _write(args.out, result)
         elif args.command == "materialize":
             result = materialize(_read(args.lock), args.target, offline=args.offline)
+        elif args.command == "classify":
+            from .catalog import load_registry
+            from .classify import classify
+            output=Path(args.out)
+            if output.exists() or output.is_symlink():
+                raise ValueError("classify requires a new output directory")
+            classified=classify(_read(args.inventory),load_registry(args.registry),
+                                matches=_read(args.matches) if args.matches else None,
+                                profile=_read(args.profile) if args.profile else None,
+                                decisions=_read(args.decisions) if args.decisions else None,
+                                restore_ids=args.restore_id,restore_reason=args.restore_reason)
+            output.mkdir(parents=False,exist_ok=False)
+            names={"classification":"CLASSIFICATION.json","libraryResolutionWorkset":"LIBRARY-RESOLUTION-WORKSET.json",
+                   "generatedCodeWorkset":"GENERATED-CODE-WORKSET.json","nativeSelection":"NATIVE-SELECTION-PROPOSAL.json","summary":"CLASSIFICATION-SUMMARY.json"}
+            for key,name in names.items():
+                _write(output/name,classified[key])
+            result={**classified["summary"],"outputFiles":list(names.values())}
+            if classified["libraryResolutionWorkset"].get("items"):
+                result["unresolved"]=[{"kind":"library-resolution-required","count":len(classified["libraryResolutionWorkset"]["items"])}]
         else:
             result = export_remaker(_read(args.lock), _read(args.materialized) if args.materialized else None,
                                     lock_file_sha256=hashlib.sha256(Path(args.lock).read_bytes()).hexdigest())

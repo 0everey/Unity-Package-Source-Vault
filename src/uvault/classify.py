@@ -136,7 +136,11 @@ def _validate(inventory):
                 raise ValueError("Alias native addresses conflict for " + alias_id)
             if alias_id not in by_id:
                 entry = external.setdefault(alias_id, {"id": alias_id, "referencedBy": [], "nativeAddress": None,
-                                                       "scope": "outside-supplied-declaration-inventory"})
+                                                       "scope": "outside-supplied-declaration-inventory",
+                                                       "category": "unknown", "nativeAction": "recover-native",
+                                                       "originalDeclaration": False, "requiresResolution": True,
+                                                       "requiresNativeEligibilityCheck": True,
+                                                       "skipNativeRecovery": False, "isRecovered": False})
                 value = next(iter(observed), None)
                 if entry["nativeAddress"] is not None and value is not None and entry["nativeAddress"] != value:
                     raise ValueError("External alias has inconsistent address observations")
@@ -341,6 +345,11 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
         if identifier in resolved:
             return
         row, declaration = rows_by_id[identifier], by_id[identifier]
+        if row.get("restoredToNative"):
+            # An explicit restoration, or recovery inherited from an already
+            # resolved restored owner, must survive the final ownership pass.
+            resolved.add(identifier)
+            return
         if row["category"] != "compiler-generated":
             resolved.add(identifier)
             return
@@ -359,6 +368,11 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
         row["ownerDeclarationId"] = owner
         row["ownerCategory"] = owner_row["category"]
         if owner_row["nativeAction"] == "recover-native" or owner_row["category"] in PROTECTED:
+            if owner_row.get("restoredToNative"):
+                row.update(originalNativeAction=row["nativeAction"], restoredToNative=True,
+                           restorationReason=owner_row["restorationReason"],
+                           restorationInheritedFrom=owner,
+                           restorationRootId=owner_row.get("restorationRootId", owner))
             row.update(nativeAction="recover-native", nextQueue="native-recovery", reuseStatus="not-adopted",
                        profileVerified=False, reason="verified-compiler-generated-owner-retains-native-recovery")
             if identifier in accepted:
@@ -384,7 +398,26 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
         if row["nativeAction"] != "defer-library-resolution":
             raise ValueError("Only deferred library declarations can be restored to native selection")
         row.update(originalNativeAction="defer-library-resolution", nativeAction="recover-native",
-                   nextQueue="native-recovery", restorationReason=restore_reason.strip(), restoredToNative=True)
+                   nextQueue="native-recovery", restorationReason=restore_reason.strip(), restoredToNative=True,
+                   restorationRootId=identifier)
+    if restore_ids:
+        # Owner following initially determines which rows are deferred and may
+        # be explicitly restored. Re-evaluate it against those final recovery
+        # actions, so generated execution scopes cannot remain deferred behind
+        # a restored owner. This only propagates recovery, never acceptance.
+        resolved.clear()
+        for identifier in by_id:
+            follow(identifier)
+    for row in rows:
+        action = row["nativeAction"]
+        if action == "defer-library-resolution" or row.get("restoredToNative"):
+            row["deferReason"] = row["reason"]
+        if action in ("provider-reference", "reuse-upstream", "skip-native"):
+            row["skipReason"] = row["reason"]
+        if action == "recover-native":
+            row["nativeReason"] = row.get("restorationReason", row["reason"])
+        if action == "regenerate":
+            row["regenerationReason"] = row["reason"]
     if len(rows) != len(by_id) or {r["id"] for r in rows} != set(by_id):
         raise ValueError("Classification failed original declaration conservation")
     common = {"schemaVersion": "1.0", "binding": binding, "cacheKey": cache_key,
@@ -393,23 +426,40 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
     generated = [copy.deepcopy(row) for row in rows if row["nativeAction"] == "regenerate"]
     native = [row for row in rows if row["nativeAction"] == "recover-native"]
     native_ids = {row["id"] for row in native}
-    before_addresses = {_address(row.get("nativeAddress")) for row in rows} - {None}
-    native_addresses = {_address(row.get("nativeAddress")) for row in native} - {None}
+    declaration_addresses = {_address(row.get("nativeAddress")) for row in rows} - {None}
+    native_declaration_addresses = {_address(row.get("nativeAddress")) for row in native} - {None}
+    external_alias_addresses = {_address(alias.get("nativeAddress")) for alias in external_aliases} - {None}
+    # External aliases are not invented original declaration IDs. Their unknown
+    # eligibility nevertheless keeps every observed address available to Core;
+    # deferring their sole library referrer cannot count that work as avoided.
+    before_addresses = declaration_addresses | external_alias_addresses
+    native_addresses = native_declaration_addresses | external_alias_addresses
     address_owners = defaultdict(list)
+    external_address_owners = defaultdict(list)
     for row in rows:
         address = _address(row.get("nativeAddress"))
         if address is not None:
             address_owners[address].append(row["id"])
+    for alias in external_aliases:
+        address = _address(alias.get("nativeAddress"))
+        if address is not None:
+            external_address_owners[address].append(alias["id"])
     summary = {**common, "declarationCount": len(rows), "classifiedCount": len(rows),
                "actionCounts": {action: sum(row["nativeAction"] == action for row in rows) for action in ACTIONS},
                "categoryCounts": dict(sorted(Counter(row["category"] for row in rows).items())),
                "nativeDeclarationCount": len(native), "deferredDeclarationCount": sum(row["nativeAction"] == "defer-library-resolution" for row in rows),
                "originalAddressCount": len(before_addresses), "nativeAddressCount": len(native_addresses),
+               "originalDeclarationAddressCount": len(declaration_addresses),
+               "nativeDeclarationAddressCount": len(native_declaration_addresses),
+               "externalAliasAddressCount": len(external_alias_addresses),
                "avoidedAddressCount": len(before_addresses - native_addresses),
-               "sharedAddresses": [{"nativeAddress": address, "declarationIds": identifiers,
-                                    "nativeDeclarationIds": [identifier for identifier in identifiers if rows_by_id[identifier]["nativeAction"] == "recover-native"]}
-                                   for address, identifiers in sorted(address_owners.items()) if len(identifiers) > 1],
+               "sharedAddresses": [{"nativeAddress": address, "declarationIds": address_owners[address],
+                                    "nativeDeclarationIds": [identifier for identifier in address_owners[address] if identifier in native_ids],
+                                    "unknownExternalAliasIds": external_address_owners[address]}
+                                   for address in sorted(before_addresses)
+                                   if len(address_owners[address]) + len(external_address_owners[address]) > 1],
                "externalAliasCount": len(external_aliases), "isRecovered": False,
+               "externalAliasResolutionRequired": bool(external_aliases),
                "conservation": {"input": len(by_id), "routed": len(rows), "missing": [], "duplicate": []}}
     return {"classification": {**common, "classifierSha256": classifier_sha, "profile": copy.deepcopy(profile),
                                 "completeScope": copy.deepcopy(inventory["completeScope"]),
@@ -419,8 +469,14 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
             "generatedCodeWorkset": {**common, "items": generated},
             "nativeSelection": {**common, "kind": "native-selection-proposal", "authenticated": False,
                                 "methodIds": [row["id"] for row in native],
+                                "requiresNativeEligibilityCheck": True,
+                                "addressedDeclarationIds": [row["id"] for row in native if _address(row.get("nativeAddress")) is not None],
+                                "unaddressedDeclarationIds": [row["id"] for row in native if _address(row.get("nativeAddress")) is None],
                                 "declarations": [copy.deepcopy(row) for row in native],
-                                "externalAliases": [copy.deepcopy(alias) for alias in external_aliases if any(identifier in native_ids for identifier in alias["referencedBy"])],
+                                "externalAliases": copy.deepcopy(external_aliases),
+                                "requiresExternalAliasResolution": bool(external_aliases),
+                                "unresolvedExternalAliasIds": [alias["id"] for alias in external_aliases],
+                                "unaddressedExternalAliasIds": [alias["id"] for alias in external_aliases if _address(alias.get("nativeAddress")) is None],
                                 "sourceInventory": None,
                                 "requiredConsumer": "original-ReMaker-Core-writer-with-authenticated-original-inputs"},
             "summary": summary}

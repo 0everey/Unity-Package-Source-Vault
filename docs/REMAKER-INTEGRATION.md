@@ -41,3 +41,15 @@ Suggested original-writer receipt (kept in the ReMaker consumer workspace):
 This repository does not write the existing ReMaker or game project. An export
 test proves contract production and offline readability; original-writer
 adoption must be reported independently. See delivery status for actual intake.
+
+Use `uvault classify --inventory DECLARATIONS.json --registry <pinned-catalog>
+--out <new-local-directory>` after original metadata identity is available and
+before expensive native selection. [Classification](CLASSIFICATION.md) specifies
+the complete original declaration manifest, six scheduling actions, recoverable
+deferral, cache identity and original-writer bridge. `nativeAction` is the new
+consumer's scheduling field; the legacy boolean remains false. Reuse, current
+scheduling, source adoption, compilation and recovered behavior are separate.
+
+CLI exports hash actual lock-file bytes in `lockSha256` and identify that basis
+as `file-bytes`; `lockContentSha256` also carries canonical JSON identity for
+materialization receipts. Dict-only Python exports declare canonical-json basis.

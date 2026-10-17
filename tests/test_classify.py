@@ -156,6 +156,52 @@ class ClassificationTests(unittest.TestCase):
         self.assertTrue(restored["libraryResolutionWorkset"]["items"][0]["restoredToNative"])
         self.assertTrue(row["restorationReason"])
 
+    def test_restored_owner_recovers_verified_generated_chain_in_any_input_order(self):
+        owner = declaration("owner")
+        state = declaration("state", type_name="Library.Utility+StateMachine", category="compiler-generated",
+                            owner={"declarationId": "owner", "verified": True, "evidenceRefs": [{"kind": "metadata-owner"}]})
+        nested = declaration("nested", type_name="Library.Utility+StateMachine+Closure", category="compiler-generated",
+                             owner={"declarationId": "state", "verified": True, "evidenceRefs": [{"kind": "metadata-owner"}]})
+        for ordering in ((owner, state, nested), (nested, state, owner)):
+            inv = inventory(*ordering)
+            baseline = classify(inv, catalog())
+            self.assertTrue(all(row["nativeAction"] == "defer-library-resolution" for row in baseline["classification"]["items"]))
+            restored = classify(inv, catalog(), restore_ids=["owner"], restore_reason="Review actual modified task implementation")
+            rows = {row["id"]: row for row in restored["classification"]["items"]}
+            self.assertEqual(set(restored["nativeSelection"]["methodIds"]), {"owner", "state", "nested"})
+            self.assertEqual(rows["state"]["restorationInheritedFrom"], "owner")
+            self.assertEqual(rows["nested"]["restorationInheritedFrom"], "state")
+            self.assertEqual(rows["nested"]["restorationRootId"], "owner")
+            self.assertEqual(rows["nested"]["restorationReason"], rows["owner"]["restorationReason"])
+            self.assertEqual(rows["nested"]["category"], "compiler-generated")
+            self.assertTrue(all(not row["isRecovered"] for row in rows.values()))
+            self.assertEqual(len(restored["libraryResolutionWorkset"]["items"]), 3)
+            self.assertEqual(restored["summary"]["deferredDeclarationCount"], 0)
+
+    def test_restoring_generated_scope_does_not_redefer_it_to_its_library_owner(self):
+        owner = declaration("owner")
+        state = declaration("state", type_name="Library.Utility+StateMachine", category="compiler-generated",
+                            owner={"declarationId": "owner", "verified": True, "evidenceRefs": [{"kind": "metadata-owner"}]})
+        nested = declaration("nested", type_name="Library.Utility+StateMachine+Closure", category="compiler-generated",
+                             owner={"declarationId": "state", "verified": True, "evidenceRefs": [{"kind": "metadata-owner"}]})
+        result = classify(inventory(nested, state, owner), catalog(), restore_ids=["state"], restore_reason="Investigate generated body")
+        rows = {row["id"]: row for row in result["classification"]["items"]}
+        self.assertEqual(rows["owner"]["nativeAction"], "defer-library-resolution")
+        self.assertEqual(set(result["nativeSelection"]["methodIds"]), {"state", "nested"})
+        self.assertEqual(rows["nested"]["restorationRootId"], "state")
+
+    def test_owner_adoption_does_not_expand_exact_acceptance_to_generated_member(self):
+        owner = declaration("owner")
+        state = declaration("state", type_name="Library.Utility+StateMachine", category="compiler-generated",
+                            owner={"declarationId": "owner", "verified": True, "evidenceRefs": [{"kind": "metadata-owner"}]})
+        inv, cat = inventory(owner, state), catalog()
+        decisions = decision_document(inv, cat, accepted_decision(owner, "reuse-upstream"))
+        result = classify(inv, cat, decisions=decisions)
+        rows = {row["id"]: row for row in result["classification"]["items"]}
+        self.assertEqual(rows["owner"]["nativeAction"], "reuse-upstream")
+        self.assertEqual(rows["state"]["nativeAction"], "recover-native")
+        self.assertFalse(rows["state"].get("restoredToNative", False))
+
     def test_duplicate_missing_partial_and_non_original_coverage_are_rejected(self):
         inv = inventory(declaration("first"), declaration("second"))
         invalid = []
@@ -186,6 +232,43 @@ class ClassificationTests(unittest.TestCase):
         inv["declarations"][0]["aliases"][0]["nativeAddress"] = "0x2000"
         with self.assertRaises(ValueError):
             classify(inv, catalog())
+
+    def test_external_unknown_alias_retains_address_when_its_only_referrer_is_deferred(self):
+        inv = inventory(declaration("lib", address="0x1000", aliases=["unclassified-external"]))
+        result = classify(inv, catalog())
+        self.assertEqual(result["nativeSelection"]["methodIds"], [])
+        alias = result["nativeSelection"]["externalAliases"][0]
+        self.assertEqual(alias["id"], "unclassified-external")
+        self.assertEqual(alias["category"], "unknown")
+        self.assertEqual(alias["nativeAction"], "recover-native")
+        self.assertFalse(alias["originalDeclaration"])
+        self.assertEqual(alias["nativeAddress"], "0x1000")
+        self.assertTrue(result["nativeSelection"]["requiresExternalAliasResolution"])
+        self.assertEqual(result["summary"]["nativeDeclarationAddressCount"], 0)
+        self.assertEqual(result["summary"]["externalAliasAddressCount"], 1)
+        self.assertEqual(result["summary"]["nativeAddressCount"], 1)
+        self.assertEqual(result["summary"]["avoidedAddressCount"], 0)
+        self.assertEqual(result["summary"]["conservation"]["routed"], 1)
+
+    def test_unaddressed_external_alias_is_an_explicit_unresolved_eligibility_gap(self):
+        result = classify(inventory(declaration("lib", aliases=["unknown-external"])), catalog())
+        self.assertEqual(result["nativeSelection"]["unresolvedExternalAliasIds"], ["unknown-external"])
+        self.assertEqual(result["nativeSelection"]["unaddressedExternalAliasIds"], ["unknown-external"])
+        self.assertIsNone(result["nativeSelection"]["externalAliases"][0]["nativeAddress"])
+        self.assertEqual(result["summary"]["nativeAddressCount"], 0)
+        self.assertEqual(result["summary"]["avoidedAddressCount"], 0)
+
+    def test_external_alias_and_same_address_business_are_counted_without_invented_ids(self):
+        lib = declaration("lib", address="0x1000", aliases=["unknown-external"])
+        business = declaration("business", category="game-business", address="0x1000")
+        result = classify(inventory(lib, business), catalog())
+        self.assertEqual(result["nativeSelection"]["methodIds"], ["business"])
+        self.assertEqual(result["summary"]["nativeAddressCount"], 1)
+        self.assertEqual(result["summary"]["avoidedAddressCount"], 0)
+        shared = result["summary"]["sharedAddresses"][0]
+        self.assertEqual(shared["nativeDeclarationIds"], ["business"])
+        self.assertEqual(shared["unknownExternalAliasIds"], ["unknown-external"])
+        self.assertEqual(result["summary"]["conservation"]["input"], 2)
 
     def test_compiler_generated_only_follows_verified_actual_owner(self):
         owner = declaration("owner")
@@ -218,6 +301,28 @@ class ClassificationTests(unittest.TestCase):
         result = classify(inventory(declaration("lib")), cat, matches=matches)
         self.assertEqual(result["classification"]["items"][0]["nativeAction"], "defer-library-resolution")
         self.assertEqual(result["classification"]["adoptionStatus"], "pending")
+
+    def test_uncertain_catalog_ownership_and_conflicting_assembly_version_stay_native(self):
+        for field, value in (("ownershipVerified", False), ("version", "2.0.0.0")):
+            cat = catalog()
+            cat["packages"][0]["versions"][0]["fingerprint"]["assemblies"][0][field] = value
+            result = classify(inventory(declaration("lib")), cat)
+            self.assertEqual(result["nativeSelection"]["methodIds"], ["lib"])
+
+    def test_compiler_generated_adoption_cannot_bypass_unverified_owner(self):
+        generated = declaration("state", category="compiler-generated")
+        inv, cat = inventory(generated), catalog()
+        document = decision_document(inv, cat, accepted_decision(generated, "skip-native"))
+        result = classify(inv, cat, decisions=document)
+        row = result["classification"]["items"][0]
+        self.assertEqual(row["nativeAction"], "recover-native")
+        self.assertIn("owner", row["decisionRejected"])
+
+    def test_unaddressed_unknown_declaration_is_preserved_for_original_core_eligibility_check(self):
+        result = classify(inventory(declaration("abstract", category="unknown")), catalog())
+        self.assertEqual(result["nativeSelection"]["methodIds"], ["abstract"])
+        self.assertEqual(result["nativeSelection"]["unaddressedDeclarationIds"], ["abstract"])
+        self.assertTrue(result["nativeSelection"]["requiresNativeEligibilityCheck"])
 
     def test_input_is_not_mutated_and_output_identity_retains_evidence_and_aliases(self):
         inv, cat = inventory(declaration("lib", address="0x1000", aliases=["external"])), catalog()

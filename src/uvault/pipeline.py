@@ -40,17 +40,29 @@ def save_index(root, queue, bundle=False):
 
 def load_queue(root):
     index=json.loads((root/"catalog.json").read_text(encoding="utf-8-sig"))
+    if index.get("bundle"):
+        # Resume from the bundled checkpoint, then overlay only newer shards.
+        # A process may have completed a shard just before its index checkpoint.
+        bundle_path=root/index["bundle"]["path"]
+        data=bundle_path.read_bytes()
+        if hashlib.sha256(data).hexdigest()!=index["bundle"]["sha256"]:
+            raise ValueError("Task metadata bundle checksum mismatch")
+        packages=json.loads(gzip.decompress(data))["packages"]
+        newer={entry["id"]:root/entry["path"] for entry in index["packages"]
+               if (root/entry["path"]).stat().st_mtime_ns>bundle_path.stat().st_mtime_ns}
+        packages=[json.loads(newer[p["id"]].read_text(encoding="utf-8-sig")) if p["id"] in newer else p for p in packages]
+        return {**index,"packages":packages}
     return {**index,"packages":[json.loads((root/e["path"]).read_text(encoding="utf-8-sig")) for e in index["packages"]]}
 
-def metadata(queue, root, workers=12, only=(), retry_failed=False):
+def metadata(queue, root, workers=12, only=(), retry_failed=False, refresh=False):
     known={p["id"]:p for p in queue["packages"]}
     allowed=set(only)
     pending=[p for p in queue["packages"] if (not allowed or p["id"] in allowed)
-             and p.get("metadataStatus","pending") not in ("complete","reference-only")
+             and (refresh or p.get("metadataStatus","pending") not in ("complete","reference-only"))
              and (retry_failed or p.get("metadataStatus")!="failed")]
     def fetch(seed):
         state={"packages":[seed],"frontier":[]}
-        harvest.update_metadata(state,package_ids=[seed["id"]],retry_failed=retry_failed)
+        harvest.update_metadata(state,package_ids=[seed["id"]],retry_failed=retry_failed,refresh=refresh)
         return state
     done=0
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
@@ -102,6 +114,7 @@ def _run(argv=None):
     parser.add_argument("--package",action="append",default=[])
     parser.add_argument("--workers",type=int,default=12)
     parser.add_argument("--retry-failed",action="store_true")
+    parser.add_argument("--refresh",action="store_true",help="Refresh metadata while retaining prior immutable variants")
     args=parser.parse_args(argv)
     if args.workers<1 or args.workers>32:
         parser.error("workers must be 1..32")
@@ -128,7 +141,7 @@ def _run(argv=None):
     else:
         queue=load_queue(root)
     if args.metadata:
-        metadata(queue,root,args.workers,args.package,args.retry_failed)
+        metadata(queue,root,args.workers,args.package,args.retry_failed,args.refresh)
     if args.collect:
         publisher=None
         if args.publish:
@@ -136,7 +149,7 @@ def _run(argv=None):
             publisher=lambda data,record:publish_artifact(data,record,args.repo)
         def checkpoint(state,package):
             save_package(root,package);save_index(root,state)
-            latest=next((v for v in reversed(package["versions"]) if v.get("collectedAt") or v.get("fetchError")),{})
+            latest=max(package["versions"],key=lambda v:v.get("collectedAt") or v.get("fetchAttemptedAt") or "")
             print(json.dumps({"package":package["id"],"version":latest.get("version"),"fetchStatus":latest.get("fetchStatus"),"disposition":latest.get("disposition")}),flush=True)
         harvest.collect_selected(queue,package_ids=args.package,retry_failed=args.retry_failed,publish=publisher,progress=checkpoint)
     save_index(root,queue,bundle=True)

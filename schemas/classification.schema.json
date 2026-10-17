@@ -1,0 +1,5 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "type":"object","required":["schemaVersion","binding","cacheKey","items","externalAliases"],
+  "properties":{"schemaVersion":{"const":"1.0"},"binding":{"type":"object","required":["targetId","dumpSha256","inputSha256","catalogCommit","catalogSha256","profileSha256"]},"cacheKey":{"type":"string"},"items":{"type":"array","items":{"type":"object","required":["id","nativeAction","isRecovered","skipNativeRecovery"],"properties":{"id":{"type":"string"},"nativeAction":{"enum":["recover-native","provider-reference","reuse-upstream","skip-native","defer-library-resolution","regenerate"]},"isRecovered":{"const":false},"skipNativeRecovery":{"const":false}}}},"externalAliases":{"type":"array"}}
+}
