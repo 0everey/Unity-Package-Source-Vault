@@ -2185,7 +2185,7 @@
   "distTags": {
     "latest": "10.10.1"
   },
-  "availableUpstreamVersionCount": 4,
+  "availableUpstreamVersionCount": 3,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
@@ -2223,5 +2223,10 @@
   ],
   "category": "rendering",
   "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
-  "family": "common-rendering"
+  "family": "common-rendering",
+  "preferredVersions": [
+    "17.0.4",
+    "14.0.12"
+  ],
+  "commonArchiveFallback": true
 }

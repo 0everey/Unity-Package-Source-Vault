@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.2d.common",
+  "displayName": "com.unity.2d.common",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.2d.common",
+      "fetchedAt": "2026-10-17T20:54:58.523918Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "8.1.1",
+      "variantId": "registry-packages.unity.com-ae357b077af92cb6",
+      "sourceUrl": "https://packages.unity.com/com.unity.2d.common",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.2d.common/-/com.unity.2d.common-8.1.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9d73eb4e12dd14058247b5ea3f346d12fd973b2e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.7.3",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.2d.common/8.1.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "9d73eb4e12dd14058247b5ea3f346d12fd973b2e"
+        }
+      }
+    },
+    {
+      "version": "9.1.2",
+      "variantId": "registry-packages.unity.com-b9641792a782d333",
+      "sourceUrl": "https://packages.unity.com/com.unity.2d.common",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.2d.common/-/com.unity.2d.common-9.1.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e04d89339e5c1b86a39c94700e5ecff8a698c659",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.4",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.2d.common/9.1.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "e04d89339e5c1b86a39c94700e5ecff8a698c659"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "16.0.0"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [
+      "8.1.1",
+      "9.1.2"
+    ],
+    "legacyMajor": null,
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "8.1.1",
+    "9.1.2"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "dependency",
+  "coverageBasis": "finite shared dependency of selected 2D packages",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "family": "common-dependency",
+  "preferredVersions": [
+    "8.1.1",
+    "9.1.2"
+  ]
+}

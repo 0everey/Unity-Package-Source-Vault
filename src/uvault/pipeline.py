@@ -33,7 +33,10 @@ def save_package(root, package):
     write_json(root / shard_name(package["id"]), package)
 
 def save_index(root, queue, bundle=False):
+    from .curated import compatibility_sets
+    queue["compatibilitySets"]=compatibility_sets(queue)
     index={"schemaVersion":"1.0","catalogCommit":"pending", "scope":queue.get("scope"), "scopeVersion":queue.get("scopeVersion"),
+           "requirementRevision":queue.get("requirementRevision","R4"),"compatibilitySetDefinitions":queue.get("compatibilitySetDefinitions",[]),"compatibilitySets":queue["compatibilitySets"],
            "enumerationMeaning":queue.get("enumerationMeaning"),
            "snapshots":queue.get("snapshots",[]),"completeEnumeration":queue.get("completeEnumeration",False),
            "frontier":queue.get("frontier",[]),"coverage":"coverage.json",

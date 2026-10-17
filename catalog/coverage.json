@@ -1,601 +1,321 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-17T19:45:24.203094Z",
+  "generatedAt": "2026-10-17T20:57:31.967535Z",
   "sourceSnapshots": [
     {
       "source": "common-packages.json",
       "scopeVersion": "R4",
-      "configuredPackageFamilies": 35,
-      "discoveredAt": "2026-10-17T19:26:47.564584Z"
+      "configuredPackageFamilies": 43,
+      "discoveredAt": "2026-10-17T20:57:21.109095Z"
     }
   ],
   "completeEnumeration": true,
   "scope": "Common Unity builtin providers and explicitly listed common packages; two or three versions per family",
-  "discoveredPackages": 55,
-  "registeredPackages": 55,
+  "discoveredPackages": 73,
+  "requirementRevision": "R5",
+  "compatibilitySets": [
+    {
+      "id": "dots-unity6000",
+      "unityRequirement": "6000.0",
+      "members": {
+        "com.unity.entities": "1.5.0",
+        "com.unity.entities.graphics": "1.5.0",
+        "com.unity.physics": "1.5.0"
+      },
+      "scope": "declared package dependencies only; not installed/compiled or current-game requirement",
+      "status": "member-declarations-verified",
+      "profileVerified": false,
+      "installed": false,
+      "compiled": false,
+      "declarations": [
+        {
+          "packageId": "com.unity.entities",
+          "version": "1.5.0",
+          "variantId": "registry-packages.unity.com-378288ea028ed647",
+          "unity": "6000.0",
+          "metadataUrl": "https://packages.unity.com/com.unity.entities/1.5.0",
+          "dependencies": {
+            "com.unity.burst": "1.8.29",
+            "com.unity.collections": "2.7.1",
+            "com.unity.mathematics": "1.3.2",
+            "com.unity.modules.audio": "1.0.0",
+            "com.unity.serialization": "3.1.3",
+            "com.unity.profiling.core": "1.0.3",
+            "com.unity.modules.physics": "1.0.0",
+            "com.unity.nuget.mono-cecil": "1.11.6",
+            "com.unity.modules.uielements": "1.0.0",
+            "com.unity.modules.assetbundle": "1.0.0",
+            "com.unity.modules.unityanalytics": "1.0.0",
+            "com.unity.modules.unitywebrequest": "1.0.0",
+            "com.unity.scriptablebuildpipeline": "1.23.1",
+            "com.unity.test-framework.performance": "3.0.3"
+          }
+        },
+        {
+          "packageId": "com.unity.entities.graphics",
+          "version": "1.5.0",
+          "variantId": "registry-packages.unity.com-bae824910a7ce9a8",
+          "unity": "6000.0",
+          "metadataUrl": "https://packages.unity.com/com.unity.entities.graphics/1.5.0",
+          "dependencies": {
+            "com.unity.entities": "1.5.0",
+            "com.unity.render-pipelines.core": "17.0.3",
+            "com.unity.modules.particlesystem": "1.0.0"
+          }
+        },
+        {
+          "packageId": "com.unity.physics",
+          "version": "1.5.0",
+          "variantId": "registry-packages.unity.com-28310d55c35feae8",
+          "unity": "6000.0",
+          "metadataUrl": "https://packages.unity.com/com.unity.physics/1.5.0",
+          "dependencies": {
+            "com.unity.burst": "1.8.29",
+            "com.unity.entities": "1.5.0",
+            "com.unity.collections": "2.7.1",
+            "com.unity.mathematics": "1.3.2",
+            "com.unity.modules.imgui": "1.0.0",
+            "com.unity.test-framework": "1.4.6",
+            "com.unity.modules.jsonserialize": "1.0.0"
+          }
+        }
+      ],
+      "missingMembers": [],
+      "memberConflicts": [],
+      "exactDependencyGaps": [
+        {
+          "packageId": "com.unity.burst",
+          "version": "1.8.29",
+          "requiredBy": "com.unity.entities",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.nuget.mono-cecil",
+          "version": "1.11.6",
+          "requiredBy": "com.unity.entities",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.modules.unityanalytics",
+          "version": "1.0.0",
+          "requiredBy": "com.unity.entities",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.scriptablebuildpipeline",
+          "version": "1.23.1",
+          "requiredBy": "com.unity.entities",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.test-framework.performance",
+          "version": "3.0.3",
+          "requiredBy": "com.unity.entities",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.render-pipelines.core",
+          "version": "17.0.3",
+          "requiredBy": "com.unity.entities.graphics",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.burst",
+          "version": "1.8.29",
+          "requiredBy": "com.unity.physics",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.test-framework",
+          "version": "1.4.6",
+          "requiredBy": "com.unity.physics",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        }
+      ]
+    },
+    {
+      "id": "dots-unity2022",
+      "unityRequirement": "2022.3",
+      "members": {
+        "com.unity.entities": "1.3.14",
+        "com.unity.entities.graphics": "1.4.12",
+        "com.unity.physics": "1.3.14"
+      },
+      "scope": "declared package dependencies only; not installed/compiled or current-game requirement",
+      "status": "member-declarations-verified",
+      "profileVerified": false,
+      "installed": false,
+      "compiled": false,
+      "declarations": [
+        {
+          "packageId": "com.unity.entities",
+          "version": "1.3.14",
+          "variantId": "registry-packages.unity.com-2ed5655ee730ceff",
+          "unity": "2022.3",
+          "metadataUrl": "https://packages.unity.com/com.unity.entities/1.3.14",
+          "dependencies": {
+            "com.unity.burst": "1.8.19",
+            "com.unity.collections": "2.5.7",
+            "com.unity.mathematics": "1.3.2",
+            "com.unity.modules.audio": "1.0.0",
+            "com.unity.serialization": "3.1.2",
+            "com.unity.profiling.core": "1.0.2",
+            "com.unity.modules.physics": "1.0.0",
+            "com.unity.nuget.mono-cecil": "1.11.5",
+            "com.unity.modules.uielements": "1.0.0",
+            "com.unity.modules.assetbundle": "1.0.0",
+            "com.unity.modules.unityanalytics": "1.0.0",
+            "com.unity.modules.unitywebrequest": "1.0.0",
+            "com.unity.scriptablebuildpipeline": "1.21.25",
+            "com.unity.test-framework.performance": "3.0.3"
+          }
+        },
+        {
+          "packageId": "com.unity.entities.graphics",
+          "version": "1.4.12",
+          "variantId": "registry-packages.unity.com-90920b4ab5162f6c",
+          "unity": "2022.3",
+          "metadataUrl": "https://packages.unity.com/com.unity.entities.graphics/1.4.12",
+          "dependencies": {
+            "com.unity.entities": "1.3.14",
+            "com.unity.render-pipelines.core": "14.0.10",
+            "com.unity.modules.particlesystem": "1.0.0"
+          }
+        },
+        {
+          "packageId": "com.unity.physics",
+          "version": "1.3.14",
+          "variantId": "registry-packages.unity.com-05fe3ecfe6d8b504",
+          "unity": "2022.3",
+          "metadataUrl": "https://packages.unity.com/com.unity.physics/1.3.14",
+          "dependencies": {
+            "com.unity.burst": "1.8.19",
+            "com.unity.entities": "1.3.14",
+            "com.unity.collections": "2.5.7",
+            "com.unity.mathematics": "1.3.2",
+            "com.unity.modules.imgui": "1.0.0",
+            "com.unity.test-framework": "1.4.6",
+            "com.unity.modules.jsonserialize": "1.0.0"
+          }
+        }
+      ],
+      "missingMembers": [],
+      "memberConflicts": [],
+      "exactDependencyGaps": [
+        {
+          "packageId": "com.unity.burst",
+          "version": "1.8.19",
+          "requiredBy": "com.unity.entities",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.collections",
+          "version": "2.5.7",
+          "requiredBy": "com.unity.entities",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.serialization",
+          "version": "3.1.2",
+          "requiredBy": "com.unity.entities",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.nuget.mono-cecil",
+          "version": "1.11.5",
+          "requiredBy": "com.unity.entities",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.modules.unityanalytics",
+          "version": "1.0.0",
+          "requiredBy": "com.unity.entities",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.scriptablebuildpipeline",
+          "version": "1.21.25",
+          "requiredBy": "com.unity.entities",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.test-framework.performance",
+          "version": "3.0.3",
+          "requiredBy": "com.unity.entities",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.render-pipelines.core",
+          "version": "14.0.10",
+          "requiredBy": "com.unity.entities.graphics",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.burst",
+          "version": "1.8.19",
+          "requiredBy": "com.unity.physics",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.collections",
+          "version": "2.5.7",
+          "requiredBy": "com.unity.physics",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        },
+        {
+          "packageId": "com.unity.test-framework",
+          "version": "1.4.6",
+          "requiredBy": "com.unity.physics",
+          "reason": "exact-declared-dependency-not-in-current-catalog",
+          "automaticSubstitution": false
+        }
+      ]
+    }
+  ],
+  "registeredPackages": 73,
   "metadataStatusCounts": {
-    "complete": 35,
-    "reference-only": 20
+    "complete": 43,
+    "reference-only": 30
   },
-  "listedVersions": 92,
-  "selectedVersionTasks": 65,
+  "listedVersions": 117,
+  "selectedVersionTasks": 81,
   "completedSelectedVersionTasks": 64,
-  "pendingSelectedVersionTasks": 1,
+  "pendingSelectedVersionTasks": 17,
   "fetchedVersionRecords": 64,
   "publishedVersionRecords": 15,
   "remoteReadbackVerifiedVersionRecords": 15,
   "dispositionCounts": {
-    "official-fetch-only": 58,
-    "license-unresolved": 5,
+    "official-fetch-only": 63,
+    "license-unresolved": 21,
     "mirror-allowed": 15,
-    "builtin-reference": 17
+    "builtin-reference": 23
   },
   "fetchStatusCounts": {
     "collected": 49,
-    "published": 15,
+    "reference-only": 36,
     "fetch-failed": 1,
-    "reference-only": 27
+    "published": 15,
+    "pending": 16
   },
-  "discoveryFrontier": [
-    {
-      "packageId": "com.unity.modules.ui",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.ugui",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.imgui",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.ugui",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.burst",
-      "specification": "1.8.13",
-      "discoveredBy": "com.unity.collections",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.test-framework",
-      "specification": "1.4.3",
-      "discoveredBy": "com.unity.collections",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.nuget.mono-cecil",
-      "specification": "1.11.4",
-      "discoveredBy": "com.unity.collections",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.test-framework.performance",
-      "specification": "3.0.3",
-      "discoveredBy": "com.unity.collections",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.burst",
-      "specification": "1.8.29",
-      "discoveredBy": "com.unity.collections",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.mathematics",
-      "specification": "1.3.2",
-      "discoveredBy": "com.unity.collections",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.test-framework",
-      "specification": "1.4.6",
-      "discoveredBy": "com.unity.collections",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.nuget.mono-cecil",
-      "specification": "1.11.6",
-      "discoveredBy": "com.unity.collections",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.searcher",
-      "specification": "4.3.2",
-      "discoveredBy": "com.unity.shadergraph",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "specification": "10.10.1",
-      "discoveredBy": "com.unity.shadergraph",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "specification": "14.0.12",
-      "discoveredBy": "com.unity.shadergraph",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.searcher",
-      "specification": "4.9.2",
-      "discoveredBy": "com.unity.shadergraph",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "specification": "17.0.4",
-      "discoveredBy": "com.unity.shadergraph",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.searcher",
-      "specification": "4.9.3",
-      "discoveredBy": "com.unity.shadergraph",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.ugui",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.render-pipelines.core",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.physics",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.render-pipelines.core",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.jsonserialize",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.render-pipelines.core",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.terrain",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.render-pipelines.core",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.burst",
-      "specification": "1.8.20",
-      "discoveredBy": "com.unity.render-pipelines.core",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.mathematics",
-      "specification": "1.3.2",
-      "discoveredBy": "com.unity.render-pipelines.core",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.ugui",
-      "specification": "2.0.0",
-      "discoveredBy": "com.unity.render-pipelines.core",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.collections",
-      "specification": "2.4.3",
-      "discoveredBy": "com.unity.render-pipelines.core",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.rendering.light-transport",
-      "specification": "1.0.1",
-      "discoveredBy": "com.unity.render-pipelines.core",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.ai",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.ai.navigation",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.burst",
-      "specification": "1.7.2",
-      "discoveredBy": "com.unity.serialization",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.collections",
-      "specification": "2.4.2",
-      "discoveredBy": "com.unity.serialization",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.burst",
-      "specification": "1.8.13",
-      "discoveredBy": "com.unity.serialization",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.mathematics",
-      "specification": "1.2.1",
-      "discoveredBy": "com.unity.burst",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.jsonserialize",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.burst",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.shadergraph",
-      "specification": "10.10.1",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.visualeffectgraph",
-      "specification": "10.10.1",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "specification": "10.10.1",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.high-definition-config",
-      "specification": "10.10.1",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.mathematics",
-      "specification": "1.2.4",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.burst",
-      "specification": "1.8.9",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.video",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.animation",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.imageconversion",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.terrain",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "specification": "14.0.12",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.shadergraph",
-      "specification": "14.0.12",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.visualeffectgraph",
-      "specification": "14.0.12",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.high-definition-config",
-      "specification": "14.0.12",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "specification": "17.0.4",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.shadergraph",
-      "specification": "17.0.4",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.visualeffectgraph",
-      "specification": "17.0.4",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.high-definition-config",
-      "specification": "17.0.4",
-      "discoveredBy": "com.unity.render-pipelines.high-definition",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.splines",
-      "specification": "2.0.0",
-      "discoveredBy": "com.unity.cinemachine",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.imgui",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.cinemachine",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.profiling.core",
-      "specification": "1.0.2",
-      "discoveredBy": "com.unity.addressables",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.test-framework",
-      "specification": "1.4.5",
-      "discoveredBy": "com.unity.addressables",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.assetbundle",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.addressables",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.jsonserialize",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.addressables",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.imageconversion",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.addressables",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.unitywebrequest",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.addressables",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.scriptablebuildpipeline",
-      "specification": "2.4.0",
-      "discoveredBy": "com.unity.addressables",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.unitywebrequestassetbundle",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.addressables",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.scriptablebuildpipeline",
-      "specification": "3.0.3",
-      "discoveredBy": "com.unity.addressables",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.burst",
-      "specification": "1.4.1",
-      "discoveredBy": "com.unity.animation.rigging",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.test-framework",
-      "specification": "1.1.24",
-      "discoveredBy": "com.unity.animation.rigging",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.animation",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.animation.rigging",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.burst",
-      "specification": "1.8.24",
-      "discoveredBy": "com.unity.transport",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.collections",
-      "specification": "2.2.1",
-      "discoveredBy": "com.unity.transport",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.mathematics",
-      "specification": "1.3.2",
-      "discoveredBy": "com.unity.transport",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.audio",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.timeline",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.director",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.timeline",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.animation",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.timeline",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.particlesystem",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.timeline",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.netcode",
-      "specification": "7.0.0",
-      "discoveredBy": "com.unity.netcode.gameobjects",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.transport",
-      "specification": "6.7.0",
-      "discoveredBy": "com.unity.netcode.gameobjects",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.nuget.mono-cecil",
-      "specification": "1.11.4",
-      "discoveredBy": "com.unity.netcode.gameobjects",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.netcode",
-      "specification": "7.1.0",
-      "discoveredBy": "com.unity.netcode.gameobjects",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "specification": "17.0.3",
-      "discoveredBy": "com.unity.render-pipelines.universal-config",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.annulusgames.lit-motion",
-      "specification": "2.0.0",
-      "discoveredBy": "com.annulusgames.lit-motion.animation",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.burst",
-      "specification": "1.6.0",
-      "discoveredBy": "com.annulusgames.lit-motion",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.collections",
-      "specification": "1.5.1",
-      "discoveredBy": "com.annulusgames.lit-motion",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.mathematics",
-      "specification": "1.0.1",
-      "discoveredBy": "com.annulusgames.lit-motion",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.imgui",
-      "specification": "1.0.0",
-      "discoveredBy": "com.cysharp.r3",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.ugui",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.textmeshpro",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.mathematics",
-      "specification": "1.1.0",
-      "discoveredBy": "com.unity.render-pipelines.universal",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.shadergraph",
-      "specification": "10.10.1",
-      "discoveredBy": "com.unity.render-pipelines.universal",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "specification": "10.10.1",
-      "discoveredBy": "com.unity.render-pipelines.universal",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.mathematics",
-      "specification": "1.2.1",
-      "discoveredBy": "com.unity.render-pipelines.universal",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.burst",
-      "specification": "1.8.9",
-      "discoveredBy": "com.unity.render-pipelines.universal",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "specification": "14.0.12",
-      "discoveredBy": "com.unity.render-pipelines.universal",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.shadergraph",
-      "specification": "14.0.12",
-      "discoveredBy": "com.unity.render-pipelines.universal",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.universal-config",
-      "specification": "14.0.9",
-      "discoveredBy": "com.unity.render-pipelines.universal",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "specification": "17.0.4",
-      "discoveredBy": "com.unity.render-pipelines.universal",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.shadergraph",
-      "specification": "17.0.4",
-      "discoveredBy": "com.unity.render-pipelines.universal",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.universal-config",
-      "specification": "17.0.3",
-      "discoveredBy": "com.unity.render-pipelines.universal",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.uielements",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.inputsystem",
-      "status": "explicit-consumer-gap-if-needed"
-    }
-  ],
+  "discoveryFrontier": [],
   "pendingPackageIds": [],
   "missingTargetVersions": []
 }

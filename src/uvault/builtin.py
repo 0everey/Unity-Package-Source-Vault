@@ -35,6 +35,8 @@ def package_records() -> list:
     packages = []
     for module in rules["modules"]:
         features = module["apiFeatures"]
+        members=module.get("memberFeatures",[])
+        types=sorted({feature["typeFullName"] for feature in features+members})
         version = {"version": module["moduleVersion"], "moduleVersion": module["moduleVersion"],
                    "unityVersion": "unknown", "referenceUnityVersions": rules["referenceUnityVersions"],
                    "variantId": "unity-builtin-reference", "disposition": "builtin-reference",
@@ -45,12 +47,13 @@ def package_records() -> list:
                    "provider": {"kind": "unity-builtin-module", "assemblyName": module["assemblyName"],
                                 "referenceStatus": "reference-pending", "installationUrl": rules["installationUrl"],
                                 "manualUrl": module["manualUrl"], "apiFeatures": copy.deepcopy(features),
+                                "memberFeatures":copy.deepcopy(members),"recognitionMode":module.get("recognitionMode","multiple-api-types"),
                                 "namespaceScopes": module["namespaceScopes"], "rulesSha256": digest,
                                 "profileVerified": False},
                    "fingerprint": {"files": [], "assemblies": [{"name": module["assemblyName"], "version": rules["assemblyVersion"]}],
-                                   "types": [feature["typeFullName"] for feature in features],
-                                   "typeDeclarations": [{"fullName": feature["typeFullName"], "assemblyIdentity": {"name": module["assemblyName"]},
-                                                         "ownershipVerified": True, "profileVerified": False} for feature in features],
+                                   "types": types,
+                                   "typeDeclarations": [{"fullName": name, "assemblyIdentity": {"name": module["assemblyName"]},
+                                                         "ownershipVerified": True, "profileVerified": False} for name in types],
                                    "namespaces": module["namespaceScopes"], "profileVerified": False,
                                    "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"}}
         packages.append({"schemaVersion": "1.0", "id": module["id"], "displayName": module["displayName"],
@@ -76,6 +79,27 @@ def _owner(declaration):
     verified = owner.get("verified") is True or declaration.get("ownerVerified") is True
     evidence = owner.get("evidenceRefs") or declaration.get("ownerEvidenceRefs")
     return identifier if verified and evidence else None
+
+
+def _type_identity(value):
+    aliases={"string":"System.String","object":"System.Object","bool":"System.Boolean","int":"System.Int32",
+             "byte[]":"System.Byte[]","Type":"System.Type","Texture2D":"UnityEngine.Texture2D"}
+    value=value.strip().removeprefix("global::")
+    return aliases.get(value,value)
+
+
+def _public_member_matches(declaration,feature):
+    if declaration.get("typeFullName")!=feature["typeFullName"]:return False
+    signature=declaration.get("memberSignature","")
+    # A single complete public static method declaration, not a method-name hit.
+    match=re.fullmatch(r"public\s+static\s+([\w.\[\]:]+)\s+([A-Za-z_]\w*)\s*\(([^()]*)\)\s*(?:\{\s*\}|;)?",signature.strip())
+    if not match or match.group(2)!=feature["name"] or _type_identity(match.group(1))!=feature["returnType"]:return False
+    parameters=[]
+    for value in match.group(3).split(",") if match.group(3).strip() else []:
+        parameter=re.fullmatch(r"\s*([\w.\[\]:]+)\s+[A-Za-z_]\w*\s*",value)
+        if not parameter:return False
+        parameters.append(_type_identity(parameter.group(1)))
+    return parameters==feature["parameterTypes"]
 
 
 def detect_providers(inventory, profile=None) -> dict:
@@ -132,22 +156,33 @@ def detect_providers(inventory, profile=None) -> dict:
         module = modules[identity["name"]]
         observed_types = {declaration.get("typeFullName") for declaration in group if declaration.get("category") != "compiler-generated"}
         features = [feature for feature in module["apiFeatures"] if feature["typeFullName"] in observed_types]
-        if len(features) < rules["minimumDistinctApiTypes"]:
+        singleton=module.get("recognitionMode")=="single-type-two-public-members"
+        matched_members=[]
+        if singleton:
+            # Only the two finite single-public-type engine modules use this
+            # exception. Other modules retain the global two-type minimum.
+            if module["assemblyName"] not in ("UnityEngine.JSONSerializeModule","UnityEngine.ImageConversionModule"):continue
+            matched_members=[feature for feature in module.get("memberFeatures",[])
+                             if any(d.get("category")!="compiler-generated" and _public_member_matches(d,feature) for d in group)]
+            if len({f["name"] for f in matched_members})<2:continue
+        elif len(features) < rules["minimumDistinctApiTypes"]:
             continue
         unity_version = (profile or {}).get("unityVersion") or "unknown"
         proof = {"kind": "unity-builtin-module", "moduleId": module["id"], "moduleVersion": module["moduleVersion"],
                  "assemblyName": module["assemblyName"], "assemblyIdentity": copy.deepcopy(identity),
-                 "matchedApiTypes": [feature["typeFullName"] for feature in features],
-                 "apiEvidenceUrls": [feature["url"] for feature in features],
+                 "matchedApiTypes": sorted({feature["typeFullName"] for feature in features+matched_members}),
+                 "matchedPublicMembers":copy.deepcopy(matched_members),
+                 "recognitionScope":"exact-type" if singleton else "registered-namespaces",
+                 "apiEvidenceUrls": [feature["url"] for feature in features+matched_members],
                  "manualUrl": module["manualUrl"], "installationUrl": rules["installationUrl"],
                  "referenceUnityVersions": rules["referenceUnityVersions"], "unityVersion": unity_version,
                  "unityVersionStatus": "unknown" if unity_version == "unknown" else "reported-unverified",
                  "installationStatus": "unverified", "referenceStatus": "reference-pending", "profileVerified": False,
                  "rulesSha256": digest,
-                 "identityBasis": "complete-original-metadata-exact-module-plus-multiple-official-api-types",
+                 "identityBasis": "complete-original-metadata-exact-module-and-two-public-signatures" if singleton else "complete-original-metadata-exact-module-plus-multiple-official-api-types",
                  "targetId": inventory["targetId"], "dumpSha256": inventory["dumpSha256"], "inputSha256": inventory["inputSha256"]}
         for declaration in group:
-            namespace_scope = _scope(declaration.get("typeFullName", ""), module["namespaceScopes"])
+            namespace_scope = (module["exactType"] if declaration.get("typeFullName")==module["exactType"] else None) if singleton else _scope(declaration.get("typeFullName", ""), module["namespaceScopes"])
             if namespace_scope and declaration.get("category") != "compiler-generated":
                 detected[declaration["id"]] = dict(proof, namespaceScope=namespace_scope)
     # Generated declarations follow a verified actual provider owner only; a
@@ -162,7 +197,7 @@ def detect_providers(inventory, profile=None) -> dict:
             if proof is not None and identity == proof["assemblyIdentity"]:
                 module = modules[proof["assemblyName"]]
                 namespace_scope = _scope(declaration.get("typeFullName", ""), module["namespaceScopes"])
-                if namespace_scope:
+                if namespace_scope and module.get("recognitionMode")!="single-type-two-public-members":
                     detected[declaration["id"]] = dict(proof, namespaceScope=namespace_scope, generatedOwnerId=owner_id)
                     progressed = True
                     continue

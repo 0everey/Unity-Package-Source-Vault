@@ -132,3 +132,29 @@ The deterministic cache key binds target, dump/input SHA, the complete inventory
 5. Compare the same run's baseline and routed selection by declaration ID. Check every original declaration, all unresolved queues, shared-address business aliases, restored members, and original evidence. Report declaration counts separately from address, alias and package counts. No fixed speedup or recovered game logic follows merely from fewer native tasks.
 
 The repository adapter is ready only for this bounded handoff. Real ReMaker integration, adoption, compilation, and runtime validation require separate original-writer receipts.
+
+## R5 named additions
+
+`namedPending` marks Tekly/OOI original-source and modification uncertainty. The
+installed rules protect these families even if an alternate catalog presents a
+same-name public strong candidate. Identify returns unresolved (exit 3), and
+resolve/export retain the pending state after explicit selection. Classify keeps
+`recover-native`, preserves shared addresses/business aliases, and also places
+these rows in the library resolution workset. A normal sourceConfirmed receipt
+cannot clear the named origin/difference work. Closing it requires a separately
+reviewed origin/version/target-difference and original-writer adoption decision.
+
+JSONSerialize and ImageConversion are the two finite single-public-type module
+exceptions: the same complete assembly identity and exact registered type must
+supply two different exact public static signatures, including return and
+parameter types. Private/Internal/Injected, substrings, altered shapes, duplicate
+members and cross-identity evidence do not authenticate the module. This routes
+only the exact type; all other modules retain the global two-type minimum.
+TextCore references use pinned official declaration URLs where API pages are
+unavailable. Installation/profile stays pending and isRecovered stays false.
+
+Sentry's sdkBundle is per archive and preserves each renamed System/Bcl component
+assembly version/hash. Plain System assemblies and Assembly-CSharp wrappers do
+not inherit that attribution. Best HTTP remains a commercial candidate with
+legal acquisition links. 2D/DOTS group registration records official dependency
+edges and explicit exact-version gaps, not installation or compilation success.

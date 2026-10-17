@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.2d.spriteshape",
+  "displayName": "com.unity.2d.spriteshape",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.2d.spriteshape",
+      "fetchedAt": "2026-10-17T20:54:59.927354Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "9.1.1",
+      "variantId": "registry-packages.unity.com-5a3373ca1042e58e",
+      "sourceUrl": "https://packages.unity.com/com.unity.2d.spriteshape",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.2d.spriteshape/-/com.unity.2d.spriteshape-9.1.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6f89bcc2fc72c88ab06a8ca0a8c1bae5a87afc08",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.common": "8.1.1",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.modules.physics2d": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.2d.spriteshape/9.1.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "6f89bcc2fc72c88ab06a8ca0a8c1bae5a87afc08"
+        }
+      }
+    },
+    {
+      "version": "10.1.1",
+      "variantId": "registry-packages.unity.com-c7881519e298db07",
+      "sourceUrl": "https://packages.unity.com/com.unity.2d.spriteshape",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.2d.spriteshape/-/com.unity.2d.spriteshape-10.1.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "b88123799bc0f7d66ed6c628d070cc598e583483",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.common": "9.1.2",
+        "com.unity.mathematics": "1.1.0",
+        "com.unity.modules.physics2d": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.2d.spriteshape/10.1.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "b88123799bc0f7d66ed6c628d070cc598e583483"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "17.0.1"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [
+      "9.1.1",
+      "10.1.1"
+    ],
+    "legacyMajor": null,
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "10.1.1",
+    "9.1.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "2d-shapes",
+  "coverageBasis": "general-coverage; declared Unity 2022.3 / 6000.0",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "family": "common-2d-shapes",
+  "preferredVersions": [
+    "9.1.1",
+    "10.1.1"
+  ]
+}

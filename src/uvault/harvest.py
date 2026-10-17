@@ -187,6 +187,7 @@ def coverage(queue):
     return {"schemaVersion": SCHEMA_VERSION, "generatedAt": sources.utc_now(),
             "sourceSnapshots": queue.get("snapshots", []), "completeEnumeration": queue.get("completeEnumeration", False),
             "scope": queue.get("scope"), "discoveredPackages": len(queue["packages"]),
+            "requirementRevision":queue.get("requirementRevision","R4"),"compatibilitySets":queue.get("compatibilitySets",[]),
             "registeredPackages": metadata.get("complete", 0) + metadata.get("reference-only", 0),
             "metadataStatusCounts": metadata, "listedVersions": listed, "selectedVersionTasks": selected,
             "completedSelectedVersionTasks": completed, "pendingSelectedVersionTasks": selected - completed,
@@ -494,6 +495,16 @@ def collect_version(package, version, *, publish=None):
         from .inventory import fingerprint_archive
         fingerprint = fingerprint_archive(data, archive_format)
         record["fingerprint"] = fingerprint
+        if package.get("componentBundle")=="sentry-unity":
+            record["sdkBundle"]={"packageId":package["id"],"version":record["version"],"archiveSha256":_sha(data),
+                "assemblies":[{"path":item["path"],"sha256":item["sha256"],"assemblyIdentity":copy.deepcopy(item["assemblyIdentity"]),
+                               "basis":"actual-sdk-archive-offline-managed-metadata"}
+                              for item in fingerprint.get("managedMetadata",[]) if item.get("metadataStatus")=="managed"
+                              and (item.get("assemblyIdentity") or {}).get("name","").startswith(("Sentry", "io.sentry."))],
+                "scope":"SDK bundled assembly versions; never substitute similarly named System packages","profileVerified":False}
+            record["sdkBundle"]["metadataStatus"]="decoded-sdk-assemblies" if record["sdkBundle"]["assemblies"] else "managed-metadata-unavailable"
+            record["sdkBundle"]["unparsedDlls"]=[{"path":item["path"],"status":item.get("metadataStatus"),"reason":item.get("metadataError")}
+                                               for item in fingerprint.get("managedMetadata",[]) if item.get("metadataStatus") not in ("managed","native")]
         names = [item["path"] for item in fingerprint.get("files", [])]
         has_sources = any(name.lower().endswith(".cs") for name in names)
         has_binary = bool(rights["binaryComponents"])

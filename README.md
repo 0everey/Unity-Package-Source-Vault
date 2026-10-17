@@ -5,23 +5,26 @@ source retrieval. Permitted original archives live in GitHub Releases; Git
 contains tools, provenance, fingerprints and version-specific rights records.
 No permanent local package mirror or payload cache is created.
 
-R4 covers 35 common package families, 17 built-in module providers and three
-restricted references. Each package keeps two common versions, at most three
-for a justified legacy or consumer gap. Cold packages and complete version
-histories are outside the current catalog. See [coverage](docs/COVERAGE.md) and
-`catalog/coverage.json` for actual acquisition, rights and remaining gaps.
+R5 covers 43 common package families, 23 built-in module providers and seven
+commercial, Editor, restricted or unresolved reference entries. Each common
+package keeps two versions, at most three for a justified gap or legacy need.
+See [coverage](docs/COVERAGE.md) and `catalog/coverage.json` for actual acquisition,
+rights and remaining gaps. Cold packages and full version histories remain
+outside the catalog.
 
-Built-in modules use registered assembly/API rules to propose direct provider
-references and skip implementation recovery. An unknown Editor installation or
-profile remains pending. Some newer rendering/UI packages ship with the Editor;
-their pinned official manifests are references, not mirrored archives.
+The named additions include Sentry Unity and its own bundled assembly versions,
+Best HTTP identification and official acquisition, Sprite 1.0.0 as an Editor core
+reference, and selected Localization/2D/DOTS versions. [R5 details](docs/R5-ADDITIONS.md)
+separate observed requirements from general coverage and list exact dependency
+sets. Tekly and OOI remain named origin/modification pending; a public namesake
+or explicit selection cannot authorize replacement.
 
-The first common batch reviewed 64 of 65 archive tasks. Fifteen published
-version/variant records refer to twelve distinct version archives. Burst 1.8.20
-exceeds the collector's 512 MiB in-memory limit and retains its explicit failure
-and official download route; Burst 1.8.31 was acquired. Twenty-seven builtin or
-official version references are separate from archive acquisition. Unknown
-rights remain explicit and are not mirrored.
+Built-in modules propose direct provider references after finite identity/API
+checks. JSONSerialize and ImageConversion use two exact public signatures in a
+single registered type; other modules retain the two-type rule. Unknown Editor
+installation/profile remains pending. Reference records are not downloaded
+archives or build compatibility claims. Permitted payloads stay in remote
+Releases; local storage contains tools/metadata and no permanent package mirror.
 
 ## Install
 

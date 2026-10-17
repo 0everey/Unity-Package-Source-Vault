@@ -6,8 +6,11 @@ from uvault.harvest import coverage
 root=Path(__file__).resolve().parents[1]
 queue=load_queue(root/"catalog")
 report=coverage(queue)
-lines=["# Common package coverage (R4)","",
-       "Current denominator: 35 common families, 17 builtin module providers and three restricted references.",
+common=sum(bool(p.get('curatedPolicy')) for p in queue['packages'])
+builtin=sum(p.get('family')=='unity-builtin' for p in queue['packages'])
+references=len(queue['packages'])-common-builtin
+lines=["# Common package coverage ("+queue.get('requirementRevision','R4')+")","",
+       f"Current denominator: {common} common families, {builtin} builtin module providers and {references} commercial/Editor/restricted/unresolved reference entries.",
        "The whitelist is complete for this scope; it is not a Unity ecosystem census.",
        "Two common versions per family, at most three for justified gaps/legacy; fewer available versions remain explicit.","",
        f"Generated: {report['generatedAt']}. Registered {report['registeredPackages']}/{report['discoveredPackages']} entries; "
@@ -29,6 +32,14 @@ for package in queue['packages']:
         states.append(f"[{label}]({url})" if url else label)
     if not states:states=[package.get('reason') or package.get('metadataStatus','pending')]
     lines.append('| '+package['id']+' | '+'; '.join(states)+' |')
+lines += ["", "## Named additions and dependency sets", "",
+          "Sentry Unity keeps each SDK archive's own bundled assembly identity, version and hash in sdkBundle. Renamed Sentry.System.* and Sentry.Microsoft.* assemblies are not generic System package replacements.",
+          "Best HTTP is a commercial version/API candidate with official acquisition links. Sprite 1.0.0 is an Editor core package reference. Neither is an independently mirrored engine/commercial payload.",
+          "Tekly and OOI stay named origin/modification pending, including identified assembly names and declared package versions. Installed identity rules preserve unresolved status through identify/resolve/export and keep native eligibility in classify, even with a same-name public candidate.",
+          "Localization/2D/DOTS additions are general coverage; current game requirements and compilation remain unproven.", ""]
+for group in queue.get('compatibilitySets',[]):
+    members=', '.join(f"{p} {v}" for p,v in group['members'].items())
+    lines.append(f"- {group['id']}: {members}. {group['status']}; {len(group['exactDependencyGaps'])} exact shared dependency gaps. Installation/profile/compilation unverified.")
 lines += ["", "Builtin providers: "+", ".join(p['id'] for p in queue['packages'] if p.get('family')=='unity-builtin')+".","",
           "Builtin identity confirmation proposes provider-reference and skips implementation recovery. Installation/profile remain reference-pending and false until independently verified; no engine payload is mirrored.","",
           "Selected-version dependencies remain named gaps in catalog/coverage.json. They do not enqueue cold packages or historical versions. Explicit consumer gaps use package/version/reason.","",

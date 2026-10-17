@@ -31,6 +31,8 @@ def resolve(matches: dict, selections: list[dict] | None = None) -> dict:
               "profile": deepcopy(matches.get("profile")), "libraries": [],
               "unresolved": [], "unknown": deepcopy(matches.get("unknown", [])),
               "conflicts": deepcopy(matches.get("conflicts", []))}
+    if matches.get("namedPending"):
+        result["namedPending"]=deepcopy(matches["namedPending"])
     observed: set[str] = set()
     for match in matches.get("matches", []):
         package_id = match.get("packageId")
@@ -63,7 +65,7 @@ def resolve(matches: dict, selections: list[dict] | None = None) -> dict:
         candidate = candidates[chosen]
         library = {key: deepcopy(candidate.get(key)) for key in (
             "packageId", "version", "variantId", "artifact", "license", "sourceUrl",
-            "sourceRef", "downloadUrl", "disposition", "fingerprint")}
+            "sourceRef", "downloadUrl", "disposition", "fingerprint", "sdkBundle")}
         library.update({"status": match.get("status", "candidate"),
                         "evidence": deepcopy(match.get("evidence", [])),
                         "conflicts": deepcopy(match.get("conflicts", [])),
@@ -76,4 +78,5 @@ def resolve(matches: dict, selections: list[dict] | None = None) -> dict:
         raise ValueError("selected package is absent from matches: " + ", ".join(sorted(missing)))
     result["unresolved"].extend({"reason": "unknown-input", "detail": deepcopy(item)}
                                 for item in result["unknown"])
-    return result
+    from .named_identity import preserve_pending
+    return preserve_pending(result)

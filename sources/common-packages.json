@@ -294,6 +294,82 @@
       "category": "dependency-injection",
       "adapter": "registry",
       "registry": "https://package.openupm.com"
+    },
+    {
+      "id": "io.sentry.unity",
+      "category": "observability",
+      "adapter": "registry",
+      "registry": "https://package.openupm.com",
+      "preferredVersions": [
+        "3.2.3",
+        "3.2.4"
+      ],
+      "componentBundle": "sentry-unity",
+      "priority": "high",
+      "coverageBasis": "observed-sdk-family; original implementation/profile unverified"
+    },
+    {
+      "id": "com.unity.localization",
+      "category": "localization",
+      "preferredVersions": [
+        "1.5.13",
+        "1.5.12"
+      ],
+      "coverageBasis": "general-coverage; current game requirement unproven"
+    },
+    {
+      "id": "com.unity.2d.animation",
+      "category": "2d-animation",
+      "preferredVersions": [
+        "9.2.2",
+        "10.2.4"
+      ],
+      "coverageBasis": "general-coverage; declared Unity 2022.3 / 6000.0"
+    },
+    {
+      "id": "com.unity.2d.spriteshape",
+      "category": "2d-shapes",
+      "preferredVersions": [
+        "9.1.1",
+        "10.1.1"
+      ],
+      "coverageBasis": "general-coverage; declared Unity 2022.3 / 6000.0"
+    },
+    {
+      "id": "com.unity.2d.common",
+      "category": "dependency",
+      "preferredVersions": [
+        "8.1.1",
+        "9.1.2"
+      ],
+      "coverageBasis": "finite shared dependency of selected 2D packages"
+    },
+    {
+      "id": "com.unity.entities",
+      "category": "dots",
+      "preferredVersions": [
+        "1.3.14",
+        "1.5.0"
+      ],
+      "coverageBasis": "general-coverage; see declared dependency sets"
+    },
+    {
+      "id": "com.unity.entities.graphics",
+      "category": "dots-rendering",
+      "preferredVersions": [
+        "1.4.12",
+        "1.5.0"
+      ],
+      "coverageBasis": "general-coverage; see declared dependency sets"
+    },
+    {
+      "id": "com.unity.physics",
+      "category": "dots-physics",
+      "preferredVersions": [
+        "1.3.14",
+        "1.5.0"
+      ],
+      "coverageBasis": "general-coverage; Unity Physics is separate from builtin PhysX provider"
     }
   ],
   "references": [
@@ -311,6 +387,290 @@
       "id": "Facepunch.Steamworks",
       "sourceUrl": "https://github.com/Facepunch/Facepunch.Steamworks",
       "reason": "Wrapper and bundled Steam SDK rights differ; official reference until components are resolved"
+    },
+    {
+      "id": "com.unity.2d.sprite",
+      "family": "editor-core-reference",
+      "sourceUrl": "https://docs.unity3d.com/6000.0/Documentation/Manual/com.unity.2d.sprite.html",
+      "priority": "high",
+      "reason": "Editor core package 1.0.0, actual manifest/lock declaration is not proof of original runtime implementation",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "variantId": "unity-editor-core-reference",
+          "sourceUrl": "https://docs.unity3d.com/6000.0/Documentation/Manual/com.unity.2d.sprite.html",
+          "sourceRef": null,
+          "downloadUrl": null,
+          "artifact": null,
+          "fingerprint": null,
+          "fetchStatus": "reference-only",
+          "disposition": "official-fetch-only",
+          "dependencies": {},
+          "license": {
+            "expression": "Unity-Engine-License",
+            "evidenceUrl": "https://docs.unity3d.com/6000.0/Documentation/Manual/com.unity.2d.sprite.html",
+            "sha256": null,
+            "components": [],
+            "reviewStatus": "reference-no-public-payload-grant"
+          },
+          "providerKind": "editor-core-package-not-a-separate-engine-module",
+          "acquisition": {
+            "kind": "matching-unity-editor",
+            "installationUrl": "https://unity.com/download",
+            "reason": "Core package supplied with Editor; no independent public registry archive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.Tivadar.Best.HTTP",
+      "family": "commercial-reference",
+      "sourceUrl": "https://bestdocshub.pages.dev/HTTP/",
+      "priority": "high",
+      "reason": "Commercial package identity/version candidates and legal acquisition only; SDK subcomponent licenses do not license the whole product",
+      "versions": [
+        {
+          "version": "3.0.15",
+          "variantId": "official-commercial-reference",
+          "sourceUrl": "https://bestdocshub.pages.dev/HTTP/changelog/",
+          "sourceRef": null,
+          "downloadUrl": null,
+          "artifact": null,
+          "fingerprint": {
+            "assemblies": [
+              {
+                "name": "com.Tivadar.Best.HTTP",
+                "ownershipVerified": true,
+                "types": [
+                  "Best.HTTP.HTTPRequest",
+                  "Best.HTTP.HTTPResponse"
+                ]
+              }
+            ],
+            "types": [
+              "Best.HTTP.HTTPRequest",
+              "Best.HTTP.HTTPResponse"
+            ],
+            "namespaces": [
+              "Best.HTTP"
+            ],
+            "profileVerified": false,
+            "declarationBasis": "official-api-reference-candidate-only-not-target-code-equality"
+          },
+          "fetchStatus": "reference-only",
+          "disposition": "official-fetch-only",
+          "dependencies": {},
+          "license": {
+            "expression": "LicenseRef-Unity-AssetStore-EULA",
+            "evidenceUrl": "https://bestdocshub.pages.dev/HTTP/changelog/",
+            "sha256": null,
+            "components": [],
+            "reviewStatus": "reference-no-public-payload-grant"
+          },
+          "versionStatus": "official-release-candidate-not-target-package-equivalence",
+          "assemblyVersionHint": "3.0.15.0",
+          "versionEvidence": {
+            "url": "https://bestdocshub.pages.dev/HTTP/changelog/",
+            "basis": "Official release entry; target assembly observation does not authenticate package bytes"
+          },
+          "acquisition": {
+            "kind": "licensed-user-supplied",
+            "officialUrl": "https://assetstore.unity.com/packages/slug/268834",
+            "installationUrl": "https://bestdocshub.pages.dev/HTTP/installation/",
+            "reason": "Acquire licensed copy through official Asset Store/My Assets; no commercial payload mirrored"
+          },
+          "apiEvidence": [
+            {
+              "url": "https://bestdocshub.pages.dev/HTTP/installation/",
+              "kind": "official-exact-assembly-name"
+            },
+            {
+              "url": "https://bestdocshub.pages.dev/HTTP/getting-started/",
+              "kind": "official-api-examples"
+            }
+          ]
+        },
+        {
+          "version": "3.0.14",
+          "variantId": "official-commercial-reference",
+          "sourceUrl": "https://bestdocshub.pages.dev/HTTP/changelog/",
+          "sourceRef": null,
+          "downloadUrl": null,
+          "artifact": null,
+          "fingerprint": {
+            "assemblies": [
+              {
+                "name": "com.Tivadar.Best.HTTP",
+                "ownershipVerified": true,
+                "types": [
+                  "Best.HTTP.HTTPRequest",
+                  "Best.HTTP.HTTPResponse"
+                ]
+              }
+            ],
+            "types": [
+              "Best.HTTP.HTTPRequest",
+              "Best.HTTP.HTTPResponse"
+            ],
+            "namespaces": [
+              "Best.HTTP"
+            ],
+            "profileVerified": false,
+            "declarationBasis": "official-api-reference-candidate-only-not-target-code-equality"
+          },
+          "fetchStatus": "reference-only",
+          "disposition": "official-fetch-only",
+          "dependencies": {},
+          "license": {
+            "expression": "LicenseRef-Unity-AssetStore-EULA",
+            "evidenceUrl": "https://bestdocshub.pages.dev/HTTP/changelog/",
+            "sha256": null,
+            "components": [],
+            "reviewStatus": "reference-no-public-payload-grant"
+          },
+          "versionStatus": "official-release-candidate-not-target-package-equivalence",
+          "assemblyVersionHint": "3.0.14.0",
+          "versionEvidence": {
+            "url": "https://bestdocshub.pages.dev/HTTP/changelog/",
+            "basis": "Official release entry; target assembly observation does not authenticate package bytes"
+          },
+          "acquisition": {
+            "kind": "licensed-user-supplied",
+            "officialUrl": "https://assetstore.unity.com/packages/slug/268834",
+            "installationUrl": "https://bestdocshub.pages.dev/HTTP/installation/",
+            "reason": "Acquire licensed copy through official Asset Store/My Assets; no commercial payload mirrored"
+          },
+          "apiEvidence": [
+            {
+              "url": "https://bestdocshub.pages.dev/HTTP/installation/",
+              "kind": "official-exact-assembly-name"
+            },
+            {
+              "url": "https://bestdocshub.pages.dev/HTTP/getting-started/",
+              "kind": "official-api-examples"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Tekly.Unresolved",
+      "family": "named-unresolved",
+      "sourceUrl": "https://github.com/matt-tekly/tekly-packages/tree/437b9a7a0c4d61ea3a09fde815a3c50f85112c5b",
+      "reason": "Named origin/version/modification unresolved. Same public name or explicit selection cannot authorize replacement. Preserve native recovery eligibility.",
+      "resolutionStatus": "origin-and-modification-pending",
+      "identifiedAssemblies": [
+        "Tekly.Common.Runtime",
+        "Tekly.Content.Runtime",
+        "Tekly.DataModels.Runtime",
+        "Tekly.DebugKit",
+        "Tekly.EditorUtils",
+        "Tekly.Extensions.Runtime",
+        "Tekly.Injectors.Runtime",
+        "Tekly.Localizations.Runtime",
+        "Tekly.Logger",
+        "Tekly.PanelViews.Runtime",
+        "Tekly.TreeState.Runtime",
+        "Tekly.Webster.Runtime"
+      ],
+      "declaredPackageVersions": {
+        "ca.tekly.common": "0.0.1",
+        "ca.tekly.logger": "1.0.0",
+        "ca.tekly.injectors": "1.0.0",
+        "ca.tekly.treestate": "0.0.1",
+        "ca.tekly.panelviews": "1.0.0",
+        "ca.tekly.editorutils": "0.0.1",
+        "ca.tekly.nsubstitute": "0.0.1"
+      },
+      "mappingStatus": "unverified",
+      "modificationStatus": "unverified-original-implementation",
+      "identificationPending": {
+        "assemblyPrefixes": [
+          "Tekly."
+        ],
+        "namespacePrefixes": [
+          "Tekly."
+        ],
+        "assemblyNames": [
+          "Tekly.Common.Runtime",
+          "Tekly.Content.Runtime",
+          "Tekly.DataModels.Runtime",
+          "Tekly.DebugKit",
+          "Tekly.EditorUtils",
+          "Tekly.Extensions.Runtime",
+          "Tekly.Injectors.Runtime",
+          "Tekly.Localizations.Runtime",
+          "Tekly.Logger",
+          "Tekly.PanelViews.Runtime",
+          "Tekly.TreeState.Runtime",
+          "Tekly.Webster.Runtime"
+        ],
+        "packagePrefixes": [
+          "ca.tekly."
+        ]
+      },
+      "versions": [],
+      "sources": [
+        {
+          "kind": "unverified-source-candidate",
+          "url": "https://github.com/matt-tekly/tekly-packages/tree/437b9a7a0c4d61ea3a09fde815a3c50f85112c5b"
+        }
+      ]
+    },
+    {
+      "id": "OOI.Unresolved",
+      "family": "named-unresolved",
+      "sourceUrl": null,
+      "reason": "Named origin/version/modification unresolved. Same public name or explicit selection cannot authorize replacement. Preserve native recovery eligibility.",
+      "resolutionStatus": "origin-and-modification-pending",
+      "identifiedAssemblies": [
+        "OOI.Logging",
+        "OOI.Platform"
+      ],
+      "declaredPackageVersions": {},
+      "mappingStatus": "unverified",
+      "modificationStatus": "unverified-original-implementation",
+      "identificationPending": {
+        "assemblyPrefixes": [
+          "OOI."
+        ],
+        "namespacePrefixes": [
+          "OOI."
+        ],
+        "assemblyNames": [
+          "OOI.Logging",
+          "OOI.Platform"
+        ],
+        "packagePrefixes": [
+          "com.ooi.",
+          "ooi."
+        ]
+      },
+      "versions": [],
+      "sources": []
+    }
+  ],
+  "requirementRevision": "R5",
+  "compatibilitySetDefinitions": [
+    {
+      "id": "dots-unity6000",
+      "unityRequirement": "6000.0",
+      "members": {
+        "com.unity.entities": "1.5.0",
+        "com.unity.entities.graphics": "1.5.0",
+        "com.unity.physics": "1.5.0"
+      },
+      "scope": "declared package dependencies only; not installed/compiled or current-game requirement"
+    },
+    {
+      "id": "dots-unity2022",
+      "unityRequirement": "2022.3",
+      "members": {
+        "com.unity.entities": "1.3.14",
+        "com.unity.entities.graphics": "1.4.12",
+        "com.unity.physics": "1.3.14"
+      },
+      "scope": "declared package dependencies only; not installed/compiled or current-game requirement"
     }
   ]
 }

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.modules.vr",
+  "displayName": "UnityEngine.VRModule",
+  "sources": [
+    {
+      "kind": "unity-builtin-reference",
+      "url": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.vr.html"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "moduleVersion": "1.0.0",
+      "unityVersion": "unknown",
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "variantId": "unity-builtin-reference",
+      "disposition": "builtin-reference",
+      "sourceUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.vr.html",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "artifact": null,
+      "fetchStatus": "reference-only",
+      "dependencies": {},
+      "license": {
+        "expression": "Unity-Engine-License",
+        "evidenceUrl": "https://unity.com/legal/terms-of-service/software",
+        "sha256": null,
+        "components": [],
+        "redistribution": "no-payload-reference-only"
+      },
+      "provider": {
+        "kind": "unity-builtin-module",
+        "assemblyName": "UnityEngine.VRModule",
+        "referenceStatus": "reference-pending",
+        "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+        "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.vr.html",
+        "apiFeatures": [
+          {
+            "typeFullName": "UnityEngine.XR.XRDevice",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/XR.XRDevice.html"
+          },
+          {
+            "typeFullName": "UnityEngine.XR.XRSettings",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/XR.XRSettings.html"
+          }
+        ],
+        "memberFeatures": [],
+        "recognitionMode": "multiple-api-types",
+        "namespaceScopes": [
+          "UnityEngine.XR"
+        ],
+        "rulesSha256": "a023811f2ecdae115d89abfde19d0cb47f40c90c519cdd9d29dacf9db7a459f0",
+        "profileVerified": false
+      },
+      "fingerprint": {
+        "files": [],
+        "assemblies": [
+          {
+            "name": "UnityEngine.VRModule",
+            "version": "0.0.0.0"
+          }
+        ],
+        "types": [
+          "UnityEngine.XR.XRDevice",
+          "UnityEngine.XR.XRSettings"
+        ],
+        "typeDeclarations": [
+          {
+            "fullName": "UnityEngine.XR.XRDevice",
+            "assemblyIdentity": {
+              "name": "UnityEngine.VRModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          },
+          {
+            "fullName": "UnityEngine.XR.XRSettings",
+            "assemblyIdentity": {
+              "name": "UnityEngine.VRModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          }
+        ],
+        "namespaces": [
+          "UnityEngine.XR"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"
+      }
+    }
+  ],
+  "adapter": "reference",
+  "family": "unity-builtin",
+  "metadataStatus": "reference-only",
+  "selectedVersions": []
+}

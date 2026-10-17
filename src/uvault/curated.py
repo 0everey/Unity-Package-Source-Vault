@@ -21,9 +21,13 @@ def seeds():
             "retainVerifiedLegacy":entry.get("retainVerifiedLegacy",False), "commonArchiveFallback":entry.get("commonArchiveFallback",False)})
         result.append(item)
     for entry in config["references"]:
-        result.append({"schemaVersion":"1.0","id":entry["id"],"displayName":entry["id"],"adapter":"reference",
-            "family":"restricted-reference","metadataStatus":"reference-only","versions":[],"selectedVersions":[],
-            "sources":[{"kind":"official-reference","url":entry["sourceUrl"]}],"disposition":"official-fetch-only","reason":entry["reason"]})
+        reference=deepcopy(entry)
+        reference.update(schemaVersion="1.0",displayName=entry["id"],adapter="reference",metadataStatus="reference-only",selectedVersions=[])
+        reference.setdefault("family","restricted-reference")
+        reference.setdefault("versions",[])
+        reference.setdefault("sources",[{"kind":"official-reference","url":entry["sourceUrl"]}] if entry.get("sourceUrl") else [])
+        reference.setdefault("disposition","official-fetch-only")
+        result.append(reference)
     from .builtin import package_records
     for package in package_records():
         package.update(adapter="reference", family="unity-builtin", metadataStatus="reference-only", selectedVersions=[])
@@ -82,7 +86,7 @@ def curate_package(package,seed):
     package.pop("versionRequests",None)
     package["missingTargetVersions"]=[r["version"] for r in seed.get("explicitVersionRequests",[]) if r["version"] not in package["selectedVersions"]]
     package["missingPreferredVersions"]=[v for v in policy.get("preferredVersions",[]) if v not in package["selectedVersions"]]
-    for key in ("manifestReferences", "category", "integrationNote"):
+    for key in ("manifestReferences", "category", "integrationNote", "componentBundle", "coverageBasis", "priority"):
         if key in seed: package[key]=deepcopy(seed[key])
     package["versionPolicy"]="R4: two common versions; at most three including a justified gap/legacy"
     return package
@@ -109,10 +113,34 @@ def queue(existing=None):
         packages.append(curate_package(retained,retained))
         for key in ("family","category","integrationNote"):
             if key in seed:packages[-1][key]=seed[key]
-    return {"schemaVersion":"1.0","scopeVersion":"R4","scope":"Common Unity builtin providers and explicitly listed common packages; two or three versions per family",
+    return {"schemaVersion":"1.0","scopeVersion":"R4","requirementRevision":configuration().get("requirementRevision","R4"),"scope":"Common Unity builtin providers and explicitly listed common packages; two or three versions per family",
             "createdAt":utc_now(),"completeEnumeration":True,"enumerationMeaning":"Complete current common whitelist, not an ecosystem enumeration",
             "snapshots":[{"source":"common-packages.json","scopeVersion":"R4","configuredPackageFamilies":len(configuration()["packages"]),"discoveredAt":utc_now()}],
-            "packages":packages,"frontier":[]}
+            "packages":packages,"frontier":[],"compatibilitySetDefinitions":deepcopy(configuration().get("compatibilitySetDefinitions",[]))}
+
+def compatibility_sets(state):
+    """Verify declared member edges and expose exact shared gaps, never install."""
+    by_id={p["id"]:p for p in state["packages"]}
+    result=[]
+    for definition in state.get("compatibilitySetDefinitions",[]):
+        members=definition["members"];declarations=[];gaps=[];conflicts=[];missing=[]
+        for pid,version in members.items():
+            records=[v for v in by_id.get(pid,{}).get("versions",[]) if v["version"]==version]
+            if not records:missing.append({"packageId":pid,"version":version});continue
+            variants={json.dumps(v.get("dependencies",{}),sort_keys=True) for v in records}
+            if len(variants)>1:conflicts.append({"packageId":pid,"version":version,"reason":"variant-dependency-disagreement"})
+            for record in records:
+                declarations.append({"packageId":pid,"version":version,"variantId":record["variantId"],"unity":record.get("unity"),
+                                     "metadataUrl":record.get("metadataUrl"),"dependencies":deepcopy(record.get("dependencies",{}))})
+                for dep,spec in record.get("dependencies",{}).items():
+                    if dep in members:
+                        if members[dep]!=spec:conflicts.append({"packageId":pid,"dependency":dep,"declared":spec,"groupVersion":members[dep]})
+                    elif spec not in {v["version"] for v in by_id.get(dep,{}).get("versions",[])}:
+                        gap={"packageId":dep,"version":spec,"requiredBy":pid,"reason":"exact-declared-dependency-not-in-current-catalog","automaticSubstitution":False}
+                        if gap not in gaps:gaps.append(gap)
+        result.append({**deepcopy(definition),"status":"member-declaration-conflict" if conflicts else "member-metadata-pending" if missing else "member-declarations-verified",
+                       "profileVerified":False,"installed":False,"compiled":False,"declarations":declarations,"missingMembers":missing,"memberConflicts":conflicts,"exactDependencyGaps":gaps})
+    return result
 
 def prune_catalog(root,state):
     """Retire only this task's unreferenced generated metadata; Git history stays."""

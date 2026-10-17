@@ -55,7 +55,13 @@ uvault classify --inventory <DECLARATIONS.json> --profile <profile.json> --out <
 | reuse-upstream / skip-native | 仅在原 writer 接收具名成员范围和已确认来源后减少恢复任务 |
 | regenerate | 仅在生成器和完整输入已核实后进入再生成队列；不冒执行完成 |
 
-R4 当前库为 35 个常用包族、17 个内置模块和 3 个受限参考项，每包两至三版，实际缺口再补。SRP 17／14、UGUI 2 等 Editor 随附版本有固定官方 manifest／源码入口而无可下载归档时，保持 official-fetch-only、artifact=null、reference-only；不能当 exact 或静默改用旧版。独立包继续进入找源／辨版队列，不改称内置模块。
+R5 当前库为 43 个常用包族、23 个内置模块及 7 个商业／Editor／受限／待辨参考项，每包两至三版，实际缺口再补。SRP 17／14、UGUI 2 等 Editor 随附版本有固定官方 manifest／源码入口而无可下载归档时，保持 official-fetch-only、artifact=null、reference-only；不能当 exact 或静默改用旧版。独立包继续进入找源／辨版队列，不改称内置模块。
+
+R5 补充见 [R5-ADDITIONS.md](R5-ADDITIONS.md)。Sentry 的 `sdkBundle` 保存每个实际 SDK 归档随附程序集的 full identity／version／SHA／相对路径，不以通用 `System.*` 代替 `Sentry.System.*`。Best HTTP 的已知 assembly 与官方 release 只能作商业版本候选，取材走官方商店或合法使用者提供，不冒原版正文已认证。Sprite 1.0.0 是 Editor core package，没有另造 Sprite runtime provider。
+
+`namedPending` 必须从 matches 经过 lock/export 保留。Tekly／OOI 的 namespace 或程序集命中后，即使公共同名库有强候选、字节相同的当前源码或普通 `sourceConfirmed` 决定，也不清来源／原游戏差分未闭；分类仍 `recover-native`，同时列入找源工作集。原 writer 后续须核具体来源／版本／原目标差分，再作独立采用，不能按当前同名或当前恢复工程相等替换。
+
+JSONSerialize／ImageConversion 的局部例外只在同完整 identity、唯一注册 type 内以两个不同 public static 完整签名确证；路由限定该 type。TextCore／XR／VR 继续双类型。provider 身份不等实现相同、已安装、编译通过或已恢复。
 
 读取新字段 `nativeAction`。旧 `skipNativeRecovery` 始终为 false，不能用它表达“暂缓”。`isRecovered`、采用、编译、运行与调度分别记录。下载失败不自动把整个插件重新投入 native，也不永久排除它。
 

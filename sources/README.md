@@ -1,7 +1,7 @@
 # Common package sources (R4)
 
-`common-packages.json` is the current whitelist: 35 common official/third-party
-families and three restricted references. `builtin-modules.json` defines 17
+`common-packages.json` is the current whitelist: 43 common official/third-party
+families and seven commercial/Editor/restricted/unresolved reference entries. `builtin-modules.json` defines 23
 finite Unity providers. No normal CLI or workflow enumerates OpenUPM, persists
 all historical versions, or recursively expands dependency version tasks.
 
@@ -39,3 +39,10 @@ read back and hash-verified before registration. No local mirror, archive backup
 payload cache, Actions cache, scheduled collection or automatic runner chain is
 maintained. Explicit reruns resume saved metadata/results. Retired ecosystem
 metadata is absent from the active catalog and preserved in Git history.
+
+R5 dependency sets are limited to two explicitly selected DOTS groups. Every
+member edge comes from actual package metadata; shared exact-version gaps stay
+visible without implicit substitution or recursive collection. Sentry keeps its
+bundled renamed assemblies per SDK archive. Best HTTP and Sprite are acquisition
+references. Tekly/OOI have named unresolved components; installed rules preserve
+origin/modification uncertainty through identify/classify/resolve/export.

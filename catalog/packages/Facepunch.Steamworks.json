@@ -1,18 +1,19 @@
 {
-  "schemaVersion": "1.0",
   "id": "Facepunch.Steamworks",
+  "sourceUrl": "https://github.com/Facepunch/Facepunch.Steamworks",
+  "reason": "Wrapper and bundled Steam SDK rights differ; official reference until components are resolved",
+  "schemaVersion": "1.0",
   "displayName": "Facepunch.Steamworks",
   "adapter": "reference",
-  "family": "restricted-reference",
   "metadataStatus": "reference-only",
-  "versions": [],
   "selectedVersions": [],
+  "family": "restricted-reference",
+  "versions": [],
   "sources": [
     {
       "kind": "official-reference",
       "url": "https://github.com/Facepunch/Facepunch.Steamworks"
     }
   ],
-  "disposition": "official-fetch-only",
-  "reason": "Wrapper and bundled Steam SDK rights differ; official reference until components are resolved"
+  "disposition": "official-fetch-only"
 }

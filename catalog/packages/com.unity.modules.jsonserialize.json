@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.modules.jsonserialize",
+  "displayName": "UnityEngine.JSONSerializeModule",
+  "sources": [
+    {
+      "kind": "unity-builtin-reference",
+      "url": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.jsonserialize.html"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "moduleVersion": "1.0.0",
+      "unityVersion": "unknown",
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "variantId": "unity-builtin-reference",
+      "disposition": "builtin-reference",
+      "sourceUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.jsonserialize.html",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "artifact": null,
+      "fetchStatus": "reference-only",
+      "dependencies": {},
+      "license": {
+        "expression": "Unity-Engine-License",
+        "evidenceUrl": "https://unity.com/legal/terms-of-service/software",
+        "sha256": null,
+        "components": [],
+        "redistribution": "no-payload-reference-only"
+      },
+      "provider": {
+        "kind": "unity-builtin-module",
+        "assemblyName": "UnityEngine.JSONSerializeModule",
+        "referenceStatus": "reference-pending",
+        "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+        "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.jsonserialize.html",
+        "apiFeatures": [],
+        "memberFeatures": [
+          {
+            "typeFullName": "UnityEngine.JsonUtility",
+            "name": "ToJson",
+            "returnType": "System.String",
+            "parameterTypes": [
+              "System.Object"
+            ],
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/JsonUtility.ToJson.html"
+          },
+          {
+            "typeFullName": "UnityEngine.JsonUtility",
+            "name": "FromJson",
+            "returnType": "System.Object",
+            "parameterTypes": [
+              "System.String",
+              "System.Type"
+            ],
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/JsonUtility.FromJson.html"
+          }
+        ],
+        "recognitionMode": "single-type-two-public-members",
+        "namespaceScopes": [
+          "UnityEngine.JsonUtility"
+        ],
+        "rulesSha256": "a023811f2ecdae115d89abfde19d0cb47f40c90c519cdd9d29dacf9db7a459f0",
+        "profileVerified": false
+      },
+      "fingerprint": {
+        "files": [],
+        "assemblies": [
+          {
+            "name": "UnityEngine.JSONSerializeModule",
+            "version": "0.0.0.0"
+          }
+        ],
+        "types": [
+          "UnityEngine.JsonUtility"
+        ],
+        "typeDeclarations": [
+          {
+            "fullName": "UnityEngine.JsonUtility",
+            "assemblyIdentity": {
+              "name": "UnityEngine.JSONSerializeModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          }
+        ],
+        "namespaces": [
+          "UnityEngine.JsonUtility"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"
+      }
+    }
+  ],
+  "adapter": "reference",
+  "family": "unity-builtin",
+  "metadataStatus": "reference-only",
+  "selectedVersions": []
+}

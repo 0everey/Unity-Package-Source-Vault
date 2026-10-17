@@ -404,4 +404,21 @@ def identify(input_path, catalog, profile=None) -> dict:
         result["unknown"].append({"packageId": package_id, "reason": "package-not-in-catalog"})
     if not result["matches"] and not result["unknown"]:
         result["unknown"].append({"reason": "no-package-evidence"})
+    from .named_identity import fingerprint_pending, match_pending
+    pending=fingerprint_pending(fingerprint,observations)
+    if pending:
+        result["namedPending"]=pending
+        result["unknown"].extend({"reason":"named-origin-and-modification-unresolved",**item} for item in pending)
+        target_families={item["familyId"] for item in pending}
+        for match in result["matches"]:
+            candidates={}
+            for item in match_pending(package_id=match["packageId"]):candidates[item["familyId"]]=item
+            for candidate in match["candidates"]:
+                for item in fingerprint_pending(candidate.get("fingerprint") or {}):candidates[item["familyId"]]=item
+            implicated=[item for family,item in candidates.items() if family in target_families]
+            if implicated:
+                match["status"]="origin-unresolved"
+                conflict={"kind":"named-origin-and-modification-unresolved","families":implicated,"reason":"Public name or explicit selection does not establish original source or absence of project modifications"}
+                match["conflicts"].append(conflict)
+                result["conflicts"].append({"packageId":match["packageId"],**conflict})
     return result

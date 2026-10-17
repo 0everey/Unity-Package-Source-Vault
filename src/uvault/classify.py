@@ -14,6 +14,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from .builtin import detect_providers, rules_identity
+from .named_identity import match_pending, pending_rules, rules_identity as named_rules_identity
 
 
 ACTIONS = ("recover-native", "provider-reference", "reuse-upstream", "skip-native",
@@ -285,10 +286,12 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
     cache_key = _hash(dict(binding, classifierSha256=classifier_sha, inventorySha256=_hash(inventory),
                            matchesSha256=_hash(matches), decisionsSha256=_hash(decisions),
                            builtinRules=builtin_identity,
+                           namedOriginRules=named_rules_identity(),
                            restoration={"ids": sorted(restore_ids), "reason": restore_reason}))
     accepted = _decisions(decisions, binding, by_id)
     index, weak = _catalog_index(catalog, matches)
     builtin_proofs = detect_providers(inventory, profile=profile)
+    named_rules=pending_rules()
     rows, rows_by_id = [], {}
     for declaration in declarations:
         assembly = declaration["assemblyIdentity"]
@@ -297,10 +300,11 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
         weak_candidates = _unique_candidates(weak.get(assembly["name"], []))
         category = declaration.get("category")
         modified = declaration.get("modified") is True or declaration.get("isModified") is True
+        named=match_pending(assembly=assembly["name"],type_name=declaration["typeFullName"],rules=named_rules)
         # A package-level known body/source conflict has no safe member-level
         # exclusion until its differences have been localized by the writer.
         match_modified = any("modified-or-incomplete" in str(c.get("kind", "")) for candidate in strong for c in candidate["conflicts"])
-        protected = category in PROTECTED or modified or match_modified
+        protected = category in PROTECTED or modified or match_modified or bool(named)
         if modified or match_modified:
             category = "modified"
         category = category or ("third-party-library" if strong else "possible-library" if weak_candidates else "unknown")
@@ -317,6 +321,9 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
                "profileVerified": False, "nativeAction": "recover-native", "skipNativeRecovery": False,
                "reuseStatus": "not-adopted", "isRecovered": False, "nextQueue": "native-recovery",
                "reason": "protected-business-difference-or-unknown" if protected else "insufficient-scoped-library-evidence"}
+        if named:
+            row.update(namedPending=copy.deepcopy(named),reason="named-origin-and-modification-unresolved")
+            row["evidence"].append({"kind":"named-origin-and-modification-unresolved","families":copy.deepcopy(named)})
         if strong and not protected and category != "compiler-generated":
             row.update(nativeAction="defer-library-resolution", nextQueue="library-resolution",
                        reuseStatus="resolution-pending", reason="library-identity-evidence-source-version-and-differences-unresolved")
@@ -367,6 +374,11 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
         if identifier in resolved:
             return
         row, declaration = rows_by_id[identifier], by_id[identifier]
+        if row.get("namedPending"):
+            # A verified generated owner cannot erase this declaration's own
+            # unresolved origin. Its generated descendants follow native too.
+            resolved.add(identifier)
+            return
         if row.get("restoredToNative"):
             # An explicit restoration, or recovery inherited from an already
             # resolved restored owner, must survive the final ownership pass.
@@ -451,7 +463,7 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
         raise ValueError("Classification failed original declaration conservation")
     common = {"schemaVersion": "1.0", "binding": binding, "cacheKey": cache_key,
               "integrationStatus": "integration-pending"}
-    library = [copy.deepcopy(row) for row in rows if row["nativeAction"] == "defer-library-resolution" or row.get("restoredToNative")]
+    library = [copy.deepcopy(row) for row in rows if row["nativeAction"] == "defer-library-resolution" or row.get("restoredToNative") or row.get("namedPending")]
     generated = [copy.deepcopy(row) for row in rows if row["nativeAction"] == "regenerate"]
     native = [row for row in rows if row["nativeAction"] == "recover-native"]
     native_ids = {row["id"] for row in native}
@@ -492,6 +504,7 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
                "builtinProviderModuleCounts": dict(sorted(Counter((row.get("provider") or {}).get("moduleId") for row in rows
                                                                 if row["nativeAction"] == "provider-reference" and (row.get("provider") or {}).get("kind") == "unity-builtin-module").items())),
                "externalAliasResolutionRequired": bool(external_aliases),
+               "namedPendingDeclarationCount":sum(bool(row.get("namedPending")) for row in rows),
                "conservation": {"input": len(by_id), "routed": len(rows), "missing": [], "duplicate": []}}
     return {"classification": {**common, "classifierSha256": classifier_sha, "profile": copy.deepcopy(profile),
                                 "builtinRules": builtin_identity,

@@ -3563,5 +3563,10 @@
   "missingPreferredVersions": [],
   "category": "serialization",
   "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
-  "family": "common-serialization"
+  "family": "common-serialization",
+  "preferredVersions": [
+    "3.31.0"
+  ],
+  "preferenceBasis": "Observed runtime version is a candidate hint, not target byte equivalence",
+  "registry": "https://packages.unity.com"
 }

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.localization",
+  "displayName": "com.unity.localization",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.localization",
+      "fetchedAt": "2026-10-17T20:54:59.634892Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "1.5.12",
+      "variantId": "registry-packages.unity.com-067d045cae2f803c",
+      "sourceUrl": "https://packages.unity.com/com.unity.localization",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.localization/-/com.unity.localization-1.5.12.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "b0a588a05f2a20af8e4afc33cf1c4591b7df5a28",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.25.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.localization/1.5.12",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "b0a588a05f2a20af8e4afc33cf1c4591b7df5a28"
+        }
+      }
+    },
+    {
+      "version": "1.5.13",
+      "variantId": "registry-packages.unity.com-a0d85f63cb03ca01",
+      "sourceUrl": "https://packages.unity.com/com.unity.localization",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.localization/-/com.unity.localization-1.5.13.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ef5a0677859d554790430babacd8cb9b50da3cf4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.25.0",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.localization/1.5.13",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "ef5a0677859d554790430babacd8cb9b50da3cf4"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.5.13"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [
+      "1.5.13",
+      "1.5.12"
+    ],
+    "legacyMajor": null,
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "1.5.12",
+    "1.5.13"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "localization",
+  "coverageBasis": "general-coverage; current game requirement unproven",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "family": "common-localization",
+  "preferredVersions": [
+    "1.5.13",
+    "1.5.12"
+  ]
+}

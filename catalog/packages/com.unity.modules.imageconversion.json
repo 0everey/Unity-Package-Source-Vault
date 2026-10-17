@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.modules.imageconversion",
+  "displayName": "UnityEngine.ImageConversionModule",
+  "sources": [
+    {
+      "kind": "unity-builtin-reference",
+      "url": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.imageconversion.html"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "moduleVersion": "1.0.0",
+      "unityVersion": "unknown",
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "variantId": "unity-builtin-reference",
+      "disposition": "builtin-reference",
+      "sourceUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.imageconversion.html",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "artifact": null,
+      "fetchStatus": "reference-only",
+      "dependencies": {},
+      "license": {
+        "expression": "Unity-Engine-License",
+        "evidenceUrl": "https://unity.com/legal/terms-of-service/software",
+        "sha256": null,
+        "components": [],
+        "redistribution": "no-payload-reference-only"
+      },
+      "provider": {
+        "kind": "unity-builtin-module",
+        "assemblyName": "UnityEngine.ImageConversionModule",
+        "referenceStatus": "reference-pending",
+        "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+        "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.imageconversion.html",
+        "apiFeatures": [],
+        "memberFeatures": [
+          {
+            "typeFullName": "UnityEngine.ImageConversion",
+            "name": "EncodeToJPG",
+            "returnType": "System.Byte[]",
+            "parameterTypes": [
+              "UnityEngine.Texture2D",
+              "System.Int32"
+            ],
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/ImageConversion.EncodeToJPG.html"
+          },
+          {
+            "typeFullName": "UnityEngine.ImageConversion",
+            "name": "LoadImage",
+            "returnType": "System.Boolean",
+            "parameterTypes": [
+              "UnityEngine.Texture2D",
+              "System.Byte[]",
+              "System.Boolean"
+            ],
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/ImageConversion.LoadImage.html"
+          }
+        ],
+        "recognitionMode": "single-type-two-public-members",
+        "namespaceScopes": [
+          "UnityEngine.ImageConversion"
+        ],
+        "rulesSha256": "a023811f2ecdae115d89abfde19d0cb47f40c90c519cdd9d29dacf9db7a459f0",
+        "profileVerified": false
+      },
+      "fingerprint": {
+        "files": [],
+        "assemblies": [
+          {
+            "name": "UnityEngine.ImageConversionModule",
+            "version": "0.0.0.0"
+          }
+        ],
+        "types": [
+          "UnityEngine.ImageConversion"
+        ],
+        "typeDeclarations": [
+          {
+            "fullName": "UnityEngine.ImageConversion",
+            "assemblyIdentity": {
+              "name": "UnityEngine.ImageConversionModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          }
+        ],
+        "namespaces": [
+          "UnityEngine.ImageConversion"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"
+      }
+    }
+  ],
+  "adapter": "reference",
+  "family": "unity-builtin",
+  "metadataStatus": "reference-only",
+  "selectedVersions": []
+}

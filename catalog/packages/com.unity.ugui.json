@@ -55,7 +55,7 @@
   "distTags": {
     "latest": "3.0.0-exp.4"
   },
-  "availableUpstreamVersionCount": 3,
+  "availableUpstreamVersionCount": 1,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
@@ -84,5 +84,8 @@
   ],
   "category": "ui",
   "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
-  "family": "common-ui"
+  "family": "common-ui",
+  "preferredVersions": [
+    "2.0.0"
+  ]
 }

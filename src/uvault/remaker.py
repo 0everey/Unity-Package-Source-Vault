@@ -22,6 +22,8 @@ def export_remaker(lock: dict, materialized: dict | None = None, lock_file_sha25
               "unknown": deepcopy(lock.get("unknown", [])),
               "unresolved": deepcopy(lock.get("unresolved", [])),
               "suggestedReuseScope": [], "adoptionStatus": "pending", "skipNativeRecovery": False}
+    if lock.get("namedPending"):
+        result["namedPending"]=deepcopy(lock["namedPending"])
     for unresolved in (materialized or {}).get("unresolved",[]):
         if unresolved not in result["unresolved"]:
             result["unresolved"].append(deepcopy(unresolved))
@@ -49,4 +51,5 @@ def export_remaker(lock: dict, materialized: dict | None = None, lock_file_sha25
         library["skipNativeRecovery"] = False
         library["adoptionStatus"] = "pending"
         library["sourceRefs"]=[deepcopy(ref) for ref in result["sourceRefs"] if all(ref.get(k)==library.get(k) for k in ("packageId","version","variantId"))]
-    return result
+    from .named_identity import preserve_pending
+    return preserve_pending(result)

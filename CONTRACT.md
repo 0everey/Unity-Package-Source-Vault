@@ -19,3 +19,15 @@ Files: source worker owns sources.py/harvest.py and tests/test_sources.py plus s
 R3: classify.py consumes a complete original declaration inventory and emits explicit nativeAction proposals before expensive native selection. See docs/CLASSIFICATION.md for full bound input, original-writer adoption decisions, restore semantics and six routes. CLI `uvault classify --inventory DECLARATIONS.json --registry URL --out NEWDIR` writes five local classification/workset/proposal files. Complete input conservation includes unknown declarations; address sharing never removes a business alias. Proposal remains unauthenticated/integration-pending; original Core verifies input and produces its own actual selection/sourceInventory. This does not grant package adoption or game execution.
 
 R4 builtin exception: finite registered assembly identities plus multiple module-scoped official API features establish provider-reference for registered namespace scopes. Explicit business/modified/unknown declarations remain native; unknown installation/profile remains reference-pending, profileVerified=false, isRecovered=false. This proposal does not authenticate Core selection or actual adoption.
+
+R5: optional version.sdkBundle contains actual archive-bound SDK component full
+assembly identities, versions, SHA256 and relative paths, decoded offline. It
+survives resolve/export. Catalog compatibilitySets records two finite groups,
+actual metadata dependencies, member conflicts and exactDependencyGaps; verified
+member declarations do not mean profile/installation/compilation readiness.
+Installed named-origin rules (producer+rule SHA in classification cache) preserve
+Tekly/OOI namedPending across matches/lock/export and keep recover-native even
+when public candidates or ordinary accepted sourceConfirmed decisions exist.
+Named native rows also appear in libraryResolutionWorkset. Two singleton builtin
+modules may use two exact public static signatures in one registered type; other
+modules keep two distinct official API types. All retain profile=false/pending.

@@ -30,16 +30,17 @@ def physics_inventory(*extras):
 class BuiltinTests(unittest.TestCase):
     def test_finite_reference_packages_have_no_artifact_or_invented_unity_version(self):
         records = package_records()
-        self.assertEqual(len(records), 17)
-        self.assertEqual(len({p["id"] for p in records}), 17)
+        self.assertEqual(len(records), 23)
+        self.assertEqual(len({p["id"] for p in records}), 23)
         for package in records:
             version = package["versions"][0]
             self.assertEqual(version["disposition"], "builtin-reference")
             self.assertIsNone(version["artifact"])
             self.assertEqual(version["unityVersion"], "unknown")
             self.assertFalse(version["fingerprint"]["profileVerified"])
-            self.assertGreaterEqual(len(version["provider"]["apiFeatures"]), 2)
-            self.assertTrue(all(feature["url"].startswith("https://docs.unity3d.com/") for feature in version["provider"]["apiFeatures"]))
+            features=version["provider"]["apiFeatures"] or version["provider"]["memberFeatures"]
+            self.assertGreaterEqual(len(features), 2)
+            self.assertTrue(all(feature["url"].startswith(("https://docs.unity3d.com/","https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/")) for feature in features))
         by_id = {p["id"]: p for p in records}
         self.assertEqual(by_id["unity.builtin.core-module"]["versions"][0]["moduleVersion"], "unknown")
         self.assertEqual(by_id["unity.builtin.legacy-input-module"]["versions"][0]["moduleVersion"], "unknown")

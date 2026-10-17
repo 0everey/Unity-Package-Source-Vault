@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.physics",
+  "displayName": "com.unity.physics",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.physics",
+      "fetchedAt": "2026-10-17T20:54:59.794248Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "1.3.14",
+      "variantId": "registry-packages.unity.com-05fe3ecfe6d8b504",
+      "sourceUrl": "https://packages.unity.com/com.unity.physics",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.physics/-/com.unity.physics-1.3.14.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "b8c0a578fe9d089d7216f981dd1955c84074aaf3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.19",
+        "com.unity.entities": "1.3.14",
+        "com.unity.collections": "2.5.7",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.test-framework": "1.4.6",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.physics/1.3.14",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "b8c0a578fe9d089d7216f981dd1955c84074aaf3"
+        }
+      }
+    },
+    {
+      "version": "1.5.0",
+      "variantId": "registry-packages.unity.com-28310d55c35feae8",
+      "sourceUrl": "https://packages.unity.com/com.unity.physics",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.physics/-/com.unity.physics-1.5.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9b55ce54d5377544b75ea25d6bb4cd27cb2e6382",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.29",
+        "com.unity.entities": "1.5.0",
+        "com.unity.collections": "2.7.1",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.test-framework": "1.4.6",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.physics/1.5.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "9b55ce54d5377544b75ea25d6bb4cd27cb2e6382"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.5.0"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [
+      "1.3.14",
+      "1.5.0"
+    ],
+    "legacyMajor": null,
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "1.3.14",
+    "1.5.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "dots-physics",
+  "coverageBasis": "general-coverage; Unity Physics is separate from builtin PhysX provider",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "family": "common-dots-physics",
+  "preferredVersions": [
+    "1.3.14",
+    "1.5.0"
+  ]
+}

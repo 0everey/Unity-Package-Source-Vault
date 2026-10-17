@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.0",
+  "id": "io.sentry.unity",
+  "displayName": "io.sentry.unity",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/io.sentry.unity",
+      "fetchedAt": "2026-10-17T20:54:58.738352Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "3.2.3",
+      "variantId": "registry-package.openupm.com-977d798a2fc6e444",
+      "sourceUrl": "https://package.openupm.com/io.sentry.unity",
+      "sourceRef": "f5eba18085412b633519ab8c79667cda54c02e10",
+      "downloadUrl": "https://package.openupm.com/io.sentry.unity/-/io.sentry.unity-3.2.3.tgz",
+      "upstreamIntegrity": "sha512-O7tObMqPHwpjdh3n0DO+INDrrxrP6U0iAt4rncmwrdpvAs4fPC4DW4lKvcPWizf1g62MqoMiVyKzmaTyoqGTdA==",
+      "upstreamShasum": "82ba5cdf4d995ae23660f8deccc012b1a65bb5dc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.sentry.unity/3.2.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-O7tObMqPHwpjdh3n0DO+INDrrxrP6U0iAt4rncmwrdpvAs4fPC4DW4lKvcPWizf1g62MqoMiVyKzmaTyoqGTdA==",
+          "shasum": "82ba5cdf4d995ae23660f8deccc012b1a65bb5dc"
+        }
+      }
+    },
+    {
+      "version": "3.2.4",
+      "variantId": "registry-package.openupm.com-233209e9af7fee45",
+      "sourceUrl": "https://package.openupm.com/io.sentry.unity",
+      "sourceRef": "d86e21da3d8b1350b5e848c072429d3d8a7c5503",
+      "downloadUrl": "https://package.openupm.com/io.sentry.unity/-/io.sentry.unity-3.2.4.tgz",
+      "upstreamIntegrity": "sha512-cVqRaNbB2X+vBEnp1nfCR6z7Kllz/CiWRjrgdAX7gSu7UiGxC0VAtZlwIiIGU3a5KrRQo2wyqE4lqJ/NRr/6qQ==",
+      "upstreamShasum": "85aa24aee5709e541c04cc0ddf55fd3dab0e63ff",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.sentry.unity/3.2.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cVqRaNbB2X+vBEnp1nfCR6z7Kllz/CiWRjrgdAX7gSu7UiGxC0VAtZlwIiIGU3a5KrRQo2wyqE4lqJ/NRr/6qQ==",
+          "shasum": "85aa24aee5709e541c04cc0ddf55fd3dab0e63ff"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "4.10.3",
+    "patch@3.2.4": "3.2.4"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [
+      "3.2.3",
+      "3.2.4"
+    ],
+    "legacyMajor": null,
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "3.2.3",
+    "3.2.4"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "observability",
+  "componentBundle": "sentry-unity",
+  "coverageBasis": "observed-sdk-family; original implementation/profile unverified",
+  "priority": "high",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "family": "common-observability",
+  "preferredVersions": [
+    "3.2.3",
+    "3.2.4"
+  ]
+}

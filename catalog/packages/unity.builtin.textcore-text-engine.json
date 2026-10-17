@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0",
+  "id": "unity.builtin.textcore-text-engine",
+  "displayName": "UnityEngine.TextCoreTextEngineModule",
+  "sources": [
+    {
+      "kind": "unity-builtin-reference",
+      "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/1c2d7db69c060103b6dc087af725442d1efaef9c/Modules/TextCoreTextEngine/Managed/TextAssets/FontAsset.cs"
+    }
+  ],
+  "versions": [
+    {
+      "version": "unknown",
+      "moduleVersion": "unknown",
+      "unityVersion": "unknown",
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "variantId": "unity-builtin-reference",
+      "disposition": "builtin-reference",
+      "sourceUrl": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/1c2d7db69c060103b6dc087af725442d1efaef9c/Modules/TextCoreTextEngine/Managed/TextAssets/FontAsset.cs",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "artifact": null,
+      "fetchStatus": "reference-only",
+      "dependencies": {},
+      "license": {
+        "expression": "Unity-Engine-License",
+        "evidenceUrl": "https://unity.com/legal/terms-of-service/software",
+        "sha256": null,
+        "components": [],
+        "redistribution": "no-payload-reference-only"
+      },
+      "provider": {
+        "kind": "unity-builtin-module",
+        "assemblyName": "UnityEngine.TextCoreTextEngineModule",
+        "referenceStatus": "reference-pending",
+        "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+        "manualUrl": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/1c2d7db69c060103b6dc087af725442d1efaef9c/Modules/TextCoreTextEngine/Managed/TextAssets/FontAsset.cs",
+        "apiFeatures": [
+          {
+            "typeFullName": "UnityEngine.TextCore.Text.FontAsset",
+            "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/1c2d7db69c060103b6dc087af725442d1efaef9c/Modules/TextCoreTextEngine/Managed/TextAssets/FontAsset.cs"
+          },
+          {
+            "typeFullName": "UnityEngine.TextCore.Text.TextSettings",
+            "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/1c2d7db69c060103b6dc087af725442d1efaef9c/Modules/TextCoreTextEngine/Managed/TextAssets/TextSettings.cs"
+          }
+        ],
+        "memberFeatures": [],
+        "recognitionMode": "multiple-api-types",
+        "namespaceScopes": [
+          "UnityEngine.TextCore.Text"
+        ],
+        "rulesSha256": "a023811f2ecdae115d89abfde19d0cb47f40c90c519cdd9d29dacf9db7a459f0",
+        "profileVerified": false
+      },
+      "fingerprint": {
+        "files": [],
+        "assemblies": [
+          {
+            "name": "UnityEngine.TextCoreTextEngineModule",
+            "version": "0.0.0.0"
+          }
+        ],
+        "types": [
+          "UnityEngine.TextCore.Text.FontAsset",
+          "UnityEngine.TextCore.Text.TextSettings"
+        ],
+        "typeDeclarations": [
+          {
+            "fullName": "UnityEngine.TextCore.Text.FontAsset",
+            "assemblyIdentity": {
+              "name": "UnityEngine.TextCoreTextEngineModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          },
+          {
+            "fullName": "UnityEngine.TextCore.Text.TextSettings",
+            "assemblyIdentity": {
+              "name": "UnityEngine.TextCoreTextEngineModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          }
+        ],
+        "namespaces": [
+          "UnityEngine.TextCore.Text"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"
+      }
+    }
+  ],
+  "adapter": "reference",
+  "family": "unity-builtin",
+  "metadataStatus": "reference-only",
+  "selectedVersions": []
+}

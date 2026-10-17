@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0",
+  "id": "unity.builtin.textcore-font-engine",
+  "displayName": "UnityEngine.TextCoreFontEngineModule",
+  "sources": [
+    {
+      "kind": "unity-builtin-reference",
+      "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/1c2d7db69c060103b6dc087af725442d1efaef9c/Modules/TextCoreFontEngine/Managed/FaceInfo.cs"
+    }
+  ],
+  "versions": [
+    {
+      "version": "unknown",
+      "moduleVersion": "unknown",
+      "unityVersion": "unknown",
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "variantId": "unity-builtin-reference",
+      "disposition": "builtin-reference",
+      "sourceUrl": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/1c2d7db69c060103b6dc087af725442d1efaef9c/Modules/TextCoreFontEngine/Managed/FaceInfo.cs",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "artifact": null,
+      "fetchStatus": "reference-only",
+      "dependencies": {},
+      "license": {
+        "expression": "Unity-Engine-License",
+        "evidenceUrl": "https://unity.com/legal/terms-of-service/software",
+        "sha256": null,
+        "components": [],
+        "redistribution": "no-payload-reference-only"
+      },
+      "provider": {
+        "kind": "unity-builtin-module",
+        "assemblyName": "UnityEngine.TextCoreFontEngineModule",
+        "referenceStatus": "reference-pending",
+        "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+        "manualUrl": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/1c2d7db69c060103b6dc087af725442d1efaef9c/Modules/TextCoreFontEngine/Managed/FaceInfo.cs",
+        "apiFeatures": [
+          {
+            "typeFullName": "UnityEngine.TextCore.FaceInfo",
+            "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/1c2d7db69c060103b6dc087af725442d1efaef9c/Modules/TextCoreFontEngine/Managed/FaceInfo.cs"
+          },
+          {
+            "typeFullName": "UnityEngine.TextCore.Glyph",
+            "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/1c2d7db69c060103b6dc087af725442d1efaef9c/Modules/TextCoreFontEngine/Managed/Glyph.cs"
+          }
+        ],
+        "memberFeatures": [],
+        "recognitionMode": "multiple-api-types",
+        "namespaceScopes": [
+          "UnityEngine.TextCore"
+        ],
+        "rulesSha256": "a023811f2ecdae115d89abfde19d0cb47f40c90c519cdd9d29dacf9db7a459f0",
+        "profileVerified": false
+      },
+      "fingerprint": {
+        "files": [],
+        "assemblies": [
+          {
+            "name": "UnityEngine.TextCoreFontEngineModule",
+            "version": "0.0.0.0"
+          }
+        ],
+        "types": [
+          "UnityEngine.TextCore.FaceInfo",
+          "UnityEngine.TextCore.Glyph"
+        ],
+        "typeDeclarations": [
+          {
+            "fullName": "UnityEngine.TextCore.FaceInfo",
+            "assemblyIdentity": {
+              "name": "UnityEngine.TextCoreFontEngineModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          },
+          {
+            "fullName": "UnityEngine.TextCore.Glyph",
+            "assemblyIdentity": {
+              "name": "UnityEngine.TextCoreFontEngineModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          }
+        ],
+        "namespaces": [
+          "UnityEngine.TextCore"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"
+      }
+    }
+  ],
+  "adapter": "reference",
+  "family": "unity-builtin",
+  "metadataStatus": "reference-only",
+  "selectedVersions": []
+}

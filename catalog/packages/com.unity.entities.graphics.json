@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.entities.graphics",
+  "displayName": "com.unity.entities.graphics",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.entities.graphics",
+      "fetchedAt": "2026-10-17T20:54:58.404354Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "1.4.12",
+      "variantId": "registry-packages.unity.com-90920b4ab5162f6c",
+      "sourceUrl": "https://packages.unity.com/com.unity.entities.graphics",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.entities.graphics/-/com.unity.entities.graphics-1.4.12.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2264b12029b85d9c18d91f6f55d6488ca9353957",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.14",
+        "com.unity.render-pipelines.core": "14.0.10",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.entities.graphics/1.4.12",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "2264b12029b85d9c18d91f6f55d6488ca9353957"
+        }
+      }
+    },
+    {
+      "version": "1.5.0",
+      "variantId": "registry-packages.unity.com-bae824910a7ce9a8",
+      "sourceUrl": "https://packages.unity.com/com.unity.entities.graphics",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.entities.graphics/-/com.unity.entities.graphics-1.5.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "feec57f749c31c819b07c14b855eda31b62faf71",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.5.0",
+        "com.unity.render-pipelines.core": "17.0.3",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.entities.graphics/1.5.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "feec57f749c31c819b07c14b855eda31b62faf71"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.5.0"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [
+      "1.4.12",
+      "1.5.0"
+    ],
+    "legacyMajor": null,
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "1.4.12",
+    "1.5.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "dots-rendering",
+  "coverageBasis": "general-coverage; see declared dependency sets",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "family": "common-dots-rendering",
+  "preferredVersions": [
+    "1.4.12",
+    "1.5.0"
+  ]
+}
