@@ -51,9 +51,11 @@ uvault classify --inventory <DECLARATIONS.json> --profile <profile.json> --out <
 | --- | --- |
 | recover-native | 保留原恢复资格；业务、私改、弱线索、未知、应用生成代码进入这里 |
 | defer-library-resolution | 暂缓昂贵草案，进入找包／辨版本／差分队列；仍未恢复 |
-| provider-reference | 仅在原 writer 核实 provider 与目标 profile 后引用既有引擎／BCL |
+| provider-reference | 已登记准确程序集身份与至少两个模块官方 API 特征确认的 Unity 内置模块直接引用、跳过实现还原；安装／Unity 版本／profile 未证仍 pending、false |
 | reuse-upstream / skip-native | 仅在原 writer 接收具名成员范围和已确认来源后减少恢复任务 |
 | regenerate | 仅在生成器和完整输入已核实后进入再生成队列；不冒执行完成 |
+
+R4 当前库为 35 个常用包族、17 个内置模块和 3 个受限参考项，每包两至三版，实际缺口再补。SRP 17／14、UGUI 2 等 Editor 随附版本有固定官方 manifest／源码入口而无可下载归档时，保持 official-fetch-only、artifact=null、reference-only；不能当 exact 或静默改用旧版。独立包继续进入找源／辨版队列，不改称内置模块。
 
 读取新字段 `nativeAction`。旧 `skipNativeRecovery` 始终为 false，不能用它表达“暂缓”。`isRecovered`、采用、编译、运行与调度分别记录。下载失败不自动把整个插件重新投入 native，也不永久排除它。
 

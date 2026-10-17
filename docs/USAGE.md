@@ -33,10 +33,20 @@ failure. It refuses different contents at an existing destination; offline reuse
 rehashes actual files. Do not use an existing Unity Assets root as a blind
 overwrite destination. Restricted/unavailable records return explicit status.
 
-Use `python -m uvault.harvest --help` for full source discovery, metadata refresh
-and selected-version collection. Coverage distinguishes discovery, metadata,
-license checks, actual payload acquisition and remote verification. Interrupted
-work resumes from JSON task state; no payload cache is needed.
+The maintainer pipeline uses the explicit `sources/common-packages.json` whitelist:
+
+```powershell
+python -m uvault.pipeline --root catalog --curate --metadata
+python -m uvault.pipeline --root catalog --collect --publish
+python -m uvault.pipeline --root catalog --add-gap com.cysharp.unitask 2.5.9 "Observed consumer lock" --metadata --package com.cysharp.unitask
+```
+
+An explicit gap requires package, version and reason, within the three-version
+budget. Add a new common family to the whitelist deliberately. Metadata refresh
+queries only those packages and persists selected versions. Dependencies are
+named gaps; they never start an ecosystem crawl. A retired ecosystem queue is
+rejected until explicitly projected with `--curate`. That projection retires
+unreferenced generated metadata; Git history and legal Releases remain.
 
 Managed DLL metadata uses the optional offline .NET8 PEReader helper. If a local
 SDK is already installed, run `python -m uvault.managed build`; this explicit
@@ -50,8 +60,9 @@ those shards; it does not cache package payloads. Materialization receipts can
 retain the small hash-bound manifest for offline verification of the one actual
 use directory. A receipt cannot certify its own changed file hashes.
 
-The Actions collector checkpoints metadata and verified object references every
-100 attempts. Near its hosting runner deadline it hands the remaining queue to
-a new ephemeral runner. Canceling the workflow stops this continuation. Finished
-queue traversal preserves restricted/failure states explicitly; it does not mean
-all versions became source-available or adopted. There is no scheduled service.
+The manual Actions collector makes one bounded pass over the whitelist and
+checkpoints verified references every ten attempts. There is no automatic
+successor workflow or scheduled service. Explicitly rerun the same command or
+workflow to resume; successful results are retained, failures and restrictions
+remain visible. Local storage contains tools/metadata and one chosen actual use
+directory, with no package mirror, archive backup or permanent payload cache.

@@ -1,32 +1,18 @@
-name: Collect immutable package versions
+name: Collect common package versions
 on:
   workflow_dispatch:
     inputs:
       mode:
         type: choice
-        description: Full resumable queue operation
+        description: One bounded pass over the R4 common whitelist
         options: [metadata, collect]
         default: collect
       packages:
         type: string
-        description: Optional comma-separated package IDs; empty processes the full queue
-        default: ''
-      parent_run:
-        type: string
-        default: ''
-        description: Bound parent run for automatic continuation; leave empty for a manual resume
-      parent_attempt:
-        type: string
-        default: ''
-      parent_checkpoint:
-        type: string
-        default: ''
-      continuation_id:
-        type: string
+        description: Optional comma-separated common package IDs
         default: ''
 permissions:
   contents: write
-  actions: write
 concurrency:
   group: catalog-single-writer
   cancel-in-progress: false
@@ -41,14 +27,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Verify successful parent before successor collection
-        env:
-          GH_TOKEN: ${{ github.token }}
-          PARENT_RUN: ${{ inputs.parent_run }}
-          PARENT_ATTEMPT: ${{ inputs.parent_attempt }}
-          PARENT_CHECKPOINT: ${{ inputs.parent_checkpoint }}
-          CONTINUATION_ID: ${{ inputs.continuation_id }}
-        run: PYTHONPATH=src python -m uvault.continuation
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
@@ -61,7 +39,7 @@ jobs:
           git config user.name 'vault-collection'
           git config user.email 'vault-collection@users.noreply.github.com'
           PYTHONPATH=src python -c "from pathlib import Path;from uvault.pipeline import validate_snapshot;validate_snapshot(Path('catalog'))"
-      - name: Resume remote collection
+      - name: Collect selected common versions
         env:
           GH_TOKEN: ${{ github.token }}
           PYTHONPATH: src
@@ -69,8 +47,8 @@ jobs:
           PACKAGES: ${{ inputs.packages }}
         shell: bash
         run: |
-          args=(--root catalog --reindex --checkpoint-push --checkpoint-every 100 --runner-deadline-seconds 19800)
-          if [[ "$MODE" == metadata ]]; then args+=(--metadata); else args+=(--collect --publish); fi
+          args=(--root catalog --checkpoint-push --checkpoint-every 10)
+          if [[ "$MODE" == metadata ]]; then args+=(--metadata --retry-failed); else args+=(--collect --publish --retry-failed); fi
           IFS=',' read -ra ids <<< "$PACKAGES"
           for id in "${ids[@]}"; do
             if [[ -n "$id" ]]; then args+=(--package "$id"); fi
@@ -83,29 +61,9 @@ jobs:
           git config user.name 'vault-collection'
           git config user.email 'vault-collection@users.noreply.github.com'
           PYTHONPATH=src python -c "from pathlib import Path;from uvault.pipeline import validate_snapshot;validate_snapshot(Path('catalog'),check_shards=True)"
-          git add catalog
+          PYTHONPATH=src python scripts/render_coverage.py
+          git add catalog docs/COVERAGE.md
           if ! git diff --cached --quiet; then
             git commit -q -m 'Checkpoint verified collection and remaining queue'
             git push
           fi
-      - name: Continue queue after validated checkpoint commit
-        if: ${{ success() && inputs.mode == 'collect' }}
-        env:
-          GH_TOKEN: ${{ github.token }}
-          PACKAGES: ${{ inputs.packages }}
-        shell: bash
-        run: |
-          python - <<'PY'
-          import json,os,subprocess
-          from pathlib import Path
-          path=Path('catalog/collection-run.json')
-          manifest=json.loads(path.read_text()) if path.is_file() else {}
-          if (manifest.get('needsContinuation') is True and manifest.get('mode')=='collect'
-              and manifest.get('runId')==os.environ['GITHUB_RUN_ID']
-              and manifest.get('runAttempt')==os.environ['GITHUB_RUN_ATTEMPT']):
-              checkpoint=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
-              subprocess.run(['gh','workflow','run','collect.yml','--ref','main','-f','mode=collect',
-                  '-f','packages='+os.environ['PACKAGES'],'-f','parent_run='+manifest['runId'],
-                  '-f','parent_attempt='+manifest['runAttempt'],'-f','parent_checkpoint='+checkpoint,
-                  '-f','continuation_id='+manifest['continuationId']],check=True)
-          PY

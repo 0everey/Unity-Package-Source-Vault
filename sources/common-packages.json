@@ -1,0 +1,316 @@
+{
+  "schemaVersion": "1.0",
+  "scopeVersion": "R4",
+  "defaultVersionCount": 2,
+  "maxCommonVersions": 3,
+  "packages": [
+    {
+      "id": "com.unity.inputsystem",
+      "category": "input",
+      "preferredVersions": [
+        "1.12.0"
+      ]
+    },
+    {
+      "id": "com.unity.render-pipelines.core",
+      "category": "rendering",
+      "preferredVersions": [
+        "17.0.4",
+        "14.0.12"
+      ],
+      "commonArchiveFallback": true,
+      "manifestReferences": [
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53",
+          "path": "Packages/com.unity.render-pipelines.core/package.json",
+          "version": "17.0.4"
+        },
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3",
+          "path": "Packages/com.unity.render-pipelines.core/package.json",
+          "version": "14.0.12"
+        }
+      ]
+    },
+    {
+      "id": "com.unity.render-pipelines.universal",
+      "category": "rendering",
+      "preferredVersions": [
+        "17.0.4",
+        "14.0.12"
+      ],
+      "commonArchiveFallback": true,
+      "manifestReferences": [
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53",
+          "path": "Packages/com.unity.render-pipelines.universal/package.json",
+          "version": "17.0.4"
+        },
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3",
+          "path": "Packages/com.unity.render-pipelines.universal/package.json",
+          "version": "14.0.12"
+        }
+      ]
+    },
+    {
+      "id": "com.unity.render-pipelines.high-definition",
+      "category": "rendering",
+      "preferredVersions": [
+        "17.0.4",
+        "14.0.12"
+      ],
+      "commonArchiveFallback": true,
+      "manifestReferences": [
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53",
+          "path": "Packages/com.unity.render-pipelines.high-definition/package.json",
+          "version": "17.0.4"
+        },
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3",
+          "path": "Packages/com.unity.render-pipelines.high-definition/package.json",
+          "version": "14.0.12"
+        }
+      ]
+    },
+    {
+      "id": "com.unity.shadergraph",
+      "category": "rendering",
+      "preferredVersions": [
+        "17.0.4",
+        "14.0.12"
+      ],
+      "commonArchiveFallback": true,
+      "manifestReferences": [
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53",
+          "path": "Packages/com.unity.shadergraph/package.json",
+          "version": "17.0.4"
+        },
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3",
+          "path": "Packages/com.unity.shadergraph/package.json",
+          "version": "14.0.12"
+        }
+      ]
+    },
+    {
+      "id": "com.unity.ugui",
+      "category": "ui",
+      "preferredVersions": [
+        "2.0.0"
+      ],
+      "manifestReferences": [
+        {
+          "repository": "Unity-Technologies/uGUI",
+          "sourceRef": "58c0ead281dc1cf042e8831606850413524971bb",
+          "path": "com.unity.ugui/package.json",
+          "version": "2.0.0"
+        }
+      ]
+    },
+    {
+      "id": "com.unity.textmeshpro",
+      "category": "ui",
+      "integrationNote": "Unity 6 UGUI may already supply TMP; do not install duplicate assemblies"
+    },
+    {
+      "id": "com.unity.ai.navigation",
+      "category": "navigation"
+    },
+    {
+      "id": "com.unity.addressables",
+      "category": "assets",
+      "preferredVersions": [
+        "2.6.0"
+      ]
+    },
+    {
+      "id": "com.unity.mathematics",
+      "category": "dependency",
+      "preferredVersions": [
+        "1.3.2"
+      ]
+    },
+    {
+      "id": "com.unity.collections",
+      "category": "dependency",
+      "preferredVersions": [
+        "2.4.3"
+      ]
+    },
+    {
+      "id": "com.unity.burst",
+      "category": "dependency",
+      "preferredVersions": [
+        "1.8.20"
+      ]
+    },
+    {
+      "id": "com.unity.serialization",
+      "category": "serialization",
+      "preferredVersions": [
+        "3.1.5"
+      ]
+    },
+    {
+      "id": "com.unity.cinemachine",
+      "category": "camera"
+    },
+    {
+      "id": "com.unity.timeline",
+      "category": "animation"
+    },
+    {
+      "id": "com.unity.animation.rigging",
+      "category": "animation"
+    },
+    {
+      "id": "com.unity.netcode.gameobjects",
+      "category": "networking"
+    },
+    {
+      "id": "com.unity.transport",
+      "category": "networking"
+    },
+    {
+      "id": "com.unity.profiling.core",
+      "category": "dependency",
+      "preferredVersions": [
+        "1.0.2"
+      ]
+    },
+    {
+      "id": "com.unity.render-pipelines.universal-config",
+      "category": "dependency",
+      "preferredVersions": [
+        "17.0.3"
+      ],
+      "manifestReferences": [
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53",
+          "path": "Packages/com.unity.render-pipelines.universal-config/package.json",
+          "version": "17.0.3"
+        }
+      ]
+    },
+    {
+      "id": "com.cysharp.unitask",
+      "category": "async",
+      "adapter": "registry",
+      "registry": "https://package.openupm.com",
+      "retainVerifiedLegacy": true
+    },
+    {
+      "id": "com.cysharp.r3",
+      "category": "async",
+      "adapter": "registry",
+      "registry": "https://package.openupm.com"
+    },
+    {
+      "id": "com.neuecc.unirx",
+      "category": "async",
+      "adapter": "registry",
+      "registry": "https://package.openupm.com"
+    },
+    {
+      "id": "com.annulusgames.lit-motion",
+      "category": "tween",
+      "adapter": "registry",
+      "registry": "https://package.openupm.com"
+    },
+    {
+      "id": "com.annulusgames.lit-motion.animation",
+      "category": "animation",
+      "adapter": "registry",
+      "registry": "https://package.openupm.com"
+    },
+    {
+      "id": "DOTween",
+      "category": "tween",
+      "adapter": "github",
+      "repository": "Demigiant/dotween"
+    },
+    {
+      "id": "com.mirrornetworking.mirror",
+      "category": "networking",
+      "adapter": "registry",
+      "registry": "https://package.openupm.com"
+    },
+    {
+      "id": "Google.Protobuf",
+      "category": "serialization",
+      "adapter": "nuget",
+      "preferredVersions": [
+        "3.31.0"
+      ],
+      "preferenceBasis": "Observed runtime version is a candidate hint, not target byte equivalence"
+    },
+    {
+      "id": "Grpc.Net.Client",
+      "category": "networking",
+      "adapter": "nuget"
+    },
+    {
+      "id": "Grpc.Core.Api",
+      "category": "networking",
+      "adapter": "nuget"
+    },
+    {
+      "id": "com.cysharp.memorypack",
+      "category": "serialization",
+      "adapter": "registry",
+      "registry": "https://package.openupm.com"
+    },
+    {
+      "id": "com.github.messagepack-csharp",
+      "category": "serialization",
+      "adapter": "registry",
+      "registry": "https://package.openupm.com"
+    },
+    {
+      "id": "Newtonsoft.Json",
+      "category": "serialization",
+      "adapter": "nuget"
+    },
+    {
+      "id": "jp.hadashikick.vcontainer",
+      "category": "dependency-injection",
+      "adapter": "registry",
+      "registry": "https://package.openupm.com"
+    },
+    {
+      "id": "com.svermeulen.extenject",
+      "category": "dependency-injection",
+      "adapter": "registry",
+      "registry": "https://package.openupm.com"
+    }
+  ],
+  "references": [
+    {
+      "id": "Spine.Runtimes",
+      "sourceUrl": "https://github.com/EsotericSoftware/spine-runtimes",
+      "reason": "Runtime license conditions need individual confirmation; no automatic public payload mirror"
+    },
+    {
+      "id": "PrimeTween",
+      "sourceUrl": "https://github.com/KyryloKuzyk/PrimeTween",
+      "reason": "Source redistribution restrictions; official acquisition reference only"
+    },
+    {
+      "id": "Facepunch.Steamworks",
+      "sourceUrl": "https://github.com/Facepunch/Facepunch.Steamworks",
+      "reason": "Wrapper and bundled Steam SDK rights differ; official reference until components are resolved"
+    }
+  ]
+}

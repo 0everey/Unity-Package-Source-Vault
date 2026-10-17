@@ -28,12 +28,13 @@ def save_package(root, package):
     package.setdefault("schemaVersion","1.0")
     from .fingerprints import externalize_fingerprint
     for version in package.get("versions",[]):
-        if (version.get("fingerprint") or {}).get("files") is not None:
+        if version.get("artifact") and (version.get("fingerprint") or {}).get("files") is not None:
             externalize_fingerprint(root,version)
     write_json(root / shard_name(package["id"]), package)
 
 def save_index(root, queue, bundle=False):
-    index={"schemaVersion":"1.0","catalogCommit":"pending", "scope":queue.get("scope"),
+    index={"schemaVersion":"1.0","catalogCommit":"pending", "scope":queue.get("scope"), "scopeVersion":queue.get("scopeVersion"),
+           "enumerationMeaning":queue.get("enumerationMeaning"),
            "snapshots":queue.get("snapshots",[]),"completeEnumeration":queue.get("completeEnumeration",False),
            "frontier":queue.get("frontier",[]),"coverage":"coverage.json",
            "packages":[{"id":p["id"],"path":shard_name(p["id"]),"metadataStatus":p.get("metadataStatus","pending")}
@@ -93,7 +94,7 @@ def metadata(queue, root, workers=12, only=(), retry_failed=False, refresh=False
     def fetch(seed):
         # Worker reads use detached state; only this main loop mutates the
         # authoritative queue, including targets arriving during network reads.
-        state={"packages":[copy.deepcopy(seed)],"frontier":[]}
+        state={"packages":[copy.deepcopy(seed)],"frontier":[], "scopeVersion":queue.get("scopeVersion")}
         harvest.update_metadata(state,package_ids=[seed["id"]],retry_failed=retry_failed,refresh=refresh)
         return state
     done=0
@@ -158,7 +159,9 @@ def push_checkpoint(root,queue):
 def _run(argv=None):
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root",default="catalog")
-    parser.add_argument("--discover",action="store_true")
+    parser.add_argument("--discover",action="store_true",help="Load the bounded common-package whitelist")
+    parser.add_argument("--curate",action="store_true",help="Project the previous catalog to R4 common packages, preserving Git history and Releases")
+    parser.add_argument("--add-gap",nargs=3,metavar=("PACKAGE","VERSION","REASON"),help="Explicit consumer gap in a registered common package; refresh metadata to acquire it")
     parser.add_argument("--metadata",action="store_true")
     parser.add_argument("--collect",action="store_true")
     parser.add_argument("--publish",action="store_true")
@@ -194,19 +197,26 @@ def _run(argv=None):
         except FileNotFoundError:
             pass
     root=Path(args.root).resolve();root.mkdir(parents=True,exist_ok=True)
-    if args.discover:
-        queue=harvest.discover(args.commit)
-        if (root/"catalog.json").exists():
-            old={p["id"]:p for p in load_queue(root)["packages"]}
-            current={p["id"] for p in queue["packages"]}
-            queue["packages"]=[old.get(p["id"],p) for p in queue["packages"]]
-            queue["packages"].extend(p for ident,p in old.items() if ident not in current)
+    if args.discover or args.curate:
+        if args.commit:
+            parser.error("R4 uses the common whitelist, not OpenUPM ecosystem discovery")
+        from .curated import queue as common_queue, prune_catalog
+        previous=load_queue(root) if (root/"catalog.json").exists() else None
+        queue=common_queue(previous)
         for package in queue["packages"]:
             save_package(root,package)
-        save_index(root,queue)
+        save_index(root,queue,bundle=True)
+        retired=prune_catalog(root,queue)
+        print(json.dumps({"retiredGeneratedPackageShards":retired,"scopeVersion":"R4"}),flush=True)
         print(json.dumps({"discovered":len(queue["packages"]),"snapshots":queue["snapshots"]}),flush=True)
     else:
         queue=load_queue(root)
+    if queue.get("scopeVersion")!="R4":
+        parser.error("Retired ecosystem queue: run --curate to use the R4 common whitelist")
+    if args.add_gap:
+        from .curated import add_gap
+        changed=add_gap(queue,*args.add_gap)
+        save_package(root,changed)
     # Recover an interrupted shard-before-index write from the last valid,
     # hash-bound index checkpoint. This is task state, never package payloads.
     if args.checkpoint_push:

@@ -1,20 +1,125 @@
 {
   "schemaVersion": "1.0",
   "id": "com.unity.modules.assetbundle",
-  "displayName": "com.unity.modules.assetbundle",
-  "adapter": "reference",
-  "metadataStatus": "reference-only",
+  "displayName": "Unity Asset Bundle Module",
   "sources": [
     {
-      "kind": "unity-editor-builtin",
-      "url": "https://docs.unity3d.com/Manual/upm-ui-disable.html"
+      "kind": "unity-builtin-reference",
+      "url": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.assetbundle.html"
     }
   ],
-  "versions": [],
-  "disposition": "builtin-reference",
-  "declaredPackageVersions": [
-    "1.0.0"
+  "versions": [
+    {
+      "version": "1.0.0",
+      "moduleVersion": "1.0.0",
+      "unityVersion": "unknown",
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "variantId": "unity-builtin-reference",
+      "disposition": "builtin-reference",
+      "sourceUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.assetbundle.html",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "artifact": null,
+      "fetchStatus": "reference-only",
+      "dependencies": {},
+      "license": {
+        "expression": "Unity-Engine-License",
+        "evidenceUrl": "https://unity.com/legal/terms-of-service/software",
+        "sha256": null,
+        "components": [],
+        "redistribution": "no-payload-reference-only"
+      },
+      "provider": {
+        "kind": "unity-builtin-module",
+        "assemblyName": "UnityEngine.AssetBundleModule",
+        "referenceStatus": "reference-pending",
+        "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+        "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.assetbundle.html",
+        "apiFeatures": [
+          {
+            "typeFullName": "UnityEngine.AssetBundle",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AssetBundle.html"
+          },
+          {
+            "typeFullName": "UnityEngine.AssetBundleManifest",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AssetBundleManifest.html"
+          },
+          {
+            "typeFullName": "UnityEngine.AssetBundleCreateRequest",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AssetBundleCreateRequest.html"
+          },
+          {
+            "typeFullName": "UnityEngine.AssetBundleRequest",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AssetBundleRequest.html"
+          }
+        ],
+        "namespaceScopes": [
+          "UnityEngine"
+        ],
+        "rulesSha256": "3d5dcb987c237130fa7bfa196d4d6ed4641ce7f09c05a072c04ed3e186a2353f",
+        "profileVerified": false
+      },
+      "fingerprint": {
+        "files": [],
+        "assemblies": [
+          {
+            "name": "UnityEngine.AssetBundleModule",
+            "version": "0.0.0.0"
+          }
+        ],
+        "types": [
+          "UnityEngine.AssetBundle",
+          "UnityEngine.AssetBundleManifest",
+          "UnityEngine.AssetBundleCreateRequest",
+          "UnityEngine.AssetBundleRequest"
+        ],
+        "typeDeclarations": [
+          {
+            "fullName": "UnityEngine.AssetBundle",
+            "assemblyIdentity": {
+              "name": "UnityEngine.AssetBundleModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          },
+          {
+            "fullName": "UnityEngine.AssetBundleManifest",
+            "assemblyIdentity": {
+              "name": "UnityEngine.AssetBundleModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          },
+          {
+            "fullName": "UnityEngine.AssetBundleCreateRequest",
+            "assemblyIdentity": {
+              "name": "UnityEngine.AssetBundleModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          },
+          {
+            "fullName": "UnityEngine.AssetBundleRequest",
+            "assemblyIdentity": {
+              "name": "UnityEngine.AssetBundleModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          }
+        ],
+        "namespaces": [
+          "UnityEngine"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"
+      }
+    }
   ],
-  "discoveredBy": "com.aio.cli.asset",
-  "reason": "Built-in module implementation belongs to the selected Unity Editor; package version is not an engine source version"
+  "adapter": "reference",
+  "family": "unity-builtin",
+  "metadataStatus": "reference-only",
+  "selectedVersions": []
 }

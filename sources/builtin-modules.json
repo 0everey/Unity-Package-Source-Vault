@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0",
+  "ruleVersion": "r4-builtin-provider-1",
+  "referenceUnityVersions": ["2022.3", "6000.x"],
+  "minimumDistinctApiTypes": 2,
+  "assemblyVersion": "0.0.0.0",
+  "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+  "sourceUrl": "https://github.com/Unity-Technologies/UnityCsReference",
+  "apiEvidence": "Official Unity 2022.3 API pages were read on 2026-10-18; both listed features identify their declared UnityEngine module. These are declaration/provider rules, not redistributed engine source or executable artifacts.",
+  "moduleVersionEvidence": "The 1.0.0 values are established UPM builtin-module package versions, independent of the target Unity Editor version. CoreModule and InputLegacyModule have no separately established UPM module version and remain unknown.",
+  "modules": [
+    {
+      "id": "unity.builtin.core-module", "displayName": "Unity Engine Core Module", "moduleVersion": "unknown",
+      "assemblyName": "UnityEngine.CoreModule", "namespaceScopes": ["UnityEngine", "UnityEngineInternal", "Unity.Collections", "Unity.Jobs", "Unity.Profiling"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Object.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.Object", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Object.html"}, {"typeFullName": "UnityEngine.GameObject", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/GameObject.html"}]
+    },
+    {
+      "id": "com.unity.modules.physics", "displayName": "Unity Physics Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.PhysicsModule", "namespaceScopes": ["UnityEngine"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.physics.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.Physics", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Physics.html"}, {"typeFullName": "UnityEngine.Collider", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Collider.html"}]
+    },
+    {
+      "id": "com.unity.modules.physics2d", "displayName": "Unity Physics 2D Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.Physics2DModule", "namespaceScopes": ["UnityEngine"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.physics2d.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.Physics2D", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Physics2D.html"}, {"typeFullName": "UnityEngine.Rigidbody2D", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Rigidbody2D.html"}]
+    },
+    {
+      "id": "com.unity.modules.ai", "displayName": "Unity AI Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.AIModule", "namespaceScopes": ["UnityEngine.AI"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.ai.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.AI.NavMesh", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AI.NavMesh.html"}, {"typeFullName": "UnityEngine.AI.NavMeshHit", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AI.NavMeshHit.html"}]
+    },
+    {
+      "id": "com.unity.modules.animation", "displayName": "Unity Animation Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.AnimationModule", "namespaceScopes": ["UnityEngine"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.animation.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.Animator", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Animator.html"}, {"typeFullName": "UnityEngine.AnimationClip", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AnimationClip.html"}]
+    },
+    {
+      "id": "com.unity.modules.audio", "displayName": "Unity Audio Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.AudioModule", "namespaceScopes": ["UnityEngine"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.audio.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.AudioSource", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AudioSource.html"}, {"typeFullName": "UnityEngine.AudioClip", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AudioClip.html"}]
+    },
+    {
+      "id": "com.unity.modules.assetbundle", "displayName": "Unity Asset Bundle Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.AssetBundleModule", "namespaceScopes": ["UnityEngine"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.assetbundle.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.AssetBundle", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AssetBundle.html"}, {"typeFullName": "UnityEngine.AssetBundleManifest", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AssetBundleManifest.html"}, {"typeFullName": "UnityEngine.AssetBundleCreateRequest", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AssetBundleCreateRequest.html"}, {"typeFullName": "UnityEngine.AssetBundleRequest", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AssetBundleRequest.html"}]
+    },
+    {
+      "id": "com.unity.modules.imgui", "displayName": "Unity IMGUI Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.IMGUIModule", "namespaceScopes": ["UnityEngine", "UnityEngineInternal"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.imgui.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.GUI", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/GUI.html"}, {"typeFullName": "UnityEngine.GUIStyle", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/GUIStyle.html"}]
+    },
+    {
+      "id": "com.unity.modules.uielements", "displayName": "Unity UI Elements Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.UIElementsModule", "namespaceScopes": ["UnityEngine.UIElements", "UnityEngine.UIElementsInternal"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.uielements.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.UIElements.VisualElement", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/UIElements.VisualElement.html"}, {"typeFullName": "UnityEngine.UIElements.UIDocument", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/UIElements.UIDocument.html"}]
+    },
+    {
+      "id": "com.unity.modules.ui", "displayName": "Unity UI Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.UIModule", "namespaceScopes": ["UnityEngine"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.ui.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.Canvas", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Canvas.html"}, {"typeFullName": "UnityEngine.CanvasRenderer", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/CanvasRenderer.html"}]
+    },
+    {
+      "id": "com.unity.modules.particlesystem", "displayName": "Unity Particle System Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.ParticleSystemModule", "namespaceScopes": ["UnityEngine"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.particlesystem.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.ParticleSystem", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/ParticleSystem.html"}, {"typeFullName": "UnityEngine.ParticleSystemRenderer", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/ParticleSystemRenderer.html"}]
+    },
+    {
+      "id": "com.unity.modules.terrain", "displayName": "Unity Terrain Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.TerrainModule", "namespaceScopes": ["UnityEngine"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.terrain.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.Terrain", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Terrain.html"}, {"typeFullName": "UnityEngine.TerrainData", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/TerrainData.html"}]
+    },
+    {
+      "id": "com.unity.modules.tilemap", "displayName": "Unity Tilemap Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.TilemapModule", "namespaceScopes": ["UnityEngine.Tilemaps"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.tilemap.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.Tilemaps.Tilemap", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Tilemaps.Tilemap.html"}, {"typeFullName": "UnityEngine.Tilemaps.TileBase", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Tilemaps.TileBase.html"}]
+    },
+    {
+      "id": "com.unity.modules.video", "displayName": "Unity Video Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.VideoModule", "namespaceScopes": ["UnityEngine.Video"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.video.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.Video.VideoPlayer", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Video.VideoPlayer.html"}, {"typeFullName": "UnityEngine.Video.VideoClip", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Video.VideoClip.html"}]
+    },
+    {
+      "id": "unity.builtin.legacy-input-module", "displayName": "Unity Legacy Input Module", "moduleVersion": "unknown",
+      "assemblyName": "UnityEngine.InputLegacyModule", "namespaceScopes": ["UnityEngine"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/class-InputManager.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.Input", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Input.html"}, {"typeFullName": "UnityEngine.Touch", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Touch.html"}]
+    },
+    {
+      "id": "com.unity.modules.unitywebrequest", "displayName": "Unity Web Request Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.UnityWebRequestModule", "namespaceScopes": ["UnityEngine.Networking"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.unitywebrequest.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.Networking.UnityWebRequest", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Networking.UnityWebRequest.html"}, {"typeFullName": "UnityEngine.Networking.DownloadHandler", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Networking.DownloadHandler.html"}]
+    },
+    {
+      "id": "com.unity.modules.unitywebrequestassetbundle", "displayName": "Unity Web Request Asset Bundle Module", "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.UnityWebRequestAssetBundleModule", "namespaceScopes": ["UnityEngine.Networking"],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.unitywebrequestassetbundle.html",
+      "apiFeatures": [{"typeFullName": "UnityEngine.Networking.UnityWebRequestAssetBundle", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Networking.UnityWebRequestAssetBundle.html"}, {"typeFullName": "UnityEngine.Networking.DownloadHandlerAssetBundle", "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Networking.DownloadHandlerAssetBundle.html"}]
+    }
+  ]
+}

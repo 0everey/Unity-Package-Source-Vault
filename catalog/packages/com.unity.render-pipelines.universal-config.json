@@ -1,20 +1,78 @@
 {
+  "schemaVersion": "1.0",
   "id": "com.unity.render-pipelines.universal-config",
   "adapter": "registry",
   "registry": "https://packages.unity.com",
-  "family": "Unity",
-  "metadataStatus": "failed",
-  "versions": [],
-  "targetVersions": [
+  "metadataStatus": "complete",
+  "sources": [
+    {
+      "kind": "official-package-manifest",
+      "url": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53/Packages/com.unity.render-pipelines.universal-config/package.json",
+      "sha256": "e67006bb7e2f0a1ef855ca002df2b5c704a7fd30c2cb66e3d37ff12770f43974",
+      "fetchedAt": "2026-10-17T19:26:55.274651Z"
+    }
+  ],
+  "versions": [
+    {
+      "version": "17.0.3",
+      "variantId": "unity-editor-source-feb4de2d9a93",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics/tree/feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53/Packages/com.unity.render-pipelines.universal-config",
+      "sourceRef": "feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53",
+      "downloadUrl": null,
+      "disposition": "official-fetch-only",
+      "fetchStatus": "reference-only",
+      "artifact": null,
+      "fingerprint": null,
+      "versionStatus": "stable",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "17.0.3"
+      },
+      "unity": "6000.0",
+      "license": {
+        "expression": null,
+        "evidenceUrl": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53/Packages/com.unity.render-pipelines.universal-config/package.json",
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "official-manifest-reference-no-payload-grant"
+      },
+      "acquisition": {
+        "kind": "unity-editor-bundled-package",
+        "sourcePath": "Packages/com.unity.render-pipelines.universal-config",
+        "manifestSha256": "e67006bb7e2f0a1ef855ca002df2b5c704a7fd30c2cb66e3d37ff12770f43974",
+        "installationUrl": "https://docs.unity3d.com/6000.0/Documentation/Manual/pack-core.html",
+        "reason": "Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"
+      }
+    }
+  ],
+  "registryStatus": "not-listed",
+  "availableUpstreamVersionCount": 1,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [
+      "17.0.3"
+    ],
+    "legacyMajor": null,
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
     "17.0.3"
   ],
-  "metadataError": {
-    "kind": "not-found",
-    "url": "https://packages.unity.com/com.unity.render-pipelines.universal-config",
-    "httpStatus": 404,
-    "retryable": false,
-    "message": "Upstream HTTP 404"
-  },
-  "metadataAttemptedAt": "2026-10-17T17:42:43.660442Z",
-  "schemaVersion": "1.0"
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "manifestReferences": [
+    {
+      "repository": "Unity-Technologies/Graphics",
+      "sourceRef": "feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53",
+      "path": "Packages/com.unity.render-pipelines.universal-config/package.json",
+      "version": "17.0.3"
+    }
+  ],
+  "category": "dependency",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "family": "common-dependency"
 }

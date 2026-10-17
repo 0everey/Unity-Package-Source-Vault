@@ -1,20 +1,99 @@
 {
   "schemaVersion": "1.0",
   "id": "com.unity.modules.ai",
-  "displayName": "com.unity.modules.ai",
-  "adapter": "reference",
-  "metadataStatus": "reference-only",
+  "displayName": "Unity AI Module",
   "sources": [
     {
-      "kind": "unity-editor-builtin",
-      "url": "https://docs.unity3d.com/Manual/upm-ui-disable.html"
+      "kind": "unity-builtin-reference",
+      "url": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.ai.html"
     }
   ],
-  "versions": [],
-  "disposition": "builtin-reference",
-  "declaredPackageVersions": [
-    "1.0.0"
+  "versions": [
+    {
+      "version": "1.0.0",
+      "moduleVersion": "1.0.0",
+      "unityVersion": "unknown",
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "variantId": "unity-builtin-reference",
+      "disposition": "builtin-reference",
+      "sourceUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.ai.html",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "artifact": null,
+      "fetchStatus": "reference-only",
+      "dependencies": {},
+      "license": {
+        "expression": "Unity-Engine-License",
+        "evidenceUrl": "https://unity.com/legal/terms-of-service/software",
+        "sha256": null,
+        "components": [],
+        "redistribution": "no-payload-reference-only"
+      },
+      "provider": {
+        "kind": "unity-builtin-module",
+        "assemblyName": "UnityEngine.AIModule",
+        "referenceStatus": "reference-pending",
+        "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+        "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.ai.html",
+        "apiFeatures": [
+          {
+            "typeFullName": "UnityEngine.AI.NavMesh",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AI.NavMesh.html"
+          },
+          {
+            "typeFullName": "UnityEngine.AI.NavMeshHit",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AI.NavMeshHit.html"
+          }
+        ],
+        "namespaceScopes": [
+          "UnityEngine.AI"
+        ],
+        "rulesSha256": "3d5dcb987c237130fa7bfa196d4d6ed4641ce7f09c05a072c04ed3e186a2353f",
+        "profileVerified": false
+      },
+      "fingerprint": {
+        "files": [],
+        "assemblies": [
+          {
+            "name": "UnityEngine.AIModule",
+            "version": "0.0.0.0"
+          }
+        ],
+        "types": [
+          "UnityEngine.AI.NavMesh",
+          "UnityEngine.AI.NavMeshHit"
+        ],
+        "typeDeclarations": [
+          {
+            "fullName": "UnityEngine.AI.NavMesh",
+            "assemblyIdentity": {
+              "name": "UnityEngine.AIModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          },
+          {
+            "fullName": "UnityEngine.AI.NavMeshHit",
+            "assemblyIdentity": {
+              "name": "UnityEngine.AIModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          }
+        ],
+        "namespaces": [
+          "UnityEngine.AI"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"
+      }
+    }
   ],
-  "discoveredBy": "com.cowart.navigation-marker",
-  "reason": "Built-in module implementation belongs to the selected Unity Editor; package version is not an engine source version"
+  "adapter": "reference",
+  "family": "unity-builtin",
+  "metadataStatus": "reference-only",
+  "selectedVersions": []
 }

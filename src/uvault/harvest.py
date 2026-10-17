@@ -24,7 +24,7 @@ from . import sources
 
 SCHEMA_VERSION = "1.0"
 PERMISSIVE = {"MIT", "Apache-2.0", "BSD-2-Clause", "BSD-3-Clause", "ISC", "Zlib", "BSL-1.0", "CC0-1.0", "Unlicense"}
-LICENSE_REVIEW_ALGORITHM = "archive-rights-v2"
+LICENSE_REVIEW_ALGORITHM = "archive-rights-v3-binary-layout"
 
 
 def _sha(data):
@@ -47,6 +47,12 @@ def _load(path):
 
 
 def discover(commit=None, extra_seeds=()):
+    if commit or extra_seeds:
+        raise ValueError("R4 discovery uses the explicit common whitelist; add a named gap instead of an ecosystem snapshot")
+    from .curated import queue
+    return queue()
+
+def legacy_discover(commit=None, extra_seeds=()):
     snapshot = sources.discover_openupm(commit)
     by_id = {item["id"]: item for item in snapshot["packages"]}
     for seed in sources.seed_packages() + list(extra_seeds):
@@ -64,8 +70,8 @@ def discover(commit=None, extra_seeds=()):
 def update_metadata(queue, *, limit=None, retry_failed=False, package_ids=(), progress=None, refresh=False):
     """Mutate a queue incrementally; callback checkpoints after every attempted package.
 
-    All listed versions are retained. Dependency closure adds explicit registry tasks;
-    Git/file/local dependency specifications are preserved as frontier, not guessed.
+    R4 retains only selected common versions. Dependencies are named gaps and
+    never implicitly add package families or historical version tasks.
     """
     attempted = 0
     by_id = {item["id"]: item for item in queue["packages"]}
@@ -102,12 +108,20 @@ def update_metadata(queue, *, limit=None, retry_failed=False, package_ids=(), pr
             for key in ("definitionUrl", "definitionBlobSha", "sourceSnapshot", "family", "targetVersions"):
                 if key in seed:
                     package[key] = seed[key]
-            package.update(sources.selection_status(package["versions"], seed.get("targetVersions", ())))
+            if seed.get("curatedPolicy"):
+                from .curated import curate_package
+                package = curate_package(package, seed)
+            else:
+                package.update(sources.selection_status(package["versions"], seed.get("targetVersions", ())))
             seed.clear()
             seed.update(package)
             # Unity package dependencies are served by the same authoritative registry.
             for version in package["versions"]:
                 for dep_id, spec in version.get("dependencies", {}).items():
+                    if queue.get("scopeVersion")=="R4":
+                        gap={"packageId":dep_id,"specification":spec,"discoveredBy":package["id"],"status":"explicit-consumer-gap-if-needed"}
+                        if gap not in queue.setdefault("frontier",[]):queue["frontier"].append(gap)
+                        continue
                     if dep_id in by_id:
                         existing=by_id[dep_id]
                         if isinstance(spec,str) and re.fullmatch(r"\d+(?:\.\d+){1,3}(?:-[0-9A-Za-z.-]+)?",spec):
@@ -154,7 +168,7 @@ def coverage(queue):
         status = package.get("metadataStatus", "pending")
         metadata[status] = metadata.get(status, 0) + 1
         selected_names = set(package.get("selectedVersions", []))
-        selected += sum(1 for version in package.get("versions", []) if version["version"] in selected_names)
+        selected += sum(1 for version in package.get("versions", []) if version["version"] in selected_names and version.get("fetchStatus")!="reference-only")
         listed += len(package.get("versions", []))
         if not package.get("versions") and package.get("disposition"):
             value = package["disposition"]
@@ -289,9 +303,12 @@ def inspect_licenses(data, archive_format, record, *, upstream_license=None, com
     primary = root_licenses[0] if root_licenses else None
     expressions = {item["expression"] for item in components}
     restricted = [item for item in components if item["expression"] not in PERMISSIVE]
-    native = [name[len(prefix):] if prefix else name for name in files if PurePosixPath(name).suffix.lower() in (".dll", ".so", ".dylib", ".a", ".lib", ".exe")]
-    for name in native:
+    from .license_components import binary_components
+    native = binary_components(data, archive_format)
+    for binary in native:
+        name = binary["path"][len(prefix):] if prefix else binary["path"]
         components.append({"path": name, "expression": None, "sha256": None, "reviewStatus": "native-component-rights-unresolved",
+                           "detection": binary["detection"],
                            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"})
     license_dirs = {str(PurePosixPath(c["path"]).parent) for c in components if c.get("sha256")}
     suspicious = set()
@@ -342,7 +359,7 @@ def inspect_licenses(data, archive_format, record, *, upstream_license=None, com
         license_record["noticeDelivery"] = "Archive omits license text; preserve catalog license text as a companion when materializing or redistributing"
     if component_review:
         license_record["componentReviewSha256"] = _sha(json.dumps(component_review, sort_keys=True, separators=(",", ":"), ensure_ascii=False).encode("utf-8"))
-    return {"license": license_record, "disposition": disposition, "nuspec": nuspec_info, "packageManifest": manifest_info}
+    return {"license": license_record, "disposition": disposition, "nuspec": nuspec_info, "packageManifest": manifest_info, "binaryComponents": native}
 
 
 def _pinned_upstream_license(record, manifest):
@@ -479,7 +496,7 @@ def collect_version(package, version, *, publish=None):
         record["fingerprint"] = fingerprint
         names = [item["path"] for item in fingerprint.get("files", [])]
         has_sources = any(name.lower().endswith(".cs") for name in names)
-        has_binary = any(name.lower().endswith((".dll", ".so", ".dylib", ".a", ".lib")) for name in names)
+        has_binary = bool(rights["binaryComponents"])
         kind = "mixed-source-binary" if has_sources and has_binary else "source" if has_sources else "binary-only" if has_binary else "no-csharp-source"
         record["artifact"] = {"sha256": _sha(data), "size": len(data), "format": archive_format, "kind": kind,
                               "url": url, "verifiedRemote": False}
@@ -521,15 +538,18 @@ def collect_selected(queue, *, package_ids=(), limit=None, retry_failed=False, p
             continue
         if package.get("metadataStatus") != "complete":
             continue
-        package.update(sources.selection_status(package["versions"], package.get("targetVersions", ())))
+        if not package.get("curatedPolicy"):
+            package.update(sources.selection_status(package["versions"], package.get("targetVersions", ())))
         selected = set(package["selectedVersions"])
         for index, version in enumerate(package["versions"]):
             if version["version"] not in selected:
                 continue
             state = version.get("fetchStatus", "pending")
+            if state == "reference-only":
+                continue
             version_identity = dict(version, packageId=package["id"])
             recheck = needs_license_recheck(version_identity)
-            if state == "published" or (state == "collected" and not recheck and (publish is None or version.get("disposition") != "mirror-allowed")) or (state == "fetch-failed" and not retry_failed):
+            if (state == "published" and not recheck) or (state == "collected" and not recheck and (publish is None or version.get("disposition") != "mirror-allowed")) or (state == "fetch-failed" and not retry_failed):
                 continue
             if limit is not None and attempted >= limit:
                 return {"attempted": attempted, "coverage": coverage(queue)}
@@ -569,6 +589,8 @@ def main(argv=None):
                 _save(args.out, result)
         else:
             queue = _load(args.queue)
+            if queue.get("scopeVersion")!="R4":
+                raise ValueError("Historical exhaustive queues are retired; create the R4 common whitelist queue")
             operation = update_metadata if args.command == "metadata" else collect_selected
             options = {"limit": args.limit, "retry_failed": args.retry_failed, "package_ids": args.package,
                        "progress": lambda state, package: _save(args.queue, state)}

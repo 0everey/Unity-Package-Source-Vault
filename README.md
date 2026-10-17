@@ -1,13 +1,20 @@
 # Unity Package Source Vault
 
-Public Unity package discovery, conservative version identification and locked
+A curated public catalog of common Unity packages, conservative version identification and locked
 source retrieval. Permitted original archives live in GitHub Releases; Git
 contains tools, provenance, fingerprints and version-specific rights records.
 No permanent local package mirror or payload cache is created.
 
-The CLI is available. Collection continues through a resumable remote queue.
-See `catalog/coverage.json` for complete discovery, actual artifact state,
-restrictions, failures and remaining version tasks.
+R4 covers 35 common package families, 17 built-in module providers and three
+restricted references. Each package keeps two common versions, at most three
+for a justified legacy or consumer gap. Cold packages and complete version
+histories are outside the current catalog. See [coverage](docs/COVERAGE.md) and
+`catalog/coverage.json` for actual acquisition, rights and remaining gaps.
+
+Built-in modules use registered assembly/API rules to propose direct provider
+references and skip implementation recovery. An unknown Editor installation or
+profile remains pending. Some newer rendering/UI packages ship with the Editor;
+their pinned official manifests are references, not mirrored archives.
 
 ## Install
 

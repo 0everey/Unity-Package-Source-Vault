@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0",
+  "id": "unity.builtin.legacy-input-module",
+  "displayName": "Unity Legacy Input Module",
+  "sources": [
+    {
+      "kind": "unity-builtin-reference",
+      "url": "https://docs.unity3d.com/2022.3/Documentation/Manual/class-InputManager.html"
+    }
+  ],
+  "versions": [
+    {
+      "version": "unknown",
+      "moduleVersion": "unknown",
+      "unityVersion": "unknown",
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "variantId": "unity-builtin-reference",
+      "disposition": "builtin-reference",
+      "sourceUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/class-InputManager.html",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "artifact": null,
+      "fetchStatus": "reference-only",
+      "dependencies": {},
+      "license": {
+        "expression": "Unity-Engine-License",
+        "evidenceUrl": "https://unity.com/legal/terms-of-service/software",
+        "sha256": null,
+        "components": [],
+        "redistribution": "no-payload-reference-only"
+      },
+      "provider": {
+        "kind": "unity-builtin-module",
+        "assemblyName": "UnityEngine.InputLegacyModule",
+        "referenceStatus": "reference-pending",
+        "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+        "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/class-InputManager.html",
+        "apiFeatures": [
+          {
+            "typeFullName": "UnityEngine.Input",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Input.html"
+          },
+          {
+            "typeFullName": "UnityEngine.Touch",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Touch.html"
+          }
+        ],
+        "namespaceScopes": [
+          "UnityEngine"
+        ],
+        "rulesSha256": "3d5dcb987c237130fa7bfa196d4d6ed4641ce7f09c05a072c04ed3e186a2353f",
+        "profileVerified": false
+      },
+      "fingerprint": {
+        "files": [],
+        "assemblies": [
+          {
+            "name": "UnityEngine.InputLegacyModule",
+            "version": "0.0.0.0"
+          }
+        ],
+        "types": [
+          "UnityEngine.Input",
+          "UnityEngine.Touch"
+        ],
+        "typeDeclarations": [
+          {
+            "fullName": "UnityEngine.Input",
+            "assemblyIdentity": {
+              "name": "UnityEngine.InputLegacyModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          },
+          {
+            "fullName": "UnityEngine.Touch",
+            "assemblyIdentity": {
+              "name": "UnityEngine.InputLegacyModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          }
+        ],
+        "namespaces": [
+          "UnityEngine"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"
+      }
+    }
+  ],
+  "adapter": "reference",
+  "family": "unity-builtin",
+  "metadataStatus": "reference-only",
+  "selectedVersions": []
+}

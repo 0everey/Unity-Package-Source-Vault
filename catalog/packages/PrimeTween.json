@@ -2,45 +2,17 @@
   "schemaVersion": "1.0",
   "id": "PrimeTween",
   "displayName": "PrimeTween",
-  "adapter": "github",
-  "repository": "KyryloKuzyk/PrimeTween",
+  "adapter": "reference",
+  "family": "restricted-reference",
+  "metadataStatus": "reference-only",
+  "versions": [],
+  "selectedVersions": [],
   "sources": [
     {
-      "kind": "github-tags",
-      "url": "https://github.com/KyryloKuzyk/PrimeTween",
-      "fetchedAt": "2026-10-17T18:12:43.229520Z",
-      "completeEnumeration": true
+      "kind": "official-reference",
+      "url": "https://github.com/KyryloKuzyk/PrimeTween"
     }
   ],
-  "versions": [
-    {
-      "version": "releases",
-      "variantId": "git-4e45ae04366f",
-      "sourceUrl": "https://github.com/KyryloKuzyk/PrimeTween",
-      "sourceRef": "4e45ae04366f392ba945b9753a12afd4b5ca346a",
-      "downloadUrl": "https://codeload.github.com/KyryloKuzyk/PrimeTween/tar.gz/4e45ae04366f392ba945b9753a12afd4b5ca346a",
-      "disposition": "license-unresolved",
-      "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
-      },
-      "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "prerelease",
-      "sourceTag": "releases"
-    }
-  ],
-  "metadataStatus": "complete",
-  "selectedVersions": [
-    "releases"
-  ],
-  "targetVersions": [],
-  "missingTargetVersions": [],
-  "allListedVersions": 1,
-  "versionPolicy": "3-5-plus-all-available-targets"
+  "disposition": "official-fetch-only",
+  "reason": "Source redistribution restrictions; official acquisition reference only"
 }

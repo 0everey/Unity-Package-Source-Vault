@@ -7,7 +7,7 @@
       "kind": "registry",
       "url": "https://package.openupm.com",
       "metadataUrl": "https://package.openupm.com/com.neuecc.unirx",
-      "fetchedAt": "2026-10-17T17:40:22.740704Z"
+      "fetchedAt": "2026-10-17T19:26:55.470806Z"
     }
   ],
   "adapter": "registry",
@@ -50,17 +50,27 @@
   "distTags": {
     "latest": "7.1.0"
   },
-  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.neuecc.unirx.yml",
-  "definitionBlobSha": "92d2f029fb47faab5a55a3046c271e778f104b6e",
-  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
-  "family": "runtime",
-  "targetVersions": [
-    "7.1.0"
-  ],
+  "availableUpstreamVersionCount": 1,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [],
+    "legacyMajor": null,
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
   "selectedVersions": [
     "7.1.0"
   ],
+  "targetVersions": [],
   "missingTargetVersions": [],
-  "allListedVersions": 1,
-  "versionPolicy": "3-5-plus-all-available-targets"
+  "missingPreferredVersions": [],
+  "category": "async",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.neuecc.unirx.yml",
+  "definitionBlobSha": "92d2f029fb47faab5a55a3046c271e778f104b6e",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "family": "common-async"
 }

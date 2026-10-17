@@ -1,25 +1,108 @@
 {
+  "schemaVersion": "1.0",
   "id": "com.unity.ai.navigation",
-  "adapter": "registry",
-  "registry": "https://package.openupm.com",
-  "metadataStatus": "failed",
-  "versions": [],
-  "discoveredBy": "com.i5.virtualagents",
-  "targetVersions": [
-    "1.0.0-exp.4",
-    "1.1.4",
-    "1.1.5",
-    "1.1.7",
-    "2.0.6",
-    "2.0.9"
+  "displayName": "com.unity.ai.navigation",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.ai.navigation",
+      "fetchedAt": "2026-10-17T19:26:53.964361Z"
+    }
   ],
-  "metadataError": {
-    "kind": "not-found",
-    "url": "https://package.openupm.com/com.unity.ai.navigation",
-    "httpStatus": 404,
-    "retryable": false,
-    "message": "Upstream HTTP 404"
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "2.0.15",
+      "variantId": "registry-packages.unity.com-b9fec0b909e77fda",
+      "sourceUrl": "https://packages.unity.com/com.unity.ai.navigation",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.ai.navigation/-/com.unity.ai.navigation-2.0.15.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a9c5744fc1defd1740be5e82c85448725f66f86e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.modules.ai": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.ai.navigation/2.0.15",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "a9c5744fc1defd1740be5e82c85448725f66f86e"
+        }
+      }
+    },
+    {
+      "version": "2.0.16",
+      "variantId": "registry-packages.unity.com-f415f41cc916ea02",
+      "sourceUrl": "https://packages.unity.com/com.unity.ai.navigation",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.ai.navigation/-/com.unity.ai.navigation-2.0.16.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d0cf77b009bbdba7a0bf95e0de8b25be0659b9a4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.modules.ai": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.ai.navigation/2.0.16",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "d0cf77b009bbdba7a0bf95e0de8b25be0659b9a4"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.0.16"
   },
-  "metadataAttemptedAt": "2026-10-17T17:45:08.178380Z",
-  "schemaVersion": "1.0"
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [],
+    "legacyMajor": null,
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "2.0.15",
+    "2.0.16"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "navigation",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "family": "common-navigation"
 }

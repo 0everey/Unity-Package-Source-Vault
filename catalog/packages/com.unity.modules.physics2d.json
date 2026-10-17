@@ -1,20 +1,99 @@
 {
   "schemaVersion": "1.0",
   "id": "com.unity.modules.physics2d",
-  "displayName": "com.unity.modules.physics2d",
-  "adapter": "reference",
-  "metadataStatus": "reference-only",
+  "displayName": "Unity Physics 2D Module",
   "sources": [
     {
-      "kind": "unity-editor-builtin",
-      "url": "https://docs.unity3d.com/Manual/upm-ui-disable.html"
+      "kind": "unity-builtin-reference",
+      "url": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.physics2d.html"
     }
   ],
-  "versions": [],
-  "disposition": "builtin-reference",
-  "declaredPackageVersions": [
-    "1.0.0"
+  "versions": [
+    {
+      "version": "1.0.0",
+      "moduleVersion": "1.0.0",
+      "unityVersion": "unknown",
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "variantId": "unity-builtin-reference",
+      "disposition": "builtin-reference",
+      "sourceUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.physics2d.html",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "artifact": null,
+      "fetchStatus": "reference-only",
+      "dependencies": {},
+      "license": {
+        "expression": "Unity-Engine-License",
+        "evidenceUrl": "https://unity.com/legal/terms-of-service/software",
+        "sha256": null,
+        "components": [],
+        "redistribution": "no-payload-reference-only"
+      },
+      "provider": {
+        "kind": "unity-builtin-module",
+        "assemblyName": "UnityEngine.Physics2DModule",
+        "referenceStatus": "reference-pending",
+        "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+        "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.physics2d.html",
+        "apiFeatures": [
+          {
+            "typeFullName": "UnityEngine.Physics2D",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Physics2D.html"
+          },
+          {
+            "typeFullName": "UnityEngine.Rigidbody2D",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Rigidbody2D.html"
+          }
+        ],
+        "namespaceScopes": [
+          "UnityEngine"
+        ],
+        "rulesSha256": "3d5dcb987c237130fa7bfa196d4d6ed4641ce7f09c05a072c04ed3e186a2353f",
+        "profileVerified": false
+      },
+      "fingerprint": {
+        "files": [],
+        "assemblies": [
+          {
+            "name": "UnityEngine.Physics2DModule",
+            "version": "0.0.0.0"
+          }
+        ],
+        "types": [
+          "UnityEngine.Physics2D",
+          "UnityEngine.Rigidbody2D"
+        ],
+        "typeDeclarations": [
+          {
+            "fullName": "UnityEngine.Physics2D",
+            "assemblyIdentity": {
+              "name": "UnityEngine.Physics2DModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          },
+          {
+            "fullName": "UnityEngine.Rigidbody2D",
+            "assemblyIdentity": {
+              "name": "UnityEngine.Physics2DModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          }
+        ],
+        "namespaces": [
+          "UnityEngine"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"
+      }
+    }
   ],
-  "discoveredBy": "com.alttester.sdk",
-  "reason": "Built-in module implementation belongs to the selected Unity Editor; package version is not an engine source version"
+  "adapter": "reference",
+  "family": "unity-builtin",
+  "metadataStatus": "reference-only",
+  "selectedVersions": []
 }

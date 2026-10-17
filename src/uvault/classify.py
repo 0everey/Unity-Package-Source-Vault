@@ -13,6 +13,8 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from .builtin import detect_providers, rules_identity
+
 
 ACTIONS = ("recover-native", "provider-reference", "reuse-upstream", "skip-native",
            "defer-library-resolution", "regenerate")
@@ -160,6 +162,10 @@ def _catalog_index(catalog, matches):
         if not isinstance(package, dict) or not package.get("id"):
             continue
         for version in package.get("versions", []):
+            if version.get("disposition") == "builtin-reference":
+                # Builtin references use their multi-feature provider detector.
+                # One sampled API must not become a generic library defer.
+                continue
             key = (package["id"], version.get("version"), version.get("variantId"))
             match = matching.get(key, {})
             candidate = {"packageId": key[0], "version": key[1], "variantId": key[2],
@@ -275,11 +281,14 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
                "inputSha256": inventory["inputSha256"].lower(), "catalogCommit": catalog["catalogCommit"],
                "catalogSha256": _hash(catalog), "profileSha256": _hash(profile)}
     classifier_sha = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+    builtin_identity = rules_identity()
     cache_key = _hash(dict(binding, classifierSha256=classifier_sha, inventorySha256=_hash(inventory),
                            matchesSha256=_hash(matches), decisionsSha256=_hash(decisions),
+                           builtinRules=builtin_identity,
                            restoration={"ids": sorted(restore_ids), "reason": restore_reason}))
     accepted = _decisions(decisions, binding, by_id)
     index, weak = _catalog_index(catalog, matches)
+    builtin_proofs = detect_providers(inventory, profile=profile)
     rows, rows_by_id = [], {}
     for declaration in declarations:
         assembly = declaration["assemblyIdentity"]
@@ -311,6 +320,19 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
         if strong and not protected and category != "compiler-generated":
             row.update(nativeAction="defer-library-resolution", nextQueue="library-resolution",
                        reuseStatus="resolution-pending", reason="library-identity-evidence-source-version-and-differences-unresolved")
+        provider = builtin_proofs.get(declaration["id"])
+        if provider and not protected and category != "compiler-generated":
+            row.update(category=declaration.get("category") or "builtin-provider",
+                       nativeAction="provider-reference", nextQueue="provider-integration",
+                       provider=copy.deepcopy(provider), profileVerified=False,
+                       confidence="confirmed-builtin-provider-identity", reuseStatus="provider-reference-pending",
+                       reason="registered-module-identity-and-multiple-official-api-features-confirmed")
+            row["candidatePackages"] = [{"packageId": provider["moduleId"], "version": provider["moduleVersion"],
+                                          "variantId": "unity-builtin-reference", "disposition": "builtin-reference"}]
+            row["evidence"].append({"kind": "builtin-module-provider-confirmed",
+                                    "assemblyIdentity": copy.deepcopy(provider["assemblyIdentity"]),
+                                    "matchedApiTypes": provider["matchedApiTypes"], "namespaceScope": provider["namespaceScope"],
+                                    "rulesSha256": provider["rulesSha256"]})
         decision = accepted.get(declaration["id"])
         if decision and protected:
             row["decisionRejected"] = "protected declaration requires difference/owner resolution before exclusion"
@@ -379,6 +401,13 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
                 row["decisionRejected"] = "compiler-generated declaration follows its actual native-recovery owner"
         elif identifier in accepted and row["nativeAction"] != "recover-native":
             pass  # Its own exact, accepted member scope does not expand to peers.
+        elif (owner_row["nativeAction"] == "provider-reference"
+              and (owner_row.get("provider") or {}).get("kind") == "unity-builtin-module"
+              and builtin_proofs.get(identifier, {}).get("generatedOwnerId") == owner):
+            row.update(nativeAction="provider-reference", provider=copy.deepcopy(builtin_proofs[identifier]),
+                       profileVerified=False, confidence="confirmed-builtin-provider-owner",
+                       reuseStatus="provider-reference-pending", nextQueue="provider-integration",
+                       reason="verified-compiler-generated-owner-is-confirmed-builtin-provider")
         elif owner_row["nativeAction"] == "defer-library-resolution":
             row.update(nativeAction="defer-library-resolution", candidatePackages=copy.deepcopy(owner_row["candidatePackages"]),
                        confidence=owner_row["confidence"], reason="verified-compiler-generated-library-owner-awaits-resolution",
@@ -459,9 +488,13 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
                                    for address in sorted(before_addresses)
                                    if len(address_owners[address]) + len(external_address_owners[address]) > 1],
                "externalAliasCount": len(external_aliases), "isRecovered": False,
+               "builtinProviderDeclarationCount": sum(row["nativeAction"] == "provider-reference" and (row.get("provider") or {}).get("kind") == "unity-builtin-module" for row in rows),
+               "builtinProviderModuleCounts": dict(sorted(Counter((row.get("provider") or {}).get("moduleId") for row in rows
+                                                                if row["nativeAction"] == "provider-reference" and (row.get("provider") or {}).get("kind") == "unity-builtin-module").items())),
                "externalAliasResolutionRequired": bool(external_aliases),
                "conservation": {"input": len(by_id), "routed": len(rows), "missing": [], "duplicate": []}}
     return {"classification": {**common, "classifierSha256": classifier_sha, "profile": copy.deepcopy(profile),
+                                "builtinRules": builtin_identity,
                                 "completeScope": copy.deepcopy(inventory["completeScope"]),
                                 "sourceRefs": copy.deepcopy(inventory.get("sourceRefs", [])),
                                 "items": rows, "externalAliases": external_aliases, "adoptionStatus": "pending"},

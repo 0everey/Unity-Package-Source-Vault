@@ -7,7 +7,7 @@
       "kind": "registry",
       "url": "https://package.openupm.com",
       "metadataUrl": "https://package.openupm.com/com.mirrornetworking.mirror",
-      "fetchedAt": "2026-10-17T17:40:10.557467Z"
+      "fetchedAt": "2026-10-17T19:26:56.032957Z"
     }
   ],
   "adapter": "registry",
@@ -82,15 +82,28 @@
   "distTags": {
     "latest": "96.6.4"
   },
-  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.mirrornetworking.mirror.yml",
-  "definitionBlobSha": "0a9d071818f602c227d588c21530c67743a35a45",
-  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [],
+    "legacyMajor": null,
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
   "selectedVersions": [
-    "96.6.4",
-    "96.6.3"
+    "96.6.3",
+    "96.6.4"
   ],
   "targetVersions": [],
   "missingTargetVersions": [],
-  "allListedVersions": 2,
-  "versionPolicy": "3-5-plus-all-available-targets"
+  "missingPreferredVersions": [],
+  "category": "networking",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.mirrornetworking.mirror.yml",
+  "definitionBlobSha": "0a9d071818f602c227d588c21530c67743a35a45",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "family": "common-networking"
 }

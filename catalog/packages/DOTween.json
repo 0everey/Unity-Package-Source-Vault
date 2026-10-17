@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0",
+  "id": "DOTween",
+  "displayName": "DOTween",
+  "adapter": "github",
+  "repository": "Demigiant/dotween",
+  "sources": [
+    {
+      "kind": "github-tags",
+      "url": "https://github.com/Demigiant/dotween",
+      "fetchedAt": "2026-10-17T19:26:55.545804Z",
+      "completeEnumeration": true
+    }
+  ],
+  "versions": [
+    {
+      "version": "v1.2.785",
+      "variantId": "git-b3922c0cc665",
+      "sourceUrl": "https://github.com/Demigiant/dotween",
+      "sourceRef": "b3922c0cc665e8cce02785d7e3f2e824dcceeb51",
+      "downloadUrl": "https://codeload.github.com/Demigiant/dotween/tar.gz/b3922c0cc665e8cce02785d7e3f2e824dcceeb51",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "sourceTag": "v1.2.785"
+    },
+    {
+      "version": "v1.2.815",
+      "variantId": "git-75120f0903ba",
+      "sourceUrl": "https://github.com/Demigiant/dotween",
+      "sourceRef": "75120f0903bae224e63b77b81ed6e1d022011a6d",
+      "downloadUrl": "https://codeload.github.com/Demigiant/dotween/tar.gz/75120f0903bae224e63b77b81ed6e1d022011a6d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "sourceTag": "v1.2.815"
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [],
+    "legacyMajor": null,
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "v1.2.785",
+    "v1.2.815"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "tween",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "family": "common-tween"
+}

@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.0",
+  "id": "unity.builtin.core-module",
+  "displayName": "Unity Engine Core Module",
+  "sources": [
+    {
+      "kind": "unity-builtin-reference",
+      "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Object.html"
+    }
+  ],
+  "versions": [
+    {
+      "version": "unknown",
+      "moduleVersion": "unknown",
+      "unityVersion": "unknown",
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "variantId": "unity-builtin-reference",
+      "disposition": "builtin-reference",
+      "sourceUrl": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Object.html",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "artifact": null,
+      "fetchStatus": "reference-only",
+      "dependencies": {},
+      "license": {
+        "expression": "Unity-Engine-License",
+        "evidenceUrl": "https://unity.com/legal/terms-of-service/software",
+        "sha256": null,
+        "components": [],
+        "redistribution": "no-payload-reference-only"
+      },
+      "provider": {
+        "kind": "unity-builtin-module",
+        "assemblyName": "UnityEngine.CoreModule",
+        "referenceStatus": "reference-pending",
+        "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+        "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Object.html",
+        "apiFeatures": [
+          {
+            "typeFullName": "UnityEngine.Object",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Object.html"
+          },
+          {
+            "typeFullName": "UnityEngine.GameObject",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/GameObject.html"
+          }
+        ],
+        "namespaceScopes": [
+          "UnityEngine",
+          "UnityEngineInternal",
+          "Unity.Collections",
+          "Unity.Jobs",
+          "Unity.Profiling"
+        ],
+        "rulesSha256": "3d5dcb987c237130fa7bfa196d4d6ed4641ce7f09c05a072c04ed3e186a2353f",
+        "profileVerified": false
+      },
+      "fingerprint": {
+        "files": [],
+        "assemblies": [
+          {
+            "name": "UnityEngine.CoreModule",
+            "version": "0.0.0.0"
+          }
+        ],
+        "types": [
+          "UnityEngine.Object",
+          "UnityEngine.GameObject"
+        ],
+        "typeDeclarations": [
+          {
+            "fullName": "UnityEngine.Object",
+            "assemblyIdentity": {
+              "name": "UnityEngine.CoreModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          },
+          {
+            "fullName": "UnityEngine.GameObject",
+            "assemblyIdentity": {
+              "name": "UnityEngine.CoreModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          }
+        ],
+        "namespaces": [
+          "UnityEngine",
+          "UnityEngineInternal",
+          "Unity.Collections",
+          "Unity.Jobs",
+          "Unity.Profiling"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"
+      }
+    }
+  ],
+  "adapter": "reference",
+  "family": "unity-builtin",
+  "metadataStatus": "reference-only",
+  "selectedVersions": []
+}

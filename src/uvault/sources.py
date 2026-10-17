@@ -183,15 +183,15 @@ def _is_prerelease(version):
     return version_key(version)[2] == 0
 
 
-def select_versions(versions, target_versions=(), count=3):
-    """Select 3–5 real versions; all available target versions bypass that default cap.
+def select_versions(versions, target_versions=(), count=2):
+    """Select two real versions by default; legacy explicit targets remain readable.
 
     Targets missing upstream are reported by selection_status(), never fabricated.
     Return the same values (strings or version records) supplied by the caller.
     """
     if count < 1:
         raise ValueError("count must be positive")
-    count = min(5, max(3, count))
+    count = min(3, max(1, count))
     by_version = {}
     for item in versions:
         by_version.setdefault(item["version"] if isinstance(item, dict) else str(item), item)
@@ -225,11 +225,11 @@ def select_versions(versions, target_versions=(), count=3):
     return [by_version[value] for value in selected]
 
 
-def selection_status(versions, target_versions=(), count=3):
+def selection_status(versions, target_versions=(), count=2):
     available = {v["version"] if isinstance(v, dict) else str(v) for v in versions}
     return {"selectedVersions": [v["version"] if isinstance(v, dict) else str(v) for v in select_versions(versions, target_versions, count)],
             "targetVersions": list(target_versions), "missingTargetVersions": [v for v in target_versions if v not in available],
-            "allListedVersions": len(available), "versionPolicy": "3-5-plus-all-available-targets"}
+            "allListedVersions": len(available), "versionPolicy": "two-common-versions"}
 
 
 def git_package(package_id, repository):
@@ -275,7 +275,7 @@ def nuget_package(package_id):
             "versions": versions, "metadataStatus": "complete"}
 
 
-def seed_packages():
+def legacy_seed_packages():
     """Known entry points, not a claim that these exhaust the Unity ecosystem."""
     seeds = []
     official = ("inputsystem mathematics collections addressables ugui textmeshpro render-pipelines.core render-pipelines.universal "
@@ -305,14 +305,47 @@ def seed_packages():
     return seeds
 
 
+def seed_packages():
+    """The current R4 common whitelist; no global discovery or historical queue."""
+    from .curated import seeds
+    return seeds()
+
 def fetch_package(seed):
     adapter = seed["adapter"]
     if adapter == "registry":
-        return registry_package(seed["id"], seed["registry"])
+        try:
+            package=registry_package(seed["id"], seed["registry"])
+        except SourceError as exc:
+            if exc.status != 404 or not seed.get("manifestReferences"):
+                raise
+            package={"schemaVersion":"1.0", "id":seed["id"], "adapter":"registry", "registry":seed["registry"],
+                     "metadataStatus":"complete", "sources":[], "versions":[], "registryStatus":"not-listed"}
     if adapter == "github":
-        return git_package(seed["id"], seed["repository"])
+        package=git_package(seed["id"], seed["repository"])
     if adapter == "nuget":
-        return nuget_package(seed["id"])
+        package=nuget_package(seed["id"])
     if adapter == "reference":
-        return dict(seed)
-    raise ValueError("Unsupported adapter: " + str(adapter))
+        package=dict(seed)
+    if adapter not in ("registry","github","nuget","reference"):
+        raise ValueError("Unsupported adapter: " + str(adapter))
+    for ref in seed.get("manifestReferences", []):
+        # Only an explicitly pinned official manifest is registered. The large
+        # parent repository is never downloaded as a surrogate package archive.
+        commit=ref["sourceRef"]
+        if not re.fullmatch(r"[0-9a-f]{40}",commit):raise ValueError("Official manifest requires an immutable commit")
+        url="https://raw.githubusercontent.com/"+ref["repository"]+"/"+commit+"/"+ref["path"]
+        content=request_bytes(url,max_bytes=1024*1024)
+        manifest=json.loads(content.decode("utf-8-sig"))
+        if manifest.get("name")!=seed["id"] or manifest.get("version")!=ref["version"]:
+            raise ValueError("Pinned official package manifest identity differs from its registration")
+        source="https://github.com/"+ref["repository"]+"/tree/"+commit+"/"+ref["path"].removesuffix("/package.json")
+        package["sources"].append({"kind":"official-package-manifest","url":url,"sha256":hashlib.sha256(content).hexdigest(),"fetchedAt":utc_now()})
+        package["versions"].append({"version":ref["version"],"variantId":"unity-editor-source-"+commit[:12],"sourceUrl":source,"sourceRef":commit,
+            "downloadUrl":None,"disposition":"official-fetch-only","fetchStatus":"reference-only","artifact":None,"fingerprint":None,
+            "versionStatus":"stable","dependencies":manifest.get("dependencies",{}),"unity":manifest.get("unity"),
+            "license":{"expression":None,"evidenceUrl":url,"sha256":None,"components":[],"reviewStatus":"official-manifest-reference-no-payload-grant"},
+            "acquisition":{"kind":"unity-editor-bundled-package","sourcePath":ref["path"].removesuffix("/package.json"),
+                "manifestSha256":hashlib.sha256(content).hexdigest(),"installationUrl":"https://docs.unity3d.com/6000.0/Documentation/Manual/pack-core.html",
+                "reason":"Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"}})
+    from .curated import curate_package
+    return curate_package(package,seed)

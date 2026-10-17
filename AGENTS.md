@@ -4,6 +4,6 @@ Keep tools/catalog public and third-party rights separate. Never upload game ext
 
 Remote Releases hold permitted payloads. The local workspace holds tools and small metadata only. Use task-owned temporary directories with finally cleanup for downloads, including failures; no package cache, parallel mirror, archive backup or actions/cache. Materialize directly into one explicitly selected use directory. Do not remove existing projects or evidence.
 
-Only target bytes/full source equality can establish exact-artifact. Lock provenance alone is pinned-source. Partial signatures, uncertain assembly/profile attribution and modified sources remain candidates/unknown; never skip native recovery automatically. ReMaker Core/original writer owns adoption and writes.
+Only target bytes/full source equality can establish exact-artifact. Lock provenance alone is pinned-source. Partial signatures, uncertain attribution and modified sources remain candidates/unknown. The R4 finite builtin-provider rule can propose direct references after module identity is established; installation/profile remains independently pending. Business/modified/unknown declarations stay native. ReMaker Core/original writer owns adoption and writes.
 
 Use UTF-8, Python standard library for runtime, synthetic tests, and relevant end-to-end checks. Do not run games. Publish only individually reviewed package/version/component licenses, then anonymously read back/hash before adding catalog references.

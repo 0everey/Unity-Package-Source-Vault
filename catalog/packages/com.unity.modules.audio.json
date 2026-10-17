@@ -1,20 +1,99 @@
 {
   "schemaVersion": "1.0",
   "id": "com.unity.modules.audio",
-  "displayName": "com.unity.modules.audio",
-  "adapter": "reference",
-  "metadataStatus": "reference-only",
+  "displayName": "Unity Audio Module",
   "sources": [
     {
-      "kind": "unity-editor-builtin",
-      "url": "https://docs.unity3d.com/Manual/upm-ui-disable.html"
+      "kind": "unity-builtin-reference",
+      "url": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.audio.html"
     }
   ],
-  "versions": [],
-  "disposition": "builtin-reference",
-  "declaredPackageVersions": [
-    "1.0.0"
+  "versions": [
+    {
+      "version": "1.0.0",
+      "moduleVersion": "1.0.0",
+      "unityVersion": "unknown",
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "variantId": "unity-builtin-reference",
+      "disposition": "builtin-reference",
+      "sourceUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.audio.html",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "artifact": null,
+      "fetchStatus": "reference-only",
+      "dependencies": {},
+      "license": {
+        "expression": "Unity-Engine-License",
+        "evidenceUrl": "https://unity.com/legal/terms-of-service/software",
+        "sha256": null,
+        "components": [],
+        "redistribution": "no-payload-reference-only"
+      },
+      "provider": {
+        "kind": "unity-builtin-module",
+        "assemblyName": "UnityEngine.AudioModule",
+        "referenceStatus": "reference-pending",
+        "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+        "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.audio.html",
+        "apiFeatures": [
+          {
+            "typeFullName": "UnityEngine.AudioSource",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AudioSource.html"
+          },
+          {
+            "typeFullName": "UnityEngine.AudioClip",
+            "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AudioClip.html"
+          }
+        ],
+        "namespaceScopes": [
+          "UnityEngine"
+        ],
+        "rulesSha256": "3d5dcb987c237130fa7bfa196d4d6ed4641ce7f09c05a072c04ed3e186a2353f",
+        "profileVerified": false
+      },
+      "fingerprint": {
+        "files": [],
+        "assemblies": [
+          {
+            "name": "UnityEngine.AudioModule",
+            "version": "0.0.0.0"
+          }
+        ],
+        "types": [
+          "UnityEngine.AudioSource",
+          "UnityEngine.AudioClip"
+        ],
+        "typeDeclarations": [
+          {
+            "fullName": "UnityEngine.AudioSource",
+            "assemblyIdentity": {
+              "name": "UnityEngine.AudioModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          },
+          {
+            "fullName": "UnityEngine.AudioClip",
+            "assemblyIdentity": {
+              "name": "UnityEngine.AudioModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          }
+        ],
+        "namespaces": [
+          "UnityEngine"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"
+      }
+    }
   ],
-  "discoveredBy": "com.cowart.audio-player",
-  "reason": "Built-in module implementation belongs to the selected Unity Editor; package version is not an engine source version"
+  "adapter": "reference",
+  "family": "unity-builtin",
+  "metadataStatus": "reference-only",
+  "selectedVersions": []
 }

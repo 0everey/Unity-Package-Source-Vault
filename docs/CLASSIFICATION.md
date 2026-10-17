@@ -58,7 +58,7 @@ Aliases may be declaration IDs or records containing `id`, `declarationId`, or `
 | --- | --- |
 | `recover-native` | Preserve recovery eligibility for business, differences, weak clues, unknowns, and unverified generated ownership. |
 | `defer-library-resolution` | A scoped library identity has declaration evidence. Queue source/version/difference resolution and defer this round of expensive native work. |
-| `provider-reference` | An original-writer decision verifies the exact provider and target profile. |
+| `provider-reference` | Registered Unity builtin module identity is confirmed from original metadata, or an exact original-writer decision verifies another provider. Installation/profile may remain pending for builtin references. |
 | `reuse-upstream` | An original-writer decision accepts a named member scope and confirmed source. |
 | `skip-native` | An original-writer decision explicitly excludes that exact member scope from native production. |
 | `regenerate` | An original-writer decision verifies the generator and complete inputs for a regenerable scope; regeneration remains pending. |
@@ -70,6 +70,18 @@ High confidence requires actual assembly-scoped type overlap. The classifier acc
 Explicit `game-business`, `project-wrapper`, `modified`, `application-generated`, `unknown`, and `mixed-owner` categories stay native. Known package source differences also preserve native recovery until the original writer localizes them. Application protocol messages are not protobuf runtime merely because they reference that runtime. A regeneration decision requires `package-generated` or `regenerable-generated`, verified complete inputs, generator metadata and source references.
 
 Compiler-generated declarations require a verified actual owner, for example `owner: {declarationId, verified: true, evidenceRefs: [...]}`. Verified library owners can pass pending library resolution to their generated declarations. Business owners retain their generated recovery. Owner acceptance cannot expand an adopted member scope: generated members need their own exact original-writer adoption decision. Unverified ownership never skips native work.
+
+## R4 builtin provider references
+
+`uvault.builtin.package_records()` registers reference-only catalog entries. `detect_providers(original_inventory, profile=None)` returns a mapping from proven declaration IDs to their provider evidence. The finite [builtin module table](../sources/builtin-modules.json) covers Core, Physics/2D, AI, Animation, Audio, AssetBundle, IMGUI, UIElements/UI, ParticleSystem, Terrain, Tilemap, Video, legacy Input, and UnityWebRequest/AssetBundle. It does not match arbitrary `UnityEngine.*` assembly names or treat independent Input System, URP, UGUI, or other packages as builtins.
+
+The detector first checks the complete original declaration scope and target/dump/input identity. Each registered module requires the exact assembly name, no supplied assembly identity conflict, and at least two distinct official API types in that same complete assembly identity. The official API URLs identify which module implements those types; references cover Unity 2022.3 and 6000.x. Multiple methods on one sampled type remain insufficient. Features split across different assembly scopes cannot be joined. A DLL filename, source namespace, or unscoped package fingerprint is insufficient.
+
+After module identity is established, its explicitly registered namespace scopes delimit provider declarations, including internal SDK implementation types. This avoids sending thousands of known engine members to native recovery merely because only the public API probes were enumerated. Explicit business, wrapper, modified, unknown, mixed-owner, application-generated, uncertain ownership, and foreign namespace declarations still retain native eligibility. Unmarked private body modifications cannot be disproved by metadata; this is an engine-provider scheduling reference, not an `exact-artifact` or behavior-equivalence claim. Compiler-generated engine declarations follow a verified actual provider owner in the same full assembly scope; unverified owners and business owners stay native.
+
+Confirmed builtin declarations receive `nativeAction: "provider-reference"` and leave the native proposal without requiring an adoption decision or a verified compilation profile. They preserve `provider.referenceStatus: "reference-pending"`, `reuseStatus: "provider-reference-pending"`, `profileVerified: false`, and `isRecovered: false`. A reported Unity version stays `reported-unverified`; an absent version stays `unknown`. Registered module package version `1.0.0` is a UPM builtin package version, not the Unity Editor version. Core and legacy Input have no separately established module package version and remain `unknown`. No engine source artifact or invented installation receipt is emitted. The installation/API URLs tell the original writer where to bind the target's real Unity installation.
+
+Builtin reference fingerprints never enter generic third-party deferral: if the module's multi-feature identity test fails, one sampled API remains native. `CLASSIFICATION.json` binds the builtin rule content and producer SHA alongside the classifier/cache identity. `summary.builtinProviderDeclarationCount` and `builtinProviderModuleCounts` report the actual reference scope. The original ReMaker consumer still authenticates the proposal before applying it; this repository does not modify that production consumer.
 
 `isRecovered` stays false. `reuseStatus` records scheduling/adoption information separately. Legacy `skipNativeRecovery` stays false because the unauthenticated proposal has no authority over an old boolean-only consumer. The new consumer must read `nativeAction` explicitly and authenticate its inputs before applying the proposal.
 
@@ -97,7 +109,7 @@ decisions = {
 result = classify(original_inventory, pinned_catalog, profile=profile, decisions=decisions)
 ```
 
-The classifier validates this explicit contract; it does not authenticate the writer's identity or create the receipt. `reuse-upstream` and `skip-native` require that exact catalog candidate and `sourceConfirmed: true`. `provider-reference` additionally requires `provider`, `providerVerified: true`, and `profileVerified: true`. `regenerate` requires `inputsVerified: true`, `generator`, and nonempty `sourceRefs`. Every decision names one exact assembly/type/member scope. A namespace, assembly wildcard, or native address cannot authorize exclusion. An `exact-artifact` identification result alone never becomes adoption.
+The classifier validates this explicit contract; it does not authenticate the writer's identity or create the receipt. `reuse-upstream` and `skip-native` require that exact catalog candidate and `sourceConfirmed: true`. An explicit provider decision outside the builtin detection path requires `provider`, `providerVerified: true`, and `profileVerified: true`. The registered builtin path above separates confirmed engine identity from pending installation/profile and needs no adoption decision. `regenerate` requires `inputsVerified: true`, `generator`, and nonempty `sourceRefs`. Every manual decision names one exact assembly/type/member scope. A namespace, assembly wildcard, or native address alone cannot authorize exclusion. An `exact-artifact` identification result alone never becomes adoption.
 
 ## Restoration and cache binding
 
@@ -109,7 +121,7 @@ result = classify(original_inventory, pinned_catalog,
 
 Only current deferred declarations can be explicitly restored. A nonempty reason is mandatory. Their category and candidates remain, `originalNativeAction` records the previous route, and their unresolved library queue item remains visible while `nativeAction` becomes `recover-native`. After explicit restoration, recovery also follows every verified compiler-generated owner chain, including multiple levels and input orders where a child precedes its owner. Those rows preserve the reason, `restorationInheritedFrom`, and `restorationRootId`; their pending source-resolution items remain visible. Restoring a generated member itself does not re-defer it to a library owner. This propagates native examination, never upstream acceptance: every generated member still needs its own exact original-writer adoption scope.
 
-The deterministic cache key binds target, dump/input SHA, the complete inventory content, catalog commit and content, classifier file SHA, profile, matches, decisions, and restoration arguments. Reuse an existing result only when the complete key agrees. No network access, package download or full native decoding occurs during classification.
+The deterministic cache key binds target, dump/input SHA, the complete inventory content, catalog commit and content, classifier file SHA, builtin producer/rule content, profile, matches, decisions, and restoration arguments. Reuse an existing result only when the complete key agrees. No network access, package download or full native decoding occurs during classification.
 
 ## Original ReMaker integration recommendation
 

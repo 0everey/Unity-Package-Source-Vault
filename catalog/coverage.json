@@ -1,2475 +1,601 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-17T18:23:05.427561Z",
+  "generatedAt": "2026-10-17T19:27:01.723370Z",
   "sourceSnapshots": [
     {
-      "schemaVersion": "1.0",
-      "source": "OpenUPM",
-      "repository": "https://github.com/openupm/openupm",
-      "commit": "de21083bda3ca4644d094da696ddc9e66b09f28e",
-      "enumeration": "recursive-tree",
-      "completeEnumeration": true,
-      "discoveredAt": "2026-10-17T17:33:01.211798Z",
-      "discoveredCount": 4089
+      "source": "common-packages.json",
+      "scopeVersion": "R4",
+      "configuredPackageFamilies": 35,
+      "discoveredAt": "2026-10-17T19:26:47.564584Z"
     }
   ],
   "completeEnumeration": true,
-  "scope": "OpenUPM definitions plus explicit Unity/runtime/reference seeds; not the whole ecosystem",
-  "discoveredPackages": 4549,
-  "registeredPackages": 4342,
+  "scope": "Common Unity builtin providers and explicitly listed common packages; two or three versions per family",
+  "discoveredPackages": 55,
+  "registeredPackages": 55,
   "metadataStatusCounts": {
-    "reference-only": 41,
-    "complete": 4301,
-    "failed": 207
+    "complete": 35,
+    "reference-only": 20
   },
-  "listedVersions": 62190,
-  "selectedVersionTasks": 11237,
-  "completedSelectedVersionTasks": 31,
-  "pendingSelectedVersionTasks": 11206,
-  "fetchedVersionRecords": 34,
+  "listedVersions": 92,
+  "selectedVersionTasks": 65,
+  "completedSelectedVersionTasks": 7,
+  "pendingSelectedVersionTasks": 58,
+  "fetchedVersionRecords": 7,
   "publishedVersionRecords": 6,
   "remoteReadbackVerifiedVersionRecords": 6,
   "dispositionCounts": {
-    "user-provided-only": 1,
-    "license-unresolved": 62184,
-    "source-unavailable": 3,
-    "builtin-reference": 37,
-    "mirror-allowed": 6
+    "license-unresolved": 59,
+    "official-fetch-only": 13,
+    "mirror-allowed": 6,
+    "builtin-reference": 17
   },
   "fetchStatusCounts": {
-    "pending": 62156,
-    "collected": 28,
-    "published": 6
+    "pending": 58,
+    "reference-only": 27,
+    "published": 6,
+    "collected": 1
   },
   "discoveryFrontier": [
     {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.adorkable.eunomia-unity",
-      "status": "unresolved-source"
+      "packageId": "com.unity.modules.ui",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.ugui",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "com.dbrizov.naughtyattributes",
-      "specification": "git+https://github.com/dbrizov/NaughtyAttributes.git#upm",
-      "discoveredBy": "com.adorkable.eunomia-unity",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.alicizax.unity.framework",
-      "specification": "",
-      "discoveredBy": "com.alicizax.unity.editor.extension",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.nuget.newtonsoft-json",
-      "specification": "",
-      "discoveredBy": "com.alicizax.unity.framework",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.alicizax.unity.framework",
-      "specification": "",
-      "discoveredBy": "com.alicizax.unity.ui.extension",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.anatawa12.custom-localization-for-editor-extension",
-      "specification": "^0.2.1",
-      "discoveredBy": "com.anatawa12.animator-controller-as-a-code",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.anatawa12.custom-localization-for-editor-extension",
-      "specification": "^1.0.0",
-      "discoveredBy": "com.anatawa12.animator-controller-as-a-code",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.openai.unity",
-      "specification": "git+https://github.com/bhadrik/com.openai.unity.git#main",
-      "discoveredBy": "com.autopilot.unity",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.beddup.figmaclient",
-      "specification": "git+https://github.com/beddup/figmaclient.git#main",
-      "discoveredBy": "com.beddup.figma-ugui-prefab-builder",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.beddup.figmatmpstyler",
-      "specification": "git+https://github.com/beddup/FigmaTMPStyler.git#main",
-      "discoveredBy": "com.beddup.figma-ugui-prefab-builder",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.2.5",
-      "discoveredBy": "com.boscohyun.rxpresenter",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.neuecc.unirx",
-      "specification": "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts#7.1.0",
-      "discoveredBy": "com.boscohyun.rxpresenter",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.boscohyun.uniui",
-      "specification": "https://github.com/boscohyun/UniUI.git?path=Assets/Plugins/UniUI/Examples#main",
-      "discoveredBy": "com.boscohyun.uniui.examples",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.1.0",
-      "discoveredBy": "com.boscohyun.uniui",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.neuecc.unirx",
-      "specification": "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts#master",
-      "discoveredBy": "com.boscohyun.uniui",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.itisnajim.socketiounity",
-      "specification": "^1.1.5",
-      "discoveredBy": "com.bravestremers.sg-unity-sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.veriorpies.parrelsync",
-      "specification": "^1.5.2",
-      "discoveredBy": "com.bravestremers.sg-unity-sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.indiegabo.hms-unity-sdk",
-      "specification": "^1.1.1",
-      "discoveredBy": "com.bravestremers.sg-unity-sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git#2.3.1",
-      "discoveredBy": "com.chebanovdd.match3sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.chebanovdd.match3sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.chennyang.developkit",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git#2.5.0",
-      "discoveredBy": "com.chennyang.developkit",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git#2.1.0",
-      "discoveredBy": "com.chennyang.developkit",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cippsharpcore.containers",
-      "specification": "git+https://github.com/ZiosTheCloudburster/CippSharpCoreContainers.git#1.0.1",
-      "discoveredBy": "com.cippsharp.serialization",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cippsharpcore.utilsandextensions",
-      "specification": "git+https://github.com/ZiosTheCloudburster/CippSharpCoreUtilsAndExtensions.git#1.1.0",
-      "discoveredBy": "com.cippsharp.serialization",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.universal",
-      "specification": "",
-      "discoveredBy": "com.cqf.urpvolumetricfog",
-      "status": "unresolved-source"
+      "packageId": "com.unity.modules.imgui",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.ugui",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
       "packageId": "com.unity.burst",
-      "specification": "^1.8.7",
-      "discoveredBy": "com.cwj.yu.mobility",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.textmeshpro",
-      "specification": "^3.0.6",
-      "discoveredBy": "com.cwj.yu.mobility",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "specification": "^12.1.10",
-      "discoveredBy": "com.cwj.yu.mobility",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.universal",
-      "specification": "^12.1.10",
-      "discoveredBy": "com.cwj.yu.mobility",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.dartcore.utilities",
-      "specification": "git+https://github.com/AtaTrkgl/DartCore-Utilities.git",
-      "discoveredBy": "com.dartcore.localization",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.dartcore.utilities",
-      "specification": "git:https://github.com/AtaTrkgl/DartCore-Utilities.git",
-      "discoveredBy": "com.dartcore.ui",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.dartcore.localization",
-      "specification": "git:https://github.com/AtaTrkgl/DartCore-Localization.git",
-      "discoveredBy": "com.dartcore.ui",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.deepfreeze.extensions",
-      "specification": "git+https://github.com/DeepFreezeGames/com.deepfreeze.extensions.git",
-      "discoveredBy": "com.deepfreeze.uiextensions",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.editorcoroutines",
-      "specification": "",
-      "discoveredBy": "com.dgtools.core",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.common",
-      "specification": "git+https://github.com/starikcetin/Eflatun.Common.git#0.0.1",
-      "discoveredBy": "com.eflatun.calculation",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.common",
-      "specification": "git+https://github.com/starikcetin/Eflatun.Common.git#0.0.2",
-      "discoveredBy": "com.eflatun.calculation",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.codepatterns",
-      "specification": "git+https://github.com/starikcetin/Eflatun.CodePatterns.git#0.0.1",
-      "discoveredBy": "com.eflatun.common",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.svermeulen.extenject",
-      "specification": "git+https://github.com/starikcetin/Extenject.git#9.1.0",
-      "discoveredBy": "com.eflatun.eventbus",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.calculation",
-      "specification": "git+https://github.com/starikcetin/Eflatun.Calculation.git#0.0.2",
-      "discoveredBy": "com.eflatun.gridbuilding",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.calculation",
-      "specification": "git+https://github.com/starikcetin/Eflatun.Calculation.git#0.0.3",
-      "discoveredBy": "com.eflatun.gridbuilding",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.codepatterns",
-      "specification": "git+https://github.com/starikcetin/Eflatun.CodePatterns.git#0.0.1",
-      "discoveredBy": "com.eflatun.pooling",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.expansions",
-      "specification": "git+https://github.com/EflatunLibraries/Eflatun.Expansions.git#0.2.0",
-      "discoveredBy": "com.eflatun.pooling",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.common",
-      "specification": "git+https://github.com/starikcetin/Eflatun.Common.git#0.0.1",
-      "discoveredBy": "com.eflatun.sampling",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.randomutils",
-      "specification": "git+https://github.com/starikcetin/Eflatun.RandomUtils.git#0.0.2",
-      "discoveredBy": "com.eflatun.sampling",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.common",
-      "specification": "git+https://github.com/starikcetin/Eflatun.Common.git#0.0.2",
-      "discoveredBy": "com.eflatun.sampling",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.randomutils",
-      "specification": "git+https://github.com/starikcetin/Eflatun.RandomUtils.git#0.0.3",
-      "discoveredBy": "com.eflatun.sampling",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.calculation",
-      "specification": "git+https://github.com/starikcetin/Eflatun.Calculation.git#0.0.3",
-      "discoveredBy": "com.eflatun.sampling",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.randomutils",
-      "specification": "git+https://github.com/starikcetin/Eflatun.RandomUtils.git#0.0.4",
-      "discoveredBy": "com.eflatun.sampling",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.calculation",
-      "specification": "git+https://github.com/starikcetin/Eflatun.Calculation.git#0.0.2",
-      "discoveredBy": "com.eflatun.randomutils",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.calculation",
-      "specification": "git+https://github.com/starikcetin/Eflatun.Calculation.git#0.0.3",
-      "discoveredBy": "com.eflatun.randomutils",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.expansions",
-      "specification": "git+https://github.com/starikcetin/Eflatun.Expansions.git#0.2.0",
-      "discoveredBy": "com.eflatun.tracking2d",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.common",
-      "specification": "git+https://github.com/starikcetin/Eflatun.Common.git#0.0.2",
-      "discoveredBy": "com.eflatun.tracking2d",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.calculation",
-      "specification": "git+https://github.com/starikcetin/Eflatun.Calculation.git#0.0.3",
-      "discoveredBy": "com.eflatun.tracking2d",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.eflatun.codepatterns",
-      "specification": "git+https://github.com/starikcetin/Eflatun.CodePatterns.git#0.0.1",
-      "discoveredBy": "com.eflatun.tracking2d",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.dbrizov.naughtyattributes",
-      "specification": "git+https://github.com/dbrizov/NaughtyAttributes.git#upm",
-      "discoveredBy": "com.evolutex.evolunity",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.fp.collections",
-      "specification": "https://github.com/FrameProjectTeam/Collections.git?path=/Unity/Assets",
-      "discoveredBy": "com.fp.netwokring",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.fp.utility",
-      "specification": "https://github.com/FrameProjectTeam/Fp.Unity.Utility.git?path=/Assets",
-      "discoveredBy": "com.fp.netwokring",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "io.elhan.play-services-resolver",
-      "specification": "git+https://github.com/oae/unity-package-play-services-resolver.git#0.1.0",
-      "discoveredBy": "com.gameanalytics.sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.memorypack",
-      "specification": "git+https://github.com/Cysharp/MemoryPack.git#1.9.14",
-      "discoveredBy": "com.github.xaroth8088.networkstatemanager",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.annulusgames.alchemy",
-      "specification": "^2.0.1",
-      "discoveredBy": "com.gnomecap.coredependencies",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.annulusgames.lit-motion",
-      "specification": "^2.0.0",
-      "discoveredBy": "com.gnomecap.coredependencies",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.annulusgames.tween-playables",
-      "specification": "^0.9.1",
-      "discoveredBy": "com.gnomecap.coredependencies",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.memorypack",
-      "specification": "^1.21.4",
-      "discoveredBy": "com.gnomecap.coredependencies",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "^2.5.10",
-      "discoveredBy": "com.gnomecap.coredependencies",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.github-glitchenzo.nugetforunity",
-      "specification": "^4.5.0",
-      "discoveredBy": "com.gnomecap.coredependencies",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.kyrylokuzyk.primetween",
-      "specification": "^1.3.3",
-      "discoveredBy": "com.gnomecap.coredependencies",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git#2.5.10",
-      "discoveredBy": "com.google.gemma.cpp",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.google.play.common",
-      "specification": "https://github.com/Gamee-Studio/google-play-common.git?path=Assets/_Root#v1.3.0",
-      "discoveredBy": "com.google.play.review",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.google.play.core",
-      "specification": "https://github.com/Gamee-Studio/google-play-core.git?path=Assets/_Root#v1.3.0",
-      "discoveredBy": "com.google.play.review",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.textmeshpro",
-      "specification": "^3.0.6",
-      "discoveredBy": "com.gsr.tmproplayer",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.guciodevs.simple-min-max-slider",
-      "specification": "",
-      "discoveredBy": "com.guplem.unityessentials",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xicore",
-      "specification": "git+https://github.com/hww/XiCore.git#upm",
-      "discoveredBy": "com.hww.xijson",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.dbrizov.naughtyattributes",
-      "specification": "git+https://github.com/dbrizov/NaughtyAttributes.git#upm",
-      "discoveredBy": "com.hww.xijson",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xicore",
-      "specification": "git+https://github.com/hww/XiCore.git#upm",
-      "discoveredBy": "com.hww.xigametool",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.dbrizov.naughtyattributes",
-      "specification": "git+https://github.com/dbrizov/NaughtyAttributes.git#upm",
-      "discoveredBy": "com.hww.xigametool",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xisubsystem",
-      "specification": "git+https://github.com/hww/XiSubSystem.git#upm",
-      "discoveredBy": "com.hww.xipixeltexteffect",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xidebugmenu",
-      "specification": "git+https://github.com/hww/XiDebugMenu.git#upm",
-      "discoveredBy": "com.hww.xipixeltexteffect",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xicore",
-      "specification": "git+https://github.com/hww/XiCore.git#upm",
-      "discoveredBy": "com.hww.xipixeltexteffect",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.dbrizov.naughtyattributes",
-      "specification": "git+https://github.com/dbrizov/NaughtyAttributes.git#upm",
-      "discoveredBy": "com.hww.xipixeltexteffect",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xisubsystem",
-      "specification": "git+https://github.com/hww/XiSubSystem.git#upm",
-      "discoveredBy": "com.hww.xisound",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xidebugmenu",
-      "specification": "git+https://github.com/hww/XiDebugMenu.git#upm",
-      "discoveredBy": "com.hww.xisound",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xicore",
-      "specification": "git+https://github.com/hww/XiCore.git#upm",
-      "discoveredBy": "com.hww.xisound",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.dbrizov.naughtyattributes",
-      "specification": "git+https://github.com/dbrizov/NaughtyAttributes.git#upm",
-      "discoveredBy": "com.hww.xisound",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xicore",
-      "specification": "git+https://github.com/hww/XiCore.git#upm",
-      "discoveredBy": "com.hww.xirename",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.dbrizov.naughtyattributes",
-      "specification": "git+https://github.com/dbrizov/NaughtyAttributes.git#upm",
-      "discoveredBy": "com.hww.xirename",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xisubsystem",
-      "specification": "git+https://github.com/hww/XiSubSystem.git#upm",
-      "discoveredBy": "com.hww.xikeyboard",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xidebugmenu",
-      "specification": "git+https://github.com/hww/XiDebugMenu.git#upm",
-      "discoveredBy": "com.hww.xikeyboard",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xicore",
-      "specification": "git+https://github.com/hww/XiCore.git#upm",
-      "discoveredBy": "com.hww.xikeyboard",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.dbrizov.naughtyattributes",
-      "specification": "git+https://github.com/dbrizov/NaughtyAttributes.git#upm",
-      "discoveredBy": "com.hww.xikeyboard",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.dbrizov.naughtyattributes",
-      "specification": "git+https://github.com/dbrizov/NaughtyAttributes.git#upm",
-      "discoveredBy": "com.hww.xidebugmenu",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xicore",
-      "specification": "git+https://github.com/hww/XiCore.git#upm",
-      "discoveredBy": "com.hww.xidebugmenu",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.dbrizov.naughtyattributes",
-      "specification": "git+https://github.com/dbrizov/NaughtyAttributes.git#upm",
-      "discoveredBy": "com.hww.xiunitools",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xidebugmenu",
-      "specification": "git+https://github.com/hww/XiDebugMenu.git#upm",
-      "discoveredBy": "com.hww.xiunitools",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.hww.xicore",
-      "specification": "git+https://github.com/hww/XiCore.git#upm",
-      "discoveredBy": "com.hww.xiunitools",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.itisnajim.socketiounity",
-      "specification": "^1.1.5",
-      "discoveredBy": "com.indiegabo.hms-unity-sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.veriorpies.parrelsync",
-      "specification": "^1.5.2",
-      "discoveredBy": "com.indiegabo.hms-unity-sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": ">=2.0.21",
-      "discoveredBy": "com.jagapippi.unitask-supplement",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.addressables",
-      "specification": "",
-      "discoveredBy": "com.jonagill.addressablerequests",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.jonagill.promises",
-      "specification": "",
-      "discoveredBy": "com.jonagill.addressablerequests",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.jonagill.promises",
-      "specification": "",
-      "discoveredBy": "com.jonagill.asyncroutines",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.addressables",
-      "specification": "",
-      "discoveredBy": "com.jonagill.addressablesgenerator",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.jonagill.promises",
-      "specification": "",
-      "discoveredBy": "com.jonagill.unitycollections",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.kwanjoong.webviewrpc",
-      "specification": "git+https://github.com/kwan3854/Unity-WebViewRpc.git",
-      "discoveredBy": "com.kwanjoong.ait-sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.github-glitchenzo.nugetforunity",
-      "specification": "git+https://github.com/GlitchEnzo/NuGetForUnity.git",
-      "discoveredBy": "com.kwanjoong.ait-sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.uniatask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.kwanjoong.ait-sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "^2.5.0",
-      "discoveredBy": "com.kwanjoong.unityuistoryboard",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "jp.hadashikick.vcontainer",
-      "specification": "^1.6.0",
-      "discoveredBy": "com.kwanjoong.unityuistoryboard",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.harumak.unityscreennavigator",
-      "specification": "^1.7.0",
-      "discoveredBy": "com.kwanjoong.unityuistoryboard",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "jp.adarapata.screensystem",
-      "specification": "^0.0.11",
-      "discoveredBy": "com.kwanjoong.unityuistoryboard",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.messagepipe",
-      "specification": "^1.8.0",
-      "discoveredBy": "com.kwanjoong.unityuistoryboard",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.messagepipe.vcontainer",
-      "specification": "^1.8.0",
-      "discoveredBy": "com.kwanjoong.unityuistoryboard",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.harumak.upalette",
-      "specification": "^2.5.2",
-      "discoveredBy": "com.kwanjoong.unityuistoryboard",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.textmeshpro",
-      "specification": "^2.0.1",
-      "discoveredBy": "com.kyusque.galahad",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.leopotam.ecslite",
-      "specification": "git+https://github.com/Leopotam/ecslite.git#2021.5.22",
-      "discoveredBy": "com.lance.lance",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.leopotam.ecslite.threads.unity",
-      "specification": "git+https://github.com/Leopotam/ecslite-threads-unity.git#2021.5.22",
-      "discoveredBy": "com.lance.lance",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.voody.unileo.lite",
-      "specification": "git+https://github.com/yenmoc/UniLeo-Lite.git",
-      "discoveredBy": "com.lance.lance",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.legustavinho.legendary-tools-common",
-      "specification": "git+https://github.com/LeGustaVinho/legendary-tools-common.git",
-      "discoveredBy": "com.legustavinho.legendary-tools-attribute-system",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.legustavinho.legendary-tools-common",
-      "specification": "git+https://github.com/LeGustaVinho/legendary-tools-common.git",
-      "discoveredBy": "com.legustavinho.legendary-tools-actor",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.legustavinho.legendary-tools-pool",
-      "specification": "git+https://github.com/LeGustaVinho/pool.git",
-      "discoveredBy": "com.legustavinho.legendary-tools-actor",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.legustavinho.legendary-tools-common",
-      "specification": "git+https://github.com/LeGustaVinho/legendary-tools-common.git",
-      "discoveredBy": "com.legustavinho.legendary-tools-graphs",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.legustavinho.legendary-tools-graphs",
-      "specification": "git+https://github.com/LeGustaVinho/graphs.git",
-      "discoveredBy": "com.legustavinho.legendary-tools-maestro",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.legustavinho.legendary-tools-common",
-      "specification": "git+https://github.com/LeGustaVinho/legendary-tools-common.git",
-      "discoveredBy": "com.legustavinho.legendary-tools-singleton",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.mathematics",
-      "specification": "^1.2.6",
-      "discoveredBy": "com.libsugar.sugar.unity.mathematics",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.ltmx.cs.extensions",
-      "specification": "git+https://github.com/ltmx/Unity.CSharp.Extensions.git",
-      "discoveredBy": "com.ltmx.unity.uitoolkit.extensions",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.ltmx.cs.extensions",
-      "specification": "git+https://github.com/ltmx/Unity.CSharp.Extensions.git",
-      "discoveredBy": "com.ltmx.unity.qoi",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.itisnajim.socketiounity",
-      "specification": "^1.1.5",
-      "discoveredBy": "com.lung-interactive.sg-unity-sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.veriorpies.parrelsync",
-      "specification": "^1.5.2",
-      "discoveredBy": "com.lung-interactive.sg-unity-sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.indiegabo.hms-unity-sdk",
-      "specification": "^1.1.1",
-      "discoveredBy": "com.lung-interactive.sg-unity-sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "^2.5.10",
-      "discoveredBy": "com.lung-interactive.sg-unity-sdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.playeveryware.eos",
-      "specification": "git+https://github.com/PlayEveryWare/eos_plugin_for_unity_upm.git#v1.0.4",
-      "discoveredBy": "com.miragenet.epicsocket",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.rlabrecque.steamworks.net",
-      "specification": "https://github.com/rlabrecque/Steamworks.NET.git?path=/com.rlabrecque.steamworks.net",
-      "discoveredBy": "com.miragenet.steamy",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.rlabrecque.steamworks.net",
-      "specification": "https://github.com/rlabrecque/Steamworks.NET.git?path=/com.rlabrecque.steamworks.net#20.1.0",
-      "discoveredBy": "com.miragenet.steamy",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.memorypack",
-      "specification": "git+https://github.com/Cysharp/MemoryPack.git",
-      "discoveredBy": "com.mrdav30.fixedmathsharp",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.ms.litask",
-      "specification": "git+https://github.com/wlgys8/LitTask.git",
-      "discoveredBy": "com.ms.async.tween",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.ms.async",
-      "specification": "git+https://github.com/wlgys8/MSAsync.git",
-      "discoveredBy": "com.ms.async.tween",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.textus-games.serialized-reference-ui",
-      "specification": "git+https://github.com/TextusGames/UnitySerializedReferenceUI.git",
-      "discoveredBy": "com.naelstrof.penetrationtech",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "docusaurus",
-      "specification": "^1.14.7",
-      "discoveredBy": "com.nhemdangfugbixs.tooling",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.openai.unity",
-      "specification": "",
-      "discoveredBy": "com.prototyper.openai-editor-tool",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.nuget.newtonsoft-json",
-      "specification": "",
-      "discoveredBy": "com.prototyper.openai-editor-tool",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.kuraiandras.numericsconverter",
-      "specification": "https://github.com/KuraiAndras/NumericsConverter.git?path=/NumericsConverter/Assets/NumericsConverter",
-      "discoveredBy": "com.psydack.uimgui",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.editorcoroutines",
-      "specification": "",
-      "discoveredBy": "com.reactunity.core",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.revenuecat.purchases-unity",
-      "specification": "file:../RevenueCat",
-      "discoveredBy": "com.revenuecat.purchases-ui-unity",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.revenuedot.purchases-unity",
-      "specification": "file:../RevenueCat",
-      "discoveredBy": "com.revenuedot.purchases-ui-unity",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.mackysoft.serializereference-extensions",
-      "specification": "git+https://github.com/mackysoft/Unity-SerializeReferenceExtensions.git",
-      "discoveredBy": "com.sandsoft.sudf-packages",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.yasirkula.nativeshare",
-      "specification": "^1.3.5",
-      "discoveredBy": "com.seemba.unitysdk",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.sipvlib.ads",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.anticheat",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.anticheat.git",
-      "discoveredBy": "com.sipvlib.ads",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.config",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.config.git",
-      "discoveredBy": "com.sipvlib.ads",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.debugging",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
-      "discoveredBy": "com.sipvlib.ads",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.event",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.event.git",
-      "discoveredBy": "com.sipvlib.ads",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.providers",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.providers.git",
-      "discoveredBy": "com.sipvlib.ads",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.userdata",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.userdata.git",
-      "discoveredBy": "com.sipvlib.ads",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.utilities",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.utilities.git",
-      "discoveredBy": "com.sipvlib.ads",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.sipvlib.config",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.debugging",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
-      "discoveredBy": "com.sipvlib.config",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.event",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.event.git",
-      "discoveredBy": "com.sipvlib.config",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.utilities",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.utilities.git",
-      "discoveredBy": "com.sipvlib.config",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.debugging",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
-      "discoveredBy": "com.sipvlib.extras.components",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.sound",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.sound.git",
-      "discoveredBy": "com.sipvlib.extras.components",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.vibrate",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.vibrate.git",
-      "discoveredBy": "com.sipvlib.extras.components",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.sipvlib.anticheat",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.config",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.config.git",
-      "discoveredBy": "com.sipvlib.anticheat",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.debugging",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
-      "discoveredBy": "com.sipvlib.anticheat",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.event",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.event.git",
-      "discoveredBy": "com.sipvlib.anticheat",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.utilities",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.utilities.git",
-      "discoveredBy": "com.sipvlib.anticheat",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.sipvlib.shop",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.config",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.config.git",
-      "discoveredBy": "com.sipvlib.shop",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.debugging",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
-      "discoveredBy": "com.sipvlib.shop",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.event",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.event.git",
-      "discoveredBy": "com.sipvlib.shop",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.pool",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.pool.git",
-      "discoveredBy": "com.sipvlib.shop",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.userdata",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.userdata.git",
-      "discoveredBy": "com.sipvlib.shop",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.utilities",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.utilities.git",
-      "discoveredBy": "com.sipvlib.shop",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.debugging",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
-      "discoveredBy": "com.sipvlib.event",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.sipvlib.pool",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.config",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.config.git",
-      "discoveredBy": "com.sipvlib.pool",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.debugging",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
-      "discoveredBy": "com.sipvlib.pool",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.event",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.event.git",
-      "discoveredBy": "com.sipvlib.pool",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.utilities",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.utilities.git",
-      "discoveredBy": "com.sipvlib.pool",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.debugging",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
-      "discoveredBy": "com.sipvlib.providers",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.sipvlib.sound",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.config",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.config.git",
-      "discoveredBy": "com.sipvlib.sound",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.debugging",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
-      "discoveredBy": "com.sipvlib.sound",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.event",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.event.git",
-      "discoveredBy": "com.sipvlib.sound",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.userdata",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.userdata.git",
-      "discoveredBy": "com.sipvlib.sound",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.utilities",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.utilities.git",
-      "discoveredBy": "com.sipvlib.sound",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.sipvlib.ui",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.config",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.config.git",
-      "discoveredBy": "com.sipvlib.ui",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.debugging",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
-      "discoveredBy": "com.sipvlib.ui",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.event",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.event.git",
-      "discoveredBy": "com.sipvlib.ui",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.pool",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.pool.git",
-      "discoveredBy": "com.sipvlib.ui",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.utilities",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.utilities.git",
-      "discoveredBy": "com.sipvlib.ui",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.debugging",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
-      "discoveredBy": "com.sipvlib.utilities",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.sipvlib.vibrate",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.config",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.config.git",
-      "discoveredBy": "com.sipvlib.vibrate",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.debugging",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
-      "discoveredBy": "com.sipvlib.vibrate",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.event",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.event.git",
-      "discoveredBy": "com.sipvlib.vibrate",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.userdata",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.userdata.git",
-      "discoveredBy": "com.sipvlib.vibrate",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.utilities",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.utilities.git",
-      "discoveredBy": "com.sipvlib.vibrate",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.sipvlib.userdata",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.anticheat",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.anticheat.git",
-      "discoveredBy": "com.sipvlib.userdata",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.config",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.config.git",
-      "discoveredBy": "com.sipvlib.userdata",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.debugging",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
-      "discoveredBy": "com.sipvlib.userdata",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.event",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.event.git",
-      "discoveredBy": "com.sipvlib.userdata",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.pool",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.pool.git",
-      "discoveredBy": "com.sipvlib.userdata",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.providers",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.providers.git",
-      "discoveredBy": "com.sipvlib.userdata",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.ui",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.ui.git",
-      "discoveredBy": "com.sipvlib.userdata",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.utilities",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.utilities.git",
-      "discoveredBy": "com.sipvlib.userdata",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.sipvlib.tutorial",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.config",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.config.git",
-      "discoveredBy": "com.sipvlib.tutorial",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.debugging",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git",
-      "discoveredBy": "com.sipvlib.tutorial",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.event",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.event.git",
-      "discoveredBy": "com.sipvlib.tutorial",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.pool",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.pool.git",
-      "discoveredBy": "com.sipvlib.tutorial",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.ui",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.ui.git",
-      "discoveredBy": "com.sipvlib.tutorial",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.userdata",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.userdata.git",
-      "discoveredBy": "com.sipvlib.tutorial",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sipvlib.utilities",
-      "specification": "git+https://github.com/phajmvawnsix/com.sipvlib.utilities.git",
-      "discoveredBy": "com.sipvlib.tutorial",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.skillitronic.playerloopcustomizationapi",
-      "specification": "git+https://github.com/skelitheprogrammer/PlayerLoop-Customization-API.git",
-      "discoveredBy": "com.skillitronic.playerloopcustomizationapi.addons.runner",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.skillitronic.playerloopcustomizationapi",
-      "specification": "git+https://github.com/skelitheprogrammer/PlayerLoop-Customization-API.git",
-      "discoveredBy": "com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.skillitronic.playerloopcustomizationapi.addons.runner",
-      "specification": "git+https://github.com/skelitheprogrammer/PlayerLoop-customization-API-Runner-Addon.git",
-      "discoveredBy": "com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.gustavopsantos.reflex",
-      "specification": "git+https://github.com/gustavopsantos/reflex.git#4.4.1",
-      "discoveredBy": "com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sproutinggames.sprouts.etb",
-      "specification": "git+https://github.com/TheGreenSprout/SETB.git#v2.4.3",
-      "discoveredBy": "com.sproutinggames.sprouts.huu",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.sproutinggames.sprouts.etb",
-      "specification": "git+https://github.com/TheGreenSprout/SETB.git#v2.5.8",
-      "discoveredBy": "com.sproutinggames.sprouts.huu",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.annulusgames.alchemy",
-      "specification": "git+https://github.com/annulusgames/Alchemy.git",
-      "discoveredBy": "com.sproutinggames.sprouts.etb",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.nuget.mono-cecil",
-      "specification": "",
-      "discoveredBy": "com.stalomeow.google-protobuf",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.grofit.bindingsrx",
-      "specification": "git+https://github.com/starikcetin/bindingsrx.git#0.4.0",
-      "discoveredBy": "com.starikcetin.bindingsrx-textmeshpro",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.nuget.newtonsoft-json",
-      "specification": "^3.0.0",
-      "discoveredBy": "com.taygeek.unity.jwt",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.tech-cosmos.ecs",
-      "specification": "git+https://github.com/PeterParkers007/Tech-Cosmos.Framework.ECS.git#v1.0.0",
-      "discoveredBy": "com.tech-cosmos.unitcore",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.zstring",
-      "specification": "git+https://github.com/Cysharp/ZString.git#2.6.0",
-      "discoveredBy": "com.timbojimbo.localization",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unigame.coremodules",
-      "specification": "git+https://github.com/UnioGame/UniGame.CoreModules.git",
-      "discoveredBy": "com.unigame.unibuildpipeline",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.unigame.unibuildpipeline",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unigame.addressablestools",
-      "specification": "git+https://github.com/UnioGame/unigame.addressables.git",
-      "discoveredBy": "com.unigame.unityspreadsheets",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unigame.typeconverters",
-      "specification": "git+https://github.com/UnioGame/unigame.typeconverters.git",
-      "discoveredBy": "com.unigame.unityspreadsheets",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unigame.unicore",
-      "specification": "git+https://github.com/UnioGame/unigame.core.git",
-      "discoveredBy": "com.unigame.unityspreadsheets",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unigame.localization",
-      "specification": "git+https://github.com/UnioGame/unigame.localization.git",
-      "discoveredBy": "com.unigame.unityspreadsheets",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unigame.rx",
-      "specification": "git+https://github.com/UnioGame/unigame.rx.git",
-      "discoveredBy": "com.unigame.unityspreadsheets",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.unigame.unityspreadsheets",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unigame.google.api.v4",
-      "specification": "git+https://github.com/UnioGame/google.api.v4.git",
-      "discoveredBy": "com.unigame.unityspreadsheets",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "com.unigame.viewsystem",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.r3",
-      "specification": "git+https://github.com/Cysharp/R3.git",
-      "discoveredBy": "com.unigame.viewsystem",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.github-glitchenzo.nugetforunity",
-      "specification": "git+https://github.com/GlitchEnzo/NuGetForUnity.git",
-      "discoveredBy": "com.unigame.viewsystem",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git#2.5.10",
-      "discoveredBy": "com.virtuesky.sunflower",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.timeline",
-      "specification": "",
-      "discoveredBy": "com.xiaojiang.pragmatimeline",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.zor.simple-blackboard",
-      "specification": "git+https://github.com/ZorPastaman/Simple-Blackboard.git",
-      "discoveredBy": "com.zor.behavior-tree",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.zor.simple-blackboard",
-      "specification": "git+https://github.com/ZorPastaman/Simple-Blackboard.git",
-      "discoveredBy": "com.zor.utility-ai",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.xr.management",
-      "specification": "*",
-      "discoveredBy": "dev.hypernex.cck.unity",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.xr.openxr",
-      "specification": "*",
-      "discoveredBy": "dev.hypernex.cck.unity",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.universal",
-      "specification": "*",
-      "discoveredBy": "dev.hypernex.cck.unity",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.ugui",
-      "specification": "*",
-      "discoveredBy": "dev.hypernex.cck.unity",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.ai.navigation",
-      "specification": "*",
-      "discoveredBy": "dev.hypernex.cck.unity.emulator",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
-      "discoveredBy": "dev.kyubuns.animetask",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git",
-      "discoveredBy": "dev.kyubuns.animetask",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "id.instance.extensions",
-      "specification": "file:../../id.instance.packagerepo/Assets/instance.id/Extensions",
-      "discoveredBy": "id.instance.elementanimationtoolkit",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.marijnzwemmer.unity-toolbar-extender",
-      "specification": "git+https://github.com/marijnz/unity-toolbar-extender.git",
-      "discoveredBy": "io.megamiley.change-camera-aim-on-start",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git#2.1.0",
-      "discoveredBy": "jp.adarapata.screensystem",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "jp.hadashikick.vcontainer",
-      "specification": "git+https://github.com/hadashiA/VContainer.git#1.13.2",
-      "discoveredBy": "jp.adarapata.screensystem",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.harumak.unityscreennavigator",
-      "specification": "git+https://github.com/Haruma-K/UnityScreenNavigator.git#1.6.3",
-      "discoveredBy": "jp.adarapata.screensystem",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "specification": "git+https://github.com/Cysharp/UniTask.git#2.5.4",
-      "discoveredBy": "jp.adarapata.screensystem",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.nuget.newtonsoft-json",
-      "specification": "*",
-      "discoveredBy": "jp.sh0uroom.assetlinker",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.unity.nuget.newtonsoft-json",
-      "specification": "",
-      "discoveredBy": "jp.sh0uroom.assetlinker",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.heatblayze.customprojectsettings",
-      "specification": "git+https://github.com/heatblayze/CustomProjectSettings.git#1.3.1",
-      "discoveredBy": "net.slothsoft.unity-extensions",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "net.tnrd.constrainedrect",
-      "specification": "git+https://github.com/Thundernerd/Unity3D-ConstrainedRect.git#2.1.0",
-      "discoveredBy": "net.tnrd.enumasindex",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "net.tnrd.constrainedrect",
-      "specification": "git+https://github.com/Thundernerd/Unity3D-ConstrainedRect.git%402.1.0.git",
-      "discoveredBy": "net.tnrd.enumasindex",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "net.tnrd.codegenerator",
-      "specification": "git+https://github.com/Thundernerd/Unity3D-CodeGenerator.git#1.0.0",
-      "discoveredBy": "net.tnrd.layertagsgenerator",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "@semantic-release/changelog",
-      "specification": "^6.0.2",
-      "discoveredBy": "net.tnrd.statemachine",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "@semantic-release/commit-analyzer",
-      "specification": "^9.0.2",
-      "discoveredBy": "net.tnrd.statemachine",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "@semantic-release/git",
-      "specification": "^10.0.1",
-      "discoveredBy": "net.tnrd.statemachine",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "@semantic-release/github",
-      "specification": "^8.0.7",
-      "discoveredBy": "net.tnrd.statemachine",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "@semantic-release/npm",
-      "specification": "^9.0.1",
-      "discoveredBy": "net.tnrd.statemachine",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "@semantic-release/release-notes-generator",
-      "specification": "^10.0.3",
-      "discoveredBy": "net.tnrd.statemachine",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "conventional-changelog-conventionalcommits",
-      "specification": "^5.0.0",
-      "discoveredBy": "net.tnrd.statemachine",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "semantic-release",
-      "specification": "^19.0.5",
-      "discoveredBy": "net.tnrd.statemachine",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "net.rs64.tex-trans-core",
-      "specification": "^0.1.0-beta.0",
-      "discoveredBy": "net.rs64.tex-trans-tool",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "net.rs64.tex-trans-core",
-      "specification": "^0.1.0-beta.1",
-      "discoveredBy": "net.rs64.tex-trans-tool",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "net.rs64.tex-trans-core",
-      "specification": "^0.1.0-beta.2",
-      "discoveredBy": "net.rs64.tex-trans-tool",
-      "status": "unresolved-source"
-    },
-    {
-      "packageId": "com.rlabrecque.steamworks.net",
-      "specification": "",
-      "discoveredBy": "se.hertzole.small-steamworks",
-      "status": "unresolved-source"
-    }
-  ],
-  "pendingPackageIds": [
-    "VRCSDK2",
-    "VRCSDK3-Avatars",
-    "ai.fxn.fxn3d",
-    "ai.natml.hub",
-    "ai.natml.natdevice",
-    "ai.natml.natshare",
-    "ai.natml.vision.blazepose.detector",
-    "ca.tekly.common",
-    "ca.tekly.editorutils",
-    "ca.tekly.injectors",
-    "ca.tekly.lifecycles",
-    "ca.tekly.nsubstitute",
-    "ca.tekly.panelviews",
-    "ca.tekly.treestate",
-    "com.applovin.mediation.ads",
-    "com.asynsstudio.hometween",
-    "com.cdm.figma.ui",
-    "com.chennyang.utilities",
-    "com.core-bell.ugui-effect",
-    "com.demigiant.dotween",
-    "com.directinput.unity",
-    "com.discord.partnersdk",
-    "com.emil.timers",
-    "com.endel.nativewebsocket@1.1.4",
-    "com.fredericrp.eventmanagement",
-    "com.fredericrp.screentransitions",
-    "com.ges.tinydi",
-    "com.hungnt.odininspector",
-    "com.hww.XiCore",
-    "com.hww.XiCore",
-    "com.jtform9.input-observable",
-    "com.labstreaminglayer.lsl4unity",
-    "com.maellacour.csvhelper",
-    "com.meta.xr.sdk.core",
-    "com.meta.xr.sdk.voice",
-    "com.modesttree.unity3dasyncawaitutil",
-    "com.moirai.framework",
-    "com.nobnak.gist2",
-    "com.peterxiang.xmlib.common",
-    "com.pixelrebels.fury.strings",
-    "com.quabug.entities-bt.variant-expression",
-    "com.realitytoolkit.camera",
-    "com.reese.math",
-    "com.rlabrecque.steamworks",
-    "com.rmc.rmc-newtonsoft.json-for-unity",
-    "com.rmc.rmc-readme",
-    "com.rmc.rmc-unitask",
-    "com.solana.unity_sdk",
-    "com.stevevermeulen.extenject",
-    "com.studio23.ss2.authsystem.xboxcore",
-    "com.sturfee.digital-twin.hd",
-    "com.svermeulen.zenject",
-    "com.tanhwan.metamong-protocol",
-    "com.tayou.harmony.net472",
-    "com.unigame.addressablestools",
-    "com.unigame.alelievr.node-graph-processor",
-    "com.unigame.codewriter",
-    "com.unigame.contextdata",
-    "com.unigame.coremodules",
-    "com.unigame.gittools",
-    "com.unigame.google",
-    "com.unigame.google.editor.api",
-    "com.unigame.google.sheet",
-    "com.unigame.localization",
-    "com.unigame.neuecc.unirx",
-    "com.unigame.neuecc.unitask",
-    "com.unigame.rx",
-    "com.unigame.uitoolkit",
-    "com.unigame.unicore",
-    "com.unigame.uniroutine",
-    "com.unity.2d.animation",
-    "com.unity.2d.aseprite",
-    "com.unity.2d.psdimporter",
-    "com.unity.2d.sprite",
-    "com.unity.2d.tilemap",
-    "com.unity.2d.tilemap.extras",
-    "com.unity.addressable",
-    "com.unity.addressables.cn",
-    "com.unity.ads",
-    "com.unity.ai.assistant",
-    "com.unity.ai.inference",
-    "com.unity.ai.navigation",
-    "com.unity.analytics",
-    "com.unity.animation.rigging",
-    "com.unity.assetgraph",
-    "com.unity.audio.dspgraph",
-    "com.unity.automated-testing",
-    "com.unity.barracuda",
-    "com.unity.build-report-inspector",
-    "com.unity.cloud.draco",
-    "com.unity.cloud.gltfast",
-    "com.unity.cloud.ktx",
-    "com.unity.code-analysis",
-    "com.unity.device-simulator",
-    "com.unity.device-simulator.devices",
-    "com.unity.editorcoroutines",
-    "com.unity.entities.graphics",
-    "com.unity.ext.nunit",
-    "com.unity.external-dependency-manager",
-    "com.unity.film-internal-utilities",
-    "com.unity.formats.fbx",
-    "com.unity.game-foundation",
-    "com.unity.gamecore",
-    "com.unity.ide.rider",
-    "com.unity.ide.visualstudio",
-    "com.unity.ide.vscode",
-    "com.unity.localization",
-    "com.unity.logging",
-    "com.unity.meshopt.decompress",
-    "com.unity.mobile.notifications",
-    "com.unity.modules.imgui",
-    "com.unity.multiplayer-hlapi",
-    "com.unity.multiplayer.tools",
-    "com.unity.netcode.adapter.utp",
-    "com.unity.nuget.mono-cecil",
-    "com.unity.physics",
-    "com.unity.polyspatial",
-    "com.unity.polyspatial.visionos",
-    "com.unity.polyspatial.xr",
-    "com.unity.postprocessing",
-    "com.unity.probuilder",
-    "com.unity.purchasing",
-    "com.unity.quicksearch",
-    "com.unity.recorder",
-    "com.unity.remote-config-runtime",
-    "com.unity.render-pipelines.universal-config",
-    "com.unity.rendering.hybrid",
-    "com.unity.renderstreaming",
-    "com.unity.roslyn",
-    "com.unity.scriptablebuildpipeline",
-    "com.unity.scripting.python",
-    "com.unity.searcher",
-    "com.unity.sentis",
-    "com.unity.services.analytics",
-    "com.unity.services.authentication",
-    "com.unity.services.core",
-    "com.unity.settings-manager",
-    "com.unity.sharp-zip-lib",
-    "com.unity.simpleanimation",
-    "com.unity.simulation.capture",
-    "com.unity.simulation.client",
-    "com.unity.simulation.core",
-    "com.unity.subsystemregistration",
-    "com.unity.test-framework.performance",
-    "com.unity.testtools.codecoverage",
-    "com.unity.toolchain.linux-x86_64",
-    "com.unity.toolchain.win-x86_64-linux-x86_64",
-    "com.unity.transport",
-    "com.unity.ui",
-    "com.unity.ui.builder",
-    "com.unity.vectorgraphics",
-    "com.unity.visualscripting",
-    "com.unity.visualscripting.entities",
-    "com.unity.webrtc",
-    "com.unity.xr.arcore",
-    "com.unity.xr.arfoundation",
-    "com.unity.xr.arkit",
-    "com.unity.xr.arkit-face-tracking",
-    "com.unity.xr.arsubsystems",
-    "com.unity.xr.core-utils",
-    "com.unity.xr.hands",
-    "com.unity.xr.interaction.toolkit",
-    "com.unity.xr.legacyinputhelpers",
-    "com.unity.xr.magicleap",
-    "com.unity.xr.management",
-    "com.unity.xr.meta-openxr",
-    "com.unity.xr.mock-hmd",
-    "com.unity.xr.oculus",
-    "com.unity.xr.openxr",
-    "com.unity.xr.picoxr",
-    "com.unity.xr.visionos",
-    "com.unity.xr.windowsmr",
-    "com.unity.xr.windowsmr.metro",
-    "com.utj.editorguilayoutext",
-    "com.vrchat.avatars",
-    "com.vrchat.base",
-    "com.widwickyy.sceneswitcher",
-    "com.wildlifestudios.nuget.google.protobuf",
-    "com.wildlifestudios.nuget.system.runtime.compilerservices.unsafe",
-    "com.woo.iframework",
-    "come.autsoft.unitysupplements.vitamins",
-    "dev.upm-packages.keyeventhandler",
-    "dev.voltstro.unitywebbrowser",
-    "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
-    "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts",
-    "jp.cysharp.unirx",
-    "jp.cysharp.unitask",
-    "jp.juhakurisu.popoByteSerializer",
-    "jp.juhakurisu.popoByteSerializer",
-    "jp.keijiro.klak.lineargradient",
-    "jp.keijiro.klak.nnutils",
-    "jp.keijiro.libsoundio",
-    "jp.keijiro.pcx",
-    "jp.nobnak.gpu_particles.data",
-    "net.gree.unity-webview",
-    "net.pixelpart",
-    "net.rs64.tex-trans-core",
-    "nuget.mono-cecil",
-    "nuget.moq",
-    "org.nuget.defaultecs",
-    "org.nuget.deniszykov.typeconversion",
-    "org.nuget.jint",
-    "org.nuget.memorypack",
-    "org.nuget.rogueliketoolkit.dice",
-    "org.nuget.sharparena",
-    "org.pcsoft.binding",
-    "org.pcsoft.unity-base"
-  ],
-  "missingTargetVersions": [
-    {
-      "packageId": "ai.natml.natml",
-      "versions": [
-        "1.0.19"
-      ]
-    },
-    {
-      "packageId": "be.elab.asymsigner",
-      "versions": [
-        "0.0.1",
-        "1.0.0"
-      ]
-    },
-    {
-      "packageId": "be.elab.pbit4096b58pkcs1sha256",
-      "versions": [
-        "0.0.1",
-        "1.0.0"
-      ]
-    },
-    {
-      "packageId": "be.elab.unityfetchoffsetntp",
-      "versions": [
-        "1.0.0"
-      ]
-    },
-    {
-      "packageId": "be.elab.wsmetamaskauth",
-      "versions": [
-        "0.0.1"
-      ]
-    },
-    {
-      "packageId": "com.audune.utils.unityeditor",
-      "versions": [
-        "0.1.0"
-      ]
-    },
-    {
-      "packageId": "com.bbbirder.directattribute",
-      "versions": [
-        "2.0.1"
-      ]
-    },
-    {
-      "packageId": "com.cammin.ldtkunityparser",
-      "versions": [
-        "1.0.01"
-      ]
-    },
-    {
-      "packageId": "com.codewriter.view-binding",
-      "versions": [
-        "1.0.3"
-      ]
-    },
-    {
-      "packageId": "com.cysharp.unitask",
-      "versions": [
-        "2.0.0"
-      ]
-    },
-    {
-      "packageId": "com.de-panther.webxr",
-      "versions": [
-        "0.3.0"
-      ]
-    },
-    {
-      "packageId": "com.didimo.sdk.core",
-      "versions": [
-        "4.4.1"
-      ]
-    },
-    {
-      "packageId": "com.facepunch.steamworks",
-      "versions": [
-        "2.2.1"
-      ]
-    },
-    {
-      "packageId": "com.fredericrp.persistentdatasystem",
-      "versions": [
-        "1.0.0"
-      ]
-    },
-    {
-      "packageId": "com.fredericrp.singleton",
-      "versions": [
-        "1.0.0"
-      ]
-    },
-    {
-      "packageId": "com.fredericrp.stringdatalist",
-      "versions": [
-        "1.0.0"
-      ]
-    },
-    {
-      "packageId": "com.gamebase.core",
-      "versions": [
-        "1.0.0"
-      ]
-    },
-    {
-      "packageId": "com.gamebase.loader",
-      "versions": [
-        "1.0.0"
-      ]
-    },
-    {
-      "packageId": "com.gamebase.scene",
-      "versions": [
-        "1.0.0"
-      ]
-    },
-    {
-      "packageId": "com.ges.tinyreactive",
-      "versions": [
-        "1.0.0"
-      ]
-    },
-    {
-      "packageId": "com.google.external-dependency-manager",
-      "versions": [
-        "1.2.159",
-        "1.2.166",
-        "1.2.168",
-        "1.2.177"
-      ]
-    },
-    {
-      "packageId": "com.houraiteahouse.core",
-      "versions": [
-        "0.1.0"
-      ]
-    },
-    {
-      "packageId": "com.inklestudios.ink-unity-integration",
-      "versions": [
-        "0.9.4"
-      ]
-    },
-    {
-      "packageId": "com.jeffcampbellmakesgames.nodey",
-      "versions": [
-        "1.1.0"
-      ]
-    },
-    {
-      "packageId": "com.juce.utils",
-      "versions": [
-        "0.0.1"
-      ]
-    },
-    {
-      "packageId": "com.kc.nlog",
-      "versions": [
-        "0.1.8"
-      ]
-    },
-    {
-      "packageId": "com.kyrylokuzyk.primetween",
-      "versions": [
-        "1.1.20",
-        "1.3.8"
-      ]
-    },
-    {
-      "packageId": "com.legustavinho.legendary-tools-common",
-      "versions": [
-        "1.0.5"
-      ]
-    },
-    {
-      "packageId": "com.lisearcheleeds.lighthouse",
-      "versions": [
-        "0.1.0"
-      ]
-    },
-    {
-      "packageId": "com.lisearcheleeds.lighthouse-extends.font",
-      "versions": [
-        "0.1.0"
-      ]
-    },
-    {
-      "packageId": "com.lisearcheleeds.lighthouse-extends.language",
-      "versions": [
-        "0.1.0"
-      ]
-    },
-    {
-      "packageId": "com.lisearcheleeds.lighthouse-extends.texttable",
-      "versions": [
-        "0.1.0"
-      ]
-    },
-    {
-      "packageId": "com.lisearcheleeds.lighthouse-extends.uicomponent",
-      "versions": [
-        "0.1.0"
-      ]
-    },
-    {
-      "packageId": "com.macacagames.utility",
-      "versions": [
-        "1.0.24"
-      ]
-    },
-    {
-      "packageId": "com.maellacour.eyap-library",
-      "versions": [
-        "2.0.0"
-      ]
-    },
-    {
-      "packageId": "com.metalpopgames.uiaccessibility",
-      "versions": [
-        "1.1.3"
-      ]
-    },
-    {
-      "packageId": "com.miragenet.mirage",
-      "versions": [
-        "100.0.3",
-        "54.1.1"
-      ]
-    },
-    {
-      "packageId": "com.oculus.unity-integration",
-      "versions": [
-        "1.0.0"
-      ]
-    },
-    {
-      "packageId": "com.oculus.unity.integration",
-      "versions": [
-        "33.0.0"
-      ]
-    },
-    {
-      "packageId": "com.openugd.corelib",
-      "versions": [
-        "0.1.0"
-      ]
-    },
-    {
-      "packageId": "com.ourpalm.ilruntime",
-      "versions": [
-        "1.6.1"
-      ]
-    },
-    {
-      "packageId": "com.pylons.unity.sdk.itemtools",
-      "versions": [
-        "0.1.0-preview2"
-      ]
-    },
-    {
-      "packageId": "com.realitycollective.utilities",
-      "versions": [
-        "1.0.0-preview.6"
-      ]
-    },
-    {
-      "packageId": "com.realitytoolkit.boundary",
-      "versions": [
-        "1.0.0-pre.0"
-      ]
-    },
-    {
-      "packageId": "com.realitytoolkit.player",
-      "versions": [
-        "1.0.1-pre.5"
-      ]
-    },
-    {
-      "packageId": "com.sebaslab.svelto.unsafe",
-      "versions": [
-        "4.7.1"
-      ]
-    },
-    {
-      "packageId": "com.studio23.ss2.savesystem",
-      "versions": [
-        "1.16"
-      ]
-    },
-    {
-      "packageId": "com.svermeulen.extenject",
-      "versions": [
-        "9.2.0"
-      ]
-    },
-    {
-      "packageId": "com.tencent.puerts.core",
-      "versions": [
-        "3.0.0"
-      ]
-    },
-    {
-      "packageId": "com.tratteo.pury",
-      "versions": [
-        "1.0.0"
-      ]
-    },
-    {
-      "packageId": "com.unity-atoms.unity-atoms-base-atoms",
-      "versions": [
-        "4.4.2"
-      ]
-    },
-    {
-      "packageId": "com.unity.addressables",
-      "versions": [
-        "1.0.0",
-        "1.21.0"
-      ]
-    },
-    {
-      "packageId": "com.unity.burst",
-      "versions": [
-        "1.0.0-preview.10",
-        "1.0.4",
-        "1.1.12"
-      ]
-    },
-    {
-      "packageId": "com.unity.collections",
-      "versions": [
-        "0.15.0",
-        "1.0.0",
-        "2.0.0"
-      ]
-    },
-    {
-      "packageId": "com.unity.entities",
-      "versions": [
-        "0.14.0",
-        "1.0.0",
-        "1.3.4",
-        "6.6.0"
-      ]
-    },
-    {
-      "packageId": "com.unity.inputsystem",
-      "versions": [
-        "1.4.0",
-        "1.6.0"
-      ]
-    },
-    {
-      "packageId": "com.unity.mathematics",
-      "versions": [
-        "1.0.0",
-        "1.2.0"
-      ]
-    },
-    {
-      "packageId": "com.unity.nuget.newtonsoft-json",
-      "versions": [
-        "0.0.0",
-        "1.0.0",
-        "1.0.2",
-        "3.0",
-        "3.0.0"
-      ]
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "versions": [
-        "10.0.0-preview.27",
-        "12.1.0",
-        "12.1.15",
-        "12.1.7",
-        "14.0.10",
-        "14.0.12",
-        "14.0.7",
-        "14.0.9",
-        "17.0.0",
-        "17.0.4"
-      ]
-    },
-    {
-      "packageId": "com.unity.render-pipelines.high-definition",
-      "versions": [
-        "11.0.0",
-        "14.0.8",
-        "17.0.3",
-        "5.7.2"
-      ]
-    },
-    {
-      "packageId": "com.unity.render-pipelines.universal",
-      "versions": [
-        "10.0.0-preview.16",
-        "11.0.0",
-        "12.0.0",
-        "12.1.10",
-        "12.1.15",
-        "12.1.6",
-        "12.1.7",
-        "14.0.0",
-        "14.0.10",
-        "14.0.11",
-        "14.0.8",
-        "14.0.9",
-        "16.0.6",
-        "17.0.0",
-        "17.0.3",
-        "17.0.4",
-        "17.3.0",
-        "17.4.0",
-        "17.6.0"
-      ]
-    },
-    {
-      "packageId": "com.unity.shadergraph",
-      "versions": [
-        "10.0.0",
-        "12.1.0",
-        "12.1.12",
-        "14.0.0",
-        "14.0.11",
-        "14.0.3",
-        "14.0.9",
-        "17.0.4"
-      ]
+      "specification": "1.8.13",
+      "discoveredBy": "com.unity.collections",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
       "packageId": "com.unity.test-framework",
-      "versions": [
-        "1.5.1",
-        "1.6.0"
-      ]
+      "specification": "1.4.3",
+      "discoveredBy": "com.unity.collections",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "com.unity.textmeshpro",
-      "versions": [
-        "1.0.0"
-      ]
+      "packageId": "com.unity.nuget.mono-cecil",
+      "specification": "1.11.4",
+      "discoveredBy": "com.unity.collections",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "com.unity.timeline",
-      "versions": [
-        "0.0.1",
-        "1.0.0"
-      ]
+      "packageId": "com.unity.test-framework.performance",
+      "specification": "3.0.3",
+      "discoveredBy": "com.unity.collections",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.burst",
+      "specification": "1.8.29",
+      "discoveredBy": "com.unity.collections",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.mathematics",
+      "specification": "1.3.2",
+      "discoveredBy": "com.unity.collections",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.test-framework",
+      "specification": "1.4.6",
+      "discoveredBy": "com.unity.collections",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.nuget.mono-cecil",
+      "specification": "1.11.6",
+      "discoveredBy": "com.unity.collections",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.searcher",
+      "specification": "4.3.2",
+      "discoveredBy": "com.unity.shadergraph",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.render-pipelines.core",
+      "specification": "10.10.1",
+      "discoveredBy": "com.unity.shadergraph",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.render-pipelines.core",
+      "specification": "14.0.12",
+      "discoveredBy": "com.unity.shadergraph",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.searcher",
+      "specification": "4.9.2",
+      "discoveredBy": "com.unity.shadergraph",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.render-pipelines.core",
+      "specification": "17.0.4",
+      "discoveredBy": "com.unity.shadergraph",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.searcher",
+      "specification": "4.9.3",
+      "discoveredBy": "com.unity.shadergraph",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
       "packageId": "com.unity.ugui",
-      "versions": [
-        "1.0.0",
-        "2.0.0"
-      ]
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.render-pipelines.core",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.physics",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.render-pipelines.core",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.jsonserialize",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.render-pipelines.core",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.terrain",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.render-pipelines.core",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.burst",
+      "specification": "1.8.20",
+      "discoveredBy": "com.unity.render-pipelines.core",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.mathematics",
+      "specification": "1.3.2",
+      "discoveredBy": "com.unity.render-pipelines.core",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.ugui",
+      "specification": "2.0.0",
+      "discoveredBy": "com.unity.render-pipelines.core",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.collections",
+      "specification": "2.4.3",
+      "discoveredBy": "com.unity.render-pipelines.core",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.rendering.light-transport",
+      "specification": "1.0.1",
+      "discoveredBy": "com.unity.render-pipelines.core",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.ai",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.ai.navigation",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.burst",
+      "specification": "1.7.2",
+      "discoveredBy": "com.unity.serialization",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.collections",
+      "specification": "2.4.2",
+      "discoveredBy": "com.unity.serialization",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.burst",
+      "specification": "1.8.13",
+      "discoveredBy": "com.unity.serialization",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.mathematics",
+      "specification": "1.2.1",
+      "discoveredBy": "com.unity.burst",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.jsonserialize",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.burst",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.shadergraph",
+      "specification": "10.10.1",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
       "packageId": "com.unity.visualeffectgraph",
-      "versions": [
-        "10.0.0",
-        "12.1.7",
-        "14.0.8"
-      ]
+      "specification": "10.10.1",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "com.vovgou.loxodon-framework",
-      "versions": [
-        "2.3.5"
-      ]
+      "packageId": "com.unity.render-pipelines.core",
+      "specification": "10.10.1",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "com.vovgou.loxodon-framework-fody",
-      "versions": [
-        "2.4.9"
-      ]
+      "packageId": "com.unity.render-pipelines.high-definition-config",
+      "specification": "10.10.1",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "com.vovgou.loxodon-framework-textformatting",
-      "versions": [
-        "2.6.3"
-      ]
+      "packageId": "com.unity.mathematics",
+      "specification": "1.2.4",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "com.vrmc.gltf",
-      "versions": [
-        "1.4.0"
-      ]
+      "packageId": "com.unity.burst",
+      "specification": "1.8.9",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "com.xrtk.core",
-      "versions": [
-        "0.3.0-preview.49"
-      ]
+      "packageId": "com.unity.modules.video",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "dev.bolt.addons",
-      "versions": [
-        "3.0.0"
-      ]
+      "packageId": "com.unity.modules.animation",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "ga.fuquna.rosettaui",
-      "versions": [
-        "0.0.0",
-        "0.4.1"
-      ]
+      "packageId": "com.unity.modules.imageconversion",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "io.extendreality.malimbe",
-      "versions": [
-        "9.5.1"
-      ]
+      "packageId": "com.unity.modules.terrain",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "io.extendreality.zinnia.unity",
-      "versions": [
-        "1.6.0"
-      ]
+      "packageId": "com.unity.render-pipelines.core",
+      "specification": "14.0.12",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "io.nekonya.tinax.core",
-      "versions": [
-        "6.6.1-preview"
-      ]
+      "packageId": "com.unity.shadergraph",
+      "specification": "14.0.12",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "jillejr.newtonsoft.json-for-unity",
-      "versions": [
-        "12.0.1-patch-001"
-      ]
+      "packageId": "com.unity.visualeffectgraph",
+      "specification": "14.0.12",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "jp.keijiro.klak.ndi",
-      "versions": [
-        "1.0.12"
-      ]
+      "packageId": "com.unity.render-pipelines.high-definition-config",
+      "specification": "14.0.12",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "jp.lilxyzw.liltoon",
-      "versions": [
-        "0.112.0"
-      ]
+      "packageId": "com.unity.render-pipelines.core",
+      "specification": "17.0.4",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "org.nuget.csvhelper",
-      "versions": [
-        "30.0.1"
-      ]
+      "packageId": "com.unity.shadergraph",
+      "specification": "17.0.4",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "org.pcsoft.base",
-      "versions": [
-        "2.0.0-EA.01"
-      ]
+      "packageId": "com.unity.visualeffectgraph",
+      "specification": "17.0.4",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "org.pcsoft.commons",
-      "versions": [
-        "1.0.0-EA.01"
-      ]
+      "packageId": "com.unity.render-pipelines.high-definition-config",
+      "specification": "17.0.4",
+      "discoveredBy": "com.unity.render-pipelines.high-definition",
+      "status": "explicit-consumer-gap-if-needed"
     },
     {
-      "packageId": "zes.au.core",
-      "versions": [
-        "0.1.8"
-      ]
+      "packageId": "com.unity.splines",
+      "specification": "2.0.0",
+      "discoveredBy": "com.unity.cinemachine",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.imgui",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.cinemachine",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.profiling.core",
+      "specification": "1.0.2",
+      "discoveredBy": "com.unity.addressables",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.test-framework",
+      "specification": "1.4.5",
+      "discoveredBy": "com.unity.addressables",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.assetbundle",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.addressables",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.jsonserialize",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.addressables",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.imageconversion",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.addressables",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.unitywebrequest",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.addressables",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.scriptablebuildpipeline",
+      "specification": "2.4.0",
+      "discoveredBy": "com.unity.addressables",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.unitywebrequestassetbundle",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.addressables",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.scriptablebuildpipeline",
+      "specification": "3.0.3",
+      "discoveredBy": "com.unity.addressables",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.burst",
+      "specification": "1.4.1",
+      "discoveredBy": "com.unity.animation.rigging",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.test-framework",
+      "specification": "1.1.24",
+      "discoveredBy": "com.unity.animation.rigging",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.animation",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.animation.rigging",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.burst",
+      "specification": "1.8.24",
+      "discoveredBy": "com.unity.transport",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.collections",
+      "specification": "2.2.1",
+      "discoveredBy": "com.unity.transport",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.mathematics",
+      "specification": "1.3.2",
+      "discoveredBy": "com.unity.transport",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.audio",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.timeline",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.director",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.timeline",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.animation",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.timeline",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.particlesystem",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.timeline",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.netcode",
+      "specification": "7.0.0",
+      "discoveredBy": "com.unity.netcode.gameobjects",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.transport",
+      "specification": "6.7.0",
+      "discoveredBy": "com.unity.netcode.gameobjects",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.nuget.mono-cecil",
+      "specification": "1.11.4",
+      "discoveredBy": "com.unity.netcode.gameobjects",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.netcode",
+      "specification": "7.1.0",
+      "discoveredBy": "com.unity.netcode.gameobjects",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.render-pipelines.core",
+      "specification": "17.0.3",
+      "discoveredBy": "com.unity.render-pipelines.universal-config",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.annulusgames.lit-motion",
+      "specification": "2.0.0",
+      "discoveredBy": "com.annulusgames.lit-motion.animation",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.burst",
+      "specification": "1.6.0",
+      "discoveredBy": "com.annulusgames.lit-motion",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.collections",
+      "specification": "1.5.1",
+      "discoveredBy": "com.annulusgames.lit-motion",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.mathematics",
+      "specification": "1.0.1",
+      "discoveredBy": "com.annulusgames.lit-motion",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.imgui",
+      "specification": "1.0.0",
+      "discoveredBy": "com.cysharp.r3",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.ugui",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.textmeshpro",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.mathematics",
+      "specification": "1.1.0",
+      "discoveredBy": "com.unity.render-pipelines.universal",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.shadergraph",
+      "specification": "10.10.1",
+      "discoveredBy": "com.unity.render-pipelines.universal",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.render-pipelines.core",
+      "specification": "10.10.1",
+      "discoveredBy": "com.unity.render-pipelines.universal",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.mathematics",
+      "specification": "1.2.1",
+      "discoveredBy": "com.unity.render-pipelines.universal",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.burst",
+      "specification": "1.8.9",
+      "discoveredBy": "com.unity.render-pipelines.universal",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.render-pipelines.core",
+      "specification": "14.0.12",
+      "discoveredBy": "com.unity.render-pipelines.universal",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.shadergraph",
+      "specification": "14.0.12",
+      "discoveredBy": "com.unity.render-pipelines.universal",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.render-pipelines.universal-config",
+      "specification": "14.0.9",
+      "discoveredBy": "com.unity.render-pipelines.universal",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.render-pipelines.core",
+      "specification": "17.0.4",
+      "discoveredBy": "com.unity.render-pipelines.universal",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.shadergraph",
+      "specification": "17.0.4",
+      "discoveredBy": "com.unity.render-pipelines.universal",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.render-pipelines.universal-config",
+      "specification": "17.0.3",
+      "discoveredBy": "com.unity.render-pipelines.universal",
+      "status": "explicit-consumer-gap-if-needed"
+    },
+    {
+      "packageId": "com.unity.modules.uielements",
+      "specification": "1.0.0",
+      "discoveredBy": "com.unity.inputsystem",
+      "status": "explicit-consumer-gap-if-needed"
     }
-  ]
+  ],
+  "pendingPackageIds": [],
+  "missingTargetVersions": []
 }
