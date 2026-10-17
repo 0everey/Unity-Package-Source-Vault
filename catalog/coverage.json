@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-17T21:40:52.517176Z",
+  "generatedAt": "2026-10-17T21:44:19.274766Z",
   "sourceSnapshots": [
     {
       "source": "common-packages.json",
@@ -885,6 +885,566 @@
       },
       {
         "parent": {
+          "packageId": "Grpc.Net.Common",
+          "version": "2.83.0",
+          "variantId": "nuget",
+          "archiveSha256": "a2d96542f5f019d146ac6b7533f869da22163cb8db6cf2b0e9da8d02443b05e7",
+          "nuspecSha256": "08d24d135348f484daad19ec1a456e387ce7d6fddf13615a6ced1c7bbaef7de6"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "Grpc.Core.Api",
+                "version": "2.83.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "Microsoft.Bcl.AsyncInterfaces",
+                "version": "8.0.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Grpc.Net.Common.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "57f35b780c08fa81cb0beb9ef238604033f24614d276dc6eb745e7b68f46139a",
+            "size": 13824
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "Grpc.Core.Api",
+            "version": "2.83.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "2.83.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              },
+              {
+                "version": "2.84.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "Microsoft.Bcl.AsyncInterfaces",
+            "version": "8.0.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Grpc.Net.Common",
+          "version": "2.83.0",
+          "variantId": "nuget",
+          "archiveSha256": "a2d96542f5f019d146ac6b7533f869da22163cb8db6cf2b0e9da8d02443b05e7",
+          "nuspecSha256": "08d24d135348f484daad19ec1a456e387ce7d6fddf13615a6ced1c7bbaef7de6"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.1",
+            "dependencies": [
+              {
+                "id": "Grpc.Core.Api",
+                "version": "2.83.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.1/Grpc.Net.Common.dll",
+            "targetFramework": "netstandard2.1",
+            "kind": "lib",
+            "sha256": "a5327f1a1a61055cf43bd7f3663b832a68eadd129b78f6dba1b06117729107d8",
+            "size": 12800
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "Grpc.Core.Api",
+            "version": "2.83.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.1",
+            "catalogEvaluations": [
+              {
+                "version": "2.83.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              },
+              {
+                "version": "2.84.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Grpc.Net.Common",
+          "version": "2.84.0",
+          "variantId": "nuget",
+          "archiveSha256": "f0282aaead3e80702320d74b2412bb76cb99bdb3987d1ae7ae2ed10b482cacde",
+          "nuspecSha256": "f621aa566e63340b572a4f0bd2b996b934407c77b8cdf121f38578e93ee796cb"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "Grpc.Core.Api",
+                "version": "2.84.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "Microsoft.Bcl.AsyncInterfaces",
+                "version": "8.0.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Grpc.Net.Common.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "3475a28f7eb872c7cf9def61b4c4b29dab49dc0676d03a6968aacd968e55d60d",
+            "size": 24216
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "Grpc.Core.Api",
+            "version": "2.84.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "2.83.0",
+                "variantId": "nuget",
+                "satisfiesRange": false
+              },
+              {
+                "version": "2.84.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "Microsoft.Bcl.AsyncInterfaces",
+            "version": "8.0.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Grpc.Net.Common",
+          "version": "2.84.0",
+          "variantId": "nuget",
+          "archiveSha256": "f0282aaead3e80702320d74b2412bb76cb99bdb3987d1ae7ae2ed10b482cacde",
+          "nuspecSha256": "f621aa566e63340b572a4f0bd2b996b934407c77b8cdf121f38578e93ee796cb"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.1",
+            "dependencies": [
+              {
+                "id": "Grpc.Core.Api",
+                "version": "2.84.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.1/Grpc.Net.Common.dll",
+            "targetFramework": "netstandard2.1",
+            "kind": "lib",
+            "sha256": "f438bc6b3d76ea9741f4486c8d0a67798e799c22be704f857ddf36ec2efdcbac",
+            "size": 23192
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "Grpc.Core.Api",
+            "version": "2.84.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.1",
+            "catalogEvaluations": [
+              {
+                "version": "2.83.0",
+                "variantId": "nuget",
+                "satisfiesRange": false
+              },
+              {
+                "version": "2.84.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Microsoft.Extensions.Logging.Abstractions",
+          "version": "8.0.0",
+          "variantId": "nuget",
+          "archiveSha256": "26675d8de83c5394be8814f046554054b7881f1738cabacd82a54c381ec48cce",
+          "nuspecSha256": "e49e6e9827ea70fb0f7c8162aa4356a1d2d211157851ba3faeb2cbacbba913f5"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                "version": "8.0.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Memory",
+                "version": "4.5.5",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "e899e37dfc2dd433807c205e764c32ea34bb95da083e189d7615947dd16c51e8",
+            "size": 67864
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+            "version": "8.0.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Memory",
+            "version": "4.5.5",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Microsoft.Extensions.Logging.Abstractions",
+          "version": "8.0.0",
+          "variantId": "nuget",
+          "archiveSha256": "26675d8de83c5394be8814f046554054b7881f1738cabacd82a54c381ec48cce",
+          "nuspecSha256": "e49e6e9827ea70fb0f7c8162aa4356a1d2d211157851ba3faeb2cbacbba913f5"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "explicit-compatible-fallback-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                "version": "8.0.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Memory",
+                "version": "4.5.5",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "e899e37dfc2dd433807c205e764c32ea34bb95da083e189d7615947dd16c51e8",
+            "size": 67864
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+            "version": "8.0.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Memory",
+            "version": "4.5.5",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Microsoft.Extensions.Logging.Abstractions",
+          "version": "8.0.1",
+          "variantId": "nuget",
+          "archiveSha256": "4d871edeabccafdd896c067ad804c1b2871a1f48e8273c34a71d2d60667d3745",
+          "nuspecSha256": "7593932df3e935a8e6670efad230c82967bc45ea4065186d9b886670408b95cc"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                "version": "8.0.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Memory",
+                "version": "4.5.5",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "c44a2a8a6051b43e37947e8e05845a4f1f80c79628ffb9197e3d525d0facb2c1",
+            "size": 67760
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+            "version": "8.0.1",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Memory",
+            "version": "4.5.5",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Microsoft.Extensions.Logging.Abstractions",
+          "version": "8.0.1",
+          "variantId": "nuget",
+          "archiveSha256": "4d871edeabccafdd896c067ad804c1b2871a1f48e8273c34a71d2d60667d3745",
+          "nuspecSha256": "7593932df3e935a8e6670efad230c82967bc45ea4065186d9b886670408b95cc"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "explicit-compatible-fallback-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                "version": "8.0.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Memory",
+                "version": "4.5.5",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "c44a2a8a6051b43e37947e8e05845a4f1f80c79628ffb9197e3d525d0facb2c1",
+            "size": 67760
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+            "version": "8.0.1",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Memory",
+            "version": "4.5.5",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
           "packageId": "Newtonsoft.Json",
           "version": "13.0.3",
           "variantId": "nuget",
@@ -999,6 +1559,336 @@
             "kind": "lib",
             "sha256": "12246aa5e14245cbd1a0b8794851defd46e6d782c60eb650ba5aa90ef8447eee",
             "size": 717736
+          }
+        ],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "System.Diagnostics.DiagnosticSource",
+          "version": "6.0.1",
+          "variantId": "nuget",
+          "archiveSha256": "5e2f30ad48d5962a33fff4cf423147a9c57f406853aa74df51c96db0d95c089e",
+          "nuspecSha256": "a7b013cd6fad8353a2774769259e783c9b1d88c0193335a98e58513cdfebdfd7"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "6.0.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Memory",
+                "version": "4.5.4",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "06eb3af44d64c4739c7801493619ad9af86ff05b5444c42609370c26e5caf1f4",
+            "size": 154288
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "6.0.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "6.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Memory",
+            "version": "4.5.4",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "System.Diagnostics.DiagnosticSource",
+          "version": "6.0.1",
+          "variantId": "nuget",
+          "archiveSha256": "5e2f30ad48d5962a33fff4cf423147a9c57f406853aa74df51c96db0d95c089e",
+          "nuspecSha256": "a7b013cd6fad8353a2774769259e783c9b1d88c0193335a98e58513cdfebdfd7"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "explicit-compatible-fallback-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "6.0.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Memory",
+                "version": "4.5.4",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "06eb3af44d64c4739c7801493619ad9af86ff05b5444c42609370c26e5caf1f4",
+            "size": 154288
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "6.0.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "6.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Memory",
+            "version": "4.5.4",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "System.Diagnostics.DiagnosticSource",
+          "version": "8.0.1",
+          "variantId": "nuget",
+          "archiveSha256": "ce6c078dc26029c6e49307a91f4dfc421727b16309707cacf8f11b1460b4260a",
+          "nuspecSha256": "0db4a67218c8c92b38850080b9beb914a615f53fcfe31c9ec74dc97087806b62"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Memory",
+                "version": "4.5.5",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "6.0.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "989b1797b5cacdf19e7130eddd8ae51f0d79595d6020cbaf51910c1c3637cec9",
+            "size": 175280
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Memory",
+            "version": "4.5.5",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "6.0.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "6.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "System.Diagnostics.DiagnosticSource",
+          "version": "8.0.1",
+          "variantId": "nuget",
+          "archiveSha256": "ce6c078dc26029c6e49307a91f4dfc421727b16309707cacf8f11b1460b4260a",
+          "nuspecSha256": "0db4a67218c8c92b38850080b9beb914a615f53fcfe31c9ec74dc97087806b62"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "explicit-compatible-fallback-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Memory",
+                "version": "4.5.5",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "6.0.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "989b1797b5cacdf19e7130eddd8ae51f0d79595d6020cbaf51910c1c3637cec9",
+            "size": 175280
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Memory",
+            "version": "4.5.5",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "6.0.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "6.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "System.Runtime.CompilerServices.Unsafe",
+          "version": "6.0.0",
+          "variantId": "nuget",
+          "archiveSha256": "6c41b53e70e9eee298cff3a02ce5acdd15b04125589be0273f0566026720a762",
+          "nuspecSha256": "edaccfd50eebadf418188db5a19cb7b24c887fbbc638f2e4d402ff94bbcc14dc"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "01748200f2400c742aa689f1f5101bd6298efdfd92c00c18f4fa473847235ba9",
+            "size": 18024
+          }
+        ],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "System.Runtime.CompilerServices.Unsafe",
+          "version": "6.0.0",
+          "variantId": "nuget",
+          "archiveSha256": "6c41b53e70e9eee298cff3a02ce5acdd15b04125589be0273f0566026720a762",
+          "nuspecSha256": "edaccfd50eebadf418188db5a19cb7b24c887fbbc638f2e4d402ff94bbcc14dc"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "explicit-compatible-fallback-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "01748200f2400c742aa689f1f5101bd6298efdfd92c00c18f4fa473847235ba9",
+            "size": 18024
           }
         ],
         "dependencies": [],
@@ -1110,23 +2000,23 @@
   },
   "listedVersions": 135,
   "selectedVersionTasks": 97,
-  "completedSelectedVersionTasks": 80,
-  "pendingSelectedVersionTasks": 17,
-  "fetchedVersionRecords": 80,
+  "completedSelectedVersionTasks": 90,
+  "pendingSelectedVersionTasks": 7,
+  "fetchedVersionRecords": 90,
   "publishedVersionRecords": 15,
   "remoteReadbackVerifiedVersionRecords": 15,
   "dispositionCounts": {
-    "official-fetch-only": 81,
-    "license-unresolved": 21,
+    "official-fetch-only": 91,
+    "license-unresolved": 11,
     "mirror-allowed": 15,
     "builtin-reference": 23
   },
   "fetchStatusCounts": {
-    "collected": 65,
-    "pending": 16,
+    "collected": 75,
     "reference-only": 38,
     "published": 15,
-    "fetch-failed": 1
+    "fetch-failed": 1,
+    "pending": 6
   },
   "discoveryFrontier": [
     {

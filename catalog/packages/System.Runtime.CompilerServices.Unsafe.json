@@ -14,22 +14,309 @@
     {
       "version": "6.0.0",
       "variantId": "nuget",
-      "sourceUrl": "https://www.nuget.org/packages/System.Runtime.CompilerServices.Unsafe/6.0.0",
-      "sourceRef": null,
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "4822e3c3aa77eb82b2fb33c9321f923cf11ddde6",
       "downloadUrl": "https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-nuspec"
+        "expression": "MIT",
+        "evidenceUrl": "https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg#LICENSE.TXT",
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b",
+        "text": "The MIT License (MIT)\r\n\r\nCopyright (c) .NET Foundation and Contributors\r\n\r\nAll rights reserved.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n",
+        "components": [
+          {
+            "path": "LICENSE.TXT",
+            "expression": "MIT",
+            "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b",
+            "evidenceUrl": "https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg#LICENSE.TXT",
+            "text": "The MIT License (MIT)\r\n\r\nCopyright (c) .NET Foundation and Contributors\r\n\r\nAll rights reserved.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n"
+          },
+          {
+            "path": "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-17T21:44:17.684132Z",
+        "decisionBasis": [
+          "Native/SDK components require their own redistribution evidence"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "6c41b53e70e9eee298cff3a02ce5acdd15b04125589be0273f0566026720a762",
+        "size": 84343,
+        "format": "nupkg",
+        "kind": "binary-only",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types",
+          "managedMetadata": {
+            "name": "uvault.managed-index",
+            "version": "1",
+            "reader": "System.Reflection.Metadata/PEReader",
+            "available": true,
+            "adapterSha256": "493ebb06ee85dd84eeaca6d4a40d0722be85f999a27033999156b785156db4ec"
+          }
+        },
+        "sourceSetSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "artifactSha256": "6c41b53e70e9eee298cff3a02ce5acdd15b04125589be0273f0566026720a762",
+        "artifactSize": 84343,
+        "artifactFormat": "nupkg",
+        "namespaces": [
+          "Microsoft.CodeAnalysis",
+          "System.Runtime.CompilerServices",
+          "System.Runtime.Versioning"
+        ],
+        "types": [
+          "Microsoft.CodeAnalysis.EmbeddedAttribute",
+          "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+          "System.Runtime.CompilerServices.NativeIntegerAttribute",
+          "System.Runtime.CompilerServices.Unsafe",
+          "System.Runtime.Versioning.NonVersionableAttribute"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "System.Runtime.CompilerServices.Unsafe",
+            "scope": {
+              "name": "System.Runtime.CompilerServices.Unsafe",
+              "version": "6.0.0.0",
+              "culture": "neutral",
+              "publicKeyToken": "b03f5f7f11d50a3a"
+            },
+            "path": "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+              "System.Runtime.CompilerServices.NativeIntegerAttribute",
+              "System.Runtime.CompilerServices.Unsafe",
+              "System.Runtime.Versioning.NonVersionableAttribute"
+            ]
+          },
+          {
+            "name": "System.Runtime.CompilerServices.Unsafe",
+            "scope": {
+              "name": "System.Runtime.CompilerServices.Unsafe",
+              "version": "6.0.0.0",
+              "culture": "neutral",
+              "publicKeyToken": "b03f5f7f11d50a3a"
+            },
+            "path": "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Runtime.CompilerServices.NativeIntegerAttribute",
+              "System.Runtime.CompilerServices.Unsafe",
+              "System.Runtime.Versioning.NonVersionableAttribute"
+            ]
+          },
+          {
+            "name": "System.Runtime.CompilerServices.Unsafe",
+            "scope": {
+              "name": "System.Runtime.CompilerServices.Unsafe",
+              "version": "6.0.0.0",
+              "culture": "neutral",
+              "publicKeyToken": "b03f5f7f11d50a3a"
+            },
+            "path": "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Runtime.CompilerServices.NativeIntegerAttribute",
+              "System.Runtime.CompilerServices.Unsafe",
+              "System.Runtime.Versioning.NonVersionableAttribute"
+            ]
+          },
+          {
+            "name": "System.Runtime.CompilerServices.Unsafe",
+            "scope": {
+              "name": "System.Runtime.CompilerServices.Unsafe",
+              "version": "6.0.0.0",
+              "culture": "neutral",
+              "publicKeyToken": "b03f5f7f11d50a3a"
+            },
+            "path": "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+              "System.Runtime.CompilerServices.NativeIntegerAttribute",
+              "System.Runtime.CompilerServices.Unsafe",
+              "System.Runtime.Versioning.NonVersionableAttribute"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/6c41b53e70e9eee298cff3a02ce5acdd15b04125589be0273f0566026720a762-dd966fb3b42e.json.gz",
+          "sha256": "2bc7b71618f73e39e6e2ed32e6e15520a03dbb3c54b08f3155905636683fba2a",
+          "size": 4187,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types",
+            "managedMetadata": {
+              "name": "uvault.managed-index",
+              "version": "1",
+              "reader": "System.Reflection.Metadata/PEReader",
+              "available": true,
+              "adapterSha256": "493ebb06ee85dd84eeaca6d4a40d0722be85f999a27033999156b785156db4ec"
+            }
+          }
+        },
+        "fileCount": 19,
+        "sourceFileCount": 0,
+        "sourceSetNonEmpty": false,
+        "conditionalSourceCount": 0,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": [
+          {
+            "path": "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+            "sha256": "37768488e8ef45729bc7d9a2677633c6450042975bb96516e186da6cb9cd0dcf",
+            "size": 18024,
+            "dummyDll": false
+          },
+          {
+            "path": "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+            "sha256": "2b4eb652a3748bffc734c39e6c352b17472f4a115ae683258429877540fe71c5",
+            "size": 18024,
+            "dummyDll": false
+          },
+          {
+            "path": "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+            "sha256": "a533a809b4bb8b0272c7338fa2d455eaa75eb38d8a094e9c3a6baf7e626f5c8f",
+            "size": 18024,
+            "dummyDll": false
+          },
+          {
+            "path": "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+            "sha256": "01748200f2400c742aa689f1f5101bd6298efdfd92c00c18f4fa473847235ba9",
+            "size": 18024,
+            "dummyDll": false
+          }
+        ]
+      },
+      "fetchStatus": "collected",
+      "versionStatus": "stable",
+      "packageId": "System.Runtime.CompilerServices.Unsafe",
+      "nuget": {
+        "declaredLicense": "MIT",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dotnet/runtime",
+          "commit": "4822e3c3aa77eb82b2fb33c9321f923cf11ddde6"
+        },
+        "dependencies": [],
+        "targetFrameworks": [
+          ".NETCoreApp3.1",
+          ".NETFramework4.6.1",
+          ".NETStandard2.0",
+          "net6.0"
+        ],
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETFramework4.6.1",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETCoreApp3.1",
+            "dependencies": []
+          },
+          {
+            "targetFramework": "net6.0",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "nuspecSha256": "edaccfd50eebadf418188db5a19cb7b24c887fbbc638f2e4d402ff94bbcc14dc",
+        "nuspecPath": "System.Runtime.CompilerServices.Unsafe.nuspec",
+        "assets": [
+          {
+            "path": "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+            "targetFramework": "net461",
+            "kind": "lib",
+            "sha256": "37768488e8ef45729bc7d9a2677633c6450042975bb96516e186da6cb9cd0dcf",
+            "size": 18024
+          },
+          {
+            "path": "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+            "targetFramework": "net6.0",
+            "kind": "lib",
+            "sha256": "2b4eb652a3748bffc734c39e6c352b17472f4a115ae683258429877540fe71c5",
+            "size": 18024
+          },
+          {
+            "path": "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+            "targetFramework": "netcoreapp3.1",
+            "kind": "lib",
+            "sha256": "a533a809b4bb8b0272c7338fa2d455eaa75eb38d8a094e9c3a6baf7e626f5c8f",
+            "size": 18024
+          },
+          {
+            "path": "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "01748200f2400c742aa689f1f5101bd6298efdfd92c00c18f4fa473847235ba9",
+            "size": 18024
+          }
+        ],
+        "archiveSha256": "6c41b53e70e9eee298cff3a02ce5acdd15b04125589be0273f0566026720a762"
+      },
+      "collectedAt": "2026-10-17T21:44:17.778323Z"
     }
   ],
   "metadataStatus": "complete",
