@@ -1,0 +1,57 @@
+name: Collect immutable package versions
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        type: choice
+        description: Full resumable queue operation
+        options: [metadata, collect]
+        default: collect
+      packages:
+        type: string
+        description: Optional comma-separated package IDs; empty processes the full queue
+        default: ''
+permissions:
+  contents: write
+concurrency:
+  group: catalog-single-writer
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate tools
+        run: PYTHONPATH=src python -m unittest discover -s tests -q
+      - name: Resume remote collection
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PYTHONPATH: src
+          MODE: ${{ inputs.mode }}
+          PACKAGES: ${{ inputs.packages }}
+        shell: bash
+        run: |
+          args=(--root catalog)
+          if [[ "$MODE" == metadata ]]; then args+=(--metadata); else args+=(--collect --publish); fi
+          IFS=',' read -ra ids <<< "$PACKAGES"
+          for id in "${ids[@]}"; do
+            if [[ -n "$id" ]]; then args+=(--package "$id"); fi
+          done
+          python -m uvault.pipeline "${args[@]}"
+      - name: Commit completed checkpoints
+        if: always()
+        shell: bash
+        run: |
+          git config user.name 'vault-collection'
+          git config user.email 'vault-collection@users.noreply.github.com'
+          git add catalog
+          if ! git diff --cached --quiet; then
+            git commit -m 'Checkpoint verified collection and remaining queue'
+            git push
+          fi
