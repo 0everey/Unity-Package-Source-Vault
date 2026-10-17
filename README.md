@@ -5,9 +5,9 @@ source retrieval. Permitted original archives live in GitHub Releases; Git
 contains tools, provenance, fingerprints and version-specific rights records.
 No permanent local package mirror or payload cache is created.
 
-Implementation and collection are in progress. See `catalog/coverage.json` for
-the full discovered queue and actual version/artifact state. A listed package
-does not mean its source is available or its license permits mirroring.
+The CLI is available. Collection continues through a resumable remote queue.
+See `catalog/coverage.json` for complete discovery, actual artifact state,
+restrictions, failures and remaining version tasks.
 
 ## Install
 
@@ -30,3 +30,6 @@ Core and its original writer retain adoption and native-recovery decisions.
 See [usage](docs/USAGE.md), [ReMaker contract](docs/REMAKER-INTEGRATION.md), and
 [third-party notices](THIRD-PARTY-NOTICES.md). Tool licensing never relicenses
 Unity, Steam SDK, commercial plugins or other upstream payloads.
+
+Forward [the original-writer entry](docs/REMAKER-WRITER-START-HERE.md) for early
+ReMaker classification and selection integration. Its adoption remains pending.

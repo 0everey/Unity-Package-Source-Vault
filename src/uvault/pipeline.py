@@ -6,6 +6,7 @@ cache is persisted. Only the publication callback temporarily holds payloads.
 from __future__ import annotations
 import argparse
 import concurrent.futures
+import copy
 import json
 import gzip
 import hashlib
@@ -90,7 +91,9 @@ def metadata(queue, root, workers=12, only=(), retry_failed=False, refresh=False
              and (refresh or p.get("metadataStatus","pending") not in ("complete","reference-only"))
              and (retry_failed or p.get("metadataStatus")!="failed")]
     def fetch(seed):
-        state={"packages":[seed],"frontier":[]}
+        # Worker reads use detached state; only this main loop mutates the
+        # authoritative queue, including targets arriving during network reads.
+        state={"packages":[copy.deepcopy(seed)],"frontier":[]}
         harvest.update_metadata(state,package_ids=[seed["id"]],retry_failed=retry_failed,refresh=refresh)
         return state
     done=0
@@ -103,6 +106,13 @@ def metadata(queue, root, workers=12, only=(), retry_failed=False, refresh=False
                     seed=active.pop(task)
                     try:
                         state=task.result()
+                        fetched=state["packages"][0]
+                        targets=sorted(set(seed.get("targetVersions",[])+fetched.get("targetVersions",[])),key=sources.version_key)
+                        seed.clear();seed.update(fetched)
+                        if targets:
+                            seed["targetVersions"]=targets
+                            if seed.get("versions"):
+                                seed.update(sources.selection_status(seed["versions"],targets))
                     except Exception as exc:
                         seed["metadataStatus"]="failed"
                         seed["metadataError"]={"kind":type(exc).__name__,"message":str(exc)}
