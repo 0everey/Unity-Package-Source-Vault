@@ -7,7 +7,7 @@ import re
 import urllib.parse
 from pathlib import Path
 
-from .inventory import fingerprint_archive, inventory_directory
+from .inventory import fingerprint_archive, inventory_directory, fingerprint_binary
 
 
 def _sha(data):
@@ -213,10 +213,9 @@ def _input(path, profile):
         return fingerprint_archive(data, fmt), "archive", []
     if path.suffix.lower() == ".dll":
         dummy = "dummydll" in str(path).replace("\\", "/").lower().split("/") or b"Il2CppDummyDll" in data
-        fingerprint = _empty_fingerprint()
-        fingerprint["files"] = [{"path": path.name, "sha256": _sha(data), "size": len(data), "kind": "managed-or-native-binary", "dummyDll": dummy}]
-        fingerprint["assemblies"] = [{"name": path.stem, "dummyDll": dummy, "metadataOnly": True}]
-        fingerprint["inputSha256"] = _sha(data)
+        fingerprint = fingerprint_binary(data,path.name)
+        for file in fingerprint["files"]:
+            file["dummyDll"]=bool(file.get("dummyDll") or dummy)
         return fingerprint, "dummy-dll" if dummy else "dll", []
     if path.suffix.lower() == ".json":
         if path.name.lower() in ("manifest.json", "packages-lock.json"):
@@ -338,6 +337,7 @@ def _match_candidate(fingerprint, version, observation=None):
 def identify(input_path, catalog, profile=None) -> dict:
     fingerprint, kind, observations = _input(Path(input_path), profile)
     result = {"schemaVersion": "1.0", "catalogCommit": catalog.get("catalogCommit"),
+              "fingerprintRegistry":catalog.get("fingerprintRegistry") or catalog.get("registry"),
               "input": {"kind": kind, "fingerprint": fingerprint}, "profile": profile,
               "matches": [], "unknown": [], "conflicts": []}
     observed_ids = {o["packageId"] for o in observations}
@@ -353,6 +353,19 @@ def identify(input_path, catalog, profile=None) -> dict:
         targets = package_observations or [None]
         candidates = []
         for version in package.get("versions", []):
+            summary=version.get("fingerprint") or {}
+            if summary.get("fileManifestRef"):
+                eligible=bool(package_observations)
+                relevant=[observation.get("fingerprint") or fingerprint for observation in targets if observation] or [fingerprint]
+                for target in relevant:
+                    hashes={item.get("sha256") for item in target.get("files",[]) if item.get("path","").lower().endswith(".dll")}
+                    eligible=eligible or bool(target.get("artifactSha256") and target["artifactSha256"]==(version.get("artifact") or {}).get("sha256"))
+                    eligible=eligible or bool(summary.get("sourceSetNonEmpty") and target.get("sourceSetSha256")==summary.get("sourceSetSha256"))
+                    eligible=eligible or any(item.get("sha256") in hashes for item in summary.get("binaryFingerprints",[]))
+                    eligible=eligible or bool(_names(target.get("assemblies"))&_names(summary.get("assemblies")) and _names(target.get("types"),"fullName")&_names(summary.get("types"),"fullName"))
+                if eligible:
+                    from .fingerprints import load_full_fingerprint
+                    version={**version,"fingerprint":load_full_fingerprint(version,catalog)}
             found = [_match_candidate(fingerprint, version, observation) for observation in targets]
             found = [f for f in found if f]
             if found:

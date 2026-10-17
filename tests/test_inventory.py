@@ -75,6 +75,68 @@ class InventoryTests(unittest.TestCase):
         self.assertEqual(ownership["Shared/B.cs"], "Real.Runtime")
         self.assertEqual(ownership["OddRoot/Child/C.cs"], "Nested.Runtime")
         self.assertEqual(ownership["Editor/D.cs"], "Assembly-CSharp-Editor")
+        declarations = {d["fullName"]: d for d in fingerprint["typeDeclarations"]}
+        self.assertEqual(declarations["Real.A"]["assemblyIdentity"], {"name": "Real.Runtime"})
+        self.assertEqual(declarations["Real.B"]["assemblyIdentity"], {"name": "Real.Runtime"})
+        self.assertEqual(declarations["C"]["assemblyIdentity"], {"name": "Nested.Runtime"})
+        self.assertEqual(declarations["Real.B"]["sourcePath"], "Shared/B.cs")
+        self.assertTrue(all(d["ownershipVerified"] and not d["profileVerified"] for d in declarations.values()))
+
+    def test_dotnet_project_build_context_does_not_invent_unity_default_assembly(self):
+        files = {"repository/Library.sln": "synthetic solution", "repository/src/Library.csproj":
+                 "<Project><PropertyGroup><AssemblyName>Real.DotNet.Library</AssemblyName></PropertyGroup></Project>",
+                 "repository/src/Task.cs": "namespace Shared { class Task {} }",
+                 "repository/Assets/AlsoNotProvenUnity.cs": "class AlsoNotProvenUnity {}"}
+        fingerprint = fingerprint_archive(make_tar(files), "tgz")
+        source = next(f for f in fingerprint["files"] if f["path"].endswith(".cs"))
+        self.assertIsNone(source["assembly"])
+        self.assertFalse(source["ownershipVerified"])
+        self.assertEqual(source["ownershipBasis"], "non-unity-build-context-default-unverified")
+        self.assertEqual(fingerprint["types"], ["AlsoNotProvenUnity", "Shared.Task"])
+        self.assertEqual(fingerprint["typeDeclarations"], [])
+        self.assertFalse(any(a["name"] == "Assembly-CSharp" for a in fingerprint["assemblies"]))
+        self.assertEqual(fingerprint["fingerprintProducer"]["version"], "2")
+
+    def test_unity_assets_and_explicit_upm_context_keep_actual_default_ownership(self):
+        for files in ({"project/Game.sln": "synthetic solution", "project/Assembly-CSharp.csproj": "<Project />",
+                       "project/ProjectSettings/ProjectVersion.txt": "m_EditorVersion: 2022.3.0f1",
+                       "project/Assets/Game.cs": "namespace Shared { class Game {} }"},
+                      {"package/Build.csproj": "<Project />", "package/package.json":
+                       '{"name":"com.example.runtime","version":"1.0.0","unity":"2022.3"}',
+                       "package/Runtime/Task.cs": "namespace Shared { class Task {} }"}):
+            fingerprint = fingerprint_archive(make_tar(files), "tgz")
+            source = next(f for f in fingerprint["files"] if f["path"].endswith(".cs"))
+            self.assertEqual(source["assembly"], "Assembly-CSharp")
+            self.assertTrue(source["ownershipVerified"])
+            self.assertEqual(fingerprint["typeDeclarations"][0]["assemblyIdentity"], {"name": "Assembly-CSharp"})
+
+    def test_directory_build_context_and_selected_unity_assets_are_preserved(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / "Build.csproj").write_text("<Project />", encoding="utf-8")
+            (root / "Task.cs").write_text("class Task {}", encoding="utf-8")
+            dotnet = inventory_directory(root)
+            assets = root / "Assets"
+            assets.mkdir()
+            (assets / "Build.csproj").write_text("<Project />", encoding="utf-8")
+            (assets / "Game.cs").write_text("class Game {}", encoding="utf-8")
+            settings = root / "ProjectSettings"
+            settings.mkdir()
+            (settings / "ProjectVersion.txt").write_text("m_EditorVersion: 2022.3.0f1", encoding="utf-8")
+            unity = inventory_directory(assets)
+        self.assertEqual(dotnet["typeDeclarations"], [])
+        self.assertEqual(unity["typeDeclarations"][0]["assemblyIdentity"], {"name": "Assembly-CSharp"})
+
+    def test_two_asmdefs_keep_types_scoped_even_with_shared_namespace_and_dotnet_build_files(self):
+        fingerprint = fingerprint_archive(make_tar({
+            "repository/Build.sln": "synthetic solution",
+            "repository/First/First.asmdef": '{"name":"First.Runtime"}',
+            "repository/First/A.cs": "namespace Shared { class A {} }",
+            "repository/Second/Second.asmdef": '{"name":"Second.Runtime"}',
+            "repository/Second/B.cs": "namespace Shared { class B {} }"}), "tgz")
+        scoped = {declaration["fullName"]: declaration["assemblyIdentity"]["name"] for declaration in fingerprint["typeDeclarations"]}
+        self.assertEqual(scoped, {"Shared.A": "First.Runtime", "Shared.B": "Second.Runtime"})
+        self.assertFalse(fingerprint["profileVerified"])
 
     def test_unresolved_asmref_is_unknown_not_inherited_default(self):
         fingerprint = fingerprint_archive(make_tar({

@@ -288,7 +288,7 @@ def seed_packages():
     for package_id in ("com.cysharp.unitask", "com.neuecc.unirx", "com.cysharp.r3", "com.cysharp.memorypack", "jp.hadashikick.vcontainer", "com.svermeulen.extenject", "com.svermeulen.zenject", "com.valvesoftware.unity.openvr"):
         seeds.append({"id": package_id, "adapter": "registry", "registry": "https://package.openupm.com", "family": "runtime", "metadataStatus": "pending", "versions": []})
     for package_id, repository in (("Facepunch.Steamworks", "Facepunch/Facepunch.Steamworks"), ("Steamworks.NET", "rlabrecque/Steamworks.NET"),
-                                   ("Spine.Runtimes", "EsotericSoftware/spine-runtimes"), ("PrimeTween", "KyrylKuzyk/PrimeTween")):
+                                   ("Spine.Runtimes", "EsotericSoftware/spine-runtimes"), ("PrimeTween", "KyryloKuzyk/PrimeTween")):
         seeds.append({"id": package_id, "adapter": "github", "repository": repository, "metadataStatus": "pending", "versions": []})
     seeds.append({"id": "io.sentry.unity", "adapter": "registry", "registry": "https://package.openupm.com", "family": "runtime", "metadataStatus": "pending", "versions": [], "targetVersions": ["3.2.3"]})
     for name in ("common", "logger", "injectors", "treestate", "panelviews", "editorutils", "nsubstitute"):

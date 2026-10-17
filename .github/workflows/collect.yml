@@ -13,6 +13,7 @@ on:
         default: ''
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: catalog-single-writer
   cancel-in-progress: false
@@ -27,8 +28,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Build offline managed metadata reader
+        run: PYTHONPATH=src python -m uvault.managed build
       - name: Validate tools
         run: PYTHONPATH=src python -m unittest discover -s tests -q
+      - name: Prepare checkpoint author
+        run: |
+          git config user.name 'vault-collection'
+          git config user.email 'vault-collection@users.noreply.github.com'
+          PYTHONPATH=src python -c "from pathlib import Path;from uvault.pipeline import validate_snapshot;validate_snapshot(Path('catalog'))"
       - name: Resume remote collection
         env:
           GH_TOKEN: ${{ github.token }}
@@ -37,21 +48,32 @@ jobs:
           PACKAGES: ${{ inputs.packages }}
         shell: bash
         run: |
-          args=(--root catalog)
+          args=(--root catalog --reindex --checkpoint-push --checkpoint-every 100 --runner-deadline-seconds 19800)
           if [[ "$MODE" == metadata ]]; then args+=(--metadata); else args+=(--collect --publish); fi
           IFS=',' read -ra ids <<< "$PACKAGES"
           for id in "${ids[@]}"; do
             if [[ -n "$id" ]]; then args+=(--package "$id"); fi
           done
           python -m uvault.pipeline "${args[@]}"
+      - name: Continue queue on a fresh ephemeral runner
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PACKAGES: ${{ inputs.packages }}
+        shell: bash
+        run: |
+          continuation=$(python -c "import json;from pathlib import Path;p=Path('catalog/collection-run.json');print('yes' if p.is_file() and json.loads(p.read_text()).get('needsContinuation') else 'no')")
+          if [[ "$continuation" == yes ]]; then
+            gh workflow run collect.yml --ref main -f mode=collect -f packages="$PACKAGES"
+          fi
       - name: Commit completed checkpoints
         if: always()
         shell: bash
         run: |
           git config user.name 'vault-collection'
           git config user.email 'vault-collection@users.noreply.github.com'
+          PYTHONPATH=src python -c "from pathlib import Path;from uvault.pipeline import validate_snapshot;validate_snapshot(Path('catalog'),check_shards=True)"
           git add catalog
           if ! git diff --cached --quiet; then
-            git commit -m 'Checkpoint verified collection and remaining queue'
+            git commit -q -m 'Checkpoint verified collection and remaining queue'
             git push
           fi

@@ -26,6 +26,7 @@ def resolve(matches: dict, selections: list[dict] | None = None) -> dict:
             raise ValueError("only one selection per package is permitted")
         requested[key[0]] = key
     result = {"schemaVersion": "1.0", "catalogCommit": matches.get("catalogCommit"),
+              "fingerprintRegistry":matches.get("fingerprintRegistry"),
               "input": deepcopy(matches.get("input", {})),
               "profile": deepcopy(matches.get("profile")), "libraries": [],
               "unresolved": [], "unknown": deepcopy(matches.get("unknown", [])),

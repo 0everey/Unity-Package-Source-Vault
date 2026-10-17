@@ -22,6 +22,17 @@ def tar_bytes(files):
 
 
 class SourceTests(unittest.TestCase):
+    def test_existing_dependency_receives_new_exact_version_task(self):
+        for spec,expected in (("1.2.0",True),("^1.2.0",False)):
+            a={"id":"A","adapter":"registry","registry":"https://registry.test","metadataStatus":"pending","versions":[]}
+            b={"id":"B","metadataStatus":"complete","targetVersions":[],"versions":[{"version":v,"variantId":"test"} for v in ("1.0.0","1.1.0","1.2.0","1.3.0","2.0.0","3.0.0","4.0.0")]}
+            b.update(sources.selection_status(b["versions"]))
+            result={"schemaVersion":"1.0","id":"A","metadataStatus":"complete","registry":"https://registry.test","versions":[{"version":"1.0.0","variantId":"test","dependencies":{"B":spec}}]}
+            with patch("uvault.sources.fetch_package",return_value=result):
+                harvest.update_metadata({"packages":[a,b]},package_ids=["A"])
+            self.assertEqual("1.2.0" in b["targetVersions"],expected)
+            self.assertEqual("1.2.0" in b["selectedVersions"],expected)
+
     def test_semantic_order_and_targets(self):
         values = ["1.9.0", "1.10.0", "2.0.0-pre.1", "2.0.0", "2.0.10", "2.0.2", "0.9.0"]
         self.assertGreater(sources.version_key("1.10.0"), sources.version_key("1.9.0"))

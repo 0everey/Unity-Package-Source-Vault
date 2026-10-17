@@ -66,8 +66,8 @@ def load_registry(registry=DEFAULT_REGISTRY):
         if package.get("id") != entry["id"]:
             raise ValueError("Catalog shard identity mismatch")
         return package
-    bundle=index.get("bundle") if not all("versions" in p for p in index.get("packages",[])) else None
-    if bundle:
+    bundles=(index.get("bundles") or ([index["bundle"]] if index.get("bundle") else [])) if not all("versions" in p for p in index.get("packages",[])) else []
+    def read_bundle(bundle):
         location=location_for(bundle["path"])
         if remote:
             with urllib.request.urlopen(urllib.request.Request(location,headers={"User-Agent":"uvault/0.1"}),timeout=180) as response:
@@ -76,20 +76,26 @@ def load_registry(registry=DEFAULT_REGISTRY):
             data=Path(location).read_bytes()
         if len(data)!=bundle["size"] or hashlib.sha256(data).hexdigest()!=bundle["sha256"]:
             raise ValueError("Catalog metadata bundle checksum mismatch")
-        packages=json.loads(gzip.decompress(data).decode("utf-8"))["packages"]
+        return json.loads(gzip.decompress(data).decode("utf-8"))["packages"]
+    if bundles:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+            chunks=list(pool.map(read_bundle,bundles))
+        packages=[package for chunk in chunks for package in chunk]
         if {p["id"] for p in packages}!={p["id"] for p in index["packages"]} or len(packages)!=len(index["packages"]):
             raise ValueError("Catalog metadata bundle identities mismatch")
     else:
         with concurrent.futures.ThreadPoolExecutor(max_workers=12) as pool:
             packages = list(pool.map(load, index.get("packages", [])))
-    expanded={**index, "catalogCommit": commit, "registry": registry, "packages": packages}
-    if "bundle" in expanded:
-        expanded["sourceBundle"]=expanded.pop("bundle")
+    expanded={**index, "catalogCommit": commit, "registry": registry,
+              "fingerprintRegistry":index.get("fingerprintRegistry") or index.get("registry") or registry,"packages": packages}
+    for field in ("bundle","bundles"):
+        if field in expanded:
+            expanded["source"+field.title()]=expanded.pop(field)
     return expanded
 
 def write_json(path, value):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_name(path.name + ".tmp")
-    temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8",newline="\n")
     temporary.replace(path)

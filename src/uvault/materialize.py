@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import hashlib
+import base64
 import io
 import json
 import os
@@ -144,9 +145,15 @@ def _identity(library: dict) -> tuple:
     return tuple(library.get(key) for key in ("packageId", "version", "variantId"))
 
 
-def _check_inventory(library: dict, manifest: list[dict]) -> None:
+def _check_inventory(library: dict, manifest: list[dict], metadata_bytes=None) -> None:
     """When full catalog file hashes exist, bind a receipt to that inventory."""
-    inventory = (library.get("fingerprint") or {}).get("files")
+    fingerprint=library.get("fingerprint") or {}
+    if fingerprint.get("fileManifestRef"):
+        if metadata_bytes is None:
+            raise ValueError("Immutable reuse requires the checksum-bound fingerprint manifest")
+        from .fingerprints import load_full_fingerprint
+        fingerprint=load_full_fingerprint(library,{},metadata_bytes=metadata_bytes)
+    inventory = fingerprint.get("files")
     if inventory:
         expected = {item["path"]: item["sha256"].lower() for item in inventory}
         actual = {item["path"]: item["sha256"].lower() for item in manifest}
@@ -188,7 +195,9 @@ def _reuse(lock: dict, target: Path) -> dict:
             raise ValueError("receipt library has no successful content evidence")
         if item.get("contentSha256") != canonical_hash(item["files"]):
             raise ValueError("receipt content manifest has changed")
-        _check_inventory(library, item["files"])
+        encoded=item.get("fingerprintMetadataBase64")
+        metadata=base64.b64decode(encoded,validate=True) if encoded is not None else None
+        _check_inventory(library, item["files"],metadata)
         relative_root = _path(item.get("relativePath", ""))
         if str(target / relative_root) != item.get("path"):
             raise ValueError("receipt destination differs from target")
@@ -292,6 +301,13 @@ def materialize(lock: dict, target: str | Path, offline: bool = False) -> dict:
             if artifact.get("size") is not None and artifact["size"] != len(data):
                 raise ValueError("archive size mismatch: " + identity[0])
             files = _archive_files(data, artifact.get("format"))
+            metadata=None
+            fingerprint=library.get("fingerprint") or {}
+            if fingerprint.get("fileManifestRef"):
+                from .fingerprints import _read_reference,load_full_fingerprint
+                context={"registry":lock.get("fingerprintRegistry") or lock.get("catalogRegistry"),"catalogCommit":lock.get("catalogCommit")}
+                metadata=_read_reference(fingerprint["fileManifestRef"],context)
+                load_full_fingerprint(library,context,metadata_bytes=metadata)
             directory = re.sub(r"[^a-zA-Z0-9._-]", "_", identity[0])[:80] + "-" + canonical_hash(list(identity))[:16]
             output = stage / directory
             output.mkdir()
@@ -302,11 +318,13 @@ def materialize(lock: dict, target: str | Path, offline: bool = False) -> dict:
                 with destination.open("xb") as writer:
                     writer.write(content)
                 manifest.append({"path": name, "sha256": _sha(content), "size": len(content)})
-            _check_inventory(library, manifest)
+            _check_inventory(library, manifest,metadata)
             receipt["libraries"].append({"packageId": identity[0], "version": identity[1], "variantId": identity[2],
                 "path": str(target / directory), "relativePath": directory, "artifactSha256": digest,
                 "status": "materialized", "files": manifest, "contentSha256": canonical_hash(manifest),
                 "license": library.get("license"), "licenseDelivery": "Full license and NOTICE evidence retained in .uvault-receipt.json; preserve this companion with the original extracted package"})
+            if metadata is not None:
+                receipt["libraries"][-1]["fingerprintMetadataBase64"]=base64.b64encode(metadata).decode("ascii")
         if not receipt["libraries"]:
             # A pure failure/offline result must not reserve a future use path.
             return receipt

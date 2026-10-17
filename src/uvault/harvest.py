@@ -109,6 +109,15 @@ def update_metadata(queue, *, limit=None, retry_failed=False, package_ids=(), pr
             for version in package["versions"]:
                 for dep_id, spec in version.get("dependencies", {}).items():
                     if dep_id in by_id:
+                        existing=by_id[dep_id]
+                        if isinstance(spec,str) and re.fullmatch(r"\d+(?:\.\d+){1,3}(?:-[0-9A-Za-z.-]+)?",spec):
+                            targets=sorted(set(existing.get("targetVersions",[])+[spec]),key=sources.version_key)
+                            existing["targetVersions"]=targets
+                            request={"version":spec,"discoveredBy":package["id"],"registryHint":package.get("registry"),"sourceVerified":False}
+                            if request not in existing.setdefault("versionRequests",[]):
+                                existing["versionRequests"].append(request)
+                            if existing.get("versions"):
+                                existing.update(sources.selection_status(existing["versions"],targets))
                         continue
                     if dep_id.startswith("com.unity.modules."):
                         dep = {"schemaVersion": SCHEMA_VERSION, "id": dep_id, "displayName": dep_id, "adapter": "reference", "metadataStatus": "reference-only",

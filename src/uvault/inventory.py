@@ -15,6 +15,8 @@ import tarfile
 import zipfile
 from pathlib import Path, PurePosixPath
 
+FINGERPRINT_PRODUCER = {"name":"uvault.inventory","version":"2","assemblyModel":"context-aware-scoped-types"}
+
 
 def _sha(data):
     return hashlib.sha256(data).hexdigest()
@@ -112,6 +114,13 @@ def fingerprint_archive(data: bytes, format: str) -> dict:
     return result
 
 
+def fingerprint_binary(data, name):
+    result=_inventory({_safe_name(name):data},None)
+    if not result["assemblies"]:
+        result["assemblies"]=[{"name":PurePosixPath(name).stem,"metadataOnly":True,"ownershipVerified":False}]
+    result["inputSha256"]=_sha(data)
+    return result
+
 def inventory_directory(path, profile=None) -> dict:
     """Inventory exactly this directory; reject links and do not follow projects."""
     root = Path(path)
@@ -129,7 +138,7 @@ def inventory_directory(path, profile=None) -> dict:
         for name in sorted(names):
             child = Path(current) / name
             relative = child.relative_to(root).as_posix()
-            parse_needed = relative.lower().endswith((".cs", ".asmdef", ".asmref", ".asmdef.meta"))
+            parse_needed = relative.lower().endswith((".cs", ".asmdef", ".asmref", ".asmdef.meta")) or name.lower() == "package.json" or (relative.lower().endswith(".dll") and child.stat().st_size<=32*1024*1024)
             if parse_needed:
                 data = child.read_bytes()
                 payloads[relative] = data
@@ -148,7 +157,10 @@ def inventory_directory(path, profile=None) -> dict:
             if relative.lower().endswith(".dll"):
                 row["dummyDll"] = dummy or any(p.lower() == "dummydll" for p in PurePosixPath(relative).parts)
             file_rows.append(row)
-    return _inventory(payloads, profile, file_rows)
+    selected_unity_assets = root.name == "Assets" and (
+        (root.parent / "ProjectSettings" / "ProjectVersion.txt").is_file()
+        or (root.parent / "Packages" / "manifest.json").is_file())
+    return _inventory(payloads, profile, file_rows, unity_default_context=selected_unity_assets)
 
 
 def _json(data):
@@ -338,7 +350,7 @@ def _assembly_active(definition, profile):
     return active, issues
 
 
-def _inventory(payloads, profile, file_rows=None):
+def _inventory(payloads, profile, file_rows=None, unity_default_context=False):
     files = sorted(file_rows, key=lambda f: f["path"]) if file_rows is not None else [
         {"path": path, "sha256": _sha(data), "size": len(data), "kind": _kind(path)}
         for path, data in sorted(payloads.items())]
@@ -380,7 +392,29 @@ def _inventory(payloads, profile, file_rows=None):
             owners.setdefault(str(PurePosixPath(path).parent), []).append(owner)
             if not owner:
                 diagnostics.append({"kind": "unresolved-asmref", "path": path, "reference": reference})
+    build_files = [file["path"] for file in files if file["path"].lower().endswith((".csproj", ".sln", ".slnx", ".fsproj", ".vbproj"))
+                   or PurePosixPath(file["path"]).name.lower() in ("directory.build.props", "directory.build.targets", "project.json")]
+    upm_roots = []
+    unity_asset_prefixes = []
+    for file in files:
+        for marker in ("ProjectSettings/ProjectVersion.txt", "Packages/manifest.json"):
+            if file["path"].endswith(marker):
+                unity_asset_prefixes.append(file["path"][:-len(marker)] + "Assets/")
+    for path, data in payloads.items():
+        if PurePosixPath(path).name.lower() == "package.json":
+            metadata = _json(data) or {}
+            # An explicit UPM Unity version is build-context evidence. A generic
+            # npm name, package folder or .NET AssemblyName is not Unity proof.
+            if isinstance(metadata.get("unity"), str) and isinstance(metadata.get("name"), str):
+                upm_roots.append(str(PurePosixPath(path).parent))
+
+    def unity_default_proved(path):
+        if unity_default_context or any(path.startswith(prefix) for prefix in unity_asset_prefixes):
+            return True
+        return any(root == "." or path.startswith(root + "/") for root in upm_roots)
+
     namespaces, types, active_types, defaults = set(), set(), set(), {}
+    type_declarations = []
     conditionals = []
     for file in files:
         path = file["path"]
@@ -404,6 +438,10 @@ def _inventory(payloads, profile, file_rows=None):
                 break
             parent = parent.parent
         if owner is None and reason == "unity-default":
+            if build_files and not unity_default_proved(path):
+                reason = "non-unity-build-context-default-unverified"
+                diagnostics.append({"kind": reason, "path": path})
+        if owner is None and reason == "unity-default":
             parts = PurePosixPath(path).parts[:-1]
             editor = "Editor" in parts
             firstpass = any(p in ("Standard Assets", "Pro Standard Assets", "Plugins") for p in parts)
@@ -416,11 +454,17 @@ def _inventory(payloads, profile, file_rows=None):
         if owner:
             owner["sourceFiles"].append(path)
         file["assembly"] = owner["name"] if owner else None
+        file["ownershipVerified"] = bool(owner and owner.get("ownershipVerified"))
         file["ownershipBasis"] = reason
         text = payloads[path].decode("utf-8-sig", "replace")
         ns, ts = _declarations(text)
         namespaces.update(ns)
         types.update(ts)
+        if file["ownershipVerified"]:
+            type_declarations.extend({"fullName": full_name, "assemblyIdentity": {"name": owner["name"]},
+                                      "sourcePath": path, "ownershipVerified": True, "profileVerified": False,
+                                      "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser"}
+                                     for full_name in sorted(ts))
         active_text, issues = _active_text(text, profile)
         if re.search(r"(?m)^\s*#\s*(if|elif)\b", text):
             conditionals.append({"path": path, "issues": issues})
@@ -429,8 +473,42 @@ def _inventory(payloads, profile, file_rows=None):
     result = {"files": files, "sourceSetSha256": source_set_sha256(files),
               "assemblies": sorted(list(definitions.values()) + list(defaults.values()), key=lambda a: (a["name"] or "", a["path"] or "")),
               "namespaces": sorted(namespaces), "types": sorted(types), "profileVerified": False,
+              "typeDeclarations": sorted(type_declarations, key=lambda t: (t["assemblyIdentity"]["name"], t["fullName"], t["sourcePath"])),
+              "fingerprintProducer": dict(FINGERPRINT_PRODUCER),
               "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
               "conditionalSources": conditionals, "diagnostics": diagnostics}
+    binaries={path:data for path,data in payloads.items() if path.lower().endswith(".dll")}
+    if binaries:
+        from .managed import parse_binaries,producer_identity
+        managed_rows=parse_binaries(binaries)
+        producer=producer_identity()
+        result["managedMetadataProducer"]=producer
+        result["fingerprintProducer"]["managedMetadata"]=producer
+        result["managedMetadata"]=managed_rows
+        for row in managed_rows:
+            for file in result["files"]:
+                if file["path"]==row["path"]:
+                    file["dummyDll"]=bool(file.get("dummyDll") or row.get("dummyDll"))
+            identity=row.get("assemblyIdentity")
+            if row.get("metadataStatus")!="managed" or not identity:
+                continue
+            verified=not row.get("dummyDll",False)
+            result["assemblies"].append({"name":identity["name"],"scope":identity,"path":row["path"],"sourceFiles":[],"types":[t["fullName"] for t in row["types"]],"ownershipVerified":verified,"profileVerified":False,"metadataOnly":True,"dummyDll":not verified})
+            for typ in row["types"]:
+                result["typeDeclarations"].append({"fullName":typ["fullName"],"assemblyIdentity":identity,"sourcePath":row["path"],"ownershipVerified":verified,"profileVerified":False,"declarationBasis":"managed-metadata","methods":typ.get("methods",[])})
+                types.add(typ["fullName"])
+                if typ.get("namespace"):
+                    namespaces.add(typ["namespace"])
+        result["types"]=sorted(types);result["namespaces"]=sorted(namespaces)
+    unparsed=[file for file in files if file["path"].lower().endswith(".dll") and file["path"] not in binaries]
+    if unparsed:
+        from .managed import producer_identity
+        producer=producer_identity()
+        result["managedMetadataProducer"]=producer
+        result["fingerprintProducer"]["managedMetadata"]=producer
+        result.setdefault("managedMetadata",[]).extend({"path":file["path"],"sha256":file["sha256"],"size":file["size"],
+            "metadataStatus":"unavailable","metadataError":"binary-exceeds-in-memory-metadata-input-limit","assemblyIdentity":None,
+            "references":[],"types":[],"profileVerified":False,"dummyDll":file.get("dummyDll",False)} for file in unparsed)
     if profile is not None:
         result["profile"] = profile
         result["activeTypes"] = sorted(active_types)

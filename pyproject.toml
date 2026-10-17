@@ -17,3 +17,4 @@ where = ["src"]
 
 [tool.setuptools.data-files]
 "share/uvault" = ["sources/component-reviews.json"]
+"share/uvault/managed-index" = ["tools/managed-index/ManagedIndex.csproj", "tools/managed-index/Program.cs"]

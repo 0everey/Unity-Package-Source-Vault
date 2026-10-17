@@ -94,6 +94,37 @@ class ClassificationTests(unittest.TestCase):
         result = classify(inventory(declaration("lib")), cat)
         self.assertEqual(result["classification"]["items"][0]["nativeAction"], "defer-library-resolution")
 
+    def test_inventory_producer_multi_asmdef_scopes_and_dotnet_unknowns_feed_classifier(self):
+        import io
+        import tarfile
+        from uvault.inventory import fingerprint_archive
+
+        def fingerprint(files):
+            output = io.BytesIO()
+            with tarfile.open(fileobj=output, mode="w") as archive:
+                for path, text in files.items():
+                    payload = text.encode()
+                    entry = tarfile.TarInfo("repository/" + path)
+                    entry.size = len(payload)
+                    archive.addfile(entry, io.BytesIO(payload))
+            return fingerprint_archive(output.getvalue(), "tar")
+
+        cat = catalog()
+        cat["packages"][0]["versions"][0]["fingerprint"] = fingerprint({
+            "First/First.asmdef": '{"name":"First.Runtime"}', "First/A.cs": "namespace Shared { class A {} }",
+            "Second/Second.asmdef": '{"name":"Second.Runtime"}', "Second/B.cs": "namespace Shared { class B {} }"})
+        actual = declaration("actual", assembly="First.Runtime", type_name="Shared.A")
+        cross_join = declaration("wrong-assembly", assembly="First.Runtime", type_name="Shared.B")
+        result = classify(inventory(actual, cross_join), cat)
+        rows = {row["id"]: row for row in result["classification"]["items"]}
+        self.assertEqual(rows["actual"]["nativeAction"], "defer-library-resolution")
+        self.assertEqual(rows["wrong-assembly"]["nativeAction"], "recover-native")
+        cat["packages"][0]["versions"][0]["fingerprint"] = fingerprint({
+            "Library.csproj": "<Project />", "Task.cs": "namespace Shared { class Task {} }"})
+        game = declaration("game", assembly="Assembly-CSharp", type_name="Shared.Task")
+        result = classify(inventory(game), cat)
+        self.assertEqual(result["nativeSelection"]["methodIds"], ["game"])
+
     def test_shared_va_library_alias_does_not_remove_business_declaration(self):
         lib = declaration("lib", address="0x1234", aliases=["business"])
         business = declaration("business", assembly="Assembly-CSharp", type_name="Game.Actor", category="game-business", address=0x1234, aliases=["lib"])
