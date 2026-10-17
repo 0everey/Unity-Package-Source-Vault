@@ -1,0 +1,5 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "type":"object","required":["schemaVersion","catalogCommit","lockSha256","inputIdentity","libraries","conflicts","unknown"],
+  "properties":{"schemaVersion":{"const":"1.0"},"catalogCommit":{"type":"string"},"lockSha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},"inputIdentity":{"type":"object"},"profile":{"type":["object","null"]},"libraries":{"type":"array","items":{"type":"object","required":["packageId","version","sourceRefs","adoptionStatus","skipNativeRecovery"],"properties":{"packageId":{"type":"string"},"version":{"type":"string"},"sourceRefs":{"type":"array"},"adoptionStatus":{"const":"pending"},"skipNativeRecovery":{"const":false}}}},"conflicts":{"type":"array"},"unknown":{"type":"array"}}
+}

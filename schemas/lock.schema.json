@@ -1,0 +1,5 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "type":"object","required":["schemaVersion","catalogCommit","input","libraries","unresolved","conflicts"],
+  "properties":{"schemaVersion":{"const":"1.0"},"catalogCommit":{"type":"string"},"input":{"type":"object"},"profile":{"type":["object","null"]},"libraries":{"type":"array","items":{"type":"object","required":["packageId","version","variantId","status","skipNativeRecovery"],"properties":{"packageId":{"type":"string"},"version":{"type":"string"},"variantId":{"type":"string"},"skipNativeRecovery":{"const":false}}}},"unresolved":{"type":"array"},"conflicts":{"type":"array"}}
+}

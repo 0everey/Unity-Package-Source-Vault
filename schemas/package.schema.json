@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://raw.githubusercontent.com/0everey/Unity-Package-Source-Vault/main/schemas/package.schema.json",
+  "type":"object", "required":["schemaVersion","id","versions"],
+  "properties":{
+    "schemaVersion":{"const":"1.0"},"id":{"type":"string","minLength":1},
+    "versions":{"type":"array","items":{"$ref":"#/$defs/version"}}
+  },
+  "$defs":{
+    "sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},
+    "artifact":{"type":"object","required":["sha256","size","format"],"properties":{"sha256":{"$ref":"#/$defs/sha256"},"size":{"type":"integer","minimum":0},"format":{"enum":["tgz","tar.gz","zip","nupkg","binary"]},"url":{"type":"string"},"verifiedRemote":{"type":"boolean"}}},
+    "version":{"type":"object","required":["version","variantId","disposition"],"properties":{
+      "version":{"type":"string"},"variantId":{"type":"string"},
+      "disposition":{"enum":["mirror-allowed","official-fetch-only","user-provided-only","builtin-reference","license-unresolved","source-unavailable","fetch-failed"]},
+      "artifact":{"oneOf":[{"type":"null"},{"$ref":"#/$defs/artifact"}]},"license":{"type":["object","null"]},"fingerprint":{"type":["object","null"]}
+    }}
+  }
+}
