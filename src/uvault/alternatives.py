@@ -2,19 +2,21 @@
 from copy import deepcopy
 
 NEWTONSOFT = frozenset(("Newtonsoft.Json", "com.unity.nuget.newtonsoft-json"))
+_NORMALIZED = frozenset(p.casefold() for p in NEWTONSOFT)
 
 
 def excluded_by_selection(package_id, requested):
-    selected = NEWTONSOFT & set(requested)
-    return package_id in NEWTONSOFT and len(selected) == 1 and package_id not in selected
+    selected = _NORMALIZED & {p.casefold() for p in requested}
+    normalized = package_id.casefold()
+    return normalized in _NORMALIZED and len(selected) == 1 and normalized not in selected
 
 
 def preserve_conflicts(result):
-    libraries = [p for p in result.get("libraries", []) if p.get("packageId") in NEWTONSOFT]
-    if len({p["packageId"] for p in libraries}) < 2:
+    libraries = [p for p in result.get("libraries", []) if str(p.get("packageId", "")).casefold() in _NORMALIZED]
+    if len({p["packageId"].casefold() for p in libraries}) < 2:
         return result
     conflict = {"kind": "alternative-distributions-selected", "group": "newtonsoft-json",
-                "packageIds": sorted(NEWTONSOFT), "policy": "alternative-not-coinstall",
+                "packageIds": sorted({p["packageId"] for p in libraries}), "policy": "alternative-not-coinstall",
                 "reason": "Select one distribution explicitly; matching assembly names/versions do not establish interchangeable packages"}
     if conflict not in result.setdefault("conflicts", []):
         result["conflicts"].append(deepcopy(conflict))

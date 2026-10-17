@@ -122,6 +122,26 @@ class R6Tests(unittest.TestCase):
         from uvault.cli import _partial
         self.assertTrue(_partial(result));self.assertTrue(_partial(exported))
 
+    def test_distribution_ids_are_case_insensitive_without_rewriting_original_ids(self):
+        from uvault.cli import _partial
+        for name in ('newtonsoft.json','NEWTONSOFT.JSON','Newtonsoft.Json'):
+            with self.subTest(name=name):
+                matches=self.matches();matches['unknown']=[]
+                matches['matches'][0]['packageId']=name
+                matches['matches'][0]['candidates'][0]['packageId']=name
+                for match in matches['matches']:match['status']='exact-artifact'
+                both=resolve(matches)
+                self.assertTrue(_partial(both))
+                self.assertTrue(any(c['kind']=='alternative-distributions-selected' for c in both['conflicts']))
+                old=copy.deepcopy(both);old['conflicts']=[]
+                for library in old['libraries']:library['conflicts']=[]
+                self.assertTrue(_partial(export_remaker(old)))
+                for pid in (name,'com.unity.nuget.newtonsoft-json'):
+                    selected=resolve(matches,[{'packageId':pid,'version':'1.0.0','variantId':'test'}])
+                    self.assertEqual({l['packageId'] for l in selected['libraries']},{pid,'Other'})
+                    self.assertFalse(_partial(selected))
+                    self.assertEqual(len(selected['unselectedAlternatives']),1)
+
     def test_cli_conflict_and_explicit_choice_both_remain_partial_with_unknown(self):
         with tempfile.TemporaryDirectory() as temporary:
             root=Path(temporary);source=root/'matches.json';source.write_text(json.dumps(self.matches()))
