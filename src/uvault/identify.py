@@ -257,6 +257,13 @@ def _match_candidate(fingerprint, version, observation=None):
         if any(file.get("sha256") == other.get("sha256") for other in catalog_binaries) or (
                 artifact.get("format") == "dll" and file.get("sha256") == artifact.get("sha256")):
             dll_equal.append(file["path"])
+    target_binaries = {f["path"]: f["sha256"] for f in binary_files if f.get("sha256")}
+    known_binaries = {f["path"]: f["sha256"] for f in catalog_binaries if f.get("sha256")}
+    changed_binaries = sorted(p for p in target_binaries.keys() & known_binaries.keys()
+                              if target_binaries[p] != known_binaries[p])
+    if changed_binaries:
+        conflicts.append({"kind": "modified-or-different-binary-target", "basis": "actual-same-path-dll-hash-differs",
+                          "changed": changed_binaries})
     modified = bool(identity and observation.get("targetPresent") and source_files and target_sources != source_files)
     if modified:
         conflicts.append({"kind": "modified-or-incomplete-target", "basis": "actual-source-path-hash-set-differs",
@@ -274,8 +281,11 @@ def _match_candidate(fingerprint, version, observation=None):
         scope.extend({"kind": "binary-file", "path": p} for p in dll_equal)
     lock_conflict = bool(identity and observation.get("lockedVersion") and observation.get("lockedVersion") != stated
                          and not str(observation["lockedVersion"]).startswith(("file:", "git+", "http")))
-    if (artifact_equal or source_equal or dll_equal) and not modified and not lock_conflict:
-        return {"status": "exact-artifact", "evidence": evidence, "conflicts": conflicts, "scope": scope, "rank": 4}
+    if (artifact_equal or source_equal or dll_equal) and not modified and not changed_binaries and not lock_conflict:
+        # Whole archive bytes distinguish SDK releases sharing all C# sources
+        # and some DLLs. Equal subsets alone cannot select that archive.
+        return {"status": "exact-artifact", "evidence": evidence, "conflicts": conflicts,
+                "scope": scope, "rank": 5 if artifact_equal else 4}
     if identity:
         evidence.append({"kind": "package-identity-metadata", "version": stated})
         if lock_conflict:
@@ -374,7 +384,7 @@ def identify(input_path, catalog, profile=None) -> dict:
                 # exact match for another installation of the same package.
                 all_conflicts = [c for f in found for c in f["conflicts"]]
                 best = dict(best, conflicts=all_conflicts)
-                if any(c["kind"] == "modified-or-incomplete-target" for c in all_conflicts):
+                if any(c["kind"] in ("modified-or-incomplete-target", "modified-or-different-binary-target") for c in all_conflicts):
                     best.update(status="strong-candidate", rank=2, scope=[])
                 candidates.append((_candidate(package_id, version), best))
         if not candidates:

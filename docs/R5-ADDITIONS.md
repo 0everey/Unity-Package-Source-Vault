@@ -34,6 +34,11 @@ version strings, current-source equality or user selection cannot authorize
 replacement. Keep native recovery eligibility and business/alias identities.
 Actual private target comparisons and source bodies are not published here.
 
+Whole archive byte equality takes precedence over equal source/DLL subsets when
+distinguishing releases of one SDK. Shared source or shared DLLs alone preserve
+version ambiguity. Observed non-Dummy DLL differences at the same relative path
+prevent source/shared-DLL equality from certifying a modified SDK as exact.
+
 Official sources: [Sentry release](https://github.com/getsentry/unity/releases/tag/3.2.3),
 [Best installation](https://bestdocshub.pages.dev/HTTP/installation/),
 [Best versions](https://bestdocshub.pages.dev/HTTP/changelog/),

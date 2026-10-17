@@ -67,6 +67,36 @@ class IdentifyTests(unittest.TestCase):
         self.assertEqual(result["matches"], [])
         self.assertTrue(result["unknown"])
 
+    def test_sdk_archive_distinguishes_shared_sources_and_dlls_both_directions(self):
+        common = {"Runtime/A.cs": "namespace Example { class A {} }", "lib/shared.dll": b"MZ shared"}
+        a = dict(common, **{"lib/integration.dll": b"MZ A"})
+        b = dict(common, **{"lib/integration.dll": b"MZ B"})
+        va, vb = version("1.0.0", files=a), version("1.0.1", files=b)
+        with tempfile.TemporaryDirectory() as temp:
+            target = Path(temp, "sdk.tgz")
+            for number, files in [("1.0.0", a), ("1.0.1", b)]:
+                target.write_bytes(archive(files))
+                match = identify(target, catalog(va, vb))["matches"][0]
+                self.assertEqual(match["status"], "exact-artifact")
+                self.assertEqual([v["version"] for v in match["candidates"]], [number])
+
+    def test_sdk_shared_subsets_remain_ambiguous_and_changed_binary_is_not_exact(self):
+        common = {"Runtime/A.cs": "namespace Example { class A {} }", "lib/shared.dll": b"MZ shared"}
+        va = version("1.0.0", files=dict(common, **{"lib/integration.dll": b"MZ A"}))
+        vb = version("1.0.1", files=dict(common, **{"lib/integration.dll": b"MZ B"}))
+        with tempfile.TemporaryDirectory() as temp:
+            target = Path(temp, "sdk.tgz")
+            for files in [common, {"Runtime/A.cs": common["Runtime/A.cs"]}, {"lib/shared.dll": b"MZ shared"}]:
+                target.write_bytes(archive(files))
+                match = identify(target, catalog(va, vb))["matches"][0]
+                self.assertEqual(match["status"], "ambiguous")
+                self.assertEqual(len(match["candidates"]), 2)
+            target.write_bytes(archive(dict(common, **{"lib/integration.dll": b"MZ modified"})))
+            result = identify(target, catalog(va, vb))
+        self.assertNotEqual(result["matches"][0]["status"], "exact-artifact")
+        self.assertEqual(result["matches"][0]["suggestedReuseScope"], [])
+        self.assertTrue(any(c["kind"] == "modified-or-different-binary-target" for c in result["conflicts"]))
+
     def test_identical_versions_and_variants_are_explicitly_ambiguous(self):
         v1, v2 = version(), version("2.0.0", "other")
         with tempfile.TemporaryDirectory() as temp:
