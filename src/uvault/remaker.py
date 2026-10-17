@@ -31,6 +31,11 @@ def export_remaker(lock: dict, materialized: dict | None = None, lock_file_sha25
     # from a protected copy, so status and reuse suggestions cannot diverge.
     from .named_identity import preserve_pending
     preserve_pending(result)
+    from .alternatives import preserve_conflicts
+    preserve_conflicts(result)
+    for key in ("nugetDependencyCandidates", "unselectedAlternatives"):
+        if key in lock:
+            result[key] = deepcopy(lock[key])
     for library in result["libraries"]:
         identity = {key: library.get(key) for key in ("packageId", "version", "variantId")}
         result["sourceRefs"].append({**identity, "sourceUrl": library.get("sourceUrl"),

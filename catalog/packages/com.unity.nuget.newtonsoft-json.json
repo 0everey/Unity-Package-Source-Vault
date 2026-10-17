@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.nuget.newtonsoft-json",
+  "displayName": "com.unity.nuget.newtonsoft-json",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.nuget.newtonsoft-json",
+      "fetchedAt": "2026-10-17T21:40:28.800946Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "3.0.2",
+      "variantId": "registry-packages.unity.com-45591969a6e11ed9",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git",
+      "sourceRef": "8f66870a71ad3f2cdd46330b5c482dfd138ffc64",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.nuget.newtonsoft-json/-/com.unity.nuget.newtonsoft-json-3.0.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "eebc3d04142789d84e13afbe98e55f9be569a33d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.nuget.newtonsoft-json/3.0.2",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "eebc3d04142789d84e13afbe98e55f9be569a33d"
+        }
+      }
+    },
+    {
+      "version": "3.2.2",
+      "variantId": "registry-packages.unity.com-a297eecfd6395f28",
+      "sourceUrl": "https://packages.unity.com/com.unity.nuget.newtonsoft-json",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.nuget.newtonsoft-json/-/com.unity.nuget.newtonsoft-json-3.2.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4dfd81071c6475bb9c114f920bfb4e3fc5e28c6a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.nuget.newtonsoft-json/3.2.2",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "4dfd81071c6475bb9c114f920bfb4e3fc5e28c6a"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "3.2.2"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [
+      "3.0.2",
+      "3.2.2"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "3.0.2",
+    "3.2.2"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "serialization",
+  "integrationNote": "Alternative to NuGet Newtonsoft.Json; do not coinstall. File bytes and TFM require separate comparison.",
+  "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "family": "common-serialization"
+}

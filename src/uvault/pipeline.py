@@ -35,8 +35,12 @@ def save_package(root, package):
 def save_index(root, queue, bundle=False):
     from .curated import compatibility_sets
     queue["compatibilitySets"]=compatibility_sets(queue)
+    from .nuget import dependency_candidates
+    queue["nugetDependencyCandidates"] = dependency_candidates(queue)
     index={"schemaVersion":"1.0","catalogCommit":"pending", "scope":queue.get("scope"), "scopeVersion":queue.get("scopeVersion"),
            "requirementRevision":queue.get("requirementRevision","R4"),"compatibilitySetDefinitions":queue.get("compatibilitySetDefinitions",[]),"compatibilitySets":queue["compatibilitySets"],
+           "nugetDependencyCandidates":queue["nugetDependencyCandidates"],
+           "onDemandCandidates":queue.get("onDemandCandidates",[]), "providerRuleCandidates":queue.get("providerRuleCandidates",[]),
            "enumerationMeaning":queue.get("enumerationMeaning"),
            "snapshots":queue.get("snapshots",[]),"completeEnumeration":queue.get("completeEnumeration",False),
            "frontier":queue.get("frontier",[]),"coverage":"coverage.json",

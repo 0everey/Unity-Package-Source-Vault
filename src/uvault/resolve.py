@@ -33,12 +33,18 @@ def resolve(matches: dict, selections: list[dict] | None = None) -> dict:
               "conflicts": deepcopy(matches.get("conflicts", []))}
     if matches.get("namedPending"):
         result["namedPending"]=deepcopy(matches["namedPending"])
+    if "nugetDependencyCandidates" in matches:
+        result["nugetDependencyCandidates"] = deepcopy(matches["nugetDependencyCandidates"])
     observed: set[str] = set()
     for match in matches.get("matches", []):
         package_id = match.get("packageId")
         if not package_id or package_id in observed:
             raise ValueError("matches must contain one record per packageId")
         observed.add(package_id)
+        from .alternatives import excluded_by_selection
+        if excluded_by_selection(package_id, requested):
+            result.setdefault("unselectedAlternatives", []).append({"reason":"explicit-alternative-distribution-selection", "match":deepcopy(match)})
+            continue
         candidates: dict[tuple[str, str, str], dict] = {}
         for original in match.get("candidates", []):
             candidate = deepcopy(original)
@@ -65,7 +71,7 @@ def resolve(matches: dict, selections: list[dict] | None = None) -> dict:
         candidate = candidates[chosen]
         library = {key: deepcopy(candidate.get(key)) for key in (
             "packageId", "version", "variantId", "artifact", "license", "sourceUrl",
-            "sourceRef", "downloadUrl", "disposition", "fingerprint", "sdkBundle")}
+            "sourceRef", "downloadUrl", "disposition", "fingerprint", "sdkBundle", "nuget")}
         library.update({"status": match.get("status", "candidate"),
                         "evidence": deepcopy(match.get("evidence", [])),
                         "conflicts": deepcopy(match.get("conflicts", [])),
@@ -79,4 +85,5 @@ def resolve(matches: dict, selections: list[dict] | None = None) -> dict:
     result["unresolved"].extend({"reason": "unknown-input", "detail": deepcopy(item)}
                                 for item in result["unknown"])
     from .named_identity import preserve_pending
-    return preserve_pending(result)
+    from .alternatives import preserve_conflicts
+    return preserve_conflicts(preserve_pending(result))

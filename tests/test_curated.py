@@ -16,7 +16,7 @@ class CuratedTests(unittest.TestCase):
         with patch("uvault.sources.discover_openupm", side_effect=AssertionError("ecosystem crawl")):
             state = harvest.discover()
         self.assertEqual(state["scopeVersion"], "R4")
-        self.assertEqual(len(state["packages"]), 73)
+        self.assertEqual(len(state["packages"]), 82)
         builtin = [p for p in state["packages"] if p.get("family") == "unity-builtin"]
         self.assertEqual(len(builtin), 23)
         self.assertTrue(all(p["metadataStatus"] == "reference-only" and not p["selectedVersions"] for p in builtin))

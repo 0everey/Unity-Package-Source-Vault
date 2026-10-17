@@ -618,7 +618,58 @@
           ".NETStandard2.1"
         ],
         "nuspecSha256": "1276f66b4414aa409f4548480ef6eeb245449ed2f747541c64d526f7ba73d3e0",
-        "nuspecPath": "Grpc.Core.Api.nuspec"
+        "nuspecPath": "Grpc.Core.Api.nuspec",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETFramework4.6.2",
+            "dependencies": [
+              {
+                "id": "System.Memory",
+                "version": "4.5.3",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Memory",
+                "version": "4.5.3",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard2.1",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/net462/Grpc.Core.Api.dll",
+            "targetFramework": "net462",
+            "kind": "lib",
+            "sha256": "33cd3f6501010234a351037e32b64c23a9e12302ddfa826b901163f4a993f901",
+            "size": 59904
+          },
+          {
+            "path": "lib/netstandard2.0/Grpc.Core.Api.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "1a2aabe96d7f55c5ddd7c90647899ee853b0126eba01003c106beffc3783507d",
+            "size": 59904
+          },
+          {
+            "path": "lib/netstandard2.1/Grpc.Core.Api.dll",
+            "targetFramework": "netstandard2.1",
+            "kind": "lib",
+            "sha256": "440b6b0a5beca40718a01b3e892baa6e2fd03933f3f501fc40e2a956b0d937a1",
+            "size": 59904
+          }
+        ],
+        "archiveSha256": "af36bafbf54efacb53abde2ff38efebec4e845eaa4bdc5aca1e9a71122788b3c",
+        "metadataExtensionBasis": "original-sha-verified-archive-and-nuspec"
       },
       "collectedAt": "2026-10-17T19:34:16.434284Z"
     },
@@ -1229,7 +1280,58 @@
           ".NETStandard2.1"
         ],
         "nuspecSha256": "bba00f5d5be8423dd351662e313648b0abd13100ef67d55f6fc29de44c544a96",
-        "nuspecPath": "Grpc.Core.Api.nuspec"
+        "nuspecPath": "Grpc.Core.Api.nuspec",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETFramework4.6.2",
+            "dependencies": [
+              {
+                "id": "System.Memory",
+                "version": "4.6.3",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Memory",
+                "version": "4.6.3",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard2.1",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/net462/Grpc.Core.Api.dll",
+            "targetFramework": "net462",
+            "kind": "lib",
+            "sha256": "cceb9f1804b1aa4f366b7b475e8728664e05557be6f188ab777bac6b07296caf",
+            "size": 70296
+          },
+          {
+            "path": "lib/netstandard2.0/Grpc.Core.Api.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "ef0c775f20f7e2d5d68e63e78977ee6605f61ee945f780f1e026b3065009008f",
+            "size": 70296
+          },
+          {
+            "path": "lib/netstandard2.1/Grpc.Core.Api.dll",
+            "targetFramework": "netstandard2.1",
+            "kind": "lib",
+            "sha256": "16b1ff898b9a2c1ffac0e22035c8280728967e7041bfe8a382bcb1f99a9a530b",
+            "size": 70296
+          }
+        ],
+        "archiveSha256": "a6eedd9e6832fffe46848452d73274862fb319b8e6c141ec7ad39815af155063",
+        "metadataExtensionBasis": "original-sha-verified-archive-and-nuspec"
       },
       "collectedAt": "2026-10-17T19:34:16.583284Z"
     }
@@ -1240,8 +1342,12 @@
     "scopeVersion": "R4",
     "versionCount": 2,
     "maxCommonVersions": 3,
-    "preferredVersions": [],
+    "preferredVersions": [
+      "2.83.0",
+      "2.84.0"
+    ],
     "legacyMajor": null,
+    "selectionMode": "fixed-common",
     "retainVerifiedLegacy": false,
     "commonArchiveFallback": false
   },
@@ -1256,5 +1362,10 @@
   "category": "networking",
   "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
   "family": "common-networking",
-  "registry": "https://packages.unity.com"
+  "registry": "https://packages.unity.com",
+  "preferredVersions": [
+    "2.83.0",
+    "2.84.0"
+  ],
+  "selectionMode": "fixed-common"
 }

@@ -18,6 +18,7 @@ def seeds():
         item.update(schemaVersion="1.0",family="common-"+entry["category"],metadataStatus="pending",versions=[],curatedPolicy={
             "scopeVersion":"R4","versionCount":2,"maxCommonVersions":3,
             "preferredVersions":entry.get("preferredVersions",[]),"legacyMajor":entry.get("legacyMajor"),
+            "selectionMode":entry.get("selectionMode","common"),
             "retainVerifiedLegacy":entry.get("retainVerifiedLegacy",False), "commonArchiveFallback":entry.get("commonArchiveFallback",False)})
         result.append(item)
     for entry in config["references"]:
@@ -47,7 +48,7 @@ def choose_versions(versions,policy,requests=()):
     for request in requests:
         if not request.get("reason"):raise ValueError("An actual version gap requires a reason")
         add(request["version"])
-    if ordered:
+    if ordered and policy.get("selectionMode") not in ("parent-constrained", "fixed-common"):
         preferred_major=version_key(selected[0])[1][0] if selected else None
         compatible=[v for v in ordered if preferred_major is None or version_key(v)[1][0]==preferred_major]
         if compatible and len(selected)<policy.get("versionCount",2):add(compatible[0])
@@ -86,7 +87,7 @@ def curate_package(package,seed):
     package.pop("versionRequests",None)
     package["missingTargetVersions"]=[r["version"] for r in seed.get("explicitVersionRequests",[]) if r["version"] not in package["selectedVersions"]]
     package["missingPreferredVersions"]=[v for v in policy.get("preferredVersions",[]) if v not in package["selectedVersions"]]
-    for key in ("manifestReferences", "category", "integrationNote", "componentBundle", "coverageBasis", "priority"):
+    for key in ("manifestReferences", "category", "integrationNote", "componentBundle", "coverageBasis", "priority", "dependencyRole", "parentBasis"):
         if key in seed: package[key]=deepcopy(seed[key])
     package["versionPolicy"]="R4: two common versions; at most three including a justified gap/legacy"
     return package
@@ -116,7 +117,9 @@ def queue(existing=None):
     return {"schemaVersion":"1.0","scopeVersion":"R4","requirementRevision":configuration().get("requirementRevision","R4"),"scope":"Common Unity builtin providers and explicitly listed common packages; two or three versions per family",
             "createdAt":utc_now(),"completeEnumeration":True,"enumerationMeaning":"Complete current common whitelist, not an ecosystem enumeration",
             "snapshots":[{"source":"common-packages.json","scopeVersion":"R4","configuredPackageFamilies":len(configuration()["packages"]),"discoveredAt":utc_now()}],
-            "packages":packages,"frontier":[],"compatibilitySetDefinitions":deepcopy(configuration().get("compatibilitySetDefinitions",[]))}
+            "packages":packages,"frontier":[],"compatibilitySetDefinitions":deepcopy(configuration().get("compatibilitySetDefinitions",[])),
+            "onDemandCandidates":deepcopy(configuration().get("onDemandCandidates",[])),
+            "providerRuleCandidates":deepcopy(configuration().get("providerRuleCandidates",[]))}
 
 def compatibility_sets(state):
     """Verify declared member edges and expose exact shared gaps, never install."""

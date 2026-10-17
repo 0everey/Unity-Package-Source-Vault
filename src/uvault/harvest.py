@@ -188,6 +188,8 @@ def coverage(queue):
             "sourceSnapshots": queue.get("snapshots", []), "completeEnumeration": queue.get("completeEnumeration", False),
             "scope": queue.get("scope"), "discoveredPackages": len(queue["packages"]),
             "requirementRevision":queue.get("requirementRevision","R4"),"compatibilitySets":queue.get("compatibilitySets",[]),
+            "nugetDependencyCandidates":queue.get("nugetDependencyCandidates",{}),
+            "onDemandCandidates":queue.get("onDemandCandidates",[]),"providerRuleCandidates":queue.get("providerRuleCandidates",[]),
             "registeredPackages": metadata.get("complete", 0) + metadata.get("reference-only", 0),
             "metadataStatusCounts": metadata, "listedVersions": listed, "selectedVersionTasks": selected,
             "completedSelectedVersionTasks": completed, "pendingSelectedVersionTasks": selected - completed,
@@ -278,16 +280,8 @@ def inspect_licenses(data, archive_format, record, *, upstream_license=None, com
                 manifest_info = {"error": "invalid-package-json"}
         if content is not None and base.endswith(".nuspec"):
             try:
-                root = ET.fromstring(content)
-                def elements(local):
-                    return [item for item in root.iter() if item.tag.rsplit("}", 1)[-1] == local]
-                license_nodes = elements("license")
-                repositories = elements("repository")
-                nuspec_info = {"declaredLicense": license_nodes[0].text if license_nodes else None,
-                               "repository": repositories[0].attrib if repositories else {},
-                               "dependencies": [{"id": item.attrib.get("id"), "version": item.attrib.get("version")} for item in elements("dependency")],
-                               "targetFrameworks": sorted({item.attrib["targetFramework"] for item in elements("group") if "targetFramework" in item.attrib}),
-                               "nuspecSha256": _sha(content), "nuspecPath": relative}
+                from .nuget import parse_nuspec
+                nuspec_info = parse_nuspec(content, relative)
             except ET.ParseError:
                 nuspec_info = {"error": "invalid-nuspec"}
         if content is not None and base.startswith(("license", "licence", "copying")):
@@ -495,6 +489,10 @@ def collect_version(package, version, *, publish=None):
         from .inventory import fingerprint_archive
         fingerprint = fingerprint_archive(data, archive_format)
         record["fingerprint"] = fingerprint
+        if record.get("nuget"):
+            from .nuget import assets
+            record["nuget"]["assets"] = assets(fingerprint["files"])
+            record["nuget"]["archiveSha256"] = _sha(data)
         if package.get("componentBundle")=="sentry-unity":
             record["sdkBundle"]={"packageId":package["id"],"version":record["version"],"archiveSha256":_sha(data),
                 "assemblies":[{"path":item["path"],"sha256":item["sha256"],"assemblyIdentity":copy.deepcopy(item["assemblyIdentity"]),

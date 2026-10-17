@@ -55,7 +55,11 @@ uvault classify --inventory <DECLARATIONS.json> --profile <profile.json> --out <
 | reuse-upstream / skip-native | 仅在原 writer 接收具名成员范围和已确认来源后减少恢复任务 |
 | regenerate | 仅在生成器和完整输入已核实后进入再生成队列；不冒执行完成 |
 
-R5 当前库为 43 个常用包族、23 个内置模块及 7 个商业／Editor／受限／待辨参考项，每包两至三版，实际缺口再补。SRP 17／14、UGUI 2 等 Editor 随附版本有固定官方 manifest／源码入口而无可下载归档时，保持 official-fetch-only、artifact=null、reference-only；不能当 exact 或静默改用旧版。独立包继续进入找源／辨版队列，不改称内置模块。
+R6 当前库为 48 个常用根包族、4 个父约束伴随条目、23 个内置模块及 7 个商业／Editor／受限／待辨参考项，每包通常两版、最多三版，Unsafe 仅一版，实际缺口再补。SRP 17／14、UGUI 2、VFX Graph 17／14 等 Editor 随附版本有固定官方 manifest／源码入口而无可下载归档时，保持 official-fetch-only、artifact=null、reference-only；不能当 exact 或静默改用旧版。独立包继续进入找源／辨版队列，不改称内置模块。
+
+R6 的 `nuget.dependencyGroups` 保存原 TFM、原版本范围及 include/exclude；`nuget.assets` 绑定 lib/ref 相对路径、TFM、实际 SHA。`nugetDependencyCandidates` 仅提供 netstandard2.0/2.1 目录候选，Logging/Diagnostic 的 2.0 回退不冒 2.1 资产或引用通过。裸 NuGet 版本是最低范围，不能当 exact；未收 DI/Memory/Buffers/Bcl 等仍具名缺口。程序集版本不锁包版本，普通 Unsafe 不替 Sentry 前缀组件。
+
+Unity `com.unity.nuget.newtonsoft-json` 与 NuGet `Newtonsoft.Json` 是独立发行，禁止据同名程序集自动并装／替换。`resolve` 同时纳入两者及旧双发行锁 `export-remaker` 均返回显式冲突/partial，裸复用 scope 清空。显式选择一个发行只排除另一个取材来源，原候选保在 `unselectedAlternatives`，其他 unknown、证据、profile 和待辨不升级。详见 [R6-ADDITIONS.md](R6-ADDITIONS.md)。
 
 R5 补充见 [R5-ADDITIONS.md](R5-ADDITIONS.md)。Sentry 的 `sdkBundle` 保存每个实际 SDK 归档随附程序集的 full identity／version／SHA／相对路径，不以通用 `System.*` 代替 `Sentry.System.*`。Best HTTP 的已知 assembly 与官方 release 只能作商业版本候选，取材走官方商店或合法使用者提供，不冒原版正文已认证。Sprite 1.0.0 是 Editor core package，没有另造 Sprite runtime provider。
 

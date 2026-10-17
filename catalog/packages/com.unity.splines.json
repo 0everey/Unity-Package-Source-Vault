@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.splines",
+  "displayName": "com.unity.splines",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.splines",
+      "fetchedAt": "2026-10-17T21:40:28.900060Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "2.9.0",
+      "variantId": "registry-packages.unity.com-921d7343898af264",
+      "sourceUrl": "https://packages.unity.com/com.unity.splines",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.splines/-/com.unity.splines-2.9.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e6e1d5900acccddb7bdd2b0c7882b5d9bb14da0c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.splines/2.9.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "e6e1d5900acccddb7bdd2b0c7882b5d9bb14da0c"
+        }
+      }
+    },
+    {
+      "version": "2.9.1",
+      "variantId": "registry-packages.unity.com-75e7da8cce3fb2a6",
+      "sourceUrl": "https://packages.unity.com/com.unity.splines",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.splines/-/com.unity.splines-2.9.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "edbe9aefec91ff24e12d991794b09acf88afcddd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.splines/2.9.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "edbe9aefec91ff24e12d991794b09acf88afcddd"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.9.1"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [
+      "2.9.0",
+      "2.9.1"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "2.9.0",
+    "2.9.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "paths",
+  "integrationNote": "Keep Runtime/Editor assembly boundaries and named exact dependencies.",
+  "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "family": "common-paths"
+}

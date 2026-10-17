@@ -4744,7 +4744,153 @@
           "net6.0"
         ],
         "nuspecSha256": "64aeffca22289eeb3bd32cbe72722ac878d2eadcee9f8885f17daa2e8357c518",
-        "nuspecPath": "Newtonsoft.Json.nuspec"
+        "nuspecPath": "Newtonsoft.Json.nuspec",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETFramework2.0",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETFramework3.5",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETFramework4.0",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETFramework4.5",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETStandard1.0",
+            "dependencies": [
+              {
+                "id": "Microsoft.CSharp",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "NETStandard.Library",
+                "version": "1.6.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.ComponentModel.TypeConverter",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Runtime.Serialization.Primitives",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard1.3",
+            "dependencies": [
+              {
+                "id": "Microsoft.CSharp",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "NETStandard.Library",
+                "version": "1.6.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.ComponentModel.TypeConverter",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Runtime.Serialization.Formatters",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Runtime.Serialization.Primitives",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Xml.XmlDocument",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": "net6.0",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/net20/Newtonsoft.Json.dll",
+            "targetFramework": "net20",
+            "kind": "lib",
+            "sha256": "0f89b82c6b76816b17286951ba83201c71b6611f3e75e907552247dfc72034f2",
+            "size": 580880
+          },
+          {
+            "path": "lib/net35/Newtonsoft.Json.dll",
+            "targetFramework": "net35",
+            "kind": "lib",
+            "sha256": "c69b18993d8236e5dfe3f0580a4392e7bc0b5f525911737318117c91d43b3ea5",
+            "size": 515856
+          },
+          {
+            "path": "lib/net40/Newtonsoft.Json.dll",
+            "targetFramework": "net40",
+            "kind": "lib",
+            "sha256": "e6d1371d1aa774d155e9a4a89da32b87fd4928650f4d76a1cf68c8c88283693c",
+            "size": 584976
+          },
+          {
+            "path": "lib/net45/Newtonsoft.Json.dll",
+            "targetFramework": "net45",
+            "kind": "lib",
+            "sha256": "e1e27af7b07eeedf5ce71a9255f0422816a6fc5849a483c6714e1b472044fa9d",
+            "size": 711952
+          },
+          {
+            "path": "lib/net6.0/Newtonsoft.Json.dll",
+            "targetFramework": "net6.0",
+            "kind": "lib",
+            "sha256": "22c649f75fce5be7c7ccda8880473b634ef69ecf33f5d1ab8ad892caf47d5a07",
+            "size": 712464
+          },
+          {
+            "path": "lib/netstandard1.0/Newtonsoft.Json.dll",
+            "targetFramework": "netstandard1.0",
+            "kind": "lib",
+            "sha256": "84623a0be7dd76da1c01b981c4d4d140c28bc2b9246131d2ce0e46f146961ea4",
+            "size": 680720
+          },
+          {
+            "path": "lib/netstandard1.3/Newtonsoft.Json.dll",
+            "targetFramework": "netstandard1.3",
+            "kind": "lib",
+            "sha256": "4e0a14373fb1f73c7161c7656cfae219ed760d8af93a20319d30b03500aff07b",
+            "size": 699664
+          },
+          {
+            "path": "lib/netstandard2.0/Newtonsoft.Json.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "8c1dd5c184b4e2e7ead06971ff3ebcb46783be972292d1deb1061744369b4d80",
+            "size": 705296
+          }
+        ],
+        "archiveSha256": "872fc189e638ab1056555b03aaa38f68bcb54286e221aa646eb1129babf63c77",
+        "metadataExtensionBasis": "original-sha-verified-archive-and-nuspec"
       },
       "collectedAt": "2026-10-17T19:34:17.711089Z"
     },
@@ -9583,7 +9729,153 @@
           "net6.0"
         ],
         "nuspecSha256": "f4bc224d57a21fb481f1dc655c3fde6f2e5b8ce80a9448e74a5721a51932adf3",
-        "nuspecPath": "Newtonsoft.Json.nuspec"
+        "nuspecPath": "Newtonsoft.Json.nuspec",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETFramework2.0",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETFramework3.5",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETFramework4.0",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETFramework4.5",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETStandard1.0",
+            "dependencies": [
+              {
+                "id": "Microsoft.CSharp",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "NETStandard.Library",
+                "version": "1.6.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.ComponentModel.TypeConverter",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Runtime.Serialization.Primitives",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard1.3",
+            "dependencies": [
+              {
+                "id": "Microsoft.CSharp",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "NETStandard.Library",
+                "version": "1.6.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.ComponentModel.TypeConverter",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Runtime.Serialization.Formatters",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Runtime.Serialization.Primitives",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Xml.XmlDocument",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": "net6.0",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/net20/Newtonsoft.Json.dll",
+            "targetFramework": "net20",
+            "kind": "lib",
+            "sha256": "92b46ee3102b43eaee240aa37015d0e777756f923be79c69cd17bbb2c25ffea2",
+            "size": 589736
+          },
+          {
+            "path": "lib/net35/Newtonsoft.Json.dll",
+            "targetFramework": "net35",
+            "kind": "lib",
+            "sha256": "4a3d7bbaa2c347c2f98fa06a7324ebf311f696d9965e9ba0a81a56219420ce01",
+            "size": 524200
+          },
+          {
+            "path": "lib/net40/Newtonsoft.Json.dll",
+            "targetFramework": "net40",
+            "kind": "lib",
+            "sha256": "3d41097c1589caa9635dec3b9340b6946274e2b2fb70dbf623db6688e3a46bff",
+            "size": 593832
+          },
+          {
+            "path": "lib/net45/Newtonsoft.Json.dll",
+            "targetFramework": "net45",
+            "kind": "lib",
+            "sha256": "f0c07af0e84d4dd4da4bd7823ba4535bc0481b3bf623ed40b659b68147a6bb75",
+            "size": 721320
+          },
+          {
+            "path": "lib/net6.0/Newtonsoft.Json.dll",
+            "targetFramework": "net6.0",
+            "kind": "lib",
+            "sha256": "a28c251dfe36d881e9e2462e171441b8b0ec156fe3f452602c9149b1b9efe05b",
+            "size": 723368
+          },
+          {
+            "path": "lib/netstandard1.0/Newtonsoft.Json.dll",
+            "targetFramework": "netstandard1.0",
+            "kind": "lib",
+            "sha256": "23cf0aae07c98429f1c5f29a166ab69307cb84ec00fbf75c45fe4ae7195e45e0",
+            "size": 689576
+          },
+          {
+            "path": "lib/netstandard1.3/Newtonsoft.Json.dll",
+            "targetFramework": "netstandard1.3",
+            "kind": "lib",
+            "sha256": "c46da2bf0f9d921db25ffc0142388fa048de51b631798024e010e4f71f667d8f",
+            "size": 711080
+          },
+          {
+            "path": "lib/netstandard2.0/Newtonsoft.Json.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "12246aa5e14245cbd1a0b8794851defd46e6d782c60eb650ba5aa90ef8447eee",
+            "size": 717736
+          }
+        ],
+        "archiveSha256": "f09081d457405baf35a973fa0c50d6bf272ed683f2568c5a620a49da952f6529",
+        "metadataExtensionBasis": "original-sha-verified-archive-and-nuspec"
       },
       "collectedAt": "2026-10-17T19:34:18.320447Z"
     }
@@ -9596,6 +9888,7 @@
     "maxCommonVersions": 3,
     "preferredVersions": [],
     "legacyMajor": null,
+    "selectionMode": "common",
     "retainVerifiedLegacy": false,
     "commonArchiveFallback": false
   },

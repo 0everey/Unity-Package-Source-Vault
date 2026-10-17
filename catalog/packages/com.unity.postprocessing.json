@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.postprocessing",
+  "displayName": "com.unity.postprocessing",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.postprocessing",
+      "fetchedAt": "2026-10-17T21:40:28.849483Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "3.5.3",
+      "variantId": "registry-packages.unity.com-40d4d63655ea7deb",
+      "sourceUrl": "https://packages.unity.com/com.unity.postprocessing",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-3.5.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "efab8172b3ff833d1ab044de0867de3995ba5782",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.postprocessing/3.5.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "efab8172b3ff833d1ab044de0867de3995ba5782"
+        }
+      }
+    },
+    {
+      "version": "3.5.4",
+      "variantId": "registry-packages.unity.com-1ea268de6cc00f20",
+      "sourceUrl": "https://packages.unity.com/com.unity.postprocessing",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-3.5.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "141166b789e3df4d2a816ea0dc441d73da8db3e6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.postprocessing/3.5.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "141166b789e3df4d2a816ea0dc441d73da8db3e6"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "3.5.4"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [
+      "3.5.3",
+      "3.5.4"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "3.5.3",
+    "3.5.4"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "legacy-rendering",
+  "integrationNote": "Legacy Built-in rendering; no automatic URP/HDRP installation.",
+  "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "family": "common-legacy-rendering"
+}

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.visualeffectgraph",
+  "displayName": "com.unity.visualeffectgraph",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.visualeffectgraph",
+      "fetchedAt": "2026-10-17T21:40:28.893120Z"
+    },
+    {
+      "kind": "official-package-manifest",
+      "url": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3/Packages/com.unity.visualeffectgraph/package.json",
+      "sha256": "9455bf37245c3347e7abcfbf886830a06515e3e94514adc9aa8d95ec5baf41d5",
+      "fetchedAt": "2026-10-17T21:40:29.448319Z"
+    },
+    {
+      "kind": "official-package-manifest",
+      "url": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53/Packages/com.unity.visualeffectgraph/package.json",
+      "sha256": "1050e1fdf5700f9b54211b91eb1c36dd0193fce6e061c7abd0514c32d75e473d",
+      "fetchedAt": "2026-10-17T21:40:29.963050Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "10.10.1",
+      "variantId": "registry-packages.unity.com-bc6b4eca9a96b4cf",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "625fae22af5330cedb9096076d8504e74c3c3ea5",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.visualeffectgraph/-/com.unity.visualeffectgraph-10.10.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7e887a8b9b5b7c277b3b4be9f646e4dbedbf55d3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.shadergraph": "10.10.1",
+        "com.unity.render-pipelines.core": "10.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.visualeffectgraph/10.10.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "7e887a8b9b5b7c277b3b4be9f646e4dbedbf55d3"
+        }
+      }
+    },
+    {
+      "version": "14.0.12",
+      "variantId": "unity-editor-source-03ca85dffdde",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics/tree/03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3/Packages/com.unity.visualeffectgraph",
+      "sourceRef": "03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3",
+      "downloadUrl": null,
+      "disposition": "official-fetch-only",
+      "fetchStatus": "reference-only",
+      "artifact": null,
+      "fingerprint": null,
+      "versionStatus": "stable",
+      "dependencies": {
+        "com.unity.shadergraph": "14.0.12",
+        "com.unity.render-pipelines.core": "14.0.12"
+      },
+      "unity": "2022.3",
+      "license": {
+        "expression": null,
+        "evidenceUrl": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3/Packages/com.unity.visualeffectgraph/package.json",
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "official-manifest-reference-no-payload-grant"
+      },
+      "acquisition": {
+        "kind": "unity-editor-bundled-package",
+        "sourcePath": "Packages/com.unity.visualeffectgraph",
+        "manifestSha256": "9455bf37245c3347e7abcfbf886830a06515e3e94514adc9aa8d95ec5baf41d5",
+        "installationUrl": "https://unity.com/download",
+        "reason": "Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"
+      }
+    },
+    {
+      "version": "17.0.4",
+      "variantId": "unity-editor-source-feb4de2d9a93",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics/tree/feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53/Packages/com.unity.visualeffectgraph",
+      "sourceRef": "feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53",
+      "downloadUrl": null,
+      "disposition": "official-fetch-only",
+      "fetchStatus": "reference-only",
+      "artifact": null,
+      "fingerprint": null,
+      "versionStatus": "stable",
+      "dependencies": {
+        "com.unity.shadergraph": "17.0.4",
+        "com.unity.render-pipelines.core": "17.0.4"
+      },
+      "unity": "6000.0",
+      "license": {
+        "expression": null,
+        "evidenceUrl": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53/Packages/com.unity.visualeffectgraph/package.json",
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "official-manifest-reference-no-payload-grant"
+      },
+      "acquisition": {
+        "kind": "unity-editor-bundled-package",
+        "sourcePath": "Packages/com.unity.visualeffectgraph",
+        "manifestSha256": "1050e1fdf5700f9b54211b91eb1c36dd0193fce6e061c7abd0514c32d75e473d",
+        "installationUrl": "https://unity.com/download",
+        "reason": "Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "10.10.1"
+  },
+  "availableUpstreamVersionCount": 3,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [
+      "14.0.12",
+      "17.0.4"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": true
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "10.10.1",
+    "14.0.12",
+    "17.0.4"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "manifestReferences": [
+    {
+      "repository": "Unity-Technologies/Graphics",
+      "sourceRef": "03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3",
+      "path": "Packages/com.unity.visualeffectgraph/package.json",
+      "version": "14.0.12"
+    },
+    {
+      "repository": "Unity-Technologies/Graphics",
+      "sourceRef": "feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53",
+      "path": "Packages/com.unity.visualeffectgraph/package.json",
+      "version": "17.0.4"
+    }
+  ],
+  "category": "rendering",
+  "integrationNote": "Bind SRP/Shader Graph versions; engine VFXModule is not this package.",
+  "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "family": "common-rendering"
+}

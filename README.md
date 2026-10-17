@@ -5,7 +5,8 @@ source retrieval. Permitted original archives live in GitHub Releases; Git
 contains tools, provenance, fingerprints and version-specific rights records.
 No permanent local package mirror or payload cache is created.
 
-R5 covers 43 common package families, 23 built-in module providers and seven
+R6 covers 48 common root package families, four parent-constrained companion
+entries, 23 built-in module providers and seven
 commercial, Editor, restricted or unresolved reference entries. Each common
 package keeps two versions, at most three for a justified gap or legacy need.
 See [coverage](docs/COVERAGE.md) and `catalog/coverage.json` for actual acquisition,
@@ -18,6 +19,13 @@ reference, and selected Localization/2D/DOTS versions. [R5 details](docs/R5-ADDI
 separate observed requirements from general coverage and list exact dependency
 sets. Tekly and OOI remain named origin/modification pending; a public namesake
 or explicit selection cannot authorize replacement.
+
+[R6 additions](docs/R6-ADDITIONS.md) cover Unity Newtonsoft, Splines, VFX Graph,
+Post Processing and Tilemap Extras. gRPC companions preserve raw NuGet framework
+groups, version ranges and asset hashes without claiming a complete installed
+closure. Unity/NuGet Newtonsoft are alternative distributions; selecting both
+produces an explicit conflict. Six demand candidates and four unverified module
+candidates are registered separately and remain inactive.
 
 Built-in modules propose direct provider references after finite identity/API
 checks. JSONSerialize and ImageConversion use two exact public signatures in a

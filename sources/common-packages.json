@@ -259,12 +259,22 @@
     {
       "id": "Grpc.Net.Client",
       "category": "networking",
-      "adapter": "nuget"
+      "adapter": "nuget",
+      "preferredVersions": [
+        "2.83.0",
+        "2.84.0"
+      ],
+      "selectionMode": "fixed-common"
     },
     {
       "id": "Grpc.Core.Api",
       "category": "networking",
-      "adapter": "nuget"
+      "adapter": "nuget",
+      "preferredVersions": [
+        "2.83.0",
+        "2.84.0"
+      ],
+      "selectionMode": "fixed-common"
     },
     {
       "id": "com.cysharp.memorypack",
@@ -370,6 +380,127 @@
         "1.5.0"
       ],
       "coverageBasis": "general-coverage; Unity Physics is separate from builtin PhysX provider"
+    },
+    {
+      "id": "com.unity.nuget.newtonsoft-json",
+      "category": "serialization",
+      "preferredVersions": [
+        "3.0.2",
+        "3.2.2"
+      ],
+      "selectionMode": "fixed-common",
+      "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
+      "integrationNote": "Alternative to NuGet Newtonsoft.Json; do not coinstall. File bytes and TFM require separate comparison."
+    },
+    {
+      "id": "com.unity.splines",
+      "category": "paths",
+      "preferredVersions": [
+        "2.9.0",
+        "2.9.1"
+      ],
+      "selectionMode": "fixed-common",
+      "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
+      "integrationNote": "Keep Runtime/Editor assembly boundaries and named exact dependencies."
+    },
+    {
+      "id": "com.unity.visualeffectgraph",
+      "category": "rendering",
+      "preferredVersions": [
+        "14.0.12",
+        "17.0.4"
+      ],
+      "selectionMode": "fixed-common",
+      "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
+      "commonArchiveFallback": true,
+      "manifestReferences": [
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3",
+          "path": "Packages/com.unity.visualeffectgraph/package.json",
+          "version": "14.0.12"
+        },
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53",
+          "path": "Packages/com.unity.visualeffectgraph/package.json",
+          "version": "17.0.4"
+        }
+      ],
+      "integrationNote": "Bind SRP/Shader Graph versions; engine VFXModule is not this package."
+    },
+    {
+      "id": "com.unity.postprocessing",
+      "category": "legacy-rendering",
+      "preferredVersions": [
+        "3.5.3",
+        "3.5.4"
+      ],
+      "selectionMode": "fixed-common",
+      "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
+      "integrationNote": "Legacy Built-in rendering; no automatic URP/HDRP installation."
+    },
+    {
+      "id": "com.unity.2d.tilemap.extras",
+      "category": "2d",
+      "preferredVersions": [
+        "3.1.3",
+        "4.1.2"
+      ],
+      "selectionMode": "fixed-common",
+      "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
+      "integrationNote": "RuleTile extension, separate from engine Tilemap provider; preserve declared Editor minima."
+    },
+    {
+      "id": "Grpc.Net.Common",
+      "adapter": "nuget",
+      "category": "parent-dependency",
+      "dependencyRole": "companion-not-root-family",
+      "preferredVersions": [
+        "2.83.0",
+        "2.84.0"
+      ],
+      "selectionMode": "parent-constrained",
+      "parentBasis": "Grpc.Net.Client 2.83.0/2.84.0 netstandard2.0/2.1 dependency groups; Unsafe follows DiagnosticSource netstandard2.0. Bare NuGet versions are minimum ranges; no claim of original target versions or complete closure.",
+      "integrationNote": "Retain raw TFM/ranges, explicit fallback and named missing dependencies; never replace SDK-prefixed Sentry components."
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "adapter": "nuget",
+      "category": "parent-dependency",
+      "dependencyRole": "companion-not-root-family",
+      "preferredVersions": [
+        "8.0.0",
+        "8.0.1"
+      ],
+      "selectionMode": "parent-constrained",
+      "parentBasis": "Grpc.Net.Client 2.83.0/2.84.0 netstandard2.0/2.1 dependency groups; Unsafe follows DiagnosticSource netstandard2.0. Bare NuGet versions are minimum ranges; no claim of original target versions or complete closure.",
+      "integrationNote": "Retain raw TFM/ranges, explicit fallback and named missing dependencies; never replace SDK-prefixed Sentry components."
+    },
+    {
+      "id": "System.Diagnostics.DiagnosticSource",
+      "adapter": "nuget",
+      "category": "parent-dependency",
+      "dependencyRole": "companion-not-root-family",
+      "preferredVersions": [
+        "6.0.1",
+        "8.0.1"
+      ],
+      "selectionMode": "parent-constrained",
+      "parentBasis": "Grpc.Net.Client 2.83.0/2.84.0 netstandard2.0/2.1 dependency groups; Unsafe follows DiagnosticSource netstandard2.0. Bare NuGet versions are minimum ranges; no claim of original target versions or complete closure.",
+      "integrationNote": "Retain raw TFM/ranges, explicit fallback and named missing dependencies; never replace SDK-prefixed Sentry components."
+    },
+    {
+      "id": "System.Runtime.CompilerServices.Unsafe",
+      "adapter": "nuget",
+      "category": "parent-dependency",
+      "dependencyRole": "companion-not-root-family",
+      "preferredVersions": [
+        "6.0.0"
+      ],
+      "selectionMode": "parent-constrained",
+      "parentBasis": "Grpc.Net.Client 2.83.0/2.84.0 netstandard2.0/2.1 dependency groups; Unsafe follows DiagnosticSource netstandard2.0. Bare NuGet versions are minimum ranges; no claim of original target versions or complete closure.",
+      "integrationNote": "Retain raw TFM/ranges, explicit fallback and named missing dependencies; never replace SDK-prefixed Sentry components."
     }
   ],
   "references": [
@@ -650,7 +781,7 @@
       "sources": []
     }
   ],
-  "requirementRevision": "R5",
+  "requirementRevision": "R6",
   "compatibilitySetDefinitions": [
     {
       "id": "dots-unity6000",
@@ -671,6 +802,100 @@
         "com.unity.physics": "1.3.14"
       },
       "scope": "declared package dependencies only; not installed/compiled or current-game requirement"
+    }
+  ],
+  "onDemandCandidates": [
+    {
+      "id": "com.unity.services.core",
+      "sourceUrl": "https://packages.unity.com/com.unity.services.core",
+      "licenseHint": null,
+      "trigger": "Observed Unity Gaming Services consumer",
+      "version": null,
+      "sourceRef": null,
+      "status": "on-observed-demand",
+      "activation": "explicit-consumer-or-coverage-decision-required",
+      "automaticCollection": false
+    },
+    {
+      "id": "com.unity.services.authentication",
+      "sourceUrl": "https://packages.unity.com/com.unity.services.authentication",
+      "licenseHint": null,
+      "trigger": "Observed authentication consumer; package preparation does not invoke services",
+      "version": null,
+      "sourceRef": null,
+      "status": "on-observed-demand",
+      "activation": "explicit-consumer-or-coverage-decision-required",
+      "automaticCollection": false
+    },
+    {
+      "id": "com.unity.purchasing",
+      "sourceUrl": "https://packages.unity.com/com.unity.purchasing",
+      "licenseHint": null,
+      "trigger": "Observed purchase SDK consumer; no store calls",
+      "version": null,
+      "sourceRef": null,
+      "status": "on-observed-demand",
+      "activation": "explicit-consumer-or-coverage-decision-required",
+      "automaticCollection": false
+    },
+    {
+      "id": "Odin.Serializer",
+      "sourceUrl": "https://github.com/TeamSirenix/odin-serializer",
+      "licenseHint": "Apache-2.0",
+      "trigger": "Observed serializer dependency; separate from commercial Odin Inspector",
+      "version": null,
+      "sourceRef": null,
+      "status": "on-observed-demand",
+      "activation": "explicit-consumer-or-coverage-decision-required",
+      "automaticCollection": false
+    },
+    {
+      "id": "YooAsset",
+      "sourceUrl": "https://github.com/tuyoogame/YooAsset",
+      "licenseHint": "Apache-2.0",
+      "trigger": "Observed consumer or explicit coverage decision; does not replace Addressables",
+      "version": null,
+      "sourceRef": null,
+      "status": "on-observed-demand",
+      "activation": "explicit-consumer-or-coverage-decision-required",
+      "automaticCollection": false
+    },
+    {
+      "id": "ZString",
+      "sourceUrl": "https://github.com/Cysharp/ZString",
+      "licenseHint": "MIT",
+      "trigger": "Observed reference or explicit common coverage decision",
+      "version": null,
+      "sourceRef": null,
+      "status": "on-observed-demand",
+      "activation": "explicit-consumer-or-coverage-decision-required",
+      "automaticCollection": false
+    }
+  ],
+  "providerRuleCandidates": [
+    {
+      "assemblyName": "UnityEngine.AndroidJNIModule",
+      "providerHint": "com.unity.modules.androidjni",
+      "status": "official-api-rules-unverified",
+      "active": false
+    },
+    {
+      "assemblyName": "UnityEngine.DirectorModule",
+      "providerHint": "com.unity.modules.director",
+      "status": "official-api-rules-unverified",
+      "active": false
+    },
+    {
+      "assemblyName": "UnityEngine.ScreenCaptureModule",
+      "providerHint": "com.unity.modules.screencapture",
+      "status": "official-api-rules-unverified",
+      "active": false
+    },
+    {
+      "assemblyName": "UnityEngine.UnityAnalyticsModule",
+      "providerHint": "com.unity.modules.unityanalytics",
+      "status": "official-api-rules-unverified",
+      "active": false
     }
   ]
 }

@@ -6,11 +6,12 @@ from uvault.harvest import coverage
 root=Path(__file__).resolve().parents[1]
 queue=load_queue(root/"catalog")
 report=coverage(queue)
-common=sum(bool(p.get('curatedPolicy')) for p in queue['packages'])
+companions=sum(p.get('dependencyRole')=='companion-not-root-family' for p in queue['packages'])
+common=sum(bool(p.get('curatedPolicy')) for p in queue['packages'])-companions
 builtin=sum(p.get('family')=='unity-builtin' for p in queue['packages'])
-references=len(queue['packages'])-common-builtin
+references=len(queue['packages'])-common-companions-builtin
 lines=["# Common package coverage ("+queue.get('requirementRevision','R4')+")","",
-       f"Current denominator: {common} common families, {builtin} builtin module providers and {references} commercial/Editor/restricted/unresolved reference entries.",
+       f"Current denominator: {common} common root families, {companions} parent-constrained companion entries, {builtin} builtin module providers and {references} commercial/Editor/restricted/unresolved reference entries.",
        "The whitelist is complete for this scope; it is not a Unity ecosystem census.",
        "Two common versions per family, at most three for justified gaps/legacy; fewer available versions remain explicit.","",
        f"Generated: {report['generatedAt']}. Registered {report['registeredPackages']}/{report['discoveredPackages']} entries; "
@@ -44,4 +45,10 @@ lines += ["", "Builtin providers: "+", ".join(p['id'] for p in queue['packages']
           "Builtin identity confirmation proposes provider-reference and skips implementation recovery. Installation/profile remain reference-pending and false until independently verified; no engine payload is mirrored.","",
           "Selected-version dependencies remain named gaps in catalog/coverage.json. They do not enqueue cold packages or historical versions. Explicit consumer gaps use package/version/reason.","",
           "ReMaker adapter: ready; actual writer adoption: integration-pending. See [writer handoff](REMAKER-WRITER-START-HERE.md).", ""]
+lines += ["## R6 dependency and demand boundaries", "",
+          "Unity Newtonsoft, Splines, VFX Graph, Post Processing and Tilemap Extras add general coverage. VFX Graph 14/17 are pinned official manifest references; 10.10.1 is a separately acquired legacy archive, never their replacement.",
+          "Grpc.Net.Common, Logging.Abstractions, DiagnosticSource and Unsafe are parent-constrained companions, not new root families. Raw nuspec groups/ranges and hash-bound lib/ref assets are preserved; see catalog.nugetDependencyCandidates for .NET Standard candidates and named remaining gaps. Bare NuGet versions are minimum ranges. Explicit 2.0 fallback candidates do not certify a 2.1 target or complete closure.",
+          "Unity and NuGet Newtonsoft remain alternative distributions. resolve/export report a conflict when both are selected, including old locks; explicitly choosing one preserves the unselected evidence and all other unresolved facts.", "",
+          "On-demand candidates (no selected version or collection): "+", ".join(p['id'] for p in queue.get('onDemandCandidates',[]))+".",
+          "Unverified provider candidates (inactive): "+", ".join(p['providerHint'] for p in queue.get('providerRuleCandidates',[]))+".", ""]
 (root/'docs/COVERAGE.md').write_text('\n'.join(lines),encoding='utf-8')

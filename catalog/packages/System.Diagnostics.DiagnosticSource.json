@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0",
+  "id": "System.Diagnostics.DiagnosticSource",
+  "displayName": "System.Diagnostics.DiagnosticSource",
+  "adapter": "nuget",
+  "sources": [
+    {
+      "kind": "nuget",
+      "url": "https://api.nuget.org/v3-flatcontainer/system.diagnostics.diagnosticsource/index.json",
+      "fetchedAt": "2026-10-17T21:40:29.605463Z"
+    }
+  ],
+  "versions": [
+    {
+      "version": "6.0.1",
+      "variantId": "nuget",
+      "sourceUrl": "https://www.nuget.org/packages/System.Diagnostics.DiagnosticSource/6.0.1",
+      "sourceRef": null,
+      "downloadUrl": "https://api.nuget.org/v3-flatcontainer/system.diagnostics.diagnosticsource/6.0.1/system.diagnostics.diagnosticsource.6.0.1.nupkg",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-nuspec"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    },
+    {
+      "version": "8.0.1",
+      "variantId": "nuget",
+      "sourceUrl": "https://www.nuget.org/packages/System.Diagnostics.DiagnosticSource/8.0.1",
+      "sourceRef": null,
+      "downloadUrl": "https://api.nuget.org/v3-flatcontainer/system.diagnostics.diagnosticsource/8.0.1/system.diagnostics.diagnosticsource.8.0.1.nupkg",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-nuspec"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "preferredVersions": [
+      "6.0.1",
+      "8.0.1"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "parent-constrained",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "6.0.1",
+    "8.0.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "parent-dependency",
+  "integrationNote": "Retain raw TFM/ranges, explicit fallback and named missing dependencies; never replace SDK-prefixed Sentry components.",
+  "dependencyRole": "companion-not-root-family",
+  "parentBasis": "Grpc.Net.Client 2.83.0/2.84.0 netstandard2.0/2.1 dependency groups; Unsafe follows DiagnosticSource netstandard2.0. Bare NuGet versions are minimum ranges; no claim of original target versions or complete closure.",
+  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "family": "common-parent-dependency"
+}

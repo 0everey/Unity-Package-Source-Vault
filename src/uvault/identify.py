@@ -350,6 +350,9 @@ def identify(input_path, catalog, profile=None) -> dict:
               "fingerprintRegistry":catalog.get("fingerprintRegistry") or catalog.get("registry"),
               "input": {"kind": kind, "fingerprint": fingerprint}, "profile": profile,
               "matches": [], "unknown": [], "conflicts": []}
+    if "nugetDependencyCandidates" in catalog:
+        from copy import deepcopy
+        result["nugetDependencyCandidates"] = deepcopy(catalog["nugetDependencyCandidates"])
     observed_ids = {o["packageId"] for o in observations}
     catalog_ids = set()
     for package in catalog.get("packages", []):

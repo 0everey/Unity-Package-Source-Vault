@@ -31,3 +31,16 @@ when public candidates or ordinary accepted sourceConfirmed decisions exist.
 Named native rows also appear in libraryResolutionWorkset. Two singleton builtin
 modules may use two exact public static signatures in one registered type; other
 modules keep two distinct official API types. All retain profile=false/pending.
+
+R6: version.nuget.dependencyGroups retains raw nuspec targetFramework and dependency
+attributes/ranges; assets binds lib/ref DLL path, TFM and actual SHA. Original
+archiveSha256/nuspecSha256 bind extensions. nugetDependencyCandidates is catalog
+metadata (not installed closure) propagated through matches/lock/export, with
+finite netstandard2.0/2.1 declarations, explicit fallback and named gaps. Bare
+numeric NuGet versions are minimum ranges, unsupported ranges unassessed.
+Six onDemandCandidates and four inactive providerRuleCandidates are separate
+from active package queues/providers. Four companions use parent-constrained
+selection without automatic latest neighbors. Installed finite Newtonsoft
+alternative rules recheck resolve and old-lock export; dual selection carries
+conflicts and empty bare scopes. Explicit one-distribution selection preserves
+the skipped match in unselectedAlternatives and never promotes evidence.

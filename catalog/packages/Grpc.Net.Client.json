@@ -1884,7 +1884,165 @@
           "net9.0"
         ],
         "nuspecSha256": "bc4f11891023c0511a08b5fcc47497b14ad145f2e3bf19b329fedce20c003367",
-        "nuspecPath": "Grpc.Net.Client.nuspec"
+        "nuspecPath": "Grpc.Net.Client.nuspec",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETFramework4.6.2",
+            "dependencies": [
+              {
+                "id": "Grpc.Net.Common",
+                "version": "2.83.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "Microsoft.Extensions.Logging.Abstractions",
+                "version": "8.0.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Diagnostics.DiagnosticSource",
+                "version": "6.0.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Net.Http.WinHttpHandler",
+                "version": "8.0.3",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": "net8.0",
+            "dependencies": [
+              {
+                "id": "Grpc.Net.Common",
+                "version": "2.83.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "Microsoft.Extensions.Logging.Abstractions",
+                "version": "8.0.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": "net9.0",
+            "dependencies": [
+              {
+                "id": "Grpc.Net.Common",
+                "version": "2.83.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "Microsoft.Extensions.Logging.Abstractions",
+                "version": "8.0.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": "net10.0",
+            "dependencies": [
+              {
+                "id": "Grpc.Net.Common",
+                "version": "2.83.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "Microsoft.Extensions.Logging.Abstractions",
+                "version": "8.0.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "Grpc.Net.Common",
+                "version": "2.83.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "Microsoft.Extensions.Logging.Abstractions",
+                "version": "8.0.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Diagnostics.DiagnosticSource",
+                "version": "6.0.1",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard2.1",
+            "dependencies": [
+              {
+                "id": "Grpc.Net.Common",
+                "version": "2.83.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "Microsoft.Extensions.Logging.Abstractions",
+                "version": "8.0.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Diagnostics.DiagnosticSource",
+                "version": "6.0.1",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/net10.0/Grpc.Net.Client.dll",
+            "targetFramework": "net10.0",
+            "kind": "lib",
+            "sha256": "4070680267f1eba977958284088f8bf63bccb2f9fea873d6b244fd7d4b76afd3",
+            "size": 348672
+          },
+          {
+            "path": "lib/net462/Grpc.Net.Client.dll",
+            "targetFramework": "net462",
+            "kind": "lib",
+            "sha256": "5155d68a121453b35f854c4d5740ee560cdef233a0f33fe517f1a8c05c5fe63d",
+            "size": 212480
+          },
+          {
+            "path": "lib/net8.0/Grpc.Net.Client.dll",
+            "targetFramework": "net8.0",
+            "kind": "lib",
+            "sha256": "1921c73e70a1f0613667c62822016d0c2c1e78173a4e754ce75c5264aaf47022",
+            "size": 348672
+          },
+          {
+            "path": "lib/net9.0/Grpc.Net.Client.dll",
+            "targetFramework": "net9.0",
+            "kind": "lib",
+            "sha256": "9e1526a0eacc10ab046d1d71c3e7a8f5d5c4123bc570a8caf9c74090ecb92f19",
+            "size": 348672
+          },
+          {
+            "path": "lib/netstandard2.0/Grpc.Net.Client.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "37a2ae17a12ce69a03e0dce71351cf8ede7482e742c50f69f3b9462cefcbc744",
+            "size": 212480
+          },
+          {
+            "path": "lib/netstandard2.1/Grpc.Net.Client.dll",
+            "targetFramework": "netstandard2.1",
+            "kind": "lib",
+            "sha256": "b776df893d576eacc6ebed149a17a9b04b85ecff3704c59c681f8c9d314f615a",
+            "size": 211456
+          }
+        ],
+        "archiveSha256": "89c63bda5982217816073a454a7c7fd06e376eed38b4cb032c60653f7be39c9f",
+        "metadataExtensionBasis": "original-sha-verified-archive-and-nuspec"
       },
       "collectedAt": "2026-10-17T19:34:16.964601Z"
     },
@@ -3768,7 +3926,165 @@
           "net9.0"
         ],
         "nuspecSha256": "32a43f3448ab90bb71c946533db4d5135cef4728a3ee29bf88d9a0cbf1e67413",
-        "nuspecPath": "Grpc.Net.Client.nuspec"
+        "nuspecPath": "Grpc.Net.Client.nuspec",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETFramework4.6.2",
+            "dependencies": [
+              {
+                "id": "Grpc.Net.Common",
+                "version": "2.84.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "Microsoft.Extensions.Logging.Abstractions",
+                "version": "8.0.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Diagnostics.DiagnosticSource",
+                "version": "8.0.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Net.Http.WinHttpHandler",
+                "version": "8.0.3",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": "net8.0",
+            "dependencies": [
+              {
+                "id": "Grpc.Net.Common",
+                "version": "2.84.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "Microsoft.Extensions.Logging.Abstractions",
+                "version": "8.0.1",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": "net9.0",
+            "dependencies": [
+              {
+                "id": "Grpc.Net.Common",
+                "version": "2.84.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "Microsoft.Extensions.Logging.Abstractions",
+                "version": "8.0.1",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": "net10.0",
+            "dependencies": [
+              {
+                "id": "Grpc.Net.Common",
+                "version": "2.84.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "Microsoft.Extensions.Logging.Abstractions",
+                "version": "8.0.1",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "Grpc.Net.Common",
+                "version": "2.84.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "Microsoft.Extensions.Logging.Abstractions",
+                "version": "8.0.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Diagnostics.DiagnosticSource",
+                "version": "8.0.1",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard2.1",
+            "dependencies": [
+              {
+                "id": "Grpc.Net.Common",
+                "version": "2.84.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "Microsoft.Extensions.Logging.Abstractions",
+                "version": "8.0.1",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Diagnostics.DiagnosticSource",
+                "version": "8.0.1",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/net10.0/Grpc.Net.Client.dll",
+            "targetFramework": "net10.0",
+            "kind": "lib",
+            "sha256": "71454959f95469ea1a4abfbbb2ccb71487f6bfe50714277e73d2f7665c89244e",
+            "size": 360088
+          },
+          {
+            "path": "lib/net462/Grpc.Net.Client.dll",
+            "targetFramework": "net462",
+            "kind": "lib",
+            "sha256": "384e9eb5cf46ade29ba8c7e12330bf645b291c109183e0abd9ed8371c1f2d88f",
+            "size": 223384
+          },
+          {
+            "path": "lib/net8.0/Grpc.Net.Client.dll",
+            "targetFramework": "net8.0",
+            "kind": "lib",
+            "sha256": "a7b359a9ec14ee8f10170aae756017e538a47d4b09024f5e023d903801da4eb5",
+            "size": 360088
+          },
+          {
+            "path": "lib/net9.0/Grpc.Net.Client.dll",
+            "targetFramework": "net9.0",
+            "kind": "lib",
+            "sha256": "93b81102f8e2d33ca1118719396f13c95991c29ff2e66f4949eb9bd638bce265",
+            "size": 360088
+          },
+          {
+            "path": "lib/netstandard2.0/Grpc.Net.Client.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "4eaede399e2113abf8b5719cd34573152d4b70307b10e22c53d98d98d134005a",
+            "size": 223384
+          },
+          {
+            "path": "lib/netstandard2.1/Grpc.Net.Client.dll",
+            "targetFramework": "netstandard2.1",
+            "kind": "lib",
+            "sha256": "d6a3a63e19310129b90558a13da358859f3ae112b4e0349f2e09d5f738c0fbc0",
+            "size": 222360
+          }
+        ],
+        "archiveSha256": "e0151e4dd1118d9cce28e12a0b0b781ab19826f30f3c838f9e53c6298997e03e",
+        "metadataExtensionBasis": "original-sha-verified-archive-and-nuspec"
       },
       "collectedAt": "2026-10-17T19:34:17.280386Z"
     }
@@ -3779,8 +4095,12 @@
     "scopeVersion": "R4",
     "versionCount": 2,
     "maxCommonVersions": 3,
-    "preferredVersions": [],
+    "preferredVersions": [
+      "2.83.0",
+      "2.84.0"
+    ],
     "legacyMajor": null,
+    "selectionMode": "fixed-common",
     "retainVerifiedLegacy": false,
     "commonArchiveFallback": false
   },
@@ -3795,5 +4115,10 @@
   "category": "networking",
   "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
   "family": "common-networking",
-  "registry": "https://packages.unity.com"
+  "registry": "https://packages.unity.com",
+  "preferredVersions": [
+    "2.83.0",
+    "2.84.0"
+  ],
+  "selectionMode": "fixed-common"
 }
