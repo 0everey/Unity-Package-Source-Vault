@@ -16,23 +16,120 @@
     {
       "version": "1.0.2",
       "variantId": "registry-packages.unity.com-fd7c061b1a9aea3c",
-      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/profiler.git",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/profiler",
       "sourceRef": "2189ba14439d76a4083f59fae87163b4bdfd49c2",
       "downloadUrl": "https://download.packages.unity.com/com.unity.profiling.core/-/com.unity.profiling.core-1.0.2.tgz",
       "upstreamIntegrity": null,
       "upstreamShasum": "aac7b93912bc5df5fe06b04ff1b758493cdc2346",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "LicenseRef-Unity-Companion",
+        "evidenceUrl": "https://download.packages.unity.com/com.unity.profiling.core/-/com.unity.profiling.core-1.0.2.tgz#package/LICENSE.md",
+        "sha256": "33197414e7362ae534aeeab9ab6a9dfe0b5ca74b04f304805f592bcf667a5a99",
+        "text": "com.unity.profiling.core copyright © 2020 Unity Technologies ApS\n\nLicensed under the Unity Companion License for Unity-dependent projects--see [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License). \n\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\n",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": "LicenseRef-Unity-Companion",
+            "sha256": "33197414e7362ae534aeeab9ab6a9dfe0b5ca74b04f304805f592bcf667a5a99",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.profiling.core/-/com.unity.profiling.core-1.0.2.tgz#package/LICENSE.md",
+            "text": "com.unity.profiling.core copyright © 2020 Unity Technologies ApS\n\nLicensed under the Unity Companion License for Unity-dependent projects--see [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License). \n\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\n"
+          },
+          {
+            "path": "LICENSE.md.meta",
+            "expression": null,
+            "sha256": "b0d96e8812899688cc9f68074c1645eadf756e0459d72e053f978d35c516a041",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.profiling.core/-/com.unity.profiling.core-1.0.2.tgz#package/LICENSE.md.meta",
+            "text": "fileFormatVersion: 2\nguid: 112bbb75cb8d0f34587b23aeb83ad6d8\nTextScriptImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-17T19:44:38.384693Z",
+        "decisionBasis": [
+          "Special-purpose or usage-restricted license",
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "f7af91925932692900f92c07758e3e068d7fc0f716b8eab4816e446da3ff91ce",
+        "size": 433255,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://download.packages.unity.com/com.unity.profiling.core/-/com.unity.profiling.core-1.0.2.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "74556091532105c06c624c72c192fb3e7fa6b44b0ba707f2cfb62eb4edd3640e",
+        "artifactSha256": "f7af91925932692900f92c07758e3e068d7fc0f716b8eab4816e446da3ff91ce",
+        "artifactSize": 433255,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "Unity.Profiling"
+        ],
+        "types": [
+          "Unity.Profiling.ProfilerCategory",
+          "Unity.Profiling.ProfilerCounter",
+          "Unity.Profiling.ProfilerCounterValue",
+          "Unity.Profiling.ProfilerMarker",
+          "Unity.Profiling.ProfilerMarker+AutoScope",
+          "Unity.Profiling.ProfilerMarkerExtension",
+          "Unity.Profiling.ProfilerUtility"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "Unity.Profiling.Core",
+            "path": "Runtime/Unity.Profiling.Core.asmdef",
+            "guid": "b46779583a009f04ba9f5f31d0e7e6ac",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [],
+            "types": [
+              "Unity.Profiling.ProfilerCategory",
+              "Unity.Profiling.ProfilerCounter",
+              "Unity.Profiling.ProfilerCounterValue",
+              "Unity.Profiling.ProfilerMarker",
+              "Unity.Profiling.ProfilerMarker+AutoScope",
+              "Unity.Profiling.ProfilerMarkerExtension",
+              "Unity.Profiling.ProfilerUtility"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/f7af91925932692900f92c07758e3e068d7fc0f716b8eab4816e446da3ff91ce-595fb35e69ff.json.gz",
+          "sha256": "fc3516dcba64227b369633642b0e92bf47e14c2b56a23cd2f7144ed8438495e2",
+          "size": 3150,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 42,
+        "sourceFileCount": 8,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 6,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://packages.unity.com/com.unity.profiling.core/1.0.2",
       "deprecated": null,
@@ -42,28 +139,131 @@
         "dist": {
           "shasum": "aac7b93912bc5df5fe06b04ff1b758493cdc2346"
         }
-      }
+      },
+      "packageId": "com.unity.profiling.core",
+      "sourceRefEvidence": {
+        "kind": "archive-package-json",
+        "sha256": "8ca6e07b412522b62de1a3fc5f2e17f4dff20b2a8318f2bc185851f76baa1f12"
+      },
+      "collectedAt": "2026-10-17T19:44:38.391985Z"
     },
     {
       "version": "1.0.3",
       "variantId": "registry-packages.unity.com-2fba9af5947561cf",
-      "sourceUrl": "https://packages.unity.com/com.unity.profiling.core",
-      "sourceRef": null,
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/profiler",
+      "sourceRef": "2189ba14439d76a4083f59fae87163b4bdfd49c2",
       "downloadUrl": "https://download.packages.unity.com/com.unity.profiling.core/-/com.unity.profiling.core-1.0.3.tgz",
       "upstreamIntegrity": null,
       "upstreamShasum": "8a49f7027d0618e2cb86aa9e4ed5fb4392e8121a",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "LicenseRef-Unity-Companion",
+        "evidenceUrl": "https://download.packages.unity.com/com.unity.profiling.core/-/com.unity.profiling.core-1.0.3.tgz#package/LICENSE.md",
+        "sha256": "33197414e7362ae534aeeab9ab6a9dfe0b5ca74b04f304805f592bcf667a5a99",
+        "text": "com.unity.profiling.core copyright © 2020 Unity Technologies ApS\n\nLicensed under the Unity Companion License for Unity-dependent projects--see [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License). \n\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\n",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": "LicenseRef-Unity-Companion",
+            "sha256": "33197414e7362ae534aeeab9ab6a9dfe0b5ca74b04f304805f592bcf667a5a99",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.profiling.core/-/com.unity.profiling.core-1.0.3.tgz#package/LICENSE.md",
+            "text": "com.unity.profiling.core copyright © 2020 Unity Technologies ApS\n\nLicensed under the Unity Companion License for Unity-dependent projects--see [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License). \n\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\n"
+          },
+          {
+            "path": "LICENSE.md.meta",
+            "expression": null,
+            "sha256": "b0d96e8812899688cc9f68074c1645eadf756e0459d72e053f978d35c516a041",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.profiling.core/-/com.unity.profiling.core-1.0.3.tgz#package/LICENSE.md.meta",
+            "text": "fileFormatVersion: 2\nguid: 112bbb75cb8d0f34587b23aeb83ad6d8\nTextScriptImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-17T19:44:38.577942Z",
+        "decisionBasis": [
+          "Special-purpose or usage-restricted license",
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "8cfdeb53057b01723c7e39529cdb2682ed2672e8b6482f194b1dda24a04bae10",
+        "size": 461286,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://download.packages.unity.com/com.unity.profiling.core/-/com.unity.profiling.core-1.0.3.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "74556091532105c06c624c72c192fb3e7fa6b44b0ba707f2cfb62eb4edd3640e",
+        "artifactSha256": "8cfdeb53057b01723c7e39529cdb2682ed2672e8b6482f194b1dda24a04bae10",
+        "artifactSize": 461286,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "Unity.Profiling"
+        ],
+        "types": [
+          "Unity.Profiling.ProfilerCategory",
+          "Unity.Profiling.ProfilerCounter",
+          "Unity.Profiling.ProfilerCounterValue",
+          "Unity.Profiling.ProfilerMarker",
+          "Unity.Profiling.ProfilerMarker+AutoScope",
+          "Unity.Profiling.ProfilerMarkerExtension",
+          "Unity.Profiling.ProfilerUtility"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "Unity.Profiling.Core",
+            "path": "Runtime/Unity.Profiling.Core.asmdef",
+            "guid": "b46779583a009f04ba9f5f31d0e7e6ac",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [],
+            "types": [
+              "Unity.Profiling.ProfilerCategory",
+              "Unity.Profiling.ProfilerCounter",
+              "Unity.Profiling.ProfilerCounterValue",
+              "Unity.Profiling.ProfilerMarker",
+              "Unity.Profiling.ProfilerMarker+AutoScope",
+              "Unity.Profiling.ProfilerMarkerExtension",
+              "Unity.Profiling.ProfilerUtility"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/8cfdeb53057b01723c7e39529cdb2682ed2672e8b6482f194b1dda24a04bae10-595fb35e69ff.json.gz",
+          "sha256": "098592bfa7660003bfff507058926d3a43464f5e0c95dc7418fb70736cead3ff",
+          "size": 3212,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 43,
+        "sourceFileCount": 8,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 6,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://packages.unity.com/com.unity.profiling.core/1.0.3",
       "deprecated": null,
@@ -73,7 +273,13 @@
         "dist": {
           "shasum": "8a49f7027d0618e2cb86aa9e4ed5fb4392e8121a"
         }
-      }
+      },
+      "packageId": "com.unity.profiling.core",
+      "sourceRefEvidence": {
+        "kind": "archive-package-json",
+        "sha256": "35b3258bd2688ff7eed5bf739991fda420da16a40cc5cf47610fdb957e1ff964"
+      },
+      "collectedAt": "2026-10-17T19:44:38.585050Z"
     }
   ],
   "metadataStatus": "complete",
