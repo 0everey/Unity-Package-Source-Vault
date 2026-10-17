@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0",
+  "id": "ai.natml.vision.blazepose",
+  "displayName": "ai.natml.vision.blazepose",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/ai.natml.vision.blazepose",
+      "fetchedAt": "2026-10-17T17:36:17.373392Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.2",
+      "variantId": "registry-package.openupm.com-2a3fbc8a986fbf13",
+      "sourceUrl": "https://github.com/natmlx/blazepose-unity.git",
+      "sourceRef": "c00a7ab5c1ce60b1b9dc3d705bb8bf5e288d9c71",
+      "downloadUrl": "https://package.openupm.com/ai.natml.vision.blazepose/-/ai.natml.vision.blazepose-1.0.2.tgz",
+      "upstreamIntegrity": "sha512-OmHkcaGuxPsDLXNsAoom9AzgHJ7D65k1dkzRvi/ycTonyvVhareWT0SB0dT0WfkHrs/i3sVS/GY8MomiH9a5Vw==",
+      "upstreamShasum": "c0f8b506e764fa043f1068c0572c4cfd0c975510",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.natml": "1.1.16",
+        "ai.natml.vision.blazepose.detector": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.vision.blazepose/1.0.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OmHkcaGuxPsDLXNsAoom9AzgHJ7D65k1dkzRvi/ycTonyvVhareWT0SB0dT0WfkHrs/i3sVS/GY8MomiH9a5Vw==",
+          "shasum": "c0f8b506e764fa043f1068c0572c4cfd0c975510"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.2"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/ai.natml.vision.blazepose.yml",
+  "definitionBlobSha": "4d21d033d7152dc12da419a7275490d701d5dc29",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.2"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0",
+  "id": "org.outernet.placeframe",
+  "displayName": "org.outernet.placeframe",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/org.outernet.placeframe",
+      "fetchedAt": "2026-10-17T17:44:51.277086Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.6-preview",
+      "variantId": "registry-package.openupm.com-2ae64c8a288541e0",
+      "sourceUrl": "https://github.com/outernet-foundation/placeframe.git",
+      "sourceRef": "d9791ce43b73b35f25b4bc583195a0221efba0f2",
+      "downloadUrl": "https://package.openupm.com/org.outernet.placeframe/-/org.outernet.placeframe-1.0.6-preview.tgz",
+      "upstreamIntegrity": "sha512-wi0MXLw00//If2KrpproEg0mgJL1i5U/kdFP1gCJK4YFcMAmuZQxJrOMxWMawkn7IyRxRNVyu/58CEFTy0OeUA==",
+      "upstreamShasum": "17f52c918f3c8abbb3ed6e451a9372f97066fc51",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.r3": "1.2.9",
+        "com.cysharp.unitask": "2.5.10",
+        "com.unity.cloud.gltfast": "6.15.1",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.xr.arfoundation": "6.0.6",
+        "org.nuget.mathnet.numerics": "5.0.0",
+        "org.nuget.observablecollections.r3": "3.3.4",
+        "org.nuget.placeframeapiclient": "0.1.5",
+        "org.nuget.polly": "8.8.0",
+        "org.nuget.sharpziplib": "1.4.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/org.outernet.placeframe/1.0.6-preview",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wi0MXLw00//If2KrpproEg0mgJL1i5U/kdFP1gCJK4YFcMAmuZQxJrOMxWMawkn7IyRxRNVyu/58CEFTy0OeUA==",
+          "shasum": "17f52c918f3c8abbb3ed6e451a9372f97066fc51"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.6-preview"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/org.outernet.placeframe.yml",
+  "definitionBlobSha": "6fe3934f0a04af7c1d9be137888d6e21fa9c6d07",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.6-preview"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,927 @@
+{
+  "schemaVersion": "1.0",
+  "id": "xyz.0xsequence.waas-unity",
+  "displayName": "xyz.0xsequence.waas-unity",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity",
+      "fetchedAt": "2026-10-17T17:45:00.467115Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-8fa2422872d0019b",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "28ad92b53579b752a7a2af70efd4b49d71ad138b",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-2.0.0.tgz",
+      "upstreamIntegrity": "sha512-Wqz/xzD1BqRD5UioT42R+ukmFhMIjuTGLSmF6Da3JiuZjrlvxE4mN4uFjCK7EkMHQ2vAhU9xQ8DmAV/CPkXOMQ==",
+      "upstreamShasum": "a2e7458a2b31567d209fefe23e2f29676c4208f4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/2.0.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Wqz/xzD1BqRD5UioT42R+ukmFhMIjuTGLSmF6Da3JiuZjrlvxE4mN4uFjCK7EkMHQ2vAhU9xQ8DmAV/CPkXOMQ==",
+          "shasum": "a2e7458a2b31567d209fefe23e2f29676c4208f4"
+        }
+      }
+    },
+    {
+      "version": "2.1.6",
+      "variantId": "registry-package.openupm.com-eedcabbc9c2ab017",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "f445ddb9ab71035344dbeac61593af60d50de498",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-2.1.6.tgz",
+      "upstreamIntegrity": "sha512-xfbbrk2GcHEBTzVl+OL4UDRFFboqoFn2Vj2zMzIrOxVrrj06Xpi5m4unCdeByfLRAp2ndnQG31i/GR59toWD1w==",
+      "upstreamShasum": "67a22a857017911bf1444c36b1b196724e3a6b2a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/2.1.6",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xfbbrk2GcHEBTzVl+OL4UDRFFboqoFn2Vj2zMzIrOxVrrj06Xpi5m4unCdeByfLRAp2ndnQG31i/GR59toWD1w==",
+          "shasum": "67a22a857017911bf1444c36b1b196724e3a6b2a"
+        }
+      }
+    },
+    {
+      "version": "2.1.8",
+      "variantId": "registry-package.openupm.com-790c1ef597e33464",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "fbd1fa7f9fbcd801083abfe3ef7f07a024998e78",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-2.1.8.tgz",
+      "upstreamIntegrity": "sha512-EhlQuEmbR3yVx5jYlwKZzH+OhyBWPLFabP1sC2JRuXCpaxcYMn4uewlDG8IH/LbhD1NbDylaqNOtfNLP3nOEMw==",
+      "upstreamShasum": "9dad7ab9f8f75812b5d2c4998164c326439a2ac7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/2.1.8",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-EhlQuEmbR3yVx5jYlwKZzH+OhyBWPLFabP1sC2JRuXCpaxcYMn4uewlDG8IH/LbhD1NbDylaqNOtfNLP3nOEMw==",
+          "shasum": "9dad7ab9f8f75812b5d2c4998164c326439a2ac7"
+        }
+      }
+    },
+    {
+      "version": "2.4.0",
+      "variantId": "registry-package.openupm.com-cf8ca39e409582f0",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "b0b0368a5935be0cd265a05bc0611bf173aa113f",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-2.4.0.tgz",
+      "upstreamIntegrity": "sha512-eRsmxBHnPQGFE8o/acM2Bg0G9BuxBhESqPiJEdOzueamcjXPbR0W7GdtNiJ1MBu29Y8P2Yw0JwiacPPJS93R4w==",
+      "upstreamShasum": "feb60f4a9e369c464c722d8a81dea215ce5d5354",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/2.4.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eRsmxBHnPQGFE8o/acM2Bg0G9BuxBhESqPiJEdOzueamcjXPbR0W7GdtNiJ1MBu29Y8P2Yw0JwiacPPJS93R4w==",
+          "shasum": "feb60f4a9e369c464c722d8a81dea215ce5d5354"
+        }
+      }
+    },
+    {
+      "version": "2.4.2",
+      "variantId": "registry-package.openupm.com-c04fced34a4f15eb",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "909b19c8d0ad7052567dc43b0cd898bf4e777ac0",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-2.4.2.tgz",
+      "upstreamIntegrity": "sha512-BoyqNtNym0hQ1n0vTz6QLS8V7BToLWe9sXuGR9ZcnQeBfGxfyV8jAeS0S6AXDxd0C2mQhJrGQFxPz3xFnncX7Q==",
+      "upstreamShasum": "b5fa826f22b33c69a51965de4909a4aa062fdf41",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/2.4.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BoyqNtNym0hQ1n0vTz6QLS8V7BToLWe9sXuGR9ZcnQeBfGxfyV8jAeS0S6AXDxd0C2mQhJrGQFxPz3xFnncX7Q==",
+          "shasum": "b5fa826f22b33c69a51965de4909a4aa062fdf41"
+        }
+      }
+    },
+    {
+      "version": "2.4.4",
+      "variantId": "registry-package.openupm.com-7aa2e31188b79183",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "112a83a147ab8f2f32e168ccf9c47c3ec8cc4466",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-2.4.4.tgz",
+      "upstreamIntegrity": "sha512-HQIIPo1PSrB2NDrEdvANUw5TQ1lQVXj0JI2TnkSOoZt8gXYZzw+jnYwqSbfec2RdhhidyPXRJSN2k4MRXed28Q==",
+      "upstreamShasum": "a095be548d1337f39f5ed299b2c14bd99c4242da",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/2.4.4",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HQIIPo1PSrB2NDrEdvANUw5TQ1lQVXj0JI2TnkSOoZt8gXYZzw+jnYwqSbfec2RdhhidyPXRJSN2k4MRXed28Q==",
+          "shasum": "a095be548d1337f39f5ed299b2c14bd99c4242da"
+        }
+      }
+    },
+    {
+      "version": "2.5.0",
+      "variantId": "registry-package.openupm.com-cd617789d47a37bd",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "5ddb10480c58c4ccd8a068cfa926cb746ef55d89",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-2.5.0.tgz",
+      "upstreamIntegrity": "sha512-qJpMpdCiAX+FLbll3bo2c1HJsiKaIvhuocbsloP9MDrIcbLO8Y/BQweTmR9ioU5p4NwRDzJSVbgAgRhJtoSpaQ==",
+      "upstreamShasum": "e2f986484d893d451c81af515f25bf741fcb9ce4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/2.5.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qJpMpdCiAX+FLbll3bo2c1HJsiKaIvhuocbsloP9MDrIcbLO8Y/BQweTmR9ioU5p4NwRDzJSVbgAgRhJtoSpaQ==",
+          "shasum": "e2f986484d893d451c81af515f25bf741fcb9ce4"
+        }
+      }
+    },
+    {
+      "version": "2.7.1",
+      "variantId": "registry-package.openupm.com-f1fc9d42b1d19d26",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "6f78faf5a52d1318a6ae36d938bcce5cce4b1e81",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-2.7.1.tgz",
+      "upstreamIntegrity": "sha512-IG04j3FOCr14IhzO9LCYYTi9wdwnp2Xt7+T1zZKkCRYG7nc5qPwgMrAZYcCXUgDDGdX3a4y1AdVWFYq6bfXxgA==",
+      "upstreamShasum": "7cc3a0e0a6d235bca5aada1a3ffcab1b573df9c8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/2.7.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IG04j3FOCr14IhzO9LCYYTi9wdwnp2Xt7+T1zZKkCRYG7nc5qPwgMrAZYcCXUgDDGdX3a4y1AdVWFYq6bfXxgA==",
+          "shasum": "7cc3a0e0a6d235bca5aada1a3ffcab1b573df9c8"
+        }
+      }
+    },
+    {
+      "version": "2.9.0",
+      "variantId": "registry-package.openupm.com-bb8bf38abd1a0c1c",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "4331b88b1f454140e291f5704bec83d6343fea9a",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-2.9.0.tgz",
+      "upstreamIntegrity": "sha512-8Rz5ECP4d6N/BRpbw54ExL6qOv5zQXFOJlCFZBeYKClltCARgyddpwjZQxbTdY8LKpI9TawH9ufrVEvWzW6ZqQ==",
+      "upstreamShasum": "d9cb97726a8809197943d4a0a1dc318c7094ef01",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/2.9.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8Rz5ECP4d6N/BRpbw54ExL6qOv5zQXFOJlCFZBeYKClltCARgyddpwjZQxbTdY8LKpI9TawH9ufrVEvWzW6ZqQ==",
+          "shasum": "d9cb97726a8809197943d4a0a1dc318c7094ef01"
+        }
+      }
+    },
+    {
+      "version": "2.10.0",
+      "variantId": "registry-package.openupm.com-e9d0656b988fd97c",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "88ba5b383f4f064a85f3a9f1abf6c281c5349969",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-2.10.0.tgz",
+      "upstreamIntegrity": "sha512-hqGC8P5nvxF/t66fwIwnuwiIzN4sFU6Ig75tv15zKKT8DCHyXsHMTLFaRTNfQt/BTiZo0Y/SGOr0GleC5RWpeg==",
+      "upstreamShasum": "ee106908db1a0fa7590ad86a794067d9d8fa9d44",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/2.10.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hqGC8P5nvxF/t66fwIwnuwiIzN4sFU6Ig75tv15zKKT8DCHyXsHMTLFaRTNfQt/BTiZo0Y/SGOr0GleC5RWpeg==",
+          "shasum": "ee106908db1a0fa7590ad86a794067d9d8fa9d44"
+        }
+      }
+    },
+    {
+      "version": "2.15.1",
+      "variantId": "registry-package.openupm.com-dd93a45ca2af9aee",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "ba92bca7f7afd5fae026432eebe2126f85cc75d7",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-2.15.1.tgz",
+      "upstreamIntegrity": "sha512-nlM2FZ7wZ+P5+wTXiZbbUD54nkA54hltMF0DjUvmfEgIU/FyqtKi6ZT85R6dH4fkkG0VpGwtvVDd8cXiTO0ikw==",
+      "upstreamShasum": "62e8d3f6b5167dcd3c9478643c3c594ae2cc54a1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/2.15.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nlM2FZ7wZ+P5+wTXiZbbUD54nkA54hltMF0DjUvmfEgIU/FyqtKi6ZT85R6dH4fkkG0VpGwtvVDd8cXiTO0ikw==",
+          "shasum": "62e8d3f6b5167dcd3c9478643c3c594ae2cc54a1"
+        }
+      }
+    },
+    {
+      "version": "3.0.0",
+      "variantId": "registry-package.openupm.com-7e4190ce626d4f8e",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "1580ecd31a942f81419b6b8224acef9eb2f0ada2",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-3.0.0.tgz",
+      "upstreamIntegrity": "sha512-jZSpjvTral1Vpq0VpgGX/WaOu3F9w3QscPRWbEjYBZxmq5eq+EHHSXAaD/uuQ1XiOsl+QJceISQ8TNljxntmvA==",
+      "upstreamShasum": "615d1bf97ca23e1906efea472c30b7ae043c9ef5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/3.0.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jZSpjvTral1Vpq0VpgGX/WaOu3F9w3QscPRWbEjYBZxmq5eq+EHHSXAaD/uuQ1XiOsl+QJceISQ8TNljxntmvA==",
+          "shasum": "615d1bf97ca23e1906efea472c30b7ae043c9ef5"
+        }
+      }
+    },
+    {
+      "version": "3.3.0",
+      "variantId": "registry-package.openupm.com-92618f084dfbeb3e",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "9f7575a09816df827d54c88ad1378053a156cc0a",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-3.3.0.tgz",
+      "upstreamIntegrity": "sha512-c1vCwBEJgDwRdhVkikwd43MZCRde5aio0C8Eh7qpnOAvVlVt/Ub921MAgVIFqljGLhCnraFkGftZwCrHTi6pmA==",
+      "upstreamShasum": "fce682e97f147129836405ac9edc6efe490c4321",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/3.3.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-c1vCwBEJgDwRdhVkikwd43MZCRde5aio0C8Eh7qpnOAvVlVt/Ub921MAgVIFqljGLhCnraFkGftZwCrHTi6pmA==",
+          "shasum": "fce682e97f147129836405ac9edc6efe490c4321"
+        }
+      }
+    },
+    {
+      "version": "3.3.1",
+      "variantId": "registry-package.openupm.com-5232d228694fe382",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "6a3c94252f544b34ccf7e6a44d7e6b43a2af57c8",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-3.3.1.tgz",
+      "upstreamIntegrity": "sha512-z3qVk/vI2cJ/Mzpe6X2arXDPLQwRtyJrmKaVGkfOGZDFMAgLqj/bR9Hp+1uLUkDNXeBCW63+Qo627YesVG7p1A==",
+      "upstreamShasum": "65fc2acd27d2bb244915d6af0cbfdac27f5a2a7d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/3.3.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-z3qVk/vI2cJ/Mzpe6X2arXDPLQwRtyJrmKaVGkfOGZDFMAgLqj/bR9Hp+1uLUkDNXeBCW63+Qo627YesVG7p1A==",
+          "shasum": "65fc2acd27d2bb244915d6af0cbfdac27f5a2a7d"
+        }
+      }
+    },
+    {
+      "version": "3.5.1",
+      "variantId": "registry-package.openupm.com-4ac763f0da34e534",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "f636cfd1a3b5ead97e60dfaa6ffe231ee20a84ad",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-3.5.1.tgz",
+      "upstreamIntegrity": "sha512-pTj2Qc7dc057noqNotVkgPhG0aewzoq9LN3DKIIcMb7AuShMN8bxstQB8v2Vojp+31l3sC/LzprPWu0KK0VGUw==",
+      "upstreamShasum": "12da1376606139cfc088c5400146d8bc28cea9ce",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/3.5.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-pTj2Qc7dc057noqNotVkgPhG0aewzoq9LN3DKIIcMb7AuShMN8bxstQB8v2Vojp+31l3sC/LzprPWu0KK0VGUw==",
+          "shasum": "12da1376606139cfc088c5400146d8bc28cea9ce"
+        }
+      }
+    },
+    {
+      "version": "3.8.2",
+      "variantId": "registry-package.openupm.com-55150f0962d0da3d",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "eee9e852e34522039ac57785a14951df5ae8d66f",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-3.8.2.tgz",
+      "upstreamIntegrity": "sha512-D2mH1apLlncFv4EDPS74ZylZ7py0/gWnYtRDnih6zdR4CKjeQsYTU8vKOmNwieIWR5MpZao7E/lfnn/yhUDo+A==",
+      "upstreamShasum": "7657cbc2a0a0f1152391f960cd65f58073092c27",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/3.8.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-D2mH1apLlncFv4EDPS74ZylZ7py0/gWnYtRDnih6zdR4CKjeQsYTU8vKOmNwieIWR5MpZao7E/lfnn/yhUDo+A==",
+          "shasum": "7657cbc2a0a0f1152391f960cd65f58073092c27"
+        }
+      }
+    },
+    {
+      "version": "3.11.1",
+      "variantId": "registry-package.openupm.com-f72bdbeaac247461",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "36965ecf9cdd1e78793f18e93860af170058e8df",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-3.11.1.tgz",
+      "upstreamIntegrity": "sha512-xQOzY9iNvU15ri76qtkYlYkO2gPSIeYDMg2ggZ94iYFmC69va4OBWeKe0x3iVi1RMy7n6rerIrq+/zCNTEskKQ==",
+      "upstreamShasum": "434e0ba36624530ceb3b67d1682b0ef57129b99f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.test-framework": "1.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/3.11.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xQOzY9iNvU15ri76qtkYlYkO2gPSIeYDMg2ggZ94iYFmC69va4OBWeKe0x3iVi1RMy7n6rerIrq+/zCNTEskKQ==",
+          "shasum": "434e0ba36624530ceb3b67d1682b0ef57129b99f"
+        }
+      }
+    },
+    {
+      "version": "3.12.1",
+      "variantId": "registry-package.openupm.com-360d9d35d73cbebf",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "16d55b3107b8f8aff2140de97d1822753ef52ce3",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-3.12.1.tgz",
+      "upstreamIntegrity": "sha512-KOL2SZFJySOzuWY0Z9Rwi5/oqg9L5sSwOdkkLBE3c3MOVWD3uD6NHFffQl5/4jzq1VPqNO37Qz4msmrl59QE+A==",
+      "upstreamShasum": "6cb27d65d118911666f91687817265bfbc4ace78",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.test-framework": "1.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/3.12.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KOL2SZFJySOzuWY0Z9Rwi5/oqg9L5sSwOdkkLBE3c3MOVWD3uD6NHFffQl5/4jzq1VPqNO37Qz4msmrl59QE+A==",
+          "shasum": "6cb27d65d118911666f91687817265bfbc4ace78"
+        }
+      }
+    },
+    {
+      "version": "3.14.1",
+      "variantId": "registry-package.openupm.com-7edee89ed6416d34",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "d882f9cfb1c57f639ecc0047fc27d99fdecdbe59",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-3.14.1.tgz",
+      "upstreamIntegrity": "sha512-X/BIgkX9/ZGPAP5WVNqcAH1hpajKgKnYJ01hgtsL0dKQtTToaWreTGvwb9bgY4Jf+GrqVDB4maCu3i4tkYZq0w==",
+      "upstreamShasum": "f6f749e8c042567f4b015bd2fb83bb878a0cb25b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.test-framework": "1.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/3.14.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-X/BIgkX9/ZGPAP5WVNqcAH1hpajKgKnYJ01hgtsL0dKQtTToaWreTGvwb9bgY4Jf+GrqVDB4maCu3i4tkYZq0w==",
+          "shasum": "f6f749e8c042567f4b015bd2fb83bb878a0cb25b"
+        }
+      }
+    },
+    {
+      "version": "3.19.4",
+      "variantId": "registry-package.openupm.com-6517d5b6fa00f5ef",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "d5a968c2ca18b3e24ab17df067b17a291708df94",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-3.19.4.tgz",
+      "upstreamIntegrity": "sha512-4oe2r48hm+CdFToFRO6UeSpCO+/kXLJK3ilTZYjKoOiJZEJyP0tL/6TlQPh+KWEmo5rFzLRZHxBloasHAAtyXA==",
+      "upstreamShasum": "3ea0f707d095b01b658e301a0a15be52341ecc80",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.test-framework": "1.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/3.19.4",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4oe2r48hm+CdFToFRO6UeSpCO+/kXLJK3ilTZYjKoOiJZEJyP0tL/6TlQPh+KWEmo5rFzLRZHxBloasHAAtyXA==",
+          "shasum": "3ea0f707d095b01b658e301a0a15be52341ecc80"
+        }
+      }
+    },
+    {
+      "version": "4.2.3",
+      "variantId": "registry-package.openupm.com-f9d678a87ae89bd9",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "b167223ca9210f8e719d97f9b2e79b8783150744",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-4.2.3.tgz",
+      "upstreamIntegrity": "sha512-DFmeSGay9ZfpNAdPGMhxHcSJRMGCuDmn3ObobQn+V5EuURtnNiJvB6ldydyhXKmmw6EYxTRj4Jbw2uvdPWR6yw==",
+      "upstreamShasum": "1238e00403cef060e63adfe256876d265fa3319f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.test-framework": "1.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/4.2.3",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-DFmeSGay9ZfpNAdPGMhxHcSJRMGCuDmn3ObobQn+V5EuURtnNiJvB6ldydyhXKmmw6EYxTRj4Jbw2uvdPWR6yw==",
+          "shasum": "1238e00403cef060e63adfe256876d265fa3319f"
+        }
+      }
+    },
+    {
+      "version": "4.4.0",
+      "variantId": "registry-package.openupm.com-f31bf01cc5d465ed",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "b258c5516d0361c7b0ca51f85e9db1e9075694bc",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-4.4.0.tgz",
+      "upstreamIntegrity": "sha512-YOOMVBPbwEiHMKR0ud2wxo8iNlJY8KSfRz3nYoi/XamHmi3GWgKxwwOSrYdsaueLp/e7FPV9agt21Kp0We331g==",
+      "upstreamShasum": "0b0432da9ce8e3243f1af33fe85f5e274023b3cf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.test-framework": "1.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/4.4.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YOOMVBPbwEiHMKR0ud2wxo8iNlJY8KSfRz3nYoi/XamHmi3GWgKxwwOSrYdsaueLp/e7FPV9agt21Kp0We331g==",
+          "shasum": "0b0432da9ce8e3243f1af33fe85f5e274023b3cf"
+        }
+      }
+    },
+    {
+      "version": "4.4.1",
+      "variantId": "registry-package.openupm.com-309c204ab3243ab7",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "89f42cf45d2d884d3390f46e1e6e4885b5b769b2",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-4.4.1.tgz",
+      "upstreamIntegrity": "sha512-8pywVFw+i71Mum4FYfI/igk/+ElMhONikGgt+ah/8DGHGKY9b9T+OH3yVqDyXdXRj8XYwsA+wC3gO0JmaEgFTg==",
+      "upstreamShasum": "b8d86a0cada908e7b99dde5c9318d6c6610acc5a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.test-framework": "1.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/4.4.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8pywVFw+i71Mum4FYfI/igk/+ElMhONikGgt+ah/8DGHGKY9b9T+OH3yVqDyXdXRj8XYwsA+wC3gO0JmaEgFTg==",
+          "shasum": "b8d86a0cada908e7b99dde5c9318d6c6610acc5a"
+        }
+      }
+    },
+    {
+      "version": "4.6.0",
+      "variantId": "registry-package.openupm.com-5401be075955eafe",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "d3bfc54f56988c0271d805a79dddf323270cfe36",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-4.6.0.tgz",
+      "upstreamIntegrity": "sha512-RO+ycR2ujSTvzdu9Jpieh4tYogyjcv6HI2yVbovwGmcfxnNumxt4MCWKQIXnv4yptaGlu2Zes6Z5I0rtuW945g==",
+      "upstreamShasum": "a17908d70322aef264c009e5acb3fe751b45d6ad",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.test-framework": "1.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/4.6.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RO+ycR2ujSTvzdu9Jpieh4tYogyjcv6HI2yVbovwGmcfxnNumxt4MCWKQIXnv4yptaGlu2Zes6Z5I0rtuW945g==",
+          "shasum": "a17908d70322aef264c009e5acb3fe751b45d6ad"
+        }
+      }
+    },
+    {
+      "version": "4.6.7",
+      "variantId": "registry-package.openupm.com-6f9f51c7a5b6aac6",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "4d32923dc30f7559bc9ad2ea0f9813357169b2e5",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-4.6.7.tgz",
+      "upstreamIntegrity": "sha512-ky+bmQkPIoFXXKqT5iZEBPw0UljJS1oVTB+1+tzk0lm2fIgueoYdg8fdL/zzEPg/xI5KTx0FZ6jSRAAp0MK6CQ==",
+      "upstreamShasum": "56f16eb84debf66babd6d0b508aa3432c5babc67",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.test-framework": "1.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/4.6.7",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ky+bmQkPIoFXXKqT5iZEBPw0UljJS1oVTB+1+tzk0lm2fIgueoYdg8fdL/zzEPg/xI5KTx0FZ6jSRAAp0MK6CQ==",
+          "shasum": "56f16eb84debf66babd6d0b508aa3432c5babc67"
+        }
+      }
+    },
+    {
+      "version": "5.0.7",
+      "variantId": "registry-package.openupm.com-8020cc2ea458da98",
+      "sourceUrl": "https://github.com/0xsequence/sequence-unity.git",
+      "sourceRef": "9cdc67d02764340d4da04343cc1a99fa504ad186",
+      "downloadUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/-/xyz.0xsequence.waas-unity-5.0.7.tgz",
+      "upstreamIntegrity": "sha512-N5zUYFJbf5ITAPWLWQ06/nL4yi2L4sVhAiILuH+Ft25S78UCEhhEuTCr/Kr6DZarjVv4YrX8ccLa5Q5pVBX/CA==",
+      "upstreamShasum": "aa0f7ae8a476733d28c3d6d59b1e6eeb6bda99e3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.test-framework": "1.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/xyz.0xsequence.waas-unity/5.0.7",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-N5zUYFJbf5ITAPWLWQ06/nL4yi2L4sVhAiILuH+Ft25S78UCEhhEuTCr/Kr6DZarjVv4YrX8ccLa5Q5pVBX/CA==",
+          "shasum": "aa0f7ae8a476733d28c3d6d59b1e6eeb6bda99e3"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "5.0.7"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/xyz.0xsequence.waas-unity.yml",
+  "definitionBlobSha": "db39c726bf2067d3598db6c798f8a3eb99277126",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "5.0.7",
+    "4.6.7",
+    "3.19.4"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 26,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

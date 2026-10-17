@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.simulanis.unity.mcp",
+  "displayName": "com.simulanis.unity.mcp",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.simulanis.unity.mcp",
+      "fetchedAt": "2026-10-17T17:41:58.785618Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-201e012e4d5e8262",
+      "sourceUrl": "https://package.openupm.com/com.simulanis.unity.mcp",
+      "sourceRef": "f06d764fa4a72ea1eee4e31ba3eadb932f7ca430",
+      "downloadUrl": "https://package.openupm.com/com.simulanis.unity.mcp/-/com.simulanis.unity.mcp-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-npR4EG3/bwEDk4YI09HWqkIv0jrbX8whTxtsz4HL72pVVhfdu6AAs+/SV3tJrTxijEklMDrzqcPFUKaLM+xd+A==",
+      "upstreamShasum": "fd5b2e7ba8837c9fdce637484134665810237677",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "1.1.33",
+        "com.unity.modules.uielements": "1.0.0",
+        "org.nuget.microsoft.bcl.memory": "9.0.4",
+        "org.nuget.microsoft.aspnetcore.signalr.client": "9.0.4",
+        "org.nuget.microsoft.aspnetcore.signalr.protocols.json": "9.0.4",
+        "org.nuget.microsoft.codeanalysis.csharp": "4.13.0",
+        "org.nuget.microsoft.extensions.caching.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.hosting": "9.0.4",
+        "org.nuget.microsoft.extensions.hosting.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.4",
+        "org.nuget.r3": "1.3.0",
+        "org.nuget.system.text.json": "9.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.simulanis.unity.mcp/1.0.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-npR4EG3/bwEDk4YI09HWqkIv0jrbX8whTxtsz4HL72pVVhfdu6AAs+/SV3tJrTxijEklMDrzqcPFUKaLM+xd+A==",
+          "shasum": "fd5b2e7ba8837c9fdce637484134665810237677"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.simulanis.unity.mcp.yml",
+  "definitionBlobSha": "71435c8d1aa9aeced50035b8fb8a43f80be18c02",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

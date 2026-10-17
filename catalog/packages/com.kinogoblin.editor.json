@@ -1,0 +1,804 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.kinogoblin.editor",
+  "displayName": "com.kinogoblin.editor",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "fetchedAt": "2026-10-17T17:39:25.653579Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.12.0",
+      "variantId": "registry-package.openupm.com-ad37fbb97e4c7483",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "107e530689c1d9dfff190e534a033e5e124148f8",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.12.0.tgz",
+      "upstreamIntegrity": "sha512-Xwp4qRmS+ug4PMD6ZiRTpjZWaKwQbP/ONQHfqogZg79vEk13CUBb/sgwCnDERLEW91h09C+LqxYt2cNxI/RToA==",
+      "upstreamShasum": "028382d4829bd35208b2162671456a06235f013c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.cinemachine": "2.6.3",
+        "com.unity.timeline": "1.4.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.12.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Xwp4qRmS+ug4PMD6ZiRTpjZWaKwQbP/ONQHfqogZg79vEk13CUBb/sgwCnDERLEW91h09C+LqxYt2cNxI/RToA==",
+          "shasum": "028382d4829bd35208b2162671456a06235f013c"
+        }
+      }
+    },
+    {
+      "version": "1.13.2",
+      "variantId": "registry-package.openupm.com-e2ef2198672a4d40",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "0f7ad2b06c464a709838ca919005d738cf6760bd",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.13.2.tgz",
+      "upstreamIntegrity": "sha512-+DiB10Tt43sYsHM1FVx6IcQWCbAlt18dCSiqhdpP2Wbdw5HzPtCGFr/8ihyo3tISluXhAVjGd7T0dhCcyiSt6Q==",
+      "upstreamShasum": "e4047638d6a3299fb4fe5fc241b88afa8be43b36",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.13.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+DiB10Tt43sYsHM1FVx6IcQWCbAlt18dCSiqhdpP2Wbdw5HzPtCGFr/8ihyo3tISluXhAVjGd7T0dhCcyiSt6Q==",
+          "shasum": "e4047638d6a3299fb4fe5fc241b88afa8be43b36"
+        }
+      }
+    },
+    {
+      "version": "1.14.0",
+      "variantId": "registry-package.openupm.com-b8e27e3620426932",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "bc6eb37e3d2334e121934e229e2daec8080eb830",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.14.0.tgz",
+      "upstreamIntegrity": "sha512-w97pG1Hoe5iUlIkA8aDwxOw/TFyMWPpH4CPlwbMewuVKyTOFDVO4PSr0RUiGtKWAPiDG/n9D/UxxZdbnP9FczQ==",
+      "upstreamShasum": "7b5dcce0f2470259338662943e7fdb036e68ba88",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.14.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-w97pG1Hoe5iUlIkA8aDwxOw/TFyMWPpH4CPlwbMewuVKyTOFDVO4PSr0RUiGtKWAPiDG/n9D/UxxZdbnP9FczQ==",
+          "shasum": "7b5dcce0f2470259338662943e7fdb036e68ba88"
+        }
+      }
+    },
+    {
+      "version": "1.14.2",
+      "variantId": "registry-package.openupm.com-c3e89401f3a27df7",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "66ab267d28152f429a1fedc6b833987b5ed9df28",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.14.2.tgz",
+      "upstreamIntegrity": "sha512-IBzOSO6dVWoHeXn8PbOVUXuLxFI4meybk/XJbIa8ySQpsaKCFkWjjFDVtuFFSn98vUjk4VMlEXm/k1YZnU4rkA==",
+      "upstreamShasum": "c0ca1d93571de32b4b55d98892da439b4d602bbe",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.14.2",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IBzOSO6dVWoHeXn8PbOVUXuLxFI4meybk/XJbIa8ySQpsaKCFkWjjFDVtuFFSn98vUjk4VMlEXm/k1YZnU4rkA==",
+          "shasum": "c0ca1d93571de32b4b55d98892da439b4d602bbe"
+        }
+      }
+    },
+    {
+      "version": "1.14.3",
+      "variantId": "registry-package.openupm.com-976fe1d625ce4141",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "89fc16da9df1cb33f876b169c3caf3b414b9b882",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.14.3.tgz",
+      "upstreamIntegrity": "sha512-ncAvWudhyZz9hW9H8tedQzrO6IU2unv2Cwzhfxr7bo9T2RYbT/iJYs0O1j7qqLUizqOOI4gQJbkRCGGEB8WMxw==",
+      "upstreamShasum": "f99a28cfbb551289ac00f3b4d46fa251f71154cf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.14.3",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ncAvWudhyZz9hW9H8tedQzrO6IU2unv2Cwzhfxr7bo9T2RYbT/iJYs0O1j7qqLUizqOOI4gQJbkRCGGEB8WMxw==",
+          "shasum": "f99a28cfbb551289ac00f3b4d46fa251f71154cf"
+        }
+      }
+    },
+    {
+      "version": "1.14.6",
+      "variantId": "registry-package.openupm.com-42903dd062280a73",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "ff8570c03e9d5761bf84cd5da91dc758c5b12063",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.14.6.tgz",
+      "upstreamIntegrity": "sha512-cMyPfDiVMOEchwZx97HZM0nE+x+5Y+vTpNFtuoc+jsPcN+WAY7tVvVUn5oTdLxmVfo2fXqdyI/vMuWdta5qXvw==",
+      "upstreamShasum": "f85c394b773fc406d3602a0ca957a04b0466d9d2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.14.6",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cMyPfDiVMOEchwZx97HZM0nE+x+5Y+vTpNFtuoc+jsPcN+WAY7tVvVUn5oTdLxmVfo2fXqdyI/vMuWdta5qXvw==",
+          "shasum": "f85c394b773fc406d3602a0ca957a04b0466d9d2"
+        }
+      }
+    },
+    {
+      "version": "1.14.7",
+      "variantId": "registry-package.openupm.com-2cddc65d536b5986",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "eafa1b6960fe34981341bb5650dceef53f2d441d",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.14.7.tgz",
+      "upstreamIntegrity": "sha512-kQ5mkipY8r59ZdVfME5+7GnA/a89P4HvKi9v9KSqI781QOXIjb1L4BPdknBRONGmsRM8UuVe2Zrwd44jF0Tv+Q==",
+      "upstreamShasum": "233404b94b62801d7718743cde75633cfa4630e6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.14.7",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kQ5mkipY8r59ZdVfME5+7GnA/a89P4HvKi9v9KSqI781QOXIjb1L4BPdknBRONGmsRM8UuVe2Zrwd44jF0Tv+Q==",
+          "shasum": "233404b94b62801d7718743cde75633cfa4630e6"
+        }
+      }
+    },
+    {
+      "version": "1.15.1",
+      "variantId": "registry-package.openupm.com-76907097bd7ca14a",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "632481ba53f731228bb9fba470c860b1a2972405",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.15.1.tgz",
+      "upstreamIntegrity": "sha512-UsKreLNq1M+TrgJQHRkq8LXBESGFYVQ8CiT4BU2as4R4WXU+VGy20e0ZQ6O6oF3WoLXzZzruWoviHo2jLUs8/w==",
+      "upstreamShasum": "d4e67a61e156a897791851e4c0a13231f42b6ad6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.15.1",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-UsKreLNq1M+TrgJQHRkq8LXBESGFYVQ8CiT4BU2as4R4WXU+VGy20e0ZQ6O6oF3WoLXzZzruWoviHo2jLUs8/w==",
+          "shasum": "d4e67a61e156a897791851e4c0a13231f42b6ad6"
+        }
+      }
+    },
+    {
+      "version": "1.15.2",
+      "variantId": "registry-package.openupm.com-3bd45ec805eaa8e1",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "b5363d071d3a3b155218087281b6f33da9aa1b2d",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.15.2.tgz",
+      "upstreamIntegrity": "sha512-4Fkjt+Evpk+Nr4jSU1gjg8l9xQvBlYmNfwXCcTcD5xtxHJSol+Cr5LvaElWqdCvdOexHzNlYh4KY7QVoyLHgOw==",
+      "upstreamShasum": "f403a5ad809f6710682b275b6fe3b8cad2c1bbbe",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.15.2",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4Fkjt+Evpk+Nr4jSU1gjg8l9xQvBlYmNfwXCcTcD5xtxHJSol+Cr5LvaElWqdCvdOexHzNlYh4KY7QVoyLHgOw==",
+          "shasum": "f403a5ad809f6710682b275b6fe3b8cad2c1bbbe"
+        }
+      }
+    },
+    {
+      "version": "1.15.3",
+      "variantId": "registry-package.openupm.com-def68383b134603c",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "3d9e7e06dbdff189b4bd1649d58cdcbe73f45c89",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.15.3.tgz",
+      "upstreamIntegrity": "sha512-BktoEmVkLuJXb/yCoepjC+ERFfei1YuJeUAPuXVIn7/QOaSq4QU72UUD0c+dW0AtPnEjpLcPuSVWxlZnGJBpTg==",
+      "upstreamShasum": "2b2ef3724e255d764be3eba5e8e9e1996acf435d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.15.3",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BktoEmVkLuJXb/yCoepjC+ERFfei1YuJeUAPuXVIn7/QOaSq4QU72UUD0c+dW0AtPnEjpLcPuSVWxlZnGJBpTg==",
+          "shasum": "2b2ef3724e255d764be3eba5e8e9e1996acf435d"
+        }
+      }
+    },
+    {
+      "version": "1.15.5",
+      "variantId": "registry-package.openupm.com-96ca4d8e1c7000df",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "bc55e8935acbaeee8a6adf1657f0cb129e94551c",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.15.5.tgz",
+      "upstreamIntegrity": "sha512-d/j+yucPDyYTyR/YMgcfeFYtAKzM7ok63KHGE/reW9S7RgfRkY2te1HcU5RmEQFWaURaDFHaBu+BzR2ttl+YiA==",
+      "upstreamShasum": "09964ca2eeb11beae46ff55920ec5d3fa55c99bd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.15.5",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-d/j+yucPDyYTyR/YMgcfeFYtAKzM7ok63KHGE/reW9S7RgfRkY2te1HcU5RmEQFWaURaDFHaBu+BzR2ttl+YiA==",
+          "shasum": "09964ca2eeb11beae46ff55920ec5d3fa55c99bd"
+        }
+      }
+    },
+    {
+      "version": "1.16.2",
+      "variantId": "registry-package.openupm.com-4365587fc1748d08",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "e00c3ed29142b4ab07918d4900bec270f39aba31",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.16.2.tgz",
+      "upstreamIntegrity": "sha512-tnGoLLv/+onGT/Bjq2XI4oFZod+1uzOSihqN21fmDgvJqywf3cJ40BSMX+PYXq5Kpy/OmchclpFme7Nb8b+FKg==",
+      "upstreamShasum": "12c87ddc5643e396cdd56e5c246287161d9d0cdc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.16.2",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tnGoLLv/+onGT/Bjq2XI4oFZod+1uzOSihqN21fmDgvJqywf3cJ40BSMX+PYXq5Kpy/OmchclpFme7Nb8b+FKg==",
+          "shasum": "12c87ddc5643e396cdd56e5c246287161d9d0cdc"
+        }
+      }
+    },
+    {
+      "version": "1.17.0",
+      "variantId": "registry-package.openupm.com-118e01fc5eafcdab",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "8a0a20685d7c18c0074fdc00ad2cffdd697bfa46",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.17.0.tgz",
+      "upstreamIntegrity": "sha512-96CXBhT7F9Tzs8kbiP3hEygYSADGHTjdpTlogwhRwkTGjzbi+MPmmFLMwtSsLIjvjkzC28LzONwPTzP8Ls06Ug==",
+      "upstreamShasum": "1cc0982033d9e2ce9491b106ef3c4e585fc5fcb8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.17.0",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-96CXBhT7F9Tzs8kbiP3hEygYSADGHTjdpTlogwhRwkTGjzbi+MPmmFLMwtSsLIjvjkzC28LzONwPTzP8Ls06Ug==",
+          "shasum": "1cc0982033d9e2ce9491b106ef3c4e585fc5fcb8"
+        }
+      }
+    },
+    {
+      "version": "1.17.1",
+      "variantId": "registry-package.openupm.com-35edec9f99aa9b47",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "f40219c9d3eec6829d8c21d664cac93061c83a46",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.17.1.tgz",
+      "upstreamIntegrity": "sha512-KLATNV1dpCS4WZR20h7pYFluYrVmqkXcBFscHTIEX5mdIuV0HuE76bWAiCzb/29Z16HjxTw9Kqfs5BCCN2/QpA==",
+      "upstreamShasum": "969a4d305a9f79de122d313e7ac44607d1ad7ab2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.17.1",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KLATNV1dpCS4WZR20h7pYFluYrVmqkXcBFscHTIEX5mdIuV0HuE76bWAiCzb/29Z16HjxTw9Kqfs5BCCN2/QpA==",
+          "shasum": "969a4d305a9f79de122d313e7ac44607d1ad7ab2"
+        }
+      }
+    },
+    {
+      "version": "1.17.2",
+      "variantId": "registry-package.openupm.com-b6bde8b04ea6fa3a",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "011bf78ab50509115036a6bb94c457a447e591bf",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.17.2.tgz",
+      "upstreamIntegrity": "sha512-yGR1U+HXom9RQ2p5jCYVuwuE86grqSRe0rl5i9Cdm5XAnK+UfoTQQj611KkQti3D7ThdhVJpXncgjf8J3I3tqg==",
+      "upstreamShasum": "b42285d718b4b15ce7d38920035ae2a33c80ab0f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.17.2",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yGR1U+HXom9RQ2p5jCYVuwuE86grqSRe0rl5i9Cdm5XAnK+UfoTQQj611KkQti3D7ThdhVJpXncgjf8J3I3tqg==",
+          "shasum": "b42285d718b4b15ce7d38920035ae2a33c80ab0f"
+        }
+      }
+    },
+    {
+      "version": "1.17.3",
+      "variantId": "registry-package.openupm.com-bc6a500d10da0c42",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "41c1f0244f9176086f58df5e3f06e42a30970526",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.17.3.tgz",
+      "upstreamIntegrity": "sha512-09+dleCApIenlVyUVglNV2S74toZ7w6gMyZHpf+xbFVjXr8H6MPxTLTO5ILNVuNS68z74dsYPrHLsGN3zzH5vQ==",
+      "upstreamShasum": "b1b82f0b8da99cb1fca4224d5458312d629ea4ef",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.17.3",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-09+dleCApIenlVyUVglNV2S74toZ7w6gMyZHpf+xbFVjXr8H6MPxTLTO5ILNVuNS68z74dsYPrHLsGN3zzH5vQ==",
+          "shasum": "b1b82f0b8da99cb1fca4224d5458312d629ea4ef"
+        }
+      }
+    },
+    {
+      "version": "1.17.6",
+      "variantId": "registry-package.openupm.com-36159d442b055fc0",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "60848bf16f1c1a48a9eacdebf293854c6969a5be",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.17.6.tgz",
+      "upstreamIntegrity": "sha512-jWzbFutArf8CsR8Wyom6lV4azoeWYrsKu33y9pcD7LCxVCSxB5xNm/1udJRQP7OThSwXNOybctt4y7UoszKBHg==",
+      "upstreamShasum": "ca9b293aaeba362a9837d8a81f7e8d9755849cc8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.17.6",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jWzbFutArf8CsR8Wyom6lV4azoeWYrsKu33y9pcD7LCxVCSxB5xNm/1udJRQP7OThSwXNOybctt4y7UoszKBHg==",
+          "shasum": "ca9b293aaeba362a9837d8a81f7e8d9755849cc8"
+        }
+      }
+    },
+    {
+      "version": "1.17.7",
+      "variantId": "registry-package.openupm.com-ce6acda0023c26e0",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "bc7333193f03e5bebe60a07211274f699ac54d1a",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.17.7.tgz",
+      "upstreamIntegrity": "sha512-hk0IFzxCfV0ZNyPAvbCqDjX61eykKjj51CQ9nL4SB7lqEQllymJVfJpPiM7sR4cjn1EfK9U8a4C0ebXKI31qmA==",
+      "upstreamShasum": "287dbc02ce2383ab4df61e4458646aa53cd563e1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.17.7",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hk0IFzxCfV0ZNyPAvbCqDjX61eykKjj51CQ9nL4SB7lqEQllymJVfJpPiM7sR4cjn1EfK9U8a4C0ebXKI31qmA==",
+          "shasum": "287dbc02ce2383ab4df61e4458646aa53cd563e1"
+        }
+      }
+    },
+    {
+      "version": "1.17.8",
+      "variantId": "registry-package.openupm.com-5c0de367e2c54b2e",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "d2b1941536f5d56cea3093b2980dff59d30c3c9f",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.17.8.tgz",
+      "upstreamIntegrity": "sha512-4anmiFHxE96uvVXfVyPZMctgS9JPMFlpaFd6XQmcakc4bmKJF+UGrXztN7gv7+OV+mjbq3T1n3DGRkVayyd5kw==",
+      "upstreamShasum": "0ae27b44d5a543e04ca172ba8ac7f3cffffd9977",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.17.8",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4anmiFHxE96uvVXfVyPZMctgS9JPMFlpaFd6XQmcakc4bmKJF+UGrXztN7gv7+OV+mjbq3T1n3DGRkVayyd5kw==",
+          "shasum": "0ae27b44d5a543e04ca172ba8ac7f3cffffd9977"
+        }
+      }
+    },
+    {
+      "version": "1.17.9",
+      "variantId": "registry-package.openupm.com-596b749f880ca9e2",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "017a3490ec35935c35d5e7dedcb49f5d70e0f98b",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.17.9.tgz",
+      "upstreamIntegrity": "sha512-fU46aBPHDAC6JW+myUibg1CpzBkDC+ZINfk8w2xdIPjA+UbnGExlTUTM6eOiXGwl6ZbQkguOKQytX8RZBP0h7w==",
+      "upstreamShasum": "ca32d8aca71458d4c962081a1e1426c8fdb6e61b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.17.9",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fU46aBPHDAC6JW+myUibg1CpzBkDC+ZINfk8w2xdIPjA+UbnGExlTUTM6eOiXGwl6ZbQkguOKQytX8RZBP0h7w==",
+          "shasum": "ca32d8aca71458d4c962081a1e1426c8fdb6e61b"
+        }
+      }
+    },
+    {
+      "version": "1.17.10",
+      "variantId": "registry-package.openupm.com-2cabe60ffe5f57bc",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "f6022adf7a7e5ee36b945bd33cba7404dba35c47",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.17.10.tgz",
+      "upstreamIntegrity": "sha512-jrCb/9uRsA1klvIJhKAltjcrUqqRrDE+9tqQRNQMIjD3fMVMhv7Z6iLCbfscpArqhoPt2zpRosOefgS0VWDbng==",
+      "upstreamShasum": "7d01b22226cf751c6782587482122a05a81dd295",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.17.10",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jrCb/9uRsA1klvIJhKAltjcrUqqRrDE+9tqQRNQMIjD3fMVMhv7Z6iLCbfscpArqhoPt2zpRosOefgS0VWDbng==",
+          "shasum": "7d01b22226cf751c6782587482122a05a81dd295"
+        }
+      }
+    },
+    {
+      "version": "1.17.11",
+      "variantId": "registry-package.openupm.com-29e44928ab16e818",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "c407850fb25620cee5f5c2f6f688b3ad238a6b69",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.17.11.tgz",
+      "upstreamIntegrity": "sha512-1DayHQ/NuoT6M81NaQdmeWqt8F88b+2H1foTSg9ORetfzSU6ekcC+sVG0oQ4jrnTc1N2DJtqKZR8Mrf8SGeUpw==",
+      "upstreamShasum": "b682e441d9b534966959f20643a9328911021886",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.17.11",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1DayHQ/NuoT6M81NaQdmeWqt8F88b+2H1foTSg9ORetfzSU6ekcC+sVG0oQ4jrnTc1N2DJtqKZR8Mrf8SGeUpw==",
+          "shasum": "b682e441d9b534966959f20643a9328911021886"
+        }
+      }
+    },
+    {
+      "version": "1.18.1",
+      "variantId": "registry-package.openupm.com-b67278b7e06836dd",
+      "sourceUrl": "https://package.openupm.com/com.kinogoblin.editor",
+      "sourceRef": "a1f825bd6f9ea63c59654113201b9284b6970fc1",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.18.1.tgz",
+      "upstreamIntegrity": "sha512-rdp4Ize8noDfZDh3UWWQau9n3PXwEd8z/TAC1/WgYo6amAgwMI4nJgqQEgSK2O4Z+Q+MeWhd6h5rEKhHlPlpHw==",
+      "upstreamShasum": "b5929c79bac1b59a1acb41f372de2366687808c8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.18.1",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rdp4Ize8noDfZDh3UWWQau9n3PXwEd8z/TAC1/WgYo6amAgwMI4nJgqQEgSK2O4Z+Q+MeWhd6h5rEKhHlPlpHw==",
+          "shasum": "b5929c79bac1b59a1acb41f372de2366687808c8"
+        }
+      }
+    },
+    {
+      "version": "1.19.0",
+      "variantId": "registry-package.openupm.com-b69ca438d0b07391",
+      "sourceUrl": "https://github.com/Kinogoblin/KinogoblinEditor.git",
+      "sourceRef": "9fd74857b92683ab8e2d7110b12dc9faf9a242ee",
+      "downloadUrl": "https://package.openupm.com/com.kinogoblin.editor/-/com.kinogoblin.editor-1.19.0.tgz",
+      "upstreamIntegrity": "sha512-ZztMzmRYp/ndUu4R/ZJR2N4lpj/kjEEWAtEnCE0yDd+wWm8ebW9oh/MjJElnQaQk4c9A/LjJN74sVwBIUS6R4g==",
+      "upstreamShasum": "d6c9d7aed8c3538102850ebccedba66ebddc5194",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kinogoblin.editor/1.19.0",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZztMzmRYp/ndUu4R/ZJR2N4lpj/kjEEWAtEnCE0yDd+wWm8ebW9oh/MjJElnQaQk4c9A/LjJN74sVwBIUS6R4g==",
+          "shasum": "d6c9d7aed8c3538102850ebccedba66ebddc5194"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.19.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.kinogoblin.editor.yml",
+  "definitionBlobSha": "52a4cea95a04e46d0929e95d29e516ebaefcec67",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.19.0",
+    "1.18.1",
+    "1.17.11"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 24,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

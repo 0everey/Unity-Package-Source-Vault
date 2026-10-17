@@ -1,0 +1,948 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.reown.core",
+  "displayName": "com.reown.core",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.reown.core",
+      "fetchedAt": "2026-10-17T17:41:24.735675Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-f3d9a9a1fc1c5dad",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "3108e742e1aaec1fa86c0ec4f95f01422986f1d9",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-rtyDptDaFsAV0NSKCFue931LIf5I9YN/uGp9GCK6CxIJZU3y1SmdwEJAGOwF3WidaC3/pzUWSvbpWm7dpjsnrA==",
+      "upstreamShasum": "dcc442fd6c4372f592b1a98f514a0ee680663d2f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.0.0",
+        "com.reown.core.network": "1.0.0",
+        "com.reown.core.storage": "1.0.0",
+        "com.reown.core.crypto": "1.0.0",
+        "com.reown.unity.dependencies": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.0.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rtyDptDaFsAV0NSKCFue931LIf5I9YN/uGp9GCK6CxIJZU3y1SmdwEJAGOwF3WidaC3/pzUWSvbpWm7dpjsnrA==",
+          "shasum": "dcc442fd6c4372f592b1a98f514a0ee680663d2f"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-d6b2d655ff76c941",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "5266780dc5fb3e22d87db83f801407267ce60f0a",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-GNgvV087agVVKZmVL+jIewmJW2w4WRlEveWOh0VN4605PKEREm7JaZD85bQBGbIKIRniygVzJNvE05qKNMT/Eg==",
+      "upstreamShasum": "5749803d52dce862e210bf32e55e750175929732",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.0.1",
+        "com.reown.core.network": "1.0.1",
+        "com.reown.core.storage": "1.0.1",
+        "com.reown.core.crypto": "1.0.1",
+        "com.reown.unity.dependencies": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.0.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GNgvV087agVVKZmVL+jIewmJW2w4WRlEveWOh0VN4605PKEREm7JaZD85bQBGbIKIRniygVzJNvE05qKNMT/Eg==",
+          "shasum": "5749803d52dce862e210bf32e55e750175929732"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-929bf94f0fdf18c9",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "1d3882060f2a0eb98ee06babf998cb4c50b8110c",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-9jX69/Z67IP47F2jVCNt502+jKjlDBk4MXvVejum5ADpkHVy7aOG3OIBbk5v40rb3gJHzhXjIbTijHjTnvNhPA==",
+      "upstreamShasum": "00f99ba7cdf0dc8efc1b5f0d9255891a0aa99349",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.1.0",
+        "com.reown.core.network": "1.1.0",
+        "com.reown.core.storage": "1.1.0",
+        "com.reown.core.crypto": "1.1.0",
+        "com.reown.unity.dependencies": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.1.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9jX69/Z67IP47F2jVCNt502+jKjlDBk4MXvVejum5ADpkHVy7aOG3OIBbk5v40rb3gJHzhXjIbTijHjTnvNhPA==",
+          "shasum": "00f99ba7cdf0dc8efc1b5f0d9255891a0aa99349"
+        }
+      }
+    },
+    {
+      "version": "1.1.1",
+      "variantId": "registry-package.openupm.com-8ba5fb379b806d8b",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "6ae6a5001f2cd207ee3baa864581052a8354a385",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.1.1.tgz",
+      "upstreamIntegrity": "sha512-N6n6HB4GFHwoc+rqZkZ/2MFvFp+xv4SXn3ssYwQ0EkZjo6zHkjQ1rosBUyfpdEzYHs/bRhwTNzGUSJmIl0n0pA==",
+      "upstreamShasum": "6b3363d1237a97f79db097134d1b9d2f2ebe1be5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.1.1",
+        "com.reown.core.network": "1.1.1",
+        "com.reown.core.storage": "1.1.1",
+        "com.reown.core.crypto": "1.1.1",
+        "com.reown.unity.dependencies": "1.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.1.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-N6n6HB4GFHwoc+rqZkZ/2MFvFp+xv4SXn3ssYwQ0EkZjo6zHkjQ1rosBUyfpdEzYHs/bRhwTNzGUSJmIl0n0pA==",
+          "shasum": "6b3363d1237a97f79db097134d1b9d2f2ebe1be5"
+        }
+      }
+    },
+    {
+      "version": "1.1.2",
+      "variantId": "registry-package.openupm.com-74d487b58f2412a6",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "c15ee1873827cddef045f042d48d43424ad66a11",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.1.2.tgz",
+      "upstreamIntegrity": "sha512-wW3uxziaJDMGyk5CMAKs9Y5RjRzxnp9zBX0UXHQPEjH1wm4pmlM2Ivd9gsnjsExGp0UDDJf7eRDDB3Htzsr46g==",
+      "upstreamShasum": "e8d5b03a21944ddcdbae0b629de369470f905f37",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.1.2",
+        "com.reown.core.network": "1.1.2",
+        "com.reown.core.storage": "1.1.2",
+        "com.reown.core.crypto": "1.1.2",
+        "com.reown.unity.dependencies": "1.1.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.1.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wW3uxziaJDMGyk5CMAKs9Y5RjRzxnp9zBX0UXHQPEjH1wm4pmlM2Ivd9gsnjsExGp0UDDJf7eRDDB3Htzsr46g==",
+          "shasum": "e8d5b03a21944ddcdbae0b629de369470f905f37"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-ebdb4fb97da31fe9",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "3eb458d4d1108adbcde17318e44abc6943acfd9c",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-vJMGLpmQYcx9lI7804bwWsubd0uDFtfPfzd5DQs+1gWImGAueKtgkCTDWOnWe+XCPhJ3g3K+aTFmtUUrzGbxfA==",
+      "upstreamShasum": "87c983e3a1433d1d25be6a4c03936cf8af4e631e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.2.0",
+        "com.reown.core.network": "1.2.0",
+        "com.reown.core.storage": "1.2.0",
+        "com.reown.core.crypto": "1.2.0",
+        "com.reown.unity.dependencies": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.2.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vJMGLpmQYcx9lI7804bwWsubd0uDFtfPfzd5DQs+1gWImGAueKtgkCTDWOnWe+XCPhJ3g3K+aTFmtUUrzGbxfA==",
+          "shasum": "87c983e3a1433d1d25be6a4c03936cf8af4e631e"
+        }
+      }
+    },
+    {
+      "version": "1.2.1",
+      "variantId": "registry-package.openupm.com-acc6ca853c792f36",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "1a1ba69338dc707e87d4f2a564abc214114de96c",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.2.1.tgz",
+      "upstreamIntegrity": "sha512-fNFMtkxmqqRjqapOrv61uyVxzw7GMxcHDvsbVj+KPpx/U1hCQTZPKVtOaYwFGuvmTdfQEZtusJHSjQOFDyWmnw==",
+      "upstreamShasum": "32d2e03d9c0a4e7531614f8ed112a6d14e999501",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.2.1",
+        "com.reown.core.network": "1.2.1",
+        "com.reown.core.storage": "1.2.1",
+        "com.reown.core.crypto": "1.2.1",
+        "com.reown.unity.dependencies": "1.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.2.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fNFMtkxmqqRjqapOrv61uyVxzw7GMxcHDvsbVj+KPpx/U1hCQTZPKVtOaYwFGuvmTdfQEZtusJHSjQOFDyWmnw==",
+          "shasum": "32d2e03d9c0a4e7531614f8ed112a6d14e999501"
+        }
+      }
+    },
+    {
+      "version": "1.2.2",
+      "variantId": "registry-package.openupm.com-4698c5653d1885dd",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "13f462d3db3fd608e231375bde2634cc8b714fab",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.2.2.tgz",
+      "upstreamIntegrity": "sha512-rGf9c1CRM+uKJVvTI7H4yJHnsy96NcDCfoqwcOWNLkbNaDmWNDhefY040W9bfUUypmztG2gU6p08PZPU2ssPjw==",
+      "upstreamShasum": "3064956ba6f7a1ee83fdd59f16089c04fb9e0035",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.2.2",
+        "com.reown.core.network": "1.2.2",
+        "com.reown.core.storage": "1.2.2",
+        "com.reown.core.crypto": "1.2.2",
+        "com.reown.unity.dependencies": "1.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.2.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rGf9c1CRM+uKJVvTI7H4yJHnsy96NcDCfoqwcOWNLkbNaDmWNDhefY040W9bfUUypmztG2gU6p08PZPU2ssPjw==",
+          "shasum": "3064956ba6f7a1ee83fdd59f16089c04fb9e0035"
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "variantId": "registry-package.openupm.com-9b237350f2b45750",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "985e1150406f86788eccdbbb7c593c265d98fedf",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.3.0.tgz",
+      "upstreamIntegrity": "sha512-GZYW1eTxx3Uc6Jhgr4ev7m/cCAKRY/3XPdj+PcPQulnraXoLkXy0pOe8lWDJQNwkNnJiTSEwvdgpzuCZBjSz7Q==",
+      "upstreamShasum": "14c97875a0d7949088cbe9c2b4f30f9dee4ec7a4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.3.0",
+        "com.reown.core.network": "1.3.0",
+        "com.reown.core.storage": "1.3.0",
+        "com.reown.core.crypto": "1.3.0",
+        "com.reown.unity.dependencies": "1.3.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.3.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GZYW1eTxx3Uc6Jhgr4ev7m/cCAKRY/3XPdj+PcPQulnraXoLkXy0pOe8lWDJQNwkNnJiTSEwvdgpzuCZBjSz7Q==",
+          "shasum": "14c97875a0d7949088cbe9c2b4f30f9dee4ec7a4"
+        }
+      }
+    },
+    {
+      "version": "1.3.1",
+      "variantId": "registry-package.openupm.com-d3772e17f61bb66f",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "7e992ad2d1391650e33ab084cfa896818934276f",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.3.1.tgz",
+      "upstreamIntegrity": "sha512-qTtP/6FfSIFVWYCqE1S3Uac3TVRdndzhT6hl09MrtD0koD/CL8xSJSsgUkTDrZ4YTStGmyiRe+L/G18PTQHQQg==",
+      "upstreamShasum": "b4bb6418a6443e296e8a3e0467e1c12aff22ac35",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.3.1",
+        "com.reown.core.network": "1.3.1",
+        "com.reown.core.storage": "1.3.1",
+        "com.reown.core.crypto": "1.3.1",
+        "com.reown.unity.dependencies": "1.3.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.3.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qTtP/6FfSIFVWYCqE1S3Uac3TVRdndzhT6hl09MrtD0koD/CL8xSJSsgUkTDrZ4YTStGmyiRe+L/G18PTQHQQg==",
+          "shasum": "b4bb6418a6443e296e8a3e0467e1c12aff22ac35"
+        }
+      }
+    },
+    {
+      "version": "1.4.0",
+      "variantId": "registry-package.openupm.com-d8208eaf316ae9b7",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "856fd64658a3b8d12c5b7a06447deddfa0dad1c8",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.4.0.tgz",
+      "upstreamIntegrity": "sha512-cJP9pDyrCLJUGXZfqRKEDs3H7GCA0/buAhmA3Uc3+oPgwjBaDyhYEZIHdoZEzfOXuiaYF4mijFti7nIrMlddCw==",
+      "upstreamShasum": "6775558b4b0f6ea6e6a664891ce37fd0365f1fa7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.4.0",
+        "com.reown.core.network": "1.4.0",
+        "com.reown.core.storage": "1.4.0",
+        "com.reown.core.crypto": "1.4.0",
+        "com.reown.unity.dependencies": "1.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.4.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cJP9pDyrCLJUGXZfqRKEDs3H7GCA0/buAhmA3Uc3+oPgwjBaDyhYEZIHdoZEzfOXuiaYF4mijFti7nIrMlddCw==",
+          "shasum": "6775558b4b0f6ea6e6a664891ce37fd0365f1fa7"
+        }
+      }
+    },
+    {
+      "version": "1.4.1",
+      "variantId": "registry-package.openupm.com-edced108ac16f76a",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "5dfbf8f29404722abdf2dd3db6bea546a8722a2e",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.4.1.tgz",
+      "upstreamIntegrity": "sha512-9Sqa1Y3umncBk5Gk/1YOFkCmh1qFP6Au60S5fCoib0jphxAVBTLU9u/9l/z4zb4tiW5sH51y8OPMi7zNZyjCcQ==",
+      "upstreamShasum": "286033ed79715f7b1c505a701d60dfef9bd71a2e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.4.1",
+        "com.reown.core.network": "1.4.1",
+        "com.reown.core.storage": "1.4.1",
+        "com.reown.core.crypto": "1.4.1",
+        "com.reown.unity.dependencies": "1.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.4.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9Sqa1Y3umncBk5Gk/1YOFkCmh1qFP6Au60S5fCoib0jphxAVBTLU9u/9l/z4zb4tiW5sH51y8OPMi7zNZyjCcQ==",
+          "shasum": "286033ed79715f7b1c505a701d60dfef9bd71a2e"
+        }
+      }
+    },
+    {
+      "version": "1.4.2",
+      "variantId": "registry-package.openupm.com-f228de43a01ecf72",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "be27010958cea2f8fa3aadf8baa7396f5bfb2010",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.4.2.tgz",
+      "upstreamIntegrity": "sha512-IgJGSnYbIBQuv/+AZCrxae4Z8P1iqNDUl6NBD7Hwsjn17vr8p/i3zegHUJXv6NrHjXfvzpWbQtAKGpqG5X4CRQ==",
+      "upstreamShasum": "fbb66bf3dd67654ce4e5b80bae7a7a66dd1fff00",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.4.2",
+        "com.reown.core.network": "1.4.2",
+        "com.reown.core.storage": "1.4.2",
+        "com.reown.core.crypto": "1.4.2",
+        "com.reown.unity.dependencies": "1.4.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.4.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IgJGSnYbIBQuv/+AZCrxae4Z8P1iqNDUl6NBD7Hwsjn17vr8p/i3zegHUJXv6NrHjXfvzpWbQtAKGpqG5X4CRQ==",
+          "shasum": "fbb66bf3dd67654ce4e5b80bae7a7a66dd1fff00"
+        }
+      }
+    },
+    {
+      "version": "1.4.3",
+      "variantId": "registry-package.openupm.com-a8a5603ffe4d9f72",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "7a050cc6ee9ef4115c69874907c26d1bb90059ab",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.4.3.tgz",
+      "upstreamIntegrity": "sha512-rJHq9syaifw+aXrmeVOmmC5B1MiEU/t5QfqRWR8F54wP2FHe0mfnP/+k5kDcaP48NeX5YWxXnylsRkI1EzhHpw==",
+      "upstreamShasum": "e3f0f3a39865c4783dc93d79135a21d4e37a6dc9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.4.3",
+        "com.reown.core.network": "1.4.3",
+        "com.reown.core.storage": "1.4.3",
+        "com.reown.core.crypto": "1.4.3",
+        "com.reown.unity.dependencies": "1.4.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.4.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rJHq9syaifw+aXrmeVOmmC5B1MiEU/t5QfqRWR8F54wP2FHe0mfnP/+k5kDcaP48NeX5YWxXnylsRkI1EzhHpw==",
+          "shasum": "e3f0f3a39865c4783dc93d79135a21d4e37a6dc9"
+        }
+      }
+    },
+    {
+      "version": "1.4.4",
+      "variantId": "registry-package.openupm.com-addbd790de330248",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "5405f82820609c616160528821949db74f45b199",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.4.4.tgz",
+      "upstreamIntegrity": "sha512-i7dO++4CnhXptaDTeNT36DMsuIPuBxGJT1gS5Ps4sn4O0bf01GKtjeeZq6iNkWkkEXWLOCDXksOgOiQsBqcnHg==",
+      "upstreamShasum": "d9cb107665d385d7997337f0ea505941f3b2e86f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.4.4",
+        "com.reown.core.network": "1.4.4",
+        "com.reown.core.storage": "1.4.4",
+        "com.reown.core.crypto": "1.4.4",
+        "com.reown.unity.dependencies": "1.4.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.4.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-i7dO++4CnhXptaDTeNT36DMsuIPuBxGJT1gS5Ps4sn4O0bf01GKtjeeZq6iNkWkkEXWLOCDXksOgOiQsBqcnHg==",
+          "shasum": "d9cb107665d385d7997337f0ea505941f3b2e86f"
+        }
+      }
+    },
+    {
+      "version": "1.4.5",
+      "variantId": "registry-package.openupm.com-854cc2e8fafa9c20",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "c83c698f130a04e6f3c1b6fb8561b6d85f004bd1",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.4.5.tgz",
+      "upstreamIntegrity": "sha512-b7ZarHyz1rQiAzFf/2gKyyOv0Qsm6jLCNwA0K72oYuuP0LQKmk7obFV4izpQ/qhFewWp/b7T2Op0rh3vOUrj7w==",
+      "upstreamShasum": "9d8e5879ff182f1e8ce4379ee620fe92b9030e97",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.4.5",
+        "com.reown.core.network": "1.4.5",
+        "com.reown.core.storage": "1.4.5",
+        "com.reown.core.crypto": "1.4.5",
+        "com.reown.unity.dependencies": "1.4.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.4.5",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-b7ZarHyz1rQiAzFf/2gKyyOv0Qsm6jLCNwA0K72oYuuP0LQKmk7obFV4izpQ/qhFewWp/b7T2Op0rh3vOUrj7w==",
+          "shasum": "9d8e5879ff182f1e8ce4379ee620fe92b9030e97"
+        }
+      }
+    },
+    {
+      "version": "1.4.6",
+      "variantId": "registry-package.openupm.com-138ed620268d8566",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "9e40fd406ecde7254bb3c6939424661e526460cd",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.4.6.tgz",
+      "upstreamIntegrity": "sha512-1e1EUSkd4+pahUbVP368MTzdxLOy6Q/OPKebNWUIUFuLNP14NOAcGaaJWpKHE0jASMSL7PCViYRdgwJJbuVfTw==",
+      "upstreamShasum": "b43aed98d52921308d30e7e2e5de2a1291ff2321",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.4.6",
+        "com.reown.core.network": "1.4.6",
+        "com.reown.core.storage": "1.4.6",
+        "com.reown.core.crypto": "1.4.6",
+        "com.reown.unity.dependencies": "1.4.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.4.6",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1e1EUSkd4+pahUbVP368MTzdxLOy6Q/OPKebNWUIUFuLNP14NOAcGaaJWpKHE0jASMSL7PCViYRdgwJJbuVfTw==",
+          "shasum": "b43aed98d52921308d30e7e2e5de2a1291ff2321"
+        }
+      }
+    },
+    {
+      "version": "1.5.0",
+      "variantId": "registry-package.openupm.com-f15643c71b97c649",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "eaaf823018c51c95d85a08f2f5b657aa6de47cc1",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.5.0.tgz",
+      "upstreamIntegrity": "sha512-X532uVY6BVxquJlnawdvJ6fTGLFl1NQYF6GMSArkF9dMXUwVUGkHSHa0LgwQiqSDpDJEJf5d//RcgcQ/GZpHlA==",
+      "upstreamShasum": "435b6dcdb573eb63d7d948b88435f1b9369f1dc1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.5.0",
+        "com.reown.core.network": "1.5.0",
+        "com.reown.core.storage": "1.5.0",
+        "com.reown.core.crypto": "1.5.0",
+        "com.reown.unity.dependencies": "1.5.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.5.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-X532uVY6BVxquJlnawdvJ6fTGLFl1NQYF6GMSArkF9dMXUwVUGkHSHa0LgwQiqSDpDJEJf5d//RcgcQ/GZpHlA==",
+          "shasum": "435b6dcdb573eb63d7d948b88435f1b9369f1dc1"
+        }
+      }
+    },
+    {
+      "version": "1.5.1",
+      "variantId": "registry-package.openupm.com-4b263c885072d84f",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "d659fbb937d5fe7d296d9320874948f9bd1c2596",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.5.1.tgz",
+      "upstreamIntegrity": "sha512-eny5J8bqVHZl2BHQBfjrzyR4bwpy3KsLXaH3Mm7ixpkawmFyYNwG8wS/rSoOg6h2/M0rkp7QB2EqpamZ8BKjkA==",
+      "upstreamShasum": "c031135833b42e84beb97dd3aaffce8fc4b96911",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.5.1",
+        "com.reown.core.network": "1.5.1",
+        "com.reown.core.storage": "1.5.1",
+        "com.reown.core.crypto": "1.5.1",
+        "com.reown.unity.dependencies": "1.5.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.5.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eny5J8bqVHZl2BHQBfjrzyR4bwpy3KsLXaH3Mm7ixpkawmFyYNwG8wS/rSoOg6h2/M0rkp7QB2EqpamZ8BKjkA==",
+          "shasum": "c031135833b42e84beb97dd3aaffce8fc4b96911"
+        }
+      }
+    },
+    {
+      "version": "1.5.2",
+      "variantId": "registry-package.openupm.com-03b3f058cea98788",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "a212b554a056ccdbb035f68d435063a67a9b16f2",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.5.2.tgz",
+      "upstreamIntegrity": "sha512-PYJvl2k8/ctRAb5yFcoCZsLMZKb/B2NZj2CgFSSGC7rqLiSQBByEFzglmSvT6eIX1lVn+2mk0r4PHQtwQCrgGg==",
+      "upstreamShasum": "965b280db2ffa2edd4d0ade936c79a2ceec5e5a3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.5.2",
+        "com.reown.core.network": "1.5.2",
+        "com.reown.core.storage": "1.5.2",
+        "com.reown.core.crypto": "1.5.2",
+        "com.reown.unity.dependencies": "1.5.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.5.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PYJvl2k8/ctRAb5yFcoCZsLMZKb/B2NZj2CgFSSGC7rqLiSQBByEFzglmSvT6eIX1lVn+2mk0r4PHQtwQCrgGg==",
+          "shasum": "965b280db2ffa2edd4d0ade936c79a2ceec5e5a3"
+        }
+      }
+    },
+    {
+      "version": "1.6.0",
+      "variantId": "registry-package.openupm.com-61f84cff9b5073d8",
+      "sourceUrl": "https://package.openupm.com/com.reown.core",
+      "sourceRef": "7db8f47b63d9c9db85622ba8eb5c00c8a18f2745",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.6.0.tgz",
+      "upstreamIntegrity": "sha512-gS0aZT4g7wtOcLRgKpGOhlkZfJg/ruSnbr9ROAKA79v5FgWO+Vnlsy27xUc6zaqBjzeyWueBqcDX8MHOTqkaKA==",
+      "upstreamShasum": "d34a080b004d7c599d12c82ef300070158536018",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.6.0",
+        "com.reown.core.crypto": "1.6.0",
+        "com.reown.core.network": "1.6.0",
+        "com.reown.core.storage": "1.6.0",
+        "com.reown.unity.dependencies": "1.6.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.6.0",
+      "deprecated": null,
+      "unity": "2023.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gS0aZT4g7wtOcLRgKpGOhlkZfJg/ruSnbr9ROAKA79v5FgWO+Vnlsy27xUc6zaqBjzeyWueBqcDX8MHOTqkaKA==",
+          "shasum": "d34a080b004d7c599d12c82ef300070158536018"
+        }
+      }
+    },
+    {
+      "version": "1.6.1",
+      "variantId": "registry-package.openupm.com-bcb46a20527f096a",
+      "sourceUrl": "https://github.com/reown-com/reown-dotnet.git",
+      "sourceRef": "50c77901d18ea00068599e87e425b8a170dbc624",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.6.1.tgz",
+      "upstreamIntegrity": "sha512-eVaBOGIidLQtYmzPq+wwpt4SZcOKLpRydwOye14+pV3OlJGyrdinIhHDfBBvQdQXzGh0jmoSl4rQWIfIKaXNZg==",
+      "upstreamShasum": "9512ce851a475f98d5e70802b752e18acded4c03",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.6.1",
+        "com.reown.core.crypto": "1.6.1",
+        "com.reown.core.network": "1.6.1",
+        "com.reown.core.storage": "1.6.1",
+        "com.reown.unity.dependencies": "1.6.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.6.1",
+      "deprecated": null,
+      "unity": "2023.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eVaBOGIidLQtYmzPq+wwpt4SZcOKLpRydwOye14+pV3OlJGyrdinIhHDfBBvQdQXzGh0jmoSl4rQWIfIKaXNZg==",
+          "shasum": "9512ce851a475f98d5e70802b752e18acded4c03"
+        }
+      }
+    },
+    {
+      "version": "1.7.0",
+      "variantId": "registry-package.openupm.com-7abd3195fc09a79c",
+      "sourceUrl": "https://github.com/reown-com/reown-dotnet.git",
+      "sourceRef": "2adc5a56a1b33c229c738a8977315b9b3da60257",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.7.0.tgz",
+      "upstreamIntegrity": "sha512-Xc5j2SXnzfjHlfvUQPxlX3RLB9rVM0a5yjcGnRtSplGoAuJyLWv2Z8zCTkkGH9P3QPW9UN+mIJqi7/10DfdUGA==",
+      "upstreamShasum": "b521466905bf806c4466df437bc1f3a515643f2b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.7.0",
+        "com.reown.core.crypto": "1.7.0",
+        "com.reown.core.network": "1.7.0",
+        "com.reown.core.storage": "1.7.0",
+        "com.reown.unity.dependencies": "1.7.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.7.0",
+      "deprecated": null,
+      "unity": "2023.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Xc5j2SXnzfjHlfvUQPxlX3RLB9rVM0a5yjcGnRtSplGoAuJyLWv2Z8zCTkkGH9P3QPW9UN+mIJqi7/10DfdUGA==",
+          "shasum": "b521466905bf806c4466df437bc1f3a515643f2b"
+        }
+      }
+    },
+    {
+      "version": "1.7.1",
+      "variantId": "registry-package.openupm.com-74adcafab9f15177",
+      "sourceUrl": "https://github.com/reown-com/reown-dotnet.git",
+      "sourceRef": "98154fcb9ef094967ef7944e4af3a6f4acb60566",
+      "downloadUrl": "https://package.openupm.com/com.reown.core/-/com.reown.core-1.7.1.tgz",
+      "upstreamIntegrity": "sha512-2+bia//L2zEXx9lpEhu+78nru/kqTrXT/QIAbTZvBZpT1Y6rmH6SdnhvmO+PJTuxG8ve5CQVjq47i17gssppeA==",
+      "upstreamShasum": "58c1b635aa4f7e2af6222a5b02cfd86ec522fcbb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.reown.core.common": "1.7.1",
+        "com.reown.core.crypto": "1.7.1",
+        "com.reown.core.network": "1.7.1",
+        "com.reown.core.storage": "1.7.1",
+        "com.reown.unity.dependencies": "1.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reown.core/1.7.1",
+      "deprecated": null,
+      "unity": "2023.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2+bia//L2zEXx9lpEhu+78nru/kqTrXT/QIAbTZvBZpT1Y6rmH6SdnhvmO+PJTuxG8ve5CQVjq47i17gssppeA==",
+          "shasum": "58c1b635aa4f7e2af6222a5b02cfd86ec522fcbb"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.7.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.reown.core.yml",
+  "definitionBlobSha": "6025c14eb3e0a882a09e06a427f81104fc99e9d2",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "selectedVersions": [
+    "1.0.0",
+    "1.0.1",
+    "1.7.1"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 24,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

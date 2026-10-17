@@ -1,0 +1,663 @@
+{
+  "schemaVersion": "1.0",
+  "id": "jp.nobnak.shader_graph_library",
+  "displayName": "jp.nobnak.shader_graph_library",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "fetchedAt": "2026-10-17T17:44:25.809816Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "variantId": "registry-package.openupm.com-8d41cdce45aaf383",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "fc10730fa3ef3e77b204bee269ddc22b85260d66",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.0.1.tgz",
+      "upstreamIntegrity": "sha512-wJp/evHXW/jSB8Wh9tQX30ffoGowREIZOBBqA0jdh2/bYAeSITMCKnAeh9rA4ADLyAL/k77fF4zM89IYvuBCLg==",
+      "upstreamShasum": "277d44e52be97d3ec245c36c63d09f76bf309973",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.0.1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wJp/evHXW/jSB8Wh9tQX30ffoGowREIZOBBqA0jdh2/bYAeSITMCKnAeh9rA4ADLyAL/k77fF4zM89IYvuBCLg==",
+          "shasum": "277d44e52be97d3ec245c36c63d09f76bf309973"
+        }
+      }
+    },
+    {
+      "version": "0.0.2",
+      "variantId": "registry-package.openupm.com-aef4d5269b97f161",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "ad9d44ef69710a784a83e8601b30f3b5c4b2dd0e",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.0.2.tgz",
+      "upstreamIntegrity": "sha512-AIfjAQYJScjxIDxhfKYBVbO77UoRWlPTRbb52DA6FonKQPNg7MkPIdCkhe4Os6eBdgF1ufql2AOg6m/1UPS3BA==",
+      "upstreamShasum": "550ad0fa7c6f13d55503f134017cff3bb8e9a561",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.0.2",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-AIfjAQYJScjxIDxhfKYBVbO77UoRWlPTRbb52DA6FonKQPNg7MkPIdCkhe4Os6eBdgF1ufql2AOg6m/1UPS3BA==",
+          "shasum": "550ad0fa7c6f13d55503f134017cff3bb8e9a561"
+        }
+      }
+    },
+    {
+      "version": "0.0.3",
+      "variantId": "registry-package.openupm.com-aac537fe8d9f5d8e",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "a11db88d01a1e457908e54c71957d2ea47b80a81",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.0.3.tgz",
+      "upstreamIntegrity": "sha512-oKoHfu2dt9OqP/q1cgQ6R/8B1xS+RiDT8r5hDt4oGn+vCS4uc0+/ztwyWImZnPhC79jYO64RtcshaZH0mt3kww==",
+      "upstreamShasum": "bb7e21d846fe45b3f4c4d45c1e87bc9f4883acf1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.0.3",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oKoHfu2dt9OqP/q1cgQ6R/8B1xS+RiDT8r5hDt4oGn+vCS4uc0+/ztwyWImZnPhC79jYO64RtcshaZH0mt3kww==",
+          "shasum": "bb7e21d846fe45b3f4c4d45c1e87bc9f4883acf1"
+        }
+      }
+    },
+    {
+      "version": "0.1.1",
+      "variantId": "registry-package.openupm.com-e7ab37f94eea2bd1",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "9ec81a38e7fd3a0977b3038482928fe1614d3eb1",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.1.1.tgz",
+      "upstreamIntegrity": "sha512-1WuY6q6qX965MUtLeC69jf6VGroYLO6TA0BRPiFqJw/S5q7i91bAAjFSNkW5Dcb2rlYV3/IYcAqUzsHIFbx1+w==",
+      "upstreamShasum": "6664a8a443c69225ac6cd69a856584f55d24a9ac",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.1.1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1WuY6q6qX965MUtLeC69jf6VGroYLO6TA0BRPiFqJw/S5q7i91bAAjFSNkW5Dcb2rlYV3/IYcAqUzsHIFbx1+w==",
+          "shasum": "6664a8a443c69225ac6cd69a856584f55d24a9ac"
+        }
+      }
+    },
+    {
+      "version": "0.1.2",
+      "variantId": "registry-package.openupm.com-7abab81f3d69c131",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "77b00998c7e81b98ce3e540e9e7e27e940637e56",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.1.2.tgz",
+      "upstreamIntegrity": "sha512-IutRp3z1oHIJ1HElSmtuGeuTsO1Ap2my7E/0k1Zk3OqX2mUetOk0w5OHiZpGJ3Fvzm+xb2f346lGVhp7ET18wQ==",
+      "upstreamShasum": "478558afbd7d6a5cc7fcceec8448b43f7a94d544",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.1.2",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IutRp3z1oHIJ1HElSmtuGeuTsO1Ap2my7E/0k1Zk3OqX2mUetOk0w5OHiZpGJ3Fvzm+xb2f346lGVhp7ET18wQ==",
+          "shasum": "478558afbd7d6a5cc7fcceec8448b43f7a94d544"
+        }
+      }
+    },
+    {
+      "version": "0.1.3",
+      "variantId": "registry-package.openupm.com-1a2d26fd39c19bb0",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "3388e48a7c24f5a238f8cecc6e10f42c4087c6ea",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.1.3.tgz",
+      "upstreamIntegrity": "sha512-RYDF9iACH6NPbl+lHFrlZXxcxu+i7ADbI1pUXZEQIZpZp2yutc+XPrgRQ/uemFYisf0LwfHD0jxbIMkxB8t1hg==",
+      "upstreamShasum": "0683ce8fcd778e07185e3156ca45a11d71f7e916",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.1.3",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RYDF9iACH6NPbl+lHFrlZXxcxu+i7ADbI1pUXZEQIZpZp2yutc+XPrgRQ/uemFYisf0LwfHD0jxbIMkxB8t1hg==",
+          "shasum": "0683ce8fcd778e07185e3156ca45a11d71f7e916"
+        }
+      }
+    },
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-2c15f24c7269dfc4",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "79671fbfb10d23f243c07cc7322e05f1109fa32d",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-4PPKJXpPB8njUqDSewaMi8cN6ARHFwTIzL7RR08lH0nQG2KW+1Ji+c49UEwpzzG0BqeJMT02P6apVuiVEPDNdQ==",
+      "upstreamShasum": "e0aa80afa52b8a9accf09c725a045bace0bdcc4d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.2.0",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4PPKJXpPB8njUqDSewaMi8cN6ARHFwTIzL7RR08lH0nQG2KW+1Ji+c49UEwpzzG0BqeJMT02P6apVuiVEPDNdQ==",
+          "shasum": "e0aa80afa52b8a9accf09c725a045bace0bdcc4d"
+        }
+      }
+    },
+    {
+      "version": "0.3.0",
+      "variantId": "registry-package.openupm.com-3b66ee9235b8717a",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "73bc63b7ea149230d727e52ef9b2be42f508985d",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.3.0.tgz",
+      "upstreamIntegrity": "sha512-PII9HVB4QGcd7cWyLZCuh4/vdXb8i2VpH1OpE/vwFY/NbO1xDnsfj3b3c8NAzst5toU6p3f18coEzr0QOjNaww==",
+      "upstreamShasum": "c28300961a6a2b5df2990dc4c91e9c71e8454262",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.3.0",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PII9HVB4QGcd7cWyLZCuh4/vdXb8i2VpH1OpE/vwFY/NbO1xDnsfj3b3c8NAzst5toU6p3f18coEzr0QOjNaww==",
+          "shasum": "c28300961a6a2b5df2990dc4c91e9c71e8454262"
+        }
+      }
+    },
+    {
+      "version": "0.3.1",
+      "variantId": "registry-package.openupm.com-6f0343c4840a44fc",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "e2cb00fce09f357490a3e4f7a20c0951f137122e",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.3.1.tgz",
+      "upstreamIntegrity": "sha512-BfyPfvDpyrB+TAmpvx4O3KmKPp1mOBdcZt3NKmwR+AcKEV7Ft8jp8ZGKOfhnLrsNwg4oxxNLXjXPinJ3oum8/Q==",
+      "upstreamShasum": "cc4e75948ba67e003d8f1647c12822e40929eeaa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.3.1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BfyPfvDpyrB+TAmpvx4O3KmKPp1mOBdcZt3NKmwR+AcKEV7Ft8jp8ZGKOfhnLrsNwg4oxxNLXjXPinJ3oum8/Q==",
+          "shasum": "cc4e75948ba67e003d8f1647c12822e40929eeaa"
+        }
+      }
+    },
+    {
+      "version": "0.3.2",
+      "variantId": "registry-package.openupm.com-bb43c48455b1ef5d",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "787d5f738a661d3fcdf2accce55be2ff09312de3",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.3.2.tgz",
+      "upstreamIntegrity": "sha512-Xqg/Jwa5NEigR0RWfC7amVrvRVABpNC/lcwIwZ1NzMgwP0GBxsqnYYedv/QmZ9pVyS/WkNyQAz8lofxgrXcPXw==",
+      "upstreamShasum": "11485d78b5a2789cfc8b302c4a4fee3c26a524c4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.3.2",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Xqg/Jwa5NEigR0RWfC7amVrvRVABpNC/lcwIwZ1NzMgwP0GBxsqnYYedv/QmZ9pVyS/WkNyQAz8lofxgrXcPXw==",
+          "shasum": "11485d78b5a2789cfc8b302c4a4fee3c26a524c4"
+        }
+      }
+    },
+    {
+      "version": "0.3.3",
+      "variantId": "registry-package.openupm.com-b38204142b30d4f3",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "26a0b8007a0574604bcc76b48ca64de4ce70c664",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.3.3.tgz",
+      "upstreamIntegrity": "sha512-HCbVbxR8f9u81b3R3trJjY42bsEUgEWxC8ZDwfpa+DuaSdErj/FaTuLg4AyAY90uS6hToUlBQ/So8ft9/XCaOw==",
+      "upstreamShasum": "073161ee9e580b4615d9cd855ed4b03d0d86ac64",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.3.3",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HCbVbxR8f9u81b3R3trJjY42bsEUgEWxC8ZDwfpa+DuaSdErj/FaTuLg4AyAY90uS6hToUlBQ/So8ft9/XCaOw==",
+          "shasum": "073161ee9e580b4615d9cd855ed4b03d0d86ac64"
+        }
+      }
+    },
+    {
+      "version": "0.3.4",
+      "variantId": "registry-package.openupm.com-c66e4143422f4b83",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "51e420a1af5d263ad988d3b921bfedf80867a70e",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.3.4.tgz",
+      "upstreamIntegrity": "sha512-8a7TUnkSuyMQEYp5uvB/vUh6Y8XHqWcJ+y6WfzONMf2VdpHX4rUNu6oqp7UUdsBNAzACaAIcBh9UoA7eyodHLA==",
+      "upstreamShasum": "1b797a4bf7e01c8fe4481f18c87a0e689fa7df2a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.3.4",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8a7TUnkSuyMQEYp5uvB/vUh6Y8XHqWcJ+y6WfzONMf2VdpHX4rUNu6oqp7UUdsBNAzACaAIcBh9UoA7eyodHLA==",
+          "shasum": "1b797a4bf7e01c8fe4481f18c87a0e689fa7df2a"
+        }
+      }
+    },
+    {
+      "version": "0.3.5",
+      "variantId": "registry-package.openupm.com-7850d96b48a08ad6",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "5d36d0202804555d919b31a33ac28291d2f9e42c",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.3.5.tgz",
+      "upstreamIntegrity": "sha512-qh/+0oLlIdpKehp0f+uM7Ngn/rP8I1nhRr53zgDlHhtb1GiiXsHRhM4dp3oUos4q5bEzHmcp7sa6cyYBf+OJVA==",
+      "upstreamShasum": "6473c42de99ea2a3572543e04c0feae3e7551ed6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.3.5",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qh/+0oLlIdpKehp0f+uM7Ngn/rP8I1nhRr53zgDlHhtb1GiiXsHRhM4dp3oUos4q5bEzHmcp7sa6cyYBf+OJVA==",
+          "shasum": "6473c42de99ea2a3572543e04c0feae3e7551ed6"
+        }
+      }
+    },
+    {
+      "version": "0.3.6",
+      "variantId": "registry-package.openupm.com-21a75fe006780890",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "4b5915fd4be9cebcb5440782523fd88d8051adbe",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.3.6.tgz",
+      "upstreamIntegrity": "sha512-1nIyZGKb0tcEZ20EaJb/R+FiCgsTlAx3Wkc9Ubj3ca9jz9O/X4W4IyrR5jzTsIR16dnvv1Oe90ZQ2ICoONB58w==",
+      "upstreamShasum": "203179b1f6b1879988f9ddd0bfbedc6af7de1d56",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.3.6",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1nIyZGKb0tcEZ20EaJb/R+FiCgsTlAx3Wkc9Ubj3ca9jz9O/X4W4IyrR5jzTsIR16dnvv1Oe90ZQ2ICoONB58w==",
+          "shasum": "203179b1f6b1879988f9ddd0bfbedc6af7de1d56"
+        }
+      }
+    },
+    {
+      "version": "0.3.7",
+      "variantId": "registry-package.openupm.com-90e287d40208835e",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "39afa68469368afb8039e0302af85c6b94d11183",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.3.7.tgz",
+      "upstreamIntegrity": "sha512-GDkwM4OQqwyb1SEloaF8Kzh4x4qkWWX1oLQvliHHjYME9yZdZfndfmjjYeBDiY5yQCEzC7h2hpf5HM56EIh94Q==",
+      "upstreamShasum": "1568964e4d5c6c2a22edb2dc9b6366b34612f298",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.3.7",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GDkwM4OQqwyb1SEloaF8Kzh4x4qkWWX1oLQvliHHjYME9yZdZfndfmjjYeBDiY5yQCEzC7h2hpf5HM56EIh94Q==",
+          "shasum": "1568964e4d5c6c2a22edb2dc9b6366b34612f298"
+        }
+      }
+    },
+    {
+      "version": "0.3.8",
+      "variantId": "registry-package.openupm.com-798610089c1e5846",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "47ab7446d7c513750cf25770976c97c4664d8d9a",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.3.8.tgz",
+      "upstreamIntegrity": "sha512-LJCnvNiLlQ0p2tOT/WXG5PRPYlH5VoFYG/G8FdUEsMOhC5TPYvudsHQdyulfUWkhY35BiZus+UcZkQOiqwGgBw==",
+      "upstreamShasum": "26ef9cfa5a204bee89568b2f551d950183ed9c4f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.3.8",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LJCnvNiLlQ0p2tOT/WXG5PRPYlH5VoFYG/G8FdUEsMOhC5TPYvudsHQdyulfUWkhY35BiZus+UcZkQOiqwGgBw==",
+          "shasum": "26ef9cfa5a204bee89568b2f551d950183ed9c4f"
+        }
+      }
+    },
+    {
+      "version": "0.3.9",
+      "variantId": "registry-package.openupm.com-fbbb8ca398839270",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "bd3af284ac3ad606dfe0813122abc62a03a06977",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.3.9.tgz",
+      "upstreamIntegrity": "sha512-h2tswnRg7kSofBo0M+e2SjzSh59m10BcSd/t2j4CZXPPwojMtMmm8q38phkgq+AuQAIE5R2cYdX+9n/bSnCK8A==",
+      "upstreamShasum": "939422ec830279e9adccd5e2eb27d0a36ea63326",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.3.9",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-h2tswnRg7kSofBo0M+e2SjzSh59m10BcSd/t2j4CZXPPwojMtMmm8q38phkgq+AuQAIE5R2cYdX+9n/bSnCK8A==",
+          "shasum": "939422ec830279e9adccd5e2eb27d0a36ea63326"
+        }
+      }
+    },
+    {
+      "version": "0.4.0",
+      "variantId": "registry-package.openupm.com-e796392d7c5d9a70",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library",
+      "sourceRef": "90b653a564eb0c2b5799ddf081a5a3250dbae8b8",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/-/jp.nobnak.shader_graph_library-0.4.0.tgz",
+      "upstreamIntegrity": "sha512-fRKTGgUMN53hhl+yrsaWwtdMxRRNcE6dqPgTsK7gsjwhZToysd1xqo24JbCQrLLB/fvnioh9xixfp9LbRi2xmA==",
+      "upstreamShasum": "eec5228c0fc9b9c27361674cb8c41e701ac32b78",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.shader_graph_library/0.4.0",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fRKTGgUMN53hhl+yrsaWwtdMxRRNcE6dqPgTsK7gsjwhZToysd1xqo24JbCQrLLB/fvnioh9xixfp9LbRi2xmA==",
+          "shasum": "eec5228c0fc9b9c27361674cb8c41e701ac32b78"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.4.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/jp.nobnak.shader_graph_library.yml",
+  "definitionBlobSha": "feb9d5f6470eea5d424e7572bfc711e1ca2b40cf",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.4.0",
+    "0.3.0",
+    "0.3.9"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 18,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

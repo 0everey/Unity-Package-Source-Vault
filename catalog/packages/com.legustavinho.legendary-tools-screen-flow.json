@@ -1,0 +1,791 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.legustavinho.legendary-tools-screen-flow",
+  "displayName": "com.legustavinho.legendary-tools-screen-flow",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow",
+      "fetchedAt": "2026-10-17T17:39:42.297470Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-b39d09de7021564b",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "4bd895c06b45caa8735b090f1364c63173fbcbe8",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-o5pELI17AvNaeHXkZS5ESfD+fouVlHXtIi1DfVY4szlX4SgXK3VAuCT485/dPMY8AR6Sm0HIyiswmONK7L3I5g==",
+      "upstreamShasum": "a8c3eef918f4632d529fb9281e8f7ab144503dc0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-state-machine": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/1.0.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-o5pELI17AvNaeHXkZS5ESfD+fouVlHXtIi1DfVY4szlX4SgXK3VAuCT485/dPMY8AR6Sm0HIyiswmONK7L3I5g==",
+          "shasum": "a8c3eef918f4632d529fb9281e8f7ab144503dc0"
+        }
+      }
+    },
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-c853ebf7654f7f26",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "f5d0b9b2a2084d23e8109b643f2d8b187518fa04",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-2.0.0.tgz",
+      "upstreamIntegrity": "sha512-Md3SdRrHenz6D+7J54+nrdDdj4Du/sQpfGKTmeYdCfxnyhUfC5xzg+LvVJPaNRIiJBVAZphtnkNKIUXmaHCIEA==",
+      "upstreamShasum": "2c3d56e2dbc5209bcdde9a0b7f3fcab07a081187",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-state-machine": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/2.0.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Md3SdRrHenz6D+7J54+nrdDdj4Du/sQpfGKTmeYdCfxnyhUfC5xzg+LvVJPaNRIiJBVAZphtnkNKIUXmaHCIEA==",
+          "shasum": "2c3d56e2dbc5209bcdde9a0b7f3fcab07a081187"
+        }
+      }
+    },
+    {
+      "version": "2.0.2",
+      "variantId": "registry-package.openupm.com-6195d07d9e7aff2a",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "a6043392e2299db1f0a8cca92d5db250356279af",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-2.0.2.tgz",
+      "upstreamIntegrity": "sha512-O2i1kfeWBdVb2S3D8eLFV25gj+rWRQzZHQKSedDUDz/0bAzPBdSb9eWhbQ49C2eqV4l9jCZJTAWafw6/m1F9+w==",
+      "upstreamShasum": "fb0946396a60b4ac84309305d523b4285fbf20a6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-state-machine": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/2.0.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-O2i1kfeWBdVb2S3D8eLFV25gj+rWRQzZHQKSedDUDz/0bAzPBdSb9eWhbQ49C2eqV4l9jCZJTAWafw6/m1F9+w==",
+          "shasum": "fb0946396a60b4ac84309305d523b4285fbf20a6"
+        }
+      }
+    },
+    {
+      "version": "2.0.3",
+      "variantId": "registry-package.openupm.com-efbda25bebeb2c46",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "09877bdd8b3fd72989440325069bbab0ccae5fc0",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-2.0.3.tgz",
+      "upstreamIntegrity": "sha512-z8cr0BKgQFAWwJKXsZeSFi7Apk0AxscOKnHrXzmWq30wl0Vzwi/sjAY82ZV8aDGTkTKQ0zHqrMfF2sdF3sx7DQ==",
+      "upstreamShasum": "ce1deeb09b4700576647af37abe49324b37c8a26",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-state-machine": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/2.0.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-z8cr0BKgQFAWwJKXsZeSFi7Apk0AxscOKnHrXzmWq30wl0Vzwi/sjAY82ZV8aDGTkTKQ0zHqrMfF2sdF3sx7DQ==",
+          "shasum": "ce1deeb09b4700576647af37abe49324b37c8a26"
+        }
+      }
+    },
+    {
+      "version": "2.0.4",
+      "variantId": "registry-package.openupm.com-1994162994f3eb47",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "9f7fccea37f24391ca205056be3edc88dd05f548",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-2.0.4.tgz",
+      "upstreamIntegrity": "sha512-JvqIZVQ4sWrBM1YBb9y0g1kwSh44qzkvBqBi4HryY/prSZDe6k4lwXYcUAcwLLWXXjjs7Wp/OLACjOHd+RGH+w==",
+      "upstreamShasum": "f42a4053e0178a23a0cdfcce5b7d43cdf9d265be",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-state-machine": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/2.0.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JvqIZVQ4sWrBM1YBb9y0g1kwSh44qzkvBqBi4HryY/prSZDe6k4lwXYcUAcwLLWXXjjs7Wp/OLACjOHd+RGH+w==",
+          "shasum": "f42a4053e0178a23a0cdfcce5b7d43cdf9d265be"
+        }
+      }
+    },
+    {
+      "version": "3.0.0",
+      "variantId": "registry-package.openupm.com-59f3778173a10197",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "213362713963918f2a88521d57d7f62127ffd370",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.0.0.tgz",
+      "upstreamIntegrity": "sha512-A2qmi2e2jNYNNPPAU0gPQHT6E2a5LfypqFifV+PO+RV6JGfhcq3sRk3/e69ZypCpH9mieS7QMIkMsLuP+iDRdg==",
+      "upstreamShasum": "7ce6682833b3310f84fbb0ef61c746f458f8c202",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.0",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-state-machine": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.0.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-A2qmi2e2jNYNNPPAU0gPQHT6E2a5LfypqFifV+PO+RV6JGfhcq3sRk3/e69ZypCpH9mieS7QMIkMsLuP+iDRdg==",
+          "shasum": "7ce6682833b3310f84fbb0ef61c746f458f8c202"
+        }
+      }
+    },
+    {
+      "version": "3.0.1",
+      "variantId": "registry-package.openupm.com-3e802b486ef51631",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "1b26ac0ee8d7e479b58ddb2ac17865f6a6aeb058",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.0.1.tgz",
+      "upstreamIntegrity": "sha512-Smi3l1DcJe4xUUM3URW2K+atkQng8LYSxebsddW6t3VegQPLzCu44h0SY9n7uXjNClhWywPnOCJvE8nVrnin7A==",
+      "upstreamShasum": "6a10119dbea3e001604b390263ab0c8c33895206",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.0",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-state-machine": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.0.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Smi3l1DcJe4xUUM3URW2K+atkQng8LYSxebsddW6t3VegQPLzCu44h0SY9n7uXjNClhWywPnOCJvE8nVrnin7A==",
+          "shasum": "6a10119dbea3e001604b390263ab0c8c33895206"
+        }
+      }
+    },
+    {
+      "version": "3.0.2",
+      "variantId": "registry-package.openupm.com-9e45aeca12ea82ca",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "868bce2ff0ddc9597370b93cf62793bde910c07c",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.0.2.tgz",
+      "upstreamIntegrity": "sha512-VIklysM+Ysw09GwYa8D3uqs3zsefOoWvLCYNxPeQHq2yYE7/HwvhuOKFedB4VMA55Mm2v3Phwh5883SQlxVRxQ==",
+      "upstreamShasum": "e6bdca0c65bd4b36aaaa73acb0f61b7249a812de",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.0",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.0.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VIklysM+Ysw09GwYa8D3uqs3zsefOoWvLCYNxPeQHq2yYE7/HwvhuOKFedB4VMA55Mm2v3Phwh5883SQlxVRxQ==",
+          "shasum": "e6bdca0c65bd4b36aaaa73acb0f61b7249a812de"
+        }
+      }
+    },
+    {
+      "version": "3.0.3",
+      "variantId": "registry-package.openupm.com-67205879dcdadc3c",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "d41fc819593b6323f8eca31f614fe4050941c45b",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.0.3.tgz",
+      "upstreamIntegrity": "sha512-CE7uM4M8WXoU0Kw21SRiS8nDekiwMOran5rAnjoxMvl3ij3pJE/iUf6OLNONw5L6ATiMq9lbaJ0mNIkjciQN/w==",
+      "upstreamShasum": "700cd91cdfefd5841f3a39a966e5f7dc6904faf5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.0",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.0.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CE7uM4M8WXoU0Kw21SRiS8nDekiwMOran5rAnjoxMvl3ij3pJE/iUf6OLNONw5L6ATiMq9lbaJ0mNIkjciQN/w==",
+          "shasum": "700cd91cdfefd5841f3a39a966e5f7dc6904faf5"
+        }
+      }
+    },
+    {
+      "version": "3.0.4",
+      "variantId": "registry-package.openupm.com-ce3643d602821c79",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "5081573611b707f9bf2d1072abdb68442c1d7999",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.0.4.tgz",
+      "upstreamIntegrity": "sha512-6L+hnvpyuyUipAIqZKlp28KO0leoxyY1N+siYbl2eNduih261XwWZ+II0gDWCI41IHoJ5PW44Pwv8K6aP9CwVA==",
+      "upstreamShasum": "c143148af675276e868c828abacb7534ea9914ee",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.6",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.0.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6L+hnvpyuyUipAIqZKlp28KO0leoxyY1N+siYbl2eNduih261XwWZ+II0gDWCI41IHoJ5PW44Pwv8K6aP9CwVA==",
+          "shasum": "c143148af675276e868c828abacb7534ea9914ee"
+        }
+      }
+    },
+    {
+      "version": "3.0.5",
+      "variantId": "registry-package.openupm.com-101b833651de8607",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "e2218b641ebc5fda1506b6b5b4b4ad938e0f5093",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.0.5.tgz",
+      "upstreamIntegrity": "sha512-X/hAnA0cq+l4xulOFZMDeugqq9PtnE7fjgJH55TGgM8x9eBVsWXVmIgmhP5rFdiFYWform4JBm1E+oZZtOgqSg==",
+      "upstreamShasum": "19503f964a1ca666015652c73cdacab3a437692a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.6",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.0.5",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-X/hAnA0cq+l4xulOFZMDeugqq9PtnE7fjgJH55TGgM8x9eBVsWXVmIgmhP5rFdiFYWform4JBm1E+oZZtOgqSg==",
+          "shasum": "19503f964a1ca666015652c73cdacab3a437692a"
+        }
+      }
+    },
+    {
+      "version": "3.0.6",
+      "variantId": "registry-package.openupm.com-93ad3816de536b56",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "f6b2d44050488b8012f1452dda666b2b0ec9356c",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.0.6.tgz",
+      "upstreamIntegrity": "sha512-U3PVZalNsRtCAnFe5R8Tez6U/EgD9lz7nt7eblTARhUaNZiP905PTw86fz/R6pL35Qx1jmCIxTlhnCxc4mqiIg==",
+      "upstreamShasum": "dbbabfc81320826b60a9940f9dcf6d4f2b99cd3d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.6",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.0.6",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-U3PVZalNsRtCAnFe5R8Tez6U/EgD9lz7nt7eblTARhUaNZiP905PTw86fz/R6pL35Qx1jmCIxTlhnCxc4mqiIg==",
+          "shasum": "dbbabfc81320826b60a9940f9dcf6d4f2b99cd3d"
+        }
+      }
+    },
+    {
+      "version": "3.0.7",
+      "variantId": "registry-package.openupm.com-b118d545a0e691d2",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "86ebd0ca7e051868d5a017df5caceddc10b98b33",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.0.7.tgz",
+      "upstreamIntegrity": "sha512-XZaP6mhMXFDsfd069OWgQ5mI2jY3rqYWONBR/Oy0v2ryVP8QA/5+sDFnqLH00587wK5tAormMupH5Fsj5a4yTA==",
+      "upstreamShasum": "584059e2ef41344255c70e1f5499553677662304",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.6",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.0.7",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XZaP6mhMXFDsfd069OWgQ5mI2jY3rqYWONBR/Oy0v2ryVP8QA/5+sDFnqLH00587wK5tAormMupH5Fsj5a4yTA==",
+          "shasum": "584059e2ef41344255c70e1f5499553677662304"
+        }
+      }
+    },
+    {
+      "version": "3.0.8",
+      "variantId": "registry-package.openupm.com-8e9df27eb1ba8c7e",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "d8aa88e0357091c200ef691e3100d119150945c3",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.0.8.tgz",
+      "upstreamIntegrity": "sha512-PmOZt0QUAXnXnWW5rBN45bg5n6hLKKWpI4fmYrE672GJGZss9cNWRwHdR9N5X9nFlz0u03FR45N7nhCQPdQilA==",
+      "upstreamShasum": "77afad33433c3e943e8dd9a0e3365a0c2d1f0cf7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.6",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.0.8",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PmOZt0QUAXnXnWW5rBN45bg5n6hLKKWpI4fmYrE672GJGZss9cNWRwHdR9N5X9nFlz0u03FR45N7nhCQPdQilA==",
+          "shasum": "77afad33433c3e943e8dd9a0e3365a0c2d1f0cf7"
+        }
+      }
+    },
+    {
+      "version": "3.0.9",
+      "variantId": "registry-package.openupm.com-4bb12db8cb3ae885",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "200b6f57cdc954d06501e20f8dde7ba96194aa68",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.0.9.tgz",
+      "upstreamIntegrity": "sha512-MUllhYBDCz/9p3N5spX9Z7anG+t0KWZ0bV1k7Ht8WF61dqwNu4NfYMMCZCaawCffllNkZ7ImSKvyZ3qF0knCMQ==",
+      "upstreamShasum": "165c5beb75d4dba8bced7d7a5e00b82d4c2fdd0c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.6",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.0.9",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MUllhYBDCz/9p3N5spX9Z7anG+t0KWZ0bV1k7Ht8WF61dqwNu4NfYMMCZCaawCffllNkZ7ImSKvyZ3qF0knCMQ==",
+          "shasum": "165c5beb75d4dba8bced7d7a5e00b82d4c2fdd0c"
+        }
+      }
+    },
+    {
+      "version": "3.0.10",
+      "variantId": "registry-package.openupm.com-c97d6359f69137a2",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "5febb5b9b139385fd89221861a88a392d0c115c9",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.0.10.tgz",
+      "upstreamIntegrity": "sha512-bb4BU09wc659iF2EaUTN7N3G+jpFG7SIIe6NqWmDmNp+bvQgdVJ3PdI1UF5bFtpgyWQTyEATTDU6XIqRcQQmEg==",
+      "upstreamShasum": "36cdabda9b1ff19611a553b379383ae497982f79",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.6",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.0.10",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bb4BU09wc659iF2EaUTN7N3G+jpFG7SIIe6NqWmDmNp+bvQgdVJ3PdI1UF5bFtpgyWQTyEATTDU6XIqRcQQmEg==",
+          "shasum": "36cdabda9b1ff19611a553b379383ae497982f79"
+        }
+      }
+    },
+    {
+      "version": "3.1.0",
+      "variantId": "registry-package.openupm.com-4911211a6dae3e71",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "2b17742efd94ce75a0d53a1454b133098ad2f7bc",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.1.0.tgz",
+      "upstreamIntegrity": "sha512-fEQfme9V6Zq1QlEsRF6bRKFUkjgK00RxlatAaSs3iIk7s3o5U57LY+47lqix8wHXJfeTW68Kv9MPganYTqHCdg==",
+      "upstreamShasum": "3d457c42522d6e7212112c10bf785891b11fc2a0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.6",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.1.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fEQfme9V6Zq1QlEsRF6bRKFUkjgK00RxlatAaSs3iIk7s3o5U57LY+47lqix8wHXJfeTW68Kv9MPganYTqHCdg==",
+          "shasum": "3d457c42522d6e7212112c10bf785891b11fc2a0"
+        }
+      }
+    },
+    {
+      "version": "3.1.1",
+      "variantId": "registry-package.openupm.com-99afe43ce1685956",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "a09fb6ffcf6c183aa6dc54206c7d0b02bf82401c",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.1.1.tgz",
+      "upstreamIntegrity": "sha512-SBYsXAWmPpPuiFJpe+sZ7SRtQWn06VsqSxoTRj4+u1R3SNcx/nz0nHn3D61v9AGIbIRhP0P3JLLZp6sEec4lZA==",
+      "upstreamShasum": "107a151a5d75e1cb097459a1e18077beb74d118d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.6",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.1.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SBYsXAWmPpPuiFJpe+sZ7SRtQWn06VsqSxoTRj4+u1R3SNcx/nz0nHn3D61v9AGIbIRhP0P3JLLZp6sEec4lZA==",
+          "shasum": "107a151a5d75e1cb097459a1e18077beb74d118d"
+        }
+      }
+    },
+    {
+      "version": "3.2.0",
+      "variantId": "registry-package.openupm.com-71b3d359f1e001ca",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "26d4bab7d71f004aafe407e2bfc49965faca01a3",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.2.0.tgz",
+      "upstreamIntegrity": "sha512-IGHjqHfaTjO3hoRetpNM7ZI+qH6BjQq5HwMKyTEYPwRFC69zhj51Nn6D6THsPUEBz+PTvDK6XT/jLZUZYAvxLQ==",
+      "upstreamShasum": "735282904e8ead98cac18c68940842cc401dd7c9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.6",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.2.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IGHjqHfaTjO3hoRetpNM7ZI+qH6BjQq5HwMKyTEYPwRFC69zhj51Nn6D6THsPUEBz+PTvDK6XT/jLZUZYAvxLQ==",
+          "shasum": "735282904e8ead98cac18c68940842cc401dd7c9"
+        }
+      }
+    },
+    {
+      "version": "3.2.1",
+      "variantId": "registry-package.openupm.com-663374b092f4be65",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "6e8abd0277f96e6f6107aa641433ee2ebd67c425",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.2.1.tgz",
+      "upstreamIntegrity": "sha512-y8nk5ETyfwi7Jbf3zC1KPSykJMKFbDu31Qx3qL5bOC3qIcdNU14PBU8vRMvH8VwkSYjvDlJEi3i9PiU5lgIYVw==",
+      "upstreamShasum": "1407c344b0d65a0a4640ae89bf45a56e469df5c7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.6",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.2.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-y8nk5ETyfwi7Jbf3zC1KPSykJMKFbDu31Qx3qL5bOC3qIcdNU14PBU8vRMvH8VwkSYjvDlJEi3i9PiU5lgIYVw==",
+          "shasum": "1407c344b0d65a0a4640ae89bf45a56e469df5c7"
+        }
+      }
+    },
+    {
+      "version": "3.2.2",
+      "variantId": "registry-package.openupm.com-1c60d1aeea8b678c",
+      "sourceUrl": "https://github.com/LeGustaVinho/screen-flow.git",
+      "sourceRef": "f1ed8a8288acdcfa80f6b6fdd9422c11379361d9",
+      "downloadUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/-/com.legustavinho.legendary-tools-screen-flow-3.2.2.tgz",
+      "upstreamIntegrity": "sha512-05ky44Tb/6EDBo9znxJ/L18YqdXQ1bR//w79bq3GTJwQ+girzFSZbhtDknxftLLdir6rJDqff+vpkHVGE6gMIw==",
+      "upstreamShasum": "6178aa3b43c45388dcd3a4570c68fa67450787d2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.legustavinho.legendary-tools-common": "1.2.6",
+        "com.legustavinho.legendary-tools-singleton": "1.0.1",
+        "com.legustavinho.legendary-tools-asset-provider": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.legustavinho.legendary-tools-screen-flow/3.2.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-05ky44Tb/6EDBo9znxJ/L18YqdXQ1bR//w79bq3GTJwQ+girzFSZbhtDknxftLLdir6rJDqff+vpkHVGE6gMIw==",
+          "shasum": "6178aa3b43c45388dcd3a4570c68fa67450787d2"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "3.2.2"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.legustavinho.legendary-tools-screen-flow.yml",
+  "definitionBlobSha": "b4b76b7db3dc4286a8f89566915bc0769485c563",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "3.2.2",
+    "3.2.1",
+    "2.0.4"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 21,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.dyskotron.framewerk.ui",
+  "displayName": "com.dyskotron.framewerk.ui",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.dyskotron.framewerk.ui",
+      "fetchedAt": "2026-10-17T17:37:28.772639Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "2.0.0-preview.2",
+      "variantId": "registry-package.openupm.com-7bf69d76adb310a3",
+      "sourceUrl": "https://github.com/dyskotron/Framewerk.git",
+      "sourceRef": "c974223064a937949b122aed78889eb88bd35d77",
+      "downloadUrl": "https://package.openupm.com/com.dyskotron.framewerk.ui/-/com.dyskotron.framewerk.ui-2.0.0-preview.2.tgz",
+      "upstreamIntegrity": "sha512-NjytMkum4jcLbQUOkzfZlw6+e2mewkeva1mmo6DaLGucXFdzDfHXjDSxLcYT2L5I4mvbkKilxrQsMmGqdR8kcA==",
+      "upstreamShasum": "94f0c148e65b431fbd078965b7c14eec915ad4d6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.dyskotron.framewerk.core": "2.0.0-preview.2",
+        "com.unity.addressables": "1.21.0",
+        "com.unity.textmeshpro": "3.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.dyskotron.framewerk.ui/2.0.0-preview.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NjytMkum4jcLbQUOkzfZlw6+e2mewkeva1mmo6DaLGucXFdzDfHXjDSxLcYT2L5I4mvbkKilxrQsMmGqdR8kcA==",
+          "shasum": "94f0c148e65b431fbd078965b7c14eec915ad4d6"
+        }
+      }
+    },
+    {
+      "version": "2.0.0-preview.3",
+      "variantId": "registry-package.openupm.com-89b7851db4b843ca",
+      "sourceUrl": "https://github.com/dyskotron/Framewerk.git",
+      "sourceRef": "60d2be5883713e0cf930dc5d93610898921b26b3",
+      "downloadUrl": "https://package.openupm.com/com.dyskotron.framewerk.ui/-/com.dyskotron.framewerk.ui-2.0.0-preview.3.tgz",
+      "upstreamIntegrity": "sha512-j2A8sMUO2duQF+P82Hf7ptkS63PEJO1vRPuQk6z5gNKtO9UXqi1IIGr6OyyZYDpzaFwt8lPMZC5UEQWeGQ52ng==",
+      "upstreamShasum": "269d393012bbdd4c1f99cbd72557c3f3a655ec7c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.dyskotron.framewerk.core": "2.0.0-preview.3",
+        "com.unity.addressables": "1.21.0",
+        "com.unity.textmeshpro": "3.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.dyskotron.framewerk.ui/2.0.0-preview.3",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-j2A8sMUO2duQF+P82Hf7ptkS63PEJO1vRPuQk6z5gNKtO9UXqi1IIGr6OyyZYDpzaFwt8lPMZC5UEQWeGQ52ng==",
+          "shasum": "269d393012bbdd4c1f99cbd72557c3f3a655ec7c"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.0.0-preview.3"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.dyskotron.framewerk.ui.yml",
+  "definitionBlobSha": "05462164cccbfa8e4e89ae29940804160cc690bd",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "2.0.0-preview.2"
+  ],
+  "selectedVersions": [
+    "2.0.0-preview.2",
+    "2.0.0-preview.3"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 2,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

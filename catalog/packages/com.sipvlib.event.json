@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.sipvlib.event",
+  "displayName": "com.sipvlib.event",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.sipvlib.event",
+      "fetchedAt": "2026-10-17T17:41:59.663404Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.1.1",
+      "variantId": "registry-package.openupm.com-27ea9991fb2980f5",
+      "sourceUrl": "https://github.com/phajmvawnsix/com.sipvlib.event.git",
+      "sourceRef": "d66f4e535afa58dbed6168291aa64e8727aa2d8c",
+      "downloadUrl": "https://package.openupm.com/com.sipvlib.event/-/com.sipvlib.event-1.1.1.tgz",
+      "upstreamIntegrity": "sha512-XOHPkGgXZSLebtyFg27c54GjLmqtHcBK1Xo2ygsR6EXLN1S30huitA7K2qCA8k8JEvTYhguhpdU/0O65/qTdMQ==",
+      "upstreamShasum": "14099b05d0fe12c0c304f6f72307b988f53bab3b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.sipvlib.debugging": "git+https://github.com/phajmvawnsix/com.sipvlib.debugging.git"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sipvlib.event/1.1.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XOHPkGgXZSLebtyFg27c54GjLmqtHcBK1Xo2ygsR6EXLN1S30huitA7K2qCA8k8JEvTYhguhpdU/0O65/qTdMQ==",
+          "shasum": "14099b05d0fe12c0c304f6f72307b988f53bab3b"
+        }
+      }
+    },
+    {
+      "version": "1.1.2",
+      "variantId": "registry-package.openupm.com-26e7cd20c61c12ab",
+      "sourceUrl": "https://github.com/phajmvawnsix/com.sipvlib.event.git",
+      "sourceRef": "db7cd22476ee25cdc64fc786883bb82571c1b470",
+      "downloadUrl": "https://package.openupm.com/com.sipvlib.event/-/com.sipvlib.event-1.1.2.tgz",
+      "upstreamIntegrity": "sha512-TQt14UQ1T/pVT4O2wrq/68IoMo5e20kqKuSQbf6cvS0Xkr3DMeeeMBGOgDjLqucvLx+hjDjRFyqJsIMADTpQgw==",
+      "upstreamShasum": "4528b3cf93557bad669085595459c7184cf5f7b1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.sipvlib.debugging": "1.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sipvlib.event/1.1.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TQt14UQ1T/pVT4O2wrq/68IoMo5e20kqKuSQbf6cvS0Xkr3DMeeeMBGOgDjLqucvLx+hjDjRFyqJsIMADTpQgw==",
+          "shasum": "4528b3cf93557bad669085595459c7184cf5f7b1"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.1.2"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.sipvlib.event.yml",
+  "definitionBlobSha": "f1ecf156c88b287f7d0fb04c1bd46b73dbd5237f",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "1.1.2"
+  ],
+  "selectedVersions": [
+    "1.1.2",
+    "1.1.1"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 2,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

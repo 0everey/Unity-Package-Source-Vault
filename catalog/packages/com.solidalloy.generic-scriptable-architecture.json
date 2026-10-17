@@ -1,0 +1,931 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.solidalloy.generic-scriptable-architecture",
+  "displayName": "com.solidalloy.generic-scriptable-architecture",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "fetchedAt": "2026-10-17T17:42:02.946540Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-7395c7c546bdfad4",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "56c252c89c2d0ecb5e148a401b67646e6a69d5e2",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-p+C8d2qG++Ae6fAxCx/aOyLW906q5e/w+M/7Tp4yQuZ1Irp2LO+2JKV3Rten1Rf/W7Y9uE48YeeCsWwRyV8GYQ==",
+      "upstreamShasum": "d367560d9cc8bade52274fb776366c640fd77e79",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.31.0",
+        "com.solidalloy.generic-unity-objects": "2.6.0",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.0.0",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-p+C8d2qG++Ae6fAxCx/aOyLW906q5e/w+M/7Tp4yQuZ1Irp2LO+2JKV3Rten1Rf/W7Y9uE48YeeCsWwRyV8GYQ==",
+          "shasum": "d367560d9cc8bade52274fb776366c640fd77e79"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-fe2c14623a9b3005",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "406ff92058856b681aff36527c0c87c5e587ec85",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-iGaCCJtskhHpmBk2+TEN7eE1QC3cdud6bC4DSshawlQjfjZNFthz/BThuGF6FxsKQYjBXonmzL8AjDWMOJOpXw==",
+      "upstreamShasum": "2003b4cdbf0c94e30c7d8abe102bb0665d1c0538",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.31.0",
+        "com.solidalloy.generic-unity-objects": "2.6.0",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.0.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iGaCCJtskhHpmBk2+TEN7eE1QC3cdud6bC4DSshawlQjfjZNFthz/BThuGF6FxsKQYjBXonmzL8AjDWMOJOpXw==",
+          "shasum": "2003b4cdbf0c94e30c7d8abe102bb0665d1c0538"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-7522997824139888",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "dddc2b9180c05fca1ec4d664afa9fe7e48f58684",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-pQDvtKbQUabv+truaKPWp30RIBWw5MlEQexG96hQNA1YD1LwLEgdNBHmzyBFxjrz6jpTYtoKVSS207WLohGaSg==",
+      "upstreamShasum": "5680fe38fa3c1314f7f0a99eb7b8939f1c56bab0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.31.0",
+        "com.solidalloy.generic-unity-objects": "2.7.0",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.1.0",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-pQDvtKbQUabv+truaKPWp30RIBWw5MlEQexG96hQNA1YD1LwLEgdNBHmzyBFxjrz6jpTYtoKVSS207WLohGaSg==",
+          "shasum": "5680fe38fa3c1314f7f0a99eb7b8939f1c56bab0"
+        }
+      }
+    },
+    {
+      "version": "1.1.1",
+      "variantId": "registry-package.openupm.com-72e9b3a148315236",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "592baa3605fd17cd85e1aea4653cde6e534d29dd",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.1.1.tgz",
+      "upstreamIntegrity": "sha512-T7Iz6G17xVqDFq3MEtwJCBBEDzDNZeyP5wpNgU1AcxVF3/YuigC0P7Weru1EXcFwJrX2X01crdGml6dMAiR3jA==",
+      "upstreamShasum": "d07e1e78d59071ca497e0fab3083047d2fc3fba6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.31.0",
+        "com.solidalloy.generic-unity-objects": "2.7.0",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.1.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-T7Iz6G17xVqDFq3MEtwJCBBEDzDNZeyP5wpNgU1AcxVF3/YuigC0P7Weru1EXcFwJrX2X01crdGml6dMAiR3jA==",
+          "shasum": "d07e1e78d59071ca497e0fab3083047d2fc3fba6"
+        }
+      }
+    },
+    {
+      "version": "1.1.2",
+      "variantId": "registry-package.openupm.com-2e87e82597baae21",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "598c5dcf3d451087f6ed08a41758d2e48de24e74",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.1.2.tgz",
+      "upstreamIntegrity": "sha512-67KVWKQr5T/cfDJusZrQALNvOb0smo/cg+qYjiA47j+stPedwTnWk/sribstrrSskVkM7si9ThRqeE19exxcUA==",
+      "upstreamShasum": "d2dee2ba6843fc9b9418d8511cca444a84eefad7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.31.0",
+        "com.solidalloy.generic-unity-objects": "2.7.1",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.1.2",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-67KVWKQr5T/cfDJusZrQALNvOb0smo/cg+qYjiA47j+stPedwTnWk/sribstrrSskVkM7si9ThRqeE19exxcUA==",
+          "shasum": "d2dee2ba6843fc9b9418d8511cca444a84eefad7"
+        }
+      }
+    },
+    {
+      "version": "1.1.3",
+      "variantId": "registry-package.openupm.com-9e915e50e4ed79e3",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "91a3783f1bd60f787fd66c685d484577f6216a3e",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.1.3.tgz",
+      "upstreamIntegrity": "sha512-aUQ2TQWO6Ai2yGvLxA1b1HjiQdLjJoCkt92I1ladMV39xK+O7RqLv3i35YsXQ9f7rzFj3T2mXFjs3lgvS9N6Pw==",
+      "upstreamShasum": "94433f3b2fc981f107daaaa55b30de976be2681b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.31.0",
+        "com.solidalloy.generic-unity-objects": "2.8.0",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.1.3",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-aUQ2TQWO6Ai2yGvLxA1b1HjiQdLjJoCkt92I1ladMV39xK+O7RqLv3i35YsXQ9f7rzFj3T2mXFjs3lgvS9N6Pw==",
+          "shasum": "94433f3b2fc981f107daaaa55b30de976be2681b"
+        }
+      }
+    },
+    {
+      "version": "1.1.4",
+      "variantId": "registry-package.openupm.com-36ac515520aa4d8d",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "71e99530caa95f210b2007d457b9e1f68a7a2d01",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.1.4.tgz",
+      "upstreamIntegrity": "sha512-6ym8yjg36dcTVONg06UfGk++ML2FgtOiG/WaNSbiWGzX7WX1OBcODivJjZ85aU2fpSMB8T6FDxIQ0gnjBJqlNg==",
+      "upstreamShasum": "2d196718e468ebf9142c7047e915026824504a6f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.31.0",
+        "com.solidalloy.generic-unity-objects": "2.9.0",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.1.4",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6ym8yjg36dcTVONg06UfGk++ML2FgtOiG/WaNSbiWGzX7WX1OBcODivJjZ85aU2fpSMB8T6FDxIQ0gnjBJqlNg==",
+          "shasum": "2d196718e468ebf9142c7047e915026824504a6f"
+        }
+      }
+    },
+    {
+      "version": "1.1.5",
+      "variantId": "registry-package.openupm.com-d69e565aded84737",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "f383ed3856524a00092147c75b1e09d194773b87",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.1.5.tgz",
+      "upstreamIntegrity": "sha512-o6M57lEefnQNE9VEhjzAjEIJVzxqMdkrYhlGz/rQpioI4qIFAiwjaI8kNqjsCPqGyI4kglxFAZ7coups3eVmwA==",
+      "upstreamShasum": "82ce53fa757598f72048c50a955e55bd09738ac9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.31.0",
+        "com.solidalloy.generic-unity-objects": "2.10.0",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.1.5",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-o6M57lEefnQNE9VEhjzAjEIJVzxqMdkrYhlGz/rQpioI4qIFAiwjaI8kNqjsCPqGyI4kglxFAZ7coups3eVmwA==",
+          "shasum": "82ce53fa757598f72048c50a955e55bd09738ac9"
+        }
+      }
+    },
+    {
+      "version": "1.1.6",
+      "variantId": "registry-package.openupm.com-d3ea77379a23d525",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "c0f6bd4e1f50c2c45929ca37836247181f25cefb",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.1.6.tgz",
+      "upstreamIntegrity": "sha512-wg8+PCPxvXmk17dO2UkpI4mQbFDfgFk9Kywd9ztXik4HCehI8Io+bjWMtdjjXeA0gQOXcq7b0q2Ezl1aOwOblA==",
+      "upstreamShasum": "9962a8c6caead867f10c331205734f017c99581d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.32.1",
+        "com.solidalloy.generic-unity-objects": "2.10.2",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.1.6",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wg8+PCPxvXmk17dO2UkpI4mQbFDfgFk9Kywd9ztXik4HCehI8Io+bjWMtdjjXeA0gQOXcq7b0q2Ezl1aOwOblA==",
+          "shasum": "9962a8c6caead867f10c331205734f017c99581d"
+        }
+      }
+    },
+    {
+      "version": "1.1.7",
+      "variantId": "registry-package.openupm.com-0b49d85920570145",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "f215ee6c0350685a04aa6d1f393d9e2570cad912",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.1.7.tgz",
+      "upstreamIntegrity": "sha512-zKYEyMGagaRfVIf99DXzSOz1ul+UaTDTsadbJ7me7ZuUdgjeEeWlcia8xjkdIzqfrwAs7D1WYHaX81iETZQ64A==",
+      "upstreamShasum": "4ed5fba501bc49ec5133d0b9b02c81fee46dabd5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.32.2",
+        "com.solidalloy.generic-unity-objects": "2.10.3",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.1.7",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zKYEyMGagaRfVIf99DXzSOz1ul+UaTDTsadbJ7me7ZuUdgjeEeWlcia8xjkdIzqfrwAs7D1WYHaX81iETZQ64A==",
+          "shasum": "4ed5fba501bc49ec5133d0b9b02c81fee46dabd5"
+        }
+      }
+    },
+    {
+      "version": "1.1.8",
+      "variantId": "registry-package.openupm.com-663e076d917de6ad",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "7d359cb32e46be6263aba96582f81a6a84544be3",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.1.8.tgz",
+      "upstreamIntegrity": "sha512-LzTLeXmPsvywPKgbHBZ2GGD+ZdUSsbgWurBJbZIf2Mgzs4Zd34CV/cGLAOLdzSCgFjVw8UxSzyyFlG6Kxa36+Q==",
+      "upstreamShasum": "f44a5345484b601b29a5de1e4ee1a3734ba2f986",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.32.2",
+        "com.solidalloy.generic-unity-objects": "2.10.4",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.1.8",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LzTLeXmPsvywPKgbHBZ2GGD+ZdUSsbgWurBJbZIf2Mgzs4Zd34CV/cGLAOLdzSCgFjVw8UxSzyyFlG6Kxa36+Q==",
+          "shasum": "f44a5345484b601b29a5de1e4ee1a3734ba2f986"
+        }
+      }
+    },
+    {
+      "version": "1.1.9",
+      "variantId": "registry-package.openupm.com-098085f85fd7d566",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "b88057341f5429c6684ec87da44f64db91e05a3e",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.1.9.tgz",
+      "upstreamIntegrity": "sha512-x8rBbkHDO/aJbxhKYz02D5pkw9ButrNxKUaUP6F8j+nw1FOxx0A9UL20S/SNyQGESKR4Q5R1gbeiANDw/I/Vew==",
+      "upstreamShasum": "6c00bfd1be41fab20ce3f46a1684fab3dbafb999",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.32.2",
+        "com.solidalloy.generic-unity-objects": "2.10.6",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.1.9",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-x8rBbkHDO/aJbxhKYz02D5pkw9ButrNxKUaUP6F8j+nw1FOxx0A9UL20S/SNyQGESKR4Q5R1gbeiANDw/I/Vew==",
+          "shasum": "6c00bfd1be41fab20ce3f46a1684fab3dbafb999"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-77d0aa5bcc404c16",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "c506da4afe36a759ba41a9221dda005d9c551610",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-QcgjXeyj3RO8Rq0INNkd5fanc7QM7zto/J78t3sqedlYjYmI/uiDOLlKFDJuGEbhh5SfVPB5xG+FAT+Flf/A1w==",
+      "upstreamShasum": "9796ec46410110808ff15b7131f9d21944308817",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.32.2",
+        "com.solidalloy.generic-unity-objects": "2.11.0",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.2.0",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QcgjXeyj3RO8Rq0INNkd5fanc7QM7zto/J78t3sqedlYjYmI/uiDOLlKFDJuGEbhh5SfVPB5xG+FAT+Flf/A1w==",
+          "shasum": "9796ec46410110808ff15b7131f9d21944308817"
+        }
+      }
+    },
+    {
+      "version": "1.2.1",
+      "variantId": "registry-package.openupm.com-4400d62fe8858baa",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "cc373bd3a843a737c8f12ac085a61ae39da0d5a6",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.2.1.tgz",
+      "upstreamIntegrity": "sha512-POpQz9Q0hot+SJgwDIlOv7lH0et39GAddm/Q6i1URKnJT5dtrpeBa4sAj5W8O3wYZr/UvLBB+z44Gdzuh1TfRQ==",
+      "upstreamShasum": "ac85d870367413118a6429ac4127322f8c27370f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.32.2",
+        "com.solidalloy.generic-unity-objects": "2.11.2",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.2.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-POpQz9Q0hot+SJgwDIlOv7lH0et39GAddm/Q6i1URKnJT5dtrpeBa4sAj5W8O3wYZr/UvLBB+z44Gdzuh1TfRQ==",
+          "shasum": "ac85d870367413118a6429ac4127322f8c27370f"
+        }
+      }
+    },
+    {
+      "version": "1.2.2",
+      "variantId": "registry-package.openupm.com-28b2cb239e3979bf",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "856087e545c64d3ee65ad5c19d2513730b358163",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.2.2.tgz",
+      "upstreamIntegrity": "sha512-G9DEgO7Mw/avha0NOfZ+V+K9ymbpNZYhbbOMgHhvPswEqPSphbLnxAGjCOQlzqpkJIxPfTTcKUFFb4FWrewnaQ==",
+      "upstreamShasum": "0256a46796b753de17ec96831ee12d9f509640f3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.32.1",
+        "com.solidalloy.generic-unity-objects": "2.11.3",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.2.2",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-G9DEgO7Mw/avha0NOfZ+V+K9ymbpNZYhbbOMgHhvPswEqPSphbLnxAGjCOQlzqpkJIxPfTTcKUFFb4FWrewnaQ==",
+          "shasum": "0256a46796b753de17ec96831ee12d9f509640f3"
+        }
+      }
+    },
+    {
+      "version": "1.2.3",
+      "variantId": "registry-package.openupm.com-c42321f567bc9f0b",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "47b99d17a6eb8150f14060c3f65d5947960ceb64",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.2.3.tgz",
+      "upstreamIntegrity": "sha512-grgzEz59llfllpttd3dbAMxhq98aeSk2F22IX4UrI1oBdTqWeq2vWJkdDWV5OJ4OIrtj+K4h0kqi7rpSSRVa7Q==",
+      "upstreamShasum": "62bb413d5df496f8f3c0e7c8a597fc60da1cae84",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.33.1",
+        "com.solidalloy.generic-unity-objects": "2.11.4",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.2.3",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-grgzEz59llfllpttd3dbAMxhq98aeSk2F22IX4UrI1oBdTqWeq2vWJkdDWV5OJ4OIrtj+K4h0kqi7rpSSRVa7Q==",
+          "shasum": "62bb413d5df496f8f3c0e7c8a597fc60da1cae84"
+        }
+      }
+    },
+    {
+      "version": "1.2.4",
+      "variantId": "registry-package.openupm.com-703a4c8d3904f0fa",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "867c850e70ba7e4cbd3a8aeb20739d72f77aaf80",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.2.4.tgz",
+      "upstreamIntegrity": "sha512-to3xbmvxPUR+KdHOewmCcMZcglIpd13RBXpcqihRx7wOsA7U+0Y2IFBnCwaTfykWawulH61nlMl707v/gbSM/w==",
+      "upstreamShasum": "48c699ea9880c21805bf4927e960638e64fccaa7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.33.1",
+        "com.solidalloy.generic-unity-objects": "2.12.1",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.2.4",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-to3xbmvxPUR+KdHOewmCcMZcglIpd13RBXpcqihRx7wOsA7U+0Y2IFBnCwaTfykWawulH61nlMl707v/gbSM/w==",
+          "shasum": "48c699ea9880c21805bf4927e960638e64fccaa7"
+        }
+      }
+    },
+    {
+      "version": "1.2.5",
+      "variantId": "registry-package.openupm.com-a16c7c918acd852d",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "22f7a166c92c33f3b963ae4e839a02361a0dfb7b",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.2.5.tgz",
+      "upstreamIntegrity": "sha512-lmC4Zt22/hnTC53cO4uS60Ew2/vq6YAHkl9He9XZZTTUqjXVQRtY3yhdffGPSH4WmSlssxzP+1GgSPVLC6Mgtg==",
+      "upstreamShasum": "163001d18d3188c59b08016936562bc9d485cb45",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.34.0",
+        "com.solidalloy.generic-unity-objects": "2.13.1",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.2.5",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lmC4Zt22/hnTC53cO4uS60Ew2/vq6YAHkl9He9XZZTTUqjXVQRtY3yhdffGPSH4WmSlssxzP+1GgSPVLC6Mgtg==",
+          "shasum": "163001d18d3188c59b08016936562bc9d485cb45"
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "variantId": "registry-package.openupm.com-98e2648b0496f937",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "7e25988ccc748595ed8cc6e39eb6b9608fd833a8",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.3.0.tgz",
+      "upstreamIntegrity": "sha512-4fzFdOEv75U9oeRc28CwGmWhOlrV04zHxMg7xKs6Z46ieQ/SqzjxkOT7sjGZYvT6wWVIgckP6vyauZf587Jv1g==",
+      "upstreamShasum": "f5dd83a8a867b00be96d700e28e7f9c00ec62021",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.35.0",
+        "com.solidalloy.generic-unity-objects": "2.14.0",
+        "com.solidalloy.type-references": "2.12.0",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3",
+        "com.solidalloy.extevents": "1.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.3.0",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4fzFdOEv75U9oeRc28CwGmWhOlrV04zHxMg7xKs6Z46ieQ/SqzjxkOT7sjGZYvT6wWVIgckP6vyauZf587Jv1g==",
+          "shasum": "f5dd83a8a867b00be96d700e28e7f9c00ec62021"
+        }
+      }
+    },
+    {
+      "version": "1.3.1",
+      "variantId": "registry-package.openupm.com-f4b60e74a2fe124a",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "4133004718e7495b6f6983f4766f998e20b2879b",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.3.1.tgz",
+      "upstreamIntegrity": "sha512-jFs3ukHehLFZ1tXb7adABrxiFpWFkH9FQkUWHAEZx0Mm1OmzlTMcJhq3JIr8ZsmJLA2h6x6I73LTZK0eAHKysw==",
+      "upstreamShasum": "ad9fecd97c0463618fbd252c2439dd433318cf54",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.35.0",
+        "com.solidalloy.generic-unity-objects": "2.14.1",
+        "com.solidalloy.type-references": "2.12.1",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3",
+        "com.solidalloy.extevents": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.3.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jFs3ukHehLFZ1tXb7adABrxiFpWFkH9FQkUWHAEZx0Mm1OmzlTMcJhq3JIr8ZsmJLA2h6x6I73LTZK0eAHKysw==",
+          "shasum": "ad9fecd97c0463618fbd252c2439dd433318cf54"
+        }
+      }
+    },
+    {
+      "version": "1.3.2",
+      "variantId": "registry-package.openupm.com-84ad189a012ae770",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "4ecfacb2e049721eeacccf347ba1ad2462874b4d",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.3.2.tgz",
+      "upstreamIntegrity": "sha512-Rk7dPXxLXRn2T2dn+9kNZOe+l/CGX1xRDuSjUxQMHJ+pj+JgHTPwU8t4BLb7XvNIKz3S5yJUFt32FTM5sJCX4w==",
+      "upstreamShasum": "03235411d3432af858c6ad40a106c95d982696e9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.36.0",
+        "com.solidalloy.generic-unity-objects": "2.15.0",
+        "com.solidalloy.type-references": "2.12.1",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3",
+        "com.solidalloy.extevents": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.3.2",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Rk7dPXxLXRn2T2dn+9kNZOe+l/CGX1xRDuSjUxQMHJ+pj+JgHTPwU8t4BLb7XvNIKz3S5yJUFt32FTM5sJCX4w==",
+          "shasum": "03235411d3432af858c6ad40a106c95d982696e9"
+        }
+      }
+    },
+    {
+      "version": "1.3.3",
+      "variantId": "registry-package.openupm.com-c58bc22e0c211c38",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "fc5f188f9aa573adbce867eac07aba7544b533c1",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.3.3.tgz",
+      "upstreamIntegrity": "sha512-F40heKollkYUuseAV2EMtLAXuqeNiTUQBOOcmy/6OxDnsF0NkNz14V+YH1Y7YXlYuhWgfEZHzDCuCwEL171eKw==",
+      "upstreamShasum": "6f47b75ed9e4b8c75884e16d5e8e6188b6500b57",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.37.0",
+        "com.solidalloy.generic-unity-objects": "2.15.3",
+        "com.solidalloy.type-references": "2.15.0",
+        "com.madsbangh.easybuttons": "1.3.0",
+        "com.unity.settings-manager": "1.0.3",
+        "com.solidalloy.extevents": "1.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.3.3",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-F40heKollkYUuseAV2EMtLAXuqeNiTUQBOOcmy/6OxDnsF0NkNz14V+YH1Y7YXlYuhWgfEZHzDCuCwEL171eKw==",
+          "shasum": "6f47b75ed9e4b8c75884e16d5e8e6188b6500b57"
+        }
+      }
+    },
+    {
+      "version": "1.4.0",
+      "variantId": "registry-package.openupm.com-143b0edd24085657",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "9b589896334c8f172757acf10e9d944055a28e3d",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.4.0.tgz",
+      "upstreamIntegrity": "sha512-5tPry74cJPcmLnB6uJma01pI3Lq+p42dNdZxtwuUq1fnCcYH5UHNWdA2xgdvOrL+EsQYx4JuT70GLylA6IrbHA==",
+      "upstreamShasum": "af0eaa1dc42d9d456a253b47fe4bb9a4f1cb2332",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.40.0",
+        "com.solidalloy.generic-unity-objects": "2.17.0",
+        "com.solidalloy.type-references": "2.16.0",
+        "com.unity.settings-manager": "1.0.3",
+        "com.solidalloy.extevents": "1.7.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.4.0",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5tPry74cJPcmLnB6uJma01pI3Lq+p42dNdZxtwuUq1fnCcYH5UHNWdA2xgdvOrL+EsQYx4JuT70GLylA6IrbHA==",
+          "shasum": "af0eaa1dc42d9d456a253b47fe4bb9a4f1cb2332"
+        }
+      }
+    },
+    {
+      "version": "1.4.1",
+      "variantId": "registry-package.openupm.com-9d714813022382d6",
+      "sourceUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture",
+      "sourceRef": "0149ffeac47b8170da8026735988c8c629f30af3",
+      "downloadUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/-/com.solidalloy.generic-scriptable-architecture-1.4.1.tgz",
+      "upstreamIntegrity": "sha512-v6ND7qN8jKWxEdfh3SAPl0X8Qu+eE+KEB3NOj6v6w//04F1NFeHZRvzgcXIj7KyIFJzdTSO8H7CvFo+n0reNWA==",
+      "upstreamShasum": "9fc58309742b01a6df68438804cf6d9024384f79",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.solidalloy.util": "1.40.0",
+        "com.solidalloy.generic-unity-objects": "2.17.1",
+        "com.solidalloy.type-references": "2.16.0",
+        "com.unity.settings-manager": "1.0.3",
+        "com.solidalloy.extevents": "1.7.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.solidalloy.generic-scriptable-architecture/1.4.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-v6ND7qN8jKWxEdfh3SAPl0X8Qu+eE+KEB3NOj6v6w//04F1NFeHZRvzgcXIj7KyIFJzdTSO8H7CvFo+n0reNWA==",
+          "shasum": "9fc58309742b01a6df68438804cf6d9024384f79"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.4.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.solidalloy.generic-scriptable-architecture.yml",
+  "definitionBlobSha": "659c32c3e07a140547debaac72e05debf3d52255",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.4.1",
+    "1.4.0",
+    "1.3.3"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 24,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

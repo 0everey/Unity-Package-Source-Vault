@@ -1,0 +1,1453 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.zbase.foundation.mvvm",
+  "displayName": "com.zbase.foundation.mvvm",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "fetchedAt": "2026-10-17T17:43:29.689612Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-48149d9fd6e31700",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "97a453b5c859dd9ca5398e4f38d476145a460893",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-3ieqCJUSduLyl6ZzMDJ95NfX3sucuf0TKl1tFTTjbltuUbGnquqgHoMHLwuj2gc813PTBtLfuZalOgR6PMpHfw==",
+      "upstreamShasum": "6ee1acd50ff7fcd50ec6f739d07b97cd4e7d312a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.0.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3ieqCJUSduLyl6ZzMDJ95NfX3sucuf0TKl1tFTTjbltuUbGnquqgHoMHLwuj2gc813PTBtLfuZalOgR6PMpHfw==",
+          "shasum": "6ee1acd50ff7fcd50ec6f739d07b97cd4e7d312a"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-4db48a19fe21c688",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "2ec1e418a6cb7374e859133aa5f680a9986f7102",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-oOXXuRctXipGDWz8F0WVBgO3ePXyJ7tAGEt6DwYwfnY15LkAIF9GNbQcHrk8TDL2nZ046PQ82RzTGoKPhS2VdA==",
+      "upstreamShasum": "d37a83f68e9da6476c7dcf884d453fb0400b4f08",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.0.1",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oOXXuRctXipGDWz8F0WVBgO3ePXyJ7tAGEt6DwYwfnY15LkAIF9GNbQcHrk8TDL2nZ046PQ82RzTGoKPhS2VdA==",
+          "shasum": "d37a83f68e9da6476c7dcf884d453fb0400b4f08"
+        }
+      }
+    },
+    {
+      "version": "1.0.2",
+      "variantId": "registry-package.openupm.com-9fb03b8664b318af",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "2504e8a49b9d6120b526838f72e9a156096fa2c3",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.0.2.tgz",
+      "upstreamIntegrity": "sha512-8RHAsY7PBjGvInBGjjaClU1UgLvbrZulpUND4AyEK47kwbehV2emrHiEDebl0H/7fO3xyrZM6ye4Qw9aF8vstg==",
+      "upstreamShasum": "3ab7b1e7c78cafb9c86534af81078969c71179d1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.0.2",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8RHAsY7PBjGvInBGjjaClU1UgLvbrZulpUND4AyEK47kwbehV2emrHiEDebl0H/7fO3xyrZM6ye4Qw9aF8vstg==",
+          "shasum": "3ab7b1e7c78cafb9c86534af81078969c71179d1"
+        }
+      }
+    },
+    {
+      "version": "1.0.3",
+      "variantId": "registry-package.openupm.com-6907ae72cbc1f9a0",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "2d04375969046542a711070bc10e6d5c603bc225",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.0.3.tgz",
+      "upstreamIntegrity": "sha512-LhHdek1+c8tbAWj5STNgftUvVfvmnTLAjlfrVZQ9Y2oUiFBHxXrE4I10Pz9jrDmLI0psKhCy3H5AJX4ztOjYcw==",
+      "upstreamShasum": "cdc4f214d0810b5837ac04a805eebf6a3f6308b6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.0.3",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LhHdek1+c8tbAWj5STNgftUvVfvmnTLAjlfrVZQ9Y2oUiFBHxXrE4I10Pz9jrDmLI0psKhCy3H5AJX4ztOjYcw==",
+          "shasum": "cdc4f214d0810b5837ac04a805eebf6a3f6308b6"
+        }
+      }
+    },
+    {
+      "version": "1.0.4",
+      "variantId": "registry-package.openupm.com-af1f779a7007d8af",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "3d75628e3b75aee16cbfe9da6502da40cfc070f5",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.0.4.tgz",
+      "upstreamIntegrity": "sha512-gxKiYjF5ylAQ0OH3nTbtlhJE0kzoohK1sR+pwfd3osLjKzUTSDdsZjHDcoQpTlh2oH7aBHcxt3lVGHuYZ8Nw+w==",
+      "upstreamShasum": "2aff7530727b519596bdf6bd62710ea726327396",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.0.4",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gxKiYjF5ylAQ0OH3nTbtlhJE0kzoohK1sR+pwfd3osLjKzUTSDdsZjHDcoQpTlh2oH7aBHcxt3lVGHuYZ8Nw+w==",
+          "shasum": "2aff7530727b519596bdf6bd62710ea726327396"
+        }
+      }
+    },
+    {
+      "version": "1.0.5",
+      "variantId": "registry-package.openupm.com-65a6f57dc86c20eb",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "b3e76c647d4a06fd4159f6dd47a97e3312f2e90f",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.0.5.tgz",
+      "upstreamIntegrity": "sha512-qlJ6p2qEXpYzODo840G/D4pb82LcMW3Wx94CMhnY5nOYMASE/N5ctnzQyQwPYumfXIjprDFqJhyGo9TwoNULZQ==",
+      "upstreamShasum": "13a572afbb19524e8a6b86b104806260520f8521",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.0.5",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qlJ6p2qEXpYzODo840G/D4pb82LcMW3Wx94CMhnY5nOYMASE/N5ctnzQyQwPYumfXIjprDFqJhyGo9TwoNULZQ==",
+          "shasum": "13a572afbb19524e8a6b86b104806260520f8521"
+        }
+      }
+    },
+    {
+      "version": "1.0.6",
+      "variantId": "registry-package.openupm.com-59399793ef3837d4",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "66b82c7f16d10d697438924c442207c23db0a3a1",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.0.6.tgz",
+      "upstreamIntegrity": "sha512-p/xk3aJoRoZ/rSbnVcNH/cGUh+JdWthaLr/MdPC0xh6nw4qFimuV/fH+eEeQKuEjfno409hmI7xTetv4EhQyxw==",
+      "upstreamShasum": "f6b45c482b35c5e2baa0801dbb039adadcb9cf45",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.0.6",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-p/xk3aJoRoZ/rSbnVcNH/cGUh+JdWthaLr/MdPC0xh6nw4qFimuV/fH+eEeQKuEjfno409hmI7xTetv4EhQyxw==",
+          "shasum": "f6b45c482b35c5e2baa0801dbb039adadcb9cf45"
+        }
+      }
+    },
+    {
+      "version": "1.0.7",
+      "variantId": "registry-package.openupm.com-1b342337413596d4",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "741d6363e790997c3542a73c367616467cef4dde",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.0.7.tgz",
+      "upstreamIntegrity": "sha512-5nmhEFi5XRrgmCNhncX1sYs/o0KjBOSzbeZAyeH3FED9MLa3WFjwBZ0Y0W4OHzX1I5oqQ3A0lLt0hKtW815XMA==",
+      "upstreamShasum": "fb50d6bc01da2a6df4e55739476826278c7be493",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.0.7",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5nmhEFi5XRrgmCNhncX1sYs/o0KjBOSzbeZAyeH3FED9MLa3WFjwBZ0Y0W4OHzX1I5oqQ3A0lLt0hKtW815XMA==",
+          "shasum": "fb50d6bc01da2a6df4e55739476826278c7be493"
+        }
+      }
+    },
+    {
+      "version": "1.0.10",
+      "variantId": "registry-package.openupm.com-5aeb557ef0cadcaf",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "4f1b3b84f1257bf3ae102dcb4a926f2c835d29ca",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.0.10.tgz",
+      "upstreamIntegrity": "sha512-qD1C3TuDl89446tsTSOg/JqXFXUH0rwxGeZ4Q8mIzcyThsjwZ892XeBF0J64v0M9bw4hgLBdgbDINvb0ZARH4w==",
+      "upstreamShasum": "c6afe39b379e28d6f36bc638e966bbec8c7b4122",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.0.10",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qD1C3TuDl89446tsTSOg/JqXFXUH0rwxGeZ4Q8mIzcyThsjwZ892XeBF0J64v0M9bw4hgLBdgbDINvb0ZARH4w==",
+          "shasum": "c6afe39b379e28d6f36bc638e966bbec8c7b4122"
+        }
+      }
+    },
+    {
+      "version": "1.0.11",
+      "variantId": "registry-package.openupm.com-b0e4f9608463e53c",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "c72b37c103bafee4750b7c9734bbe62e375e1ef3",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.0.11.tgz",
+      "upstreamIntegrity": "sha512-dyB8QRqVaqg/xob8VNb/XBx+uoNX5oYU2fZjkeCuXD8vBm51r5JTvokOOZVE0XgqvZQsfRXYP7BK0CuhLPZn7g==",
+      "upstreamShasum": "6aaea5e6ad06e6b55dfb31cba853a608187462aa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.0.11",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dyB8QRqVaqg/xob8VNb/XBx+uoNX5oYU2fZjkeCuXD8vBm51r5JTvokOOZVE0XgqvZQsfRXYP7BK0CuhLPZn7g==",
+          "shasum": "6aaea5e6ad06e6b55dfb31cba853a608187462aa"
+        }
+      }
+    },
+    {
+      "version": "1.0.12",
+      "variantId": "registry-package.openupm.com-88418f22536161eb",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "f436e89b2e388511b4abf381f4be41b06f725cd2",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.0.12.tgz",
+      "upstreamIntegrity": "sha512-CRSP6amvxbUTXVhuNp0DA7p8pl+oVQqbBaoLFprOhiyZqePRm7/ME7+Ym4z98TJZnD3U4Doa6VQJ9X3azzwUeg==",
+      "upstreamShasum": "e47fafa3ea5972e4e9fac9edae8f57bdf3ce5578",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.0.12",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CRSP6amvxbUTXVhuNp0DA7p8pl+oVQqbBaoLFprOhiyZqePRm7/ME7+Ym4z98TJZnD3U4Doa6VQJ9X3azzwUeg==",
+          "shasum": "e47fafa3ea5972e4e9fac9edae8f57bdf3ce5578"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-73c8241c18291790",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "f0b0f7626dad41bad3c271f9d3de19f5c9fe6510",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-HIAWvX7fiOZCNO6hgDtVQzA0tG13XimewUKVuRrUq6k3jg3DG6jcjcrTBI5jnP78EtpTfv0XaBfXvXHSBbXLeg==",
+      "upstreamShasum": "5ca8d99f325f062221887e0134fdbc5e0777ea21",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.1.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HIAWvX7fiOZCNO6hgDtVQzA0tG13XimewUKVuRrUq6k3jg3DG6jcjcrTBI5jnP78EtpTfv0XaBfXvXHSBbXLeg==",
+          "shasum": "5ca8d99f325f062221887e0134fdbc5e0777ea21"
+        }
+      }
+    },
+    {
+      "version": "1.1.1",
+      "variantId": "registry-package.openupm.com-dcb1e375e3d01ba4",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "8118205b75aa16c547dd196a13d818b55089840f",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.1.1.tgz",
+      "upstreamIntegrity": "sha512-dHOA7RqsC9RRBxIP7LT/FKbF1yTFAp+vP71i78iRFB5+lEbtGRSHekDj3NVtx5E/IzPhPDchUE4Mjs2g5yXqwQ==",
+      "upstreamShasum": "37fdb8ee739e2ba1af3bdb84da9bd2bc52fc876d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.1.1",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dHOA7RqsC9RRBxIP7LT/FKbF1yTFAp+vP71i78iRFB5+lEbtGRSHekDj3NVtx5E/IzPhPDchUE4Mjs2g5yXqwQ==",
+          "shasum": "37fdb8ee739e2ba1af3bdb84da9bd2bc52fc876d"
+        }
+      }
+    },
+    {
+      "version": "1.1.2",
+      "variantId": "registry-package.openupm.com-97cd3ef1065b9763",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "b8515d4f3c55fbec7fd8b7081a03407fe4a7b15d",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.1.2.tgz",
+      "upstreamIntegrity": "sha512-meAhG5A+wdJPFC7Ijhv9+MCrDD+DSJzJWTWZ+lgWUuyGOE0AkONXWfkU3+s5LbKzvB5U9L7x488V5Dp0lWdB8Q==",
+      "upstreamShasum": "ad35577df1eb3020966435b87ace67899d869ea0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.1.2",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-meAhG5A+wdJPFC7Ijhv9+MCrDD+DSJzJWTWZ+lgWUuyGOE0AkONXWfkU3+s5LbKzvB5U9L7x488V5Dp0lWdB8Q==",
+          "shasum": "ad35577df1eb3020966435b87ace67899d869ea0"
+        }
+      }
+    },
+    {
+      "version": "1.1.3",
+      "variantId": "registry-package.openupm.com-fa8679f75c0f5743",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "cd37775fea6ef2fc7288470939f78c6b81a116c8",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.1.3.tgz",
+      "upstreamIntegrity": "sha512-oSp8dxNuUe+QK0BRlb0nw7NOy+cXc0bTzntXAqQf0zdbbb6A9nUdsXuBo1G83C9daLbig+BoOFcX6QZ2MaliVA==",
+      "upstreamShasum": "e79a7a644ee1a76c2e170082304c9b2ed5e1cdb5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.1.3",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oSp8dxNuUe+QK0BRlb0nw7NOy+cXc0bTzntXAqQf0zdbbb6A9nUdsXuBo1G83C9daLbig+BoOFcX6QZ2MaliVA==",
+          "shasum": "e79a7a644ee1a76c2e170082304c9b2ed5e1cdb5"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-fe16d0bbab8b4c7e",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "c70cfe8c47c5727cd0c731c43fae9e1350a1d4ba",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-5fq71E2TkukrHO2xuoHPD/0nYKyncL2GRIDsZs4FTdrt6cpUzmnyo6uCkrrQPXU1W9u5rGxseJ0L0/DwWJ6LKw==",
+      "upstreamShasum": "e90e6f27552ebaa899be426fd0ffeff5971be85c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.2.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5fq71E2TkukrHO2xuoHPD/0nYKyncL2GRIDsZs4FTdrt6cpUzmnyo6uCkrrQPXU1W9u5rGxseJ0L0/DwWJ6LKw==",
+          "shasum": "e90e6f27552ebaa899be426fd0ffeff5971be85c"
+        }
+      }
+    },
+    {
+      "version": "1.2.1",
+      "variantId": "registry-package.openupm.com-a07ff90ee2e7195f",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "b80e90472b22f00bc0a4065c5e8a453954a7048d",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.2.1.tgz",
+      "upstreamIntegrity": "sha512-qiMHYL8TmGmkOhgqHI4g6KJokURrlg2zXXX+Jee8xphmV1J5NEIYsQKtE7uFi2+oLtc0IK9m5cWJ8zUGMM4AXA==",
+      "upstreamShasum": "bbf0f07a6d55e53d59bb5d3dd3b81ca6fae1eb40",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.2.1",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qiMHYL8TmGmkOhgqHI4g6KJokURrlg2zXXX+Jee8xphmV1J5NEIYsQKtE7uFi2+oLtc0IK9m5cWJ8zUGMM4AXA==",
+          "shasum": "bbf0f07a6d55e53d59bb5d3dd3b81ca6fae1eb40"
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "variantId": "registry-package.openupm.com-53c686e714fedd63",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "63ee346d8944becd2b124a2fed9be3f83a5c3db9",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.0.tgz",
+      "upstreamIntegrity": "sha512-5mYvm1xlz02qjv1syPEp1qu6oQEp/EUj0O9FMen/8q1hYXvThzVklhO3HLZIwJXTZXQ6LXvL9YexPQMSGldj1g==",
+      "upstreamShasum": "f0fef6c5076d2a9bf7517259a503a5a47408a591",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5mYvm1xlz02qjv1syPEp1qu6oQEp/EUj0O9FMen/8q1hYXvThzVklhO3HLZIwJXTZXQ6LXvL9YexPQMSGldj1g==",
+          "shasum": "f0fef6c5076d2a9bf7517259a503a5a47408a591"
+        }
+      }
+    },
+    {
+      "version": "1.3.1",
+      "variantId": "registry-package.openupm.com-68469d7f2a5ce70e",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "7f9eeade11a9e741c8d5a0fac5f1844686a5b8da",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.1.tgz",
+      "upstreamIntegrity": "sha512-uIY9bwrmYTVKu3AvdSBIMrPQgMa/ei3cRGgZgbXglK7y7Gqpzk5RjFu7JOjTT0Fi0wvWLeiSnt7g6MNPPS9IJw==",
+      "upstreamShasum": "3c7e5b2c9895084f4a5e39e88ad279fbd0a37088",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.1",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uIY9bwrmYTVKu3AvdSBIMrPQgMa/ei3cRGgZgbXglK7y7Gqpzk5RjFu7JOjTT0Fi0wvWLeiSnt7g6MNPPS9IJw==",
+          "shasum": "3c7e5b2c9895084f4a5e39e88ad279fbd0a37088"
+        }
+      }
+    },
+    {
+      "version": "1.3.2",
+      "variantId": "registry-package.openupm.com-2ca336bd0f0a2cd4",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "9302d7d3899d04afc6975e17680fce9fa412da15",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.2.tgz",
+      "upstreamIntegrity": "sha512-dDQSHYePbcknz/dUbu2wEatKdwNTSf6K3K4/vqpnod0Mvo6K/IhMmnfhfnkvJe8YgsaOcsByPd82v9hYRZXPrA==",
+      "upstreamShasum": "a19551c2c70cfd27b6fcf35d4875cf4d7c802c98",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.2",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dDQSHYePbcknz/dUbu2wEatKdwNTSf6K3K4/vqpnod0Mvo6K/IhMmnfhfnkvJe8YgsaOcsByPd82v9hYRZXPrA==",
+          "shasum": "a19551c2c70cfd27b6fcf35d4875cf4d7c802c98"
+        }
+      }
+    },
+    {
+      "version": "1.3.3",
+      "variantId": "registry-package.openupm.com-970792f6849808e0",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "f8d353bc3f1a225113c0bbf86265399cdc7eeed4",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.3.tgz",
+      "upstreamIntegrity": "sha512-6NOFkygbcnNsoBtIgO6eYrn7eQYwzoJyfjsU+evZUjHoDLzz6YHpdDgXTna4Tw11t15eM6f2hXyDco+yGtmImg==",
+      "upstreamShasum": "ee679d3ec8bf9dd96e24b438601b68cb025e50ca",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.3",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6NOFkygbcnNsoBtIgO6eYrn7eQYwzoJyfjsU+evZUjHoDLzz6YHpdDgXTna4Tw11t15eM6f2hXyDco+yGtmImg==",
+          "shasum": "ee679d3ec8bf9dd96e24b438601b68cb025e50ca"
+        }
+      }
+    },
+    {
+      "version": "1.3.4",
+      "variantId": "registry-package.openupm.com-8559f0372798a43c",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "7616c942d1839291ed5aa498061aad422e2af67a",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.4.tgz",
+      "upstreamIntegrity": "sha512-9kIF3rDBcAEpct9MUHGwQx8VHXYhq8aCtvlxMnUPY5xXHhAHKC0RT1/H6BQEvV0cNIhpvBTtklkI2DIFmsjSAA==",
+      "upstreamShasum": "e1a3ece32e635a4747da9d274e4548e26a9b9f3c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.4",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9kIF3rDBcAEpct9MUHGwQx8VHXYhq8aCtvlxMnUPY5xXHhAHKC0RT1/H6BQEvV0cNIhpvBTtklkI2DIFmsjSAA==",
+          "shasum": "e1a3ece32e635a4747da9d274e4548e26a9b9f3c"
+        }
+      }
+    },
+    {
+      "version": "1.3.5",
+      "variantId": "registry-package.openupm.com-2c7eff8ec0f8b61c",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "ce06d7085a2d3551a2efd4a06642bfec663cfaf9",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.5.tgz",
+      "upstreamIntegrity": "sha512-KePqrFYAZxVsyl/3Q1H6AmD7+K3j9cfweWI+kqfriZYjyovs1ut2GeVRAuF4kMVuz7REBo5KGTdF5xTEng0KcA==",
+      "upstreamShasum": "57a52b9e5a7c8b0d33f3ab726e382b1a4fe9fe6e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.5",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KePqrFYAZxVsyl/3Q1H6AmD7+K3j9cfweWI+kqfriZYjyovs1ut2GeVRAuF4kMVuz7REBo5KGTdF5xTEng0KcA==",
+          "shasum": "57a52b9e5a7c8b0d33f3ab726e382b1a4fe9fe6e"
+        }
+      }
+    },
+    {
+      "version": "1.3.6",
+      "variantId": "registry-package.openupm.com-bd59c892b7b97043",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "56fbdb6447ad26a727fb2967db9b8a967df32106",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.6.tgz",
+      "upstreamIntegrity": "sha512-xiJDtYjxb1pKXrQp19FnqCFVTrhIxSbLcter89VsLjScju4/YMWcUVK1FDJINBShNf8cxOkTnCvQr9LtB9vVBA==",
+      "upstreamShasum": "fb90785424c200449b997d50ecacd36a1ba2ee73",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.6",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xiJDtYjxb1pKXrQp19FnqCFVTrhIxSbLcter89VsLjScju4/YMWcUVK1FDJINBShNf8cxOkTnCvQr9LtB9vVBA==",
+          "shasum": "fb90785424c200449b997d50ecacd36a1ba2ee73"
+        }
+      }
+    },
+    {
+      "version": "1.3.7",
+      "variantId": "registry-package.openupm.com-f9558efa1c0be92a",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "b9d14062b6e7d57877975eeb5ac2cb34b4b319e0",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.7.tgz",
+      "upstreamIntegrity": "sha512-/77/fVf6AvYcAUF4Fqvg21LUiQPqtx7PtUGz+4zSr+1eqqCJHKr4/AfeBNNC47J9D6mZxSQmUHUpvkohjAeR6Q==",
+      "upstreamShasum": "6ca935910aec32cc275b4a9605a8a342da7146e4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.7",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/77/fVf6AvYcAUF4Fqvg21LUiQPqtx7PtUGz+4zSr+1eqqCJHKr4/AfeBNNC47J9D6mZxSQmUHUpvkohjAeR6Q==",
+          "shasum": "6ca935910aec32cc275b4a9605a8a342da7146e4"
+        }
+      }
+    },
+    {
+      "version": "1.3.8",
+      "variantId": "registry-package.openupm.com-a0593192bd520439",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "497411bed7adca1f0ec2cce246813501ea20c1ba",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.8.tgz",
+      "upstreamIntegrity": "sha512-ye7+7WKIp4Pe36JRnOo5MmS+7AOsV9sa755DiGCT8IWcrDjxDIOnyo3Gr2B7xwEHDvEczDB0f16MZEHFAb2+mA==",
+      "upstreamShasum": "d0c392b5d5b9f5f8981afef9315cfc71f0c864fc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.8",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ye7+7WKIp4Pe36JRnOo5MmS+7AOsV9sa755DiGCT8IWcrDjxDIOnyo3Gr2B7xwEHDvEczDB0f16MZEHFAb2+mA==",
+          "shasum": "d0c392b5d5b9f5f8981afef9315cfc71f0c864fc"
+        }
+      }
+    },
+    {
+      "version": "1.3.9",
+      "variantId": "registry-package.openupm.com-abde9aff2e6297cd",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "b2fb4b32e5ab14e3ff7d8278a8ebd58d389cd329",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.9.tgz",
+      "upstreamIntegrity": "sha512-X+BIPsIC/og8RmevecJwvUYYOUmUrM7iDEzM7pS1eI+eXHDrasUAyaw5VweF0pvkfkUu9E28Kyv1u7IBnB67Jg==",
+      "upstreamShasum": "d62da737de7d45fd1b74068838930aaed39b4e07",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.9",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-X+BIPsIC/og8RmevecJwvUYYOUmUrM7iDEzM7pS1eI+eXHDrasUAyaw5VweF0pvkfkUu9E28Kyv1u7IBnB67Jg==",
+          "shasum": "d62da737de7d45fd1b74068838930aaed39b4e07"
+        }
+      }
+    },
+    {
+      "version": "1.3.10",
+      "variantId": "registry-package.openupm.com-f180383526f89967",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "fb66d19be049ecd03c7e4088ccf7c8e3b5386ed5",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.10.tgz",
+      "upstreamIntegrity": "sha512-IINV71rYLCLK8sBXs3dXMtV/VUAYTRqBOt8XjXEnOBQ5DrnfeZ606BmaeDoqaLmsiLdKd+c/nr6++hNrxdS+KA==",
+      "upstreamShasum": "f3411323ded47dcfb467077041985479727865c7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.10",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IINV71rYLCLK8sBXs3dXMtV/VUAYTRqBOt8XjXEnOBQ5DrnfeZ606BmaeDoqaLmsiLdKd+c/nr6++hNrxdS+KA==",
+          "shasum": "f3411323ded47dcfb467077041985479727865c7"
+        }
+      }
+    },
+    {
+      "version": "1.3.11",
+      "variantId": "registry-package.openupm.com-57865b22aff1591c",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "40f51551991d9c082523725d293d21e01a5a8e46",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.11.tgz",
+      "upstreamIntegrity": "sha512-Ad2fuP8j0fmdJSjzvcfQS6gdCqhkVss7FCJ5s1Kb+UoUfzOaYprRy/OZxa3HTrCY/Iy7JR1Q3Ncf2F2YvyzQcA==",
+      "upstreamShasum": "a09e8621e8f48c69726200d107a2b0e1d0da8ccc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.11",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ad2fuP8j0fmdJSjzvcfQS6gdCqhkVss7FCJ5s1Kb+UoUfzOaYprRy/OZxa3HTrCY/Iy7JR1Q3Ncf2F2YvyzQcA==",
+          "shasum": "a09e8621e8f48c69726200d107a2b0e1d0da8ccc"
+        }
+      }
+    },
+    {
+      "version": "1.3.12",
+      "variantId": "registry-package.openupm.com-e57e702a94a0737f",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "0c93e1d1f7fa54c604dd3440ba9343b17d9ae533",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.12.tgz",
+      "upstreamIntegrity": "sha512-Q0rTOLMKK7n4WCjoYpW9Z3VwPWOeaVYAPh+y2yMYs/woCS5r7eJjQiYujsZOZkThdWAxto1fmEX+Pbfx0AHFaA==",
+      "upstreamShasum": "f8e6887f63e5d6ab3301ea65cdbb783294be9d5b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.12",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Q0rTOLMKK7n4WCjoYpW9Z3VwPWOeaVYAPh+y2yMYs/woCS5r7eJjQiYujsZOZkThdWAxto1fmEX+Pbfx0AHFaA==",
+          "shasum": "f8e6887f63e5d6ab3301ea65cdbb783294be9d5b"
+        }
+      }
+    },
+    {
+      "version": "1.3.13",
+      "variantId": "registry-package.openupm.com-3f2b18a51660a845",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "936a5ba4312c9963ba00d06180d20efcd880c30f",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.13.tgz",
+      "upstreamIntegrity": "sha512-zakCBc0J18Ahoj4xyp2j8h9ApC++hzUSFIGjW2aEsZ8hJrF4iyBm91M/ga0SgSzQYSGrfHv5UHLRlqcpm6DPuQ==",
+      "upstreamShasum": "7fea639c1e4b150db3d686ffd4df8a4f3a597918",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.13",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zakCBc0J18Ahoj4xyp2j8h9ApC++hzUSFIGjW2aEsZ8hJrF4iyBm91M/ga0SgSzQYSGrfHv5UHLRlqcpm6DPuQ==",
+          "shasum": "7fea639c1e4b150db3d686ffd4df8a4f3a597918"
+        }
+      }
+    },
+    {
+      "version": "1.3.14",
+      "variantId": "registry-package.openupm.com-4b2fe02655611859",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "576811a5578ffcecbd43f840e40e4f283cea13ae",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.14.tgz",
+      "upstreamIntegrity": "sha512-Ya8VaoGbme5QYHkkWRmIfltzxrfYl7mYcqYHYbz6/odxy5JfWd6yM/Lw3WVhN+kZ4twjCV16AKg9CeNlI5S6RQ==",
+      "upstreamShasum": "e81fb0bc231cbc7b4e4c6873e69a3ffd4c9c576c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.14",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ya8VaoGbme5QYHkkWRmIfltzxrfYl7mYcqYHYbz6/odxy5JfWd6yM/Lw3WVhN+kZ4twjCV16AKg9CeNlI5S6RQ==",
+          "shasum": "e81fb0bc231cbc7b4e4c6873e69a3ffd4c9c576c"
+        }
+      }
+    },
+    {
+      "version": "1.3.15",
+      "variantId": "registry-package.openupm.com-cce3a1c58ca71244",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "7a4269fd9816f2b3c928c7b25b6433c4be23df66",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.15.tgz",
+      "upstreamIntegrity": "sha512-VohxoHwe3RbdvPi8adAzJB93ld1oMp7Ukp9FxtfsPJSJ0ljmOzdAUkDMps9z/YxC3r151wAK1MEObOWxZ250Cw==",
+      "upstreamShasum": "02f0af31aa5595d56de7d7950c071b5affcc676d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.15",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VohxoHwe3RbdvPi8adAzJB93ld1oMp7Ukp9FxtfsPJSJ0ljmOzdAUkDMps9z/YxC3r151wAK1MEObOWxZ250Cw==",
+          "shasum": "02f0af31aa5595d56de7d7950c071b5affcc676d"
+        }
+      }
+    },
+    {
+      "version": "1.3.16",
+      "variantId": "registry-package.openupm.com-015a01fe46d4f988",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "ccba069be83fdb9bc48e8ae7a69485c4a4fb2c57",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.16.tgz",
+      "upstreamIntegrity": "sha512-BwV8oRn0LL/knrKMzNW4G56YyivJpoeYD9NREJuwxMkPPDDxEq3meMMIBiZS+NJdeydmjvoPlESw+SXsEZ6BBw==",
+      "upstreamShasum": "ec59dce4d91b45b43736d14850f01a480dcd90ac",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.16",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BwV8oRn0LL/knrKMzNW4G56YyivJpoeYD9NREJuwxMkPPDDxEq3meMMIBiZS+NJdeydmjvoPlESw+SXsEZ6BBw==",
+          "shasum": "ec59dce4d91b45b43736d14850f01a480dcd90ac"
+        }
+      }
+    },
+    {
+      "version": "1.3.17",
+      "variantId": "registry-package.openupm.com-6b86ea6f65624d2e",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "9eb76199ff1946366894bc46e0759179e4fd49fd",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.17.tgz",
+      "upstreamIntegrity": "sha512-5vc8uxcksi/OT7CV183+gNixsGPlpXz80RUPPbDT0AcO2teuh9q1L0kicDiHpqz8kBExZynlqlkAcxOsB8vAWw==",
+      "upstreamShasum": "6f70b6dd482b2bc2a8c64fef0b3e24f25053bf9c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.17",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5vc8uxcksi/OT7CV183+gNixsGPlpXz80RUPPbDT0AcO2teuh9q1L0kicDiHpqz8kBExZynlqlkAcxOsB8vAWw==",
+          "shasum": "6f70b6dd482b2bc2a8c64fef0b3e24f25053bf9c"
+        }
+      }
+    },
+    {
+      "version": "1.3.18",
+      "variantId": "registry-package.openupm.com-59aca7a1d7c9eae1",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "5247d6ba9a58869881ffb4c7d32434cce614c223",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.3.18.tgz",
+      "upstreamIntegrity": "sha512-f6nNLwFly1I9BIlNYVbzsE09t7Pryhi5+a2Uq/7jgZTqkSvHb3bfRuIzo1TdQplcl3AEl++bYWTBTCn6EQVBGA==",
+      "upstreamShasum": "87b8dee998371951e61cf8fa8c8d530226b70237",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.3.18",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-f6nNLwFly1I9BIlNYVbzsE09t7Pryhi5+a2Uq/7jgZTqkSvHb3bfRuIzo1TdQplcl3AEl++bYWTBTCn6EQVBGA==",
+          "shasum": "87b8dee998371951e61cf8fa8c8d530226b70237"
+        }
+      }
+    },
+    {
+      "version": "1.4.0",
+      "variantId": "registry-package.openupm.com-2779ed391c9220c6",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "7f27dd07271180a14de6a276f8116290eb61f62c",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.4.0.tgz",
+      "upstreamIntegrity": "sha512-WAur/0SzgMBLKKJN0UESzOspfXya3un+HImFi/6ctd36JRQIFu8G8m7VYHM4MlW7SzYr+kYF4oDImmYvVExQpw==",
+      "upstreamShasum": "43a6b08ad663454f130851fd0e03810f5a3f8e9e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.4.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WAur/0SzgMBLKKJN0UESzOspfXya3un+HImFi/6ctd36JRQIFu8G8m7VYHM4MlW7SzYr+kYF4oDImmYvVExQpw==",
+          "shasum": "43a6b08ad663454f130851fd0e03810f5a3f8e9e"
+        }
+      }
+    },
+    {
+      "version": "1.4.1",
+      "variantId": "registry-package.openupm.com-fb22e5d8baae05f3",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "6cec0c2ef7f948cc5d7f722d20649d856bb5cef4",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.4.1.tgz",
+      "upstreamIntegrity": "sha512-TvoEUljBW0oCelxZZzRwAgouYpJL8SOxG+80Rl9vPBej1j8JcgPurnMPz/EKQuvZwVwSqBlQXCYJ2WdEMjKvog==",
+      "upstreamShasum": "a4552c4a3f459776bb4bdcc90ebf2fe5834f3f6b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.4.1",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TvoEUljBW0oCelxZZzRwAgouYpJL8SOxG+80Rl9vPBej1j8JcgPurnMPz/EKQuvZwVwSqBlQXCYJ2WdEMjKvog==",
+          "shasum": "a4552c4a3f459776bb4bdcc90ebf2fe5834f3f6b"
+        }
+      }
+    },
+    {
+      "version": "1.4.2",
+      "variantId": "registry-package.openupm.com-36557712ea773b10",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "b50160a86060c164e5a814ee349ba1de4b7594f1",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.4.2.tgz",
+      "upstreamIntegrity": "sha512-285NNfrVMCtteuulH7t741S7+hk8R7zztOQYiHz2VlFuGqUXwIGyI9m5zqyTj+DfPibyf+Xv+pi1OTarVbblyw==",
+      "upstreamShasum": "7f3b6c01d278422d0a430bd994ae6fc818337415",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.4.2",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-285NNfrVMCtteuulH7t741S7+hk8R7zztOQYiHz2VlFuGqUXwIGyI9m5zqyTj+DfPibyf+Xv+pi1OTarVbblyw==",
+          "shasum": "7f3b6c01d278422d0a430bd994ae6fc818337415"
+        }
+      }
+    },
+    {
+      "version": "1.4.3",
+      "variantId": "registry-package.openupm.com-ea492792bb2f6b24",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "353c083a843298658ac1552c1c013d8668935584",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.4.3.tgz",
+      "upstreamIntegrity": "sha512-Kqry+sLCG2XdxN0GVAbTWpUpJc4SuW74owxLFy7HTitpxUlxXxmAy5p/VWB+gVDXisz8jGW/IX+CyN4nP3GcpQ==",
+      "upstreamShasum": "bc2edb13c67bc063e95d142487648fbe28846862",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.4.3",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Kqry+sLCG2XdxN0GVAbTWpUpJc4SuW74owxLFy7HTitpxUlxXxmAy5p/VWB+gVDXisz8jGW/IX+CyN4nP3GcpQ==",
+          "shasum": "bc2edb13c67bc063e95d142487648fbe28846862"
+        }
+      }
+    },
+    {
+      "version": "1.4.4",
+      "variantId": "registry-package.openupm.com-81b0042ba6e86b4d",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "3975da89f6ca0f5e50cfb88333e4e72e23f3007c",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.4.4.tgz",
+      "upstreamIntegrity": "sha512-NWni8EM9wWv3xKZ/DDg8BtRG+nU912aIoqSlfE70NytKBZbTsryyPCrelz4HEZImhzzpVa23oyS9lqKKl+xKyw==",
+      "upstreamShasum": "93675a79451c9d5e18cde501af09b69a10189e83",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.4.4",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NWni8EM9wWv3xKZ/DDg8BtRG+nU912aIoqSlfE70NytKBZbTsryyPCrelz4HEZImhzzpVa23oyS9lqKKl+xKyw==",
+          "shasum": "93675a79451c9d5e18cde501af09b69a10189e83"
+        }
+      }
+    },
+    {
+      "version": "1.4.5",
+      "variantId": "registry-package.openupm.com-112b92078492f8f0",
+      "sourceUrl": "https://package.openupm.com/com.zbase.foundation.mvvm",
+      "sourceRef": "739dd76ca7b7326a98487719e4d029df969905f7",
+      "downloadUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/-/com.zbase.foundation.mvvm-1.4.5.tgz",
+      "upstreamIntegrity": "sha512-dSisD+mkR9GCCS6Wi2/S2cpmEYh7T91Qq1ZByexgp67RLqv1ovDiERir/4g1dk2qjq/4UcGJIPhTXabtTHFBNw==",
+      "upstreamShasum": "d4ab58f333fdd565aa6435c84011d5092f6d52a3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.zbase.foundation.mvvm/1.4.5",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dSisD+mkR9GCCS6Wi2/S2cpmEYh7T91Qq1ZByexgp67RLqv1ovDiERir/4g1dk2qjq/4UcGJIPhTXabtTHFBNw==",
+          "shasum": "d4ab58f333fdd565aa6435c84011d5092f6d52a3"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.4.5"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.zbase.foundation.mvvm.yml",
+  "definitionBlobSha": "61c05c3696899ce4325c82ed8d1c7ef2fd0c3a7f",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.4.5",
+    "1.4.4",
+    "1.4.3"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 42,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

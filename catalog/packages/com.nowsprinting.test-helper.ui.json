@@ -1,0 +1,664 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.nowsprinting.test-helper.ui",
+  "displayName": "com.nowsprinting.test-helper.ui",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui",
+      "fetchedAt": "2026-10-17T17:40:29.100667Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-4c4f879bae9fb1bd",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "154dc335d36ff8a8082157f7519482acf97eb5f1",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-NeJEvEzqorFBIH+dP1rQ3w/eN9v8WaZzLO9tOUSG7+u1SPw17IPZBoh4JkwVSLiG10WOkbs7rkurjr6cu2o9pg==",
+      "upstreamShasum": "056ed99ae98cbd5ceee760e7b706895e69377417",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.1.1",
+        "com.nowsprinting.test-helper.random": "0.3.1",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.0.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NeJEvEzqorFBIH+dP1rQ3w/eN9v8WaZzLO9tOUSG7+u1SPw17IPZBoh4JkwVSLiG10WOkbs7rkurjr6cu2o9pg==",
+          "shasum": "056ed99ae98cbd5ceee760e7b706895e69377417"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-d2f21f987d43629c",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "27b89f40dc2eaf40095a68b135854d12e8c7e378",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-6tQB+bsW0kzlPYSB1S5eefG5CZUgzcBClsK2PJ7B3yP/i/M0s+I+PJCb4VL/OmvD5y/yw1YlMqmv7kBubf+upw==",
+      "upstreamShasum": "d47b647fb75da52826ddbfedef435defb30c51b6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.1.1",
+        "com.nowsprinting.test-helper.random": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.0.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6tQB+bsW0kzlPYSB1S5eefG5CZUgzcBClsK2PJ7B3yP/i/M0s+I+PJCb4VL/OmvD5y/yw1YlMqmv7kBubf+upw==",
+          "shasum": "d47b647fb75da52826ddbfedef435defb30c51b6"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-4ca7fb36ce13366c",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "b3c5e16090e43c772a52c8c8a716c23b7873c5f3",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-e1o5Ww3tZZzTN99PXyFKhj8dDblSflY3wRnBL31MDaNbBuWwGWnh1GdpyG4datK/6lVBoxBmm8DbKlAT7ZbTvQ==",
+      "upstreamShasum": "ede37a655a7a9f52a11cd536fc167ac4b52515de",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.1.1",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.1.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-e1o5Ww3tZZzTN99PXyFKhj8dDblSflY3wRnBL31MDaNbBuWwGWnh1GdpyG4datK/6lVBoxBmm8DbKlAT7ZbTvQ==",
+          "shasum": "ede37a655a7a9f52a11cd536fc167ac4b52515de"
+        }
+      }
+    },
+    {
+      "version": "1.1.1",
+      "variantId": "registry-package.openupm.com-cb415067c672b44c",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "5648a3b295fb430d2293d7015853aef4e14c3365",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.1.1.tgz",
+      "upstreamIntegrity": "sha512-FBwFY30fL70yD+0o5ovJG/q4sn49fgXvE+A5G4xusFaKiYG/boerZx3MQjJRK/QE5NiQbk8FrPGvFH0F6tgp2g==",
+      "upstreamShasum": "de08cf810d0874c08ce9b80a66585ad8cde823d9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.1.1",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.1.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FBwFY30fL70yD+0o5ovJG/q4sn49fgXvE+A5G4xusFaKiYG/boerZx3MQjJRK/QE5NiQbk8FrPGvFH0F6tgp2g==",
+          "shasum": "de08cf810d0874c08ce9b80a66585ad8cde823d9"
+        }
+      }
+    },
+    {
+      "version": "1.1.2",
+      "variantId": "registry-package.openupm.com-cd0fe7116974efe0",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "a02f6f67e59e23dc21770f4241cf9d20fea7ba3b",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.1.2.tgz",
+      "upstreamIntegrity": "sha512-vOhPGSWzp5TZaESO+H7pkgtnQXE9XraoMmDX+V9/oicRwL5xY7YAM4sWKyr1cdZNImXGucTnEm35CADOfnYOug==",
+      "upstreamShasum": "493d5ad2f05b0ec206ecb77d577aaed508809537",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.3.1",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.1.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vOhPGSWzp5TZaESO+H7pkgtnQXE9XraoMmDX+V9/oicRwL5xY7YAM4sWKyr1cdZNImXGucTnEm35CADOfnYOug==",
+          "shasum": "493d5ad2f05b0ec206ecb77d577aaed508809537"
+        }
+      }
+    },
+    {
+      "version": "1.1.3",
+      "variantId": "registry-package.openupm.com-1dece299505a3e8f",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "4cb39564b2694537ed998f185dc5c0057108a1ab",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.1.3.tgz",
+      "upstreamIntegrity": "sha512-WAs6zrhnzrkT581cGN7Rks9UCvTFeYJCwE/ksJeUWri5l/J3FYu2UhDhVnZBxzvoE42zRTVajUR6wD/eb78UIw==",
+      "upstreamShasum": "d4b89ef887c01f5688984129d0ba677f244821fd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.3.1",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.1.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WAs6zrhnzrkT581cGN7Rks9UCvTFeYJCwE/ksJeUWri5l/J3FYu2UhDhVnZBxzvoE42zRTVajUR6wD/eb78UIw==",
+          "shasum": "d4b89ef887c01f5688984129d0ba677f244821fd"
+        }
+      }
+    },
+    {
+      "version": "1.1.4",
+      "variantId": "registry-package.openupm.com-7e832e681a112590",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "0afe9831fd41a6d513d4b3bd75768c32b69bc1a9",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.1.4.tgz",
+      "upstreamIntegrity": "sha512-LzR4HgLy9VWNTqY2Kfe+TsN72A4qc8TLjhoqxyawb17EjscfA+XH98O3ZFpYau62KB1cIJqMdzQGXfjRAN7ixQ==",
+      "upstreamShasum": "0bbf0a235fe5eb7bc0fe61ab36cab312a5663d23",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.3.2",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.1.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LzR4HgLy9VWNTqY2Kfe+TsN72A4qc8TLjhoqxyawb17EjscfA+XH98O3ZFpYau62KB1cIJqMdzQGXfjRAN7ixQ==",
+          "shasum": "0bbf0a235fe5eb7bc0fe61ab36cab312a5663d23"
+        }
+      }
+    },
+    {
+      "version": "1.1.5",
+      "variantId": "registry-package.openupm.com-d5022193b00eca9a",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "1b5c1212e835429f7bbcf147264315261e9f2865",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.1.5.tgz",
+      "upstreamIntegrity": "sha512-VvjLICyvUObjfMmyGWwl4IOhwo6Oo18fdx9qJ8UWqUwh6sDaMlVAbtMvHnUnY6k4DYgl1SrSKzA5Q27+Dg5Q3A==",
+      "upstreamShasum": "5bba0adfce86426bd5d8bdb8d40269374fcc2615",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.3.2",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.1.5",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VvjLICyvUObjfMmyGWwl4IOhwo6Oo18fdx9qJ8UWqUwh6sDaMlVAbtMvHnUnY6k4DYgl1SrSKzA5Q27+Dg5Q3A==",
+          "shasum": "5bba0adfce86426bd5d8bdb8d40269374fcc2615"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-6ed84ae04ab4b364",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "06eb5d8d9ec8ffa79ebce05fe0e920a2bba52580",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-h3uNbu8v+/RNCc4PbjevlAzsr8nwThBggGAV/dnddTcbpZY6Vko9e1VXKja3lHu2aOMgJtrQkWR2Ez71uu9BRg==",
+      "upstreamShasum": "55376c8742e25d86ab5dcbd386020781518cf837",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.3.2",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.2.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-h3uNbu8v+/RNCc4PbjevlAzsr8nwThBggGAV/dnddTcbpZY6Vko9e1VXKja3lHu2aOMgJtrQkWR2Ez71uu9BRg==",
+          "shasum": "55376c8742e25d86ab5dcbd386020781518cf837"
+        }
+      }
+    },
+    {
+      "version": "1.2.1",
+      "variantId": "registry-package.openupm.com-bc38604cb5c2d345",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "de662f524918dca253476e4f612e19d4d8fd3549",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.2.1.tgz",
+      "upstreamIntegrity": "sha512-GndTqA4Bn3VOwErPl1A1qYwO2PtREKTqyf1F9wLEAj9Uq5shOeISEo8AJq7QgwPxhWpk/BOh+vlimQIWZXNyXg==",
+      "upstreamShasum": "24f7ccc61341faece3d8d2944c50ef0a0d678a60",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.3.2",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.2.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GndTqA4Bn3VOwErPl1A1qYwO2PtREKTqyf1F9wLEAj9Uq5shOeISEo8AJq7QgwPxhWpk/BOh+vlimQIWZXNyXg==",
+          "shasum": "24f7ccc61341faece3d8d2944c50ef0a0d678a60"
+        }
+      }
+    },
+    {
+      "version": "1.2.2",
+      "variantId": "registry-package.openupm.com-9ba6f9b4ca35b732",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "e14ccacad168c407e2e07c8e7e9c0756fe98a629",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.2.2.tgz",
+      "upstreamIntegrity": "sha512-Kefz2RpCU9EQ5woEDiuF3WQN66QckQy032mYdhHtxZgdQ1/EfA3F15wfMzPjbBAi6GoMKh9/izJjUr16nMNSAA==",
+      "upstreamShasum": "ec2d94d899be3b55bcc0d20f6df0d30c2f2868af",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.3.2",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.2.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Kefz2RpCU9EQ5woEDiuF3WQN66QckQy032mYdhHtxZgdQ1/EfA3F15wfMzPjbBAi6GoMKh9/izJjUr16nMNSAA==",
+          "shasum": "ec2d94d899be3b55bcc0d20f6df0d30c2f2868af"
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "variantId": "registry-package.openupm.com-7e8d69b35e751a75",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "84724af4c3315e0d36d00b2c7c5ec34cab45efba",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.3.0.tgz",
+      "upstreamIntegrity": "sha512-HhnqVaeVgqCr05jYbTABS3dBji9KELTNd6Eu84PEYTIoYBXXew1Me0Gg6cGuFfRgjgj7M9G9K2PauZAUt8cvzA==",
+      "upstreamShasum": "9ab4b7b05cff9122c71a42ef5393286c66e31639",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.3.2",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.3.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HhnqVaeVgqCr05jYbTABS3dBji9KELTNd6Eu84PEYTIoYBXXew1Me0Gg6cGuFfRgjgj7M9G9K2PauZAUt8cvzA==",
+          "shasum": "9ab4b7b05cff9122c71a42ef5393286c66e31639"
+        }
+      }
+    },
+    {
+      "version": "1.3.1",
+      "variantId": "registry-package.openupm.com-db58036faf81d189",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "1dea70610ca727ebf357f9dd39693beeab4d0ed4",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.3.1.tgz",
+      "upstreamIntegrity": "sha512-A7uCRqUia0AmLT8xGUv1Imo3c8AxqD2/1wBfi58gO1e5UFdxWpsatPdL1TVcn623TJXQHupydMxIuWSbFy9OtQ==",
+      "upstreamShasum": "891c39f7e5abd4ed40c5858d55827b99a6eabfbe",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.3.2",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.3.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-A7uCRqUia0AmLT8xGUv1Imo3c8AxqD2/1wBfi58gO1e5UFdxWpsatPdL1TVcn623TJXQHupydMxIuWSbFy9OtQ==",
+          "shasum": "891c39f7e5abd4ed40c5858d55827b99a6eabfbe"
+        }
+      }
+    },
+    {
+      "version": "1.4.0",
+      "variantId": "registry-package.openupm.com-7dbb7f5efca15b6c",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "b35b2ef048216e5eca234efc7cc100bdb0ed6c13",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.4.0.tgz",
+      "upstreamIntegrity": "sha512-BdzIYXdet+S/4sEvFVbR0NhZrwf0YQfPZ/oQrJ1/rVvAuadQxjWjh/nr3ZQkzGkQ1K6iFzyDpqietHMKEXsTnA==",
+      "upstreamShasum": "a059a285bdc35c788a5b6dbff1cdc1a7df717e8e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.3.2",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.4.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BdzIYXdet+S/4sEvFVbR0NhZrwf0YQfPZ/oQrJ1/rVvAuadQxjWjh/nr3ZQkzGkQ1K6iFzyDpqietHMKEXsTnA==",
+          "shasum": "a059a285bdc35c788a5b6dbff1cdc1a7df717e8e"
+        }
+      }
+    },
+    {
+      "version": "1.5.0",
+      "variantId": "registry-package.openupm.com-fa3466f0e8323fef",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "0bec5cf6d388f74f85e7c9bad8d1b10494706187",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.5.0.tgz",
+      "upstreamIntegrity": "sha512-lNMvrnHVsvOdvInbFkMm2qZXO0WVhgdTE7hgMbMypbqUKr/PgImEI42cW0qN+cPT+h8fLF0LlAzueFKfceEKVw==",
+      "upstreamShasum": "61cdaee47e09b4300860230bdc6b049be36da21b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.3.2",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.5.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lNMvrnHVsvOdvInbFkMm2qZXO0WVhgdTE7hgMbMypbqUKr/PgImEI42cW0qN+cPT+h8fLF0LlAzueFKfceEKVw==",
+          "shasum": "61cdaee47e09b4300860230bdc6b049be36da21b"
+        }
+      }
+    },
+    {
+      "version": "1.5.1",
+      "variantId": "registry-package.openupm.com-358ea25941216763",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "c825f2d745e6b881f63ef0b7c6d3c60ceb1fe5ea",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.5.1.tgz",
+      "upstreamIntegrity": "sha512-joruvMutcS86f/P0HRaepdT6Z4sKg/JgoZXXerj+AM0X03THxJWcteKn0F7YrXMBfVivLQ/rPDM4bay/ahRO8Q==",
+      "upstreamShasum": "d4df22482babdd4c0465b182c194299548153882",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.3.2",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.5.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-joruvMutcS86f/P0HRaepdT6Z4sKg/JgoZXXerj+AM0X03THxJWcteKn0F7YrXMBfVivLQ/rPDM4bay/ahRO8Q==",
+          "shasum": "d4df22482babdd4c0465b182c194299548153882"
+        }
+      }
+    },
+    {
+      "version": "1.5.2",
+      "variantId": "registry-package.openupm.com-9b3552dfd347fe93",
+      "sourceUrl": "https://github.com/nowsprinting/test-helper.ui.git",
+      "sourceRef": "d7747afc018452e7c9dd0dec1252ef9a3d4d33e2",
+      "downloadUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/-/com.nowsprinting.test-helper.ui-1.5.2.tgz",
+      "upstreamIntegrity": "sha512-bKJb2imUhr5Qygnuet4T+1qHgH33f28IBCrNDqnzDXy5nvixwN0wUZJ4jEMPAtVdRm+TcmlNpow8f0o88f1yaw==",
+      "upstreamShasum": "4acfb5f22886b6bf54db6359c3536f328ccbd2c8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.nowsprinting.test-helper": "1.3.2",
+        "com.nowsprinting.test-helper.random": "1.1.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.nowsprinting.test-helper.ui/1.5.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bKJb2imUhr5Qygnuet4T+1qHgH33f28IBCrNDqnzDXy5nvixwN0wUZJ4jEMPAtVdRm+TcmlNpow8f0o88f1yaw==",
+          "shasum": "4acfb5f22886b6bf54db6359c3536f328ccbd2c8"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.5.2"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.nowsprinting.test-helper.ui.yml",
+  "definitionBlobSha": "8acd138f7e3ae769161d365eca552995030a24fd",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "1.2.2"
+  ],
+  "selectedVersions": [
+    "1.2.2",
+    "1.5.2",
+    "1.2.1"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 17,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

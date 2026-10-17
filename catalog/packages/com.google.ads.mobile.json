@@ -1,0 +1,958 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.google.ads.mobile",
+  "displayName": "com.google.ads.mobile",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "fetchedAt": "2026-10-17T17:38:33.648818Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "9.0.0",
+      "variantId": "registry-package.openupm.com-7c5cbaccb147c210",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "bf011d0322f3a37c3cb3c0e49cbccccd496e05bf",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-9.0.0.tgz",
+      "upstreamIntegrity": "sha512-wIKmZCn5VZHMvsonehVThdwPNjgerSWqruV2Cn60NME1Yy6bTWkdQ3tREJ1rNPULmEt1GjQE8LZcKgNoeYh+NA==",
+      "upstreamShasum": "04f5e18ee7110f7aef6f3741607df4d3ae27892b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.179"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/9.0.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wIKmZCn5VZHMvsonehVThdwPNjgerSWqruV2Cn60NME1Yy6bTWkdQ3tREJ1rNPULmEt1GjQE8LZcKgNoeYh+NA==",
+          "shasum": "04f5e18ee7110f7aef6f3741607df4d3ae27892b"
+        }
+      }
+    },
+    {
+      "version": "9.1.0",
+      "variantId": "registry-package.openupm.com-f6b95bbbbfae8553",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "ba633e2c0e54b554a3d979fe9aea73ff44b45246",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-9.1.0.tgz",
+      "upstreamIntegrity": "sha512-ZhL43IX0+e7saNxvj3MHGykX6S2FSAY3WipLFEhY3D70b9RKtGjlPdwwtWm6JeeDz6ZVbjctzv4SiDFK8ZqGlQ==",
+      "upstreamShasum": "91ffd0d426db66abe2e4fa9601988336e199bd91",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.179"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/9.1.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZhL43IX0+e7saNxvj3MHGykX6S2FSAY3WipLFEhY3D70b9RKtGjlPdwwtWm6JeeDz6ZVbjctzv4SiDFK8ZqGlQ==",
+          "shasum": "91ffd0d426db66abe2e4fa9601988336e199bd91"
+        }
+      }
+    },
+    {
+      "version": "9.1.1",
+      "variantId": "registry-package.openupm.com-4b6a344ef31d3534",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "9bfc0dc80f93b666ce8241a21a5ab55999a1d358",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-9.1.1.tgz",
+      "upstreamIntegrity": "sha512-juVY82+bAA93+CWOPRdt7Rbj8WCmdyM7pAhEfb9wUURhAYLVHzI/Y1LwGyfUQ/x4Q4BonWP/vvLk/KG6NZn+Ew==",
+      "upstreamShasum": "e90b5abe2b959f3ad78f364ac28cd39837d6b094",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.181",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/9.1.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-juVY82+bAA93+CWOPRdt7Rbj8WCmdyM7pAhEfb9wUURhAYLVHzI/Y1LwGyfUQ/x4Q4BonWP/vvLk/KG6NZn+Ew==",
+          "shasum": "e90b5abe2b959f3ad78f364ac28cd39837d6b094"
+        }
+      }
+    },
+    {
+      "version": "9.2.0",
+      "variantId": "registry-package.openupm.com-56b924c5bc609dda",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "feafd4146aba4f4f4f5bb66448d9540ce3c86d94",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-9.2.0.tgz",
+      "upstreamIntegrity": "sha512-RcCRu/LRgKv7IVdkptqxsFsNsl5/f6D/k70EMb5QiKlBc6jtaQn79wN50TfiHDiw7WTPnoAknRUkt2F4ge6A2Q==",
+      "upstreamShasum": "3796025c9da9fd47d6188598577bd90a0e97b239",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.181",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/9.2.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RcCRu/LRgKv7IVdkptqxsFsNsl5/f6D/k70EMb5QiKlBc6jtaQn79wN50TfiHDiw7WTPnoAknRUkt2F4ge6A2Q==",
+          "shasum": "3796025c9da9fd47d6188598577bd90a0e97b239"
+        }
+      }
+    },
+    {
+      "version": "9.2.1",
+      "variantId": "registry-package.openupm.com-2334a9ea123b5d42",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "4fc0da2b83f30cc12fef58b9ce16dc39638cf40f",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-9.2.1.tgz",
+      "upstreamIntegrity": "sha512-seoKQEQChxE6qKTbB215Iy+BIzjQbr5jSrfQO8M/QF9C47RDx8wcCeRnsXVWeZsEH2gcl/6hE1uI/UYSV8wa1A==",
+      "upstreamShasum": "eef476f95f989da3a4d1057f8a0efcafa2205722",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.181",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/9.2.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-seoKQEQChxE6qKTbB215Iy+BIzjQbr5jSrfQO8M/QF9C47RDx8wcCeRnsXVWeZsEH2gcl/6hE1uI/UYSV8wa1A==",
+          "shasum": "eef476f95f989da3a4d1057f8a0efcafa2205722"
+        }
+      }
+    },
+    {
+      "version": "9.3.0",
+      "variantId": "registry-package.openupm.com-658141972f2ebf0f",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "3c3064f6bbf8fcbf5f0ca980f0b08eb967ed464d",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-9.3.0.tgz",
+      "upstreamIntegrity": "sha512-iz7yU2hQmEzkSSoAmci4LENDtnC+fB2zLe8g6QJTBL+zi8T1rT+yfXmq/VV2vithEmq1GAlCcTmX6OqEpd9Csg==",
+      "upstreamShasum": "41ce85a50b836a02f98e4994faba45b3c4a14ee0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.181",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/9.3.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iz7yU2hQmEzkSSoAmci4LENDtnC+fB2zLe8g6QJTBL+zi8T1rT+yfXmq/VV2vithEmq1GAlCcTmX6OqEpd9Csg==",
+          "shasum": "41ce85a50b836a02f98e4994faba45b3c4a14ee0"
+        }
+      }
+    },
+    {
+      "version": "9.4.0",
+      "variantId": "registry-package.openupm.com-c8e2360d09c49ef1",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "1ba53b94e14ef3fbcc9fc5d075e3e22462e92889",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-9.4.0.tgz",
+      "upstreamIntegrity": "sha512-x/blzM8FeRtDZ2KSRsf2J1GkJYsJg6UKHYyiaZoFJMifFUYRL+d5yTNf38bB8wLNnExAwNpKHdZxPMLKgAGpeg==",
+      "upstreamShasum": "00554463eba4cfcf8356193216f6ab8b95cc1f10",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.183",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/9.4.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-x/blzM8FeRtDZ2KSRsf2J1GkJYsJg6UKHYyiaZoFJMifFUYRL+d5yTNf38bB8wLNnExAwNpKHdZxPMLKgAGpeg==",
+          "shasum": "00554463eba4cfcf8356193216f6ab8b95cc1f10"
+        }
+      }
+    },
+    {
+      "version": "9.5.0",
+      "variantId": "registry-package.openupm.com-ef3987c64331e592",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "d94fe3bae14bb03c1c506e11634f1e6584b95cfa",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-9.5.0.tgz",
+      "upstreamIntegrity": "sha512-B4dt1Cv9mm5jMHWmAYNZFgfHfhe43al8pJ3+SBm0p8/yoHjfNoE4zto3ljhQnwKzFVa8e6GhxsXw8tuvRgUHsQ==",
+      "upstreamShasum": "d1fb17cd01f07cbc6fdb52cde383d758ca01698e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.183",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/9.5.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-B4dt1Cv9mm5jMHWmAYNZFgfHfhe43al8pJ3+SBm0p8/yoHjfNoE4zto3ljhQnwKzFVa8e6GhxsXw8tuvRgUHsQ==",
+          "shasum": "d1fb17cd01f07cbc6fdb52cde383d758ca01698e"
+        }
+      }
+    },
+    {
+      "version": "9.6.0",
+      "variantId": "registry-package.openupm.com-1df4131530d82235",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "e19b0bd62e4ba0e24ba561c6a2a06663b6e7daa3",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-9.6.0.tgz",
+      "upstreamIntegrity": "sha512-UnJQBQ0j0y8I9Tc6eYVXTvNCNWvX1Hj2F1ZHqkMl4k5vwPSzr7S2ClFZa88MkffgTik5m/fWOLFjs1BpAC/EGg==",
+      "upstreamShasum": "1b080d4624f622bd57e9586deeb19c0d750f5034",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.183",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/9.6.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-UnJQBQ0j0y8I9Tc6eYVXTvNCNWvX1Hj2F1ZHqkMl4k5vwPSzr7S2ClFZa88MkffgTik5m/fWOLFjs1BpAC/EGg==",
+          "shasum": "1b080d4624f622bd57e9586deeb19c0d750f5034"
+        }
+      }
+    },
+    {
+      "version": "10.0.0",
+      "variantId": "registry-package.openupm.com-c87a0491620cdcb1",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "d8a515b993079c9a4ab59fa6edaa7c0d5bc3488b",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-10.0.0.tgz",
+      "upstreamIntegrity": "sha512-o7UQrfJxN+pxhFKfqm3WgGHXoj0GFoFRWZCz/gvsd4yE4zYxwYlw2x0FDnkyc7ElTov/kRcEEGa4gRp7F2OcqA==",
+      "upstreamShasum": "8e0196d0086a1c75ec22038ed5804bcafff4ae83",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.183",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/10.0.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-o7UQrfJxN+pxhFKfqm3WgGHXoj0GFoFRWZCz/gvsd4yE4zYxwYlw2x0FDnkyc7ElTov/kRcEEGa4gRp7F2OcqA==",
+          "shasum": "8e0196d0086a1c75ec22038ed5804bcafff4ae83"
+        }
+      }
+    },
+    {
+      "version": "10.1.0",
+      "variantId": "registry-package.openupm.com-91b02fe8829798c5",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "7c3edec779240652d0ab5c4684eee4deacc6e094",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-10.1.0.tgz",
+      "upstreamIntegrity": "sha512-nPMIR6fOg2z1Wd3BpgC1thRPjZ/tCYnaNfDvYBQG8mWZDuDKzf1Dj20RJa8La7n34S4/EYBnhIJIMffHRpPZig==",
+      "upstreamShasum": "e57dce56baf9c0a918745efc07ad46f80d934742",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.183",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/10.1.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nPMIR6fOg2z1Wd3BpgC1thRPjZ/tCYnaNfDvYBQG8mWZDuDKzf1Dj20RJa8La7n34S4/EYBnhIJIMffHRpPZig==",
+          "shasum": "e57dce56baf9c0a918745efc07ad46f80d934742"
+        }
+      }
+    },
+    {
+      "version": "10.2.0",
+      "variantId": "registry-package.openupm.com-270f1ecf581b34b7",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "07607442c0b1bcf827aef6b528006a2910457263",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-10.2.0.tgz",
+      "upstreamIntegrity": "sha512-l3KzVNIEX5ojJLJKnlw2jmtfn2JNt9SXskRZxQ9IMVCN9dh9LeiPbGashSHdtsI5KOW3RiBstS+qx5D9cf6kJA==",
+      "upstreamShasum": "caf13495aa374f09efcaf1b49702d2c312515438",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.185",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/10.2.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-l3KzVNIEX5ojJLJKnlw2jmtfn2JNt9SXskRZxQ9IMVCN9dh9LeiPbGashSHdtsI5KOW3RiBstS+qx5D9cf6kJA==",
+          "shasum": "caf13495aa374f09efcaf1b49702d2c312515438"
+        }
+      }
+    },
+    {
+      "version": "10.3.0",
+      "variantId": "registry-package.openupm.com-27f6ee1f5b6a6947",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "b46eeca9e88172b08798100aa80b495fe6a7ba76",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-10.3.0.tgz",
+      "upstreamIntegrity": "sha512-dPTw6XKZB3WFF3JnM/1Bd2zEzsyHj6F8bD49IkikgERcAzd0wgLAsP08ELjVWcXN7OIxYLd1oN+Vwmw4qiqQCA==",
+      "upstreamShasum": "4436443521be4c5ca62853c2de8f9985dec4f069",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.186",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/10.3.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dPTw6XKZB3WFF3JnM/1Bd2zEzsyHj6F8bD49IkikgERcAzd0wgLAsP08ELjVWcXN7OIxYLd1oN+Vwmw4qiqQCA==",
+          "shasum": "4436443521be4c5ca62853c2de8f9985dec4f069"
+        }
+      }
+    },
+    {
+      "version": "10.4.0",
+      "variantId": "registry-package.openupm.com-b90e2f509b27a0aa",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "05131f0a4dfb0a6112c2fbba4216037cb97aeb32",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-10.4.0.tgz",
+      "upstreamIntegrity": "sha512-tJQJzc/ZxI+S5iHijDd23IbSc68VvvUjkAoN5MGpjMCPiQeKFFFXpeI19Tm1py0naJYqu1aqr6TmKnvt36DH7g==",
+      "upstreamShasum": "7ac5be2506a9bbedbce1680eed2d5f963b986fa9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.186",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/10.4.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tJQJzc/ZxI+S5iHijDd23IbSc68VvvUjkAoN5MGpjMCPiQeKFFFXpeI19Tm1py0naJYqu1aqr6TmKnvt36DH7g==",
+          "shasum": "7ac5be2506a9bbedbce1680eed2d5f963b986fa9"
+        }
+      }
+    },
+    {
+      "version": "10.4.1",
+      "variantId": "registry-package.openupm.com-0f765f6e42e13261",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "2259af2e9e6304750f65fb94d010d26bea062420",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-10.4.1.tgz",
+      "upstreamIntegrity": "sha512-SR2f1gh5LUip39etRwz0JT/Cw1TVzohbEc9OvRCp6ZdrLSwJB5wq7P9KZG2n7SY06dCDxO7wQgPpFNz3OyjNdw==",
+      "upstreamShasum": "096b41efc8e7aed22aca4e485fca2281bc1e3405",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.186",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/10.4.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SR2f1gh5LUip39etRwz0JT/Cw1TVzohbEc9OvRCp6ZdrLSwJB5wq7P9KZG2n7SY06dCDxO7wQgPpFNz3OyjNdw==",
+          "shasum": "096b41efc8e7aed22aca4e485fca2281bc1e3405"
+        }
+      }
+    },
+    {
+      "version": "10.4.2",
+      "variantId": "registry-package.openupm.com-bdae6ac2dfe685d4",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "0f0ef22a4a4b1894951539831f9e3947ff634a75",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-10.4.2.tgz",
+      "upstreamIntegrity": "sha512-Ix4KT3owf8xd+9YBu67nC8s8th1oK3vFFB/yOLi6AKPSVGjowtUme1LLbm4NkR65e6W7fUbfO+iGzEi2j5keJA==",
+      "upstreamShasum": "d4356660803dfef915d9125334b3642d50e14cdf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.186",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/10.4.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ix4KT3owf8xd+9YBu67nC8s8th1oK3vFFB/yOLi6AKPSVGjowtUme1LLbm4NkR65e6W7fUbfO+iGzEi2j5keJA==",
+          "shasum": "d4356660803dfef915d9125334b3642d50e14cdf"
+        }
+      }
+    },
+    {
+      "version": "10.5.0",
+      "variantId": "registry-package.openupm.com-e312dc8f748118be",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "ffdcf8fdbb21f4408476ed172b99cf40e89e7aeb",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-10.5.0.tgz",
+      "upstreamIntegrity": "sha512-bnBijIqB416S3w9b239yb+K5AGBmSpiKcTqW3V5GrtaSPXkuVPAh0Cu9idv5LgNnlfMsjopbz7TnbTT9cIbAzg==",
+      "upstreamShasum": "904d029ee1a0d64da2587f44a4e82cf121922ab6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.186",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/10.5.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bnBijIqB416S3w9b239yb+K5AGBmSpiKcTqW3V5GrtaSPXkuVPAh0Cu9idv5LgNnlfMsjopbz7TnbTT9cIbAzg==",
+          "shasum": "904d029ee1a0d64da2587f44a4e82cf121922ab6"
+        }
+      }
+    },
+    {
+      "version": "10.6.0",
+      "variantId": "registry-package.openupm.com-65a1f99facec2cfa",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "bb5f793b863de2a5014207b2980c25f9e808a5b9",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-10.6.0.tgz",
+      "upstreamIntegrity": "sha512-jKPyb2UpLrpmv6fYv/frX5V5LfJ3A7rIXkbihiVgkxqaizFCCJHkEg0EKkZhsjy09yV/39+IQ7EYjsxblj2geg==",
+      "upstreamShasum": "c4c10d11be51bf71645413dea85729f25910b9eb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.186",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/10.6.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jKPyb2UpLrpmv6fYv/frX5V5LfJ3A7rIXkbihiVgkxqaizFCCJHkEg0EKkZhsjy09yV/39+IQ7EYjsxblj2geg==",
+          "shasum": "c4c10d11be51bf71645413dea85729f25910b9eb"
+        }
+      }
+    },
+    {
+      "version": "10.7.0",
+      "variantId": "registry-package.openupm.com-eed6439d938d27b7",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "89347588df3266a96e03ffa0b90a6bf94254f101",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-10.7.0.tgz",
+      "upstreamIntegrity": "sha512-ugmf/IS2nkK89yjXq6o2z1vtLifUo8nTCeBEMSl3Dbxx9yOxmPfFQ482DKDU+zl/IYFr7hIX7LxUx5e8zJuIHQ==",
+      "upstreamShasum": "293e39f5291ccb797a465a1de59d4b6a2fc51a97",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.186",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/10.7.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ugmf/IS2nkK89yjXq6o2z1vtLifUo8nTCeBEMSl3Dbxx9yOxmPfFQ482DKDU+zl/IYFr7hIX7LxUx5e8zJuIHQ==",
+          "shasum": "293e39f5291ccb797a465a1de59d4b6a2fc51a97"
+        }
+      }
+    },
+    {
+      "version": "11.0.0",
+      "variantId": "registry-package.openupm.com-3592cbf0ce542935",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": "cbc07311c79c2106e68339c9bb900396f77b202b",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-11.0.0.tgz",
+      "upstreamIntegrity": "sha512-3wavF/TLT4H7XThYeBgcpbgyx/mCtCmRQkcyLqL8uOgSoS2/c0KywgeTUKI6VhghVufuNMkK2skcnHUlmVQxBg==",
+      "upstreamShasum": "a824513241ef4ddafc5a609319416460a497ca9d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.186",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/11.0.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3wavF/TLT4H7XThYeBgcpbgyx/mCtCmRQkcyLqL8uOgSoS2/c0KywgeTUKI6VhghVufuNMkK2skcnHUlmVQxBg==",
+          "shasum": "a824513241ef4ddafc5a609319416460a497ca9d"
+        }
+      }
+    },
+    {
+      "version": "11.1.0",
+      "variantId": "registry-package.openupm.com-c6d2988638145ffe",
+      "sourceUrl": "https://package.openupm.com/com.google.ads.mobile",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-11.1.0.tgz",
+      "upstreamIntegrity": "sha512-ZYVzaz6ZiXsPywl20qMEVs/V6CUHvJdPQehVy0daPPxTSi5x+3TCACklkoROCDZrFix0fbcoct7yGcQo2/zVuw==",
+      "upstreamShasum": "233c75bad88873b415bd108c750a146776365a43",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.187",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/11.1.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZYVzaz6ZiXsPywl20qMEVs/V6CUHvJdPQehVy0daPPxTSi5x+3TCACklkoROCDZrFix0fbcoct7yGcQo2/zVuw==",
+          "shasum": "233c75bad88873b415bd108c750a146776365a43"
+        }
+      }
+    },
+    {
+      "version": "11.2.0",
+      "variantId": "registry-package.openupm.com-32f8007b27d1fb2e",
+      "sourceUrl": "https://github.com/googleads/googleads-mobile-unity.git",
+      "sourceRef": "8b2a619e7465c1ecdf5052241586a8f1c1008773",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-11.2.0.tgz",
+      "upstreamIntegrity": "sha512-Bfo45YoR8HA3tOCBhzXIPskYcpHpPK3zL8tU7Qz36mPhToTN8udK0DfPnR2xPA95vcSVkC4GoKhbzfAI9ExKqw==",
+      "upstreamShasum": "bc1d2ff450ea84e99744c8a21e660a32c24d5b8e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.187",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/11.2.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Bfo45YoR8HA3tOCBhzXIPskYcpHpPK3zL8tU7Qz36mPhToTN8udK0DfPnR2xPA95vcSVkC4GoKhbzfAI9ExKqw==",
+          "shasum": "bc1d2ff450ea84e99744c8a21e660a32c24d5b8e"
+        }
+      }
+    },
+    {
+      "version": "11.3.0",
+      "variantId": "registry-package.openupm.com-6ddb375ee2addec3",
+      "sourceUrl": "https://github.com/googleads/googleads-mobile-unity.git",
+      "sourceRef": "1c594958ab28f726feae74fe88734953999f2fba",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-11.3.0.tgz",
+      "upstreamIntegrity": "sha512-0xj4RHdx6N/4dSV9ohtbONk9B3/UfLWh5oGayUWzLW3y8QIHMM7o8PEGTVNyhpLkhmezahtRkz2jrTu6aOV45w==",
+      "upstreamShasum": "d3eae59ba596620a68df5b2b2ae25fdf6f7eb20c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.187",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/11.3.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-0xj4RHdx6N/4dSV9ohtbONk9B3/UfLWh5oGayUWzLW3y8QIHMM7o8PEGTVNyhpLkhmezahtRkz2jrTu6aOV45w==",
+          "shasum": "d3eae59ba596620a68df5b2b2ae25fdf6f7eb20c"
+        }
+      }
+    },
+    {
+      "version": "11.4.0",
+      "variantId": "registry-package.openupm.com-fa71d5d886de4268",
+      "sourceUrl": "https://github.com/googleads/googleads-mobile-unity.git",
+      "sourceRef": "fa80d8ef9dd9eca506aa39fff19e28a2d926929c",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-11.4.0.tgz",
+      "upstreamIntegrity": "sha512-L4bDq6tkUEaiK3pKL9nazFT9yAaFCqJXDH4wDKU0cFDFSJKCPQE42O6dQIHZ6z1z3DOZfQnSJ25ocpln8p6XIg==",
+      "upstreamShasum": "f9b0d5b5954b4db0cfaa655a544f09412c6da4d0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.187",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/11.4.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-L4bDq6tkUEaiK3pKL9nazFT9yAaFCqJXDH4wDKU0cFDFSJKCPQE42O6dQIHZ6z1z3DOZfQnSJ25ocpln8p6XIg==",
+          "shasum": "f9b0d5b5954b4db0cfaa655a544f09412c6da4d0"
+        }
+      }
+    },
+    {
+      "version": "11.5.0",
+      "variantId": "registry-package.openupm.com-85189c40c75c3149",
+      "sourceUrl": "https://github.com/googleads/googleads-mobile-unity.git",
+      "sourceRef": "12a1edb48e7000e6b3531ada4bcbe23bae761065",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-11.5.0.tgz",
+      "upstreamIntegrity": "sha512-348jMWb3jw9IFpnRXS4PlbJleOWIGgyJ7cZvHaUXfrlb50smYQ4wSsCEF6hRW8XdS2tETS3pqLUZLfCMy+BJJA==",
+      "upstreamShasum": "0e7fbe0879502e9f16967990993b1ddd01d9aea7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.187",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/11.5.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-348jMWb3jw9IFpnRXS4PlbJleOWIGgyJ7cZvHaUXfrlb50smYQ4wSsCEF6hRW8XdS2tETS3pqLUZLfCMy+BJJA==",
+          "shasum": "0e7fbe0879502e9f16967990993b1ddd01d9aea7"
+        }
+      }
+    },
+    {
+      "version": "11.6.0",
+      "variantId": "registry-package.openupm.com-1ebec1a9763fbd66",
+      "sourceUrl": "https://github.com/googleads/googleads-mobile-unity.git",
+      "sourceRef": "8ea7b043986dd7221b001023c85d569fff810666",
+      "downloadUrl": "https://package.openupm.com/com.google.ads.mobile/-/com.google.ads.mobile-11.6.0.tgz",
+      "upstreamIntegrity": "sha512-dXGsphF3RyoGNq3uDkltXd/ktnp13lF2TduwMVDNyyETaDQHBHVXoQK5b8SEMz/se4+2vfjk3JA49ZjkzkL3Dg==",
+      "upstreamShasum": "dc1fb329e84b18006570c8a30671f43ea3aff669",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.external-dependency-manager": "2.1.0",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.ads.mobile/11.6.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dXGsphF3RyoGNq3uDkltXd/ktnp13lF2TduwMVDNyyETaDQHBHVXoQK5b8SEMz/se4+2vfjk3JA49ZjkzkL3Dg==",
+          "shasum": "dc1fb329e84b18006570c8a30671f43ea3aff669"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "11.6.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.google.ads.mobile.yml",
+  "definitionBlobSha": "c0f2b415b722af1c810afd6f78797e36817ac325",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "10.0.0",
+    "10.4.2",
+    "10.7.0",
+    "11.0.0",
+    "11.2.0",
+    "11.5.0",
+    "9.0.0",
+    "9.1.0",
+    "9.2.0"
+  ],
+  "selectedVersions": [
+    "10.0.0",
+    "10.4.2",
+    "10.7.0",
+    "11.0.0",
+    "11.2.0",
+    "11.5.0",
+    "9.0.0",
+    "9.1.0",
+    "9.2.0",
+    "11.6.0"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 26,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

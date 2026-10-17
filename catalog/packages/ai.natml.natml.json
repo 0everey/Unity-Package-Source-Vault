@@ -1,0 +1,830 @@
+{
+  "schemaVersion": "1.0",
+  "id": "ai.natml.natml",
+  "displayName": "ai.natml.natml",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml",
+      "fetchedAt": "2026-10-17T17:36:17.650300Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.11",
+      "variantId": "registry-package.openupm.com-7cbf9de85528e735",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "ecfe1ea8f5f9e9833fab071062b2f239eb4ab97e",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.0.11.tgz",
+      "upstreamIntegrity": "sha512-dwHvUcvdr9xO0EQSqNXe9GvPIANwQlf+L7tMjT1G8TI5vkCF/Uwi+DQUGGEBnE11gtjsPv6iVglabOvU0bDxbg==",
+      "upstreamShasum": "03292fadb86a9faceccb4c10e045335994940f6a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.0.11",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dwHvUcvdr9xO0EQSqNXe9GvPIANwQlf+L7tMjT1G8TI5vkCF/Uwi+DQUGGEBnE11gtjsPv6iVglabOvU0bDxbg==",
+          "shasum": "03292fadb86a9faceccb4c10e045335994940f6a"
+        }
+      }
+    },
+    {
+      "version": "1.0.12",
+      "variantId": "registry-package.openupm.com-1d29008c1bd7f9eb",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "3491201fc6d65c7e722063dc79ae28d01dd18b6d",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.0.12.tgz",
+      "upstreamIntegrity": "sha512-3hzqfRs/1/FPQluUiGVok67su+JOBnGg+JPBQxquC9W6m6wxntdsJZK8CdXfCMr9dQ0l+IADpzfawClwYvn8OA==",
+      "upstreamShasum": "74df55159e7b96cce92a8e5dab079b8843ed2961",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.8"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.0.12",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3hzqfRs/1/FPQluUiGVok67su+JOBnGg+JPBQxquC9W6m6wxntdsJZK8CdXfCMr9dQ0l+IADpzfawClwYvn8OA==",
+          "shasum": "74df55159e7b96cce92a8e5dab079b8843ed2961"
+        }
+      }
+    },
+    {
+      "version": "1.0.13",
+      "variantId": "registry-package.openupm.com-41b9ad590db6ab0e",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "2c1ab2be1616bd9826afe1e5ee6d0778465e4ea7",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.0.13.tgz",
+      "upstreamIntegrity": "sha512-PYl6ZVuPYKPPhIu96FV90EEkOYem4jXXwwGDhZLH8juc4OXwffuAtjLiZtOQCH36Atrys0bmsbcE3pdMEj0x9g==",
+      "upstreamShasum": "8e7fdd68531352b3fcd09c07d8ae62128593ee59",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.0.13",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PYl6ZVuPYKPPhIu96FV90EEkOYem4jXXwwGDhZLH8juc4OXwffuAtjLiZtOQCH36Atrys0bmsbcE3pdMEj0x9g==",
+          "shasum": "8e7fdd68531352b3fcd09c07d8ae62128593ee59"
+        }
+      }
+    },
+    {
+      "version": "1.0.15",
+      "variantId": "registry-package.openupm.com-a2d986d9b3727f2b",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "bf1f44268bf669e2d2c15869a7e7bc0c6a1d5f94",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.0.15.tgz",
+      "upstreamIntegrity": "sha512-kdIUllP3KFE86NaTYCy3t9MDeTBgBWMRKtMWxg8BkE4rg0dd2oVOSlLWgRmaC0tp+EeEbYM6o88h5b76EWwF2A==",
+      "upstreamShasum": "368b3b3fbec77f1bf3e624be91a29e519230530c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.0.15",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kdIUllP3KFE86NaTYCy3t9MDeTBgBWMRKtMWxg8BkE4rg0dd2oVOSlLWgRmaC0tp+EeEbYM6o88h5b76EWwF2A==",
+          "shasum": "368b3b3fbec77f1bf3e624be91a29e519230530c"
+        }
+      }
+    },
+    {
+      "version": "1.0.16",
+      "variantId": "registry-package.openupm.com-97d90b729e15f0dc",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "9fc82ec9555d992af75e33bc3c1bdb9cba371753",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.0.16.tgz",
+      "upstreamIntegrity": "sha512-fBlOl02hfYuZheafaKbZmqUcC/krA816hdRkJ2LuCWGXDgKWrCbr+NHmsm2mxeqKcuYVQ1MZcbpqnHmSA+F1ug==",
+      "upstreamShasum": "c947d230c34e14720fc81f32a1d6c3f96a7b5652",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.0.16",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fBlOl02hfYuZheafaKbZmqUcC/krA816hdRkJ2LuCWGXDgKWrCbr+NHmsm2mxeqKcuYVQ1MZcbpqnHmSA+F1ug==",
+          "shasum": "c947d230c34e14720fc81f32a1d6c3f96a7b5652"
+        }
+      }
+    },
+    {
+      "version": "1.0.17",
+      "variantId": "registry-package.openupm.com-adea0260ba88b151",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "19d13d4dbcae0f0d979db853d10b009fbfc3d8a4",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.0.17.tgz",
+      "upstreamIntegrity": "sha512-yjIPzI6tVYrzI+ZCevjtfNHu997tLzZ7oj2phgx0AmgXbsA4rCRzvVwM7VzwYOdW+yUSVgQYdmMcU8yKb/UjFg==",
+      "upstreamShasum": "09fdef81f6b186d8bea6b56e6a1fdb6fac7bd604",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.0.17",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yjIPzI6tVYrzI+ZCevjtfNHu997tLzZ7oj2phgx0AmgXbsA4rCRzvVwM7VzwYOdW+yUSVgQYdmMcU8yKb/UjFg==",
+          "shasum": "09fdef81f6b186d8bea6b56e6a1fdb6fac7bd604"
+        }
+      }
+    },
+    {
+      "version": "1.0.18",
+      "variantId": "registry-package.openupm.com-8c5eda3800225712",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "31f0a9988c9ab10e50584eac9cd780cb21d15179",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.0.18.tgz",
+      "upstreamIntegrity": "sha512-XxdbvvDTCQxyz5i2X7rydT1j+eAsJqIRKGYf9VwHPjsvuAxe649vmlRzECwNz6K378m4XaVcfDOOaz4e4Ns+zA==",
+      "upstreamShasum": "df38f92ca1989a7e2f888d01e346be8c2bd4aa57",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.0.18",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XxdbvvDTCQxyz5i2X7rydT1j+eAsJqIRKGYf9VwHPjsvuAxe649vmlRzECwNz6K378m4XaVcfDOOaz4e4Ns+zA==",
+          "shasum": "df38f92ca1989a7e2f888d01e346be8c2bd4aa57"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-5603f430c43aa261",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "30dce86150efbc032325aac667208c639a448262",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-0Pc8GvkOBT6fP5Vm4gbCrKkES68lPuEK6qJgWSOQTcaEX2L3FbK3Jme/3p7gcpdZrOyszd4+rThgogLsILpPRA==",
+      "upstreamShasum": "1006c6bf34f13180e0453d780c6a334ff4ed606f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.0",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-0Pc8GvkOBT6fP5Vm4gbCrKkES68lPuEK6qJgWSOQTcaEX2L3FbK3Jme/3p7gcpdZrOyszd4+rThgogLsILpPRA==",
+          "shasum": "1006c6bf34f13180e0453d780c6a334ff4ed606f"
+        }
+      }
+    },
+    {
+      "version": "1.1.1",
+      "variantId": "registry-package.openupm.com-fd7924c7f320321e",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "ba2a9c789b50443f3d257a45c8d3cc89ddaa20ca",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.1.tgz",
+      "upstreamIntegrity": "sha512-4UJSapQijmd4QhUM8vG2XJYugylYeDWwKgGtM/euzm0corHsQnaRircvqoOMHAl7+EFD+MJwBdKQDfzj0B5UQQ==",
+      "upstreamShasum": "0315ad86088c51cd471a6d62498f03043ebe2f95",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.1",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4UJSapQijmd4QhUM8vG2XJYugylYeDWwKgGtM/euzm0corHsQnaRircvqoOMHAl7+EFD+MJwBdKQDfzj0B5UQQ==",
+          "shasum": "0315ad86088c51cd471a6d62498f03043ebe2f95"
+        }
+      }
+    },
+    {
+      "version": "1.1.2",
+      "variantId": "registry-package.openupm.com-fc11f7855425b136",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "ceff1e6cfbc59aab295b73ef42a7e26d04a718bc",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.2.tgz",
+      "upstreamIntegrity": "sha512-6Fw43ebXmSFN4KtzyItT3ftLA/lZx0l0/gCh6a2L4I4d0l+nqmyVo+neG6y85/eBbmJbDedFuredu+br83Jr0g==",
+      "upstreamShasum": "2e278440adbcc7c2d8730ed48a29b8dc127358cd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.2",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6Fw43ebXmSFN4KtzyItT3ftLA/lZx0l0/gCh6a2L4I4d0l+nqmyVo+neG6y85/eBbmJbDedFuredu+br83Jr0g==",
+          "shasum": "2e278440adbcc7c2d8730ed48a29b8dc127358cd"
+        }
+      }
+    },
+    {
+      "version": "1.1.3",
+      "variantId": "registry-package.openupm.com-f19ab43b0afb2521",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "810cce6e3c4236e90807c3ff6e0ba8f500971130",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.3.tgz",
+      "upstreamIntegrity": "sha512-zME1wd3xrsKIVlZckoScfCp+9jMFNR53Ph1+YvanVOm2SHBwSxC9H2Kc2kjBR1W/TYpehfP9ZrNAqY68pZekkQ==",
+      "upstreamShasum": "3167b08fa54617aa3659ac0b2d3785246303e55d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.3",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zME1wd3xrsKIVlZckoScfCp+9jMFNR53Ph1+YvanVOm2SHBwSxC9H2Kc2kjBR1W/TYpehfP9ZrNAqY68pZekkQ==",
+          "shasum": "3167b08fa54617aa3659ac0b2d3785246303e55d"
+        }
+      }
+    },
+    {
+      "version": "1.1.4",
+      "variantId": "registry-package.openupm.com-bc0dc544da45a415",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "8dd9733af82a8d3601770053becee1c006425047",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.4.tgz",
+      "upstreamIntegrity": "sha512-ww3FzkQwlg1plyA4TT8L18j1ol2KXPI3lMaIaL080KjkZw68lgmac6W61gwm9JsHqgRFSsYX6C/r52ddBDA4oA==",
+      "upstreamShasum": "60096b2bcd6433e9c2563df7579a0f1e6850acc7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.20",
+        "com.unity.nuget.newtonsoft-json": "3.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.4",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ww3FzkQwlg1plyA4TT8L18j1ol2KXPI3lMaIaL080KjkZw68lgmac6W61gwm9JsHqgRFSsYX6C/r52ddBDA4oA==",
+          "shasum": "60096b2bcd6433e9c2563df7579a0f1e6850acc7"
+        }
+      }
+    },
+    {
+      "version": "1.1.5",
+      "variantId": "registry-package.openupm.com-1739e48cc64d8df1",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "375329426a26470fce744b7c354d63fa7576045f",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.5.tgz",
+      "upstreamIntegrity": "sha512-BKVXBzEAqNZFKH6hFwII6SvWokbjfR1jwAMet2AYWIb18ekhPKv2Fbn8Jekl6GRQSjEVkRpVi5MsL9eVXPa6kg==",
+      "upstreamShasum": "78e6d3343031afa12ea969cbf6d0a8643133479b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.20",
+        "com.unity.nuget.newtonsoft-json": "3.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.5",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BKVXBzEAqNZFKH6hFwII6SvWokbjfR1jwAMet2AYWIb18ekhPKv2Fbn8Jekl6GRQSjEVkRpVi5MsL9eVXPa6kg==",
+          "shasum": "78e6d3343031afa12ea969cbf6d0a8643133479b"
+        }
+      }
+    },
+    {
+      "version": "1.1.6",
+      "variantId": "registry-package.openupm.com-269898407e7938bd",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "14fc208c1e53ca2a8cfeae6f0696cfa5482aac8f",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.6.tgz",
+      "upstreamIntegrity": "sha512-93sCVG+GDkPNYYHgC1aXms5I2OgHB1kNwNTBNsFLKwqu84YESc3RZjgHDZbZbEW0LzczCWSwPbhWhT8lc4Bx3g==",
+      "upstreamShasum": "5c0b259c0b148037b2dcd6c579b1708aa4d37d13",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.20",
+        "com.unity.nuget.newtonsoft-json": "3.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.6",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-93sCVG+GDkPNYYHgC1aXms5I2OgHB1kNwNTBNsFLKwqu84YESc3RZjgHDZbZbEW0LzczCWSwPbhWhT8lc4Bx3g==",
+          "shasum": "5c0b259c0b148037b2dcd6c579b1708aa4d37d13"
+        }
+      }
+    },
+    {
+      "version": "1.1.7",
+      "variantId": "registry-package.openupm.com-f52e9a1a915677c2",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "92f8da879efc7774fc1115be2fea3de552f2f535",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.7.tgz",
+      "upstreamIntegrity": "sha512-EoFQs9z9eyRaZiWoZm544uYClRrz9hRE1ZIV0jKD9QqPkIaVqgPUZ+QEVyjl8K/zCAJ0uUC/lhTvhZJqR43spA==",
+      "upstreamShasum": "7c7951e221ee84f3452c7ac5e49692e7ba7633bb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "ai.natml.hub": "1.0.20",
+        "com.unity.nuget.newtonsoft-json": "3.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.7",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-EoFQs9z9eyRaZiWoZm544uYClRrz9hRE1ZIV0jKD9QqPkIaVqgPUZ+QEVyjl8K/zCAJ0uUC/lhTvhZJqR43spA==",
+          "shasum": "7c7951e221ee84f3452c7ac5e49692e7ba7633bb"
+        }
+      }
+    },
+    {
+      "version": "1.1.8",
+      "variantId": "registry-package.openupm.com-bac2ddb3423a6f7e",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "4cffc377661add2952cb029902bc953fdcd67bad",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.8.tgz",
+      "upstreamIntegrity": "sha512-UlIVEmG8/n7ZU801gYd9W/inbcsAkrB1UGTDs7dVl1jDLfH9n7w48PW3+dbHSdmbjbotzyw/mYXsez8Y7GsKPg==",
+      "upstreamShasum": "1b738d215c42e5ec05bc27b58f07943e6b91905a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.8",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-UlIVEmG8/n7ZU801gYd9W/inbcsAkrB1UGTDs7dVl1jDLfH9n7w48PW3+dbHSdmbjbotzyw/mYXsez8Y7GsKPg==",
+          "shasum": "1b738d215c42e5ec05bc27b58f07943e6b91905a"
+        }
+      }
+    },
+    {
+      "version": "1.1.9",
+      "variantId": "registry-package.openupm.com-f59e9c82e6f70457",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "faa8364b5cd7f13461c531341c2b069891e2ad20",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.9.tgz",
+      "upstreamIntegrity": "sha512-yon64MbShl59yx66M/z4GkLGT2KQGo+3UVoj8nKXzfC44kjGuseAZFa2ynaoNwgI5mecKwk4V2+fczt3m7W0Ag==",
+      "upstreamShasum": "f5a2385acce6d499b3c1b972e756e7959ad83ab9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.9",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yon64MbShl59yx66M/z4GkLGT2KQGo+3UVoj8nKXzfC44kjGuseAZFa2ynaoNwgI5mecKwk4V2+fczt3m7W0Ag==",
+          "shasum": "f5a2385acce6d499b3c1b972e756e7959ad83ab9"
+        }
+      }
+    },
+    {
+      "version": "1.1.10",
+      "variantId": "registry-package.openupm.com-4bd430bd1ddb9567",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "7548a0912b859eff6a3c30cb4cedd80ddfeec789",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.10.tgz",
+      "upstreamIntegrity": "sha512-7Lri8d+xhMUGQNIRU4oa3OGZnr5CQN5ZJqx1/6Gah+pzmo8NySE95cfEYnfO3jp2hc1AtOpe8Hf/wLL4PNzaSg==",
+      "upstreamShasum": "f2fe804823108e6a4cffe7c0546a4a84a04315c8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.10",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7Lri8d+xhMUGQNIRU4oa3OGZnr5CQN5ZJqx1/6Gah+pzmo8NySE95cfEYnfO3jp2hc1AtOpe8Hf/wLL4PNzaSg==",
+          "shasum": "f2fe804823108e6a4cffe7c0546a4a84a04315c8"
+        }
+      }
+    },
+    {
+      "version": "1.1.11",
+      "variantId": "registry-package.openupm.com-40732137470a19ab",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "538055d764c9a4c7779fe3589178abe17b109892",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.11.tgz",
+      "upstreamIntegrity": "sha512-WDO3Z7CNjCl1nFiEbKm4WCxNVVfOZEVol35djlAgdyEMsIU/LzwltM/GvOsynPSkpQ7LyinSRyg6MEYSUPtQCw==",
+      "upstreamShasum": "f36b47e19eb07a711faf6d5e547191b5b113d61d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.11",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WDO3Z7CNjCl1nFiEbKm4WCxNVVfOZEVol35djlAgdyEMsIU/LzwltM/GvOsynPSkpQ7LyinSRyg6MEYSUPtQCw==",
+          "shasum": "f36b47e19eb07a711faf6d5e547191b5b113d61d"
+        }
+      }
+    },
+    {
+      "version": "1.1.12",
+      "variantId": "registry-package.openupm.com-588ae81e201b8485",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "ec4d7cf9d582dd1b7fec277481ce03803f057357",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.12.tgz",
+      "upstreamIntegrity": "sha512-Dx2xi8Qczg2ROi8gGJnZ5QIFrwQ6HtknGPTBkCyCw5Z6UHURMh0+8LPxiEF71O/HN6lZUGRkJSYWjSUcSE2YCw==",
+      "upstreamShasum": "cd992f94f566871675803410eb329efd10ed3a83",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.12",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Dx2xi8Qczg2ROi8gGJnZ5QIFrwQ6HtknGPTBkCyCw5Z6UHURMh0+8LPxiEF71O/HN6lZUGRkJSYWjSUcSE2YCw==",
+          "shasum": "cd992f94f566871675803410eb329efd10ed3a83"
+        }
+      }
+    },
+    {
+      "version": "1.1.13",
+      "variantId": "registry-package.openupm.com-7b6bbe2ca9f31a1b",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "3d599fecba87fe31aa9b6b625de9ed4d814fcf8e",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.13.tgz",
+      "upstreamIntegrity": "sha512-U+CiwmW9O+sDU+Wi5L8tqleqH4tMusbvWP4VESPHfw0hbIIVtqQMazSirUdmL1E6OI9ft6dsC6Z24gLKYojcmg==",
+      "upstreamShasum": "39b77ac5d888eeb6e1b05ed491f59e5e5b8363e8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.13",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-U+CiwmW9O+sDU+Wi5L8tqleqH4tMusbvWP4VESPHfw0hbIIVtqQMazSirUdmL1E6OI9ft6dsC6Z24gLKYojcmg==",
+          "shasum": "39b77ac5d888eeb6e1b05ed491f59e5e5b8363e8"
+        }
+      }
+    },
+    {
+      "version": "1.1.15",
+      "variantId": "registry-package.openupm.com-9523f267f8615ad0",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "1fa584712917dc97dfabeee4e2e314d75f09e71a",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.15.tgz",
+      "upstreamIntegrity": "sha512-LJnU57R1Si4kLWTVrqfyfV1uO/Eaxgtjzaiko96p8OYeate/Gt/drv3hedEMvHTuWSkjcyH7M1JIOQEd+tgvFw==",
+      "upstreamShasum": "d173b38f6e29c30c6a2c9c82b5a6b7b04ddf2ea7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.15",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LJnU57R1Si4kLWTVrqfyfV1uO/Eaxgtjzaiko96p8OYeate/Gt/drv3hedEMvHTuWSkjcyH7M1JIOQEd+tgvFw==",
+          "shasum": "d173b38f6e29c30c6a2c9c82b5a6b7b04ddf2ea7"
+        }
+      }
+    },
+    {
+      "version": "1.1.16",
+      "variantId": "registry-package.openupm.com-74d47cdea893db0c",
+      "sourceUrl": "https://github.com/natmlx/NatML.git",
+      "sourceRef": "c9ee9db50caceb57b25a45a1954466d695a4765b",
+      "downloadUrl": "https://package.openupm.com/ai.natml.natml/-/ai.natml.natml-1.1.16.tgz",
+      "upstreamIntegrity": "sha512-q+nvOZ4gaFZtP0nPBT1kCUyMAk5GJ6YeGnLXeVa2LUmm6ym7aOIr1Di63Nc+FEyVltNA5dpMUOI/PC6i7dmn6w==",
+      "upstreamShasum": "1caf99a1fa81791c7518249c5bb49c6ad192ff25",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/ai.natml.natml/1.1.16",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-q+nvOZ4gaFZtP0nPBT1kCUyMAk5GJ6YeGnLXeVa2LUmm6ym7aOIr1Di63Nc+FEyVltNA5dpMUOI/PC6i7dmn6w==",
+          "shasum": "1caf99a1fa81791c7518249c5bb49c6ad192ff25"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.1.16"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/ai.natml.natml.yml",
+  "definitionBlobSha": "933785d2582699451fd2d0cc4468f137c04cbca8",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "1.0.13",
+    "1.0.18",
+    "1.0.19",
+    "1.1.16",
+    "1.1.2",
+    "1.1.6"
+  ],
+  "selectedVersions": [
+    "1.0.13",
+    "1.0.18",
+    "1.1.16",
+    "1.1.2",
+    "1.1.6"
+  ],
+  "missingTargetVersions": [
+    "1.0.19"
+  ],
+  "allListedVersions": 23,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

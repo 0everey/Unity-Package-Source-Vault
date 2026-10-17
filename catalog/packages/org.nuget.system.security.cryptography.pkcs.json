@@ -1,0 +1,2146 @@
+{
+  "schemaVersion": "1.0",
+  "id": "org.nuget.system.security.cryptography.pkcs",
+  "displayName": "org.nuget.system.security.cryptography.pkcs",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs",
+      "fetchedAt": "2026-10-17T17:45:43.583987Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "4.4.0",
+      "variantId": "registry-package.openupm.com-8f4da7169e58bbdb",
+      "sourceUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs",
+      "sourceRef": "",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-4.4.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "44890e0cff886f2ac8b598b9f2499c8afa3cc245",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/4.4.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "44890e0cff886f2ac8b598b9f2499c8afa3cc245"
+        }
+      }
+    },
+    {
+      "version": "4.5.0",
+      "variantId": "registry-package.openupm.com-6d1e3f63d77e599a",
+      "sourceUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs",
+      "sourceRef": "",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-4.5.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "05e5261c4ecd2727258546f2647b18bdf12dcf96",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.buffers": "4.4.0",
+        "org.nuget.system.memory": "4.5.0",
+        "org.nuget.system.security.cryptography.cng": "4.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/4.5.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "05e5261c4ecd2727258546f2647b18bdf12dcf96"
+        }
+      }
+    },
+    {
+      "version": "4.5.1",
+      "variantId": "registry-package.openupm.com-9acb0ac10b5164b7",
+      "sourceUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs",
+      "sourceRef": "",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-4.5.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "aed8860db599d7b0b4cec5100434c72f2c2a1b29",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.buffers": "4.4.0",
+        "org.nuget.system.memory": "4.5.1",
+        "org.nuget.system.security.cryptography.cng": "4.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/4.5.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "aed8860db599d7b0b4cec5100434c72f2c2a1b29"
+        }
+      }
+    },
+    {
+      "version": "4.5.2",
+      "variantId": "registry-package.openupm.com-24424be9f549aefe",
+      "sourceUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs",
+      "sourceRef": "",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-4.5.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "41073b760f83711be6a2a5fc231db55fb066d84c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.buffers": "4.4.0",
+        "org.nuget.system.memory": "4.5.1",
+        "org.nuget.system.security.cryptography.cng": "4.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/4.5.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "41073b760f83711be6a2a5fc231db55fb066d84c"
+        }
+      }
+    },
+    {
+      "version": "4.6.0",
+      "variantId": "registry-package.openupm.com-0bdfb4fb6157df9b",
+      "sourceUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs",
+      "sourceRef": "",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-4.6.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6dfd94bf21a988add31bed5ca27b99d8470d065e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.buffers": "4.5.0",
+        "org.nuget.system.memory": "4.5.3",
+        "org.nuget.system.security.cryptography.cng": "4.6.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/4.6.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "6dfd94bf21a988add31bed5ca27b99d8470d065e"
+        }
+      }
+    },
+    {
+      "version": "4.7.0",
+      "variantId": "registry-package.openupm.com-7f2b3e8d726b7301",
+      "sourceUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs",
+      "sourceRef": "",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-4.7.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "5240f5f243f4973300aa79c585c03dd3b3d63cbc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.buffers": "4.5.0",
+        "org.nuget.system.memory": "4.5.3",
+        "org.nuget.system.security.cryptography.cng": "4.7.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/4.7.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "5240f5f243f4973300aa79c585c03dd3b3d63cbc"
+        }
+      }
+    },
+    {
+      "version": "5.0.0",
+      "variantId": "registry-package.openupm.com-a85236f6c38d99df",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "cf258a14b70ad9069470a108f13765e0e5988f51",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-5.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "230bf5f9dd4a01fc3af075671168d669a351f0d3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.formats.asn1": "5.0.0",
+        "org.nuget.system.memory": "4.5.4",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/5.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "230bf5f9dd4a01fc3af075671168d669a351f0d3"
+        }
+      }
+    },
+    {
+      "version": "5.0.1",
+      "variantId": "registry-package.openupm.com-cee04b11f26e9fab",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "b02e13abab3d6f499751af2ad1ae6333fb4e633d",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-5.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "867129ffcacf32dda57a31dcf64caafc3061828d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.formats.asn1": "5.0.0",
+        "org.nuget.system.memory": "4.5.4",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/5.0.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "867129ffcacf32dda57a31dcf64caafc3061828d"
+        }
+      }
+    },
+    {
+      "version": "6.0.0",
+      "variantId": "registry-package.openupm.com-c10e7b9b6c0b8abf",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "4822e3c3aa77eb82b2fb33c9321f923cf11ddde6",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-6.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1c2af451d102d9353431c73d686cdb4beeaeba7b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.formats.asn1": "6.0.0",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.4",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/6.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "1c2af451d102d9353431c73d686cdb4beeaeba7b"
+        }
+      }
+    },
+    {
+      "version": "6.0.1",
+      "variantId": "registry-package.openupm.com-1a086146d7a25f91",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "70ae3df4a6f3c92fb6b315afc405edd10ff38579",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-6.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f05dac7eecc2e48abb8484c6aa10acd1cf496ecc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.formats.asn1": "6.0.0",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.4",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/6.0.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "f05dac7eecc2e48abb8484c6aa10acd1cf496ecc"
+        }
+      }
+    },
+    {
+      "version": "6.0.2",
+      "variantId": "registry-package.openupm.com-ee6f863eae6a4f1d",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "2a90daa2cc41ae8f11a2c1519cb8b235f609251a",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-6.0.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "80608a01c88ecbacfa00d45b01c38af34ef327c3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.formats.asn1": "6.0.0",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.4",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/6.0.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "80608a01c88ecbacfa00d45b01c38af34ef327c3"
+        }
+      }
+    },
+    {
+      "version": "6.0.3",
+      "variantId": "registry-package.openupm.com-b1eb9236dc72d419",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "c76ac565499f3e7c657126d46c00b67a0d74832c",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-6.0.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f0ce376c05b042b23ec716297337ec0805235d79",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.formats.asn1": "6.0.0",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.4",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/6.0.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "f0ce376c05b042b23ec716297337ec0805235d79"
+        }
+      }
+    },
+    {
+      "version": "6.0.4",
+      "variantId": "registry-package.openupm.com-2143cf0d685c78ca",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "e37fab9fc9f7bce120a7165491ed392a73f8ab51",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-6.0.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "16816bb143890ab7c0fac3096598b252241923bf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.formats.asn1": "6.0.0",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.4",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/6.0.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "16816bb143890ab7c0fac3096598b252241923bf"
+        }
+      }
+    },
+    {
+      "version": "6.0.5",
+      "variantId": "registry-package.openupm.com-f0b02ee566c48807",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "f1dd57165bfd91875761329ac3a8b17f6606ad18",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-6.0.5.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c1dce57c321ecdecf88c95f99c6da7ba6081495e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.formats.asn1": "6.0.1",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.4",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/6.0.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "c1dce57c321ecdecf88c95f99c6da7ba6081495e"
+        }
+      }
+    },
+    {
+      "version": "7.0.0",
+      "variantId": "registry-package.openupm.com-190492ed49dd9bba",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "d099f075e45d2aa6007a22b71b45a08758559f80",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-7.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e73598ccd4c8e80ba8f067d4b5d11b740d343ad7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.formats.asn1": "7.0.0",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/7.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "e73598ccd4c8e80ba8f067d4b5d11b740d343ad7"
+        }
+      }
+    },
+    {
+      "version": "7.0.1",
+      "variantId": "registry-package.openupm.com-381b04a17c1ad210",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "0a2bda10e81d901396c3cff95533529e3a93ad47",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-7.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "5dd3982b05d4270a0ddda7491de535edc99208ed",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.formats.asn1": "7.0.0",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/7.0.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "5dd3982b05d4270a0ddda7491de535edc99208ed"
+        }
+      }
+    },
+    {
+      "version": "7.0.2",
+      "variantId": "registry-package.openupm.com-b6e941d5f11927b6",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "5b20af47d99620150c53eaf5db8636fdf730b126",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-7.0.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e2046cab384262186d39bf6a58a7c696e8d2aa2b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.formats.asn1": "7.0.0",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/7.0.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "e2046cab384262186d39bf6a58a7c696e8d2aa2b"
+        }
+      }
+    },
+    {
+      "version": "7.0.3",
+      "variantId": "registry-package.openupm.com-034e2a0106fd025e",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "4b0550942d7e38bf28dcfddb955e616290b83787",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-7.0.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a063cd597a040ff55d691121c355b40e7ea442e8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.formats.asn1": "7.0.0",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/7.0.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "a063cd597a040ff55d691121c355b40e7ea442e8"
+        }
+      }
+    },
+    {
+      "version": "8.0.0",
+      "variantId": "registry-package.openupm.com-b1f7f8cc44543876",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "5535e31a712343a63f5d7d796cd874e563e5ac14",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-8.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "19a2662d7b9bdfa6afac61d7a50a5cedec8ddee7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.formats.asn1": "8.0.0",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/8.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "19a2662d7b9bdfa6afac61d7a50a5cedec8ddee7"
+        }
+      }
+    },
+    {
+      "version": "8.0.1",
+      "variantId": "registry-package.openupm.com-5a5739865a1a32ed",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "81cabf2857a01351e5ab578947c7403a5b128ad1",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-8.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "11c42c91773a595374d03a1e10e4c6c925b0d6c7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.formats.asn1": "8.0.1",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/8.0.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "11c42c91773a595374d03a1e10e4c6c925b0d6c7"
+        }
+      }
+    },
+    {
+      "version": "8.0.2",
+      "variantId": "registry-package.openupm.com-595e518d4eb3e2fb",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "b9a49e4a6d3a444a3685e318c74a7892d01873f7",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-8.0.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c54dfe764e3211001495eebae07b154b05aca369",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.formats.asn1": "8.0.2",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/8.0.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "c54dfe764e3211001495eebae07b154b05aca369"
+        }
+      }
+    },
+    {
+      "version": "9.0.0",
+      "variantId": "registry-package.openupm.com-8b4e123a8d3b446d",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0fc6f4af904ef953f0fbaff52987d538679f37e2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.0",
+        "org.nuget.system.formats.asn1": "9.0.0",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "0fc6f4af904ef953f0fbaff52987d538679f37e2"
+        }
+      }
+    },
+    {
+      "version": "9.0.1",
+      "variantId": "registry-package.openupm.com-9de7e3afd57f7bc4",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "c8acea22626efab11c13778c028975acdc34678f",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8154cc899f4a6bc14042012c60dadb174c9af846",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.1",
+        "org.nuget.system.formats.asn1": "9.0.1",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "8154cc899f4a6bc14042012c60dadb174c9af846"
+        }
+      }
+    },
+    {
+      "version": "9.0.2",
+      "variantId": "registry-package.openupm.com-79195d171f7e2d2d",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "80aa709f5d919c6814726788dc6dabe23e79e672",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c8f786837a9857121e74df401c7ce24222edde81",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.2",
+        "org.nuget.system.formats.asn1": "9.0.2",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "c8f786837a9857121e74df401c7ce24222edde81"
+        }
+      }
+    },
+    {
+      "version": "9.0.3",
+      "variantId": "registry-package.openupm.com-ead2b4a63a5a9d6a",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "831d23e56149cd59c40fc00c7feb7c5334bd19c4",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9d10e2711e75049926956e5e8bf7add43f259a26",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.3",
+        "org.nuget.system.formats.asn1": "9.0.3",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "9d10e2711e75049926956e5e8bf7add43f259a26"
+        }
+      }
+    },
+    {
+      "version": "9.0.4",
+      "variantId": "registry-package.openupm.com-eefe8cac70751611",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "f57e6dc747158ab7ade4e62a75a6750d16b771e8",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7617f4f1b9cb17b9e7e279d5170edc2494622c13",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.4",
+        "org.nuget.system.formats.asn1": "9.0.4",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "7617f4f1b9cb17b9e7e279d5170edc2494622c13"
+        }
+      }
+    },
+    {
+      "version": "9.0.5",
+      "variantId": "registry-package.openupm.com-a38ea8e805fc8c1e",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "e36e4d1a8f8dfb08d7e3a6041459c9791d732c01",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.5.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "cabad7cf8dac503b8a01e408c3146668bcadb2dc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.5",
+        "org.nuget.system.formats.asn1": "9.0.5",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "cabad7cf8dac503b8a01e408c3146668bcadb2dc"
+        }
+      }
+    },
+    {
+      "version": "9.0.6",
+      "variantId": "registry-package.openupm.com-3be415adb0763d28",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "3875b54e7b10b10606b105340199946d0b877754",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d666c429bd76543ec72769a1281cee4c33f9a5ff",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.6",
+        "org.nuget.system.formats.asn1": "9.0.6",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.6",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "d666c429bd76543ec72769a1281cee4c33f9a5ff"
+        }
+      }
+    },
+    {
+      "version": "9.0.7",
+      "variantId": "registry-package.openupm.com-1358c5096991a886",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "3c298d9f00936d651cc47d221762474e25277672",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.7.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9cb4861f6c64626cfe106acdeb10356a36303f31",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.7",
+        "org.nuget.system.formats.asn1": "9.0.7",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.7",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "9cb4861f6c64626cfe106acdeb10356a36303f31"
+        }
+      }
+    },
+    {
+      "version": "9.0.8",
+      "variantId": "registry-package.openupm.com-d73e0d909f1a20bd",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "aae90fa09086a9be09dac83fa66542232c7269d8",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.8.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9b0c3538e8a3107391b9c6613f13f6c673c9e11d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.8",
+        "org.nuget.system.formats.asn1": "9.0.8",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.8",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "9b0c3538e8a3107391b9c6613f13f6c673c9e11d"
+        }
+      }
+    },
+    {
+      "version": "9.0.9",
+      "variantId": "registry-package.openupm.com-1cdf89b023cc6bb5",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "893c2ebbd49952ca49e93298148af2d95a61a0a4",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.9.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "75213636db01ad2fd91861be8f15f0862815fa9d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.9",
+        "org.nuget.system.formats.asn1": "9.0.9",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.9",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "75213636db01ad2fd91861be8f15f0862815fa9d"
+        }
+      }
+    },
+    {
+      "version": "9.0.10",
+      "variantId": "registry-package.openupm.com-b0c640275ef818cf",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "e1f19886fe3354963a4a790c896b3f99689fd7a5",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.10.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "05475d8fb6c098db7b03630c4dc46e0ba3dad885",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.10",
+        "org.nuget.system.formats.asn1": "9.0.10",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.10",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "05475d8fb6c098db7b03630c4dc46e0ba3dad885"
+        }
+      }
+    },
+    {
+      "version": "9.0.11",
+      "variantId": "registry-package.openupm.com-452e5f24e3666f80",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "fa7cdded37981a97cec9a3e233c4a6af58a91c57",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.11.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "be34c52b2232d62b22971e97f4143b9aeb59a8a4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.11",
+        "org.nuget.system.formats.asn1": "9.0.11",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.11",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "be34c52b2232d62b22971e97f4143b9aeb59a8a4"
+        }
+      }
+    },
+    {
+      "version": "9.0.12",
+      "variantId": "registry-package.openupm.com-7df60ce2a2788395",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "2f124007573374800632d39177cde00ca9fe1ef0",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.12.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6780542bad15596004ab788ce8c8952364c60a53",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.12",
+        "org.nuget.system.formats.asn1": "9.0.12",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.12",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "6780542bad15596004ab788ce8c8952364c60a53"
+        }
+      }
+    },
+    {
+      "version": "9.0.13",
+      "variantId": "registry-package.openupm.com-8712c908e0b706fd",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "9ecbfd4f3f330dc9649bce49cb12570b19d48c87",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.13.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1d686c02044baa22cea831b84acf1bd2a119138b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.13",
+        "org.nuget.system.formats.asn1": "9.0.13",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.13",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "1d686c02044baa22cea831b84acf1bd2a119138b"
+        }
+      }
+    },
+    {
+      "version": "9.0.14",
+      "variantId": "registry-package.openupm.com-e84662874729f2b8",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "19c07820cb72aafc554c3bc8fe3c54010f5123f0",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.14.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0855b330d5fa61d2247a0d39d9162d7926bbd504",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.14",
+        "org.nuget.system.formats.asn1": "9.0.14",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.14",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "0855b330d5fa61d2247a0d39d9162d7926bbd504"
+        }
+      }
+    },
+    {
+      "version": "9.0.15",
+      "variantId": "registry-package.openupm.com-57fb2f583d891eab",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "4250c8399aa851d2d6a95efbdcc5c4c12311e024",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.15.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "62f989dc201bb347b25a9dcf371ac3261ee7ede6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.15",
+        "org.nuget.system.formats.asn1": "9.0.15",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.15",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "62f989dc201bb347b25a9dcf371ac3261ee7ede6"
+        }
+      }
+    },
+    {
+      "version": "9.0.16",
+      "variantId": "registry-package.openupm.com-a78c71bfd94635ca",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "a1e6809fb8318884882ceff057000654f558738a",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.16.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "12cebaca83584c56269629b9c792a66a7b700239",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.16",
+        "org.nuget.system.formats.asn1": "9.0.16",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.16",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "12cebaca83584c56269629b9c792a66a7b700239"
+        }
+      }
+    },
+    {
+      "version": "9.0.17",
+      "variantId": "registry-package.openupm.com-e5581dce3330f786",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "f2c8152eed158e72950025393fde498c90a57a6b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.17.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "40ff7c9dd94532aa2e647b2f7437e1f1c609fa2f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.17",
+        "org.nuget.system.formats.asn1": "9.0.17",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.17",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "40ff7c9dd94532aa2e647b2f7437e1f1c609fa2f"
+        }
+      }
+    },
+    {
+      "version": "9.0.18",
+      "variantId": "registry-package.openupm.com-48a88b9d899bda7e",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "d839c41c85988aadc213e8e42269ecd7883a1790",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.18.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2eca1efdd225c9a442c2adc0ba62ce235767676b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.18",
+        "org.nuget.system.formats.asn1": "9.0.18",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.18",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "2eca1efdd225c9a442c2adc0ba62ce235767676b"
+        }
+      }
+    },
+    {
+      "version": "9.0.19",
+      "variantId": "registry-package.openupm.com-0b5caf1afdd14736",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "8381bdb01fe4a26e1f61370e779c78bb73ecc95b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.19.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f5936282939aab5e9e6314505a7884492150eac1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.19",
+        "org.nuget.system.formats.asn1": "9.0.19",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.19",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "f5936282939aab5e9e6314505a7884492150eac1"
+        }
+      }
+    },
+    {
+      "version": "9.0.20",
+      "variantId": "registry-package.openupm.com-674176af50e038d2",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.20.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a907838155d0a589d9b52499665c79e8354f1a88",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.20",
+        "org.nuget.system.formats.asn1": "9.0.20",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.20",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "a907838155d0a589d9b52499665c79e8354f1a88"
+        }
+      }
+    },
+    {
+      "version": "9.0.21",
+      "variantId": "registry-package.openupm.com-7ffe247dcd8372ec",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "d280e4fb388c6deed22d480daada060b6b456008",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-9.0.21.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "29fc82f52eb96d3276b0511c62020a62c8add19f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "9.0.21",
+        "org.nuget.system.formats.asn1": "9.0.21",
+        "org.nuget.system.buffers": "4.5.1",
+        "org.nuget.system.memory": "4.5.5",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/9.0.21",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "29fc82f52eb96d3276b0511c62020a62c8add19f"
+        }
+      }
+    },
+    {
+      "version": "10.0.0",
+      "variantId": "registry-package.openupm.com-0b8134a073bb21e1",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "b0f34d51fccc69fd334253924abd8d6853fad7aa",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-10.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4a82b3df30ed16eee29357ce5cae78390b65055e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "10.0.0",
+        "org.nuget.system.formats.asn1": "10.0.0",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/10.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "4a82b3df30ed16eee29357ce5cae78390b65055e"
+        }
+      }
+    },
+    {
+      "version": "10.0.1",
+      "variantId": "registry-package.openupm.com-d41e89f63a497ff3",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "fad253f51b461736dfd3cd9c15977bb7493becef",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-10.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7d94cf5a26ceecae8f4aba73f6fd3c2be5f6230e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "10.0.1",
+        "org.nuget.system.formats.asn1": "10.0.1",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/10.0.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "7d94cf5a26ceecae8f4aba73f6fd3c2be5f6230e"
+        }
+      }
+    },
+    {
+      "version": "10.0.2",
+      "variantId": "registry-package.openupm.com-5f5d393d93615589",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "44525024595742ebe09023abe709df51de65009b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-10.0.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "93b3f575fbe0f7af917b7fd8e40c4181fcde65f6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "10.0.2",
+        "org.nuget.system.formats.asn1": "10.0.2",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/10.0.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "93b3f575fbe0f7af917b7fd8e40c4181fcde65f6"
+        }
+      }
+    },
+    {
+      "version": "10.0.3",
+      "variantId": "registry-package.openupm.com-718a36cf8706e822",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "c2435c3e0f46de784341ac3ed62863ce77e117b4",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-10.0.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2dd4dbda3eb61829579174ab4fc302ff721d99ec",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "10.0.3",
+        "org.nuget.system.formats.asn1": "10.0.3",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/10.0.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "2dd4dbda3eb61829579174ab4fc302ff721d99ec"
+        }
+      }
+    },
+    {
+      "version": "10.0.4",
+      "variantId": "registry-package.openupm.com-3cfc1e44d855f438",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "80d3e14f5e08b4888f464e3cd0d0b2445b63ec46",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-10.0.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "37d01132906ee697a0aff52c35b9eb2779481111",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "10.0.4",
+        "org.nuget.system.formats.asn1": "10.0.4",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/10.0.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "37d01132906ee697a0aff52c35b9eb2779481111"
+        }
+      }
+    },
+    {
+      "version": "10.0.5",
+      "variantId": "registry-package.openupm.com-c968517e2b1e9a3f",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-10.0.5.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0b255f3c26cf5b49acdaf14ccb70611b52c5da23",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "10.0.5",
+        "org.nuget.system.formats.asn1": "10.0.5",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/10.0.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "0b255f3c26cf5b49acdaf14ccb70611b52c5da23"
+        }
+      }
+    },
+    {
+      "version": "10.0.6",
+      "variantId": "registry-package.openupm.com-27a56a0c89438121",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "47fb725acf5d7094af51aebbb5b7e5c44a3b2a77",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-10.0.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c7c6c27d03e0461746339bab25a632f42204f308",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "10.0.6",
+        "org.nuget.system.formats.asn1": "10.0.6",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/10.0.6",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "c7c6c27d03e0461746339bab25a632f42204f308"
+        }
+      }
+    },
+    {
+      "version": "10.0.7",
+      "variantId": "registry-package.openupm.com-1004b3ff0e4dad0d",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "b16286c2284fecf303dbc12a0bb152476d662e44",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-10.0.7.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "027bcf3aa7ece6422101e91553054b98536ccf7b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "10.0.7",
+        "org.nuget.system.formats.asn1": "10.0.7",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/10.0.7",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "027bcf3aa7ece6422101e91553054b98536ccf7b"
+        }
+      }
+    },
+    {
+      "version": "10.0.8",
+      "variantId": "registry-package.openupm.com-509da2ae6783b397",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "94ea82652cdd4e0f8046b5bd5becbd11461482ca",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-10.0.8.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "699488af8d4ee816f22645a1f8f792dd12c322af",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "10.0.8",
+        "org.nuget.system.formats.asn1": "10.0.8",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/10.0.8",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "699488af8d4ee816f22645a1f8f792dd12c322af"
+        }
+      }
+    },
+    {
+      "version": "10.0.9",
+      "variantId": "registry-package.openupm.com-cd9434269b3f68e9",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "901ca941248413c79832d2fdbd709da0c4386353",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-10.0.9.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "fa54ce9ebce3bc555b96a408c58b41e076da75ca",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "10.0.9",
+        "org.nuget.system.formats.asn1": "10.0.9",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/10.0.9",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "fa54ce9ebce3bc555b96a408c58b41e076da75ca"
+        }
+      }
+    },
+    {
+      "version": "10.0.10",
+      "variantId": "registry-package.openupm.com-25ac7f7f6754b0be",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "f7d90799ce4ef09a0bb257852a57248d2a8fb8dd",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-10.0.10.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f9eca017d1f5366cf1211eaaf0c42995c6f5c2ad",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "10.0.10",
+        "org.nuget.system.formats.asn1": "10.0.10",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/10.0.10",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "f9eca017d1f5366cf1211eaaf0c42995c6f5c2ad"
+        }
+      }
+    },
+    {
+      "version": "10.0.11",
+      "variantId": "registry-package.openupm.com-2fd6897da827cee7",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "e2f47b0110ed922f21a1522da67279133ce28f32",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-10.0.11.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "b88d52a66761cf39f6bc83398cc837cae4570458",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "10.0.11",
+        "org.nuget.system.formats.asn1": "10.0.11",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/10.0.11",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "b88d52a66761cf39f6bc83398cc837cae4570458"
+        }
+      }
+    },
+    {
+      "version": "10.0.12",
+      "variantId": "registry-package.openupm.com-45bd232f942077da",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "95017c711e6afc1085133d440e42b4bd78155701",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-10.0.12.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f07ccf0638146601d1785d2eec3894677f37eaee",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "10.0.12",
+        "org.nuget.system.formats.asn1": "10.0.12",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/10.0.12",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "f07ccf0638146601d1785d2eec3894677f37eaee"
+        }
+      }
+    },
+    {
+      "version": "10.0.13",
+      "variantId": "registry-package.openupm.com-093ac2dd03f10061",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "4099f83977f4d29604a9aeb971fb0a7bc1d5f699",
+      "downloadUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/-/org.nuget.system.security.cryptography.pkcs-10.0.13.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "beee4925dc7649500f48a911a6f9f3b0bbcf3b61",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.cryptography": "10.0.13",
+        "org.nuget.system.formats.asn1": "10.0.13",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "org.nuget.system.security.cryptography.cng": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.system.security.cryptography.pkcs/10.0.13",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "beee4925dc7649500f48a911a6f9f3b0bbcf3b61"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "10.0.13"
+  },
+  "targetVersions": [
+    "4.5.0"
+  ],
+  "selectedVersions": [
+    "4.5.0",
+    "10.0.13",
+    "4.5.1"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 57,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,2039 @@
+{
+  "schemaVersion": "1.0",
+  "id": "org.nuget.microsoft.entityframeworkcore",
+  "displayName": "org.nuget.microsoft.entityframeworkcore",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore",
+      "fetchedAt": "2026-10-17T17:45:32.109592Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "3.1.0",
+      "variantId": "registry-package.openupm.com-c3caf884765edf8f",
+      "sourceUrl": "https://github.com/aspnet/EntityFrameworkCore",
+      "sourceRef": "82c6ea483d3a17393dad5986df9a8eef89ddcd07",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "15c4c46616acf08ce1b6ecc4bab50528ff71d7f7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.entityframeworkcore.abstractions": "3.1.0",
+        "org.nuget.microsoft.entityframeworkcore.analyzers": "3.1.0",
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.0",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.0",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.0",
+        "org.nuget.microsoft.extensions.logging": "3.1.0",
+        "org.nuget.system.collections.immutable": "1.7.0",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "15c4c46616acf08ce1b6ecc4bab50528ff71d7f7"
+        }
+      }
+    },
+    {
+      "version": "3.1.1",
+      "variantId": "registry-package.openupm.com-387fb934e23c5c7b",
+      "sourceUrl": "https://github.com/aspnet/EntityFrameworkCore",
+      "sourceRef": "fde8a73d63ea11e1f2bdc690cf1b16ba0a449649",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "798e77857588dbdb4874fe9b7ae589ae7143d1ed",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.0",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.0",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.1",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.1",
+        "org.nuget.microsoft.extensions.logging": "3.1.1",
+        "org.nuget.system.collections.immutable": "1.7.0",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "798e77857588dbdb4874fe9b7ae589ae7143d1ed"
+        }
+      }
+    },
+    {
+      "version": "3.1.2",
+      "variantId": "registry-package.openupm.com-3474a6d7dcbfcf37",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "7ae89d6adb7433b6ae9c37091e57a1226092ef46",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "848f03da30eddd896362fa689fa5baa62fc956ea",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.0",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.0",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.2",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.2",
+        "org.nuget.microsoft.extensions.logging": "3.1.2",
+        "org.nuget.system.collections.immutable": "1.7.0",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "848f03da30eddd896362fa689fa5baa62fc956ea"
+        }
+      }
+    },
+    {
+      "version": "3.1.3",
+      "variantId": "registry-package.openupm.com-67ff4183e544076f",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "6f4f078e8f92ee8e2ca497fa4b83d4ecebdd643b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7f0187434de6cdc9f852a7382dd93c4b3c88e7b3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.0",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.0",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.3",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.3",
+        "org.nuget.microsoft.extensions.logging": "3.1.3",
+        "org.nuget.system.collections.immutable": "1.7.0",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "7f0187434de6cdc9f852a7382dd93c4b3c88e7b3"
+        }
+      }
+    },
+    {
+      "version": "3.1.4",
+      "variantId": "registry-package.openupm.com-dc57bada1393d895",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "87b24bd1cdd8eaa0851dc0c525c8f12926321c3b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "cf91b53cb1bbbc4e82785b673e963672e10b261c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.0",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.4",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.4",
+        "org.nuget.microsoft.extensions.logging": "3.1.4",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "cf91b53cb1bbbc4e82785b673e963672e10b261c"
+        }
+      }
+    },
+    {
+      "version": "3.1.5",
+      "variantId": "registry-package.openupm.com-460d67e2e391643e",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "5f01ecc8e61350a2f6a5381c5028ba3063be286f",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.5.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d8fec20dc12eadab396648daa69cbb2fe21a140b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.0",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.5",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.5",
+        "org.nuget.microsoft.extensions.logging": "3.1.5",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "d8fec20dc12eadab396648daa69cbb2fe21a140b"
+        }
+      }
+    },
+    {
+      "version": "3.1.6",
+      "variantId": "registry-package.openupm.com-39f4cd864aebccb7",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "509fe041d6d740af8122cae870bf58f2c33c38f3",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c14f0d3196fffddf4f94efdd84188338ee2aa6ab",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.0",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.6",
+        "org.nuget.microsoft.extensions.logging": "3.1.6",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.6",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "c14f0d3196fffddf4f94efdd84188338ee2aa6ab"
+        }
+      }
+    },
+    {
+      "version": "3.1.7",
+      "variantId": "registry-package.openupm.com-1d0e01f91e7d86f3",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "cad165e731fc0bcc9ab725c718177ebaf0820705",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.7.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "3bb571ec8aead70526a85dab22bc8f7755fc9cb9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.0",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.7",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.7",
+        "org.nuget.microsoft.extensions.logging": "3.1.7",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.7",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "3bb571ec8aead70526a85dab22bc8f7755fc9cb9"
+        }
+      }
+    },
+    {
+      "version": "3.1.8",
+      "variantId": "registry-package.openupm.com-28533d71559df309",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "68941673e27be80b95fe1b8645da3f1f927e2d6d",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.8.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ed204d60010fedeff9dd1525ad7ce5f8ecf83fc3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.0",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.8",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.8",
+        "org.nuget.microsoft.extensions.logging": "3.1.8",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.8",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "ed204d60010fedeff9dd1525ad7ce5f8ecf83fc3"
+        }
+      }
+    },
+    {
+      "version": "3.1.9",
+      "variantId": "registry-package.openupm.com-c416bc0023780f1f",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "52952c845de467fb8e17609e006b100c37ec5d24",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.9.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ee1034bf61b26966e7d201068da74969216c11ac",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.0",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.9",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.9",
+        "org.nuget.microsoft.extensions.logging": "3.1.9",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.9",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "ee1034bf61b26966e7d201068da74969216c11ac"
+        }
+      }
+    },
+    {
+      "version": "3.1.10",
+      "variantId": "registry-package.openupm.com-07fb0fc49868e91e",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "5f899e050864d61da2f97e01a792992f090b3a42",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.10.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "fab8d9328efae65d10827542fb4e93851909328d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.0",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.10",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.10",
+        "org.nuget.microsoft.extensions.logging": "3.1.10",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.10",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "fab8d9328efae65d10827542fb4e93851909328d"
+        }
+      }
+    },
+    {
+      "version": "3.1.11",
+      "variantId": "registry-package.openupm.com-7981fe8bcb065cd4",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "b64867f633c6b4688a97750724728ec914e26d3e",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.11.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c022d62eec6e171eecf763a9285ce496be11cd4e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.11",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.11",
+        "org.nuget.microsoft.extensions.logging": "3.1.11",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.11",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "c022d62eec6e171eecf763a9285ce496be11cd4e"
+        }
+      }
+    },
+    {
+      "version": "3.1.12",
+      "variantId": "registry-package.openupm.com-bbbaba56dd117923",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "d078590d98ae5658ff49fbcb3815bf4483c6a66c",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.12.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "78fcebd6019bb4ff95f113d1ab4d5af77a50d116",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.12",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.12",
+        "org.nuget.microsoft.extensions.logging": "3.1.12",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.12",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "78fcebd6019bb4ff95f113d1ab4d5af77a50d116"
+        }
+      }
+    },
+    {
+      "version": "3.1.13",
+      "variantId": "registry-package.openupm.com-dbd96a7d88ed8456",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "5b7fc584fa25b1132a5459c9d65bb678dbc159a1",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.13.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0b32255ddac337ac613c21b749fb713c323217ae",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.13",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.13",
+        "org.nuget.microsoft.extensions.logging": "3.1.13",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.13",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "0b32255ddac337ac613c21b749fb713c323217ae"
+        }
+      }
+    },
+    {
+      "version": "3.1.14",
+      "variantId": "registry-package.openupm.com-bf3042b5460f0760",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "986705d060bc4f0dee3c07dda068d09ade582932",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.14.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "23e915ce7c1efee5d850bb5c9fc3331421dbd658",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.14",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.14",
+        "org.nuget.microsoft.extensions.logging": "3.1.14",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.14",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "23e915ce7c1efee5d850bb5c9fc3331421dbd658"
+        }
+      }
+    },
+    {
+      "version": "3.1.15",
+      "variantId": "registry-package.openupm.com-a24024a7bd8a20ed",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "f27020308547a24d2b78fad34307d1a4d502f355",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.15.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "80b7efdd94d152691717cfcd25357505f7a78880",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.15",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.15",
+        "org.nuget.microsoft.extensions.logging": "3.1.15",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.15",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "80b7efdd94d152691717cfcd25357505f7a78880"
+        }
+      }
+    },
+    {
+      "version": "3.1.16",
+      "variantId": "registry-package.openupm.com-5a84607a97230fdb",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "d3e6b71766904da48834074a265721cd07799803",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.16.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "b404f6477d7d01de7ec620ebb79b7d0ec5e66acf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.16",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.16",
+        "org.nuget.microsoft.extensions.logging": "3.1.16",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.16",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "b404f6477d7d01de7ec620ebb79b7d0ec5e66acf"
+        }
+      }
+    },
+    {
+      "version": "3.1.17",
+      "variantId": "registry-package.openupm.com-d2fc60f41cf24e5b",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "f81aa66b2255a8c31af13dfb52367d875ada89ea",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.17.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c9bf077f8ddb36e278339afcc8e962ae2c16338e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.17",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.17",
+        "org.nuget.microsoft.extensions.logging": "3.1.17",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.17",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "c9bf077f8ddb36e278339afcc8e962ae2c16338e"
+        }
+      }
+    },
+    {
+      "version": "3.1.18",
+      "variantId": "registry-package.openupm.com-e3667eaf8f2da81a",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "36125f96cb9c0bf53a9c2cf80a4d06a0bd288aa2",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.18.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8a61390b0dc09ea374b685a573e2b6fa39047d5e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.18",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.18",
+        "org.nuget.microsoft.extensions.logging": "3.1.18",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.18",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "8a61390b0dc09ea374b685a573e2b6fa39047d5e"
+        }
+      }
+    },
+    {
+      "version": "3.1.19",
+      "variantId": "registry-package.openupm.com-bbe56cc0a1261667",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "c1b838037dc69424cf5ff97951c1e916fe5aaefa",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.19.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "bf7667d34c74e1a3729be6864ac4bf7f76694299",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.19",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.19",
+        "org.nuget.microsoft.extensions.logging": "3.1.19",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.19",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "bf7667d34c74e1a3729be6864ac4bf7f76694299"
+        }
+      }
+    },
+    {
+      "version": "3.1.20",
+      "variantId": "registry-package.openupm.com-9aba2eadc2cceba2",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "8f531d42d3b96c7762ec3b18388466cfd8f8f3fc",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.20.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0d93be1d6f95b3eb8f0963f090758f5e2c15306e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.20",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.20",
+        "org.nuget.microsoft.extensions.logging": "3.1.20",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.20",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "0d93be1d6f95b3eb8f0963f090758f5e2c15306e"
+        }
+      }
+    },
+    {
+      "version": "3.1.21",
+      "variantId": "registry-package.openupm.com-482a1afd37bb79cb",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "c3baaac7ee60c016333566a5097789fe183afe69",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.21.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9bb065eb5ac7b56d8f85584c94a3725f47759c06",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.21",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.21",
+        "org.nuget.microsoft.extensions.logging": "3.1.21",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.21",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "9bb065eb5ac7b56d8f85584c94a3725f47759c06"
+        }
+      }
+    },
+    {
+      "version": "3.1.22",
+      "variantId": "registry-package.openupm.com-f1370b8220d3ca36",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "5407d867c7efbf114fbcfa4fdc32397a22e8bc96",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.22.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6d961b0f4a4030d7e6cc97274f2fd88bfcbaf331",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.22",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.22",
+        "org.nuget.microsoft.extensions.logging": "3.1.22",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.22",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "6d961b0f4a4030d7e6cc97274f2fd88bfcbaf331"
+        }
+      }
+    },
+    {
+      "version": "3.1.23",
+      "variantId": "registry-package.openupm.com-193829e3d13ceb16",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "213c56eac83b3b31d9441fd2a19eebfddc0c4a86",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.23.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "08fa954c1fad806495442df89e824d8ea191af3d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.23",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.23",
+        "org.nuget.microsoft.extensions.logging": "3.1.23",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.23",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "08fa954c1fad806495442df89e824d8ea191af3d"
+        }
+      }
+    },
+    {
+      "version": "3.1.24",
+      "variantId": "registry-package.openupm.com-e7ac39d5cb13feb3",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "d4a777b7cda6a4475f5b4c6616666ae92f0fa264",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.24.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "999c808a2ec1445e542e404483c4c28dfed2b61d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.24",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.24",
+        "org.nuget.microsoft.extensions.logging": "3.1.24",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.24",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "999c808a2ec1445e542e404483c4c28dfed2b61d"
+        }
+      }
+    },
+    {
+      "version": "3.1.25",
+      "variantId": "registry-package.openupm.com-1f715b29b52535a5",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "d3511a1a008b6d99e25cad6ce53cf072014685a8",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.25.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "21c3345f185466965d9766ae79b20287d71bc8ab",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.25",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.25",
+        "org.nuget.microsoft.extensions.logging": "3.1.25",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.25",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "21c3345f185466965d9766ae79b20287d71bc8ab"
+        }
+      }
+    },
+    {
+      "version": "3.1.26",
+      "variantId": "registry-package.openupm.com-898affcd3d1719a5",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "206e31051765f411858db034ce5f8e771446dafe",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.26.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "23957523dc604ca40f003572b59f23729253f778",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.26",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.26",
+        "org.nuget.microsoft.extensions.logging": "3.1.26",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.26",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "23957523dc604ca40f003572b59f23729253f778"
+        }
+      }
+    },
+    {
+      "version": "3.1.27",
+      "variantId": "registry-package.openupm.com-c5df1628960c42fd",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "04a72514ccae7fb6528b5c715995892be20d5d5c",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.27.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0d7391199de433ea7bb12a7832680777f2b83c8c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.27",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.27",
+        "org.nuget.microsoft.extensions.logging": "3.1.27",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.27",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "0d7391199de433ea7bb12a7832680777f2b83c8c"
+        }
+      }
+    },
+    {
+      "version": "3.1.28",
+      "variantId": "registry-package.openupm.com-087826e23c0f0d41",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "99099ddf5e5562c883a0b9bb7bd1239080307e2f",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.28.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "107ff12ff9f29e2e7b560421f40577f26420b722",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.28",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.28",
+        "org.nuget.microsoft.extensions.logging": "3.1.28",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.28",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "107ff12ff9f29e2e7b560421f40577f26420b722"
+        }
+      }
+    },
+    {
+      "version": "3.1.29",
+      "variantId": "registry-package.openupm.com-566be6b5221869e3",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "6e3b6bb213c8360c3a1e26f91c66234710535962",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.29.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1b3124ce7f6ae54907b132d0041d19da3f955191",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.29",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.29",
+        "org.nuget.microsoft.extensions.logging": "3.1.29",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.29",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "1b3124ce7f6ae54907b132d0041d19da3f955191"
+        }
+      }
+    },
+    {
+      "version": "3.1.30",
+      "variantId": "registry-package.openupm.com-480d434ccadbae83",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "a29a7e57da5f027c6ca28913e555f4104d8b8752",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.30.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2f840167e2d68ba460c474da540dbef6dc2b56b8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.30",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.30",
+        "org.nuget.microsoft.extensions.logging": "3.1.30",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.30",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "2f840167e2d68ba460c474da540dbef6dc2b56b8"
+        }
+      }
+    },
+    {
+      "version": "3.1.31",
+      "variantId": "registry-package.openupm.com-c2bdd09bf1a1addd",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "64e7452a8d5e34dd3a82381f03d2ca47c16a2e82",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.31.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f0d12de70687ae9a5a8c6fce7318d5b3c77cd736",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.31",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.31",
+        "org.nuget.microsoft.extensions.logging": "3.1.31",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.31",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "f0d12de70687ae9a5a8c6fce7318d5b3c77cd736"
+        }
+      }
+    },
+    {
+      "version": "3.1.32",
+      "variantId": "registry-package.openupm.com-5fb20d590c276d11",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "899d9d9622b9909d153341269427040818d461c6",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-3.1.32.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "299ac329bc9781dcd15d1a0536f890c1db1d6778",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "1.1.1",
+        "org.nuget.microsoft.bcl.hashcode": "1.1.1",
+        "org.nuget.microsoft.extensions.caching.memory": "3.1.32",
+        "org.nuget.microsoft.extensions.dependencyinjection": "3.1.32",
+        "org.nuget.microsoft.extensions.logging": "3.1.32",
+        "org.nuget.system.collections.immutable": "1.7.1",
+        "org.nuget.system.componentmodel.annotations": "4.7.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "4.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/3.1.32",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "299ac329bc9781dcd15d1a0536f890c1db1d6778"
+        }
+      }
+    },
+    {
+      "version": "5.0.0",
+      "variantId": "registry-package.openupm.com-9e407aa5f3c79f31",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "33570d0337f76208fa3a814f7f6d3a506bd9c0be",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "50f802e30ea320b2a79fcb3381744a7f5f57ad70",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.0",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "50f802e30ea320b2a79fcb3381744a7f5f57ad70"
+        }
+      }
+    },
+    {
+      "version": "5.0.1",
+      "variantId": "registry-package.openupm.com-e1f04fc0762073b0",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "494e218127bfb7afee3c9b10a30bcd32d6cd80db",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9ca2fdb28012f9a1c8903ce166781613b9250fdc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.1",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "9ca2fdb28012f9a1c8903ce166781613b9250fdc"
+        }
+      }
+    },
+    {
+      "version": "5.0.2",
+      "variantId": "registry-package.openupm.com-65b358985b0c2b29",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "1ee6b629b3437c0d45bfe3aa5703abdcc449231f",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "26e5e9a8b33dfb263615bb54264106a49e861b12",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.1",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "26e5e9a8b33dfb263615bb54264106a49e861b12"
+        }
+      }
+    },
+    {
+      "version": "5.0.3",
+      "variantId": "registry-package.openupm.com-38c1b337325ad696",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "efc2924e6e36db17611c7da480d5bc97a4514cb8",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7091d94538085479ab1dd4e81bf9b4789b2e0cd3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.1",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "7091d94538085479ab1dd4e81bf9b4789b2e0cd3"
+        }
+      }
+    },
+    {
+      "version": "5.0.4",
+      "variantId": "registry-package.openupm.com-2a1b01a4d164b47f",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "cfd206aa4bc7c878dbbd91959f1c9edada70da93",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ea420530c289f4e61d60e7f7d8a42482b0f6aecb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.1",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "ea420530c289f4e61d60e7f7d8a42482b0f6aecb"
+        }
+      }
+    },
+    {
+      "version": "5.0.5",
+      "variantId": "registry-package.openupm.com-af90d03a781a078b",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "54203510db732a088a3e7e58d49b98ada7c14227",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.5.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6ab2c3eb1a6a9267594b3a408018f373cdb16c52",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.1",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "6ab2c3eb1a6a9267594b3a408018f373cdb16c52"
+        }
+      }
+    },
+    {
+      "version": "5.0.6",
+      "variantId": "registry-package.openupm.com-a6051a2b743220b7",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "42e81439158d5884dab24326c84ed95cd4baaa21",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8e7898324f5d60c570fe064ecbdb6bccb28a0323",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.1",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.6",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "8e7898324f5d60c570fe064ecbdb6bccb28a0323"
+        }
+      }
+    },
+    {
+      "version": "5.0.7",
+      "variantId": "registry-package.openupm.com-fe6e31c9315ed1bd",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "f8a6198dad41e8ed584da6ff711837f3288f8a8d",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.7.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "324a65aecefd9ebbea6e3d5e04a1c975cf72a8a4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.1",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.7",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "324a65aecefd9ebbea6e3d5e04a1c975cf72a8a4"
+        }
+      }
+    },
+    {
+      "version": "5.0.8",
+      "variantId": "registry-package.openupm.com-37129f4bad4d83a7",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "1af30fd9b4752ab36eff63d9bc75888d41c85657",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.8.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2d8c15ecab65740845f01d6d689a83aca0e1d274",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.2",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.8",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "2d8c15ecab65740845f01d6d689a83aca0e1d274"
+        }
+      }
+    },
+    {
+      "version": "5.0.9",
+      "variantId": "registry-package.openupm.com-1c4db43d8a17e95e",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "780af7091b186e1e0af288ebda44404accd4ea63",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.9.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "245ca792a3308f8964944caa66c6be2eff0b10f3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.2",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.9",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "245ca792a3308f8964944caa66c6be2eff0b10f3"
+        }
+      }
+    },
+    {
+      "version": "5.0.10",
+      "variantId": "registry-package.openupm.com-5c46ace0986b5c7d",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "4953039abb533bccee15da9ce4a1b3fee926325b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.10.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "61551d99a476479de44c6071967ed33b33745bab",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.2",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.10",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "61551d99a476479de44c6071967ed33b33745bab"
+        }
+      }
+    },
+    {
+      "version": "5.0.11",
+      "variantId": "registry-package.openupm.com-3c808994e6a598ce",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "1103fc01ad2b1d1d3e4312cc406c836e1745fb6f",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.11.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "70034ef4c08e1dc9bcd3daefc9755c1ef16a4a8c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.2",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.11",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "70034ef4c08e1dc9bcd3daefc9755c1ef16a4a8c"
+        }
+      }
+    },
+    {
+      "version": "5.0.12",
+      "variantId": "registry-package.openupm.com-6151c542324877ec",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "8d3ca1a23a881f6ff435c797a43b1d893328eee9",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.12.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d1c603dcc27a5bd723926dfbb94fb03825675110",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.2",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.12",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "d1c603dcc27a5bd723926dfbb94fb03825675110"
+        }
+      }
+    },
+    {
+      "version": "5.0.13",
+      "variantId": "registry-package.openupm.com-0571db191e1939ca",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "f9c7b6583ab20e17526fc17a347ea7e5b633327f",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.13.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "07f68f55adb34dafcb8d0703f2529e8b6678f099",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.2",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.13",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "07f68f55adb34dafcb8d0703f2529e8b6678f099"
+        }
+      }
+    },
+    {
+      "version": "5.0.14",
+      "variantId": "registry-package.openupm.com-eecc94cb4719398a",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "55fc28c345cccb10c97e566942ba6893153f335c",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.14.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "73767d101b233ad134305f63c90b123ad1d5e5b7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.2",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.14",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "73767d101b233ad134305f63c90b123ad1d5e5b7"
+        }
+      }
+    },
+    {
+      "version": "5.0.15",
+      "variantId": "registry-package.openupm.com-71904ca592a54eeb",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "9e4fa849e818a000ccf24a8f872fef0923b2ed25",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.15.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1a028f26fea790fd5dae3680b5f19f14ac384ca8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.2",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.15",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "1a028f26fea790fd5dae3680b5f19f14ac384ca8"
+        }
+      }
+    },
+    {
+      "version": "5.0.16",
+      "variantId": "registry-package.openupm.com-9306b4b1bd4b1ddb",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "862a10c8b1790a0540a21c8a3feae38a6a9cc4e8",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.16.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4b7a057b42b19fee7259ef55dd89af91721f5998",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.2",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.16",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "4b7a057b42b19fee7259ef55dd89af91721f5998"
+        }
+      }
+    },
+    {
+      "version": "5.0.17",
+      "variantId": "registry-package.openupm.com-33fd2f5486a557ba",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "2c788d40d25ac4bf8fb395ce3a5a40bb0602cd63",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/-/org.nuget.microsoft.entityframeworkcore-5.0.17.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1d4a06091436c5a3a49df895791afa2b55862132",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.caching.memory": "5.0.0",
+        "org.nuget.microsoft.extensions.dependencyinjection": "5.0.2",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.system.collections.immutable": "5.0.0",
+        "org.nuget.system.componentmodel.annotations": "5.0.0",
+        "org.nuget.system.diagnostics.diagnosticsource": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore/5.0.17",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "1d4a06091436c5a3a49df895791afa2b55862132"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "5.0.17"
+  },
+  "targetVersions": [
+    "3.1.0",
+    "5.0.17"
+  ],
+  "selectedVersions": [
+    "3.1.0",
+    "5.0.17",
+    "3.1.1"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 51,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

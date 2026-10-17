@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.google.gemma.cpp",
+  "displayName": "com.google.gemma.cpp",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.google.gemma.cpp",
+      "fetchedAt": "2026-10-17T17:38:36.277486Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.5",
+      "variantId": "registry-package.openupm.com-eb465e6e699ed81a",
+      "sourceUrl": "https://package.openupm.com/com.google.gemma.cpp",
+      "sourceRef": "17965b4271e5ba97e99b6cab89e4f975689fb8c1",
+      "downloadUrl": "https://package.openupm.com/com.google.gemma.cpp/-/com.google.gemma.cpp-1.0.5.tgz",
+      "upstreamIntegrity": "sha512-kjcK3gJVm25ozSrqWHJbdpOUqA0jDN+H/rckNqkvkiBq8zIT14tbadfM+WWyW7Rub+9EClKkz8xe134kifvAeg==",
+      "upstreamShasum": "2279e2b14017fb3a46964febca7fbd7d4edef7aa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "git+https://github.com/Cysharp/UniTask.git#2.5.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.google.gemma.cpp/1.0.5",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kjcK3gJVm25ozSrqWHJbdpOUqA0jDN+H/rckNqkvkiBq8zIT14tbadfM+WWyW7Rub+9EClKkz8xe134kifvAeg==",
+          "shasum": "2279e2b14017fb3a46964febca7fbd7d4edef7aa"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.5"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.google.gemma.cpp.yml",
+  "definitionBlobSha": "4ea0e8ccb698b4e36f65c7bf4b182927d459c01f",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.5"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

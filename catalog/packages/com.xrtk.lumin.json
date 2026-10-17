@@ -1,0 +1,862 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.xrtk.lumin",
+  "displayName": "com.xrtk.lumin",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin",
+      "fetchedAt": "2026-10-17T17:43:19.282035Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "variantId": "registry-package.openupm.com-ea598f31fa92b6f9",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "cf91e467e7151a830e36d39ecad2cd34cff32ae0",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.1.0.tgz",
+      "upstreamIntegrity": "sha512-WcnjeeCoUYfa+qtfUkiJw/VSsWl+miY+2FjGEBmNgi4WhSSMkNzT+cD13WpiWWjTs7uir4Suy07KWhn37IFi9g==",
+      "upstreamShasum": "3dd9374c536042c75a0ca86ee40bf5e2887f76c7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.magicleap": "2.0.0-preview.16",
+        "com.xrtk.core": "0.1.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.1.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WcnjeeCoUYfa+qtfUkiJw/VSsWl+miY+2FjGEBmNgi4WhSSMkNzT+cD13WpiWWjTs7uir4Suy07KWhn37IFi9g==",
+          "shasum": "3dd9374c536042c75a0ca86ee40bf5e2887f76c7"
+        }
+      }
+    },
+    {
+      "version": "0.1.1",
+      "variantId": "registry-package.openupm.com-dcec05ca1f9e174d",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "45da20dee3740ee5781aa380c962f1aa361c7a7c",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.1.1.tgz",
+      "upstreamIntegrity": "sha512-Xb/SwYGCPSk8Jm2Hjqlkx5Tk2QsqY08fIzCEfHF+c/ng5R51/LRJZftqBWR+UvozS9w5c1BYxRcE37AHqkDz9g==",
+      "upstreamShasum": "f07e3bc28acf35b24d255a029d652e04a9401502",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.magicleap": "2.0.0-preview.16",
+        "com.xrtk.core": "0.1.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.1.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Xb/SwYGCPSk8Jm2Hjqlkx5Tk2QsqY08fIzCEfHF+c/ng5R51/LRJZftqBWR+UvozS9w5c1BYxRcE37AHqkDz9g==",
+          "shasum": "f07e3bc28acf35b24d255a029d652e04a9401502"
+        }
+      }
+    },
+    {
+      "version": "0.1.2",
+      "variantId": "registry-package.openupm.com-f3ce3e015fb4d328",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "a196ab9a5e951eb79905a732dfbbd2a08becd78a",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.1.2.tgz",
+      "upstreamIntegrity": "sha512-OxLzj1Z7psUmWPsNcE9vXv9MVbVcsg+MvahnQnPcHSCTSl1K+tYqSL6x+0S/mIGmHqZ7bu0Lm6ebFWf+G24uNw==",
+      "upstreamShasum": "980c83c5b7a072c71f2ed1572ae5e00be38d043c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.magicleap": "2.0.0-preview.16",
+        "com.xrtk.core": "0.1.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.1.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OxLzj1Z7psUmWPsNcE9vXv9MVbVcsg+MvahnQnPcHSCTSl1K+tYqSL6x+0S/mIGmHqZ7bu0Lm6ebFWf+G24uNw==",
+          "shasum": "980c83c5b7a072c71f2ed1572ae5e00be38d043c"
+        }
+      }
+    },
+    {
+      "version": "0.1.3",
+      "variantId": "registry-package.openupm.com-8e35c1652aadfe8e",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "08e05b1b0fd831e77183be403b19c0aeb0fe07a7",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.1.3.tgz",
+      "upstreamIntegrity": "sha512-Ctp+N6YpglLpSGDSuIgY0SOTB/1KubbmWjZFoXKK42lW0WHy6W+OPTNOEu6H5xTBijbK4Kbcyk7sMwcs8lJhug==",
+      "upstreamShasum": "a96e1d84e20e7f59c1c1e82efcb5d130cdfc40e4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.magicleap": "2.0.0-preview.16",
+        "com.xrtk.core": "0.1.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.1.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ctp+N6YpglLpSGDSuIgY0SOTB/1KubbmWjZFoXKK42lW0WHy6W+OPTNOEu6H5xTBijbK4Kbcyk7sMwcs8lJhug==",
+          "shasum": "a96e1d84e20e7f59c1c1e82efcb5d130cdfc40e4"
+        }
+      }
+    },
+    {
+      "version": "0.1.4",
+      "variantId": "registry-package.openupm.com-084e515c7e274c98",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "b0df55adbd089275ae68f19793f410ddcc8b622c",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.1.4.tgz",
+      "upstreamIntegrity": "sha512-F2beJGFwvk6Uzm6XkIOkM9NgyhRtw9viYyop4dR389h5p5V5A77fCQWU36dudzWBfkpcE9ovkSUUJIjEzwdRnQ==",
+      "upstreamShasum": "d0bcc8c3d6cc91c2491286c24f9a3039a7f38edb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.magicleap": "2.0.0-preview.16",
+        "com.xrtk.core": "0.1.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.1.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-F2beJGFwvk6Uzm6XkIOkM9NgyhRtw9viYyop4dR389h5p5V5A77fCQWU36dudzWBfkpcE9ovkSUUJIjEzwdRnQ==",
+          "shasum": "d0bcc8c3d6cc91c2491286c24f9a3039a7f38edb"
+        }
+      }
+    },
+    {
+      "version": "0.1.5",
+      "variantId": "registry-package.openupm.com-44542ac629f2690f",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "3548dae8d6b4b62d21a3f80d227566d12bf966b5",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.1.5.tgz",
+      "upstreamIntegrity": "sha512-BqgKfTZCIeRBZGJSSuM6SwFtlA9jQOQUryL1Mw0chT2O1+DLNHSYgE6WUrV3I1qbozJaE5YR8v6RZwn/i1Y45A==",
+      "upstreamShasum": "22f1f629f7366a91126b57a4a20610b7ddb4c01e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.magicleap": "2.0.0-preview.19",
+        "com.xrtk.core": "0.1.16"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.1.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BqgKfTZCIeRBZGJSSuM6SwFtlA9jQOQUryL1Mw0chT2O1+DLNHSYgE6WUrV3I1qbozJaE5YR8v6RZwn/i1Y45A==",
+          "shasum": "22f1f629f7366a91126b57a4a20610b7ddb4c01e"
+        }
+      }
+    },
+    {
+      "version": "0.1.6",
+      "variantId": "registry-package.openupm.com-df0a0796aa88ea17",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.lumin",
+      "sourceRef": "a12c1c33fa40112a526eeb2d3ee858e48fe6af1f",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.1.6.tgz",
+      "upstreamIntegrity": "sha512-ohSY9iKi8Egl+tAsf38gPT32FZj0nrOtqVXQVXQPT9gSgkgNFikmdkKfPTk4Sj3j33s/qBXrxw0w6cf/DuCtWQ==",
+      "upstreamShasum": "4e58a5c3f1db0ae4eec20bf5fb3c424112563f69",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.magicleap": "2.0.0-preview.19",
+        "com.xrtk.core": "0.1.19"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.1.6",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ohSY9iKi8Egl+tAsf38gPT32FZj0nrOtqVXQVXQPT9gSgkgNFikmdkKfPTk4Sj3j33s/qBXrxw0w6cf/DuCtWQ==",
+          "shasum": "4e58a5c3f1db0ae4eec20bf5fb3c424112563f69"
+        }
+      }
+    },
+    {
+      "version": "0.1.7",
+      "variantId": "registry-package.openupm.com-1a663f6cee350d89",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.lumin",
+      "sourceRef": "fbe840cf9630f98afc6cdc16645fce9bc12c45bb",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.1.7.tgz",
+      "upstreamIntegrity": "sha512-6+JbC/hE/Al1VzxNK/QecVe/By36pgtYcV0aet1/dYANfwFdGL0rdrFpQjmocEuszM5QJ4OXs5jLpwvWXUW7rA==",
+      "upstreamShasum": "fd92fac99666f42171741dda786d16ed058cbf4b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.magicleap": "2.0.0-preview.19",
+        "com.xrtk.core": "0.1.21"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.1.7",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6+JbC/hE/Al1VzxNK/QecVe/By36pgtYcV0aet1/dYANfwFdGL0rdrFpQjmocEuszM5QJ4OXs5jLpwvWXUW7rA==",
+          "shasum": "fd92fac99666f42171741dda786d16ed058cbf4b"
+        }
+      }
+    },
+    {
+      "version": "0.1.8",
+      "variantId": "registry-package.openupm.com-ee8416568d6f05e1",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.lumin",
+      "sourceRef": "22e00d728682b9a51cf3fa4d2fdd73ea9c14c34d",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.1.8.tgz",
+      "upstreamIntegrity": "sha512-0aQ3BFXGKu3ylc9RUIqtiZ03+CwAN8EZfHTnpdW/z6z21I24YKHB9Gbv0v3+Rxn//eUdG0YGYqqcCr9ol96WUw==",
+      "upstreamShasum": "6762572a78c3356b3d76971603eb8efe210c2127",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.magicleap": "2.0.0-preview.19",
+        "com.xrtk.core": "0.1.25"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.1.8",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-0aQ3BFXGKu3ylc9RUIqtiZ03+CwAN8EZfHTnpdW/z6z21I24YKHB9Gbv0v3+Rxn//eUdG0YGYqqcCr9ol96WUw==",
+          "shasum": "6762572a78c3356b3d76971603eb8efe210c2127"
+        }
+      }
+    },
+    {
+      "version": "0.1.9",
+      "variantId": "registry-package.openupm.com-6f2cc5e21c755dbb",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.lumin",
+      "sourceRef": "d2dffd712c264ea960d9ba27d1e5d66d1bbecdcf",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.1.9.tgz",
+      "upstreamIntegrity": "sha512-phDIPuGKj9H09oacRmAUzhsXB7qyIhc8PQhFbNShfr44f7NTyXxCiYYuB0z+vM4bZsCgwJxPOHmAHLX99todag==",
+      "upstreamShasum": "9cd8e33cbc24e8e7bb1b0fb135abce094b2c77a7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.magicleap": "2.0.0-preview.19",
+        "com.xrtk.core": "0.1.25"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.1.9",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-phDIPuGKj9H09oacRmAUzhsXB7qyIhc8PQhFbNShfr44f7NTyXxCiYYuB0z+vM4bZsCgwJxPOHmAHLX99todag==",
+          "shasum": "9cd8e33cbc24e8e7bb1b0fb135abce094b2c77a7"
+        }
+      }
+    },
+    {
+      "version": "0.1.10",
+      "variantId": "registry-package.openupm.com-e27ea973c7345ab1",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.lumin",
+      "sourceRef": "a86e774480d39aa3429df7e4a88a94803fd6bf3b",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.1.10.tgz",
+      "upstreamIntegrity": "sha512-0VaQIf2t9WofKKcwrznSHJcgcJNRHC6YXLjCwbGzdipL76seAQFo9FmB7dzW8lhsbBVPzrdvJMpxsBOLR4+i4A==",
+      "upstreamShasum": "e7473ec76c5b95e9db5b776e5741f03ce4ea7435",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.magicleap": "2.0.0-preview.19",
+        "com.xrtk.core": "0.1.27"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.1.10",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-0VaQIf2t9WofKKcwrznSHJcgcJNRHC6YXLjCwbGzdipL76seAQFo9FmB7dzW8lhsbBVPzrdvJMpxsBOLR4+i4A==",
+          "shasum": "e7473ec76c5b95e9db5b776e5741f03ce4ea7435"
+        }
+      }
+    },
+    {
+      "version": "0.1.11",
+      "variantId": "registry-package.openupm.com-56d1c95b7b801618",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.lumin",
+      "sourceRef": "c7b17dcbb963bef85a766cddae0e9bca6d6fa659",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.1.11.tgz",
+      "upstreamIntegrity": "sha512-PKoDuloMnxvYRST8OqaQQ/9h9mU9o4ogyuyc4TquiLYCX2DYUorHvAeU8Qu+fohFa+7704+6gRM8sNmeICXo6Q==",
+      "upstreamShasum": "cdebe996f7d1c3bc1bb710a878816e93ca76dad3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.magicleap": "2.0.0-preview.19",
+        "com.xrtk.core": "0.1.32"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.1.11",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PKoDuloMnxvYRST8OqaQQ/9h9mU9o4ogyuyc4TquiLYCX2DYUorHvAeU8Qu+fohFa+7704+6gRM8sNmeICXo6Q==",
+          "shasum": "cdebe996f7d1c3bc1bb710a878816e93ca76dad3"
+        }
+      }
+    },
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-11dfd192c49f8f72",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.lumin",
+      "sourceRef": "d935f198201848e8e2c90c037b49e94b4a22e99a",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-b9axoPEPqpWYyflGlAcYcgHD8zOKDUaZS38k6EBhCSVstv7eKCLC8R0NEuflAMe4DMJXysLJw/TuhLiI6muRzg==",
+      "upstreamShasum": "bc1dfaf543643321dd89eb201364f0e68defdc88",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.2.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-b9axoPEPqpWYyflGlAcYcgHD8zOKDUaZS38k6EBhCSVstv7eKCLC8R0NEuflAMe4DMJXysLJw/TuhLiI6muRzg==",
+          "shasum": "bc1dfaf543643321dd89eb201364f0e68defdc88"
+        }
+      }
+    },
+    {
+      "version": "0.2.1",
+      "variantId": "registry-package.openupm.com-d98f72c4af004fd0",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.lumin",
+      "sourceRef": "5ff92442cc18594cfeeeda748b789b6fdd9035d6",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.2.1.tgz",
+      "upstreamIntegrity": "sha512-gIg77ABIZhygOsQRhLDShI3PXZdlzSMluLFwGN82cU5DTnzON7+ipXDRlIBNeBWStSMQFfb2Ewtk2VvlrELypg==",
+      "upstreamShasum": "ca24ee9283c526ae341d482131f2c2fafefe7d0a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.2.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gIg77ABIZhygOsQRhLDShI3PXZdlzSMluLFwGN82cU5DTnzON7+ipXDRlIBNeBWStSMQFfb2Ewtk2VvlrELypg==",
+          "shasum": "ca24ee9283c526ae341d482131f2c2fafefe7d0a"
+        }
+      }
+    },
+    {
+      "version": "0.2.2",
+      "variantId": "registry-package.openupm.com-0c4ccb8581a282e9",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.lumin",
+      "sourceRef": "aeb4d2b4faae0994e7ec2d5c542dfd377bcd4613",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.2.2.tgz",
+      "upstreamIntegrity": "sha512-lUFUB4O4KhnhfQ7srLaQhlS1wQoFVaW/sO+qHagbOsitGbnD2MVitUV9wGcDkYvnpXpFu8ryKeueaTgHnf/y3w==",
+      "upstreamShasum": "01c75dc4fdd27a736a5403b3c54273077c22a8af",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.2.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lUFUB4O4KhnhfQ7srLaQhlS1wQoFVaW/sO+qHagbOsitGbnD2MVitUV9wGcDkYvnpXpFu8ryKeueaTgHnf/y3w==",
+          "shasum": "01c75dc4fdd27a736a5403b3c54273077c22a8af"
+        }
+      }
+    },
+    {
+      "version": "0.2.3",
+      "variantId": "registry-package.openupm.com-bd63d53eb67f049f",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "de9bcefd04f936f40702a42c136140da59151d5d",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.2.3.tgz",
+      "upstreamIntegrity": "sha512-Kw26w54kfXiPJybCnqhmbdTA758ROlZ8nKa3qkr4LxrjmOFL82BPI2NE5/v516RPHBbX7+pzT3ItHihtRfqi1A==",
+      "upstreamShasum": "9f3ef5267fb04b4831cd452103b89798042a428d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.2.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Kw26w54kfXiPJybCnqhmbdTA758ROlZ8nKa3qkr4LxrjmOFL82BPI2NE5/v516RPHBbX7+pzT3ItHihtRfqi1A==",
+          "shasum": "9f3ef5267fb04b4831cd452103b89798042a428d"
+        }
+      }
+    },
+    {
+      "version": "0.2.4",
+      "variantId": "registry-package.openupm.com-929fe7f14955488a",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "b5a6aa2caed9844b775d1f824230c551c91658e5",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.2.4.tgz",
+      "upstreamIntegrity": "sha512-1C+PrBBNvps5N7QOiQvfU6j4RCyWirq4SKbVgZfThaT8bsCGxc5IpaK2ozZoh7e4lhhR3vtiWsd2m4GgCgRe4A==",
+      "upstreamShasum": "d7685a88dc6540488d7c7eac7eacc1fe8a755b1d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.2.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1C+PrBBNvps5N7QOiQvfU6j4RCyWirq4SKbVgZfThaT8bsCGxc5IpaK2ozZoh7e4lhhR3vtiWsd2m4GgCgRe4A==",
+          "shasum": "d7685a88dc6540488d7c7eac7eacc1fe8a755b1d"
+        }
+      }
+    },
+    {
+      "version": "0.2.5",
+      "variantId": "registry-package.openupm.com-bdcb8c4fec64e60a",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "e22c0d2c85dd202c61f16edc77d15a28c9420d4f",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.2.5.tgz",
+      "upstreamIntegrity": "sha512-zpoI9K8GqqIOT4ZS276s+f9PJtb5UeQ2OO7+kBqaOr7DNRye91FYrg5GHbO7XliEISuT3u58Dx/inPKx0blkPQ==",
+      "upstreamShasum": "e325a65421c09813fb04b34423e12f1ce33f3bf9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.2.5",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zpoI9K8GqqIOT4ZS276s+f9PJtb5UeQ2OO7+kBqaOr7DNRye91FYrg5GHbO7XliEISuT3u58Dx/inPKx0blkPQ==",
+          "shasum": "e325a65421c09813fb04b34423e12f1ce33f3bf9"
+        }
+      }
+    },
+    {
+      "version": "0.2.6",
+      "variantId": "registry-package.openupm.com-b5baee5362a630a4",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "2f9584caeacdd77a558c1ac4575e5c3ad77783da",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.2.6.tgz",
+      "upstreamIntegrity": "sha512-do8J5G7AgLCSj08j504SwlgPJmulYRRaHX1dKmiis06DKSHIruO25v5eW5K7tswsZqIE2NP3JwBYg32G57jKBw==",
+      "upstreamShasum": "8a091a0a1bea6c9df9d6e54814aa3e7a0c9cc231",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.13"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.2.6",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-do8J5G7AgLCSj08j504SwlgPJmulYRRaHX1dKmiis06DKSHIruO25v5eW5K7tswsZqIE2NP3JwBYg32G57jKBw==",
+          "shasum": "8a091a0a1bea6c9df9d6e54814aa3e7a0c9cc231"
+        }
+      }
+    },
+    {
+      "version": "0.2.7",
+      "variantId": "registry-package.openupm.com-9250948a83b5155d",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "7e73c1a0c14fb47ff120012f8ae96b3c8471e394",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.2.7.tgz",
+      "upstreamIntegrity": "sha512-I2tMwZVVXWTTU7vlIJWeI1pVe7vlQlcZOVhWK+FsZqrFZNgtWlnuWKjD4B5p8WdWqegki5DP5W4BQKDlaYBxdw==",
+      "upstreamShasum": "1239a458b146bc0c964d78a484aeac218896505a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.2.7",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-I2tMwZVVXWTTU7vlIJWeI1pVe7vlQlcZOVhWK+FsZqrFZNgtWlnuWKjD4B5p8WdWqegki5DP5W4BQKDlaYBxdw==",
+          "shasum": "1239a458b146bc0c964d78a484aeac218896505a"
+        }
+      }
+    },
+    {
+      "version": "0.2.8",
+      "variantId": "registry-package.openupm.com-64ab2f0087dcd9cd",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "7ae01629252b6de90244f48defbb2b0270fd3dc1",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.2.8.tgz",
+      "upstreamIntegrity": "sha512-Iwm6shuSY+D5bXAkCsRhB+2bHa5M3EX++A06zV97dDpbhN+1p5zPeF18BBbgVagfKKdBnc5Oc+WrZ5J8JiduIA==",
+      "upstreamShasum": "c442382e5af0a60e845a3bd3cd5bd66beedf6773",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.2.8",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Iwm6shuSY+D5bXAkCsRhB+2bHa5M3EX++A06zV97dDpbhN+1p5zPeF18BBbgVagfKKdBnc5Oc+WrZ5J8JiduIA==",
+          "shasum": "c442382e5af0a60e845a3bd3cd5bd66beedf6773"
+        }
+      }
+    },
+    {
+      "version": "0.2.9",
+      "variantId": "registry-package.openupm.com-aea53342d6706e75",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "d645ac28635423e7cd6d66d134e02f972d46d3f5",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.2.9.tgz",
+      "upstreamIntegrity": "sha512-bUgrJo14DOGRkkuqMXIHkq6ZPhv+SWdy0d9YmY4m+UPwH2v3YO/50E8WL72PoCanUI3pZSLdbCRKSBdJpyBY1w==",
+      "upstreamShasum": "2b636f3d024b41566b040fe568a2ea22a0bd6067",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.16"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.2.9",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bUgrJo14DOGRkkuqMXIHkq6ZPhv+SWdy0d9YmY4m+UPwH2v3YO/50E8WL72PoCanUI3pZSLdbCRKSBdJpyBY1w==",
+          "shasum": "2b636f3d024b41566b040fe568a2ea22a0bd6067"
+        }
+      }
+    },
+    {
+      "version": "0.2.10",
+      "variantId": "registry-package.openupm.com-3982d7d7bc19a4e8",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "d4559a0765c7a70a95f59ee1ae8f191d3ff6d701",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.2.10.tgz",
+      "upstreamIntegrity": "sha512-HfZ0Lxvqp5XntctMuUxzu9xsdpYwVdgB9roQGS0R9cO2aruDRP+XLzOzDzGzKJaeQ/PN6WP0bTnjSwi0MU7DFA==",
+      "upstreamShasum": "da25af08bf75fe0457648daeb84be56d5bdff9ef",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.17"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.2.10",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HfZ0Lxvqp5XntctMuUxzu9xsdpYwVdgB9roQGS0R9cO2aruDRP+XLzOzDzGzKJaeQ/PN6WP0bTnjSwi0MU7DFA==",
+          "shasum": "da25af08bf75fe0457648daeb84be56d5bdff9ef"
+        }
+      }
+    },
+    {
+      "version": "0.3.0-preview.8",
+      "variantId": "registry-package.openupm.com-6b5117c97b68fcf0",
+      "sourceUrl": "https://github.com/XRTK/Lumin.git",
+      "sourceRef": "8a73a12eacca4c2df681086992b1a5342f77fb6d",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.lumin/-/com.xrtk.lumin-0.3.0-preview.8.tgz",
+      "upstreamIntegrity": "sha512-SWdRQ0iLyjjVJtQBKZWk0AsDodGi9Y3Y1Pk2iZxHA5lWgbeuizhJsv6Ze/qqxZLJHijbVRxZMyOjDojlt9pRMw==",
+      "upstreamShasum": "eb86e7927b15ddfacf83bda8728776951a10d69f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.3.0-preview.48",
+        "com.unity.xr.magicleap": "4.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.lumin/0.3.0-preview.8",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SWdRQ0iLyjjVJtQBKZWk0AsDodGi9Y3Y1Pk2iZxHA5lWgbeuizhJsv6Ze/qqxZLJHijbVRxZMyOjDojlt9pRMw==",
+          "shasum": "eb86e7927b15ddfacf83bda8728776951a10d69f"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.3.0-preview.8"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.xrtk.lumin.yml",
+  "definitionBlobSha": "518ea0ffb18788ea8b3df4de2a0087b49637f1b6",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.2.10",
+    "0.2.9",
+    "0.2.8"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 24,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

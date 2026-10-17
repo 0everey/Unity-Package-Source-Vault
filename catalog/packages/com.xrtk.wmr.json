@@ -1,0 +1,969 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.xrtk.wmr",
+  "displayName": "com.xrtk.wmr",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr",
+      "fetchedAt": "2026-10-17T17:43:19.694568Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "variantId": "registry-package.openupm.com-1b057474f9c9ccaa",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "aa3ffa23b83ebc1af1a923501ad74241ce1b39c8",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.1.0.tgz",
+      "upstreamIntegrity": "sha512-Y4B7L50HrE3F3BxgdVrsi73tldeta6yX5BZCksELnkzQtM0og3QD/ddZpmCAx7S3tLJI2CDnKTOlkTe+ecG8tA==",
+      "upstreamShasum": "8d46d91665c54156e22ba924b0bfa3df9d4f39bd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.1.0",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Y4B7L50HrE3F3BxgdVrsi73tldeta6yX5BZCksELnkzQtM0og3QD/ddZpmCAx7S3tLJI2CDnKTOlkTe+ecG8tA==",
+          "shasum": "8d46d91665c54156e22ba924b0bfa3df9d4f39bd"
+        }
+      }
+    },
+    {
+      "version": "0.1.1",
+      "variantId": "registry-package.openupm.com-e8c1f07ef0b461cd",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "590a21635dff21d93fd8dd14e66fcdd0424cf63d",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.1.1.tgz",
+      "upstreamIntegrity": "sha512-Ee7koffh7Yk+fg+sGUSzg0qMElgfIW2KjhGcrOa8ztR9TKjuhCU7Epa+1Z1QdOJCiGLCE/NnanAXnu7zZW4XDw==",
+      "upstreamShasum": "56c92cf13a3e812e52b763d26a6be8b5ac641828",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.1.1",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ee7koffh7Yk+fg+sGUSzg0qMElgfIW2KjhGcrOa8ztR9TKjuhCU7Epa+1Z1QdOJCiGLCE/NnanAXnu7zZW4XDw==",
+          "shasum": "56c92cf13a3e812e52b763d26a6be8b5ac641828"
+        }
+      }
+    },
+    {
+      "version": "0.1.2",
+      "variantId": "registry-package.openupm.com-2e02640cb3cabd59",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "7b8d08a2318b9c5190608741debfb2d7078bdae7",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.1.2.tgz",
+      "upstreamIntegrity": "sha512-vTOk5KeZXOG5f4sE+fcv1wZU89ge9R2cCE+E8Vct5jaHxLNFXgtFVeMCMb6QpOQUonx7s7CRue2RDxHP87MIbQ==",
+      "upstreamShasum": "9d72dba1b4f39279edfdf42fc67fd05d71537947",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.1.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vTOk5KeZXOG5f4sE+fcv1wZU89ge9R2cCE+E8Vct5jaHxLNFXgtFVeMCMb6QpOQUonx7s7CRue2RDxHP87MIbQ==",
+          "shasum": "9d72dba1b4f39279edfdf42fc67fd05d71537947"
+        }
+      }
+    },
+    {
+      "version": "0.1.3",
+      "variantId": "registry-package.openupm.com-2172fbb507bae905",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "40f707ba94f5b34d8969246ee980dbe9c3b8ff31",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.1.3.tgz",
+      "upstreamIntegrity": "sha512-cQSgIvMSvCdkbbsx7RlzFTe0vZHitoTKyY9KwlXLc9F05B8aqNq0j4GYs3gRTV816agx3KH8r3hNGSfDFQoTIg==",
+      "upstreamShasum": "78eb67437274e4ed1d802bf65741bd5fbd004376",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.1.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cQSgIvMSvCdkbbsx7RlzFTe0vZHitoTKyY9KwlXLc9F05B8aqNq0j4GYs3gRTV816agx3KH8r3hNGSfDFQoTIg==",
+          "shasum": "78eb67437274e4ed1d802bf65741bd5fbd004376"
+        }
+      }
+    },
+    {
+      "version": "0.1.4",
+      "variantId": "registry-package.openupm.com-8f698d2e1bd13902",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "754df1a42e595fa5881238388a4a002cde237b3c",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.1.4.tgz",
+      "upstreamIntegrity": "sha512-SNglMtJyix/8KCWlGD+JQtWmrB9gFdI/U7t8FuCaE+sb5t9WNODyB+4b/DH9FanA6bkSpsq9T6Zp/wH/d/53Xw==",
+      "upstreamShasum": "2678345f807870c2416ed12b503155e492778b1e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.16"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.1.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SNglMtJyix/8KCWlGD+JQtWmrB9gFdI/U7t8FuCaE+sb5t9WNODyB+4b/DH9FanA6bkSpsq9T6Zp/wH/d/53Xw==",
+          "shasum": "2678345f807870c2416ed12b503155e492778b1e"
+        }
+      }
+    },
+    {
+      "version": "0.1.5",
+      "variantId": "registry-package.openupm.com-2074807f7e446794",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.wmr",
+      "sourceRef": "5c04917e710c4ae1f868f40ced5c7cbc58a6eac6",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.1.5.tgz",
+      "upstreamIntegrity": "sha512-HrNd5yzpCtNeEZV9hDIqimu0+wn/PHx+DJHLtlN2VVKhENqpfynXG4m9HMZO1L/fuwbICNOe4KAriwpt2i5V3w==",
+      "upstreamShasum": "5860263f6ee221e3620f597bb6ebe5c40f2460d5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.19",
+        "com.unity.xr.windowsmr.metro": "1.0.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.1.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HrNd5yzpCtNeEZV9hDIqimu0+wn/PHx+DJHLtlN2VVKhENqpfynXG4m9HMZO1L/fuwbICNOe4KAriwpt2i5V3w==",
+          "shasum": "5860263f6ee221e3620f597bb6ebe5c40f2460d5"
+        }
+      }
+    },
+    {
+      "version": "0.1.6",
+      "variantId": "registry-package.openupm.com-61562b060ff18dad",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.wmr",
+      "sourceRef": "669da629b3ee920aa9e22ac5e634cd1d3d4e42b6",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.1.6.tgz",
+      "upstreamIntegrity": "sha512-xP/MeSfeERxeI0ndgRPZNU6QL8D9mmF+S4gwI7snJh1BJkBPcFNes1AhD+A6CI05ToyjYJ2qSHv/RTn/nGkijQ==",
+      "upstreamShasum": "537c5f54ff7ed7737be0b688620ae04ad96f6f65",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.20",
+        "com.unity.xr.windowsmr.metro": "1.0.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.1.6",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xP/MeSfeERxeI0ndgRPZNU6QL8D9mmF+S4gwI7snJh1BJkBPcFNes1AhD+A6CI05ToyjYJ2qSHv/RTn/nGkijQ==",
+          "shasum": "537c5f54ff7ed7737be0b688620ae04ad96f6f65"
+        }
+      }
+    },
+    {
+      "version": "0.1.7",
+      "variantId": "registry-package.openupm.com-de65cdc3dfc42f6a",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.wmr",
+      "sourceRef": "c9cbc49b63eeb71ce4d611380a7eac241abede45",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.1.7.tgz",
+      "upstreamIntegrity": "sha512-TmQ2hC0bZ3NxZWKk4DKyAIFtBzjDd6LOyCW3FwUnH1ouGSvXPcuKx0BSZh9ZxSvzvd9H1cytxGjTwh2TJOfdXw==",
+      "upstreamShasum": "a867189bc03e8c8167717bc65ca47f2a6fd29d3b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.21",
+        "com.unity.xr.windowsmr.metro": "1.0.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.1.7",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TmQ2hC0bZ3NxZWKk4DKyAIFtBzjDd6LOyCW3FwUnH1ouGSvXPcuKx0BSZh9ZxSvzvd9H1cytxGjTwh2TJOfdXw==",
+          "shasum": "a867189bc03e8c8167717bc65ca47f2a6fd29d3b"
+        }
+      }
+    },
+    {
+      "version": "0.1.8",
+      "variantId": "registry-package.openupm.com-c1272069f7ed2590",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.wmr",
+      "sourceRef": "cfb716ccb3989226d2df1bc80e369b2c23121917",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.1.8.tgz",
+      "upstreamIntegrity": "sha512-/EH8RFzgFncUhzRHk6Pgs6vwOrJfPq5TFfcNkSs29+TT2LFNE2MggRzf/1RZEhtweaoGpiM07scvkdzBXM53lA==",
+      "upstreamShasum": "17ee35975466a691c3d4e88a6d78cdb0a3162d70",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.25",
+        "com.unity.xr.windowsmr.metro": "1.0.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.1.8",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/EH8RFzgFncUhzRHk6Pgs6vwOrJfPq5TFfcNkSs29+TT2LFNE2MggRzf/1RZEhtweaoGpiM07scvkdzBXM53lA==",
+          "shasum": "17ee35975466a691c3d4e88a6d78cdb0a3162d70"
+        }
+      }
+    },
+    {
+      "version": "0.1.9",
+      "variantId": "registry-package.openupm.com-f13f2ae8d61f2068",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.wmr",
+      "sourceRef": "fc3a166645b37028e31d55e56a5257bda6263ea4",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.1.9.tgz",
+      "upstreamIntegrity": "sha512-F3ffwXW8nIYeGd6fBmUzOvzPAx4wyr+DGjfmrqaRlRjcTayUf4EOpa8IHl6RxVmr0opms4vi9ceIanuPYePqTw==",
+      "upstreamShasum": "4b4e67426b8fa9b9522cef63acbae6064088ccc6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.27",
+        "com.unity.xr.windowsmr.metro": "1.0.15"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.1.9",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-F3ffwXW8nIYeGd6fBmUzOvzPAx4wyr+DGjfmrqaRlRjcTayUf4EOpa8IHl6RxVmr0opms4vi9ceIanuPYePqTw==",
+          "shasum": "4b4e67426b8fa9b9522cef63acbae6064088ccc6"
+        }
+      }
+    },
+    {
+      "version": "0.1.10",
+      "variantId": "registry-package.openupm.com-d6315d939aa66f14",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.wmr",
+      "sourceRef": "55c58c907bb83048058b150b7a35e1ef9e95d866",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.1.10.tgz",
+      "upstreamIntegrity": "sha512-LoeaiqYFPMnkJ2+nuUPsya8ATE8w/bUv12ct8ocikG9avqcl+sad09ozUEv07YZefkfjaXiYD2rZhbeVK+LBpg==",
+      "upstreamShasum": "77c77d9e9bf41bc72188c74e2324674d970f2d4b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.27",
+        "com.unity.xr.windowsmr.metro": "1.0.15"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.1.10",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LoeaiqYFPMnkJ2+nuUPsya8ATE8w/bUv12ct8ocikG9avqcl+sad09ozUEv07YZefkfjaXiYD2rZhbeVK+LBpg==",
+          "shasum": "77c77d9e9bf41bc72188c74e2324674d970f2d4b"
+        }
+      }
+    },
+    {
+      "version": "0.1.11",
+      "variantId": "registry-package.openupm.com-88f5d89c1a38a2d4",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.wmr",
+      "sourceRef": "73b6f8279f3179f66a4c9c56eae1af91ba7588a4",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.1.11.tgz",
+      "upstreamIntegrity": "sha512-80DwJTyGJdF5Es8vsm8KJX+QHpRxs48LDdt7KTn8E8gsqA3Ck4lcqNFYdAWFwxSU+LG4m3GOFXAdRYiGYW804g==",
+      "upstreamShasum": "9937fb5517541c219b90fd140679c00aa5d28c44",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.31",
+        "com.unity.xr.windowsmr.metro": "1.0.19"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.1.11",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-80DwJTyGJdF5Es8vsm8KJX+QHpRxs48LDdt7KTn8E8gsqA3Ck4lcqNFYdAWFwxSU+LG4m3GOFXAdRYiGYW804g==",
+          "shasum": "9937fb5517541c219b90fd140679c00aa5d28c44"
+        }
+      }
+    },
+    {
+      "version": "0.1.12",
+      "variantId": "registry-package.openupm.com-923ba6050f1b9d0e",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.wmr",
+      "sourceRef": "59dc9f2c061da422971abfca18e35ddae5ba0e2f",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.1.12.tgz",
+      "upstreamIntegrity": "sha512-hIq76ggYKFNXpWgQdRm/s8Lwks/ebvy/IrTyzVq70P3gfbLLN4h9na+qHLgH7PcaByoVPbljM54czCQd929fiA==",
+      "upstreamShasum": "fbf89255a59ea0ff8cf12f1b78f58fe56065aa0b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.32",
+        "com.unity.xr.windowsmr.metro": "1.0.19"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.1.12",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hIq76ggYKFNXpWgQdRm/s8Lwks/ebvy/IrTyzVq70P3gfbLLN4h9na+qHLgH7PcaByoVPbljM54czCQd929fiA==",
+          "shasum": "fbf89255a59ea0ff8cf12f1b78f58fe56065aa0b"
+        }
+      }
+    },
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-6e649fcc703e48e2",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.wmr",
+      "sourceRef": "d99d2000bbf6839d9d4db3bd6a38b495a021af01",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-fxdz/8ftlGcZwiBv3toP/0OWRRMzP39PS+SkGazs6xb19T6a0a+QKU28tMXO098GB+Z9BJRvEy0r0D5IB8S9jQ==",
+      "upstreamShasum": "391ae9377b104e5cd491221aa9b635d67e1961f6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.0",
+        "com.unity.xr.windowsmr.metro": "4.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.2.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fxdz/8ftlGcZwiBv3toP/0OWRRMzP39PS+SkGazs6xb19T6a0a+QKU28tMXO098GB+Z9BJRvEy0r0D5IB8S9jQ==",
+          "shasum": "391ae9377b104e5cd491221aa9b635d67e1961f6"
+        }
+      }
+    },
+    {
+      "version": "0.2.1",
+      "variantId": "registry-package.openupm.com-b1d2bd22bdc49122",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.wmr",
+      "sourceRef": "78dcfc6d3370336de5ded1731dca25cb4be8c3f4",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.2.1.tgz",
+      "upstreamIntegrity": "sha512-dY33ywbfbWosvomBxrxagW51iWRqlCxj2m3RMbnZlGrGRi8XTV8LHyCJPqlLamQ6puot4d80ZPfcBMUUqrCyLw==",
+      "upstreamShasum": "81593c7e7f56cfeebc5729b3a9f742f615a729c3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.1",
+        "com.unity.xr.windowsmr.metro": "4.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.2.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dY33ywbfbWosvomBxrxagW51iWRqlCxj2m3RMbnZlGrGRi8XTV8LHyCJPqlLamQ6puot4d80ZPfcBMUUqrCyLw==",
+          "shasum": "81593c7e7f56cfeebc5729b3a9f742f615a729c3"
+        }
+      }
+    },
+    {
+      "version": "0.2.2",
+      "variantId": "registry-package.openupm.com-5a37793b92413291",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.wmr",
+      "sourceRef": "4975e571c63e164687def67ef8bbc5245016ca3d",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.2.2.tgz",
+      "upstreamIntegrity": "sha512-Jc24sKLJ5cfZme/96zswWX9eSfnZYwz1YFiaWHRcp/MLQKhJWVGbzv+mRWp7FZFdsQs+7yIsmb3cJ7/yg4wD8w==",
+      "upstreamShasum": "9e3e8756cf916591b192ae7fd67592505b27f8d0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.3",
+        "com.unity.xr.windowsmr.metro": "4.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.2.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Jc24sKLJ5cfZme/96zswWX9eSfnZYwz1YFiaWHRcp/MLQKhJWVGbzv+mRWp7FZFdsQs+7yIsmb3cJ7/yg4wD8w==",
+          "shasum": "9e3e8756cf916591b192ae7fd67592505b27f8d0"
+        }
+      }
+    },
+    {
+      "version": "0.2.3",
+      "variantId": "registry-package.openupm.com-e43ab271393f7bb3",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.wmr",
+      "sourceRef": "c259c3083231c61150c517537f0fc1331c571bc8",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.2.3.tgz",
+      "upstreamIntegrity": "sha512-QvWtSEJkldcc03mBleuswD0N1rfRV347GMQJZgJeMVY/+8Dt2sevMUHvxSueNp7TqpbqVD6Nd2CcUFKqnPR4JA==",
+      "upstreamShasum": "622b6bfe8f3e2f97df51187cb3546819242b05a9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.4",
+        "com.unity.xr.windowsmr.metro": "4.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.2.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QvWtSEJkldcc03mBleuswD0N1rfRV347GMQJZgJeMVY/+8Dt2sevMUHvxSueNp7TqpbqVD6Nd2CcUFKqnPR4JA==",
+          "shasum": "622b6bfe8f3e2f97df51187cb3546819242b05a9"
+        }
+      }
+    },
+    {
+      "version": "0.2.4",
+      "variantId": "registry-package.openupm.com-17970dbb5f5ec098",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "14c492ccb20d3f1e7c362852d9e639aa50aabd93",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.2.4.tgz",
+      "upstreamIntegrity": "sha512-B4pMexJx3rE5EC//JEH3wr5Mun89COyutFOYEsFXWJpKO8WIp6Ga1B/1YQ2mbgEBTXthzbGkqnLa3lU9laaBHQ==",
+      "upstreamShasum": "a24cd5331ede8269e377e9bd610da38d657fdb52",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.6",
+        "com.unity.xr.windowsmr.metro": "4.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.2.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-B4pMexJx3rE5EC//JEH3wr5Mun89COyutFOYEsFXWJpKO8WIp6Ga1B/1YQ2mbgEBTXthzbGkqnLa3lU9laaBHQ==",
+          "shasum": "a24cd5331ede8269e377e9bd610da38d657fdb52"
+        }
+      }
+    },
+    {
+      "version": "0.2.5",
+      "variantId": "registry-package.openupm.com-e8161484ca80a73e",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "3c315b121a5df7bdb7ac2f47b2a9f84c562eccbc",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.2.5.tgz",
+      "upstreamIntegrity": "sha512-mRDSgAR4BlppRF2obxrYAuhP6fLA1HI9R8r33v+dKCRer6anmZVNjuMeaiSCgZrj9MXH/cRK5HWuz6ynCvIp8A==",
+      "upstreamShasum": "d34b9c4f2eb56901da503a6995c8dc9689b8b30d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.10",
+        "com.unity.xr.windowsmr.metro": "4.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.2.5",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mRDSgAR4BlppRF2obxrYAuhP6fLA1HI9R8r33v+dKCRer6anmZVNjuMeaiSCgZrj9MXH/cRK5HWuz6ynCvIp8A==",
+          "shasum": "d34b9c4f2eb56901da503a6995c8dc9689b8b30d"
+        }
+      }
+    },
+    {
+      "version": "0.2.6",
+      "variantId": "registry-package.openupm.com-164cdd32d0e618dc",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "3441a82a9f90cfe542206f8620170a9520d04a90",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.2.6.tgz",
+      "upstreamIntegrity": "sha512-HYtQm6zAZshsAhnRvWHp201kJuR+sOCzgib18b8FutmvGF9IytfgzOpoVwuGbDlSR0YQzwUhRdS78Qb5EYiZbg==",
+      "upstreamShasum": "85fbf5842c5ad4475c69e12ea9c3e357fed8ab84",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.11",
+        "com.unity.xr.windowsmr.metro": "4.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.2.6",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HYtQm6zAZshsAhnRvWHp201kJuR+sOCzgib18b8FutmvGF9IytfgzOpoVwuGbDlSR0YQzwUhRdS78Qb5EYiZbg==",
+          "shasum": "85fbf5842c5ad4475c69e12ea9c3e357fed8ab84"
+        }
+      }
+    },
+    {
+      "version": "0.2.7",
+      "variantId": "registry-package.openupm.com-3476799208b9623e",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "c4eb3d3d995f9f966ab5e5df3f99fd2264a7be4a",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.2.7.tgz",
+      "upstreamIntegrity": "sha512-ivD7eljC8sD7/G/4g43F6FRI8QKe7516+yaClVXRBS2vxXDkVnfI0QgdN4kDbrQI0Bq5QFbJp4h7AM4OCCIsBA==",
+      "upstreamShasum": "72942227f59b4284e3b6a96493a9895354a8c982",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.12",
+        "com.unity.xr.windowsmr.metro": "4.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.2.7",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ivD7eljC8sD7/G/4g43F6FRI8QKe7516+yaClVXRBS2vxXDkVnfI0QgdN4kDbrQI0Bq5QFbJp4h7AM4OCCIsBA==",
+          "shasum": "72942227f59b4284e3b6a96493a9895354a8c982"
+        }
+      }
+    },
+    {
+      "version": "0.2.8",
+      "variantId": "registry-package.openupm.com-a71792e7b7c9f434",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "ba46380cd513b74f0209e50c549fa799d9a47a60",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.2.8.tgz",
+      "upstreamIntegrity": "sha512-8vysgQoikUMXaXaDmk432PnzxHpvyJSgpzqM2UYyGMWaTP8zplUzw4u54vieYElm4Zdc2a5GKfiwbinddP0s6Q==",
+      "upstreamShasum": "c4032a0ebdc494cd1dc54c91895e3e93310bdb13",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.13",
+        "com.unity.xr.windowsmr.metro": "4.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.2.8",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8vysgQoikUMXaXaDmk432PnzxHpvyJSgpzqM2UYyGMWaTP8zplUzw4u54vieYElm4Zdc2a5GKfiwbinddP0s6Q==",
+          "shasum": "c4032a0ebdc494cd1dc54c91895e3e93310bdb13"
+        }
+      }
+    },
+    {
+      "version": "0.2.9",
+      "variantId": "registry-package.openupm.com-6ef3adc60aeb05db",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "7e377322ad582503b8d161a7e4ee8da6441bb4e7",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.2.9.tgz",
+      "upstreamIntegrity": "sha512-bN8svnkJ7r5DLXzFRN5TSMtuui8lClX4dXW1EyrzXfRHDMwiZ6yc8C3jxpUVCyo8m6MLScmO3L78GiqjIbECbQ==",
+      "upstreamShasum": "926e243bfe6451cb85161ba45c23c309091e3ddf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.14",
+        "com.unity.xr.windowsmr.metro": "4.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.2.9",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bN8svnkJ7r5DLXzFRN5TSMtuui8lClX4dXW1EyrzXfRHDMwiZ6yc8C3jxpUVCyo8m6MLScmO3L78GiqjIbECbQ==",
+          "shasum": "926e243bfe6451cb85161ba45c23c309091e3ddf"
+        }
+      }
+    },
+    {
+      "version": "0.2.10",
+      "variantId": "registry-package.openupm.com-a097415dfc8cf606",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "ca5afbbf01b10577848862caa5494c204dd23437",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.2.10.tgz",
+      "upstreamIntegrity": "sha512-GC8uVy/6xTgxrvu0iRGBnEtbBau5wyvEdY4//wIvGgUxOr7F1RR0NMONwUeT8cWyeENRNB4RDMFhiq8/8DgJXg==",
+      "upstreamShasum": "0ac581bcd7ac257c24ea6f600b36174bdea81454",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.15",
+        "com.unity.xr.windowsmr.metro": "4.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.2.10",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GC8uVy/6xTgxrvu0iRGBnEtbBau5wyvEdY4//wIvGgUxOr7F1RR0NMONwUeT8cWyeENRNB4RDMFhiq8/8DgJXg==",
+          "shasum": "0ac581bcd7ac257c24ea6f600b36174bdea81454"
+        }
+      }
+    },
+    {
+      "version": "0.2.11",
+      "variantId": "registry-package.openupm.com-8d4d594530919ac5",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "547ef415ce49de37c91af4f8bf6bec9853ddd528",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.2.11.tgz",
+      "upstreamIntegrity": "sha512-ppLUJHMs84DOrZHpVmnyZiFJhAkU8BNQWxZoyvJCaiueoK9YCdvFkgHQRMYDV+aUDjYj4nn+fJ+hMXv949+nug==",
+      "upstreamShasum": "ad9db8f14f55c3436732eb7b3a48e3a8f0dea6b4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.16",
+        "com.unity.xr.windowsmr.metro": "4.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.2.11",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ppLUJHMs84DOrZHpVmnyZiFJhAkU8BNQWxZoyvJCaiueoK9YCdvFkgHQRMYDV+aUDjYj4nn+fJ+hMXv949+nug==",
+          "shasum": "ad9db8f14f55c3436732eb7b3a48e3a8f0dea6b4"
+        }
+      }
+    },
+    {
+      "version": "0.2.12",
+      "variantId": "registry-package.openupm.com-7e9bceb6f1dfd4f5",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "e1ff75d9491d57b98e3b51159ce2f93a3a5a1337",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.2.12.tgz",
+      "upstreamIntegrity": "sha512-1HNq1fAxwz80HZJnVmDFcRAOdUaF2cxEU+lEjaiSVPepAX1GhIHkUs+PCbzNDzrc0g5uyCT+CydKoTTpCYOdjA==",
+      "upstreamShasum": "c52ce78db541600b648431e22cd695a36aaa9a4c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.17",
+        "com.unity.xr.windowsmr.metro": "4.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.2.12",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1HNq1fAxwz80HZJnVmDFcRAOdUaF2cxEU+lEjaiSVPepAX1GhIHkUs+PCbzNDzrc0g5uyCT+CydKoTTpCYOdjA==",
+          "shasum": "c52ce78db541600b648431e22cd695a36aaa9a4c"
+        }
+      }
+    },
+    {
+      "version": "0.3.0-preview.8",
+      "variantId": "registry-package.openupm.com-0404d7e3276c0860",
+      "sourceUrl": "https://github.com/XRTK/WindowsMixedReality.git",
+      "sourceRef": "ce2d41e4cc3af02a8b85697fc7d76b71fecf5a9b",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.wmr/-/com.xrtk.wmr-0.3.0-preview.8.tgz",
+      "upstreamIntegrity": "sha512-xhBfR1DJPuLKJV3Gd58CCiYGgnHDZtBvAzWWX1gUQ1/5/O9isq8CHkompc7orMTn4ARccyHrCRfyuzqFQ5w4bw==",
+      "upstreamShasum": "96d3dea39e350c1808424a65a053f449a9bde059",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.3.0-preview.48",
+        "com.unity.xr.windowsmr": "2.8.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.wmr/0.3.0-preview.8",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xhBfR1DJPuLKJV3Gd58CCiYGgnHDZtBvAzWWX1gUQ1/5/O9isq8CHkompc7orMTn4ARccyHrCRfyuzqFQ5w4bw==",
+          "shasum": "96d3dea39e350c1808424a65a053f449a9bde059"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.3.0-preview.8"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.xrtk.wmr.yml",
+  "definitionBlobSha": "2384350eb42a67e14ee74f1e8df912ca9ed126e6",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.2.12",
+    "0.2.11",
+    "0.2.10"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 27,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

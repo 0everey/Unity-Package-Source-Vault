@@ -1,0 +1,1322 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.utilities.async",
+  "displayName": "com.utilities.async",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async",
+      "fetchedAt": "2026-10-17T17:42:59.166476Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-42a61b1681150ac0",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "492ef95dca867537c1fed104921bc7b238588f13",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-nCmEmq4sAwvTfr9bpvT4YGOLQzLGQ0+F0voeGqvBNnH5Zn95HXgGy/jrsT1lSQ4Gl1ml7VAtTGQyW9eUwfFGcA==",
+      "upstreamShasum": "f964b6b0d3b75e1fcce2562320c7727851634d29",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/1.0.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nCmEmq4sAwvTfr9bpvT4YGOLQzLGQ0+F0voeGqvBNnH5Zn95HXgGy/jrsT1lSQ4Gl1ml7VAtTGQyW9eUwfFGcA==",
+          "shasum": "f964b6b0d3b75e1fcce2562320c7727851634d29"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-725b65a37e5a6f3e",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "7e2053081c037dfff691440b9537d6f4ddf0ce8a",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-RHv1J9bRR9pidbTcCv18pNUFESGGSMOg5qG5HvSrhPtsTpW7N3XtNgT7sXu7620DlWOXYeXl1pPU/xT8qSFh6w==",
+      "upstreamShasum": "a6a16cc77e96c39e17040e9846173712b95fb7c7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/1.0.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RHv1J9bRR9pidbTcCv18pNUFESGGSMOg5qG5HvSrhPtsTpW7N3XtNgT7sXu7620DlWOXYeXl1pPU/xT8qSFh6w==",
+          "shasum": "a6a16cc77e96c39e17040e9846173712b95fb7c7"
+        }
+      }
+    },
+    {
+      "version": "1.0.2",
+      "variantId": "registry-package.openupm.com-7174a8a1333362ce",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "4ee6921291af139c25d880392c52062373385277",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-1.0.2.tgz",
+      "upstreamIntegrity": "sha512-Uh1KZioDa3A+Xm65ubciSTV6w7/eJAaOLooP4LCHeuGxkgjHwsVm8yXJ2v7cQ7bcqaFodFUveIcopUT1s9OESA==",
+      "upstreamShasum": "45375dacc359243ffc7188aa978e85fda85b3401",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.19.19",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/1.0.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Uh1KZioDa3A+Xm65ubciSTV6w7/eJAaOLooP4LCHeuGxkgjHwsVm8yXJ2v7cQ7bcqaFodFUveIcopUT1s9OESA==",
+          "shasum": "45375dacc359243ffc7188aa978e85fda85b3401"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-e6fe275e4bff3b11",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "f7ce820c8a767aaa1f857ccc7cd34aafdea4e5d6",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-+fteQfb4BYyd92DVVMirosU1k4bW9U5ENCLqy5zmsYxSf8STXaWUFWBYyhrF13aT3Le/6OKwV0EzrNtIG6n/2g==",
+      "upstreamShasum": "d159281c04a578fa5e120ed65e925603617193f7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/1.1.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+fteQfb4BYyd92DVVMirosU1k4bW9U5ENCLqy5zmsYxSf8STXaWUFWBYyhrF13aT3Le/6OKwV0EzrNtIG6n/2g==",
+          "shasum": "d159281c04a578fa5e120ed65e925603617193f7"
+        }
+      }
+    },
+    {
+      "version": "1.1.1",
+      "variantId": "registry-package.openupm.com-2f76605996b2c95f",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "7868fda942a5c9832e4de3aedc556b2a4740a561",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-1.1.1.tgz",
+      "upstreamIntegrity": "sha512-oO1oyQmC2/tZlBIaS4y8vzJagZ7uvfpxSXam/p1ElZJZSBkU5vZBns1e5tY+3gU6drU8r5o3RrkFGmtkTVOVtw==",
+      "upstreamShasum": "46863335dfd2da68949cb6e6eb346d4da34695a9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/1.1.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oO1oyQmC2/tZlBIaS4y8vzJagZ7uvfpxSXam/p1ElZJZSBkU5vZBns1e5tY+3gU6drU8r5o3RrkFGmtkTVOVtw==",
+          "shasum": "46863335dfd2da68949cb6e6eb346d4da34695a9"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-36d5bb2d746e4be4",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "b5bb29f530f45135c9a2abb9c19525e1297ed81e",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-P9BVv2aQXlQmRHJHdMhIcW0y4aB6gM/V70r4gPrlcWQGRwSgigkalB8Zfc1o0oXM19RE6md5FRk+caswQUAmdw==",
+      "upstreamShasum": "6a6de503b86e66a588ac5bda9a63f9de5b39bfa8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/1.2.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-P9BVv2aQXlQmRHJHdMhIcW0y4aB6gM/V70r4gPrlcWQGRwSgigkalB8Zfc1o0oXM19RE6md5FRk+caswQUAmdw==",
+          "shasum": "6a6de503b86e66a588ac5bda9a63f9de5b39bfa8"
+        }
+      }
+    },
+    {
+      "version": "1.2.1",
+      "variantId": "registry-package.openupm.com-efc6fa737ffaf47f",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "1d903b743aba5159360827cd2187e6b019e14cb5",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-1.2.1.tgz",
+      "upstreamIntegrity": "sha512-869S6yFLnWSMYGGyWxeUr8R+kD8PbSCN+9AfQfIWE+6Cm75rQGR+rjclrJt57FyzIdsU0zQYu3+o3HVs0Vpp1g==",
+      "upstreamShasum": "12fe8c6fe27c222c3506b3fa1347736e7b28a4e7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "2.0.1-pre.18"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/1.2.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-869S6yFLnWSMYGGyWxeUr8R+kD8PbSCN+9AfQfIWE+6Cm75rQGR+rjclrJt57FyzIdsU0zQYu3+o3HVs0Vpp1g==",
+          "shasum": "12fe8c6fe27c222c3506b3fa1347736e7b28a4e7"
+        }
+      }
+    },
+    {
+      "version": "1.2.2",
+      "variantId": "registry-package.openupm.com-e19630ecb2c73275",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "8ba6d72821d2f9bda977ec41091e837657f29b9a",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-1.2.2.tgz",
+      "upstreamIntegrity": "sha512-tj3qRq3jWxGtyHBtHkBgwfYNX8Sj51RB9h8QOTBQCJxxgaIhfMP0q6zvEGfSRYQ+DatEgWXZCM83XBXNCZdMCA==",
+      "upstreamShasum": "d9a62d0e713453c87276efa03a5463145e09fff2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.3.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/1.2.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tj3qRq3jWxGtyHBtHkBgwfYNX8Sj51RB9h8QOTBQCJxxgaIhfMP0q6zvEGfSRYQ+DatEgWXZCM83XBXNCZdMCA==",
+          "shasum": "d9a62d0e713453c87276efa03a5463145e09fff2"
+        }
+      }
+    },
+    {
+      "version": "1.2.3",
+      "variantId": "registry-package.openupm.com-6d8b87a5f2c9a0ea",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "35cadfa450d7e4fb21fd193f891c8cf214f29e8b",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-1.2.3.tgz",
+      "upstreamIntegrity": "sha512-ElhAaIhJXA77EnXzca8eKeRZNvzy0jkjsBnDvkIhmFlaUXNLkSpAi+xb5raH75BarnEr+LdhBSmGEc0lkyJZ+g==",
+      "upstreamShasum": "dd57d98d703ff75c34d12ad215dc49d727f1361c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/1.2.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ElhAaIhJXA77EnXzca8eKeRZNvzy0jkjsBnDvkIhmFlaUXNLkSpAi+xb5raH75BarnEr+LdhBSmGEc0lkyJZ+g==",
+          "shasum": "dd57d98d703ff75c34d12ad215dc49d727f1361c"
+        }
+      }
+    },
+    {
+      "version": "1.2.4",
+      "variantId": "registry-package.openupm.com-8ec989c43426842f",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "c25e0d55b6a8f5e803f63adebb95c0f58ab0458e",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-1.2.4.tgz",
+      "upstreamIntegrity": "sha512-jkR3ynZxPURdvJmZViaTlYVwjeny8wLziscnlUqxy9uY8f4pACQIiEZyD+Q8a4jeVloA0m2wtY46vWnmzqwKxg==",
+      "upstreamShasum": "73cf7dcfc3b7bbeca780d2387bfcbb015417af2f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.3.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/1.2.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jkR3ynZxPURdvJmZViaTlYVwjeny8wLziscnlUqxy9uY8f4pACQIiEZyD+Q8a4jeVloA0m2wtY46vWnmzqwKxg==",
+          "shasum": "73cf7dcfc3b7bbeca780d2387bfcbb015417af2f"
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "variantId": "registry-package.openupm.com-a00abfae5df9b362",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "83637c9472e4d8eeb9bfd79a1d9c71210c33b697",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-1.3.0.tgz",
+      "upstreamIntegrity": "sha512-NMXjaQrwiqMLCumjYHJZmdMDVliigX1pxsCCALzeA0bUOWxna/0l+zCoK4l2njlo4a9EErZxHgR4hTxGGpY+ng==",
+      "upstreamShasum": "59d0cfd162e10725abadb552509e9f1209a6ec6d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.3.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/1.3.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NMXjaQrwiqMLCumjYHJZmdMDVliigX1pxsCCALzeA0bUOWxna/0l+zCoK4l2njlo4a9EErZxHgR4hTxGGpY+ng==",
+          "shasum": "59d0cfd162e10725abadb552509e9f1209a6ec6d"
+        }
+      }
+    },
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-a630283623d26d7f",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "668684cd1a9a29b594713e798bf99424c063ca38",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.0.0.tgz",
+      "upstreamIntegrity": "sha512-ute50+5wa+rBvfVG+iPC08AkSuVabru5lDs/tnYbIHiyCNFINDGEoUjWALC8TiLtUNGea3JaUzBMnQyw5A66QQ==",
+      "upstreamShasum": "3889f9eb3a917e16270a16cc504f8c983c9885a5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.3.5",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.0.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ute50+5wa+rBvfVG+iPC08AkSuVabru5lDs/tnYbIHiyCNFINDGEoUjWALC8TiLtUNGea3JaUzBMnQyw5A66QQ==",
+          "shasum": "3889f9eb3a917e16270a16cc504f8c983c9885a5"
+        }
+      }
+    },
+    {
+      "version": "2.0.1",
+      "variantId": "registry-package.openupm.com-e9052e634dcddf1c",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "5ed4d2ae180f052136d812f5b106da5391f3fd62",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.0.1.tgz",
+      "upstreamIntegrity": "sha512-GQgTmDrAWeQS2/ZfZCKx2Ne/K3EcqVQeS+Xyd8sDu614bjRB3OC5Zt19WXdGwN6ollJAt6RMUi6Tm0jg1t6T5Q==",
+      "upstreamShasum": "a93d0fd6168991c9f24c1a02f99983c6ae762006",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.3.5",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.0.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GQgTmDrAWeQS2/ZfZCKx2Ne/K3EcqVQeS+Xyd8sDu614bjRB3OC5Zt19WXdGwN6ollJAt6RMUi6Tm0jg1t6T5Q==",
+          "shasum": "a93d0fd6168991c9f24c1a02f99983c6ae762006"
+        }
+      }
+    },
+    {
+      "version": "2.1.0",
+      "variantId": "registry-package.openupm.com-2e512328d4e6b95e",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "c788503a05f6bda670ce177516008c7e45e0c3d1",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.1.0.tgz",
+      "upstreamIntegrity": "sha512-Ci+EOrYhVHcjD9OLmqHmzddQRAt0cd1fswpzH4AL2rwpAGp+Wqqjor5On7ekZ7WdmiEg8DGNMCWkmlQKdOmWdw==",
+      "upstreamShasum": "805282dc0994afe7570685c8d49b3e04c038a357",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.3.5",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.1.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ci+EOrYhVHcjD9OLmqHmzddQRAt0cd1fswpzH4AL2rwpAGp+Wqqjor5On7ekZ7WdmiEg8DGNMCWkmlQKdOmWdw==",
+          "shasum": "805282dc0994afe7570685c8d49b3e04c038a357"
+        }
+      }
+    },
+    {
+      "version": "2.1.1",
+      "variantId": "registry-package.openupm.com-25d80301549d963d",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "8b4ac1a1e373b571433e073134b80131c9196172",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.1.1.tgz",
+      "upstreamIntegrity": "sha512-WUkKNoBp9J4HC2ihybJUlu4eRIYty3/RXKxdcs2RiFnt7qrOIxH1lnso+rCX3o4Cq3qqRcm7c1SwdzmhAuzg8g==",
+      "upstreamShasum": "eb383f46f53d18d32663e93393160b72bc7b3c65",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.3.5",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.1.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WUkKNoBp9J4HC2ihybJUlu4eRIYty3/RXKxdcs2RiFnt7qrOIxH1lnso+rCX3o4Cq3qqRcm7c1SwdzmhAuzg8g==",
+          "shasum": "eb383f46f53d18d32663e93393160b72bc7b3c65"
+        }
+      }
+    },
+    {
+      "version": "2.1.2",
+      "variantId": "registry-package.openupm.com-b3df3804fd3f1528",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "a69e219384c52f98cd7825a064c13af9c5787e7f",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.1.2.tgz",
+      "upstreamIntegrity": "sha512-mIWy7mjbDt2l+ayRET9s/TAxwcRX3o3Ab/dX/KPyHNMoXzSEMDnfmPK4wB/+wRnFFz+Q6Ybs70pkZps9i3VqqQ==",
+      "upstreamShasum": "5dde31cf17e0e5ff28f3cbfbbe9c0663a2d8370a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.3.5",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.1.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mIWy7mjbDt2l+ayRET9s/TAxwcRX3o3Ab/dX/KPyHNMoXzSEMDnfmPK4wB/+wRnFFz+Q6Ybs70pkZps9i3VqqQ==",
+          "shasum": "5dde31cf17e0e5ff28f3cbfbbe9c0663a2d8370a"
+        }
+      }
+    },
+    {
+      "version": "2.1.3",
+      "variantId": "registry-package.openupm.com-c33ad39881b2c328",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "a907ecbe606f2b398d4140b90a4289e68f5c049f",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.1.3.tgz",
+      "upstreamIntegrity": "sha512-IqXhKGBlmfK5jntemH0E+XKO0WoSSXT6yhvXi62hU8PSoO0oJeItsX068Ab90TG7PJuN1bDeV2vb/CHaEkk//A==",
+      "upstreamShasum": "9c55fe6f1eef05047d45009d86c6857f9c3fe868",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.3.5",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.1.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IqXhKGBlmfK5jntemH0E+XKO0WoSSXT6yhvXi62hU8PSoO0oJeItsX068Ab90TG7PJuN1bDeV2vb/CHaEkk//A==",
+          "shasum": "9c55fe6f1eef05047d45009d86c6857f9c3fe868"
+        }
+      }
+    },
+    {
+      "version": "2.1.4",
+      "variantId": "registry-package.openupm.com-4101803ee17cc182",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "4860133cd6bb650e618c3a5241b6d7695f05504c",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.1.4.tgz",
+      "upstreamIntegrity": "sha512-4d6GwljI78xp6UNCE7tKnje7jrWq2Y2CdrFEBFaF2svXv99VN8c5l7Q3EOBt/OB+YElrsKfd3DhBJJorNAybZg==",
+      "upstreamShasum": "7db8727fc7c3e2371fd903d69e6e429fb22ef108",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.3.9",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.1.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4d6GwljI78xp6UNCE7tKnje7jrWq2Y2CdrFEBFaF2svXv99VN8c5l7Q3EOBt/OB+YElrsKfd3DhBJJorNAybZg==",
+          "shasum": "7db8727fc7c3e2371fd903d69e6e429fb22ef108"
+        }
+      }
+    },
+    {
+      "version": "2.1.5",
+      "variantId": "registry-package.openupm.com-e13492ba5bbeb6b5",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "fd742c6342f715e76fd8a1a5deeaeec6654d54d9",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.1.5.tgz",
+      "upstreamIntegrity": "sha512-XaQIQGYKGR5lEwpEeA73WRAMe/vLvQvxVOuuRbijsyFHf4t9qNHEfJeNVv3wrS/pCYCGN7wBHMZ1mi/oU8BEdw==",
+      "upstreamShasum": "927160d11c7d941fd500a08ba1e20b3d0ce0d676",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.1.5",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XaQIQGYKGR5lEwpEeA73WRAMe/vLvQvxVOuuRbijsyFHf4t9qNHEfJeNVv3wrS/pCYCGN7wBHMZ1mi/oU8BEdw==",
+          "shasum": "927160d11c7d941fd500a08ba1e20b3d0ce0d676"
+        }
+      }
+    },
+    {
+      "version": "2.1.6",
+      "variantId": "registry-package.openupm.com-e7c49d9b959e2eda",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "0b6d48860648d6fc762338c1d66d3f3dcd63339a",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.1.6.tgz",
+      "upstreamIntegrity": "sha512-PFL5yWmvzi0zlMd2bW8K0zHB0GIraR8IgHVNQnB3G1rNptglqWf6h1GFgvH6ej8ax/Kehgwql0q0dWmQCvgEuw==",
+      "upstreamShasum": "3986ece1dfdc792b8afe7d62be9eec17595416e8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.1.6",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PFL5yWmvzi0zlMd2bW8K0zHB0GIraR8IgHVNQnB3G1rNptglqWf6h1GFgvH6ej8ax/Kehgwql0q0dWmQCvgEuw==",
+          "shasum": "3986ece1dfdc792b8afe7d62be9eec17595416e8"
+        }
+      }
+    },
+    {
+      "version": "2.1.7",
+      "variantId": "registry-package.openupm.com-45d82ece5716dd65",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "d32cbd0e3102f87a73fc9f9ce09a1f82fab92b10",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.1.7.tgz",
+      "upstreamIntegrity": "sha512-HdSLpPq5SWqvfNXheAJQb25xusqY8TXX75XOFBBC8PhsmqfME8uRAYEU2fL6OY+BIdxMxajNANkiG66YvDZ8ow==",
+      "upstreamShasum": "a06d6b9ec55c2ffafbc45acf61447b7970588d8b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.1.7",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HdSLpPq5SWqvfNXheAJQb25xusqY8TXX75XOFBBC8PhsmqfME8uRAYEU2fL6OY+BIdxMxajNANkiG66YvDZ8ow==",
+          "shasum": "a06d6b9ec55c2ffafbc45acf61447b7970588d8b"
+        }
+      }
+    },
+    {
+      "version": "2.1.8",
+      "variantId": "registry-package.openupm.com-2ef5bcf73ab0ce2d",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "b47e658dc6b144c0d098d3d1f8dfa42b44400df9",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.1.8.tgz",
+      "upstreamIntegrity": "sha512-WtpIzmVw+m0g569W528aAcaX84NLj57fswBEZYdHIHwIJ2v1fNFmxYXZjVEEzymwJm95C/b4uQkYsAJUn8GbiA==",
+      "upstreamShasum": "af8bcdc69298cc2a89e7c694abc83f86ee8aabac",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.1.8",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WtpIzmVw+m0g569W528aAcaX84NLj57fswBEZYdHIHwIJ2v1fNFmxYXZjVEEzymwJm95C/b4uQkYsAJUn8GbiA==",
+          "shasum": "af8bcdc69298cc2a89e7c694abc83f86ee8aabac"
+        }
+      }
+    },
+    {
+      "version": "2.2.0",
+      "variantId": "registry-package.openupm.com-7114cac17987e954",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "87c6e5d70b84f6aa67239b68b27e700507c79dfb",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.2.0.tgz",
+      "upstreamIntegrity": "sha512-sKZYSa2dSG9MuZ2wH7Nmh20ky/njp8tYIUHGPATimEmDd5waXQkQqj5s63+Wx41JJDVZ7Qu1+f0+Hbhjwc2qmg==",
+      "upstreamShasum": "2ea7941d822bfd448ff6c47b9dfb30b21e8540dd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.2.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sKZYSa2dSG9MuZ2wH7Nmh20ky/njp8tYIUHGPATimEmDd5waXQkQqj5s63+Wx41JJDVZ7Qu1+f0+Hbhjwc2qmg==",
+          "shasum": "2ea7941d822bfd448ff6c47b9dfb30b21e8540dd"
+        }
+      }
+    },
+    {
+      "version": "2.2.1",
+      "variantId": "registry-package.openupm.com-d149d36d48f9ae30",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "43d44da4100389e5d3d2079d23ade8605887ef36",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.2.1.tgz",
+      "upstreamIntegrity": "sha512-x7r/6x2U7L6GxbKWT8jZsBzWFNwldupbzwF2z8yduRNJRg7pcphS5rwR5Z1LcoKIn8MsCVIXlPLhrI89SVSWEA==",
+      "upstreamShasum": "2845940a6a1bc06e748be72b032129242aa0a755",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.2.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-x7r/6x2U7L6GxbKWT8jZsBzWFNwldupbzwF2z8yduRNJRg7pcphS5rwR5Z1LcoKIn8MsCVIXlPLhrI89SVSWEA==",
+          "shasum": "2845940a6a1bc06e748be72b032129242aa0a755"
+        }
+      }
+    },
+    {
+      "version": "2.2.2",
+      "variantId": "registry-package.openupm.com-0417de7298166d24",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "18129aa4cfae9302833cab4d7ace5b8688cf581c",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.2.2.tgz",
+      "upstreamIntegrity": "sha512-0IbkJQ+JdVAKxEmz4+RCQvSlTNPmFSTCleai+prlepq5AT7uaMrWYUFLmo39zWK9THic7FonOHasVdvNyPZuGA==",
+      "upstreamShasum": "1e7aee5d1969641b240cba8127365d1fe4387de0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.2.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-0IbkJQ+JdVAKxEmz4+RCQvSlTNPmFSTCleai+prlepq5AT7uaMrWYUFLmo39zWK9THic7FonOHasVdvNyPZuGA==",
+          "shasum": "1e7aee5d1969641b240cba8127365d1fe4387de0"
+        }
+      }
+    },
+    {
+      "version": "2.2.3",
+      "variantId": "registry-package.openupm.com-5623e021fdf0d02a",
+      "sourceUrl": "https://package.openupm.com/com.utilities.async",
+      "sourceRef": "e8dd7a29ffae85031792378ef7d0403436cefffc",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.2.3.tgz",
+      "upstreamIntegrity": "sha512-vYDHepMbRpzl1xvEmn7TMgGX7Ofgg1LdrIwYW8T2d/Wz3Kc3kK8Tk1oIm8PdgT49OO3Za8tQ9VWgcYokai/2Yw==",
+      "upstreamShasum": "f933370bc288e40f9023345084ffa469d2df389a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.2.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vYDHepMbRpzl1xvEmn7TMgGX7Ofgg1LdrIwYW8T2d/Wz3Kc3kK8Tk1oIm8PdgT49OO3Za8tQ9VWgcYokai/2Yw==",
+          "shasum": "f933370bc288e40f9023345084ffa469d2df389a"
+        }
+      }
+    },
+    {
+      "version": "2.2.4",
+      "variantId": "registry-package.openupm.com-36d1d594d8d9c635",
+      "sourceUrl": "https://github.com/RageAgainstThePixel/com.utilities.async.git",
+      "sourceRef": "99f1ccd154ac81839af460bda7075b8dd8837057",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.2.4.tgz",
+      "upstreamIntegrity": "sha512-2NtE7sWyyYZMp3N641yoFiRIacWTf9txKy/v6uDXHNzBWiDgRwYPxI0oXOFGpU0GWMv4acqfyhTHPaiVCLv33w==",
+      "upstreamShasum": "fe329d192de684e73548f204643ec3cb3faec032",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.2.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2NtE7sWyyYZMp3N641yoFiRIacWTf9txKy/v6uDXHNzBWiDgRwYPxI0oXOFGpU0GWMv4acqfyhTHPaiVCLv33w==",
+          "shasum": "fe329d192de684e73548f204643ec3cb3faec032"
+        }
+      }
+    },
+    {
+      "version": "2.3.0",
+      "variantId": "registry-package.openupm.com-9bbad9398540ef2f",
+      "sourceUrl": "https://github.com/RageAgainstThePixel/com.utilities.async.git",
+      "sourceRef": "f5238a3a36fa60bb239f14a3b5e116e931eb21ac",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.3.0.tgz",
+      "upstreamIntegrity": "sha512-Qz3lnDL9Gb7JcH/3oCqNLt08jNb68PI4TbfkM6igEUTL9EcsSisqYq5mvWglWOWs41p1AZY8c7FoMfK/DysIow==",
+      "upstreamShasum": "f7f577af880d77f90397c7d696439ad929f77a3f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.3.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Qz3lnDL9Gb7JcH/3oCqNLt08jNb68PI4TbfkM6igEUTL9EcsSisqYq5mvWglWOWs41p1AZY8c7FoMfK/DysIow==",
+          "shasum": "f7f577af880d77f90397c7d696439ad929f77a3f"
+        }
+      }
+    },
+    {
+      "version": "2.3.1",
+      "variantId": "registry-package.openupm.com-7becc80f65ce7814",
+      "sourceUrl": "https://github.com/RageAgainstThePixel/com.utilities.async.git",
+      "sourceRef": "bc96b89db2776b5875c661aaff4947352c007393",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.3.1.tgz",
+      "upstreamIntegrity": "sha512-DrELgubqe3zvQ3c9DCTAPyvSo9q1qTP9FxOb8nTCLyZSUoVemnHlig05CgI69EyY+FEd7YLDFj5XUDO0IPaqfw==",
+      "upstreamShasum": "c60d5b652417bedfda8ad320b0921fee17522257",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.3.1",
+      "deprecated": null,
+      "unity": "2021.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-DrELgubqe3zvQ3c9DCTAPyvSo9q1qTP9FxOb8nTCLyZSUoVemnHlig05CgI69EyY+FEd7YLDFj5XUDO0IPaqfw==",
+          "shasum": "c60d5b652417bedfda8ad320b0921fee17522257"
+        }
+      }
+    },
+    {
+      "version": "2.3.2",
+      "variantId": "registry-package.openupm.com-2992920c97ec633a",
+      "sourceUrl": "https://github.com/RageAgainstThePixel/com.utilities.async.git",
+      "sourceRef": "8fc97df2ddf0fe00aca9af5b5220f11c25a1a6ff",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-2.3.2.tgz",
+      "upstreamIntegrity": "sha512-1OMvGXcVM3JUqPFqJNR9DGo0LH8tpXsqQJNlCN0b8mRQ07/98kuwlgDoMgizLPnEzE3Ngixbytpk7JC8xolIpw==",
+      "upstreamShasum": "7c804b8105980896256de68ad926395ee40eccba",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/2.3.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1OMvGXcVM3JUqPFqJNR9DGo0LH8tpXsqQJNlCN0b8mRQ07/98kuwlgDoMgizLPnEzE3Ngixbytpk7JC8xolIpw==",
+          "shasum": "7c804b8105980896256de68ad926395ee40eccba"
+        }
+      }
+    },
+    {
+      "version": "3.0.0",
+      "variantId": "registry-package.openupm.com-d1209e728b82bb93",
+      "sourceUrl": "https://github.com/RageAgainstThePixel/com.utilities.async.git",
+      "sourceRef": "34c28308c0d625b8fc271f63d1c509c8ed65b9c5",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-3.0.0.tgz",
+      "upstreamIntegrity": "sha512-wVDKDSsS0EwhWhOUQDrE6p+qTVBDOTaexbt7WAJxX8LgJv9K5M7y2IubCbhSDgqWKq39unGteR7jfXFnxy28Fw==",
+      "upstreamShasum": "4129f7dee3a14d8390c620a952271b708ce20b6e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/3.0.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wVDKDSsS0EwhWhOUQDrE6p+qTVBDOTaexbt7WAJxX8LgJv9K5M7y2IubCbhSDgqWKq39unGteR7jfXFnxy28Fw==",
+          "shasum": "4129f7dee3a14d8390c620a952271b708ce20b6e"
+        }
+      }
+    },
+    {
+      "version": "3.0.1",
+      "variantId": "registry-package.openupm.com-5d413067ab00c1dc",
+      "sourceUrl": "https://github.com/RageAgainstThePixel/com.utilities.async.git",
+      "sourceRef": "1c45275180caac5ab59045c42a5da3614bbead9b",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-3.0.1.tgz",
+      "upstreamIntegrity": "sha512-YbzIkr/lmsYj52SU7wWJ/6f4DrptUeDDUX1b/9jTpNYobPPMh3or1O6m2NwNwYD/2uG5rlJ57ZrBTS5jn7LyWA==",
+      "upstreamShasum": "f2b056e7b7788b47ee79c803cd3e9d4c77080b57",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/3.0.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YbzIkr/lmsYj52SU7wWJ/6f4DrptUeDDUX1b/9jTpNYobPPMh3or1O6m2NwNwYD/2uG5rlJ57ZrBTS5jn7LyWA==",
+          "shasum": "f2b056e7b7788b47ee79c803cd3e9d4c77080b57"
+        }
+      }
+    },
+    {
+      "version": "3.0.2",
+      "variantId": "registry-package.openupm.com-e70d17c04299c019",
+      "sourceUrl": "https://github.com/RageAgainstThePixel/com.utilities.async.git",
+      "sourceRef": "498c3f53c0d9649b76560a582286005271992c41",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-3.0.2.tgz",
+      "upstreamIntegrity": "sha512-/ywGmgUi1AlOIPFdU8LIe4jQw0OhfIPAhaGEAmwzUa/eUyKn/iGtWdJSklPAK6+Bfm9mHZrJmOM7pvh2wPRZ5g==",
+      "upstreamShasum": "226439ca16b22e5e38f34f4f6a31e3eea796377f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/3.0.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/ywGmgUi1AlOIPFdU8LIe4jQw0OhfIPAhaGEAmwzUa/eUyKn/iGtWdJSklPAK6+Bfm9mHZrJmOM7pvh2wPRZ5g==",
+          "shasum": "226439ca16b22e5e38f34f4f6a31e3eea796377f"
+        }
+      }
+    },
+    {
+      "version": "3.0.3",
+      "variantId": "registry-package.openupm.com-0be85475b14011ee",
+      "sourceUrl": "https://github.com/RageAgainstThePixel/com.utilities.async.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-3.0.3.tgz",
+      "upstreamIntegrity": "sha512-N9WgDL2dZoPcKWw4PLyKO5ZjdDmeWGWrmOKTnd1nAR1akJ6+hEohslEYxV7trbWPURw8gEyGkgn/2r2BCUnp/g==",
+      "upstreamShasum": "bd343743a5d8c074cf136110f1ce89200764cb03",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.nuget.mono-cecil": "1.11.5",
+        "com.unity.test-framework": "1.4.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/3.0.3",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-N9WgDL2dZoPcKWw4PLyKO5ZjdDmeWGWrmOKTnd1nAR1akJ6+hEohslEYxV7trbWPURw8gEyGkgn/2r2BCUnp/g==",
+          "shasum": "bd343743a5d8c074cf136110f1ce89200764cb03"
+        }
+      }
+    },
+    {
+      "version": "3.0.4",
+      "variantId": "registry-package.openupm.com-cc7c544f0e6c833d",
+      "sourceUrl": "https://github.com/RageAgainstThePixel/com.utilities.async.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-3.0.4.tgz",
+      "upstreamIntegrity": "sha512-uHni8yRGv9RLuKwqUHaIHEMywair6ThHJp1n+6GcZ3bsKEQIQwXM/AX3Sku99clpkIOFcpUBvHjUNPJUva9U2A==",
+      "upstreamShasum": "e6ec3abc36d6b357d775c71c93a96aa4ba933eea",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.nuget.mono-cecil": "1.11.5",
+        "com.unity.test-framework": "1.4.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/3.0.4",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uHni8yRGv9RLuKwqUHaIHEMywair6ThHJp1n+6GcZ3bsKEQIQwXM/AX3Sku99clpkIOFcpUBvHjUNPJUva9U2A==",
+          "shasum": "e6ec3abc36d6b357d775c71c93a96aa4ba933eea"
+        }
+      }
+    },
+    {
+      "version": "3.1.0",
+      "variantId": "registry-package.openupm.com-a40197c81c6b2de7",
+      "sourceUrl": "https://github.com/RageAgainstThePixel/com.utilities.async.git",
+      "sourceRef": "2da0e7c7e6dc2ad9d327f06329183c71f219f63d",
+      "downloadUrl": "https://package.openupm.com/com.utilities.async/-/com.utilities.async-3.1.0.tgz",
+      "upstreamIntegrity": "sha512-J13yZmu0ktodnC5t837WpifW46nYWJmoQ5FZ4FVw0VDxTXcBKR0uu6vKKRQo0Vsvx86yiivfYXL51sNquqg7uQ==",
+      "upstreamShasum": "09e3f74a73763188b3a5624f689fc51f1449868a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.test-framework": "1.4.2",
+        "com.unity.nuget.mono-cecil": "1.11.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.utilities.async/3.1.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-J13yZmu0ktodnC5t837WpifW46nYWJmoQ5FZ4FVw0VDxTXcBKR0uu6vKKRQo0Vsvx86yiivfYXL51sNquqg7uQ==",
+          "shasum": "09e3f74a73763188b3a5624f689fc51f1449868a"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "3.1.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.utilities.async.yml",
+  "definitionBlobSha": "6612d1dd903527f4b63049b33279cb88dec258cc",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "1.1.1",
+    "1.2.0",
+    "1.2.1",
+    "2.1.5",
+    "2.2.3"
+  ],
+  "selectedVersions": [
+    "1.1.1",
+    "1.2.0",
+    "1.2.1",
+    "2.1.5",
+    "2.2.3",
+    "3.1.0"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 36,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

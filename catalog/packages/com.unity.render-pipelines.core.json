@@ -1,0 +1,3245 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.render-pipelines.core",
+  "displayName": "com.unity.render-pipelines.core",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "fetchedAt": "2026-10-17T17:42:43.154625Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "0.1.21",
+      "variantId": "registry-packages.unity.com-59f3a093ae22a02e",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-0.1.21.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c076e425826e98723df7978cc9faa679fb152047",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "0.1.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/0.1.21",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "c076e425826e98723df7978cc9faa679fb152047"
+        }
+      }
+    },
+    {
+      "version": "0.1.27",
+      "variantId": "registry-packages.unity.com-f56cacb8c3d6fb4b",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-0.1.27.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "5620d4cba1b237ac9883ef7be9a59ea31b23d9b3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "0.1.8"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/0.1.27",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "5620d4cba1b237ac9883ef7be9a59ea31b23d9b3"
+        }
+      }
+    },
+    {
+      "version": "0.1.28",
+      "variantId": "registry-packages.unity.com-74e07caaf068739f",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-0.1.28.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "dd92add5de242685628dcc33f4c119dc977daf29",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "0.1.8"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/0.1.28",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "dd92add5de242685628dcc33f4c119dc977daf29"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-beta",
+      "variantId": "registry-packages.unity.com-29b269d7fed29ec4",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-1.0.0-beta.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4233689673bf412b8b845b3175b4c0f60c70241b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "2.0.0-beta"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/1.0.0-beta",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "4233689673bf412b8b845b3175b4c0f60c70241b"
+        }
+      }
+    },
+    {
+      "version": "1.0.1-beta",
+      "variantId": "registry-packages.unity.com-86dae9288375f42d",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-1.0.1-beta.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d8f808d781001666f8c04661dd9c2fb417e38ccd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "2.0.1-beta"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/1.0.1-beta",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "d8f808d781001666f8c04661dd9c2fb417e38ccd"
+        }
+      }
+    },
+    {
+      "version": "1.1.1-preview",
+      "variantId": "registry-packages.unity.com-335a4ac5cdfe8c42",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-1.1.1-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a6b65bc0d61969fb65443dd8d56a9253819497dc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "2.0.2-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/1.1.1-preview",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "a6b65bc0d61969fb65443dd8d56a9253819497dc"
+        }
+      }
+    },
+    {
+      "version": "1.1.2-preview",
+      "variantId": "registry-packages.unity.com-1a9bcce7b41cf589",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-1.1.2-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "618e841793828c235cd0938dac5fa3bd0c4cf661",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "2.0.3-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/1.1.2-preview",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "618e841793828c235cd0938dac5fa3bd0c4cf661"
+        }
+      }
+    },
+    {
+      "version": "1.1.4-preview",
+      "variantId": "registry-packages.unity.com-a095cdea4d6466f9",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-1.1.4-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "015d258a4cca53fa47d3b65151c16fc29c6dd202",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "2.0.3-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/1.1.4-preview",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "015d258a4cca53fa47d3b65151c16fc29c6dd202"
+        }
+      }
+    },
+    {
+      "version": "1.1.5-preview",
+      "variantId": "registry-packages.unity.com-6ea0cd445449b080",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-1.1.5-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "5e68a258d2f32f3a62746c168f5d729f9752ba6d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "2.0.5-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/1.1.5-preview",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "5e68a258d2f32f3a62746c168f5d729f9752ba6d"
+        }
+      }
+    },
+    {
+      "version": "1.1.8-preview",
+      "variantId": "registry-packages.unity.com-5bbe63f3a47cb34e",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-1.1.8-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "77487ba58281eb729369a6b500a27bafc3f25a62",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "2.0.5-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/1.1.8-preview",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "77487ba58281eb729369a6b500a27bafc3f25a62"
+        }
+      }
+    },
+    {
+      "version": "1.1.10-preview",
+      "variantId": "registry-packages.unity.com-17ded43341c16e6f",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-1.1.10-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9ec2b3e5fc5cf0f2a0ad13c4dff4582d28245125",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "2.0.7-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/1.1.10-preview",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "9ec2b3e5fc5cf0f2a0ad13c4dff4582d28245125"
+        }
+      }
+    },
+    {
+      "version": "1.1.11-preview",
+      "variantId": "registry-packages.unity.com-19839bd5955aa1cc",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-1.1.11-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "73b11395481bdfda6ebf0ff7ce45a726f9461103",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "2.0.7-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/1.1.11-preview",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "73b11395481bdfda6ebf0ff7ce45a726f9461103"
+        }
+      }
+    },
+    {
+      "version": "2.0.1-preview",
+      "variantId": "registry-packages.unity.com-bde1b89e33382f5d",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-2.0.1-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "bb6717c0ac60cd780fe5f05726b7f50ee887b21a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "2.0.7-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/2.0.1-preview",
+      "deprecated": null,
+      "unity": "2018.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "bb6717c0ac60cd780fe5f05726b7f50ee887b21a"
+        }
+      }
+    },
+    {
+      "version": "2.0.3-preview",
+      "variantId": "registry-packages.unity.com-b8ab1c083430f27d",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-2.0.3-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7841e88a782c47135ef837b144c8a67f78785724",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "2.0.7-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/2.0.3-preview",
+      "deprecated": null,
+      "unity": "2018.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "7841e88a782c47135ef837b144c8a67f78785724"
+        }
+      }
+    },
+    {
+      "version": "2.0.4-preview",
+      "variantId": "registry-packages.unity.com-7eed7ddf8dd68d5f",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-2.0.4-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c9d7ced6ed1d403910553936dc9ad0a28191e05a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "2.0.7-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/2.0.4-preview",
+      "deprecated": null,
+      "unity": "2018.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "c9d7ced6ed1d403910553936dc9ad0a28191e05a"
+        }
+      }
+    },
+    {
+      "version": "2.0.4-preview.1",
+      "variantId": "registry-packages.unity.com-02a56e6da6382a8b",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-2.0.4-preview.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "996fb1210e7d731c71752f668b6a5f52a0a61870",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.postprocessing": "2.0.7-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/2.0.4-preview.1",
+      "deprecated": null,
+      "unity": "2018.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "996fb1210e7d731c71752f668b6a5f52a0a61870"
+        }
+      }
+    },
+    {
+      "version": "2.0.5-preview",
+      "variantId": "registry-packages.unity.com-8d941a342fd1c807",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-2.0.5-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "543c4a7c9aa64c44f5468739ff80fc7688fab941",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/2.0.5-preview",
+      "deprecated": null,
+      "unity": "2018.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "543c4a7c9aa64c44f5468739ff80fc7688fab941"
+        }
+      }
+    },
+    {
+      "version": "2.0.6-preview",
+      "variantId": "registry-packages.unity.com-e05f68591214a8e3",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "ccd9eb777b333db2faa80db1889b6764db57e8db",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-2.0.6-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "fe802713d07ea4b6aeaa3ddbc247e129fe28862f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/2.0.6-preview",
+      "deprecated": null,
+      "unity": "2018.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "fe802713d07ea4b6aeaa3ddbc247e129fe28862f"
+        }
+      }
+    },
+    {
+      "version": "2.0.7-preview",
+      "variantId": "registry-packages.unity.com-2ac494e65a5a7b42",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "8a24a118db135c785fa96adc0edefad30f59d7a8",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-2.0.7-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ecfa58cfcd5a8f03111324128cb048c4c895587f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/2.0.7-preview",
+      "deprecated": null,
+      "unity": "2018.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "ecfa58cfcd5a8f03111324128cb048c4c895587f"
+        }
+      }
+    },
+    {
+      "version": "2.0.8-preview",
+      "variantId": "registry-packages.unity.com-9190890cb7d35a88",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "a90fd23dca5d4d98b06a51b9057a78eb3cb5217e",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-2.0.8-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f3d863b7941c77300a5098d704628689fcbb8904",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/2.0.8-preview",
+      "deprecated": null,
+      "unity": "2018.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "f3d863b7941c77300a5098d704628689fcbb8904"
+        }
+      }
+    },
+    {
+      "version": "3.0.0-preview",
+      "variantId": "registry-packages.unity.com-28916f28b6449b7b",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "eff0eb92ffbc5afe521ec0f53b0cff8da83bcd95",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-3.0.0-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "09fc4f82ea3c23fd74f552745903132e6da91f71",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/3.0.0-preview",
+      "deprecated": null,
+      "unity": "2018.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "09fc4f82ea3c23fd74f552745903132e6da91f71"
+        }
+      }
+    },
+    {
+      "version": "3.1.0-preview",
+      "variantId": "registry-packages.unity.com-f70d3d51a88a2a2e",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "3022a8307e5a1f8dcce97b8c3ba3e1756445f1bd",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-3.1.0-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a949fccfb6a8ddf92f7e5a5698a00827afc3e993",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/3.1.0-preview",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "a949fccfb6a8ddf92f7e5a5698a00827afc3e993"
+        }
+      }
+    },
+    {
+      "version": "3.3.0-preview",
+      "variantId": "registry-packages.unity.com-a0a2885722c72de7",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "05bab717e944778fea634704d138d299534656b6",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-3.3.0-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2917ebb486f7343a7822f38e4605385192506d40",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/3.3.0-preview",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "2917ebb486f7343a7822f38e4605385192506d40"
+        }
+      }
+    },
+    {
+      "version": "4.0.0-preview",
+      "variantId": "registry-packages.unity.com-71207d383e362360",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "4918c0f2dd057660f90b80b63301898d7b91d199",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-4.0.0-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e2c14ca5af643406d5c6927a27938b9d20e69951",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/4.0.0-preview",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "e2c14ca5af643406d5c6927a27938b9d20e69951"
+        }
+      }
+    },
+    {
+      "version": "4.0.1-preview",
+      "variantId": "registry-packages.unity.com-4390218c78425a24",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "ba38b31bee11444f561fc3db2acc49d95a0ec0eb",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-4.0.1-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "45427b2e6d41c9ddd1d47f0296ee863fea9b9613",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/4.0.1-preview",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "45427b2e6d41c9ddd1d47f0296ee863fea9b9613"
+        }
+      }
+    },
+    {
+      "version": "4.1.0-preview",
+      "variantId": "registry-packages.unity.com-635aab4797112146",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "737b5dd3a7a25344fabf75b9eb89f15ac641c95b",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-4.1.0-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "28cef0173370954a5d2c22216385214444610d5e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/4.1.0-preview",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "28cef0173370954a5d2c22216385214444610d5e"
+        }
+      }
+    },
+    {
+      "version": "4.2.0-preview",
+      "variantId": "registry-packages.unity.com-86265ab6e906c8e2",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "fc353aa8874574ebf9de4d6d458a44c1c58e40eb",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-4.2.0-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ce298c8b19e5dc59733481fff79c157566bef7c4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/4.2.0-preview",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "ce298c8b19e5dc59733481fff79c157566bef7c4"
+        }
+      }
+    },
+    {
+      "version": "4.3.0-preview",
+      "variantId": "registry-packages.unity.com-5e840984c24fda70",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "677b6ae9908f648fdee27573fb05a78c7a6cc7b4",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-4.3.0-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "74da7672048fee78474aec5b03be274c8eb73e24",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/4.3.0-preview",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "74da7672048fee78474aec5b03be274c8eb73e24"
+        }
+      }
+    },
+    {
+      "version": "4.6.0-preview",
+      "variantId": "registry-packages.unity.com-002663119952baaf",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "529ebad8bdc2c75e2b90d30f210e71f2dab0adba",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-4.6.0-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "799aa63741830dacb2c515019286096174071eca",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/4.6.0-preview",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "799aa63741830dacb2c515019286096174071eca"
+        }
+      }
+    },
+    {
+      "version": "4.8.0-preview",
+      "variantId": "registry-packages.unity.com-8af2c6536e2b0f41",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "2af273f1d8ddb6e0b8a77363916782df7e4990be",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-4.8.0-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8a093539945cb16c6415776f0c47447f901fa0d4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/4.8.0-preview",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "8a093539945cb16c6415776f0c47447f901fa0d4"
+        }
+      }
+    },
+    {
+      "version": "4.9.0-preview",
+      "variantId": "registry-packages.unity.com-ef0c0643176f720d",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "501f48eec94b81f33b66f3763e0824d12caa0077",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-4.9.0-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8669ab10f45bb87a15dfb8daa61c7f6af5ca1336",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/4.9.0-preview",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "8669ab10f45bb87a15dfb8daa61c7f6af5ca1336"
+        }
+      }
+    },
+    {
+      "version": "4.10.0-preview",
+      "variantId": "registry-packages.unity.com-f712708d0d1c50fd",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "32547390c2b402d1539b8573919a40c3b749caad",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-4.10.0-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ab1e6d748ff3b5f8f9153fd0ff0bbf5d406ec0f7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/4.10.0-preview",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "ab1e6d748ff3b5f8f9153fd0ff0bbf5d406ec0f7"
+        }
+      }
+    },
+    {
+      "version": "5.0.0-preview",
+      "variantId": "registry-packages.unity.com-a6759d29380bfdb5",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "9714971d2eefc5ed9a0a7435f2a0591f66da30d7",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-5.0.0-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6135651c9b46781ff0afd70902cc725a050cf42d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/5.0.0-preview",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "6135651c9b46781ff0afd70902cc725a050cf42d"
+        }
+      }
+    },
+    {
+      "version": "5.1.0",
+      "variantId": "registry-packages.unity.com-a577b1da61a36b57",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "c9b5069b6c77a779304b7247c8fe606823c13b40",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-5.1.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1dba863b2c10440c159d99e91d07b85901be9e14",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/5.1.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "1dba863b2c10440c159d99e91d07b85901be9e14"
+        }
+      }
+    },
+    {
+      "version": "5.2.0",
+      "variantId": "registry-packages.unity.com-b8765ee1a5dd8f27",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "769ff1ed86bbecfb8ebd7a59e4d469f55dee4a6b",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-5.2.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "43b2f2893f17efd03f59be7fc2aef8e58cbe23a9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/5.2.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "43b2f2893f17efd03f59be7fc2aef8e58cbe23a9"
+        }
+      }
+    },
+    {
+      "version": "5.2.1",
+      "variantId": "registry-packages.unity.com-8b7e8e74d33b81b9",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "a2461f4169f55e62d2efe1b45247aeb6d627f75a",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-5.2.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "22a6c191b870d23e47aa2d42c65ba2962c7db651",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/5.2.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "22a6c191b870d23e47aa2d42c65ba2962c7db651"
+        }
+      }
+    },
+    {
+      "version": "5.2.2",
+      "variantId": "registry-packages.unity.com-61c3da60b666c499",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "ea4ca2fa788d2b822a5f27e35c92fc51080034bb",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-5.2.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c43ada4b996ffe9ef44f308ccea2985f71352afb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/5.2.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "c43ada4b996ffe9ef44f308ccea2985f71352afb"
+        }
+      }
+    },
+    {
+      "version": "5.2.3",
+      "variantId": "registry-packages.unity.com-5f88e096577136fb",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "b246f1bdb9ae4df3e1bde95d9927b5fc6e27b5f4",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-5.2.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0188d982d9e68a043f021135b2b99ae08d824346",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/5.2.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "0188d982d9e68a043f021135b2b99ae08d824346"
+        }
+      }
+    },
+    {
+      "version": "5.3.1",
+      "variantId": "registry-packages.unity.com-a2fb1be8f9519073",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "529fcce0d7ad9c57af8e4eb3862f0c3b9d3de0bf",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-5.3.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8a9c69087ff6645cbbda574a214e99948e26707c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/5.3.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "8a9c69087ff6645cbbda574a214e99948e26707c"
+        }
+      }
+    },
+    {
+      "version": "5.6.1",
+      "variantId": "registry-packages.unity.com-51fb3cf6526c063e",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "0284051dc1c337437f46ae178f3cd5798149f117",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-5.6.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "66a7211cc73a4f7a76a4b740b0b448d195cbdcc0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/5.6.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "66a7211cc73a4f7a76a4b740b0b448d195cbdcc0"
+        }
+      }
+    },
+    {
+      "version": "5.7.2",
+      "variantId": "registry-packages.unity.com-f3b3d0251fa7ef5f",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "1dab5842009725f71a08e287dc4eb1588c8f5cd3",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-5.7.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "02532b93bdb766b8315dd5f4679ca4fa6cb0ca11",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/5.7.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "02532b93bdb766b8315dd5f4679ca4fa6cb0ca11"
+        }
+      }
+    },
+    {
+      "version": "5.8.2",
+      "variantId": "registry-packages.unity.com-07b12202e2d75e4f",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "560092432e2d4ee2ee3cce04cbc45ebe702cda87",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-5.8.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6d38db0a4f1d2a7962c5dc5feadac48378bd037b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/5.8.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "6d38db0a4f1d2a7962c5dc5feadac48378bd037b"
+        }
+      }
+    },
+    {
+      "version": "5.9.0",
+      "variantId": "registry-packages.unity.com-2972c540e95d9062",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "4272b1ddbfcbe66d5b301a9bf255b057008aa55d",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-5.9.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "057d5cd3a3b8d9cd4a0d74bbe33975b7b5007f06",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/5.9.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "057d5cd3a3b8d9cd4a0d74bbe33975b7b5007f06"
+        }
+      }
+    },
+    {
+      "version": "5.10.0",
+      "variantId": "registry-packages.unity.com-a4ac8bc62bf878c0",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "30827c5f19e74f361f273d0e1c9593aa2aa5534e",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-5.10.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c653e4d6d0ac8914b4ce7a033377521f0ad97744",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/5.10.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "c653e4d6d0ac8914b4ce7a033377521f0ad97744"
+        }
+      }
+    },
+    {
+      "version": "5.13.0",
+      "variantId": "registry-packages.unity.com-08ab664f374a2c3a",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "22de08f4eb86038b4374b11924a9ac1d099fd44f",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-5.13.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "00ee1cd146742b2843fb891a456e260968720d5a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/5.13.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "00ee1cd146742b2843fb891a456e260968720d5a"
+        }
+      }
+    },
+    {
+      "version": "5.16.1",
+      "variantId": "registry-packages.unity.com-ef67c38c4e5c8202",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "111c625fdf4bdfbd3d24c825658adf54b550f5a4",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-5.16.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "192d1b376cdb9a35465bb728f8e44dad00420a74",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/5.16.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "192d1b376cdb9a35465bb728f8e44dad00420a74"
+        }
+      }
+    },
+    {
+      "version": "6.5.2",
+      "variantId": "registry-packages.unity.com-822da83c35be8597",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "b0c22f5873d72fe2c750ffcaff5a767895e01a4d",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-6.5.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "922f3ca92e307c71408ef6322f036f9248b25dd5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/6.5.2",
+      "deprecated": null,
+      "unity": "2019.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "922f3ca92e307c71408ef6322f036f9248b25dd5"
+        }
+      }
+    },
+    {
+      "version": "6.5.3",
+      "variantId": "registry-packages.unity.com-c638876a13ef622a",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "b841a3c1998762f3fcd16b0cec6cc91a9759c872",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-6.5.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "60dedb759354f919390dc3ccf364df7b3e382862",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/6.5.3",
+      "deprecated": null,
+      "unity": "2019.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "60dedb759354f919390dc3ccf364df7b3e382862"
+        }
+      }
+    },
+    {
+      "version": "6.7.1",
+      "variantId": "registry-packages.unity.com-76e22d7a6a5f0df8",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "156fe06e2efe9375ecc5602e5e3f93ab04f761ff",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-6.7.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "329ce3661d9211e96410cace078b373a09e49ec0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/6.7.1",
+      "deprecated": null,
+      "unity": "2019.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "329ce3661d9211e96410cace078b373a09e49ec0"
+        }
+      }
+    },
+    {
+      "version": "6.9.0",
+      "variantId": "registry-packages.unity.com-502285313706265c",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "a0539b6e84abf8cedea2d4372f495135a6c5cba8",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-6.9.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6770bbf0f3dcf485808cc75a3a8d9eec3a15a9e0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/6.9.0",
+      "deprecated": null,
+      "unity": "2019.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "6770bbf0f3dcf485808cc75a3a8d9eec3a15a9e0"
+        }
+      }
+    },
+    {
+      "version": "6.9.1",
+      "variantId": "registry-packages.unity.com-742f9111741868e8",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "158ea4bd3c218879b64e573f3bc203420a89b673",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-6.9.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "982e7e8c3661161ff7423712f22c14d8a9f24882",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/6.9.1",
+      "deprecated": null,
+      "unity": "2019.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "982e7e8c3661161ff7423712f22c14d8a9f24882"
+        }
+      }
+    },
+    {
+      "version": "6.9.2",
+      "variantId": "registry-packages.unity.com-4d2fbfeb510b37f2",
+      "sourceUrl": "git@github.com:Unity-Technologies/ScriptableRenderPipeline.git",
+      "sourceRef": "c674503aa3fdb4e9460c7dbf4bcf3696eced19da",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-6.9.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1c9803736e1824bf85a0e4a7aa8c669cdd40e770",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/6.9.2",
+      "deprecated": null,
+      "unity": "2019.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "1c9803736e1824bf85a0e4a7aa8c669cdd40e770"
+        }
+      }
+    },
+    {
+      "version": "7.0.0",
+      "variantId": "registry-packages.unity.com-a2f2aefc99301f70",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "848314cd23748fd2273b715720cfea277842290f",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "3389de7539241b6b14a17ac617f46f0e4be31bb2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.0.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "3389de7539241b6b14a17ac617f46f0e4be31bb2"
+        }
+      }
+    },
+    {
+      "version": "7.0.1",
+      "variantId": "registry-packages.unity.com-c1a03435bd060f16",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "9198615b4a1f5c3f9bc3c5accd649d915ba51be2",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "04bfd9f7296ec3c6e3a581f94ca8000c41a8f4b4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.0.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "04bfd9f7296ec3c6e3a581f94ca8000c41a8f4b4"
+        }
+      }
+    },
+    {
+      "version": "7.1.1",
+      "variantId": "registry-packages.unity.com-ad0db55aa66ffb23",
+      "sourceUrl": "git@github.com:Unity-Technologies/ScriptableRenderPipeline.git",
+      "sourceRef": "f911a7b62f9182583b11cfb869bd0b6f1c07d23e",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.1.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c34116d7f46301f4ce3bf25c7444dbf1b8c2c4ad",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.1.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "c34116d7f46301f4ce3bf25c7444dbf1b8c2c4ad"
+        }
+      }
+    },
+    {
+      "version": "7.1.2",
+      "variantId": "registry-packages.unity.com-f80a68549e953bed",
+      "sourceUrl": "git@github.com:Unity-Technologies/ScriptableRenderPipeline.git",
+      "sourceRef": "c09a7c0290dbb8f4301f1dc06e96bdadc060d4d8",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.1.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "87937be584c8e058a29785d3ccd93579864d4dde",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.1.2",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "87937be584c8e058a29785d3ccd93579864d4dde"
+        }
+      }
+    },
+    {
+      "version": "7.1.5",
+      "variantId": "registry-packages.unity.com-6431a45fe023cef2",
+      "sourceUrl": "git@github.com:Unity-Technologies/ScriptableRenderPipeline.git",
+      "sourceRef": "d9a4edca1f88ceb2ca9470e49671c08d3bcc443a",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.1.5.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e8bb7de191f3b7f41ae3310b57cc6e983a8d1324",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.1.5",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "e8bb7de191f3b7f41ae3310b57cc6e983a8d1324"
+        }
+      }
+    },
+    {
+      "version": "7.1.6",
+      "variantId": "registry-packages.unity.com-3b4f471e1990b510",
+      "sourceUrl": "git@github.com:Unity-Technologies/ScriptableRenderPipeline.git",
+      "sourceRef": "462033f359f783f5d71dc578159bf5827abb41e2",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.1.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8121d1825bf471fd8a85d59ba04097cfc468d771",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.1.6",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "8121d1825bf471fd8a85d59ba04097cfc468d771"
+        }
+      }
+    },
+    {
+      "version": "7.1.7",
+      "variantId": "registry-packages.unity.com-ad4b6dfc7ee3eb80",
+      "sourceUrl": "https://packages.unity.com/com.unity.render-pipelines.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.1.7.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d94cd992c5fd06f6741f8cb54b9b91c69d56512c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.1.7",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "d94cd992c5fd06f6741f8cb54b9b91c69d56512c"
+        }
+      }
+    },
+    {
+      "version": "7.1.8",
+      "variantId": "registry-packages.unity.com-8ad80d387cafc798",
+      "sourceUrl": "https://github.com/Unity-Technologies/ScriptableRenderPipeline.git",
+      "sourceRef": "373167681d28b3dc4c85bad6cecc48c4c1e4e49f",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.1.8.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "167785b3a1c8553d973157e610acc45eb003ae57",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.1.8",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "167785b3a1c8553d973157e610acc45eb003ae57"
+        }
+      }
+    },
+    {
+      "version": "7.2.0",
+      "variantId": "registry-packages.unity.com-6f6fd21f061a3d5e",
+      "sourceUrl": "https://github.com/Unity-Technologies/ScriptableRenderPipeline.git",
+      "sourceRef": "44a3c1d198157190f53f531e3e246f9826a2ad81",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.2.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6ba9ff6237d1dc3a229e8b4f0cbf3aefcb79ae85",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.2.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "6ba9ff6237d1dc3a229e8b4f0cbf3aefcb79ae85"
+        }
+      }
+    },
+    {
+      "version": "7.2.1",
+      "variantId": "registry-packages.unity.com-5487ca8e4bb66f0b",
+      "sourceUrl": "https://github.com/Unity-Technologies/ScriptableRenderPipeline.git",
+      "sourceRef": "c1466d5b3b8b160f1072619b7be0b9202b3387c2",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.2.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a6a75b9f40e9fc33f3086adda3b4f5e0c2d667a0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.2.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "a6a75b9f40e9fc33f3086adda3b4f5e0c2d667a0"
+        }
+      }
+    },
+    {
+      "version": "7.3.1",
+      "variantId": "registry-packages.unity.com-be49cb96952a389f",
+      "sourceUrl": "https://github.com/Unity-Technologies/ScriptableRenderPipeline.git",
+      "sourceRef": "3e04a9da77f7658a9bec4a2a8de3a4a40b169865",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.3.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "727d4ef806018ec8967a4a86c3ee611657ad28b2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.3.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "727d4ef806018ec8967a4a86c3ee611657ad28b2"
+        }
+      }
+    },
+    {
+      "version": "7.4.1",
+      "variantId": "registry-packages.unity.com-bdeaaf98ca1d51b3",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "6f1dd8fff28ba433632d473461707f0f234b9b03",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.4.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6793ec9a01e780519df5bcb77a5dbbdca7c56d46",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.4.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "6793ec9a01e780519df5bcb77a5dbbdca7c56d46"
+        }
+      }
+    },
+    {
+      "version": "7.4.2",
+      "variantId": "registry-packages.unity.com-0a0bf6efa9795bbd",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "7c31a5b1eab04dcee0c5c091e31e9e456c1b1a7e",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.4.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "030031216366464fbc6fda2fa950c8addfcb99b3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.4.2",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "030031216366464fbc6fda2fa950c8addfcb99b3"
+        }
+      }
+    },
+    {
+      "version": "7.4.3",
+      "variantId": "registry-packages.unity.com-bc9ca881172e0f2d",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "4a05fbb56133219b3a85350c132d096c5e39561e",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.4.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "45d13169bd9d0a268bdafaeabaaf538c284bfbd7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.4.3",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "45d13169bd9d0a268bdafaeabaaf538c284bfbd7"
+        }
+      }
+    },
+    {
+      "version": "7.5.1",
+      "variantId": "registry-packages.unity.com-1801ec832c81c39f",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "3a681e98158ec8debe6f2f3c14255530f4eaf0a9",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.5.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "00bbccc0f994fc1facc164d14e0fb544f938052c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.5.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "00bbccc0f994fc1facc164d14e0fb544f938052c"
+        }
+      }
+    },
+    {
+      "version": "7.5.2",
+      "variantId": "registry-packages.unity.com-e1701cbaf266da94",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "2131342c8d3b1773f7155c2c2a936a7ab376f92a",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.5.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f8a4b490c921447203a6d7cd588ea3228484306f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.5.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "f8a4b490c921447203a6d7cd588ea3228484306f"
+        }
+      }
+    },
+    {
+      "version": "7.5.3",
+      "variantId": "registry-packages.unity.com-0be9623f7039cbbe",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "ac3b5ff88a3e68b57911bd6e66fdf7bbc2090dac",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.5.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0b55901d6125eac3b7c5f8ace7cd9b8a4ac7fcf4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.5.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "0b55901d6125eac3b7c5f8ace7cd9b8a4ac7fcf4"
+        }
+      }
+    },
+    {
+      "version": "7.6.0",
+      "variantId": "registry-packages.unity.com-5b1ba6db70561555",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "b9e8ac45ef83cffce6a345c8b09ec7575fd0b713",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.6.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "528dcf66e896a874fd47b13502d22e83d31dab31",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.6.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "528dcf66e896a874fd47b13502d22e83d31dab31"
+        }
+      }
+    },
+    {
+      "version": "7.7.0",
+      "variantId": "registry-packages.unity.com-2dabdb745b232ea1",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "4d52767af63b7baf9b146384ac726073b6b93edd",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.7.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9777888f29e5b4d41fdfb1c53db5c19a00d81ac5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.7.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "9777888f29e5b4d41fdfb1c53db5c19a00d81ac5"
+        }
+      }
+    },
+    {
+      "version": "7.7.1",
+      "variantId": "registry-packages.unity.com-4d38c7eb6a78a110",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "72de8123d16acb2c5a13221527b7a14614f8c5ee",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-7.7.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a78ef05c58c4d957310f58450df89f424eb3cf60",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/7.7.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "a78ef05c58c4d957310f58450df89f424eb3cf60"
+        }
+      }
+    },
+    {
+      "version": "8.0.1",
+      "variantId": "registry-packages.unity.com-29d9af687c3d920d",
+      "sourceUrl": "https://github.com/Unity-Technologies/ScriptableRenderPipeline.git",
+      "sourceRef": "0cbf0a53b938988c3c5af15a454babb59f0e3de4",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-8.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "46bdc8ad3696a55688cde9eb0e96b83d3b53d54f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/8.0.1",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "46bdc8ad3696a55688cde9eb0e96b83d3b53d54f"
+        }
+      }
+    },
+    {
+      "version": "8.1.0",
+      "variantId": "registry-packages.unity.com-681b7cff1c13db16",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "289e645f98ef9abfcb8f8a808c8684de60cdb2ac",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-8.1.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2afa697fbc00f7050ce4b4df6965e951cfd10e5d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/8.1.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "2afa697fbc00f7050ce4b4df6965e951cfd10e5d"
+        }
+      }
+    },
+    {
+      "version": "8.2.0",
+      "variantId": "registry-packages.unity.com-7100c4a88dac7f8b",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "4ad03e7975af24c8e60c974edb24c696e74e39b3",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-8.2.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "3f1ca96aa9b0af1a8fd89f476597021f2c98fbb5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/8.2.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "3f1ca96aa9b0af1a8fd89f476597021f2c98fbb5"
+        }
+      }
+    },
+    {
+      "version": "8.3.1",
+      "variantId": "registry-packages.unity.com-1c15f8da16d8d456",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "680e3b6121fc7d4cb8b99c2b59c74233ace4c49b",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-8.3.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9d3bb259b3fc6ec841156839536b4ca1580ee474",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/8.3.1",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "9d3bb259b3fc6ec841156839536b4ca1580ee474"
+        }
+      }
+    },
+    {
+      "version": "9.0.0-preview.13",
+      "variantId": "registry-packages.unity.com-42aa895b17e09b4d",
+      "sourceUrl": "https://github.com/Unity-Technologies/ScriptableRenderPipeline.git",
+      "sourceRef": "929d8105bdfc8c20c84b9f89d76e8b0119409529",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-9.0.0-preview.13.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9bdfb33e7c18f9c1b610e857fe58b79babd4e251",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/9.0.0-preview.13",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "9bdfb33e7c18f9c1b610e857fe58b79babd4e251"
+        }
+      }
+    },
+    {
+      "version": "9.0.0-preview.35",
+      "variantId": "registry-packages.unity.com-2f1d88344542130b",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "9ceae29efa3f3bc6218417dcc84e03f147e6068c",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-9.0.0-preview.35.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e68a2c238a53297db90a297a24edf2e7972454d7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/9.0.0-preview.35",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "e68a2c238a53297db90a297a24edf2e7972454d7"
+        }
+      }
+    },
+    {
+      "version": "9.0.0-preview.38",
+      "variantId": "registry-packages.unity.com-f7e358c4754bd9cc",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "4f2419e11b7e8c1ca6517d4b1fcc5769d6f1fc04",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-9.0.0-preview.38.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "eb04d82d7ea09a81156ecfe2308bc4b6b6035c60",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/9.0.0-preview.38",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "eb04d82d7ea09a81156ecfe2308bc4b6b6035c60"
+        }
+      }
+    },
+    {
+      "version": "9.0.0-preview.60",
+      "variantId": "registry-packages.unity.com-a5e8558ed451b972",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "30727520cc865410e149433fbd815e8f9d18f413",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-9.0.0-preview.60.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "63f275009fc424925e98e19fb885da0552d52b2d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/9.0.0-preview.60",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "63f275009fc424925e98e19fb885da0552d52b2d"
+        }
+      }
+    },
+    {
+      "version": "9.0.0-preview.77",
+      "variantId": "registry-packages.unity.com-63df8903bc876fb2",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "a7ef68bdc77af9f0491778e504906d82f7ed1fed",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-9.0.0-preview.77.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2526a2aa40695dfaa2a48db7fe7139656a0f50bc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/9.0.0-preview.77",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "2526a2aa40695dfaa2a48db7fe7139656a0f50bc"
+        }
+      }
+    },
+    {
+      "version": "10.0.0-preview.30",
+      "variantId": "registry-packages.unity.com-f13f03017dde44ec",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "2799049ef2460127a0f03d3241f1cfc024a8c444",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.0.0-preview.30.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "79219f51c695a385ee4a55915b0d023bdcc9d7c1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.0.0-preview.30",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "79219f51c695a385ee4a55915b0d023bdcc9d7c1"
+        }
+      }
+    },
+    {
+      "version": "10.1.0",
+      "variantId": "registry-packages.unity.com-d4dfcbecc00f84cc",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "544de544b923426b18b633c470a31a739532e0c4",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.1.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "3b8cf9cdb2b6c5b09bbf2760ae7446c88a81e041",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.1.0",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "3b8cf9cdb2b6c5b09bbf2760ae7446c88a81e041"
+        }
+      }
+    },
+    {
+      "version": "10.2.0",
+      "variantId": "registry-packages.unity.com-0e8176ae0653ec6a",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "2dbb8ac2491b6e5be0b2f740374609a83236eeb3",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.2.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a0e9c63ff040b421f71c85c23a185a14779abb77",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.2.0",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "a0e9c63ff040b421f71c85c23a185a14779abb77"
+        }
+      }
+    },
+    {
+      "version": "10.2.1",
+      "variantId": "registry-packages.unity.com-3ddbbf622bd370d2",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "bfab2b98da39feb0863638285da6c906b82a4830",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.2.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "57b6426de402c49339565e6650fbcdb03e7dd21c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.2.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "57b6426de402c49339565e6650fbcdb03e7dd21c"
+        }
+      }
+    },
+    {
+      "version": "10.2.2",
+      "variantId": "registry-packages.unity.com-d18266ddfc93ca06",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "a197e35ba4e93349ccbb4fddd4f3f80ba7b1c113",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.2.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8e172d3d7d994f8a79c149a0760a524cf7a1b115",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.2.2",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "8e172d3d7d994f8a79c149a0760a524cf7a1b115"
+        }
+      }
+    },
+    {
+      "version": "10.3.1",
+      "variantId": "registry-packages.unity.com-b96dd9d85300d5ab",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "04da21e5dc442239eb39b80d9b201a16d860bd75",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.3.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "26b720c374dcfe873ec79242fb94123998515ef0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.3.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "26b720c374dcfe873ec79242fb94123998515ef0"
+        }
+      }
+    },
+    {
+      "version": "10.3.2",
+      "variantId": "registry-packages.unity.com-918ee25599d59e48",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "1342255ea41f4ab7910113c8dc207aecdfd4cf8e",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.3.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "03f10cdeeaac70a281bf1a564b601985f1c19208",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.3.2",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "03f10cdeeaac70a281bf1a564b601985f1c19208"
+        }
+      }
+    },
+    {
+      "version": "10.4.0",
+      "variantId": "registry-packages.unity.com-c3eb51f7ef52fbea",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "e11ddbccf86bcd7ceaae2c0b8646420d2e53cf80",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.4.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f1daffb39aad26c5dd038022d63fc10c52af16cb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.4.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "f1daffb39aad26c5dd038022d63fc10c52af16cb"
+        }
+      }
+    },
+    {
+      "version": "10.5.0",
+      "variantId": "registry-packages.unity.com-ee94da5f8e56938a",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "7ff8fd444c179fd9bb380d61f4865be6935b47dd",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.5.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "79f85df9b9d5452a2344de462bf8d27f790c244a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.5.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "79f85df9b9d5452a2344de462bf8d27f790c244a"
+        }
+      }
+    },
+    {
+      "version": "10.5.1",
+      "variantId": "registry-packages.unity.com-4eac3d6ca1d92ecc",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "73f32e8fcc2d0cbf3b73a16a5e30eb5cede41576",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.5.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8e10214432f770ba6cc8d462cd9dbe787896b5fc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.5.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "8e10214432f770ba6cc8d462cd9dbe787896b5fc"
+        }
+      }
+    },
+    {
+      "version": "10.6.0",
+      "variantId": "registry-packages.unity.com-e80cb9145289ca6e",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "d645e6b498e293626bcb30ec32b652b9f584e9b5",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.6.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6de272cd52efcbe8dda737df234f333add773982",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.6.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "6de272cd52efcbe8dda737df234f333add773982"
+        }
+      }
+    },
+    {
+      "version": "10.7.0",
+      "variantId": "registry-packages.unity.com-b0df1aa0432fe4f8",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "65f895bbddc2d4875c1b605a1921764ddcb0f703",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.7.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "990982918c09c2a4e3bacd3c74597b0b7f654ec5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.7.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "990982918c09c2a4e3bacd3c74597b0b7f654ec5"
+        }
+      }
+    },
+    {
+      "version": "10.8.0",
+      "variantId": "registry-packages.unity.com-f9cafdce3b814fb3",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "cc88a447e886cc57473bf2eb145ebdba492f1f41",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.8.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e70500ec37dde2fed9f11833c9e6d39899f4288a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.8.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "e70500ec37dde2fed9f11833c9e6d39899f4288a"
+        }
+      }
+    },
+    {
+      "version": "10.8.1",
+      "variantId": "registry-packages.unity.com-94b8790d3e4588cb",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "31a193989d1e4e18ec3dced0f45168f8d2552a9a",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.8.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "44eaea2ae70955d8902de3be5e9de8f1bc1c057f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.8.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "44eaea2ae70955d8902de3be5e9de8f1bc1c057f"
+        }
+      }
+    },
+    {
+      "version": "10.9.0",
+      "variantId": "registry-packages.unity.com-9fe1e700f09c8719",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "5a193e907cafca7b2fa290618e18c3f28a3b451b",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.9.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e894d50b162d19851871cf8caf150e1170604f57",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.9.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "e894d50b162d19851871cf8caf150e1170604f57"
+        }
+      }
+    },
+    {
+      "version": "10.10.0",
+      "variantId": "registry-packages.unity.com-4531d3560eea322b",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "d3e1f462605e8d8f5acfb626b8e118201ebada27",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.10.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9f6cc81e5f7e5e585a6f77a968cf28daa5feba1c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.10.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "9f6cc81e5f7e5e585a6f77a968cf28daa5feba1c"
+        }
+      }
+    },
+    {
+      "version": "10.10.1",
+      "variantId": "registry-packages.unity.com-3ed53b1b4b791a65",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics.git",
+      "sourceRef": "625fae22af5330cedb9096076d8504e74c3c3ea5",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.core/-/com.unity.render-pipelines.core-10.10.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "320285a71bbb945082eecc71a30597b40e6a85d4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.core/10.10.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "320285a71bbb945082eecc71a30597b40e6a85d4"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "10.10.1"
+  },
+  "family": "Unity",
+  "targetVersions": [
+    "0.1.21",
+    "10.0.0-preview.27",
+    "10.2.2",
+    "12.1.0",
+    "12.1.15",
+    "12.1.7",
+    "14.0.10",
+    "14.0.12",
+    "14.0.7",
+    "14.0.9",
+    "17.0.0",
+    "17.0.4",
+    "4.0.0-preview",
+    "7.0.0",
+    "7.0.1",
+    "7.1.6",
+    "7.3.1",
+    "7.6.0"
+  ],
+  "selectedVersions": [
+    "0.1.21",
+    "10.2.2",
+    "4.0.0-preview",
+    "7.0.0",
+    "7.0.1",
+    "7.1.6",
+    "7.3.1",
+    "7.6.0",
+    "10.10.1"
+  ],
+  "missingTargetVersions": [
+    "10.0.0-preview.27",
+    "12.1.0",
+    "12.1.15",
+    "12.1.7",
+    "14.0.10",
+    "14.0.12",
+    "14.0.7",
+    "14.0.9",
+    "17.0.0",
+    "17.0.4"
+  ],
+  "allListedVersions": 98,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,840 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.gilzoide.sqlite-net",
+  "displayName": "com.gilzoide.sqlite-net",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "fetchedAt": "2026-10-17T17:38:23.964602Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0-preview1",
+      "variantId": "registry-package.openupm.com-9d063b2cdc6af0f0",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "461f739dcbc8ad436005a14e2e6c19b7a1a49dd1",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.0.0-preview1.tgz",
+      "upstreamIntegrity": "sha512-Khs1gUD3oDtrN29NzsuvyzcqYrngVRQt1fM+gW3hOnfZNyNTVQau0Buo6jdgp3JlfrW0pNQ6xyU2MnTvEazFzQ==",
+      "upstreamShasum": "c4ab17bddfeee4d99ac48494a0e9d78829892e59",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.0.0-preview1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Khs1gUD3oDtrN29NzsuvyzcqYrngVRQt1fM+gW3hOnfZNyNTVQau0Buo6jdgp3JlfrW0pNQ6xyU2MnTvEazFzQ==",
+          "shasum": "c4ab17bddfeee4d99ac48494a0e9d78829892e59"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview10",
+      "variantId": "registry-package.openupm.com-4da1124b4b950845",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "3a952ebe4f819d97124bc46e5d9527e47a315dae",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.0.0-preview10.tgz",
+      "upstreamIntegrity": "sha512-KDK3fbc02vUPPt0+W+579ZKO+q/YUh29ttW6WLV7Kctr+GihHsYtr0rxyKcZJNtwVhWh7FjGhbGA0yJqd9PlOA==",
+      "upstreamShasum": "5c28f628e4ec446c91141fc102002f7bcde80abb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.0.0-preview10",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KDK3fbc02vUPPt0+W+579ZKO+q/YUh29ttW6WLV7Kctr+GihHsYtr0rxyKcZJNtwVhWh7FjGhbGA0yJqd9PlOA==",
+          "shasum": "5c28f628e4ec446c91141fc102002f7bcde80abb"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview11",
+      "variantId": "registry-package.openupm.com-351843863753bdbe",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "1f3e225cd13e061ca908305943b79c5ad7a2dd52",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.0.0-preview11.tgz",
+      "upstreamIntegrity": "sha512-LI88gIXThudTrwVaq5fX/CC9SG6Z+EGClWAnlpbDRH5BDhHgW2ZqWn1TQi68Lg+ax95cfEdEhGRRrRt8vJ/K9g==",
+      "upstreamShasum": "d6c8cd9ae058bca084c41e61797ab2347697abf1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.0.0-preview11",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LI88gIXThudTrwVaq5fX/CC9SG6Z+EGClWAnlpbDRH5BDhHgW2ZqWn1TQi68Lg+ax95cfEdEhGRRrRt8vJ/K9g==",
+          "shasum": "d6c8cd9ae058bca084c41e61797ab2347697abf1"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview2",
+      "variantId": "registry-package.openupm.com-acadb61f05e0da7e",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "99ed173a765a9ca35508ca109634023b993d2c09",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.0.0-preview2.tgz",
+      "upstreamIntegrity": "sha512-pYz6+FvPNCVLQ1ctCwUmKQW/5pjmg01Xlo7NBGUXe2L9ogztkKkbEmro1LYYrENVdLgYccWh5470CISeSy4RLQ==",
+      "upstreamShasum": "2052d3e000105cca0b4a36dd4c6fb1c8b4a8ce5a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.0.0-preview2",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-pYz6+FvPNCVLQ1ctCwUmKQW/5pjmg01Xlo7NBGUXe2L9ogztkKkbEmro1LYYrENVdLgYccWh5470CISeSy4RLQ==",
+          "shasum": "2052d3e000105cca0b4a36dd4c6fb1c8b4a8ce5a"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview3",
+      "variantId": "registry-package.openupm.com-300b6652ef0c18ec",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "409fea28aa8bbcb82c2f9aef597b5bbe7d1c6aa9",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.0.0-preview3.tgz",
+      "upstreamIntegrity": "sha512-hen0CkfVairOZVwaERaZhoqVFf9VqcPxzCZ0PDLEHJ9dE/cNpj8oYLdOC6FkxB3evIL5lvhkRnAH0wM4NHUKLw==",
+      "upstreamShasum": "ad8ff2a20c9b39567bba3253d8cac580c7ddffae",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.0.0-preview3",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hen0CkfVairOZVwaERaZhoqVFf9VqcPxzCZ0PDLEHJ9dE/cNpj8oYLdOC6FkxB3evIL5lvhkRnAH0wM4NHUKLw==",
+          "shasum": "ad8ff2a20c9b39567bba3253d8cac580c7ddffae"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview4",
+      "variantId": "registry-package.openupm.com-ddcc89cb3bcdba0f",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "805defb19813b0c0d4dc8dd30d7c18034539adcb",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.0.0-preview4.tgz",
+      "upstreamIntegrity": "sha512-eTNjQdw7o7C9xTFVlShsGKlX+NbroqiwJoZJ02oDoYx3fC7SaTRArEsVUPdAPHXC1mADI3yz2Khuq7lFQE7WWg==",
+      "upstreamShasum": "d4d08a0f5f2291999588ecf7ce963d7041cec560",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.0.0-preview4",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eTNjQdw7o7C9xTFVlShsGKlX+NbroqiwJoZJ02oDoYx3fC7SaTRArEsVUPdAPHXC1mADI3yz2Khuq7lFQE7WWg==",
+          "shasum": "d4d08a0f5f2291999588ecf7ce963d7041cec560"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview5",
+      "variantId": "registry-package.openupm.com-c109130a82b6164b",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "444bf12cf8d824b2d8f9fddc0a969f3e895c5986",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.0.0-preview5.tgz",
+      "upstreamIntegrity": "sha512-EOxM/EYZJRxpGlJU2cMpmr92K7qRiND4YeyIUJwpOKmyeq+/2RaGynXlbmaXvM3/+eQvTVljOLOu2YHVkkR1CQ==",
+      "upstreamShasum": "f029b857fdceca93bf6d7410f0032bcaef1ca64b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.0.0-preview5",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-EOxM/EYZJRxpGlJU2cMpmr92K7qRiND4YeyIUJwpOKmyeq+/2RaGynXlbmaXvM3/+eQvTVljOLOu2YHVkkR1CQ==",
+          "shasum": "f029b857fdceca93bf6d7410f0032bcaef1ca64b"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview6",
+      "variantId": "registry-package.openupm.com-5dbce629658fc0b2",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "9f614c67666a6b3772ce5eb6f54f6c382d2589d3",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.0.0-preview6.tgz",
+      "upstreamIntegrity": "sha512-fZlaC2AdfZbOngzwGtHWJLxW0jAamr8z3dj8+Fzteayv5SxmRenCFej29CchBL1bTowJR07sOW6zMBU3b8Mg7Q==",
+      "upstreamShasum": "345e0410c079e092f3aacee500c39fb22a2ea8e6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.0.0-preview6",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fZlaC2AdfZbOngzwGtHWJLxW0jAamr8z3dj8+Fzteayv5SxmRenCFej29CchBL1bTowJR07sOW6zMBU3b8Mg7Q==",
+          "shasum": "345e0410c079e092f3aacee500c39fb22a2ea8e6"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview7",
+      "variantId": "registry-package.openupm.com-4c64d9352b8e633a",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "5a80759fff48a6a8f481214923f99a5e43526190",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.0.0-preview7.tgz",
+      "upstreamIntegrity": "sha512-oEZ8uFWlPrGMSmPe9rx5jt7oQpGl/tLTFdvzbVQGogk9FnWVVtDE0M+C54+YL3NWz8FaTr5CddzuO4jW8xpjqg==",
+      "upstreamShasum": "dfd91df2cc166a7249beae5a0d8a96a4b11cc4f8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.0.0-preview7",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oEZ8uFWlPrGMSmPe9rx5jt7oQpGl/tLTFdvzbVQGogk9FnWVVtDE0M+C54+YL3NWz8FaTr5CddzuO4jW8xpjqg==",
+          "shasum": "dfd91df2cc166a7249beae5a0d8a96a4b11cc4f8"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview8",
+      "variantId": "registry-package.openupm.com-6894246f1cc5ab22",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "fa76961ce99c9726591137940e5adbbd0cdffbe7",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.0.0-preview8.tgz",
+      "upstreamIntegrity": "sha512-/h6f5PKanNaP9L6E7TAXlTj+O5d5WxgQZAQ5NFHpYimFQTGnLGe9yvfJH3u9py5XUXGsfsdZg/X0yoOIyBmmeQ==",
+      "upstreamShasum": "8fdb8e1cc42ecf67418401a58a8c30d086257fc3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.0.0-preview8",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/h6f5PKanNaP9L6E7TAXlTj+O5d5WxgQZAQ5NFHpYimFQTGnLGe9yvfJH3u9py5XUXGsfsdZg/X0yoOIyBmmeQ==",
+          "shasum": "8fdb8e1cc42ecf67418401a58a8c30d086257fc3"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview9",
+      "variantId": "registry-package.openupm.com-bc0d7888d717a338",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "85262b9351fde4e301f4d0a27752ae76d2560886",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.0.0-preview9.tgz",
+      "upstreamIntegrity": "sha512-ilK1MJRk3vIbrFZ+1CW9wPyUJnE454anSpitLlpQT8LXwqTIy5Dzdiw1Vdv62SKtppr5x00ZJOfc+wQDe0Ee8w==",
+      "upstreamShasum": "d5ad2a2cfd52bde514fb4938595e605b740681c8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.0.0-preview9",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ilK1MJRk3vIbrFZ+1CW9wPyUJnE454anSpitLlpQT8LXwqTIy5Dzdiw1Vdv62SKtppr5x00ZJOfc+wQDe0Ee8w==",
+          "shasum": "d5ad2a2cfd52bde514fb4938595e605b740681c8"
+        }
+      }
+    },
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-b0509d35f22daa50",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "f4a3ec15613b7a835c267ac947e1a9a9f0a70345",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-+HPr3a3wzLLoY5gHYAaJkOC0JMpGhjimaKkJocXfemRXoxUZbk3LKhaVnReYF/zl4rNikuYRrEMISCBKoLPUgw==",
+      "upstreamShasum": "7e46291d6b219dc06390a335bfedd8f4bcabc7e9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.0.0",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+HPr3a3wzLLoY5gHYAaJkOC0JMpGhjimaKkJocXfemRXoxUZbk3LKhaVnReYF/zl4rNikuYRrEMISCBKoLPUgw==",
+          "shasum": "7e46291d6b219dc06390a335bfedd8f4bcabc7e9"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-0294427a54c9ae67",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "9645bb6ae3bbbdf8db2af88922623e822897e376",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-fAEeE/kXoj7q1nxvZW057Ja6hUKPr4z10E5V61TdMLWEgl2xFKrqJ5pxlK9G6spdIaOFIOIkIQDtmwxUHkIFQA==",
+      "upstreamShasum": "e54e91d25ffe3643efbf510b0042a05959374d52",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.0.1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fAEeE/kXoj7q1nxvZW057Ja6hUKPr4z10E5V61TdMLWEgl2xFKrqJ5pxlK9G6spdIaOFIOIkIQDtmwxUHkIFQA==",
+          "shasum": "e54e91d25ffe3643efbf510b0042a05959374d52"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-3057406da4b62718",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "a49684b95e7ecc62d7880bc03911c609ff176728",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-Dp1K96ck8NE4IW9oq38QYZiH9Q27wVwWFlfizI+h5aReFNv2FsM/rPOxX2fTHZSVz7Dkkl5DDaTEnunrMvNGpg==",
+      "upstreamShasum": "8de3edd02a0836d02d6584e105f120a92fd3f070",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.1.0",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Dp1K96ck8NE4IW9oq38QYZiH9Q27wVwWFlfizI+h5aReFNv2FsM/rPOxX2fTHZSVz7Dkkl5DDaTEnunrMvNGpg==",
+          "shasum": "8de3edd02a0836d02d6584e105f120a92fd3f070"
+        }
+      }
+    },
+    {
+      "version": "1.1.1",
+      "variantId": "registry-package.openupm.com-b7f4e4d02aa83fe0",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "17d07e7c757c0a390611bbecc11719d48adc3571",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.1.1.tgz",
+      "upstreamIntegrity": "sha512-cvgmtk/ju5Rj/nnjIZ98Ul9fxpMP3vB+kzCL+DOGsMVl2eTir6898/vEAciB2y79lDG+cSHhQ7TkcJraeHFgGQ==",
+      "upstreamShasum": "40e7a6ea2af675da4d48d5f173b92d457bd73030",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.1.1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cvgmtk/ju5Rj/nnjIZ98Ul9fxpMP3vB+kzCL+DOGsMVl2eTir6898/vEAciB2y79lDG+cSHhQ7TkcJraeHFgGQ==",
+          "shasum": "40e7a6ea2af675da4d48d5f173b92d457bd73030"
+        }
+      }
+    },
+    {
+      "version": "1.1.2",
+      "variantId": "registry-package.openupm.com-0b4eaeb5b4997ee4",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "e9d2a337245d887f29cfe9f595e41aff641cb66b",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.1.2.tgz",
+      "upstreamIntegrity": "sha512-HuyItIhY9H9L7nU30EiUIWlX6z8u4tGLObv8J4tDCjw0AcjbjdnNee+e/KtHDCOSB69fsGVZ+U6CGUcdk76K5g==",
+      "upstreamShasum": "560f910bb0644e3b973486052a0ce9960fb3ddd2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.1.2",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HuyItIhY9H9L7nU30EiUIWlX6z8u4tGLObv8J4tDCjw0AcjbjdnNee+e/KtHDCOSB69fsGVZ+U6CGUcdk76K5g==",
+          "shasum": "560f910bb0644e3b973486052a0ce9960fb3ddd2"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-38e67d3d26e63113",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "0b3bc85fcc3a7befd549c672c4683b357fff938d",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-SlI3jXhNTY7UqmOmXpNZAFpZAW+y8pyv8iIR8c++6vkkcKcBQofoYhJeLGR1oFsy/hT+oNI42/WPlpNVbDi67Q==",
+      "upstreamShasum": "4c009171460862205200da545093ddc1e495249e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.2.0",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SlI3jXhNTY7UqmOmXpNZAFpZAW+y8pyv8iIR8c++6vkkcKcBQofoYhJeLGR1oFsy/hT+oNI42/WPlpNVbDi67Q==",
+          "shasum": "4c009171460862205200da545093ddc1e495249e"
+        }
+      }
+    },
+    {
+      "version": "1.2.1",
+      "variantId": "registry-package.openupm.com-17e12b9405e72407",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "39bfe659e201334f7a61e3bbc894eee5966863d2",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.2.1.tgz",
+      "upstreamIntegrity": "sha512-oJt+GqJVwh359eP9V8Hwxg524SLDqWfxeNHnzBv5eGXofpDnprUZhp9eoa+vxNcgRwBLecpve5JKGCan7CKPTw==",
+      "upstreamShasum": "6ce31903f4ccd233300a3a1406648d0be73c95a0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.2.1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oJt+GqJVwh359eP9V8Hwxg524SLDqWfxeNHnzBv5eGXofpDnprUZhp9eoa+vxNcgRwBLecpve5JKGCan7CKPTw==",
+          "shasum": "6ce31903f4ccd233300a3a1406648d0be73c95a0"
+        }
+      }
+    },
+    {
+      "version": "1.2.2",
+      "variantId": "registry-package.openupm.com-16a603a6dc80b012",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "f15e1854699f6485322f0ea7e6cde4028ff070a5",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.2.2.tgz",
+      "upstreamIntegrity": "sha512-3rpoGxXzvEMV50gwzE1UEmajBT1XMCmIX7GiLglXqjqVceZbikyQv4SDQdLbVNSLjesQ5l0jlFtJl+KFxauiCw==",
+      "upstreamShasum": "e7214a4c98691dc15cb35ec534e2d671fb21c373",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.2.2",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3rpoGxXzvEMV50gwzE1UEmajBT1XMCmIX7GiLglXqjqVceZbikyQv4SDQdLbVNSLjesQ5l0jlFtJl+KFxauiCw==",
+          "shasum": "e7214a4c98691dc15cb35ec534e2d671fb21c373"
+        }
+      }
+    },
+    {
+      "version": "1.2.3",
+      "variantId": "registry-package.openupm.com-ddafecc665273222",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "2851fb50b5a4e13ae09733ac6dabc53654cb536a",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.2.3.tgz",
+      "upstreamIntegrity": "sha512-AZP8tbw75T+iQXuhqo8R8Bs7d5oi1D+LBQlg8aD7C+gTeeza65h+br9FnNvNfxmoNdaqMT3wG8UFFJ/ngEz84Q==",
+      "upstreamShasum": "82abacbbbb4bca3730e5a15560b625e5257861fb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.2.3",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-AZP8tbw75T+iQXuhqo8R8Bs7d5oi1D+LBQlg8aD7C+gTeeza65h+br9FnNvNfxmoNdaqMT3wG8UFFJ/ngEz84Q==",
+          "shasum": "82abacbbbb4bca3730e5a15560b625e5257861fb"
+        }
+      }
+    },
+    {
+      "version": "1.2.4",
+      "variantId": "registry-package.openupm.com-7b96d0c420ad2698",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "cf7ea3756d7b425cb151b7070084e6a80d62c7f8",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.2.4.tgz",
+      "upstreamIntegrity": "sha512-Ow5UXG9Rm0EuGGVXfEOWClYB8ay5Pi0PtTCZbacJJXJFrRAZq8CCgZYP4aS1Ur5DCCd73P/27TE0IpyBpsFfEQ==",
+      "upstreamShasum": "2e468a993f42edc401082b03d32d5869b8cf76d0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.2.4",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ow5UXG9Rm0EuGGVXfEOWClYB8ay5Pi0PtTCZbacJJXJFrRAZq8CCgZYP4aS1Ur5DCCd73P/27TE0IpyBpsFfEQ==",
+          "shasum": "2e468a993f42edc401082b03d32d5869b8cf76d0"
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "variantId": "registry-package.openupm.com-6257034ce045aae9",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "d793e2146a61499d848bf2548a8e63a4fa08448c",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.3.0.tgz",
+      "upstreamIntegrity": "sha512-IW3l91uNqD6qShvBEcfPZvrM2K4f/0cv5GArINAsZY0s+2EDY8cJcCnhOZK4TDkjUMpCDzxByGeijHaUc5L/0g==",
+      "upstreamShasum": "3a61553a1d7f266773df7625401d611112e63c67",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.3.0",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IW3l91uNqD6qShvBEcfPZvrM2K4f/0cv5GArINAsZY0s+2EDY8cJcCnhOZK4TDkjUMpCDzxByGeijHaUc5L/0g==",
+          "shasum": "3a61553a1d7f266773df7625401d611112e63c67"
+        }
+      }
+    },
+    {
+      "version": "1.3.1",
+      "variantId": "registry-package.openupm.com-31bc594e49c0e6f7",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "6e75479b8c376cd1492e138f862de5eae0ce09bb",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.3.1.tgz",
+      "upstreamIntegrity": "sha512-X+vJkIDbBJT2v6I8os96hizI4jxaVspUu3xgbzsiaMWD28lH2Qs8muIf436mZUhzzLTt08YSTyG5GVw1x6n1TA==",
+      "upstreamShasum": "e96e0bd1ac188ce1af9d4eb5c67a9d407e299ef5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.3.1",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-X+vJkIDbBJT2v6I8os96hizI4jxaVspUu3xgbzsiaMWD28lH2Qs8muIf436mZUhzzLTt08YSTyG5GVw1x6n1TA==",
+          "shasum": "e96e0bd1ac188ce1af9d4eb5c67a9d407e299ef5"
+        }
+      }
+    },
+    {
+      "version": "1.3.2",
+      "variantId": "registry-package.openupm.com-a51bb0d67202ab69",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.sqlite-net",
+      "sourceRef": "08248bd5884d8eb932a837aa56d4ff456daf913f",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.3.2.tgz",
+      "upstreamIntegrity": "sha512-yOKX71g3P21CLnKiWNniu/Ubb69wDR7kl0oap3+LKZ26h/JfVLhy8Mk/6qmGCe3vMo4GtI5+OmA7eVL5XuEAAQ==",
+      "upstreamShasum": "7d0b9101887bd92465dd741fd843463ea2102151",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.3.2",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yOKX71g3P21CLnKiWNniu/Ubb69wDR7kl0oap3+LKZ26h/JfVLhy8Mk/6qmGCe3vMo4GtI5+OmA7eVL5XuEAAQ==",
+          "shasum": "7d0b9101887bd92465dd741fd843463ea2102151"
+        }
+      }
+    },
+    {
+      "version": "1.3.3",
+      "variantId": "registry-package.openupm.com-78eb361dbe140d64",
+      "sourceUrl": "https://github.com/gilzoide/unity-sqlite-net.git",
+      "sourceRef": "34340bf93526b5143ac404f13cb5c4fefabaa461",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/-/com.gilzoide.sqlite-net-1.3.3.tgz",
+      "upstreamIntegrity": "sha512-QfLcVMLhhtUOAO4M9XWh1lCRM1lqSOh9XJZaB2CMtPXu8h6ESitRSCVwQMYhxvEJk+b9Z1pdP46XaWa0wC/aUA==",
+      "upstreamShasum": "54c79e569cbd3ba5cd38e7a257d53d9acc6f8f80",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.sqlite-net/1.3.3",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QfLcVMLhhtUOAO4M9XWh1lCRM1lqSOh9XJZaB2CMtPXu8h6ESitRSCVwQMYhxvEJk+b9Z1pdP46XaWa0wC/aUA==",
+          "shasum": "54c79e569cbd3ba5cd38e7a257d53d9acc6f8f80"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.3.3",
+    "patch@1.0.0-preview10": "1.0.0-preview10",
+    "patch@1.0.0-preview11": "1.0.0-preview11"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.gilzoide.sqlite-net.yml",
+  "definitionBlobSha": "64c89a8167e2502cff6c30bfb06a2fb52c3c07fc",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "1.0.0",
+    "1.0.0-preview4",
+    "1.3.1"
+  ],
+  "selectedVersions": [
+    "1.0.0",
+    "1.0.0-preview4",
+    "1.3.1",
+    "1.3.3"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 25,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

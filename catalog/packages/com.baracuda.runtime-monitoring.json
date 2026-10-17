@@ -1,0 +1,701 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.baracuda.runtime-monitoring",
+  "displayName": "com.baracuda.runtime-monitoring",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "fetchedAt": "2026-10-17T17:36:46.375242Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "3.0.1",
+      "variantId": "registry-package.openupm.com-26ec0d104a4d930b",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "45cdcf194353f59305925984f88716286f69b1b4",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.0.1.tgz",
+      "upstreamIntegrity": "sha512-KIrr3JG252H+UI3zBe2iiJan3rTx2tFAHHdDdlIXgWdoLkt5nTjVautgc8t4iIrm4OqXBytmpjliC3yEEm2RdQ==",
+      "upstreamShasum": "32bcc3bbe9e55f2bf47561c5af2b1ad6fd0918dd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.baracuda.thread-dispatcher": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.0.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KIrr3JG252H+UI3zBe2iiJan3rTx2tFAHHdDdlIXgWdoLkt5nTjVautgc8t4iIrm4OqXBytmpjliC3yEEm2RdQ==",
+          "shasum": "32bcc3bbe9e55f2bf47561c5af2b1ad6fd0918dd"
+        }
+      }
+    },
+    {
+      "version": "3.1.0",
+      "variantId": "registry-package.openupm.com-b02eb6a8027d938a",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "3b41e08ac44850231b7dc8ac83355894484bbd02",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.1.0.tgz",
+      "upstreamIntegrity": "sha512-8s09RtAZIigfZqmMjkZgdrZG5W2AptjTWbWCC35ZuCrB7kWPi8m2ZXc7I7hFxBfODlrVI1BlwaH+02NYjyEACQ==",
+      "upstreamShasum": "07c6edc5d3b5dc0189b4b7eb3ca0db819ab655c3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.baracuda.thread-dispatcher": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.1.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8s09RtAZIigfZqmMjkZgdrZG5W2AptjTWbWCC35ZuCrB7kWPi8m2ZXc7I7hFxBfODlrVI1BlwaH+02NYjyEACQ==",
+          "shasum": "07c6edc5d3b5dc0189b4b7eb3ca0db819ab655c3"
+        }
+      }
+    },
+    {
+      "version": "3.1.1",
+      "variantId": "registry-package.openupm.com-198ec97789467839",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "c68e53f5346c4b347ab52d19b68d7540ff69f246",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.1.1.tgz",
+      "upstreamIntegrity": "sha512-mAZY4Jq/rsq/Up2v6MfhcTGz6djB2dErEbkF43W3iqhTC9fdGwCZyrvb0TmWoD/EIkPxly/2/HMY+kcWw/7uNQ==",
+      "upstreamShasum": "b8dcdf130207bc2b53594b7e6763395c4f12009e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.baracuda.thread-dispatcher": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.1.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mAZY4Jq/rsq/Up2v6MfhcTGz6djB2dErEbkF43W3iqhTC9fdGwCZyrvb0TmWoD/EIkPxly/2/HMY+kcWw/7uNQ==",
+          "shasum": "b8dcdf130207bc2b53594b7e6763395c4f12009e"
+        }
+      }
+    },
+    {
+      "version": "3.1.3",
+      "variantId": "registry-package.openupm.com-458e68bd2660c931",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "5fb75292137028daaaaeb63120ba4e505e8978ea",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.1.3.tgz",
+      "upstreamIntegrity": "sha512-vxDVlPwzzOZVGEOCM1ey0hwAW97CaDk5sYHSfk2/Re+My8grbKZkCbnEUejcWXK12CRBNxro4/2hoZ4MWLZ1vQ==",
+      "upstreamShasum": "b375060457b1eba81ad94e410776bb5bc8048716",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.baracuda.thread-dispatcher": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.1.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vxDVlPwzzOZVGEOCM1ey0hwAW97CaDk5sYHSfk2/Re+My8grbKZkCbnEUejcWXK12CRBNxro4/2hoZ4MWLZ1vQ==",
+          "shasum": "b375060457b1eba81ad94e410776bb5bc8048716"
+        }
+      }
+    },
+    {
+      "version": "3.1.4",
+      "variantId": "registry-package.openupm.com-de80737e7cae8344",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "570ab047cc7d66bdf0f62319a3ac0afbddc5759b",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.1.4.tgz",
+      "upstreamIntegrity": "sha512-u2uMILgcre58d0s3zfAl6GzYnX6dqQQo2G0uitrZsRszv/Z2QrftOI7MmnBhOktdNRNt46d8UaD7vMpNZ2e8hQ==",
+      "upstreamShasum": "41e0a6559be21e73b74ed7e21f899de38e0111dd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.baracuda.thread-dispatcher": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.1.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-u2uMILgcre58d0s3zfAl6GzYnX6dqQQo2G0uitrZsRszv/Z2QrftOI7MmnBhOktdNRNt46d8UaD7vMpNZ2e8hQ==",
+          "shasum": "41e0a6559be21e73b74ed7e21f899de38e0111dd"
+        }
+      }
+    },
+    {
+      "version": "3.1.5",
+      "variantId": "registry-package.openupm.com-dd64b1d728bb4e17",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "63f118aa694d802251607fcf0de30e1f72baadf2",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.1.5.tgz",
+      "upstreamIntegrity": "sha512-qKBFDw4PhBJ9oeMXMiaHCnt9JnX6rk0g4S1Ep9ZL97sQLeZ2FQ9AurcszaNKmG9EygcNcbwbveQ2Uphu1V46nQ==",
+      "upstreamShasum": "db81edd7bd2b0d171eb56c8322ce6a4490aa6a46",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.baracuda.thread-dispatcher": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.1.5",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qKBFDw4PhBJ9oeMXMiaHCnt9JnX6rk0g4S1Ep9ZL97sQLeZ2FQ9AurcszaNKmG9EygcNcbwbveQ2Uphu1V46nQ==",
+          "shasum": "db81edd7bd2b0d171eb56c8322ce6a4490aa6a46"
+        }
+      }
+    },
+    {
+      "version": "3.1.6",
+      "variantId": "registry-package.openupm.com-fdd661915d1ec87c",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "1ad4cf4781506ccdb077ad6702622b932cc4a41f",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.1.6.tgz",
+      "upstreamIntegrity": "sha512-U2xVt+ZrU2ls+UYv/VsyqYP5QmI1b3iFsSrXOAnsdVn/wD9Rf2rQpATSI6zKoTzu8ljEJmIbQLHRJAD80rAPVw==",
+      "upstreamShasum": "31b474771a66f088a2043d1d8de0998e4c410519",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.baracuda.thread-dispatcher": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.1.6",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-U2xVt+ZrU2ls+UYv/VsyqYP5QmI1b3iFsSrXOAnsdVn/wD9Rf2rQpATSI6zKoTzu8ljEJmIbQLHRJAD80rAPVw==",
+          "shasum": "31b474771a66f088a2043d1d8de0998e4c410519"
+        }
+      }
+    },
+    {
+      "version": "3.2.0",
+      "variantId": "registry-package.openupm.com-96ca72303d089556",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "efa1fea632ac535364ba4b6cf4ff3dfdaf22504e",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.2.0.tgz",
+      "upstreamIntegrity": "sha512-vutF7t6sCzJrl3LPw4P2cKa8aqw8ukl5DJZEXQ8giEkXSs+cl7ykWspqSh+dxNIRmtOJ0bpHlpyxksiBcp0Srg==",
+      "upstreamShasum": "bdb3c15fe12f4c3e357b52d423189252c5ff3405",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.baracuda.thread-dispatcher": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.2.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vutF7t6sCzJrl3LPw4P2cKa8aqw8ukl5DJZEXQ8giEkXSs+cl7ykWspqSh+dxNIRmtOJ0bpHlpyxksiBcp0Srg==",
+          "shasum": "bdb3c15fe12f4c3e357b52d423189252c5ff3405"
+        }
+      }
+    },
+    {
+      "version": "3.2.1",
+      "variantId": "registry-package.openupm.com-412153f475bc8bcd",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "03415e5195707ccea7050288fe0fe4b8285e8143",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.2.1.tgz",
+      "upstreamIntegrity": "sha512-wm8hFsmDOAHbjd3qSvY+lpOZQIdqkAD1cWMJmFUs1iBTrd2luooNLst842AJt3cdFq8k8Pn0t6FAhMjxoI7kgg==",
+      "upstreamShasum": "9a7b7077752f883572ba55091baf3f389e7bf07d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.baracuda.thread-dispatcher": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.2.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wm8hFsmDOAHbjd3qSvY+lpOZQIdqkAD1cWMJmFUs1iBTrd2luooNLst842AJt3cdFq8k8Pn0t6FAhMjxoI7kgg==",
+          "shasum": "9a7b7077752f883572ba55091baf3f389e7bf07d"
+        }
+      }
+    },
+    {
+      "version": "3.2.2",
+      "variantId": "registry-package.openupm.com-e584f1ca4b0cdd2a",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "ed704b54c59bee3ec6d42cbd8a69ee58307c06d8",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.2.2.tgz",
+      "upstreamIntegrity": "sha512-tDsCc/PtcEYg8Fs5XqI3PLsaLPPwnPJNJy2a1biGuKjmMp0QO5FL8S83sMbptO53g3ILix1sYUHr3aBLvTwP8w==",
+      "upstreamShasum": "97d420444fe1f1849dbcfae74aa73619c5fd0e39",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.baracuda.thread-dispatcher": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.2.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tDsCc/PtcEYg8Fs5XqI3PLsaLPPwnPJNJy2a1biGuKjmMp0QO5FL8S83sMbptO53g3ILix1sYUHr3aBLvTwP8w==",
+          "shasum": "97d420444fe1f1849dbcfae74aa73619c5fd0e39"
+        }
+      }
+    },
+    {
+      "version": "3.3.0",
+      "variantId": "registry-package.openupm.com-43c3c8162927daa8",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "70f37f9e33019a096470bc64c7a5aa98023841bc",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.3.0.tgz",
+      "upstreamIntegrity": "sha512-e0O8Nlw4Plxk0fA5JJ0NRMWLGSdZ/DXbOmBRMYcCZVWSdhHzY5umlUEU5zHdPa9dlIRz9tvIe4TqRLwaewXkXA==",
+      "upstreamShasum": "362337f6363526315d1dfbcacc40bf459e4b53f1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.baracuda.thread-dispatcher": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.3.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-e0O8Nlw4Plxk0fA5JJ0NRMWLGSdZ/DXbOmBRMYcCZVWSdhHzY5umlUEU5zHdPa9dlIRz9tvIe4TqRLwaewXkXA==",
+          "shasum": "362337f6363526315d1dfbcacc40bf459e4b53f1"
+        }
+      }
+    },
+    {
+      "version": "3.4.0",
+      "variantId": "registry-package.openupm.com-8c742e4b9416eafc",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "46dbfe171faf3a60663467c4baaa8254329c9ee0",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.4.0.tgz",
+      "upstreamIntegrity": "sha512-foJBVu46rJqqLsgfOByUxgDVhvd7cIZ7Ot9UTtI7w+RiviYlzXCLfAfI9Sr0hF2yw8+FwdkMrpR4ZyYSjY6Rmw==",
+      "upstreamShasum": "e9545a5da8ebdf5432b93045c0f5a1d2033566af",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.baracuda.thread-dispatcher": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.4.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-foJBVu46rJqqLsgfOByUxgDVhvd7cIZ7Ot9UTtI7w+RiviYlzXCLfAfI9Sr0hF2yw8+FwdkMrpR4ZyYSjY6Rmw==",
+          "shasum": "e9545a5da8ebdf5432b93045c0f5a1d2033566af"
+        }
+      }
+    },
+    {
+      "version": "3.4.1",
+      "variantId": "registry-package.openupm.com-8f34600e80c09f95",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "fec29490a90931accb2501928ef1051e69b5e4f6",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.4.1.tgz",
+      "upstreamIntegrity": "sha512-PEOCU5sDxr0XALRHELILDpK/f1BVyH0sOQ1saQMuKhpojyNDNp6YxqHXUwwP1paFk7M/aEvDsONWsFSyt45fcw==",
+      "upstreamShasum": "bcf7b1f4039937b215955b0324e2f07498f3152d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.baracuda.thread-dispatcher": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.4.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PEOCU5sDxr0XALRHELILDpK/f1BVyH0sOQ1saQMuKhpojyNDNp6YxqHXUwwP1paFk7M/aEvDsONWsFSyt45fcw==",
+          "shasum": "bcf7b1f4039937b215955b0324e2f07498f3152d"
+        }
+      }
+    },
+    {
+      "version": "3.4.2",
+      "variantId": "registry-package.openupm.com-a89958403cce103a",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "0005c19e18e0d629bef421d5fc83a18c4f56ba9f",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.4.2.tgz",
+      "upstreamIntegrity": "sha512-o+QAwHWe+Qf246Xyvs/x5ZqcKEjLbHSzBIWF/zpQPnlqqg61jC7EBkBTz8MW1Kw1dmj3o4qyBfnbQZmlk+0dQQ==",
+      "upstreamShasum": "0e2c36094ac74718ed9c3424b2d6d9df22f5625e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.baracuda.thread-dispatcher": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.4.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-o+QAwHWe+Qf246Xyvs/x5ZqcKEjLbHSzBIWF/zpQPnlqqg61jC7EBkBTz8MW1Kw1dmj3o4qyBfnbQZmlk+0dQQ==",
+          "shasum": "0e2c36094ac74718ed9c3424b2d6d9df22f5625e"
+        }
+      }
+    },
+    {
+      "version": "3.5.0",
+      "variantId": "registry-package.openupm.com-a1f5eea1de9f2384",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "f5f4ffdccf1f125995443b927e77de0138b8596f",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.5.0.tgz",
+      "upstreamIntegrity": "sha512-tEdKIr4eoFAkk41x4ARwd72V9i1M4GbTWz+jCxQltqunpZ/GsTvcS7oRWGOg9bst410ltN8GoE0/TOp5q1WQyg==",
+      "upstreamShasum": "4c6419cde00702836d88b378628690dca227a2ca",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.5.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tEdKIr4eoFAkk41x4ARwd72V9i1M4GbTWz+jCxQltqunpZ/GsTvcS7oRWGOg9bst410ltN8GoE0/TOp5q1WQyg==",
+          "shasum": "4c6419cde00702836d88b378628690dca227a2ca"
+        }
+      }
+    },
+    {
+      "version": "3.5.1",
+      "variantId": "registry-package.openupm.com-f5c15b9c3ab34b68",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "453337b3aefe944c635e46deb93e340cb63dcdcf",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.5.1.tgz",
+      "upstreamIntegrity": "sha512-t1gMHK3ccw64wYsm/p9d6efO1Fz6uUOTNvfMMxgr9FBv7vz+4C7qTAv9NNax2M7AbpfSIg3ARn5ElvA6rFh4Rw==",
+      "upstreamShasum": "126f105d564d57f777f5e1cee21372a811971b14",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.5.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-t1gMHK3ccw64wYsm/p9d6efO1Fz6uUOTNvfMMxgr9FBv7vz+4C7qTAv9NNax2M7AbpfSIg3ARn5ElvA6rFh4Rw==",
+          "shasum": "126f105d564d57f777f5e1cee21372a811971b14"
+        }
+      }
+    },
+    {
+      "version": "3.5.2",
+      "variantId": "registry-package.openupm.com-c026f139f6f0781f",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "dd049857fd415bb2d3d5cc2b57bb03384d7edced",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.5.2.tgz",
+      "upstreamIntegrity": "sha512-dkQPh+iobEXeWOBLnSf83Zfw2IZSdwgnQQB1GUtyAoERMq5Oc8h2ihspLvx2o7Fxm87jLGDeW2UM5eQSzW0nkQ==",
+      "upstreamShasum": "94e702b044d650c3fee8526825d7d3b03c5ec9c2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.5.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dkQPh+iobEXeWOBLnSf83Zfw2IZSdwgnQQB1GUtyAoERMq5Oc8h2ihspLvx2o7Fxm87jLGDeW2UM5eQSzW0nkQ==",
+          "shasum": "94e702b044d650c3fee8526825d7d3b03c5ec9c2"
+        }
+      }
+    },
+    {
+      "version": "3.5.3",
+      "variantId": "registry-package.openupm.com-0b9fa32283558ab3",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "4c3ec413ded234412c2ce70c01c24069a5e3a113",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.5.3.tgz",
+      "upstreamIntegrity": "sha512-XZqjpXfKJrWTL8MmRoS8f7EedY+8yXZgo4MOL2WGYsjDHxb50CNIQkWJCi0eAPfkWD4PD+CKSNjzKe6MQTGH7w==",
+      "upstreamShasum": "794e9f160641bdcd6888563263124e7853ab14bb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.5.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XZqjpXfKJrWTL8MmRoS8f7EedY+8yXZgo4MOL2WGYsjDHxb50CNIQkWJCi0eAPfkWD4PD+CKSNjzKe6MQTGH7w==",
+          "shasum": "794e9f160641bdcd6888563263124e7853ab14bb"
+        }
+      }
+    },
+    {
+      "version": "3.5.4",
+      "variantId": "registry-package.openupm.com-24624df3f278ff24",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "e2d9a597849726d2291e0d38335c9dbdd53e4c2c",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.5.4.tgz",
+      "upstreamIntegrity": "sha512-LOq5e8y8JB2Asv06BWWEo1NLcomVesdQ/GtTcBhtZGxkTWB10dsKnZ67agx0mhatTPbrZr+1aJuLzyyvyM+TLA==",
+      "upstreamShasum": "ff263dd2a846c459417616660df1fc0f0ffacd73",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.5.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LOq5e8y8JB2Asv06BWWEo1NLcomVesdQ/GtTcBhtZGxkTWB10dsKnZ67agx0mhatTPbrZr+1aJuLzyyvyM+TLA==",
+          "shasum": "ff263dd2a846c459417616660df1fc0f0ffacd73"
+        }
+      }
+    },
+    {
+      "version": "3.6.0",
+      "variantId": "registry-package.openupm.com-0061a6b5951d98ca",
+      "sourceUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring",
+      "sourceRef": "6d24d331f37549b074775899bb2eaa498e12c334",
+      "downloadUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/-/com.baracuda.runtime-monitoring-3.6.0.tgz",
+      "upstreamIntegrity": "sha512-+kruus9+TBnhMgLLoBZhBu0BUL7GQHXuOELn7sk1LgKveGX/Fk4LI6gSWrx5t8GC7IagDuYN1zyz554TfgXmUg==",
+      "upstreamShasum": "1a06f1e68f666f8ab41a99f410077f16933c5027",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.baracuda.runtime-monitoring/3.6.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+kruus9+TBnhMgLLoBZhBu0BUL7GQHXuOELn7sk1LgKveGX/Fk4LI6gSWrx5t8GC7IagDuYN1zyz554TfgXmUg==",
+          "shasum": "1a06f1e68f666f8ab41a99f410077f16933c5027"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "3.6.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.baracuda.runtime-monitoring.yml",
+  "definitionBlobSha": "0873cba9b5fa0da0af90541bc275a21e90a9d6f1",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "3.6.0",
+    "3.5.0",
+    "3.5.4"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 20,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,1818 @@
+{
+  "schemaVersion": "1.0",
+  "id": "org.nuget.microsoft.entityframeworkcore.sqlite.core",
+  "displayName": "org.nuget.microsoft.entityframeworkcore.sqlite.core",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core",
+      "fetchedAt": "2026-10-17T17:45:32.990938Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "3.1.0",
+      "variantId": "registry-package.openupm.com-cbdfb144928394da",
+      "sourceUrl": "https://github.com/aspnet/EntityFrameworkCore",
+      "sourceRef": "82c6ea483d3a17393dad5986df9a8eef89ddcd07",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "568714b1f80fe7ec220efadeb965509d71125f91",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.entityframeworkcore.relational": "3.1.0",
+        "org.nuget.microsoft.data.sqlite.core": "3.1.0",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.0",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "568714b1f80fe7ec220efadeb965509d71125f91"
+        }
+      }
+    },
+    {
+      "version": "3.1.1",
+      "variantId": "registry-package.openupm.com-88e2630c17e78b25",
+      "sourceUrl": "https://github.com/aspnet/EntityFrameworkCore",
+      "sourceRef": "fde8a73d63ea11e1f2bdc690cf1b16ba0a449649",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9be077ed1678dbec9b8f4d2adb050b0d325b24f3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.1",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.1",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "9be077ed1678dbec9b8f4d2adb050b0d325b24f3"
+        }
+      }
+    },
+    {
+      "version": "3.1.2",
+      "variantId": "registry-package.openupm.com-3be467630d0d6d4c",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "7ae89d6adb7433b6ae9c37091e57a1226092ef46",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1b70642fcc15d615102eb160e98effbd36424a0e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.2",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.2",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "1b70642fcc15d615102eb160e98effbd36424a0e"
+        }
+      }
+    },
+    {
+      "version": "3.1.3",
+      "variantId": "registry-package.openupm.com-3eecb2282e756b4c",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "6f4f078e8f92ee8e2ca497fa4b83d4ecebdd643b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "47ffabe6fa76b4f1fda7dee766140994f816be5d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.3",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.3",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "47ffabe6fa76b4f1fda7dee766140994f816be5d"
+        }
+      }
+    },
+    {
+      "version": "3.1.4",
+      "variantId": "registry-package.openupm.com-e31d3b70f6e94fa4",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "87b24bd1cdd8eaa0851dc0c525c8f12926321c3b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "27cad8e9f687057b8893286501b28c7b07d06ee7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.4",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.4",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "27cad8e9f687057b8893286501b28c7b07d06ee7"
+        }
+      }
+    },
+    {
+      "version": "3.1.5",
+      "variantId": "registry-package.openupm.com-c63f5691a28f681d",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "5f01ecc8e61350a2f6a5381c5028ba3063be286f",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.5.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "312f0cb001e712da941c7989a660b522b7149464",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.5",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.5",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "312f0cb001e712da941c7989a660b522b7149464"
+        }
+      }
+    },
+    {
+      "version": "3.1.6",
+      "variantId": "registry-package.openupm.com-8edfc58882532e41",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "509fe041d6d740af8122cae870bf58f2c33c38f3",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "25c62b2ff29e1957e61eb27d03e578b33009881c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.6",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.6",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "25c62b2ff29e1957e61eb27d03e578b33009881c"
+        }
+      }
+    },
+    {
+      "version": "3.1.7",
+      "variantId": "registry-package.openupm.com-cce5bbeaf1606082",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "cad165e731fc0bcc9ab725c718177ebaf0820705",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.7.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0f2ca9584d73cee1c3112038669a562eb57ae603",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.7",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.3",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.7",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "0f2ca9584d73cee1c3112038669a562eb57ae603"
+        }
+      }
+    },
+    {
+      "version": "3.1.8",
+      "variantId": "registry-package.openupm.com-5a13c08bd9833388",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "68941673e27be80b95fe1b8645da3f1f927e2d6d",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.8.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7d477cf1b6e5d6ff1545139956031cfa0ff606bd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.8",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.8",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "7d477cf1b6e5d6ff1545139956031cfa0ff606bd"
+        }
+      }
+    },
+    {
+      "version": "3.1.9",
+      "variantId": "registry-package.openupm.com-6f18dc18e29826cb",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "52952c845de467fb8e17609e006b100c37ec5d24",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.9.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a2761bb6368c5935228c3d76cd720add9fb96623",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.9",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.9",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "a2761bb6368c5935228c3d76cd720add9fb96623"
+        }
+      }
+    },
+    {
+      "version": "3.1.10",
+      "variantId": "registry-package.openupm.com-ac43903aa344a67d",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "5f899e050864d61da2f97e01a792992f090b3a42",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.10.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "616a88b33508fb11f9f49062fd0d74f704905aeb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.10",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.10",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "616a88b33508fb11f9f49062fd0d74f704905aeb"
+        }
+      }
+    },
+    {
+      "version": "3.1.11",
+      "variantId": "registry-package.openupm.com-9fcce40430866123",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "b64867f633c6b4688a97750724728ec914e26d3e",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.11.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "413fba6fea365c386c9fa4b5ff63bf93092921d5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.11",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.11",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "413fba6fea365c386c9fa4b5ff63bf93092921d5"
+        }
+      }
+    },
+    {
+      "version": "3.1.12",
+      "variantId": "registry-package.openupm.com-5f06876842fb07a8",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "d078590d98ae5658ff49fbcb3815bf4483c6a66c",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.12.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "42632ebd51bde7c0d94fb2d81836405005988478",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.12",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.12",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "42632ebd51bde7c0d94fb2d81836405005988478"
+        }
+      }
+    },
+    {
+      "version": "3.1.13",
+      "variantId": "registry-package.openupm.com-146bcd4d46eea758",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "5b7fc584fa25b1132a5459c9d65bb678dbc159a1",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.13.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "719d0df8ecf3574fb14fab280a09212348459f49",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.13",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.13",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "719d0df8ecf3574fb14fab280a09212348459f49"
+        }
+      }
+    },
+    {
+      "version": "3.1.14",
+      "variantId": "registry-package.openupm.com-992ac6659dcbef67",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "986705d060bc4f0dee3c07dda068d09ade582932",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.14.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "eaed62cb0ca53fb7700e63e2e8a52c4523292e5f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.14",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.14",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "eaed62cb0ca53fb7700e63e2e8a52c4523292e5f"
+        }
+      }
+    },
+    {
+      "version": "3.1.15",
+      "variantId": "registry-package.openupm.com-2a30e5a6931675e7",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "f27020308547a24d2b78fad34307d1a4d502f355",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.15.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "94992fdcb9faedbbd0f1210212dea1996d3bc754",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.15",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.15",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "94992fdcb9faedbbd0f1210212dea1996d3bc754"
+        }
+      }
+    },
+    {
+      "version": "3.1.16",
+      "variantId": "registry-package.openupm.com-049c0d1012c88f6c",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "d3e6b71766904da48834074a265721cd07799803",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.16.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "559e8f5e6ae137cb1ce09b9fe72b52cb21d1acf7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.16",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.16",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "559e8f5e6ae137cb1ce09b9fe72b52cb21d1acf7"
+        }
+      }
+    },
+    {
+      "version": "3.1.17",
+      "variantId": "registry-package.openupm.com-7c703fc27e476033",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "f81aa66b2255a8c31af13dfb52367d875ada89ea",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.17.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9c160c344cec5e16b772c4249223bbfd97c50c24",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.17",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.17",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "9c160c344cec5e16b772c4249223bbfd97c50c24"
+        }
+      }
+    },
+    {
+      "version": "3.1.18",
+      "variantId": "registry-package.openupm.com-86ed7501df65fde1",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "36125f96cb9c0bf53a9c2cf80a4d06a0bd288aa2",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.18.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7855adc2ba31e080b8401efb311c895537766f4c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.18",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.18",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "7855adc2ba31e080b8401efb311c895537766f4c"
+        }
+      }
+    },
+    {
+      "version": "3.1.19",
+      "variantId": "registry-package.openupm.com-bc200ef339dd13b4",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "c1b838037dc69424cf5ff97951c1e916fe5aaefa",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.19.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7de430493e72077814d763938098fe2e8c6a4fdb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.19",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.19",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "7de430493e72077814d763938098fe2e8c6a4fdb"
+        }
+      }
+    },
+    {
+      "version": "3.1.20",
+      "variantId": "registry-package.openupm.com-97df8b62419f9bf9",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "8f531d42d3b96c7762ec3b18388466cfd8f8f3fc",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.20.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e940900b70d9ced7450e511e53c632a1e320754e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.20",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.20",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "e940900b70d9ced7450e511e53c632a1e320754e"
+        }
+      }
+    },
+    {
+      "version": "3.1.21",
+      "variantId": "registry-package.openupm.com-20c7a97f059265f1",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "c3baaac7ee60c016333566a5097789fe183afe69",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.21.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "908c57258f336051daf0cd167a86953bcd583116",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.21",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.21",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "908c57258f336051daf0cd167a86953bcd583116"
+        }
+      }
+    },
+    {
+      "version": "3.1.22",
+      "variantId": "registry-package.openupm.com-326d945ef65d20e9",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "5407d867c7efbf114fbcfa4fdc32397a22e8bc96",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.22.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a59990515f7b5c5fe89bb1c7fbcd05be67fa0f48",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.22",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.22",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "a59990515f7b5c5fe89bb1c7fbcd05be67fa0f48"
+        }
+      }
+    },
+    {
+      "version": "3.1.23",
+      "variantId": "registry-package.openupm.com-a212059cd2de9ddb",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "213c56eac83b3b31d9441fd2a19eebfddc0c4a86",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.23.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1dc77dd74cc2ced888571e04b9a0bf7791bd32db",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.23",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.23",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "1dc77dd74cc2ced888571e04b9a0bf7791bd32db"
+        }
+      }
+    },
+    {
+      "version": "3.1.24",
+      "variantId": "registry-package.openupm.com-29d854f37818c05d",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "d4a777b7cda6a4475f5b4c6616666ae92f0fa264",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.24.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "70376b94ad42390271ff96920875021bbdd033f9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.24",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.24",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "70376b94ad42390271ff96920875021bbdd033f9"
+        }
+      }
+    },
+    {
+      "version": "3.1.25",
+      "variantId": "registry-package.openupm.com-5c82799117ddb9a8",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "d3511a1a008b6d99e25cad6ce53cf072014685a8",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.25.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0c017753834d34bdead4837dad206c6ea375ac02",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.25",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.25"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.25",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "0c017753834d34bdead4837dad206c6ea375ac02"
+        }
+      }
+    },
+    {
+      "version": "3.1.26",
+      "variantId": "registry-package.openupm.com-f7207d0fa9303676",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "206e31051765f411858db034ce5f8e771446dafe",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.26.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "b83c058e8ae14a522b47ca00f201b3559e98b17d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.26",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.25"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.26",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "b83c058e8ae14a522b47ca00f201b3559e98b17d"
+        }
+      }
+    },
+    {
+      "version": "3.1.27",
+      "variantId": "registry-package.openupm.com-2ee8a3c56caac827",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "04a72514ccae7fb6528b5c715995892be20d5d5c",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.27.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "567b7242c0728012efe5d2e025f15a94d2dff3b3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.27",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.25"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.27",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "567b7242c0728012efe5d2e025f15a94d2dff3b3"
+        }
+      }
+    },
+    {
+      "version": "3.1.28",
+      "variantId": "registry-package.openupm.com-b9ef79d3412004ac",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "99099ddf5e5562c883a0b9bb7bd1239080307e2f",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.28.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4cadff0fb56ab9de38fef9b60e780b9463084fa5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.28",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.25"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.28",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "4cadff0fb56ab9de38fef9b60e780b9463084fa5"
+        }
+      }
+    },
+    {
+      "version": "3.1.29",
+      "variantId": "registry-package.openupm.com-9f002a9ee065e099",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "6e3b6bb213c8360c3a1e26f91c66234710535962",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.29.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "b5693f43971b1e5d7a84ced544abc207397f2230",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.29",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.25"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.29",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "b5693f43971b1e5d7a84ced544abc207397f2230"
+        }
+      }
+    },
+    {
+      "version": "3.1.30",
+      "variantId": "registry-package.openupm.com-8b1ee815bb342751",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "a29a7e57da5f027c6ca28913e555f4104d8b8752",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.30.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "bf5f27f185992fcbec94573d8a57bcb5279ccee4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.30",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.25"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.30",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "bf5f27f185992fcbec94573d8a57bcb5279ccee4"
+        }
+      }
+    },
+    {
+      "version": "3.1.31",
+      "variantId": "registry-package.openupm.com-91b5a268b0fe7bb8",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "64e7452a8d5e34dd3a82381f03d2ca47c16a2e82",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.31.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7dce92a4af2ece690951b16b4b169e3b553d741f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.31",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.25"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.31",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "7dce92a4af2ece690951b16b4b169e3b553d741f"
+        }
+      }
+    },
+    {
+      "version": "3.1.32",
+      "variantId": "registry-package.openupm.com-ac488cfdcf761037",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "899d9d9622b9909d153341269427040818d461c6",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-3.1.32.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a1079235319b07bc86ea659b776e04f94f26940d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "3.1.32",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "3.1.25"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/3.1.32",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "a1079235319b07bc86ea659b776e04f94f26940d"
+        }
+      }
+    },
+    {
+      "version": "5.0.0",
+      "variantId": "registry-package.openupm.com-52e8a25c45d67acb",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "33570d0337f76208fa3a814f7f6d3a506bd9c0be",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4ef6346cc4941f272611c4810074267445a8d8f8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.0",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "4ef6346cc4941f272611c4810074267445a8d8f8"
+        }
+      }
+    },
+    {
+      "version": "5.0.1",
+      "variantId": "registry-package.openupm.com-639b64ed2fe863b9",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "494e218127bfb7afee3c9b10a30bcd32d6cd80db",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "de27838a87b51d34f6388679fdc6582a99020b73",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.1",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "de27838a87b51d34f6388679fdc6582a99020b73"
+        }
+      }
+    },
+    {
+      "version": "5.0.2",
+      "variantId": "registry-package.openupm.com-e848218c38aecef2",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "1ee6b629b3437c0d45bfe3aa5703abdcc449231f",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9a316b3375667d72a20ace605be6e1993846ead9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.2",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "9a316b3375667d72a20ace605be6e1993846ead9"
+        }
+      }
+    },
+    {
+      "version": "5.0.3",
+      "variantId": "registry-package.openupm.com-ebdcd17ca1a2a0a8",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "efc2924e6e36db17611c7da480d5bc97a4514cb8",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d7c75c009d8f1e919ff701f6a4117267df88d48f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.3",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "d7c75c009d8f1e919ff701f6a4117267df88d48f"
+        }
+      }
+    },
+    {
+      "version": "5.0.4",
+      "variantId": "registry-package.openupm.com-102733b74b82f0af",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "cfd206aa4bc7c878dbbd91959f1c9edada70da93",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e3ef7d8a87ae7ea2b9f958b381946c2d17c58986",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.4",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "e3ef7d8a87ae7ea2b9f958b381946c2d17c58986"
+        }
+      }
+    },
+    {
+      "version": "5.0.5",
+      "variantId": "registry-package.openupm.com-abff06dcbd6e4704",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "54203510db732a088a3e7e58d49b98ada7c14227",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.5.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d47fccefcc9d80beea6643588a1ffc601935dec6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.5",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "d47fccefcc9d80beea6643588a1ffc601935dec6"
+        }
+      }
+    },
+    {
+      "version": "5.0.6",
+      "variantId": "registry-package.openupm.com-d8cb27e43f0a34cf",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "42e81439158d5884dab24326c84ed95cd4baaa21",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ed20a5a2f93291a049c7119fb1d94fabeeeaa4ee",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.6",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.6",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "ed20a5a2f93291a049c7119fb1d94fabeeeaa4ee"
+        }
+      }
+    },
+    {
+      "version": "5.0.7",
+      "variantId": "registry-package.openupm.com-4c3b8e1c1056e420",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "f8a6198dad41e8ed584da6ff711837f3288f8a8d",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.7.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "3871bdc076a41c1b8d62142c733dcc51cad64e96",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.7",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.7",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "3871bdc076a41c1b8d62142c733dcc51cad64e96"
+        }
+      }
+    },
+    {
+      "version": "5.0.8",
+      "variantId": "registry-package.openupm.com-062713d575018005",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "1af30fd9b4752ab36eff63d9bc75888d41c85657",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.8.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e563abafaec6db2288c9da80d4f54b2906796901",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.8",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.8",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "e563abafaec6db2288c9da80d4f54b2906796901"
+        }
+      }
+    },
+    {
+      "version": "5.0.9",
+      "variantId": "registry-package.openupm.com-70ab6da1b57ae88e",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "780af7091b186e1e0af288ebda44404accd4ea63",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.9.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ce79465524e3372fc0e5f3473c785403aba4fd93",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.9",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.9",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "ce79465524e3372fc0e5f3473c785403aba4fd93"
+        }
+      }
+    },
+    {
+      "version": "5.0.10",
+      "variantId": "registry-package.openupm.com-dc9a74ac230c8138",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "4953039abb533bccee15da9ce4a1b3fee926325b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.10.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4d69a722f1cb29e81484f60ed0c712d52a01b54b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.10",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.10",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "4d69a722f1cb29e81484f60ed0c712d52a01b54b"
+        }
+      }
+    },
+    {
+      "version": "5.0.11",
+      "variantId": "registry-package.openupm.com-8c93e6283dded38f",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "1103fc01ad2b1d1d3e4312cc406c836e1745fb6f",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.11.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "541d324a667839f4ebc9790fc154df6043b94eac",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.11",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.11",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "541d324a667839f4ebc9790fc154df6043b94eac"
+        }
+      }
+    },
+    {
+      "version": "5.0.12",
+      "variantId": "registry-package.openupm.com-b4455be62e2e47aa",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "8d3ca1a23a881f6ff435c797a43b1d893328eee9",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.12.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c489b18cee9024cd8cfb163e544916b425fb1fa2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.12",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.12",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "c489b18cee9024cd8cfb163e544916b425fb1fa2"
+        }
+      }
+    },
+    {
+      "version": "5.0.13",
+      "variantId": "registry-package.openupm.com-8ae16edeca01d177",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "f9c7b6583ab20e17526fc17a347ea7e5b633327f",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.13.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8d6972feb1a871a7a4e41a2de001a7799b755974",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.13",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.13",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "8d6972feb1a871a7a4e41a2de001a7799b755974"
+        }
+      }
+    },
+    {
+      "version": "5.0.14",
+      "variantId": "registry-package.openupm.com-92d4278ed7722df3",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "55fc28c345cccb10c97e566942ba6893153f335c",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.14.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f4f54dda074a04d23dc60fb408cfdcdaaaaa2a08",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.14",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.14",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "f4f54dda074a04d23dc60fb408cfdcdaaaaa2a08"
+        }
+      }
+    },
+    {
+      "version": "5.0.15",
+      "variantId": "registry-package.openupm.com-e091deaadb7f0060",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "9e4fa849e818a000ccf24a8f872fef0923b2ed25",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.15.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "68ba2cbaa3c103533d9fa615c8af99e55fdedf54",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.15",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.15",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "68ba2cbaa3c103533d9fa615c8af99e55fdedf54"
+        }
+      }
+    },
+    {
+      "version": "5.0.16",
+      "variantId": "registry-package.openupm.com-c9204df0d88ff359",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "862a10c8b1790a0540a21c8a3feae38a6a9cc4e8",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.16.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c3950ca3eb5ccb2244c00a2636224d8051797333",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.16",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.16",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "c3950ca3eb5ccb2244c00a2636224d8051797333"
+        }
+      }
+    },
+    {
+      "version": "5.0.17",
+      "variantId": "registry-package.openupm.com-3a7fa46ba6f3f6b7",
+      "sourceUrl": "https://github.com/dotnet/efcore",
+      "sourceRef": "2c788d40d25ac4bf8fb395ce3a5a40bb0602cd63",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/-/org.nuget.microsoft.entityframeworkcore.sqlite.core-5.0.17.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "53ef613b7f0d9df72a2d8db9ba9526d2a53b2f6f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.data.sqlite.core": "5.0.17",
+        "org.nuget.microsoft.dotnet.platformabstractions": "3.1.6",
+        "org.nuget.microsoft.extensions.dependencymodel": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.entityframeworkcore.sqlite.core/5.0.17",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "53ef613b7f0d9df72a2d8db9ba9526d2a53b2f6f"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "5.0.17"
+  },
+  "targetVersions": [
+    "5.0.17"
+  ],
+  "selectedVersions": [
+    "5.0.17",
+    "5.0.16",
+    "3.1.32"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 51,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

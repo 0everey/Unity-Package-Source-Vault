@@ -1,0 +1,917 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.realitytoolkit.locomotion",
+  "displayName": "com.realitytoolkit.locomotion",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion",
+      "fetchedAt": "2026-10-17T17:41:21.155587Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0-pre.2",
+      "variantId": "registry-package.openupm.com-4530b969cdd362a9",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "dde18db2efa855dfe38ff7284e27509088684af3",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.0-pre.2.tgz",
+      "upstreamIntegrity": "sha512-lrjfY0RUFiE0kdBn221aFOPVz0KdI2Re2/lnUud0jdHtL0R3RTXOfvgLbYKTN4i7RB5zKHiH9ureSq/jQDdIuA==",
+      "upstreamShasum": "8ad03483429655024a28f0205cf05988e98ddac8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.0-pre.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lrjfY0RUFiE0kdBn221aFOPVz0KdI2Re2/lnUud0jdHtL0R3RTXOfvgLbYKTN4i7RB5zKHiH9ureSq/jQDdIuA==",
+          "shasum": "8ad03483429655024a28f0205cf05988e98ddac8"
+        }
+      }
+    },
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-04bf9299e98147b3",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "6a7db9f68e761c587c96a76b2d7d2e6625519ff9",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-QcHX6FsztyJB2TaLd4moy01gumw3jfpvKmhg6G1r+tFQj0W5aaCnH5qsJdUuh2r3aPCh1/BAhmK4mAHPPlBMJw==",
+      "upstreamShasum": "bbf2b054e2b583e61614d4e7e20b8dedd6f3c8fb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QcHX6FsztyJB2TaLd4moy01gumw3jfpvKmhg6G1r+tFQj0W5aaCnH5qsJdUuh2r3aPCh1/BAhmK4mAHPPlBMJw==",
+          "shasum": "bbf2b054e2b583e61614d4e7e20b8dedd6f3c8fb"
+        }
+      }
+    },
+    {
+      "version": "1.0.1-pre.1",
+      "variantId": "registry-package.openupm.com-63da576976bd59ab",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "1e10244fffa87d707cca4ceb06fbb449ff030e65",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.1-pre.1.tgz",
+      "upstreamIntegrity": "sha512-lzZSWURonwSYAc91Dw4HIwWHGcprG+QFZEGliBleA0U0PFVOl2RjOozYlMMxV5s/U7leBFuAkHnlxid0femlLA==",
+      "upstreamShasum": "ae377baa08d6ea5e0a850a4669c7efa24b904c5d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.1-pre.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lzZSWURonwSYAc91Dw4HIwWHGcprG+QFZEGliBleA0U0PFVOl2RjOozYlMMxV5s/U7leBFuAkHnlxid0femlLA==",
+          "shasum": "ae377baa08d6ea5e0a850a4669c7efa24b904c5d"
+        }
+      }
+    },
+    {
+      "version": "1.0.1-pre.2",
+      "variantId": "registry-package.openupm.com-56418d89b225d846",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "308c611b322d0b8e46e7f0f45efef44a32027374",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.1-pre.2.tgz",
+      "upstreamIntegrity": "sha512-2+AKy0e+S5D6A/TPG0W4i6MIzN3Xvu0VrhcW3ncbs+LfBckCJJrluj4s+shlF9XiSi4EQY1cO0yUlqRIdgvtPg==",
+      "upstreamShasum": "619b8d547ceed0201c9b8df276bd42abf0b4693e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.1-pre.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2+AKy0e+S5D6A/TPG0W4i6MIzN3Xvu0VrhcW3ncbs+LfBckCJJrluj4s+shlF9XiSi4EQY1cO0yUlqRIdgvtPg==",
+          "shasum": "619b8d547ceed0201c9b8df276bd42abf0b4693e"
+        }
+      }
+    },
+    {
+      "version": "1.0.1-pre.3",
+      "variantId": "registry-package.openupm.com-efcb37a7f54c7117",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "e389ef63f63b8db8efae5a5058b9d4f77cbd7cf4",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.1-pre.3.tgz",
+      "upstreamIntegrity": "sha512-IO2Nr98Si5I98ZTvhHrOtnWh5RTNjoS+VTO2iWOyVEaq3cRuHCfLI10sWZaMUFJjZN8q++RN8rIjmUWX4sVM9A==",
+      "upstreamShasum": "18fc6c915f6b1544c71a327084b6d328cd6f24e9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.18"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.1-pre.3",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IO2Nr98Si5I98ZTvhHrOtnWh5RTNjoS+VTO2iWOyVEaq3cRuHCfLI10sWZaMUFJjZN8q++RN8rIjmUWX4sVM9A==",
+          "shasum": "18fc6c915f6b1544c71a327084b6d328cd6f24e9"
+        }
+      }
+    },
+    {
+      "version": "1.0.1-pre.4",
+      "variantId": "registry-package.openupm.com-6c480563fd31f987",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "b5143dbe8d054bbc24a1d1de69938e59d45e9f33",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.1-pre.4.tgz",
+      "upstreamIntegrity": "sha512-AkKIc7KhixdIcE7vIY3xpjVFqqDcvYR+eSTFsyBQ1gPSDOHiVEI7FaSufnAAcVTqY/ND2N/ZN4ANKaHV8BSKAw==",
+      "upstreamShasum": "0417b679b2d06cf3d4a2e05a7d7ac2b9aa5c200b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.18"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.1-pre.4",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-AkKIc7KhixdIcE7vIY3xpjVFqqDcvYR+eSTFsyBQ1gPSDOHiVEI7FaSufnAAcVTqY/ND2N/ZN4ANKaHV8BSKAw==",
+          "shasum": "0417b679b2d06cf3d4a2e05a7d7ac2b9aa5c200b"
+        }
+      }
+    },
+    {
+      "version": "1.0.1-pre.5",
+      "variantId": "registry-package.openupm.com-5543dc935915d4a8",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "3b1ec132f0db0a4ab4f25a209c59bce165a65a56",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.1-pre.5.tgz",
+      "upstreamIntegrity": "sha512-einJvJflansBT2o+yH4Xea6jFszvHAjbMgwZGhsZ0isLzgxQe+jpoNihOUQaYPJCAnNOtqsRij+ewbk4MRxTbw==",
+      "upstreamShasum": "0bab9d8896bdcb06fb004c49b0092297025885d9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.27"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.1-pre.5",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-einJvJflansBT2o+yH4Xea6jFszvHAjbMgwZGhsZ0isLzgxQe+jpoNihOUQaYPJCAnNOtqsRij+ewbk4MRxTbw==",
+          "shasum": "0bab9d8896bdcb06fb004c49b0092297025885d9"
+        }
+      }
+    },
+    {
+      "version": "1.0.1-pre.6",
+      "variantId": "registry-package.openupm.com-d90fec96761a6ac6",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "1d3787b291302c631e151537f66cb55bd3f74140",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.1-pre.6.tgz",
+      "upstreamIntegrity": "sha512-09bnSoJVWkyjmjCZq8fhasq0fCF1+8vCS4TpRamyUMtaqn3MsvU8UPLbfBMaWGWgwFfgXKpHe/ztFTqf7NavXg==",
+      "upstreamShasum": "8a257e3ab429c2bb190bb39eb2a0f38cb2f3b3c8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.27"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.1-pre.6",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-09bnSoJVWkyjmjCZq8fhasq0fCF1+8vCS4TpRamyUMtaqn3MsvU8UPLbfBMaWGWgwFfgXKpHe/ztFTqf7NavXg==",
+          "shasum": "8a257e3ab429c2bb190bb39eb2a0f38cb2f3b3c8"
+        }
+      }
+    },
+    {
+      "version": "1.0.1-pre.7",
+      "variantId": "registry-package.openupm.com-9cac752373734c31",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "220cb65f59a7afb4388ce1773ff897776ee37777",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.1-pre.7.tgz",
+      "upstreamIntegrity": "sha512-OMcq/iebEaIwRMXr02pMizvfYGuAal3kFozaT3AF/+PuHCNHea6zDdHIeVh2uSWpu9Klcear7gT7zlfWB3HViw==",
+      "upstreamShasum": "a3405b49eef7b951616dae4aea8176a1d9953135",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.37"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.1-pre.7",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OMcq/iebEaIwRMXr02pMizvfYGuAal3kFozaT3AF/+PuHCNHea6zDdHIeVh2uSWpu9Klcear7gT7zlfWB3HViw==",
+          "shasum": "a3405b49eef7b951616dae4aea8176a1d9953135"
+        }
+      }
+    },
+    {
+      "version": "1.0.1-pre.8",
+      "variantId": "registry-package.openupm.com-aaeeb7d28c6175db",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "fae5d782b4f5135e78dc5623f70dec7669f49e40",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.1-pre.8.tgz",
+      "upstreamIntegrity": "sha512-eNU+3lVL4KQZl5LmDqv5ArrpcnhzH4F3KlxTM0m3W+30vvD0W67GK5/EQxxWiuzAZBBnH2UK51HkLoa7+cFMNA==",
+      "upstreamShasum": "c315a476c3268c1c8cc0fe4d116c18b336c11cca",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.44"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.1-pre.8",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eNU+3lVL4KQZl5LmDqv5ArrpcnhzH4F3KlxTM0m3W+30vvD0W67GK5/EQxxWiuzAZBBnH2UK51HkLoa7+cFMNA==",
+          "shasum": "c315a476c3268c1c8cc0fe4d116c18b336c11cca"
+        }
+      }
+    },
+    {
+      "version": "1.0.1-pre.9",
+      "variantId": "registry-package.openupm.com-8adc6f8fe8aeb38a",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "268782b02b39ec9dee0236bb711e821c7825e29b",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.1-pre.9.tgz",
+      "upstreamIntegrity": "sha512-km/Y4C7GsQgR3ZRu5AY8HOIotOM6VClxWudd7Y1JW5DuiDGacb5IFSK45aJsGytcYH43v5aw9ItsXqbyCSY2bg==",
+      "upstreamShasum": "7f96207428b16a48039a057a13ab37223630f27e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.44"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.1-pre.9",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-km/Y4C7GsQgR3ZRu5AY8HOIotOM6VClxWudd7Y1JW5DuiDGacb5IFSK45aJsGytcYH43v5aw9ItsXqbyCSY2bg==",
+          "shasum": "7f96207428b16a48039a057a13ab37223630f27e"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-8c3743b229112169",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "4a9af30076e242202b263ebb54f76011305261cd",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-nnXHB5QmGFYWx5Ext1ORozFetkCyxfEfsQPUN+RE+Bxum0YvKL5+ohsgxBElAYZksdjsZ0Gmoxtq4ieId05TXw==",
+      "upstreamShasum": "61ddd44a1d0356fec9728af4e4a5a9d9e0b85331",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.44"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nnXHB5QmGFYWx5Ext1ORozFetkCyxfEfsQPUN+RE+Bxum0YvKL5+ohsgxBElAYZksdjsZ0Gmoxtq4ieId05TXw==",
+          "shasum": "61ddd44a1d0356fec9728af4e4a5a9d9e0b85331"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.1",
+      "variantId": "registry-package.openupm.com-77491b206d5839c9",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "b80312896bf415f634dc39d7150dc85b15b1680b",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.2-pre.1.tgz",
+      "upstreamIntegrity": "sha512-M2MciYsz8u5gYuskIKEaaNbgTJwROHq9v4QpR1MS4w+9LabclBiA65PUvAn5q6akzbEvFOB3SlizD6mSJE5inQ==",
+      "upstreamShasum": "dfd07647070d887b8e10cf5d423972f633bc7b8a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.46"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.2-pre.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-M2MciYsz8u5gYuskIKEaaNbgTJwROHq9v4QpR1MS4w+9LabclBiA65PUvAn5q6akzbEvFOB3SlizD6mSJE5inQ==",
+          "shasum": "dfd07647070d887b8e10cf5d423972f633bc7b8a"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.2",
+      "variantId": "registry-package.openupm.com-ec43a720a90cebf5",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "7b34a727fb57e1ec6b7ab5cce07d920f56a6553f",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.2-pre.2.tgz",
+      "upstreamIntegrity": "sha512-mmOca9yv5xf9ZMOcio1t/0NVMUjnYoKaWttdAGegSog0NcX48F/GokD6HDbSfh6yfuZFMkIB4js4UtpwrRDuww==",
+      "upstreamShasum": "f8f2a2545d8de5a7ad6c4416fee4da573a17a87b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.46"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.2-pre.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mmOca9yv5xf9ZMOcio1t/0NVMUjnYoKaWttdAGegSog0NcX48F/GokD6HDbSfh6yfuZFMkIB4js4UtpwrRDuww==",
+          "shasum": "f8f2a2545d8de5a7ad6c4416fee4da573a17a87b"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.3",
+      "variantId": "registry-package.openupm.com-bf6663780be2a695",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "ad21d7e5c7e91695ad3f106d69a1386148d82851",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.2-pre.3.tgz",
+      "upstreamIntegrity": "sha512-SNdUg8KGr1u4K/+9nMjpd7XtK7QbBiepGeEM/eyy5IlVGHtn9a6tzYD2qiWvi7YEGthv19GRAkS0lCLM5neXCQ==",
+      "upstreamShasum": "361408fa9c46c5f9db110b14dab66e6c5af07307",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.48"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.2-pre.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SNdUg8KGr1u4K/+9nMjpd7XtK7QbBiepGeEM/eyy5IlVGHtn9a6tzYD2qiWvi7YEGthv19GRAkS0lCLM5neXCQ==",
+          "shasum": "361408fa9c46c5f9db110b14dab66e6c5af07307"
+        }
+      }
+    },
+    {
+      "version": "1.0.2",
+      "variantId": "registry-package.openupm.com-ec806592bcb052cc",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "51834e291893f6df9b0823cae4d9995f4d31b1c4",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.2.tgz",
+      "upstreamIntegrity": "sha512-HnqgBGshfutu3oyT4O7FXpp/VJ8wMOH0+udAK6ijLpnPuv42kZEsrqMwrF6KWDl1VKlkeyxVC02OmRq5BzGI+w==",
+      "upstreamShasum": "4cf07765c294a41f32b1e26acd1bc88b8d5a393b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.48"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HnqgBGshfutu3oyT4O7FXpp/VJ8wMOH0+udAK6ijLpnPuv42kZEsrqMwrF6KWDl1VKlkeyxVC02OmRq5BzGI+w==",
+          "shasum": "4cf07765c294a41f32b1e26acd1bc88b8d5a393b"
+        }
+      }
+    },
+    {
+      "version": "1.0.3-pre.1",
+      "variantId": "registry-package.openupm.com-11e00c00a4d52095",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "72b0cda5f1050b8d2841f213fd2bb3cff6e303e7",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.3-pre.1.tgz",
+      "upstreamIntegrity": "sha512-Cs1BWP4QCdh6jZ3o11hxrTSXTo8HOjIEOMqe1/XIS2QlZisEJCNtOmYEqQTZmWpKptDuvrUo7yPJZ20ft2bnFg==",
+      "upstreamShasum": "51d98335d9e0f643dc47bb8e57a0f2788e5b75a4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.48"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.3-pre.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Cs1BWP4QCdh6jZ3o11hxrTSXTo8HOjIEOMqe1/XIS2QlZisEJCNtOmYEqQTZmWpKptDuvrUo7yPJZ20ft2bnFg==",
+          "shasum": "51d98335d9e0f643dc47bb8e57a0f2788e5b75a4"
+        }
+      }
+    },
+    {
+      "version": "1.0.3-pre.2",
+      "variantId": "registry-package.openupm.com-7bab7ebcacf9006c",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "9e6d457d8c54946fa37760b254abee0a58cd3c27",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.3-pre.2.tgz",
+      "upstreamIntegrity": "sha512-+ISUrEEyExV96eje3QF5lMs+we4COaCqlenqPfeBDw4sGLDzTQagIUI++nZnnQk8ojIbQPNFlya9e8nQo48Vnw==",
+      "upstreamShasum": "e2688811abae058e543caa84a43bca87cc37fc42",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.48"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.3-pre.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+ISUrEEyExV96eje3QF5lMs+we4COaCqlenqPfeBDw4sGLDzTQagIUI++nZnnQk8ojIbQPNFlya9e8nQo48Vnw==",
+          "shasum": "e2688811abae058e543caa84a43bca87cc37fc42"
+        }
+      }
+    },
+    {
+      "version": "1.0.3",
+      "variantId": "registry-package.openupm.com-413cd669a160ae9a",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "dd3e709c9c35ed7b9518efa1889358d36b1dea10",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.3.tgz",
+      "upstreamIntegrity": "sha512-NrkHfz2UDtDS7pNAgZeohsg+NqTY5cih6oCCkjlpzV6kF875oG1zifREiP5NEdCnk2CgrJtPOZ9oTFR9uim0uQ==",
+      "upstreamShasum": "cd6f1ed95bd24c5ff9154d65452e754748afc2bb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.48"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NrkHfz2UDtDS7pNAgZeohsg+NqTY5cih6oCCkjlpzV6kF875oG1zifREiP5NEdCnk2CgrJtPOZ9oTFR9uim0uQ==",
+          "shasum": "cd6f1ed95bd24c5ff9154d65452e754748afc2bb"
+        }
+      }
+    },
+    {
+      "version": "1.0.4-pre.1",
+      "variantId": "registry-package.openupm.com-ced7409013763ac2",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "83b9d15f4579a32de971cdc8471439c717af8b73",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.4-pre.1.tgz",
+      "upstreamIntegrity": "sha512-hxq0MOCdpjWQsLmYEn0gKI1XLB65ovIq2cJP3cj56u/vJlPXkt55jE/oYj4Nyhp73dBVWsu6KujELT0vRjW1qw==",
+      "upstreamShasum": "1faf5437a4b710a52b0c5714dac22e9183fe778d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.50"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.4-pre.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hxq0MOCdpjWQsLmYEn0gKI1XLB65ovIq2cJP3cj56u/vJlPXkt55jE/oYj4Nyhp73dBVWsu6KujELT0vRjW1qw==",
+          "shasum": "1faf5437a4b710a52b0c5714dac22e9183fe778d"
+        }
+      }
+    },
+    {
+      "version": "1.0.4-pre.2",
+      "variantId": "registry-package.openupm.com-8334547535352704",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "e004d2bc64e1891807729c021f76ee116116b67a",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.4-pre.2.tgz",
+      "upstreamIntegrity": "sha512-iC4cPm+Haeu4q35Eg9/VyXGumtM6QTMWiwbAE2YX+u6ujyZ66eUL+C73FEalK1H0pbjYUxNgofxCx4ejH9xpzw==",
+      "upstreamShasum": "218134c4b7d19c2af279c931a6c14976dbb9bbed",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.50"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.4-pre.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iC4cPm+Haeu4q35Eg9/VyXGumtM6QTMWiwbAE2YX+u6ujyZ66eUL+C73FEalK1H0pbjYUxNgofxCx4ejH9xpzw==",
+          "shasum": "218134c4b7d19c2af279c931a6c14976dbb9bbed"
+        }
+      }
+    },
+    {
+      "version": "1.0.4",
+      "variantId": "registry-package.openupm.com-7516e4d4d5256666",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "684374a1e645884c6c4644f057b1264bede7ae0d",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.4.tgz",
+      "upstreamIntegrity": "sha512-1n2lLFTUgVaxIcMiT/WQkORV1dC4xJR+uKLbPP5uTFTl2sRSVqEeWnp3Gz/s1kEAECJxvieuaf7GgBF1xAeLow==",
+      "upstreamShasum": "067a3fd3708fa3c309b2f16cdcbed4ffb0e1a143",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.50"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1n2lLFTUgVaxIcMiT/WQkORV1dC4xJR+uKLbPP5uTFTl2sRSVqEeWnp3Gz/s1kEAECJxvieuaf7GgBF1xAeLow==",
+          "shasum": "067a3fd3708fa3c309b2f16cdcbed4ffb0e1a143"
+        }
+      }
+    },
+    {
+      "version": "1.0.5-pre.1",
+      "variantId": "registry-package.openupm.com-585501690e99127e",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "fea29d471b61b59cbc2c6bd9056c77ae28cffd7c",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.5-pre.1.tgz",
+      "upstreamIntegrity": "sha512-f/ZlpZL+uU0iSWQ1NFYi5W9BYolZZ38eLUtdIk5ICDeK474oIm8N2dnXf8SKYVi2ke78Xpl4nrW6G3+na4maaA==",
+      "upstreamShasum": "c530276386fe5fb3ccebb901d718c8a2dde7fd62",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.56"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.5-pre.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-f/ZlpZL+uU0iSWQ1NFYi5W9BYolZZ38eLUtdIk5ICDeK474oIm8N2dnXf8SKYVi2ke78Xpl4nrW6G3+na4maaA==",
+          "shasum": "c530276386fe5fb3ccebb901d718c8a2dde7fd62"
+        }
+      }
+    },
+    {
+      "version": "1.0.5-pre.2",
+      "variantId": "registry-package.openupm.com-c4cfd9b5d0a135ea",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "2895a75b85c2f4ada595e0e10788234ee2785c8d",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.5-pre.2.tgz",
+      "upstreamIntegrity": "sha512-qpy9uGcHtNhkJJV8CeIp2070korVKzgiaTwTIxDMPEl7ZzwYGGiKYEeUbtplcY5p0BUZOYY0JTkkt9BDHaAu2w==",
+      "upstreamShasum": "610af78b8813070edb58346177a27d5548785f00",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.58"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.5-pre.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qpy9uGcHtNhkJJV8CeIp2070korVKzgiaTwTIxDMPEl7ZzwYGGiKYEeUbtplcY5p0BUZOYY0JTkkt9BDHaAu2w==",
+          "shasum": "610af78b8813070edb58346177a27d5548785f00"
+        }
+      }
+    },
+    {
+      "version": "1.0.5-pre.3",
+      "variantId": "registry-package.openupm.com-14a0c982e4c3624c",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "92baf02ee87c8566b23e4c681efb7a4e37137348",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.5-pre.3.tgz",
+      "upstreamIntegrity": "sha512-RP5Oc/NeDpzFkW/YwCFd3uoUJY/XnDpFl+j/bnFvQU7TnbXnvare0vti8De33+nSHKa8+akTHeydOoHZk9tJvQ==",
+      "upstreamShasum": "4d8a160d0c82a3074685b94f34efa964b3b1fb12",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.72"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.5-pre.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RP5Oc/NeDpzFkW/YwCFd3uoUJY/XnDpFl+j/bnFvQU7TnbXnvare0vti8De33+nSHKa8+akTHeydOoHZk9tJvQ==",
+          "shasum": "4d8a160d0c82a3074685b94f34efa964b3b1fb12"
+        }
+      }
+    },
+    {
+      "version": "1.0.5",
+      "variantId": "registry-package.openupm.com-caedc33b795a8b6c",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.locomotion.git",
+      "sourceRef": "c7b650f4789ac04f4e2ebfd748b3480f0cf63cc3",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/-/com.realitytoolkit.locomotion-1.0.5.tgz",
+      "upstreamIntegrity": "sha512-O4fMxmWbKdms6jDtsZ07m2uL+KBWtsjpUt+qXu3WfZ+luF0xjBP44UuuO4hrzoFJ6HUx/cBMzF4cmeba5fm/Bw==",
+      "upstreamShasum": "43286f55422d050831ddfc4db21690cc989eaacf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.72"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.locomotion/1.0.5",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-O4fMxmWbKdms6jDtsZ07m2uL+KBWtsjpUt+qXu3WfZ+luF0xjBP44UuuO4hrzoFJ6HUx/cBMzF4cmeba5fm/Bw==",
+          "shasum": "43286f55422d050831ddfc4db21690cc989eaacf"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.5"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.realitytoolkit.locomotion.yml",
+  "definitionBlobSha": "0fe848d33abd57cfa7fc5690b2935dbea5a4e060",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.5",
+    "1.0.4",
+    "1.0.3"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 26,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

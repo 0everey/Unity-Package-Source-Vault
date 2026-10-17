@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.build",
+  "displayName": "com.unity.build",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.build",
+      "fetchedAt": "2026-10-17T17:45:26.638085Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "0.1.0-preview.1",
+      "variantId": "registry-packages.unity.com-14799af40cc86adc",
+      "sourceUrl": "git@github.com:Unity-Technologies/com.unity.build.git",
+      "sourceRef": "416332cff873f61e97e8fb1cc7e7f2ea0c260785",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.build/-/com.unity.build-0.1.0-preview.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ab558dc3d96324fc7d1db2637ad58cf26aa4713a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.searcher": "4.0.9",
+        "com.unity.properties": "0.10.3-preview",
+        "com.unity.serialization": "0.6.3-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.build/0.1.0-preview.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "ab558dc3d96324fc7d1db2637ad58cf26aa4713a"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.1.0-preview.1"
+  },
+  "targetVersions": [
+    "0.1.0-preview.1"
+  ],
+  "selectedVersions": [
+    "0.1.0-preview.1"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

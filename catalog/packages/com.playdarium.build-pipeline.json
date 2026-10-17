@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.playdarium.build-pipeline",
+  "displayName": "com.playdarium.build-pipeline",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.playdarium.build-pipeline",
+      "fetchedAt": "2026-10-17T17:40:53.959340Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-957c9163ccdd71ee",
+      "sourceUrl": "https://github.com.git",
+      "sourceRef": "f1a176f558c176cbe21157bbfce6f3ce86e3b6ff",
+      "downloadUrl": "https://package.openupm.com/com.playdarium.build-pipeline/-/com.playdarium.build-pipeline-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-Pb4c0qJDLSRMqtlfXNb0fMD9hyk9+GFgA3b7KpzQnpsr1ZcQlLrtv4ZF287h2iocajBoF37tsNSbSNRcXNaBJg==",
+      "upstreamShasum": "79f7fb4b888ef20c8ae33b63da8a30056d351053",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.playdarium.build-pipeline/1.0.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Pb4c0qJDLSRMqtlfXNb0fMD9hyk9+GFgA3b7KpzQnpsr1ZcQlLrtv4ZF287h2iocajBoF37tsNSbSNRcXNaBJg==",
+          "shasum": "79f7fb4b888ef20c8ae33b63da8a30056d351053"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.playdarium.build-pipeline.yml",
+  "definitionBlobSha": "a1d50e1ebd55e561d3cc616398171d41c72ce673",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

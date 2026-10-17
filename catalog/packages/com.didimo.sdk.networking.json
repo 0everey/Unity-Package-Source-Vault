@@ -1,0 +1,679 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.didimo.sdk.networking",
+  "displayName": "com.didimo.sdk.networking",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "fetchedAt": "2026-10-17T17:37:18.258581Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "4.4.1",
+      "variantId": "registry-package.openupm.com-caf2c917d7a83840",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "28131eea12aef0301685ffbf2a354c0fcad5db48",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.4.1.tgz",
+      "upstreamIntegrity": "sha512-Y43gUroelA1hjfr8oDkICvtTr9tAE869r1u8jYZeyuABbp2+I/tX/+0iumh24NlQ8umbB3AnaCmSZ6fXUQA8wg==",
+      "upstreamShasum": "4604dcf07fa3d2f5199cd5f5785cc3f277f81551",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.4.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Y43gUroelA1hjfr8oDkICvtTr9tAE869r1u8jYZeyuABbp2+I/tX/+0iumh24NlQ8umbB3AnaCmSZ6fXUQA8wg==",
+          "shasum": "4604dcf07fa3d2f5199cd5f5785cc3f277f81551"
+        }
+      }
+    },
+    {
+      "version": "4.4.2",
+      "variantId": "registry-package.openupm.com-be01bbb2c9298216",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "cab9c787c648615c7537bfd9e918f384255a7a4f",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.4.2.tgz",
+      "upstreamIntegrity": "sha512-/rPxLIaKX9oRp2gSmc1KFsV47UjBl2ZQn4UWNY8sbV1CIAGqt8G2iRN9AYz2195rgDOoYVnqYyAq/wA7W4tI1A==",
+      "upstreamShasum": "c7b18e041130a01122386133833f3f713b3b7b13",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.4.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.4.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/rPxLIaKX9oRp2gSmc1KFsV47UjBl2ZQn4UWNY8sbV1CIAGqt8G2iRN9AYz2195rgDOoYVnqYyAq/wA7W4tI1A==",
+          "shasum": "c7b18e041130a01122386133833f3f713b3b7b13"
+        }
+      }
+    },
+    {
+      "version": "4.4.3",
+      "variantId": "registry-package.openupm.com-b3dc82c4972c199f",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "0b12ff957f8af307f5a683bde842f585ba5b2941",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.4.3.tgz",
+      "upstreamIntegrity": "sha512-GnUPhFyDCZhtu5meaZf1SKuLCPUYqclisufp24Sjrx130s9iATPfcI4VL2fkJlmXyRl8QvEDS9dUA4/6r0rFNg==",
+      "upstreamShasum": "98463ddf3a94555f0dd9c1a2f05e8901e8cad359",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.4.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.4.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GnUPhFyDCZhtu5meaZf1SKuLCPUYqclisufp24Sjrx130s9iATPfcI4VL2fkJlmXyRl8QvEDS9dUA4/6r0rFNg==",
+          "shasum": "98463ddf3a94555f0dd9c1a2f05e8901e8cad359"
+        }
+      }
+    },
+    {
+      "version": "4.4.4",
+      "variantId": "registry-package.openupm.com-7275e02667097d0e",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "84a17f568f76973c49c6698145dff6825e9e1da1",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.4.4.tgz",
+      "upstreamIntegrity": "sha512-DwFKbHLNi4ytgZS5anMXksTMtd5c1Gc/2i7CfnGwqYHPJqvJe/kd+lzzd1V+zPhuoiLKBD84p0HeExLGCPwbsQ==",
+      "upstreamShasum": "d6fef0076a732d1828c1155074cdc0cc512944be",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.4.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.4.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-DwFKbHLNi4ytgZS5anMXksTMtd5c1Gc/2i7CfnGwqYHPJqvJe/kd+lzzd1V+zPhuoiLKBD84p0HeExLGCPwbsQ==",
+          "shasum": "d6fef0076a732d1828c1155074cdc0cc512944be"
+        }
+      }
+    },
+    {
+      "version": "4.4.5",
+      "variantId": "registry-package.openupm.com-93dd7f7036ff1ecf",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "40ef6d83650266c2ebb44042924d2e96424ce675",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.4.5.tgz",
+      "upstreamIntegrity": "sha512-6CTbsdBSIhccE8HVzKTEWJ17iktO1RsaPG9/+cU3Aw8hDjUDvXJ1ykkkyLGXoFMZ3qbL0gY+8zMiiVucEOmccA==",
+      "upstreamShasum": "3ba5af8d29cc63a43c1595ed0272a81042917ab4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.4.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.4.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6CTbsdBSIhccE8HVzKTEWJ17iktO1RsaPG9/+cU3Aw8hDjUDvXJ1ykkkyLGXoFMZ3qbL0gY+8zMiiVucEOmccA==",
+          "shasum": "3ba5af8d29cc63a43c1595ed0272a81042917ab4"
+        }
+      }
+    },
+    {
+      "version": "4.4.6",
+      "variantId": "registry-package.openupm.com-676dfd575957cc6e",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "fc713ffcca7606074a2305cdc8b7103f27db787d",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.4.6.tgz",
+      "upstreamIntegrity": "sha512-ChaxLWgCM9dPAKaQ8Ro0PFvWn6eN73PQKhrygE6M/mh8AA8Y+AZjfefG5cVNnhMxp19eAGu/jvPcCd05nVLSog==",
+      "upstreamShasum": "a184265144454fff2484379d1c45f3f195a8a01e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.4.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.4.6",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ChaxLWgCM9dPAKaQ8Ro0PFvWn6eN73PQKhrygE6M/mh8AA8Y+AZjfefG5cVNnhMxp19eAGu/jvPcCd05nVLSog==",
+          "shasum": "a184265144454fff2484379d1c45f3f195a8a01e"
+        }
+      }
+    },
+    {
+      "version": "4.4.7",
+      "variantId": "registry-package.openupm.com-e7bb3328439686c2",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "f421a7539ebb4433dce0a1db3da2b5efde703866",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.4.7.tgz",
+      "upstreamIntegrity": "sha512-kEIsoFEbzM7PdhoCg/Dd+ZRsPH4NyUrnzVUhXpTvJGDxPBeeRcORjS4lPuMwgwVaysuepTyhNsHpqdkWEcHnVA==",
+      "upstreamShasum": "7ded3b8270df0a4706df41bcacc82fc115abf070",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.4.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.4.7",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kEIsoFEbzM7PdhoCg/Dd+ZRsPH4NyUrnzVUhXpTvJGDxPBeeRcORjS4lPuMwgwVaysuepTyhNsHpqdkWEcHnVA==",
+          "shasum": "7ded3b8270df0a4706df41bcacc82fc115abf070"
+        }
+      }
+    },
+    {
+      "version": "4.4.8",
+      "variantId": "registry-package.openupm.com-62183d9dda5cc164",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "a4e1d3df4f00b836a098b10e9ec4a93e1b17508c",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.4.8.tgz",
+      "upstreamIntegrity": "sha512-AGAA1nJ0jbNe+kZlcAeCll97zwlL9fy32LGgTAiO4TJLFXR/Bch/uzSuwZ8wf5BAy7f19mmchXFBc7mvVaR0YQ==",
+      "upstreamShasum": "f42b96c66787a16ecc0b1e0c4cd6d7c96737e916",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.4.8"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.4.8",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-AGAA1nJ0jbNe+kZlcAeCll97zwlL9fy32LGgTAiO4TJLFXR/Bch/uzSuwZ8wf5BAy7f19mmchXFBc7mvVaR0YQ==",
+          "shasum": "f42b96c66787a16ecc0b1e0c4cd6d7c96737e916"
+        }
+      }
+    },
+    {
+      "version": "4.4.9",
+      "variantId": "registry-package.openupm.com-6d9fca81fa903e52",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "2d46b0c23aa96a62633649029bd6b6540a6e2cf7",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.4.9.tgz",
+      "upstreamIntegrity": "sha512-OWz3vn/QJJlf1SBTsdOHUx6C/w61/AySulg7lS77K+XvpjXcQ6TN7mlmEfoRUFrEipL6ZbNCwH82HNt7kO+FqA==",
+      "upstreamShasum": "5c64f8487036a86622d603aa28f77f6eba1ff463",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.4.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.4.9",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OWz3vn/QJJlf1SBTsdOHUx6C/w61/AySulg7lS77K+XvpjXcQ6TN7mlmEfoRUFrEipL6ZbNCwH82HNt7kO+FqA==",
+          "shasum": "5c64f8487036a86622d603aa28f77f6eba1ff463"
+        }
+      }
+    },
+    {
+      "version": "4.4.10",
+      "variantId": "registry-package.openupm.com-a1203ce448b4e649",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "8565234f9a85f2dad2589c77f4ae118c548a7db9",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.4.10.tgz",
+      "upstreamIntegrity": "sha512-gyhKm4iq9EQRjK66EyEgBZRC8qgwq63c2rSyInc99mxpS6H5PQFe1OU6G386TwzPYuJ9kDNQWFVp4rV5+3MUHQ==",
+      "upstreamShasum": "756589b4031087a1fc3a3246c1fa818002f06092",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.4.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.4.10",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gyhKm4iq9EQRjK66EyEgBZRC8qgwq63c2rSyInc99mxpS6H5PQFe1OU6G386TwzPYuJ9kDNQWFVp4rV5+3MUHQ==",
+          "shasum": "756589b4031087a1fc3a3246c1fa818002f06092"
+        }
+      }
+    },
+    {
+      "version": "4.5.0",
+      "variantId": "registry-package.openupm.com-f7696f1c03694640",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "79fa096dfe42842ee91a1edf3cc6558054a01b8f",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.5.0.tgz",
+      "upstreamIntegrity": "sha512-em6TbiLurXt+FUhNRQDn1Xee8CKdyUqJW10fHQT2NeY4HSPrQjDDOsA/WoRlpqp01d/q/sTTDKHzxSakQe8pMg==",
+      "upstreamShasum": "09e48e8fd4cbdbf264187ede01c8c657ae5d6614",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.5.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.5.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-em6TbiLurXt+FUhNRQDn1Xee8CKdyUqJW10fHQT2NeY4HSPrQjDDOsA/WoRlpqp01d/q/sTTDKHzxSakQe8pMg==",
+          "shasum": "09e48e8fd4cbdbf264187ede01c8c657ae5d6614"
+        }
+      }
+    },
+    {
+      "version": "4.5.1",
+      "variantId": "registry-package.openupm.com-cb0b1848ce744435",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "b2e4725c3807cbce07a95d992b1fbfccd085a95c",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.5.1.tgz",
+      "upstreamIntegrity": "sha512-eIjJIObtlcCkMiKbJXHc9nd5C6kRVuj+k8im/PNdRJHliVkH96plx1AfU/N0VOPs92WdVcSQf/eF5g7/oXBbtQ==",
+      "upstreamShasum": "baf49d94c86b31a10d465ba8ae97face87a16f8a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.5.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.5.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eIjJIObtlcCkMiKbJXHc9nd5C6kRVuj+k8im/PNdRJHliVkH96plx1AfU/N0VOPs92WdVcSQf/eF5g7/oXBbtQ==",
+          "shasum": "baf49d94c86b31a10d465ba8ae97face87a16f8a"
+        }
+      }
+    },
+    {
+      "version": "4.5.2",
+      "variantId": "registry-package.openupm.com-35b50cdccb6a5182",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "bbfbc95fb04eb0bd36cf0f12a74401e4faf93cd0",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.5.2.tgz",
+      "upstreamIntegrity": "sha512-rE5nJ6gP+sEoJO6DXY9wCUK4dxAcOWxZRRKJzxp7Fp9cpS9cWVUTNTGlf6Hwas3h7dmB6z3E61J+gPLbJe3bNQ==",
+      "upstreamShasum": "d3a7c664f37d75bcb6d6b827b2f3c13caae5eaf3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.5.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.5.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rE5nJ6gP+sEoJO6DXY9wCUK4dxAcOWxZRRKJzxp7Fp9cpS9cWVUTNTGlf6Hwas3h7dmB6z3E61J+gPLbJe3bNQ==",
+          "shasum": "d3a7c664f37d75bcb6d6b827b2f3c13caae5eaf3"
+        }
+      }
+    },
+    {
+      "version": "4.6.0",
+      "variantId": "registry-package.openupm.com-642d46910a20bde8",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "ebf7f8c0360be2849d1e053165afa13c519f0dd4",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.6.0.tgz",
+      "upstreamIntegrity": "sha512-1gy+umhcreUPkKKrqkDhgO+tHeUuOA8+5qa2z2dpaIX5dpN/YpyjWbcR3KEJ29eABuO22cKGvtcXIf5QNvBA2A==",
+      "upstreamShasum": "f22f27fb8a64014291d51faba2bbc50e036c2bd5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.6.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.6.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1gy+umhcreUPkKKrqkDhgO+tHeUuOA8+5qa2z2dpaIX5dpN/YpyjWbcR3KEJ29eABuO22cKGvtcXIf5QNvBA2A==",
+          "shasum": "f22f27fb8a64014291d51faba2bbc50e036c2bd5"
+        }
+      }
+    },
+    {
+      "version": "4.6.1",
+      "variantId": "registry-package.openupm.com-9cd41acecb01d577",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "cc0f7c6b89b9fe537ac9ceace5f762eeb94dfc68",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-4.6.1.tgz",
+      "upstreamIntegrity": "sha512-02stBF8pf6FMLBiZdNgE7EF2oMXNCXmQT3D+QvOdpvNuNbvWgxkm9iYImf0CkVINbuf4fbwkL0I+DqJ2y+naXg==",
+      "upstreamShasum": "25356d501f818dad4153935a52df1fc3b1f3a8e1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "4.6.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/4.6.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-02stBF8pf6FMLBiZdNgE7EF2oMXNCXmQT3D+QvOdpvNuNbvWgxkm9iYImf0CkVINbuf4fbwkL0I+DqJ2y+naXg==",
+          "shasum": "25356d501f818dad4153935a52df1fc3b1f3a8e1"
+        }
+      }
+    },
+    {
+      "version": "5.0.0",
+      "variantId": "registry-package.openupm.com-6b53a2115f0fe097",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "789b4b3ab9bb7c082e29e5e57e916314caa9ba0e",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-5.0.0.tgz",
+      "upstreamIntegrity": "sha512-uYbE8w4WJ6TTpvewBiR1+EgeS12hsqb2jLpenFI26Y9HLDwOdsbLy/L6T46Cp1gIafFPc1YosyQo4TuSzte/Eg==",
+      "upstreamShasum": "f3d9ab311ab4f9be4a64c78c86f51ce4887db6e2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/5.0.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uYbE8w4WJ6TTpvewBiR1+EgeS12hsqb2jLpenFI26Y9HLDwOdsbLy/L6T46Cp1gIafFPc1YosyQo4TuSzte/Eg==",
+          "shasum": "f3d9ab311ab4f9be4a64c78c86f51ce4887db6e2"
+        }
+      }
+    },
+    {
+      "version": "5.0.1",
+      "variantId": "registry-package.openupm.com-fd8d382a2a787936",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "754fafc1ff70bf3eea71cd04f3b24ecbd21e2d8a",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-5.0.1.tgz",
+      "upstreamIntegrity": "sha512-4CHgI2tZDJPaNnLtHYtQXKATYNL8fx7332FomCIWsbh2k7PGkmmz+5XwGD/88F4ZoPc7RQnngD9M2Du2dGUCvw==",
+      "upstreamShasum": "61d3ccc4a0ebcbe85092e9026722b1fbb7960d04",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/5.0.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4CHgI2tZDJPaNnLtHYtQXKATYNL8fx7332FomCIWsbh2k7PGkmmz+5XwGD/88F4ZoPc7RQnngD9M2Du2dGUCvw==",
+          "shasum": "61d3ccc4a0ebcbe85092e9026722b1fbb7960d04"
+        }
+      }
+    },
+    {
+      "version": "5.1.0",
+      "variantId": "registry-package.openupm.com-531a11b231d57405",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "d66e6f556b336685a2995bd40d4f7446f0db3297",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-5.1.0.tgz",
+      "upstreamIntegrity": "sha512-/blaWDQ0I1+EUj+MYaBvgiiDVtMzFdeM/yy+wzLmLbKRn3N/5lS2i1ZWyAN3OWEuXVZDvYia6jaNS+rL2CO2ZA==",
+      "upstreamShasum": "0e572eadc4f6daab1bbdb5b33cc78c262256fef7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "5.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/5.1.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/blaWDQ0I1+EUj+MYaBvgiiDVtMzFdeM/yy+wzLmLbKRn3N/5lS2i1ZWyAN3OWEuXVZDvYia6jaNS+rL2CO2ZA==",
+          "shasum": "0e572eadc4f6daab1bbdb5b33cc78c262256fef7"
+        }
+      }
+    },
+    {
+      "version": "5.1.1",
+      "variantId": "registry-package.openupm.com-c1dd389eeb88cd6b",
+      "sourceUrl": "https://package.openupm.com/com.didimo.sdk.networking",
+      "sourceRef": "3a3df8bb46368b93a80a13a742a10fcff36d1e78",
+      "downloadUrl": "https://package.openupm.com/com.didimo.sdk.networking/-/com.didimo.sdk.networking-5.1.1.tgz",
+      "upstreamIntegrity": "sha512-u/pdnLFRQAECpMp470kSLVOZ7nxhLXeVuujd9/jtwxMXPYSCAGxTKeHT+YqwADUEkRSDr+FC6P+MZeNYw8JjVQ==",
+      "upstreamShasum": "8cf56551507622fe31355f80afff8bdfa18a0fb5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Didimo Source Code License",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.didimo.sdk.core": "5.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.didimo.sdk.networking/5.1.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-u/pdnLFRQAECpMp470kSLVOZ7nxhLXeVuujd9/jtwxMXPYSCAGxTKeHT+YqwADUEkRSDr+FC6P+MZeNYw8JjVQ==",
+          "shasum": "8cf56551507622fe31355f80afff8bdfa18a0fb5"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "5.1.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.didimo.sdk.networking.yml",
+  "definitionBlobSha": "d7bb6ebc45fd4705ca55afbaff952ba7376bc9df",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "5.1.1",
+    "5.1.0",
+    "4.6.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 19,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

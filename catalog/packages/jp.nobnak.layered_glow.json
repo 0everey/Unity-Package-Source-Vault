@@ -1,0 +1,922 @@
+{
+  "schemaVersion": "1.0",
+  "id": "jp.nobnak.layered_glow",
+  "displayName": "jp.nobnak.layered_glow",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "fetchedAt": "2026-10-17T17:44:25.290354Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-64c66008c0b4742a",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "a25eb095c38714127ba55cdcbfe7e3c82a918225",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-XCvTK2inF2tbKK0wE9c8pDYcx06S4pB4MFHcV/PkTA3L9ulhug78N5dslAvQ/1SCk2b7tAKff0M1fISYII6UjQ==",
+      "upstreamShasum": "a821e91b68986e90a7454921344034717faf710a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.0.0",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XCvTK2inF2tbKK0wE9c8pDYcx06S4pB4MFHcV/PkTA3L9ulhug78N5dslAvQ/1SCk2b7tAKff0M1fISYII6UjQ==",
+          "shasum": "a821e91b68986e90a7454921344034717faf710a"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-77682d0e2f5c6c53",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "ab10d754023e4414db2c5d8527ce6ea8748f2aa1",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-WZ3LV3/h5rw5sNvQvLTln1oXZWGjaUu7jW+4x4HHpq3Gw9uzf+tq4CMlNmBYjOtTCCe6LPCl+vLXOO+13AlVYg==",
+      "upstreamShasum": "3e24e76fd92f41f0175d0d225f437de943d4763c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.0.1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WZ3LV3/h5rw5sNvQvLTln1oXZWGjaUu7jW+4x4HHpq3Gw9uzf+tq4CMlNmBYjOtTCCe6LPCl+vLXOO+13AlVYg==",
+          "shasum": "3e24e76fd92f41f0175d0d225f437de943d4763c"
+        }
+      }
+    },
+    {
+      "version": "1.1.2",
+      "variantId": "registry-package.openupm.com-85ef70a917afface",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "43ef27c33b55321dacd352af6d2027ce9d29470c",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.1.2.tgz",
+      "upstreamIntegrity": "sha512-b8fr3ObZOQ1odj9z9kagPgIEcH/ecc6yaLoFHOTYPIYQEurHN5ZGIlYB+cFAs0J0HVcb/vAZ5/zrbMu+wo6rPA==",
+      "upstreamShasum": "3fb4fbc4fe60e1ebe48beae1c34be93728ac1156",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.1.2",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-b8fr3ObZOQ1odj9z9kagPgIEcH/ecc6yaLoFHOTYPIYQEurHN5ZGIlYB+cFAs0J0HVcb/vAZ5/zrbMu+wo6rPA==",
+          "shasum": "3fb4fbc4fe60e1ebe48beae1c34be93728ac1156"
+        }
+      }
+    },
+    {
+      "version": "1.1.3",
+      "variantId": "registry-package.openupm.com-3f032f7e7eef8931",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "bc26c1ac8989ca5c12d650a7c6204c9180c72c68",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.1.3.tgz",
+      "upstreamIntegrity": "sha512-/rukpleu/mMKykeXyka+X7fDq5AxIMW3blOMz+urOS+A4QtNAn1YbJv+eu87dXp8yksFbrVVQspIdXmK5vllPw==",
+      "upstreamShasum": "50227675e5020e8323c08c100f4076617947125b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.1.3",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/rukpleu/mMKykeXyka+X7fDq5AxIMW3blOMz+urOS+A4QtNAn1YbJv+eu87dXp8yksFbrVVQspIdXmK5vllPw==",
+          "shasum": "50227675e5020e8323c08c100f4076617947125b"
+        }
+      }
+    },
+    {
+      "version": "1.1.4",
+      "variantId": "registry-package.openupm.com-30eda83993a30292",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "9fe7bdd6ba7ffacf3901bd41ff94d797fd384bf3",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.1.4.tgz",
+      "upstreamIntegrity": "sha512-Fq45u77u6i1wNFjfisMiZSlrSlOcKmwd02qDlPCTB/EYcmngIYRdghOq0IKByu1cYtohupPoEyQjKkhrFvD33A==",
+      "upstreamShasum": "c4e4fa44cea7b518397840b8c236d7400c9ecc83",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.1.4",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Fq45u77u6i1wNFjfisMiZSlrSlOcKmwd02qDlPCTB/EYcmngIYRdghOq0IKByu1cYtohupPoEyQjKkhrFvD33A==",
+          "shasum": "c4e4fa44cea7b518397840b8c236d7400c9ecc83"
+        }
+      }
+    },
+    {
+      "version": "1.1.5",
+      "variantId": "registry-package.openupm.com-9e771db58d73cda5",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "c706fc4bc8ce78ec68628fd9adbe81181a5d2561",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.1.5.tgz",
+      "upstreamIntegrity": "sha512-uiA2mhTkFwUJdCkxgLEoPFY6y8d6Pvq2A26R6I8UI9ZosWDOLQ57AmCZSUcwX0sY45wB74r7DG/uYWVeb/jCkg==",
+      "upstreamShasum": "f341c51c89cc494f346f6bcee2f2c8dbe4a93243",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.1.5",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uiA2mhTkFwUJdCkxgLEoPFY6y8d6Pvq2A26R6I8UI9ZosWDOLQ57AmCZSUcwX0sY45wB74r7DG/uYWVeb/jCkg==",
+          "shasum": "f341c51c89cc494f346f6bcee2f2c8dbe4a93243"
+        }
+      }
+    },
+    {
+      "version": "1.1.6",
+      "variantId": "registry-package.openupm.com-17a2265acc91e9b7",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "0ee8c4452003c438fba7adaee6c4c9c77c130f4a",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.1.6.tgz",
+      "upstreamIntegrity": "sha512-dFb2socMx+VGP9UTGNGxOCHYBjcTl3WkwyyhqwRdFwomX6D7NRq1w49wGLEmbymJItA7/NhjB/ayl4kNJ4h3Uw==",
+      "upstreamShasum": "3a352ca019e6279c399610e2719e6a98401915f1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.1.6",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dFb2socMx+VGP9UTGNGxOCHYBjcTl3WkwyyhqwRdFwomX6D7NRq1w49wGLEmbymJItA7/NhjB/ayl4kNJ4h3Uw==",
+          "shasum": "3a352ca019e6279c399610e2719e6a98401915f1"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-670d645825cafa46",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "b432075843afb1d460f559297bb11007991ed7c8",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-CyhdcMftnuNTrBuOhyKkP4xK1Y6vSUe/XF7OYYaBpiZEyNj+BURQghkvHiX91pOMbyuBwlxANmojf4yflV0/JQ==",
+      "upstreamShasum": "e53b3a7a27997fae90f5f88013c207850d287e6c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.2.0",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CyhdcMftnuNTrBuOhyKkP4xK1Y6vSUe/XF7OYYaBpiZEyNj+BURQghkvHiX91pOMbyuBwlxANmojf4yflV0/JQ==",
+          "shasum": "e53b3a7a27997fae90f5f88013c207850d287e6c"
+        }
+      }
+    },
+    {
+      "version": "1.2.1",
+      "variantId": "registry-package.openupm.com-16072abd7458213b",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "a60dcb9ffc916759c6d82e7e1adfc1dcfee4c1d1",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.2.1.tgz",
+      "upstreamIntegrity": "sha512-VhfHYhNPNI5M4LZ98KEJuQaj3XIAjcrph1Si7KKm0DCAW17oiBA/V6IHAG8ujRf4vMJ++mUI0xQHrE6xn4cANg==",
+      "upstreamShasum": "094d7d4a4408b598375150271d8caf7a5a3cabf6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.2.1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VhfHYhNPNI5M4LZ98KEJuQaj3XIAjcrph1Si7KKm0DCAW17oiBA/V6IHAG8ujRf4vMJ++mUI0xQHrE6xn4cANg==",
+          "shasum": "094d7d4a4408b598375150271d8caf7a5a3cabf6"
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "variantId": "registry-package.openupm.com-044eabedc672a2ff",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "aa56aa043afeb206a5d1db0155287d053d0e504c",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.3.0.tgz",
+      "upstreamIntegrity": "sha512-MWznBtzR9a5wF2RRJYF7O8WoTa7Mms/wkb6QtJzQxKSoZijBwV42T6AzBaQEKaadVs0uzQ3HJJJokToF16PseA==",
+      "upstreamShasum": "acf7d0849ec5b8ff9db012b106052c9956fb92e6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.3.0",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MWznBtzR9a5wF2RRJYF7O8WoTa7Mms/wkb6QtJzQxKSoZijBwV42T6AzBaQEKaadVs0uzQ3HJJJokToF16PseA==",
+          "shasum": "acf7d0849ec5b8ff9db012b106052c9956fb92e6"
+        }
+      }
+    },
+    {
+      "version": "1.3.1",
+      "variantId": "registry-package.openupm.com-477d17e8577709f9",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "cacb4c91ba96637fac3735f0e6789adb7115f888",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.3.1.tgz",
+      "upstreamIntegrity": "sha512-raOA78z4nNTXlpb35Dn+UBLzv4yCtiHTHe3Fgze3zf11QG76BEdQkyu184E4WQfrjNZW15OBeYolxQzdhcwRHQ==",
+      "upstreamShasum": "e116d2abe77f0575116b841d41f43ce28470d559",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.3.1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-raOA78z4nNTXlpb35Dn+UBLzv4yCtiHTHe3Fgze3zf11QG76BEdQkyu184E4WQfrjNZW15OBeYolxQzdhcwRHQ==",
+          "shasum": "e116d2abe77f0575116b841d41f43ce28470d559"
+        }
+      }
+    },
+    {
+      "version": "1.3.2",
+      "variantId": "registry-package.openupm.com-830c7bc61833f7f5",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "945a822655b8234701969e745dc3f9737dfcef32",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.3.2.tgz",
+      "upstreamIntegrity": "sha512-wLch4f2NaZECEm0s8vHm1IV2+++2yIn8Qmzur4TwRpJ5LV0WjyCEJqPw7e1aTDG6I2YmqGnYPmqbTkJw527AmA==",
+      "upstreamShasum": "c7c45f3fcdf69eb7e95785281d9f13ac6192144c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.3.2",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wLch4f2NaZECEm0s8vHm1IV2+++2yIn8Qmzur4TwRpJ5LV0WjyCEJqPw7e1aTDG6I2YmqGnYPmqbTkJw527AmA==",
+          "shasum": "c7c45f3fcdf69eb7e95785281d9f13ac6192144c"
+        }
+      }
+    },
+    {
+      "version": "1.3.3",
+      "variantId": "registry-package.openupm.com-683cfcabc92b8ba6",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "bdf012db807c24e73a30407d83a77159034f289a",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.3.3.tgz",
+      "upstreamIntegrity": "sha512-fIp5BO3StsyR8XDxnBnzBvCce9LHkuLIWpr6oiX1fYAgGZi2vmk7EgWkdhyB1nQHYaJzmWVPHhebx17CJEamXQ==",
+      "upstreamShasum": "6cf2ee5340529560fd7c28a2627261b52fbf13f5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.3.3",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fIp5BO3StsyR8XDxnBnzBvCce9LHkuLIWpr6oiX1fYAgGZi2vmk7EgWkdhyB1nQHYaJzmWVPHhebx17CJEamXQ==",
+          "shasum": "6cf2ee5340529560fd7c28a2627261b52fbf13f5"
+        }
+      }
+    },
+    {
+      "version": "1.3.4",
+      "variantId": "registry-package.openupm.com-5df7ea15760e5080",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "da9f101093355eebb7728010f626a15fae6dc379",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.3.4.tgz",
+      "upstreamIntegrity": "sha512-iDyP/2lWmZd6iJUdh33B07lUMmuR1+LUaxcucNwk2eoqUSpRctHyo2Fh537asloZyQ7ppRui4rvSQTxfI53G0w==",
+      "upstreamShasum": "f69a303970a34402fe541e57420a9a220d70b2ff",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.3.4",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iDyP/2lWmZd6iJUdh33B07lUMmuR1+LUaxcucNwk2eoqUSpRctHyo2Fh537asloZyQ7ppRui4rvSQTxfI53G0w==",
+          "shasum": "f69a303970a34402fe541e57420a9a220d70b2ff"
+        }
+      }
+    },
+    {
+      "version": "1.3.5",
+      "variantId": "registry-package.openupm.com-0df803330e9f5e8d",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "0bf53bc6a7378273b0657997f1eb9d3ff9a891a4",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.3.5.tgz",
+      "upstreamIntegrity": "sha512-7+8apP3pMZdOoIiWUyJ+LxBGJ0g9d98VUiwEKoeCQVm1b8FMzx9Mrbb+fbEfQ6QF4QONIrUv6SVIQtwU2D5Phw==",
+      "upstreamShasum": "7e280a3dec00c0d1352eca2ab787bcd7d891a39e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.3.5",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7+8apP3pMZdOoIiWUyJ+LxBGJ0g9d98VUiwEKoeCQVm1b8FMzx9Mrbb+fbEfQ6QF4QONIrUv6SVIQtwU2D5Phw==",
+          "shasum": "7e280a3dec00c0d1352eca2ab787bcd7d891a39e"
+        }
+      }
+    },
+    {
+      "version": "1.3.6",
+      "variantId": "registry-package.openupm.com-9a8e700d078760e2",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "f1e528dce48af9ae79e7fa0e2592796f73869db9",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.3.6.tgz",
+      "upstreamIntegrity": "sha512-EzOkqRzV7bzAlApYyUbGIOJJm02fEuWQtJ/lbS3M5AzJIpGMzCYSXy9OhhXeFaPK0bXAoBRRncYHxC9ceBngWA==",
+      "upstreamShasum": "fbd312fee5ea54903204bf9db212142624cc023a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.3.6",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-EzOkqRzV7bzAlApYyUbGIOJJm02fEuWQtJ/lbS3M5AzJIpGMzCYSXy9OhhXeFaPK0bXAoBRRncYHxC9ceBngWA==",
+          "shasum": "fbd312fee5ea54903204bf9db212142624cc023a"
+        }
+      }
+    },
+    {
+      "version": "1.3.7",
+      "variantId": "registry-package.openupm.com-ea746302a278ed16",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "04f0754859084ec806de4f46104e9a71b75cc75d",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.3.7.tgz",
+      "upstreamIntegrity": "sha512-OM1N+xCS8V3I92pDoKHV4vtv4yndyj6nPBmTTx+G+Krtz2nidlLatiYHPk/etFyoRElJIO8oMkXfJzp/StzHhg==",
+      "upstreamShasum": "a21f1f9e7761404eb447cb6e86b3fa763a422be2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.3.7",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OM1N+xCS8V3I92pDoKHV4vtv4yndyj6nPBmTTx+G+Krtz2nidlLatiYHPk/etFyoRElJIO8oMkXfJzp/StzHhg==",
+          "shasum": "a21f1f9e7761404eb447cb6e86b3fa763a422be2"
+        }
+      }
+    },
+    {
+      "version": "1.3.8",
+      "variantId": "registry-package.openupm.com-7e1ca304f3b78021",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "4fcdb7f6185770214cfcab7ce1960680383df4c2",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.3.8.tgz",
+      "upstreamIntegrity": "sha512-T9oW6Y1r1u2DZhOYYvlSe7BR/TTSjc+ciQoz54oPPjX1gbnZvNP3HZYNJU2Zk0z71M0bbFvpkqWy3085qt7Wwg==",
+      "upstreamShasum": "22c4a2294b8719852ff831060507fcaa7820c4c1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.3.8",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-T9oW6Y1r1u2DZhOYYvlSe7BR/TTSjc+ciQoz54oPPjX1gbnZvNP3HZYNJU2Zk0z71M0bbFvpkqWy3085qt7Wwg==",
+          "shasum": "22c4a2294b8719852ff831060507fcaa7820c4c1"
+        }
+      }
+    },
+    {
+      "version": "1.3.9",
+      "variantId": "registry-package.openupm.com-13ca938cc53a2514",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "89efc3107c20a18025735b823afe2f6ad8246473",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-1.3.9.tgz",
+      "upstreamIntegrity": "sha512-MSo0hvARFw1AP9FgdKHJ7xq4QJxLoifQOFPiyHJ1lNw19GNdoMhXHMiM7utT8ZmH+BEeBsIRaRCZgp5Bz9jOMg==",
+      "upstreamShasum": "67fc8bbbf88cb1b29ff4d1fa82e4a5d9471555aa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.6.6",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/1.3.9",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MSo0hvARFw1AP9FgdKHJ7xq4QJxLoifQOFPiyHJ1lNw19GNdoMhXHMiM7utT8ZmH+BEeBsIRaRCZgp5Bz9jOMg==",
+          "shasum": "67fc8bbbf88cb1b29ff4d1fa82e4a5d9471555aa"
+        }
+      }
+    },
+    {
+      "version": "2.0.1",
+      "variantId": "registry-package.openupm.com-e4679f5e88113f00",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "34c029653139b1a8c38770473035deb7b8e4edca",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-2.0.1.tgz",
+      "upstreamIntegrity": "sha512-pgikG0vyrZg251cGrZyhBA3RzG5FxR7LUmkCwUqiAmxiqHwgcxVdF9plzMDSj0VnXJ+m3VQnY+rBz4PwpPE7JA==",
+      "upstreamShasum": "266e5ab0083c9e77e103d0dd12e1f4c76a70f870",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.render-pipelines.core": "14.0.12",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/2.0.1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-pgikG0vyrZg251cGrZyhBA3RzG5FxR7LUmkCwUqiAmxiqHwgcxVdF9plzMDSj0VnXJ+m3VQnY+rBz4PwpPE7JA==",
+          "shasum": "266e5ab0083c9e77e103d0dd12e1f4c76a70f870"
+        }
+      }
+    },
+    {
+      "version": "2.0.2",
+      "variantId": "registry-package.openupm.com-07c023ec748f19a2",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "4ab774464d9ccdf4f6f4996c8c3594bc53bd8269",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-2.0.2.tgz",
+      "upstreamIntegrity": "sha512-xhWzFf7ZuPxdEPEks0I8hQj7ZnXZnZVJJszqjCxuo7olKEr+TpF6hBUpjDnD5Xyzmgy2eaGRTR4hl8+LQcoSZA==",
+      "upstreamShasum": "7e71ffe4621a97b23e638958f3c98310f1672d44",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.render-pipelines.core": "14.0.12",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/2.0.2",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xhWzFf7ZuPxdEPEks0I8hQj7ZnXZnZVJJszqjCxuo7olKEr+TpF6hBUpjDnD5Xyzmgy2eaGRTR4hl8+LQcoSZA==",
+          "shasum": "7e71ffe4621a97b23e638958f3c98310f1672d44"
+        }
+      }
+    },
+    {
+      "version": "2.0.3",
+      "variantId": "registry-package.openupm.com-29c3d545a96bab24",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "1d6f7962a6ecb82d9d870655e71fae01b62bdd61",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-2.0.3.tgz",
+      "upstreamIntegrity": "sha512-u2V8bCDwiRdTIdGiADkLQgkhclEr0OxXmZKgiytEW/4UoqHwab0igTx6xvSDH1rWfnUUvb6G5icZVVMD7if5/A==",
+      "upstreamShasum": "6b511d9e49874131bd15be04771d924d857b33ab",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.render-pipelines.core": "14.0.12",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/2.0.3",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-u2V8bCDwiRdTIdGiADkLQgkhclEr0OxXmZKgiytEW/4UoqHwab0igTx6xvSDH1rWfnUUvb6G5icZVVMD7if5/A==",
+          "shasum": "6b511d9e49874131bd15be04771d924d857b33ab"
+        }
+      }
+    },
+    {
+      "version": "2.0.4",
+      "variantId": "registry-package.openupm.com-c5fa9163c58e477f",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "dd4ba0b24f1117f3367da1857165ea80196b8a27",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-2.0.4.tgz",
+      "upstreamIntegrity": "sha512-SpG7Lh+svVJaAA4fY6cInSDebHIcLMpjh5u1OXGIiq66i0w1LFxU7hgRd7JwP3VJajhx4gVfW8FCWW/O4R3NKQ==",
+      "upstreamShasum": "9d0ff20e8a17fd46a3e36256fffdcacae4d5ba84",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.render-pipelines.core": "14.0.12",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/2.0.4",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SpG7Lh+svVJaAA4fY6cInSDebHIcLMpjh5u1OXGIiq66i0w1LFxU7hgRd7JwP3VJajhx4gVfW8FCWW/O4R3NKQ==",
+          "shasum": "9d0ff20e8a17fd46a3e36256fffdcacae4d5ba84"
+        }
+      }
+    },
+    {
+      "version": "2.0.5",
+      "variantId": "registry-package.openupm.com-4439a95f9ebf20ee",
+      "sourceUrl": "https://package.openupm.com/jp.nobnak.layered_glow",
+      "sourceRef": "f7c25f3f2248a6a3d4a2785aa26ccdfe47ab7294",
+      "downloadUrl": "https://package.openupm.com/jp.nobnak.layered_glow/-/jp.nobnak.layered_glow-2.0.5.tgz",
+      "upstreamIntegrity": "sha512-dvVcImbb81iBHlfg+O4YaThqEmi4nJCiV2FXUkdp6Li3hccBrubDEVFKmbyb73kBYsmhVww8eL0XxJZgqGFCog==",
+      "upstreamShasum": "606c6d01403a63fb747656fd653762ba9d3b9068",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.render-pipelines.core": "14.0.12",
+        "jp.nobnak.gist2": "1.4.3",
+        "jp.nobnak.pyramid_blur": "1.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.nobnak.layered_glow/2.0.5",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dvVcImbb81iBHlfg+O4YaThqEmi4nJCiV2FXUkdp6Li3hccBrubDEVFKmbyb73kBYsmhVww8eL0XxJZgqGFCog==",
+          "shasum": "606c6d01403a63fb747656fd653762ba9d3b9068"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.0.5",
+    "patch@1.0.0": "1.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/jp.nobnak.layered_glow.yml",
+  "definitionBlobSha": "12edf444c151c4978b7da6083dfa7fd89a26caf5",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "2.0.5",
+    "2.0.4",
+    "1.3.9"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 24,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

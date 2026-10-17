@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0",
+  "id": "dev.upm-packages.extra-zenject",
+  "displayName": "dev.upm-packages.extra-zenject",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/dev.upm-packages.extra-zenject",
+      "fetchedAt": "2026-10-17T17:43:45.699832Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.4.1",
+      "variantId": "registry-package.openupm.com-fe3119dc35bfa245",
+      "sourceUrl": "https://github.com/umm/extra_zenject.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/dev.upm-packages.extra-zenject/-/dev.upm-packages.extra-zenject-1.4.1.tgz",
+      "upstreamIntegrity": "sha512-8Q5rE5yqDF1kLInJK7FGxAQfNU/4/H8FdhyaNcB1QlAeLXMsE0Z2e9H9Djh/KdJ5PDgYgf92gSSbfivjSRlZpQ==",
+      "upstreamShasum": "3f4a98489f7cadf7fa00de427058d214e36a6869",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.stevevermeulen.extenject": "9.1.0-5",
+        "jp.cysharp.unirx": "7.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/dev.upm-packages.extra-zenject/1.4.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8Q5rE5yqDF1kLInJK7FGxAQfNU/4/H8FdhyaNcB1QlAeLXMsE0Z2e9H9Djh/KdJ5PDgYgf92gSSbfivjSRlZpQ==",
+          "shasum": "3f4a98489f7cadf7fa00de427058d214e36a6869"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.4.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/dev.upm-packages.extra-zenject.yml",
+  "definitionBlobSha": "3a3d19d4c3ee0d96e186d749a81dc717e7a3689c",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.4.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

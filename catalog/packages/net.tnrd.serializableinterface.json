@@ -1,0 +1,931 @@
+{
+  "schemaVersion": "1.0",
+  "id": "net.tnrd.serializableinterface",
+  "displayName": "net.tnrd.serializableinterface",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface",
+      "fetchedAt": "2026-10-17T17:44:44.441908Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-1b27b468d53cacd5",
+      "sourceUrl": "https://package.openupm.com/net.tnrd.serializableinterface",
+      "sourceRef": "7a7232af8d3656b96d899dcc9f2268e7a2fb5df0",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-xaoQ3gVy7WZzsNQ77QPeEmtSXAyzWEqo8nq03AojsTIi9mmqCnHn7fHFrhOBZEDE56qAyq7PKA2Up14hUknUpg==",
+      "upstreamShasum": "da7b46794c81b4c54f1cccdf60039cc68a16fd1c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.0.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xaoQ3gVy7WZzsNQ77QPeEmtSXAyzWEqo8nq03AojsTIi9mmqCnHn7fHFrhOBZEDE56qAyq7PKA2Up14hUknUpg==",
+          "shasum": "da7b46794c81b4c54f1cccdf60039cc68a16fd1c"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-2b70f9536986f646",
+      "sourceUrl": "https://package.openupm.com/net.tnrd.serializableinterface",
+      "sourceRef": "fe7acecfdfaf58d5d5674bd8ddd143328a22b139",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-1yt1fz0F3oHuRtkAcrt4JKQa1iwH+ITehURmHccxWv6pWxvyJ/Vu4NRDo5/ZmwOtYqv2ZzWnngfor407AdJm8Q==",
+      "upstreamShasum": "586583d43e1072c8993b990563d899675b770682",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.1.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1yt1fz0F3oHuRtkAcrt4JKQa1iwH+ITehURmHccxWv6pWxvyJ/Vu4NRDo5/ZmwOtYqv2ZzWnngfor407AdJm8Q==",
+          "shasum": "586583d43e1072c8993b990563d899675b770682"
+        }
+      }
+    },
+    {
+      "version": "1.1.1",
+      "variantId": "registry-package.openupm.com-289aadbf069e3bdc",
+      "sourceUrl": "https://package.openupm.com/net.tnrd.serializableinterface",
+      "sourceRef": "9c5e507f366a625b6dcf2551e6e1aca08081f627",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.1.1.tgz",
+      "upstreamIntegrity": "sha512-fLSIqFEsRmA1F07qKfB5GuGDblbmarv1Cyw9krVXz04WQ6sBL0Sa1mk+5yWDJfkCJH7AsNksEfIMQ8sYqO1+Rg==",
+      "upstreamShasum": "8e8482bc83d6c7432a0a05e5d83691af45a07eeb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.1.1",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fLSIqFEsRmA1F07qKfB5GuGDblbmarv1Cyw9krVXz04WQ6sBL0Sa1mk+5yWDJfkCJH7AsNksEfIMQ8sYqO1+Rg==",
+          "shasum": "8e8482bc83d6c7432a0a05e5d83691af45a07eeb"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-d8e75231bfeb9010",
+      "sourceUrl": "https://package.openupm.com/net.tnrd.serializableinterface",
+      "sourceRef": "da31dbbe96d3410c4afd23def09185fcd396cda1",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-+SWlkIrenLFvqEZuZk2llot7Kx/uWBWRKVsJvNiI1Usr7MXk9k05CPj9O4rhQ6ayfUo8OUv8ttiC/N1lObUgrA==",
+      "upstreamShasum": "d54f86d00d8bfe50ef46e230143edff3b0ce0821",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.2.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+SWlkIrenLFvqEZuZk2llot7Kx/uWBWRKVsJvNiI1Usr7MXk9k05CPj9O4rhQ6ayfUo8OUv8ttiC/N1lObUgrA==",
+          "shasum": "d54f86d00d8bfe50ef46e230143edff3b0ce0821"
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "variantId": "registry-package.openupm.com-046826b89d5f24de",
+      "sourceUrl": "https://package.openupm.com/net.tnrd.serializableinterface",
+      "sourceRef": "ee5d9e6c09f01c36fa7dae81ecdc070fd6628173",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.3.0.tgz",
+      "upstreamIntegrity": "sha512-CcrstFQY2JOodQm5xEEiyrxr+hvUzw3ao786h6hr8UQbYjghLNJngf+8KEdxlLHmlsWryXsETYIQTaHlXXjNlw==",
+      "upstreamShasum": "11da463d1330d68342af1c60c45f050c37b3a285",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.3.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CcrstFQY2JOodQm5xEEiyrxr+hvUzw3ao786h6hr8UQbYjghLNJngf+8KEdxlLHmlsWryXsETYIQTaHlXXjNlw==",
+          "shasum": "11da463d1330d68342af1c60c45f050c37b3a285"
+        }
+      }
+    },
+    {
+      "version": "1.4.0",
+      "variantId": "registry-package.openupm.com-7594ddb6ce649ac0",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "96f9684a7ba1c5042ff03801949e085ae86a9415",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.4.0.tgz",
+      "upstreamIntegrity": "sha512-VzxMdfh6MpPW/CJqe7q+Uzg7vqF3tWjWvS5RkeVs2XCu7tg0ZdWqiOyggz7see0+2zfHqwg5aae5IC8cAWADmQ==",
+      "upstreamShasum": "90caa61a211fac82a531b6085a97e8eaa2f8e39a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.4.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VzxMdfh6MpPW/CJqe7q+Uzg7vqF3tWjWvS5RkeVs2XCu7tg0ZdWqiOyggz7see0+2zfHqwg5aae5IC8cAWADmQ==",
+          "shasum": "90caa61a211fac82a531b6085a97e8eaa2f8e39a"
+        }
+      }
+    },
+    {
+      "version": "1.4.1",
+      "variantId": "registry-package.openupm.com-b270f5086ae700dc",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "ef97ba98cdaaaa070808ac6ba2e47e3fa6049f02",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.4.1.tgz",
+      "upstreamIntegrity": "sha512-VcCP+QycTBtadLn02be6OnjwEQTR9wNGIkldQyKehxJpJrtG5k8RyToTJu3VTE7B4yv9rWPDctWu9BADJnZZKw==",
+      "upstreamShasum": "66ab00206e7ca23f445e7d4a859289eb9fb376f6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.4.1",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VcCP+QycTBtadLn02be6OnjwEQTR9wNGIkldQyKehxJpJrtG5k8RyToTJu3VTE7B4yv9rWPDctWu9BADJnZZKw==",
+          "shasum": "66ab00206e7ca23f445e7d4a859289eb9fb376f6"
+        }
+      }
+    },
+    {
+      "version": "1.5.0",
+      "variantId": "registry-package.openupm.com-d0824b241c5bbebf",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "8a50bcc0ba96d6053848a2d603ae2de62a9877a2",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.5.0.tgz",
+      "upstreamIntegrity": "sha512-Bb/IDA0im7/TC073fajDErQdlIw4lJC4YLqIbMkXtFebwqTpAnu+I8ka+KfN4/h69OT+4F+ZqiNYWTcsiJbScg==",
+      "upstreamShasum": "e15facce2ebfba4a4d42634cdb01a06331c62050",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.5.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Bb/IDA0im7/TC073fajDErQdlIw4lJC4YLqIbMkXtFebwqTpAnu+I8ka+KfN4/h69OT+4F+ZqiNYWTcsiJbScg==",
+          "shasum": "e15facce2ebfba4a4d42634cdb01a06331c62050"
+        }
+      }
+    },
+    {
+      "version": "1.5.1",
+      "variantId": "registry-package.openupm.com-9583251d9fd2f07f",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "e17d8d4f695f394dc8931a953d762388fd64d2b9",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.5.1.tgz",
+      "upstreamIntegrity": "sha512-8WsU4eWzDSLkwNuxvsS+osJkSZZXmx41K9FJRWEk6nhy4bz7OILztb9I0l7vNdFUiGKCmpSYOOmQcz1OSgw3Lg==",
+      "upstreamShasum": "36e86193dff987aa243b5c26624caf173ae4d4dd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.5.1",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8WsU4eWzDSLkwNuxvsS+osJkSZZXmx41K9FJRWEk6nhy4bz7OILztb9I0l7vNdFUiGKCmpSYOOmQcz1OSgw3Lg==",
+          "shasum": "36e86193dff987aa243b5c26624caf173ae4d4dd"
+        }
+      }
+    },
+    {
+      "version": "1.5.2",
+      "variantId": "registry-package.openupm.com-7f0cf19d1e867611",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "f02964893c949e66ecd524ed82b0b0812d1903fb",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.5.2.tgz",
+      "upstreamIntegrity": "sha512-gwQ6w94mH6Qnu6U8U5mBxD0/cAQPgEjSNGWoIVjNq/T+Hg6ZuWG5pbn2+PAoGMmacaRCEKb5aE2fsMhQULpPig==",
+      "upstreamShasum": "711b3711798aba9d470111c533f1223f86722fb0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.5.2",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gwQ6w94mH6Qnu6U8U5mBxD0/cAQPgEjSNGWoIVjNq/T+Hg6ZuWG5pbn2+PAoGMmacaRCEKb5aE2fsMhQULpPig==",
+          "shasum": "711b3711798aba9d470111c533f1223f86722fb0"
+        }
+      }
+    },
+    {
+      "version": "1.6.0",
+      "variantId": "registry-package.openupm.com-d8b7c0db8bf74c7e",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "9f07d16b447641b2f539c6d6acfe988d63b75701",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.6.0.tgz",
+      "upstreamIntegrity": "sha512-SrhotvQWn20Iz4lbJNMjiYk50WYTEyBK/hA7DUykHl7Tu01smep7PYIcVUAbGspFqJQ6CzAl/JO3QitdxUT0zA==",
+      "upstreamShasum": "56d350c39a2499f58ac71633c47262eadec16bbe",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.6.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SrhotvQWn20Iz4lbJNMjiYk50WYTEyBK/hA7DUykHl7Tu01smep7PYIcVUAbGspFqJQ6CzAl/JO3QitdxUT0zA==",
+          "shasum": "56d350c39a2499f58ac71633c47262eadec16bbe"
+        }
+      }
+    },
+    {
+      "version": "1.6.1",
+      "variantId": "registry-package.openupm.com-822f96bddd271091",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "19e63e9bd706d18df2cf83b236daabd9ec9ca68d",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.6.1.tgz",
+      "upstreamIntegrity": "sha512-XdeJwlPHWRxPIhZPGSnh1+sETM0fMdztxE3PP1KMl4V+h/iyeqWHFjaFWRJe/ZXIEvPtYYO9cVE2CNb9PS3r3A==",
+      "upstreamShasum": "1a3df6ab1ac2bcdb8278a8ff2a4eaaea9f45b47f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.6.1",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XdeJwlPHWRxPIhZPGSnh1+sETM0fMdztxE3PP1KMl4V+h/iyeqWHFjaFWRJe/ZXIEvPtYYO9cVE2CNb9PS3r3A==",
+          "shasum": "1a3df6ab1ac2bcdb8278a8ff2a4eaaea9f45b47f"
+        }
+      }
+    },
+    {
+      "version": "1.7.0",
+      "variantId": "registry-package.openupm.com-41b0b1279f065bae",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "8a960871d6011addb6ff619de81f68ca4470788a",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.7.0.tgz",
+      "upstreamIntegrity": "sha512-A9gdO+BF6HCeb+Ok7VvopLyBqZkFmoJ8qusSw4CMBIajAEgPAr7EjIpzFmtFv9uHO2eOwWrItphxrYjEhl8xnQ==",
+      "upstreamShasum": "e4d2c63c7ef12fb9570b4cab3013dbe416609dd4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.7.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-A9gdO+BF6HCeb+Ok7VvopLyBqZkFmoJ8qusSw4CMBIajAEgPAr7EjIpzFmtFv9uHO2eOwWrItphxrYjEhl8xnQ==",
+          "shasum": "e4d2c63c7ef12fb9570b4cab3013dbe416609dd4"
+        }
+      }
+    },
+    {
+      "version": "1.7.1",
+      "variantId": "registry-package.openupm.com-7fff6409c471acd2",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "daa2e5d1e3e5290e1920bd282fd58ac3eefededc",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.7.1.tgz",
+      "upstreamIntegrity": "sha512-bHuQFFgq/yLgXlKQFRvr9r7KRTKc01SgGLAwQiG922eB4DNVvlonXc3ZLFRzSzXr+t6ZtnYTcfPkjNOVaxACGw==",
+      "upstreamShasum": "cb2bd7b65c9ad4f3a74dcb8798d7a9b65787181a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.7.1",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bHuQFFgq/yLgXlKQFRvr9r7KRTKc01SgGLAwQiG922eB4DNVvlonXc3ZLFRzSzXr+t6ZtnYTcfPkjNOVaxACGw==",
+          "shasum": "cb2bd7b65c9ad4f3a74dcb8798d7a9b65787181a"
+        }
+      }
+    },
+    {
+      "version": "1.7.2",
+      "variantId": "registry-package.openupm.com-b26f763866f4371c",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "25215775b47f6911423235015ce1bf66562788c1",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.7.2.tgz",
+      "upstreamIntegrity": "sha512-on7MlDdYlUUpV1k8+gDZZF2PmP8aoqtyoTA+l84Ykl8SD5nvFKgMRfH36p1WrTHInpcLRL6Kvw5/KfY5YDT4tw==",
+      "upstreamShasum": "2c9830ffba12a80e4294196f8e08abc5d89e4941",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.7.2",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-on7MlDdYlUUpV1k8+gDZZF2PmP8aoqtyoTA+l84Ykl8SD5nvFKgMRfH36p1WrTHInpcLRL6Kvw5/KfY5YDT4tw==",
+          "shasum": "2c9830ffba12a80e4294196f8e08abc5d89e4941"
+        }
+      }
+    },
+    {
+      "version": "1.7.3",
+      "variantId": "registry-package.openupm.com-f2f18e3690ede6c2",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "648cd8d1ec27d3d4f4a3643b8669cea8bd258a53",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.7.3.tgz",
+      "upstreamIntegrity": "sha512-6mdR1vUByVNyiOKgLaSwD10usYaLRIMf0g93feVfGCKkvdvJCDSnyQlB8BBMaaeVh0Xf2jmgp+40nBko+4chzQ==",
+      "upstreamShasum": "400b18781c60d0859d5f2781240f1b067d374fa3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.7.3",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6mdR1vUByVNyiOKgLaSwD10usYaLRIMf0g93feVfGCKkvdvJCDSnyQlB8BBMaaeVh0Xf2jmgp+40nBko+4chzQ==",
+          "shasum": "400b18781c60d0859d5f2781240f1b067d374fa3"
+        }
+      }
+    },
+    {
+      "version": "1.8.0",
+      "variantId": "registry-package.openupm.com-5b7c333e982c93d4",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "f82b6c0a15a1bc9aa5287b9abcbff3ab297957c7",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.8.0.tgz",
+      "upstreamIntegrity": "sha512-h5jv2gGq7PeHx68blpfaxJwhaH0TGx/tqwGEMhaGxhvEcklCM7rYTcK47sKpYtwbAmW0+9aBMGM7AbZVDKazdg==",
+      "upstreamShasum": "f54ba6d7c659c2da43d54039bdf83d6f7217a723",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.8.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-h5jv2gGq7PeHx68blpfaxJwhaH0TGx/tqwGEMhaGxhvEcklCM7rYTcK47sKpYtwbAmW0+9aBMGM7AbZVDKazdg==",
+          "shasum": "f54ba6d7c659c2da43d54039bdf83d6f7217a723"
+        }
+      }
+    },
+    {
+      "version": "1.9.0",
+      "variantId": "registry-package.openupm.com-209469edda69a5d1",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "b6038806ef386197f3c6f9b3756be2a4dcf73f3d",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.9.0.tgz",
+      "upstreamIntegrity": "sha512-HD3jc5bdIzaigC2IoIvxIkvG624pE9li8u/WYVYnvos2l+GNBQrq1tfbokcIBKYEfNvMc+/npaureN076kQ2WQ==",
+      "upstreamShasum": "0f0898ed217a0704cae1be4ddfe1fee431c78613",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.9.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HD3jc5bdIzaigC2IoIvxIkvG624pE9li8u/WYVYnvos2l+GNBQrq1tfbokcIBKYEfNvMc+/npaureN076kQ2WQ==",
+          "shasum": "0f0898ed217a0704cae1be4ddfe1fee431c78613"
+        }
+      }
+    },
+    {
+      "version": "1.10.0",
+      "variantId": "registry-package.openupm.com-8493b93fee89dcbe",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "4560ff5bf666a499a7b15e858efd185a16cd5a71",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.10.0.tgz",
+      "upstreamIntegrity": "sha512-3YS8MNcJgFlsck6oW9UY7Btl7G6peTLsP1Xxno8OxRIOGxMJgH56gXDPCKKAxaB9I3K7kDeWPBDu+voUSM/Etg==",
+      "upstreamShasum": "4a441e884dfb1884123f5727d4bc454e609629e6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.10.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3YS8MNcJgFlsck6oW9UY7Btl7G6peTLsP1Xxno8OxRIOGxMJgH56gXDPCKKAxaB9I3K7kDeWPBDu+voUSM/Etg==",
+          "shasum": "4a441e884dfb1884123f5727d4bc454e609629e6"
+        }
+      }
+    },
+    {
+      "version": "1.11.0",
+      "variantId": "registry-package.openupm.com-a9b527b6f80cdd4c",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "e5ef8bbbc4b38f8a880c1a222303c7301aeba3ac",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.11.0.tgz",
+      "upstreamIntegrity": "sha512-Ro+dmr/Q9/SIXFdLcXMmEz2WKYQuGEpG7LReWdUx7rchL+0FP2TBxFwO0qwlCeBqEXW466HudfSqTsLPUl7zPg==",
+      "upstreamShasum": "476b5979bac33796c664b2851c08128c527e4ba2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.11.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ro+dmr/Q9/SIXFdLcXMmEz2WKYQuGEpG7LReWdUx7rchL+0FP2TBxFwO0qwlCeBqEXW466HudfSqTsLPUl7zPg==",
+          "shasum": "476b5979bac33796c664b2851c08128c527e4ba2"
+        }
+      }
+    },
+    {
+      "version": "1.11.1",
+      "variantId": "registry-package.openupm.com-e4b9de9f9c6e91ad",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "ea60c9ca165ede25baf93a07dfec89909c672733",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.11.1.tgz",
+      "upstreamIntegrity": "sha512-nSgftGYUf27tK+V+fObHVMxYfg3tZzUWjbITXmINvSZnaaZqD7sZsxXK0bj/qLtF+hoJKNDJrXfLrThMXXiTqg==",
+      "upstreamShasum": "79e3d22bd6c1a805635fd31f4e1387c53fbb2f9a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.11.1",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nSgftGYUf27tK+V+fObHVMxYfg3tZzUWjbITXmINvSZnaaZqD7sZsxXK0bj/qLtF+hoJKNDJrXfLrThMXXiTqg==",
+          "shasum": "79e3d22bd6c1a805635fd31f4e1387c53fbb2f9a"
+        }
+      }
+    },
+    {
+      "version": "1.12.0",
+      "variantId": "registry-package.openupm.com-0c82afdb9119abc0",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "f00b9a6f0b23e9b077da6f889a3389e44b017704",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.12.0.tgz",
+      "upstreamIntegrity": "sha512-aIJtPgB8ZYNuUYcrVzpTVD053jGRFTR+NNsyPXK/xHOkV/i62IwZSlZXeA/xecci1V9lDxlx5lmC+XO++Ys+hg==",
+      "upstreamShasum": "4a7a639e33594b9c49aa6a42c82035ed8594aca9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.12.0",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-aIJtPgB8ZYNuUYcrVzpTVD053jGRFTR+NNsyPXK/xHOkV/i62IwZSlZXeA/xecci1V9lDxlx5lmC+XO++Ys+hg==",
+          "shasum": "4a7a639e33594b9c49aa6a42c82035ed8594aca9"
+        }
+      }
+    },
+    {
+      "version": "1.12.1",
+      "variantId": "registry-package.openupm.com-732c3321ef940779",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "a1cfb3c23842d015ed2532f36199ecd0117f9579",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-1.12.1.tgz",
+      "upstreamIntegrity": "sha512-40Vwk/Im+2xJxoXXS9FanujRskdgGuDSBjHejVjsASFugeLIheIEVdXf1ttkRBkTYJHL0dPKCD0PbpfV8onUIw==",
+      "upstreamShasum": "07e645d5adb51ffefa8de445d17332ec3d926b86",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/1.12.1",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-40Vwk/Im+2xJxoXXS9FanujRskdgGuDSBjHejVjsASFugeLIheIEVdXf1ttkRBkTYJHL0dPKCD0PbpfV8onUIw==",
+          "shasum": "07e645d5adb51ffefa8de445d17332ec3d926b86"
+        }
+      }
+    },
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-aadeed5390672029",
+      "sourceUrl": "https://package.openupm.com/net.tnrd.serializableinterface",
+      "sourceRef": "809922dda5c3ad32820652b1950903580c4f6f91",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-2.0.0.tgz",
+      "upstreamIntegrity": "sha512-L23c8iCXkjEKaX/s7jnUfaYQOmUaHV9erf57+PaUah7Lz/ejAC/4CwzFxGIORyN6UAJn9/5IduOogmKKtnmXQw==",
+      "upstreamShasum": "b8174cf61aa93d002e7b0b7d6bc537a8e2e27f28",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/2.0.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-L23c8iCXkjEKaX/s7jnUfaYQOmUaHV9erf57+PaUah7Lz/ejAC/4CwzFxGIORyN6UAJn9/5IduOogmKKtnmXQw==",
+          "shasum": "b8174cf61aa93d002e7b0b7d6bc537a8e2e27f28"
+        }
+      }
+    },
+    {
+      "version": "2.1.0",
+      "variantId": "registry-package.openupm.com-a82ebe235f377ca5",
+      "sourceUrl": "https://package.openupm.com/net.tnrd.serializableinterface",
+      "sourceRef": "2a7a02f4187d7c9c60e3533352cfff0406fda9f6",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-2.1.0.tgz",
+      "upstreamIntegrity": "sha512-TPmallh69C1jR0cE1eNzlQMybzgxewFPGWFhwi/NH7mwiQsNl9FfQKyc677BmhaJmpucyEoh+q8NelcMREt2Rg==",
+      "upstreamShasum": "197ec93a40a99e261d955daaca76b82982351ec2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/2.1.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TPmallh69C1jR0cE1eNzlQMybzgxewFPGWFhwi/NH7mwiQsNl9FfQKyc677BmhaJmpucyEoh+q8NelcMREt2Rg==",
+          "shasum": "197ec93a40a99e261d955daaca76b82982351ec2"
+        }
+      }
+    },
+    {
+      "version": "2.2.0",
+      "variantId": "registry-package.openupm.com-59694b904e0fe22d",
+      "sourceUrl": "https://package.openupm.com/net.tnrd.serializableinterface",
+      "sourceRef": "4e411040b919a541b0c5a839f6b654864b923c0a",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-2.2.0.tgz",
+      "upstreamIntegrity": "sha512-ERj+kxeLw1KFZ4UY/f69PjEGWuBya9CdN1xATL+XjXW8IFxrgkqqFRskzZ1pScHvipq37W4E2JViAr9LLe10wA==",
+      "upstreamShasum": "33c396fcc76d98fd0a051b40743e42e23747ea25",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/2.2.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ERj+kxeLw1KFZ4UY/f69PjEGWuBya9CdN1xATL+XjXW8IFxrgkqqFRskzZ1pScHvipq37W4E2JViAr9LLe10wA==",
+          "shasum": "33c396fcc76d98fd0a051b40743e42e23747ea25"
+        }
+      }
+    },
+    {
+      "version": "2.2.1",
+      "variantId": "registry-package.openupm.com-3dfc7d2dfea17036",
+      "sourceUrl": "https://package.openupm.com/net.tnrd.serializableinterface",
+      "sourceRef": "71df240ccbb4f8fce73155336cf7c249d1c3bb44",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-2.2.1.tgz",
+      "upstreamIntegrity": "sha512-Zh+0+oyxmo90Ocavf+IpuV/eryBjX/2DdUI3XJzxKB1+ctzceNQGi/UQsinBXmrCy1NzE8/CXxvEoXzp+B8I9g==",
+      "upstreamShasum": "7fa39934cea4a17c6196a4c18952f2eff9f93d79",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/2.2.1",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Zh+0+oyxmo90Ocavf+IpuV/eryBjX/2DdUI3XJzxKB1+ctzceNQGi/UQsinBXmrCy1NzE8/CXxvEoXzp+B8I9g==",
+          "shasum": "7fa39934cea4a17c6196a4c18952f2eff9f93d79"
+        }
+      }
+    },
+    {
+      "version": "2.2.2",
+      "variantId": "registry-package.openupm.com-c54237233b56c278",
+      "sourceUrl": "https://github.com/Thundernerd/Unity3D-SerializableInterface.git",
+      "sourceRef": "6064dbad1c790f31740026e76fdc0d72d727d948",
+      "downloadUrl": "https://package.openupm.com/net.tnrd.serializableinterface/-/net.tnrd.serializableinterface-2.2.2.tgz",
+      "upstreamIntegrity": "sha512-XnL6EkZ3Uy6JgtGWBCZVAZXa1gKcbshxFsrnTr3lrlWgkfbEzPj+og0YMd6XYM04dU45Hg3MX9ijoUOAfJT6Fg==",
+      "upstreamShasum": "cc477ffbe49de4c7cd022b2a076e0b063a583789",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/net.tnrd.serializableinterface/2.2.2",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XnL6EkZ3Uy6JgtGWBCZVAZXa1gKcbshxFsrnTr3lrlWgkfbEzPj+og0YMd6XYM04dU45Hg3MX9ijoUOAfJT6Fg==",
+          "shasum": "cc477ffbe49de4c7cd022b2a076e0b063a583789"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.2.2"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/net.tnrd.serializableinterface.yml",
+  "definitionBlobSha": "0e3818a19096bbd10a97b8c9e9609183e1dccebd",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "1.12.1"
+  ],
+  "selectedVersions": [
+    "1.12.1",
+    "2.2.2",
+    "1.12.0"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 28,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

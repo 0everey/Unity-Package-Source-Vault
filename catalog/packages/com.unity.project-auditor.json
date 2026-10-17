@@ -1,0 +1,1226 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.project-auditor",
+  "displayName": "com.unity.project-auditor",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "fetchedAt": "2026-10-17T17:42:43.335198Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.0.4-preview",
+      "variantId": "registry-package.openupm.com-f2ba9fe9f012abc3",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "13e69deb8173f4b42892cdabd85ae6e06fdaf927",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.0.4-preview.tgz",
+      "upstreamIntegrity": "sha512-ZwtYJdPu6/7JVBIp9k0SSjfbHYGZyLecA/VyjrXQvTjfNOLwGVH4KAlwlJ1aVs9JKkaTqS8fDStrJjhDbboCOw==",
+      "upstreamShasum": "67e08b07d05fd499945abc955375d74492da6d3e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.0.4-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZwtYJdPu6/7JVBIp9k0SSjfbHYGZyLecA/VyjrXQvTjfNOLwGVH4KAlwlJ1aVs9JKkaTqS8fDStrJjhDbboCOw==",
+          "shasum": "67e08b07d05fd499945abc955375d74492da6d3e"
+        }
+      }
+    },
+    {
+      "version": "0.1.0-preview",
+      "variantId": "registry-package.openupm.com-b6c0a6a339dfdad4",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "1b08eb275f8ca6c62d697d0e53586c713f4ca9c6",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.1.0-preview.tgz",
+      "upstreamIntegrity": "sha512-YOb3rtPXknO3wqwfnMXNU3+VEl/H9X6lXXDtZRvnMNL0GmEbNdR/L36KfJKNQhaCIi2noQXUYiyC1YpSV53JDA==",
+      "upstreamShasum": "a8f7dbb24212fb1b7e18c78c1eee754fb3e7b0f0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.1.0-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YOb3rtPXknO3wqwfnMXNU3+VEl/H9X6lXXDtZRvnMNL0GmEbNdR/L36KfJKNQhaCIi2noQXUYiyC1YpSV53JDA==",
+          "shasum": "a8f7dbb24212fb1b7e18c78c1eee754fb3e7b0f0"
+        }
+      }
+    },
+    {
+      "version": "0.2.0-preview",
+      "variantId": "registry-package.openupm.com-fec6e68de5727054",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "6d132d397228a004b7542ca74e8f8cbf63678cda",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.2.0-preview.tgz",
+      "upstreamIntegrity": "sha512-13bDTCO37ejLIpPaGDXCunDbNJsS8vf2fMq/MueuWt0IBo/GUHOtBFG+Y694/+VqMEawmKc2a9CdFIDXkDbcDg==",
+      "upstreamShasum": "2bf51d2b55cc11ee821727c7eb25d12f5ce65dd6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.2.0-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-13bDTCO37ejLIpPaGDXCunDbNJsS8vf2fMq/MueuWt0IBo/GUHOtBFG+Y694/+VqMEawmKc2a9CdFIDXkDbcDg==",
+          "shasum": "2bf51d2b55cc11ee821727c7eb25d12f5ce65dd6"
+        }
+      }
+    },
+    {
+      "version": "0.2.1-preview",
+      "variantId": "registry-package.openupm.com-e4d1f13631890649",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "86d4249a3c50623f5fd8b083260e8b1810170c46",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.2.1-preview.tgz",
+      "upstreamIntegrity": "sha512-x4+Y3BJ3KGo7krZFb9ILyz8joxzuswklYNVGsFE6X2cOWMhrtd7e2L/edfuk7suZrvx5P5xD1a+E5Xywr/sjiQ==",
+      "upstreamShasum": "0b1e7f14e95ac36d7633edcd4a6a684363f01fd5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.2.1-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-x4+Y3BJ3KGo7krZFb9ILyz8joxzuswklYNVGsFE6X2cOWMhrtd7e2L/edfuk7suZrvx5P5xD1a+E5Xywr/sjiQ==",
+          "shasum": "0b1e7f14e95ac36d7633edcd4a6a684363f01fd5"
+        }
+      }
+    },
+    {
+      "version": "0.3.0-preview",
+      "variantId": "registry-package.openupm.com-f8688405b7ae9930",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "3023d07cdd95e108b40ab307057d064ff542fafa",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.3.0-preview.tgz",
+      "upstreamIntegrity": "sha512-rezwwPZgSh8FCZbv9vNqFh7FtG/MnBeznCXNB1KlU83whn8FWyRGwJ2wJ/AOEno9HpoTuAIYdCDer5a2bB4MYw==",
+      "upstreamShasum": "cf8c1aaab1f8b3b66aa5ebd317bc7b171b111d38",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.3.0-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rezwwPZgSh8FCZbv9vNqFh7FtG/MnBeznCXNB1KlU83whn8FWyRGwJ2wJ/AOEno9HpoTuAIYdCDer5a2bB4MYw==",
+          "shasum": "cf8c1aaab1f8b3b66aa5ebd317bc7b171b111d38"
+        }
+      }
+    },
+    {
+      "version": "0.3.1-preview",
+      "variantId": "registry-package.openupm.com-55d8b13148162b0b",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "8cde05c493e815deea44fbbfb4079ece6b376123",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.3.1-preview.tgz",
+      "upstreamIntegrity": "sha512-pl7q00Y5rvqKENksUIJ78TgbznAP7cmTGqsLkq0ibFkKhVELtbbTcCX0fCsinYCNPbxkRIxZXcDj0COGENToRg==",
+      "upstreamShasum": "604049ac9770432c00236b565bf121e828beb776",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.3.1-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-pl7q00Y5rvqKENksUIJ78TgbznAP7cmTGqsLkq0ibFkKhVELtbbTcCX0fCsinYCNPbxkRIxZXcDj0COGENToRg==",
+          "shasum": "604049ac9770432c00236b565bf121e828beb776"
+        }
+      }
+    },
+    {
+      "version": "0.4.0-preview",
+      "variantId": "registry-package.openupm.com-9b093b7f2f2c2e5f",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "f6ebc68e4c8ba58b076e52258703936bbb4b19a2",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.4.0-preview.tgz",
+      "upstreamIntegrity": "sha512-k2sxevXT1zOquS8rl6PeKikCMA+0Xi+ZPZ5cULpn2xsTAFAlnBrj9TGphk3FJ/GJuv2YjyAQUtj+HaSqhnYhEA==",
+      "upstreamShasum": "12f6790c5da4a717438370ca8e3faae41ca30470",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.4.0-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-k2sxevXT1zOquS8rl6PeKikCMA+0Xi+ZPZ5cULpn2xsTAFAlnBrj9TGphk3FJ/GJuv2YjyAQUtj+HaSqhnYhEA==",
+          "shasum": "12f6790c5da4a717438370ca8e3faae41ca30470"
+        }
+      }
+    },
+    {
+      "version": "0.4.1-preview",
+      "variantId": "registry-package.openupm.com-602dafaef8138014",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "3a38d39a6737e336365a9ef35bf45d7f67b6080e",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.4.1-preview.tgz",
+      "upstreamIntegrity": "sha512-hlnTZ9OQ2gwhIwtJghz7jv5HkN3r+ebfS0d6Qqx5HdX4mHIcvzGvvBx7K5V1THqsdUsANgT5zZy60c8xr39SKg==",
+      "upstreamShasum": "c708a72a045ec7c481d29921e4d587beccbcfe01",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.4.1-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hlnTZ9OQ2gwhIwtJghz7jv5HkN3r+ebfS0d6Qqx5HdX4mHIcvzGvvBx7K5V1THqsdUsANgT5zZy60c8xr39SKg==",
+          "shasum": "c708a72a045ec7c481d29921e4d587beccbcfe01"
+        }
+      }
+    },
+    {
+      "version": "0.4.2-preview",
+      "variantId": "registry-package.openupm.com-fc0d2b476afdefcd",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "19c3f1063699d116e917a6b84b03c61fbe9706d6",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.4.2-preview.tgz",
+      "upstreamIntegrity": "sha512-MM+h4u6CBtEoUg/7ml5XuidUEvv8CR4elcSXl2D8V2fFe728NDEnCqNTTcT/x2yiF7WA3NjLD8yxb+Apzfs5qQ==",
+      "upstreamShasum": "236f0360490b60823735823c421ef6e220a01aef",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.4.2-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MM+h4u6CBtEoUg/7ml5XuidUEvv8CR4elcSXl2D8V2fFe728NDEnCqNTTcT/x2yiF7WA3NjLD8yxb+Apzfs5qQ==",
+          "shasum": "236f0360490b60823735823c421ef6e220a01aef"
+        }
+      }
+    },
+    {
+      "version": "0.5.0-preview",
+      "variantId": "registry-package.openupm.com-dedfdd0a3b964f73",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "081b33f4bcd8a3395ff727f8dea0d9f7779b5543",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.5.0-preview.tgz",
+      "upstreamIntegrity": "sha512-aZCiK5rpO96T2Jn8eUCEZmghNCCmNnjRN8E8IEUTnqR4qVTaSE1jM7MPK6Sih78MnGcFu/nwTZ32Dh9kEjOMtw==",
+      "upstreamShasum": "f5fd1794acf31ba7898472d00532dd537b931b2c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.5.0-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-aZCiK5rpO96T2Jn8eUCEZmghNCCmNnjRN8E8IEUTnqR4qVTaSE1jM7MPK6Sih78MnGcFu/nwTZ32Dh9kEjOMtw==",
+          "shasum": "f5fd1794acf31ba7898472d00532dd537b931b2c"
+        }
+      }
+    },
+    {
+      "version": "0.6.0-preview",
+      "variantId": "registry-package.openupm.com-b1b799aec7d07e96",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "f4cfc916ac66cbc762fc658ad8d3c2f188677476",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.6.0-preview.tgz",
+      "upstreamIntegrity": "sha512-WPY9u6/l7dKYu8ETOYMPCVbak6pY8xG/P/joH9W5+5ffoOK+omEawN7LqsiqkLoJA8SXyU8hFo8SLW+L31KfLg==",
+      "upstreamShasum": "98462ee801efed68225df7f53774023e166c890b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.6.0-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WPY9u6/l7dKYu8ETOYMPCVbak6pY8xG/P/joH9W5+5ffoOK+omEawN7LqsiqkLoJA8SXyU8hFo8SLW+L31KfLg==",
+          "shasum": "98462ee801efed68225df7f53774023e166c890b"
+        }
+      }
+    },
+    {
+      "version": "0.6.1-preview",
+      "variantId": "registry-package.openupm.com-cc18b8ada2d153d3",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "91646251ea7b0ac8f089b17c8b1199054a19adf1",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.6.1-preview.tgz",
+      "upstreamIntegrity": "sha512-UqYqpDsABDsr365Bs95H9haWfhEBN1Uw3OoJXpZhZ7ppT2G6yF6hzc4L/8btNgqAXVe26YYVG20nSF1aCE6o3A==",
+      "upstreamShasum": "f2989cfa56512857ec5979e95678fd75e35e46fa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.6.1-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-UqYqpDsABDsr365Bs95H9haWfhEBN1Uw3OoJXpZhZ7ppT2G6yF6hzc4L/8btNgqAXVe26YYVG20nSF1aCE6o3A==",
+          "shasum": "f2989cfa56512857ec5979e95678fd75e35e46fa"
+        }
+      }
+    },
+    {
+      "version": "0.6.2-preview",
+      "variantId": "registry-package.openupm.com-0b75d2cbc8546625",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "96e9427956d1208b30bee1dc037c671016e20df4",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.6.2-preview.tgz",
+      "upstreamIntegrity": "sha512-v2bsOZ4J3+Q/HRbzKEIvgLJm7AeC+cNNtX4VPJi2hGxJPT6y4C9IDsx4qKrtP6zDHGdjp2iCcT5Ygef+79ng5w==",
+      "upstreamShasum": "1ffeb8a50da2e066aa5aa2cd3f1d87f7e18f82dc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.6.2-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-v2bsOZ4J3+Q/HRbzKEIvgLJm7AeC+cNNtX4VPJi2hGxJPT6y4C9IDsx4qKrtP6zDHGdjp2iCcT5Ygef+79ng5w==",
+          "shasum": "1ffeb8a50da2e066aa5aa2cd3f1d87f7e18f82dc"
+        }
+      }
+    },
+    {
+      "version": "0.6.3-preview",
+      "variantId": "registry-package.openupm.com-ff4314a0f5a559f9",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "2cb05b9c25781e0e758e9e7e8113f760a494f674",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.6.3-preview.tgz",
+      "upstreamIntegrity": "sha512-K40qau+C2JK6WIXdqh35jeQps6FoJeWVdjYWLBVAbu2fIurQ89yCz2n9FDLZ3CyRP1BhFxspND9lXk10fyX2yg==",
+      "upstreamShasum": "ce0d2e4a08140536a412e820d9a71e75f268a789",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.6.3-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-K40qau+C2JK6WIXdqh35jeQps6FoJeWVdjYWLBVAbu2fIurQ89yCz2n9FDLZ3CyRP1BhFxspND9lXk10fyX2yg==",
+          "shasum": "ce0d2e4a08140536a412e820d9a71e75f268a789"
+        }
+      }
+    },
+    {
+      "version": "0.6.4-preview",
+      "variantId": "registry-package.openupm.com-f46619d743c50d44",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "6b69ee44df0f7e29831df9d011563cc89338783c",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.6.4-preview.tgz",
+      "upstreamIntegrity": "sha512-K66GJNc7B6DBAscroc9iAdD3ubmKp0Mq6lBUj5OmCgeuoyopv1QlLQbrsSpMOtOW2hPnCiTekrbzUWE4YuE/mQ==",
+      "upstreamShasum": "0c4022b8f1d2d17e9c03796a6f4ba84c698d8038",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "nuget.mono-cecil": "0.1.6-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.6.4-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-K66GJNc7B6DBAscroc9iAdD3ubmKp0Mq6lBUj5OmCgeuoyopv1QlLQbrsSpMOtOW2hPnCiTekrbzUWE4YuE/mQ==",
+          "shasum": "0c4022b8f1d2d17e9c03796a6f4ba84c698d8038"
+        }
+      }
+    },
+    {
+      "version": "0.6.5-preview",
+      "variantId": "registry-package.openupm.com-d7436450c7617788",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "1a7acdbca0af7f67f5bec08c11d5c655378d9803",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.6.5-preview.tgz",
+      "upstreamIntegrity": "sha512-36Jtwl4YNhlAHTm5u6wVMIsqcwd/6kYhvkfVki9MVtcovl3UEjn1Va4hpifmLHCxjVZzGwZsBN40Bme6zuqe5w==",
+      "upstreamShasum": "ea959de1c46406fc087faeb8fb45411bed5d2b22",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.6.5-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-36Jtwl4YNhlAHTm5u6wVMIsqcwd/6kYhvkfVki9MVtcovl3UEjn1Va4hpifmLHCxjVZzGwZsBN40Bme6zuqe5w==",
+          "shasum": "ea959de1c46406fc087faeb8fb45411bed5d2b22"
+        }
+      }
+    },
+    {
+      "version": "0.6.6-preview",
+      "variantId": "registry-package.openupm.com-50a8bb26bf58a264",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "6bca39a50105111d46205170074e51bab2cb08ae",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.6.6-preview.tgz",
+      "upstreamIntegrity": "sha512-ftUJLx0p+0koeX93ShADmWFvmSzniBvp+MDV2YJM4F90DktmDwxo4Mn/hFUpOLrwWJ+MuBARQYmDcO19PQmdiQ==",
+      "upstreamShasum": "282718b4f53595ec3efc18eabcbf51ed780ee1ac",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.6.6-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ftUJLx0p+0koeX93ShADmWFvmSzniBvp+MDV2YJM4F90DktmDwxo4Mn/hFUpOLrwWJ+MuBARQYmDcO19PQmdiQ==",
+          "shasum": "282718b4f53595ec3efc18eabcbf51ed780ee1ac"
+        }
+      }
+    },
+    {
+      "version": "0.7.0-preview",
+      "variantId": "registry-package.openupm.com-3e41b828e8f9f928",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "27f1ebd34f22c15cb371a3863bfbe1c4ad36d79b",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.7.0-preview.tgz",
+      "upstreamIntegrity": "sha512-I9dfze0QpRBcnTe8jrmCtlJFBOH0yWwdvJDIsy79ymbRnu52hZ1Qrje/ZM9w0BOmFGGx5tlD0BdmBn8e1cuG6A==",
+      "upstreamShasum": "a7065abda0deaf0bf9ca7d8b7683a7ab5adc1746",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.7.0-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-I9dfze0QpRBcnTe8jrmCtlJFBOH0yWwdvJDIsy79ymbRnu52hZ1Qrje/ZM9w0BOmFGGx5tlD0BdmBn8e1cuG6A==",
+          "shasum": "a7065abda0deaf0bf9ca7d8b7683a7ab5adc1746"
+        }
+      }
+    },
+    {
+      "version": "0.7.1-preview",
+      "variantId": "registry-package.openupm.com-0d71cfa6c40f39b1",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "794e37be3339a33956f7ee36450bb813e5a8ed3c",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.7.1-preview.tgz",
+      "upstreamIntegrity": "sha512-l7qFbGvJ5lGojt6+w3c++ahV9RqmHUlqj1vqLUhu7zem3ThonIBvDYdJt8br09KUX72KOFq8sXkjbdEhHFI0Rg==",
+      "upstreamShasum": "cce33c8c171667dd9fefa908442f175a9a92a477",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.7.1-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-l7qFbGvJ5lGojt6+w3c++ahV9RqmHUlqj1vqLUhu7zem3ThonIBvDYdJt8br09KUX72KOFq8sXkjbdEhHFI0Rg==",
+          "shasum": "cce33c8c171667dd9fefa908442f175a9a92a477"
+        }
+      }
+    },
+    {
+      "version": "0.7.2-preview",
+      "variantId": "registry-package.openupm.com-df80027b8e649349",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "25e2a97002f8e63241f162cd51c0d45434a343c0",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.7.2-preview.tgz",
+      "upstreamIntegrity": "sha512-dyEvuFzq9EkqOASKDjJ+LTn348olAFIxgdC/Yh0FvF3CG/q0SrzDPY31c8WLSeuV7OI8RvWYwCjbQTeVmSLusg==",
+      "upstreamShasum": "6ed0f7a4659190a2f122e1b36673c2ff0e743f69",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.7.2-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dyEvuFzq9EkqOASKDjJ+LTn348olAFIxgdC/Yh0FvF3CG/q0SrzDPY31c8WLSeuV7OI8RvWYwCjbQTeVmSLusg==",
+          "shasum": "6ed0f7a4659190a2f122e1b36673c2ff0e743f69"
+        }
+      }
+    },
+    {
+      "version": "0.7.3-preview",
+      "variantId": "registry-package.openupm.com-e7dcf344bb71de68",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "938b4668cc7616e0900458ab570ed6edd3c654ea",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.7.3-preview.tgz",
+      "upstreamIntegrity": "sha512-i83bo50/9JBMShAnrcYjN7zw01jKNg3z8imEV+Q+2JWpdAkk+MtgWrsE8Yu3BUbmpwgjV72ex8NaiJbHrZXwNQ==",
+      "upstreamShasum": "5a5f88b61bf93221f97a041b888c6565d57f1dbf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.7.3-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-i83bo50/9JBMShAnrcYjN7zw01jKNg3z8imEV+Q+2JWpdAkk+MtgWrsE8Yu3BUbmpwgjV72ex8NaiJbHrZXwNQ==",
+          "shasum": "5a5f88b61bf93221f97a041b888c6565d57f1dbf"
+        }
+      }
+    },
+    {
+      "version": "0.7.4-preview",
+      "variantId": "registry-package.openupm.com-34816d90f5e1a6ca",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "8d5551449bf5197e866a474aa270d094431494ad",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.7.4-preview.tgz",
+      "upstreamIntegrity": "sha512-GnaW+6yruZ7o5+ZLSEtsDkyGcUvpKXpkqnHrRAjeqww7muWg4gBM4CnF8nivQbRNaPQ2JPqWPvTW9mqA+2wDDQ==",
+      "upstreamShasum": "727fa0e77cd3bbec0ba45538e254b689bca49f15",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.7.4-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GnaW+6yruZ7o5+ZLSEtsDkyGcUvpKXpkqnHrRAjeqww7muWg4gBM4CnF8nivQbRNaPQ2JPqWPvTW9mqA+2wDDQ==",
+          "shasum": "727fa0e77cd3bbec0ba45538e254b689bca49f15"
+        }
+      }
+    },
+    {
+      "version": "0.7.5-preview",
+      "variantId": "registry-package.openupm.com-bd8e5d001664b78b",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "d7e1948d13f2a72ba0e696fcea1312cf811d4d28",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.7.5-preview.tgz",
+      "upstreamIntegrity": "sha512-7Sqb1Edbq5FWe+zilMas/hLZXWdEaANyTHwu3Gu8vdLaNC/k2paJDhU5KWK0Tg1hhhxR3ldxyjLYxE7XMxm5hg==",
+      "upstreamShasum": "f604fa0f737260fef2c007bec0dae6e9170a4bba",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.7.5-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7Sqb1Edbq5FWe+zilMas/hLZXWdEaANyTHwu3Gu8vdLaNC/k2paJDhU5KWK0Tg1hhhxR3ldxyjLYxE7XMxm5hg==",
+          "shasum": "f604fa0f737260fef2c007bec0dae6e9170a4bba"
+        }
+      }
+    },
+    {
+      "version": "0.7.6-preview",
+      "variantId": "registry-package.openupm.com-43e9260c50f4fbd0",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "cedff5d8e3929ae1809ff483cfa259f90ec72062",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.7.6-preview.tgz",
+      "upstreamIntegrity": "sha512-4obGvYjgac0zH4RHC5V1cI4p4Kn66holEnAsa5uFOEQF4mKDm0DEIwX8KVT6tBVno6qgX6Bqdhp27iw75EaddQ==",
+      "upstreamShasum": "1d2006ebd9bd16ca0cfe117702065dd3586bc6ab",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.7.6-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4obGvYjgac0zH4RHC5V1cI4p4Kn66holEnAsa5uFOEQF4mKDm0DEIwX8KVT6tBVno6qgX6Bqdhp27iw75EaddQ==",
+          "shasum": "1d2006ebd9bd16ca0cfe117702065dd3586bc6ab"
+        }
+      }
+    },
+    {
+      "version": "0.8.0-preview",
+      "variantId": "registry-package.openupm.com-3f23ccb7addbe294",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "218d4eee727044a083171f172f6492dce73dee98",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.8.0-preview.tgz",
+      "upstreamIntegrity": "sha512-pMXWLVraRy4h5PZLe+I1ZxD3pRRSWEopJDIfTrh6c39kmhUZAHdNbjofl5C41+JK2uXwb03+SnFWfcTqaJnVfw==",
+      "upstreamShasum": "3d6b8fc629a7b03622450ad7356ce28c54c77234",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.8.0-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-pMXWLVraRy4h5PZLe+I1ZxD3pRRSWEopJDIfTrh6c39kmhUZAHdNbjofl5C41+JK2uXwb03+SnFWfcTqaJnVfw==",
+          "shasum": "3d6b8fc629a7b03622450ad7356ce28c54c77234"
+        }
+      }
+    },
+    {
+      "version": "0.8.1-preview",
+      "variantId": "registry-package.openupm.com-d1f8bd7052f653bb",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "3f357987c67bae42be6faf5a88bdeda61b1d5b4a",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.8.1-preview.tgz",
+      "upstreamIntegrity": "sha512-rc0CZNA3Kg+SxglQ++tc4DRSv6NK4fg4zY6QKfjLNwOeTUV9/6q5ZuSNXCD7VzBDGE0ai/UUsx+FUeFKSWpc3g==",
+      "upstreamShasum": "73ae0407c92a12af0834901b943d66b3c606dbbc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.8.1-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rc0CZNA3Kg+SxglQ++tc4DRSv6NK4fg4zY6QKfjLNwOeTUV9/6q5ZuSNXCD7VzBDGE0ai/UUsx+FUeFKSWpc3g==",
+          "shasum": "73ae0407c92a12af0834901b943d66b3c606dbbc"
+        }
+      }
+    },
+    {
+      "version": "0.8.2-preview",
+      "variantId": "registry-package.openupm.com-1a914fbffbef339b",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "a34f8bee7bd5615361ddd1457377b5b76ee43629",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.8.2-preview.tgz",
+      "upstreamIntegrity": "sha512-2hsQNr68aQaZ0KrdkzHBskJnB6pgYXnRrWD2CsMzEUEKOZgW0/DEBa7YFYkH1oXVbESwyf3iUw5ZAJBaLpRk/g==",
+      "upstreamShasum": "5cf83f007214087d03a2578b5994bf5c24e64493",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.8.2-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2hsQNr68aQaZ0KrdkzHBskJnB6pgYXnRrWD2CsMzEUEKOZgW0/DEBa7YFYkH1oXVbESwyf3iUw5ZAJBaLpRk/g==",
+          "shasum": "5cf83f007214087d03a2578b5994bf5c24e64493"
+        }
+      }
+    },
+    {
+      "version": "0.8.3-preview",
+      "variantId": "registry-package.openupm.com-735e95fd17d68ded",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "e5e02be1c1bb30601589ac433e4eda17c5a57bcd",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.8.3-preview.tgz",
+      "upstreamIntegrity": "sha512-KIn4TtAgiq0EGSyuWbc2MsHvoByjbUN3mwz/2Oao6pa+XXBuZSDA84z9GTLA4YfG2pSAXO8EE5SezR1A/mIgLQ==",
+      "upstreamShasum": "bd5423e02659de19e31b822a0150edebb96987af",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.8.3-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KIn4TtAgiq0EGSyuWbc2MsHvoByjbUN3mwz/2Oao6pa+XXBuZSDA84z9GTLA4YfG2pSAXO8EE5SezR1A/mIgLQ==",
+          "shasum": "bd5423e02659de19e31b822a0150edebb96987af"
+        }
+      }
+    },
+    {
+      "version": "0.8.4-preview",
+      "variantId": "registry-package.openupm.com-b19e1e6fceab1837",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "84e6070e54967037320fffa854987d34b85b6d24",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.8.4-preview.tgz",
+      "upstreamIntegrity": "sha512-GIFinLJntRSB6uvsYE7UWHI9xE+H8+2a5F1rXO2Jz6eGeneb2XsuHstYKYEeucQSRqFHUOOm+AoRVUowIK8g8g==",
+      "upstreamShasum": "f53f0f0fe6f69706ac8a79137d1d5e4789a6877a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.8.4-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GIFinLJntRSB6uvsYE7UWHI9xE+H8+2a5F1rXO2Jz6eGeneb2XsuHstYKYEeucQSRqFHUOOm+AoRVUowIK8g8g==",
+          "shasum": "f53f0f0fe6f69706ac8a79137d1d5e4789a6877a"
+        }
+      }
+    },
+    {
+      "version": "0.9.0-preview",
+      "variantId": "registry-package.openupm.com-c7f2350713dfcb9d",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "8ae1b57226f90ca26b154b1b3289eca0b6f7b011",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.9.0-preview.tgz",
+      "upstreamIntegrity": "sha512-EoQGyvF37S+2y48xrMZ0Nw4kpxQRFBmWAJ9G3ySN21vyJ9LzX0bbXBFVIk2CNKXXMxhp646heMggWLSzPxnRuw==",
+      "upstreamShasum": "71d93be88c3fea32de53c92623fe510316683273",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.9.0-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-EoQGyvF37S+2y48xrMZ0Nw4kpxQRFBmWAJ9G3ySN21vyJ9LzX0bbXBFVIk2CNKXXMxhp646heMggWLSzPxnRuw==",
+          "shasum": "71d93be88c3fea32de53c92623fe510316683273"
+        }
+      }
+    },
+    {
+      "version": "0.9.1-preview",
+      "variantId": "registry-package.openupm.com-e0bb3a7f05a4383e",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "5ffb7d39509c87db93d53fdf0715f3060d8fd0d3",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.9.1-preview.tgz",
+      "upstreamIntegrity": "sha512-H978k6BlCl7pnfm3Un6+8jWQYlYu8NVr+LcJxf2SbVN/YVP2rcwwIMZxBv6exwcR0dEBtJnQGil8elGxI5WFVg==",
+      "upstreamShasum": "1c1b3d4c98b5b0213c996f0144bbf2b634c5cecd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.9.1-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-H978k6BlCl7pnfm3Un6+8jWQYlYu8NVr+LcJxf2SbVN/YVP2rcwwIMZxBv6exwcR0dEBtJnQGil8elGxI5WFVg==",
+          "shasum": "1c1b3d4c98b5b0213c996f0144bbf2b634c5cecd"
+        }
+      }
+    },
+    {
+      "version": "0.9.2-preview",
+      "variantId": "registry-package.openupm.com-c857f455c9740b73",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "395387be99e74d92068590dc56dd7bc19d12eaa3",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.9.2-preview.tgz",
+      "upstreamIntegrity": "sha512-3LBIYxGj3KFY8M00crNyg6RtXFoVS3sMGXqzxETWcoyjbGDE0KNYHsT3jQPooF5p+cKkh+5j4JVfVXCN4TkK+g==",
+      "upstreamShasum": "03ac71065d3e915bfa3189088a16ad93dea1f9e7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.9.2-preview",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3LBIYxGj3KFY8M00crNyg6RtXFoVS3sMGXqzxETWcoyjbGDE0KNYHsT3jQPooF5p+cKkh+5j4JVfVXCN4TkK+g==",
+          "shasum": "03ac71065d3e915bfa3189088a16ad93dea1f9e7"
+        }
+      }
+    },
+    {
+      "version": "0.9.3-preview.2",
+      "variantId": "registry-package.openupm.com-1d3e6ed33abb5094",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "da975de4e69d1d2b53d4a5eb7310569fa95d16b0",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.9.3-preview.2.tgz",
+      "upstreamIntegrity": "sha512-QsIb3gPhbef7Aw0QCmIIbi9FGaCBvvknQfBdLkrKScUwn9y0lUZqfqmS0G/WUgrQbshi18AY1OXB2wTGnZS0vA==",
+      "upstreamShasum": "14d9f97392865c5328e0ed3275d44776ea7c23f9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.9.3-preview.2",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QsIb3gPhbef7Aw0QCmIIbi9FGaCBvvknQfBdLkrKScUwn9y0lUZqfqmS0G/WUgrQbshi18AY1OXB2wTGnZS0vA==",
+          "shasum": "14d9f97392865c5328e0ed3275d44776ea7c23f9"
+        }
+      }
+    },
+    {
+      "version": "0.9.3-preview.3",
+      "variantId": "registry-package.openupm.com-44df4f6dfae86624",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "bc80a09cd7118545f82b7193f57e100df80101fe",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.9.3-preview.3.tgz",
+      "upstreamIntegrity": "sha512-5OCGdnYVJBiM4v9hlmsO0cTz1qm3Tbypfr9I6q6aoEzIBPMb0axPL9oXsMIJ2IY3sv8m2QruphJUdoMw1ZMGgw==",
+      "upstreamShasum": "69e2a9365dfe4d6a7dc09fbd5b582b9d26f75b8f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.9.3-preview.3",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5OCGdnYVJBiM4v9hlmsO0cTz1qm3Tbypfr9I6q6aoEzIBPMb0axPL9oXsMIJ2IY3sv8m2QruphJUdoMw1ZMGgw==",
+          "shasum": "69e2a9365dfe4d6a7dc09fbd5b582b9d26f75b8f"
+        }
+      }
+    },
+    {
+      "version": "0.10.0",
+      "variantId": "registry-package.openupm.com-26e5e9f15336a5c5",
+      "sourceUrl": "https://package.openupm.com/com.unity.project-auditor",
+      "sourceRef": "ef461a68d229cd0d4124790722516e9b9709d737",
+      "downloadUrl": "https://package.openupm.com/com.unity.project-auditor/-/com.unity.project-auditor-0.10.0.tgz",
+      "upstreamIntegrity": "sha512-5Du3+U6aX5WXjBLusL+DTX0PdQvKF1aWnoKTEOC9jQ17WgYHXdiMzo+HZvg/1D3HHDELT2HLUN+nMf3wyjO5Gw==",
+      "upstreamShasum": "587aab8bc580dba05a58fdab7108b452a492fe30",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.unity.project-auditor/0.10.0",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5Du3+U6aX5WXjBLusL+DTX0PdQvKF1aWnoKTEOC9jQ17WgYHXdiMzo+HZvg/1D3HHDELT2HLUN+nMf3wyjO5Gw==",
+          "shasum": "587aab8bc580dba05a58fdab7108b452a492fe30"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.10.0",
+    "patch@0.3.1-preview": "0.3.1-preview",
+    "patch@0.4.0-preview": "0.4.0-preview",
+    "patch@0.3.0-preview": "0.3.0-preview"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.unity.project-auditor.yml",
+  "definitionBlobSha": "5d517bc810865c7b18c226220b962e24d1369a94",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.10.0",
+    "0.9.3-preview.3",
+    "0.9.3-preview.2"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 35,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.virgis.core",
+  "displayName": "com.virgis.core",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.virgis.core",
+      "fetchedAt": "2026-10-17T17:43:08.962278Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "3.0.0-a.1",
+      "variantId": "registry-package.openupm.com-61646855483235c7",
+      "sourceUrl": "https://github.com/ViRGIS-Team/ViRGiS.git",
+      "sourceRef": "75a6a1c50f4dde8b9e4fa316307849f8dc13dca8",
+      "downloadUrl": "https://package.openupm.com/com.virgis.core/-/com.virgis.core-3.0.0-a.1.tgz",
+      "upstreamIntegrity": "sha512-WlWA5stZn9ztr/GbX3/Zmj4yiViBozpyLihwiewENbHteodii97GzutXY7g6FxWurVg8TiHQIPsRia26ZQqvvg==",
+      "upstreamShasum": "c6ba82540316f574d64bf6070887043a8e4d4b16",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.virgis.gdal": "3.13.1",
+        "com.virgis.mdal": "1.3.302",
+        "com.virgis.pdal": "2.10.1",
+        "com.virgis.types": "3.0.0-a.1",
+        "org.nuget.csvhelper": "33.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.virgis.core/3.0.0-a.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WlWA5stZn9ztr/GbX3/Zmj4yiViBozpyLihwiewENbHteodii97GzutXY7g6FxWurVg8TiHQIPsRia26ZQqvvg==",
+          "shasum": "c6ba82540316f574d64bf6070887043a8e4d4b16"
+        }
+      }
+    },
+    {
+      "version": "3.0.0-a.2",
+      "variantId": "registry-package.openupm.com-4a97a7164e71100a",
+      "sourceUrl": "https://github.com/ViRGIS-Team/ViRGiS.git",
+      "sourceRef": "abca9233670ddde57887d53732a418954eda5f7d",
+      "downloadUrl": "https://package.openupm.com/com.virgis.core/-/com.virgis.core-3.0.0-a.2.tgz",
+      "upstreamIntegrity": "sha512-XY6Co4h0+AFeOH91f9U09loMhweM/PqLhJeLg9JNOmeC8SqNNWbScnoYCOQKYPkolE+1785sNfRNdcoTHV9fgA==",
+      "upstreamShasum": "87efdd87839cfeb78bc319b20c9419c7c912466b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.virgis.gdal": "3.13.3",
+        "com.virgis.mdal": "1.3.303",
+        "com.virgis.pdal": "2.10.2",
+        "com.virgis.types": "3.0.0-a.2",
+        "org.nuget.csvhelper": "33.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.virgis.core/3.0.0-a.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XY6Co4h0+AFeOH91f9U09loMhweM/PqLhJeLg9JNOmeC8SqNNWbScnoYCOQKYPkolE+1785sNfRNdcoTHV9fgA==",
+          "shasum": "87efdd87839cfeb78bc319b20c9419c7c912466b"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "3.0.0-a.2"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.virgis.core.yml",
+  "definitionBlobSha": "9422214e74f7a2d19001c6b0cce36b81206e0414",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "3.0.0-a.2",
+    "3.0.0-a.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 2,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

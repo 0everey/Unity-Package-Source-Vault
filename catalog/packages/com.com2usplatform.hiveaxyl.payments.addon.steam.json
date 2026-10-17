@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.com2usplatform.hiveaxyl.payments.addon.steam",
+  "displayName": "com.com2usplatform.hiveaxyl.payments.addon.steam",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.com2usplatform.hiveaxyl.payments.addon.steam",
+      "fetchedAt": "2026-10-17T17:37:07.569116Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-5f6597c3471f823f",
+      "sourceUrl": "https://github.com/com2usplatform/hiveaxyl-sdk-unity.git",
+      "sourceRef": "54229b33754d3d8f54973c369c12470cafdcfb5b",
+      "downloadUrl": "https://package.openupm.com/com.com2usplatform.hiveaxyl.payments.addon.steam/-/com.com2usplatform.hiveaxyl.payments.addon.steam-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-BdxaHngE9y5VuVvop1BeUnht1MaOK81F21RexyndC3y/A9Cn2/UMg36FaF+RINrXO0drKi4HH+rToRIzxOZxxw==",
+      "upstreamShasum": "309c10719eca2c3db2e63214dd54f7cf303b2e16",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.com2usplatform.hiveaxyl.core": "1.0.0",
+        "com.com2usplatform.hiveaxyl.steamworks": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.com2usplatform.hiveaxyl.payments.addon.steam/1.0.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BdxaHngE9y5VuVvop1BeUnht1MaOK81F21RexyndC3y/A9Cn2/UMg36FaF+RINrXO0drKi4HH+rToRIzxOZxxw==",
+          "shasum": "309c10719eca2c3db2e63214dd54f7cf303b2e16"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.com2usplatform.hiveaxyl.payments.addon.steam.yml",
+  "definitionBlobSha": "78f6e7b09fffe91f904017a69f1e571d3cbe9947",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

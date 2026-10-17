@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.andywiecko.ecs",
+  "displayName": "com.andywiecko.ecs",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.ecs",
+      "fetchedAt": "2026-10-17T17:36:34.867205Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-1603a92b9265b445",
+      "sourceUrl": "https://github.com/andywiecko/ECS.git",
+      "sourceRef": "77df8bc5006914a5b79f074ca3714e922a29c0ad",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.ecs/-/com.andywiecko.ecs-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-m5+HswDwdqDM4qGzkYRBexr0GLdkPk0lJqYqhKhFEx4bKybHfi/WGJfYl3Kbpyot7ZscEvMiRg4QPpimBnNxzw==",
+      "upstreamShasum": "449a8397126cb1e136cbbf9b109265ed8f495e46",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.jobs": "0.11.0-preview.6",
+        "com.andywiecko.burst.collections": "1.5.0",
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.ecs/0.2.0",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-m5+HswDwdqDM4qGzkYRBexr0GLdkPk0lJqYqhKhFEx4bKybHfi/WGJfYl3Kbpyot7ZscEvMiRg4QPpimBnNxzw==",
+          "shasum": "449a8397126cb1e136cbbf9b109265ed8f495e46"
+        }
+      }
+    },
+    {
+      "version": "0.2.1",
+      "variantId": "registry-package.openupm.com-a129bdff92aa69de",
+      "sourceUrl": "https://github.com/andywiecko/ECS.git",
+      "sourceRef": "fd96d652a688be02e786cdf7d705bef5cbe55bc9",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.ecs/-/com.andywiecko.ecs-0.2.1.tgz",
+      "upstreamIntegrity": "sha512-aSMHZ8UWZDEwQ9b9TDw/50MGkTA8DVKIWcXwgpv+YHw0Lfnk3BfZ9KD2/8hDHnmtShpbzAbHV2B1h4Y7r16jQA==",
+      "upstreamShasum": "cedefcf4b457d3b0773e1b95978383b59eb62f68",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.jobs": "0.11.0-preview.6",
+        "com.andywiecko.burst.collections": "1.5.0",
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.ecs/0.2.1",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-aSMHZ8UWZDEwQ9b9TDw/50MGkTA8DVKIWcXwgpv+YHw0Lfnk3BfZ9KD2/8hDHnmtShpbzAbHV2B1h4Y7r16jQA==",
+          "shasum": "cedefcf4b457d3b0773e1b95978383b59eb62f68"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.2.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.andywiecko.ecs.yml",
+  "definitionBlobSha": "9767b64b5b1017e2641f3abc52203ada618e1550",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.2.0",
+    "0.2.1"
+  ],
+  "targetVersions": [
+    "0.2.0"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 2,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

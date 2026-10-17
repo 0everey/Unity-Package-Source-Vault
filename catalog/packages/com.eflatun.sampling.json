@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.eflatun.sampling",
+  "displayName": "com.eflatun.sampling",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.eflatun.sampling",
+      "fetchedAt": "2026-10-17T17:37:35.702774Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "variantId": "registry-package.openupm.com-70fd1cd90b61cdef",
+      "sourceUrl": "https://package.openupm.com/com.eflatun.sampling",
+      "sourceRef": "f50c6f5eeb8ecb6ef40da4d596265f417cb254bf",
+      "downloadUrl": "https://package.openupm.com/com.eflatun.sampling/-/com.eflatun.sampling-0.0.1.tgz",
+      "upstreamIntegrity": "sha512-8IksoegkuLk0f7Jo4S3h6W5Y6EogF+1teJ0EXdfOL4vOrssukoW1KmK0xelpx/5U0QIh1O8W8kRdxWByzIKTjg==",
+      "upstreamShasum": "4a11c9b9f8e6a4d46d7ebc2a5058a525a4c9c675",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.eflatun.sampling/0.0.1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8IksoegkuLk0f7Jo4S3h6W5Y6EogF+1teJ0EXdfOL4vOrssukoW1KmK0xelpx/5U0QIh1O8W8kRdxWByzIKTjg==",
+          "shasum": "4a11c9b9f8e6a4d46d7ebc2a5058a525a4c9c675"
+        }
+      }
+    },
+    {
+      "version": "0.0.2",
+      "variantId": "registry-package.openupm.com-98d63079d4a47d36",
+      "sourceUrl": "https://package.openupm.com/com.eflatun.sampling",
+      "sourceRef": "a6009bce1199cddeb64c0d0d0bf055fd0ff081a9",
+      "downloadUrl": "https://package.openupm.com/com.eflatun.sampling/-/com.eflatun.sampling-0.0.2.tgz",
+      "upstreamIntegrity": "sha512-d0BzovHV+c9PLXppz4hgThf6KqsiwxnVrQJ9JQwP9w8N9ZspTj3vI0cHnSK9XMCpj3Jf3dElWlQeoq2WpezwPw==",
+      "upstreamShasum": "d2eb6a7af4fae41baece19e5ac09c687269178c3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.eflatun.common": "git+https://github.com/starikcetin/Eflatun.Common.git#0.0.1",
+        "com.eflatun.randomutils": "git+https://github.com/starikcetin/Eflatun.RandomUtils.git#0.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.eflatun.sampling/0.0.2",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-d0BzovHV+c9PLXppz4hgThf6KqsiwxnVrQJ9JQwP9w8N9ZspTj3vI0cHnSK9XMCpj3Jf3dElWlQeoq2WpezwPw==",
+          "shasum": "d2eb6a7af4fae41baece19e5ac09c687269178c3"
+        }
+      }
+    },
+    {
+      "version": "0.0.3",
+      "variantId": "registry-package.openupm.com-8fa12d81112dc187",
+      "sourceUrl": "https://package.openupm.com/com.eflatun.sampling",
+      "sourceRef": "e5251fa12b3b476334ca8e15b4a64750eed35c23",
+      "downloadUrl": "https://package.openupm.com/com.eflatun.sampling/-/com.eflatun.sampling-0.0.3.tgz",
+      "upstreamIntegrity": "sha512-YZvatHrTFdfDg+7yju+uaI1J4XMFjhHHv1XIfT1mcPirUdcZMb/qFhKnlOVM6LwPICUmcuHqQjwP9jWVsreGzQ==",
+      "upstreamShasum": "da2408ba14d63d831cc11a9aa349902b5f23be73",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.eflatun.common": "git+https://github.com/starikcetin/Eflatun.Common.git#0.0.2",
+        "com.eflatun.randomutils": "git+https://github.com/starikcetin/Eflatun.RandomUtils.git#0.0.3",
+        "com.eflatun.calculation": "git+https://github.com/starikcetin/Eflatun.Calculation.git#0.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.eflatun.sampling/0.0.3",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YZvatHrTFdfDg+7yju+uaI1J4XMFjhHHv1XIfT1mcPirUdcZMb/qFhKnlOVM6LwPICUmcuHqQjwP9jWVsreGzQ==",
+          "shasum": "da2408ba14d63d831cc11a9aa349902b5f23be73"
+        }
+      }
+    },
+    {
+      "version": "0.0.4",
+      "variantId": "registry-package.openupm.com-1ed9f7a232e4fc66",
+      "sourceUrl": "https://package.openupm.com/com.eflatun.sampling",
+      "sourceRef": "eaef04794c04584412741dad40fd069b63ec1d3e",
+      "downloadUrl": "https://package.openupm.com/com.eflatun.sampling/-/com.eflatun.sampling-0.0.4.tgz",
+      "upstreamIntegrity": "sha512-ZN2pESi0/RSqHG/HrJxu4fYIpdpcJ/OUPprVzfBvmsPp6PmbU+J+0iTz7lu5c06UnhPeK8S3KWdlHX5HHx3V9A==",
+      "upstreamShasum": "ecb4ae735e6faf0c252433366ef68cdc911bbde6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.eflatun.common": "git+https://github.com/starikcetin/Eflatun.Common.git#0.0.2",
+        "com.eflatun.randomutils": "git+https://github.com/starikcetin/Eflatun.RandomUtils.git#0.0.4",
+        "com.eflatun.calculation": "git+https://github.com/starikcetin/Eflatun.Calculation.git#0.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.eflatun.sampling/0.0.4",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZN2pESi0/RSqHG/HrJxu4fYIpdpcJ/OUPprVzfBvmsPp6PmbU+J+0iTz7lu5c06UnhPeK8S3KWdlHX5HHx3V9A==",
+          "shasum": "ecb4ae735e6faf0c252433366ef68cdc911bbde6"
+        }
+      }
+    },
+    {
+      "version": "0.0.5",
+      "variantId": "registry-package.openupm.com-170b0dd92766489a",
+      "sourceUrl": "https://package.openupm.com/com.eflatun.sampling",
+      "sourceRef": "b2ae2514a4530d4995e90d0fb85d0cb1b6fcbe66",
+      "downloadUrl": "https://package.openupm.com/com.eflatun.sampling/-/com.eflatun.sampling-0.0.5.tgz",
+      "upstreamIntegrity": "sha512-Hz2RVkdblA+nTLCJf2PlLy+AN1F8w3K9dNbxoWK2/K7S0gB/530Y4NtwlJS/iEy6TLnAvPiD5ut6sDnbg0csXQ==",
+      "upstreamShasum": "d52c2a7ec1a101e1880bfaaa4e57610bcda25e59",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.eflatun.common": "0.0.4",
+        "com.eflatun.randomutils": "0.1.1",
+        "com.eflatun.calculation": "0.0.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.eflatun.sampling/0.0.5",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Hz2RVkdblA+nTLCJf2PlLy+AN1F8w3K9dNbxoWK2/K7S0gB/530Y4NtwlJS/iEy6TLnAvPiD5ut6sDnbg0csXQ==",
+          "shasum": "d52c2a7ec1a101e1880bfaaa4e57610bcda25e59"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.0.5"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.eflatun.sampling.yml",
+  "definitionBlobSha": "5c6e8667915fafd693b27444f5c1f296f24b9593",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.0.5",
+    "0.0.4",
+    "0.0.3"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 5,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

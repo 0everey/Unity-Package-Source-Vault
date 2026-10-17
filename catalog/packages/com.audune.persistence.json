@@ -1,0 +1,565 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.audune.persistence",
+  "displayName": "com.audune.persistence",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence",
+      "fetchedAt": "2026-10-17T17:36:42.573343Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "variantId": "registry-package.openupm.com-58ad70b072377705",
+      "sourceUrl": "https://package.openupm.com/com.audune.persistence",
+      "sourceRef": "c2ce6d633fc6406c4f35613dd56e0948ade63e83",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-0.1.0.tgz",
+      "upstreamIntegrity": "sha512-7DBrmOtcsCCBa3EtljKFYk+/thC9CjXnX3wVWu6M5tL7dMacow+3AEgtBd9LkXgTBx63yInreUy1T/tl3Ikhtw==",
+      "upstreamShasum": "89cb41d471225a08e065510b446bbfe7cca9db22",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "GPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "net.tnrd.messagepack": "2.5.125"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/0.1.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7DBrmOtcsCCBa3EtljKFYk+/thC9CjXnX3wVWu6M5tL7dMacow+3AEgtBd9LkXgTBx63yInreUy1T/tl3Ikhtw==",
+          "shasum": "89cb41d471225a08e065510b446bbfe7cca9db22"
+        }
+      }
+    },
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-3be72e4e6f8bcfcc",
+      "sourceUrl": "https://package.openupm.com/com.audune.persistence",
+      "sourceRef": "2eeb68244a60f628035853e989409d266abe83ef",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-rNhL9cH+kLDlamVL4R9nHTs+H+E3vHiryIl0uZMk7HMfW1OfAaORnr8NYYhb4UvqEdmqNueB2aFFHu5KuG2lug==",
+      "upstreamShasum": "5bd044fd8e5f8521595eb142a4e7533cb9914e54",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "GPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "net.tnrd.messagepack": "2.5.125"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/0.2.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rNhL9cH+kLDlamVL4R9nHTs+H+E3vHiryIl0uZMk7HMfW1OfAaORnr8NYYhb4UvqEdmqNueB2aFFHu5KuG2lug==",
+          "shasum": "5bd044fd8e5f8521595eb142a4e7533cb9914e54"
+        }
+      }
+    },
+    {
+      "version": "0.2.1",
+      "variantId": "registry-package.openupm.com-6cdeb6b539b60c0a",
+      "sourceUrl": "https://package.openupm.com/com.audune.persistence",
+      "sourceRef": "57f64316dfff4c47001c5b972bc1e05e1b47f97f",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-0.2.1.tgz",
+      "upstreamIntegrity": "sha512-mfzpMfZQXidtiUlRsKyTShp6wrDu1cL7V8EWi4v3wUv85hP/NMZ9RjY5LTcL4qDsHqvv/UlbHLocJiV682M8jg==",
+      "upstreamShasum": "a2bb598df05f3276af49d425cf394d5b7a701448",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "GPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.audune.utils.unityeditor": "1.0.0",
+        "net.tnrd.messagepack": "2.5.125"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/0.2.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mfzpMfZQXidtiUlRsKyTShp6wrDu1cL7V8EWi4v3wUv85hP/NMZ9RjY5LTcL4qDsHqvv/UlbHLocJiV682M8jg==",
+          "shasum": "a2bb598df05f3276af49d425cf394d5b7a701448"
+        }
+      }
+    },
+    {
+      "version": "0.2.2",
+      "variantId": "registry-package.openupm.com-7b6b7fe894ed2ba4",
+      "sourceUrl": "https://package.openupm.com/com.audune.persistence",
+      "sourceRef": "993358e1f7838e19c2c74dfc5d13e55a8d7387cd",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-0.2.2.tgz",
+      "upstreamIntegrity": "sha512-YQ8s+E5VoOF4pSO/HBjgt4fIjPIzuqhCO2i1wAISmtfGtZQvTVEILoHbCgrwtSfrHdodu2INkQ+2xAaK/wlPkg==",
+      "upstreamShasum": "8caa1f7a72329e36e3218b1ff37afebf2ae043a1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "GPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.audune.utils.unityeditor": "1.0.1",
+        "net.tnrd.messagepack": "2.5.125"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/0.2.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YQ8s+E5VoOF4pSO/HBjgt4fIjPIzuqhCO2i1wAISmtfGtZQvTVEILoHbCgrwtSfrHdodu2INkQ+2xAaK/wlPkg==",
+          "shasum": "8caa1f7a72329e36e3218b1ff37afebf2ae043a1"
+        }
+      }
+    },
+    {
+      "version": "0.2.3",
+      "variantId": "registry-package.openupm.com-2317e1c7ea3033f9",
+      "sourceUrl": "https://package.openupm.com/com.audune.persistence",
+      "sourceRef": "fe94307c7375e53d0a0962e6c5eb06e6340c72f0",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-0.2.3.tgz",
+      "upstreamIntegrity": "sha512-jhU7gkZ1L00P42Dqisk4MdKJL2K1lKW6NHrf3HJrDqdz3FgYGhj3EiO8eW1QvYghus+6Ff3by51BiIOmidfU1A==",
+      "upstreamShasum": "a38dccb141aecf06f2567a07cf88d75d8a9b822f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "GPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.audune.utils.unityeditor": "1.0.1",
+        "net.tnrd.messagepack": "2.5.125"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/0.2.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jhU7gkZ1L00P42Dqisk4MdKJL2K1lKW6NHrf3HJrDqdz3FgYGhj3EiO8eW1QvYghus+6Ff3by51BiIOmidfU1A==",
+          "shasum": "a38dccb141aecf06f2567a07cf88d75d8a9b822f"
+        }
+      }
+    },
+    {
+      "version": "0.2.4",
+      "variantId": "registry-package.openupm.com-1c0cd6acaa5f96ae",
+      "sourceUrl": "https://package.openupm.com/com.audune.persistence",
+      "sourceRef": "1db2a94b620eb6a16207958a03ceedcf273f7303",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-0.2.4.tgz",
+      "upstreamIntegrity": "sha512-iVLOYDsql4pCad62gq1xYtdAi/FEkiIBcDJZVUHCKxyAgmH4X5LOeYQiz1W2Xa/G11AkUanAcTEB5VZtNm2/Yw==",
+      "upstreamShasum": "efdef3a91ccf89ea79e11712717c90fa96a08e7d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "GPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.audune.utils.unityeditor": "1.0.1",
+        "net.tnrd.messagepack": "2.5.125"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/0.2.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iVLOYDsql4pCad62gq1xYtdAi/FEkiIBcDJZVUHCKxyAgmH4X5LOeYQiz1W2Xa/G11AkUanAcTEB5VZtNm2/Yw==",
+          "shasum": "efdef3a91ccf89ea79e11712717c90fa96a08e7d"
+        }
+      }
+    },
+    {
+      "version": "0.2.5",
+      "variantId": "registry-package.openupm.com-7cb503d51829e60e",
+      "sourceUrl": "https://package.openupm.com/com.audune.persistence",
+      "sourceRef": "9c7c33b5a51d2851ab6017f4a70f30c7eeca4089",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-0.2.5.tgz",
+      "upstreamIntegrity": "sha512-NKL5nVJMTFyp7Ex3TSIFqHbFvcTNV2+1isQAG2yWjF7Q8SORcxgwkkUMIms+UwkoGGhYDUqVSpqj3iLZnjMfcg==",
+      "upstreamShasum": "8e233417c2717c08974487ffeca8b76b5c0f9d7f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "GPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.audune.utils.types": "1.0.0",
+        "com.audune.utils.unityeditor": "2.0.0",
+        "net.tnrd.messagepack": "2.5.125"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/0.2.5",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NKL5nVJMTFyp7Ex3TSIFqHbFvcTNV2+1isQAG2yWjF7Q8SORcxgwkkUMIms+UwkoGGhYDUqVSpqj3iLZnjMfcg==",
+          "shasum": "8e233417c2717c08974487ffeca8b76b5c0f9d7f"
+        }
+      }
+    },
+    {
+      "version": "0.3.0",
+      "variantId": "registry-package.openupm.com-886dba81aede3d72",
+      "sourceUrl": "https://package.openupm.com/com.audune.persistence",
+      "sourceRef": "77c9872120a628da1142f785be0c607beec971cf",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-0.3.0.tgz",
+      "upstreamIntegrity": "sha512-6SAndYnaEirXVpqqUXDwox3rcix+G/C3IXL/WYXsEdo4nwfOuYtWCJ1VEmtRCebQNoRUPWQUhSIlkYa7SOJaUA==",
+      "upstreamShasum": "f9c442a3730956e7d5fc0cc195cfaeb059090a95",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "GPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.audune.utils.types": "1.0.0",
+        "com.audune.utils.unityeditor": "2.0.4",
+        "net.tnrd.messagepack": "2.5.125"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/0.3.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6SAndYnaEirXVpqqUXDwox3rcix+G/C3IXL/WYXsEdo4nwfOuYtWCJ1VEmtRCebQNoRUPWQUhSIlkYa7SOJaUA==",
+          "shasum": "f9c442a3730956e7d5fc0cc195cfaeb059090a95"
+        }
+      }
+    },
+    {
+      "version": "0.3.1",
+      "variantId": "registry-package.openupm.com-f23282c08304dda9",
+      "sourceUrl": "https://package.openupm.com/com.audune.persistence",
+      "sourceRef": "fc0e217532b7928872ee3a648a10025168a97873",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-0.3.1.tgz",
+      "upstreamIntegrity": "sha512-Q/3l7lJn3KETiVWMY+RyrHyXqFLYdcrk9W4LfL9ngDEaVq/7xcX44da80hLo4MqRacEfFu9NlnDv6L+zNwV3tA==",
+      "upstreamShasum": "b6c923a8862b9b58e7896590671a90be8aa41e9e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "GPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.audune.utils.types": "1.0.0",
+        "com.audune.utils.unityeditor": "2.0.4",
+        "net.tnrd.messagepack": "2.5.125"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/0.3.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Q/3l7lJn3KETiVWMY+RyrHyXqFLYdcrk9W4LfL9ngDEaVq/7xcX44da80hLo4MqRacEfFu9NlnDv6L+zNwV3tA==",
+          "shasum": "b6c923a8862b9b58e7896590671a90be8aa41e9e"
+        }
+      }
+    },
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-d9fc45d1ef21cc57",
+      "sourceUrl": "https://package.openupm.com/com.audune.persistence",
+      "sourceRef": "47799967cfef636b7ec215a4961ff39269565d7d",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-gwmPgDAGWwUvdEX8/4a+tXL+fxhI0VIYADlf9zU1/+YQXGGpftf49zFdqQgErHLo1GZ2NUtMwwiz49UFiDbW7A==",
+      "upstreamShasum": "afde33ee14ae838df291b7a2c48f3fd454038cec",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "GPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.audune.serialization": "1.0.0",
+        "com.audune.utils.types": "1.0.0",
+        "com.audune.utils.unityeditor": "2.0.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/1.0.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gwmPgDAGWwUvdEX8/4a+tXL+fxhI0VIYADlf9zU1/+YQXGGpftf49zFdqQgErHLo1GZ2NUtMwwiz49UFiDbW7A==",
+          "shasum": "afde33ee14ae838df291b7a2c48f3fd454038cec"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-a85f99a6b4b30418",
+      "sourceUrl": "https://package.openupm.com/com.audune.persistence",
+      "sourceRef": "834158e36c83bb27d78333571035fda9371532fe",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-Gvfq//dxoSeQre10i/zS1Cg/mk6N12bBOJApykSxqcEsfnEh/0Ix7WmB7O+qxBFWzm1pcaDzt3ZGmo13yzBYkg==",
+      "upstreamShasum": "e4f6d7b254f0aea4275a74165524523a6d897676",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "LGPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.audune.serialization": "1.0.2",
+        "com.audune.utils.types": "1.0.3",
+        "com.audune.utils.unityeditor": "2.0.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/1.0.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Gvfq//dxoSeQre10i/zS1Cg/mk6N12bBOJApykSxqcEsfnEh/0Ix7WmB7O+qxBFWzm1pcaDzt3ZGmo13yzBYkg==",
+          "shasum": "e4f6d7b254f0aea4275a74165524523a6d897676"
+        }
+      }
+    },
+    {
+      "version": "1.0.2",
+      "variantId": "registry-package.openupm.com-0f49c4f43b7c06f5",
+      "sourceUrl": "https://package.openupm.com/com.audune.persistence",
+      "sourceRef": "a56030316d41f552af511a82c8482bf27c2e5f03",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-1.0.2.tgz",
+      "upstreamIntegrity": "sha512-wFct0z9W/x1tmGvzpl9waZpreJwgUfW78SYOGZoC60asV6z+LnTk4gQx2CKAjWr+gqjCBc6pviYflceKxj9VEA==",
+      "upstreamShasum": "51e1c8aba7b2aa30a789b7973bcd3d83cae110b5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "LGPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.audune.serialization": "1.0.2",
+        "com.audune.utils.types": "1.0.3",
+        "com.audune.utils.unityeditor": "2.0.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/1.0.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wFct0z9W/x1tmGvzpl9waZpreJwgUfW78SYOGZoC60asV6z+LnTk4gQx2CKAjWr+gqjCBc6pviYflceKxj9VEA==",
+          "shasum": "51e1c8aba7b2aa30a789b7973bcd3d83cae110b5"
+        }
+      }
+    },
+    {
+      "version": "1.0.3",
+      "variantId": "registry-package.openupm.com-97852e5fa72f7223",
+      "sourceUrl": "https://package.openupm.com/com.audune.persistence",
+      "sourceRef": "55994d09b70546303e0c0a1ef0144b9178137a3f",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-1.0.3.tgz",
+      "upstreamIntegrity": "sha512-W24JnzDyOZoW2Q0AeUDdeTZ+nfQZbo6LCSnmCYnTA/Rv6D1m+8kf3K6aSlSC/qWUGPQrFoIjesrXqoytwlrRBQ==",
+      "upstreamShasum": "93c2f494a63a8487665f058e7cc3f03cf90e45e7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "LGPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.audune.serialization": "1.0.3",
+        "com.audune.utils.types": "1.0.3",
+        "com.audune.utils.unityeditor": "2.0.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/1.0.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-W24JnzDyOZoW2Q0AeUDdeTZ+nfQZbo6LCSnmCYnTA/Rv6D1m+8kf3K6aSlSC/qWUGPQrFoIjesrXqoytwlrRBQ==",
+          "shasum": "93c2f494a63a8487665f058e7cc3f03cf90e45e7"
+        }
+      }
+    },
+    {
+      "version": "1.0.4",
+      "variantId": "registry-package.openupm.com-b1823a0fbf9cae22",
+      "sourceUrl": "https://github.com/audunegames/object-persistence.git",
+      "sourceRef": "9061b62fcb1f90bc165a4aeb193d42d3b86906e5",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-1.0.4.tgz",
+      "upstreamIntegrity": "sha512-n15nSwI4MeGlxLdaOMtaGAl9IHixpWuJ45YT81UYx2QGpXuEQjNmONu2Xi2yEnpG0j8YawqySoaLw6GhE+HFsQ==",
+      "upstreamShasum": "272a83b3ef5935d5971915c9431d0ca16e9848d0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "LGPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.audune.serialization": "1.0.5",
+        "com.audune.utils.types": "1.0.7",
+        "com.audune.utils.unityeditor": "2.0.8"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/1.0.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-n15nSwI4MeGlxLdaOMtaGAl9IHixpWuJ45YT81UYx2QGpXuEQjNmONu2Xi2yEnpG0j8YawqySoaLw6GhE+HFsQ==",
+          "shasum": "272a83b3ef5935d5971915c9431d0ca16e9848d0"
+        }
+      }
+    },
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-6f72d498fc7bf84d",
+      "sourceUrl": "https://github.com/audunegames/object-persistence.git",
+      "sourceRef": "798b0e67dc74aeed7b9879b4dc2c47852a79f36b",
+      "downloadUrl": "https://package.openupm.com/com.audune.persistence/-/com.audune.persistence-2.0.0.tgz",
+      "upstreamIntegrity": "sha512-Bl2x4ejwTGTgQCBVPFvxVXkHrioIZqci9rfvtCLmzRzJteHvx76WDoceJdBhTWFr4B2CFM7j5JBCnaC7q25NOQ==",
+      "upstreamShasum": "2936830a63e7ad49a13e358820028f433b70d4e7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "LGPL-3.0-or-later",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.audune.serialization": "2.0.1",
+        "com.audune.utils.types": "1.0.8",
+        "com.audune.utils.unityeditor": "2.0.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.audune.persistence/2.0.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Bl2x4ejwTGTgQCBVPFvxVXkHrioIZqci9rfvtCLmzRzJteHvx76WDoceJdBhTWFr4B2CFM7j5JBCnaC7q25NOQ==",
+          "shasum": "2936830a63e7ad49a13e358820028f433b70d4e7"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.audune.persistence.yml",
+  "definitionBlobSha": "42f36f811a44919e55b01dd9372b698cdf95206d",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "2.0.0",
+    "1.0.4",
+    "0.3.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 15,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,241 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.kc.demo",
+  "displayName": "com.kc.demo",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.kc.demo",
+      "fetchedAt": "2026-10-17T17:39:23.338948Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "variantId": "registry-package.openupm.com-33807fe68db92097",
+      "sourceUrl": "https://package.openupm.com/com.kc.demo",
+      "sourceRef": "38f96fa876309028c72df324f31567720196c88e",
+      "downloadUrl": "https://package.openupm.com/com.kc.demo/-/com.kc.demo-0.1.0.tgz",
+      "upstreamIntegrity": "sha512-VRf82JdnmhnmmjxldYbI0UtG5PLXK51iG7gO/14/xUsTW+8g7pW2cF2me2jiLKP0KwsEy3gPg9WocaPEPCjguQ==",
+      "upstreamShasum": "ba9b9cadf0cde72e4354999f1d1f874ab0dc90be",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kc.demo/0.1.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VRf82JdnmhnmmjxldYbI0UtG5PLXK51iG7gO/14/xUsTW+8g7pW2cF2me2jiLKP0KwsEy3gPg9WocaPEPCjguQ==",
+          "shasum": "ba9b9cadf0cde72e4354999f1d1f874ab0dc90be"
+        }
+      }
+    },
+    {
+      "version": "0.1.2",
+      "variantId": "registry-package.openupm.com-0173809b6f5034b6",
+      "sourceUrl": "https://package.openupm.com/com.kc.demo",
+      "sourceRef": "bd23a50556a6feed3f2af17c0fa6e256c37c33fd",
+      "downloadUrl": "https://package.openupm.com/com.kc.demo/-/com.kc.demo-0.1.2.tgz",
+      "upstreamIntegrity": "sha512-ug1dfirzDTyMzusl5gibzncdHr6p9ZQi2qE20qbKyjDD/x9y265mjVkPtPeZ8nFJURbWLBzbMp1YAwE8AVMExA==",
+      "upstreamShasum": "8ca6c6d5085fb849032ea1b8a55488cd17a733d7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.kc.core": "0.1.0",
+        "com.kc.yooasset": "0.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kc.demo/0.1.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ug1dfirzDTyMzusl5gibzncdHr6p9ZQi2qE20qbKyjDD/x9y265mjVkPtPeZ8nFJURbWLBzbMp1YAwE8AVMExA==",
+          "shasum": "8ca6c6d5085fb849032ea1b8a55488cd17a733d7"
+        }
+      }
+    },
+    {
+      "version": "0.1.3",
+      "variantId": "registry-package.openupm.com-dd2e6716c7aac778",
+      "sourceUrl": "ssh://git@github.com/zkyvette425/com.kc.demo.git",
+      "sourceRef": "276440fda93c86fc489d021bc50e7fb00ea5f00f",
+      "downloadUrl": "https://package.openupm.com/com.kc.demo/-/com.kc.demo-0.1.3.tgz",
+      "upstreamIntegrity": "sha512-cCW2h0dzmz6BwsGH94/IGbIUZNRZzb+ZXc5hYU3XIfTkmkfyfmmE9Lv7v1oIVEaIC9yhh4wiz+d6Y8h1UA+7CA==",
+      "upstreamShasum": "9913504968d2b75b039d18d01bdb4147bac2cac3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "ISC",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.kc.core": "0.1.1",
+        "com.kc.yooasset": "0.1.1",
+        "com.cysharp.unitask": "2.5.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kc.demo/0.1.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cCW2h0dzmz6BwsGH94/IGbIUZNRZzb+ZXc5hYU3XIfTkmkfyfmmE9Lv7v1oIVEaIC9yhh4wiz+d6Y8h1UA+7CA==",
+          "shasum": "9913504968d2b75b039d18d01bdb4147bac2cac3"
+        }
+      }
+    },
+    {
+      "version": "0.1.4",
+      "variantId": "registry-package.openupm.com-263f06a63870f7b4",
+      "sourceUrl": "ssh://git@github.com/zkyvette425/com.kc.demo.git",
+      "sourceRef": "36c08ca0c054a3680a1277adbc2acbdd88ab0442",
+      "downloadUrl": "https://package.openupm.com/com.kc.demo/-/com.kc.demo-0.1.4.tgz",
+      "upstreamIntegrity": "sha512-N44+E7oQkL7s+zivGaKSRG9inJo/0js9XSy9O9QGvdgjUDU89hNJAM7GmLhp2tNyYQ65W1ZMK9VRcquZDTM8Tg==",
+      "upstreamShasum": "84ccaf21f50c5e2aebc5a69c17e277c37dbcdd34",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.kc.core": "<1.0.0",
+        "com.kc.yooasset": "<1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kc.demo/0.1.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-N44+E7oQkL7s+zivGaKSRG9inJo/0js9XSy9O9QGvdgjUDU89hNJAM7GmLhp2tNyYQ65W1ZMK9VRcquZDTM8Tg==",
+          "shasum": "84ccaf21f50c5e2aebc5a69c17e277c37dbcdd34"
+        }
+      }
+    },
+    {
+      "version": "0.1.5",
+      "variantId": "registry-package.openupm.com-442007dc7bdc37a1",
+      "sourceUrl": "ssh://git@github.com/zkyvette425/com.kc.demo.git",
+      "sourceRef": "e87389a2d8988ef7481d0bc3d967f3e68a615a3e",
+      "downloadUrl": "https://package.openupm.com/com.kc.demo/-/com.kc.demo-0.1.5.tgz",
+      "upstreamIntegrity": "sha512-tHu4Ff0dwX9NRMktTmWNb2oH6Y+L8ZO2XrTyZLg/TGxPGXA/0/dG2AqLB9H6FzHlEEWpDDjS6deiNnUp7ib7MQ==",
+      "upstreamShasum": "c3f5cf8b2d134b0ce3dc94882c71124cbce553f5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.kc.core": "0.1.6",
+        "com.kc.yooasset": "0.1.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kc.demo/0.1.5",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tHu4Ff0dwX9NRMktTmWNb2oH6Y+L8ZO2XrTyZLg/TGxPGXA/0/dG2AqLB9H6FzHlEEWpDDjS6deiNnUp7ib7MQ==",
+          "shasum": "c3f5cf8b2d134b0ce3dc94882c71124cbce553f5"
+        }
+      }
+    },
+    {
+      "version": "0.1.6",
+      "variantId": "registry-package.openupm.com-9a8bad5b98310cf5",
+      "sourceUrl": "ssh://git@github.com/zkyvette425/com.kc.demo.git",
+      "sourceRef": "292d3f390cb4ffadf8354ff7b3ee7058c52807d3",
+      "downloadUrl": "https://package.openupm.com/com.kc.demo/-/com.kc.demo-0.1.6.tgz",
+      "upstreamIntegrity": "sha512-2zs6+oJxyRdVzdCS4ktZeSfsIFVRZ994uBVfIqmXYGV5ICXsW/hm1cjPixXz0BSa+Q1vi6jiQTXkDK5emnC5yg==",
+      "upstreamShasum": "8afb583791fe53532f66bb63d6981fae2eb7d048",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.kc.core": "0.1.6",
+        "com.kc.yooasset": "0.1.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.kc.demo/0.1.6",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2zs6+oJxyRdVzdCS4ktZeSfsIFVRZ994uBVfIqmXYGV5ICXsW/hm1cjPixXz0BSa+Q1vi6jiQTXkDK5emnC5yg==",
+          "shasum": "8afb583791fe53532f66bb63d6981fae2eb7d048"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.1.6"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.kc.demo.yml",
+  "definitionBlobSha": "0bd619f51c34bfbd7b01751a1b83d1e44621d1c4",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.1.6",
+    "0.1.5",
+    "0.1.4"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 6,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

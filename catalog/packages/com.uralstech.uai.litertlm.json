@@ -1,0 +1,942 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.uralstech.uai.litertlm",
+  "displayName": "com.uralstech.uai.litertlm",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm",
+      "fetchedAt": "2026-10-17T17:42:49.297998Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0-preview.1",
+      "variantId": "registry-package.openupm.com-d0ff7cf71cc9d9c9",
+      "sourceUrl": "https://package.openupm.com/com.uralstech.uai.litertlm",
+      "sourceRef": "94078624abb0ae7fd037dfd45d160dbef502aeff",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-1.0.0-preview.1.tgz",
+      "upstreamIntegrity": "sha512-jnEOElUhLE0CADbmppGjEWgUhQoFsJB0Yj27OAJTd9ZXnyAsNhVIyHpJatxQX66bgTRF4rSmjG+e2OsaKB/Wuw==",
+      "upstreamShasum": "6ebec1dfacaacf7706ab39f29d748319832ad1c4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.186",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/1.0.0-preview.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jnEOElUhLE0CADbmppGjEWgUhQoFsJB0Yj27OAJTd9ZXnyAsNhVIyHpJatxQX66bgTRF4rSmjG+e2OsaKB/Wuw==",
+          "shasum": "6ebec1dfacaacf7706ab39f29d748319832ad1c4"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.2",
+      "variantId": "registry-package.openupm.com-cf9170c166b5f677",
+      "sourceUrl": "https://package.openupm.com/com.uralstech.uai.litertlm",
+      "sourceRef": "9ea9ef542c7a458ddccb6199cc2ee6bd0f706e72",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-1.0.0-preview.2.tgz",
+      "upstreamIntegrity": "sha512-FmZ1rY5DMwsCxV3BxWZPtBuRYJGBUQf4ID1omyA7aN2fUni/J74lVrSzkm91tQGfdlRYFLiKoJkIUrFobOE83Q==",
+      "upstreamShasum": "a252d5a242f0d4552b012efde90ca386c7264b77",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.186",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/1.0.0-preview.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FmZ1rY5DMwsCxV3BxWZPtBuRYJGBUQf4ID1omyA7aN2fUni/J74lVrSzkm91tQGfdlRYFLiKoJkIUrFobOE83Q==",
+          "shasum": "a252d5a242f0d4552b012efde90ca386c7264b77"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.1-litertlm0.9.0alpha01",
+      "variantId": "registry-package.openupm.com-9cd7ce53967b5e1f",
+      "sourceUrl": "https://package.openupm.com/com.uralstech.uai.litertlm",
+      "sourceRef": "afd10cae52f30bbc23e604bc0c79d2369bd6a52e",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-1.0.0-preview.1-litertlm0.9.0alpha01.tgz",
+      "upstreamIntegrity": "sha512-9Ie4ynNOrk23oPjRMlC1Z/baKWmS9LtGbi/EX2CQFtTl5TNupba0NNoTb4BgSC0Op0DjCAv/YTUUlQeh93lZ1A==",
+      "upstreamShasum": "b2b32c909cfd21ea5908ecf1e3d9d479367fb189",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.186",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/1.0.0-preview.1-litertlm0.9.0alpha01",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9Ie4ynNOrk23oPjRMlC1Z/baKWmS9LtGbi/EX2CQFtTl5TNupba0NNoTb4BgSC0Op0DjCAv/YTUUlQeh93lZ1A==",
+          "shasum": "b2b32c909cfd21ea5908ecf1e3d9d479367fb189"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.2-litertlm0.9.0alpha01",
+      "variantId": "registry-package.openupm.com-c0ab6f01a598d896",
+      "sourceUrl": "https://package.openupm.com/com.uralstech.uai.litertlm",
+      "sourceRef": "2e7e90a6dd08870af7d7cd597c1d73fe65f2ce9b",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-1.0.0-preview.2-litertlm0.9.0alpha01.tgz",
+      "upstreamIntegrity": "sha512-kxRkDzuErfhxl9v9nAZSVlc4SoHvoje7pCrJ1Wlf7LHmNLKhiPtNYjP5z1IFRJEwcKmETuq+c/Yk1yHHXBZ2dQ==",
+      "upstreamShasum": "4aa3ec33563e2f7dc494acb205168201f0fe169f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.186",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/1.0.0-preview.2-litertlm0.9.0alpha01",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kxRkDzuErfhxl9v9nAZSVlc4SoHvoje7pCrJ1Wlf7LHmNLKhiPtNYjP5z1IFRJEwcKmETuq+c/Yk1yHHXBZ2dQ==",
+          "shasum": "4aa3ec33563e2f7dc494acb205168201f0fe169f"
+        }
+      }
+    },
+    {
+      "version": "2.0.0-preview.1",
+      "variantId": "registry-package.openupm.com-fdd5521f3a4b4714",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "315e58be0bf05e3c94cdbcf6ab70b14de9412a20",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.0.0-preview.1.tgz",
+      "upstreamIntegrity": "sha512-HiYrEs3lVc+wHYLEVrG2Te9HbqTKMSeKoBh+r+ZZPJ3yOiZP+OdJP3DcaG22bikBbglJ8+f7+EkXPKzOWES3wg==",
+      "upstreamShasum": "727332c36427853f58471f5b60125071f169701f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.0.0-preview.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HiYrEs3lVc+wHYLEVrG2Te9HbqTKMSeKoBh+r+ZZPJ3yOiZP+OdJP3DcaG22bikBbglJ8+f7+EkXPKzOWES3wg==",
+          "shasum": "727332c36427853f58471f5b60125071f169701f"
+        }
+      }
+    },
+    {
+      "version": "2.1.0-preview.1",
+      "variantId": "registry-package.openupm.com-f8788110aaf7d23a",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "a1deda59bd719f409a2202a2b3837c74ad5981aa",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.1.0-preview.1.tgz",
+      "upstreamIntegrity": "sha512-AWito64VNKegF8S1wfJ54uElB/z3vXZX+NPMKbs7P0wQy+2VDDsCKjnEmAd1qSXFpAajqw0jOVn4T9TAN4PeWQ==",
+      "upstreamShasum": "cd7ef71d1998e62efb438fd6ebb3b231a048c8ed",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.1.0-preview.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-AWito64VNKegF8S1wfJ54uElB/z3vXZX+NPMKbs7P0wQy+2VDDsCKjnEmAd1qSXFpAajqw0jOVn4T9TAN4PeWQ==",
+          "shasum": "cd7ef71d1998e62efb438fd6ebb3b231a048c8ed"
+        }
+      }
+    },
+    {
+      "version": "2.1.0-preview.2",
+      "variantId": "registry-package.openupm.com-a41cfde4436ef534",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "3c6a3ecf0a0c3eb1581ea9cbe7187a2562569d4d",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.1.0-preview.2.tgz",
+      "upstreamIntegrity": "sha512-74VNwM9m6eRhY+Llv5cltidFVSyzI3tUEbxVOW6xMAomxjJxpxm/dZSGLAi3s6NzI7eFZuKglEoiIT9Rsx6rIw==",
+      "upstreamShasum": "70a04f74bb0ec4dd6d62d0ee63a717a15aadbf73",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.1.0-preview.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-74VNwM9m6eRhY+Llv5cltidFVSyzI3tUEbxVOW6xMAomxjJxpxm/dZSGLAi3s6NzI7eFZuKglEoiIT9Rsx6rIw==",
+          "shasum": "70a04f74bb0ec4dd6d62d0ee63a717a15aadbf73"
+        }
+      }
+    },
+    {
+      "version": "2.1.0-preview.3",
+      "variantId": "registry-package.openupm.com-4d907fee98f15424",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "b367b965eb7f64cc8dfda70da40f4bc8269ee565",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.1.0-preview.3.tgz",
+      "upstreamIntegrity": "sha512-5IXisIm8EOfJk5qTfZ5UM4ltF3WWGLj2fgbPIGnhYX7KjddX+ZgQaQdGX+ogXgCN+45khqzA/TXDsTIwfTKL8g==",
+      "upstreamShasum": "38890b57529d463aeb8ce708d7c3180291766226",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.1.0-preview.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5IXisIm8EOfJk5qTfZ5UM4ltF3WWGLj2fgbPIGnhYX7KjddX+ZgQaQdGX+ogXgCN+45khqzA/TXDsTIwfTKL8g==",
+          "shasum": "38890b57529d463aeb8ce708d7c3180291766226"
+        }
+      }
+    },
+    {
+      "version": "2.1.0-preview.4",
+      "variantId": "registry-package.openupm.com-a6130ada5e0a5838",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "a1ea9ca5e5d7d95505ce209ad3fa357e9594395c",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.1.0-preview.4.tgz",
+      "upstreamIntegrity": "sha512-yLg5aJbWFJo7Ezh+MV9oXDnrZopoOeP40OevOTp4qnKDkrZSEtIxuxtrSGsooUynWzS+VuX1QF6QXb/7kLv+/w==",
+      "upstreamShasum": "cb2206a685115572132ce5b10107ff68f0387e91",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.1.0-preview.4",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yLg5aJbWFJo7Ezh+MV9oXDnrZopoOeP40OevOTp4qnKDkrZSEtIxuxtrSGsooUynWzS+VuX1QF6QXb/7kLv+/w==",
+          "shasum": "cb2206a685115572132ce5b10107ff68f0387e91"
+        }
+      }
+    },
+    {
+      "version": "2.1.0-preview.5",
+      "variantId": "registry-package.openupm.com-cdb3c1a13f0838cf",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "66be8c89f17198d415391e463a460d37c016c7b6",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.1.0-preview.5.tgz",
+      "upstreamIntegrity": "sha512-835XICrcsam8dB3r27eDq2rY94CCxEBkZwTXFhCdeeC7fwouhw1Ltu3Xf0z2pfKstnHhrNitgkctYzlQRKVc/w==",
+      "upstreamShasum": "e48774c4d44f2cf231d38bc75f21ea63cb463fb0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.1.0-preview.5",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-835XICrcsam8dB3r27eDq2rY94CCxEBkZwTXFhCdeeC7fwouhw1Ltu3Xf0z2pfKstnHhrNitgkctYzlQRKVc/w==",
+          "shasum": "e48774c4d44f2cf231d38bc75f21ea63cb463fb0"
+        }
+      }
+    },
+    {
+      "version": "2.1.0-preview.6",
+      "variantId": "registry-package.openupm.com-74c93db88fb20784",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "13a799b4d322f8fd2a1d57127ce5826c4717e8a1",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.1.0-preview.6.tgz",
+      "upstreamIntegrity": "sha512-725zLSbgcgYgGQcO3feC7W5o5d0cAGY5zWapajE7ocWllKmSYim5E++ddy2ukjE+1Msi1wpWAoE+KdVX3wHrWw==",
+      "upstreamShasum": "59762fc9877d7ef497e0a39d4f37b40b8c218449",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.1.0-preview.6",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-725zLSbgcgYgGQcO3feC7W5o5d0cAGY5zWapajE7ocWllKmSYim5E++ddy2ukjE+1Msi1wpWAoE+KdVX3wHrWw==",
+          "shasum": "59762fc9877d7ef497e0a39d4f37b40b8c218449"
+        }
+      }
+    },
+    {
+      "version": "2.1.0-preview.7",
+      "variantId": "registry-package.openupm.com-03c61c6cfb2ee9c2",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "fe81b90ec4f3024b96886787de0d89ccd3141b64",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.1.0-preview.7.tgz",
+      "upstreamIntegrity": "sha512-slU8bdyOgSNhFJ/y/HAMXfo+q2dAUAFh843jZyLpoWse+FWea+kTXo7sJlwX69LQRfHhpXx+lSJ4Rd8yzUe75Q==",
+      "upstreamShasum": "760fc547bbd8f120e38b1ee3ec36bf5a69e6341c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.1.0-preview.7",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-slU8bdyOgSNhFJ/y/HAMXfo+q2dAUAFh843jZyLpoWse+FWea+kTXo7sJlwX69LQRfHhpXx+lSJ4Rd8yzUe75Q==",
+          "shasum": "760fc547bbd8f120e38b1ee3ec36bf5a69e6341c"
+        }
+      }
+    },
+    {
+      "version": "2.2.0-preview.1",
+      "variantId": "registry-package.openupm.com-3044db313d114807",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "9a2fbdc0869d6b6bde39863b5b45875c9bc89ca1",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.2.0-preview.1.tgz",
+      "upstreamIntegrity": "sha512-fAiZNqNuEMSu6VFMycfd7ByTyNqKPKQJXfAhv2pY01N9TgUUWEjYMvOmU7UetgsmgpYt3GxVTrqIgy8mjuq7NQ==",
+      "upstreamShasum": "706e76801562a8fd8055be610bac97746cd10eb1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.2.0-preview.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fAiZNqNuEMSu6VFMycfd7ByTyNqKPKQJXfAhv2pY01N9TgUUWEjYMvOmU7UetgsmgpYt3GxVTrqIgy8mjuq7NQ==",
+          "shasum": "706e76801562a8fd8055be610bac97746cd10eb1"
+        }
+      }
+    },
+    {
+      "version": "2.2.0-preview.2",
+      "variantId": "registry-package.openupm.com-0b5377fd9bd79cf4",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "3fa98f185cf660d7ce3dbbebb511bf3c135df90c",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.2.0-preview.2.tgz",
+      "upstreamIntegrity": "sha512-bLFLzFFsFb79Gh5OajcRISv68zXGFgDrv9UzvvZYWIfKvrk1PVLt9EbsP5q04Agbrwxgtzq50i6m1vi/Y2bziw==",
+      "upstreamShasum": "3b04366d59b4acabcaa5cf4e856d781e13b2b8e5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.2.0-preview.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bLFLzFFsFb79Gh5OajcRISv68zXGFgDrv9UzvvZYWIfKvrk1PVLt9EbsP5q04Agbrwxgtzq50i6m1vi/Y2bziw==",
+          "shasum": "3b04366d59b4acabcaa5cf4e856d781e13b2b8e5"
+        }
+      }
+    },
+    {
+      "version": "2.2.0-preview.3",
+      "variantId": "registry-package.openupm.com-beb498cc519d7254",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "f9543263ab0f45a406a9e21952da0e95f5aa83a9",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.2.0-preview.3.tgz",
+      "upstreamIntegrity": "sha512-hDZgBism7aQliTWLCRtw9zez06st3vo/oBSybLlL52C/DuDLNaL8RmzdDwKMf3LX123B/p7EYGE+vEHXk/dunQ==",
+      "upstreamShasum": "acb9c13ddac010f0d1acc09be4750f7ca4222f4a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.2.0-preview.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hDZgBism7aQliTWLCRtw9zez06st3vo/oBSybLlL52C/DuDLNaL8RmzdDwKMf3LX123B/p7EYGE+vEHXk/dunQ==",
+          "shasum": "acb9c13ddac010f0d1acc09be4750f7ca4222f4a"
+        }
+      }
+    },
+    {
+      "version": "2.3.0-preview.1",
+      "variantId": "registry-package.openupm.com-55e5ed19939c03f3",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "dca9da78a1b030323a4672d8dea5982054d430f8",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.3.0-preview.1.tgz",
+      "upstreamIntegrity": "sha512-1Xx4oqqJY9hpO8ZE2ZzRzjcxTcwwrFL/bNyt/KkDklbr6REzG/TQ/Hv0H98ExPfJk+O3g0OQNFPo7fj+gb8TLA==",
+      "upstreamShasum": "3557ea7bc9df7dd302109f597774e4ec19ee8fb2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.3.0-preview.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1Xx4oqqJY9hpO8ZE2ZzRzjcxTcwwrFL/bNyt/KkDklbr6REzG/TQ/Hv0H98ExPfJk+O3g0OQNFPo7fj+gb8TLA==",
+          "shasum": "3557ea7bc9df7dd302109f597774e4ec19ee8fb2"
+        }
+      }
+    },
+    {
+      "version": "2.4.0-preview.1",
+      "variantId": "registry-package.openupm.com-f8c1d83a903d4a37",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "e57a72e38f7da9f02d958a03a6864be972735e68",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.4.0-preview.1.tgz",
+      "upstreamIntegrity": "sha512-FWLoOgviEjOL8HPIN4FBpYiwd8KaIVZ9C5b5LgyqRDbCIas6vKCu1xTG+xV3vgAJp+qyP2JzUEPSzDdODUfP4A==",
+      "upstreamShasum": "43f08f63efb9584a88e9bbc9d0a665820a74890c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.4.0-preview.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FWLoOgviEjOL8HPIN4FBpYiwd8KaIVZ9C5b5LgyqRDbCIas6vKCu1xTG+xV3vgAJp+qyP2JzUEPSzDdODUfP4A==",
+          "shasum": "43f08f63efb9584a88e9bbc9d0a665820a74890c"
+        }
+      }
+    },
+    {
+      "version": "2.4.0-preview.2",
+      "variantId": "registry-package.openupm.com-f351755cec63e070",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "b0773a14e0650e6e70b973a08da47044bfa033c7",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.4.0-preview.2.tgz",
+      "upstreamIntegrity": "sha512-corwk6YvKneEGtHtpzsnl9TJ1IlnKgPxW4Qx65ywgG2rRbklOUh9X8C3AqKb6HxZUCW9dt2SUzdcMaKKyjS8ag==",
+      "upstreamShasum": "6081a422077f96711058b1700baa252e319a0e1c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.4.0-preview.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-corwk6YvKneEGtHtpzsnl9TJ1IlnKgPxW4Qx65ywgG2rRbklOUh9X8C3AqKb6HxZUCW9dt2SUzdcMaKKyjS8ag==",
+          "shasum": "6081a422077f96711058b1700baa252e319a0e1c"
+        }
+      }
+    },
+    {
+      "version": "2.4.0-preview.3",
+      "variantId": "registry-package.openupm.com-ba2e6fea7d8a2486",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "b106fdc3bb439e5db233e1d5f894c1ac4e661170",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.4.0-preview.3.tgz",
+      "upstreamIntegrity": "sha512-Fswr6sbHIN8TWO3qe5bt8zBfBf/TvcB4b8rVxJewEtB8x8Q1L7f/nFzp6+dxnLOLQIf1ki7jlt/I2Qr29+I2dg==",
+      "upstreamShasum": "e2c259102a9471d01ba0a5a9fb28734d200bfbdc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.4.0-preview.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Fswr6sbHIN8TWO3qe5bt8zBfBf/TvcB4b8rVxJewEtB8x8Q1L7f/nFzp6+dxnLOLQIf1ki7jlt/I2Qr29+I2dg==",
+          "shasum": "e2c259102a9471d01ba0a5a9fb28734d200bfbdc"
+        }
+      }
+    },
+    {
+      "version": "2.4.0-preview.4",
+      "variantId": "registry-package.openupm.com-a1c220c9d055fd96",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "ba9c8ccc42953549304e332fc8b9033b1df3cca2",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.4.0-preview.4.tgz",
+      "upstreamIntegrity": "sha512-Rv6uEj6Cjo+QWa/K4pQz77psoEZAc/PcLRUthmtN4B9QumL5Ys+D2mz1+DFAuyzMWiqCHIc0yGBVehqtRHW6vw==",
+      "upstreamShasum": "bd419d39c6c1c85703db94e2ce39afb0345c7d9f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.4.0-preview.4",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Rv6uEj6Cjo+QWa/K4pQz77psoEZAc/PcLRUthmtN4B9QumL5Ys+D2mz1+DFAuyzMWiqCHIc0yGBVehqtRHW6vw==",
+          "shasum": "bd419d39c6c1c85703db94e2ce39afb0345c7d9f"
+        }
+      }
+    },
+    {
+      "version": "2.5.0-preview.1",
+      "variantId": "registry-package.openupm.com-aeb55372d5c37227",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "7bbdad338d07579bcd0de63a55b06b8456269670",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.5.0-preview.1.tgz",
+      "upstreamIntegrity": "sha512-MJZjkFvgbLU5PZyZ9835csLM34B8Ia0luEWzRzJyBfujc5XEudmT6jLjmCuqWfkZoSWsM0nNVCKt3hTHGtcGew==",
+      "upstreamShasum": "8c74e6c579175d0dfa9016b46106d33aeb4158cb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.5.0-preview.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MJZjkFvgbLU5PZyZ9835csLM34B8Ia0luEWzRzJyBfujc5XEudmT6jLjmCuqWfkZoSWsM0nNVCKt3hTHGtcGew==",
+          "shasum": "8c74e6c579175d0dfa9016b46106d33aeb4158cb"
+        }
+      }
+    },
+    {
+      "version": "2.5.0-preview.2",
+      "variantId": "registry-package.openupm.com-16062be5d1ef9ada",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "9cbb2cc352090e65ef7038c6d394ee751610c165",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.5.0-preview.2.tgz",
+      "upstreamIntegrity": "sha512-TyZ5d2025cUpptICCQ58/xkABb+oAANBK7+dJ261KsRMTjpkNLqVNnpX1FhfyudTpBBd/OJJgua2HI9/XKSJPw==",
+      "upstreamShasum": "32672fc54403a6f94b7413e3e20afc20193b9cbd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.5.0-preview.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TyZ5d2025cUpptICCQ58/xkABb+oAANBK7+dJ261KsRMTjpkNLqVNnpX1FhfyudTpBBd/OJJgua2HI9/XKSJPw==",
+          "shasum": "32672fc54403a6f94b7413e3e20afc20193b9cbd"
+        }
+      }
+    },
+    {
+      "version": "2.5.0-preview.3",
+      "variantId": "registry-package.openupm.com-f1380489aeb1bfe4",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "6bf0fcadde30a8a4efb48fea8cbfe866dbce90c8",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.5.0-preview.3.tgz",
+      "upstreamIntegrity": "sha512-Eeld4CjPS06m96dDN+a6XugC561AcK75u0y7x9YEoICLsNbZZCK9WD8Y9TE4P/vEM0Y2csL7yEXFsTSG3jNVZw==",
+      "upstreamShasum": "78ef3c51369c78c0ddbee55f566728a046bbe65e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.5.0-preview.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Eeld4CjPS06m96dDN+a6XugC561AcK75u0y7x9YEoICLsNbZZCK9WD8Y9TE4P/vEM0Y2csL7yEXFsTSG3jNVZw==",
+          "shasum": "78ef3c51369c78c0ddbee55f566728a046bbe65e"
+        }
+      }
+    },
+    {
+      "version": "2.5.0-preview.4",
+      "variantId": "registry-package.openupm.com-bf3e8882c1266d38",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "da35060da378dd3ce558c0b9894b63cdacfeaee4",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.5.0-preview.4.tgz",
+      "upstreamIntegrity": "sha512-BQBQ7esrsXbbpC70xNKBZa+o4VR/YrK2J8/TEv2XhGDy8C3MAmMbQU7JelK/8nk/+RBL7GsqSZPJlnWQZ7qUYA==",
+      "upstreamShasum": "098bf092904e11a6571c07c61e735cef212656ad",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.5.0-preview.4",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BQBQ7esrsXbbpC70xNKBZa+o4VR/YrK2J8/TEv2XhGDy8C3MAmMbQU7JelK/8nk/+RBL7GsqSZPJlnWQZ7qUYA==",
+          "shasum": "098bf092904e11a6571c07c61e735cef212656ad"
+        }
+      }
+    },
+    {
+      "version": "2.6.0-preview.1",
+      "variantId": "registry-package.openupm.com-1371a3e1ce78d591",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "f8f6d10827bf9e1496bd4cd75f3bee6a73d2955e",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.6.0-preview.1.tgz",
+      "upstreamIntegrity": "sha512-VQuIBk4sfbT/QMSwk75NuQcEdreBrp4cg8x2LsHjSPLWVpq3IKq2kv86fEh437gGoUf4DSuZZqag3X3jMsuEiA==",
+      "upstreamShasum": "7f9dbc3ed3d7efea5ae8d5ffb873f06bcd7e7393",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.6.0-preview.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VQuIBk4sfbT/QMSwk75NuQcEdreBrp4cg8x2LsHjSPLWVpq3IKq2kv86fEh437gGoUf4DSuZZqag3X3jMsuEiA==",
+          "shasum": "7f9dbc3ed3d7efea5ae8d5ffb873f06bcd7e7393"
+        }
+      }
+    },
+    {
+      "version": "2.7.0-preview.1",
+      "variantId": "registry-package.openupm.com-9e0c3df28486607f",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "5ddfa7ab447ab699cb00630dcd7332ae1859ab91",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.7.0-preview.1.tgz",
+      "upstreamIntegrity": "sha512-2ezNHlxtkZ1jNz6Gk55ngTlcVTdma0M0chx1i15vjKlOCR4FlFJWkxApjc2KO7uvZYb/Vfc72aaWUmcVOYfCaA==",
+      "upstreamShasum": "806e181e3ea1c80d57fc55517d4276c5a970ab2f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.7.0-preview.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2ezNHlxtkZ1jNz6Gk55ngTlcVTdma0M0chx1i15vjKlOCR4FlFJWkxApjc2KO7uvZYb/Vfc72aaWUmcVOYfCaA==",
+          "shasum": "806e181e3ea1c80d57fc55517d4276c5a970ab2f"
+        }
+      }
+    },
+    {
+      "version": "2.7.0-preview.2",
+      "variantId": "registry-package.openupm.com-239679baf096dad2",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "c74ee172033b8118e62e9d00549e5ea576f83707",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.7.0-preview.2.tgz",
+      "upstreamIntegrity": "sha512-jyGXTzoTOLqy62JcQBu0G6Hc2/i/6zQoJSBV1rbmHe7Of5FRLBQhq6e8qADhpexzN8spZW+nJLk0nevxzwZ0kQ==",
+      "upstreamShasum": "6f21e7e5b0c3277e0554f952473270f5847109b4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.7.0-preview.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jyGXTzoTOLqy62JcQBu0G6Hc2/i/6zQoJSBV1rbmHe7Of5FRLBQhq6e8qADhpexzN8spZW+nJLk0nevxzwZ0kQ==",
+          "shasum": "6f21e7e5b0c3277e0554f952473270f5847109b4"
+        }
+      }
+    },
+    {
+      "version": "2.7.0-preview.3",
+      "variantId": "registry-package.openupm.com-2c02c6a90b3933f8",
+      "sourceUrl": "https://github.com/Uralstech/UAI.LiteRTLM.git",
+      "sourceRef": "73e4e836b28752fb8fbdb5d9660ec7d6dd385c98",
+      "downloadUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/-/com.uralstech.uai.litertlm-2.7.0-preview.3.tgz",
+      "upstreamIntegrity": "sha512-MW2xFqX0BNGA+6YJCGU7piWBxgmBR+sy+7DykgsxwUbtR+G9oViD9XLwhSetzPWEiFFKb/ri7iG48XgU72wpLA==",
+      "upstreamShasum": "3c0ced292da7eb9df234496a8b95ff05a46205aa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.uralstech.uai.litertlm/2.7.0-preview.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MW2xFqX0BNGA+6YJCGU7piWBxgmBR+sy+7DykgsxwUbtR+G9oViD9XLwhSetzPWEiFFKb/ri7iG48XgU72wpLA==",
+          "shasum": "3c0ced292da7eb9df234496a8b95ff05a46205aa"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.7.0-preview.3",
+    "patch@1.0.0-preview.2": "1.0.0-preview.2"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.uralstech.uai.litertlm.yml",
+  "definitionBlobSha": "60a121d93ed1524beec605ad995c5980dafdd526",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "2.7.0-preview.3",
+    "2.7.0-preview.1",
+    "1.0.0-preview.2-litertlm0.9.0alpha01"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 28,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

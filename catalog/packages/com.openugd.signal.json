@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.openugd.signal",
+  "displayName": "com.openugd.signal",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.openugd.signal",
+      "fetchedAt": "2026-10-17T17:40:45.853550Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-b5b5356a02a2fb9d",
+      "sourceUrl": "https://package.openupm.com/com.openugd.signal",
+      "sourceRef": "a4e1553a65846597288fd2a563ff4ab6ece37b8f",
+      "downloadUrl": "https://package.openupm.com/com.openugd.signal/-/com.openugd.signal-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-1CCMT79gDQAz2WNBlA1KyywsSY1bcMKJX9WzaTf5P5Uo5TvOkM/MXYJz5MnD5w+Tk1+ajLmwm97Pc78S7uhnNQ==",
+      "upstreamShasum": "c971814bf39a4a2393fef3f75c0d069c72614484",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.openugd.lifetime": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.openugd.signal/1.0.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1CCMT79gDQAz2WNBlA1KyywsSY1bcMKJX9WzaTf5P5Uo5TvOkM/MXYJz5MnD5w+Tk1+ajLmwm97Pc78S7uhnNQ==",
+          "shasum": "c971814bf39a4a2393fef3f75c0d069c72614484"
+        }
+      }
+    },
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-97e56658a96ee179",
+      "sourceUrl": "https://github.com/openugd/upm-signal.git",
+      "sourceRef": "57ab1f7d3a195b65ab69adeece124a01d90b84f2",
+      "downloadUrl": "https://package.openupm.com/com.openugd.signal/-/com.openugd.signal-2.0.0.tgz",
+      "upstreamIntegrity": "sha512-OTnMgVX/AR6iKB98Ot0+tgiymOnIZ77P9GvPLUMXXJcA38Od6DLNlNYwY9XI2GDLb0escj/xcS95hWtoW3t7og==",
+      "upstreamShasum": "daf122c445914d9a2931b372163dd9338825400f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.openugd.lifetime": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.openugd.signal/2.0.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OTnMgVX/AR6iKB98Ot0+tgiymOnIZ77P9GvPLUMXXJcA38Od6DLNlNYwY9XI2GDLb0escj/xcS95hWtoW3t7og==",
+          "shasum": "daf122c445914d9a2931b372163dd9338825400f"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.openugd.signal.yml",
+  "definitionBlobSha": "4aeb86641d8fa499f5868aa3f51b4a826dbe7887",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "1.0.0",
+    "2.0.0"
+  ],
+  "selectedVersions": [
+    "1.0.0",
+    "2.0.0"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 2,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

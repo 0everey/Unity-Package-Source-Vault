@@ -1,0 +1,947 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.andywiecko.burst.triangulator",
+  "displayName": "com.andywiecko.burst.triangulator",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator",
+      "fetchedAt": "2026-10-17T17:36:34.681876Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-be826e4876ee0c54",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "22118a504f80506a0ab6da26c7e2d0b5bfe183d9",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-in1AOnAlHl8Lkux0UxDLteT4cZmiB4cqJL8nY3eUvDhsFgQapJh9eSPvjm0nz0T9Ruzmr3clinuR35c3yXUW7w==",
+      "upstreamShasum": "e47e8f1c656c723b0457fcee1f64bac936fa82f7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.5.5",
+        "com.unity.jobs": "0.8.0-preview.23"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/1.0.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-in1AOnAlHl8Lkux0UxDLteT4cZmiB4cqJL8nY3eUvDhsFgQapJh9eSPvjm0nz0T9Ruzmr3clinuR35c3yXUW7w==",
+          "shasum": "e47e8f1c656c723b0457fcee1f64bac936fa82f7"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-970b752f1ff0ed13",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "b77be530a7763b9c3f48f33b2086305feeea2da2",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-78tRMPoVOJsn/sZrXiPWDRyGOc5eO3N0w+uqpkDkVf72sGGl7sCHesWKK0OjcwX8rejeSjIKcX4dL3dtiURa8g==",
+      "upstreamShasum": "15204496711d1881ef9cf6fa05f0227985736dd9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.5.5",
+        "com.unity.jobs": "0.11.0-preview.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/1.0.1",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-78tRMPoVOJsn/sZrXiPWDRyGOc5eO3N0w+uqpkDkVf72sGGl7sCHesWKK0OjcwX8rejeSjIKcX4dL3dtiURa8g==",
+          "shasum": "15204496711d1881ef9cf6fa05f0227985736dd9"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-19059bde6e0c5787",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "4f3a4454f8f96dadb5efff1aa5b711c5f84dd1fb",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-djBUpLArzSje7ZhAvizVGSEsFMkJdDItHiPVhfEerHDML2SlYzecZbxPFSaPrVvDRwDR6PmwsgUFUGpWGBOdyw==",
+      "upstreamShasum": "4771d2138e921b615525dc9ae598449c968c8d47",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.5.5",
+        "com.unity.jobs": "0.11.0-preview.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/1.1.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-djBUpLArzSje7ZhAvizVGSEsFMkJdDItHiPVhfEerHDML2SlYzecZbxPFSaPrVvDRwDR6PmwsgUFUGpWGBOdyw==",
+          "shasum": "4771d2138e921b615525dc9ae598449c968c8d47"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-240944e4bdaed14a",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "7359c11ab23e7aacd5577447c21b056ab72a2667",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-6bKlI4cA9moQYIzIkxEMkOXw+hJC1W90EOWKbQRMcH4+nm3+jhT0mV9uJElQ6ajx4yoY7QB3gtGjARTq+srUnA==",
+      "upstreamShasum": "fc5530e835cde8a3928307d339fea02b9c7f12e6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.5.5",
+        "com.unity.jobs": "0.11.0-preview.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/1.2.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6bKlI4cA9moQYIzIkxEMkOXw+hJC1W90EOWKbQRMcH4+nm3+jhT0mV9uJElQ6ajx4yoY7QB3gtGjARTq+srUnA==",
+          "shasum": "fc5530e835cde8a3928307d339fea02b9c7f12e6"
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "variantId": "registry-package.openupm.com-d95b0c061906d266",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "30b05fe02499653adb7b08ce8727c68502b822b3",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-1.3.0.tgz",
+      "upstreamIntegrity": "sha512-JYRxw8meZaeMv9dEBvE7aCn06Fy7E3dQ4aN2C5xWXT8Wer/XgtibLFZll5a2pESjLAOBnMPwesM57K6RDzHYhg==",
+      "upstreamShasum": "db3feb9844d5c7cd02515ce17975317241ec4309",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.5.5",
+        "com.unity.jobs": "0.11.0-preview.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/1.3.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JYRxw8meZaeMv9dEBvE7aCn06Fy7E3dQ4aN2C5xWXT8Wer/XgtibLFZll5a2pESjLAOBnMPwesM57K6RDzHYhg==",
+          "shasum": "db3feb9844d5c7cd02515ce17975317241ec4309"
+        }
+      }
+    },
+    {
+      "version": "1.4.0",
+      "variantId": "registry-package.openupm.com-5f2f3de368d1f10f",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "73ead7d4f96fdeabcf29b05fb462bba50d3d0ab9",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-1.4.0.tgz",
+      "upstreamIntegrity": "sha512-SHYXLg8NFKEIFLGLmQ+rmaf2YaGAExGay6qglppWABFy04NntfDKAp41yz+pMimvFuaCyUsPgUJsSE3bZ10tzg==",
+      "upstreamShasum": "013c20b4b9fb39f421f6f4addbe4654a052b818a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.5.5",
+        "com.unity.jobs": "0.11.0-preview.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/1.4.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SHYXLg8NFKEIFLGLmQ+rmaf2YaGAExGay6qglppWABFy04NntfDKAp41yz+pMimvFuaCyUsPgUJsSE3bZ10tzg==",
+          "shasum": "013c20b4b9fb39f421f6f4addbe4654a052b818a"
+        }
+      }
+    },
+    {
+      "version": "1.5.0",
+      "variantId": "registry-package.openupm.com-dd31c87e3c258955",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "141760240f00f4c825efc0ce76c3f2b5b81a18bf",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-1.5.0.tgz",
+      "upstreamIntegrity": "sha512-as6M7yGlTvBrY9+fKBZmWvYTfnsWbZz8r5+0oFqRt6oR9sjeL9f83XgVYKJiWEICVvavwRIluTud4HV6jXsyYQ==",
+      "upstreamShasum": "a49a0305b550ff3c5c740807230c0dcb8b249b1e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.5.5",
+        "com.unity.jobs": "0.11.0-preview.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/1.5.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-as6M7yGlTvBrY9+fKBZmWvYTfnsWbZz8r5+0oFqRt6oR9sjeL9f83XgVYKJiWEICVvavwRIluTud4HV6jXsyYQ==",
+          "shasum": "a49a0305b550ff3c5c740807230c0dcb8b249b1e"
+        }
+      }
+    },
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-1e7e163b8801b102",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "e3b9e5e2f03933bf9eb91431406191f3a3237b38",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-2.0.0.tgz",
+      "upstreamIntegrity": "sha512-MW2sFhYpftlJEXRujYRTQ8HB5H3gb20xT3WG9a4jaQIaXjr+n9VZU7VPZPgMpu82pN1G/Yjy1RyaaXZu7GVprw==",
+      "upstreamShasum": "738d16b6153da56d012fb2b76101c54e20de25d7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/2.0.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MW2sFhYpftlJEXRujYRTQ8HB5H3gb20xT3WG9a4jaQIaXjr+n9VZU7VPZPgMpu82pN1G/Yjy1RyaaXZu7GVprw==",
+          "shasum": "738d16b6153da56d012fb2b76101c54e20de25d7"
+        }
+      }
+    },
+    {
+      "version": "2.1.0",
+      "variantId": "registry-package.openupm.com-8fe2b0deaf3d0dc5",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "c7d1041e21b3cfa3c6d809ed22ed78cf690da88d",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-2.1.0.tgz",
+      "upstreamIntegrity": "sha512-5MaCNUBIwST9DPjwAo7UkFTDVi6LaufhSLVd7XltNYlKgSesLXsIItU3TjPVp/yJXizkGysi5l1pcfnwWQAhSw==",
+      "upstreamShasum": "03bd11e30272273b7c850f41233eee6e5a5bc306",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/2.1.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5MaCNUBIwST9DPjwAo7UkFTDVi6LaufhSLVd7XltNYlKgSesLXsIItU3TjPVp/yJXizkGysi5l1pcfnwWQAhSw==",
+          "shasum": "03bd11e30272273b7c850f41233eee6e5a5bc306"
+        }
+      }
+    },
+    {
+      "version": "2.2.0",
+      "variantId": "registry-package.openupm.com-b0ab7d9f9c419c09",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "7e6cadc1bca541426e596abf9ef857c0957fe3cf",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-2.2.0.tgz",
+      "upstreamIntegrity": "sha512-LHUACZyGVuXqCCE6jsAVfF3CZE+9k9u6hCfNWPL3Eg10QWYCoiQFwtU+ECfVYrf+eqNGBYs5M9+E2MTuOd9+hg==",
+      "upstreamShasum": "fdfb412aa4f2c5fd6240f3860d8806da7898426f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/2.2.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LHUACZyGVuXqCCE6jsAVfF3CZE+9k9u6hCfNWPL3Eg10QWYCoiQFwtU+ECfVYrf+eqNGBYs5M9+E2MTuOd9+hg==",
+          "shasum": "fdfb412aa4f2c5fd6240f3860d8806da7898426f"
+        }
+      }
+    },
+    {
+      "version": "2.3.0",
+      "variantId": "registry-package.openupm.com-8d5ad85ccdfb6a7e",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "611ac607487a8469728106ed807e277c5d95fc2a",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-2.3.0.tgz",
+      "upstreamIntegrity": "sha512-pNKr5h8IpewMYkltoX5RGSONWoJdXuLZNju7mcx+mCQCx93e+FgUpQ+zek9U0xxa1mWlz9rnpclxPKYOqVQcrg==",
+      "upstreamShasum": "b7e0a0444f7d1e5159d7bb98fe535bda99aefe64",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/2.3.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-pNKr5h8IpewMYkltoX5RGSONWoJdXuLZNju7mcx+mCQCx93e+FgUpQ+zek9U0xxa1mWlz9rnpclxPKYOqVQcrg==",
+          "shasum": "b7e0a0444f7d1e5159d7bb98fe535bda99aefe64"
+        }
+      }
+    },
+    {
+      "version": "2.4.0",
+      "variantId": "registry-package.openupm.com-6e532127e891c2a8",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "bdad406eb5e3e97fec21c74d597539afecf4807b",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-2.4.0.tgz",
+      "upstreamIntegrity": "sha512-og7I30vlalALmKZfRZlrreupcTiXEPEqXZr4DNQtVNbb0ipXsgkHNjt1pvdEXWGx4mYbwm1RruFP41+pcs4eBA==",
+      "upstreamShasum": "5395356a52e2fdde3f494599d89fa36cc8fec8b3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/2.4.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-og7I30vlalALmKZfRZlrreupcTiXEPEqXZr4DNQtVNbb0ipXsgkHNjt1pvdEXWGx4mYbwm1RruFP41+pcs4eBA==",
+          "shasum": "5395356a52e2fdde3f494599d89fa36cc8fec8b3"
+        }
+      }
+    },
+    {
+      "version": "2.5.0",
+      "variantId": "registry-package.openupm.com-36e1b2ccaffcf889",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "47faa9d3dd1aa72da651ecc96ff05e6b78c7f852",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-2.5.0.tgz",
+      "upstreamIntegrity": "sha512-3RCZYvwQOiG2bAWPDnefaGiE3ySFGuWq3l64Fe67x2LkbEcPrx+hhz5KCOfVSd1a8eYWd4PdjcR8y9bqsYiexQ==",
+      "upstreamShasum": "02c31bf02af71a53f9206483ffd6459f41a24b52",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/2.5.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3RCZYvwQOiG2bAWPDnefaGiE3ySFGuWq3l64Fe67x2LkbEcPrx+hhz5KCOfVSd1a8eYWd4PdjcR8y9bqsYiexQ==",
+          "shasum": "02c31bf02af71a53f9206483ffd6459f41a24b52"
+        }
+      }
+    },
+    {
+      "version": "3.0.0",
+      "variantId": "registry-package.openupm.com-5b30d070a5e5567c",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "3b3efd51465aee73718f442f8db491bfbb7469f0",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-3.0.0.tgz",
+      "upstreamIntegrity": "sha512-TOsbOnrMHO7X20y9LZDcz0dbeTkGbE006CH6Q40SPo2x1UXClngpAE7Z/zsZTti3XuE86sEngnA9InqUxuSX4w==",
+      "upstreamShasum": "f8467c77e1b8942bf193226b9bda86a7fc81bdd7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/3.0.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TOsbOnrMHO7X20y9LZDcz0dbeTkGbE006CH6Q40SPo2x1UXClngpAE7Z/zsZTti3XuE86sEngnA9InqUxuSX4w==",
+          "shasum": "f8467c77e1b8942bf193226b9bda86a7fc81bdd7"
+        }
+      }
+    },
+    {
+      "version": "3.1.0",
+      "variantId": "registry-package.openupm.com-e2464e560e5e09d4",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "d09128c96e1fc975ae1fde3a096ff9812a8162a7",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-3.1.0.tgz",
+      "upstreamIntegrity": "sha512-lipkIem2BHP8gVddRlG5jo+rb+/VO8gvXGc9SXo3rLYUi8ED50ApSP03fs2JQRwfwpjCxfUBH8BJ7E4ZGXV7Vg==",
+      "upstreamShasum": "558fe813cb1b279651ca5551b0495feb0636c476",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/3.1.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lipkIem2BHP8gVddRlG5jo+rb+/VO8gvXGc9SXo3rLYUi8ED50ApSP03fs2JQRwfwpjCxfUBH8BJ7E4ZGXV7Vg==",
+          "shasum": "558fe813cb1b279651ca5551b0495feb0636c476"
+        }
+      }
+    },
+    {
+      "version": "3.2.0",
+      "variantId": "registry-package.openupm.com-721ac981bedbce3d",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "bf1267435dfa2a15ea71d1e93acb2320fa99d765",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-3.2.0.tgz",
+      "upstreamIntegrity": "sha512-w1n5DIIR3XOozkzBSZLr4PkQ+7lWzAd4t9z4tHpv4NsvcJp6Up50L2FlaU3RTol8zKiXmF/ISfaoK0FGMksNRQ==",
+      "upstreamShasum": "dc23e3ca7328f8173921885669b12fa6d162dccd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/3.2.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-w1n5DIIR3XOozkzBSZLr4PkQ+7lWzAd4t9z4tHpv4NsvcJp6Up50L2FlaU3RTol8zKiXmF/ISfaoK0FGMksNRQ==",
+          "shasum": "dc23e3ca7328f8173921885669b12fa6d162dccd"
+        }
+      }
+    },
+    {
+      "version": "3.2.1",
+      "variantId": "registry-package.openupm.com-4b9b3ac32d41eacb",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "459133905ab3bd5ebdf25e0749bae9e30c4af44d",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-3.2.1.tgz",
+      "upstreamIntegrity": "sha512-Ej3PiDe+32OUR0AbQtVJHBSQu3yslGXvo9SRKBCrSv2gbzi6z8h6eQ0GFr6Gok6fIvC2fEUCeBDaDE/rQkaDVw==",
+      "upstreamShasum": "a33e816ff0512411e084f29382c9e26ec4408748",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/3.2.1",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ej3PiDe+32OUR0AbQtVJHBSQu3yslGXvo9SRKBCrSv2gbzi6z8h6eQ0GFr6Gok6fIvC2fEUCeBDaDE/rQkaDVw==",
+          "shasum": "a33e816ff0512411e084f29382c9e26ec4408748"
+        }
+      }
+    },
+    {
+      "version": "3.3.0",
+      "variantId": "registry-package.openupm.com-737258373f4eb786",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "7130ed045930f2c10078c9c63b12ecc316ce0786",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-3.3.0.tgz",
+      "upstreamIntegrity": "sha512-BNXY/CjOGjnjTm9uYxidop4G6V71OZAkB8C+GJQTkIyVgOWAg9cFLPk8G09iRNXDwQYM8MT5g86Y4PsGtskrww==",
+      "upstreamShasum": "dd6ed04d9ae7f865e13212d5df22903caec91d2a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/3.3.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BNXY/CjOGjnjTm9uYxidop4G6V71OZAkB8C+GJQTkIyVgOWAg9cFLPk8G09iRNXDwQYM8MT5g86Y4PsGtskrww==",
+          "shasum": "dd6ed04d9ae7f865e13212d5df22903caec91d2a"
+        }
+      }
+    },
+    {
+      "version": "3.4.0",
+      "variantId": "registry-package.openupm.com-e5275c2c6bb7cade",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "b17a4d5876b0cb44e2399ac1f310727f1adbd18b",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-3.4.0.tgz",
+      "upstreamIntegrity": "sha512-HMOsF3d7VmN+byyyO/xzELq6GjytDjJCRjKUu1veZTRe2SBhNRJva2YCy7baRSqGiNYVDedgvcYPF46tQ1nKFg==",
+      "upstreamShasum": "22c9bcd5c54c76a4131d060f7b4f1f922451f0ad",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/3.4.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HMOsF3d7VmN+byyyO/xzELq6GjytDjJCRjKUu1veZTRe2SBhNRJva2YCy7baRSqGiNYVDedgvcYPF46tQ1nKFg==",
+          "shasum": "22c9bcd5c54c76a4131d060f7b4f1f922451f0ad"
+        }
+      }
+    },
+    {
+      "version": "3.5.0",
+      "variantId": "registry-package.openupm.com-9b3bd0d9a43781b9",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "cc2c974870bc6b2cee77ab33b5f308a0865ba0f8",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-3.5.0.tgz",
+      "upstreamIntegrity": "sha512-p64jdq+XLJ+2ReCi3WImgCLb2mDyqOAtT0Q2jiL+jnBWa1blvFsNDOQw++VrP9rSJYH4UM08XbvPJta/xaA1yw==",
+      "upstreamShasum": "91ede240e245ae91704efec0b689202cf6eebc10",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/3.5.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-p64jdq+XLJ+2ReCi3WImgCLb2mDyqOAtT0Q2jiL+jnBWa1blvFsNDOQw++VrP9rSJYH4UM08XbvPJta/xaA1yw==",
+          "shasum": "91ede240e245ae91704efec0b689202cf6eebc10"
+        }
+      }
+    },
+    {
+      "version": "3.6.0",
+      "variantId": "registry-package.openupm.com-3ad76a48ccbf40b4",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "cb764001fd56733634eb73f0788ad23cdc74cbd8",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-3.6.0.tgz",
+      "upstreamIntegrity": "sha512-Z2Oxa1UaAPl6ojsnP/w5rOIi5nN23V+FUrIAZ4D1OeiUHNdEaYg8e/NdCQPwjLrzaP0pPzdsiPuGWwWv+a+vyQ==",
+      "upstreamShasum": "6a2eace6a3b41a577d7291fc889d1ee912722424",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/3.6.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Z2Oxa1UaAPl6ojsnP/w5rOIi5nN23V+FUrIAZ4D1OeiUHNdEaYg8e/NdCQPwjLrzaP0pPzdsiPuGWwWv+a+vyQ==",
+          "shasum": "6a2eace6a3b41a577d7291fc889d1ee912722424"
+        }
+      }
+    },
+    {
+      "version": "3.7.0",
+      "variantId": "registry-package.openupm.com-af01388812e18f17",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "7de563a46119581f599613569d869869396db5a4",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-3.7.0.tgz",
+      "upstreamIntegrity": "sha512-xLqfOCO3G8p3JS8OveeNcFIa4mt3T0+fkPPoNUApfR4qzpLq2zmqelbsjnAErY2U+1oQGCQxm6yjFw+a7YyQFw==",
+      "upstreamShasum": "eef758953b6cce734a575e0e7e66e010a387808a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/3.7.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xLqfOCO3G8p3JS8OveeNcFIa4mt3T0+fkPPoNUApfR4qzpLq2zmqelbsjnAErY2U+1oQGCQxm6yjFw+a7YyQFw==",
+          "shasum": "eef758953b6cce734a575e0e7e66e010a387808a"
+        }
+      }
+    },
+    {
+      "version": "3.8.0",
+      "variantId": "registry-package.openupm.com-668adcf4b73183eb",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "0f3feab4fc0bf217291247cf7e4ee19fa269217f",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-3.8.0.tgz",
+      "upstreamIntegrity": "sha512-rgWF6eVKg84mQSage2mrhonkrzDvElQhCmeEaSj4JaGqX2TaykwfqoBFSlFnmVP0iUv4cWLIaa4x6sOBZmL7ug==",
+      "upstreamShasum": "75e5d5d0de8d216b56bac2f382f383eee706d4df",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/3.8.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rgWF6eVKg84mQSage2mrhonkrzDvElQhCmeEaSj4JaGqX2TaykwfqoBFSlFnmVP0iUv4cWLIaa4x6sOBZmL7ug==",
+          "shasum": "75e5d5d0de8d216b56bac2f382f383eee706d4df"
+        }
+      }
+    },
+    {
+      "version": "3.9.0",
+      "variantId": "registry-package.openupm.com-9d11c3465f5e911e",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "12061bc7b238d92e1c589148198ac2a85179a448",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-3.9.0.tgz",
+      "upstreamIntegrity": "sha512-31gGQxdALOu91P0dFW3U+0jRQyrTzS+MTZXqnjmh//tYH/UKUL+UFIwCO6gDleYKnEVPBpWGwyhR9+0ZZy8m8g==",
+      "upstreamShasum": "04761b924515ecda05192bc2ca93d211daeb16e0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/3.9.0",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-31gGQxdALOu91P0dFW3U+0jRQyrTzS+MTZXqnjmh//tYH/UKUL+UFIwCO6gDleYKnEVPBpWGwyhR9+0ZZy8m8g==",
+          "shasum": "04761b924515ecda05192bc2ca93d211daeb16e0"
+        }
+      }
+    },
+    {
+      "version": "3.9.1",
+      "variantId": "registry-package.openupm.com-2a8c0df64aa93c28",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "14ef3aacbcc9cba1f859c5a11d27b23903adcde3",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-3.9.1.tgz",
+      "upstreamIntegrity": "sha512-UmKgz1r0md0vFp5dLslXhzELVwoxKu8nly4/cuee91M2Ic4yI3I2JlQ2q76cQo4Y3Yb2azOJCqi+pAnju9v+3Q==",
+      "upstreamShasum": "de6680cf10b3b6a0186786702bc89b5e35e18beb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/3.9.1",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-UmKgz1r0md0vFp5dLslXhzELVwoxKu8nly4/cuee91M2Ic4yI3I2JlQ2q76cQo4Y3Yb2azOJCqi+pAnju9v+3Q==",
+          "shasum": "de6680cf10b3b6a0186786702bc89b5e35e18beb"
+        }
+      }
+    },
+    {
+      "version": "3.9.2",
+      "variantId": "registry-package.openupm.com-0d74964309b9fd27",
+      "sourceUrl": "https://github.com/andywiecko/BurstTriangulator.git",
+      "sourceRef": "8995a6597998a43f8442f4c4863f8e78bca25db4",
+      "downloadUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/-/com.andywiecko.burst.triangulator-3.9.2.tgz",
+      "upstreamIntegrity": "sha512-kurgyL/j6oGkZllLGyGoD4UPMiQiAlxUDIxU7ilWtb3vVF7AX1naFpkgZGVddjXgyu+xt9ljlc8lS81qsepPxQ==",
+      "upstreamShasum": "92b98aac4bcfdc91d1bcf00f7292ed7ead7b0b89",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.7",
+        "com.unity.collections": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.andywiecko.burst.triangulator/3.9.2",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kurgyL/j6oGkZllLGyGoD4UPMiQiAlxUDIxU7ilWtb3vVF7AX1naFpkgZGVddjXgyu+xt9ljlc8lS81qsepPxQ==",
+          "shasum": "92b98aac4bcfdc91d1bcf00f7292ed7ead7b0b89"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "3.9.2",
+    "patch@1.0.1": "1.0.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.andywiecko.burst.triangulator.yml",
+  "definitionBlobSha": "0f970808a547f520c072add786f68659f73c2e25",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.3.0",
+    "2.3.0",
+    "3.9.2"
+  ],
+  "targetVersions": [
+    "1.3.0",
+    "2.3.0"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 26,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

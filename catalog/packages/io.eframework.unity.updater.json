@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.0",
+  "id": "io.eframework.unity.updater",
+  "displayName": "io.eframework.unity.updater",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/io.eframework.unity.updater",
+      "fetchedAt": "2026-10-17T17:44:00.767665Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-16939c7b8cfbd62c",
+      "sourceUrl": "https://github.com/eframework-io/Unity.Updater.git",
+      "sourceRef": "05e3dc7c84aa6b63e1ec579ae70fc9d14c12454c",
+      "downloadUrl": "https://package.openupm.com/io.eframework.unity.updater/-/io.eframework.unity.updater-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-P7O6d6JXZamIdb22GXWzNg8A+LyhEJrXRYSIYo7oZtdjXbY/NolPV9OPUiFsnKgmsUV3HpecLT1wPbtOSnvELQ==",
+      "upstreamShasum": "e67717483d2bb14b4160308c84cb9c16a07a12f0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.eframework.unity.utility": "1.0.0",
+        "io.eframework.unity.editor": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.eframework.unity.updater/1.0.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-P7O6d6JXZamIdb22GXWzNg8A+LyhEJrXRYSIYo7oZtdjXbY/NolPV9OPUiFsnKgmsUV3HpecLT1wPbtOSnvELQ==",
+          "shasum": "e67717483d2bb14b4160308c84cb9c16a07a12f0"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-3d69a131e0d9c735",
+      "sourceUrl": "https://github.com/eframework-io/Unity.Updater.git",
+      "sourceRef": "615480b6ab5409d1ff44b1a0f853f187d1e23660",
+      "downloadUrl": "https://package.openupm.com/io.eframework.unity.updater/-/io.eframework.unity.updater-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-DCApXYugeQBTeCk6ow6gWQQBwdXVmu0QhVG4SrzgxVd/40AGt9FwOhEYh/dy9xyUOfamhL0gAcf5wOlRs3109g==",
+      "upstreamShasum": "63d85f0e5c8722a9948a964cd37cf9a665671d70",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.eframework.unity.utility": "1.1.0",
+        "io.eframework.unity.editor": "1.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.eframework.unity.updater/1.0.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-DCApXYugeQBTeCk6ow6gWQQBwdXVmu0QhVG4SrzgxVd/40AGt9FwOhEYh/dy9xyUOfamhL0gAcf5wOlRs3109g==",
+          "shasum": "63d85f0e5c8722a9948a964cd37cf9a665671d70"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/io.eframework.unity.updater.yml",
+  "definitionBlobSha": "9d7c3dbf31c259ded69d362da33cd620704bb4e8",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.1",
+    "1.0.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 2,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

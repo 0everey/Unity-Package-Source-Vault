@@ -1,0 +1,855 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.gm.classifiedconsolewindow",
+  "displayName": "com.gm.classifiedconsolewindow",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "fetchedAt": "2026-10-17T17:38:32.464569Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "variantId": "registry-package.openupm.com-2f24dd9037cd92fb",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "9beea1aa7abbe30fff241fc638b4ab7f9fd1bc60",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.0.1.tgz",
+      "upstreamIntegrity": "sha512-hzFJodEZpRmG45ewumef2mvIZRAQ2q/rCmxvrfp70ZmCf4Gj1HKyUzicd17JNJ4rBTY2t9LB7K0EQT7lnVdQgg==",
+      "upstreamShasum": "7194b19e38afb5d61631d9e5c2d095f5a58635c6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.0.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hzFJodEZpRmG45ewumef2mvIZRAQ2q/rCmxvrfp70ZmCf4Gj1HKyUzicd17JNJ4rBTY2t9LB7K0EQT7lnVdQgg==",
+          "shasum": "7194b19e38afb5d61631d9e5c2d095f5a58635c6"
+        }
+      }
+    },
+    {
+      "version": "0.0.2",
+      "variantId": "registry-package.openupm.com-9f8c13fa13d72f66",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "6cd86402d64a71566b1906332b9ab9b6f358e6a4",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.0.2.tgz",
+      "upstreamIntegrity": "sha512-6IhSnnaBn3juQDDVz0soDY6fUeiTNVDO7soxszghR2tC1Tj1GXXTnxucPXK6k7dQNkM4ZQHuDv5+lfSt6ZR98Q==",
+      "upstreamShasum": "e6af7f48923660d3b47e79e74a8643dcd27196ea",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.gm.httpremoteconnector": "0.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.0.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6IhSnnaBn3juQDDVz0soDY6fUeiTNVDO7soxszghR2tC1Tj1GXXTnxucPXK6k7dQNkM4ZQHuDv5+lfSt6ZR98Q==",
+          "shasum": "e6af7f48923660d3b47e79e74a8643dcd27196ea"
+        }
+      }
+    },
+    {
+      "version": "0.0.3",
+      "variantId": "registry-package.openupm.com-30278eb0adc13f07",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "96248dfe327ca6383d13e2a38b2aacfe5f399e78",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.0.3.tgz",
+      "upstreamIntegrity": "sha512-FgJkp7uA4b+PayfybQs+P+yMJXpr9mOQurIvB9wqF3XRQnS6g+FvqQYxOifogRIToZsymseR6T8L3qNC/bgzBw==",
+      "upstreamShasum": "12a04801dc5af21aa98e0b95a06a6e692dc77854",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.gm.httpremoteconnector": "0.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.0.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FgJkp7uA4b+PayfybQs+P+yMJXpr9mOQurIvB9wqF3XRQnS6g+FvqQYxOifogRIToZsymseR6T8L3qNC/bgzBw==",
+          "shasum": "12a04801dc5af21aa98e0b95a06a6e692dc77854"
+        }
+      }
+    },
+    {
+      "version": "0.0.4",
+      "variantId": "registry-package.openupm.com-fefdce1768f825c9",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "97ae66c5357c8db727b49e0d22fc8712d5c393aa",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.0.4.tgz",
+      "upstreamIntegrity": "sha512-sma9HeSFpVGwvtzd3ShI0fgSBYrbXFf6qXDjEnNAcMjoQxxbynrZguzxAkluqQ5qGKfg1GdUK3noD5GjZZhZQA==",
+      "upstreamShasum": "b95ee2cbe0140acf0d61be772e3fa5a3fc845e3d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.gm.httpremoteconnector": "0.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.0.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sma9HeSFpVGwvtzd3ShI0fgSBYrbXFf6qXDjEnNAcMjoQxxbynrZguzxAkluqQ5qGKfg1GdUK3noD5GjZZhZQA==",
+          "shasum": "b95ee2cbe0140acf0d61be772e3fa5a3fc845e3d"
+        }
+      }
+    },
+    {
+      "version": "0.0.5",
+      "variantId": "registry-package.openupm.com-577c13b908501147",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "fafb4bec6a4d61ef8eae8550a00b03a75ab22988",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.0.5.tgz",
+      "upstreamIntegrity": "sha512-QpD0iIrex3htzlZJdQu6s7PwPYfHxaFLDMxX+iYRBF3z4141044Pgp5HyIqbZ1ABiib1ylcBzvmwrw13nzpHug==",
+      "upstreamShasum": "857d03d41d540599cec81887371eb233ae3dc4d6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.gm.httpremoteconnector": "0.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.0.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QpD0iIrex3htzlZJdQu6s7PwPYfHxaFLDMxX+iYRBF3z4141044Pgp5HyIqbZ1ABiib1ylcBzvmwrw13nzpHug==",
+          "shasum": "857d03d41d540599cec81887371eb233ae3dc4d6"
+        }
+      }
+    },
+    {
+      "version": "0.0.6",
+      "variantId": "registry-package.openupm.com-e5a83c9c4390fb3d",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "8c47c2e98bd916c6e3e0b1f88551fd50bdf7ad2c",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.0.6.tgz",
+      "upstreamIntegrity": "sha512-HsxAAZQwkZVqdEl0XKZpYB35LJphbBdIAoFSQ78T5SjL+AtaQQ9E+zGF3bNMknl1Cu86QDgX7TQRauKAe24otw==",
+      "upstreamShasum": "4b4899c3171ef9abd7833d18b5a0afc37ed973fb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.gm.httpremoteconnector": "0.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.0.6",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HsxAAZQwkZVqdEl0XKZpYB35LJphbBdIAoFSQ78T5SjL+AtaQQ9E+zGF3bNMknl1Cu86QDgX7TQRauKAe24otw==",
+          "shasum": "4b4899c3171ef9abd7833d18b5a0afc37ed973fb"
+        }
+      }
+    },
+    {
+      "version": "0.0.7",
+      "variantId": "registry-package.openupm.com-54f63f61d52da6eb",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "3cd44db1dfa565219918f011a6fe6d4281cafbbc",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.0.7.tgz",
+      "upstreamIntegrity": "sha512-jlEA3bNn8dKOq/hNUAOB8QSQijft4RX88ZMaK1gvSf9NAEsJK+XELAxbhYLCH8AwFPiO67ARYNaQaHCjNjZvcA==",
+      "upstreamShasum": "3d70a2ae2df9a5fcf63cd447d1c8ea15dbb39d0d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.gm.httpremoteconnector": "0.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.0.7",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jlEA3bNn8dKOq/hNUAOB8QSQijft4RX88ZMaK1gvSf9NAEsJK+XELAxbhYLCH8AwFPiO67ARYNaQaHCjNjZvcA==",
+          "shasum": "3d70a2ae2df9a5fcf63cd447d1c8ea15dbb39d0d"
+        }
+      }
+    },
+    {
+      "version": "0.0.8",
+      "variantId": "registry-package.openupm.com-02fcf426dd92b219",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "b6f0b9c3b50321e9ea8e226c10ee0718cfb183e2",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.0.8.tgz",
+      "upstreamIntegrity": "sha512-Gsv42aLf2t8V+wnT5VO3xqXefDKTxT2eK2CIRRUSh5OSwQ5lr3clh2j3OzQgn6QcUinkx6Asvu/HjUgpdq01sQ==",
+      "upstreamShasum": "90ae277570e49266d39580cd42161b72bfd15caa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.gm.httpremoteconnector": "0.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.0.8",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Gsv42aLf2t8V+wnT5VO3xqXefDKTxT2eK2CIRRUSh5OSwQ5lr3clh2j3OzQgn6QcUinkx6Asvu/HjUgpdq01sQ==",
+          "shasum": "90ae277570e49266d39580cd42161b72bfd15caa"
+        }
+      }
+    },
+    {
+      "version": "0.0.9",
+      "variantId": "registry-package.openupm.com-dae2562adc2ed6d2",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "b9e60a5de3bfd63883d42d0f290fc285c0e9e6ee",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.0.9.tgz",
+      "upstreamIntegrity": "sha512-20P+SCodHbhKknK2/oILsAttjvH/nvXWB3V8wEROJ5ycLG0e2YvOVVF52OScuXP8MMAKwCZjYsRgFGuFm1hy2w==",
+      "upstreamShasum": "35dec52c5de9d3d3c6b9fcf5810936f34b67968f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.gm.httpremoteconnector": "0.0.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.0.9",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-20P+SCodHbhKknK2/oILsAttjvH/nvXWB3V8wEROJ5ycLG0e2YvOVVF52OScuXP8MMAKwCZjYsRgFGuFm1hy2w==",
+          "shasum": "35dec52c5de9d3d3c6b9fcf5810936f34b67968f"
+        }
+      }
+    },
+    {
+      "version": "0.1.1",
+      "variantId": "registry-package.openupm.com-36adb171b8bd63bf",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "6f153c49266cfa5ca729ca32f93045266239f427",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.1.1.tgz",
+      "upstreamIntegrity": "sha512-GHyxvCeTgnR9QFfm4bMKg7EISTaDWYVybgm6il1U3s2GPGP9wDbsfx5Txr9kGkWMxSTy0M7tr4s5w00pkQ/UYw==",
+      "upstreamShasum": "0bf9545e12ec7a557f1f89e4be01b580d1098754",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.gm.httpremoteconnector": "0.0.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.1.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GHyxvCeTgnR9QFfm4bMKg7EISTaDWYVybgm6il1U3s2GPGP9wDbsfx5Txr9kGkWMxSTy0M7tr4s5w00pkQ/UYw==",
+          "shasum": "0bf9545e12ec7a557f1f89e4be01b580d1098754"
+        }
+      }
+    },
+    {
+      "version": "0.1.2",
+      "variantId": "registry-package.openupm.com-c13282055ba1e36a",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "1a6db93230366b3e756a9f3509a98e7dd5f13575",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.1.2.tgz",
+      "upstreamIntegrity": "sha512-+dE4bltMjoVD2vpwpllpfs8Z/H40twc0eZ3pH+ZHOv3UAKb5Y8KENw/2gcesX94I52gBglclF33VhH/EAvx1SQ==",
+      "upstreamShasum": "1914cfd899e6dbd0910c0e2c04db00399864a2e1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.gm.httpremoteconnector": "0.0.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.1.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+dE4bltMjoVD2vpwpllpfs8Z/H40twc0eZ3pH+ZHOv3UAKb5Y8KENw/2gcesX94I52gBglclF33VhH/EAvx1SQ==",
+          "shasum": "1914cfd899e6dbd0910c0e2c04db00399864a2e1"
+        }
+      }
+    },
+    {
+      "version": "0.1.3",
+      "variantId": "registry-package.openupm.com-ed902e6cc5ff0c92",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "b53ea2de28b47dfba3be3c07a86b88813e68af06",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.1.3.tgz",
+      "upstreamIntegrity": "sha512-2x9ecXK04iUXSrW8Rk0Jp5TNsfVAb5AXlxjOCCS+dKdqXpIggBDUxkypesHYLu2gQXYzlyfFCAmKqswFJ6SwnQ==",
+      "upstreamShasum": "5c2eb07f9724f457518d4c0593a932e0a83846b0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.gm.httpremoteconnector": "0.0.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.1.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2x9ecXK04iUXSrW8Rk0Jp5TNsfVAb5AXlxjOCCS+dKdqXpIggBDUxkypesHYLu2gQXYzlyfFCAmKqswFJ6SwnQ==",
+          "shasum": "5c2eb07f9724f457518d4c0593a932e0a83846b0"
+        }
+      }
+    },
+    {
+      "version": "0.1.4",
+      "variantId": "registry-package.openupm.com-244d2177aed86c51",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "0cc108a315b9baaf68a9cb0135aa54e992359201",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.1.4.tgz",
+      "upstreamIntegrity": "sha512-+JLP4FIQF/pNu9NiFFQgXTrXhkGN0X5tWgVJEt5TtTJ1EcFho3jIUx6RvMWTR5g27yyZPuAZUrgnljNnFh2vXw==",
+      "upstreamShasum": "3eb7c29b2feae205c6bc23e749222a697b110862",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.1.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+JLP4FIQF/pNu9NiFFQgXTrXhkGN0X5tWgVJEt5TtTJ1EcFho3jIUx6RvMWTR5g27yyZPuAZUrgnljNnFh2vXw==",
+          "shasum": "3eb7c29b2feae205c6bc23e749222a697b110862"
+        }
+      }
+    },
+    {
+      "version": "0.1.5",
+      "variantId": "registry-package.openupm.com-69bfb9b2ad86b781",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "3ba15247bc4eba20bba95351d39e7ce0f5f4a599",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.1.5.tgz",
+      "upstreamIntegrity": "sha512-QO5kAdVfx0zyDcCFblMVXYfXbS5w6N0vLOIRh77J/+1Kgs0tSrWfLAjHi5e4bgQp8zjPww7Pgej4VoNy17EdgQ==",
+      "upstreamShasum": "aa0ee6fa9e14b70c8a5e9d221a3d88f10db1f5dd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.1.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QO5kAdVfx0zyDcCFblMVXYfXbS5w6N0vLOIRh77J/+1Kgs0tSrWfLAjHi5e4bgQp8zjPww7Pgej4VoNy17EdgQ==",
+          "shasum": "aa0ee6fa9e14b70c8a5e9d221a3d88f10db1f5dd"
+        }
+      }
+    },
+    {
+      "version": "0.1.6",
+      "variantId": "registry-package.openupm.com-28809c8b11454bf5",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "adb87a92935999222689979993939e2ba617814a",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.1.6.tgz",
+      "upstreamIntegrity": "sha512-8+jzLuW5v22WGPQRWrksOEEZyak9ZN0wVxeU9cIvL/GXZd/7TVRqHtSmVE0FTXkOQP8/aDkzhBYqKvQojyZF2g==",
+      "upstreamShasum": "5dcef79036f121a53b8ae275d126dcd31878cf4c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.1.6",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8+jzLuW5v22WGPQRWrksOEEZyak9ZN0wVxeU9cIvL/GXZd/7TVRqHtSmVE0FTXkOQP8/aDkzhBYqKvQojyZF2g==",
+          "shasum": "5dcef79036f121a53b8ae275d126dcd31878cf4c"
+        }
+      }
+    },
+    {
+      "version": "0.1.7",
+      "variantId": "registry-package.openupm.com-a15b30b14cdd33c0",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "672fa9e386b76cbc025f766a031fa4647649ee3a",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.1.7.tgz",
+      "upstreamIntegrity": "sha512-EkT63QmgjsUudWjmuHrsK/BqMpflMq+lyAitDJQWKaAUWqgvpe33TLpfofV3yIFxx7pdKfHEZn6helnoJwFlxA==",
+      "upstreamShasum": "d68f828c3bea0327d238274d212c0cead3dcb01f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.1.7",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-EkT63QmgjsUudWjmuHrsK/BqMpflMq+lyAitDJQWKaAUWqgvpe33TLpfofV3yIFxx7pdKfHEZn6helnoJwFlxA==",
+          "shasum": "d68f828c3bea0327d238274d212c0cead3dcb01f"
+        }
+      }
+    },
+    {
+      "version": "0.1.8",
+      "variantId": "registry-package.openupm.com-87128b61b777e764",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "ccc3d63a458ed63df167a9a0f54f8eff3fac084a",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.1.8.tgz",
+      "upstreamIntegrity": "sha512-Bxqma5eaSyaFIjfzH6vNNLEa6Y9gUV69XIWppQkd8DqB3jBk6BixWGOjbjyeopX6DdvkeuLNfkdOUL6DLeZEZA==",
+      "upstreamShasum": "a9a54c0021c2953f816b9fbc368623590e1b8ffd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.1.8",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Bxqma5eaSyaFIjfzH6vNNLEa6Y9gUV69XIWppQkd8DqB3jBk6BixWGOjbjyeopX6DdvkeuLNfkdOUL6DLeZEZA==",
+          "shasum": "a9a54c0021c2953f816b9fbc368623590e1b8ffd"
+        }
+      }
+    },
+    {
+      "version": "0.1.9",
+      "variantId": "registry-package.openupm.com-5cd064bf53f2055e",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "171f229cdecbbe317ec1acd183efd895d246e0dc",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.1.9.tgz",
+      "upstreamIntegrity": "sha512-SQX4rjs+QkvdYBqiamW6QWNR0NIkUqUmH1uofGSYc8wiHGdN3P5WyjcLuC/tXtB3K9nkWILMqhBQZUsN1Y7tlA==",
+      "upstreamShasum": "e84d0420797350dab3c832246fb4d7f24124e444",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.1.9",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SQX4rjs+QkvdYBqiamW6QWNR0NIkUqUmH1uofGSYc8wiHGdN3P5WyjcLuC/tXtB3K9nkWILMqhBQZUsN1Y7tlA==",
+          "shasum": "e84d0420797350dab3c832246fb4d7f24124e444"
+        }
+      }
+    },
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-6ae02218c90495ad",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "4baac9b43e137caa04e072406993c3f0e747113f",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-QDxp570WYscDJkeKeLyM3rr88S/vYiZer9SsXGTbzmfsUfFnPmrepMpIM08IAMdBQMM6e2c12aWQQXp88dYK5g==",
+      "upstreamShasum": "ad109dfc2ea829c8f66ce5a5ea1b083dd1aed5fa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.2.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QDxp570WYscDJkeKeLyM3rr88S/vYiZer9SsXGTbzmfsUfFnPmrepMpIM08IAMdBQMM6e2c12aWQQXp88dYK5g==",
+          "shasum": "ad109dfc2ea829c8f66ce5a5ea1b083dd1aed5fa"
+        }
+      }
+    },
+    {
+      "version": "0.2.1",
+      "variantId": "registry-package.openupm.com-40b9d63f90c885df",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "d3c599b003abc9ef8efd0fa0f853fbcdab6f5ab3",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.2.1.tgz",
+      "upstreamIntegrity": "sha512-/0KAMvoWcJIkZcFHFvbjWcmuTiisMPuru1utnXvncTLg5ImwS0L2bRyAjgF0U0EBlat3+oI7jbJvWT+UzuxJmg==",
+      "upstreamShasum": "7ecd1388377226dac6e588fa93afeaf48efb8bcd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.2.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/0KAMvoWcJIkZcFHFvbjWcmuTiisMPuru1utnXvncTLg5ImwS0L2bRyAjgF0U0EBlat3+oI7jbJvWT+UzuxJmg==",
+          "shasum": "7ecd1388377226dac6e588fa93afeaf48efb8bcd"
+        }
+      }
+    },
+    {
+      "version": "0.2.2",
+      "variantId": "registry-package.openupm.com-39974e69d894067f",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "deb44172ef34c4b2e867d61156e363594ae0df0b",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.2.2.tgz",
+      "upstreamIntegrity": "sha512-e+QnKHK2sl+alxkqvGmQx9H+44fySkX0ZUkQ8PZ+wFXudfY4PQxRfOOv9cg+oWb1ZfKcL4nLniVv//oUFAOA+g==",
+      "upstreamShasum": "4be6581d5bc52ef8f29c70367de0813a62af6fcd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.2.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-e+QnKHK2sl+alxkqvGmQx9H+44fySkX0ZUkQ8PZ+wFXudfY4PQxRfOOv9cg+oWb1ZfKcL4nLniVv//oUFAOA+g==",
+          "shasum": "4be6581d5bc52ef8f29c70367de0813a62af6fcd"
+        }
+      }
+    },
+    {
+      "version": "0.2.3",
+      "variantId": "registry-package.openupm.com-15e9044f409f34bb",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "126f8f81dafa49d6c6ae105509483cd9f9bcc8af",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-0.2.3.tgz",
+      "upstreamIntegrity": "sha512-LMheiP69Y3sZXMKLMtrgrRdrwqIxXkQdAAAYsDWOjwVL0a2209QuGZoeJHo17Qizyfa3oRL2h+ciw4E0gdLnEA==",
+      "upstreamShasum": "6a73273e06788e1acb3ea5d5b61d419235f759d7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/0.2.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LMheiP69Y3sZXMKLMtrgrRdrwqIxXkQdAAAYsDWOjwVL0a2209QuGZoeJHo17Qizyfa3oRL2h+ciw4E0gdLnEA==",
+          "shasum": "6a73273e06788e1acb3ea5d5b61d419235f759d7"
+        }
+      }
+    },
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-18f1e80078eb62e4",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "dff1f6176528243a4402150d03254002cd218927",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-MHnd3CLx1XXACyjfIPmTBckLfSxhCeidXbrdZvf2pTN4H1NYcLbJrofYEzgofYxJ3i1mdiaLfqcJ2Lo7+lrsUg==",
+      "upstreamShasum": "6242842ba8c73066dbf05d46ba97e10754626c51",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/1.0.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MHnd3CLx1XXACyjfIPmTBckLfSxhCeidXbrdZvf2pTN4H1NYcLbJrofYEzgofYxJ3i1mdiaLfqcJ2Lo7+lrsUg==",
+          "shasum": "6242842ba8c73066dbf05d46ba97e10754626c51"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-c9eac504feb50f28",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "82f5b454c6fe4d08cd7a20f6d3b1a9f6b0c5eb98",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-MprEJKkPVwia0qkw5iOfWwZmy0t4NiqlM8hstOYPVbLk422Xnx2+W/lf35N+LRljb6F615vY0++65dKeAvtsug==",
+      "upstreamShasum": "277bfaa2b7e8683d7cb8fabbdd6f5a6630de699d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/1.0.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MprEJKkPVwia0qkw5iOfWwZmy0t4NiqlM8hstOYPVbLk422Xnx2+W/lf35N+LRljb6F615vY0++65dKeAvtsug==",
+          "shasum": "277bfaa2b7e8683d7cb8fabbdd6f5a6630de699d"
+        }
+      }
+    },
+    {
+      "version": "1.0.2",
+      "variantId": "registry-package.openupm.com-14f72bbc9d5f9dea",
+      "sourceUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow",
+      "sourceRef": "31af73187598593e65559cc44507477294656218",
+      "downloadUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/-/com.gm.classifiedconsolewindow-1.0.2.tgz",
+      "upstreamIntegrity": "sha512-Pp5tY9o/ExJheVi8R2IfmdbxlU7zJKUHxAqlkQJDOq+NVK+HPBTjTZQ9AfGkhhmoCwMBa3QFblJXRG6Kbzm60A==",
+      "upstreamShasum": "670265723871eb1134826018a48dce356e9ca01f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.gm.classifiedconsolewindow/1.0.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Pp5tY9o/ExJheVi8R2IfmdbxlU7zJKUHxAqlkQJDOq+NVK+HPBTjTZQ9AfGkhhmoCwMBa3QFblJXRG6Kbzm60A==",
+          "shasum": "670265723871eb1134826018a48dce356e9ca01f"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.2"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.gm.classifiedconsolewindow.yml",
+  "definitionBlobSha": "1126446c6a671f1481b328f9d43fc22fb4f02ee0",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.2",
+    "1.0.1",
+    "0.2.3"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 25,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

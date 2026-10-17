@@ -1,0 +1,944 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.stansassets.foundation",
+  "displayName": "com.stansassets.foundation",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation",
+      "fetchedAt": "2026-10-17T17:42:13.017563Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "variantId": "registry-package.openupm.com-6ed4bbc4f6a24ea7",
+      "sourceUrl": "https://package.openupm.com/com.stansassets.foundation",
+      "sourceRef": "4e90967f95babfbdb3d25552b8404bc5482caec8",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-0.0.1.tgz",
+      "upstreamIntegrity": "sha512-hsrs52azR4yi5SaTgRBPhibp/UDaV5wgeW8kBbmLej+etRPdt+vIwf7en3BE7uyY+dG7SRrqCA+yzn0wIbC50g==",
+      "upstreamShasum": "f6f81a0d5e9afbf40861978838afd1275f25b771",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/0.0.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hsrs52azR4yi5SaTgRBPhibp/UDaV5wgeW8kBbmLej+etRPdt+vIwf7en3BE7uyY+dG7SRrqCA+yzn0wIbC50g==",
+          "shasum": "f6f81a0d5e9afbf40861978838afd1275f25b771"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-c2720acbcc00d914",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "53372905b823138570642fbc2170ed1b2fc6b65d",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-X5S366oxTmrM/8MLDwd0nBEvaa0RwJKeVKWaA4Y0Y/eDJGpuT7ZutCUZIsE/cf0AzlzowvaT2x43RTAve/nqyw==",
+      "upstreamShasum": "a0f57be92fc73af6eef14e8be2c2003e0a4bfbaa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-X5S366oxTmrM/8MLDwd0nBEvaa0RwJKeVKWaA4Y0Y/eDJGpuT7ZutCUZIsE/cf0AzlzowvaT2x43RTAve/nqyw==",
+          "shasum": "a0f57be92fc73af6eef14e8be2c2003e0a4bfbaa"
+        }
+      }
+    },
+    {
+      "version": "1.0.2",
+      "variantId": "registry-package.openupm.com-4dfd4b2ec74f2c3b",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "57f26b8a08caccdd5475c5fa15c70f5ec44dcf8d",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.2.tgz",
+      "upstreamIntegrity": "sha512-IQ87zwv3JB7N/9C7e+VC9rnOt9X3inXeX+lz3SDkXvAjWSMV9oX4pzqkGy+yG+sZqrzx3TBfhp6ivnPysKUGvw==",
+      "upstreamShasum": "871d314a40302ae4fd48ac03cd1cd7713c8edfb6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.2",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IQ87zwv3JB7N/9C7e+VC9rnOt9X3inXeX+lz3SDkXvAjWSMV9oX4pzqkGy+yG+sZqrzx3TBfhp6ivnPysKUGvw==",
+          "shasum": "871d314a40302ae4fd48ac03cd1cd7713c8edfb6"
+        }
+      }
+    },
+    {
+      "version": "1.0.3",
+      "variantId": "registry-package.openupm.com-719b15cfbb2adb13",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "af8c38beefbb3fd72ef9f7db1250b435174d5185",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.3.tgz",
+      "upstreamIntegrity": "sha512-gmiQxDbgkCFTBnaSS8S+3Q7F6qhckLZOQ4uFoDM14JAA9DAsyw5FOENDZHm4ILsPfKvBA8odJN61mxgbIAS0Ew==",
+      "upstreamShasum": "0b05131f420f1e61a4a0d05c9d4799844d3827b9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.3",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gmiQxDbgkCFTBnaSS8S+3Q7F6qhckLZOQ4uFoDM14JAA9DAsyw5FOENDZHm4ILsPfKvBA8odJN61mxgbIAS0Ew==",
+          "shasum": "0b05131f420f1e61a4a0d05c9d4799844d3827b9"
+        }
+      }
+    },
+    {
+      "version": "1.0.4",
+      "variantId": "registry-package.openupm.com-e4d108c7fcd2f579",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "89518601635a39efef6a9ef33d4930e4db695978",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.4.tgz",
+      "upstreamIntegrity": "sha512-ovt/QO7+cVoRzsuRgtJ43jv9jIc8R2h9IBJ+yu/cj8OmEydqp4VK3/KUhwd5mkE/OqbUT0Wf3MGhgiFc5H1JcA==",
+      "upstreamShasum": "fbb2dbc67fa56cc552969b2fe59ac22b7e729e17",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "0.0.4-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.4",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ovt/QO7+cVoRzsuRgtJ43jv9jIc8R2h9IBJ+yu/cj8OmEydqp4VK3/KUhwd5mkE/OqbUT0Wf3MGhgiFc5H1JcA==",
+          "shasum": "fbb2dbc67fa56cc552969b2fe59ac22b7e729e17"
+        }
+      }
+    },
+    {
+      "version": "1.0.5",
+      "variantId": "registry-package.openupm.com-55f97377720781d4",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "39006195d58b9199a0f261481a0bac031f738538",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.5.tgz",
+      "upstreamIntegrity": "sha512-TEC7t0DCke5g1HqzNWPniC35WidaZIY8xHoHApCvhUj+xv6GaoUAttPvy1THY1m4u7CycSqQvc5ufriqz8VIfA==",
+      "upstreamShasum": "05204ea9f0096b8bf9747bcfb2e513f563d59daa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "0.0.4-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.5",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TEC7t0DCke5g1HqzNWPniC35WidaZIY8xHoHApCvhUj+xv6GaoUAttPvy1THY1m4u7CycSqQvc5ufriqz8VIfA==",
+          "shasum": "05204ea9f0096b8bf9747bcfb2e513f563d59daa"
+        }
+      }
+    },
+    {
+      "version": "1.0.6",
+      "variantId": "registry-package.openupm.com-57ff71f26c621ff1",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "aaf29c5cfb9e25d1d2b58d8f5e307e0da960c228",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.6.tgz",
+      "upstreamIntegrity": "sha512-fVZeawE2/aWZQZD/qicywzSA+1WnpHtONNYy7hLyswYMpLlg3C7PCLbtMyI1GrRL6Y7J9h0QeMS046olz7w50A==",
+      "upstreamShasum": "3a96c03b52c0d71562958494826e7718732f786f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "0.0.4-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.6",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fVZeawE2/aWZQZD/qicywzSA+1WnpHtONNYy7hLyswYMpLlg3C7PCLbtMyI1GrRL6Y7J9h0QeMS046olz7w50A==",
+          "shasum": "3a96c03b52c0d71562958494826e7718732f786f"
+        }
+      }
+    },
+    {
+      "version": "1.0.7",
+      "variantId": "registry-package.openupm.com-d04ff87782a6f3f7",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "e318ef3c3e8f7ad0980951bc1ed14fd08fa39081",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.7.tgz",
+      "upstreamIntegrity": "sha512-LpzXALgSYQ5mjUsr+TK7a1VNNfIuetw122NsZBkmk5UyXlGSaHObpo95Dokc88diaVAsHTDK32mMzrUANa6x8A==",
+      "upstreamShasum": "5ebe41f1668c7fabdac31c55fd53cd2522742a41",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "0.0.4-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.7",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LpzXALgSYQ5mjUsr+TK7a1VNNfIuetw122NsZBkmk5UyXlGSaHObpo95Dokc88diaVAsHTDK32mMzrUANa6x8A==",
+          "shasum": "5ebe41f1668c7fabdac31c55fd53cd2522742a41"
+        }
+      }
+    },
+    {
+      "version": "1.0.8",
+      "variantId": "registry-package.openupm.com-3eb8df2eb88ce21c",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "6c7156592a92c8a6496b34ad246e96be39f4fff0",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.8.tgz",
+      "upstreamIntegrity": "sha512-XSi6uvBAxcq+B7EdPck47Q1L9TWAd1P34XHLZQP0tqiUsbPV3zqJjBgI0DGTDCEc9kd01UwUTx83DHSczRgIMA==",
+      "upstreamShasum": "b4d856ce9a3e33987ccd27b7f2dc032447c78d40",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "0.0.4-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.8",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XSi6uvBAxcq+B7EdPck47Q1L9TWAd1P34XHLZQP0tqiUsbPV3zqJjBgI0DGTDCEc9kd01UwUTx83DHSczRgIMA==",
+          "shasum": "b4d856ce9a3e33987ccd27b7f2dc032447c78d40"
+        }
+      }
+    },
+    {
+      "version": "1.0.9",
+      "variantId": "registry-package.openupm.com-fafacbfc65353f79",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "00fabf6a21b20c8aba5966c796835d4ba885be9d",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.9.tgz",
+      "upstreamIntegrity": "sha512-UF9kQVsM5prUuxwtsTMvD3druOO57b+bMjVETFZpnslq5IeAv2dBeyxYSZkbW9VMEWfFBbzrdggyfHfJBwiCJw==",
+      "upstreamShasum": "9a3ba16cf5827bef15052a3f4171ff9b697c7ec6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.9",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-UF9kQVsM5prUuxwtsTMvD3druOO57b+bMjVETFZpnslq5IeAv2dBeyxYSZkbW9VMEWfFBbzrdggyfHfJBwiCJw==",
+          "shasum": "9a3ba16cf5827bef15052a3f4171ff9b697c7ec6"
+        }
+      }
+    },
+    {
+      "version": "1.0.10",
+      "variantId": "registry-package.openupm.com-cedaeec587554bc4",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "65af40eee48934bc058afb83883cd23dbf7a6313",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.10.tgz",
+      "upstreamIntegrity": "sha512-62rjHXAlugw8SMeS/k9Km8e6h815qJARd8cPcsZbOBNCri+Xb01uhm4Vo4JuW95j06eIs3RqsxKtrrK7jy82EQ==",
+      "upstreamShasum": "77c9918df5deed4dd36e52f375ac7da6d27df70f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.10",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-62rjHXAlugw8SMeS/k9Km8e6h815qJARd8cPcsZbOBNCri+Xb01uhm4Vo4JuW95j06eIs3RqsxKtrrK7jy82EQ==",
+          "shasum": "77c9918df5deed4dd36e52f375ac7da6d27df70f"
+        }
+      }
+    },
+    {
+      "version": "1.0.11",
+      "variantId": "registry-package.openupm.com-8d1f37670f0de260",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "61e84fc980b6f21c9e6d12983fa310372897a3f9",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.11.tgz",
+      "upstreamIntegrity": "sha512-a58BLX2nSARGsE4On31toSao2Y6cqBPVEpRcv/FO18ipMK4UMclb3F0Rp32EOTe4YSJbta9tfLitOFxRKzjBFQ==",
+      "upstreamShasum": "815d3b9ff3aa671b51ff086934be700fe540805c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.11",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-a58BLX2nSARGsE4On31toSao2Y6cqBPVEpRcv/FO18ipMK4UMclb3F0Rp32EOTe4YSJbta9tfLitOFxRKzjBFQ==",
+          "shasum": "815d3b9ff3aa671b51ff086934be700fe540805c"
+        }
+      }
+    },
+    {
+      "version": "1.0.12",
+      "variantId": "registry-package.openupm.com-819f6e5a77d945c6",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "d47fa6b7118ab7e9856836ae3327d3165ba4bf47",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.12.tgz",
+      "upstreamIntegrity": "sha512-ufuo4RC8kUXiLl1EdywN8L7J8cDpTW7ZM8d58yaZPe31Cd9FXD7nxEd7cKeM3c32qIBfIZwVra9m1nOn/GfSWA==",
+      "upstreamShasum": "e8d546854cbbaa790cc176ee13b2afadb661fa26",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.12",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ufuo4RC8kUXiLl1EdywN8L7J8cDpTW7ZM8d58yaZPe31Cd9FXD7nxEd7cKeM3c32qIBfIZwVra9m1nOn/GfSWA==",
+          "shasum": "e8d546854cbbaa790cc176ee13b2afadb661fa26"
+        }
+      }
+    },
+    {
+      "version": "1.0.13",
+      "variantId": "registry-package.openupm.com-08e32e5fcfcd6022",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "70ec91d910b401454107eb3ef569f42e4dde4b98",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.13.tgz",
+      "upstreamIntegrity": "sha512-cimnd5pib2Lac77vyU4vG1PKvOUmHEhksUosebK+5TWF8+2rP4/9GkK9sipLg2fk0I9yzjA8sOMzIJlHCvmCHQ==",
+      "upstreamShasum": "d17c51a73eae341e75bffe9976f5f61080056d8c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.13",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cimnd5pib2Lac77vyU4vG1PKvOUmHEhksUosebK+5TWF8+2rP4/9GkK9sipLg2fk0I9yzjA8sOMzIJlHCvmCHQ==",
+          "shasum": "d17c51a73eae341e75bffe9976f5f61080056d8c"
+        }
+      }
+    },
+    {
+      "version": "1.0.14",
+      "variantId": "registry-package.openupm.com-8d787fb608234f4a",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "eb89faa37020421e08bdc977f1ed3b3d2377bd41",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.14.tgz",
+      "upstreamIntegrity": "sha512-MSzXodaHKEfSuZmU6aTOfCMAQbtJ9Nzyo6dcO5UUPiNfFAglh63jznOjiw7Q10xTgo0CPPvMvPF+TMzZS65O9Q==",
+      "upstreamShasum": "190e286b5aef853de347148d1c14259e1cb27eb7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.14",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MSzXodaHKEfSuZmU6aTOfCMAQbtJ9Nzyo6dcO5UUPiNfFAglh63jznOjiw7Q10xTgo0CPPvMvPF+TMzZS65O9Q==",
+          "shasum": "190e286b5aef853de347148d1c14259e1cb27eb7"
+        }
+      }
+    },
+    {
+      "version": "1.0.15",
+      "variantId": "registry-package.openupm.com-bcc50caabdf0b255",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "1882532191d13c6101a1789f3dd86e422c8390ab",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.15.tgz",
+      "upstreamIntegrity": "sha512-XXOsYDMIB4BUpPwxIQ90tsR4fH60JjDSnGHW03u4K9+Up8mJog6Qv74CEDLGgxmULH/THzcce12IoM+hc0QGFA==",
+      "upstreamShasum": "79432a2c33870f8b82a161b2714d4d35e3bb7925",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.15",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XXOsYDMIB4BUpPwxIQ90tsR4fH60JjDSnGHW03u4K9+Up8mJog6Qv74CEDLGgxmULH/THzcce12IoM+hc0QGFA==",
+          "shasum": "79432a2c33870f8b82a161b2714d4d35e3bb7925"
+        }
+      }
+    },
+    {
+      "version": "1.0.16",
+      "variantId": "registry-package.openupm.com-d4588cf02e15c83f",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "fde6670b04bc6ba390f42013167be9c9954dc00c",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.16.tgz",
+      "upstreamIntegrity": "sha512-QkJVkv7wRF1aHzRJBm1oUAdodUYQrIs62T37aJC+zCcJRc1bET+B32pRuSykaR1Z+cXpp+dAVjmLoE4NzhJ26w==",
+      "upstreamShasum": "f98d71ba9ac38e2fbea3cf43364da4b52aa8f0a3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.16",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QkJVkv7wRF1aHzRJBm1oUAdodUYQrIs62T37aJC+zCcJRc1bET+B32pRuSykaR1Z+cXpp+dAVjmLoE4NzhJ26w==",
+          "shasum": "f98d71ba9ac38e2fbea3cf43364da4b52aa8f0a3"
+        }
+      }
+    },
+    {
+      "version": "1.0.17",
+      "variantId": "registry-package.openupm.com-6d913820749e43b1",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "4f8aac8d522826508dc2a1d79dcf510623b8d6b3",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.17.tgz",
+      "upstreamIntegrity": "sha512-ZqObhdf7PtKVOMQlUD43X581q4zGdWrDIDR4KM5l/B5usLpO+JcDBgNCjq3ZLioYLaQH8jAXB4b4ltm+Qgav6g==",
+      "upstreamShasum": "6cb94acee48b1df8f49d9f44bc5bf2ab881a4365",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.17",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZqObhdf7PtKVOMQlUD43X581q4zGdWrDIDR4KM5l/B5usLpO+JcDBgNCjq3ZLioYLaQH8jAXB4b4ltm+Qgav6g==",
+          "shasum": "6cb94acee48b1df8f49d9f44bc5bf2ab881a4365"
+        }
+      }
+    },
+    {
+      "version": "1.0.18",
+      "variantId": "registry-package.openupm.com-11815bcc9afc759d",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "a392aed4297f2b2aeab13c247feea14efb1e1db2",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.18.tgz",
+      "upstreamIntegrity": "sha512-AqM1WyNRPUYI9vEIse0XsjoKw3JphHhwFowfa6bKMEIr7BFWq6AfM4nteJonccp43jKc+3vekVKMlqIEK9CzYQ==",
+      "upstreamShasum": "6e592b2b16adb14023283f2dafc243bd9fd39be4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.18",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-AqM1WyNRPUYI9vEIse0XsjoKw3JphHhwFowfa6bKMEIr7BFWq6AfM4nteJonccp43jKc+3vekVKMlqIEK9CzYQ==",
+          "shasum": "6e592b2b16adb14023283f2dafc243bd9fd39be4"
+        }
+      }
+    },
+    {
+      "version": "1.0.19",
+      "variantId": "registry-package.openupm.com-66e876a12f624d19",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "e7b0352e83e6ca40bc122e5c6a24136f9aa48c1f",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.19.tgz",
+      "upstreamIntegrity": "sha512-neFJ6cMBRMjN475yXD6oZu+vWoWMF73+lTJpR8izWonZFDzL25P80MP0Oxd1apqG/RPo2iOTwOOGtRXQCQGGxg==",
+      "upstreamShasum": "7a68a95ce241ebd7bf548a726f7f5bf204e2b374",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.19",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-neFJ6cMBRMjN475yXD6oZu+vWoWMF73+lTJpR8izWonZFDzL25P80MP0Oxd1apqG/RPo2iOTwOOGtRXQCQGGxg==",
+          "shasum": "7a68a95ce241ebd7bf548a726f7f5bf204e2b374"
+        }
+      }
+    },
+    {
+      "version": "1.0.21",
+      "variantId": "registry-package.openupm.com-a8f7641418d294ed",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "063329f1ab29cbe05c882592150a5b7c24f4d1ee",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.21.tgz",
+      "upstreamIntegrity": "sha512-I+reFt34sTMeFFgFaCU5yBYSxut1EgcoBFJmGlk0l5BSSU78+m3co6q9JkdSvYMsKHJR/gjguvKvQSWv6bhlTA==",
+      "upstreamShasum": "c5f19aafe4d0391b1619ff456934e1174dbd4a61",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.21",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-I+reFt34sTMeFFgFaCU5yBYSxut1EgcoBFJmGlk0l5BSSU78+m3co6q9JkdSvYMsKHJR/gjguvKvQSWv6bhlTA==",
+          "shasum": "c5f19aafe4d0391b1619ff456934e1174dbd4a61"
+        }
+      }
+    },
+    {
+      "version": "1.0.22",
+      "variantId": "registry-package.openupm.com-9d90cbe2c81be14f",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "de72807a42e13ddc553196e464bbe4f0a01aea5b",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.22.tgz",
+      "upstreamIntegrity": "sha512-xyPR2JlvXWc2bxgetJW2oymtG9tSV8z68Js/4OJYJJstugBfqrdc/qcZPdVLmaomXDITSA4GbG8bWJltO9vgmw==",
+      "upstreamShasum": "7622d159b8f38aafc2e30ed440271a5e77533b6a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.22",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xyPR2JlvXWc2bxgetJW2oymtG9tSV8z68Js/4OJYJJstugBfqrdc/qcZPdVLmaomXDITSA4GbG8bWJltO9vgmw==",
+          "shasum": "7622d159b8f38aafc2e30ed440271a5e77533b6a"
+        }
+      }
+    },
+    {
+      "version": "1.0.23",
+      "variantId": "registry-package.openupm.com-bbc0557a8085e31b",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "063b92b8d91deaf38f26f2258164b97138d15d19",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.23.tgz",
+      "upstreamIntegrity": "sha512-1I236qXSzVkFD/da7XZnOdWInh91Vr0aVfCkgQFp4gwTRPStRLGfOQBguzKQJUr/hJV+74w3t9ZFHF5PvMIJqQ==",
+      "upstreamShasum": "c1b675e6db5f3873e02133d53afc4ab2e81397f1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.23",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1I236qXSzVkFD/da7XZnOdWInh91Vr0aVfCkgQFp4gwTRPStRLGfOQBguzKQJUr/hJV+74w3t9ZFHF5PvMIJqQ==",
+          "shasum": "c1b675e6db5f3873e02133d53afc4ab2e81397f1"
+        }
+      }
+    },
+    {
+      "version": "1.0.25",
+      "variantId": "registry-package.openupm.com-b699bdf0c057fef7",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "17da06dc38502daffe6f05f4c70e426b239fa6cd",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.25.tgz",
+      "upstreamIntegrity": "sha512-1JQDvlTnN5tVuGihPZz5fDRowNwf1MZ2HBB7EsfXu+Cl6IdEj3dY4jQ4bGP7J/PqadOMjlnsM+CkrYKUra/TvA==",
+      "upstreamShasum": "5130597b33fa2b3558ae0dc8ee22c92eeac82aa4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.25",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1JQDvlTnN5tVuGihPZz5fDRowNwf1MZ2HBB7EsfXu+Cl6IdEj3dY4jQ4bGP7J/PqadOMjlnsM+CkrYKUra/TvA==",
+          "shasum": "5130597b33fa2b3558ae0dc8ee22c92eeac82aa4"
+        }
+      }
+    },
+    {
+      "version": "1.0.26",
+      "variantId": "registry-package.openupm.com-a77a644d0b08ff32",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "1a4ea37dbece3380ba62b39197a5f957eea58376",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.26.tgz",
+      "upstreamIntegrity": "sha512-mhwUIOo/6eZRFsFplWsSQDQSNkB+cV7x5jLQKLDk+0ekrxWRaDtwrGXXLjjMIH4p6JVD89xWQnrGcSJWZNQplg==",
+      "upstreamShasum": "52853be7897dc967a9739a63bbf98ff01db10fe1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.26",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mhwUIOo/6eZRFsFplWsSQDQSNkB+cV7x5jLQKLDk+0ekrxWRaDtwrGXXLjjMIH4p6JVD89xWQnrGcSJWZNQplg==",
+          "shasum": "52853be7897dc967a9739a63bbf98ff01db10fe1"
+        }
+      }
+    },
+    {
+      "version": "1.0.27",
+      "variantId": "registry-package.openupm.com-0009db954cce7119",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "99a71f5da03f60e5cd14188db04c1466a8c5b785",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-1.0.27.tgz",
+      "upstreamIntegrity": "sha512-jXxQoXY2dx9wFRBHc2z1X42pTJ0iffwMLdPkelXeWLpkZ4L3FDdrOYr13eO8i8pZYDvJdiFRUASLL9KXPgjTog==",
+      "upstreamShasum": "4ca21ef591a3fb9ea58a945eecce0cb3b7460875",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/1.0.27",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jXxQoXY2dx9wFRBHc2z1X42pTJ0iffwMLdPkelXeWLpkZ4L3FDdrOYr13eO8i8pZYDvJdiFRUASLL9KXPgjTog==",
+          "shasum": "4ca21ef591a3fb9ea58a945eecce0cb3b7460875"
+        }
+      }
+    },
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-33b92ee418b1ad26",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "ab477cbb77899740d69fcced37d623987c10f0e3",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-2.0.0.tgz",
+      "upstreamIntegrity": "sha512-gxuevC4jwCJGZFZw5ddEnGK+63qAXtUB4Lo/ZXk2dLInZ4DIhaF7HjPoSTpqmbgy3tbehwCH46B7J/BfeSKmmg==",
+      "upstreamShasum": "e5e931dc9aadc8d5eaf6eef8678853c4e5eec35c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/2.0.0",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gxuevC4jwCJGZFZw5ddEnGK+63qAXtUB4Lo/ZXk2dLInZ4DIhaF7HjPoSTpqmbgy3tbehwCH46B7J/BfeSKmmg==",
+          "shasum": "e5e931dc9aadc8d5eaf6eef8678853c4e5eec35c"
+        }
+      }
+    },
+    {
+      "version": "2.0.1",
+      "variantId": "registry-package.openupm.com-ff145cfea2d7b2e4",
+      "sourceUrl": "ssh://git@github.com/StansAssets/com.stansassets.foundation.git",
+      "sourceRef": "99566f733837e99f735e5422cd1d323529fa9363",
+      "downloadUrl": "https://package.openupm.com/com.stansassets.foundation/-/com.stansassets.foundation-2.0.1.tgz",
+      "upstreamIntegrity": "sha512-lHngLEh0pqxbbxjowDjB8C5WthY9SbpX4z0V4fmVcBLM96N++VXuhkRoX12oaI1yE6aIsvRdbNRrKJYRcAED6w==",
+      "upstreamShasum": "1b042abbeab2e88c594bf60f492cf942f7b1f0b7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.stansassets.foundation/2.0.1",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lHngLEh0pqxbbxjowDjB8C5WthY9SbpX4z0V4fmVcBLM96N++VXuhkRoX12oaI1yE6aIsvRdbNRrKJYRcAED6w==",
+          "shasum": "1b042abbeab2e88c594bf60f492cf942f7b1f0b7"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.0.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.stansassets.foundation.yml",
+  "definitionBlobSha": "528c4a8434f44d15fba9fe402fdfad13cfaa9dec",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "1.0.1",
+    "1.0.2",
+    "1.0.4"
+  ],
+  "selectedVersions": [
+    "1.0.1",
+    "1.0.2",
+    "1.0.4",
+    "2.0.1"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 28,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

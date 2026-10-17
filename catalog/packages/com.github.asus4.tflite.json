@@ -1,0 +1,882 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.github.asus4.tflite",
+  "displayName": "com.github.asus4.tflite",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "fetchedAt": "2026-10-17T17:38:46.188110Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "variantId": "registry-package.openupm.com-b80c59604ee467c8",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-0.1.0.tgz",
+      "upstreamIntegrity": "sha512-3EaCY3umSAcpV1ZuHCpfB8KZavD/ZwVxqgymoUlm/JTwb0PMNSgK1t+2z5nMQATvZlNnoBfcxdevDNQufqaG8w==",
+      "upstreamShasum": "bf05616456fc3136c8938c3a166f6d1f0ab67941",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/0.1.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3EaCY3umSAcpV1ZuHCpfB8KZavD/ZwVxqgymoUlm/JTwb0PMNSgK1t+2z5nMQATvZlNnoBfcxdevDNQufqaG8w==",
+          "shasum": "bf05616456fc3136c8938c3a166f6d1f0ab67941"
+        }
+      }
+    },
+    {
+      "version": "2.2.1",
+      "variantId": "registry-package.openupm.com-7fb85fd01fe3a394",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.2.1.tgz",
+      "upstreamIntegrity": "sha512-UfRRDA74JQ4Y0Bh5qvZKj27OZ5qz+g7rMchk71X4LuSLPJJshhdhRrB71ppPEnVK3I/0MVIfLI+DAbY36VhpJw==",
+      "upstreamShasum": "b234b29c85f7a134ac2d6aa3d9c95e9652793787",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.2.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-UfRRDA74JQ4Y0Bh5qvZKj27OZ5qz+g7rMchk71X4LuSLPJJshhdhRrB71ppPEnVK3I/0MVIfLI+DAbY36VhpJw==",
+          "shasum": "b234b29c85f7a134ac2d6aa3d9c95e9652793787"
+        }
+      }
+    },
+    {
+      "version": "2.3.0",
+      "variantId": "registry-package.openupm.com-1554caa6d43f38bc",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.3.0.tgz",
+      "upstreamIntegrity": "sha512-vLeAVwC1+y5RYwtgEYP3u/TrFkTifasVGp9dhXWotmPxFn1vUh6aKnnVApO6j64oHUpRDVWdMPFrgkHqGaoFbQ==",
+      "upstreamShasum": "0400cce89464f834fd094398db81c935b471093d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.mathematics": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.3.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vLeAVwC1+y5RYwtgEYP3u/TrFkTifasVGp9dhXWotmPxFn1vUh6aKnnVApO6j64oHUpRDVWdMPFrgkHqGaoFbQ==",
+          "shasum": "0400cce89464f834fd094398db81c935b471093d"
+        }
+      }
+    },
+    {
+      "version": "2.3.1",
+      "variantId": "registry-package.openupm.com-714b9f991b30e0aa",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.3.1.tgz",
+      "upstreamIntegrity": "sha512-x+iKURPippMIb5zeQJk97USLI1XLj1p1rHIxI6FKBguKKjrdDzoM7Sa4XKpfpPGmSb9zmUrY5kKmGSSgjr0D5g==",
+      "upstreamShasum": "968cc5e9188ae651f379ea43259ff818a1ad303e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.3.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-x+iKURPippMIb5zeQJk97USLI1XLj1p1rHIxI6FKBguKKjrdDzoM7Sa4XKpfpPGmSb9zmUrY5kKmGSSgjr0D5g==",
+          "shasum": "968cc5e9188ae651f379ea43259ff818a1ad303e"
+        }
+      }
+    },
+    {
+      "version": "2.4.0",
+      "variantId": "registry-package.openupm.com-a2f42127f5956f84",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.4.0.tgz",
+      "upstreamIntegrity": "sha512-nMw7qxg+RAYAFhJmQ5H6NGKdPDPtRK5FWzWa+I2EB2fBC6cpefhk3krNvUrcz9CkCkJCfB6B1zj9jng8CQGf4g==",
+      "upstreamShasum": "88f6400e6c638338a112c94df802f94df4a1651a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.4.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nMw7qxg+RAYAFhJmQ5H6NGKdPDPtRK5FWzWa+I2EB2fBC6cpefhk3krNvUrcz9CkCkJCfB6B1zj9jng8CQGf4g==",
+          "shasum": "88f6400e6c638338a112c94df802f94df4a1651a"
+        }
+      }
+    },
+    {
+      "version": "2.8.0",
+      "variantId": "registry-package.openupm.com-832ad24783204953",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.8.0.tgz",
+      "upstreamIntegrity": "sha512-j5YnF8H6mtZ3FpKJN2z+s4kBNa8MmeGvTXg5ocE0uS1H36uQDfjpYZt1RZwnCuLDYqt9xDPrjEGT60TMs6NsZg==",
+      "upstreamShasum": "5fab5d02665db190b3b61bd6ccbe918a6aae4b8f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.8.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-j5YnF8H6mtZ3FpKJN2z+s4kBNa8MmeGvTXg5ocE0uS1H36uQDfjpYZt1RZwnCuLDYqt9xDPrjEGT60TMs6NsZg==",
+          "shasum": "5fab5d02665db190b3b61bd6ccbe918a6aae4b8f"
+        }
+      }
+    },
+    {
+      "version": "2.9.1-p1",
+      "variantId": "registry-package.openupm.com-7d65a98af1031de1",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "0eb1d24e3a51f67ef76f96e2b9452b2fd26aa103",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.9.1-p1.tgz",
+      "upstreamIntegrity": "sha512-TkNqWIInp3F59xCH95yynNAGQsXI25GOVfoX2kJkGzRfhhVKCWgtC1ZA3j4zW5gSEINVNlEvIgXfJlK7PVeBhQ==",
+      "upstreamShasum": "428a843a7f65af6c10fba75aa05c0f61d2fd3aab",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.9.1-p1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TkNqWIInp3F59xCH95yynNAGQsXI25GOVfoX2kJkGzRfhhVKCWgtC1ZA3j4zW5gSEINVNlEvIgXfJlK7PVeBhQ==",
+          "shasum": "428a843a7f65af6c10fba75aa05c0f61d2fd3aab"
+        }
+      }
+    },
+    {
+      "version": "2.9.1",
+      "variantId": "registry-package.openupm.com-c86d99bc0a0f581e",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "847a751acc3637f74b658d100defb0e0231916cb",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.9.1.tgz",
+      "upstreamIntegrity": "sha512-Ji5ci/szqhnZwsgsmxmWJIEFKgtBQ5qZScs6HwskFPdtcXB/aphB8aKmJ2Jp6Era9MzM4/CDx9M1QLW9CTl2mQ==",
+      "upstreamShasum": "6e85c3a902f5f3d0bd9f12c0a3427c85cba801c9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.9.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ji5ci/szqhnZwsgsmxmWJIEFKgtBQ5qZScs6HwskFPdtcXB/aphB8aKmJ2Jp6Era9MzM4/CDx9M1QLW9CTl2mQ==",
+          "shasum": "6e85c3a902f5f3d0bd9f12c0a3427c85cba801c9"
+        }
+      }
+    },
+    {
+      "version": "2.10.0-p1",
+      "variantId": "registry-package.openupm.com-7702a1bbb7a32abb",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "4ae9930f2cc0eb80ab1de29c6fd40f538fa05a8d",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.10.0-p1.tgz",
+      "upstreamIntegrity": "sha512-/5VtXylO1bqYdQ3zjYIcevv55+3gJeIN99YjG0h8ObDSWSYeh7OqU60PI7+FdMqXPvDQK4aXHvn/En5/7rRVpQ==",
+      "upstreamShasum": "a4287aabd0720747819859094149f7c2b839fcba",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.10.0-p1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/5VtXylO1bqYdQ3zjYIcevv55+3gJeIN99YjG0h8ObDSWSYeh7OqU60PI7+FdMqXPvDQK4aXHvn/En5/7rRVpQ==",
+          "shasum": "a4287aabd0720747819859094149f7c2b839fcba"
+        }
+      }
+    },
+    {
+      "version": "2.10.0",
+      "variantId": "registry-package.openupm.com-e528f4f86d4b7e00",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "66985ac9836565b23e61c104f2fd589b748fab6a",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.10.0.tgz",
+      "upstreamIntegrity": "sha512-kcMflVS5fNl0OKDzjUVzkA2DIjHYi0z4E+PiXUFRRVeujjgKOVFxtnXDmJgMsJ7frAiC6jfe3rJCgg+wCyre2w==",
+      "upstreamShasum": "75284b4a7221b54845a49f5877c022366c0748fc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.10.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kcMflVS5fNl0OKDzjUVzkA2DIjHYi0z4E+PiXUFRRVeujjgKOVFxtnXDmJgMsJ7frAiC6jfe3rJCgg+wCyre2w==",
+          "shasum": "75284b4a7221b54845a49f5877c022366c0748fc"
+        }
+      }
+    },
+    {
+      "version": "2.11.1",
+      "variantId": "registry-package.openupm.com-2e2438f90b52a4ec",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "1eba9fd593830f8673c69ef8a138dde8caa147b8",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.11.1.tgz",
+      "upstreamIntegrity": "sha512-rhyXmX+JXRjQ4wsBiLThElXjlUl3w5aUrlIJDFQG7LGV+yOBrXzLQQ9q9/3rCy4g/YOfmiiQpB4/upjqp9qpcQ==",
+      "upstreamShasum": "947594ce46c6c45e0e3cbaacec95e45ad7c0b161",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.11.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rhyXmX+JXRjQ4wsBiLThElXjlUl3w5aUrlIJDFQG7LGV+yOBrXzLQQ9q9/3rCy4g/YOfmiiQpB4/upjqp9qpcQ==",
+          "shasum": "947594ce46c6c45e0e3cbaacec95e45ad7c0b161"
+        }
+      }
+    },
+    {
+      "version": "2.12.0",
+      "variantId": "registry-package.openupm.com-09d9e526c7708591",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "6938ac7093f42b640aa04914a31f2e035822577c",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.12.0.tgz",
+      "upstreamIntegrity": "sha512-ERgCN0Up0+1k5WN2kx6dq3Uldkyz4Bqy0XLSpwHPEt6g/NYxzsyegMxxq4qBKODKnook9q1J8YOavrqfAa9Fwg==",
+      "upstreamShasum": "137c04429a8d9e3caadc575b85345804a5896d0a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.12.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ERgCN0Up0+1k5WN2kx6dq3Uldkyz4Bqy0XLSpwHPEt6g/NYxzsyegMxxq4qBKODKnook9q1J8YOavrqfAa9Fwg==",
+          "shasum": "137c04429a8d9e3caadc575b85345804a5896d0a"
+        }
+      }
+    },
+    {
+      "version": "2.13.0",
+      "variantId": "registry-package.openupm.com-fb114070e892e860",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "4881a03df25c263ef466c66ac54e3344a2dfeb35",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.13.0.tgz",
+      "upstreamIntegrity": "sha512-iz7vqkBzR03MQzw1nK+JTXRjM9BYIjzSH5vh/aHQszd0BE1MsTW9x+YBcAi4CSA6JHh29t0mhGEURaABcUMF/g==",
+      "upstreamShasum": "110f5c4823e93e5414075747e38f00aefa1d1b7d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.13.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iz7vqkBzR03MQzw1nK+JTXRjM9BYIjzSH5vh/aHQszd0BE1MsTW9x+YBcAi4CSA6JHh29t0mhGEURaABcUMF/g==",
+          "shasum": "110f5c4823e93e5414075747e38f00aefa1d1b7d"
+        }
+      }
+    },
+    {
+      "version": "2.14.0",
+      "variantId": "registry-package.openupm.com-fbc76a4a1ef5c689",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "ebd77d9938a52077af4a4d1b595a0287a920ccb8",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.14.0.tgz",
+      "upstreamIntegrity": "sha512-GL/vO/R/1AqwKId2GvU68HjMrc1JWfyKJUNLP8zDb7uoFPTLYAGcE/5Ao90NcXceK+47DZFTABBAsb+pITPu8Q==",
+      "upstreamShasum": "152a3eb490b0dfb837ce56ec499c24fa5f6cadfd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.14.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GL/vO/R/1AqwKId2GvU68HjMrc1JWfyKJUNLP8zDb7uoFPTLYAGcE/5Ao90NcXceK+47DZFTABBAsb+pITPu8Q==",
+          "shasum": "152a3eb490b0dfb837ce56ec499c24fa5f6cadfd"
+        }
+      }
+    },
+    {
+      "version": "2.15.0",
+      "variantId": "registry-package.openupm.com-dea72e0b4a2e1b3d",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "7eb841ea486abce4837ecee0fbc30868a1efce70",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.15.0.tgz",
+      "upstreamIntegrity": "sha512-m7v9kag0PlqfJ5AIHa3EUrvzDP7hphJoVPY3UhZ14hzvOWA9ymTbjRFNGYnkDA7vxH5nfsSPru6knm+y8wigfA==",
+      "upstreamShasum": "c14834d325914e79b1b3990e805042d98e183ec2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "SEE LICENSE IN LICENSE",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.15.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-m7v9kag0PlqfJ5AIHa3EUrvzDP7hphJoVPY3UhZ14hzvOWA9ymTbjRFNGYnkDA7vxH5nfsSPru6knm+y8wigfA==",
+          "shasum": "c14834d325914e79b1b3990e805042d98e183ec2"
+        }
+      }
+    },
+    {
+      "version": "2.16.1-p1",
+      "variantId": "registry-package.openupm.com-9db2ee0dfd473682",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "f987411d794b758435fb7aca9dc17e31f38ddfb1",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.16.1-p1.tgz",
+      "upstreamIntegrity": "sha512-e0HbFL8GFAHSkfBQ7k8uD86sBDmI9bgoHNGiarTCwtM9Qt2zGbQqbwj7jJ1vw7SHv4CKHIYBO/+vjyks4S4oXw==",
+      "upstreamShasum": "4c545285c74d18bd5294d45aa081f1142a7465cd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache License 2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.16.1-p1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-e0HbFL8GFAHSkfBQ7k8uD86sBDmI9bgoHNGiarTCwtM9Qt2zGbQqbwj7jJ1vw7SHv4CKHIYBO/+vjyks4S4oXw==",
+          "shasum": "4c545285c74d18bd5294d45aa081f1142a7465cd"
+        }
+      }
+    },
+    {
+      "version": "2.16.1-p2",
+      "variantId": "registry-package.openupm.com-f263aa67575fc726",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "e4e5a2e8dde0ddf47bb1a02d3c39d151ff1e2fe1",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.16.1-p2.tgz",
+      "upstreamIntegrity": "sha512-x/hK0aEKJ07J/xT4q1UoZ8DIBVX60eSEcLBT8Clz7bk2s8nhdBpVxeIEHJPRhvYPJXMThKdZzVT9mp46+f7kLg==",
+      "upstreamShasum": "48cc12b1f36e01d4b35f94a614aa2d9efa839b65",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache License 2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.16.1-p2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-x/hK0aEKJ07J/xT4q1UoZ8DIBVX60eSEcLBT8Clz7bk2s8nhdBpVxeIEHJPRhvYPJXMThKdZzVT9mp46+f7kLg==",
+          "shasum": "48cc12b1f36e01d4b35f94a614aa2d9efa839b65"
+        }
+      }
+    },
+    {
+      "version": "2.16.1-p3",
+      "variantId": "registry-package.openupm.com-2800d182c8003b97",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "8dec8748cfaf60fc3cbfcfd0a6f57072f82b158e",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.16.1-p3.tgz",
+      "upstreamIntegrity": "sha512-PPy/x9VZpnrsvCS74EPpLJzH9n+OG+DF3nsjyHHPB6seGUik1+J0x8rk1qnpqeiKSN0XuQh3GuSGFQmIDka8Hw==",
+      "upstreamShasum": "7852fdc91f6f12b9137057e5426858db4858fec5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache License 2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.16.1-p3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PPy/x9VZpnrsvCS74EPpLJzH9n+OG+DF3nsjyHHPB6seGUik1+J0x8rk1qnpqeiKSN0XuQh3GuSGFQmIDka8Hw==",
+          "shasum": "7852fdc91f6f12b9137057e5426858db4858fec5"
+        }
+      }
+    },
+    {
+      "version": "2.16.1",
+      "variantId": "registry-package.openupm.com-43bafc28a71376e2",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "76002093057e34e3234c8010136c6479414973e6",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.16.1.tgz",
+      "upstreamIntegrity": "sha512-RzE5s87yDTsA5JK55dn+2N+dzQz1SOv4vQ74ug1fF/XwHUAZhjmRR56TRJo0DdlV3qc6SyuuDTOmN+iD2Jctdw==",
+      "upstreamShasum": "f290c4faa9f5a9b6a3cba27ec8e13382e3eb28e1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache License 2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.16.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RzE5s87yDTsA5JK55dn+2N+dzQz1SOv4vQ74ug1fF/XwHUAZhjmRR56TRJo0DdlV3qc6SyuuDTOmN+iD2Jctdw==",
+          "shasum": "f290c4faa9f5a9b6a3cba27ec8e13382e3eb28e1"
+        }
+      }
+    },
+    {
+      "version": "2.17.0",
+      "variantId": "registry-package.openupm.com-ec4f3d271808574e",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "8a6f71ff3ea04d28943ef06742852936e5181569",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.17.0.tgz",
+      "upstreamIntegrity": "sha512-a9KF602aIpMdrlFmY9vvQ0CheRtaZM2BQynRs5Y8YpXVp/Sz06me+q8V2m3UVEBOEvee5JcuhD5TduZyGEPiQQ==",
+      "upstreamShasum": "61a8ad57a08b2c91fb8438ada3580700c186cb9b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache License 2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.17.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-a9KF602aIpMdrlFmY9vvQ0CheRtaZM2BQynRs5Y8YpXVp/Sz06me+q8V2m3UVEBOEvee5JcuhD5TduZyGEPiQQ==",
+          "shasum": "61a8ad57a08b2c91fb8438ada3580700c186cb9b"
+        }
+      }
+    },
+    {
+      "version": "2.19.0-p1",
+      "variantId": "registry-package.openupm.com-465a6be2702eb0f3",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "0fea407aeb363cfeffa5217ca82479dd5f80c06c",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.19.0-p1.tgz",
+      "upstreamIntegrity": "sha512-0HXJupvRj7C5ywgSxa4vxeHrrTFT4GdT+HMrew1Rzk6z0QxTG/kpufacSu9AxBmZgRvts1QD91geYFo2yy6Kkw==",
+      "upstreamShasum": "6eb9d5bdbe7a7aa008c062a6223e5bc9c50b2e0e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache License 2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.19.0-p1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-0HXJupvRj7C5ywgSxa4vxeHrrTFT4GdT+HMrew1Rzk6z0QxTG/kpufacSu9AxBmZgRvts1QD91geYFo2yy6Kkw==",
+          "shasum": "6eb9d5bdbe7a7aa008c062a6223e5bc9c50b2e0e"
+        }
+      }
+    },
+    {
+      "version": "2.19.0-p2",
+      "variantId": "registry-package.openupm.com-40d823bac7a23bc4",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "9b7ec744097b565b619c26683ada229e01ad7c54",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.19.0-p2.tgz",
+      "upstreamIntegrity": "sha512-bwXz0OlGmpvvH1PowuD7Zsnanzdq1foWZ0FzI4J4aqc2EOmjaSbH5KJeM0Zh1Vfc6pOL3g/6U+JOHt3CtQc/Lg==",
+      "upstreamShasum": "f73b0fc0a45dc2a0812b8f4ac5218d3ecde8f147",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache License 2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.19.0-p2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bwXz0OlGmpvvH1PowuD7Zsnanzdq1foWZ0FzI4J4aqc2EOmjaSbH5KJeM0Zh1Vfc6pOL3g/6U+JOHt3CtQc/Lg==",
+          "shasum": "f73b0fc0a45dc2a0812b8f4ac5218d3ecde8f147"
+        }
+      }
+    },
+    {
+      "version": "2.19.0-p3",
+      "variantId": "registry-package.openupm.com-e62f11e2f5b5c6bc",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "ab0932298c9103e1330112b40bd8f810e6aee3c7",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.19.0-p3.tgz",
+      "upstreamIntegrity": "sha512-HfMdwIIDEYHCFXvsJ7zKsPn6N7kB3rkoVn4ca6l70UuNPbA5CNjtPZFQfhtlZnBHy519bjt/cfGQIQhQtW17gQ==",
+      "upstreamShasum": "5b917a99dd2c3bf8a4b083098f2132a4e0d596e5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache License 2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.19.0-p3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HfMdwIIDEYHCFXvsJ7zKsPn6N7kB3rkoVn4ca6l70UuNPbA5CNjtPZFQfhtlZnBHy519bjt/cfGQIQhQtW17gQ==",
+          "shasum": "5b917a99dd2c3bf8a4b083098f2132a4e0d596e5"
+        }
+      }
+    },
+    {
+      "version": "2.19.0",
+      "variantId": "registry-package.openupm.com-87f1fe485d7fbcee",
+      "sourceUrl": "https://package.openupm.com/com.github.asus4.tflite",
+      "sourceRef": "dea65c370ab6ca1915c3c75090f8ac90f4a469fd",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.19.0.tgz",
+      "upstreamIntegrity": "sha512-srVbTZDx2epzLJouAOgFa1cy5woAnbMEACxVNjo2UjhUVW5KylJV9DlRJEvsWMS4fBjnsdr2CRAGlnDZ/zE7jA==",
+      "upstreamShasum": "371b0d0971fd64a0b49f9ff5bcf23a765943f79e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache License 2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.19.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-srVbTZDx2epzLJouAOgFa1cy5woAnbMEACxVNjo2UjhUVW5KylJV9DlRJEvsWMS4fBjnsdr2CRAGlnDZ/zE7jA==",
+          "shasum": "371b0d0971fd64a0b49f9ff5bcf23a765943f79e"
+        }
+      }
+    },
+    {
+      "version": "2.21.0-rc0",
+      "variantId": "registry-package.openupm.com-d9e99a81505e8bd2",
+      "sourceUrl": "https://github.com/asus4/tf-lite-unity-sample.git",
+      "sourceRef": "b109e88d9cb8d049d98cb842af6db722425b4808",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.21.0-rc0.tgz",
+      "upstreamIntegrity": "sha512-hNgyJDehMfJxMU3OfcF5HdQpo8lK3nEoplczYmy3jrnLIiDUNAbyz5YvwsvHk+GVX35/GUaYT4ZwVHWpxIqebA==",
+      "upstreamShasum": "2ca78ca67c9e34b2d1633261b830ae7535ba07b4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache License 2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.21.0-rc0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hNgyJDehMfJxMU3OfcF5HdQpo8lK3nEoplczYmy3jrnLIiDUNAbyz5YvwsvHk+GVX35/GUaYT4ZwVHWpxIqebA==",
+          "shasum": "2ca78ca67c9e34b2d1633261b830ae7535ba07b4"
+        }
+      }
+    },
+    {
+      "version": "2.21.0-rc1",
+      "variantId": "registry-package.openupm.com-9706dd899921cf60",
+      "sourceUrl": "https://github.com/asus4/tf-lite-unity-sample.git",
+      "sourceRef": "49c019987a1518b2d359769cc3948e6f35c1b1d1",
+      "downloadUrl": "https://package.openupm.com/com.github.asus4.tflite/-/com.github.asus4.tflite-2.21.0-rc1.tgz",
+      "upstreamIntegrity": "sha512-TBTUM8NuL4I6Q0cjjhBf87b3V2EKY7rEGgHm6KzzO2lWLvANBKdJ7iMLd4QzXmGfd08p6wR3Q9rzfCy1XJam9A==",
+      "upstreamShasum": "dcdb3a8cfe892b129e0d969e088ba457dbd7cc14",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache License 2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.github.asus4.tflite/2.21.0-rc1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TBTUM8NuL4I6Q0cjjhBf87b3V2EKY7rEGgHm6KzzO2lWLvANBKdJ7iMLd4QzXmGfd08p6wR3Q9rzfCy1XJam9A==",
+          "shasum": "dcdb3a8cfe892b129e0d969e088ba457dbd7cc14"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.21.0-rc1",
+    "patch@2.3.1": "2.3.1",
+    "patch@2.9.1-p1": "2.9.1-p1",
+    "patch@2.10.0-p1": "2.10.0-p1",
+    "patch@2.16.1-p1": "2.16.1-p1",
+    "patch@2.16.1-p2": "2.16.1-p2",
+    "patch@2.16.1-p3": "2.16.1-p3",
+    "patch@2.19.0-p1": "2.19.0-p1",
+    "patch@2.19.0-p2": "2.19.0-p2",
+    "patch@2.19.0-p3": "2.19.0-p3"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.github.asus4.tflite.yml",
+  "definitionBlobSha": "e9c0d244c4920e8d64a7cc2b0d9594d28ba23117",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "2.8.0",
+    "2.19.0",
+    "2.9.1"
+  ],
+  "targetVersions": [
+    "2.8.0"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 26,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

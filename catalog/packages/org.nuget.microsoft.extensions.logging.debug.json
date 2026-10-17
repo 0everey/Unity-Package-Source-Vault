@@ -1,0 +1,2921 @@
+{
+  "schemaVersion": "1.0",
+  "id": "org.nuget.microsoft.extensions.logging.debug",
+  "displayName": "org.nuget.microsoft.extensions.logging.debug",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug",
+      "fetchedAt": "2026-10-17T17:45:40.217942Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-504b13ab0de348d9",
+      "sourceUrl": "https://github.com/aspnet/Logging",
+      "sourceRef": "",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-2.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9a86582ca27f090cb10d3f3571dacb274df59033",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/2.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "9a86582ca27f090cb10d3f3571dacb274df59033"
+        }
+      }
+    },
+    {
+      "version": "2.0.1",
+      "variantId": "registry-package.openupm.com-1576d35e3ef66c78",
+      "sourceUrl": "https://github.com/aspnet/Logging",
+      "sourceRef": "",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-2.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "34603e1a1fc6eb507ababf85bdbc810d9b15ab3c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/2.0.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "34603e1a1fc6eb507ababf85bdbc810d9b15ab3c"
+        }
+      }
+    },
+    {
+      "version": "2.0.2",
+      "variantId": "registry-package.openupm.com-9c1d637900c9b63a",
+      "sourceUrl": "https://github.com/aspnet/Logging",
+      "sourceRef": "",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-2.0.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0c6d27b384cbba4d5dbeab2f224a69d575d88de8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "2.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/2.0.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "0c6d27b384cbba4d5dbeab2f224a69d575d88de8"
+        }
+      }
+    },
+    {
+      "version": "2.1.0",
+      "variantId": "registry-package.openupm.com-98d86a0e5c90431d",
+      "sourceUrl": "https://github.com/aspnet/Logging",
+      "sourceRef": "6dffd8b4f6b6e2204224ae586cbea19375a7d206",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-2.1.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6d3277c343c132f242da4a17ed12845e55f05dd7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "2.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/2.1.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "6d3277c343c132f242da4a17ed12845e55f05dd7"
+        }
+      }
+    },
+    {
+      "version": "2.1.1",
+      "variantId": "registry-package.openupm.com-bbbe5bb062b5b7c3",
+      "sourceUrl": "https://github.com/aspnet/Logging",
+      "sourceRef": "a0398f0baf9ecc8e5fb6afc3a9b89f0d49cf041e",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-2.1.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1b93a5e3a46c389cd2ee9fba6974be51f9b0df7d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "2.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/2.1.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "1b93a5e3a46c389cd2ee9fba6974be51f9b0df7d"
+        }
+      }
+    },
+    {
+      "version": "2.2.0",
+      "variantId": "registry-package.openupm.com-96d7e8c76f9771b8",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "9bc79b2f25a3724376d7af19617c33749a30ea3a",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-2.2.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6c889f13f1ae816f3636ef2b3532625074b36f52",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/2.2.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "6c889f13f1ae816f3636ef2b3532625074b36f52"
+        }
+      }
+    },
+    {
+      "version": "3.0.0",
+      "variantId": "registry-package.openupm.com-9b48eddb619c42ed",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "0b951c16de0f39e13cce8372e11c28eb90576662",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "13ef317332ca50bad2e5d0572f38bad1f35f6c3b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "13ef317332ca50bad2e5d0572f38bad1f35f6c3b"
+        }
+      }
+    },
+    {
+      "version": "3.0.1",
+      "variantId": "registry-package.openupm.com-17c8357015d0e441",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "7dbc3ebd20c79ecf311c768be865c02ff4676836",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7abb32c5fbe0f96781bd4e476b88a9a3d5f237c9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.0.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "7abb32c5fbe0f96781bd4e476b88a9a3d5f237c9"
+        }
+      }
+    },
+    {
+      "version": "3.0.2",
+      "variantId": "registry-package.openupm.com-ca28012e9fb5c7de",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "c3451e0be4af1482b4ed0c7c3132f34487764b81",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.0.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e8e0c80ca209b28179c72877e117dc9e64049254",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.0.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "e8e0c80ca209b28179c72877e117dc9e64049254"
+        }
+      }
+    },
+    {
+      "version": "3.0.3",
+      "variantId": "registry-package.openupm.com-c8194d7e8e692fa9",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "3ba81a83537d2a08144e66f6266bab9f8846d762",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.0.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "3d0d8f35bf29ed5dd7f263f5b22b5ce35c9b1679",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.0.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "3d0d8f35bf29ed5dd7f263f5b22b5ce35c9b1679"
+        }
+      }
+    },
+    {
+      "version": "3.1.0",
+      "variantId": "registry-package.openupm.com-c5962eb626201d7b",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "4e1be2fb546751c773968d7b40ff7f4b62887153",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "5a30b2eac88a2e036018f60a781a0b900d033cfa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "5a30b2eac88a2e036018f60a781a0b900d033cfa"
+        }
+      }
+    },
+    {
+      "version": "3.1.1",
+      "variantId": "registry-package.openupm.com-c8575fbab29839e2",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "d00c382ec5d68a85d2eb4a49ab4559b8db7a2390",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "3876c3d7f220957e8f07f371caa33c04af5473f3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "3876c3d7f220957e8f07f371caa33c04af5473f3"
+        }
+      }
+    },
+    {
+      "version": "3.1.2",
+      "variantId": "registry-package.openupm.com-35a0949ef593609c",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "1286a6ff55e300352dabeb6d778c9fcdd258bd08",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ae03a82937cf9cd5f978406040fa672701baf700",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "ae03a82937cf9cd5f978406040fa672701baf700"
+        }
+      }
+    },
+    {
+      "version": "3.1.3",
+      "variantId": "registry-package.openupm.com-9c3795e966dde66e",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "7d9baaf617741d775578c8018729ac5b75734c69",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6fd08b42e1a597efa5e935ac28b36b21cbf8931e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "6fd08b42e1a597efa5e935ac28b36b21cbf8931e"
+        }
+      }
+    },
+    {
+      "version": "3.1.4",
+      "variantId": "registry-package.openupm.com-c33e1d9ce58d7250",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "7cc2a109d98493cf617de56709ec188fa5cd3fc1",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2451a35e30191cf280baefd89c1ad16e4da63e2a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "2451a35e30191cf280baefd89c1ad16e4da63e2a"
+        }
+      }
+    },
+    {
+      "version": "3.1.5",
+      "variantId": "registry-package.openupm.com-494902ec5402d45c",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "877455ff72cbb5834c52c12ce962f1417f5477c8",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.5.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "39cbdb6b8a76285c554a5633e6b1fd906cd1d479",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "39cbdb6b8a76285c554a5633e6b1fd906cd1d479"
+        }
+      }
+    },
+    {
+      "version": "3.1.6",
+      "variantId": "registry-package.openupm.com-e6e685b2088f64c3",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "be18161fbed286d6fb7a7b1c7999ce70a50cf3eb",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "01b721968505e9ad29cc9d0981a7cc1d0feb1675",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.6",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "01b721968505e9ad29cc9d0981a7cc1d0feb1675"
+        }
+      }
+    },
+    {
+      "version": "3.1.7",
+      "variantId": "registry-package.openupm.com-06fc71767a67f696",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "784b0ffaa40779255758ebbb146334da489a4bde",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.7.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "04edba32f0c62ae3ddc78bbb7c08858b518fc66f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.7",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "04edba32f0c62ae3ddc78bbb7c08858b518fc66f"
+        }
+      }
+    },
+    {
+      "version": "3.1.8",
+      "variantId": "registry-package.openupm.com-a60798553dd660c6",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "1774c15ac24c65513fa9fc1f4fbb69be9a2a4e25",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.8.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "db6b78c211a7708d0594b7770666140bc8c859bb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.8"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.8",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "db6b78c211a7708d0594b7770666140bc8c859bb"
+        }
+      }
+    },
+    {
+      "version": "3.1.9",
+      "variantId": "registry-package.openupm.com-76e5c45fa451fa7a",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "d8a50ea1cc9892cda13c5237dec402ca10ddeaa1",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.9.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e4e93d05ea542c9d8ce6b8fc2f5ac4fa202bdeef",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.9",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "e4e93d05ea542c9d8ce6b8fc2f5ac4fa202bdeef"
+        }
+      }
+    },
+    {
+      "version": "3.1.10",
+      "variantId": "registry-package.openupm.com-229db06f63aeba33",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "bdc3beedabad610723b62f484f0ff7be6c97d87e",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.10.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d8abd1978e948c3e7319aa185449efcac7d38682",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.10",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "d8abd1978e948c3e7319aa185449efcac7d38682"
+        }
+      }
+    },
+    {
+      "version": "3.1.11",
+      "variantId": "registry-package.openupm.com-72cb5ffe17257b57",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "77d62c5738da86985cf69ba0479539b6fdbc904e",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.11.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "3e3d1eb2ac754fe8167644c19ce0cf9ece16a600",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.11",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "3e3d1eb2ac754fe8167644c19ce0cf9ece16a600"
+        }
+      }
+    },
+    {
+      "version": "3.1.12",
+      "variantId": "registry-package.openupm.com-76cdc1a8c6c6d3f0",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "4210e7d19b3e18ecadbd1c4c8589e39eea035d5f",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.12.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "b132a1c9346ac5f9a690d91fd8dec1ad89728d32",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.12",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "b132a1c9346ac5f9a690d91fd8dec1ad89728d32"
+        }
+      }
+    },
+    {
+      "version": "3.1.13",
+      "variantId": "registry-package.openupm.com-e359ab7c24c7c5cd",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "945dd07ff3fabf64fe67e7dd2197bbeedbe6ca0f",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.13.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4b0e0083ba4b48bf72a8dd0f74b47175db7db444",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.13"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.13",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "4b0e0083ba4b48bf72a8dd0f74b47175db7db444"
+        }
+      }
+    },
+    {
+      "version": "3.1.14",
+      "variantId": "registry-package.openupm.com-5c3d2529f6bdf3b6",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "1c79cde92ca66a991b25a5ed9cbd570e289df47e",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.14.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "3318aaebbd91dde0d446740095afd705e1362d54",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.14",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "3318aaebbd91dde0d446740095afd705e1362d54"
+        }
+      }
+    },
+    {
+      "version": "3.1.15",
+      "variantId": "registry-package.openupm.com-88c566b68773a62e",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "194782ed2ccc8f5103e741c8421a60c3618c8fed",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.15.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4c1d562c92e6fc7ba66c0c6633cefee1361f5282",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.15"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.15",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "4c1d562c92e6fc7ba66c0c6633cefee1361f5282"
+        }
+      }
+    },
+    {
+      "version": "3.1.16",
+      "variantId": "registry-package.openupm.com-c89dffb358368a02",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "60938620996db86debee5cf1652e70a6ec5cb3e7",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.16.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "b852442ac6722f3ceb3e725abf5d74e416873654",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.16"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.16",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "b852442ac6722f3ceb3e725abf5d74e416873654"
+        }
+      }
+    },
+    {
+      "version": "3.1.17",
+      "variantId": "registry-package.openupm.com-8380caa795406187",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "904ee5cc71a77faea808d43636a4e3e8c175c006",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.17.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1c6c7aa9266496d5a85f2cba0765b6c425c73ef7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.17"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.17",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "1c6c7aa9266496d5a85f2cba0765b6c425c73ef7"
+        }
+      }
+    },
+    {
+      "version": "3.1.18",
+      "variantId": "registry-package.openupm.com-c4cdd62938e7b104",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "9130c4bf47c4920f1f3dffb7504119c367b83808",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.18.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e8ee5d4cf9516f19893a8583f4fd5de53c7b3b9e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.18"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.18",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "e8ee5d4cf9516f19893a8583f4fd5de53c7b3b9e"
+        }
+      }
+    },
+    {
+      "version": "3.1.19",
+      "variantId": "registry-package.openupm.com-3c3065d0469784db",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "4d7b11a63b9f3611dc7aa8ba07157dd4fb4515c5",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.19.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2d3d543c419849c6d475ab97af3462e6153ce7a0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.19"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.19",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "2d3d543c419849c6d475ab97af3462e6153ce7a0"
+        }
+      }
+    },
+    {
+      "version": "3.1.20",
+      "variantId": "registry-package.openupm.com-2915d3efb4e0ea78",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "513f727d177a19d28871458dcbc261f18761d37e",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.20.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8be038650bc172f6555414fdfb6d470561a72261",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.20",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "8be038650bc172f6555414fdfb6d470561a72261"
+        }
+      }
+    },
+    {
+      "version": "3.1.21",
+      "variantId": "registry-package.openupm.com-8be482b229514c07",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "c7c07d575c22a9686fe9e07cda4d21cdd1151b33",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.21.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e5210dd51a0d732a6edd2ba97c18a606a79b2a24",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.21"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.21",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "e5210dd51a0d732a6edd2ba97c18a606a79b2a24"
+        }
+      }
+    },
+    {
+      "version": "3.1.22",
+      "variantId": "registry-package.openupm.com-13f9d3a22b590107",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "d8690e6fcc4bc6c2ae77a1b748f87040180894fc",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.22.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8eb188f21c3f913a666cd05fd42dfb1467064ad6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.22"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.22",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "8eb188f21c3f913a666cd05fd42dfb1467064ad6"
+        }
+      }
+    },
+    {
+      "version": "3.1.23",
+      "variantId": "registry-package.openupm.com-61068aa031a8d2da",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "8934ddbf6c4fbc697b8f63eb5a49fb21ccffc56b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.23.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9ceab401db272866042c2ca16a87c998dd675350",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.23"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.23",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "9ceab401db272866042c2ca16a87c998dd675350"
+        }
+      }
+    },
+    {
+      "version": "3.1.24",
+      "variantId": "registry-package.openupm.com-152e7e6ad43f396b",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "8e0af0dbdd80016da26eab546c3f10e943cea1bc",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.24.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8359475b80e77205ccdc317c950575d58ab1332e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.24"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.24",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "8359475b80e77205ccdc317c950575d58ab1332e"
+        }
+      }
+    },
+    {
+      "version": "3.1.25",
+      "variantId": "registry-package.openupm.com-21dc067e73b80e1e",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "fc49d8e29a7fb8d87d1210396cc3b90e8982934c",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.25.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1cd5ca99b051f0df0c8c28499cfda913d51975f3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.25"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.25",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "1cd5ca99b051f0df0c8c28499cfda913d51975f3"
+        }
+      }
+    },
+    {
+      "version": "3.1.26",
+      "variantId": "registry-package.openupm.com-ccede900561093ae",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "2595364d370c0a654434d8119363260c19582e39",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.26.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "b7d2666a2a4a97d418b855ff4e0cdb2269d8edcf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.26"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.26",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "b7d2666a2a4a97d418b855ff4e0cdb2269d8edcf"
+        }
+      }
+    },
+    {
+      "version": "3.1.27",
+      "variantId": "registry-package.openupm.com-e68e609c0117b7a2",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "06a95a71d3f1a5662d67a5f1dfc33b692328a051",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.27.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "db8d21252d763282ab415091e53fd134fef46866",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.27"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.27",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "db8d21252d763282ab415091e53fd134fef46866"
+        }
+      }
+    },
+    {
+      "version": "3.1.28",
+      "variantId": "registry-package.openupm.com-b558eb4c79c82b35",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "bf069624f8eb412724a7c2cade6e9f88f7107217",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.28.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a96829fac4b19e13fa55872d911ea757f016ba51",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.28"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.28",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "a96829fac4b19e13fa55872d911ea757f016ba51"
+        }
+      }
+    },
+    {
+      "version": "3.1.29",
+      "variantId": "registry-package.openupm.com-f88f35cebc06238e",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "a5c93f643829c9d3d804468b193d27fa68d87bb0",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.29.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4b32c5705fade5a8036a7227dd8d951ebf9e63ee",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.29"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.29",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "4b32c5705fade5a8036a7227dd8d951ebf9e63ee"
+        }
+      }
+    },
+    {
+      "version": "3.1.30",
+      "variantId": "registry-package.openupm.com-3b44a1c4b39bf17e",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "c62ee3d0c9492db518f79bf5e4d364bce7c78c66",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.30.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "5e740cdb16f326a38d4435ded31cad2a55731996",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.30"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.30",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "5e740cdb16f326a38d4435ded31cad2a55731996"
+        }
+      }
+    },
+    {
+      "version": "3.1.31",
+      "variantId": "registry-package.openupm.com-c531e9990e6419ea",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "cc9959c7f4ab9dcc97dae67ed48cb7226e75c67b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.31.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "fec0e4f269545c1f62d6d2a1bfc892e3ed61a915",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.31"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.31",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "fec0e4f269545c1f62d6d2a1bfc892e3ed61a915"
+        }
+      }
+    },
+    {
+      "version": "3.1.32",
+      "variantId": "registry-package.openupm.com-8aa7dc49b1c314de",
+      "sourceUrl": "https://github.com/aspnet/Extensions",
+      "sourceRef": "86e38007b27f3a464223908075c57f1d7f5ee649",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-3.1.32.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7bd73c8ef9a4c1915808371e4c35711d99e1bf1a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.logging": "3.1.32"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/3.1.32",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "7bd73c8ef9a4c1915808371e4c35711d99e1bf1a"
+        }
+      }
+    },
+    {
+      "version": "5.0.0",
+      "variantId": "registry-package.openupm.com-5cba1fb84165d255",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "cf258a14b70ad9069470a108f13765e0e5988f51",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-5.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "991d3ff41f307adbba744fa6a68a79c83ec7e25e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "5.0.0",
+        "org.nuget.microsoft.extensions.logging": "5.0.0",
+        "org.nuget.microsoft.extensions.logging.abstractions": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/5.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "991d3ff41f307adbba744fa6a68a79c83ec7e25e"
+        }
+      }
+    },
+    {
+      "version": "6.0.0",
+      "variantId": "registry-package.openupm.com-aa0daf16bcb2cf3d",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "4822e3c3aa77eb82b2fb33c9321f923cf11ddde6",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-6.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d7d167140a827631230833b66db6cc88b5fb50d3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "6.0.0",
+        "org.nuget.microsoft.extensions.logging.abstractions": "6.0.0",
+        "org.nuget.microsoft.extensions.logging": "6.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/6.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "d7d167140a827631230833b66db6cc88b5fb50d3"
+        }
+      }
+    },
+    {
+      "version": "6.0.1",
+      "variantId": "registry-package.openupm.com-62165515b99a9d53",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "f1dd57165bfd91875761329ac3a8b17f6606ad18",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-6.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "eb434afe299e2e75ecaaf90ad68c1da6a8aeb63e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "6.0.0",
+        "org.nuget.microsoft.extensions.logging.abstractions": "6.0.4",
+        "org.nuget.microsoft.extensions.logging": "6.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/6.0.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "eb434afe299e2e75ecaaf90ad68c1da6a8aeb63e"
+        }
+      }
+    },
+    {
+      "version": "7.0.0",
+      "variantId": "registry-package.openupm.com-fc68dfb81c612fcb",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "d099f075e45d2aa6007a22b71b45a08758559f80",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-7.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "86d8b2fbe8cd270e957f0aea2217b4cf370b6c82",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "7.0.0",
+        "org.nuget.microsoft.extensions.logging.abstractions": "7.0.0",
+        "org.nuget.microsoft.extensions.logging": "7.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/7.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "86d8b2fbe8cd270e957f0aea2217b4cf370b6c82"
+        }
+      }
+    },
+    {
+      "version": "8.0.0",
+      "variantId": "registry-package.openupm.com-742b127fd25f1941",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "5535e31a712343a63f5d7d796cd874e563e5ac14",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-8.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9e338fb475ab7c26a7aea7f628be90d63c40ac1b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "8.0.0",
+        "org.nuget.microsoft.extensions.logging.abstractions": "8.0.0",
+        "org.nuget.microsoft.extensions.logging": "8.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/8.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "9e338fb475ab7c26a7aea7f628be90d63c40ac1b"
+        }
+      }
+    },
+    {
+      "version": "8.0.1",
+      "variantId": "registry-package.openupm.com-28f73cb52714f767",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "81cabf2857a01351e5ab578947c7403a5b128ad1",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-8.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1a6d09091ee747626df7307081bb27861ba63669",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "8.0.2",
+        "org.nuget.microsoft.extensions.logging.abstractions": "8.0.2",
+        "org.nuget.microsoft.extensions.logging": "8.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/8.0.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "1a6d09091ee747626df7307081bb27861ba63669"
+        }
+      }
+    },
+    {
+      "version": "9.0.0",
+      "variantId": "registry-package.openupm.com-5066923119f7fe59",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "9d5a6a9aa463d6d10b0b0ba6d5982cc82f363dc3",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d867e2cf8a627bf737b734a5ee4d80ac43602e54",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.0",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.0",
+        "org.nuget.microsoft.extensions.logging": "9.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "d867e2cf8a627bf737b734a5ee4d80ac43602e54"
+        }
+      }
+    },
+    {
+      "version": "9.0.1",
+      "variantId": "registry-package.openupm.com-8956ced1ed7b2f00",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "c8acea22626efab11c13778c028975acdc34678f",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "3ba76843782e6c79e539006498f3bede072f09b7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.1",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.1",
+        "org.nuget.microsoft.extensions.logging": "9.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "3ba76843782e6c79e539006498f3bede072f09b7"
+        }
+      }
+    },
+    {
+      "version": "9.0.2",
+      "variantId": "registry-package.openupm.com-0784918363da13d5",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "80aa709f5d919c6814726788dc6dabe23e79e672",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "37a2e0ee82ec083eb711322c54a15941a92b89b9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.2",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.2",
+        "org.nuget.microsoft.extensions.logging": "9.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "37a2e0ee82ec083eb711322c54a15941a92b89b9"
+        }
+      }
+    },
+    {
+      "version": "9.0.3",
+      "variantId": "registry-package.openupm.com-8b25e8b1636ea357",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "831d23e56149cd59c40fc00c7feb7c5334bd19c4",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e1881d00d1c49f7e5359b3e24117e7aad2630c37",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.3",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.3",
+        "org.nuget.microsoft.extensions.logging": "9.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "e1881d00d1c49f7e5359b3e24117e7aad2630c37"
+        }
+      }
+    },
+    {
+      "version": "9.0.4",
+      "variantId": "registry-package.openupm.com-cee8e2c65abec9e2",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "f57e6dc747158ab7ade4e62a75a6750d16b771e8",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "323c3e4b5aa01c02d20c75875f3c8caefc8e2844",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.4",
+        "org.nuget.microsoft.extensions.logging": "9.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "323c3e4b5aa01c02d20c75875f3c8caefc8e2844"
+        }
+      }
+    },
+    {
+      "version": "9.0.5",
+      "variantId": "registry-package.openupm.com-83f290f286702d70",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "e36e4d1a8f8dfb08d7e3a6041459c9791d732c01",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.5.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "564b62c340774f658152a1201700703ffb2e4467",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.5",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.5",
+        "org.nuget.microsoft.extensions.logging": "9.0.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "564b62c340774f658152a1201700703ffb2e4467"
+        }
+      }
+    },
+    {
+      "version": "9.0.6",
+      "variantId": "registry-package.openupm.com-e45b656f5c6b39aa",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "3875b54e7b10b10606b105340199946d0b877754",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "fc56e61b252ab9357bda35038e2fa9281807135e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.6",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.6",
+        "org.nuget.microsoft.extensions.logging": "9.0.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.6",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "fc56e61b252ab9357bda35038e2fa9281807135e"
+        }
+      }
+    },
+    {
+      "version": "9.0.7",
+      "variantId": "registry-package.openupm.com-9cf2c0dcdb56e1a6",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "3c298d9f00936d651cc47d221762474e25277672",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.7.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "03938f99c99e6a74e6ca8c38eaabc352533d6bbc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.7",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.7",
+        "org.nuget.microsoft.extensions.logging": "9.0.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.7",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "03938f99c99e6a74e6ca8c38eaabc352533d6bbc"
+        }
+      }
+    },
+    {
+      "version": "9.0.8",
+      "variantId": "registry-package.openupm.com-c271ab766d092edd",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "aae90fa09086a9be09dac83fa66542232c7269d8",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.8.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9c5672a7e5f05a54126be8d2ab21b4b727e4d817",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.8",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.8",
+        "org.nuget.microsoft.extensions.logging": "9.0.8"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.8",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "9c5672a7e5f05a54126be8d2ab21b4b727e4d817"
+        }
+      }
+    },
+    {
+      "version": "9.0.9",
+      "variantId": "registry-package.openupm.com-3bd6ee60c3a33c78",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "893c2ebbd49952ca49e93298148af2d95a61a0a4",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.9.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0d24d6ce7224dca027773c331a8afdeecbc2a7e0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.9",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.9",
+        "org.nuget.microsoft.extensions.logging": "9.0.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.9",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "0d24d6ce7224dca027773c331a8afdeecbc2a7e0"
+        }
+      }
+    },
+    {
+      "version": "9.0.10",
+      "variantId": "registry-package.openupm.com-d955c534003fc5dc",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "e1f19886fe3354963a4a790c896b3f99689fd7a5",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.10.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "26a73d34351253704ce1261da464b46c8c931d7d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.10",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.10",
+        "org.nuget.microsoft.extensions.logging": "9.0.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.10",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "26a73d34351253704ce1261da464b46c8c931d7d"
+        }
+      }
+    },
+    {
+      "version": "9.0.11",
+      "variantId": "registry-package.openupm.com-fe6bb042ffdc0121",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "fa7cdded37981a97cec9a3e233c4a6af58a91c57",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.11.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "407c6589a60b3db533b32281aad9593bdcd9529f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.11",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.11",
+        "org.nuget.microsoft.extensions.logging": "9.0.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.11",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "407c6589a60b3db533b32281aad9593bdcd9529f"
+        }
+      }
+    },
+    {
+      "version": "9.0.12",
+      "variantId": "registry-package.openupm.com-b7fd734f224f24e5",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "2f124007573374800632d39177cde00ca9fe1ef0",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.12.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "22fa0d9ea9781bfdb38051f133f7cafd5f74f984",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.12",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.12",
+        "org.nuget.microsoft.extensions.logging": "9.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.12",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "22fa0d9ea9781bfdb38051f133f7cafd5f74f984"
+        }
+      }
+    },
+    {
+      "version": "9.0.13",
+      "variantId": "registry-package.openupm.com-bb3cb1bb761a254d",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "9ecbfd4f3f330dc9649bce49cb12570b19d48c87",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.13.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "54d9024f2290828bd981f1b629872bbd6d445f16",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.13",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.13",
+        "org.nuget.microsoft.extensions.logging": "9.0.13"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.13",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "54d9024f2290828bd981f1b629872bbd6d445f16"
+        }
+      }
+    },
+    {
+      "version": "9.0.14",
+      "variantId": "registry-package.openupm.com-d3f3e3ccc5ce1702",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "19c07820cb72aafc554c3bc8fe3c54010f5123f0",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.14.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "5387f71bdd5af8b2c414b10fc85bd738617d1602",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.14",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.14",
+        "org.nuget.microsoft.extensions.logging": "9.0.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.14",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "5387f71bdd5af8b2c414b10fc85bd738617d1602"
+        }
+      }
+    },
+    {
+      "version": "9.0.15",
+      "variantId": "registry-package.openupm.com-d2462a8aa970a9fd",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "4250c8399aa851d2d6a95efbdcc5c4c12311e024",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.15.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1fc714c251f49a4022c250d106a5caa3cdc24280",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.15",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.15",
+        "org.nuget.microsoft.extensions.logging": "9.0.15"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.15",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "1fc714c251f49a4022c250d106a5caa3cdc24280"
+        }
+      }
+    },
+    {
+      "version": "9.0.16",
+      "variantId": "registry-package.openupm.com-77122373b0b5c9c1",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "a1e6809fb8318884882ceff057000654f558738a",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.16.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "fccf3a361e348f89d6e57fd5269bd588ac4dfa27",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.16",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.16",
+        "org.nuget.microsoft.extensions.logging": "9.0.16"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.16",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "fccf3a361e348f89d6e57fd5269bd588ac4dfa27"
+        }
+      }
+    },
+    {
+      "version": "9.0.17",
+      "variantId": "registry-package.openupm.com-2973143c528c36c2",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "f2c8152eed158e72950025393fde498c90a57a6b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.17.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "11a123abe8c9d52b2bac86afc94db648c1785216",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.17",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.17",
+        "org.nuget.microsoft.extensions.logging": "9.0.17"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.17",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "11a123abe8c9d52b2bac86afc94db648c1785216"
+        }
+      }
+    },
+    {
+      "version": "9.0.18",
+      "variantId": "registry-package.openupm.com-8955ce08bf2f6e91",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "d839c41c85988aadc213e8e42269ecd7883a1790",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.18.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "b076f3352d27179b9b9df343bf1899ff81814b99",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.18",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.18",
+        "org.nuget.microsoft.extensions.logging": "9.0.18"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.18",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "b076f3352d27179b9b9df343bf1899ff81814b99"
+        }
+      }
+    },
+    {
+      "version": "9.0.19",
+      "variantId": "registry-package.openupm.com-a3cca4d9bae8124f",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "8381bdb01fe4a26e1f61370e779c78bb73ecc95b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.19.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1437c9aea7f97caddbff26c43470423e3a462867",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.19",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.19",
+        "org.nuget.microsoft.extensions.logging": "9.0.19"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.19",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "1437c9aea7f97caddbff26c43470423e3a462867"
+        }
+      }
+    },
+    {
+      "version": "9.0.20",
+      "variantId": "registry-package.openupm.com-266b1aac966386f6",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "3879076d9a06ce098d37c3882fb1845a6627335b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.20.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "3f9817183d9502258054e7f57e676c86fa8755c5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.20",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.20",
+        "org.nuget.microsoft.extensions.logging": "9.0.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.20",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "3f9817183d9502258054e7f57e676c86fa8755c5"
+        }
+      }
+    },
+    {
+      "version": "9.0.21",
+      "variantId": "registry-package.openupm.com-017728c548cf676d",
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "d280e4fb388c6deed22d480daada060b6b456008",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-9.0.21.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4b9399eb292bcfff16bc75adde933acffe7af41c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "9.0.21",
+        "org.nuget.microsoft.extensions.logging.abstractions": "9.0.21",
+        "org.nuget.microsoft.extensions.logging": "9.0.21"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/9.0.21",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "4b9399eb292bcfff16bc75adde933acffe7af41c"
+        }
+      }
+    },
+    {
+      "version": "10.0.0",
+      "variantId": "registry-package.openupm.com-d97c9ff24dcfd245",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "b0f34d51fccc69fd334253924abd8d6853fad7aa",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-10.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7962ad92e386a4c33a7d5d4fc22638de06629685",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.0",
+        "org.nuget.microsoft.extensions.logging.abstractions": "10.0.0",
+        "org.nuget.microsoft.extensions.logging": "10.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/10.0.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "7962ad92e386a4c33a7d5d4fc22638de06629685"
+        }
+      }
+    },
+    {
+      "version": "10.0.1",
+      "variantId": "registry-package.openupm.com-b550aab7bfe04159",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "fad253f51b461736dfd3cd9c15977bb7493becef",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-10.0.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a74a689ddb404852f1bb7f73f16b06c101477e83",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.1",
+        "org.nuget.microsoft.extensions.logging.abstractions": "10.0.1",
+        "org.nuget.microsoft.extensions.logging": "10.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/10.0.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "a74a689ddb404852f1bb7f73f16b06c101477e83"
+        }
+      }
+    },
+    {
+      "version": "10.0.2",
+      "variantId": "registry-package.openupm.com-8f5b546cee3febbf",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "44525024595742ebe09023abe709df51de65009b",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-10.0.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1bae32b634b66e053041f41bbbe80663a54e69f2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.2",
+        "org.nuget.microsoft.extensions.logging.abstractions": "10.0.2",
+        "org.nuget.microsoft.extensions.logging": "10.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/10.0.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "1bae32b634b66e053041f41bbbe80663a54e69f2"
+        }
+      }
+    },
+    {
+      "version": "10.0.3",
+      "variantId": "registry-package.openupm.com-d136046e27e7dfba",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "c2435c3e0f46de784341ac3ed62863ce77e117b4",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-10.0.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "28ac2ec5c0d72b6914c12c8734564aa04ebab725",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.3",
+        "org.nuget.microsoft.extensions.logging.abstractions": "10.0.3",
+        "org.nuget.microsoft.extensions.logging": "10.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/10.0.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "28ac2ec5c0d72b6914c12c8734564aa04ebab725"
+        }
+      }
+    },
+    {
+      "version": "10.0.4",
+      "variantId": "registry-package.openupm.com-62239239ac7061ec",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "80d3e14f5e08b4888f464e3cd0d0b2445b63ec46",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-10.0.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e748fc04750cdb8f0e768d0f9ed2e8c54a1cd7db",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.4",
+        "org.nuget.microsoft.extensions.logging.abstractions": "10.0.4",
+        "org.nuget.microsoft.extensions.logging": "10.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/10.0.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "e748fc04750cdb8f0e768d0f9ed2e8c54a1cd7db"
+        }
+      }
+    },
+    {
+      "version": "10.0.5",
+      "variantId": "registry-package.openupm.com-b2ac11dd5a688d7c",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "a612c2a1056fe3265387ae3ff7c94eba1505caf9",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-10.0.5.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "aa60ef8c3256a3aec80ee319aa4b31e29e6d79c0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.5",
+        "org.nuget.microsoft.extensions.logging.abstractions": "10.0.5",
+        "org.nuget.microsoft.extensions.logging": "10.0.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/10.0.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "aa60ef8c3256a3aec80ee319aa4b31e29e6d79c0"
+        }
+      }
+    },
+    {
+      "version": "10.0.6",
+      "variantId": "registry-package.openupm.com-5dae48f34f1d06d6",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "47fb725acf5d7094af51aebbb5b7e5c44a3b2a77",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-10.0.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "b74e45ddd64be40bcba4a83902a0cc70eecda6e3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.6",
+        "org.nuget.microsoft.extensions.logging.abstractions": "10.0.6",
+        "org.nuget.microsoft.extensions.logging": "10.0.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/10.0.6",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "b74e45ddd64be40bcba4a83902a0cc70eecda6e3"
+        }
+      }
+    },
+    {
+      "version": "10.0.7",
+      "variantId": "registry-package.openupm.com-f35b0f0fccf94235",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "b16286c2284fecf303dbc12a0bb152476d662e44",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-10.0.7.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "36c9c1a10ab5b8f7fe465131650dc7c8e19f87f9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.7",
+        "org.nuget.microsoft.extensions.logging.abstractions": "10.0.7",
+        "org.nuget.microsoft.extensions.logging": "10.0.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/10.0.7",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "36c9c1a10ab5b8f7fe465131650dc7c8e19f87f9"
+        }
+      }
+    },
+    {
+      "version": "10.0.8",
+      "variantId": "registry-package.openupm.com-38835459e3fcba35",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "94ea82652cdd4e0f8046b5bd5becbd11461482ca",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-10.0.8.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c4ba2e183a550091552de771ef1136529c4305e7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.8",
+        "org.nuget.microsoft.extensions.logging.abstractions": "10.0.8",
+        "org.nuget.microsoft.extensions.logging": "10.0.8"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/10.0.8",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "c4ba2e183a550091552de771ef1136529c4305e7"
+        }
+      }
+    },
+    {
+      "version": "10.0.9",
+      "variantId": "registry-package.openupm.com-fbe51e2ad89b2221",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "901ca941248413c79832d2fdbd709da0c4386353",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-10.0.9.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e0fdcacd64409334101e213706a7d43540077921",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.9",
+        "org.nuget.microsoft.extensions.logging.abstractions": "10.0.9",
+        "org.nuget.microsoft.extensions.logging": "10.0.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/10.0.9",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "e0fdcacd64409334101e213706a7d43540077921"
+        }
+      }
+    },
+    {
+      "version": "10.0.10",
+      "variantId": "registry-package.openupm.com-d785bf5bfb457a59",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "f7d90799ce4ef09a0bb257852a57248d2a8fb8dd",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-10.0.10.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "481d2599ea0dfecc05689b412c2b043b8abc010a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.10",
+        "org.nuget.microsoft.extensions.logging.abstractions": "10.0.10",
+        "org.nuget.microsoft.extensions.logging": "10.0.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/10.0.10",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "481d2599ea0dfecc05689b412c2b043b8abc010a"
+        }
+      }
+    },
+    {
+      "version": "10.0.11",
+      "variantId": "registry-package.openupm.com-1e392fd1a449b08f",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "e2f47b0110ed922f21a1522da67279133ce28f32",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-10.0.11.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f06077fad1a05e62b7d7eb0a2f53ce0c6f6e2f25",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.11",
+        "org.nuget.microsoft.extensions.logging.abstractions": "10.0.11",
+        "org.nuget.microsoft.extensions.logging": "10.0.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/10.0.11",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "f06077fad1a05e62b7d7eb0a2f53ce0c6f6e2f25"
+        }
+      }
+    },
+    {
+      "version": "10.0.12",
+      "variantId": "registry-package.openupm.com-a627029327d06c0a",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "95017c711e6afc1085133d440e42b4bd78155701",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-10.0.12.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8206230744e2786bb411ea8d5a1e972c4aeca538",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.12",
+        "org.nuget.microsoft.extensions.logging.abstractions": "10.0.12",
+        "org.nuget.microsoft.extensions.logging": "10.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/10.0.12",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "8206230744e2786bb411ea8d5a1e972c4aeca538"
+        }
+      }
+    },
+    {
+      "version": "10.0.13",
+      "variantId": "registry-package.openupm.com-e4c6011cab9318cb",
+      "sourceUrl": "https://github.com/dotnet/dotnet",
+      "sourceRef": "4099f83977f4d29604a9aeb971fb0a7bc1d5f699",
+      "downloadUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/-/org.nuget.microsoft.extensions.logging.debug-10.0.13.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4b26ede6aa94e5219bb80fe27445a89abe4eb40b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.microsoft.extensions.dependencyinjection.abstractions": "10.0.13",
+        "org.nuget.microsoft.extensions.logging.abstractions": "10.0.13",
+        "org.nuget.microsoft.extensions.logging": "10.0.13"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.microsoft.extensions.logging.debug/10.0.13",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "4b26ede6aa94e5219bb80fe27445a89abe4eb40b"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "10.0.13"
+  },
+  "targetVersions": [
+    "3.0.0"
+  ],
+  "selectedVersions": [
+    "3.0.0",
+    "10.0.13",
+    "3.0.1"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 85,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

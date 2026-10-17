@@ -1,0 +1,952 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.aceland.input",
+  "displayName": "com.aceland.input",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input",
+      "fetchedAt": "2026-10-17T17:36:26.130683Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-d3edfc470714f4ab",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "56df66979b3657795f9a737cf725ec6949d44ff9",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-9hxsIOpcaScJBVdwxrzWbDRhZNP4wv2tw+Y481uMfq8MWvMuf3w9Ftv+FBY4qsVA9FnzWpHVEt6kvGF+0p/WgQ==",
+      "upstreamShasum": "97439cc5c4b6cf4c2155a39ff6110bd07368dd1d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "1.0.0",
+        "com.aceland.eventdriven": "1.0.0",
+        "com.aceland.playerloophack": "1.0.0",
+        "com.aceland.taskutils": "1.0.0",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/1.0.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9hxsIOpcaScJBVdwxrzWbDRhZNP4wv2tw+Y481uMfq8MWvMuf3w9Ftv+FBY4qsVA9FnzWpHVEt6kvGF+0p/WgQ==",
+          "shasum": "97439cc5c4b6cf4c2155a39ff6110bd07368dd1d"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-a057448aea5b315f",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "1faf9700c0efd51f3c3bedcf0f0e18de36c2b79e",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-ufG2ZXyzF0YtR9+4oLuLCFSqVVPFG9O3HCH/C44S2oPVkF7cojjezNEEug7Mn3O73JapssGRHCRibSmVAWWEOw==",
+      "upstreamShasum": "a16b78e4d961e1f92270e76343fac0517b72abc7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "1.0.1",
+        "com.aceland.eventdriven": "1.0.1",
+        "com.aceland.playerloophack": "1.0.1",
+        "com.aceland.taskutils": "1.0.1",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/1.0.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ufG2ZXyzF0YtR9+4oLuLCFSqVVPFG9O3HCH/C44S2oPVkF7cojjezNEEug7Mn3O73JapssGRHCRibSmVAWWEOw==",
+          "shasum": "a16b78e4d961e1f92270e76343fac0517b72abc7"
+        }
+      }
+    },
+    {
+      "version": "1.0.2",
+      "variantId": "registry-package.openupm.com-8d5eba2d60a95af4",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "1ecca36c81ab9d1e3e83ad346a7d2827de6b3d03",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-1.0.2.tgz",
+      "upstreamIntegrity": "sha512-78XmV2baRWrSGjX5PYXqIv4DeRCHEw416kTVOCLlSIe2stapsaKgR3rVL5gxhz/j9jlW4/o+3hp164cX3H01Yg==",
+      "upstreamShasum": "eb3081f934b86ccb9ae3bc4bc86a4bfbfa7fddbd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "1.0.2",
+        "com.aceland.eventdriven": "1.0.2",
+        "com.aceland.playerloophack": "1.0.2",
+        "com.aceland.taskutils": "1.0.2",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/1.0.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-78XmV2baRWrSGjX5PYXqIv4DeRCHEw416kTVOCLlSIe2stapsaKgR3rVL5gxhz/j9jlW4/o+3hp164cX3H01Yg==",
+          "shasum": "eb3081f934b86ccb9ae3bc4bc86a4bfbfa7fddbd"
+        }
+      }
+    },
+    {
+      "version": "1.0.3",
+      "variantId": "registry-package.openupm.com-9fc54b33f7d89434",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "132b4ee92ebc56a693e0b2198c39a065fd5e8e70",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-1.0.3.tgz",
+      "upstreamIntegrity": "sha512-LvHsFc9ej4MODLru4wY1rFgMO+k/MwZqmqRgNV1upvnSoMnLHgCwxaDhmfVHupfEZpIVdOF3eBetTZf66EB/TA==",
+      "upstreamShasum": "5ed507002c96ac3621a0f0641a7f09e094d4a959",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "1.0.3",
+        "com.aceland.eventdriven": "1.0.3",
+        "com.aceland.playerloophack": "1.0.3",
+        "com.aceland.taskutils": "1.0.3",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/1.0.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LvHsFc9ej4MODLru4wY1rFgMO+k/MwZqmqRgNV1upvnSoMnLHgCwxaDhmfVHupfEZpIVdOF3eBetTZf66EB/TA==",
+          "shasum": "5ed507002c96ac3621a0f0641a7f09e094d4a959"
+        }
+      }
+    },
+    {
+      "version": "1.0.4",
+      "variantId": "registry-package.openupm.com-11ea1a902a69901e",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "c03f33e4ac68c881850063ed63c39ef91fa88dc0",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-1.0.4.tgz",
+      "upstreamIntegrity": "sha512-CGcbU+sDhl/+d374QjtRp3jgBW7qF1+1F7LoRNxJ4cVHjbqx3LpWTjMZyO+704KNL4J74SiC7OZ7C9Z2AP+lPg==",
+      "upstreamShasum": "311318e2b879d216c98ef0d17de4c6de1b15825e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "1.0.4",
+        "com.aceland.eventdriven": "1.0.4",
+        "com.aceland.playerloophack": "1.0.4",
+        "com.aceland.taskutils": "1.0.4",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/1.0.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CGcbU+sDhl/+d374QjtRp3jgBW7qF1+1F7LoRNxJ4cVHjbqx3LpWTjMZyO+704KNL4J74SiC7OZ7C9Z2AP+lPg==",
+          "shasum": "311318e2b879d216c98ef0d17de4c6de1b15825e"
+        }
+      }
+    },
+    {
+      "version": "1.0.5",
+      "variantId": "registry-package.openupm.com-28ec1a622e90ef7b",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "6312cd0363da0c152c5f253f405b4e114fe82301",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-1.0.5.tgz",
+      "upstreamIntegrity": "sha512-CQYNp6qKxNK8y9n17PJpYVxEGe/Www3ffom+yZpgcMosnjzcttoEvXmw0Linq6xudIr+pCME2Z7lGqmey7vrtA==",
+      "upstreamShasum": "07192595b7cf3d3a77cff77de9df0e87f3e5decb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "1.0.5",
+        "com.aceland.eventdriven": "1.0.4",
+        "com.aceland.playerloophack": "1.0.4",
+        "com.aceland.taskutils": "1.0.4",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/1.0.5",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CQYNp6qKxNK8y9n17PJpYVxEGe/Www3ffom+yZpgcMosnjzcttoEvXmw0Linq6xudIr+pCME2Z7lGqmey7vrtA==",
+          "shasum": "07192595b7cf3d3a77cff77de9df0e87f3e5decb"
+        }
+      }
+    },
+    {
+      "version": "1.0.6",
+      "variantId": "registry-package.openupm.com-c924320631e299fe",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "7ebe735046e5873d5ef71b09cdf2ddd872570775",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-1.0.6.tgz",
+      "upstreamIntegrity": "sha512-dYwrnAh6PIFmejYtTHjf9YGq4BP/qBa0nHDV5dSOPrVIqkBcxAUi2dEDblE6QBsd280gxZOpIut9iqmmWPk//g==",
+      "upstreamShasum": "bb82ce5aef91c88c392f9e6c591273920c0d69b2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "1.0.6",
+        "com.aceland.eventdriven": "1.0.4",
+        "com.aceland.playerloophack": "1.0.4",
+        "com.aceland.taskutils": "1.0.4",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/1.0.6",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dYwrnAh6PIFmejYtTHjf9YGq4BP/qBa0nHDV5dSOPrVIqkBcxAUi2dEDblE6QBsd280gxZOpIut9iqmmWPk//g==",
+          "shasum": "bb82ce5aef91c88c392f9e6c591273920c0d69b2"
+        }
+      }
+    },
+    {
+      "version": "1.0.7",
+      "variantId": "registry-package.openupm.com-3342353b5463c5f5",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "816aa531cbcfa25b63a9e9517cc6eab23c1921e1",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-1.0.7.tgz",
+      "upstreamIntegrity": "sha512-X9f4he65Ped7qVVtdfpcKvgx20quqEQln1/l8c3Ktcbz5zKCJ4ay4JpXCIkCCo+Tkr3v+fJdgXHcuCTbBl7J9g==",
+      "upstreamShasum": "a7345dea81c0718346daa31f181f62e24c184648",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "1.0.10",
+        "com.aceland.eventdriven": "1.0.8",
+        "com.aceland.playerloophack": "1.0.5",
+        "com.aceland.taskutils": "1.0.5",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/1.0.7",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-X9f4he65Ped7qVVtdfpcKvgx20quqEQln1/l8c3Ktcbz5zKCJ4ay4JpXCIkCCo+Tkr3v+fJdgXHcuCTbBl7J9g==",
+          "shasum": "a7345dea81c0718346daa31f181f62e24c184648"
+        }
+      }
+    },
+    {
+      "version": "1.0.8",
+      "variantId": "registry-package.openupm.com-094a4e5bce384035",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "0c5538493cbd44a29aa87dfc9d55bb6fadbce56b",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-1.0.8.tgz",
+      "upstreamIntegrity": "sha512-a+Y4TXmF3ZG+frz+IcJmWjuo7NidWkFIAutcVqEO2meutPwE5p6s/huCS84MhdyASVXHu9VictS3iSWfcYUSFg==",
+      "upstreamShasum": "bbb760eea3d50628be542a5a4d6351a6fceb4e61",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "1.0.11",
+        "com.aceland.eventdriven": "1.0.12",
+        "com.aceland.playerloophack": "1.0.7",
+        "com.aceland.taskutils": "1.0.6",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/1.0.8",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-a+Y4TXmF3ZG+frz+IcJmWjuo7NidWkFIAutcVqEO2meutPwE5p6s/huCS84MhdyASVXHu9VictS3iSWfcYUSFg==",
+          "shasum": "bbb760eea3d50628be542a5a4d6351a6fceb4e61"
+        }
+      }
+    },
+    {
+      "version": "1.0.9",
+      "variantId": "registry-package.openupm.com-3cda15f300445aed",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "4370c7bf7f4631f32bfe11274caffa3b460c3584",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-1.0.9.tgz",
+      "upstreamIntegrity": "sha512-vLeFiuX57McB4jaZopbuNN1GWXAQhcv+wkM/+PEVuJJ5ai1Md8tqyU3AJbE4//oA63aG/5zOpi89P60cGppJWQ==",
+      "upstreamShasum": "c3da791e67d0c0e275cf3df12182959a81235e07",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "1.0.11",
+        "com.aceland.eventdriven": "1.0.13",
+        "com.aceland.playerloophack": "1.0.7",
+        "com.aceland.taskutils": "1.0.6",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/1.0.9",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vLeFiuX57McB4jaZopbuNN1GWXAQhcv+wkM/+PEVuJJ5ai1Md8tqyU3AJbE4//oA63aG/5zOpi89P60cGppJWQ==",
+          "shasum": "c3da791e67d0c0e275cf3df12182959a81235e07"
+        }
+      }
+    },
+    {
+      "version": "1.0.11",
+      "variantId": "registry-package.openupm.com-d55b34718fa020ac",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "b335195e71e5de2d7c8b61dacd80a968e22ce3e6",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-1.0.11.tgz",
+      "upstreamIntegrity": "sha512-iC28Kvwac5vunq81Jwrn7Evyb8fLmvwJDiCSp8gxWaU1Gucs8OrFPOhZpP4TMovGdgn1p5TplInNCASKIrlEAQ==",
+      "upstreamShasum": "df0fdfe27e22e2d9d3c49c33c0ef1c542fd37c0d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "1.0.20",
+        "com.aceland.eventdriven": "1.0.18",
+        "com.aceland.playerloophack": "1.0.7",
+        "com.aceland.taskutils": "1.0.6",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/1.0.11",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iC28Kvwac5vunq81Jwrn7Evyb8fLmvwJDiCSp8gxWaU1Gucs8OrFPOhZpP4TMovGdgn1p5TplInNCASKIrlEAQ==",
+          "shasum": "df0fdfe27e22e2d9d3c49c33c0ef1c542fd37c0d"
+        }
+      }
+    },
+    {
+      "version": "1.0.12",
+      "variantId": "registry-package.openupm.com-a7ddb0bbb76e6084",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "59aff93032de8fb918f432e55a0b4f1bc03f27e7",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-1.0.12.tgz",
+      "upstreamIntegrity": "sha512-K93nw/6LPrAMKVVjmK8pZY7AdYf0jb4L6MUhJL323Zm4ayHAsBMZyRTcYHGQpvOkscjFYFfYEEbZOGSnd6Ttxg==",
+      "upstreamShasum": "d9e13c184c90e6d091b219813defd1b2e3f18ecc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "1.0.20",
+        "com.aceland.eventdriven": "1.0.20",
+        "com.aceland.playerloophack": "1.0.7",
+        "com.aceland.taskutils": "1.0.9",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/1.0.12",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-K93nw/6LPrAMKVVjmK8pZY7AdYf0jb4L6MUhJL323Zm4ayHAsBMZyRTcYHGQpvOkscjFYFfYEEbZOGSnd6Ttxg==",
+          "shasum": "d9e13c184c90e6d091b219813defd1b2e3f18ecc"
+        }
+      }
+    },
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-276bc85bdbf469ba",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "5bb610e03feab93309d7df3cfe772be30625b095",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-2.0.0.tgz",
+      "upstreamIntegrity": "sha512-nGKdb+DEhhrK11COgOkYQWjAnJpkC1NL7LFKIstzksKGh45QKgl/e+iO2qGIICMOuVPIgtmrrKcqAo9UJPCwXA==",
+      "upstreamShasum": "e221ea2922297d24204a3773e7f93b1e8c833f89",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "2.0.3",
+        "com.aceland.eventdriven": "1.0.20",
+        "com.aceland.playerloophack": "1.0.7",
+        "com.aceland.taskutils": "2.0.0",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/2.0.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nGKdb+DEhhrK11COgOkYQWjAnJpkC1NL7LFKIstzksKGh45QKgl/e+iO2qGIICMOuVPIgtmrrKcqAo9UJPCwXA==",
+          "shasum": "e221ea2922297d24204a3773e7f93b1e8c833f89"
+        }
+      }
+    },
+    {
+      "version": "2.0.1",
+      "variantId": "registry-package.openupm.com-54899d59cb22e87c",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "72fa57b4afcdd9f5c98c96d259fa603cdb5ab81d",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-2.0.1.tgz",
+      "upstreamIntegrity": "sha512-xXQ3j8rs2BrRXJd8836jRV+T6fMBjfCmtchg4xTaxR0QPfEEgTrDoA3hJinOL8NvA5sgpqaB0WI0mwRiS5TYqw==",
+      "upstreamShasum": "1f4aae50c13a65077b6e2372ab0441bee9838e7a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "2.0.4",
+        "com.aceland.eventdriven": "1.0.20",
+        "com.aceland.playerloophack": "1.0.7",
+        "com.aceland.taskutils": "2.0.0",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/2.0.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xXQ3j8rs2BrRXJd8836jRV+T6fMBjfCmtchg4xTaxR0QPfEEgTrDoA3hJinOL8NvA5sgpqaB0WI0mwRiS5TYqw==",
+          "shasum": "1f4aae50c13a65077b6e2372ab0441bee9838e7a"
+        }
+      }
+    },
+    {
+      "version": "2.0.2",
+      "variantId": "registry-package.openupm.com-d48fa0e56ab01919",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "8c28ed28758be43d67ffde90b699ea9af0b220c4",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-2.0.2.tgz",
+      "upstreamIntegrity": "sha512-qCCm0B4f+iXjfkkVvMdK/VOn4ijOZz5p3ZICLQeig/ttJgFURezMrNgP4aaeOwi6ObBjP8vj9zlXPAAu1yVUjw==",
+      "upstreamShasum": "ccf27dadfa4fa5ce364305caf03334bd92d0506d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "2.0.4",
+        "com.aceland.eventdriven": "1.0.20",
+        "com.aceland.playerloophack": "1.0.7",
+        "com.aceland.taskutils": "2.0.2",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/2.0.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qCCm0B4f+iXjfkkVvMdK/VOn4ijOZz5p3ZICLQeig/ttJgFURezMrNgP4aaeOwi6ObBjP8vj9zlXPAAu1yVUjw==",
+          "shasum": "ccf27dadfa4fa5ce364305caf03334bd92d0506d"
+        }
+      }
+    },
+    {
+      "version": "2.0.3",
+      "variantId": "registry-package.openupm.com-231a611eb463540d",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "3577237c78c51830b1bbb665dabc07f66cd79fc5",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-2.0.3.tgz",
+      "upstreamIntegrity": "sha512-/yWgrcckE9/xYBBnh8tL4Q1LYdySWGO1AKSLL/NiT27CPuoSWtDta9XVzJEyVHAlB+qyjnfiVTc21zYZjR/RrQ==",
+      "upstreamShasum": "f7ceaba19458c3898c6c532c7a1d255817458355",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "2.0.4",
+        "com.aceland.eventdriven": "1.0.20",
+        "com.aceland.playerloophack": "1.0.7",
+        "com.aceland.taskutils": "2.0.2",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/2.0.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/yWgrcckE9/xYBBnh8tL4Q1LYdySWGO1AKSLL/NiT27CPuoSWtDta9XVzJEyVHAlB+qyjnfiVTc21zYZjR/RrQ==",
+          "shasum": "f7ceaba19458c3898c6c532c7a1d255817458355"
+        }
+      }
+    },
+    {
+      "version": "2.1.0",
+      "variantId": "registry-package.openupm.com-8c1d2d69254d748e",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "c53d79de1be37438961265b672bb9ba50407ceab",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-2.1.0.tgz",
+      "upstreamIntegrity": "sha512-x1dsOCLKahddXb5CoXKWHa6CaqofpPHmDTD3a2ivZMLAfz1+OLwkxmyER8lxLmZIDxjZREFrNn6alKU88SV1hg==",
+      "upstreamShasum": "5ea2332663bb1dfdd42ab04a17f586aa3901f360",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "2.0.4",
+        "com.aceland.eventdriven": "2.1.0",
+        "com.aceland.playerloophack": "1.0.7",
+        "com.aceland.taskutils": "2.0.2",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/2.1.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-x1dsOCLKahddXb5CoXKWHa6CaqofpPHmDTD3a2ivZMLAfz1+OLwkxmyER8lxLmZIDxjZREFrNn6alKU88SV1hg==",
+          "shasum": "5ea2332663bb1dfdd42ab04a17f586aa3901f360"
+        }
+      }
+    },
+    {
+      "version": "2.1.1",
+      "variantId": "registry-package.openupm.com-29e6f419c53840c2",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "96194750f074555e01dd89254e150ece57b8b310",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-2.1.1.tgz",
+      "upstreamIntegrity": "sha512-V2ilKJx5CFu6eRCyYBMVOpRrClUdketrcGbUbV2gVKlwEPqlA2G3jVtOlsvHvJmuxX+XJGSqVA0s25FePEdeBg==",
+      "upstreamShasum": "678009e26c913d935f99cef0ab3f4dc1172c1ccb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "2.0.11",
+        "com.aceland.eventdriven": "2.1.7",
+        "com.aceland.playerloophack": "1.0.9",
+        "com.aceland.taskutils": "2.0.4",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/2.1.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-V2ilKJx5CFu6eRCyYBMVOpRrClUdketrcGbUbV2gVKlwEPqlA2G3jVtOlsvHvJmuxX+XJGSqVA0s25FePEdeBg==",
+          "shasum": "678009e26c913d935f99cef0ab3f4dc1172c1ccb"
+        }
+      }
+    },
+    {
+      "version": "2.2.0",
+      "variantId": "registry-package.openupm.com-95339ce26f130c2e",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "02826e1b39d9efcf8b4cdfb61d5a52bfaf2334d4",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-2.2.0.tgz",
+      "upstreamIntegrity": "sha512-hNyCv6sf4aoEVnrOkQjs7kfIgrPED+XY/oBdB4s5z/Nj3h9Jwlz0gGJUsCUUKrmZii2oJQWBXXKTA4gnNYq8Tw==",
+      "upstreamShasum": "4d95b6403f2ca61017ad0346e198e96fd44fc745",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "2.1.0",
+        "com.aceland.eventdriven": "2.3.0",
+        "com.aceland.playerloophack": "1.1.0",
+        "com.aceland.taskutils": "2.1.0",
+        "com.unity.inputsystem": "1.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/2.2.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hNyCv6sf4aoEVnrOkQjs7kfIgrPED+XY/oBdB4s5z/Nj3h9Jwlz0gGJUsCUUKrmZii2oJQWBXXKTA4gnNYq8Tw==",
+          "shasum": "4d95b6403f2ca61017ad0346e198e96fd44fc745"
+        }
+      }
+    },
+    {
+      "version": "2.2.1",
+      "variantId": "registry-package.openupm.com-46d87c1102cd7d65",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "0f9e656bca7b55d008887e7e4689549b6b636ac0",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-2.2.1.tgz",
+      "upstreamIntegrity": "sha512-Yih+PPQk8oadxfRTDkOeDzk/vNjqCQaTUmGjrIIhD8UPLtllk2mKoXyleYlgcn5wXmZyMTmuZQ7my5dZ/gbqvA==",
+      "upstreamShasum": "b43a635fa50f913fe5b297e6113b67e21044355b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "2.1.1",
+        "com.aceland.eventdriven": "2.3.1",
+        "com.aceland.playerloophack": "1.1.1",
+        "com.aceland.taskutils": "2.1.1",
+        "com.unity.inputsystem": "1.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/2.2.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Yih+PPQk8oadxfRTDkOeDzk/vNjqCQaTUmGjrIIhD8UPLtllk2mKoXyleYlgcn5wXmZyMTmuZQ7my5dZ/gbqvA==",
+          "shasum": "b43a635fa50f913fe5b297e6113b67e21044355b"
+        }
+      }
+    },
+    {
+      "version": "2.2.2",
+      "variantId": "registry-package.openupm.com-529390efb1151ba7",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "e7fe017744cff08b2a88c62a45409acea5d01d41",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-2.2.2.tgz",
+      "upstreamIntegrity": "sha512-DoUdQ7jQme8411K9jXvqxKxEdtN8+8PZwovn6rW5XHhT1Sx310mRW0r7FGQS5iOnynmaz2KEgY3ZfXlPlTslQQ==",
+      "upstreamShasum": "ae992810328fa95958c701e48089028b91fcb81f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.library": "2.2.0",
+        "com.aceland.eventdriven": "2.3.2",
+        "com.aceland.playerloophack": "1.2.0",
+        "com.aceland.projectsetting": "1.0.0",
+        "com.aceland.taskutils": "2.2.0",
+        "com.unity.inputsystem": "1.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/2.2.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-DoUdQ7jQme8411K9jXvqxKxEdtN8+8PZwovn6rW5XHhT1Sx310mRW0r7FGQS5iOnynmaz2KEgY3ZfXlPlTslQQ==",
+          "shasum": "ae992810328fa95958c701e48089028b91fcb81f"
+        }
+      }
+    },
+    {
+      "version": "2.2.3",
+      "variantId": "registry-package.openupm.com-ba4be156624a176a",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": "4a13073bf6b4a04a2076099ab47c33f65513eb2e",
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-2.2.3.tgz",
+      "upstreamIntegrity": "sha512-33C43wDX8cimhZs88u5kLaZO6qG6Os8q1z2U3rVCMvTcnXELf6uwW5/rzJbunen6yAtDgg7YoTKO0c5HieAFdw==",
+      "upstreamShasum": "5871cc7454c634f8d82f71b67320a0b6c84b597d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.inputsystem": "1.10.1",
+        "com.aceland.library": "2.2.1",
+        "com.aceland.disposable": "1.0.0",
+        "com.aceland.eventdriven": "2.3.3",
+        "com.aceland.playerloophack": "1.2.1",
+        "com.aceland.projectsetting": "1.0.0",
+        "com.aceland.taskutils": "2.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/2.2.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-33C43wDX8cimhZs88u5kLaZO6qG6Os8q1z2U3rVCMvTcnXELf6uwW5/rzJbunen6yAtDgg7YoTKO0c5HieAFdw==",
+          "shasum": "5871cc7454c634f8d82f71b67320a0b6c84b597d"
+        }
+      }
+    },
+    {
+      "version": "2.3.0",
+      "variantId": "registry-package.openupm.com-78893feb13c23594",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-2.3.0.tgz",
+      "upstreamIntegrity": "sha512-Mz3/bdDtPYrrJZVOLDX0Hd53VBY2l+mA6RQ3QLElhEWBDrcLNdg6HIii4QRfyxyNMiPj5JVHyi+bqtMLus8stg==",
+      "upstreamShasum": "24f81b8ba941b9330f5f1a8bea936fca0cefe101",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.disposable": "1.0.0",
+        "com.aceland.eventdriven": "2.4.0",
+        "com.aceland.library": "2.2.1",
+        "com.aceland.playerloophack": "1.2.1",
+        "com.aceland.projectsetting": "1.0.0",
+        "com.aceland.taskutils": "2.2.4",
+        "com.unity.inputsystem": "1.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/2.3.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Mz3/bdDtPYrrJZVOLDX0Hd53VBY2l+mA6RQ3QLElhEWBDrcLNdg6HIii4QRfyxyNMiPj5JVHyi+bqtMLus8stg==",
+          "shasum": "24f81b8ba941b9330f5f1a8bea936fca0cefe101"
+        }
+      }
+    },
+    {
+      "version": "2.3.1",
+      "variantId": "registry-package.openupm.com-92c00ffe1651b5fd",
+      "sourceUrl": "https://github.com/parsue/com.aceland.input.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.aceland.input/-/com.aceland.input-2.3.1.tgz",
+      "upstreamIntegrity": "sha512-HRjMbl1JEAUFxkurHf0TWeTJ3lZlD12dy5mYzEpbJc/ieFG6S4jgz91lcRSuUs5C0D4BQjy460JLZRMAYJMAFg==",
+      "upstreamShasum": "6a2a7521dc69fdabbd569e310a3f89a71830d7e0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.aceland.disposable": "1.0.0",
+        "com.aceland.eventdriven": "2.5.0",
+        "com.aceland.library": "2.2.1",
+        "com.aceland.playerloophack": "1.2.1",
+        "com.aceland.projectsetting": "1.0.0",
+        "com.aceland.taskutils": "2.2.4",
+        "com.unity.inputsystem": "1.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.aceland.input/2.3.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HRjMbl1JEAUFxkurHf0TWeTJ3lZlD12dy5mYzEpbJc/ieFG6S4jgz91lcRSuUs5C0D4BQjy460JLZRMAYJMAFg==",
+          "shasum": "6a2a7521dc69fdabbd569e310a3f89a71830d7e0"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.3.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.aceland.input.yml",
+  "definitionBlobSha": "bb9e2b85ea847460dd302457c6c02cd933fe155a",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "2.3.1",
+    "2.3.0",
+    "1.0.12"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 24,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

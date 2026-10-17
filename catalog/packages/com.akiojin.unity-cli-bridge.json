@@ -1,0 +1,1471 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.akiojin.unity-cli-bridge",
+  "displayName": "com.akiojin.unity-cli-bridge",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge",
+      "fetchedAt": "2026-10-17T17:36:30.859114Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "variantId": "registry-package.openupm.com-04cd30b855862abb",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "b1707542efd636cd63d78f37f27c084749e6d7e5",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.1.0.tgz",
+      "upstreamIntegrity": "sha512-zi4rbBMecdJCiuC7V71Bo8ptl6MtkfGKEZ8HthYri9h9SDWdDOiao/Ia2htDMd6wXbJGOETPR+YMhG/B3BEqRw==",
+      "upstreamShasum": "f868eebd87f2471fe65bae52ee4630839c4b8c0e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.1.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zi4rbBMecdJCiuC7V71Bo8ptl6MtkfGKEZ8HthYri9h9SDWdDOiao/Ia2htDMd6wXbJGOETPR+YMhG/B3BEqRw==",
+          "shasum": "f868eebd87f2471fe65bae52ee4630839c4b8c0e"
+        }
+      }
+    },
+    {
+      "version": "0.1.1",
+      "variantId": "registry-package.openupm.com-664c600e8006eb9e",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "f47a1dece14dfbaeaf340a4f4706a76796ab48d8",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.1.1.tgz",
+      "upstreamIntegrity": "sha512-rAG2+4owbzhnEPIg56SKEutJJIkjElIv5HzUFkQ7v6CrbroInn/L9y5UCb1m1qJ947c3D5zRjInk2hs9VIbmVQ==",
+      "upstreamShasum": "b629c7a029b9b082d74d71a5cb8fa2218aed2e46",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.1.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rAG2+4owbzhnEPIg56SKEutJJIkjElIv5HzUFkQ7v6CrbroInn/L9y5UCb1m1qJ947c3D5zRjInk2hs9VIbmVQ==",
+          "shasum": "b629c7a029b9b082d74d71a5cb8fa2218aed2e46"
+        }
+      }
+    },
+    {
+      "version": "0.1.3",
+      "variantId": "registry-package.openupm.com-e3158dbbae726414",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "e5c36f52b9adc77b6c0951c9f68558ece6b827d8",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.1.3.tgz",
+      "upstreamIntegrity": "sha512-/zDhKeyPwFaW7bvmXiOsh6cUUVasnuuT2PMUkRnMulMn865X8n0S+ywgzB1JuBMCEfkc0qqtV/Hl01K7Ufjqyg==",
+      "upstreamShasum": "eb3ce2088f2562c3c90e5dd859f781139beb0ecf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.1.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/zDhKeyPwFaW7bvmXiOsh6cUUVasnuuT2PMUkRnMulMn865X8n0S+ywgzB1JuBMCEfkc0qqtV/Hl01K7Ufjqyg==",
+          "shasum": "eb3ce2088f2562c3c90e5dd859f781139beb0ecf"
+        }
+      }
+    },
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-8fc64cc47c72e4e6",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "3ac7627433f2e848d4516cfd4fdf15a4ab1db8c5",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-TptivIJ3/fl3Y341be7ehVPgd/h4YJdB8J+L+YgpKdBltTtfjljzouMhsaI1YqEX8nFzFn2/zCz7wq64A2ke3Q==",
+      "upstreamShasum": "2f63eb950395a2ca7b7dd87b5990c0208f2a13ee",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.2.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TptivIJ3/fl3Y341be7ehVPgd/h4YJdB8J+L+YgpKdBltTtfjljzouMhsaI1YqEX8nFzFn2/zCz7wq64A2ke3Q==",
+          "shasum": "2f63eb950395a2ca7b7dd87b5990c0208f2a13ee"
+        }
+      }
+    },
+    {
+      "version": "0.2.1",
+      "variantId": "registry-package.openupm.com-30b72fd14c84f23a",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "24fc3a2469aea7193bccf687d0bf3563d13a1a26",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.2.1.tgz",
+      "upstreamIntegrity": "sha512-Tj8didCXYUSHK6tf74+r855p/3MNlJp7dfaxoFXoSmor2IweHza7CP69sAjRyI4tXWslxkSZEkzxOaSmxXieyQ==",
+      "upstreamShasum": "03640e6008159498274f70f2b4527ea18788f4b9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.2.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Tj8didCXYUSHK6tf74+r855p/3MNlJp7dfaxoFXoSmor2IweHza7CP69sAjRyI4tXWslxkSZEkzxOaSmxXieyQ==",
+          "shasum": "03640e6008159498274f70f2b4527ea18788f4b9"
+        }
+      }
+    },
+    {
+      "version": "0.2.2",
+      "variantId": "registry-package.openupm.com-bc2228bcbb0e5c70",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "df26f82215d625b028bee1d698c0da69de294a8a",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.2.2.tgz",
+      "upstreamIntegrity": "sha512-AIveSfv8AiPm4UM+jutHwrE9eLkebJLD7wFp2M2sd6SdQf56EkqYmP282cG8ZPx/s8D9Tt+f/Sj6KomOaGi3dw==",
+      "upstreamShasum": "b105e9b1535a9b6aef39f77a969b2b092a6c75f1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.2.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-AIveSfv8AiPm4UM+jutHwrE9eLkebJLD7wFp2M2sd6SdQf56EkqYmP282cG8ZPx/s8D9Tt+f/Sj6KomOaGi3dw==",
+          "shasum": "b105e9b1535a9b6aef39f77a969b2b092a6c75f1"
+        }
+      }
+    },
+    {
+      "version": "0.2.3",
+      "variantId": "registry-package.openupm.com-f50ae41f720557f5",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "f85eacf6127da8d45be04822ed23985058d9c82c",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.2.3.tgz",
+      "upstreamIntegrity": "sha512-oW0FbJEFA2hcNR4XU4uyfCJiFhiWzapoYXymRoUEj/ZYHdW1Buw0qpcU5xJrYjpuV04kgXlHHU8SxxBHP2hZiQ==",
+      "upstreamShasum": "f199d95ed71417068a5f598d401d43378afab656",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.2.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oW0FbJEFA2hcNR4XU4uyfCJiFhiWzapoYXymRoUEj/ZYHdW1Buw0qpcU5xJrYjpuV04kgXlHHU8SxxBHP2hZiQ==",
+          "shasum": "f199d95ed71417068a5f598d401d43378afab656"
+        }
+      }
+    },
+    {
+      "version": "0.2.4",
+      "variantId": "registry-package.openupm.com-1ec333c66383fe83",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "eb465cd5c90ee1f29773883beb8c74a1f8289ed1",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.2.4.tgz",
+      "upstreamIntegrity": "sha512-KpP4K0relvTWIH20tVCruycwuL1r2PTDnQZNIcPLlhjkfyb+Manf0TLvRdoCGmYcdU9i3DTq7h69W0Xu322BYA==",
+      "upstreamShasum": "6114175c82ce8af6c92141d8663a4c31d6284c62",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.2.4",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KpP4K0relvTWIH20tVCruycwuL1r2PTDnQZNIcPLlhjkfyb+Manf0TLvRdoCGmYcdU9i3DTq7h69W0Xu322BYA==",
+          "shasum": "6114175c82ce8af6c92141d8663a4c31d6284c62"
+        }
+      }
+    },
+    {
+      "version": "0.3.0",
+      "variantId": "registry-package.openupm.com-0b200d02e6986db9",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "2b055dd4340840104c5aa55cf8aa4983b0db845b",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.3.0.tgz",
+      "upstreamIntegrity": "sha512-Z5I2gpPyp8GMsytOfsFxGxDT4KGgI1quq7t1ZqV1xzrB67WKfSPPZdPKRFsSg5fSejVjubzEHiNWsim+euuQlQ==",
+      "upstreamShasum": "ae2307753fcff9ece84d22427806071e88fff216",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.3.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Z5I2gpPyp8GMsytOfsFxGxDT4KGgI1quq7t1ZqV1xzrB67WKfSPPZdPKRFsSg5fSejVjubzEHiNWsim+euuQlQ==",
+          "shasum": "ae2307753fcff9ece84d22427806071e88fff216"
+        }
+      }
+    },
+    {
+      "version": "0.4.0",
+      "variantId": "registry-package.openupm.com-37b22588d9b4fe53",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "e55f82615fe759126dad124fb1303fc10223322a",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.4.0.tgz",
+      "upstreamIntegrity": "sha512-ClhpkmL3tXMG+S4szzpRDcoiJv7xMeJyvfhAkOavCQmv+gCcHHAtGSKkSmXK2LpXXZXsYPAlg6x7/kPUqplpHg==",
+      "upstreamShasum": "375eac54df9b03eaf4d137f57a86ef80e63e7287",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.4.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ClhpkmL3tXMG+S4szzpRDcoiJv7xMeJyvfhAkOavCQmv+gCcHHAtGSKkSmXK2LpXXZXsYPAlg6x7/kPUqplpHg==",
+          "shasum": "375eac54df9b03eaf4d137f57a86ef80e63e7287"
+        }
+      }
+    },
+    {
+      "version": "0.4.1",
+      "variantId": "registry-package.openupm.com-e3e550133fce2426",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "f13de55dd72a5b6d59c496b36a883dad0276567a",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.4.1.tgz",
+      "upstreamIntegrity": "sha512-79jeL8MQLKlaSiBe9tjPKnv06WE0yQj13koX54RiNDG0RGZQqsnO3dGXj2LIuKRtETF9ep2Sn1IVNWz/2fWYTQ==",
+      "upstreamShasum": "7fb9f7d68bc249a67b129971aa674128fa7df854",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.4.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-79jeL8MQLKlaSiBe9tjPKnv06WE0yQj13koX54RiNDG0RGZQqsnO3dGXj2LIuKRtETF9ep2Sn1IVNWz/2fWYTQ==",
+          "shasum": "7fb9f7d68bc249a67b129971aa674128fa7df854"
+        }
+      }
+    },
+    {
+      "version": "0.5.0",
+      "variantId": "registry-package.openupm.com-a2aa411030d84bdf",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "32e9f5a98a84567a700c728709c4d4922c25ae9a",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.5.0.tgz",
+      "upstreamIntegrity": "sha512-4vsJqqjZSy59E/atn/8Ro8TTLk10hyZ3GM1Xlx6ASO95HnI8FkY/CHQI9qDFEoXx6jbEUzM0DV3DjgUMjZHhNg==",
+      "upstreamShasum": "a5d866b4eedb9228a8ef739081b96e7b03bb9c2b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.5.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4vsJqqjZSy59E/atn/8Ro8TTLk10hyZ3GM1Xlx6ASO95HnI8FkY/CHQI9qDFEoXx6jbEUzM0DV3DjgUMjZHhNg==",
+          "shasum": "a5d866b4eedb9228a8ef739081b96e7b03bb9c2b"
+        }
+      }
+    },
+    {
+      "version": "0.5.1",
+      "variantId": "registry-package.openupm.com-2b3059105e770c28",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "9ab58e09abb57a066dce6a570e682f66754c75a6",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.5.1.tgz",
+      "upstreamIntegrity": "sha512-jKkbJZ09FcxyMtxzpyOz6XRcbzJNd84TafeLwRDAGc3sro2QIJXocBnFcfmTsCtVnSFvY3Vd5qGGzkgws2rFEA==",
+      "upstreamShasum": "bd2336f38c798ede4ed73cf901b0b7f553398ce3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.5.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jKkbJZ09FcxyMtxzpyOz6XRcbzJNd84TafeLwRDAGc3sro2QIJXocBnFcfmTsCtVnSFvY3Vd5qGGzkgws2rFEA==",
+          "shasum": "bd2336f38c798ede4ed73cf901b0b7f553398ce3"
+        }
+      }
+    },
+    {
+      "version": "0.6.0",
+      "variantId": "registry-package.openupm.com-848ee35bb3ebc2b9",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "615efde2d93bf03602f84d30bb961f9302ebd48c",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.6.0.tgz",
+      "upstreamIntegrity": "sha512-zN7tFel4z0LcH8t54PSLIRWdbVIZEXep24um5ovHin8doNUqAcEaxPVRzLN0svdOUoG1/GQe6yBsL1/NHZ0o1w==",
+      "upstreamShasum": "dc87bd2fcde12a588261886f1a58a1bbdc2f1f27",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.6.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zN7tFel4z0LcH8t54PSLIRWdbVIZEXep24um5ovHin8doNUqAcEaxPVRzLN0svdOUoG1/GQe6yBsL1/NHZ0o1w==",
+          "shasum": "dc87bd2fcde12a588261886f1a58a1bbdc2f1f27"
+        }
+      }
+    },
+    {
+      "version": "0.7.0",
+      "variantId": "registry-package.openupm.com-89365ecbfd57e86f",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "452267d4943b7daefa1d0dcacab61b1d221bf47c",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.7.0.tgz",
+      "upstreamIntegrity": "sha512-d167I7PVmYxe2ZFoSLL1QgJGn4yzstscOJPBkAbHvbVPYAHq1xYjbyuujwdZ1ux+ynZEIUC6pRuYkbj92w8Z/w==",
+      "upstreamShasum": "df478d50cdeab85bf7ecbf52dd080423c863cd0f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.7.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-d167I7PVmYxe2ZFoSLL1QgJGn4yzstscOJPBkAbHvbVPYAHq1xYjbyuujwdZ1ux+ynZEIUC6pRuYkbj92w8Z/w==",
+          "shasum": "df478d50cdeab85bf7ecbf52dd080423c863cd0f"
+        }
+      }
+    },
+    {
+      "version": "0.7.1",
+      "variantId": "registry-package.openupm.com-ae0f5ea752c894cb",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "0d054fc2400b630b700ac92b266b1e9cf6004663",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.7.1.tgz",
+      "upstreamIntegrity": "sha512-fPNxSvONLIRPOtW7yy4OZOp8DEwtYgsP0PcmJV7F0W/Vjao5RdcIzE5MEV1mk0MAuQ8r9WCpgOMnbwpMb4e9sg==",
+      "upstreamShasum": "fee1d54f427d2fe4bb037148a8db029e9b942fbc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.7.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fPNxSvONLIRPOtW7yy4OZOp8DEwtYgsP0PcmJV7F0W/Vjao5RdcIzE5MEV1mk0MAuQ8r9WCpgOMnbwpMb4e9sg==",
+          "shasum": "fee1d54f427d2fe4bb037148a8db029e9b942fbc"
+        }
+      }
+    },
+    {
+      "version": "0.7.2",
+      "variantId": "registry-package.openupm.com-f29b0201762b472f",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "39f79fdc47630c43ac37839cce8d3d31a1cbf99e",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.7.2.tgz",
+      "upstreamIntegrity": "sha512-hTP+UBToqG/TeOTON+rqWZ5q6TUIx7xAcPSpNbS4QBx0G4Tfj0dmsjjMBUrMKrbXW7eVTqHYflE9RO7SuzNHJQ==",
+      "upstreamShasum": "4a6d704da18e5be16562c879ed6d0692b7ef665a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.7.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hTP+UBToqG/TeOTON+rqWZ5q6TUIx7xAcPSpNbS4QBx0G4Tfj0dmsjjMBUrMKrbXW7eVTqHYflE9RO7SuzNHJQ==",
+          "shasum": "4a6d704da18e5be16562c879ed6d0692b7ef665a"
+        }
+      }
+    },
+    {
+      "version": "0.7.3",
+      "variantId": "registry-package.openupm.com-03daddc2fa0ad0ac",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "c0a6c44fa92af983f1e2aa028ceb2979869bac09",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.7.3.tgz",
+      "upstreamIntegrity": "sha512-tKw2rlMs5oxzalA/gKs2ng3DBFapbLolcXbGkOg14hiqPE1O42qgAHZc1o81B99Yv+yQvd3mA/aZz5iksVjZgw==",
+      "upstreamShasum": "1da7940a9d2d4cc9366793fd3468e53ba4c505f7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.7.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tKw2rlMs5oxzalA/gKs2ng3DBFapbLolcXbGkOg14hiqPE1O42qgAHZc1o81B99Yv+yQvd3mA/aZz5iksVjZgw==",
+          "shasum": "1da7940a9d2d4cc9366793fd3468e53ba4c505f7"
+        }
+      }
+    },
+    {
+      "version": "0.8.0",
+      "variantId": "registry-package.openupm.com-b57aff6ca888703b",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "206f3b30467374debf16936b4e146357651656e9",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.8.0.tgz",
+      "upstreamIntegrity": "sha512-lNyqrciWwdTwj9VBP/T2KLS0FYBDDya5bWH7c0Z0mx42tX1KPfWSv68QaJdIUt3JjLeIsWQTEhLx+XqEvFShng==",
+      "upstreamShasum": "68cf3d5c135b903f0676f84c5bebdd44c6708fe6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.8.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lNyqrciWwdTwj9VBP/T2KLS0FYBDDya5bWH7c0Z0mx42tX1KPfWSv68QaJdIUt3JjLeIsWQTEhLx+XqEvFShng==",
+          "shasum": "68cf3d5c135b903f0676f84c5bebdd44c6708fe6"
+        }
+      }
+    },
+    {
+      "version": "0.9.0",
+      "variantId": "registry-package.openupm.com-a89de5481f655943",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "ee799341b04a5fc5fab2cdeded83545eaeea60c3",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.9.0.tgz",
+      "upstreamIntegrity": "sha512-CQfnPZDPCM4iMXPmQedl/IbbS4HhvX2dKbkqjsxEdCUfXtyWLTK+Z3JMA6e0Lu9doQm2rpCH9ax18ohyBVkKZg==",
+      "upstreamShasum": "bf3bd23d3edd8766e8631415dd6f3b020e8082da",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.9.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CQfnPZDPCM4iMXPmQedl/IbbS4HhvX2dKbkqjsxEdCUfXtyWLTK+Z3JMA6e0Lu9doQm2rpCH9ax18ohyBVkKZg==",
+          "shasum": "bf3bd23d3edd8766e8631415dd6f3b020e8082da"
+        }
+      }
+    },
+    {
+      "version": "0.10.0",
+      "variantId": "registry-package.openupm.com-6ae4d3b409c281e7",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.10.0.tgz",
+      "upstreamIntegrity": "sha512-FHYTljMZNladjkAWIZbaFiDigzqM526X/c1UmdLA8epO4tmliiuuQ56LnJlZywpxSUxGH2PNov9hQKyC+hhg1w==",
+      "upstreamShasum": "78340d9f15ade8a602a9396199c846e3afee02d7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.10.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FHYTljMZNladjkAWIZbaFiDigzqM526X/c1UmdLA8epO4tmliiuuQ56LnJlZywpxSUxGH2PNov9hQKyC+hhg1w==",
+          "shasum": "78340d9f15ade8a602a9396199c846e3afee02d7"
+        }
+      }
+    },
+    {
+      "version": "0.11.0",
+      "variantId": "registry-package.openupm.com-f64465ae555c94ae",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.11.0.tgz",
+      "upstreamIntegrity": "sha512-gueoXWbjB2qWKkXIBi3EXu8Uk0YSchprTVT+6v6C4VocGPANdWtQ8smW0h4MdF++ZVB9/R4aW0vmcsLseQXoPw==",
+      "upstreamShasum": "4e29e992583cb444fcaec2d5cf0a6e181b5e8c1f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.11.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gueoXWbjB2qWKkXIBi3EXu8Uk0YSchprTVT+6v6C4VocGPANdWtQ8smW0h4MdF++ZVB9/R4aW0vmcsLseQXoPw==",
+          "shasum": "4e29e992583cb444fcaec2d5cf0a6e181b5e8c1f"
+        }
+      }
+    },
+    {
+      "version": "0.11.1",
+      "variantId": "registry-package.openupm.com-29fd91c814f2514e",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.11.1.tgz",
+      "upstreamIntegrity": "sha512-4JHxXWV6+AAbjjQXrsNdJfxYK2iKeHxMXhCMxuRDyhTO14FTa9HCWYmjqY6r1jO+yEcSIXLD6urTfVPsZ4zZZw==",
+      "upstreamShasum": "bb1c8c4472c4157d01c087c17d46889505306f80",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.11.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4JHxXWV6+AAbjjQXrsNdJfxYK2iKeHxMXhCMxuRDyhTO14FTa9HCWYmjqY6r1jO+yEcSIXLD6urTfVPsZ4zZZw==",
+          "shasum": "bb1c8c4472c4157d01c087c17d46889505306f80"
+        }
+      }
+    },
+    {
+      "version": "0.11.2",
+      "variantId": "registry-package.openupm.com-5d8932221f3efe63",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.11.2.tgz",
+      "upstreamIntegrity": "sha512-ZxBeOAfSzbKZkuzXGWBy+JjOfB6PpT4MVJ5hBM0aiZwFwzmn7Ym4QdP49rDKhJee+al4MZydQMUk3Yjhjf83TQ==",
+      "upstreamShasum": "79dc1c1d3d6e676baf9c42ffc023054573502157",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.11.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZxBeOAfSzbKZkuzXGWBy+JjOfB6PpT4MVJ5hBM0aiZwFwzmn7Ym4QdP49rDKhJee+al4MZydQMUk3Yjhjf83TQ==",
+          "shasum": "79dc1c1d3d6e676baf9c42ffc023054573502157"
+        }
+      }
+    },
+    {
+      "version": "0.11.3",
+      "variantId": "registry-package.openupm.com-d7a1b02d02333d35",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.11.3.tgz",
+      "upstreamIntegrity": "sha512-mHgD65IgLuW2AGbVXTqHJnuavzR/T5PWgAmHWir2BJFOHt2LwtymxPSLE7YIr3tDACmJVKS93JYEQfPfc51iyg==",
+      "upstreamShasum": "7c81f8d3a85d1fec83700ee98cf458b8ef56084c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.11.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mHgD65IgLuW2AGbVXTqHJnuavzR/T5PWgAmHWir2BJFOHt2LwtymxPSLE7YIr3tDACmJVKS93JYEQfPfc51iyg==",
+          "shasum": "7c81f8d3a85d1fec83700ee98cf458b8ef56084c"
+        }
+      }
+    },
+    {
+      "version": "0.11.4",
+      "variantId": "registry-package.openupm.com-39773395292d7ccf",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "c4489443c6968d3ee6219a8de5572f9de8e0b70c",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.11.4.tgz",
+      "upstreamIntegrity": "sha512-XT89CkiQBO0XMRYWE1ZVkDa4bj2n/x9vYUC3RgUttH0L9A3z2QfkezHDDCa/zvRrbe4WRzUrPjoFdzEW2hztrg==",
+      "upstreamShasum": "d0f1178cf29eef15998bbc665e5614f5c67637c1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.11.4",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XT89CkiQBO0XMRYWE1ZVkDa4bj2n/x9vYUC3RgUttH0L9A3z2QfkezHDDCa/zvRrbe4WRzUrPjoFdzEW2hztrg==",
+          "shasum": "d0f1178cf29eef15998bbc665e5614f5c67637c1"
+        }
+      }
+    },
+    {
+      "version": "0.11.5",
+      "variantId": "registry-package.openupm.com-995439f72adbbe1e",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "be602fa483248fad6d1c1f8fae7420157901c658",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.11.5.tgz",
+      "upstreamIntegrity": "sha512-xEdGXEiR1cyRERvkSc85lMIh3MvXsHDHfRED9dp+zN9b+j6TC5DwTswJ2SegkHkEgfBjUPSGeZ72StpCugytSw==",
+      "upstreamShasum": "5c3a92b4e20cb1e54af966d2d180979c39ae63ab",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.11.5",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xEdGXEiR1cyRERvkSc85lMIh3MvXsHDHfRED9dp+zN9b+j6TC5DwTswJ2SegkHkEgfBjUPSGeZ72StpCugytSw==",
+          "shasum": "5c3a92b4e20cb1e54af966d2d180979c39ae63ab"
+        }
+      }
+    },
+    {
+      "version": "0.12.0",
+      "variantId": "registry-package.openupm.com-45bb4a32db3e4c7a",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "8daf7fa8cee861686b3ade87fa965f89f43f99fe",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.12.0.tgz",
+      "upstreamIntegrity": "sha512-Qx4WfgXoV5Ap+Mu5TFstnH9dQnbWLTgwbL0laDeMiiW0p+IjLldEQJrA7gPUaFEcz+1XNPK75okrtbnwHZH/fQ==",
+      "upstreamShasum": "36cf97bdf2e5258bb4b95a85f1660a93a5fa7c11",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.12.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Qx4WfgXoV5Ap+Mu5TFstnH9dQnbWLTgwbL0laDeMiiW0p+IjLldEQJrA7gPUaFEcz+1XNPK75okrtbnwHZH/fQ==",
+          "shasum": "36cf97bdf2e5258bb4b95a85f1660a93a5fa7c11"
+        }
+      }
+    },
+    {
+      "version": "0.13.0",
+      "variantId": "registry-package.openupm.com-99ce459c60014b56",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "137d8baa64a15738d707172966f09c5d7a2d4119",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.13.0.tgz",
+      "upstreamIntegrity": "sha512-Dwnnv9igNW+6SpsAvXN3JjBpVMMBNSrM2sR7ndYPolP+9xdJ9zyk0XE97AdSw38+rSMOHDnY9nJdn5gvul6/TQ==",
+      "upstreamShasum": "6173848cc16d251a36849ff203a5416865fa0a64",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.13.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Dwnnv9igNW+6SpsAvXN3JjBpVMMBNSrM2sR7ndYPolP+9xdJ9zyk0XE97AdSw38+rSMOHDnY9nJdn5gvul6/TQ==",
+          "shasum": "6173848cc16d251a36849ff203a5416865fa0a64"
+        }
+      }
+    },
+    {
+      "version": "0.14.0",
+      "variantId": "registry-package.openupm.com-d66f8de193123edc",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "9bea9253c0e2cb273e87841483843b6442b2fd68",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.14.0.tgz",
+      "upstreamIntegrity": "sha512-eJYBs7z4cT02WmM0SiY3ylszYBImpNykrrebN78dpjxS7SG5Ldg8+1zr5D4jUefbp2BD5I8cxGsk8OG37vfRFQ==",
+      "upstreamShasum": "bbf76a8434dd2e98a6f21f15d8df08c32380f9a0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.14.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eJYBs7z4cT02WmM0SiY3ylszYBImpNykrrebN78dpjxS7SG5Ldg8+1zr5D4jUefbp2BD5I8cxGsk8OG37vfRFQ==",
+          "shasum": "bbf76a8434dd2e98a6f21f15d8df08c32380f9a0"
+        }
+      }
+    },
+    {
+      "version": "0.14.1",
+      "variantId": "registry-package.openupm.com-e3308e249dd178d2",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "fcbe149557d2ccaa46538264961fc60037c59045",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.14.1.tgz",
+      "upstreamIntegrity": "sha512-dJk2JWIqRdNGRlMJz5ong7dkOyUVu4yLQw/GoYrObVWJvbO6N/2TqBwnN/GgNmSbexQW/JWH5Q+RDmoYrYG6Pg==",
+      "upstreamShasum": "0de783510ee8f2e62edb406dcd94c6bad69e4531",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.14.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dJk2JWIqRdNGRlMJz5ong7dkOyUVu4yLQw/GoYrObVWJvbO6N/2TqBwnN/GgNmSbexQW/JWH5Q+RDmoYrYG6Pg==",
+          "shasum": "0de783510ee8f2e62edb406dcd94c6bad69e4531"
+        }
+      }
+    },
+    {
+      "version": "0.15.0",
+      "variantId": "registry-package.openupm.com-2a37e1b5d4bc7661",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "526f994f60696cf9b39d084833368b38bd696aec",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.15.0.tgz",
+      "upstreamIntegrity": "sha512-rNOOT+qcT0JkJoSQp3hMJDq+iE8uThIhP49hqLfgn1Y43Lh0Zd8lvKdTOQL0OTSxjtRCbJJ59SrSoVutpwu7Xw==",
+      "upstreamShasum": "92d77b9f14cd2ae42b21030cee23ae42290488fb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.15.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rNOOT+qcT0JkJoSQp3hMJDq+iE8uThIhP49hqLfgn1Y43Lh0Zd8lvKdTOQL0OTSxjtRCbJJ59SrSoVutpwu7Xw==",
+          "shasum": "92d77b9f14cd2ae42b21030cee23ae42290488fb"
+        }
+      }
+    },
+    {
+      "version": "0.15.1",
+      "variantId": "registry-package.openupm.com-61ec790b6593fbbc",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "7d3b00557eb195a8308af1b6376c41f64e5a1e23",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.15.1.tgz",
+      "upstreamIntegrity": "sha512-LWDl6uZLhFcwHctqvd5v5Jzj5fpoY7yg1Dc+7B2NcsGRzYxqW0nTTCCeuRWHGVWpzwImMqqoEmKSSn85XOBAlQ==",
+      "upstreamShasum": "7c56154e66e2568d544d822d48d2bad025e94d39",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.15.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LWDl6uZLhFcwHctqvd5v5Jzj5fpoY7yg1Dc+7B2NcsGRzYxqW0nTTCCeuRWHGVWpzwImMqqoEmKSSn85XOBAlQ==",
+          "shasum": "7c56154e66e2568d544d822d48d2bad025e94d39"
+        }
+      }
+    },
+    {
+      "version": "0.15.2",
+      "variantId": "registry-package.openupm.com-32b2b9dda71934ae",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "bceb39f741934a2967fe96a7a2ab204ecc8f48ce",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.15.2.tgz",
+      "upstreamIntegrity": "sha512-51H6+TNQjeDPqku8YHiwnaMTOPum7jssV9NMUHJCfO08uxNDCafsO3DQTsNV4WwJGOhIHjeZI9ElWsjrUIlDgw==",
+      "upstreamShasum": "73270f711f6823c9dfa1f17dd84efdaac6e62d89",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.15.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-51H6+TNQjeDPqku8YHiwnaMTOPum7jssV9NMUHJCfO08uxNDCafsO3DQTsNV4WwJGOhIHjeZI9ElWsjrUIlDgw==",
+          "shasum": "73270f711f6823c9dfa1f17dd84efdaac6e62d89"
+        }
+      }
+    },
+    {
+      "version": "0.15.3",
+      "variantId": "registry-package.openupm.com-91b62b0fba4edd79",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "54e1afa60b7c85cfc99cb50b97de2467f8c9d517",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.15.3.tgz",
+      "upstreamIntegrity": "sha512-ewh7d5v5wlUEZrc9rpi66Ls8973w8WWp0jQGLlw36JPw0b/0Rc7TXvEYHmavpaJedhJ3aOfkv2ol5E2Fsc/KLQ==",
+      "upstreamShasum": "9d8b57340bd8113bdc279111957381e6b22ebeb3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.15.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ewh7d5v5wlUEZrc9rpi66Ls8973w8WWp0jQGLlw36JPw0b/0Rc7TXvEYHmavpaJedhJ3aOfkv2ol5E2Fsc/KLQ==",
+          "shasum": "9d8b57340bd8113bdc279111957381e6b22ebeb3"
+        }
+      }
+    },
+    {
+      "version": "0.16.0",
+      "variantId": "registry-package.openupm.com-1bf37d2493d885f3",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "702cbc2503c5a15f57088a8dc82d4c3214da9eba",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.16.0.tgz",
+      "upstreamIntegrity": "sha512-sLvNQKirJKpQh53AmSFThMvKop4WJJboF+eVeB5Z/ZY+pBqO/0IgjhlnSNdJZkd1ovqRiHBgbUsRbKnXhiYeug==",
+      "upstreamShasum": "93e3b88387cb4d5cce1d82981839895a97c3e550",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.test-framework": "1.1.33",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.16.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sLvNQKirJKpQh53AmSFThMvKop4WJJboF+eVeB5Z/ZY+pBqO/0IgjhlnSNdJZkd1ovqRiHBgbUsRbKnXhiYeug==",
+          "shasum": "93e3b88387cb4d5cce1d82981839895a97c3e550"
+        }
+      }
+    },
+    {
+      "version": "0.17.0",
+      "variantId": "registry-package.openupm.com-bda73a0705a71a38",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "ef3420c39b9d4a0e1921e356c553409c66c6d7b5",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.17.0.tgz",
+      "upstreamIntegrity": "sha512-CV05i7u79eVBJ3/Ehff1riqiX6SyYyi0xC4NVp/4xCCLAaMjIyzPsRJhzf27U7KLwyZQfFW5ocT4/IBN8L6I2Q==",
+      "upstreamShasum": "47cf52d304d5f600cc00fdc55ad76cd740a4c6e9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.test-framework": "1.1.33",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.17.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CV05i7u79eVBJ3/Ehff1riqiX6SyYyi0xC4NVp/4xCCLAaMjIyzPsRJhzf27U7KLwyZQfFW5ocT4/IBN8L6I2Q==",
+          "shasum": "47cf52d304d5f600cc00fdc55ad76cd740a4c6e9"
+        }
+      }
+    },
+    {
+      "version": "0.18.0",
+      "variantId": "registry-package.openupm.com-6fb52401aa64560a",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "2df12cd1a47fb8be88e88396890792885c3bf8c3",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.18.0.tgz",
+      "upstreamIntegrity": "sha512-W7Jd0DNWBP8Rl6dGWj4mwPNNUM63SDog011lMh5adb5oE12FVsUIbYnT1/cE/Qj4/pr3Qm0wI0asXW2pKYbEYw==",
+      "upstreamShasum": "d4b6185e0bb6a3f7c92589a8eaf5924be5eda59e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.test-framework": "1.1.33",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.18.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-W7Jd0DNWBP8Rl6dGWj4mwPNNUM63SDog011lMh5adb5oE12FVsUIbYnT1/cE/Qj4/pr3Qm0wI0asXW2pKYbEYw==",
+          "shasum": "d4b6185e0bb6a3f7c92589a8eaf5924be5eda59e"
+        }
+      }
+    },
+    {
+      "version": "0.18.1",
+      "variantId": "registry-package.openupm.com-2deb35b94744874b",
+      "sourceUrl": "https://github.com/akiojin/unity-cli.git",
+      "sourceRef": "7f45d7aec2a866abda88ba3768bf4057c5f23053",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/-/com.akiojin.unity-cli-bridge-0.18.1.tgz",
+      "upstreamIntegrity": "sha512-FYbAx9bzrYGkN0YTesrRfMidA8Xi/rlIN3s9WYBe6iEK6Yd1o0wcE5MNvRXS4+GOFUm/iPqJxOS2SMAsHJ+CmQ==",
+      "upstreamShasum": "6d1f487ccbbec38a35c5678e78fc31fec52c811d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.test-framework": "1.1.33",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-cli-bridge/0.18.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FYbAx9bzrYGkN0YTesrRfMidA8Xi/rlIN3s9WYBe6iEK6Yd1o0wcE5MNvRXS4+GOFUm/iPqJxOS2SMAsHJ+CmQ==",
+          "shasum": "6d1f487ccbbec38a35c5678e78fc31fec52c811d"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.18.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.akiojin.unity-cli-bridge.yml",
+  "definitionBlobSha": "017952cd4e17c4085f14bb39dbb0879fff7851bb",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.18.1",
+    "0.18.0",
+    "0.17.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 39,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

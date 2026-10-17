@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.chark.build-tools",
+  "displayName": "com.chark.build-tools",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.chark.build-tools",
+      "fetchedAt": "2026-10-17T17:36:59.844847Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "variantId": "registry-package.openupm.com-7947afdff0289dbe",
+      "sourceUrl": "https://package.openupm.com/com.chark.build-tools",
+      "sourceRef": "7f94b0ec4a833cec76855939c99136eb950100ec",
+      "downloadUrl": "https://package.openupm.com/com.chark.build-tools/-/com.chark.build-tools-0.0.1.tgz",
+      "upstreamIntegrity": "sha512-OFobQ2IAc+jFQYj7XUhE2tjzOaCJvinJy+MAXtxH7/QqM8KK8UjGccQte09/2hMzxAIXAJPt3N8oROzB6r+OmQ==",
+      "upstreamShasum": "dbeddf3d120b7a9b6b200aa9b0787000f033d285",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.sharp-zip-lib": "1.3.2-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.chark.build-tools/0.0.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OFobQ2IAc+jFQYj7XUhE2tjzOaCJvinJy+MAXtxH7/QqM8KK8UjGccQte09/2hMzxAIXAJPt3N8oROzB6r+OmQ==",
+          "shasum": "dbeddf3d120b7a9b6b200aa9b0787000f033d285"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.0.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.chark.build-tools.yml",
+  "definitionBlobSha": "674eec32edd9c1464682976aebe1823073fc7d44",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.0.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

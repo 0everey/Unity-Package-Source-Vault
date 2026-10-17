@@ -1,0 +1,973 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.styly.styly-spatial-layer-plugin",
+  "displayName": "com.styly.styly-spatial-layer-plugin",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "fetchedAt": "2026-10-17T17:42:24.150338Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-95eee704b6133a21",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "44955b92ddd25624c8747e81e4da724fc54d9903",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-CPTztZIO84+vkyVscYfIiQc/Ur0+F5r+OAGvS2K+LFPdmZZMbGrRwglOJb2LdAopuy6LeXY75bu3lvHK2bW+Mg==",
+      "upstreamShasum": "eeaf59c6d41e967ad8a6a262c8d360ff68d364bf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.2.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CPTztZIO84+vkyVscYfIiQc/Ur0+F5r+OAGvS2K+LFPdmZZMbGrRwglOJb2LdAopuy6LeXY75bu3lvHK2bW+Mg==",
+          "shasum": "eeaf59c6d41e967ad8a6a262c8d360ff68d364bf"
+        }
+      }
+    },
+    {
+      "version": "0.2.1",
+      "variantId": "registry-package.openupm.com-bdb09c48b3ba4157",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "9ea0224464e42da20219921d2bac83b67419b935",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.2.1.tgz",
+      "upstreamIntegrity": "sha512-MRJX1RCvNbbl6EM22b58ox7OeAYax6WR1iS0DaVQ8uX6PwR0tNfXzcgozCyVS2ZwwKyUYTuI3wjJBZEBvlwQ/w==",
+      "upstreamShasum": "696c6e7152eb0a86a102073d684f5d0bc4ca64f5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.2.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MRJX1RCvNbbl6EM22b58ox7OeAYax6WR1iS0DaVQ8uX6PwR0tNfXzcgozCyVS2ZwwKyUYTuI3wjJBZEBvlwQ/w==",
+          "shasum": "696c6e7152eb0a86a102073d684f5d0bc4ca64f5"
+        }
+      }
+    },
+    {
+      "version": "0.2.2",
+      "variantId": "registry-package.openupm.com-77cdef33d268dad9",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "49d6eb8c214d20c71d5b2a16fe5fbf7aefe3ba95",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.2.2.tgz",
+      "upstreamIntegrity": "sha512-rIiAenm6ZQI8mMyd8qfVnsKXsHUM0Ynvf5CfF0tCzDeCkceJtfBkF7KIyuC1EJLUFP8cgKhwXylKuMBznG3mpw==",
+      "upstreamShasum": "b088580177a25a2faa719a5fd41c7781397f0833",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.2.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rIiAenm6ZQI8mMyd8qfVnsKXsHUM0Ynvf5CfF0tCzDeCkceJtfBkF7KIyuC1EJLUFP8cgKhwXylKuMBznG3mpw==",
+          "shasum": "b088580177a25a2faa719a5fd41c7781397f0833"
+        }
+      }
+    },
+    {
+      "version": "0.2.3",
+      "variantId": "registry-package.openupm.com-7a36f68b13e5d77a",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "849b336a9e36a18420f8074451c6f0e5009e4b23",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.2.3.tgz",
+      "upstreamIntegrity": "sha512-n2GGqYdgD/c5wO69yr0pUKSIN8NObDXleHCON2fXJ/FPT0jfMifIXsmWDd86c601ulBDBMGZ0D+BLof1l7zpZQ==",
+      "upstreamShasum": "6504bef2a75e5bb8a01841202aadd34c88c5dd6d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.2.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-n2GGqYdgD/c5wO69yr0pUKSIN8NObDXleHCON2fXJ/FPT0jfMifIXsmWDd86c601ulBDBMGZ0D+BLof1l7zpZQ==",
+          "shasum": "6504bef2a75e5bb8a01841202aadd34c88c5dd6d"
+        }
+      }
+    },
+    {
+      "version": "0.2.4",
+      "variantId": "registry-package.openupm.com-5cd2ee1032bdc8bd",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "74f1049a4dd59dea169eb1c71434b305ce86f29c",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.2.4.tgz",
+      "upstreamIntegrity": "sha512-B4iRhZcVk/r3dASM+AZWCsBS4LiDsbskwi5VItBWiqoA7LTzb66nAxFKHi75qgemD7tT50yYV78BE38/vjB2BA==",
+      "upstreamShasum": "9b8b2549fe4d4410a4f678f910dbd577b599d340",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.2.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-B4iRhZcVk/r3dASM+AZWCsBS4LiDsbskwi5VItBWiqoA7LTzb66nAxFKHi75qgemD7tT50yYV78BE38/vjB2BA==",
+          "shasum": "9b8b2549fe4d4410a4f678f910dbd577b599d340"
+        }
+      }
+    },
+    {
+      "version": "0.3.0",
+      "variantId": "registry-package.openupm.com-a1d5cff95dcece3a",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "689e9251d719b8956fb1320df7d00fd0fa7d3f7b",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.3.0.tgz",
+      "upstreamIntegrity": "sha512-8SAPk19UXAzfkovqgjv7FRCgg2Mup4VLYzfRYNl18pf0pVdgQ1sV5XTyuPBXP0GdddQuV1ZkrDgcey17NSZyPA==",
+      "upstreamShasum": "38a6e73bee43304fd7733b94e3cb8c285f70bcea",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.3.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8SAPk19UXAzfkovqgjv7FRCgg2Mup4VLYzfRYNl18pf0pVdgQ1sV5XTyuPBXP0GdddQuV1ZkrDgcey17NSZyPA==",
+          "shasum": "38a6e73bee43304fd7733b94e3cb8c285f70bcea"
+        }
+      }
+    },
+    {
+      "version": "0.3.1",
+      "variantId": "registry-package.openupm.com-20e42a404f2c9505",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "26ce3dd39bbd3491dacb6d91ee43b8b8d6722ff7",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.3.1.tgz",
+      "upstreamIntegrity": "sha512-mQ0O1M4LYbFa4VPf8f6HX5GiM87k/i7gUKP9CLqPcXMObjqRDfaIhRyInLA9nw6n10ygbAxqZNgbvMph6WGKYg==",
+      "upstreamShasum": "19a8105f224f8a5381c3b372edf2e9732f36eade",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.3.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mQ0O1M4LYbFa4VPf8f6HX5GiM87k/i7gUKP9CLqPcXMObjqRDfaIhRyInLA9nw6n10ygbAxqZNgbvMph6WGKYg==",
+          "shasum": "19a8105f224f8a5381c3b372edf2e9732f36eade"
+        }
+      }
+    },
+    {
+      "version": "0.3.2",
+      "variantId": "registry-package.openupm.com-6726dc7dc336dc3b",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "c3c6f5999bbd9befcba0c4e87f725f98cf55d07b",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.3.2.tgz",
+      "upstreamIntegrity": "sha512-QD+xShgD73agJ/sUt5z4epTt6eES0vh687ZtKt9BQypu2gI1aOdEu+Dc/05p66nxO0KjddCxMNdgnyYgomvv2w==",
+      "upstreamShasum": "5da5b834f5660c6a7c87f6dea6b0f769fad13a4d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.3.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QD+xShgD73agJ/sUt5z4epTt6eES0vh687ZtKt9BQypu2gI1aOdEu+Dc/05p66nxO0KjddCxMNdgnyYgomvv2w==",
+          "shasum": "5da5b834f5660c6a7c87f6dea6b0f769fad13a4d"
+        }
+      }
+    },
+    {
+      "version": "0.4.1",
+      "variantId": "registry-package.openupm.com-68a862130d141d47",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "ff7728f75a5792d7ba2f6902079d63df831ac84d",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.4.1.tgz",
+      "upstreamIntegrity": "sha512-jpldgAXs1NPG+4F4ph8gKw0WdLZF+OpBEPacQ36CMJUJffVHE52WEjyZYKB9vdQEwftpCB+Lu0HSQYLwCzIeuQ==",
+      "upstreamShasum": "87d4654810c79539ab4f23c07c7a16f3e2233e90",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.4.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jpldgAXs1NPG+4F4ph8gKw0WdLZF+OpBEPacQ36CMJUJffVHE52WEjyZYKB9vdQEwftpCB+Lu0HSQYLwCzIeuQ==",
+          "shasum": "87d4654810c79539ab4f23c07c7a16f3e2233e90"
+        }
+      }
+    },
+    {
+      "version": "0.4.2",
+      "variantId": "registry-package.openupm.com-2a89b91e9beca5cf",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "d5e060967ec82f1dd87f4e6f96a4ca691e64f13e",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.4.2.tgz",
+      "upstreamIntegrity": "sha512-i+1+90pZcYjSrmQIPWsvoohtvJ/cVLk8igRmfsiJoCva0Mjaj0gK3LzFp3+kQleWFelorDhbAxliT5FeHBwShQ==",
+      "upstreamShasum": "317ce3cd2fe30e830b65352d5bae9b7b1f4605c1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.4.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-i+1+90pZcYjSrmQIPWsvoohtvJ/cVLk8igRmfsiJoCva0Mjaj0gK3LzFp3+kQleWFelorDhbAxliT5FeHBwShQ==",
+          "shasum": "317ce3cd2fe30e830b65352d5bae9b7b1f4605c1"
+        }
+      }
+    },
+    {
+      "version": "0.4.3",
+      "variantId": "registry-package.openupm.com-a8b0f5ef55d102e1",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "a62c8f768a900b2a8dd903f62d705653ae920262",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.4.3.tgz",
+      "upstreamIntegrity": "sha512-sztlHrCcOoSf/oKGCGvlmz9vCGJ5CT11P8hPzIc8mRtnroTAN6/85I+Vs0iEkadEj3vF21Gsgl+u1poSJZheaw==",
+      "upstreamShasum": "2487647f0d1667147b56d6348e8ed22c7baaa1b0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.4.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sztlHrCcOoSf/oKGCGvlmz9vCGJ5CT11P8hPzIc8mRtnroTAN6/85I+Vs0iEkadEj3vF21Gsgl+u1poSJZheaw==",
+          "shasum": "2487647f0d1667147b56d6348e8ed22c7baaa1b0"
+        }
+      }
+    },
+    {
+      "version": "0.4.4",
+      "variantId": "registry-package.openupm.com-b844d97b86103d00",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "8222668b3ffcc647c6008a63b82d7ab9f5cfde54",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.4.4.tgz",
+      "upstreamIntegrity": "sha512-rmMEgkDoUm/5sfBM9m8ouXqDNQbcdQ2QEUOJL5T2eTQgxTOmrRsH5mhhYCtDGC5p/V50rPqiqHsetxA5KW5xlw==",
+      "upstreamShasum": "5cd501c49bc8160a66962b47a26a3fcf2cb685a1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.4.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rmMEgkDoUm/5sfBM9m8ouXqDNQbcdQ2QEUOJL5T2eTQgxTOmrRsH5mhhYCtDGC5p/V50rPqiqHsetxA5KW5xlw==",
+          "shasum": "5cd501c49bc8160a66962b47a26a3fcf2cb685a1"
+        }
+      }
+    },
+    {
+      "version": "0.4.5",
+      "variantId": "registry-package.openupm.com-e6d9610347966380",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "2eae8158d6454a815a732d337d2810530ac932c9",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.4.5.tgz",
+      "upstreamIntegrity": "sha512-dSW4JM8O/N5m4B258/qQNHnXn5nqdOAOHlJX9hl3/4rP9C5GnxetkseqzyeeFjqr0FJSeoXq17xzQNkzpki39Q==",
+      "upstreamShasum": "0def8079ea53be0c5122238f11f9c4be8a2b775a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.4.5",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dSW4JM8O/N5m4B258/qQNHnXn5nqdOAOHlJX9hl3/4rP9C5GnxetkseqzyeeFjqr0FJSeoXq17xzQNkzpki39Q==",
+          "shasum": "0def8079ea53be0c5122238f11f9c4be8a2b775a"
+        }
+      }
+    },
+    {
+      "version": "0.4.6",
+      "variantId": "registry-package.openupm.com-f0f8e1bab1dd8c38",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "910a5c231660208f7380f226cfedc20f8ea5790f",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.4.6.tgz",
+      "upstreamIntegrity": "sha512-o3W2mfO3NBHrlCbpHCQK6ctaMFQW9YvEBwRssLMmmPRuVYI1TTbecGiZ6G1C2xPooAxnEclMsY4qm5Abvdd5xw==",
+      "upstreamShasum": "cd50b10c11e156342ffb97d904a265866b62fcfc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.4.6",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-o3W2mfO3NBHrlCbpHCQK6ctaMFQW9YvEBwRssLMmmPRuVYI1TTbecGiZ6G1C2xPooAxnEclMsY4qm5Abvdd5xw==",
+          "shasum": "cd50b10c11e156342ffb97d904a265866b62fcfc"
+        }
+      }
+    },
+    {
+      "version": "0.4.7",
+      "variantId": "registry-package.openupm.com-7575c622e50e55ed",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "ce3ffa248e9066cb83559c5e806ac832c320e64f",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.4.7.tgz",
+      "upstreamIntegrity": "sha512-NDSKtY47+52dcwBtP1tWhPIrbs1b6J2ds8XaGzf/bwtB0KbtQOovKBdnl7GYPunzE9BL4CUQnHao6HpgUldmyw==",
+      "upstreamShasum": "b658c16d03d6a26f8a866be1a3a177284499ed18",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.4.7",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NDSKtY47+52dcwBtP1tWhPIrbs1b6J2ds8XaGzf/bwtB0KbtQOovKBdnl7GYPunzE9BL4CUQnHao6HpgUldmyw==",
+          "shasum": "b658c16d03d6a26f8a866be1a3a177284499ed18"
+        }
+      }
+    },
+    {
+      "version": "0.5.0",
+      "variantId": "registry-package.openupm.com-63d52e96e80b47fb",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "b00432c7b67aa58054cd1c434c090460eeae79b3",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.5.0.tgz",
+      "upstreamIntegrity": "sha512-9jkJmx3XVbV78FX2G28K+RnqrhHLHGQX8eVNB6g/EQZYKY3e8CgjuVe0mjU1BHcZqn8QSpMHI6oDoxCPwETJPA==",
+      "upstreamShasum": "8c0bced023a247b7215475feae8e3077f1fc85a4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.5.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9jkJmx3XVbV78FX2G28K+RnqrhHLHGQX8eVNB6g/EQZYKY3e8CgjuVe0mjU1BHcZqn8QSpMHI6oDoxCPwETJPA==",
+          "shasum": "8c0bced023a247b7215475feae8e3077f1fc85a4"
+        }
+      }
+    },
+    {
+      "version": "0.5.3",
+      "variantId": "registry-package.openupm.com-cc50f416c57ed426",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "9b3972d794aede99a4e82c7531e3f597ed10e31a",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.5.3.tgz",
+      "upstreamIntegrity": "sha512-nNueT+W/cv+MuVZQOPil7OxBA1LhpC4Dt5O1NGM5DP36hjw4yLcy+N5+QL30mLg4GR1EwbaaNAuCGp6FctgcSQ==",
+      "upstreamShasum": "499886af4a58f84dfa9286f4f186cfed7103927a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.5.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nNueT+W/cv+MuVZQOPil7OxBA1LhpC4Dt5O1NGM5DP36hjw4yLcy+N5+QL30mLg4GR1EwbaaNAuCGp6FctgcSQ==",
+          "shasum": "499886af4a58f84dfa9286f4f186cfed7103927a"
+        }
+      }
+    },
+    {
+      "version": "0.5.4",
+      "variantId": "registry-package.openupm.com-86d85b8bf0702007",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "8ebf03e04a5b99098250241b391a2632c22074c2",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.5.4.tgz",
+      "upstreamIntegrity": "sha512-aG5yFOBGc7i9LsPBua8hvc4r8fVN4F5HFLoBr7tIAsSZPUPz1Ocjg9JXlEuvJHdCMSaZukuCIQ7iKEK8eIGGVw==",
+      "upstreamShasum": "25857bfc757085748d53d8743af3d13bdfc1c721",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.5.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-aG5yFOBGc7i9LsPBua8hvc4r8fVN4F5HFLoBr7tIAsSZPUPz1Ocjg9JXlEuvJHdCMSaZukuCIQ7iKEK8eIGGVw==",
+          "shasum": "25857bfc757085748d53d8743af3d13bdfc1c721"
+        }
+      }
+    },
+    {
+      "version": "0.5.5",
+      "variantId": "registry-package.openupm.com-1a28e762e1e25b11",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "c0d79756ba32e2a9d182ed55dc96c69975438ba3",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.5.5.tgz",
+      "upstreamIntegrity": "sha512-L8ySUaRMmIMYT5rjFmoRFV17LzvwVF6Avz9AwmNLHd7Ux5Wtx1m9O2wcMAyQwnPYxPoqKEstRE0jjRcunGAa9Q==",
+      "upstreamShasum": "49e46d5e9d6b357f4256cf9f34e1e490f39e57a1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.4",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.5.5",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-L8ySUaRMmIMYT5rjFmoRFV17LzvwVF6Avz9AwmNLHd7Ux5Wtx1m9O2wcMAyQwnPYxPoqKEstRE0jjRcunGAa9Q==",
+          "shasum": "49e46d5e9d6b357f4256cf9f34e1e490f39e57a1"
+        }
+      }
+    },
+    {
+      "version": "0.5.6",
+      "variantId": "registry-package.openupm.com-17e127a003ba2cad",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "54d277831173d2f3e86ef61f0be32a5858099047",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.5.6.tgz",
+      "upstreamIntegrity": "sha512-+mevC29vLPiugr+EDHPgDFmcX430GnzN/LTuVDlg6HX9VbEE1Ynw3ORE1T6zgJfK9y0GYyTkeRIHGxQp+j3n0g==",
+      "upstreamShasum": "a16784520c09995cdf080409a8246b57cb818ecd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.5",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.5.6",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+mevC29vLPiugr+EDHPgDFmcX430GnzN/LTuVDlg6HX9VbEE1Ynw3ORE1T6zgJfK9y0GYyTkeRIHGxQp+j3n0g==",
+          "shasum": "a16784520c09995cdf080409a8246b57cb818ecd"
+        }
+      }
+    },
+    {
+      "version": "0.5.7",
+      "variantId": "registry-package.openupm.com-3150e074d443a03b",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "150d560fea64f646f200030710421bd047c26eec",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.5.7.tgz",
+      "upstreamIntegrity": "sha512-D1kFqT0XPOSigIIeIhO+HtQEyNEacUw0ekDXJ7bqCs+wLHT8wYA/3PFKkQWm5QfxXUqmCEA6iwrSyDJ0J8pScw==",
+      "upstreamShasum": "b0f0d0fa5845fc4657f414bc4b0cea5d2f93a444",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.5",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "5.1.4",
+        "com.unity.textmeshpro": "3.0.7",
+        "com.unity.xr.management": "4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.5.7",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-D1kFqT0XPOSigIIeIhO+HtQEyNEacUw0ekDXJ7bqCs+wLHT8wYA/3PFKkQWm5QfxXUqmCEA6iwrSyDJ0J8pScw==",
+          "shasum": "b0f0d0fa5845fc4657f414bc4b0cea5d2f93a444"
+        }
+      }
+    },
+    {
+      "version": "0.6.0",
+      "variantId": "registry-package.openupm.com-0599683302b59c61",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "a4c490719b37af2977d6deab2e33d72fcbf6a09a",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.6.0.tgz",
+      "upstreamIntegrity": "sha512-zI7sU/3vmVw2zJwJLwp/CeDGyyohLFjzmWdy1+5IhvFEEpr/e54CreLI/ts7eZK+kpdWmYSQaOptaZdgrtYz6g==",
+      "upstreamShasum": "8f012be474330aca3c8bc2bc3b52db5c323a761d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.6",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "6.0.5",
+        "com.unity.xr.management": "4.5.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.6.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zI7sU/3vmVw2zJwJLwp/CeDGyyohLFjzmWdy1+5IhvFEEpr/e54CreLI/ts7eZK+kpdWmYSQaOptaZdgrtYz6g==",
+          "shasum": "8f012be474330aca3c8bc2bc3b52db5c323a761d"
+        }
+      }
+    },
+    {
+      "version": "0.6.1",
+      "variantId": "registry-package.openupm.com-0538b010ba6a39af",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "955ee6b7bc1ffc8e37a8c47ca029817fb41666d1",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.6.1.tgz",
+      "upstreamIntegrity": "sha512-+KHUih5amiYW5osWYx7d2gA+y5j0D1uE1KnS0yREpep8yH/7748Jz5m8RFPL6xNExOZiZsC25qVARr4P32JUAw==",
+      "upstreamShasum": "2ba80a92509c4c8d29028164e367c9ea5a37b6f4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.6",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "6.0.5",
+        "com.unity.xr.management": "4.5.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.6.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+KHUih5amiYW5osWYx7d2gA+y5j0D1uE1KnS0yREpep8yH/7748Jz5m8RFPL6xNExOZiZsC25qVARr4P32JUAw==",
+          "shasum": "2ba80a92509c4c8d29028164e367c9ea5a37b6f4"
+        }
+      }
+    },
+    {
+      "version": "0.6.2",
+      "variantId": "registry-package.openupm.com-e06bf99a8790d68d",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "56aa8e228cf5519acd8f55d07809d8fcace88d1d",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.6.2.tgz",
+      "upstreamIntegrity": "sha512-SZGa2sHIx6t/zQs5GPQEPYiYP/aDtCLiujFUVbJEUKI+5D46ZbpsjLKzy4Ado6zi9URqPoVITMipnJuAbxjYCg==",
+      "upstreamShasum": "5166d762698127f8686b7b2275e38f3130b09f69",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.6",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "6.0.5",
+        "com.unity.xr.management": "4.5.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.6.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SZGa2sHIx6t/zQs5GPQEPYiYP/aDtCLiujFUVbJEUKI+5D46ZbpsjLKzy4Ado6zi9URqPoVITMipnJuAbxjYCg==",
+          "shasum": "5166d762698127f8686b7b2275e38f3130b09f69"
+        }
+      }
+    },
+    {
+      "version": "0.6.3",
+      "variantId": "registry-package.openupm.com-a52dce3f34aea606",
+      "sourceUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin",
+      "sourceRef": "d8a18062e30a46f04594438aab33b375714b4508",
+      "downloadUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/-/com.styly.styly-spatial-layer-plugin-0.6.3.tgz",
+      "upstreamIntegrity": "sha512-AscqlTRAYD8f8Ni7tqxhCinALjv8fXCCWkJb4JY1QFV2COWWKmuk5hrzjoEmzAMRhJWDwRyZzypbNhYhbCle5Q==",
+      "upstreamShasum": "85f955a6215b78222a26756447cf6bf39015ca06",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.visualscripting": "1.9.6",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.xr.arfoundation": "6.0.5",
+        "com.unity.xr.management": "4.5.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.styly.styly-spatial-layer-plugin/0.6.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-AscqlTRAYD8f8Ni7tqxhCinALjv8fXCCWkJb4JY1QFV2COWWKmuk5hrzjoEmzAMRhJWDwRyZzypbNhYhbCle5Q==",
+          "shasum": "85f955a6215b78222a26756447cf6bf39015ca06"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.6.3"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.styly.styly-spatial-layer-plugin.yml",
+  "definitionBlobSha": "e574a320fbc7648b53aad528acf4484a9bbe2099",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.6.3",
+    "0.6.2",
+    "0.6.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 25,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

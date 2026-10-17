@@ -1,0 +1,634 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.rest.huggingface",
+  "displayName": "com.rest.huggingface",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface",
+      "fetchedAt": "2026-10-17T17:41:27.064330Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0-preview.1",
+      "variantId": "registry-package.openupm.com-f9f8ba75c13a0d51",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "313269057b007e87236b18bbb840d54dad09df46",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.1.tgz",
+      "upstreamIntegrity": "sha512-J1B0FDA6ihOf0QR4Qv9Gwmup0d8FtrcehfRV8h/xgvwz6fuzx2xBokvG/6ZqqViiLfNjvq1HCgDXR2tuQN4hng==",
+      "upstreamShasum": "9abd0bd70a621b95f69af899e0ceb01d813cc24c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.0.1",
+        "com.utilities.encoder.wav": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-J1B0FDA6ihOf0QR4Qv9Gwmup0d8FtrcehfRV8h/xgvwz6fuzx2xBokvG/6ZqqViiLfNjvq1HCgDXR2tuQN4hng==",
+          "shasum": "9abd0bd70a621b95f69af899e0ceb01d813cc24c"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.2",
+      "variantId": "registry-package.openupm.com-7729f1638cdf7d07",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "68bb4f171bd351ae895e6be7cb57ea4ae1089514",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.2.tgz",
+      "upstreamIntegrity": "sha512-MtJ7bJXtE/I2qhTn+A6RDjVTD3lAbNdY/M1U1yiOk51yPMS84awREj5xlkaH8jos3CpbN4Js7E+1czTt4sC+gw==",
+      "upstreamShasum": "a1ad808ab46110949a4728f11a10fae0f51bb504",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.0.1",
+        "com.utilities.encoder.wav": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MtJ7bJXtE/I2qhTn+A6RDjVTD3lAbNdY/M1U1yiOk51yPMS84awREj5xlkaH8jos3CpbN4Js7E+1czTt4sC+gw==",
+          "shasum": "a1ad808ab46110949a4728f11a10fae0f51bb504"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.3",
+      "variantId": "registry-package.openupm.com-71185cdffb868429",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "4c87d5d519b8a740024621a0c674d50620f58a56",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.3.tgz",
+      "upstreamIntegrity": "sha512-wF6hldYftnGt1eTmlFNos5me1t9mn/CAH9sfk8k/86SFlYS37KjIoFLZcaiC2etDsVjB/T/1T5MY14sHLx5yfw==",
+      "upstreamShasum": "d72073391c4354485ee07f21b424238f1ba8cf80",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.0.1",
+        "com.utilities.encoder.wav": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.3",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wF6hldYftnGt1eTmlFNos5me1t9mn/CAH9sfk8k/86SFlYS37KjIoFLZcaiC2etDsVjB/T/1T5MY14sHLx5yfw==",
+          "shasum": "d72073391c4354485ee07f21b424238f1ba8cf80"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.4",
+      "variantId": "registry-package.openupm.com-bb8bf169acdad9ba",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "ac54323804c226a0348c2428632b980e1253cea5",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.4.tgz",
+      "upstreamIntegrity": "sha512-/ZfjDrC+nl7mtYARkpgDPJsirU3n1jVdX3HPak57fTyXx7hncPzZN0bCru5qeTPSn94XcaDwr1kK6h8vde15WQ==",
+      "upstreamShasum": "aa6aee22e307fd36efd0fdaed72150eeb51c2495",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.0.1",
+        "com.utilities.encoder.wav": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.4",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/ZfjDrC+nl7mtYARkpgDPJsirU3n1jVdX3HPak57fTyXx7hncPzZN0bCru5qeTPSn94XcaDwr1kK6h8vde15WQ==",
+          "shasum": "aa6aee22e307fd36efd0fdaed72150eeb51c2495"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.5",
+      "variantId": "registry-package.openupm.com-4eec3d65d77f27e3",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "ff5eb263903ad2dddde179c795d74f0753329b01",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.5.tgz",
+      "upstreamIntegrity": "sha512-xf6PlpR4DrfSM1cXlxEQ23fQgOUi3cfbcgsozLJCo4xG7yffGOyCFZlBSIFtX1FwaCVJpg9H2Ods7Eo7vbY3UA==",
+      "upstreamShasum": "32813372ad4bc2485755cc4fea328241c098dcdb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.0.1",
+        "com.utilities.encoder.wav": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.5",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xf6PlpR4DrfSM1cXlxEQ23fQgOUi3cfbcgsozLJCo4xG7yffGOyCFZlBSIFtX1FwaCVJpg9H2Ods7Eo7vbY3UA==",
+          "shasum": "32813372ad4bc2485755cc4fea328241c098dcdb"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.6",
+      "variantId": "registry-package.openupm.com-0f41a471cf54742f",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "3defe14032ad062a92be0953816f68b22fe93d52",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.6.tgz",
+      "upstreamIntegrity": "sha512-H1eBi9HvcyY7t3Ga6BlFDjJ0W0bkUI723sb24JyXDCVJ+93dzSIAjJsYiY+JdUOE/ugoVScMfAa2qlKwdCLp+w==",
+      "upstreamShasum": "a6c75fcd49e972028205c6280e98efdde77a4026",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.0.7",
+        "com.utilities.encoder.wav": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.6",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-H1eBi9HvcyY7t3Ga6BlFDjJ0W0bkUI723sb24JyXDCVJ+93dzSIAjJsYiY+JdUOE/ugoVScMfAa2qlKwdCLp+w==",
+          "shasum": "a6c75fcd49e972028205c6280e98efdde77a4026"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.7",
+      "variantId": "registry-package.openupm.com-5de524b84e14a6fa",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "5161f27d4db4d71090a5cddb63289008d2704624",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.7.tgz",
+      "upstreamIntegrity": "sha512-xazV2/DGGMq1a/KRTM78lOklquhc2n28yk2GiQWyXqRGvOg6mRVgHA+POKTW11VEgNOWeOolNtpPrhMHzg7DeQ==",
+      "upstreamShasum": "a84fa3f0f9809f2d4bc342551cdc3a33cf6e5354",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.0.7",
+        "com.utilities.encoder.wav": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.7",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xazV2/DGGMq1a/KRTM78lOklquhc2n28yk2GiQWyXqRGvOg6mRVgHA+POKTW11VEgNOWeOolNtpPrhMHzg7DeQ==",
+          "shasum": "a84fa3f0f9809f2d4bc342551cdc3a33cf6e5354"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.8",
+      "variantId": "registry-package.openupm.com-be08bea2552d1003",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "197a6ff4336c2bf3f1974d2e40b997fffb0998f7",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.8.tgz",
+      "upstreamIntegrity": "sha512-y2xzijYYSzHR62k9RirWXDBSFG111KW1rDlXApwmbDSwJw/LR+wHk9qECQhtv37K8kNoQpWF45Yto1QmlkcKLQ==",
+      "upstreamShasum": "bf21dde235819067fe202a130168e3144b1218b6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.0.7",
+        "com.utilities.encoder.wav": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.8",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-y2xzijYYSzHR62k9RirWXDBSFG111KW1rDlXApwmbDSwJw/LR+wHk9qECQhtv37K8kNoQpWF45Yto1QmlkcKLQ==",
+          "shasum": "bf21dde235819067fe202a130168e3144b1218b6"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.9",
+      "variantId": "registry-package.openupm.com-0a548a18c0c2600e",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "8f0bc4e634bfa1deedf4da1a93e715c1a0a0cbd0",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.9.tgz",
+      "upstreamIntegrity": "sha512-g3PIKKvTWZsg+MBIfeiPg3r8Vnr9963ftxpNCrQ9tYucYvH40x6WUEbqEIZzhbuTJ0q2xq01U4aJKXN6QipPDw==",
+      "upstreamShasum": "c197b82c14a752b5d585bb79e55b6f716cf392b0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.1.3",
+        "com.utilities.encoder.wav": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.9",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-g3PIKKvTWZsg+MBIfeiPg3r8Vnr9963ftxpNCrQ9tYucYvH40x6WUEbqEIZzhbuTJ0q2xq01U4aJKXN6QipPDw==",
+          "shasum": "c197b82c14a752b5d585bb79e55b6f716cf392b0"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.10",
+      "variantId": "registry-package.openupm.com-38c62cb4306654e7",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "35a45a21ca4bcb316d1d9b476c353a69b3137a77",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.10.tgz",
+      "upstreamIntegrity": "sha512-nmdLfHXbsMLS1tOXqttdjamVUwzpvhk786i/y3A9IhwN0t9hRFFDK3HVls9dRaniK6aRRUSZV76UPiLn29+R8Q==",
+      "upstreamShasum": "91324ff373eb986bee8c9488e64e9a957f6073d2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.1.6",
+        "com.utilities.encoder.wav": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.10",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nmdLfHXbsMLS1tOXqttdjamVUwzpvhk786i/y3A9IhwN0t9hRFFDK3HVls9dRaniK6aRRUSZV76UPiLn29+R8Q==",
+          "shasum": "91324ff373eb986bee8c9488e64e9a957f6073d2"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.11",
+      "variantId": "registry-package.openupm.com-a1e2ccb85306e806",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "75822588e341d86645282f54bf8afa912c8d235d",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.11.tgz",
+      "upstreamIntegrity": "sha512-k8ZhnOh+Xyc9lmSxHeyQr8og1TMDduxhjgvD7/rh5Z7KmXvqxkRlrspEiAyJV/49PtNRyT76NwJd04R06t9giw==",
+      "upstreamShasum": "34cb03814ec35050f4a50be1faaf0d16a020989a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.1.6",
+        "com.utilities.encoder.wav": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.11",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-k8ZhnOh+Xyc9lmSxHeyQr8og1TMDduxhjgvD7/rh5Z7KmXvqxkRlrspEiAyJV/49PtNRyT76NwJd04R06t9giw==",
+          "shasum": "34cb03814ec35050f4a50be1faaf0d16a020989a"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.12",
+      "variantId": "registry-package.openupm.com-ab02f6995e812c28",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "2e340d320f718060204ca2d8c9193baee5ac4bda",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.12.tgz",
+      "upstreamIntegrity": "sha512-b8Skc2sUImEcF2CtQi5yZlkzWzoZCqEdcZFwxA/fTBRbT2vqGM5MakYUOU0Mi5ZaLtQORGPZOF8rzS2AfXjwtg==",
+      "upstreamShasum": "3ed38172b5ecaafd5d1c1f32e09499fd32cb27e8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.3.1",
+        "com.utilities.encoder.wav": "1.0.8",
+        "com.utilities.encoder.ogg": "3.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.12",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-b8Skc2sUImEcF2CtQi5yZlkzWzoZCqEdcZFwxA/fTBRbT2vqGM5MakYUOU0Mi5ZaLtQORGPZOF8rzS2AfXjwtg==",
+          "shasum": "3ed38172b5ecaafd5d1c1f32e09499fd32cb27e8"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.13",
+      "variantId": "registry-package.openupm.com-59bae6d0cc031a10",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "cdb6a65720da8904f9364e9b55e57c74f193839d",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.13.tgz",
+      "upstreamIntegrity": "sha512-qoyC6ZF9Qy99CsM+/jv7SMqOnuuO5C0yXLcjXmk53Sh6/keIDhVIKz/Ekg9Ke2g/z++zGrwN4ke05Hd9Evyb2A==",
+      "upstreamShasum": "0c62340b46daabc1b588e45ab351e408ffe4476d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.4.0",
+        "com.utilities.encoder.wav": "1.0.8",
+        "com.utilities.encoder.ogg": "3.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.13",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qoyC6ZF9Qy99CsM+/jv7SMqOnuuO5C0yXLcjXmk53Sh6/keIDhVIKz/Ekg9Ke2g/z++zGrwN4ke05Hd9Evyb2A==",
+          "shasum": "0c62340b46daabc1b588e45ab351e408ffe4476d"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.14",
+      "variantId": "registry-package.openupm.com-b355e67eb65627f8",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "eda22b777a2c39c778166b1b6f664de6668820bb",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.14.tgz",
+      "upstreamIntegrity": "sha512-I7Hcox46bj1Kie4+daZlERgT6QNpNbn0TVUGUw9MIQQA5gQGzoiIVpdKLsXaF86u3khoLfSGQsEVu0jNsNncWw==",
+      "upstreamShasum": "28a815007edf429f38faec28966bb4b82276f1d5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.4.0",
+        "com.utilities.encoder.wav": "1.1.3",
+        "com.utilities.encoder.ogg": "3.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.14",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-I7Hcox46bj1Kie4+daZlERgT6QNpNbn0TVUGUw9MIQQA5gQGzoiIVpdKLsXaF86u3khoLfSGQsEVu0jNsNncWw==",
+          "shasum": "28a815007edf429f38faec28966bb4b82276f1d5"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.15",
+      "variantId": "registry-package.openupm.com-cc41f3b0a4b26628",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "f1da88c65c5a688a9456ed0649d0926a2332d0ae",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.15.tgz",
+      "upstreamIntegrity": "sha512-cENsfh0XMH9Sn8Cn+u1lkkN4BC6uBJfJTXK4S/6iYMb9sd5B3FonacZbxTj1JTyir9JT11ZePHjN3EBM8qX7Gw==",
+      "upstreamShasum": "777e5cf58fd5627e1c03de2031557ab8705ea02b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.5.0",
+        "com.utilities.encoder.wav": "1.1.4",
+        "com.utilities.encoder.ogg": "3.1.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.15",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cENsfh0XMH9Sn8Cn+u1lkkN4BC6uBJfJTXK4S/6iYMb9sd5B3FonacZbxTj1JTyir9JT11ZePHjN3EBM8qX7Gw==",
+          "shasum": "777e5cf58fd5627e1c03de2031557ab8705ea02b"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.16",
+      "variantId": "registry-package.openupm.com-86a8c5a9de643d7d",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "53c5db2be1407994ca6c8e8c8167526c4b6a5dbe",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.16.tgz",
+      "upstreamIntegrity": "sha512-mwB04M8pzNb1AYefJ7qAUOtkvaoE3Gruux48b32szMPEf9sCcfwvEksLcIw/IQNCoCTXdTKCHlwAqooV6/gy8Q==",
+      "upstreamShasum": "875f770b70554699a9df7d91373172504f172d98",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.5.2",
+        "com.utilities.encoder.wav": "1.1.5",
+        "com.utilities.encoder.ogg": "3.1.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.16",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mwB04M8pzNb1AYefJ7qAUOtkvaoE3Gruux48b32szMPEf9sCcfwvEksLcIw/IQNCoCTXdTKCHlwAqooV6/gy8Q==",
+          "shasum": "875f770b70554699a9df7d91373172504f172d98"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-preview.17",
+      "variantId": "registry-package.openupm.com-d99fca3265c60dac",
+      "sourceUrl": "https://package.openupm.com/com.rest.huggingface",
+      "sourceRef": "ad788dcc3414b3e95c11316394d8a836c857bcd8",
+      "downloadUrl": "https://package.openupm.com/com.rest.huggingface/-/com.rest.huggingface-1.0.0-preview.17.tgz",
+      "upstreamIntegrity": "sha512-tQ2z7VdFYOj9/iSITRMMEgQwEqoAo6kHw5bkbOiBCulplWZotb4Im/r2/6U9138cxigR/ZxmJ1wlqaoe+Mz6iQ==",
+      "upstreamShasum": "99c1c73b1a5cbda58859d558f580cc657ec3ff08",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.utilities.rest": "2.5.3",
+        "com.utilities.encoder.wav": "1.1.5",
+        "com.utilities.encoder.ogg": "3.1.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.rest.huggingface/1.0.0-preview.17",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tQ2z7VdFYOj9/iSITRMMEgQwEqoAo6kHw5bkbOiBCulplWZotb4Im/r2/6U9138cxigR/ZxmJ1wlqaoe+Mz6iQ==",
+          "shasum": "99c1c73b1a5cbda58859d558f580cc657ec3ff08"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.0-preview.17"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.rest.huggingface.yml",
+  "definitionBlobSha": "f08554c56a98ee4faab154f9d9fc1257d99fde97",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.0-preview.17",
+    "1.0.0-preview.1",
+    "1.0.0-preview.16"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 17,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

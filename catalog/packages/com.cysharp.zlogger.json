@@ -1,0 +1,961 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.cysharp.zlogger",
+  "displayName": "com.cysharp.zlogger",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "fetchedAt": "2026-10-17T17:37:13.071836Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-b2b95dc278cca303",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-yTNcJZdL2025DYw5nertI4phy5Mi8rpOy3jBzD0mh7WLy03sBYyl+47pTu7pruhW5B/RUCNR14I7hI5YifoEaA==",
+      "upstreamShasum": "39740befacfff931d912fa661a5e4c77fa140cbe",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/1.1.0",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yTNcJZdL2025DYw5nertI4phy5Mi8rpOy3jBzD0mh7WLy03sBYyl+47pTu7pruhW5B/RUCNR14I7hI5YifoEaA==",
+          "shasum": "39740befacfff931d912fa661a5e4c77fa140cbe"
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "variantId": "registry-package.openupm.com-74e6fccd757e1c82",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-1.3.0.tgz",
+      "upstreamIntegrity": "sha512-/cFNDnCUCvX5U0LarZIjsDL/HBM8nGgowu3t8atzermv7KXDXZqFKhWalkhYA3ib252sww/IGXa9/ffn9NQlXw==",
+      "upstreamShasum": "d7a084c875cc575f97bf4b9c864eb8945211f30a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/1.3.0",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/cFNDnCUCvX5U0LarZIjsDL/HBM8nGgowu3t8atzermv7KXDXZqFKhWalkhYA3ib252sww/IGXa9/ffn9NQlXw==",
+          "shasum": "d7a084c875cc575f97bf4b9c864eb8945211f30a"
+        }
+      }
+    },
+    {
+      "version": "1.4.1",
+      "variantId": "registry-package.openupm.com-3deb94a6dcdde0d5",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-1.4.1.tgz",
+      "upstreamIntegrity": "sha512-yCAlvgQ/j+KIMcVUBOMBYelxJU32LfYVALqv8wxiwixruNirpNm+QuGcarJjyGIKkv2RDg3Uby1DbcOZX8wkYg==",
+      "upstreamShasum": "46da3d354ea3d0d9d1e754ea2ac1f25767577022",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/1.4.1",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yCAlvgQ/j+KIMcVUBOMBYelxJU32LfYVALqv8wxiwixruNirpNm+QuGcarJjyGIKkv2RDg3Uby1DbcOZX8wkYg==",
+          "shasum": "46da3d354ea3d0d9d1e754ea2ac1f25767577022"
+        }
+      }
+    },
+    {
+      "version": "1.5.0",
+      "variantId": "registry-package.openupm.com-97a9675b426598fe",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-1.5.0.tgz",
+      "upstreamIntegrity": "sha512-/PfEjxJNJ87zzV6pY7Y+lp9MfdlBo/D1zo0pvd9nqJKXBq9GirtHpQ4Wo6k8GTVA9kpsnPd9NVYXVoJaFoS9iQ==",
+      "upstreamShasum": "e6fca5d70b9b351fd374ee2edbd9df05a5a086f1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/1.5.0",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/PfEjxJNJ87zzV6pY7Y+lp9MfdlBo/D1zo0pvd9nqJKXBq9GirtHpQ4Wo6k8GTVA9kpsnPd9NVYXVoJaFoS9iQ==",
+          "shasum": "e6fca5d70b9b351fd374ee2edbd9df05a5a086f1"
+        }
+      }
+    },
+    {
+      "version": "1.5.1",
+      "variantId": "registry-package.openupm.com-fb596f9244754870",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-1.5.1.tgz",
+      "upstreamIntegrity": "sha512-iASFL6VfqNQIS1ZUDyCMU/BqV0eo2pu4P2Kwj+HXC9ccy4MgxXhsCmaJSWTi9o9cMbr3Bc2nus8e1Gd8ou1ZJg==",
+      "upstreamShasum": "907cc79dc4defae963bb5374662b0c93961f691b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/1.5.1",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iASFL6VfqNQIS1ZUDyCMU/BqV0eo2pu4P2Kwj+HXC9ccy4MgxXhsCmaJSWTi9o9cMbr3Bc2nus8e1Gd8ou1ZJg==",
+          "shasum": "907cc79dc4defae963bb5374662b0c93961f691b"
+        }
+      }
+    },
+    {
+      "version": "1.6.0",
+      "variantId": "registry-package.openupm.com-c0b30622a0747cd7",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-1.6.0.tgz",
+      "upstreamIntegrity": "sha512-yMczaORIGSjcC1veJGR3+387nA86bR+atnhJhvZTwQwWWefVH4o4a86i2tmS8BKWagISVB/HiYbQfER4aKjkZg==",
+      "upstreamShasum": "97cc51e6c1f5364e68be205125e4c30bc13007ca",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/1.6.0",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yMczaORIGSjcC1veJGR3+387nA86bR+atnhJhvZTwQwWWefVH4o4a86i2tmS8BKWagISVB/HiYbQfER4aKjkZg==",
+          "shasum": "97cc51e6c1f5364e68be205125e4c30bc13007ca"
+        }
+      }
+    },
+    {
+      "version": "1.6.1",
+      "variantId": "registry-package.openupm.com-9dd137df80713943",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-1.6.1.tgz",
+      "upstreamIntegrity": "sha512-FvWuqMUMrY45FgYKPc+Y3jGcEcb6PIXnrpVneHk9fudzU36B834Pmoyczaqwjj1LGhZx5Z13vX/b1tDcP0GU4g==",
+      "upstreamShasum": "c58d828ae869db09184adc96ce9a03e97ffc4890",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/1.6.1",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FvWuqMUMrY45FgYKPc+Y3jGcEcb6PIXnrpVneHk9fudzU36B834Pmoyczaqwjj1LGhZx5Z13vX/b1tDcP0GU4g==",
+          "shasum": "c58d828ae869db09184adc96ce9a03e97ffc4890"
+        }
+      }
+    },
+    {
+      "version": "1.6.2",
+      "variantId": "registry-package.openupm.com-b14514383b7567af",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "8859ef5755e68f4af25d26eb38f11bb64491c4cb",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-1.6.2.tgz",
+      "upstreamIntegrity": "sha512-egECmlFScMzqfe7Jre5FDdFRM5TFanl/Uoyl3OjOAN/2d4Cr8vk1RS1rIesvz+kYLlDTplhqg7taaEASFxUheg==",
+      "upstreamShasum": "42a079436a4c8614a28bfb9698b84913484aafde",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/1.6.2",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-egECmlFScMzqfe7Jre5FDdFRM5TFanl/Uoyl3OjOAN/2d4Cr8vk1RS1rIesvz+kYLlDTplhqg7taaEASFxUheg==",
+          "shasum": "42a079436a4c8614a28bfb9698b84913484aafde"
+        }
+      }
+    },
+    {
+      "version": "1.7.0",
+      "variantId": "registry-package.openupm.com-b9b0aab881e1c1ba",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "0b374274f667dc741d6d2620edaa7291bde1f3fe",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-1.7.0.tgz",
+      "upstreamIntegrity": "sha512-Jhc/XtMQ77JtDKl12qQIyB+SlMTGgPqS1/7e2ceoMlks9Uwx/PEruK1tsGnlAUnW6dBnBx0/i1qA5cJJyg5htg==",
+      "upstreamShasum": "217f4009a98aaa6be9b04637044d4b60d44830a8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/1.7.0",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Jhc/XtMQ77JtDKl12qQIyB+SlMTGgPqS1/7e2ceoMlks9Uwx/PEruK1tsGnlAUnW6dBnBx0/i1qA5cJJyg5htg==",
+          "shasum": "217f4009a98aaa6be9b04637044d4b60d44830a8"
+        }
+      }
+    },
+    {
+      "version": "1.7.1",
+      "variantId": "registry-package.openupm.com-bbd64884d092af0f",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "d6e6574a7e12c4950b2596bf9cda533b1bd959bd",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-1.7.1.tgz",
+      "upstreamIntegrity": "sha512-eBSNt4w50V/yiRO9wUuTeJj7lih0yUxvYFLVlPUPyHeilPcNJMSflc36gJucYUe4ZijGNiBZRNFnbf3NDxvD0w==",
+      "upstreamShasum": "cea3519d5404f0493fffd5de43101b2cc8e36e70",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/1.7.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eBSNt4w50V/yiRO9wUuTeJj7lih0yUxvYFLVlPUPyHeilPcNJMSflc36gJucYUe4ZijGNiBZRNFnbf3NDxvD0w==",
+          "shasum": "cea3519d5404f0493fffd5de43101b2cc8e36e70"
+        }
+      }
+    },
+    {
+      "version": "2.0.1",
+      "variantId": "registry-package.openupm.com-ac63584b975fb22b",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "5994cedaeb55dae5650d1106732948dbe8a44d94",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.0.1.tgz",
+      "upstreamIntegrity": "sha512-zN7N+HewMCaoQnQfl+UMTfNNN9G4vSgcnkk7ZaHq4Bq4/grclmeEi2wzTKbdCJFZ/D5HzLPZ4GrB2VJ0+9wM5Q==",
+      "upstreamShasum": "f1e2aa0c59951f3a1bf48420cc1d1d2181e5015c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.0.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zN7N+HewMCaoQnQfl+UMTfNNN9G4vSgcnkk7ZaHq4Bq4/grclmeEi2wzTKbdCJFZ/D5HzLPZ4GrB2VJ0+9wM5Q==",
+          "shasum": "f1e2aa0c59951f3a1bf48420cc1d1d2181e5015c"
+        }
+      }
+    },
+    {
+      "version": "2.0.2",
+      "variantId": "registry-package.openupm.com-ca54a4e4b77e69df",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "542d1f58e1c68f093e413226dbdd5ce21ed8b2bd",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.0.2.tgz",
+      "upstreamIntegrity": "sha512-nuqTsPxY55BNhygi+CEUBYq3h9usK0YcRwpEPqyFMQthQjqrSOJzOPzLjWWfI72g1PeQf0VY0egjzxUIrXqOGA==",
+      "upstreamShasum": "311766308a19fea7a6428ce8b0b2c159b21e0381",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.0.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nuqTsPxY55BNhygi+CEUBYq3h9usK0YcRwpEPqyFMQthQjqrSOJzOPzLjWWfI72g1PeQf0VY0egjzxUIrXqOGA==",
+          "shasum": "311766308a19fea7a6428ce8b0b2c159b21e0381"
+        }
+      }
+    },
+    {
+      "version": "2.1.0",
+      "variantId": "registry-package.openupm.com-5cdbba97206fbb61",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "cbb369db21e0e18ef4ae3f7e9e83a5e54a035198",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.1.0.tgz",
+      "upstreamIntegrity": "sha512-iTMXvrCO8jwvoFZpbkqh/K7HQHSFzmhWq5i2gwHejCk3W7fz4jYnDQpFQQf/yHoh/sfXoXw/JBK/3wC5us4/Ow==",
+      "upstreamShasum": "0c500d41affd33fd9463f4886f7a5ace55872b87",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.1.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iTMXvrCO8jwvoFZpbkqh/K7HQHSFzmhWq5i2gwHejCk3W7fz4jYnDQpFQQf/yHoh/sfXoXw/JBK/3wC5us4/Ow==",
+          "shasum": "0c500d41affd33fd9463f4886f7a5ace55872b87"
+        }
+      }
+    },
+    {
+      "version": "2.2.0",
+      "variantId": "registry-package.openupm.com-fa72b53d16a90b12",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "3886c2232158b8d8b7fba57b32d540ec83a4b846",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.2.0.tgz",
+      "upstreamIntegrity": "sha512-2xsOuJ1fdY1u7ta68EGypScEd78DLWwhKVVIYlsCdbtot8Uo2IeiemxemZPL+I6c4qxZn4JwyivnpEphMe9h1Q==",
+      "upstreamShasum": "ab6ccb273ed9c0f49bdbceff787ad272d50ee536",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.2.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2xsOuJ1fdY1u7ta68EGypScEd78DLWwhKVVIYlsCdbtot8Uo2IeiemxemZPL+I6c4qxZn4JwyivnpEphMe9h1Q==",
+          "shasum": "ab6ccb273ed9c0f49bdbceff787ad272d50ee536"
+        }
+      }
+    },
+    {
+      "version": "2.3.0",
+      "variantId": "registry-package.openupm.com-2e6931c3bafcc1e5",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "c26a87ee4e976e3a784f36a3d020d9e40ee8bed6",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.3.0.tgz",
+      "upstreamIntegrity": "sha512-0vGDjX7mO4dOZp6b/j3DfJSx+BALJ12HZSquLZx8Hg21yVq81u9Bfkle8T4cmfVfpspqXg5PJMXQ1M/XO9OQ2g==",
+      "upstreamShasum": "e33defac80d8dacfb4238d5af94f0462b6ba1514",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.3.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-0vGDjX7mO4dOZp6b/j3DfJSx+BALJ12HZSquLZx8Hg21yVq81u9Bfkle8T4cmfVfpspqXg5PJMXQ1M/XO9OQ2g==",
+          "shasum": "e33defac80d8dacfb4238d5af94f0462b6ba1514"
+        }
+      }
+    },
+    {
+      "version": "2.3.1",
+      "variantId": "registry-package.openupm.com-9325f37da6927a39",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "bbc01975c42f5a2a3c06aca5edb6693643f334bb",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.3.1.tgz",
+      "upstreamIntegrity": "sha512-oqnJfJWNhZFF7jtEuMZOxjWe8se/lKYyVpz2PDAuRJhJbeX2POX4EeBRlhlnDSniVa2OpslvZDQWLsGbp6g2vg==",
+      "upstreamShasum": "a4a6ae24fae47f93a3e9f6dab5a192f1b970d70c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.3.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oqnJfJWNhZFF7jtEuMZOxjWe8se/lKYyVpz2PDAuRJhJbeX2POX4EeBRlhlnDSniVa2OpslvZDQWLsGbp6g2vg==",
+          "shasum": "a4a6ae24fae47f93a3e9f6dab5a192f1b970d70c"
+        }
+      }
+    },
+    {
+      "version": "2.4.0",
+      "variantId": "registry-package.openupm.com-fa0854e868a8884f",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "641d0f8ff535a1e9c5ed660a048fd1de80e944d4",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.4.0.tgz",
+      "upstreamIntegrity": "sha512-+aC1ggk975Eafcv7NAMR85TZfIu5rGOro1ZR1N8iBuOGnVNwAGF1dWFhFypEPdblXoWJyL8SXlp0rZmT+Otlxw==",
+      "upstreamShasum": "6e08effd9c257da68c46a50ac281bb4f76d0e140",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.4.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+aC1ggk975Eafcv7NAMR85TZfIu5rGOro1ZR1N8iBuOGnVNwAGF1dWFhFypEPdblXoWJyL8SXlp0rZmT+Otlxw==",
+          "shasum": "6e08effd9c257da68c46a50ac281bb4f76d0e140"
+        }
+      }
+    },
+    {
+      "version": "2.4.1",
+      "variantId": "registry-package.openupm.com-d6639ab5037f03d5",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "b373ebbf67a41eb54ec283b4945785b29d2f7bca",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.4.1.tgz",
+      "upstreamIntegrity": "sha512-jgbPWdMdJpqO2GMYyo0agwgA9+Vh+V4fv6jzwLR0gYBgX815CPKn3N4yHxy/ZNd042BsCVKFONOuc7QS7c15qQ==",
+      "upstreamShasum": "4719446e0103d28d3e64a72b3f56908c00da56e1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.4.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jgbPWdMdJpqO2GMYyo0agwgA9+Vh+V4fv6jzwLR0gYBgX815CPKn3N4yHxy/ZNd042BsCVKFONOuc7QS7c15qQ==",
+          "shasum": "4719446e0103d28d3e64a72b3f56908c00da56e1"
+        }
+      }
+    },
+    {
+      "version": "2.5.0",
+      "variantId": "registry-package.openupm.com-871af85edc784e48",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "488fc2682f33a706f23d5d9f2a8f34206c5a6629",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.5.0.tgz",
+      "upstreamIntegrity": "sha512-hNX6D/vU6d1OdZ4KkAWLcZCrmRQShK7v/BQJcp5G3x1CevP1CE7FdILuMDdHUuY79O7ILYNipslok3F1AiLrDA==",
+      "upstreamShasum": "e44438dbc3161e9345586a2b6bfa3d70990a7f54",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.5.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hNX6D/vU6d1OdZ4KkAWLcZCrmRQShK7v/BQJcp5G3x1CevP1CE7FdILuMDdHUuY79O7ILYNipslok3F1AiLrDA==",
+          "shasum": "e44438dbc3161e9345586a2b6bfa3d70990a7f54"
+        }
+      }
+    },
+    {
+      "version": "2.5.1",
+      "variantId": "registry-package.openupm.com-de1606a7d8c070f2",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "439f28d7a5b1f6b05c58b0245a0eb03474cb0bbd",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.5.1.tgz",
+      "upstreamIntegrity": "sha512-OmQs8aZYoXOhPJSFKh0rkdwhsCltbjYUepU34TDlhsDeRgEzHtMdvHegWQ73xAhURVQSZVacHXm7dZmX+CgWJw==",
+      "upstreamShasum": "1ac3b44c0e01b2d8bc20523d0296d4e4f53fc0ce",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.5.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OmQs8aZYoXOhPJSFKh0rkdwhsCltbjYUepU34TDlhsDeRgEzHtMdvHegWQ73xAhURVQSZVacHXm7dZmX+CgWJw==",
+          "shasum": "1ac3b44c0e01b2d8bc20523d0296d4e4f53fc0ce"
+        }
+      }
+    },
+    {
+      "version": "2.5.2",
+      "variantId": "registry-package.openupm.com-bc44a69be4baedfe",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "904ae90da3f1631d6ba9f66887b81f245cb2ef17",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.5.2.tgz",
+      "upstreamIntegrity": "sha512-l30IIxAKLYWK2z+avrH6L/F7xK1laOs5lAPuQXXhZry9jN/HXPcwiuCZT0s1h/p4XR2Ivmm23izZUeUB2ZxBTg==",
+      "upstreamShasum": "e7071dc03db831e4c0d33c4f00b7c18f07b320ee",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.5.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-l30IIxAKLYWK2z+avrH6L/F7xK1laOs5lAPuQXXhZry9jN/HXPcwiuCZT0s1h/p4XR2Ivmm23izZUeUB2ZxBTg==",
+          "shasum": "e7071dc03db831e4c0d33c4f00b7c18f07b320ee"
+        }
+      }
+    },
+    {
+      "version": "2.5.3",
+      "variantId": "registry-package.openupm.com-7e48bc61a6dacbb8",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "7d180972f079a8600ca5b6d3bdbff31e8cc1aaf1",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.5.3.tgz",
+      "upstreamIntegrity": "sha512-PeLKMGhgpMWA5Le9oQmIeSbptOKCXK1IDbBbjMuulfpH5IHaAPuKX3oB30N7qP6Wq+slmOx8rotcqat4xALpeA==",
+      "upstreamShasum": "198daae49a21dd6c7fad7643636a09980d7f5dd2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.5.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PeLKMGhgpMWA5Le9oQmIeSbptOKCXK1IDbBbjMuulfpH5IHaAPuKX3oB30N7qP6Wq+slmOx8rotcqat4xALpeA==",
+          "shasum": "198daae49a21dd6c7fad7643636a09980d7f5dd2"
+        }
+      }
+    },
+    {
+      "version": "2.5.4",
+      "variantId": "registry-package.openupm.com-b50343b05aa165f9",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "1c314550aa0a2e85b6dede86066a42f0b18be1c9",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.5.4.tgz",
+      "upstreamIntegrity": "sha512-uH0lzp/1Av0w71CASuLzwf83Z9OyAc+pbnyCS0nmTl5i8zcJZReW3eYurorJT3MOfOhFWNH8aXfIX+YAHFwCTg==",
+      "upstreamShasum": "44d7910327ce42cd6e5fe55b00e00d4219ca0a64",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.5.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uH0lzp/1Av0w71CASuLzwf83Z9OyAc+pbnyCS0nmTl5i8zcJZReW3eYurorJT3MOfOhFWNH8aXfIX+YAHFwCTg==",
+          "shasum": "44d7910327ce42cd6e5fe55b00e00d4219ca0a64"
+        }
+      }
+    },
+    {
+      "version": "2.5.5",
+      "variantId": "registry-package.openupm.com-5c9c085c44ff5485",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "a717f5799075853617de17d78c5a7671b8f69b18",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.5.5.tgz",
+      "upstreamIntegrity": "sha512-avO+H02cNZORV50hRsHG26c0AEj5j3DvuN9OoiaTvwHBi7VW5xuOOVw0cR7X5ZmWwHSQxVkZ5N6G/g308M6Hrw==",
+      "upstreamShasum": "161692b644f743318fa24a77fb44da8ff0adb392",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.5.5",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-avO+H02cNZORV50hRsHG26c0AEj5j3DvuN9OoiaTvwHBi7VW5xuOOVw0cR7X5ZmWwHSQxVkZ5N6G/g308M6Hrw==",
+          "shasum": "161692b644f743318fa24a77fb44da8ff0adb392"
+        }
+      }
+    },
+    {
+      "version": "2.5.6",
+      "variantId": "registry-package.openupm.com-bc4c09751d405328",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "c9abcea0e61e228aaf08b07b07dbe3a35718f098",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.5.6.tgz",
+      "upstreamIntegrity": "sha512-iIMKsXUAuLH1q1nPOZQafdslI/z7de3ZMHtHhY/0gpkM2HU3bkJv/Cr/Pkmx69lJs8y0QZ9i3xFM3zwl6+irRQ==",
+      "upstreamShasum": "742593a455406e5b03f639bba8c455ada5f70435",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.5.6",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iIMKsXUAuLH1q1nPOZQafdslI/z7de3ZMHtHhY/0gpkM2HU3bkJv/Cr/Pkmx69lJs8y0QZ9i3xFM3zwl6+irRQ==",
+          "shasum": "742593a455406e5b03f639bba8c455ada5f70435"
+        }
+      }
+    },
+    {
+      "version": "2.5.7",
+      "variantId": "registry-package.openupm.com-a57151fe2e409993",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "12ed29dece1d0bdc6d664cc1a3a1b4f06515e794",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.5.7.tgz",
+      "upstreamIntegrity": "sha512-YWPBClXb++RAsyfgGBtxJoOMHieWOwWP8fWvxY9nbTxYEp9bH2iqbpm3zc5VND9JJNYRcXpBSOJ67qFGhVP5ow==",
+      "upstreamShasum": "a791d61de112bc08b3ad54749104512ec959ce6e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.5.7",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YWPBClXb++RAsyfgGBtxJoOMHieWOwWP8fWvxY9nbTxYEp9bH2iqbpm3zc5VND9JJNYRcXpBSOJ67qFGhVP5ow==",
+          "shasum": "a791d61de112bc08b3ad54749104512ec959ce6e"
+        }
+      }
+    },
+    {
+      "version": "2.5.8",
+      "variantId": "registry-package.openupm.com-4e73aee62684986b",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "6ffafcc630ebed3e187136c24a73d545b1bd55b3",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.5.8.tgz",
+      "upstreamIntegrity": "sha512-7jQJyi4WslSs1LVqXYeljVWTNDBigpAlM+8pIZKFfs7JSjN71VeD0P98vzsXQvCFmNA1Z249Bma3ZSwIbcOBJA==",
+      "upstreamShasum": "8568b2f2bb916f8b179f118f084cf4fed6d17c85",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.5.8",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7jQJyi4WslSs1LVqXYeljVWTNDBigpAlM+8pIZKFfs7JSjN71VeD0P98vzsXQvCFmNA1Z249Bma3ZSwIbcOBJA==",
+          "shasum": "8568b2f2bb916f8b179f118f084cf4fed6d17c85"
+        }
+      }
+    },
+    {
+      "version": "2.5.9",
+      "variantId": "registry-package.openupm.com-ae62926f03890b9e",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "0b80aeb9d06e2b021469babbc932ccbe8df5507c",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.5.9.tgz",
+      "upstreamIntegrity": "sha512-qkRqdZIl4lRplxdbGNuh0XISMb5427w8sh6E757/0+Sa03RrWeuZLk928ZM9q6mkBX3/Fxh3CYR/n7Q8tDzGhw==",
+      "upstreamShasum": "3e982ead96ecb67a8f70da1c15d6fdbaef012298",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.5.9",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qkRqdZIl4lRplxdbGNuh0XISMb5427w8sh6E757/0+Sa03RrWeuZLk928ZM9q6mkBX3/Fxh3CYR/n7Q8tDzGhw==",
+          "shasum": "3e982ead96ecb67a8f70da1c15d6fdbaef012298"
+        }
+      }
+    },
+    {
+      "version": "2.5.10",
+      "variantId": "registry-package.openupm.com-8a96cea98f6b836d",
+      "sourceUrl": "https://package.openupm.com/com.cysharp.zlogger",
+      "sourceRef": "e03df464106e2ca192eefe43c6a2785a587aa862",
+      "downloadUrl": "https://package.openupm.com/com.cysharp.zlogger/-/com.cysharp.zlogger-2.5.10.tgz",
+      "upstreamIntegrity": "sha512-+36EBUrK6y5XemMH6YlVZcB3lVLyRJhI5BXwsLyT0/wCDt14caWoGt7wU8iqKgtuH7RTcU7x3i4UVi4HNWWGLA==",
+      "upstreamShasum": "3f96813acaea0ffd11cdbe2d32978b280cf17ac1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.cysharp.zlogger/2.5.10",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+36EBUrK6y5XemMH6YlVZcB3lVLyRJhI5BXwsLyT0/wCDt14caWoGt7wU8iqKgtuH7RTcU7x3i4UVi4HNWWGLA==",
+          "shasum": "3f96813acaea0ffd11cdbe2d32978b280cf17ac1"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.5.10"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.cysharp.zlogger.yml",
+  "definitionBlobSha": "7e812dd0e2d96474a51ae1d99ef45200c9a963d5",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "2.5.10",
+    "2.5.9",
+    "1.7.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 29,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

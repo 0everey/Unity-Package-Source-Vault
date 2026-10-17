@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.opuscope.bridge",
+  "displayName": "com.opuscope.bridge",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.opuscope.bridge",
+      "fetchedAt": "2026-10-17T17:40:46.340815Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-8e823f3af0910be1",
+      "sourceUrl": "https://package.openupm.com/com.opuscope.bridge",
+      "sourceRef": "28460804293087b241ce8277e22e694a3fb38f5e",
+      "downloadUrl": "https://package.openupm.com/com.opuscope.bridge/-/com.opuscope.bridge-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-SuLOUpb1gs+GxOu2aERmxupy2UzuCc3sQvdkrBCpMiWtZaBYs42BCVuJxLD0UvW1NUe/6u4vYUS0GHSEiwcNEw==",
+      "upstreamShasum": "6573e355fefceafe050a1e031b28360572eaf839",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.3.3",
+        "com.neuecc.unirx": "7.1.0",
+        "com.unity.nuget.newtonsoft-json": "3.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.opuscope.bridge/1.0.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SuLOUpb1gs+GxOu2aERmxupy2UzuCc3sQvdkrBCpMiWtZaBYs42BCVuJxLD0UvW1NUe/6u4vYUS0GHSEiwcNEw==",
+          "shasum": "6573e355fefceafe050a1e031b28360572eaf839"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.opuscope.bridge.yml",
+  "definitionBlobSha": "ea8fca4470bdb190771031a8476adf37f779cba4",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

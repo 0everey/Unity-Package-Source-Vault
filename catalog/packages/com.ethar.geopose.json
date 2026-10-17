@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.ethar.geopose",
+  "displayName": "com.ethar.geopose",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.ethar.geopose",
+      "fetchedAt": "2026-10-17T17:37:42.727841Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-2d936934b369bdb1",
+      "sourceUrl": "ssh://git@github.com/EtharInc/Ethar.GeoPose.git#upm",
+      "sourceRef": "ba2e1bb865b6c5649b41ad0cf5362c5d73f9bcc7",
+      "downloadUrl": "https://package.openupm.com/com.ethar.geopose/-/com.ethar.geopose-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-cHbtHpV6ZO1LlPOp33Y8FGFkPrs6kdcP0hpsh/7SX0NcG01Kwx1tJjCkwBRJRRSuo+XpWXdca/CJ6kmULtDJnA==",
+      "upstreamShasum": "6fdfe5d38d3aa8e2b28d11a5d1ae5c94eb5398f6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "APACHE2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.ethar.geopose/1.0.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cHbtHpV6ZO1LlPOp33Y8FGFkPrs6kdcP0hpsh/7SX0NcG01Kwx1tJjCkwBRJRRSuo+XpWXdca/CJ6kmULtDJnA==",
+          "shasum": "6fdfe5d38d3aa8e2b28d11a5d1ae5c94eb5398f6"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.ethar.geopose.yml",
+  "definitionBlobSha": "48f6696b8993765a7c8e299ff79622ce20650399",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

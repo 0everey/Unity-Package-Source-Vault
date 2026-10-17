@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.gilzoide.key-value-storage.icloud-kvs",
+  "displayName": "com.gilzoide.key-value-storage.icloud-kvs",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.key-value-storage.icloud-kvs",
+      "fetchedAt": "2026-10-17T17:38:21.691907Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0-preview1",
+      "variantId": "registry-package.openupm.com-1da000c3651059f1",
+      "sourceUrl": "https://package.openupm.com/com.gilzoide.key-value-storage.icloud-kvs",
+      "sourceRef": "f973d516feb27158ee440b33019f53a10ab34f46",
+      "downloadUrl": "https://package.openupm.com/com.gilzoide.key-value-storage.icloud-kvs/-/com.gilzoide.key-value-storage.icloud-kvs-1.0.0-preview1.tgz",
+      "upstreamIntegrity": "sha512-rzx6GeZ/9Ffdc6Bsa/ZLxbxqSikP8X5ikMc7iYtBYkyBCdZ74lab3trqm5lrxxEWZ/UW89p+z2qllLswCn9QWw==",
+      "upstreamShasum": "9679734b91176421a5ea5956a01957d113fa6e55",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Unlicense",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.gilzoide.key-value-store": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.gilzoide.key-value-storage.icloud-kvs/1.0.0-preview1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rzx6GeZ/9Ffdc6Bsa/ZLxbxqSikP8X5ikMc7iYtBYkyBCdZ74lab3trqm5lrxxEWZ/UW89p+z2qllLswCn9QWw==",
+          "shasum": "9679734b91176421a5ea5956a01957d113fa6e55"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.0-preview1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.gilzoide.key-value-storage.icloud-kvs.yml",
+  "definitionBlobSha": "9e985923ee40a8ba41cb6b49ede507c850275dcf",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.0-preview1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

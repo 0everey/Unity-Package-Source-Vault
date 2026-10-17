@@ -1,0 +1,641 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.underlogic.toml-serialization",
+  "displayName": "com.underlogic.toml-serialization",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "fetchedAt": "2026-10-17T17:42:39.105415Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "variantId": "registry-package.openupm.com-28d56ffb025ba650",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "0f4b39d0ae3b4a3650ff72c1b02bdc43aa76cc2a",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.1.0.tgz",
+      "upstreamIntegrity": "sha512-ftrTF/Zz/pfK5/Rh4Cv/S51907NP6FscOAAJBGDTKIJjowWXzfCYB79xVZswkIdW3gHdsVzR1Loqr1wPlLZmQw==",
+      "upstreamShasum": "768e7f55cafde117975a5e62ac29ffb64bf018df",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.1.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ftrTF/Zz/pfK5/Rh4Cv/S51907NP6FscOAAJBGDTKIJjowWXzfCYB79xVZswkIdW3gHdsVzR1Loqr1wPlLZmQw==",
+          "shasum": "768e7f55cafde117975a5e62ac29ffb64bf018df"
+        }
+      }
+    },
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-c36b1f761d84b61b",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "d54af2ffb5036e5a99157e69f0b6e2a7a477e11f",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-hcrU1STUcO7aP3Je/EVv/A+7VnaxcNlb1g1kCEiVnhEb1pYKIn6M31QODkEmPH2USCjXQ/UFGPqiAHReK268oQ==",
+      "upstreamShasum": "735eb3bfd862aaca231975bf91678f33bc62bdfa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.2.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hcrU1STUcO7aP3Je/EVv/A+7VnaxcNlb1g1kCEiVnhEb1pYKIn6M31QODkEmPH2USCjXQ/UFGPqiAHReK268oQ==",
+          "shasum": "735eb3bfd862aaca231975bf91678f33bc62bdfa"
+        }
+      }
+    },
+    {
+      "version": "0.3.0",
+      "variantId": "registry-package.openupm.com-44f5798ea5acf0c1",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "ca4c7f7fc7db7df1613c359ac017c7abf6095796",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.3.0.tgz",
+      "upstreamIntegrity": "sha512-3icwlD3fdT9NyWtM4tbkjUrhrhho+/Obvtvdvj0X3H4CBcHSmG7iHQ056IO3PU2aUBNggxEicsUOk1DSIzMb2g==",
+      "upstreamShasum": "54eb22a31468fe6e04e538bcc44ecdbc5e9fbc39",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.3.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3icwlD3fdT9NyWtM4tbkjUrhrhho+/Obvtvdvj0X3H4CBcHSmG7iHQ056IO3PU2aUBNggxEicsUOk1DSIzMb2g==",
+          "shasum": "54eb22a31468fe6e04e538bcc44ecdbc5e9fbc39"
+        }
+      }
+    },
+    {
+      "version": "0.3.1",
+      "variantId": "registry-package.openupm.com-07ea60b75c4e908d",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "62ff9baf063ce1d31aa16f5813648b6f020c5cc5",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.3.1.tgz",
+      "upstreamIntegrity": "sha512-+R4RpJhlKr9BNTY9YYlhPHhBUoI6JCGcUaTyViQFPqvsYXlO1o4ihuA4zdzlmTiSqvLLeXMXGjWGDoWfLjtODQ==",
+      "upstreamShasum": "850898f8321978d57da70be009756c63f7a19a42",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.3.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+R4RpJhlKr9BNTY9YYlhPHhBUoI6JCGcUaTyViQFPqvsYXlO1o4ihuA4zdzlmTiSqvLLeXMXGjWGDoWfLjtODQ==",
+          "shasum": "850898f8321978d57da70be009756c63f7a19a42"
+        }
+      }
+    },
+    {
+      "version": "0.3.2",
+      "variantId": "registry-package.openupm.com-6889cd213f017d11",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "7133df2ecf4b299ab6db210da78ff1b3c103304c",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.3.2.tgz",
+      "upstreamIntegrity": "sha512-KS3d1Vfxn790lln9DzhMU9akCHRboKwrApgTZW99vUpssXe4EMdxJdJdwy95QuAWUd/V/FCGsM6y5LqD8XBIVw==",
+      "upstreamShasum": "81730492c85592d9024f598384e1ba700343dd5f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.3.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KS3d1Vfxn790lln9DzhMU9akCHRboKwrApgTZW99vUpssXe4EMdxJdJdwy95QuAWUd/V/FCGsM6y5LqD8XBIVw==",
+          "shasum": "81730492c85592d9024f598384e1ba700343dd5f"
+        }
+      }
+    },
+    {
+      "version": "0.3.3",
+      "variantId": "registry-package.openupm.com-861a9833a8819b0a",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "d6d0db1306e5dca0e55c9b8a94cf83daf485a66b",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.3.3.tgz",
+      "upstreamIntegrity": "sha512-tETYySmQxwVarMl1V37Lapj0oYjUbis35sx2XGEZeeumxvUNpDcUrZNXVuwqmQnM+TFjE/ghLqJb4TxjKJiW7A==",
+      "upstreamShasum": "c4d0b446f65bfda8c96894362944dbb2384c8bbc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.3.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tETYySmQxwVarMl1V37Lapj0oYjUbis35sx2XGEZeeumxvUNpDcUrZNXVuwqmQnM+TFjE/ghLqJb4TxjKJiW7A==",
+          "shasum": "c4d0b446f65bfda8c96894362944dbb2384c8bbc"
+        }
+      }
+    },
+    {
+      "version": "0.3.4",
+      "variantId": "registry-package.openupm.com-986eb9756e3d4596",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "d2e07e320bb790549b4d955b3a06a242dfa30044",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.3.4.tgz",
+      "upstreamIntegrity": "sha512-Y9IgKWm49nb69/c/WrRID3RlDl6NW9oeimEjUfVOjaLc/w6Xxpxt4uQxc51Dmy0+NwrONaA2wJ+n9AFUg9GYeQ==",
+      "upstreamShasum": "c50dd023d92d0f68bc361d4cabb966e8114ef11a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.3.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Y9IgKWm49nb69/c/WrRID3RlDl6NW9oeimEjUfVOjaLc/w6Xxpxt4uQxc51Dmy0+NwrONaA2wJ+n9AFUg9GYeQ==",
+          "shasum": "c50dd023d92d0f68bc361d4cabb966e8114ef11a"
+        }
+      }
+    },
+    {
+      "version": "0.3.5",
+      "variantId": "registry-package.openupm.com-339fae13118b1bf8",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "0ee19d89a801c7c51356cc62889b2dea663e5950",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.3.5.tgz",
+      "upstreamIntegrity": "sha512-4Rmj0rR8lCcvnUbLDsYQoH9wg3ewhXrciMk5ylgI9CucINSqsM9Iw6eMYzgNfT3Flj6StiYEa20h+Nj/E4bvpA==",
+      "upstreamShasum": "b328483a8b3014cc9ef3c64d4daba771f1614fe2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.3.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4Rmj0rR8lCcvnUbLDsYQoH9wg3ewhXrciMk5ylgI9CucINSqsM9Iw6eMYzgNfT3Flj6StiYEa20h+Nj/E4bvpA==",
+          "shasum": "b328483a8b3014cc9ef3c64d4daba771f1614fe2"
+        }
+      }
+    },
+    {
+      "version": "0.4.0",
+      "variantId": "registry-package.openupm.com-a4eb13bc7fa43f60",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "941f189b3e1beb582f0be4c89100b70c3d7c58de",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.4.0.tgz",
+      "upstreamIntegrity": "sha512-4/xljQYpAFb1PjbCUj77wPQ8pGd62Chm0sja4DUWZnfIHpWuncXzb3VIIgU9F4x6/+aSAOml2SRbBSgVCwrU/Q==",
+      "upstreamShasum": "63a691e8757a0fa851f7efe34451a62feec0a260",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.4.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4/xljQYpAFb1PjbCUj77wPQ8pGd62Chm0sja4DUWZnfIHpWuncXzb3VIIgU9F4x6/+aSAOml2SRbBSgVCwrU/Q==",
+          "shasum": "63a691e8757a0fa851f7efe34451a62feec0a260"
+        }
+      }
+    },
+    {
+      "version": "0.4.1",
+      "variantId": "registry-package.openupm.com-0149c47917d2a0a1",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "09d55df2d86a8f8de41be69551490ae176386865",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.4.1.tgz",
+      "upstreamIntegrity": "sha512-eO81caLUbCqVCpEFtUly0dJrtLxmac1JgUx1RYm46Pl4HNH97LnIZ7gCzHLBKKKLZ9g4K2/X3E/h4wdRCDWu+w==",
+      "upstreamShasum": "178b582c9b5dad6b8ffae3da0b3bda6a043981ff",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.4.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eO81caLUbCqVCpEFtUly0dJrtLxmac1JgUx1RYm46Pl4HNH97LnIZ7gCzHLBKKKLZ9g4K2/X3E/h4wdRCDWu+w==",
+          "shasum": "178b582c9b5dad6b8ffae3da0b3bda6a043981ff"
+        }
+      }
+    },
+    {
+      "version": "0.4.2",
+      "variantId": "registry-package.openupm.com-456b6d3f4b023ce4",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "3a68196648a13ec3251a67b1435d0aefb738b3f0",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.4.2.tgz",
+      "upstreamIntegrity": "sha512-6pU0sQ+qyG9vT/tvSUfnjUolKa5UPo7PDDAYlVE9CvCzzuASd4/b7tgo1omkBWcey81KNVKMZ17GK1oKCtHM8w==",
+      "upstreamShasum": "c8606753d00d4ea1ae6beb73c245908d2b185112",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.4.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6pU0sQ+qyG9vT/tvSUfnjUolKa5UPo7PDDAYlVE9CvCzzuASd4/b7tgo1omkBWcey81KNVKMZ17GK1oKCtHM8w==",
+          "shasum": "c8606753d00d4ea1ae6beb73c245908d2b185112"
+        }
+      }
+    },
+    {
+      "version": "0.4.3",
+      "variantId": "registry-package.openupm.com-3dd542dbb9658e3b",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "11e50321712a96fb53c77254d7c6ae39956ac47a",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.4.3.tgz",
+      "upstreamIntegrity": "sha512-xUlFke/1hQRVCxHOpE+GptaQyCS8+df7hJyXb06XQtRqkWVQhh/SZ/KjeIDGWXU9a5BW+OBqFlVZ6UVRtZZcGg==",
+      "upstreamShasum": "7718b7e858fc991e3a17abcc78ad8361e139b6f7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.4.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xUlFke/1hQRVCxHOpE+GptaQyCS8+df7hJyXb06XQtRqkWVQhh/SZ/KjeIDGWXU9a5BW+OBqFlVZ6UVRtZZcGg==",
+          "shasum": "7718b7e858fc991e3a17abcc78ad8361e139b6f7"
+        }
+      }
+    },
+    {
+      "version": "0.4.4",
+      "variantId": "registry-package.openupm.com-12cd52ce1f5b7f5c",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "1cf2bca7454ef78b7dfb3efb0809bef8bcce0515",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.4.4.tgz",
+      "upstreamIntegrity": "sha512-VqUyCPlsruggg69JRTUbFc90DrtuNyfsBSFXp1zxGBB858Y8qBGTtohgfuSZBODAQFSO0WG/zlzgKHb3bAZYSw==",
+      "upstreamShasum": "840eacb2b0a518581969d52478148525e8bffe07",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.4.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VqUyCPlsruggg69JRTUbFc90DrtuNyfsBSFXp1zxGBB858Y8qBGTtohgfuSZBODAQFSO0WG/zlzgKHb3bAZYSw==",
+          "shasum": "840eacb2b0a518581969d52478148525e8bffe07"
+        }
+      }
+    },
+    {
+      "version": "0.4.5",
+      "variantId": "registry-package.openupm.com-9cb67e6d18e3898f",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "436408281f1ac1d374536dabeaba8f2882331718",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.4.5.tgz",
+      "upstreamIntegrity": "sha512-3/6D++9f+wwkAA9pRpcmIQQG+nS2F+IOkLcdd8BVxAqdOXD2s88NdQUn2UwLiB/igP1M6N0tLiV54Io/o2OffQ==",
+      "upstreamShasum": "168e8049e263ace88ce1d133086207100bc06d9e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.4.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3/6D++9f+wwkAA9pRpcmIQQG+nS2F+IOkLcdd8BVxAqdOXD2s88NdQUn2UwLiB/igP1M6N0tLiV54Io/o2OffQ==",
+          "shasum": "168e8049e263ace88ce1d133086207100bc06d9e"
+        }
+      }
+    },
+    {
+      "version": "0.4.6",
+      "variantId": "registry-package.openupm.com-de4d72e04baffebd",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "bc38fb88f38c018717119c497e3beba74398419a",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.4.6.tgz",
+      "upstreamIntegrity": "sha512-YRSJ3eh0Oj5XBqRi6gHsFPPeycMnjL8xlz6H/zxpUsBa+lo1yC7VJSONWES1hkqLexBCEfQmUUuBtE6A6QhZJQ==",
+      "upstreamShasum": "83e420870dc850783a4403a51a8a65a2d2507e1e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.4.6",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YRSJ3eh0Oj5XBqRi6gHsFPPeycMnjL8xlz6H/zxpUsBa+lo1yC7VJSONWES1hkqLexBCEfQmUUuBtE6A6QhZJQ==",
+          "shasum": "83e420870dc850783a4403a51a8a65a2d2507e1e"
+        }
+      }
+    },
+    {
+      "version": "0.4.7",
+      "variantId": "registry-package.openupm.com-4f4375db347293ae",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "c346481616e83c91b6b0218e788ccd98ae6f2615",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.4.7.tgz",
+      "upstreamIntegrity": "sha512-Ctdqb7s8Zh602bIQn/qaU9hKjRDsSMh5Z4/N1pcxqHMnQsdsMzPScOMtJkWlWXFksO5O1Y693I645mDccTAOsg==",
+      "upstreamShasum": "aec3e6573e1e4c39424d48a30b6f46b9f2aaa4bb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.4.7",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ctdqb7s8Zh602bIQn/qaU9hKjRDsSMh5Z4/N1pcxqHMnQsdsMzPScOMtJkWlWXFksO5O1Y693I645mDccTAOsg==",
+          "shasum": "aec3e6573e1e4c39424d48a30b6f46b9f2aaa4bb"
+        }
+      }
+    },
+    {
+      "version": "0.4.8",
+      "variantId": "registry-package.openupm.com-a22c2ce848631d88",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "7f2fb30b5ba2c29d2cc9fbef423fa4cee1e8879a",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.4.8.tgz",
+      "upstreamIntegrity": "sha512-0MF1C2Jvjk5jLMwAGhAe+EVKDjkH82XbCuUj/MAdn4LOT4+X8sXMOntGToQL7n/IhS2FCdiqpfCfv94at4ToiQ==",
+      "upstreamShasum": "ab715b383263c02c0f096ab7a427f87de90c2f4f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.4.8",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-0MF1C2Jvjk5jLMwAGhAe+EVKDjkH82XbCuUj/MAdn4LOT4+X8sXMOntGToQL7n/IhS2FCdiqpfCfv94at4ToiQ==",
+          "shasum": "ab715b383263c02c0f096ab7a427f87de90c2f4f"
+        }
+      }
+    },
+    {
+      "version": "0.4.9",
+      "variantId": "registry-package.openupm.com-adfd45e94b03cae6",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "61c64cf802b9d99a4e8dbf3a14b656ddf99a5567",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.4.9.tgz",
+      "upstreamIntegrity": "sha512-h7pB9j0+PBg+v6P+xedBNE5NeIHZ04yiwMFsm0C/MPNxNy5Wc4O+coC73+kalhrXAz3y/fXf3lbEPNjT4+ut9g==",
+      "upstreamShasum": "2beedb5bdb4c664df8f322967ab35dcd6c67239b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.4.9",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-h7pB9j0+PBg+v6P+xedBNE5NeIHZ04yiwMFsm0C/MPNxNy5Wc4O+coC73+kalhrXAz3y/fXf3lbEPNjT4+ut9g==",
+          "shasum": "2beedb5bdb4c664df8f322967ab35dcd6c67239b"
+        }
+      }
+    },
+    {
+      "version": "0.4.10",
+      "variantId": "registry-package.openupm.com-ebde11bc4503afcb",
+      "sourceUrl": "https://package.openupm.com/com.underlogic.toml-serialization",
+      "sourceRef": "8a26fd9a3a3e292759bff68e84455e7031c9fb9a",
+      "downloadUrl": "https://package.openupm.com/com.underlogic.toml-serialization/-/com.underlogic.toml-serialization-0.4.10.tgz",
+      "upstreamIntegrity": "sha512-HwkDgv59pgf4AkqTVnByCfVn88DrI79cI2QgbeK6uV4Pp2eSijAp315sFAaMoXvAJsrkovtDbfgZbbP/9G/hEw==",
+      "upstreamShasum": "514c36fb185948eab05fc54a7b23e5c5442c53fb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.underlogic.toml-serialization/0.4.10",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HwkDgv59pgf4AkqTVnByCfVn88DrI79cI2QgbeK6uV4Pp2eSijAp315sFAaMoXvAJsrkovtDbfgZbbP/9G/hEw==",
+          "shasum": "514c36fb185948eab05fc54a7b23e5c5442c53fb"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.4.10"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.underlogic.toml-serialization.yml",
+  "definitionBlobSha": "4a6f5ab6d825a08bab5b575a821efc61218076f8",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.4.10",
+    "0.4.9",
+    "0.4.8"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 19,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

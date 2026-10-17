@@ -1,0 +1,2178 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.realitycollective.service-framework",
+  "displayName": "com.realitycollective.service-framework",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework",
+      "fetchedAt": "2026-10-17T17:41:18.567705Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-da6affe2185975f3",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "bfe002588edcb3f2d0e82d2348c4912dcc5f298b",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-uKgKpiBQVom0QDmJ1RxawycKu2h4RMfLJMnP37jxfS1tiiDrlDVXj0keCuGcU3NAiZQzRJNQ8Sj/iNMwVZ+hSg==",
+      "upstreamShasum": "e3baaa3a763822aa29ee8c81b214c391e5c46ff8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.0-preview.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uKgKpiBQVom0QDmJ1RxawycKu2h4RMfLJMnP37jxfS1tiiDrlDVXj0keCuGcU3NAiZQzRJNQ8Sj/iNMwVZ+hSg==",
+          "shasum": "e3baaa3a763822aa29ee8c81b214c391e5c46ff8"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-ad0560b11b214d2e",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "f4a2fe1308ddd3a632b09efbffd5765847e1d94c",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-TdINxyfKSKmFmP29Dphn0xOsanialgy39PMSKJMJBE6nmrxjP8A14VHJYB0S/bndcicKfkvhymKM9Vdcj0LyGA==",
+      "upstreamShasum": "2fc1b57f5251df619c30f228f79cd74f761852dd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TdINxyfKSKmFmP29Dphn0xOsanialgy39PMSKJMJBE6nmrxjP8A14VHJYB0S/bndcicKfkvhymKM9Vdcj0LyGA==",
+          "shasum": "2fc1b57f5251df619c30f228f79cd74f761852dd"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.1",
+      "variantId": "registry-package.openupm.com-640c856393b3f8fb",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "b30ad045e7cf2c71c69426d96c8481210966d840",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.2-pre.1.tgz",
+      "upstreamIntegrity": "sha512-ckjWMTEpADXqBSJIHGYhqZ63VnCqOaa0GdGRqU+bVrFXP0NtfbmD1aliRO9PwAAi7fv6GImzuaSt039tt9FyCA==",
+      "upstreamShasum": "f1bd6dc203ab29d2418f18bf52c9ce9aa57dd16f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.2-pre.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ckjWMTEpADXqBSJIHGYhqZ63VnCqOaa0GdGRqU+bVrFXP0NtfbmD1aliRO9PwAAi7fv6GImzuaSt039tt9FyCA==",
+          "shasum": "f1bd6dc203ab29d2418f18bf52c9ce9aa57dd16f"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.2",
+      "variantId": "registry-package.openupm.com-7749bddbe4240bca",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "107af08aea08a98b8d28d371e20d107ed125ac02",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.2-pre.2.tgz",
+      "upstreamIntegrity": "sha512-hY3qnjtgZZFtIqaPO3PF/4ITmLa+bEu6c44qyiXH6LK8TKr1qGUuy/GQ3JK8RVAH2GK90nSPBVsSghjjVY5vTg==",
+      "upstreamShasum": "786fc3a977e312f28b8ccee16576f04fcac3e79d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.2-pre.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hY3qnjtgZZFtIqaPO3PF/4ITmLa+bEu6c44qyiXH6LK8TKr1qGUuy/GQ3JK8RVAH2GK90nSPBVsSghjjVY5vTg==",
+          "shasum": "786fc3a977e312f28b8ccee16576f04fcac3e79d"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.3",
+      "variantId": "registry-package.openupm.com-39f193816b6c7dfa",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "40ee84806df32f39699fc6ee9a1504f122d95184",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.2-pre.3.tgz",
+      "upstreamIntegrity": "sha512-2j/sptL6ngjg7UFJ6XU6rpCbI42S7S9DPQaqmWhV2Soy93SsvMAAOefra0VmLGAsiaYPdnk3fnddvUiq+EGRQw==",
+      "upstreamShasum": "bf537b54238870c44cfcc24752585298d1ebdb98",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.2-pre.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2j/sptL6ngjg7UFJ6XU6rpCbI42S7S9DPQaqmWhV2Soy93SsvMAAOefra0VmLGAsiaYPdnk3fnddvUiq+EGRQw==",
+          "shasum": "bf537b54238870c44cfcc24752585298d1ebdb98"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.4",
+      "variantId": "registry-package.openupm.com-4366083aa1fc4e49",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "343f46749c843f1a3a46e9d14410f16598032388",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.2-pre.4.tgz",
+      "upstreamIntegrity": "sha512-wjYbEv3AfVrufWHR3+MMfyJUOoUFauJ/WXREBYbPmoKPgoO69SlXbFIhqZFcDnm6sH0ONj1J2bB4SYxmHEGvTw==",
+      "upstreamShasum": "935d43c1fa8c2a14c4d7ba41f3342705481805b6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.2-pre.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wjYbEv3AfVrufWHR3+MMfyJUOoUFauJ/WXREBYbPmoKPgoO69SlXbFIhqZFcDnm6sH0ONj1J2bB4SYxmHEGvTw==",
+          "shasum": "935d43c1fa8c2a14c4d7ba41f3342705481805b6"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.5",
+      "variantId": "registry-package.openupm.com-4c08a820cf159761",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "fe4f322130551c27d3f6e33ee8bb4481310f177c",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.2-pre.5.tgz",
+      "upstreamIntegrity": "sha512-cD8jbRaAymzfOWA7suCwfWwCOtlyXX416esrJd1/6876DBfnnShK5GtM62v5EdUWjVDKtJ/NZlXdEVNXYxFFAw==",
+      "upstreamShasum": "dc480025b907069c6dc934e52f151a79f0bc3bbc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.2-pre.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cD8jbRaAymzfOWA7suCwfWwCOtlyXX416esrJd1/6876DBfnnShK5GtM62v5EdUWjVDKtJ/NZlXdEVNXYxFFAw==",
+          "shasum": "dc480025b907069c6dc934e52f151a79f0bc3bbc"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.6",
+      "variantId": "registry-package.openupm.com-25d04e7272d66c9d",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "3e220354dc2bd7931d8f444df6ae6495b9a91d98",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.2-pre.6.tgz",
+      "upstreamIntegrity": "sha512-x49HIb89WspkD7afqVbCVlQ+aWee07aBzXi/9WeU3AVbdMUwaQD2gV9G/IF8IIuYVwxubfxSa82QxrB2OCpa8A==",
+      "upstreamShasum": "8ec9f3421f6840ef4ee504fe089e16dfa3ad82ae",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.2-pre.6",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-x49HIb89WspkD7afqVbCVlQ+aWee07aBzXi/9WeU3AVbdMUwaQD2gV9G/IF8IIuYVwxubfxSa82QxrB2OCpa8A==",
+          "shasum": "8ec9f3421f6840ef4ee504fe089e16dfa3ad82ae"
+        }
+      }
+    },
+    {
+      "version": "1.0.2",
+      "variantId": "registry-package.openupm.com-f1210ecad64cc98f",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "6fefe3306edf814f40857bf159e801ca8b489026",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.2.tgz",
+      "upstreamIntegrity": "sha512-SIQj8K6ZOf3h+P6wRcEmX9jcsvpgFWljRynYCzHd57ys4mMTCPlog4WF8SBIGLRDLUk7KVvQ6F6zBE4/5R/NBg==",
+      "upstreamShasum": "83b1e32bb058b2b5d0b9d9ea041db158f19e88bf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SIQj8K6ZOf3h+P6wRcEmX9jcsvpgFWljRynYCzHd57ys4mMTCPlog4WF8SBIGLRDLUk7KVvQ6F6zBE4/5R/NBg==",
+          "shasum": "83b1e32bb058b2b5d0b9d9ea041db158f19e88bf"
+        }
+      }
+    },
+    {
+      "version": "1.0.3-pre.1",
+      "variantId": "registry-package.openupm.com-5b1c48cd12a3ce4c",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "94b8536f692eba47667484670ff5d44deb79a1da",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.3-pre.1.tgz",
+      "upstreamIntegrity": "sha512-oiJ2aznHGebg/g2ot36Aidefs8yFpQ7EZQERJQGfWsuilWkAMJqMxr/gMcTUr+8Y0WnNJ8G0zLrIjToIOAzkQA==",
+      "upstreamShasum": "ea22f2228df68fe7f396a0fe2a6691302ef402e6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.3-pre.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oiJ2aznHGebg/g2ot36Aidefs8yFpQ7EZQERJQGfWsuilWkAMJqMxr/gMcTUr+8Y0WnNJ8G0zLrIjToIOAzkQA==",
+          "shasum": "ea22f2228df68fe7f396a0fe2a6691302ef402e6"
+        }
+      }
+    },
+    {
+      "version": "1.0.3-pre.2",
+      "variantId": "registry-package.openupm.com-c628e0b5c37ffcb5",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "0bdabdcf510dd39b2819f623c3ae152093fa0a1b",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.3-pre.2.tgz",
+      "upstreamIntegrity": "sha512-cRPfGb9NAEvb3kzwBDnB1FgA9rZsx5l31yH+xFuXMbNmRYmU8UPDfJcvj3UXvBA10p0cuNJhSSwWiBJoT77r0w==",
+      "upstreamShasum": "8a7f78f39daf6c8f53fd0326cb173777033b9e70",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.4",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.3-pre.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cRPfGb9NAEvb3kzwBDnB1FgA9rZsx5l31yH+xFuXMbNmRYmU8UPDfJcvj3UXvBA10p0cuNJhSSwWiBJoT77r0w==",
+          "shasum": "8a7f78f39daf6c8f53fd0326cb173777033b9e70"
+        }
+      }
+    },
+    {
+      "version": "1.0.3-pre.3",
+      "variantId": "registry-package.openupm.com-7278f49d0402a9d7",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "cf14560d477d227f56045c35c4001d0323949545",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.3-pre.3.tgz",
+      "upstreamIntegrity": "sha512-IyKaFMz6pE/Cs1YLF1Tu48He/WpTE8HYChPJZAGZHSxNULzFfDs2fKq7robZqRZYXDygveu4+QNfFbGqJY22yg==",
+      "upstreamShasum": "b8740c90f38281f78506b39aa8e7eb74bd9e5495",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.4",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.3-pre.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IyKaFMz6pE/Cs1YLF1Tu48He/WpTE8HYChPJZAGZHSxNULzFfDs2fKq7robZqRZYXDygveu4+QNfFbGqJY22yg==",
+          "shasum": "b8740c90f38281f78506b39aa8e7eb74bd9e5495"
+        }
+      }
+    },
+    {
+      "version": "1.0.3-pre.4",
+      "variantId": "registry-package.openupm.com-7e1e239c3a83d418",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "de763de960d31362b5fef20168dad99f33df5af5",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.3-pre.4.tgz",
+      "upstreamIntegrity": "sha512-MqgC1o8uCOIa5ERrBxaRkSr3JkyUsEc6Fxw5s4zgeyV7dwb4vJf6qKi8V5quAG17c4qxXHsShU9kg0lfl/Lemg==",
+      "upstreamShasum": "d31880a6f9dc781df1fe2ebf9204302abd8c71b5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.4",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.3-pre.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MqgC1o8uCOIa5ERrBxaRkSr3JkyUsEc6Fxw5s4zgeyV7dwb4vJf6qKi8V5quAG17c4qxXHsShU9kg0lfl/Lemg==",
+          "shasum": "d31880a6f9dc781df1fe2ebf9204302abd8c71b5"
+        }
+      }
+    },
+    {
+      "version": "1.0.3-pre.5",
+      "variantId": "registry-package.openupm.com-d2769d6b2d9fa60b",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "511b9ec50e6a41d3a35e3b4087e3415951387ef1",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.3-pre.5.tgz",
+      "upstreamIntegrity": "sha512-YJNQZCAePQMlNWyLz7nSK0VCpS/tFlKbH5Rs+GzCx4b3h/FMPvYtx65K9/YM86vrfQYkszO8Z20vN1ftfHsPzg==",
+      "upstreamShasum": "7bc73ae4cb7c6a3933440a4d67786229fc5d38d7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.5-pre.2",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.3-pre.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YJNQZCAePQMlNWyLz7nSK0VCpS/tFlKbH5Rs+GzCx4b3h/FMPvYtx65K9/YM86vrfQYkszO8Z20vN1ftfHsPzg==",
+          "shasum": "7bc73ae4cb7c6a3933440a4d67786229fc5d38d7"
+        }
+      }
+    },
+    {
+      "version": "1.0.3-pre.6",
+      "variantId": "registry-package.openupm.com-4a36a9e8034bf6b4",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "12b07635f56761587a0675317efc91ffa3eab220",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.3-pre.6.tgz",
+      "upstreamIntegrity": "sha512-t/9TYL+VByGGkam34iWEiZZYIi3VD5Om5JjUMqI/RRumy/U836o8VmzGsovSOrPojMS55fQAhCzwUca85qHiLw==",
+      "upstreamShasum": "56c1dd257a4f3988873111a00d4f32160c5b6769",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.5-pre.3",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.3-pre.6",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-t/9TYL+VByGGkam34iWEiZZYIi3VD5Om5JjUMqI/RRumy/U836o8VmzGsovSOrPojMS55fQAhCzwUca85qHiLw==",
+          "shasum": "56c1dd257a4f3988873111a00d4f32160c5b6769"
+        }
+      }
+    },
+    {
+      "version": "1.0.3-pre.7",
+      "variantId": "registry-package.openupm.com-f2187d81e8146946",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "e36d75a2e083bf886209213c8028087620026cc1",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.3-pre.7.tgz",
+      "upstreamIntegrity": "sha512-YsqOOGylNav/myo9ilYBk3ljz/P/gNLjGokRffsDKT3sKweEG/pg/A67ytkPYUlv09GXkZoR8Q/hJPZxnjO2kw==",
+      "upstreamShasum": "077e9cfd1190bf250528b1fbe79996cf72b83537",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.5",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.3-pre.7",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YsqOOGylNav/myo9ilYBk3ljz/P/gNLjGokRffsDKT3sKweEG/pg/A67ytkPYUlv09GXkZoR8Q/hJPZxnjO2kw==",
+          "shasum": "077e9cfd1190bf250528b1fbe79996cf72b83537"
+        }
+      }
+    },
+    {
+      "version": "1.0.3",
+      "variantId": "registry-package.openupm.com-1c84989ca3617233",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "08d9472cdb6502ad1c37b917295374c0fecb1c5f",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.3.tgz",
+      "upstreamIntegrity": "sha512-fEbsA/puS2BE8mH6pZtNmDts3cUn1M8xVtU8aMyyHVQFSRsYH/v0UCCXwk3Fpo/NOoTbnvSSljRWFlLAQRQlQA==",
+      "upstreamShasum": "81ad91f99a235f4da2491908a82584da4578ff3e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.5",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fEbsA/puS2BE8mH6pZtNmDts3cUn1M8xVtU8aMyyHVQFSRsYH/v0UCCXwk3Fpo/NOoTbnvSSljRWFlLAQRQlQA==",
+          "shasum": "81ad91f99a235f4da2491908a82584da4578ff3e"
+        }
+      }
+    },
+    {
+      "version": "1.0.4-pre.1",
+      "variantId": "registry-package.openupm.com-679f46ec35f60eb7",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "e5c9ce863c8ae37cd9ea41dc5f565ac47af5054e",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.4-pre.1.tgz",
+      "upstreamIntegrity": "sha512-zLvrcJntTtpxmWCsEcov1CBgDvcb5fB/81x9EIaNeJ39JaUZ30m2Fhhmg0KA80yYaB18b4daUHzmak5p3BvUQw==",
+      "upstreamShasum": "80456fcde8d1dc1d61afdd8ce5f8db02ea19059c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.8-pre.1",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.4-pre.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zLvrcJntTtpxmWCsEcov1CBgDvcb5fB/81x9EIaNeJ39JaUZ30m2Fhhmg0KA80yYaB18b4daUHzmak5p3BvUQw==",
+          "shasum": "80456fcde8d1dc1d61afdd8ce5f8db02ea19059c"
+        }
+      }
+    },
+    {
+      "version": "1.0.4-pre.2",
+      "variantId": "registry-package.openupm.com-0de9d579e928aa28",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "4eb0365fc03fa3b86c86b965831634a99855bbe6",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.4-pre.2.tgz",
+      "upstreamIntegrity": "sha512-Qkf6iDnNCs+yFIF9ZDOEvF1ToHuM8+ffy+fr7mL6gh1p7rK1/kaxxjYbvXEnq7cMCaxWvgyNn6x8juAOYH67Sg==",
+      "upstreamShasum": "dd25d99fa97ef10d6d09089989a5dbc4dfc28e47",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.8-pre.1",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.4-pre.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Qkf6iDnNCs+yFIF9ZDOEvF1ToHuM8+ffy+fr7mL6gh1p7rK1/kaxxjYbvXEnq7cMCaxWvgyNn6x8juAOYH67Sg==",
+          "shasum": "dd25d99fa97ef10d6d09089989a5dbc4dfc28e47"
+        }
+      }
+    },
+    {
+      "version": "1.0.4",
+      "variantId": "registry-package.openupm.com-7c312252a613d2a1",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "2f0e2a730176239f88ab9b07c719e9eba050e1fe",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.4.tgz",
+      "upstreamIntegrity": "sha512-KQJgEqfVbDTSjz8x9V0brEnOZO2uSS9LFVJsD66o5Ub55HiKvtn8PVDfujkjM/0aYgoTASxbI8AajMe01Xmzdw==",
+      "upstreamShasum": "48152c384022cff444049aab4aeeb85bd32d1b6f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "v1.0.8-pre.1",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KQJgEqfVbDTSjz8x9V0brEnOZO2uSS9LFVJsD66o5Ub55HiKvtn8PVDfujkjM/0aYgoTASxbI8AajMe01Xmzdw==",
+          "shasum": "48152c384022cff444049aab4aeeb85bd32d1b6f"
+        }
+      }
+    },
+    {
+      "version": "1.0.5-pre.1",
+      "variantId": "registry-package.openupm.com-6406afce48769f7b",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "c9ae6357c5fb7bb3bc4ad3e213a8f52ed21933da",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.5-pre.1.tgz",
+      "upstreamIntegrity": "sha512-dcyU2ewHf0n77MeCnwYH+/GxLU6cTe7g6KU8p3iCChnsOHswL0AWKBx4J79hmAnwBu4S/seynRhDGcneiBI3Eg==",
+      "upstreamShasum": "0749a35d811a78e3219bb79ef02baae73511a8cf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.7",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.5-pre.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dcyU2ewHf0n77MeCnwYH+/GxLU6cTe7g6KU8p3iCChnsOHswL0AWKBx4J79hmAnwBu4S/seynRhDGcneiBI3Eg==",
+          "shasum": "0749a35d811a78e3219bb79ef02baae73511a8cf"
+        }
+      }
+    },
+    {
+      "version": "1.0.5-pre.2",
+      "variantId": "registry-package.openupm.com-6d3e56956466ae87",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "c9ffaf4e21f99d50a2e26aaa6daa18544e832e97",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.5-pre.2.tgz",
+      "upstreamIntegrity": "sha512-WolGq0cmfwDkXHiyblcHUQIxHtdo6lRYiLWQ3tPdyZaGgzWA0nGdxTAjzuh/12BJkF2cYKR25n0J1zJ/Dkctjg==",
+      "upstreamShasum": "d5464660bedb533a24f32364fcedee8548117920",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.realitycollective.utilities": "1.0.7",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.5-pre.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WolGq0cmfwDkXHiyblcHUQIxHtdo6lRYiLWQ3tPdyZaGgzWA0nGdxTAjzuh/12BJkF2cYKR25n0J1zJ/Dkctjg==",
+          "shasum": "d5464660bedb533a24f32364fcedee8548117920"
+        }
+      }
+    },
+    {
+      "version": "1.0.5-pre.3",
+      "variantId": "registry-package.openupm.com-a14e07cd8602053c",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "53f9aa617aa238eafdf8be326f86b84e3336219d",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.5-pre.3.tgz",
+      "upstreamIntegrity": "sha512-jQPnxClI5n/WdkQtjobPK1dlEwHFew6bG5V9lTAH2fBB0v0WlOcl2P80mpEvh5proSuk5bp5RtBZNedpsROuPQ==",
+      "upstreamShasum": "35374b46bdb159b9e496c52de253ebcf2ec9f723",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.5-pre.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jQPnxClI5n/WdkQtjobPK1dlEwHFew6bG5V9lTAH2fBB0v0WlOcl2P80mpEvh5proSuk5bp5RtBZNedpsROuPQ==",
+          "shasum": "35374b46bdb159b9e496c52de253ebcf2ec9f723"
+        }
+      }
+    },
+    {
+      "version": "1.0.5",
+      "variantId": "registry-package.openupm.com-faefb5bc54f440cf",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "571f4054b75d8e0c4cc0ddbb1322141e8771dd32",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.5.tgz",
+      "upstreamIntegrity": "sha512-etSePM3jWefKYRJx0PjexNyVpXr6ek2IgVsunSLrICyCyI2ycTbIJvJ9EBxn3I6/h+xPpoxt0r0M2S9rzRnqDA==",
+      "upstreamShasum": "cfbc11992d2da501a9fbba4556cd48f6ca2da73f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-etSePM3jWefKYRJx0PjexNyVpXr6ek2IgVsunSLrICyCyI2ycTbIJvJ9EBxn3I6/h+xPpoxt0r0M2S9rzRnqDA==",
+          "shasum": "cfbc11992d2da501a9fbba4556cd48f6ca2da73f"
+        }
+      }
+    },
+    {
+      "version": "1.0.6-pre.1",
+      "variantId": "registry-package.openupm.com-070c712d50e090bc",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "938c5b873af07bfe8bd8f7bfcc4b90ef8b4ebc4a",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.6-pre.1.tgz",
+      "upstreamIntegrity": "sha512-G2T+xmjC+qVUOwyAGjfsYAa489Wk53LBfcdKTt4b2Z7uqrc8zvSXEEv5HLiiNGBtLU8Ot8ctExtDjoKunEUSKQ==",
+      "upstreamShasum": "6464c772ddd66c472df2b3a8e068f26b79c1be75",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.6-pre.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-G2T+xmjC+qVUOwyAGjfsYAa489Wk53LBfcdKTt4b2Z7uqrc8zvSXEEv5HLiiNGBtLU8Ot8ctExtDjoKunEUSKQ==",
+          "shasum": "6464c772ddd66c472df2b3a8e068f26b79c1be75"
+        }
+      }
+    },
+    {
+      "version": "1.0.6",
+      "variantId": "registry-package.openupm.com-c55a36af2fdca875",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "256f02c8450f62bf1cb5a7cc526bb858a677c962",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.6.tgz",
+      "upstreamIntegrity": "sha512-HH+kVyJ/tIcKC6A6QrG5kZDM0fBlQ6Z072kGnH5sT6W3FkZHOyWEOnO26RH+D870vdzvhcqS72FeoWrenmsTbA==",
+      "upstreamShasum": "580e0857631704225135eabc20b8631a04a71799",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.6",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HH+kVyJ/tIcKC6A6QrG5kZDM0fBlQ6Z072kGnH5sT6W3FkZHOyWEOnO26RH+D870vdzvhcqS72FeoWrenmsTbA==",
+          "shasum": "580e0857631704225135eabc20b8631a04a71799"
+        }
+      }
+    },
+    {
+      "version": "1.0.7-pre.1",
+      "variantId": "registry-package.openupm.com-238d34250440a11a",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "b197b04921f2a1215ea883f68619c4769ae9f4eb",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.7-pre.1.tgz",
+      "upstreamIntegrity": "sha512-MUwE9g1PZHj2n/o4Obrj0kaFr+pdalQs8xdnkfyrBR0XATUf6bh7MrQk58VgWI8sLlSGj5pCO72GFI92WEC9Ig==",
+      "upstreamShasum": "d71b09b461cf40537b0287efa98f06e715f16e13",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.7-pre.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MUwE9g1PZHj2n/o4Obrj0kaFr+pdalQs8xdnkfyrBR0XATUf6bh7MrQk58VgWI8sLlSGj5pCO72GFI92WEC9Ig==",
+          "shasum": "d71b09b461cf40537b0287efa98f06e715f16e13"
+        }
+      }
+    },
+    {
+      "version": "1.0.7-pre.2",
+      "variantId": "registry-package.openupm.com-b9ebfb713ab03dfb",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "d79d54a0f0996ff0d4830838425592983e342da9",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.7-pre.2.tgz",
+      "upstreamIntegrity": "sha512-A7cvU7RjR6NTiB/gndBrqUjwqF0eZHYJ/uMEKry9p3Lu3gowgD22dkNpktbkgegtaTtIt7mDgo3cGklxA6pcdw==",
+      "upstreamShasum": "044248673cafe7da0daf1ed4f7bee8a940318bd4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.7-pre.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-A7cvU7RjR6NTiB/gndBrqUjwqF0eZHYJ/uMEKry9p3Lu3gowgD22dkNpktbkgegtaTtIt7mDgo3cGklxA6pcdw==",
+          "shasum": "044248673cafe7da0daf1ed4f7bee8a940318bd4"
+        }
+      }
+    },
+    {
+      "version": "1.0.7-pre.3",
+      "variantId": "registry-package.openupm.com-916c9815aa84f8df",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "23e82ca05476d89fc38934ba7cc53ad3dc232b21",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.7-pre.3.tgz",
+      "upstreamIntegrity": "sha512-PkF/nkI8wtFF4bP6RNd8AeTEIZr2BhcfMncM7dcRjOnzGpjTXGBrZALaQtUWswcyd80Zw7Sk2Q6vxY9bPysnJA==",
+      "upstreamShasum": "d4a16fb85a6947a6d06460011e49db89594e1408",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.7-pre.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PkF/nkI8wtFF4bP6RNd8AeTEIZr2BhcfMncM7dcRjOnzGpjTXGBrZALaQtUWswcyd80Zw7Sk2Q6vxY9bPysnJA==",
+          "shasum": "d4a16fb85a6947a6d06460011e49db89594e1408"
+        }
+      }
+    },
+    {
+      "version": "1.0.7-pre.4",
+      "variantId": "registry-package.openupm.com-9f89f48a4efdc97f",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "631e145343989ba31d51f6aeeb9d0a250ef52f3d",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.7-pre.4.tgz",
+      "upstreamIntegrity": "sha512-0kJlV2oP1EQueWpURWkBNy6Ymv1+rS5REpntBAVuG9s5Zccp1V8ZJ7/dAqQHMuBJWPEjY8Y4UKNgNilJKFZbwQ==",
+      "upstreamShasum": "097a72af746264fa9c5451aef08e99b0aa5238a5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.7-pre.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-0kJlV2oP1EQueWpURWkBNy6Ymv1+rS5REpntBAVuG9s5Zccp1V8ZJ7/dAqQHMuBJWPEjY8Y4UKNgNilJKFZbwQ==",
+          "shasum": "097a72af746264fa9c5451aef08e99b0aa5238a5"
+        }
+      }
+    },
+    {
+      "version": "1.0.7-pre.5",
+      "variantId": "registry-package.openupm.com-d7c9780b65e553cc",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "a911c047b3b12cae0aae5982d8cab122c245a680",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.7-pre.5.tgz",
+      "upstreamIntegrity": "sha512-xSgOc4uM8qTyU/xO72U95VASJ2bxWwbQiCjCFq7cQCqdmbGVvDs4SYhctaETSKYw4S4Cerzhydmr78pkdtlIIA==",
+      "upstreamShasum": "201093d61c05732938d1c9d9ba455213648b0fb6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.7-pre.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xSgOc4uM8qTyU/xO72U95VASJ2bxWwbQiCjCFq7cQCqdmbGVvDs4SYhctaETSKYw4S4Cerzhydmr78pkdtlIIA==",
+          "shasum": "201093d61c05732938d1c9d9ba455213648b0fb6"
+        }
+      }
+    },
+    {
+      "version": "1.0.7-pre.6",
+      "variantId": "registry-package.openupm.com-1a44f294c7384531",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "cfd7702d8e19cc47e4254f1ac0f6ee2fab74413c",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.7-pre.6.tgz",
+      "upstreamIntegrity": "sha512-xQv87x2zZJb9cAHUWI7TiGtVLzwzmSFDn48KqwbELO7mynJdSQwzDuWDbydeHG4JrJYBpKo/gbs9Acgj6lztIQ==",
+      "upstreamShasum": "54266aaa87271fd56683204a66a50358d80874df",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.addressables": "1.20.5",
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.7-pre.6",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xQv87x2zZJb9cAHUWI7TiGtVLzwzmSFDn48KqwbELO7mynJdSQwzDuWDbydeHG4JrJYBpKo/gbs9Acgj6lztIQ==",
+          "shasum": "54266aaa87271fd56683204a66a50358d80874df"
+        }
+      }
+    },
+    {
+      "version": "1.0.7-pre.7",
+      "variantId": "registry-package.openupm.com-dc09c2059a56f744",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "d1d00e2395844c31bd05135d53bebcceb8e13080",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.7-pre.7.tgz",
+      "upstreamIntegrity": "sha512-J4z64m43jZKauNJdxZMcG9fpR1kwJXrFUMcEWthTDlpEeEyo06wq0ct8SRNHOtvVqf+nYYMyIhamj4DAJ3594g==",
+      "upstreamShasum": "eb306783d9bc4ead324ee24771f9511186ad30bf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.7-pre.7",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-J4z64m43jZKauNJdxZMcG9fpR1kwJXrFUMcEWthTDlpEeEyo06wq0ct8SRNHOtvVqf+nYYMyIhamj4DAJ3594g==",
+          "shasum": "eb306783d9bc4ead324ee24771f9511186ad30bf"
+        }
+      }
+    },
+    {
+      "version": "1.0.7",
+      "variantId": "registry-package.openupm.com-dacd6bd1110007e5",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "d455fbf259a08c1d4f7c0b6947390cafc429c83f",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.7.tgz",
+      "upstreamIntegrity": "sha512-U1KFwqKKg8wtze/mruskJQMn0808uqAcHrAbpV4Vh4wIqDZxoxFmaRRlmNjLIh67lta0oFRnIbtWcGJ1nRUL5w==",
+      "upstreamShasum": "e44ce04174b4688e0c5bcf9571840b5a9252c58a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.7",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-U1KFwqKKg8wtze/mruskJQMn0808uqAcHrAbpV4Vh4wIqDZxoxFmaRRlmNjLIh67lta0oFRnIbtWcGJ1nRUL5w==",
+          "shasum": "e44ce04174b4688e0c5bcf9571840b5a9252c58a"
+        }
+      }
+    },
+    {
+      "version": "1.0.8-pre.1",
+      "variantId": "registry-package.openupm.com-96335e6ef01822b4",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "75caf6485a5157bf4fa7bad0a4157569ef9c3d8f",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.8-pre.1.tgz",
+      "upstreamIntegrity": "sha512-oClpDdH67B19hOo3VnAKbOJEcj8vBHgoDlNL4j+zPfPJiKSIsDmRT3rx6dvfl8iIGn8BcmgrEshjzBGzHiBvCQ==",
+      "upstreamShasum": "1bcb3731ca79073882346c704b73abcf3ea6ed23",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.8-pre.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oClpDdH67B19hOo3VnAKbOJEcj8vBHgoDlNL4j+zPfPJiKSIsDmRT3rx6dvfl8iIGn8BcmgrEshjzBGzHiBvCQ==",
+          "shasum": "1bcb3731ca79073882346c704b73abcf3ea6ed23"
+        }
+      }
+    },
+    {
+      "version": "1.0.8-pre.2",
+      "variantId": "registry-package.openupm.com-1dbb4066d48edc0f",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "c67843ffc0dcbec396e681c2f03982756a2a1247",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.8-pre.2.tgz",
+      "upstreamIntegrity": "sha512-DHljxFCyN9Bn8pfdjtQNnV8NIoeWb/rG8d23crXDOSzY9wRDwSquNdVzThASAnk9Q4SR73L+GU0/X9VkKR5Dtw==",
+      "upstreamShasum": "e06fb77146b01b8bcd7e6726d15b20d455f7dcdc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.12",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.8-pre.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-DHljxFCyN9Bn8pfdjtQNnV8NIoeWb/rG8d23crXDOSzY9wRDwSquNdVzThASAnk9Q4SR73L+GU0/X9VkKR5Dtw==",
+          "shasum": "e06fb77146b01b8bcd7e6726d15b20d455f7dcdc"
+        }
+      }
+    },
+    {
+      "version": "1.0.8-pre.3",
+      "variantId": "registry-package.openupm.com-d69690a1d1a38f3e",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "8d699064195eea112f9d02e4b1f9a4fc73d856e9",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.8-pre.3.tgz",
+      "upstreamIntegrity": "sha512-JUTpBKwKG4nbhJWgGgWGLel2C5XOhhMv54sKTDL8VPu1R3GOFwfxsfotZM2oEJXLSr4AQLFbz2X95S6k/WJmLA==",
+      "upstreamShasum": "724d85779d681258ead1dd10c1d3720de9ef4aac",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.12",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.8-pre.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JUTpBKwKG4nbhJWgGgWGLel2C5XOhhMv54sKTDL8VPu1R3GOFwfxsfotZM2oEJXLSr4AQLFbz2X95S6k/WJmLA==",
+          "shasum": "724d85779d681258ead1dd10c1d3720de9ef4aac"
+        }
+      }
+    },
+    {
+      "version": "1.0.8-pre.4",
+      "variantId": "registry-package.openupm.com-e58d8d95fd71e6c0",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "37bae65974c6ef4073bf34403e6ca9c30b7bf144",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.8-pre.4.tgz",
+      "upstreamIntegrity": "sha512-sxiy8GWohJscWaGHXsvi1v/tdBlgorCQr0wc+rbH01ehBsbUexeBfhgSjuDRwoKr6sLEVtY/LjJWC80nSqffxg==",
+      "upstreamShasum": "b167ecbd1416100f8f85675bd00aab446ec29f5a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.12",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.8-pre.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sxiy8GWohJscWaGHXsvi1v/tdBlgorCQr0wc+rbH01ehBsbUexeBfhgSjuDRwoKr6sLEVtY/LjJWC80nSqffxg==",
+          "shasum": "b167ecbd1416100f8f85675bd00aab446ec29f5a"
+        }
+      }
+    },
+    {
+      "version": "1.0.8-pre.5",
+      "variantId": "registry-package.openupm.com-0a58f530639918da",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "37314beee1d43871f4b3b35e1f4fce233168c637",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.8-pre.5.tgz",
+      "upstreamIntegrity": "sha512-/XbxDyh59o93z+/wtiKCEQykPfiVc6ppowZSYvZr5CjEt6oQ48IfCX5uLoHLqZajTAk+sNCwUPugJOkUyt+Bwg==",
+      "upstreamShasum": "4a9b1e1e600a39de348fe19e16855dd23c9f81cb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.12",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.8-pre.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/XbxDyh59o93z+/wtiKCEQykPfiVc6ppowZSYvZr5CjEt6oQ48IfCX5uLoHLqZajTAk+sNCwUPugJOkUyt+Bwg==",
+          "shasum": "4a9b1e1e600a39de348fe19e16855dd23c9f81cb"
+        }
+      }
+    },
+    {
+      "version": "1.0.8-pre.6",
+      "variantId": "registry-package.openupm.com-d505d4a534e798cb",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "15fb8bdf48526d067f4ccdca6d0bb6c399c88802",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.8-pre.6.tgz",
+      "upstreamIntegrity": "sha512-9IUHCaGWL4J9SlDyZ0dwRtOwKEKlx1m7IpS72MFw23qB/Mn7oHk9iipY1EMYB13gursiUcH4/vjMS1jOWlk3Sg==",
+      "upstreamShasum": "a4f864e7e47c4024eccc83f37f4732db9d183d4e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.12",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.8-pre.6",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9IUHCaGWL4J9SlDyZ0dwRtOwKEKlx1m7IpS72MFw23qB/Mn7oHk9iipY1EMYB13gursiUcH4/vjMS1jOWlk3Sg==",
+          "shasum": "a4f864e7e47c4024eccc83f37f4732db9d183d4e"
+        }
+      }
+    },
+    {
+      "version": "1.0.8-pre.7",
+      "variantId": "registry-package.openupm.com-a89613816546ae1b",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "63bc24f04bf5b54cc358ebcaf24ba49b35b21bbf",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.8-pre.7.tgz",
+      "upstreamIntegrity": "sha512-QkHjEn0ZAqjkh2xi9ikD1Qj+9dEC0DHd1DESOlGyxnvzFPeU12+919wjENTWYlIdT2lGV173u2DUI0Lk4MFHXA==",
+      "upstreamShasum": "1a984acc7b731b01d51485560e2e80710d681987",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.12",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.8-pre.7",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QkHjEn0ZAqjkh2xi9ikD1Qj+9dEC0DHd1DESOlGyxnvzFPeU12+919wjENTWYlIdT2lGV173u2DUI0Lk4MFHXA==",
+          "shasum": "1a984acc7b731b01d51485560e2e80710d681987"
+        }
+      }
+    },
+    {
+      "version": "1.0.8-pre.8",
+      "variantId": "registry-package.openupm.com-29b5ea3c3807981d",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "4b884c6637ae5d9cc4b8a9024bbbde9234c963a7",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.8-pre.8.tgz",
+      "upstreamIntegrity": "sha512-CufVs/KznNouj8TAzXBDQSVTmSKmiLrCH2tb6JkSXZkGxtjTTJ79vn9CTkjluEzCZq41WixkiLN6QsKtle9jNQ==",
+      "upstreamShasum": "55bc59f1208fc3d193fd04a879396b307c5f377c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.13",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.8-pre.8",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CufVs/KznNouj8TAzXBDQSVTmSKmiLrCH2tb6JkSXZkGxtjTTJ79vn9CTkjluEzCZq41WixkiLN6QsKtle9jNQ==",
+          "shasum": "55bc59f1208fc3d193fd04a879396b307c5f377c"
+        }
+      }
+    },
+    {
+      "version": "1.0.8",
+      "variantId": "registry-package.openupm.com-5058d08e117f7dcd",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "184e40a13a2cff0c8bb619e6a6615c3fb1a78510",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.8.tgz",
+      "upstreamIntegrity": "sha512-Vb0kLn9DNJ8YtDN/XMD7jcfo4Nxl9wWHDlpdMaii3RnZ8Qp4zH7FE5+iG1VlwkTP4EwCzNKfCzEnNem/2OjX+w==",
+      "upstreamShasum": "60b2c3e38cf529e0453df660118a578aed40aba8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.13",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.8",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Vb0kLn9DNJ8YtDN/XMD7jcfo4Nxl9wWHDlpdMaii3RnZ8Qp4zH7FE5+iG1VlwkTP4EwCzNKfCzEnNem/2OjX+w==",
+          "shasum": "60b2c3e38cf529e0453df660118a578aed40aba8"
+        }
+      }
+    },
+    {
+      "version": "1.0.9-pre.1",
+      "variantId": "registry-package.openupm.com-32cf56ff1d0313b7",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "b072245ab7cbcb45b50055e2ccbf7f59b266df4f",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.9-pre.1.tgz",
+      "upstreamIntegrity": "sha512-PIWENcIg1FgegbmpKlTnXYBykLsTzjSB0g7x8rAxOkcLFTTI6GcvjOy+ZE30nLjCvWDj9W646troay7EtTXXWw==",
+      "upstreamShasum": "5374b349bdd56b761022c12bf901b62f69fad02c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.13",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.9-pre.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PIWENcIg1FgegbmpKlTnXYBykLsTzjSB0g7x8rAxOkcLFTTI6GcvjOy+ZE30nLjCvWDj9W646troay7EtTXXWw==",
+          "shasum": "5374b349bdd56b761022c12bf901b62f69fad02c"
+        }
+      }
+    },
+    {
+      "version": "1.0.9-pre.2",
+      "variantId": "registry-package.openupm.com-96364cfe791c85a6",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "3acf478b9110435f55559d82d12535a774a91d42",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.9-pre.2.tgz",
+      "upstreamIntegrity": "sha512-NJdpIPmtgbFK07jzKLIXLhtiqOT0sexitnuBNNE/8M8ByfnNYHWWB5pZ2DC5W3UnY/sP8h4Kiu9lBHHAW8pZ7g==",
+      "upstreamShasum": "22473eda2caab48e3064a0d944a162020b51e645",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.13",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.9-pre.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NJdpIPmtgbFK07jzKLIXLhtiqOT0sexitnuBNNE/8M8ByfnNYHWWB5pZ2DC5W3UnY/sP8h4Kiu9lBHHAW8pZ7g==",
+          "shasum": "22473eda2caab48e3064a0d944a162020b51e645"
+        }
+      }
+    },
+    {
+      "version": "1.0.9-pre.3",
+      "variantId": "registry-package.openupm.com-ca5b404b5e48e870",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "8ca1b12fc5bab0c74c7f8360bb3f181e298987d0",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.9-pre.3.tgz",
+      "upstreamIntegrity": "sha512-8zEuXR/V4W107pBVQ0jK1p6KmeyDn/0Vd1V8whdd+mYDO5F5LCUTEatYEJwzn1DPgEioi7O8llebCMNalbD+QA==",
+      "upstreamShasum": "12443a8c8594452ad72a61606d8726cd7120b6d3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.13",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.9-pre.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8zEuXR/V4W107pBVQ0jK1p6KmeyDn/0Vd1V8whdd+mYDO5F5LCUTEatYEJwzn1DPgEioi7O8llebCMNalbD+QA==",
+          "shasum": "12443a8c8594452ad72a61606d8726cd7120b6d3"
+        }
+      }
+    },
+    {
+      "version": "1.0.9-pre.4",
+      "variantId": "registry-package.openupm.com-24076e72292cf981",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "6b1cd29062ff5034cf271c328dadf7e79cf6f866",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.9-pre.4.tgz",
+      "upstreamIntegrity": "sha512-ErV3Ayo3HJsirdnzi1JqVCTxt85o7rZpYHFFUu+31Iuc0kYz3fWjLseFskE+j6WDlp434CMedfpqzeL5K4xaHg==",
+      "upstreamShasum": "b614238fd81687f9b4243c3d2f47c33b0f5167cf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.13",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.9-pre.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ErV3Ayo3HJsirdnzi1JqVCTxt85o7rZpYHFFUu+31Iuc0kYz3fWjLseFskE+j6WDlp434CMedfpqzeL5K4xaHg==",
+          "shasum": "b614238fd81687f9b4243c3d2f47c33b0f5167cf"
+        }
+      }
+    },
+    {
+      "version": "1.0.9-pre.5",
+      "variantId": "registry-package.openupm.com-911e7f20a85bf9d8",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "2efbf48b20d3fbdf37c41607c074d3d09daeed73",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.9-pre.5.tgz",
+      "upstreamIntegrity": "sha512-4md2Zfmz52mGmU6tXGOso5vYRQ0yqdcMY7dpWdCHeWRGxF+hKqo1OT+m8wy1p5+o+UG456VNMM5hYWrTnf4HXg==",
+      "upstreamShasum": "94d5413f81fc17f82036d2edf6a342ec9ef217ff",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.13",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.9-pre.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4md2Zfmz52mGmU6tXGOso5vYRQ0yqdcMY7dpWdCHeWRGxF+hKqo1OT+m8wy1p5+o+UG456VNMM5hYWrTnf4HXg==",
+          "shasum": "94d5413f81fc17f82036d2edf6a342ec9ef217ff"
+        }
+      }
+    },
+    {
+      "version": "1.0.9-pre.6",
+      "variantId": "registry-package.openupm.com-7f3368f533fc3eec",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "255ba64dd6d37371aead57ed43496ca2d251962a",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.9-pre.6.tgz",
+      "upstreamIntegrity": "sha512-F2bCNLHHJpoQCtiIX2NMGBM43G+noTKQhGWSjQ5Exk56+hr9sZ3fDl9nEA5mYYNIlYShAHLHLw1sImqE3TkTkw==",
+      "upstreamShasum": "bb03c6a6a232847b8487e9e627e6c69c1bd7115d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.13",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.9-pre.6",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-F2bCNLHHJpoQCtiIX2NMGBM43G+noTKQhGWSjQ5Exk56+hr9sZ3fDl9nEA5mYYNIlYShAHLHLw1sImqE3TkTkw==",
+          "shasum": "bb03c6a6a232847b8487e9e627e6c69c1bd7115d"
+        }
+      }
+    },
+    {
+      "version": "1.0.9-pre.7",
+      "variantId": "registry-package.openupm.com-a19fdff3963e1797",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "b3e6f4b21845d4b3afe0837aa988cbdb21a57e40",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.9-pre.7.tgz",
+      "upstreamIntegrity": "sha512-LZBX0W4i7ksYXA6+n/OdNlCZdMSQmUBTjdZSbtHNObJ2b3oHlxbjZTG7JN4dcs+41B1ku1eQ9/0qF80VNRfkzw==",
+      "upstreamShasum": "1c5c79eaa21680c9ea9ad57ca523f14625e8164a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.14",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.9-pre.7",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LZBX0W4i7ksYXA6+n/OdNlCZdMSQmUBTjdZSbtHNObJ2b3oHlxbjZTG7JN4dcs+41B1ku1eQ9/0qF80VNRfkzw==",
+          "shasum": "1c5c79eaa21680c9ea9ad57ca523f14625e8164a"
+        }
+      }
+    },
+    {
+      "version": "1.0.9-pre.8",
+      "variantId": "registry-package.openupm.com-02960cd120c46176",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "a2b4bc50f5f3b15793b924cb4a57f1a602b30153",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.9-pre.8.tgz",
+      "upstreamIntegrity": "sha512-Mti2LCzhzyThiQVRcNIiFuNG8lS8V4E3ru7WjQm8pV/W0Dbwjj23zp+Ypyis5rFx5CGA0tYk7IKs1nqN0Ssrow==",
+      "upstreamShasum": "97089cee5141f022c0e400904d1194f0caff01a1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.14",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.9-pre.8",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Mti2LCzhzyThiQVRcNIiFuNG8lS8V4E3ru7WjQm8pV/W0Dbwjj23zp+Ypyis5rFx5CGA0tYk7IKs1nqN0Ssrow==",
+          "shasum": "97089cee5141f022c0e400904d1194f0caff01a1"
+        }
+      }
+    },
+    {
+      "version": "1.0.9-pre.9",
+      "variantId": "registry-package.openupm.com-e68bd2ecf894039c",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "2750ed4db9481e7bd71cd59afec93ebf2e8845ec",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.9-pre.9.tgz",
+      "upstreamIntegrity": "sha512-QbfwnqTDc9/UWfVJ6AZjwhienWGI9uDjAaN3MKgcCitualmaHOQ/J8yNBfLwj1/2hRZTr5VGbQvN5sTXOuuBug==",
+      "upstreamShasum": "80c4a814324b648623d7d96200292e5b6e5e4554",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.14",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.9-pre.9",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QbfwnqTDc9/UWfVJ6AZjwhienWGI9uDjAaN3MKgcCitualmaHOQ/J8yNBfLwj1/2hRZTr5VGbQvN5sTXOuuBug==",
+          "shasum": "80c4a814324b648623d7d96200292e5b6e5e4554"
+        }
+      }
+    },
+    {
+      "version": "1.0.9-pre.10",
+      "variantId": "registry-package.openupm.com-44f5a9c66d22d7e1",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "856bc01190533ec7da27fcc1d7f28a3b1b3983c6",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.9-pre.10.tgz",
+      "upstreamIntegrity": "sha512-DRQHZnQzODhct9A78zdITzPh4AxyDY/mxpi9j/eVrjNWXAyjuQngxihYGAiwdFQgymUpX09DLQH83eh4wjB2YQ==",
+      "upstreamShasum": "d5aa0a4f37e10f4a541aed5a067812373f90f573",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.14",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.9-pre.10",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-DRQHZnQzODhct9A78zdITzPh4AxyDY/mxpi9j/eVrjNWXAyjuQngxihYGAiwdFQgymUpX09DLQH83eh4wjB2YQ==",
+          "shasum": "d5aa0a4f37e10f4a541aed5a067812373f90f573"
+        }
+      }
+    },
+    {
+      "version": "1.0.9-pre.11",
+      "variantId": "registry-package.openupm.com-b0c64a2295a74105",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "45a843be1117479debd55fcc5d5342d6e4c4e8e1",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.9-pre.11.tgz",
+      "upstreamIntegrity": "sha512-E62AbF3C7ttji1EWMKqohKeKJSbgHMs2uVQ9cM7SAfLQ6q3uwhrI4KjjFYE83sTRjpLOjmfN9f3/Uc3ceZ1lAA==",
+      "upstreamShasum": "3814b853f5f14e5e4242c5ef303222b3dc7a883e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.14",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.9-pre.11",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-E62AbF3C7ttji1EWMKqohKeKJSbgHMs2uVQ9cM7SAfLQ6q3uwhrI4KjjFYE83sTRjpLOjmfN9f3/Uc3ceZ1lAA==",
+          "shasum": "3814b853f5f14e5e4242c5ef303222b3dc7a883e"
+        }
+      }
+    },
+    {
+      "version": "1.0.9",
+      "variantId": "registry-package.openupm.com-5f68c16bebd522a7",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "26d1ea0f30f04eb17ef9e0332445902190567ecd",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.9.tgz",
+      "upstreamIntegrity": "sha512-TjOn71ihZtchYEJLxtAJH6rpi69lkFgfYJRXaos4IfoQyFlvX6q9YIycw2MRaQuWR5ciTIBoBXd2nDNfKs/RUQ==",
+      "upstreamShasum": "1155825840ae50264cdb7cafbff65da9e0ace8f9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.14",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.9",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TjOn71ihZtchYEJLxtAJH6rpi69lkFgfYJRXaos4IfoQyFlvX6q9YIycw2MRaQuWR5ciTIBoBXd2nDNfKs/RUQ==",
+          "shasum": "1155825840ae50264cdb7cafbff65da9e0ace8f9"
+        }
+      }
+    },
+    {
+      "version": "1.0.10-pre.1",
+      "variantId": "registry-package.openupm.com-8371aeac42c6696c",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "616df31cda04d66a376f8dbc0b8fed0f10dce48c",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.10-pre.1.tgz",
+      "upstreamIntegrity": "sha512-G6iT6cNDBLNjoMBgMgWAP98Z3mVUT+D+2NHTiyXDBVItOZ695F9ZTAQP+/7QktIWL2ktmKPDnS6dCb1ITvhpNw==",
+      "upstreamShasum": "20f5cac9e25a9d0b5f110d8978334ded23ec5107",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.14",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.10-pre.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-G6iT6cNDBLNjoMBgMgWAP98Z3mVUT+D+2NHTiyXDBVItOZ695F9ZTAQP+/7QktIWL2ktmKPDnS6dCb1ITvhpNw==",
+          "shasum": "20f5cac9e25a9d0b5f110d8978334ded23ec5107"
+        }
+      }
+    },
+    {
+      "version": "1.0.10-pre.2",
+      "variantId": "registry-package.openupm.com-893b476a13b8cc53",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "07d4605e3ea73d47955e14aa93496a7be1d9056d",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.10-pre.2.tgz",
+      "upstreamIntegrity": "sha512-chReqtV2csTbg1t0nyq3+HChV2tlWe+VYCrqf5UtoeYVM/eOrGon2d38/MbsBT2wQo4ft6K7+JIDwNz7M3du1Q==",
+      "upstreamShasum": "fe560a865898e6569b0a505925ce7232885c325b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.14",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.10-pre.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-chReqtV2csTbg1t0nyq3+HChV2tlWe+VYCrqf5UtoeYVM/eOrGon2d38/MbsBT2wQo4ft6K7+JIDwNz7M3du1Q==",
+          "shasum": "fe560a865898e6569b0a505925ce7232885c325b"
+        }
+      }
+    },
+    {
+      "version": "1.0.10",
+      "variantId": "registry-package.openupm.com-fd714226a660e131",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "7361f1935cfc63e1ac77bfd5a61ef82f03ee8272",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-1.0.10.tgz",
+      "upstreamIntegrity": "sha512-3G8pU3XUOkLKkgFET1RudEoQ7HhWlOzzV83RrsrJXNbgc1JtAYCOvnhxNCr2f1meHd+HLhzbFBp0BEIWFi0N9Q==",
+      "upstreamShasum": "fd74902ca7288de6683c2732e53a17b3d8138bb0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "1.0.14",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/1.0.10",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3G8pU3XUOkLKkgFET1RudEoQ7HhWlOzzV83RrsrJXNbgc1JtAYCOvnhxNCr2f1meHd+HLhzbFBp0BEIWFi0N9Q==",
+          "shasum": "fd74902ca7288de6683c2732e53a17b3d8138bb0"
+        }
+      }
+    },
+    {
+      "version": "2.0.0-pre.1",
+      "variantId": "registry-package.openupm.com-e687f2cbe05fb6f1",
+      "sourceUrl": "https://github.com/realitycollective/com.realitycollective.service-framework.git",
+      "sourceRef": "8f0689707e4b0fcd75a0b143f60c9bc0c4a89550",
+      "downloadUrl": "https://package.openupm.com/com.realitycollective.service-framework/-/com.realitycollective.service-framework-2.0.0-pre.1.tgz",
+      "upstreamIntegrity": "sha512-vfEMiYORiEGjmuNtkYNJr8bAzsruO/ze3qba1hgN0KLMxHjGJP+A3tDrhbmGDzy49/aI7N+m1HHLA2IQxd38rQ==",
+      "upstreamShasum": "c597bcd4c29bb04ec94c347820a18d4af1031046",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.realitycollective.utilities": "2.0.0-pre.1",
+        "com.unity.test-framework": "1.1.33"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitycollective.service-framework/2.0.0-pre.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vfEMiYORiEGjmuNtkYNJr8bAzsruO/ze3qba1hgN0KLMxHjGJP+A3tDrhbmGDzy49/aI7N+m1HHLA2IQxd38rQ==",
+          "shasum": "c597bcd4c29bb04ec94c347820a18d4af1031046"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.0.0-pre.1",
+    "patch@1.0.4-pre.3": "1.0.4-pre.2",
+    "patch@1.0.4-pre.1": "1.0.4-pre.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.realitycollective.service-framework.yml",
+  "definitionBlobSha": "06b7920068ae64924ad323ee0a468fc3ef06530a",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "1.0.0",
+    "1.0.2",
+    "1.0.7"
+  ],
+  "selectedVersions": [
+    "1.0.0",
+    "1.0.2",
+    "1.0.7",
+    "1.0.10"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 59,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

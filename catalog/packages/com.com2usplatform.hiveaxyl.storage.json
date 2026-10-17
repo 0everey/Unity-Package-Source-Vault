@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.com2usplatform.hiveaxyl.storage",
+  "displayName": "com.com2usplatform.hiveaxyl.storage",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.com2usplatform.hiveaxyl.storage",
+      "fetchedAt": "2026-10-17T17:37:07.765075Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-9b4a8f099c4fdfce",
+      "sourceUrl": "https://github.com/com2usplatform/hiveaxyl-sdk-unity.git",
+      "sourceRef": "54229b33754d3d8f54973c369c12470cafdcfb5b",
+      "downloadUrl": "https://package.openupm.com/com.com2usplatform.hiveaxyl.storage/-/com.com2usplatform.hiveaxyl.storage-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-MEuICE/braPfRRyuPNo75BLlNzn/NnhE4615b9hPbffuHS6hkpcmWefDGfHIZKq13xA3AZAc/iNsCjHZf5HvkA==",
+      "upstreamShasum": "4f411230fd2f74fff97b9ea97908d90947cdb538",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.com2usplatform.hiveaxyl.core": "1.0.0",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.com2usplatform.hiveaxyl.storage/1.0.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MEuICE/braPfRRyuPNo75BLlNzn/NnhE4615b9hPbffuHS6hkpcmWefDGfHIZKq13xA3AZAc/iNsCjHZf5HvkA==",
+          "shasum": "4f411230fd2f74fff97b9ea97908d90947cdb538"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.com2usplatform.hiveaxyl.storage.yml",
+  "definitionBlobSha": "96ea36831f2f446d39a1fff2e82f8b24a415e3c1",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin",
+  "displayName": "com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin",
+      "fetchedAt": "2026-10-17T17:42:01.270500Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "variantId": "registry-package.openupm.com-9f55eef6d3ccc720",
+      "sourceUrl": "https://github.com/skelitheprogrammer/Reflex-PlayerLoop-Runner-Plugin.git",
+      "sourceRef": "86d914671d0116f82b485f93fc506c621fc5bda5",
+      "downloadUrl": "https://package.openupm.com/com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin/-/com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin-0.0.1.tgz",
+      "upstreamIntegrity": "sha512-Tu1MN/fi2mrd0o9EzCCB4ElijM31llsP1boRyxwGmzdvHUSUjYxLzcIGU9a0koLoGn2bn/Gc3fuanXSIT1KAaQ==",
+      "upstreamShasum": "2c6ed918c44a92c844ffb16e8b439e8e7ed9f722",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.skillitronic.playerloopcustomizationapi": "git+https://github.com/skelitheprogrammer/PlayerLoop-Customization-API.git",
+        "com.skillitronic.playerloopcustomizationapi.addons.runner": "git+https://github.com/skelitheprogrammer/PlayerLoop-customization-API-Runner-Addon.git",
+        "com.gustavopsantos.reflex": "git+https://github.com/gustavopsantos/reflex.git#4.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin/0.0.1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Tu1MN/fi2mrd0o9EzCCB4ElijM31llsP1boRyxwGmzdvHUSUjYxLzcIGU9a0koLoGn2bn/Gc3fuanXSIT1KAaQ==",
+          "shasum": "2c6ed918c44a92c844ffb16e8b439e8e7ed9f722"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.0.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.skillitronic.playerloopcustomizationapi.addons.runner.reflexplugin.yml",
+  "definitionBlobSha": "9868c1128b9a361ba10dfb1a0f80ccc64190ec0c",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.0.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

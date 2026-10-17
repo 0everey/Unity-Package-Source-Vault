@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.evolutex.evolunity",
+  "displayName": "com.evolutex.evolunity",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.evolutex.evolunity",
+      "fetchedAt": "2026-10-17T17:37:43.580673Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-6e6f42d2093b5337",
+      "sourceUrl": "https://package.openupm.com/com.evolutex.evolunity",
+      "sourceRef": "355e0d279ccfba48857f7110fbe578a14c4bf062",
+      "downloadUrl": "https://package.openupm.com/com.evolutex.evolunity/-/com.evolutex.evolunity-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-WID06NuL0wXg9lm0V3q8HOQD7OmO1Fcb1FzyZSr9ZUsKN2vmfiM8wKAOz0+TThuKCBQzDNytV9PFkEgcgnwMvQ==",
+      "upstreamShasum": "911f0d233236dd32f8e1486c339c73b36aeb9621",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.dbrizov.naughtyattributes": "git+https://github.com/dbrizov/NaughtyAttributes.git#upm"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.evolutex.evolunity/1.0.0",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WID06NuL0wXg9lm0V3q8HOQD7OmO1Fcb1FzyZSr9ZUsKN2vmfiM8wKAOz0+TThuKCBQzDNytV9PFkEgcgnwMvQ==",
+          "shasum": "911f0d233236dd32f8e1486c339c73b36aeb9621"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.evolutex.evolunity.yml",
+  "definitionBlobSha": "7ecce3f814b83385dfca6e2611521279dbd93f31",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,645 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.reese.spawning",
+  "displayName": "com.reese.spawning",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning",
+      "fetchedAt": "2026-10-17T17:41:23.248594Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "variantId": "registry-package.openupm.com-4828cda846280425",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "9eeca05f5fa98ddd36cfce8ded25c8ec8d23df08",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.1.0.tgz",
+      "upstreamIntegrity": "sha512-UnFgWEIcKV9yI55znI2Zrhdle3SopveedXibz3zTq2Hk6P6RYNSj4ix8PMx445DldeCtm7p/j8vrT67ppDss1A==",
+      "upstreamShasum": "bd00d08ab3c908adac4794b43b68b207863fe92b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.5.1-preview.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.1.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-UnFgWEIcKV9yI55znI2Zrhdle3SopveedXibz3zTq2Hk6P6RYNSj4ix8PMx445DldeCtm7p/j8vrT67ppDss1A==",
+          "shasum": "bd00d08ab3c908adac4794b43b68b207863fe92b"
+        }
+      }
+    },
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-22083327f5e28699",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "7db11a87abd3b6ce8b35357b6d6a14d0be8672f3",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-UCfKBReVhutcj42LAfaa8gLjAsel99rxSydssXX5dbxpLAsM44Q1WtPAORaCWBPWOssnPgCNzYCwmo7rzVSpMA==",
+      "upstreamShasum": "0b4e22e8075a16babbf3c43b73aa132331fb035c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.6.0-preview.24"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.2.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-UCfKBReVhutcj42LAfaa8gLjAsel99rxSydssXX5dbxpLAsM44Q1WtPAORaCWBPWOssnPgCNzYCwmo7rzVSpMA==",
+          "shasum": "0b4e22e8075a16babbf3c43b73aa132331fb035c"
+        }
+      }
+    },
+    {
+      "version": "0.3.0",
+      "variantId": "registry-package.openupm.com-828f3b9b1cb83bad",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "6a3b6c033cf9bf2b743525f0d7c84a182dbd429d",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.3.0.tgz",
+      "upstreamIntegrity": "sha512-G1TpQq0QbRA8/wNiSPMtY2mX9Y58KCWAmDKIQi61F0LHlegJIdb5ezEET2C2Kb3t7z7IZ5URcnukCa3F5d8Y2Q==",
+      "upstreamShasum": "5ae9892ac42c5f5e2408a1441f30403eb3cff911",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.6.0-preview.24"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.3.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-G1TpQq0QbRA8/wNiSPMtY2mX9Y58KCWAmDKIQi61F0LHlegJIdb5ezEET2C2Kb3t7z7IZ5URcnukCa3F5d8Y2Q==",
+          "shasum": "5ae9892ac42c5f5e2408a1441f30403eb3cff911"
+        }
+      }
+    },
+    {
+      "version": "0.4.0",
+      "variantId": "registry-package.openupm.com-609cbcc920ddfc76",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "0273ac39ccc1bd63478301a20df7c84a4bd2ee7c",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.4.0.tgz",
+      "upstreamIntegrity": "sha512-72f0r/34vImdJU+/5cxOaOoiS4u6qPbkxt2es9Bs43r2nTue6UJt2HL4ugpsHqTsZydk636tmvEfs17jv6mTUw==",
+      "upstreamShasum": "50a284cc0cca12555bfc208e08477ccd61abeca2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.8.0-preview.8"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.4.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-72f0r/34vImdJU+/5cxOaOoiS4u6qPbkxt2es9Bs43r2nTue6UJt2HL4ugpsHqTsZydk636tmvEfs17jv6mTUw==",
+          "shasum": "50a284cc0cca12555bfc208e08477ccd61abeca2"
+        }
+      }
+    },
+    {
+      "version": "0.4.1",
+      "variantId": "registry-package.openupm.com-32f8e68804546e4b",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "0c7ca6aee33d5e226e67eb1fda3c26197b670548",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.4.1.tgz",
+      "upstreamIntegrity": "sha512-2lvIvmLumLtKe3FJN1prkenHUmiA9fKsNW4Rpm/rvGS32cY/7/0yz6C9AdlEgK7kiTdiE7MXv4SJuvuvMdUkdw==",
+      "upstreamShasum": "90067a8e73f4c86570a7cbf78e99cbb30bdde0ac",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.8.0-preview.8"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.4.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2lvIvmLumLtKe3FJN1prkenHUmiA9fKsNW4Rpm/rvGS32cY/7/0yz6C9AdlEgK7kiTdiE7MXv4SJuvuvMdUkdw==",
+          "shasum": "90067a8e73f4c86570a7cbf78e99cbb30bdde0ac"
+        }
+      }
+    },
+    {
+      "version": "0.4.2",
+      "variantId": "registry-package.openupm.com-9ffe7fc809693e3c",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "c6471a7a8dfb28a493bc383a66d86d2a476cb934",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.4.2.tgz",
+      "upstreamIntegrity": "sha512-Tw15zLFWtpmzeanvH+9lgm6mV20orrW1qVnK+B8vSN6xEnaraLS6s6t1vIhC6d+XDYAw/NXO2BL2gczC54BziA==",
+      "upstreamShasum": "c24035f19684ef11a30fb05110489fdfd6287a3b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.9.1-preview.15"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.4.2",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Tw15zLFWtpmzeanvH+9lgm6mV20orrW1qVnK+B8vSN6xEnaraLS6s6t1vIhC6d+XDYAw/NXO2BL2gczC54BziA==",
+          "shasum": "c24035f19684ef11a30fb05110489fdfd6287a3b"
+        }
+      }
+    },
+    {
+      "version": "0.5.0",
+      "variantId": "registry-package.openupm.com-eb71cf94cedeff7f",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "d35aafb5f8f2139995a722c4c02b4adef763347b",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.5.0.tgz",
+      "upstreamIntegrity": "sha512-qf0+xPCCoMVWF2a/AtdWr0TYidf639GZnOYQtqbghCNnrV2Tpy48Fl3HmfWRc76ph9f4NbWmGe2wWduZACPXtA==",
+      "upstreamShasum": "fa4b6ca48b615ffa77bd208809fdc975a95facdb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.10.0-preview.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.5.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qf0+xPCCoMVWF2a/AtdWr0TYidf639GZnOYQtqbghCNnrV2Tpy48Fl3HmfWRc76ph9f4NbWmGe2wWduZACPXtA==",
+          "shasum": "fa4b6ca48b615ffa77bd208809fdc975a95facdb"
+        }
+      }
+    },
+    {
+      "version": "0.5.1",
+      "variantId": "registry-package.openupm.com-85d8be8e689c7202",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "651e49c37ccbff1576547a240e68c7534934eac3",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.5.1.tgz",
+      "upstreamIntegrity": "sha512-5OavfZ9pBz38piCaJPlWdsNKZK91Y8sP/JOkYaO/sAl1dAU5i0G5KOIT1jlEI9yc9Mtl+SUyOZTJGnDcLIeP1w==",
+      "upstreamShasum": "3041f403f5be3eaf8ab44ab1728a93c5c71bbbc8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.11.0-preview.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.5.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5OavfZ9pBz38piCaJPlWdsNKZK91Y8sP/JOkYaO/sAl1dAU5i0G5KOIT1jlEI9yc9Mtl+SUyOZTJGnDcLIeP1w==",
+          "shasum": "3041f403f5be3eaf8ab44ab1728a93c5c71bbbc8"
+        }
+      }
+    },
+    {
+      "version": "0.5.2",
+      "variantId": "registry-package.openupm.com-d33c7dd9bf089222",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "f4ead682692fc8e1536812b8cb9e90ea36122ee0",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.5.2.tgz",
+      "upstreamIntegrity": "sha512-uoy/FPnErs3Agqfx0+crqLDHX3X33xtY7lbgOqTNZ4xmMo4ZElCAL4xe6xDL93CxCY1eeGsK+SlZc0SHC/Tgcg==",
+      "upstreamShasum": "f88aea084d26e714e4704db58b91646130a6ae43",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.11.0-preview.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.5.2",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uoy/FPnErs3Agqfx0+crqLDHX3X33xtY7lbgOqTNZ4xmMo4ZElCAL4xe6xDL93CxCY1eeGsK+SlZc0SHC/Tgcg==",
+          "shasum": "f88aea084d26e714e4704db58b91646130a6ae43"
+        }
+      }
+    },
+    {
+      "version": "0.5.3",
+      "variantId": "registry-package.openupm.com-6a5e2002d556134f",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "f910fa21d7a0b9e06d8153b50269a791dbdc7ecc",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.5.3.tgz",
+      "upstreamIntegrity": "sha512-73rm/mQczXbg2ANR0ioqvMqjNktfUjJTVtAJaa9lDwy721xBgXeFpktIOLCkW7UM1WzsLjKiBKSF1AmPLlFd/A==",
+      "upstreamShasum": "b489285d01322668087390d925ca2cf4954385e6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.11.0-preview.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.5.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-73rm/mQczXbg2ANR0ioqvMqjNktfUjJTVtAJaa9lDwy721xBgXeFpktIOLCkW7UM1WzsLjKiBKSF1AmPLlFd/A==",
+          "shasum": "b489285d01322668087390d925ca2cf4954385e6"
+        }
+      }
+    },
+    {
+      "version": "0.5.4",
+      "variantId": "registry-package.openupm.com-485e347ed9950aed",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "a6cf57bb4b2486a472168942ad505488d4bf7cd9",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.5.4.tgz",
+      "upstreamIntegrity": "sha512-hJY8KJRcCuqwEbALpUo2lp1fPhjd22DLsMebCBPjmJtdR6pVoOMYpM7/KA1poY9xkk23TbmzQq1MV3PO1XrdVA==",
+      "upstreamShasum": "be700bd554e993585ec340669f03d40afdc1e50f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.11.1-preview.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.5.4",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hJY8KJRcCuqwEbALpUo2lp1fPhjd22DLsMebCBPjmJtdR6pVoOMYpM7/KA1poY9xkk23TbmzQq1MV3PO1XrdVA==",
+          "shasum": "be700bd554e993585ec340669f03d40afdc1e50f"
+        }
+      }
+    },
+    {
+      "version": "0.5.5",
+      "variantId": "registry-package.openupm.com-ab7c6e8e51a1270c",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "c259893b36f793cb41870275a844e90dfd8fa8f2",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.5.5.tgz",
+      "upstreamIntegrity": "sha512-cR+Cl1UjxcBAC+Iys1wlhQjcY1x8C95K0jRjT9k4xjiFlXsjmmXS+o5Dl8A7Ld3S7g//1jPwimS5WlXWbi2EHA==",
+      "upstreamShasum": "d16420498c092d4aa30539ec6d6f896b9f0bb1e0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.11.1-preview.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.5.5",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cR+Cl1UjxcBAC+Iys1wlhQjcY1x8C95K0jRjT9k4xjiFlXsjmmXS+o5Dl8A7Ld3S7g//1jPwimS5WlXWbi2EHA==",
+          "shasum": "d16420498c092d4aa30539ec6d6f896b9f0bb1e0"
+        }
+      }
+    },
+    {
+      "version": "0.5.6",
+      "variantId": "registry-package.openupm.com-e69a549e99a127ba",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "195c7a8de967fb88347866392dbf2d89b11cdb36",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.5.6.tgz",
+      "upstreamIntegrity": "sha512-A/l67AHIDDUu0mRLLy8foJK4iiLtpMFNs0hnD6/eIDj4kaPHv1a/UDGm644gOe/CSBoDQSdfNStoimp3ZLjROw==",
+      "upstreamShasum": "c31bcf67590c426ab3c449cba9f725891c103729",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.11.1-preview.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.5.6",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-A/l67AHIDDUu0mRLLy8foJK4iiLtpMFNs0hnD6/eIDj4kaPHv1a/UDGm644gOe/CSBoDQSdfNStoimp3ZLjROw==",
+          "shasum": "c31bcf67590c426ab3c449cba9f725891c103729"
+        }
+      }
+    },
+    {
+      "version": "0.5.7",
+      "variantId": "registry-package.openupm.com-4e78c7881a215935",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "ae8afebb6d9aeea6f2ba17763ad10d95a5593549",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.5.7.tgz",
+      "upstreamIntegrity": "sha512-wwq0iIo95T09Fu+ITnmWgTN081jAMct7o48gH8Bdyt36xQmM8t2l7W+yK340xgMO49IWIcNagH5W8Xc/aOKfew==",
+      "upstreamShasum": "e3d85a787001ac8729f188829c8a99f87a2a5cc2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.13.0-preview.24"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.5.7",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wwq0iIo95T09Fu+ITnmWgTN081jAMct7o48gH8Bdyt36xQmM8t2l7W+yK340xgMO49IWIcNagH5W8Xc/aOKfew==",
+          "shasum": "e3d85a787001ac8729f188829c8a99f87a2a5cc2"
+        }
+      }
+    },
+    {
+      "version": "0.5.8",
+      "variantId": "registry-package.openupm.com-7d6d23b3010f05cf",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "3373a8af81310d50e8319e496e83c2238d907c85",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.5.8.tgz",
+      "upstreamIntegrity": "sha512-QH0AdcRhKKYTiIAb4wqMhAZHODGsHP16QEIGDcB0IdcTgy9qzT6m8K7iGXmqF8Ql4Of2hb+Ku/yvn1JAXfrvJA==",
+      "upstreamShasum": "6e5d48bd2a2203502fd7590bb8a52d276f4d5bd7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.13.0-preview.24"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.5.8",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QH0AdcRhKKYTiIAb4wqMhAZHODGsHP16QEIGDcB0IdcTgy9qzT6m8K7iGXmqF8Ql4Of2hb+Ku/yvn1JAXfrvJA==",
+          "shasum": "6e5d48bd2a2203502fd7590bb8a52d276f4d5bd7"
+        }
+      }
+    },
+    {
+      "version": "0.5.9",
+      "variantId": "registry-package.openupm.com-9a04c3948d9231fd",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "055d017ee98a4e8edf44ed11738dbd45873ba7d3",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.5.9.tgz",
+      "upstreamIntegrity": "sha512-5MeoJuV2rfGEVZP7MXADnhvCvLATspsOaU2Jv1hnyutb0Dh4ZuT+3tEp02ymrrjAsncbXSWRjG8n+YDpMprB1w==",
+      "upstreamShasum": "f3be9247ba9977bc2cbea744e83568c64155cf13",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.14.0-preview.18"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.5.9",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5MeoJuV2rfGEVZP7MXADnhvCvLATspsOaU2Jv1hnyutb0Dh4ZuT+3tEp02ymrrjAsncbXSWRjG8n+YDpMprB1w==",
+          "shasum": "f3be9247ba9977bc2cbea744e83568c64155cf13"
+        }
+      }
+    },
+    {
+      "version": "0.5.10",
+      "variantId": "registry-package.openupm.com-fc3f58a2dbf14938",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "cc8b584116dae943935d5105bfc375f98d0e2ec2",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.5.10.tgz",
+      "upstreamIntegrity": "sha512-yDbqnF5SiIlZa7TFdpV+nNuz8PX6VrQOTnF+FVWhc8Pg9d8kkTFnvnbMFYvXgYU/M89WUtsE7q3GjBir/rgU/A==",
+      "upstreamShasum": "328988f64e1455a9114c02eef5777d9a127e4514",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.14.0-preview.19"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.5.10",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yDbqnF5SiIlZa7TFdpV+nNuz8PX6VrQOTnF+FVWhc8Pg9d8kkTFnvnbMFYvXgYU/M89WUtsE7q3GjBir/rgU/A==",
+          "shasum": "328988f64e1455a9114c02eef5777d9a127e4514"
+        }
+      }
+    },
+    {
+      "version": "0.5.11",
+      "variantId": "registry-package.openupm.com-8ad0bcdb736196b9",
+      "sourceUrl": "https://package.openupm.com/com.reese.spawning",
+      "sourceRef": "72c8ae0d1b104c65c5d23d314e360c4978157e8e",
+      "downloadUrl": "https://package.openupm.com/com.reese.spawning/-/com.reese.spawning-0.5.11.tgz",
+      "upstreamIntegrity": "sha512-CSAbZ8cKdCVO1qD4sm0STxo1L/QiNd/XR3TczOqKf/++d34Yt+wjTTcGNyIgM5aF13VoRjKCQLkWLWhN9HgywQ==",
+      "upstreamShasum": "42a18c14d8120509dc38ebcb984aff55abd5a115",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.14.0-preview.19"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.reese.spawning/0.5.11",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CSAbZ8cKdCVO1qD4sm0STxo1L/QiNd/XR3TczOqKf/++d34Yt+wjTTcGNyIgM5aF13VoRjKCQLkWLWhN9HgywQ==",
+          "shasum": "42a18c14d8120509dc38ebcb984aff55abd5a115"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.5.11"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.reese.spawning.yml",
+  "definitionBlobSha": "0581e1115e2d32b16d6d86ba564ae57291905172",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.5.11",
+    "0.5.10",
+    "0.5.9"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 18,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

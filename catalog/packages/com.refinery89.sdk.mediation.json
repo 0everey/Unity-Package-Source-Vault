@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.refinery89.sdk.mediation",
+  "displayName": "com.refinery89.sdk.mediation",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.refinery89.sdk.mediation",
+      "fetchedAt": "2026-10-17T17:41:23.911265Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.2.5-beta.2",
+      "variantId": "registry-package.openupm.com-567cdd2d38577e2b",
+      "sourceUrl": "https://github.com/R89SDK/R89MediationAdapterUnity.git",
+      "sourceRef": "86fd3e06cca45b742cd47959a3e88ec5ae7dc3aa",
+      "downloadUrl": "https://package.openupm.com/com.refinery89.sdk.mediation/-/com.refinery89.sdk.mediation-1.2.5-beta.2.tgz",
+      "upstreamIntegrity": "sha512-LzwF35irduJUNeOPreniraEejh4LsnSKotBRlIgpE6rvLcUEDexdI7Y6+2i6VDcRARFAyibzy7MpMyHK4PuEPA==",
+      "upstreamShasum": "33ea5c2b284a9a018b6717248ad4beb0551a6b34",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.ads.mobile": "9.1.0",
+        "com.google.external-dependency-manager": "1.2.178"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.refinery89.sdk.mediation/1.2.5-beta.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LzwF35irduJUNeOPreniraEejh4LsnSKotBRlIgpE6rvLcUEDexdI7Y6+2i6VDcRARFAyibzy7MpMyHK4PuEPA==",
+          "shasum": "33ea5c2b284a9a018b6717248ad4beb0551a6b34"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.2.5-beta.2"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.refinery89.sdk.mediation.yml",
+  "definitionBlobSha": "b0da90c8be36398c290c88de19d8f07004581d80",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.2.5-beta.2"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

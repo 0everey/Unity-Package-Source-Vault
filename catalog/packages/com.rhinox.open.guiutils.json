@@ -1,0 +1,2528 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.rhinox.open.guiutils",
+  "displayName": "com.rhinox.open.guiutils",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils",
+      "fetchedAt": "2026-10-17T17:41:33.944494Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-2db0a54801cefdf5",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-XUgXoRc9/pkUNapaON9ox8Da5ll430SyYtYWYtf4V0Szf+6ArGuZMFLR+4arnpnv8HkhhBaWY8YNgFdyFlCU0Q==",
+      "upstreamShasum": "a88f7a5bfea2b8858a4e870b2edce301af636f37",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.0.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XUgXoRc9/pkUNapaON9ox8Da5ll430SyYtYWYtf4V0Szf+6ArGuZMFLR+4arnpnv8HkhhBaWY8YNgFdyFlCU0Q==",
+          "shasum": "a88f7a5bfea2b8858a4e870b2edce301af636f37"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-a5f758449f03e475",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-1T5pje3osKmyoGNhtGbqlmnfK5pJ+aA5GJ8DuasLMpRM+WcgxgjQtDNDT7jhYRN7G1ydtdysR5MRQ8bJ7y48tg==",
+      "upstreamShasum": "3f6615fc472ff2e200bb7091e1a0c3d4c7c8ff0a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.1.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1T5pje3osKmyoGNhtGbqlmnfK5pJ+aA5GJ8DuasLMpRM+WcgxgjQtDNDT7jhYRN7G1ydtdysR5MRQ8bJ7y48tg==",
+          "shasum": "3f6615fc472ff2e200bb7091e1a0c3d4c7c8ff0a"
+        }
+      }
+    },
+    {
+      "version": "1.1.1",
+      "variantId": "registry-package.openupm.com-f5a149078df98a62",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.1.1.tgz",
+      "upstreamIntegrity": "sha512-/ruSvdxFGDzyREaj+D0GY7z9hYvNm0eN9t/+skD0yvW/jLibb8eOtp/K0vzxqs5bywInGGPBYNUHSZvOY8O0Lw==",
+      "upstreamShasum": "ab36973cebd944e37325f5c5ce5c60af8d8f0998",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.1.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/ruSvdxFGDzyREaj+D0GY7z9hYvNm0eN9t/+skD0yvW/jLibb8eOtp/K0vzxqs5bywInGGPBYNUHSZvOY8O0Lw==",
+          "shasum": "ab36973cebd944e37325f5c5ce5c60af8d8f0998"
+        }
+      }
+    },
+    {
+      "version": "1.1.2",
+      "variantId": "registry-package.openupm.com-3d1131f30b699dc2",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.1.2.tgz",
+      "upstreamIntegrity": "sha512-f7k5fvUvVB7Nc0v+hGLRuoxkr/Jgqo6yJc5nhXtcQBBKhH011csmtNRf3GVMdXuNtBlsA+dFmO36/rOWHKlfhw==",
+      "upstreamShasum": "84487ce1988b74fc46ac27314549829e8c998c24",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.1.2",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-f7k5fvUvVB7Nc0v+hGLRuoxkr/Jgqo6yJc5nhXtcQBBKhH011csmtNRf3GVMdXuNtBlsA+dFmO36/rOWHKlfhw==",
+          "shasum": "84487ce1988b74fc46ac27314549829e8c998c24"
+        }
+      }
+    },
+    {
+      "version": "1.1.3",
+      "variantId": "registry-package.openupm.com-a346ce96876cc0e4",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.1.3.tgz",
+      "upstreamIntegrity": "sha512-SLkidzmdmdly8k7HpcOiZhHIE1avif8Ihm/p6X8+wpcEw+1aPop1GItx8WeDQpLXHCXEK2RKpk8j7wHJrhrRIA==",
+      "upstreamShasum": "1c5bb48e62c1b9a0f93ce436f98cea54522e7382",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.1.3",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SLkidzmdmdly8k7HpcOiZhHIE1avif8Ihm/p6X8+wpcEw+1aPop1GItx8WeDQpLXHCXEK2RKpk8j7wHJrhrRIA==",
+          "shasum": "1c5bb48e62c1b9a0f93ce436f98cea54522e7382"
+        }
+      }
+    },
+    {
+      "version": "1.1.4",
+      "variantId": "registry-package.openupm.com-129712f35458b584",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.1.4.tgz",
+      "upstreamIntegrity": "sha512-ZxiRM52jh4doca/tREy3E/BoJo34vSiHPzOvNqX1kQLygv2dqIdCPw8yL8w4q5GkawVv26T7ConPZuSfNdrEhQ==",
+      "upstreamShasum": "17eb007bba8703c0a83f91159f0d3d4c4f9bad43",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.1.4",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZxiRM52jh4doca/tREy3E/BoJo34vSiHPzOvNqX1kQLygv2dqIdCPw8yL8w4q5GkawVv26T7ConPZuSfNdrEhQ==",
+          "shasum": "17eb007bba8703c0a83f91159f0d3d4c4f9bad43"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-03c7bc4877bd15e9",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-6/ug5iYXkOKLIz5e+ixcmXibvDJgVo4/SSd9b48eLw3SWO66Z+fb92enjSuFk4w+/zrqYJPrl1zpZBSGbwi8SQ==",
+      "upstreamShasum": "3928b5cbac437711b5d64f77a11472eef3aa56d1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.2.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6/ug5iYXkOKLIz5e+ixcmXibvDJgVo4/SSd9b48eLw3SWO66Z+fb92enjSuFk4w+/zrqYJPrl1zpZBSGbwi8SQ==",
+          "shasum": "3928b5cbac437711b5d64f77a11472eef3aa56d1"
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "variantId": "registry-package.openupm.com-2f777ecde090bd03",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.3.0.tgz",
+      "upstreamIntegrity": "sha512-zild56bRGkUQqdKXBaF0BYNaDI8h+npJZhMfHVWuC6C43RDRmWqEtjpX3rX/PyydXbuJn0S3pxcSZY1zBnllZQ==",
+      "upstreamShasum": "48487d83884af455489a8d7d7c291c3ea797d2b2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.3.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zild56bRGkUQqdKXBaF0BYNaDI8h+npJZhMfHVWuC6C43RDRmWqEtjpX3rX/PyydXbuJn0S3pxcSZY1zBnllZQ==",
+          "shasum": "48487d83884af455489a8d7d7c291c3ea797d2b2"
+        }
+      }
+    },
+    {
+      "version": "1.3.1",
+      "variantId": "registry-package.openupm.com-e0cb4a240878a49e",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.3.1.tgz",
+      "upstreamIntegrity": "sha512-NsR0lfWZWp4d1JhvPuMJsGD6JuN7g/rQYtiDPCm0r1WgPi1E4FZDsHo0ky9/NmgRhRQtwH+scJV9/lefANddDQ==",
+      "upstreamShasum": "9f5c7cc09df2f1921deee9ac22dfd017983688f2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.3.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NsR0lfWZWp4d1JhvPuMJsGD6JuN7g/rQYtiDPCm0r1WgPi1E4FZDsHo0ky9/NmgRhRQtwH+scJV9/lefANddDQ==",
+          "shasum": "9f5c7cc09df2f1921deee9ac22dfd017983688f2"
+        }
+      }
+    },
+    {
+      "version": "1.3.2",
+      "variantId": "registry-package.openupm.com-1ceef555595d0ec9",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.3.2.tgz",
+      "upstreamIntegrity": "sha512-zVnLdvNsdyaP0Chxsxk8U2Y1wmtF3twuJlsq4k3RNF6+Ks362+EpD4HhYk7bcCXZMlY2MiKlfo+hhIc8PplWTA==",
+      "upstreamShasum": "5df0760006c966134f31ab025b32e4c4560172b7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.3.2",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zVnLdvNsdyaP0Chxsxk8U2Y1wmtF3twuJlsq4k3RNF6+Ks362+EpD4HhYk7bcCXZMlY2MiKlfo+hhIc8PplWTA==",
+          "shasum": "5df0760006c966134f31ab025b32e4c4560172b7"
+        }
+      }
+    },
+    {
+      "version": "1.4.0",
+      "variantId": "registry-package.openupm.com-ffa690b350b354d1",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.4.0.tgz",
+      "upstreamIntegrity": "sha512-Cip2fn8CvDh765q6s+5i9xRdx6HkotCb8IypBEub4YDYE3XMKbTn+DWKPUUIpiO54NRGlHQtDd2lA4cphrZDtQ==",
+      "upstreamShasum": "5f39b2265f72130e2804a50ccd6f9ad803f8aac2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.4.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Cip2fn8CvDh765q6s+5i9xRdx6HkotCb8IypBEub4YDYE3XMKbTn+DWKPUUIpiO54NRGlHQtDd2lA4cphrZDtQ==",
+          "shasum": "5f39b2265f72130e2804a50ccd6f9ad803f8aac2"
+        }
+      }
+    },
+    {
+      "version": "1.4.1",
+      "variantId": "registry-package.openupm.com-06267f5c71aaa0a8",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.4.1.tgz",
+      "upstreamIntegrity": "sha512-Ky+wswGao/AtciSFcVn2fK/BzjbhTWQ1f4UbVB5dBOYcHUvDqRso2/EPXLYjLtRj1XN2tFPzT+fx0IiiWtsFvg==",
+      "upstreamShasum": "3c0c1d57182fe6c39dcff1ae7495960bf115f10f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.4.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ky+wswGao/AtciSFcVn2fK/BzjbhTWQ1f4UbVB5dBOYcHUvDqRso2/EPXLYjLtRj1XN2tFPzT+fx0IiiWtsFvg==",
+          "shasum": "3c0c1d57182fe6c39dcff1ae7495960bf115f10f"
+        }
+      }
+    },
+    {
+      "version": "1.4.2",
+      "variantId": "registry-package.openupm.com-d1450dcbd172abb9",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.4.2.tgz",
+      "upstreamIntegrity": "sha512-LD6vF929YiKlZDYCRmTf06dsGDBgnBdwAxROkuNEbIC7Og6lBtPbFtoCzR/pu4XwVbhQiSgzg/rPzWNhErqXew==",
+      "upstreamShasum": "f3b7272715991c99c58c81c5ca9b4ee6b9e2764a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.4.2",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LD6vF929YiKlZDYCRmTf06dsGDBgnBdwAxROkuNEbIC7Og6lBtPbFtoCzR/pu4XwVbhQiSgzg/rPzWNhErqXew==",
+          "shasum": "f3b7272715991c99c58c81c5ca9b4ee6b9e2764a"
+        }
+      }
+    },
+    {
+      "version": "1.4.3",
+      "variantId": "registry-package.openupm.com-66fc15ffb4b1c288",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "d6b8aaa4b25dc5e4f595314bf5f46f56aa3d2ef8",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.4.3.tgz",
+      "upstreamIntegrity": "sha512-rJjLGQzIjRgMnxQWmRX4kbOUZKt7TE0f+6+O+hUvbJDACKUeq9eKqtVsS4TL7B59feUgTROz6DHfdZaATe40EA==",
+      "upstreamShasum": "8dbb3408f65b0899e47d7f6104d0fe21abb8e2e1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.13"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.4.3",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rJjLGQzIjRgMnxQWmRX4kbOUZKt7TE0f+6+O+hUvbJDACKUeq9eKqtVsS4TL7B59feUgTROz6DHfdZaATe40EA==",
+          "shasum": "8dbb3408f65b0899e47d7f6104d0fe21abb8e2e1"
+        }
+      }
+    },
+    {
+      "version": "1.4.4",
+      "variantId": "registry-package.openupm.com-49aa201c87ba0dd8",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "fb15243014df113f77c8ee376e4e5aec5beff222",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.4.4.tgz",
+      "upstreamIntegrity": "sha512-2JaZLcrjUHi4T0Pf6joooY5rFsCSYK6LLeWuKaET/Z77dgZ3YGNg1zuE4wzPH+bAuroGZ9W0DvMOBjeBgWMdWg==",
+      "upstreamShasum": "4bb64622a9f4a851276a1f2484543fb24e7ae35b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.4.4",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2JaZLcrjUHi4T0Pf6joooY5rFsCSYK6LLeWuKaET/Z77dgZ3YGNg1zuE4wzPH+bAuroGZ9W0DvMOBjeBgWMdWg==",
+          "shasum": "4bb64622a9f4a851276a1f2484543fb24e7ae35b"
+        }
+      }
+    },
+    {
+      "version": "1.4.5",
+      "variantId": "registry-package.openupm.com-2592175c1f5e1e0d",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "4971011c75839c7d06f0214bb67d5dd2cc90f195",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.4.5.tgz",
+      "upstreamIntegrity": "sha512-nLZwdKmPd0UcHRI8+/q0zr8Gv8zFqrqkhXWL1UGOTuQToLL3p1urYwU83xvKIDcBu9mpnhaIQ7BWYCzsP3ZKUA==",
+      "upstreamShasum": "85db5861794d168cd37014c4cf8e026d90ec8ac3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.1.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.4.5",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nLZwdKmPd0UcHRI8+/q0zr8Gv8zFqrqkhXWL1UGOTuQToLL3p1urYwU83xvKIDcBu9mpnhaIQ7BWYCzsP3ZKUA==",
+          "shasum": "85db5861794d168cd37014c4cf8e026d90ec8ac3"
+        }
+      }
+    },
+    {
+      "version": "1.4.6",
+      "variantId": "registry-package.openupm.com-bef610b6fe24a5a0",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "8bd555fbcfa0c1a77a7fbe72804e3ee760bf22dd",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.4.6.tgz",
+      "upstreamIntegrity": "sha512-Gas9mxYWCWGvAN5CbSCpQLMa2Npv6tXncQVfUNXe7nrY/Us8YMVIPy6Ec90+4OzOf0Kbduj5A1+9ORuwRxUQ6A==",
+      "upstreamShasum": "4d9e32b99b51a7b3ead85f00e0c4d8949358d4fb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.4.6",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Gas9mxYWCWGvAN5CbSCpQLMa2Npv6tXncQVfUNXe7nrY/Us8YMVIPy6Ec90+4OzOf0Kbduj5A1+9ORuwRxUQ6A==",
+          "shasum": "4d9e32b99b51a7b3ead85f00e0c4d8949358d4fb"
+        }
+      }
+    },
+    {
+      "version": "1.5.0",
+      "variantId": "registry-package.openupm.com-fc0af66c94e435d8",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "cdd397f7c1bc9cf8a935f8224475388b2389a538",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.5.0.tgz",
+      "upstreamIntegrity": "sha512-caqvjnrpk1nXDq3vybepn12zfnkd2XiwLtIIAx+cLDuKy90SXgIZ4LQJ8T5Lr78SatD7HP2aZmxWRfzX8vqQ0Q==",
+      "upstreamShasum": "779df3a200ee0441d800d474697bdac4976a0693",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.5.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-caqvjnrpk1nXDq3vybepn12zfnkd2XiwLtIIAx+cLDuKy90SXgIZ4LQJ8T5Lr78SatD7HP2aZmxWRfzX8vqQ0Q==",
+          "shasum": "779df3a200ee0441d800d474697bdac4976a0693"
+        }
+      }
+    },
+    {
+      "version": "1.5.1",
+      "variantId": "registry-package.openupm.com-34f5c5a4aad51e36",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "f9ae7135dea1f76fc2dc9d3b7c1673831e4d3196",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.5.1.tgz",
+      "upstreamIntegrity": "sha512-Ighec3Tsi7ClkviuGBldSM9+FtkfXsPPxZbVt9Clb/ZqnMSPQ1/WDXy3tWscZe2c2O9pu+qffxNLkJ8Sce14Fg==",
+      "upstreamShasum": "2c5c8d64479b59a496dfaed4771645b53e9a37da",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.5.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ighec3Tsi7ClkviuGBldSM9+FtkfXsPPxZbVt9Clb/ZqnMSPQ1/WDXy3tWscZe2c2O9pu+qffxNLkJ8Sce14Fg==",
+          "shasum": "2c5c8d64479b59a496dfaed4771645b53e9a37da"
+        }
+      }
+    },
+    {
+      "version": "1.5.2",
+      "variantId": "registry-package.openupm.com-9ea0d1434328b256",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "e0fac26932d83211f46c4bd71a5101a7c7e0d3a7",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.5.2.tgz",
+      "upstreamIntegrity": "sha512-w8lP40E9nb+acPr4R0WZ7qLMOB0lZ7t/ZA9Seejq68TynuWYcT+ZBv6E/pFix2+GjI8QSNwzMm6OipYmmz6Zmg==",
+      "upstreamShasum": "6e6b45ab4e1042918a0b1866fd45c8354e2dbc9b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.5.2",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-w8lP40E9nb+acPr4R0WZ7qLMOB0lZ7t/ZA9Seejq68TynuWYcT+ZBv6E/pFix2+GjI8QSNwzMm6OipYmmz6Zmg==",
+          "shasum": "6e6b45ab4e1042918a0b1866fd45c8354e2dbc9b"
+        }
+      }
+    },
+    {
+      "version": "1.5.3",
+      "variantId": "registry-package.openupm.com-175ffd0d80990fe2",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "1eddccb571b3d920e5cdcfd165d6c0f2cbcfe7ad",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.5.3.tgz",
+      "upstreamIntegrity": "sha512-sjolxBiykoeR4Ic1JwrLEF/su5B5TEzuq1P/N9I9Q6VurVf37uLnSNCpaWdbWmEw1xevRUAKk6XsNeLZIRX2FQ==",
+      "upstreamShasum": "213d9ab12ee4ddb2d788bcfa3bc1bdf181a05f49",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.2.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.5.3",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sjolxBiykoeR4Ic1JwrLEF/su5B5TEzuq1P/N9I9Q6VurVf37uLnSNCpaWdbWmEw1xevRUAKk6XsNeLZIRX2FQ==",
+          "shasum": "213d9ab12ee4ddb2d788bcfa3bc1bdf181a05f49"
+        }
+      }
+    },
+    {
+      "version": "1.5.4",
+      "variantId": "registry-package.openupm.com-396fff196d8fa30f",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "02a1b17922bd5d7cf1fa6c329e7f8a2c28fa2018",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.5.4.tgz",
+      "upstreamIntegrity": "sha512-2gwK8/la+0Ik2kcZsu1xZjysv/Id+Is5jvzwE6QNEDFuYU4XA37zjVC33HR3XP2E1ViUb4No2CqD40TJoTIc+Q==",
+      "upstreamShasum": "35ba51cc8621fdbe6c877f7374478aea04491919",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.2.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.5.4",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2gwK8/la+0Ik2kcZsu1xZjysv/Id+Is5jvzwE6QNEDFuYU4XA37zjVC33HR3XP2E1ViUb4No2CqD40TJoTIc+Q==",
+          "shasum": "35ba51cc8621fdbe6c877f7374478aea04491919"
+        }
+      }
+    },
+    {
+      "version": "1.5.5",
+      "variantId": "registry-package.openupm.com-49c0bc5a8e4f36b2",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "566171e52ae334d9d31f35bfe8f530561fd81153",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.5.5.tgz",
+      "upstreamIntegrity": "sha512-jO84p71BFSWd1+RobBR7VeapyzfAuAXXum8C+4A2s2ibHTKQme5H8jLlP2dwQER4Ade7SWBguJRzP2NvKl/xVg==",
+      "upstreamShasum": "a2f549d4d1693a5d43738aacf21bce0e7385a852",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.2.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.5.5",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jO84p71BFSWd1+RobBR7VeapyzfAuAXXum8C+4A2s2ibHTKQme5H8jLlP2dwQER4Ade7SWBguJRzP2NvKl/xVg==",
+          "shasum": "a2f549d4d1693a5d43738aacf21bce0e7385a852"
+        }
+      }
+    },
+    {
+      "version": "1.5.6",
+      "variantId": "registry-package.openupm.com-d7dddc9765ddec0f",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "b5ce2c83c9034a32b12efc17085248943e835804",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.5.6.tgz",
+      "upstreamIntegrity": "sha512-vjvSpEAwC1fuxMp1sGKrOveW69oSBIBeQdXUGqy95b3Izq41IUuEBrtRzQ7c70MlLalpWILNj0Jx8CS69kj6nA==",
+      "upstreamShasum": "296b6ddfb6f270ecb506b728aa0fbb6e5e4dfe18",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.2.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.5.6",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vjvSpEAwC1fuxMp1sGKrOveW69oSBIBeQdXUGqy95b3Izq41IUuEBrtRzQ7c70MlLalpWILNj0Jx8CS69kj6nA==",
+          "shasum": "296b6ddfb6f270ecb506b728aa0fbb6e5e4dfe18"
+        }
+      }
+    },
+    {
+      "version": "1.5.7",
+      "variantId": "registry-package.openupm.com-a51eca0fd70cc382",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "ac80438323ce3a0d6b3e356f3a2bec43a60a55bf",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.5.7.tgz",
+      "upstreamIntegrity": "sha512-M2vXYB0QJwLu2ZDlFDSrWZ9xX0LSGlGTsru7YQJ4x6N8zkhubMKp0egnlnqw9J8zWsq8fHU+3TIy6FfyZCivEA==",
+      "upstreamShasum": "d45580be849df1f3f5d25a208533e82abf9722c7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.2.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.5.7",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-M2vXYB0QJwLu2ZDlFDSrWZ9xX0LSGlGTsru7YQJ4x6N8zkhubMKp0egnlnqw9J8zWsq8fHU+3TIy6FfyZCivEA==",
+          "shasum": "d45580be849df1f3f5d25a208533e82abf9722c7"
+        }
+      }
+    },
+    {
+      "version": "1.5.8",
+      "variantId": "registry-package.openupm.com-dc26d3eae54636ba",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "05966453cefdba79ff909e92aa86b22ae91996e2",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-1.5.8.tgz",
+      "upstreamIntegrity": "sha512-9Tydqfh5iQW6czi5dKQ2KPc0EV+1uLiofe5LAH9IcaTTvH2nC7OA27Onlb7tqPDV4+BaRFUcSImBrdu/8DTDiA==",
+      "upstreamShasum": "c62900933a5c3a41f787c5afd2748cb2db859e37",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.2.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/1.5.8",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9Tydqfh5iQW6czi5dKQ2KPc0EV+1uLiofe5LAH9IcaTTvH2nC7OA27Onlb7tqPDV4+BaRFUcSImBrdu/8DTDiA==",
+          "shasum": "c62900933a5c3a41f787c5afd2748cb2db859e37"
+        }
+      }
+    },
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-b304abca292edc6f",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "760138e2952108ddcea74977b128e11d418bb90d",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.0.0.tgz",
+      "upstreamIntegrity": "sha512-zrCKNDaym7zxVLu0V6Aj49mMzaFlCETNollXZReOzE224DyLOylRIFzbnij8e4LpdrJvGKYVO4J68IZ0QGozsA==",
+      "upstreamShasum": "fe0ddf2e5cdca918da084d903775880300457b12",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.3.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.0.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zrCKNDaym7zxVLu0V6Aj49mMzaFlCETNollXZReOzE224DyLOylRIFzbnij8e4LpdrJvGKYVO4J68IZ0QGozsA==",
+          "shasum": "fe0ddf2e5cdca918da084d903775880300457b12"
+        }
+      }
+    },
+    {
+      "version": "2.0.1",
+      "variantId": "registry-package.openupm.com-ee33706a5d09bb34",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "32a021d5b52312cd04a4144b1a65122011f0b385",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.0.1.tgz",
+      "upstreamIntegrity": "sha512-d9656CD2mXy5l1ot5k1NWBancN8gTO+TgHkVGQv4+iKzRNWhnEJBawdro0Nby5YEZHSeAbqheFjgGVLFJlr8Ew==",
+      "upstreamShasum": "4a06062c5f86e9fac0b7a597ca896b6d5454b74a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.3.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.0.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-d9656CD2mXy5l1ot5k1NWBancN8gTO+TgHkVGQv4+iKzRNWhnEJBawdro0Nby5YEZHSeAbqheFjgGVLFJlr8Ew==",
+          "shasum": "4a06062c5f86e9fac0b7a597ca896b6d5454b74a"
+        }
+      }
+    },
+    {
+      "version": "2.1.0",
+      "variantId": "registry-package.openupm.com-efcdadc47d008281",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "ae59db1c786d5021cac04bc0441a4045c45faa05",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.1.0.tgz",
+      "upstreamIntegrity": "sha512-C7qjZ07UGSbwHX9+PoNqCazVL3vc/CjHeTtAg341e0WeZMaRVrDfRe6KgAz3SxJOj4cN72qsxIFPzZ2Znl78lQ==",
+      "upstreamShasum": "d426cf829cb0ff19c91bb4107c5f83e9877359b4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.1.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-C7qjZ07UGSbwHX9+PoNqCazVL3vc/CjHeTtAg341e0WeZMaRVrDfRe6KgAz3SxJOj4cN72qsxIFPzZ2Znl78lQ==",
+          "shasum": "d426cf829cb0ff19c91bb4107c5f83e9877359b4"
+        }
+      }
+    },
+    {
+      "version": "2.1.1",
+      "variantId": "registry-package.openupm.com-9c422cd4bf54cd93",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "1dac88f1d1f5dc2068fe92f802f7fe1b379a20e7",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.1.1.tgz",
+      "upstreamIntegrity": "sha512-J3jnmmh3qZz9jyVZm1zPV2F/3aTesBZnHsx9tFEhBw+7Gzqkoju1PoFkFqV0Sx/bki2xNYbtYteGdjbDheHIgA==",
+      "upstreamShasum": "efcdb4a7f23500b17a9dc758df221fd7db67dfe7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.1.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-J3jnmmh3qZz9jyVZm1zPV2F/3aTesBZnHsx9tFEhBw+7Gzqkoju1PoFkFqV0Sx/bki2xNYbtYteGdjbDheHIgA==",
+          "shasum": "efcdb4a7f23500b17a9dc758df221fd7db67dfe7"
+        }
+      }
+    },
+    {
+      "version": "2.1.2",
+      "variantId": "registry-package.openupm.com-891962efcb4a01fb",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "0d8ac233bd05028cb38a08c62c2c8bf8ecae6cf2",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.1.2.tgz",
+      "upstreamIntegrity": "sha512-dZdAe4aU751Bx1kaifBOwdC9aQ0oJY8ODubFP9IS0Iz5NkWTSnux3ptNPObAvXclXlhmffe8nYbsjVetYnVfyA==",
+      "upstreamShasum": "51a92c3e47aa3ab92038a2fd9a313e04c31a77c6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.1.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dZdAe4aU751Bx1kaifBOwdC9aQ0oJY8ODubFP9IS0Iz5NkWTSnux3ptNPObAvXclXlhmffe8nYbsjVetYnVfyA==",
+          "shasum": "51a92c3e47aa3ab92038a2fd9a313e04c31a77c6"
+        }
+      }
+    },
+    {
+      "version": "2.1.3",
+      "variantId": "registry-package.openupm.com-9606e24d2763d845",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "08ea82c889aecebf6fd35df1ef09abdd7038f114",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.1.3.tgz",
+      "upstreamIntegrity": "sha512-Hzc5sz+AuAU0vsb17PNrSm7jwEM2uLClon1kXjI215rN6YbxwVpxBKee7nYG1pijknV93DzlbZEcoCOcY7B1QA==",
+      "upstreamShasum": "2d43fff6953fbafd6e4cb8747eac6cbc630a41de",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.1.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Hzc5sz+AuAU0vsb17PNrSm7jwEM2uLClon1kXjI215rN6YbxwVpxBKee7nYG1pijknV93DzlbZEcoCOcY7B1QA==",
+          "shasum": "2d43fff6953fbafd6e4cb8747eac6cbc630a41de"
+        }
+      }
+    },
+    {
+      "version": "2.1.4",
+      "variantId": "registry-package.openupm.com-0fbace497228d587",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "61793b7dcf74525df8b9b27ebe7fbc0297ea22d6",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.1.4.tgz",
+      "upstreamIntegrity": "sha512-aOTtSrKK4Ws3TNO4PomFMgSxx1nDFoqFkdjlW1gRCzLzi/Ei6327WAAzIFKNJl5aZtIS2gkRXFH4rM4mr8IQHA==",
+      "upstreamShasum": "7633c255d7fab9ba0087e59e3959ffc1d0fafa81",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.1.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-aOTtSrKK4Ws3TNO4PomFMgSxx1nDFoqFkdjlW1gRCzLzi/Ei6327WAAzIFKNJl5aZtIS2gkRXFH4rM4mr8IQHA==",
+          "shasum": "7633c255d7fab9ba0087e59e3959ffc1d0fafa81"
+        }
+      }
+    },
+    {
+      "version": "2.1.5",
+      "variantId": "registry-package.openupm.com-3949616df8fbf7db",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "d33b83d8497a6130398e4b61701d42e1db2f8ded",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.1.5.tgz",
+      "upstreamIntegrity": "sha512-v/fqUBkcxrprjLWR+36FmCpMNfOsdkW0IpnDOyL7GFmnIaDEzADuoz0rrccB1w0564FZyi2Am9rSLnasvDT8gQ==",
+      "upstreamShasum": "e0f89b69da2867aa004f8978fab246865bc7e0f9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.1.5",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-v/fqUBkcxrprjLWR+36FmCpMNfOsdkW0IpnDOyL7GFmnIaDEzADuoz0rrccB1w0564FZyi2Am9rSLnasvDT8gQ==",
+          "shasum": "e0f89b69da2867aa004f8978fab246865bc7e0f9"
+        }
+      }
+    },
+    {
+      "version": "2.2.0",
+      "variantId": "registry-package.openupm.com-9d93548f5028cf60",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "b6a3068a5d2365c16a458b0f06586f842dd355c3",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.2.0.tgz",
+      "upstreamIntegrity": "sha512-+g/K3aHxz3YR0Bbphj9bur9bckxcpKEZlD5eb8T2WXbp424MNA9XL3hgWPT/6lQNifm4KyKfAcVzMqyOyG1LaA==",
+      "upstreamShasum": "43a30578ffe5978ee8025d97241ba106b7f3eeb8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.2.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+g/K3aHxz3YR0Bbphj9bur9bckxcpKEZlD5eb8T2WXbp424MNA9XL3hgWPT/6lQNifm4KyKfAcVzMqyOyG1LaA==",
+          "shasum": "43a30578ffe5978ee8025d97241ba106b7f3eeb8"
+        }
+      }
+    },
+    {
+      "version": "2.2.1",
+      "variantId": "registry-package.openupm.com-6d50a38bd80c17ed",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "d6b687d39c2f2cfee9579dc88ca32f651210f365",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.2.1.tgz",
+      "upstreamIntegrity": "sha512-rGTMFAGOYB81wduVgd13EKOM6AE2WR8LXK6SibNZw1ieYZG538VEtqhP51YUFecg1tQlCYhTNMOQcw7wcs5i7A==",
+      "upstreamShasum": "15a77a8f371dfd59a9eaf7c0b748910339669ca5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.2.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rGTMFAGOYB81wduVgd13EKOM6AE2WR8LXK6SibNZw1ieYZG538VEtqhP51YUFecg1tQlCYhTNMOQcw7wcs5i7A==",
+          "shasum": "15a77a8f371dfd59a9eaf7c0b748910339669ca5"
+        }
+      }
+    },
+    {
+      "version": "2.2.2",
+      "variantId": "registry-package.openupm.com-2230d5fab797b4ee",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "466fb16f008af2fb9d24b89a61ba5fec08b682de",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.2.2.tgz",
+      "upstreamIntegrity": "sha512-WpxGyr8rfKG1bhlgNODzomT51FxYbd+1uZWonwSi2jhBwzDc6Q985TnvgDiSdigNMa+Ub++je96LZzAj8vGIYg==",
+      "upstreamShasum": "ee155c2f1645e929dc54a715b34649763234d72f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.4.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.2.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WpxGyr8rfKG1bhlgNODzomT51FxYbd+1uZWonwSi2jhBwzDc6Q985TnvgDiSdigNMa+Ub++je96LZzAj8vGIYg==",
+          "shasum": "ee155c2f1645e929dc54a715b34649763234d72f"
+        }
+      }
+    },
+    {
+      "version": "2.3.0",
+      "variantId": "registry-package.openupm.com-d9260927be58c5c4",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "18ff047f0055280ee1c484056dd24cd9cdab9398",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.3.0.tgz",
+      "upstreamIntegrity": "sha512-5RK7I3p9yzVid1Sg7lZrz9ODDKiXGJ2+84R3wh28wW23yeaDvWnwR7x9WXs4lCtdnH0mWeXbGaHnlvKDgCJktw==",
+      "upstreamShasum": "f5579fcb2a94a3145cd2ae6cd7de77a0b76a4654",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.4.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.3.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5RK7I3p9yzVid1Sg7lZrz9ODDKiXGJ2+84R3wh28wW23yeaDvWnwR7x9WXs4lCtdnH0mWeXbGaHnlvKDgCJktw==",
+          "shasum": "f5579fcb2a94a3145cd2ae6cd7de77a0b76a4654"
+        }
+      }
+    },
+    {
+      "version": "2.4.0",
+      "variantId": "registry-package.openupm.com-3a1fa596a6717a26",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "9c53b872aa5ccd07938ae03f4ea35eb84723309e",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.4.0.tgz",
+      "upstreamIntegrity": "sha512-7nvO7gr8uKOCAzoXaFTbnaGq03g3vKX8NbeAy1SzDB3TvhIkvcOKAQo0qQC+PxCxfQaHM9HP+FdGay75iBg/tw==",
+      "upstreamShasum": "5553e83c994c2f444c236e11b0213fce58bec4c6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.5.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.4.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7nvO7gr8uKOCAzoXaFTbnaGq03g3vKX8NbeAy1SzDB3TvhIkvcOKAQo0qQC+PxCxfQaHM9HP+FdGay75iBg/tw==",
+          "shasum": "5553e83c994c2f444c236e11b0213fce58bec4c6"
+        }
+      }
+    },
+    {
+      "version": "2.5.0",
+      "variantId": "registry-package.openupm.com-3f314e4e4c5ea0a4",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "882f1989652eae0c7d00b9f88432d99729a0bac0",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.5.0.tgz",
+      "upstreamIntegrity": "sha512-iDdT+yX6ZH+NsBlDXYE3QXQNhxbGSkt08fAJyqAcB2O926GDOGxU7Ul/E+ePrI+dfD354KSpzBCk36R1xdF+Ng==",
+      "upstreamShasum": "97ca0af47b0d45d43fb71d4702f4c071a873af2d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.5.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.5.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iDdT+yX6ZH+NsBlDXYE3QXQNhxbGSkt08fAJyqAcB2O926GDOGxU7Ul/E+ePrI+dfD354KSpzBCk36R1xdF+Ng==",
+          "shasum": "97ca0af47b0d45d43fb71d4702f4c071a873af2d"
+        }
+      }
+    },
+    {
+      "version": "2.6.0",
+      "variantId": "registry-package.openupm.com-1c98cda9209dd3ee",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "70465c93af0134fdd8fd073a933062577080bfa5",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.6.0.tgz",
+      "upstreamIntegrity": "sha512-xk0VagSywdO85vGoSLKzP+OgZh20ESlwzDKNftwuLD/dm6U+J+HjZjpvWjlu/grTWFd2FqqMvZmKgXWjdJYs1A==",
+      "upstreamShasum": "d31e594b0c44d594545b7a8cf6835ee39c258aed",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.5.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.6.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xk0VagSywdO85vGoSLKzP+OgZh20ESlwzDKNftwuLD/dm6U+J+HjZjpvWjlu/grTWFd2FqqMvZmKgXWjdJYs1A==",
+          "shasum": "d31e594b0c44d594545b7a8cf6835ee39c258aed"
+        }
+      }
+    },
+    {
+      "version": "2.6.1",
+      "variantId": "registry-package.openupm.com-f02a0fc9686bb531",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "bab4f4320536fe16360fcf35716e0d4c5dc3e9de",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.6.1.tgz",
+      "upstreamIntegrity": "sha512-Aw993UK5tWBsc9D9aoJQdpHS76yuG7bZhHOJpr5YQHfKmsvrrx6yz/ImhFSs8LQIJRqM7FMaP8yR1YjuBsBPFw==",
+      "upstreamShasum": "6b4386e7bcd0bbffa22221900925068a51594723",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.5.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.6.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Aw993UK5tWBsc9D9aoJQdpHS76yuG7bZhHOJpr5YQHfKmsvrrx6yz/ImhFSs8LQIJRqM7FMaP8yR1YjuBsBPFw==",
+          "shasum": "6b4386e7bcd0bbffa22221900925068a51594723"
+        }
+      }
+    },
+    {
+      "version": "2.6.2",
+      "variantId": "registry-package.openupm.com-bfb6035dad695f60",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "117d4179c460c3680cbdc231638f177118dcb97e",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.6.2.tgz",
+      "upstreamIntegrity": "sha512-iusEKoRMf1W96K+fqi0QQZRJOLFTElx7Vf8ZhmbfkC9d5Bu0BrUck/Iq3huRcXTGEA3Eue3sTqQQHgwV7kqVxw==",
+      "upstreamShasum": "31846dffb70b972abdec2afea454a930aa65c701",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.5.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.6.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iusEKoRMf1W96K+fqi0QQZRJOLFTElx7Vf8ZhmbfkC9d5Bu0BrUck/Iq3huRcXTGEA3Eue3sTqQQHgwV7kqVxw==",
+          "shasum": "31846dffb70b972abdec2afea454a930aa65c701"
+        }
+      }
+    },
+    {
+      "version": "2.7.0",
+      "variantId": "registry-package.openupm.com-607c928c8e6d8b62",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "4802618d7da369b844daf66fcb34a3ad03ff2a2a",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.7.0.tgz",
+      "upstreamIntegrity": "sha512-RaOyI18oVSiKZEqqtBI433ioOiJwIXUfVaQz/vHO4bFm8UASaRqCXTjy/2HsaZoDbDW0I2AFPVPSXpouIBvRaA==",
+      "upstreamShasum": "1884cd33a6db535ece98381219ef2a5baeb5e5f2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.5.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.7.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RaOyI18oVSiKZEqqtBI433ioOiJwIXUfVaQz/vHO4bFm8UASaRqCXTjy/2HsaZoDbDW0I2AFPVPSXpouIBvRaA==",
+          "shasum": "1884cd33a6db535ece98381219ef2a5baeb5e5f2"
+        }
+      }
+    },
+    {
+      "version": "2.8.0",
+      "variantId": "registry-package.openupm.com-15269dddda794956",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "6a15d9c31ea31e2728c30b7f3e35feeb0da0cb13",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.8.0.tgz",
+      "upstreamIntegrity": "sha512-RPe+0vEx4XE15exDaTyA0ylYJ3lfgtlAhDRwFTQPM+KF4E3OS/dmEd1zCcV3x2o6JSq4xHLnF7e1Q9EthWqRdQ==",
+      "upstreamShasum": "d9d4839927203df410a87f2a01f9a3a4c1aec4de",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.5.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.8.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RPe+0vEx4XE15exDaTyA0ylYJ3lfgtlAhDRwFTQPM+KF4E3OS/dmEd1zCcV3x2o6JSq4xHLnF7e1Q9EthWqRdQ==",
+          "shasum": "d9d4839927203df410a87f2a01f9a3a4c1aec4de"
+        }
+      }
+    },
+    {
+      "version": "2.8.1",
+      "variantId": "registry-package.openupm.com-ace0ddaa551652f8",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "064f12db25c4c3c01f08ce691452079d06ff0c98",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.8.1.tgz",
+      "upstreamIntegrity": "sha512-YL/KYyhGowX29HrGS2qCtgV4V6oNjbphfVXio+9DHY6j/CUTGHxTpDRhx5ouNNUZ5h4Sh3NJzfPbMlniUESLCQ==",
+      "upstreamShasum": "d32bdf6ac2ae7c0f7dad85410dfa2eb75fc2dc88",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.5.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.8.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YL/KYyhGowX29HrGS2qCtgV4V6oNjbphfVXio+9DHY6j/CUTGHxTpDRhx5ouNNUZ5h4Sh3NJzfPbMlniUESLCQ==",
+          "shasum": "d32bdf6ac2ae7c0f7dad85410dfa2eb75fc2dc88"
+        }
+      }
+    },
+    {
+      "version": "2.9.0",
+      "variantId": "registry-package.openupm.com-7ad66efdac96d3d8",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "10f04efd711aa04fb5f8b3823dd1ec812ae171ba",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.9.0.tgz",
+      "upstreamIntegrity": "sha512-6kJgaY6OcrkQDPLheBfib80xfoN/PIbJ3RnleiP73WUsQcTSEFsFWxiP47NBc2X8X+HlqUuWQ1hkV6c5fgVaHA==",
+      "upstreamShasum": "7e65c21a03e69d494b26812c93a322e878f07f39",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.5.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.9.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6kJgaY6OcrkQDPLheBfib80xfoN/PIbJ3RnleiP73WUsQcTSEFsFWxiP47NBc2X8X+HlqUuWQ1hkV6c5fgVaHA==",
+          "shasum": "7e65c21a03e69d494b26812c93a322e878f07f39"
+        }
+      }
+    },
+    {
+      "version": "2.10.0",
+      "variantId": "registry-package.openupm.com-0702ba547864a684",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "e59688fff5cba5344222d4f1ff80e6e536a1c720",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.10.0.tgz",
+      "upstreamIntegrity": "sha512-ux4w0RO5PvpN1MWHCwmfV7b0EfbS6BDXPcm55wFubuytWvZE2h/DeFm7d4mqUs4keXqvGxmSm/ujCZk2l5SkHg==",
+      "upstreamShasum": "77a7dacb9af48ab9b060a999ea02a0344ec9d810",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.10.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ux4w0RO5PvpN1MWHCwmfV7b0EfbS6BDXPcm55wFubuytWvZE2h/DeFm7d4mqUs4keXqvGxmSm/ujCZk2l5SkHg==",
+          "shasum": "77a7dacb9af48ab9b060a999ea02a0344ec9d810"
+        }
+      }
+    },
+    {
+      "version": "2.11.0",
+      "variantId": "registry-package.openupm.com-91d7fd62d4fc67dd",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "f189a1ab9094300b2a42fccdd9176f8f9c952f71",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.11.0.tgz",
+      "upstreamIntegrity": "sha512-HItWqrI7o1v+v667PiK5ohjdnelZwUnV6dOfE2ZM+71F/4vdixjA6vUGIlo6YU/Q+itbhAsaQ3fg605K/UIBQQ==",
+      "upstreamShasum": "2f49e5b26dd5b583621192379d67ccf462ccbb44",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.6.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.11.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HItWqrI7o1v+v667PiK5ohjdnelZwUnV6dOfE2ZM+71F/4vdixjA6vUGIlo6YU/Q+itbhAsaQ3fg605K/UIBQQ==",
+          "shasum": "2f49e5b26dd5b583621192379d67ccf462ccbb44"
+        }
+      }
+    },
+    {
+      "version": "2.11.1",
+      "variantId": "registry-package.openupm.com-04b6808fdabfcc0f",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "c6add4da246d1d78abaa13ca280bd20eb00acb24",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.11.1.tgz",
+      "upstreamIntegrity": "sha512-4lxn2II6Zh2GADF0Za4lt5Zv45frvN16lV082Xuwu8pAs2hH4yc5OgQbNfpx4QWeBw5KolAfAaJRmiP6usiBCA==",
+      "upstreamShasum": "15dac35733e2c9a4708c7c969ea65b87604635c8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.6.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.11.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4lxn2II6Zh2GADF0Za4lt5Zv45frvN16lV082Xuwu8pAs2hH4yc5OgQbNfpx4QWeBw5KolAfAaJRmiP6usiBCA==",
+          "shasum": "15dac35733e2c9a4708c7c969ea65b87604635c8"
+        }
+      }
+    },
+    {
+      "version": "2.11.2",
+      "variantId": "registry-package.openupm.com-a68d55aff336061c",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "813955d10c45f840d32b08c0c229d6f09486e551",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.11.2.tgz",
+      "upstreamIntegrity": "sha512-uE29bUf+0QIk5u5eZVHNRYrTXZUWstrdHIs3hjqXyhEBKt9I3HKL4PsGEc4r1mtV4+XlgyUzABKnO5VC8zEHDQ==",
+      "upstreamShasum": "40deab37de8555846607234f1552b56cc28100d9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.6.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.11.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uE29bUf+0QIk5u5eZVHNRYrTXZUWstrdHIs3hjqXyhEBKt9I3HKL4PsGEc4r1mtV4+XlgyUzABKnO5VC8zEHDQ==",
+          "shasum": "40deab37de8555846607234f1552b56cc28100d9"
+        }
+      }
+    },
+    {
+      "version": "2.11.3",
+      "variantId": "registry-package.openupm.com-4fc227bb25e080ef",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "9807983fcd869554d2925a003b9842d235aba924",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.11.3.tgz",
+      "upstreamIntegrity": "sha512-9utGbvSreV52ok6a3vS3G4JEcISg3LpGurEM5GwotV49KVMlkUI6labq0ZyylsK52F0ZfaPmKEf+Jq10NpAJQg==",
+      "upstreamShasum": "8f7c975d79a2b6c4b1a60fc90d0f22007c3f29cc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.6.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.11.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9utGbvSreV52ok6a3vS3G4JEcISg3LpGurEM5GwotV49KVMlkUI6labq0ZyylsK52F0ZfaPmKEf+Jq10NpAJQg==",
+          "shasum": "8f7c975d79a2b6c4b1a60fc90d0f22007c3f29cc"
+        }
+      }
+    },
+    {
+      "version": "2.12.0",
+      "variantId": "registry-package.openupm.com-19e64c29610637f9",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "68edfabbf445ef22d58e975b98c073a2b85dd200",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.12.0.tgz",
+      "upstreamIntegrity": "sha512-FOD8UwUn3kZIMa/uJur9cXOH6feuSP+UFwkoDXTlOylrM6SOa5C95FGJu6nPa9dK+ZsTc3LHQzcfCUyHiMH0ng==",
+      "upstreamShasum": "c6c719ce3dca036064c6242aeb0e07c8530da235",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.7.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.12.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FOD8UwUn3kZIMa/uJur9cXOH6feuSP+UFwkoDXTlOylrM6SOa5C95FGJu6nPa9dK+ZsTc3LHQzcfCUyHiMH0ng==",
+          "shasum": "c6c719ce3dca036064c6242aeb0e07c8530da235"
+        }
+      }
+    },
+    {
+      "version": "2.12.1",
+      "variantId": "registry-package.openupm.com-318da28fcc7d1159",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "1a2dba41ab66a62f6e6a63572a0998f1d4a3cb17",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.12.1.tgz",
+      "upstreamIntegrity": "sha512-GdZjHZwdC/8Qfx89xupqpaosSuJOYScyXGmWa+GyGgeUiXCHSBT5ADc/kECATLszq+1cFHQqnwVt65xl6i4Mfw==",
+      "upstreamShasum": "6be1a8cf75e1dfbb27d12a7a491c31bcf70a28b2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.12.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GdZjHZwdC/8Qfx89xupqpaosSuJOYScyXGmWa+GyGgeUiXCHSBT5ADc/kECATLszq+1cFHQqnwVt65xl6i4Mfw==",
+          "shasum": "6be1a8cf75e1dfbb27d12a7a491c31bcf70a28b2"
+        }
+      }
+    },
+    {
+      "version": "2.12.2",
+      "variantId": "registry-package.openupm.com-c1debe4e30a042a4",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "20b09ed69dc7d42cc1192f1dcf0fe8b7b94a540e",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.12.2.tgz",
+      "upstreamIntegrity": "sha512-Hl8ZocX3R7yowu4GbUk0RqpYjvpiei6ekv354CuU6bxfc698o7slxuAQavzWZAbnjWjfkmzJNa96kEWaPFKl6Q==",
+      "upstreamShasum": "1b0ba100aa69448f1bd03cbab222e9a3620ac8fa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.12.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Hl8ZocX3R7yowu4GbUk0RqpYjvpiei6ekv354CuU6bxfc698o7slxuAQavzWZAbnjWjfkmzJNa96kEWaPFKl6Q==",
+          "shasum": "1b0ba100aa69448f1bd03cbab222e9a3620ac8fa"
+        }
+      }
+    },
+    {
+      "version": "2.12.3",
+      "variantId": "registry-package.openupm.com-7bebb922e54c831a",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "9f763c8b0f93072d290a137144a7fef0ffadff99",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.12.3.tgz",
+      "upstreamIntegrity": "sha512-+8Gnrw0p7fsVALYJ3+Fa0v1CHgcB+RULcFeoMw2StHq5A+3X5JsRh0zvi6cfgLrn0rhx6VDSBkGI5OVUr68LFw==",
+      "upstreamShasum": "bcec9c75177626d3baf498e0eb1057be2e152911",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.12.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+8Gnrw0p7fsVALYJ3+Fa0v1CHgcB+RULcFeoMw2StHq5A+3X5JsRh0zvi6cfgLrn0rhx6VDSBkGI5OVUr68LFw==",
+          "shasum": "bcec9c75177626d3baf498e0eb1057be2e152911"
+        }
+      }
+    },
+    {
+      "version": "2.13.0",
+      "variantId": "registry-package.openupm.com-852b0ee0d9af8283",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "531be843c857910570fef020b9f57685d80cca49",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-2.13.0.tgz",
+      "upstreamIntegrity": "sha512-bf+L4oXDN/+PA9MFIcmtddNJkDFQvcu1GvI89IGn3NdcT9x9G1nIr/ZyqdysgxLIBVrdnuw4Ukn1uzKQ1cKKhg==",
+      "upstreamShasum": "aed2264035f7fe4d4235cfb39391e288eed930fc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.8.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/2.13.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bf+L4oXDN/+PA9MFIcmtddNJkDFQvcu1GvI89IGn3NdcT9x9G1nIr/ZyqdysgxLIBVrdnuw4Ukn1uzKQ1cKKhg==",
+          "shasum": "aed2264035f7fe4d4235cfb39391e288eed930fc"
+        }
+      }
+    },
+    {
+      "version": "3.0.0",
+      "variantId": "registry-package.openupm.com-50c638181908e33c",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "c362a8a5344c894a07b3aafe2965fa56bc65ea1f",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.0.0.tgz",
+      "upstreamIntegrity": "sha512-MZiolhvh+oP6saYDEa2eptGxdpC6oZxgObjIYSPbBjuK9jPunushXCof4uiugPXyRC9oiK6T/OK5b3szrHjxPQ==",
+      "upstreamShasum": "9d45eee98f7d05f9a714e9b081ca9bc7932ec224",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.8.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.0.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MZiolhvh+oP6saYDEa2eptGxdpC6oZxgObjIYSPbBjuK9jPunushXCof4uiugPXyRC9oiK6T/OK5b3szrHjxPQ==",
+          "shasum": "9d45eee98f7d05f9a714e9b081ca9bc7932ec224"
+        }
+      }
+    },
+    {
+      "version": "3.0.1",
+      "variantId": "registry-package.openupm.com-fe1513515a3b4899",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "b03461be264d8e281fe93f6905886cd4b6bdbacb",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.0.1.tgz",
+      "upstreamIntegrity": "sha512-3DztIa5IBXHXLjMnaikwjybeG/dvgXNmEtR1Wv/K7s4HBIdMvGVht2Y4l6dz5c3enfw2NI8JFQwcy4g2hJ1PQg==",
+      "upstreamShasum": "9ab7a5a1d0c67acfc26c8705c75f2f2e22977819",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.8.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.0.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3DztIa5IBXHXLjMnaikwjybeG/dvgXNmEtR1Wv/K7s4HBIdMvGVht2Y4l6dz5c3enfw2NI8JFQwcy4g2hJ1PQg==",
+          "shasum": "9ab7a5a1d0c67acfc26c8705c75f2f2e22977819"
+        }
+      }
+    },
+    {
+      "version": "3.0.2",
+      "variantId": "registry-package.openupm.com-2fc21ac1f455c73e",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "6dc88b1fa64d2fa79b5d562f70de70b8a5d8560c",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.0.2.tgz",
+      "upstreamIntegrity": "sha512-ug/Yj9uPH8Oee6fJ3loSApQVDrrrdk3xDdRCQLpca8MJMwiKLYc8eEWNWLHsU402EgFs7iNWaXI3Zl7zfTCP4g==",
+      "upstreamShasum": "5fb0f4e44a2411517e8d4aae1a4bfc95f091376e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.8.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.0.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ug/Yj9uPH8Oee6fJ3loSApQVDrrrdk3xDdRCQLpca8MJMwiKLYc8eEWNWLHsU402EgFs7iNWaXI3Zl7zfTCP4g==",
+          "shasum": "5fb0f4e44a2411517e8d4aae1a4bfc95f091376e"
+        }
+      }
+    },
+    {
+      "version": "3.0.3",
+      "variantId": "registry-package.openupm.com-2a15183b223e3e9c",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "56b8c19e9a8cb6b730203e3e2f55fc9f64f44816",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.0.3.tgz",
+      "upstreamIntegrity": "sha512-rhQ09aTs28Bfv0N05CQK8hoBB1JsDcpDPi2RXkaP0+L0QiFjSvfh0EbSfYUy+Fnbx5DeCd0vitl/KpQa0NminA==",
+      "upstreamShasum": "bba344350f83d887f644615946ed944dd9b4652a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.8.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.0.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rhQ09aTs28Bfv0N05CQK8hoBB1JsDcpDPi2RXkaP0+L0QiFjSvfh0EbSfYUy+Fnbx5DeCd0vitl/KpQa0NminA==",
+          "shasum": "bba344350f83d887f644615946ed944dd9b4652a"
+        }
+      }
+    },
+    {
+      "version": "3.0.4",
+      "variantId": "registry-package.openupm.com-a4f315602b862a05",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "f675cbc01f10aee477720165a87ccc92dd0fe23d",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.0.4.tgz",
+      "upstreamIntegrity": "sha512-vAslxhASYf/90umDF/Dx5KVYbiN8QJYrmVnPqIhsEHofSScHWe4xMM5EvVGh/8lHI05MjMrrNyeXtqUI583HDA==",
+      "upstreamShasum": "14d7f65c9203cec154e15dfb9cf943367fe44495",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.9.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.0.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vAslxhASYf/90umDF/Dx5KVYbiN8QJYrmVnPqIhsEHofSScHWe4xMM5EvVGh/8lHI05MjMrrNyeXtqUI583HDA==",
+          "shasum": "14d7f65c9203cec154e15dfb9cf943367fe44495"
+        }
+      }
+    },
+    {
+      "version": "3.1.0",
+      "variantId": "registry-package.openupm.com-158d1fa2671753be",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "6d478971b3aa3b52f2fe2d3e9105b59bd20db759",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.1.0.tgz",
+      "upstreamIntegrity": "sha512-nN+5WXEq0fyQD59VS2yqyXvHasQ8yWXBHM6DSCYRMQg9voI0+PoDAQfL7vIlszqFIIrCUrxS1N2lWsbPB184WA==",
+      "upstreamShasum": "1b06edaec74a3338ae6425cf912c2c608a7dec22",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.9.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.1.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nN+5WXEq0fyQD59VS2yqyXvHasQ8yWXBHM6DSCYRMQg9voI0+PoDAQfL7vIlszqFIIrCUrxS1N2lWsbPB184WA==",
+          "shasum": "1b06edaec74a3338ae6425cf912c2c608a7dec22"
+        }
+      }
+    },
+    {
+      "version": "3.1.1",
+      "variantId": "registry-package.openupm.com-d414dabf8e713969",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "bbbc7fda75bc5bd03b2de03367c59660797222c7",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.1.1.tgz",
+      "upstreamIntegrity": "sha512-/fhTbFjGb8TMOEcGGiguLjkcJ9wcfEd8OO/oD7JGYoabZ+fbjdxySURGiExhO8dmyBmQx+mhFXd563sm5EdEig==",
+      "upstreamShasum": "593e880c9e60d51500757a5ae5c36d5cfd67f6e7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.9.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.1.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/fhTbFjGb8TMOEcGGiguLjkcJ9wcfEd8OO/oD7JGYoabZ+fbjdxySURGiExhO8dmyBmQx+mhFXd563sm5EdEig==",
+          "shasum": "593e880c9e60d51500757a5ae5c36d5cfd67f6e7"
+        }
+      }
+    },
+    {
+      "version": "3.1.2",
+      "variantId": "registry-package.openupm.com-ac014004f7f27d38",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "2a0e3e9c97a4e7936d16e75c295c8d10e34bfc26",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.1.2.tgz",
+      "upstreamIntegrity": "sha512-WsM1BTBOrCQYLPmTOitx12Z/xFuHI6njIyiSGlWV1x4wchOS31jd/+xdj+ksM/h9M0R45SwV7XvzBpteTyrQ7Q==",
+      "upstreamShasum": "3188f980d1a556ed8bb8a049988d26320f7ea688",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.9.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.1.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WsM1BTBOrCQYLPmTOitx12Z/xFuHI6njIyiSGlWV1x4wchOS31jd/+xdj+ksM/h9M0R45SwV7XvzBpteTyrQ7Q==",
+          "shasum": "3188f980d1a556ed8bb8a049988d26320f7ea688"
+        }
+      }
+    },
+    {
+      "version": "3.1.3",
+      "variantId": "registry-package.openupm.com-093d7382f4f9c451",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "3ec6a1b4b4e9295e6c4e83e922c8f185dfabd0e0",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.1.3.tgz",
+      "upstreamIntegrity": "sha512-2TPyXj6WEV3/QS5pKeif+RfAMEVB56VAqfthCopSlVlLOnpy/9Kv5aYJaS+YRTeRYozKrscF/WpO8kXsPGj7sg==",
+      "upstreamShasum": "f8605b3d3d77f3a5d6163f5aac9c3c5fff33b6e0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "1.10.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.1.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2TPyXj6WEV3/QS5pKeif+RfAMEVB56VAqfthCopSlVlLOnpy/9Kv5aYJaS+YRTeRYozKrscF/WpO8kXsPGj7sg==",
+          "shasum": "f8605b3d3d77f3a5d6163f5aac9c3c5fff33b6e0"
+        }
+      }
+    },
+    {
+      "version": "3.2.0",
+      "variantId": "registry-package.openupm.com-c2071d5a67925de9",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "71872398615426c2456088c180ab6f85432b81a8",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.2.0.tgz",
+      "upstreamIntegrity": "sha512-MbsxyFKihZpsIPKx5XbLHrrD9CDv4GONLyfciP+g/lkc+Ek1RDwMW9T7pO2D8dxe10qdSmC0K3SUn/CbOSsNXg==",
+      "upstreamShasum": "582a740010331968a7ff8cb0f173d5343435633c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.2.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MbsxyFKihZpsIPKx5XbLHrrD9CDv4GONLyfciP+g/lkc+Ek1RDwMW9T7pO2D8dxe10qdSmC0K3SUn/CbOSsNXg==",
+          "shasum": "582a740010331968a7ff8cb0f173d5343435633c"
+        }
+      }
+    },
+    {
+      "version": "3.2.1",
+      "variantId": "registry-package.openupm.com-cb8fe7eadcf10185",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "e105211f9dc455790effeba52510f36470bbdaf2",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.2.1.tgz",
+      "upstreamIntegrity": "sha512-fxwxmGfgMVzH7NVFNoWez+AzsmHj3urQiO+BtcidAGkCZv2sGiuJht94aqUefiGth1tRNwkRcBqf2/WErkUMdw==",
+      "upstreamShasum": "9eaf97604eabd7243c982b1395ebf1f1d354c4a2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "2.1.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.2.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fxwxmGfgMVzH7NVFNoWez+AzsmHj3urQiO+BtcidAGkCZv2sGiuJht94aqUefiGth1tRNwkRcBqf2/WErkUMdw==",
+          "shasum": "9eaf97604eabd7243c982b1395ebf1f1d354c4a2"
+        }
+      }
+    },
+    {
+      "version": "3.3.0",
+      "variantId": "registry-package.openupm.com-921e01a5c259b097",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "c0667ed742f7eebf83d4f9b7ccc9d3e0cfd59eef",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.3.0.tgz",
+      "upstreamIntegrity": "sha512-4fPw/SceXI0RsDB7x0xLuLqBMfKWcCGx3XtvN7XY0t4+Y9WZNiRBEWSftdmM0cXfN0iB2S5AhFaJEB3PvMQxxQ==",
+      "upstreamShasum": "b037605552ec5dca7632b8297a580e0d493a28e3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "2.1.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.3.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4fPw/SceXI0RsDB7x0xLuLqBMfKWcCGx3XtvN7XY0t4+Y9WZNiRBEWSftdmM0cXfN0iB2S5AhFaJEB3PvMQxxQ==",
+          "shasum": "b037605552ec5dca7632b8297a580e0d493a28e3"
+        }
+      }
+    },
+    {
+      "version": "3.3.1",
+      "variantId": "registry-package.openupm.com-fa24e3dc81dc2d52",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "4d8ff88f621d7c5bf99ff6ff02dfd0453867e001",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.3.1.tgz",
+      "upstreamIntegrity": "sha512-ah7jmCTZ/ix1TX/sak52cIcuvN3WqThCnxEgJ9h2blULRw49jevYcoV3zmGU6wJjH1s1AVAzfz41wM6VZoCaQA==",
+      "upstreamShasum": "8ead3b86ace446b4b1d461c332dae3335af2f78b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "2.1.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.3.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ah7jmCTZ/ix1TX/sak52cIcuvN3WqThCnxEgJ9h2blULRw49jevYcoV3zmGU6wJjH1s1AVAzfz41wM6VZoCaQA==",
+          "shasum": "8ead3b86ace446b4b1d461c332dae3335af2f78b"
+        }
+      }
+    },
+    {
+      "version": "3.3.2",
+      "variantId": "registry-package.openupm.com-2ab7c33cdc158dac",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "68fed554efcb570ed9d2d51f0f0fbdba24e64cc1",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.3.2.tgz",
+      "upstreamIntegrity": "sha512-eBF6I+/9QUEp7qDSBt01ZQ+lCw8Vm4hDARMfPR21xbAf9VEYS663A3IaHcmvWSSqx29YJ+Si0LyJmOU+ME6Log==",
+      "upstreamShasum": "64e7aabe32ebc9506387b6308017fa241c4184f4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "2.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.3.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eBF6I+/9QUEp7qDSBt01ZQ+lCw8Vm4hDARMfPR21xbAf9VEYS663A3IaHcmvWSSqx29YJ+Si0LyJmOU+ME6Log==",
+          "shasum": "64e7aabe32ebc9506387b6308017fa241c4184f4"
+        }
+      }
+    },
+    {
+      "version": "3.3.3",
+      "variantId": "registry-package.openupm.com-aa08ab48613185e6",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "772c67932b63fb950d94acf471a77f03e4b39b63",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.3.3.tgz",
+      "upstreamIntegrity": "sha512-b4Z4D2mvOqeu2pfX7QTLPfgTSBRKJyTEFJxAOoFp2Hr3WihVSMThX3MLjHz58wtzLSQuncga6stP2LtryRvwXw==",
+      "upstreamShasum": "e3fe8c3413626cb5bf7639cee5d5e659fa08b2ff",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "2.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.3.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-b4Z4D2mvOqeu2pfX7QTLPfgTSBRKJyTEFJxAOoFp2Hr3WihVSMThX3MLjHz58wtzLSQuncga6stP2LtryRvwXw==",
+          "shasum": "e3fe8c3413626cb5bf7639cee5d5e659fa08b2ff"
+        }
+      }
+    },
+    {
+      "version": "3.3.4",
+      "variantId": "registry-package.openupm.com-5a9066d45c4b60f6",
+      "sourceUrl": "https://github.com/Rhinox-Training/rhinox-guiutils.git",
+      "sourceRef": "bb73a5b694fe19fdc19b0a67cb5976afc2d3d250",
+      "downloadUrl": "https://package.openupm.com/com.rhinox.open.guiutils/-/com.rhinox.open.guiutils-3.3.4.tgz",
+      "upstreamIntegrity": "sha512-Z0LzQKU21zh4P9BjoNJ9a+HY8j0CkZ1C/6vGBnQTyZ1Db+lkGEXq8qpJZyQxt4525Ha/2dcK6o+1PmkRgGO+gg==",
+      "upstreamShasum": "ee244a2beee890f068194158065292f66c636220",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache V.2",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.rhinox.open.lightspeed": "2.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.rhinox.open.guiutils/3.3.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Z0LzQKU21zh4P9BjoNJ9a+HY8j0CkZ1C/6vGBnQTyZ1Db+lkGEXq8qpJZyQxt4525Ha/2dcK6o+1PmkRgGO+gg==",
+          "shasum": "ee244a2beee890f068194158065292f66c636220"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "3.3.4"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.rhinox.open.guiutils.yml",
+  "definitionBlobSha": "2d1715eb4661557eef3780f517036466376f9761",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "1.4.1",
+    "1.4.2",
+    "1.5.1",
+    "2.1.3",
+    "2.11.3",
+    "2.12.1",
+    "2.8.1"
+  ],
+  "selectedVersions": [
+    "1.4.1",
+    "1.4.2",
+    "1.5.1",
+    "2.1.3",
+    "2.11.3",
+    "2.12.1",
+    "2.8.1",
+    "3.3.4"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 73,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

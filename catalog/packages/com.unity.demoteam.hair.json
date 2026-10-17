@@ -1,0 +1,641 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.demoteam.hair",
+  "displayName": "com.unity.demoteam.hair",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "fetchedAt": "2026-10-17T17:42:41.510907Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.9.0-exp.1",
+      "variantId": "registry-package.openupm.com-a3bd7777941750e8",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "7aa92e2cf951bc1e3162e3e21c0f655c9e315dbd",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.9.0-exp.1.tgz",
+      "upstreamIntegrity": "sha512-0gSaUlRfxVetV9Py5kDISWn4tonIPsocVkznqnsR4WktjGr99kXu4b5DOVekTW+LqrdrQEeZREUj7d4Yoy0ebQ==",
+      "upstreamShasum": "0b2a47446ade6fd032c8c460e8ef1b00e793c439",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.9.0-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-0gSaUlRfxVetV9Py5kDISWn4tonIPsocVkznqnsR4WktjGr99kXu4b5DOVekTW+LqrdrQEeZREUj7d4Yoy0ebQ==",
+          "shasum": "0b2a47446ade6fd032c8c460e8ef1b00e793c439"
+        }
+      }
+    },
+    {
+      "version": "0.9.1-exp.1",
+      "variantId": "registry-package.openupm.com-9c14585da1611cdd",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "5c820620066ad9d0d20e8750ac21a5ef2cdda3e3",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.9.1-exp.1.tgz",
+      "upstreamIntegrity": "sha512-IIIWwOqkQDNrnrfeF3DHOhjzSCss+UA+0CGWbjI4cltTli1vVFVzIJ2XtY1+I/GgwtHqVIyPFdklKx4Q1NcEZA==",
+      "upstreamShasum": "b305b4e88d778dbcd16d7596b2b4f7d2801a0616",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.9.1-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IIIWwOqkQDNrnrfeF3DHOhjzSCss+UA+0CGWbjI4cltTli1vVFVzIJ2XtY1+I/GgwtHqVIyPFdklKx4Q1NcEZA==",
+          "shasum": "b305b4e88d778dbcd16d7596b2b4f7d2801a0616"
+        }
+      }
+    },
+    {
+      "version": "0.10.0-exp.1",
+      "variantId": "registry-package.openupm.com-e738bd9354caab4c",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "1189211f0bfa018c57115867624a1d093adfa1da",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.10.0-exp.1.tgz",
+      "upstreamIntegrity": "sha512-T5pWeDUbd13lStqrIFsrXaNaiLTVGoSBvEfK43+bj5fcX1FMa1veXlTwFJxTmzcko93eq5l5lsLcBgSmLNJ5cw==",
+      "upstreamShasum": "8f7b0bd0164b9d2b58eb199c736171baaef04f56",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.10.0-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-T5pWeDUbd13lStqrIFsrXaNaiLTVGoSBvEfK43+bj5fcX1FMa1veXlTwFJxTmzcko93eq5l5lsLcBgSmLNJ5cw==",
+          "shasum": "8f7b0bd0164b9d2b58eb199c736171baaef04f56"
+        }
+      }
+    },
+    {
+      "version": "0.11.0-exp.1",
+      "variantId": "registry-package.openupm.com-916364075e77507c",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "12279cb83ccdf0a0b734df3efcc5f2ee2776ce4f",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.11.0-exp.1.tgz",
+      "upstreamIntegrity": "sha512-kSP11GFLsOsWQ1YC4iNBwvumaAq748KbXjntfNKWu1YcgWvebeJYwhlUAqnLZldypYoVD7DPva1v58f2hl258A==",
+      "upstreamShasum": "ed103700cc9e603253526ff547c39d5b9187d910",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.11.0-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kSP11GFLsOsWQ1YC4iNBwvumaAq748KbXjntfNKWu1YcgWvebeJYwhlUAqnLZldypYoVD7DPva1v58f2hl258A==",
+          "shasum": "ed103700cc9e603253526ff547c39d5b9187d910"
+        }
+      }
+    },
+    {
+      "version": "0.12.0-exp.1",
+      "variantId": "registry-package.openupm.com-10308af7e1b8482f",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "167f8e2e1111873467ed4572639c91ea3dca0ecc",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.12.0-exp.1.tgz",
+      "upstreamIntegrity": "sha512-DLB2Wt03bgWEHcB6pgftSV3gdDznkRAvHAIscLbTYvlxszOE5scek6872pIZUxaaRKNjBkSrDZ+tFTTMOt/pWg==",
+      "upstreamShasum": "f30eee8d5906b38c5c99f0d9e401b698d05b12a5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.12.0-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-DLB2Wt03bgWEHcB6pgftSV3gdDznkRAvHAIscLbTYvlxszOE5scek6872pIZUxaaRKNjBkSrDZ+tFTTMOt/pWg==",
+          "shasum": "f30eee8d5906b38c5c99f0d9e401b698d05b12a5"
+        }
+      }
+    },
+    {
+      "version": "0.13.0-exp.1",
+      "variantId": "registry-package.openupm.com-66802b3c38c59c52",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "3c77c892d8eb66b406b22a0b32392a4076788f16",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.13.0-exp.1.tgz",
+      "upstreamIntegrity": "sha512-po+L362qB+jywv9NawXptnOgphAvfM9963GT1+uQmmtCjSxwoSa9kjGx6/ciMeOcoSsfZUM0hpvnaOIJdx/wJQ==",
+      "upstreamShasum": "25f652a356a6671c347a65bb1d98124ad9db246e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.13.0-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-po+L362qB+jywv9NawXptnOgphAvfM9963GT1+uQmmtCjSxwoSa9kjGx6/ciMeOcoSsfZUM0hpvnaOIJdx/wJQ==",
+          "shasum": "25f652a356a6671c347a65bb1d98124ad9db246e"
+        }
+      }
+    },
+    {
+      "version": "0.14.0-exp.1",
+      "variantId": "registry-package.openupm.com-568e8571bb37dfa2",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "3c72efaf447bf3d25b853ad0698dc519dde3d4a7",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.14.0-exp.1.tgz",
+      "upstreamIntegrity": "sha512-l+IjYxapepi8tWZ6ZAwEDfSsbP/SbhmsujD5ii6fbkLTgsewnHNVLHQEar6mPxSwqwMwYBsqxMVW1G0LR/3mCg==",
+      "upstreamShasum": "4cb70b9a8a1d21ec77eb1a9ba2e9526fa169e80c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.14.0-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-l+IjYxapepi8tWZ6ZAwEDfSsbP/SbhmsujD5ii6fbkLTgsewnHNVLHQEar6mPxSwqwMwYBsqxMVW1G0LR/3mCg==",
+          "shasum": "4cb70b9a8a1d21ec77eb1a9ba2e9526fa169e80c"
+        }
+      }
+    },
+    {
+      "version": "0.14.1-exp.1",
+      "variantId": "registry-package.openupm.com-f7a0eb8667f406e1",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "16041d6d6e4d436d591855e17cbbd6a02f62badc",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.14.1-exp.1.tgz",
+      "upstreamIntegrity": "sha512-kYocWk/TpBFPF7yaIvXaunnDIH4E40k6dINaupyyttACkLdhSmSE1TfY3LElUXJtivFJL7z78QFpyCeqMgpTUw==",
+      "upstreamShasum": "a4b7a1925465174e08469072489e5fd031c1a091",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.14.1-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kYocWk/TpBFPF7yaIvXaunnDIH4E40k6dINaupyyttACkLdhSmSE1TfY3LElUXJtivFJL7z78QFpyCeqMgpTUw==",
+          "shasum": "a4b7a1925465174e08469072489e5fd031c1a091"
+        }
+      }
+    },
+    {
+      "version": "0.14.2-exp.1",
+      "variantId": "registry-package.openupm.com-51b9d1e3a5c1aece",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "ae1789e80c183346f95d66f4aefde32350b04bae",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.14.2-exp.1.tgz",
+      "upstreamIntegrity": "sha512-yNG0bPJXB7k2wA4lWgohw6VZCZiZ6T+81AxwjwkOxKyc71q3bnxB7BQ2/lIr5FoRp8ZHRje43Xk27AHIwlkPqA==",
+      "upstreamShasum": "66b014522061f4573463099ed866e73fb423d964",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.14.2-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yNG0bPJXB7k2wA4lWgohw6VZCZiZ6T+81AxwjwkOxKyc71q3bnxB7BQ2/lIr5FoRp8ZHRje43Xk27AHIwlkPqA==",
+          "shasum": "66b014522061f4573463099ed866e73fb423d964"
+        }
+      }
+    },
+    {
+      "version": "0.15.0-exp.1",
+      "variantId": "registry-package.openupm.com-d83645d52c41a314",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "62d30b58bd0a6124f83b4e808b15371d3832fdd4",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.15.0-exp.1.tgz",
+      "upstreamIntegrity": "sha512-W4xnl3jHh64EvWXFHGjre9QQyY75FMBCXk6JRzAhbFvaU8/wcG8O3fxNrsNvdmGY2/sRQKILD8+m25enmLc+fQ==",
+      "upstreamShasum": "f7df1c66aabb31d85d081c3be87f2da7ddb50df3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.15.0-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-W4xnl3jHh64EvWXFHGjre9QQyY75FMBCXk6JRzAhbFvaU8/wcG8O3fxNrsNvdmGY2/sRQKILD8+m25enmLc+fQ==",
+          "shasum": "f7df1c66aabb31d85d081c3be87f2da7ddb50df3"
+        }
+      }
+    },
+    {
+      "version": "0.16.0-exp.1",
+      "variantId": "registry-package.openupm.com-49e23b14185d588b",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "cf016f615d86c5b3ee4b76342a4aff8dc0097f78",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.16.0-exp.1.tgz",
+      "upstreamIntegrity": "sha512-5NHFXLOPCsMj8o45o1go3iTDyqAgI0eZlakXhQ630+eVcsnYa1EUIUB/tOjL4vgkE28or1xkYPmLnZgC9qCXMg==",
+      "upstreamShasum": "1c6686bcda6c9e2210547b278c688437e1c6518f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.16.0-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5NHFXLOPCsMj8o45o1go3iTDyqAgI0eZlakXhQ630+eVcsnYa1EUIUB/tOjL4vgkE28or1xkYPmLnZgC9qCXMg==",
+          "shasum": "1c6686bcda6c9e2210547b278c688437e1c6518f"
+        }
+      }
+    },
+    {
+      "version": "0.17.0-exp.1",
+      "variantId": "registry-package.openupm.com-c257b50714d4fa61",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "504bce76b10fe6d1c2638fdbcb2b15c70c022303",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.17.0-exp.1.tgz",
+      "upstreamIntegrity": "sha512-45rK5r0uyekHshdm9m324hL8aO3oEwDI4Tb8M4IiL77LhkWyjcHCybWJ/xLaLKjnNhcHJUOTPLYtG/Pfsc2AXA==",
+      "upstreamShasum": "ffa2bbf4257e8dd14d7e79558244b2c0f06e1284",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.17.0-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-45rK5r0uyekHshdm9m324hL8aO3oEwDI4Tb8M4IiL77LhkWyjcHCybWJ/xLaLKjnNhcHJUOTPLYtG/Pfsc2AXA==",
+          "shasum": "ffa2bbf4257e8dd14d7e79558244b2c0f06e1284"
+        }
+      }
+    },
+    {
+      "version": "0.18.0-exp.1",
+      "variantId": "registry-package.openupm.com-91233e36961a0df7",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "ec5e51768d9c6478759080bc994d18d21ee87b99",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.18.0-exp.1.tgz",
+      "upstreamIntegrity": "sha512-RhhLwCFaVXSdGa+ADFaaGFZS0luYIxooQ+qU+6wAKUVZ32cvgvnfuAsXaPWHjJnPQb4+NhwwnAIRdcxXVbFzuQ==",
+      "upstreamShasum": "316dce6e4465eb58daba95e92497c9039b99d5e7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.18.0-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RhhLwCFaVXSdGa+ADFaaGFZS0luYIxooQ+qU+6wAKUVZ32cvgvnfuAsXaPWHjJnPQb4+NhwwnAIRdcxXVbFzuQ==",
+          "shasum": "316dce6e4465eb58daba95e92497c9039b99d5e7"
+        }
+      }
+    },
+    {
+      "version": "0.18.1-exp.1",
+      "variantId": "registry-package.openupm.com-b28da778cf1b4797",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "cbe615c421f295638d37a5716c37f8ab31a4bfa7",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.18.1-exp.1.tgz",
+      "upstreamIntegrity": "sha512-WYvuirWjFx+tDiGephTtl0FcTE156epybjReRypsoRawGOi9eyvhCvhTzIo1tnj7tOzJDZcfi7JZY3B5x5Eqtw==",
+      "upstreamShasum": "9fb66296af9cd1aef6bcc77767ad34f6043e962a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.18.1-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WYvuirWjFx+tDiGephTtl0FcTE156epybjReRypsoRawGOi9eyvhCvhTzIo1tnj7tOzJDZcfi7JZY3B5x5Eqtw==",
+          "shasum": "9fb66296af9cd1aef6bcc77767ad34f6043e962a"
+        }
+      }
+    },
+    {
+      "version": "0.18.3-exp.1",
+      "variantId": "registry-package.openupm.com-2ae28f35c0958b23",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "5d754dbfa646e03d4432d1cc0a9e6842bb80b59d",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.18.3-exp.1.tgz",
+      "upstreamIntegrity": "sha512-65YBfNVtdBuSYF+fKk+x/U4Nf4KmfkQfXACC5+AADA3aftJb3Jz0sYmJJh0DZmnSayeNAalIn0T+X7UkPVuaeQ==",
+      "upstreamShasum": "5ea751b2ad59eed8b2245e45ca8c091ae6d79d42",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.18.3-exp.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-65YBfNVtdBuSYF+fKk+x/U4Nf4KmfkQfXACC5+AADA3aftJb3Jz0sYmJJh0DZmnSayeNAalIn0T+X7UkPVuaeQ==",
+          "shasum": "5ea751b2ad59eed8b2245e45ca8c091ae6d79d42"
+        }
+      }
+    },
+    {
+      "version": "0.19.0-preview.1",
+      "variantId": "registry-package.openupm.com-bba0aeb2edadf69e",
+      "sourceUrl": "https://package.openupm.com/com.unity.demoteam.hair",
+      "sourceRef": "3798ece0516c7e844dd1ea548f552f28f8789c5f",
+      "downloadUrl": "https://package.openupm.com/com.unity.demoteam.hair/-/com.unity.demoteam.hair-0.19.0-preview.1.tgz",
+      "upstreamIntegrity": "sha512-m+iFb1qEyebGZ4KcPWtwRAEwfBEQN6iYJ0Lydplz7wi1wo5Yn1fCq3vysj3k2jtXhdIyE287C/YDJh7iPNIf6A==",
+      "upstreamShasum": "d8c2853879ccb736afd4ca8ee3be551c7a1a20b1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.collections": "0.15.0-preview.21",
+        "com.unity.mathematics": "1.3.2",
+        "com.unity.render-pipelines.core": "10.2.2",
+        "com.unity.shadergraph": "10.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.unity.demoteam.hair/0.19.0-preview.1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-m+iFb1qEyebGZ4KcPWtwRAEwfBEQN6iYJ0Lydplz7wi1wo5Yn1fCq3vysj3k2jtXhdIyE287C/YDJh7iPNIf6A==",
+          "shasum": "d8c2853879ccb736afd4ca8ee3be551c7a1a20b1"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.19.0-preview.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.unity.demoteam.hair.yml",
+  "definitionBlobSha": "441a53b177a78b1f9e9af53f6a81166496015f52",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.19.0-preview.1",
+    "0.18.0-exp.1",
+    "0.18.3-exp.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 16,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

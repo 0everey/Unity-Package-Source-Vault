@@ -1,0 +1,675 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.graingeridealab.komodo",
+  "displayName": "com.graingeridealab.komodo",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.graingeridealab.komodo",
+      "fetchedAt": "2026-10-17T17:38:37.679281Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.2.3-b1",
+      "variantId": "registry-package.openupm.com-1cddd0b1372cd136",
+      "sourceUrl": "https://package.openupm.com/com.graingeridealab.komodo",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.graingeridealab.komodo/-/com.graingeridealab.komodo-0.2.3-b1.tgz",
+      "upstreamIntegrity": "sha512-2AWEeUymYihMPWsT69kXRMZ+y7/cKyFn8YlRHoTAD7aPcTDgMwxgXHo3pcXSewhN2LLtjsRYhl5piwNWd4t8XA==",
+      "upstreamShasum": "ccf2b8cf60c150a3eb8e920ac90aac2ebdda65e3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.de-panther.webxr": "0.5.1-preview",
+        "com.de-panther.webxr-input-profiles-loader": "0.3.1",
+        "com.de-panther.webxr-interactions": "0.5.1-preview",
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.test-framework": "1.1.19",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.management": "3.2.16",
+        "com.unity.xr.oculus": "1.6.1",
+        "com.unity.xr.openxr": "0.1.1-preview.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.graingeridealab.komodo/0.2.3-b1",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2AWEeUymYihMPWsT69kXRMZ+y7/cKyFn8YlRHoTAD7aPcTDgMwxgXHo3pcXSewhN2LLtjsRYhl5piwNWd4t8XA==",
+          "shasum": "ccf2b8cf60c150a3eb8e920ac90aac2ebdda65e3"
+        }
+      }
+    },
+    {
+      "version": "0.3.2-revB",
+      "variantId": "registry-package.openupm.com-172e72771093b6c8",
+      "sourceUrl": "https://package.openupm.com/com.graingeridealab.komodo",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.graingeridealab.komodo/-/com.graingeridealab.komodo-0.3.2-revB.tgz",
+      "upstreamIntegrity": "sha512-7vWmU8eczm1fQlhYjAmv1QrdATY6B1s4636XUAh1ikO5BWIJ+oco87hfuRyYFpmfqvNdc5xRCxy15rShLRETTg==",
+      "upstreamShasum": "6068bb7e04fcf73aee78f0b8efa577cb91f1d56d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.de-panther.webxr": "0.5.1-preview",
+        "com.de-panther.webxr-input-profiles-loader": "0.3.1",
+        "com.de-panther.webxr-interactions": "0.5.1-preview",
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.test-framework": "1.1.19",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.management": "3.2.16",
+        "com.unity.xr.oculus": "1.6.1",
+        "com.unity.xr.openxr": "0.1.1-preview.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.graingeridealab.komodo/0.3.2-revB",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7vWmU8eczm1fQlhYjAmv1QrdATY6B1s4636XUAh1ikO5BWIJ+oco87hfuRyYFpmfqvNdc5xRCxy15rShLRETTg==",
+          "shasum": "6068bb7e04fcf73aee78f0b8efa577cb91f1d56d"
+        }
+      }
+    },
+    {
+      "version": "0.3.2",
+      "variantId": "registry-package.openupm.com-aaeb627188f01419",
+      "sourceUrl": "https://package.openupm.com/com.graingeridealab.komodo",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.graingeridealab.komodo/-/com.graingeridealab.komodo-0.3.2.tgz",
+      "upstreamIntegrity": "sha512-rYbyXULwXc9xpvYy2fM3L/U6/5eDKnC4uoKCh+Mqkaz7UvycyB2U0NBUDr2CeuetDiqx8oZ2BlzdFTDoIpi3SQ==",
+      "upstreamShasum": "e92c85fdf90e10e7aec9ed9e7eb5ce8d68345b21",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.de-panther.webxr": "0.5.1-preview",
+        "com.de-panther.webxr-input-profiles-loader": "0.3.1",
+        "com.de-panther.webxr-interactions": "0.5.1-preview",
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.test-framework": "1.1.19",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.management": "3.2.16",
+        "com.unity.xr.oculus": "1.6.1",
+        "com.unity.xr.openxr": "0.1.1-preview.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.graingeridealab.komodo/0.3.2",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rYbyXULwXc9xpvYy2fM3L/U6/5eDKnC4uoKCh+Mqkaz7UvycyB2U0NBUDr2CeuetDiqx8oZ2BlzdFTDoIpi3SQ==",
+          "shasum": "e92c85fdf90e10e7aec9ed9e7eb5ce8d68345b21"
+        }
+      }
+    },
+    {
+      "version": "0.4.1-revB",
+      "variantId": "registry-package.openupm.com-892b43539c332787",
+      "sourceUrl": "https://package.openupm.com/com.graingeridealab.komodo",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.graingeridealab.komodo/-/com.graingeridealab.komodo-0.4.1-revB.tgz",
+      "upstreamIntegrity": "sha512-ePlnQlk4Q6/E8GeTpKKpPtlqNpgm1QG39aPbNA2H58L0ynsR8s7UzBjI8hxWsUJtgMIlEjZfn0R7XCiqzPGFuA==",
+      "upstreamShasum": "811c76b1c5932ccdc2336cb3e8274799517144a9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.de-panther.webxr": "0.5.1-preview",
+        "com.de-panther.webxr-input-profiles-loader": "0.3.1",
+        "com.de-panther.webxr-interactions": "0.5.1-preview",
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.test-framework": "1.1.19",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.management": "3.2.16",
+        "com.unity.xr.oculus": "1.6.1",
+        "com.unity.xr.openxr": "0.1.1-preview.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.graingeridealab.komodo/0.4.1-revB",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ePlnQlk4Q6/E8GeTpKKpPtlqNpgm1QG39aPbNA2H58L0ynsR8s7UzBjI8hxWsUJtgMIlEjZfn0R7XCiqzPGFuA==",
+          "shasum": "811c76b1c5932ccdc2336cb3e8274799517144a9"
+        }
+      }
+    },
+    {
+      "version": "0.4.1-revC",
+      "variantId": "registry-package.openupm.com-06b675ef812b7b14",
+      "sourceUrl": "https://package.openupm.com/com.graingeridealab.komodo",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.graingeridealab.komodo/-/com.graingeridealab.komodo-0.4.1-revC.tgz",
+      "upstreamIntegrity": "sha512-94TUKycxQXhMulBSfhXT+FdjfiTl6eLe1bH9yPHyfUQ+y91MSiqksevYY1GmniIpVIgU9DCpl2N352kczCKPaA==",
+      "upstreamShasum": "b206a8114f930a21df30cb33e5155149f2e25f71",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.de-panther.webxr": "0.5.1-preview",
+        "com.de-panther.webxr-input-profiles-loader": "0.3.1",
+        "com.de-panther.webxr-interactions": "0.5.1-preview",
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.test-framework": "1.1.19",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.management": "3.2.16",
+        "com.unity.xr.oculus": "1.6.1",
+        "com.unity.xr.openxr": "0.1.1-preview.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.graingeridealab.komodo/0.4.1-revC",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-94TUKycxQXhMulBSfhXT+FdjfiTl6eLe1bH9yPHyfUQ+y91MSiqksevYY1GmniIpVIgU9DCpl2N352kczCKPaA==",
+          "shasum": "b206a8114f930a21df30cb33e5155149f2e25f71"
+        }
+      }
+    },
+    {
+      "version": "0.4.1",
+      "variantId": "registry-package.openupm.com-c90a4fdb9fa3e7c6",
+      "sourceUrl": "https://package.openupm.com/com.graingeridealab.komodo",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.graingeridealab.komodo/-/com.graingeridealab.komodo-0.4.1.tgz",
+      "upstreamIntegrity": "sha512-iri8MsvjQuqu3Rz5kqax6KcRMzV27Oni5vmWfdCBjNZr5R4XyAVwIE/ira1L/UuHaBWZDm7XaKaac4D10gvhXA==",
+      "upstreamShasum": "6593cde67e27b324e926957c0faa9da0d19950a5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.de-panther.webxr": "0.5.1-preview",
+        "com.de-panther.webxr-input-profiles-loader": "0.3.1",
+        "com.de-panther.webxr-interactions": "0.5.1-preview",
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.test-framework": "1.1.19",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.management": "3.2.16",
+        "com.unity.xr.oculus": "1.6.1",
+        "com.unity.xr.openxr": "0.1.1-preview.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.graingeridealab.komodo/0.4.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iri8MsvjQuqu3Rz5kqax6KcRMzV27Oni5vmWfdCBjNZr5R4XyAVwIE/ira1L/UuHaBWZDm7XaKaac4D10gvhXA==",
+          "shasum": "6593cde67e27b324e926957c0faa9da0d19950a5"
+        }
+      }
+    },
+    {
+      "version": "0.5.4",
+      "variantId": "registry-package.openupm.com-a5c8ce56907455c4",
+      "sourceUrl": "https://package.openupm.com/com.graingeridealab.komodo",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.graingeridealab.komodo/-/com.graingeridealab.komodo-0.5.4.tgz",
+      "upstreamIntegrity": "sha512-tmJeMA5HSQQtFhxypWKr42C6EY05JNMOfXMUIhyfyu8N6ecp4kQ4RG5C8MtADh6NoYqgPukTakg7hCcsuKfysA==",
+      "upstreamShasum": "82bef41e5719e35b55cd91dd91482a19fc3d86ac",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.de-panther.webxr": "0.5.1-preview",
+        "com.de-panther.webxr-input-profiles-loader": "0.3.1",
+        "com.de-panther.webxr-interactions": "0.5.1-preview",
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.test-framework": "1.1.19",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.management": "3.2.16",
+        "com.unity.xr.oculus": "1.6.1",
+        "com.unity.xr.openxr": "0.1.1-preview.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.graingeridealab.komodo/0.5.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tmJeMA5HSQQtFhxypWKr42C6EY05JNMOfXMUIhyfyu8N6ecp4kQ4RG5C8MtADh6NoYqgPukTakg7hCcsuKfysA==",
+          "shasum": "82bef41e5719e35b55cd91dd91482a19fc3d86ac"
+        }
+      }
+    },
+    {
+      "version": "0.5.5",
+      "variantId": "registry-package.openupm.com-f613cb16a93d740c",
+      "sourceUrl": "https://package.openupm.com/com.graingeridealab.komodo",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.graingeridealab.komodo/-/com.graingeridealab.komodo-0.5.5.tgz",
+      "upstreamIntegrity": "sha512-wAv2rHEvAoLbJkXBye3f1TttnNcjr7lTxYqCjc415R+pgvsRn/JcKopo8OZmFag4IbKg9wtsReEoBNA0WcO8KQ==",
+      "upstreamShasum": "b88b38f178346fdb196c83ad20d18552defc91ea",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.de-panther.webxr": "0.5.1-preview",
+        "com.de-panther.webxr-input-profiles-loader": "0.3.1",
+        "com.de-panther.webxr-interactions": "0.5.1-preview",
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.test-framework": "1.1.19",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.management": "3.2.16",
+        "com.unity.xr.oculus": "1.6.1",
+        "com.unity.xr.openxr": "0.1.1-preview.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.graingeridealab.komodo/0.5.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wAv2rHEvAoLbJkXBye3f1TttnNcjr7lTxYqCjc415R+pgvsRn/JcKopo8OZmFag4IbKg9wtsReEoBNA0WcO8KQ==",
+          "shasum": "b88b38f178346fdb196c83ad20d18552defc91ea"
+        }
+      }
+    },
+    {
+      "version": "0.5.6-revA",
+      "variantId": "registry-package.openupm.com-d696a7747c0bc29d",
+      "sourceUrl": "https://package.openupm.com/com.graingeridealab.komodo",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.graingeridealab.komodo/-/com.graingeridealab.komodo-0.5.6-revA.tgz",
+      "upstreamIntegrity": "sha512-DEbLvMYscVTnpeZ8LaZ7oBIfEIGd1fmxSFUdCS1Oce/6TeMvO/S8pa3hyE7YF+Tg+kGb4WSSKfFwEv26hUZx0g==",
+      "upstreamShasum": "ee511dc5e87e78552bab4749136575166cab815d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.de-panther.webxr": "0.5.1-preview",
+        "com.de-panther.webxr-input-profiles-loader": "0.3.1",
+        "com.de-panther.webxr-interactions": "0.5.1-preview",
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.test-framework": "1.1.19",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.management": "3.2.16",
+        "com.unity.xr.oculus": "1.6.1",
+        "com.unity.xr.openxr": "0.1.1-preview.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.graingeridealab.komodo/0.5.6-revA",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-DEbLvMYscVTnpeZ8LaZ7oBIfEIGd1fmxSFUdCS1Oce/6TeMvO/S8pa3hyE7YF+Tg+kGb4WSSKfFwEv26hUZx0g==",
+          "shasum": "ee511dc5e87e78552bab4749136575166cab815d"
+        }
+      }
+    },
+    {
+      "version": "0.5.6-revB",
+      "variantId": "registry-package.openupm.com-c480295117b5df5e",
+      "sourceUrl": "https://package.openupm.com/com.graingeridealab.komodo",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.graingeridealab.komodo/-/com.graingeridealab.komodo-0.5.6-revB.tgz",
+      "upstreamIntegrity": "sha512-gFMBj8+bdpqi9Kdae0Tx/zkRSVtP9t60u+kIm7gOq02sDenlwf2iMiGQZak8ztvR1e3tf2wncFfVPuk2IGXn+w==",
+      "upstreamShasum": "52f9bd9fe79430b3213088e1aa238b8c41c6b9d6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.de-panther.webxr": "0.5.1-preview",
+        "com.de-panther.webxr-input-profiles-loader": "0.3.1",
+        "com.de-panther.webxr-interactions": "0.5.1-preview",
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.test-framework": "1.1.19",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.management": "3.2.16",
+        "com.unity.xr.oculus": "1.6.1",
+        "com.unity.xr.openxr": "0.1.1-preview.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.graingeridealab.komodo/0.5.6-revB",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gFMBj8+bdpqi9Kdae0Tx/zkRSVtP9t60u+kIm7gOq02sDenlwf2iMiGQZak8ztvR1e3tf2wncFfVPuk2IGXn+w==",
+          "shasum": "52f9bd9fe79430b3213088e1aa238b8c41c6b9d6"
+        }
+      }
+    },
+    {
+      "version": "0.5.6",
+      "variantId": "registry-package.openupm.com-ee656131c9c3a54e",
+      "sourceUrl": "https://package.openupm.com/com.graingeridealab.komodo",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.graingeridealab.komodo/-/com.graingeridealab.komodo-0.5.6.tgz",
+      "upstreamIntegrity": "sha512-wEjXXFmk42ZkrUdd/+c2Ao3K/DiMugXbkjkB2uwurFlFfRYLzbcaXfR21z3cEn7/Sq+lY1YySN4f60xGjoaqtg==",
+      "upstreamShasum": "8170d67ee408d7bea1c95e81007d2f7b32243319",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.de-panther.webxr": "0.5.1-preview",
+        "com.de-panther.webxr-input-profiles-loader": "0.3.1",
+        "com.de-panther.webxr-interactions": "0.5.1-preview",
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.test-framework": "1.1.19",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.management": "3.2.16",
+        "com.unity.xr.oculus": "1.6.1",
+        "com.unity.xr.openxr": "0.1.1-preview.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.graingeridealab.komodo/0.5.6",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wEjXXFmk42ZkrUdd/+c2Ao3K/DiMugXbkjkB2uwurFlFfRYLzbcaXfR21z3cEn7/Sq+lY1YySN4f60xGjoaqtg==",
+          "shasum": "8170d67ee408d7bea1c95e81007d2f7b32243319"
+        }
+      }
+    },
+    {
+      "version": "0.5.7",
+      "variantId": "registry-package.openupm.com-aec80bbe9295b81c",
+      "sourceUrl": "https://package.openupm.com/com.graingeridealab.komodo",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.graingeridealab.komodo/-/com.graingeridealab.komodo-0.5.7.tgz",
+      "upstreamIntegrity": "sha512-gXtOnjNWO0Bv0ZFXSe56nFho/QbU4nJPd3FuBv77Lzx1AqLa62fBJnK581SSUfR52bGcbDxHLkq49+6uLq2VuQ==",
+      "upstreamShasum": "984616a81ed86ac84d20b922e7ec4ef9bf7e1c61",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.de-panther.webxr": "0.5.1-preview",
+        "com.de-panther.webxr-input-profiles-loader": "0.3.1",
+        "com.de-panther.webxr-interactions": "0.5.1-preview",
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.test-framework": "1.1.19",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.management": "3.2.16",
+        "com.unity.xr.oculus": "1.6.1",
+        "com.unity.xr.openxr": "0.1.1-preview.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.graingeridealab.komodo/0.5.7",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gXtOnjNWO0Bv0ZFXSe56nFho/QbU4nJPd3FuBv77Lzx1AqLa62fBJnK581SSUfR52bGcbDxHLkq49+6uLq2VuQ==",
+          "shasum": "984616a81ed86ac84d20b922e7ec4ef9bf7e1c61"
+        }
+      }
+    },
+    {
+      "version": "0.5.8",
+      "variantId": "registry-package.openupm.com-be6f4242a781d8aa",
+      "sourceUrl": "https://package.openupm.com/com.graingeridealab.komodo",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.graingeridealab.komodo/-/com.graingeridealab.komodo-0.5.8.tgz",
+      "upstreamIntegrity": "sha512-+iSOHVSPmVfU8RaZ2dWffLcbjygDYhVx5XinOTxgrhu1txICiku1sOH80lINlgo5KM4JR6ajzT2RysXmccw7eg==",
+      "upstreamShasum": "77b93c1af24ca9ab7f5af8bed447ade73f190591",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.de-panther.webxr": "0.5.1-preview",
+        "com.de-panther.webxr-input-profiles-loader": "0.3.1",
+        "com.de-panther.webxr-interactions": "0.5.1-preview",
+        "com.unity.subsystemregistration": "1.1.0",
+        "com.unity.test-framework": "1.1.19",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.xr.management": "3.2.16",
+        "com.unity.xr.oculus": "1.6.1",
+        "com.unity.xr.openxr": "0.1.1-preview.1",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.graingeridealab.komodo/0.5.8",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+iSOHVSPmVfU8RaZ2dWffLcbjygDYhVx5XinOTxgrhu1txICiku1sOH80lINlgo5KM4JR6ajzT2RysXmccw7eg==",
+          "shasum": "77b93c1af24ca9ab7f5af8bed447ade73f190591"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.5.8",
+    "patch@0.3.2-revb": "0.3.2-revB",
+    "patch@0.4.1-revb": "0.4.1-revB",
+    "patch@0.4.1-revc": "0.4.1-revC",
+    "patch@0.5.6-reva": "0.5.6-revA",
+    "patch@0.5.6-revb": "0.5.6-revB"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.graingeridealab.komodo.yml",
+  "definitionBlobSha": "ae6e4c6fa5a5d80a4294f11e38125db0022775bd",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.5.8",
+    "0.5.7",
+    "0.5.6"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 13,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

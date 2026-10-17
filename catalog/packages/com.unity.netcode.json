@@ -1,0 +1,2454 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.netcode",
+  "displayName": "com.unity.netcode",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode",
+      "fetchedAt": "2026-10-17T17:45:29.124300Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "0.0.1-preview.6",
+      "variantId": "registry-packages.unity.com-c12a565e7501dd9e",
+      "sourceUrl": "git@github.com:Unity-Technologies/netcode.git",
+      "sourceRef": "2a580c3ed0739a86c9e66aea2eca8b80cb8f118a",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-0.0.1-preview.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7328eecdac56992f8d3cf81f38c7d19706d3d861",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.2.0-preview.18",
+        "com.unity.transport": "0.2.0-preview.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/0.0.1-preview.6",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "7328eecdac56992f8d3cf81f38c7d19706d3d861"
+        }
+      }
+    },
+    {
+      "version": "0.0.2-preview.1",
+      "variantId": "registry-packages.unity.com-5a52c2f999e4aa75",
+      "sourceUrl": "git@github.com:Unity-Technologies/netcode.git",
+      "sourceRef": "dc6ff1b90bd08de36cbf05fc07d05cc47f6ba114",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-0.0.2-preview.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8306dde61bb164df3977da74bd9d2925cab8f56d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.2.0-preview.18",
+        "com.unity.transport": "0.2.1-preview.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/0.0.2-preview.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "8306dde61bb164df3977da74bd9d2925cab8f56d"
+        }
+      }
+    },
+    {
+      "version": "0.0.3-preview.2",
+      "variantId": "registry-packages.unity.com-0db56e1d55104a6a",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/netcode.git",
+      "sourceRef": "a66f6695feb879621aa4a464939ffb6d92d3be4e",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-0.0.3-preview.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "004986cc124982072d2db5aa59a4fa463c6f18c0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.3.0-preview.4",
+        "com.unity.transport": "0.2.2-preview.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/0.0.3-preview.2",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "004986cc124982072d2db5aa59a4fa463c6f18c0"
+        }
+      }
+    },
+    {
+      "version": "0.0.4-preview.0",
+      "variantId": "registry-packages.unity.com-c3a91da2a28a7ef6",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/netcode.git",
+      "sourceRef": "2c437c67f30b8dd7b9a6848a979abded4b5ffd3b",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-0.0.4-preview.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "420bace64503606baa445ea4e5ae0a491d8e6e96",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.3.0-preview.4",
+        "com.unity.transport": "0.2.3-preview.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/0.0.4-preview.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "420bace64503606baa445ea4e5ae0a491d8e6e96"
+        }
+      }
+    },
+    {
+      "version": "0.1.0-preview.6",
+      "variantId": "registry-packages.unity.com-4367a87a8ecba7ec",
+      "sourceUrl": "https://github.com/Unity-Technologies/netcode.git",
+      "sourceRef": "e057ccf4fb0b19bbd5e6ea8615a121abcfc49fbb",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-0.1.0-preview.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "b4d3368a5ef91663123cdcf0a4949b936bc9e0b9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.6.0-preview.24",
+        "com.unity.transport": "0.3.0-preview.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/0.1.0-preview.6",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "b4d3368a5ef91663123cdcf0a4949b936bc9e0b9"
+        }
+      }
+    },
+    {
+      "version": "0.2.0-preview.5",
+      "variantId": "registry-packages.unity.com-2790914ec558f47b",
+      "sourceUrl": "https://github.com/Unity-Technologies/netcode.git",
+      "sourceRef": "2fb0954cceae679b397cea825faf7fc34e258ced",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-0.2.0-preview.5.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "094c41019de5a8b90c3bf455d1b407dac473dcc2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.3.0",
+        "com.unity.entities": "0.11.0-preview.7",
+        "com.unity.transport": "0.3.1-preview.4",
+        "com.unity.collections": "0.9.0-preview.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/0.2.0-preview.5",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "094c41019de5a8b90c3bf455d1b407dac473dcc2"
+        }
+      }
+    },
+    {
+      "version": "0.3.0-preview.3",
+      "variantId": "registry-packages.unity.com-019a9e9b2ad8b5fa",
+      "sourceUrl": "https://github.com/Unity-Technologies/netcode.git",
+      "sourceRef": "0c7a798930d3efad8cf72fb01612efddba074783",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-0.3.0-preview.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0d41b472e8dc82b38c0d486639a2cd97bcdd2706",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.3.0",
+        "com.unity.entities": "0.14.0-preview.18",
+        "com.unity.transport": "0.4.0-preview.3",
+        "com.unity.collections": "0.12.0-preview.13"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/0.3.0-preview.3",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "0d41b472e8dc82b38c0d486639a2cd97bcdd2706"
+        }
+      }
+    },
+    {
+      "version": "0.4.0-preview.1",
+      "variantId": "registry-packages.unity.com-d65100e12ebc1111",
+      "sourceUrl": "https://github.com/Unity-Technologies/netcode.git",
+      "sourceRef": "8d757f092a828f913aee73fda7a813ff58a7b8b9",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-0.4.0-preview.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "205de08408dd7aaf3e0dbabe05fc409112033e3e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.3.0",
+        "com.unity.entities": "0.14.0-preview.18",
+        "com.unity.transport": "0.4.1-preview.1",
+        "com.unity.collections": "0.12.0-preview.13"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/0.4.0-preview.1",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "205de08408dd7aaf3e0dbabe05fc409112033e3e"
+        }
+      }
+    },
+    {
+      "version": "0.5.0-preview.5",
+      "variantId": "registry-packages.unity.com-33341d2604025e6b",
+      "sourceUrl": "https://github.com/Unity-Technologies/netcode.git",
+      "sourceRef": "c552d8192df620055f641922198b0b4a247a808a",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-0.5.0-preview.5.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "da315da084576e1fba1284f1e476051eaf92b196",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.3.7",
+        "com.unity.entities": "0.16.0-preview.21",
+        "com.unity.transport": "0.5.0-preview.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/0.5.0-preview.5",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "da315da084576e1fba1284f1e476051eaf92b196"
+        }
+      }
+    },
+    {
+      "version": "0.6.0-preview.7",
+      "variantId": "registry-packages.unity.com-33d2e39494f5509b",
+      "sourceUrl": "https://github.com/Unity-Technologies/netcode.git",
+      "sourceRef": "f5463f493744a4b8b62680e2ed23a5687b8aabfd",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-0.6.0-preview.7.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9f26edbcff9fe211373eff0986285d1fca4e6216",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.4.1",
+        "com.unity.entities": "0.17.0-preview.41",
+        "com.unity.ext.nunit": "1.0.6",
+        "com.unity.transport": "0.6.0-preview.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/0.6.0-preview.7",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "9f26edbcff9fe211373eff0986285d1fca4e6216"
+        }
+      }
+    },
+    {
+      "version": "0.50.0-preview.29",
+      "variantId": "registry-packages.unity.com-e7ad7157fc260008",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "8327688fcdee91448c8d4aa1ebbd5a4c1e665bef",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-0.50.0-preview.29.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "fc873ce55f34aade73819a062d6dd1e8407d225e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.50.0-preview.24",
+        "com.unity.transport": "1.0.0-pre.15"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/0.50.0-preview.29",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "fc873ce55f34aade73819a062d6dd1e8407d225e"
+        }
+      }
+    },
+    {
+      "version": "0.50.1-preview.19",
+      "variantId": "registry-packages.unity.com-1e433698a8c8d723",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "f510d2cf044b48696ac6e43c591f2fb031f46fca",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-0.50.1-preview.19.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "26d2fc1184a248a1feef59b0704d4ff34b97b97c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.50.1-preview.2",
+        "com.unity.transport": "1.0.0-pre.15"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/0.50.1-preview.19",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "26d2fc1184a248a1feef59b0704d4ff34b97b97c"
+        }
+      }
+    },
+    {
+      "version": "0.51.0-preview.32",
+      "variantId": "registry-packages.unity.com-664abd2bd4692cc3",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "469d2b30300a7ff2c2b15f72ee8613e374c37b63",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-0.51.0-preview.32.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "3441f3b6b4aa2aac55ae7343fb11a37606c5c939",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.51.0-preview.32",
+        "com.unity.transport": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/0.51.0-preview.32",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "3441f3b6b4aa2aac55ae7343fb11a37606c5c939"
+        }
+      }
+    },
+    {
+      "version": "0.51.1-preview.21",
+      "variantId": "registry-packages.unity.com-43d49b86f3086cec",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "063a98897b40805f53b859bb426ce664229d0c00",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-0.51.1-preview.21.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9dbb38adf200a33c162c5b07a6270025cbe0bccd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "0.51.1-preview.21",
+        "com.unity.transport": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/0.51.1-preview.21",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "9dbb38adf200a33c162c5b07a6270025cbe0bccd"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-exp.8",
+      "variantId": "registry-packages.unity.com-a1ea5b9e984167e7",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "7f4180a58b7e1c75f6375bd73fb80bd99d195d4e",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.0.0-exp.8.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1d6628ec2626b38a24c8e7756860d10131102df8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.logging": "1.0.0-exp.6",
+        "com.unity.entities": "1.0.0-exp.8",
+        "com.unity.transport": "2.0.0-exp.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.0.0-exp.8",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "1d6628ec2626b38a24c8e7756860d10131102df8"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-exp.13",
+      "variantId": "registry-packages.unity.com-8ffd226ed2e0c500",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "bde89ab29c5e7b9e2491079103f23ad23d8dc81f",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.0.0-exp.13.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "68a0d98c56567cd92ef0ed70c4ba039d1bbed16a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.logging": "1.0.0-exp.7",
+        "com.unity.entities": "1.0.0-exp.12",
+        "com.unity.transport": "2.0.0-exp.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.0.0-exp.13",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "68a0d98c56567cd92ef0ed70c4ba039d1bbed16a"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-pre.15",
+      "variantId": "registry-packages.unity.com-96148b22026c9e55",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "82387d7cb4bc4aee07e94656ef8103860ef6ec55",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.0.0-pre.15.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "12c61f8f11a1f3f8ab1afc3b40cc0a335f74677a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.logging": "1.0.0-pre.11",
+        "com.unity.entities": "1.0.0-pre.15",
+        "com.unity.transport": "2.0.0-pre.2",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.0.0-pre.15",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "12c61f8f11a1f3f8ab1afc3b40cc0a335f74677a"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-pre.44",
+      "variantId": "registry-packages.unity.com-8f0abfc282c2e3e0",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "0e572178431e16c09c6c434c873bf0c60e52a5e9",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.0.0-pre.44.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4c9a919bc578817320e760c80da3b8190296c32e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.logging": "1.0.0-pre.21",
+        "com.unity.entities": "1.0.0-pre.44",
+        "com.unity.transport": "2.0.0-pre.6",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.0.0-pre.44",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "4c9a919bc578817320e760c80da3b8190296c32e"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-pre.47",
+      "variantId": "registry-packages.unity.com-6ec4179855abc8fc",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "36551e18e8f4a1b29a42b997554369e56ce8875a",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.0.0-pre.47.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ce8e1f1bfcefa84eb72dcccc799929403d3c0c66",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.logging": "1.0.0-pre.21",
+        "com.unity.entities": "1.0.0-pre.47",
+        "com.unity.transport": "2.0.0-pre.6",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.0.0-pre.47",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "ce8e1f1bfcefa84eb72dcccc799929403d3c0c66"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-pre.65",
+      "variantId": "registry-packages.unity.com-286e1f2dcac54ccd",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "85530c484ef7afedc5b128081152ec5e1f6f30e2",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.0.0-pre.65.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2d3df90baa848dd012bd969699d4342fbc2fd8ea",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.logging": "1.0.0-pre.37",
+        "com.unity.entities": "1.0.0-pre.65",
+        "com.unity.transport": "2.0.0-pre.6",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.0.0-pre.65",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "2d3df90baa848dd012bd969699d4342fbc2fd8ea"
+        }
+      }
+    },
+    {
+      "version": "1.0.8",
+      "variantId": "registry-packages.unity.com-8f506c303af63489",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "25dfb648cd0fabcf13fed46219e5fbe0fdabe4ac",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.0.8.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "395b2610c41e036bf7bb7e61dca3ec20358c0d77",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.logging": "1.0.8",
+        "com.unity.entities": "1.0.8",
+        "com.unity.transport": "2.0.1",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.0.8",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "395b2610c41e036bf7bb7e61dca3ec20358c0d77"
+        }
+      }
+    },
+    {
+      "version": "1.0.10",
+      "variantId": "registry-packages.unity.com-ba7c2f7de5a601e3",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "464acdc5351df3c5deeb425d7aa31f4c7b20c0cf",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.0.10.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "bfa9f1721444309f7fc963a7e39ade488c0f95b2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.logging": "1.0.10",
+        "com.unity.entities": "1.0.10",
+        "com.unity.transport": "2.0.1",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.0.10",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "bfa9f1721444309f7fc963a7e39ade488c0f95b2"
+        }
+      }
+    },
+    {
+      "version": "1.0.11",
+      "variantId": "registry-packages.unity.com-eb844ab7731213c0",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "7913fb5a6e4700c816c0910e23fbaad56b71fc6b",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.0.11.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d8178090c65961eb908e695725ba5a7d386fbdc8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.logging": "1.0.11",
+        "com.unity.entities": "1.0.10",
+        "com.unity.transport": "2.0.1",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.0.11",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "d8178090c65961eb908e695725ba5a7d386fbdc8"
+        }
+      }
+    },
+    {
+      "version": "1.0.12",
+      "variantId": "registry-packages.unity.com-8f1d9ed204332220",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "81c21934f16a49fc5f826187f07aaea4728d63c3",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.0.12.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "752b4615ecf554c602abac3ce519201ec1542403",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.logging": "1.0.11",
+        "com.unity.entities": "1.0.11",
+        "com.unity.transport": "2.0.1",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.0.12",
+      "deprecated": null,
+      "unity": "2022.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "752b4615ecf554c602abac3ce519201ec1542403"
+        }
+      }
+    },
+    {
+      "version": "1.0.15",
+      "variantId": "registry-packages.unity.com-a5537d67b20ec738",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "13433ff314ae6503bb855899b83d26a063650441",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.0.15.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f6de70ade4fc7a1a6d713ba309443e01f9c800ee",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.logging": "1.0.14",
+        "com.unity.entities": "1.0.14",
+        "com.unity.transport": "2.0.1",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.0.15",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "f6de70ade4fc7a1a6d713ba309443e01f9c800ee"
+        }
+      }
+    },
+    {
+      "version": "1.0.17",
+      "variantId": "registry-packages.unity.com-2db78a2c90950de6",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "8f9a34fef643cca2b5f84470ac61c171c1831168",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.0.17.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "dcb476daaf3e0723146d51860a4d4b28f1305773",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.logging": "1.0.16",
+        "com.unity.entities": "1.0.16",
+        "com.unity.transport": "2.0.1",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.0.17",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "dcb476daaf3e0723146d51860a4d4b28f1305773"
+        }
+      }
+    },
+    {
+      "version": "1.1.0-exp.1",
+      "variantId": "registry-packages.unity.com-e3cd84d91905b144",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "c3274ed2015eeec85914d62bfbd32e39f0dd112b",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.1.0-exp.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4e47ea3a38f18ed3c7eee5a7f8da5c769d4b4630",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.logging": "1.1.0-exp.1",
+        "com.unity.entities": "1.1.0-exp.1",
+        "com.unity.transport": "2.0.1",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.1.0-exp.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "4e47ea3a38f18ed3c7eee5a7f8da5c769d4b4630"
+        }
+      }
+    },
+    {
+      "version": "1.1.0-pre.3",
+      "variantId": "registry-packages.unity.com-ed48e92c3eb14f85",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "5edeb315aa3ca0d26060290a69660b2afdabe2ff",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.1.0-pre.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "be47e4b5d420f45d11ac755132521c08a12275eb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.logging": "1.1.0-pre.3",
+        "com.unity.entities": "1.1.0-pre.3",
+        "com.unity.transport": "2.0.1",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.1.0-pre.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "be47e4b5d420f45d11ac755132521c08a12275eb"
+        }
+      }
+    },
+    {
+      "version": "1.2.0-exp.3",
+      "variantId": "registry-packages.unity.com-4b0dc56a3d8f0b1c",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "9bfd95fb576e8fa710c8544b6706bdd73e25afef",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.2.0-exp.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "b810ecadd34f77eb142ead8983a66fa75f10e306",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.2.0-exp.3",
+        "com.unity.transport": "2.1.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.2.0-exp.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "b810ecadd34f77eb142ead8983a66fa75f10e306"
+        }
+      }
+    },
+    {
+      "version": "1.2.0-pre.4",
+      "variantId": "registry-packages.unity.com-55b94c3f12c186ab",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "38c44b22a14cc4a35bc1b7a2f5ab1846208176d5",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.2.0-pre.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "751c2bd9d708429b3b26d742a1bc794b96e52284",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.2.0-pre.4",
+        "com.unity.transport": "2.1.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.2.0-pre.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "751c2bd9d708429b3b26d742a1bc794b96e52284"
+        }
+      }
+    },
+    {
+      "version": "1.2.0-pre.6",
+      "variantId": "registry-packages.unity.com-94348a9d7e38a286",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "c2136868e2bfbe78d7c68475d8ced6c623b4cb6d",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.2.0-pre.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a849a8a54b9fce0daa5681aaa3221849feeab382",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.2.0-pre.6",
+        "com.unity.transport": "2.1.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.2.0-pre.6",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "a849a8a54b9fce0daa5681aaa3221849feeab382"
+        }
+      }
+    },
+    {
+      "version": "1.2.0-pre.12",
+      "variantId": "registry-packages.unity.com-e842136ba8b1b425",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "1ae43e0525b8a09c7fe52ab40c762938a4937244",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.2.0-pre.12.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9bc885dc60988ef6ae8d3da91388b4dea0431428",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.2.0-pre.12",
+        "com.unity.transport": "2.1.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.2.0-pre.12",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "9bc885dc60988ef6ae8d3da91388b4dea0431428"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-packages.unity.com-670d8bea9ed7ba53",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "ea4236421d61011e37e71d22108c5e4e70cf71d7",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.2.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4a8018a1b7bdd5bc478c0c351367430ccdd9085b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.2.0",
+        "com.unity.transport": "2.1.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.2.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "4a8018a1b7bdd5bc478c0c351367430ccdd9085b"
+        }
+      }
+    },
+    {
+      "version": "1.2.1",
+      "variantId": "registry-packages.unity.com-fd88f1f59531698e",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "6ecf7a215623cca37079c6f1a3e6f2f686c91721",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.2.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "5139da8409a95f5895f9bd5f2f6ff454771e23b4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.2.1",
+        "com.unity.transport": "2.1.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.2.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "5139da8409a95f5895f9bd5f2f6ff454771e23b4"
+        }
+      }
+    },
+    {
+      "version": "1.2.3",
+      "variantId": "registry-packages.unity.com-38a685adfb5095d4",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "0e866f29be5f7742acc14fad89281f547835ef01",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.2.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0ce9bcee38895bcb6566b5b882eeed0624725730",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.2.3",
+        "com.unity.transport": "2.1.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.2.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "0ce9bcee38895bcb6566b5b882eeed0624725730"
+        }
+      }
+    },
+    {
+      "version": "1.2.4",
+      "variantId": "registry-packages.unity.com-02aeba60b49cfd7c",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "3229c084d74b90980f151fe926f426ae38a63b44",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.2.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9ed7af6727b9852f85bb3d67251392d172b6aba3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.2.4",
+        "com.unity.transport": "2.1.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.2.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "9ed7af6727b9852f85bb3d67251392d172b6aba3"
+        }
+      }
+    },
+    {
+      "version": "1.3.0-exp.1",
+      "variantId": "registry-packages.unity.com-e8d16072a3354fef",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "d5bde5f043ad76defc80bbc6be1f8630d14b108d",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.3.0-exp.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "62bfa0a2b2526f86a0df2155947abb8e3af96697",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.0-exp.1",
+        "com.unity.transport": "2.2.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.3.0-exp.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "62bfa0a2b2526f86a0df2155947abb8e3af96697"
+        }
+      }
+    },
+    {
+      "version": "1.3.0-pre.4",
+      "variantId": "registry-packages.unity.com-48e0f78e9048713c",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "6b0c8d27a0224c9cf76032c48d1b981e9750f10d",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.3.0-pre.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8eca6323c9b03d4d48fc72bb5f371b941a9d6992",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.0-pre.4",
+        "com.unity.transport": "2.2.1",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.3.0-pre.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "8eca6323c9b03d4d48fc72bb5f371b941a9d6992"
+        }
+      }
+    },
+    {
+      "version": "1.3.2",
+      "variantId": "registry-packages.unity.com-21f18dcf33516f6a",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/dots.git",
+      "sourceRef": "921920e681054c59b440cc1e2aef10f781dc4124",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.3.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f014118a72146c0153797ac74ac178f75963639c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.2",
+        "com.unity.transport": "2.2.1",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.3.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "f014118a72146c0153797ac74ac178f75963639c"
+        }
+      }
+    },
+    {
+      "version": "1.3.6",
+      "variantId": "registry-packages.unity.com-93916dda05eb810e",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.3.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7add295fd041f288872aca14ca66600f357655c2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.5",
+        "com.unity.transport": "2.2.1",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.3.6",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "7add295fd041f288872aca14ca66600f357655c2"
+        }
+      }
+    },
+    {
+      "version": "1.4.0",
+      "variantId": "registry-packages.unity.com-ea60d902d10af3c4",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.4.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e1dc18e490f07bc7a4c3c34b222bc837b9520936",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.5",
+        "com.unity.transport": "2.4.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.4.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "e1dc18e490f07bc7a4c3c34b222bc837b9520936"
+        }
+      }
+    },
+    {
+      "version": "1.4.1",
+      "variantId": "registry-packages.unity.com-4610ccca824054b3",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.4.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "30f2ac451a68f0303751116274281005f67421b0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.5",
+        "com.unity.transport": "2.4.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.4.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "30f2ac451a68f0303751116274281005f67421b0"
+        }
+      }
+    },
+    {
+      "version": "1.5.0-exp.1",
+      "variantId": "registry-packages.unity.com-c8f08de89bb5b8a6",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.5.0-exp.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f02267ec0b338c0d5f772c688973e74f8b14ce92",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.9",
+        "com.unity.transport": "2.4.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.5.0-exp.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "f02267ec0b338c0d5f772c688973e74f8b14ce92"
+        }
+      }
+    },
+    {
+      "version": "1.5.0-exp.2",
+      "variantId": "registry-packages.unity.com-7a3b7e4aa4353891",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.5.0-exp.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7266eeec02be299b657b611ccb0ec636408f71e1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.9",
+        "com.unity.transport": "2.4.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.5.0-exp.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "7266eeec02be299b657b611ccb0ec636408f71e1"
+        }
+      }
+    },
+    {
+      "version": "1.5.0-exp.100",
+      "variantId": "registry-packages.unity.com-8b34c650d01f2202",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.5.0-exp.100.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "918ce2f29ede7a4d5faf43bcc15070a6d0584954",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.9",
+        "com.unity.transport": "2.4.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.5.0-exp.100",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "918ce2f29ede7a4d5faf43bcc15070a6d0584954"
+        }
+      }
+    },
+    {
+      "version": "1.5.0-exp.101",
+      "variantId": "registry-packages.unity.com-793b4826ed6d138c",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.5.0-exp.101.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0f2dc8587fe31a940429b5e2c06ed67c7eb20f6b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.9",
+        "com.unity.transport": "2.4.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.5.0-exp.101",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "0f2dc8587fe31a940429b5e2c06ed67c7eb20f6b"
+        }
+      }
+    },
+    {
+      "version": "1.5.0",
+      "variantId": "registry-packages.unity.com-a3f73443b14bfc35",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.5.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ceae16c3c59d70ed69be626e92b7c65e5e8bbbee",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.5",
+        "com.unity.transport": "2.4.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.5.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "ceae16c3c59d70ed69be626e92b7c65e5e8bbbee"
+        }
+      }
+    },
+    {
+      "version": "1.5.1",
+      "variantId": "registry-packages.unity.com-3f1cd69569f77b53",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.5.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "3febe9d26bb9e25ccfc18738571a38a83102c001",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.5",
+        "com.unity.transport": "2.4.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.5.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "3febe9d26bb9e25ccfc18738571a38a83102c001"
+        }
+      }
+    },
+    {
+      "version": "1.6.1",
+      "variantId": "registry-packages.unity.com-13b490edcdb1b0cb",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.6.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "de906627a8109618e16a6b33e2512ae6dbc12497",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.5",
+        "com.unity.transport": "2.4.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.6.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "de906627a8109618e16a6b33e2512ae6dbc12497"
+        }
+      }
+    },
+    {
+      "version": "1.6.2",
+      "variantId": "registry-packages.unity.com-5c579438587eac93",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.6.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6e0b1c9336703bc0149c3f4aedd8db18e1e52e8e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.5",
+        "com.unity.transport": "2.4.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.6.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "6e0b1c9336703bc0149c3f4aedd8db18e1e52e8e"
+        }
+      }
+    },
+    {
+      "version": "1.7.0",
+      "variantId": "registry-packages.unity.com-8128ffe0ee036558",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.7.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "fe22aba4e18120bda30c03db2be5ba30ae633665",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.5",
+        "com.unity.transport": "2.4.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.7.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "fe22aba4e18120bda30c03db2be5ba30ae633665"
+        }
+      }
+    },
+    {
+      "version": "1.8.0",
+      "variantId": "registry-packages.unity.com-8f940ad36efe79dc",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.8.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2fb2edf0390f170cab588f431ef7d268b848750b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.5",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.8.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "2fb2edf0390f170cab588f431ef7d268b848750b"
+        }
+      }
+    },
+    {
+      "version": "1.9.0",
+      "variantId": "registry-packages.unity.com-f5b3e00c2834a4c2",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.9.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "7906a2acb8d5b3605b4a3c98b2df8475fc1b9402",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.5",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.9.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "7906a2acb8d5b3605b4a3c98b2df8475fc1b9402"
+        }
+      }
+    },
+    {
+      "version": "1.9.1",
+      "variantId": "registry-packages.unity.com-83721bc8710f1ece",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.9.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "5e83d6e5d424b29cba07e15ec5bcb43eb383783e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.5",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.9.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "5e83d6e5d424b29cba07e15ec5bcb43eb383783e"
+        }
+      }
+    },
+    {
+      "version": "1.9.2",
+      "variantId": "registry-packages.unity.com-7d934cda5cdca46e",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.9.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "683339679795f487dbb3c5cae9b641a6bbcf648b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.5",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.9.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "683339679795f487dbb3c5cae9b641a6bbcf648b"
+        }
+      }
+    },
+    {
+      "version": "1.9.3",
+      "variantId": "registry-packages.unity.com-090c440e0226bcde",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.9.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "dcb5b1e763ea64100002c284607697658bdd46a5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.3.5",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.9.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "dcb5b1e763ea64100002c284607697658bdd46a5"
+        }
+      }
+    },
+    {
+      "version": "1.10.0",
+      "variantId": "registry-packages.unity.com-36a8acf05f4c9bd0",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.10.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "5d39c9b3860ab6e2322cfdc9f648a92c65e8a3f4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.4.2",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.10.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "5d39c9b3860ab6e2322cfdc9f648a92c65e8a3f4"
+        }
+      }
+    },
+    {
+      "version": "1.11.0",
+      "variantId": "registry-packages.unity.com-f3be41797fe6a0cc",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.11.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8d46db3feeda8e5da0ff27ed262406257db3ac60",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.4.2",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.11.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "8d46db3feeda8e5da0ff27ed262406257db3ac60"
+        }
+      }
+    },
+    {
+      "version": "1.12.0",
+      "variantId": "registry-packages.unity.com-dd97560a7769149a",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.12.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4b708b6fc872cb09efff58bab4c908f8c24e79c4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.4.4",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.12.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "4b708b6fc872cb09efff58bab4c908f8c24e79c4"
+        }
+      }
+    },
+    {
+      "version": "1.13.0",
+      "variantId": "registry-packages.unity.com-ab9e8eecd66280a5",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.13.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "baf032c1f57879f81d597ba5d836eed867bafde7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.4.4",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.13.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "baf032c1f57879f81d597ba5d836eed867bafde7"
+        }
+      }
+    },
+    {
+      "version": "1.13.1",
+      "variantId": "registry-packages.unity.com-b47166e5a239a2a6",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.13.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "219b772c14858b8f142da4761630f610446c01af",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.4.4",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.13.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "219b772c14858b8f142da4761630f610446c01af"
+        }
+      }
+    },
+    {
+      "version": "1.13.2",
+      "variantId": "registry-packages.unity.com-a5831d2e5b21ab03",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.13.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c5c09913fd217bcac8cad8bb6eac6685f309bafe",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.4.4",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.13.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "c5c09913fd217bcac8cad8bb6eac6685f309bafe"
+        }
+      }
+    },
+    {
+      "version": "1.14.0",
+      "variantId": "registry-packages.unity.com-2a027a09041918f3",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.14.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6437771c174aa8070ab4fdfa396c18b5704ce06c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.4.4",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.14.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "6437771c174aa8070ab4fdfa396c18b5704ce06c"
+        }
+      }
+    },
+    {
+      "version": "1.14.1",
+      "variantId": "registry-packages.unity.com-6a288b93e95b32be",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.14.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0dd6aa9393bc658644fb5a615e260d4132cb3895",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.4.4",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.14.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "0dd6aa9393bc658644fb5a615e260d4132cb3895"
+        }
+      }
+    },
+    {
+      "version": "1.14.2",
+      "variantId": "registry-packages.unity.com-025625e66087edfb",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.14.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d3ef219e7b83d03c1dc11db4faaaecf8f301f4e2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.4.4",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.14.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "d3ef219e7b83d03c1dc11db4faaaecf8f301f4e2"
+        }
+      }
+    },
+    {
+      "version": "1.14.3",
+      "variantId": "registry-packages.unity.com-470a642d5f217561",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-1.14.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "5cefe136ad1fee278928cdf354b361b3331f4dcc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "1.4.4",
+        "com.unity.transport": "2.5.3",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/1.14.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "5cefe136ad1fee278928cdf354b361b3331f4dcc"
+        }
+      }
+    },
+    {
+      "version": "6.7.0",
+      "variantId": "registry-packages.unity.com-9bd08b4cc56c07fe",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-6.7.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d12ad84afe196d8276737bb0f09b525e9b3ae687",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "6.7.0",
+        "com.unity.transport": "6.5.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/6.7.0",
+      "deprecated": null,
+      "unity": "6000.7",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "d12ad84afe196d8276737bb0f09b525e9b3ae687"
+        }
+      }
+    },
+    {
+      "version": "7.0.0",
+      "variantId": "registry-packages.unity.com-b56beba4e5074d76",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-7.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "114354aa1061c7b45fe0717795620bc9913d06ad",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "6.7.0",
+        "com.unity.transport": "6.5.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/7.0.0",
+      "deprecated": null,
+      "unity": "6000.7",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "114354aa1061c7b45fe0717795620bc9913d06ad"
+        }
+      }
+    },
+    {
+      "version": "7.1.0",
+      "variantId": "registry-packages.unity.com-c254c580f831ad3d",
+      "sourceUrl": "https://packages.unity.com/com.unity.netcode",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.netcode/-/com.unity.netcode-7.1.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d8ac8140d4bfcc3d8c9e6b3a05b6f64085a8fb34",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.entities": "6.7.0",
+        "com.unity.transport": "6.7.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.netcode/7.1.0",
+      "deprecated": null,
+      "unity": "6000.7",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "d8ac8140d4bfcc3d8c9e6b3a05b6f64085a8fb34"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "7.1.0"
+  },
+  "targetVersions": [
+    "7.0.0"
+  ],
+  "selectedVersions": [
+    "7.0.0",
+    "7.1.0",
+    "6.7.0"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 69,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

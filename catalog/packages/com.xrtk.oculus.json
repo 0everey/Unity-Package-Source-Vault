@@ -1,0 +1,888 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.xrtk.oculus",
+  "displayName": "com.xrtk.oculus",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus",
+      "fetchedAt": "2026-10-17T17:43:18.742792Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "variantId": "registry-package.openupm.com-61998fe537ac480c",
+      "sourceUrl": "https://github.com/XRTK/Oculus.git",
+      "sourceRef": "80159060f3faa06a097895d625aab13a14ed0d4d",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.1.0.tgz",
+      "upstreamIntegrity": "sha512-+7t+9TdbMMWFhsG/a2DlwjcfRtzSvyjmNNFFrnem8jHlY64ZSG0aAEJa1EYTMGH/Djzl7DgOgcyX+wko3xBhBw==",
+      "upstreamShasum": "40d117f8c4e077ee804885bce53950edf72d5f67",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.13"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.1.0",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+7t+9TdbMMWFhsG/a2DlwjcfRtzSvyjmNNFFrnem8jHlY64ZSG0aAEJa1EYTMGH/Djzl7DgOgcyX+wko3xBhBw==",
+          "shasum": "40d117f8c4e077ee804885bce53950edf72d5f67"
+        }
+      }
+    },
+    {
+      "version": "0.1.1",
+      "variantId": "registry-package.openupm.com-a59c774c53568520",
+      "sourceUrl": "https://github.com/XRTK/Oculus.git",
+      "sourceRef": "3ae186b0f5bc2ddcd455bd18dacc3620338f7268",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.1.1.tgz",
+      "upstreamIntegrity": "sha512-uC1iBHSEPAPgYh02x357hFBc995M+I1REm28OD9tGaQLlP8XnwZDJcHdcWabulGsy5/x0GjakHr5ZLMque2NTg==",
+      "upstreamShasum": "cfc725b64d72bf95eefc8769f8dfa882aa50feff",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.13"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.1.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uC1iBHSEPAPgYh02x357hFBc995M+I1REm28OD9tGaQLlP8XnwZDJcHdcWabulGsy5/x0GjakHr5ZLMque2NTg==",
+          "shasum": "cfc725b64d72bf95eefc8769f8dfa882aa50feff"
+        }
+      }
+    },
+    {
+      "version": "0.1.2",
+      "variantId": "registry-package.openupm.com-4a31aee3726e324c",
+      "sourceUrl": "https://github.com/XRTK/Oculus.git",
+      "sourceRef": "16bc10acd0d6aaf7936d0f9629c13bb340f8211a",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.1.2.tgz",
+      "upstreamIntegrity": "sha512-929dSopzh0AfjzCOrbHEhAhiErBRS0gIiIl1HdEp4CLicrdt1Eylc4Q7Gvzy8hbsmwIMQSWfVWrg4InWFHudqA==",
+      "upstreamShasum": "27e0f334e94450e0a2ded9305063aee11fcb0456",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.16"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.1.2",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-929dSopzh0AfjzCOrbHEhAhiErBRS0gIiIl1HdEp4CLicrdt1Eylc4Q7Gvzy8hbsmwIMQSWfVWrg4InWFHudqA==",
+          "shasum": "27e0f334e94450e0a2ded9305063aee11fcb0456"
+        }
+      }
+    },
+    {
+      "version": "0.1.3",
+      "variantId": "registry-package.openupm.com-ddc3cc6d5c7c7b4c",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.oculus",
+      "sourceRef": "b1df88cec91cc50c9bf7bb57c8d7570471a1751b",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.1.3.tgz",
+      "upstreamIntegrity": "sha512-ifWkerVGtZHB3keCP6Q9h3aWK/ipttg4+63s5HAEvT97S2ND5msdoc/3ksmTbgppcbFRGtocLiZWFfITLXzTXA==",
+      "upstreamShasum": "4a0b728d7c9be964dd8a47919f008e1f4374abf2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.19"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.1.3",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ifWkerVGtZHB3keCP6Q9h3aWK/ipttg4+63s5HAEvT97S2ND5msdoc/3ksmTbgppcbFRGtocLiZWFfITLXzTXA==",
+          "shasum": "4a0b728d7c9be964dd8a47919f008e1f4374abf2"
+        }
+      }
+    },
+    {
+      "version": "0.1.4",
+      "variantId": "registry-package.openupm.com-51b27466101501eb",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.oculus",
+      "sourceRef": "6b9392c440c70f00a1ad42251622b9b3504e73de",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.1.4.tgz",
+      "upstreamIntegrity": "sha512-Yf9HLZ1iQhX0rzMlTFy43KTiKCzkXrk1mtR/owrpFDERGacC++wWo4bqg3lQ1JR0Ugn5BrQppwBf7/kyyBFdHQ==",
+      "upstreamShasum": "18e7516a501836d671946620d3a83d027ad95ac9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.1.4",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Yf9HLZ1iQhX0rzMlTFy43KTiKCzkXrk1mtR/owrpFDERGacC++wWo4bqg3lQ1JR0Ugn5BrQppwBf7/kyyBFdHQ==",
+          "shasum": "18e7516a501836d671946620d3a83d027ad95ac9"
+        }
+      }
+    },
+    {
+      "version": "0.1.5",
+      "variantId": "registry-package.openupm.com-1a21cc3c81b4baac",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.oculus",
+      "sourceRef": "c3ee50c2260c189dbc93d67486e15293a2a7527d",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.1.5.tgz",
+      "upstreamIntegrity": "sha512-2Spgh37YnGT8Yc0UrVuImyYlWzhjQ/i3NV7y4p+jvTCZIubbn7NXiaa1EesNiMVRJMC7OLkF9MI9idU/ZndDRw==",
+      "upstreamShasum": "b16e418e5b583ca4ee390493182d3d8164a76edf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.21"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.1.5",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2Spgh37YnGT8Yc0UrVuImyYlWzhjQ/i3NV7y4p+jvTCZIubbn7NXiaa1EesNiMVRJMC7OLkF9MI9idU/ZndDRw==",
+          "shasum": "b16e418e5b583ca4ee390493182d3d8164a76edf"
+        }
+      }
+    },
+    {
+      "version": "0.1.6",
+      "variantId": "registry-package.openupm.com-c66f402d95a462e1",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.oculus",
+      "sourceRef": "df5c3a65c71e5295dcdb5f766f5d21af2fbaadb3",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.1.6.tgz",
+      "upstreamIntegrity": "sha512-gpXh/q71G6oXgwzU6/nF0jOG9HOhtBa5vdYgpUHoUg7ejld0imhUytbzQ6Nl4jgLLu2MMrEobpSdU+NkhjMIqA==",
+      "upstreamShasum": "8bcd6132900c9278f469707712d209fd1eaccb97",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.25"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.1.6",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gpXh/q71G6oXgwzU6/nF0jOG9HOhtBa5vdYgpUHoUg7ejld0imhUytbzQ6Nl4jgLLu2MMrEobpSdU+NkhjMIqA==",
+          "shasum": "8bcd6132900c9278f469707712d209fd1eaccb97"
+        }
+      }
+    },
+    {
+      "version": "0.1.7",
+      "variantId": "registry-package.openupm.com-c5eca46e89c46d10",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.oculus",
+      "sourceRef": "74d5b7f7caf5f253e3a8dfd452613722769962e7",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.1.7.tgz",
+      "upstreamIntegrity": "sha512-DSqT5of+DnsGitXwM9/5kgiaxqBSoatnWUKL7f/AKchKxjkq5lWGsGb+mvevM9oEtHFMkEcb0/HyMcXzNEJb+g==",
+      "upstreamShasum": "9dc0d98feb7bc20be9f7e34524875cdd9d74256f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.25"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.1.7",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-DSqT5of+DnsGitXwM9/5kgiaxqBSoatnWUKL7f/AKchKxjkq5lWGsGb+mvevM9oEtHFMkEcb0/HyMcXzNEJb+g==",
+          "shasum": "9dc0d98feb7bc20be9f7e34524875cdd9d74256f"
+        }
+      }
+    },
+    {
+      "version": "0.1.8",
+      "variantId": "registry-package.openupm.com-d97e6b72d433b106",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.oculus",
+      "sourceRef": "bd127836e9d7124a22fd08d88e5e4c1616159134",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.1.8.tgz",
+      "upstreamIntegrity": "sha512-XIikF/lvHLbkA7N8QkVSe28rrPToGEn6UX1Gkv4rXzfwMNMuuHzPua0GYfAWUBlV1QYpX7Lzva13zLIKpl9WkQ==",
+      "upstreamShasum": "34045c0c56dff101c48ca103b988c15949e76de9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.25"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.1.8",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XIikF/lvHLbkA7N8QkVSe28rrPToGEn6UX1Gkv4rXzfwMNMuuHzPua0GYfAWUBlV1QYpX7Lzva13zLIKpl9WkQ==",
+          "shasum": "34045c0c56dff101c48ca103b988c15949e76de9"
+        }
+      }
+    },
+    {
+      "version": "0.1.9",
+      "variantId": "registry-package.openupm.com-c78cfea2a9dc7c56",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.oculus",
+      "sourceRef": "fa54aea1193304c63956dab3594a6acb093251ba",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.1.9.tgz",
+      "upstreamIntegrity": "sha512-wZr1aOiuJO0E95hVmhKrjstxDBhx4Pxjgwkc4RxpMmkMpAQMP/yxfJAvh8ckz8gfZ/uGIKH/Zk5MvAa/JFa1Sw==",
+      "upstreamShasum": "d19a2a5e2bc923bc45a8b6bb0af7d8b5073637ee",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.27"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.1.9",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wZr1aOiuJO0E95hVmhKrjstxDBhx4Pxjgwkc4RxpMmkMpAQMP/yxfJAvh8ckz8gfZ/uGIKH/Zk5MvAa/JFa1Sw==",
+          "shasum": "d19a2a5e2bc923bc45a8b6bb0af7d8b5073637ee"
+        }
+      }
+    },
+    {
+      "version": "0.1.10",
+      "variantId": "registry-package.openupm.com-ea665e8491776212",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.oculus",
+      "sourceRef": "77a236dcc2fa4c8d80893edef840cc6d3d7b8271",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.1.10.tgz",
+      "upstreamIntegrity": "sha512-scW16ePkNV41XJvIZP43Mn90qgXUiMMJ1wP2fsK6NZ5q6UCtJGTP1GN3kasOqNLeS7cmPYZkit5j2V764XB0RA==",
+      "upstreamShasum": "914eb91dc5b136c54301faccd124f50ecf795491",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.27"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.1.10",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-scW16ePkNV41XJvIZP43Mn90qgXUiMMJ1wP2fsK6NZ5q6UCtJGTP1GN3kasOqNLeS7cmPYZkit5j2V764XB0RA==",
+          "shasum": "914eb91dc5b136c54301faccd124f50ecf795491"
+        }
+      }
+    },
+    {
+      "version": "0.1.11",
+      "variantId": "registry-package.openupm.com-9e0c5757a5312a7b",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.oculus",
+      "sourceRef": "c9783897be351ef677c879aecd07564fc1dc69c9",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.1.11.tgz",
+      "upstreamIntegrity": "sha512-k7N3z9ZQY1Y+5cPBYp+a12ZsW2sO4zhG+tDgHCyhip8XglRzH1hUzWGhmXmnEYQhjdpNrnREhvfnM+Ccnp4pXQ==",
+      "upstreamShasum": "77892936c9724aac37cf19191e905ac863a095ec",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.1.27"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.1.11",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-k7N3z9ZQY1Y+5cPBYp+a12ZsW2sO4zhG+tDgHCyhip8XglRzH1hUzWGhmXmnEYQhjdpNrnREhvfnM+Ccnp4pXQ==",
+          "shasum": "77892936c9724aac37cf19191e905ac863a095ec"
+        }
+      }
+    },
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-1f27b8a02a7aa203",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.oculus",
+      "sourceRef": "9a1443130c117fac629d721b857af13a25db9a18",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-WTDttTl8Qn0PJfdmDpOOr1/u0CsEFUpoKtDZV7lWleBOKUatMQJhp1gPq+mAUidLEDxwx0lPaD96zsrNpBjIHA==",
+      "upstreamShasum": "8fcd1e3e6fb90581008ee9129246ad53b9ead05c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.2.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WTDttTl8Qn0PJfdmDpOOr1/u0CsEFUpoKtDZV7lWleBOKUatMQJhp1gPq+mAUidLEDxwx0lPaD96zsrNpBjIHA==",
+          "shasum": "8fcd1e3e6fb90581008ee9129246ad53b9ead05c"
+        }
+      }
+    },
+    {
+      "version": "0.2.1",
+      "variantId": "registry-package.openupm.com-5d383b6f72b31125",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.oculus",
+      "sourceRef": "978bba9ca6249616f892c3898c862d2d4d10610f",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.2.1.tgz",
+      "upstreamIntegrity": "sha512-AWrmoZCsPPlG9GxiPtWe1aRNFG388vxfelgkzzRpp1lqd8J1u9SH+yxNwkLb1nYx19JHt0MHGP6jK/zrGACkKg==",
+      "upstreamShasum": "f2e6785773d1528d648bb1b695d12ec70d68b8d3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.2.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-AWrmoZCsPPlG9GxiPtWe1aRNFG388vxfelgkzzRpp1lqd8J1u9SH+yxNwkLb1nYx19JHt0MHGP6jK/zrGACkKg==",
+          "shasum": "f2e6785773d1528d648bb1b695d12ec70d68b8d3"
+        }
+      }
+    },
+    {
+      "version": "0.2.2",
+      "variantId": "registry-package.openupm.com-80bbcb1d096b4746",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.oculus",
+      "sourceRef": "b54ab3d2f0ca2061cfa992dcbfae67e4440d49ac",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.2.2.tgz",
+      "upstreamIntegrity": "sha512-opYv1GvG/o6fObasH4n2stiEmXej6B2d6kd4Wt40lp5dWbdbvq/rV+lYreHXCpiDUd8/gVaVEVKKxndesuI7Nw==",
+      "upstreamShasum": "00ee0de983ac99ce82d8181b8b2bee0db563b892",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.2.2",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-opYv1GvG/o6fObasH4n2stiEmXej6B2d6kd4Wt40lp5dWbdbvq/rV+lYreHXCpiDUd8/gVaVEVKKxndesuI7Nw==",
+          "shasum": "00ee0de983ac99ce82d8181b8b2bee0db563b892"
+        }
+      }
+    },
+    {
+      "version": "0.2.3",
+      "variantId": "registry-package.openupm.com-cb6b4f9580695e54",
+      "sourceUrl": "https://package.openupm.com/com.xrtk.oculus",
+      "sourceRef": "8354fe6da1119d83e7c45689976d45249f6daf66",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.2.3.tgz",
+      "upstreamIntegrity": "sha512-f32fk+Ahg1Hsbv0kCLdAK6tZRaxhR1i4qij+SaY0hJ1kyJNx+TToBCqYNse64Y3NEfC7mwDL+ShthUBcKljIrg==",
+      "upstreamShasum": "4d47860b90de88e1ce6e9f0940d003bc521c2f62",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.2.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-f32fk+Ahg1Hsbv0kCLdAK6tZRaxhR1i4qij+SaY0hJ1kyJNx+TToBCqYNse64Y3NEfC7mwDL+ShthUBcKljIrg==",
+          "shasum": "4d47860b90de88e1ce6e9f0940d003bc521c2f62"
+        }
+      }
+    },
+    {
+      "version": "0.2.4",
+      "variantId": "registry-package.openupm.com-6401c085e13eca27",
+      "sourceUrl": "https://github.com/XRTK/Oculus.git",
+      "sourceRef": "3b0ef6907bb96223d52b4e4c43f0b05e2a5caa99",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.2.4.tgz",
+      "upstreamIntegrity": "sha512-qMZ9ZvR3ztYbqg69uLNspVCKmyItfH8jDWSNG6glLXkEtpjj3hM88WX5bwQxu+W7hr1CCi05HBDf+JDGx3BTJg==",
+      "upstreamShasum": "bd6f6eb28168ef59a04fc3d69eb6fdcfc84e0c73",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.2.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qMZ9ZvR3ztYbqg69uLNspVCKmyItfH8jDWSNG6glLXkEtpjj3hM88WX5bwQxu+W7hr1CCi05HBDf+JDGx3BTJg==",
+          "shasum": "bd6f6eb28168ef59a04fc3d69eb6fdcfc84e0c73"
+        }
+      }
+    },
+    {
+      "version": "0.2.5",
+      "variantId": "registry-package.openupm.com-df8143dbfcde64af",
+      "sourceUrl": "https://github.com/XRTK/Oculus.git",
+      "sourceRef": "d07daa57f91a767359de61ae319aa725b3ff98f9",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.2.5.tgz",
+      "upstreamIntegrity": "sha512-Vn5JcwBlCFVovDkHQamnWUNjWkJfWsDHuvwbzN99veXetZTziPQmwznek3HlcrsTWa/B+ccJ9kky2pJ4DLBcnA==",
+      "upstreamShasum": "fd16efeea8e99e64110f7961516e7e8e11d592c1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.2.5",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Vn5JcwBlCFVovDkHQamnWUNjWkJfWsDHuvwbzN99veXetZTziPQmwznek3HlcrsTWa/B+ccJ9kky2pJ4DLBcnA==",
+          "shasum": "fd16efeea8e99e64110f7961516e7e8e11d592c1"
+        }
+      }
+    },
+    {
+      "version": "0.2.6",
+      "variantId": "registry-package.openupm.com-e8c85ce879542f1a",
+      "sourceUrl": "https://github.com/XRTK/Oculus.git",
+      "sourceRef": "0ab1088fc708bfdcd493c5fc8b8d38360c81b01e",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.2.6.tgz",
+      "upstreamIntegrity": "sha512-d1kV2AV+PBxttoSb97/43zU/7s11YvBiEggnFtFFyXtv7BLp8jmtPL7Q5VNPAl06G7rBSWmaxFFAwDR7olIZtw==",
+      "upstreamShasum": "cd7bf5f56f53bde685d4ce63edfbfcc0bef318fb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.2.6",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-d1kV2AV+PBxttoSb97/43zU/7s11YvBiEggnFtFFyXtv7BLp8jmtPL7Q5VNPAl06G7rBSWmaxFFAwDR7olIZtw==",
+          "shasum": "cd7bf5f56f53bde685d4ce63edfbfcc0bef318fb"
+        }
+      }
+    },
+    {
+      "version": "0.2.7",
+      "variantId": "registry-package.openupm.com-5d83b94e2f98034a",
+      "sourceUrl": "https://github.com/XRTK/Oculus.git",
+      "sourceRef": "50cd1d9b9c3200bcd7828d00dba24eb76f4823d9",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.2.7.tgz",
+      "upstreamIntegrity": "sha512-hLOYTLbq6/9I99q8QCR+isbByl2mX8/BBC8JwL+vhMT7Tc31jUYc3EIYnMIpk0NAML700f3ACk5aW2TUPXMYWQ==",
+      "upstreamShasum": "abc3f09cf195a8e9c375015f9486f895b5c97109",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.2.7",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hLOYTLbq6/9I99q8QCR+isbByl2mX8/BBC8JwL+vhMT7Tc31jUYc3EIYnMIpk0NAML700f3ACk5aW2TUPXMYWQ==",
+          "shasum": "abc3f09cf195a8e9c375015f9486f895b5c97109"
+        }
+      }
+    },
+    {
+      "version": "0.2.8",
+      "variantId": "registry-package.openupm.com-cea06de0c39ed27d",
+      "sourceUrl": "https://github.com/XRTK/Oculus.git",
+      "sourceRef": "294094c72d7e12042f593c625d2c751ae17c429d",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.2.8.tgz",
+      "upstreamIntegrity": "sha512-zTt6hT3Ndxab94pO5n6JdgfmJkTLWN3USlpxhaX91Yfz0SJEhxtU0j6D/hh58JkTpcv+9QUzi8KIP2XMNwrmtg==",
+      "upstreamShasum": "ae6659bc6b7b6f097187ecd90b0461e49c24fa11",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.16"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.2.8",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zTt6hT3Ndxab94pO5n6JdgfmJkTLWN3USlpxhaX91Yfz0SJEhxtU0j6D/hh58JkTpcv+9QUzi8KIP2XMNwrmtg==",
+          "shasum": "ae6659bc6b7b6f097187ecd90b0461e49c24fa11"
+        }
+      }
+    },
+    {
+      "version": "0.2.9",
+      "variantId": "registry-package.openupm.com-41f825c8bbfcccb4",
+      "sourceUrl": "https://github.com/XRTK/Oculus.git",
+      "sourceRef": "35530bb61ec768dd9a715293ef1399885d248ae3",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.2.9.tgz",
+      "upstreamIntegrity": "sha512-XlnIty5vg47BKYzEUb8w1MzQLpmypWwLI8h+WSbwv9kmfRPCWqHllJW/xpQw4loWrS0IOZsixAf7gZYsy06qGA==",
+      "upstreamShasum": "88ba98bddcecebc898fac0aebdc82aa9797ea574",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.2.17"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.2.9",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XlnIty5vg47BKYzEUb8w1MzQLpmypWwLI8h+WSbwv9kmfRPCWqHllJW/xpQw4loWrS0IOZsixAf7gZYsy06qGA==",
+          "shasum": "88ba98bddcecebc898fac0aebdc82aa9797ea574"
+        }
+      }
+    },
+    {
+      "version": "0.3.0-preview.14",
+      "variantId": "registry-package.openupm.com-3e00d3bb183e5fb6",
+      "sourceUrl": "https://github.com/XRTK/Oculus.git",
+      "sourceRef": "0cb46a015348f4755fd402c1b9c002ce29d17e37",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.3.0-preview.14.tgz",
+      "upstreamIntegrity": "sha512-mJRxQN7nm4ov7aaj0pP0ePu0XPjX8RhxLrJfymuBHtUvIun4g8fWfRHT6Ux4b0aQi6nRcylAyzN5ZvY+15wJFA==",
+      "upstreamShasum": "7f5940ac4b146489ee761f732f0e7afc2e315da5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.3.0-preview.49",
+        "com.unity.xr.mock-hmd": "1.3.0-preview.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.3.0-preview.14",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mJRxQN7nm4ov7aaj0pP0ePu0XPjX8RhxLrJfymuBHtUvIun4g8fWfRHT6Ux4b0aQi6nRcylAyzN5ZvY+15wJFA==",
+          "shasum": "7f5940ac4b146489ee761f732f0e7afc2e315da5"
+        }
+      }
+    },
+    {
+      "version": "0.3.0-preview.15",
+      "variantId": "registry-package.openupm.com-5427cb6712472c3a",
+      "sourceUrl": "https://github.com/XRTK/Oculus.git",
+      "sourceRef": "95fcf4b26bfaab2faae737471479246fb7cadd9a",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.3.0-preview.15.tgz",
+      "upstreamIntegrity": "sha512-hWW8QXQPBVMWbIVLKh7O+0rb5uPfwDoTHF8KhkVOjpfIVtQXpWwiOrSnTZsgQDGfnEAFETAz7H/tpoNIbVnbQg==",
+      "upstreamShasum": "18b88852fb79696d197078fb050fae34ca4748e3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.3.0-preview.49",
+        "com.unity.xr.mock-hmd": "1.3.0-preview.1",
+        "com.unity.xr.oculus": "1.11.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.3.0-preview.15",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hWW8QXQPBVMWbIVLKh7O+0rb5uPfwDoTHF8KhkVOjpfIVtQXpWwiOrSnTZsgQDGfnEAFETAz7H/tpoNIbVnbQg==",
+          "shasum": "18b88852fb79696d197078fb050fae34ca4748e3"
+        }
+      }
+    },
+    {
+      "version": "0.3.0-preview.16",
+      "variantId": "registry-package.openupm.com-457b02727cdf95aa",
+      "sourceUrl": "https://github.com/XRTK/Oculus.git",
+      "sourceRef": "29bc2bef62e18756a4151d94f29f5fb00e22486f",
+      "downloadUrl": "https://package.openupm.com/com.xrtk.oculus/-/com.xrtk.oculus-0.3.0-preview.16.tgz",
+      "upstreamIntegrity": "sha512-2S9/DvXgNI+L6M0CCj5RvjMfqcodXhQUz9RfXwiVBQOxuwTg1rj5zzkiU6WyewWir2DguyNqmumAcsw3VjRNHQ==",
+      "upstreamShasum": "41eb92e38e555ae784622105ff6a33163cd339ff",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.xrtk.core": "0.3.4",
+        "com.unity.xr.mock-hmd": "1.3.0-preview.1",
+        "com.unity.xr.oculus": "3.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.xrtk.oculus/0.3.0-preview.16",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2S9/DvXgNI+L6M0CCj5RvjMfqcodXhQUz9RfXwiVBQOxuwTg1rj5zzkiU6WyewWir2DguyNqmumAcsw3VjRNHQ==",
+          "shasum": "41eb92e38e555ae784622105ff6a33163cd339ff"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.3.0-preview.16"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.xrtk.oculus.yml",
+  "definitionBlobSha": "508fa7cd634f73fc2f68aa9e122315dfed2e2ef0",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.2.9",
+    "0.2.8",
+    "0.2.7"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 25,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

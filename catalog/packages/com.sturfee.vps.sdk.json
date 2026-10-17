@@ -1,0 +1,787 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.sturfee.vps.sdk",
+  "displayName": "com.sturfee.vps.sdk",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "fetchedAt": "2026-10-17T17:42:22.383252Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "2.1.0",
+      "variantId": "registry-package.openupm.com-8d2006073307e6e8",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "7d97c8b4c592a35bf6370b74653979016124fd7f",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-2.1.0.tgz",
+      "upstreamIntegrity": "sha512-lW8LlN7pwXtdFapA6cLkE8NrbzHalSVenYTJqStVdtY2Sdv8yQDZAC9la5Ot1ogFlSTPRGsbjtOMkqYcB5OyxA==",
+      "upstreamShasum": "e82dd638a273054a14dd52d855ca0e95d5d176e2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.2.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/2.1.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lW8LlN7pwXtdFapA6cLkE8NrbzHalSVenYTJqStVdtY2Sdv8yQDZAC9la5Ot1ogFlSTPRGsbjtOMkqYcB5OyxA==",
+          "shasum": "e82dd638a273054a14dd52d855ca0e95d5d176e2"
+        }
+      }
+    },
+    {
+      "version": "2.4.0",
+      "variantId": "registry-package.openupm.com-f006ad0f88a41e8b",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "6eda353ee610b49bb6f70b7204466f18ba42c453",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-2.4.0.tgz",
+      "upstreamIntegrity": "sha512-G68DIh5gHSndD7/zRYPYNVGFObeiKLfZdb/FE/ccWIJHbxgCef9DLtop4x5pQT+eUUDCMQIeRyyXba5ySxeoUw==",
+      "upstreamShasum": "57e8f45d2bf9e87b5fe73385e06e638772fbe948",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/2.4.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-G68DIh5gHSndD7/zRYPYNVGFObeiKLfZdb/FE/ccWIJHbxgCef9DLtop4x5pQT+eUUDCMQIeRyyXba5ySxeoUw==",
+          "shasum": "57e8f45d2bf9e87b5fe73385e06e638772fbe948"
+        }
+      }
+    },
+    {
+      "version": "2.4.2",
+      "variantId": "registry-package.openupm.com-82303cc53a45e304",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "fd9ca61405d0d72c7eda38d4c682d2354258e36a",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-2.4.2.tgz",
+      "upstreamIntegrity": "sha512-tTb8ntEeQCnHQSW1tLLsCIvs/nYr9ZnL2Z2g4LH1+Kxt2PGJNHSFv7Idkq2sqJ3kIMf4B1GEbjWijErbenWmkQ==",
+      "upstreamShasum": "64159814b9305d85e0e990b9fb8be561552cbfbe",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/2.4.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tTb8ntEeQCnHQSW1tLLsCIvs/nYr9ZnL2Z2g4LH1+Kxt2PGJNHSFv7Idkq2sqJ3kIMf4B1GEbjWijErbenWmkQ==",
+          "shasum": "64159814b9305d85e0e990b9fb8be561552cbfbe"
+        }
+      }
+    },
+    {
+      "version": "2.4.3",
+      "variantId": "registry-package.openupm.com-ef4bc595754d08b0",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "992cdc82b3fffe63dc57717bdf32facfe9089930",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-2.4.3.tgz",
+      "upstreamIntegrity": "sha512-FHtmAf0g48FVq8NVAW28J0cG1cFtrKaeQQ2iojX5tWM3cf7Og2cWPjDCYQN0jvpyzjSGM5XeHy27ZWjJKT/FoA==",
+      "upstreamShasum": "8f153e96f696ce59d6adf2d57ccf0fdf5160c617",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/2.4.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FHtmAf0g48FVq8NVAW28J0cG1cFtrKaeQQ2iojX5tWM3cf7Og2cWPjDCYQN0jvpyzjSGM5XeHy27ZWjJKT/FoA==",
+          "shasum": "8f153e96f696ce59d6adf2d57ccf0fdf5160c617"
+        }
+      }
+    },
+    {
+      "version": "3.0.0",
+      "variantId": "registry-package.openupm.com-46cd893f44630ada",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "2fbe97a37fe5cfd14ec686379d2b152fc81b8f16",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.0.0.tgz",
+      "upstreamIntegrity": "sha512-cW1Qh+eLOgUQRUVrREmRObsLQDezcYKUYifafxgdHIKbOuw0hkUyp6cU1hadsViLbWfgw8JKlgbr4LHb1p2Sdg==",
+      "upstreamShasum": "1d8e396ef829b08087c172a5bbae2a4ca9746dd5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.2.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.0.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cW1Qh+eLOgUQRUVrREmRObsLQDezcYKUYifafxgdHIKbOuw0hkUyp6cU1hadsViLbWfgw8JKlgbr4LHb1p2Sdg==",
+          "shasum": "1d8e396ef829b08087c172a5bbae2a4ca9746dd5"
+        }
+      }
+    },
+    {
+      "version": "3.0.1",
+      "variantId": "registry-package.openupm.com-8ac1d8ce47e82492",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "5229ae6ee6a37e25bc99e98e21d09410d79f98e8",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.0.1.tgz",
+      "upstreamIntegrity": "sha512-22uN6TDjLHtsN46Z+4/sO9DAlgdriHhgfhIpaHt57wQsYKRyEjMwWhRqG/PGNMqXmaMx7H47Qgiw19lOS/ztCA==",
+      "upstreamShasum": "69b44c68866ab3bd6221eae145a04079a15687be",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.0.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-22uN6TDjLHtsN46Z+4/sO9DAlgdriHhgfhIpaHt57wQsYKRyEjMwWhRqG/PGNMqXmaMx7H47Qgiw19lOS/ztCA==",
+          "shasum": "69b44c68866ab3bd6221eae145a04079a15687be"
+        }
+      }
+    },
+    {
+      "version": "3.0.2",
+      "variantId": "registry-package.openupm.com-b69cf5a8ed31c7d3",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "4058c79d17970fa4d3ae7159b4f4e94c94c016d5",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.0.2.tgz",
+      "upstreamIntegrity": "sha512-BGwuUgfo6SFQJfgUdXVOFHysv2ABU3w6cdYUw8KvVZAI75YM7BA7ecFSBZAqwiEffvUkJH8yNpgL6UcAXZ1QHQ==",
+      "upstreamShasum": "f69ddf4e2d2f1828dde22e3dee1535915403b804",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.0.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BGwuUgfo6SFQJfgUdXVOFHysv2ABU3w6cdYUw8KvVZAI75YM7BA7ecFSBZAqwiEffvUkJH8yNpgL6UcAXZ1QHQ==",
+          "shasum": "f69ddf4e2d2f1828dde22e3dee1535915403b804"
+        }
+      }
+    },
+    {
+      "version": "3.0.3",
+      "variantId": "registry-package.openupm.com-f750872126d1e032",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "d2777f8c3e738ae648dd984a22d3e94a05f128b7",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.0.3.tgz",
+      "upstreamIntegrity": "sha512-5Y8UMvXRle+saU7V1QCbNsV89sIMQTobzgXcSu9nSptaQP4sPkP3XkgPMFwLJJPq1jQHDl2ZCZhsN5by7/r0gQ==",
+      "upstreamShasum": "3f00cb83e77401955fe5e829d3c54dc420b3f049",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.0.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5Y8UMvXRle+saU7V1QCbNsV89sIMQTobzgXcSu9nSptaQP4sPkP3XkgPMFwLJJPq1jQHDl2ZCZhsN5by7/r0gQ==",
+          "shasum": "3f00cb83e77401955fe5e829d3c54dc420b3f049"
+        }
+      }
+    },
+    {
+      "version": "3.0.4",
+      "variantId": "registry-package.openupm.com-d679b20511babac3",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "beafbb7625c4b0b6e58b59efe67ed8f8a72d4a67",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.0.4.tgz",
+      "upstreamIntegrity": "sha512-90KxORSbeshtNHarcPg/AFnifUQmNSB3q0/nFWSCuGn+UT2xn5EhfYfpFVnwkHwnpiOQ5IgRWAfXrWUnwhLxZQ==",
+      "upstreamShasum": "2f0f9ea64669088d62cd2b7986de5c3eeeaeb750",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.0.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-90KxORSbeshtNHarcPg/AFnifUQmNSB3q0/nFWSCuGn+UT2xn5EhfYfpFVnwkHwnpiOQ5IgRWAfXrWUnwhLxZQ==",
+          "shasum": "2f0f9ea64669088d62cd2b7986de5c3eeeaeb750"
+        }
+      }
+    },
+    {
+      "version": "3.0.5",
+      "variantId": "registry-package.openupm.com-7a2e5587043f0843",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "89c5509507414790b90f21c4e63123c58ebc7466",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.0.5.tgz",
+      "upstreamIntegrity": "sha512-eQF+YS6Cuf15foQ1QC8osTl91ZSf8U5rdX+UrC47zn3Go/lUKo2W24uAUBbvAx5uSYD3OxyxyzO4NWacw0M9fw==",
+      "upstreamShasum": "0283fde2e12f8b13d4c47d94adf3e3928c697832",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.0.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eQF+YS6Cuf15foQ1QC8osTl91ZSf8U5rdX+UrC47zn3Go/lUKo2W24uAUBbvAx5uSYD3OxyxyzO4NWacw0M9fw==",
+          "shasum": "0283fde2e12f8b13d4c47d94adf3e3928c697832"
+        }
+      }
+    },
+    {
+      "version": "3.0.6",
+      "variantId": "registry-package.openupm.com-dce013bba67ebd89",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "4bd28776ab5c9519504b1b6e9bba58945bc0a771",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.0.6.tgz",
+      "upstreamIntegrity": "sha512-fgi47SmR0whgUUFnQsvQ2wzMR86tlTfaXlceUzqOiuHaH8GSw4A+mlc1hb+ZQdtsdOdMRgKSn99h4gf/v85vtw==",
+      "upstreamShasum": "fa99bc4ddf3c7a458b664ed01937519438cb784c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.0.6",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fgi47SmR0whgUUFnQsvQ2wzMR86tlTfaXlceUzqOiuHaH8GSw4A+mlc1hb+ZQdtsdOdMRgKSn99h4gf/v85vtw==",
+          "shasum": "fa99bc4ddf3c7a458b664ed01937519438cb784c"
+        }
+      }
+    },
+    {
+      "version": "3.0.7",
+      "variantId": "registry-package.openupm.com-23fe72b045a6e72a",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "f0a4e7ba2fcb32786b0f52d40a726642563e32ee",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.0.7.tgz",
+      "upstreamIntegrity": "sha512-Z83My63reJ4DEOFvQPAbdZH+loEQOB2Ztc0yHwLK1PMfBkRnGozEODyPoDkonuTINyTjvgLLdcH2euI2S7/gxw==",
+      "upstreamShasum": "ef02424187fbf9de400408a7afa240eb30aeb5f2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.0.7",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Z83My63reJ4DEOFvQPAbdZH+loEQOB2Ztc0yHwLK1PMfBkRnGozEODyPoDkonuTINyTjvgLLdcH2euI2S7/gxw==",
+          "shasum": "ef02424187fbf9de400408a7afa240eb30aeb5f2"
+        }
+      }
+    },
+    {
+      "version": "3.1.0",
+      "variantId": "registry-package.openupm.com-8ec10ec3015fe352",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "4c6ba427f5b449b5bf064b161b8ee378fae1f906",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.1.0.tgz",
+      "upstreamIntegrity": "sha512-YlUGLdOWpouocrmZpeNN8YgO+NesePRlnaD4ndD0v9as/d4/nGfwZoBJLp6IhvRfZ0e7aoIiZyZTAYJ5tzT3FA==",
+      "upstreamShasum": "f0d4a4a1aa279d3feee3d3de55d751104aa25054",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.sturfee.vps.core": "3.1.0",
+        "com.demigiant.dotween": "1.2.632"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.1.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YlUGLdOWpouocrmZpeNN8YgO+NesePRlnaD4ndD0v9as/d4/nGfwZoBJLp6IhvRfZ0e7aoIiZyZTAYJ5tzT3FA==",
+          "shasum": "f0d4a4a1aa279d3feee3d3de55d751104aa25054"
+        }
+      }
+    },
+    {
+      "version": "3.1.1",
+      "variantId": "registry-package.openupm.com-faf4b60dc940346e",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "37ba6eead8ab1da0ad837ac9056f7447be900561",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.1.1.tgz",
+      "upstreamIntegrity": "sha512-ZxPjkwydR59GQjrG9t+6L+6oTP5H/rwSqRJMX1Ctg9ez4rNqaayPRzKEYIkpERLb/RjZSuphhpi66lYKd/r0Sg==",
+      "upstreamShasum": "090d3c56d9b179d52a705fc05ff55830be6e7f80",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.sturfee.vps.core": "3.1.1",
+        "com.demigiant.dotween": "1.2.632"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.1.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZxPjkwydR59GQjrG9t+6L+6oTP5H/rwSqRJMX1Ctg9ez4rNqaayPRzKEYIkpERLb/RjZSuphhpi66lYKd/r0Sg==",
+          "shasum": "090d3c56d9b179d52a705fc05ff55830be6e7f80"
+        }
+      }
+    },
+    {
+      "version": "3.1.2",
+      "variantId": "registry-package.openupm.com-5d827cbe1608c0d3",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "7991b5603387842ca4dc30568b35732567f16cad",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.1.2.tgz",
+      "upstreamIntegrity": "sha512-fFFdNwl8bZ3mIBLJHuH+AqSb5UdZqTDcjOYFeOkVrDd63wyc0ng1CWVrkv6bY9lajFLkYhU4Wt6fqoWKVlK3iQ==",
+      "upstreamShasum": "fb4946a711c3db81bd4ea988d4496108497166ed",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.sturfee.vps.core": "3.1.1",
+        "com.demigiant.dotween": "1.2.632"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.1.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fFFdNwl8bZ3mIBLJHuH+AqSb5UdZqTDcjOYFeOkVrDd63wyc0ng1CWVrkv6bY9lajFLkYhU4Wt6fqoWKVlK3iQ==",
+          "shasum": "fb4946a711c3db81bd4ea988d4496108497166ed"
+        }
+      }
+    },
+    {
+      "version": "3.1.3",
+      "variantId": "registry-package.openupm.com-55ba442263381c2a",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "1ccdf64450289c7bf302c9e480c3e07f1e093cbd",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.1.3.tgz",
+      "upstreamIntegrity": "sha512-RY2d4vQogfws+MG132Fy9LJPLyXedBCs7Zga/GX4jnLfwQbbXuXJvh66Q1Sja0FX5tL4DSDemNbkDa8b83fUFQ==",
+      "upstreamShasum": "ae2a64ba2d869b60a392497cba60da92ae2f974d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.sturfee.vps.core": "3.1.2",
+        "com.demigiant.dotween": "1.2.632"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.1.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RY2d4vQogfws+MG132Fy9LJPLyXedBCs7Zga/GX4jnLfwQbbXuXJvh66Q1Sja0FX5tL4DSDemNbkDa8b83fUFQ==",
+          "shasum": "ae2a64ba2d869b60a392497cba60da92ae2f974d"
+        }
+      }
+    },
+    {
+      "version": "3.1.4",
+      "variantId": "registry-package.openupm.com-553b10037810e5e5",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "3870e64312844926912fe8d5dcf52928e1f26faf",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.1.4.tgz",
+      "upstreamIntegrity": "sha512-GtjFyACirE7C2WKQ4dSngZ8AtLYHvGzRFuCVbMsid+kwL/VuvYDyFWn1b0Ns277nKgpSGPM/HsLXTxmT60R3rA==",
+      "upstreamShasum": "957e32bca51062cd5bc931b6a98bae0136ab17d7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.sturfee.vps.core": "3.1.2",
+        "com.demigiant.dotween": "1.2.632"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.1.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GtjFyACirE7C2WKQ4dSngZ8AtLYHvGzRFuCVbMsid+kwL/VuvYDyFWn1b0Ns277nKgpSGPM/HsLXTxmT60R3rA==",
+          "shasum": "957e32bca51062cd5bc931b6a98bae0136ab17d7"
+        }
+      }
+    },
+    {
+      "version": "3.1.5",
+      "variantId": "registry-package.openupm.com-6c775f0b5464572a",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "527ac2a24e198da24bc404133688c051e5bfc7cc",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.1.5.tgz",
+      "upstreamIntegrity": "sha512-jNWNX2p0usVrCxyUnR8+1UJSc/ie0g0EVt8S8cD6rWr6zpDOrhRDsmy/k+4BIsD5G0JSAIJWdeLqhLcjgzHP3Q==",
+      "upstreamShasum": "62e683fb6e9eaab8ac0ca4376fe8cc749a6e8b8e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.sturfee.vps.core": "3.1.2",
+        "com.demigiant.dotween": "1.2.632"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.1.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jNWNX2p0usVrCxyUnR8+1UJSc/ie0g0EVt8S8cD6rWr6zpDOrhRDsmy/k+4BIsD5G0JSAIJWdeLqhLcjgzHP3Q==",
+          "shasum": "62e683fb6e9eaab8ac0ca4376fe8cc749a6e8b8e"
+        }
+      }
+    },
+    {
+      "version": "3.2.0-pre.4",
+      "variantId": "registry-package.openupm.com-7f9acb322bea964f",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "085386b06e4113419b57ce9880a3856752f90fcb",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.2.0-pre.4.tgz",
+      "upstreamIntegrity": "sha512-zJ8Cck38QrEGHaoBgl3LE2XIiUcxWk2IWaA0jwzOsWNdBRCPsQEzf2KWR4GjYsTDEKAzI3kKzbiXy8lZ2gyDBA==",
+      "upstreamShasum": "0472b478e283fabccac2a15ecf9ee66ff6349f86",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.sturfee.vps.core": "3.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.2.0-pre.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zJ8Cck38QrEGHaoBgl3LE2XIiUcxWk2IWaA0jwzOsWNdBRCPsQEzf2KWR4GjYsTDEKAzI3kKzbiXy8lZ2gyDBA==",
+          "shasum": "0472b478e283fabccac2a15ecf9ee66ff6349f86"
+        }
+      }
+    },
+    {
+      "version": "3.2.0-pre.8",
+      "variantId": "registry-package.openupm.com-99da58f860b71bc8",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "f5d630d620bd2c8b46bbd841d6082a325d48f877",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.2.0-pre.8.tgz",
+      "upstreamIntegrity": "sha512-b3gtT70lJgY7C/29d40KIYIdr60RCwXgOBpPpCqvHavWz0YBq31CfwmBCZSOKxPYN/gA7enIcuVu3tNVmsb+Qw==",
+      "upstreamShasum": "b95604754c1dc3d1a8b10fd759eb55cb48e1387f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.sturfee.vps.core": "3.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.2.0-pre.8",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-b3gtT70lJgY7C/29d40KIYIdr60RCwXgOBpPpCqvHavWz0YBq31CfwmBCZSOKxPYN/gA7enIcuVu3tNVmsb+Qw==",
+          "shasum": "b95604754c1dc3d1a8b10fd759eb55cb48e1387f"
+        }
+      }
+    },
+    {
+      "version": "3.2.0",
+      "variantId": "registry-package.openupm.com-21f6e52cc24e6ba2",
+      "sourceUrl": "https://package.openupm.com/com.sturfee.vps.sdk",
+      "sourceRef": "2dc5998037c9f3e8834e9955fe03c686ee5a4cfd",
+      "downloadUrl": "https://package.openupm.com/com.sturfee.vps.sdk/-/com.sturfee.vps.sdk-3.2.0.tgz",
+      "upstreamIntegrity": "sha512-xElK/NniQL1UPTEVq3UAsXadkZfBZeWm2nsaMMO4tBVjAb5Dsbt54S2cZSle4PAWeb3ODKXnot2Ffr7H+tgrvA==",
+      "upstreamShasum": "49529c02f87f7664b153464cfa78dfc09f2d95e0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.sturfee.vps.core": "3.2.0",
+        "com.demigiant.dotween": "1.2.632"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sturfee.vps.sdk/3.2.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xElK/NniQL1UPTEVq3UAsXadkZfBZeWm2nsaMMO4tBVjAb5Dsbt54S2cZSle4PAWeb3ODKXnot2Ffr7H+tgrvA==",
+          "shasum": "49529c02f87f7664b153464cfa78dfc09f2d95e0"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "3.2.0-pre.8",
+    "patch@3.2.0-pre.4": "3.2.0-pre.4",
+    "patch@2.1.0": "2.1.0",
+    "patch@3.0.0": "3.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.sturfee.vps.sdk.yml",
+  "definitionBlobSha": "f1196073471b2acc874aeb2b79dc2ccd1d27d93b",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "3.1.0"
+  ],
+  "selectedVersions": [
+    "3.1.0",
+    "3.2.0",
+    "3.1.1"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 21,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

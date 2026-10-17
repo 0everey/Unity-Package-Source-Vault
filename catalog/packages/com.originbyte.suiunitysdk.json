@@ -1,0 +1,620 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.originbyte.suiunitysdk",
+  "displayName": "com.originbyte.suiunitysdk",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk",
+      "fetchedAt": "2026-10-17T17:40:46.502405Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "variantId": "registry-package.openupm.com-dd396e30924ae378",
+      "sourceUrl": "https://package.openupm.com/com.originbyte.suiunitysdk",
+      "sourceRef": "6bea5478b7d645c58739bb8ce4f7db11ed00170e",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-0.0.1.tgz",
+      "upstreamIntegrity": "sha512-yiDas85lAqKxs9miBUAWMjpYmADT2TXPf3e5C65dTy6j87SMOqFHiDadmqZVzhi0uI96BmTdXRzXghPDFt+dKw==",
+      "upstreamShasum": "a5be1ae1dd3bce1194d59014abc37251014fcfda",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/0.0.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yiDas85lAqKxs9miBUAWMjpYmADT2TXPf3e5C65dTy6j87SMOqFHiDadmqZVzhi0uI96BmTdXRzXghPDFt+dKw==",
+          "shasum": "a5be1ae1dd3bce1194d59014abc37251014fcfda"
+        }
+      }
+    },
+    {
+      "version": "0.0.5",
+      "variantId": "registry-package.openupm.com-fb893914feee2ba8",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "935791d19f2addf30c3882ae3cddbe86e6a30538",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-0.0.5.tgz",
+      "upstreamIntegrity": "sha512-b3997zfs+/HB6PeYUqGhUv/uqBZdg9wYjha2OlxX65OpS4ImLozfp4ZaMZAFQJDMf7Qsuz25h7/Ts6TLzEXAqg==",
+      "upstreamShasum": "a5fc86e457adf3528400f593d11e18ad164f687a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/0.0.5",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-b3997zfs+/HB6PeYUqGhUv/uqBZdg9wYjha2OlxX65OpS4ImLozfp4ZaMZAFQJDMf7Qsuz25h7/Ts6TLzEXAqg==",
+          "shasum": "a5fc86e457adf3528400f593d11e18ad164f687a"
+        }
+      }
+    },
+    {
+      "version": "0.0.6",
+      "variantId": "registry-package.openupm.com-ebffa088a74fc115",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "b4dd83e56ae7a900f071f98e7550459a8cb97fe1",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-0.0.6.tgz",
+      "upstreamIntegrity": "sha512-BMYdmB6S7kVIe2YGOwjBsW/GHmEx9qm7PJrn9cYIYdzryUAYIXe0vq5xNk/jIIciXQ+e5vs05VNzaomD87q8+g==",
+      "upstreamShasum": "6a6afc7f5e1283653a647d7878c82aeeb34521c3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/0.0.6",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BMYdmB6S7kVIe2YGOwjBsW/GHmEx9qm7PJrn9cYIYdzryUAYIXe0vq5xNk/jIIciXQ+e5vs05VNzaomD87q8+g==",
+          "shasum": "6a6afc7f5e1283653a647d7878c82aeeb34521c3"
+        }
+      }
+    },
+    {
+      "version": "0.0.7",
+      "variantId": "registry-package.openupm.com-bfd23688fc3ecddb",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "babd570852c67c8cafabb422e1ac513c77777f03",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-0.0.7.tgz",
+      "upstreamIntegrity": "sha512-NIgSGC2LCm4pZadNV5xu3SaRN2TA1roKATOXR3OKHVbnl1tJSU1epAvBCAMu0IZeQjdapnVRufEKzmWGpKlduA==",
+      "upstreamShasum": "c7e01dad2d5e9bc358b7b4c0c33c1a2370012612",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/0.0.7",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NIgSGC2LCm4pZadNV5xu3SaRN2TA1roKATOXR3OKHVbnl1tJSU1epAvBCAMu0IZeQjdapnVRufEKzmWGpKlduA==",
+          "shasum": "c7e01dad2d5e9bc358b7b4c0c33c1a2370012612"
+        }
+      }
+    },
+    {
+      "version": "0.0.8",
+      "variantId": "registry-package.openupm.com-4130845ee03b756a",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "0bbc74de6f39d29e4db4cdcad82f38c480d2d3f9",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-0.0.8.tgz",
+      "upstreamIntegrity": "sha512-Ffdoq98bd1UOi35sEkDt03Dm8w0ZwZctBK8nQmKvGV19YWkuy/WwrFZDWqo87jtJWVV+XVAR8aEZSYvqFGFb1w==",
+      "upstreamShasum": "6c82150e0f0dd9941655c6c32dc52cb62ca54d54",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/0.0.8",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ffdoq98bd1UOi35sEkDt03Dm8w0ZwZctBK8nQmKvGV19YWkuy/WwrFZDWqo87jtJWVV+XVAR8aEZSYvqFGFb1w==",
+          "shasum": "6c82150e0f0dd9941655c6c32dc52cb62ca54d54"
+        }
+      }
+    },
+    {
+      "version": "0.0.9",
+      "variantId": "registry-package.openupm.com-96cbabf3973ef0e2",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "2f897c2b62f1ca390352705abeab271df12bceb6",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-0.0.9.tgz",
+      "upstreamIntegrity": "sha512-ulPyyHD0xUdz9klwshg1E3QX9eD1dGkIasWTudSlMUHazFF7l9+iT44IzWulHCOcj1/vhmT+OTZqz8bnZHov9Q==",
+      "upstreamShasum": "f24362a94ba97d1ea4c65a8209d44258aa0ae91f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/0.0.9",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ulPyyHD0xUdz9klwshg1E3QX9eD1dGkIasWTudSlMUHazFF7l9+iT44IzWulHCOcj1/vhmT+OTZqz8bnZHov9Q==",
+          "shasum": "f24362a94ba97d1ea4c65a8209d44258aa0ae91f"
+        }
+      }
+    },
+    {
+      "version": "0.0.10",
+      "variantId": "registry-package.openupm.com-f7647cf33be267a1",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "cce8c28ade938f9e25213d31e22e8c3881f8adc0",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-0.0.10.tgz",
+      "upstreamIntegrity": "sha512-4UunJ2a7M7RggMhaVYe3xUW+NHTQft/W2Pmt5/2YyK+p2bA6ZlW/eHRxX8GDkr3G/GgG+pHM+uh5F6D7WTFcGA==",
+      "upstreamShasum": "e54f4cccfa15a9c19d2550ba31b0853e8f89b491",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/0.0.10",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4UunJ2a7M7RggMhaVYe3xUW+NHTQft/W2Pmt5/2YyK+p2bA6ZlW/eHRxX8GDkr3G/GgG+pHM+uh5F6D7WTFcGA==",
+          "shasum": "e54f4cccfa15a9c19d2550ba31b0853e8f89b491"
+        }
+      }
+    },
+    {
+      "version": "0.1.20",
+      "variantId": "registry-package.openupm.com-9f81352b4438a3cd",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "9538054bfef1ed223c035b74eaa7be568426b881",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-0.1.20.tgz",
+      "upstreamIntegrity": "sha512-Cuzz5BqCI7bqUBX1Wtz6Vj3MEzNQ6Yy2o+yjJnUXaYnReWS/HpE69d/Td14t6QW2Ub5Wos+xlkZ4BQTopFTcGA==",
+      "upstreamShasum": "2ebc4d1d567c05f62e928960f5d4da6195ec2763",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/0.1.20",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Cuzz5BqCI7bqUBX1Wtz6Vj3MEzNQ6Yy2o+yjJnUXaYnReWS/HpE69d/Td14t6QW2Ub5Wos+xlkZ4BQTopFTcGA==",
+          "shasum": "2ebc4d1d567c05f62e928960f5d4da6195ec2763"
+        }
+      }
+    },
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-87bd5eab27e51310",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "32ecc586ed1630c08643b82de68ebdea35b9be1c",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-k23EWaTQcDEhIQeJHhH7XIVnF0Qky9KoVZSJQkK70PABkBIU/QOJa1kyrtEEC+Z3MBWO/c2nRtKqAtFhS6xX/Q==",
+      "upstreamShasum": "0aea695dbe4a437818e306472ccbf393d6884272",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.vectorgraphics": "2.0.0-preview.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/0.2.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-k23EWaTQcDEhIQeJHhH7XIVnF0Qky9KoVZSJQkK70PABkBIU/QOJa1kyrtEEC+Z3MBWO/c2nRtKqAtFhS6xX/Q==",
+          "shasum": "0aea695dbe4a437818e306472ccbf393d6884272"
+        }
+      }
+    },
+    {
+      "version": "0.2.1",
+      "variantId": "registry-package.openupm.com-3c3755f84ef0364c",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "f62097a9a52b75944eb9e89efb8f0b063b6f95f0",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-0.2.1.tgz",
+      "upstreamIntegrity": "sha512-83p+XY49MTIOTPSnUk3Pdwe4V41XDqGihaKVS58GTT43GNsmKPRB8BH7fG00+//0DHGTvvSdVZxuuQzmf6ggYw==",
+      "upstreamShasum": "88229d24fb768b318a4e1a468aa65c30cecf2233",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.vectorgraphics": "2.0.0-preview.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/0.2.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-83p+XY49MTIOTPSnUk3Pdwe4V41XDqGihaKVS58GTT43GNsmKPRB8BH7fG00+//0DHGTvvSdVZxuuQzmf6ggYw==",
+          "shasum": "88229d24fb768b318a4e1a468aa65c30cecf2233"
+        }
+      }
+    },
+    {
+      "version": "0.2.3",
+      "variantId": "registry-package.openupm.com-386d32cd29c2755e",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "590dbe1bb9db5918048d6d0954cf36b2b4b90c1a",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-0.2.3.tgz",
+      "upstreamIntegrity": "sha512-5UWHyqpJszlPyt/SkGbCCC8d3NHe+liyHzmUVndJzzy6L2kV7Md8+/YI50cwDaSpfn+VTmsCiIziDfCGJ9eaCQ==",
+      "upstreamShasum": "e73edaa8f61b54084acd06a0687e0b2894495b97",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.vectorgraphics": "2.0.0-preview.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/0.2.3",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5UWHyqpJszlPyt/SkGbCCC8d3NHe+liyHzmUVndJzzy6L2kV7Md8+/YI50cwDaSpfn+VTmsCiIziDfCGJ9eaCQ==",
+          "shasum": "e73edaa8f61b54084acd06a0687e0b2894495b97"
+        }
+      }
+    },
+    {
+      "version": "0.2.4",
+      "variantId": "registry-package.openupm.com-e0559ab3dcbb4ad9",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "3c2ba64ad14bcf7dd8575ab26e18d5999429eade",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-0.2.4.tgz",
+      "upstreamIntegrity": "sha512-9VvuGsZaf2zgY97g+ip6LxSZzchqwm/HFa970RiHaTBXgCj9Goh4kMmSmNjbHvoEGvv9ybEEH3pKQxF2rs3S9g==",
+      "upstreamShasum": "a5cbed712f9cb82e18b531b5dbefa662f6a4f790",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.vectorgraphics": "2.0.0-preview.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/0.2.4",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9VvuGsZaf2zgY97g+ip6LxSZzchqwm/HFa970RiHaTBXgCj9Goh4kMmSmNjbHvoEGvv9ybEEH3pKQxF2rs3S9g==",
+          "shasum": "a5cbed712f9cb82e18b531b5dbefa662f6a4f790"
+        }
+      }
+    },
+    {
+      "version": "0.2.5",
+      "variantId": "registry-package.openupm.com-78f9ed8209adb637",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "f25e5fa9f3c37f08583ef312b8a58069e95d157d",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-0.2.5.tgz",
+      "upstreamIntegrity": "sha512-cfy2RKyR+bUl9vrHO44XLcJ5/p1N3ko+VrhcUH2aWrV3+lDm6IvJp01EReTXlF2VfERSJhSpJxp1EB4mWlEl7w==",
+      "upstreamShasum": "f7addd0f5c4aa79c6814d96bb34e4aef290fe98e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.vectorgraphics": "2.0.0-preview.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/0.2.5",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cfy2RKyR+bUl9vrHO44XLcJ5/p1N3ko+VrhcUH2aWrV3+lDm6IvJp01EReTXlF2VfERSJhSpJxp1EB4mWlEl7w==",
+          "shasum": "f7addd0f5c4aa79c6814d96bb34e4aef290fe98e"
+        }
+      }
+    },
+    {
+      "version": "0.2.7",
+      "variantId": "registry-package.openupm.com-d8c3e245ff288ce0",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "2d2646881e5ba6cde0bacf1d525b2f609bb2d2ed",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-0.2.7.tgz",
+      "upstreamIntegrity": "sha512-w7Zra/2RUbKmkE3vxkZ/AX8xi4eeVY7Uv46+nQGut4QC1OqvunGVzXOTbyEb5r4FinLlj0k+CgxGHo/9gUu3aQ==",
+      "upstreamShasum": "49dc908ad1027b3220fd0183118211d2b4b635cf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.vectorgraphics": "2.0.0-preview.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/0.2.7",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-w7Zra/2RUbKmkE3vxkZ/AX8xi4eeVY7Uv46+nQGut4QC1OqvunGVzXOTbyEb5r4FinLlj0k+CgxGHo/9gUu3aQ==",
+          "shasum": "49dc908ad1027b3220fd0183118211d2b4b635cf"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-73744897a4f31767",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "331b3ff6835df652d5c6444d2c222fc92365f189",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-MEoGUb/MuxR45AzD4QaMWu6ZQfyJS6UWREoyfEfpSsBS7ETsQVWL0YFO5uwK9epuTM7qtB5IztimiqjAimlHPg==",
+      "upstreamShasum": "30a710c9011f590803d3377a947d1ec0a1ecf21f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.vectorgraphics": "2.0.0-preview.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/1.2.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MEoGUb/MuxR45AzD4QaMWu6ZQfyJS6UWREoyfEfpSsBS7ETsQVWL0YFO5uwK9epuTM7qtB5IztimiqjAimlHPg==",
+          "shasum": "30a710c9011f590803d3377a947d1ec0a1ecf21f"
+        }
+      }
+    },
+    {
+      "version": "1.2.1",
+      "variantId": "registry-package.openupm.com-a2aeea7d6eccae92",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "366727a050877f062123b8f0b0235d6040a1cfa7",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-1.2.1.tgz",
+      "upstreamIntegrity": "sha512-VwfTv8SMmzgaHlCazc2CYqmzKbe9dKoaF40/q2qcewRpd1Hvw9hC2FB4xgXqL/gAn12r6IxoT/lA0N6t/po4+g==",
+      "upstreamShasum": "64f07d4764a09fb1479be7386a522977571d4d67",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.vectorgraphics": "2.0.0-preview.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/1.2.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VwfTv8SMmzgaHlCazc2CYqmzKbe9dKoaF40/q2qcewRpd1Hvw9hC2FB4xgXqL/gAn12r6IxoT/lA0N6t/po4+g==",
+          "shasum": "64f07d4764a09fb1479be7386a522977571d4d67"
+        }
+      }
+    },
+    {
+      "version": "1.5.0",
+      "variantId": "registry-package.openupm.com-06a019be0c316a54",
+      "sourceUrl": "https://github.com/Origin-Byte/sui-unity-sdk.git",
+      "sourceRef": "8607984e2b7ae4059e764cbd876fca087f12a826",
+      "downloadUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/-/com.originbyte.suiunitysdk-1.5.0.tgz",
+      "upstreamIntegrity": "sha512-2bH2QEhgkDipJJFtkpCv1vzYPvVRUfst78dV9rH/Htvmj7/RA4f+14/9cV0dJw8Ap0oXSkiDJ5vNyu3QoNKEPQ==",
+      "upstreamShasum": "def7cb42b81eebbe642e2d078c5240909655729e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.vectorgraphics": "2.0.0-preview.20"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.originbyte.suiunitysdk/1.5.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2bH2QEhgkDipJJFtkpCv1vzYPvVRUfst78dV9rH/Htvmj7/RA4f+14/9cV0dJw8Ap0oXSkiDJ5vNyu3QoNKEPQ==",
+          "shasum": "def7cb42b81eebbe642e2d078c5240909655729e"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.5.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.originbyte.suiunitysdk.yml",
+  "definitionBlobSha": "5f12f0e441f174370438db32a00b96fab65580c7",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.5.0",
+    "1.2.0",
+    "0.2.7"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 17,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,554 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.jeomseon.unity.editor-toolkit",
+  "displayName": "com.jeomseon.unity.editor-toolkit",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit",
+      "fetchedAt": "2026-10-17T17:39:09.197491Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "variantId": "registry-package.openupm.com-360196db1b42cb02",
+      "sourceUrl": "https://github.com/jeomseon0516/Unity.EditorToolkit.git",
+      "sourceRef": "abb7fc1daaf304238888c7ee315afa3d7dab2770",
+      "downloadUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/-/com.jeomseon.unity.editor-toolkit-0.1.0.tgz",
+      "upstreamIntegrity": "sha512-2A2D6LblvDRUa1SmhPCQzf6X2cPJ/4mn7aQF4Ep72PM4PAhrb87WAWK5A2eHVLOIQ0s7tflfB7Sx6TAUYwYvjQ==",
+      "upstreamShasum": "3fed7b74805a3297e11629cbfdfd07c831a62467",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.jeomseon.unity.core": "0.1.0",
+        "com.jeomseon.unity.pooling": "0.1.0",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.localization": "1.4.5",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/0.1.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2A2D6LblvDRUa1SmhPCQzf6X2cPJ/4mn7aQF4Ep72PM4PAhrb87WAWK5A2eHVLOIQ0s7tflfB7Sx6TAUYwYvjQ==",
+          "shasum": "3fed7b74805a3297e11629cbfdfd07c831a62467"
+        }
+      }
+    },
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-370fe96b086d2d31",
+      "sourceUrl": "https://github.com/jeomseon0516/Unity.EditorToolkit.git",
+      "sourceRef": "49bcd857f87d130ed80230333287eae0288d0411",
+      "downloadUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/-/com.jeomseon.unity.editor-toolkit-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-z6nVojpw780AtA+tMFPMBIAVNqpwWY3uZEn7KW0/1hSGFZC+UiaSjHntH8uGcaSwKToOxFqZyyn8fL3Jl5LH6g==",
+      "upstreamShasum": "4f04debaea43c9c7d6d1d874827d5a6150d4cac9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.jeomseon.unity.attributes": "0.1.0",
+        "com.jeomseon.unity.core": "0.1.0",
+        "com.jeomseon.unity.pooling": "0.1.0",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/0.2.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-z6nVojpw780AtA+tMFPMBIAVNqpwWY3uZEn7KW0/1hSGFZC+UiaSjHntH8uGcaSwKToOxFqZyyn8fL3Jl5LH6g==",
+          "shasum": "4f04debaea43c9c7d6d1d874827d5a6150d4cac9"
+        }
+      }
+    },
+    {
+      "version": "0.2.1",
+      "variantId": "registry-package.openupm.com-7df17462026a1f47",
+      "sourceUrl": "https://github.com/jeomseon0516/Unity.EditorToolkit.git",
+      "sourceRef": "bef9336a4c573af17323367412fe487a87fea6f5",
+      "downloadUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/-/com.jeomseon.unity.editor-toolkit-0.2.1.tgz",
+      "upstreamIntegrity": "sha512-c7zn2xzjNxKWtfl+Ojn36EUMpA0lFapgq2xR+ek4tZOxqStfy39FlnriE3jcNU2n0mY26NgAbCG+OEN7Kotwqw==",
+      "upstreamShasum": "1d9db310eb9267130c4e639cac865a17845d6bcb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.jeomseon.unity.attributes": "0.2.0",
+        "com.jeomseon.unity.core": "0.1.0",
+        "com.jeomseon.unity.pooling": "0.1.0",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/0.2.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-c7zn2xzjNxKWtfl+Ojn36EUMpA0lFapgq2xR+ek4tZOxqStfy39FlnriE3jcNU2n0mY26NgAbCG+OEN7Kotwqw==",
+          "shasum": "1d9db310eb9267130c4e639cac865a17845d6bcb"
+        }
+      }
+    },
+    {
+      "version": "0.3.0",
+      "variantId": "registry-package.openupm.com-d75e974f7a512592",
+      "sourceUrl": "https://github.com/jeomseon0516/Unity.EditorToolkit.git",
+      "sourceRef": "fe160869c73c62be9aea3687d560bd459101fa85",
+      "downloadUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/-/com.jeomseon.unity.editor-toolkit-0.3.0.tgz",
+      "upstreamIntegrity": "sha512-FayJ00OIyqBg5m7pSgY2NuPZmMDfsKmL0NMGRkRoymztcl5WjLj/vagecRIvybv8EJytBshMlNci4Ktru3Yeiw==",
+      "upstreamShasum": "77b627ba1a093d59e705b78db9c3fbea64971eb9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.jeomseon.unity.attributes": "0.2.0",
+        "com.jeomseon.unity.core": "0.1.0",
+        "com.jeomseon.unity.pooling": "0.1.0",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/0.3.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FayJ00OIyqBg5m7pSgY2NuPZmMDfsKmL0NMGRkRoymztcl5WjLj/vagecRIvybv8EJytBshMlNci4Ktru3Yeiw==",
+          "shasum": "77b627ba1a093d59e705b78db9c3fbea64971eb9"
+        }
+      }
+    },
+    {
+      "version": "0.3.1",
+      "variantId": "registry-package.openupm.com-cbdb482da804b55f",
+      "sourceUrl": "https://github.com/jeomseon0516/Unity.EditorToolkit.git",
+      "sourceRef": "6f35402d62f9236caf7a6bc70dba78863ed4aafe",
+      "downloadUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/-/com.jeomseon.unity.editor-toolkit-0.3.1.tgz",
+      "upstreamIntegrity": "sha512-LmDBiix+fAhMnlkswiDBlRiL2e0zVGe4WgedrKjPLsQTaeqWqM7XVN/MzgPCNflIYzmAVkaTdJyBoaZVwqrY8Q==",
+      "upstreamShasum": "12bd26ea7d8f40497c30f64314e3a22e117edfe3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.jeomseon.unity.attributes": "0.2.0",
+        "com.jeomseon.unity.core": "0.1.0",
+        "com.jeomseon.unity.pooling": "0.1.0",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/0.3.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LmDBiix+fAhMnlkswiDBlRiL2e0zVGe4WgedrKjPLsQTaeqWqM7XVN/MzgPCNflIYzmAVkaTdJyBoaZVwqrY8Q==",
+          "shasum": "12bd26ea7d8f40497c30f64314e3a22e117edfe3"
+        }
+      }
+    },
+    {
+      "version": "0.3.2",
+      "variantId": "registry-package.openupm.com-ec98d8f15399121c",
+      "sourceUrl": "https://github.com/jeomseon0516/Unity.EditorToolkit.git",
+      "sourceRef": "cc554758e02ef05bdeb459460bf1a1faaa668b09",
+      "downloadUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/-/com.jeomseon.unity.editor-toolkit-0.3.2.tgz",
+      "upstreamIntegrity": "sha512-at9k8ngUMWfEZYF1/2vdCeBRbXs5OxJloN6BjaHUF1ZYblO0WJG/hvorSmWzHMZlB3pQoJuap161SqBVJdmN2Q==",
+      "upstreamShasum": "60f1cf6c29901515faa0e866c48fcc5cf2c942a9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.jeomseon.unity.attributes": "0.2.0",
+        "com.jeomseon.unity.core": "0.1.0",
+        "com.jeomseon.unity.pooling": "0.1.0",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/0.3.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-at9k8ngUMWfEZYF1/2vdCeBRbXs5OxJloN6BjaHUF1ZYblO0WJG/hvorSmWzHMZlB3pQoJuap161SqBVJdmN2Q==",
+          "shasum": "60f1cf6c29901515faa0e866c48fcc5cf2c942a9"
+        }
+      }
+    },
+    {
+      "version": "0.3.3",
+      "variantId": "registry-package.openupm.com-0aeb040b0b0f26bd",
+      "sourceUrl": "https://github.com/jeomseon0516/Unity.EditorToolkit.git",
+      "sourceRef": "4cc03e78da342b2dc7a4d70b492a57292eb435c5",
+      "downloadUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/-/com.jeomseon.unity.editor-toolkit-0.3.3.tgz",
+      "upstreamIntegrity": "sha512-uftgHXiY0WftkVjlhJblMV8lyfhxceZ7mC5oFbjHzu1vJHkAoOJjpVBjxPFEh4LwBW3F+26/DXfs1sVfw3W2aw==",
+      "upstreamShasum": "e8c37561fa537af1d6bc5f72aaeb949fd2e66478",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.jeomseon.unity.core": "0.1.0",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/0.3.3",
+      "deprecated": null,
+      "unity": "6000.5",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uftgHXiY0WftkVjlhJblMV8lyfhxceZ7mC5oFbjHzu1vJHkAoOJjpVBjxPFEh4LwBW3F+26/DXfs1sVfw3W2aw==",
+          "shasum": "e8c37561fa537af1d6bc5f72aaeb949fd2e66478"
+        }
+      }
+    },
+    {
+      "version": "0.4.0",
+      "variantId": "registry-package.openupm.com-9454cb00ae1591d1",
+      "sourceUrl": "https://github.com/jeomseon0516/Unity.EditorToolkit.git",
+      "sourceRef": "37d619714d3bc72d9833f65aa5bb39b730ec5e0f",
+      "downloadUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/-/com.jeomseon.unity.editor-toolkit-0.4.0.tgz",
+      "upstreamIntegrity": "sha512-Wj6Hv4QcLX9rI8/AxscGf3ZDe8Sk3wTD73U7hTSqKiSjSsSwTboi4tTTWpw4oADjjfGtzKA/JdAN6nrRMaDQZg==",
+      "upstreamShasum": "a0169a705fa2875aba6680d9a1e0d8e66b3e67f0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.jeomseon.unity.core": "0.1.0",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/0.4.0",
+      "deprecated": null,
+      "unity": "6000.5",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Wj6Hv4QcLX9rI8/AxscGf3ZDe8Sk3wTD73U7hTSqKiSjSsSwTboi4tTTWpw4oADjjfGtzKA/JdAN6nrRMaDQZg==",
+          "shasum": "a0169a705fa2875aba6680d9a1e0d8e66b3e67f0"
+        }
+      }
+    },
+    {
+      "version": "0.5.0",
+      "variantId": "registry-package.openupm.com-bd65795a1dba4c46",
+      "sourceUrl": "https://github.com/jeomseon0516/Unity.EditorToolkit.git",
+      "sourceRef": "8672c938f25d1e1c648875c4353768ffbeaff402",
+      "downloadUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/-/com.jeomseon.unity.editor-toolkit-0.5.0.tgz",
+      "upstreamIntegrity": "sha512-O/W9pdR/pnN1X7V59sJTVFDUW37ozab/rqcyILyxCcye82MK9VkMdVupClxYi/MlEXCcwBvHT1/6TrbBjOkeqQ==",
+      "upstreamShasum": "e352d4d7506aa8897c8b392a55fb9ba4c8d71170",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.jeomseon.unity.core": "0.1.0",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/0.5.0",
+      "deprecated": null,
+      "unity": "6000.5",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-O/W9pdR/pnN1X7V59sJTVFDUW37ozab/rqcyILyxCcye82MK9VkMdVupClxYi/MlEXCcwBvHT1/6TrbBjOkeqQ==",
+          "shasum": "e352d4d7506aa8897c8b392a55fb9ba4c8d71170"
+        }
+      }
+    },
+    {
+      "version": "0.6.0",
+      "variantId": "registry-package.openupm.com-ea9e46394e3aeb57",
+      "sourceUrl": "https://github.com/jeomseon0516/Unity.EditorToolkit.git",
+      "sourceRef": "4286b127bb1737e578b29d938df44611cbf1bb5c",
+      "downloadUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/-/com.jeomseon.unity.editor-toolkit-0.6.0.tgz",
+      "upstreamIntegrity": "sha512-7vwFMTrWI6d8Ol/znWdppQEO1GrAJIwvyUq7plpIDPknzAbaMKwQrQIaGZZ1UBI3ZL8JlFlk7PSd+3NLqCMnig==",
+      "upstreamShasum": "6e518b917a75d5276e9ef9319ff208bb14ba5c2e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.jeomseon.unity.core": "0.1.0",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/0.6.0",
+      "deprecated": null,
+      "unity": "6000.5",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7vwFMTrWI6d8Ol/znWdppQEO1GrAJIwvyUq7plpIDPknzAbaMKwQrQIaGZZ1UBI3ZL8JlFlk7PSd+3NLqCMnig==",
+          "shasum": "6e518b917a75d5276e9ef9319ff208bb14ba5c2e"
+        }
+      }
+    },
+    {
+      "version": "0.7.0",
+      "variantId": "registry-package.openupm.com-0391de7eec2c4978",
+      "sourceUrl": "https://github.com/jeomseon0516/Unity.EditorToolkit.git",
+      "sourceRef": "ba6bca2f4f2bb686fcc0ecee2c10a69b891404cd",
+      "downloadUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/-/com.jeomseon.unity.editor-toolkit-0.7.0.tgz",
+      "upstreamIntegrity": "sha512-sGQf7EAhpB4lgrek99VS6fFlJ9haaz3j45XYuOEzzkYdF9PWIZnnSEwd5ooRCD7QT0NdeVFYiq//gYds4DQL/w==",
+      "upstreamShasum": "cb489d34d8d205d65efe58cb8f05c5a3a579b892",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.jeomseon.unity.core": "0.1.0",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/0.7.0",
+      "deprecated": null,
+      "unity": "6000.5",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sGQf7EAhpB4lgrek99VS6fFlJ9haaz3j45XYuOEzzkYdF9PWIZnnSEwd5ooRCD7QT0NdeVFYiq//gYds4DQL/w==",
+          "shasum": "cb489d34d8d205d65efe58cb8f05c5a3a579b892"
+        }
+      }
+    },
+    {
+      "version": "0.7.1",
+      "variantId": "registry-package.openupm.com-5bd5e48850dbfe57",
+      "sourceUrl": "https://github.com/jeomseon0516/Unity.EditorToolkit.git",
+      "sourceRef": "01dddc0649542cf090e647bafd42ed2217821e74",
+      "downloadUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/-/com.jeomseon.unity.editor-toolkit-0.7.1.tgz",
+      "upstreamIntegrity": "sha512-egXyioK4TF0tEUxLM9ifi18oZ7q7lhhT1zdTTE6jgskicJmXHi/8EPeSuI5LQPzACHv7w5hqTJOCsjvlbqER0A==",
+      "upstreamShasum": "1bc3b7812a74b6936fd63d00977e3b6e6c5fb8cf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.jeomseon.unity.core": "0.1.0",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/0.7.1",
+      "deprecated": null,
+      "unity": "6000.6",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-egXyioK4TF0tEUxLM9ifi18oZ7q7lhhT1zdTTE6jgskicJmXHi/8EPeSuI5LQPzACHv7w5hqTJOCsjvlbqER0A==",
+          "shasum": "1bc3b7812a74b6936fd63d00977e3b6e6c5fb8cf"
+        }
+      }
+    },
+    {
+      "version": "0.7.2",
+      "variantId": "registry-package.openupm.com-1237922bbb402d81",
+      "sourceUrl": "https://github.com/jeomseon0516/Unity.EditorToolkit.git",
+      "sourceRef": "fb3c8f8f5967afeb9367243420dac2f50c45cf4e",
+      "downloadUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/-/com.jeomseon.unity.editor-toolkit-0.7.2.tgz",
+      "upstreamIntegrity": "sha512-/kUIEuq9n8neRnzkGCx8ySiom0aMiu0TncLkcYe83RQ34EySc6Doc448+Ga8ciAtfXctj5gILKuQeYDzwCCC0w==",
+      "upstreamShasum": "79759640b44c7437b4107089839333e1997273e5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.jeomseon.unity.core": "0.3.2",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/0.7.2",
+      "deprecated": null,
+      "unity": "6000.6",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/kUIEuq9n8neRnzkGCx8ySiom0aMiu0TncLkcYe83RQ34EySc6Doc448+Ga8ciAtfXctj5gILKuQeYDzwCCC0w==",
+          "shasum": "79759640b44c7437b4107089839333e1997273e5"
+        }
+      }
+    },
+    {
+      "version": "0.7.3",
+      "variantId": "registry-package.openupm.com-173e27417914017d",
+      "sourceUrl": "https://github.com/jeomseon0516/Unity.EditorToolkit.git",
+      "sourceRef": "d20284f0cd76b862fdb41ff92447209fd65050fe",
+      "downloadUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/-/com.jeomseon.unity.editor-toolkit-0.7.3.tgz",
+      "upstreamIntegrity": "sha512-uqC0m/AXhj1amqtuojkiSNEMV85Z2Q86VKheivbhcRV7wzvandYeNGfy90A0fJ8Adk4BJg2fDJvTCRbYqi4ejw==",
+      "upstreamShasum": "7cd7ec724ad0402f98824ca11592ee7953c02ae2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.jeomseon.unity.core": "0.3.2",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.ugui": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.jeomseon.unity.editor-toolkit/0.7.3",
+      "deprecated": null,
+      "unity": "6000.6",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uqC0m/AXhj1amqtuojkiSNEMV85Z2Q86VKheivbhcRV7wzvandYeNGfy90A0fJ8Adk4BJg2fDJvTCRbYqi4ejw==",
+          "shasum": "7cd7ec724ad0402f98824ca11592ee7953c02ae2"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.7.3"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.jeomseon.unity.editor-toolkit.yml",
+  "definitionBlobSha": "7ef1bd8c1608c7ce6793796ab53b6c8e91ef82ea",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "0.1.0",
+    "0.3.1",
+    "0.3.2"
+  ],
+  "selectedVersions": [
+    "0.1.0",
+    "0.3.1",
+    "0.3.2",
+    "0.7.3"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 14,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

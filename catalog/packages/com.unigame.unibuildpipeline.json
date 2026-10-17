@@ -1,0 +1,334 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unigame.unibuildpipeline",
+  "displayName": "com.unigame.unibuildpipeline",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.unigame.unibuildpipeline",
+      "fetchedAt": "2026-10-17T17:42:39.233574Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "2020.0.6",
+      "variantId": "registry-package.openupm.com-b5c038c937e32f5e",
+      "sourceUrl": "https://package.openupm.com/com.unigame.unibuildpipeline",
+      "sourceRef": "d0a769153d546f4044a6f434fdd0c84b783aac96",
+      "downloadUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/-/com.unigame.unibuildpipeline-2020.0.6.tgz",
+      "upstreamIntegrity": "sha512-Vl8E/76jBG4kuNcRakdNUpxQJjyuPhOd3b9/qyMUmz9pg6UEHTqEt9UyPBVcDN7ezQ6fVPoEmlQ7sdDMINRBmQ==",
+      "upstreamShasum": "ad53f5fa965877dab972a529c50938daa17cb504",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unigame.unicore": "2020.0.1",
+        "com.unity.scriptablebuildpipeline": "1.5.10",
+        "com.unity.addressables": "1.10.0",
+        "com.unity.test-framework": "1.1.14",
+        "com.unigame.codewriter": "2020.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/2020.0.6",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Vl8E/76jBG4kuNcRakdNUpxQJjyuPhOd3b9/qyMUmz9pg6UEHTqEt9UyPBVcDN7ezQ6fVPoEmlQ7sdDMINRBmQ==",
+          "shasum": "ad53f5fa965877dab972a529c50938daa17cb504"
+        }
+      }
+    },
+    {
+      "version": "2020.1.2",
+      "variantId": "registry-package.openupm.com-089779e3ea7aa013",
+      "sourceUrl": "https://github.com/UniGameTeam/UniBuild.git",
+      "sourceRef": "27733448d0e082b5f0711e50d492b487672e7d8b",
+      "downloadUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/-/com.unigame.unibuildpipeline-2020.1.2.tgz",
+      "upstreamIntegrity": "sha512-gYHHNyUcNrWoMJ2fDSgLEyg3VkTVlVCoYraHDdMU7hK2uEnAaNwpWQrUNCPcZLm3O3qetd0lWH7pwhE4mOQcOw==",
+      "upstreamShasum": "b3e54b93c3f8e787114913465b8aa2930d47c859",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unigame.unicore": "2020.0.19",
+        "com.unity.scriptablebuildpipeline": "1.5.10",
+        "com.unity.addressables": "1.16.1",
+        "com.unity.test-framework": "1.1.16",
+        "com.unigame.codewriter": "2020.0.22",
+        "com.unity.nuget.newtonsoft-json": "2.0.0",
+        "com.unigame.gittools": "2020.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/2020.1.2",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gYHHNyUcNrWoMJ2fDSgLEyg3VkTVlVCoYraHDdMU7hK2uEnAaNwpWQrUNCPcZLm3O3qetd0lWH7pwhE4mOQcOw==",
+          "shasum": "b3e54b93c3f8e787114913465b8aa2930d47c859"
+        }
+      }
+    },
+    {
+      "version": "2020.1.3",
+      "variantId": "registry-package.openupm.com-c689747018bb95c3",
+      "sourceUrl": "https://github.com/UniGameTeam/UniBuild.git",
+      "sourceRef": "736219637e38f1a6f6b000eef6f3291f1b03d209",
+      "downloadUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/-/com.unigame.unibuildpipeline-2020.1.3.tgz",
+      "upstreamIntegrity": "sha512-nYovmrvW9nzkSFtKfORaip7DN2ZJBEtEowAp4lCCv8dYP/KF2u0cNsrf6Yi4kJycgYgf7R7AuSPDwt8IySYRGw==",
+      "upstreamShasum": "8f41c4533e1005f6591574ecdfd10ebdfc1ff417",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unigame.unicore": "2020.0.19",
+        "com.unity.scriptablebuildpipeline": "1.5.10",
+        "com.unity.addressables": "1.16.1",
+        "com.unity.test-framework": "1.1.16",
+        "com.unigame.codewriter": "2020.0.22",
+        "com.unity.nuget.newtonsoft-json": "2.0.0",
+        "com.unigame.gittools": "2020.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/2020.1.3",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nYovmrvW9nzkSFtKfORaip7DN2ZJBEtEowAp4lCCv8dYP/KF2u0cNsrf6Yi4kJycgYgf7R7AuSPDwt8IySYRGw==",
+          "shasum": "8f41c4533e1005f6591574ecdfd10ebdfc1ff417"
+        }
+      }
+    },
+    {
+      "version": "2024.0.1",
+      "variantId": "registry-package.openupm.com-d7633b92a583da3f",
+      "sourceUrl": "https://github.com/UniGameTeam/UniGame.UniBuild.git",
+      "sourceRef": "90941c70b85d18503ee09a5067f2aa0a996072bd",
+      "downloadUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/-/com.unigame.unibuildpipeline-2024.0.1.tgz",
+      "upstreamIntegrity": "sha512-JNZTCji+3RHOZsTVceAVvLITxpAYFAzWyLoAUrtAwI3Yu3rtYL6CjJFuWyXL9BlUWfjylImaX/Jehf0HKecK+Q==",
+      "upstreamShasum": "2b9be106787993c4077e8b27699b9cae91d01994",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unigame.coremodules": "git+https://github.com/UnioGame/UniGame.CoreModules.git",
+        "com.unity.test-framework": "1.1.30",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/2024.0.1",
+      "deprecated": null,
+      "unity": "2022.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JNZTCji+3RHOZsTVceAVvLITxpAYFAzWyLoAUrtAwI3Yu3rtYL6CjJFuWyXL9BlUWfjylImaX/Jehf0HKecK+Q==",
+          "shasum": "2b9be106787993c4077e8b27699b9cae91d01994"
+        }
+      }
+    },
+    {
+      "version": "2024.0.3",
+      "variantId": "registry-package.openupm.com-6694d95e553ab6b0",
+      "sourceUrl": "https://github.com/UniGameTeam/UniGame.UniBuild.git",
+      "sourceRef": "7c36b87df5683e9e4d248d182337fb77305f0c0b",
+      "downloadUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/-/com.unigame.unibuildpipeline-2024.0.3.tgz",
+      "upstreamIntegrity": "sha512-zEM4ILBfusmtZeWhvelt24Vt2JNrVkcg2xYLiSJh2O6qwwJchAKJqfxWpkoSe6aympqntAB6n/H3LeIXlDoidw==",
+      "upstreamShasum": "2dee86cf2fdf8063dde23acb30d680e237122481",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unigame.coremodules": "git+https://github.com/UnioGame/UniGame.CoreModules.git",
+        "com.unity.test-framework": "1.1.30",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/2024.0.3",
+      "deprecated": null,
+      "unity": "2022.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zEM4ILBfusmtZeWhvelt24Vt2JNrVkcg2xYLiSJh2O6qwwJchAKJqfxWpkoSe6aympqntAB6n/H3LeIXlDoidw==",
+          "shasum": "2dee86cf2fdf8063dde23acb30d680e237122481"
+        }
+      }
+    },
+    {
+      "version": "2024.0.12",
+      "variantId": "registry-package.openupm.com-268cb77ae940f9a6",
+      "sourceUrl": "https://github.com/UniGameTeam/UniGame.UniBuild.git",
+      "sourceRef": "0b4b5f801720deb85b3aa96f47f7f25c717ba97f",
+      "downloadUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/-/com.unigame.unibuildpipeline-2024.0.12.tgz",
+      "upstreamIntegrity": "sha512-vvS5Gu4XzkfOXAX0xHlYmpB0hG91lb6F6TBwcFNYKztxOyFkQH/recgGFFMBNYr+W9VfSRRy3gOPXDOKIhba9g==",
+      "upstreamShasum": "c9138fa359aa7d561f3894cda804031d9c4ff89a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unigame.coremodules": "git+https://github.com/UnioGame/UniGame.CoreModules.git",
+        "com.unity.test-framework": "1.1.30",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/2024.0.12",
+      "deprecated": null,
+      "unity": "2022.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vvS5Gu4XzkfOXAX0xHlYmpB0hG91lb6F6TBwcFNYKztxOyFkQH/recgGFFMBNYr+W9VfSRRy3gOPXDOKIhba9g==",
+          "shasum": "c9138fa359aa7d561f3894cda804031d9c4ff89a"
+        }
+      }
+    },
+    {
+      "version": "2025.0.3",
+      "variantId": "registry-package.openupm.com-9e3f6ef4d476925d",
+      "sourceUrl": "https://github.com/UniGameTeam/UniGame.UniBuild.git",
+      "sourceRef": "ef57f55390dd4198e8d96677f15c8eba0ec618e8",
+      "downloadUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/-/com.unigame.unibuildpipeline-2025.0.3.tgz",
+      "upstreamIntegrity": "sha512-CesVYrmLyaQdNzArMXdJljY9lipAGblmYPUt4GB/Vh5DdqOXAFEGZ0cl3eHzmjMkeg5KYOs5PHEbFdXC+rKJkw==",
+      "upstreamShasum": "277921ffbafea030ad44074c62ec770affd6c3b1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unigame.unicore": "git+https://github.com/UnioGame/unigame.core.git",
+        "com.cysharp.unitask": "git+https://github.com/Cysharp/UniTask.git",
+        "com.unity.test-framework": "1.1.30",
+        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/2025.0.3",
+      "deprecated": null,
+      "unity": "2023.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CesVYrmLyaQdNzArMXdJljY9lipAGblmYPUt4GB/Vh5DdqOXAFEGZ0cl3eHzmjMkeg5KYOs5PHEbFdXC+rKJkw==",
+          "shasum": "277921ffbafea030ad44074c62ec770affd6c3b1"
+        }
+      }
+    },
+    {
+      "version": "2025.0.11",
+      "variantId": "registry-package.openupm.com-33c39845c8db5698",
+      "sourceUrl": "https://github.com/UniGameTeam/UniGame.UniBuild.git",
+      "sourceRef": "446c94f1babdb6d3fc27406d224f97c048286d9c",
+      "downloadUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/-/com.unigame.unibuildpipeline-2025.0.11.tgz",
+      "upstreamIntegrity": "sha512-5fwKZ5P9HHuRIuUOp5Cn7KAi6qcYSQaZqkZKCYT9/SEWYSgqDlJwQYj9LpnbUDfdj8nBIGY2AgxADIGnb2lZ0A==",
+      "upstreamShasum": "9a5f0094c674208c1e75c4a8fabd98fa6e0e2964",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.2",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.unigame.unibuildpipeline/2025.0.11",
+      "deprecated": null,
+      "unity": "2023.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5fwKZ5P9HHuRIuUOp5Cn7KAi6qcYSQaZqkZKCYT9/SEWYSgqDlJwQYj9LpnbUDfdj8nBIGY2AgxADIGnb2lZ0A==",
+          "shasum": "9a5f0094c674208c1e75c4a8fabd98fa6e0e2964"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2025.0.11"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.unigame.unibuildpipeline.yml",
+  "definitionBlobSha": "fc87c175c467c5db9c3d80c0c59411660413290c",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "2025.0.11",
+    "2025.0.3",
+    "2024.0.12"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 8,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

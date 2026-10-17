@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.hww.xiunitools",
+  "displayName": "com.hww.xiunitools",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.hww.xiunitools",
+      "fetchedAt": "2026-10-17T17:38:52.326796Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-bed1c2c34a9a9b82",
+      "sourceUrl": "https://github.com/hww/XiUnityTools.git#upm",
+      "sourceRef": "43eef5b74c31bfbdbf998102cb0f8dcceb65452e",
+      "downloadUrl": "https://package.openupm.com/com.hww.xiunitools/-/com.hww.xiunitools-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-dCxf2ANXtZ0vL8jl4nk7nhnDhywF4b+k8ps9OWblX1bGNZTvyk2xVf/6XsFn2zXG0xLCpuPVTWW+dH/hCx4v8w==",
+      "upstreamShasum": "65e894c61ef5a5f3a3c06fe468d10a16d59207c8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.dbrizov.naughtyattributes": "git+https://github.com/dbrizov/NaughtyAttributes.git#upm",
+        "com.hww.xidebugmenu": "git+https://github.com/hww/XiDebugMenu.git#upm",
+        "com.hww.xicore": "git+https://github.com/hww/XiCore.git#upm"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.hww.xiunitools/1.1.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dCxf2ANXtZ0vL8jl4nk7nhnDhywF4b+k8ps9OWblX1bGNZTvyk2xVf/6XsFn2zXG0xLCpuPVTWW+dH/hCx4v8w==",
+          "shasum": "65e894c61ef5a5f3a3c06fe468d10a16d59207c8"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.1.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.hww.xiunitools.yml",
+  "definitionBlobSha": "dbb51c14124a63af3e028bdd59f75afa233ef1d5",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.1.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,3457 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.akiojin.unity-mcp-server",
+  "displayName": "com.akiojin.unity-mcp-server",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server",
+      "fetchedAt": "2026-10-17T17:36:31.103751Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "2.14.10",
+      "variantId": "registry-package.openupm.com-89104f3944da3afe",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "35b56cb4b8c55778dc1db75077ee3c937d31ac14",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.14.10.tgz",
+      "upstreamIntegrity": "sha512-5pV65+hkyj1KBW/x0jkkaKtqXOvub87SXpdQd+Fj6lRp2w0GU4J320qWgjuWQIwqQZA8Toj6p7HY1Hzw6B/7Gg==",
+      "upstreamShasum": "99fcb4e3c92b1a104925ac429a3e1678ed3884c2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.14.10",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5pV65+hkyj1KBW/x0jkkaKtqXOvub87SXpdQd+Fj6lRp2w0GU4J320qWgjuWQIwqQZA8Toj6p7HY1Hzw6B/7Gg==",
+          "shasum": "99fcb4e3c92b1a104925ac429a3e1678ed3884c2"
+        }
+      }
+    },
+    {
+      "version": "2.14.11",
+      "variantId": "registry-package.openupm.com-4139d6fff4ab4311",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "71571e2e5eea250b97f86266c1e5be41cf4b5924",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.14.11.tgz",
+      "upstreamIntegrity": "sha512-G8SarxwKUNlDqLOG9ft6xTfHutS5KWK4+kR99vHuJTRP/hY52DbbAaPz+6rE7wP+rKkNZH3PvQPNwIsdYW7n/w==",
+      "upstreamShasum": "55c43f54de14f621158cc784e8e5edbc9964ebf1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.14.11",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-G8SarxwKUNlDqLOG9ft6xTfHutS5KWK4+kR99vHuJTRP/hY52DbbAaPz+6rE7wP+rKkNZH3PvQPNwIsdYW7n/w==",
+          "shasum": "55c43f54de14f621158cc784e8e5edbc9964ebf1"
+        }
+      }
+    },
+    {
+      "version": "2.14.12",
+      "variantId": "registry-package.openupm.com-04fb83a4b9da7ca9",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "ddf672c881bcfe44db97913256aff3f9effb72f1",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.14.12.tgz",
+      "upstreamIntegrity": "sha512-94Ui1Lvs4NTwFAo2GyOAVWEsVBbXXcWSX3c8yDx/X6YfDtuSpQ1WynMtd73ZUnP0SySKrGw7BepEOQXTQPBL4A==",
+      "upstreamShasum": "420a057cfc61ee661077d4be9305b7585feae269",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.14.12",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-94Ui1Lvs4NTwFAo2GyOAVWEsVBbXXcWSX3c8yDx/X6YfDtuSpQ1WynMtd73ZUnP0SySKrGw7BepEOQXTQPBL4A==",
+          "shasum": "420a057cfc61ee661077d4be9305b7585feae269"
+        }
+      }
+    },
+    {
+      "version": "2.14.13",
+      "variantId": "registry-package.openupm.com-5bcea40d89b557c0",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "df9388e984ad03fe858f8174b866aaa984e078eb",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.14.13.tgz",
+      "upstreamIntegrity": "sha512-Q7rTNywt4NfGtW5j2rL4iH5a7JGktt+doaL9XBkyuO+fLkwjVDvU9M0uLGP+7dUpJwb7Pgtlsyk+zJWXUWF+EA==",
+      "upstreamShasum": "7dafa8a0c4a189b3810f940b3ad4a622614be649",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.14.13",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Q7rTNywt4NfGtW5j2rL4iH5a7JGktt+doaL9XBkyuO+fLkwjVDvU9M0uLGP+7dUpJwb7Pgtlsyk+zJWXUWF+EA==",
+          "shasum": "7dafa8a0c4a189b3810f940b3ad4a622614be649"
+        }
+      }
+    },
+    {
+      "version": "2.14.14",
+      "variantId": "registry-package.openupm.com-8c9f928194b11e76",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "fe5c0a45e41f3cbd23f2e613a07e425b6571fd87",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.14.14.tgz",
+      "upstreamIntegrity": "sha512-L2BIe5E/ftERhhKpJjR2C7gjGLYGRVPEB1AO6NuT9oGbsdoK/UPt4dfKOxGvQewN39JnEKdx6oF/EtnhV0HgcQ==",
+      "upstreamShasum": "8faaa952af68e890e0327a79e02e3d5a5ef73751",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.14.14",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-L2BIe5E/ftERhhKpJjR2C7gjGLYGRVPEB1AO6NuT9oGbsdoK/UPt4dfKOxGvQewN39JnEKdx6oF/EtnhV0HgcQ==",
+          "shasum": "8faaa952af68e890e0327a79e02e3d5a5ef73751"
+        }
+      }
+    },
+    {
+      "version": "2.14.15",
+      "variantId": "registry-package.openupm.com-260431ce7bb6c81d",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "6385b62ad13ef54467929495f139b39910f9bea3",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.14.15.tgz",
+      "upstreamIntegrity": "sha512-9zhI1lOoTlL44/FWLJe5v0N3kJ1+OA0/TI7CTnVoL2i8jj5HsV8lMnUdfWs42kajtCn11ntwjpYTtBbtdIE18Q==",
+      "upstreamShasum": "e692c5f955911b354432b9e1bc2da2653e2d69e0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.14.15",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9zhI1lOoTlL44/FWLJe5v0N3kJ1+OA0/TI7CTnVoL2i8jj5HsV8lMnUdfWs42kajtCn11ntwjpYTtBbtdIE18Q==",
+          "shasum": "e692c5f955911b354432b9e1bc2da2653e2d69e0"
+        }
+      }
+    },
+    {
+      "version": "2.14.16",
+      "variantId": "registry-package.openupm.com-56b6ded3adf3f1bf",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "9eee099a1b643b65808d4aa71e04fb6df58782e6",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.14.16.tgz",
+      "upstreamIntegrity": "sha512-51qpstbqHYapTk37iQH36KKWP3Xxycmy1RfDnbABTHz5ywtyhBY34hjDrnXisFvgCna1ZqCFbu7lEDHc8G+jxg==",
+      "upstreamShasum": "b35680af63e2f8f3fc2eaa34443c43483f833384",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.14.16",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-51qpstbqHYapTk37iQH36KKWP3Xxycmy1RfDnbABTHz5ywtyhBY34hjDrnXisFvgCna1ZqCFbu7lEDHc8G+jxg==",
+          "shasum": "b35680af63e2f8f3fc2eaa34443c43483f833384"
+        }
+      }
+    },
+    {
+      "version": "2.14.17",
+      "variantId": "registry-package.openupm.com-e3684a669aa02105",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "7bbb520a65ec5b498e3cefb8cbec3adf51bf5379",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.14.17.tgz",
+      "upstreamIntegrity": "sha512-doJ9j5VWZ43+AoVqHmx5XCpSi7Vn3H2qj5ZiWYML7vCnnk07KYKxGKjjuoc59lmbDJFwbm0wjqK576UYTMIvjA==",
+      "upstreamShasum": "49cee410e99e04a5a47568883fb42731026afe1f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.14.17",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-doJ9j5VWZ43+AoVqHmx5XCpSi7Vn3H2qj5ZiWYML7vCnnk07KYKxGKjjuoc59lmbDJFwbm0wjqK576UYTMIvjA==",
+          "shasum": "49cee410e99e04a5a47568883fb42731026afe1f"
+        }
+      }
+    },
+    {
+      "version": "2.16.0",
+      "variantId": "registry-package.openupm.com-4e22febfdd5c1bae",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "73abfb0266a6e9ac301c0decaaf6e9f0a1288d2a",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.16.0.tgz",
+      "upstreamIntegrity": "sha512-P2uuItZvX6DlCmDhObNaIYW9j/tpIk7vfK2uZn0EdWipqk7+SqYxtthQBOtkE+B5ukjvq2TD185eAd2fCSngGw==",
+      "upstreamShasum": "8e11814974ff03ed1a03b06d16f0b089620fcae7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.16.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-P2uuItZvX6DlCmDhObNaIYW9j/tpIk7vfK2uZn0EdWipqk7+SqYxtthQBOtkE+B5ukjvq2TD185eAd2fCSngGw==",
+          "shasum": "8e11814974ff03ed1a03b06d16f0b089620fcae7"
+        }
+      }
+    },
+    {
+      "version": "2.17.0",
+      "variantId": "registry-package.openupm.com-322490c3f5d02fa6",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "5081a44fb77e36452c2ec3a52576b147ec82a4c0",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.17.0.tgz",
+      "upstreamIntegrity": "sha512-yIpB8KV/gSEs7Hog7g/oN4ay4nVAt9pszClkpEMU7GN/q47a2NangELldhubsB2oPcVtXm5KXjf8WWblpeJFgQ==",
+      "upstreamShasum": "8dbe77f46ca1f7fed04c6c93efbcb411ef352a2a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.17.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yIpB8KV/gSEs7Hog7g/oN4ay4nVAt9pszClkpEMU7GN/q47a2NangELldhubsB2oPcVtXm5KXjf8WWblpeJFgQ==",
+          "shasum": "8dbe77f46ca1f7fed04c6c93efbcb411ef352a2a"
+        }
+      }
+    },
+    {
+      "version": "2.25.0",
+      "variantId": "registry-package.openupm.com-32d6ce9eb58c9861",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "01f504021535de00c35783113b64255167f42589",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.25.0.tgz",
+      "upstreamIntegrity": "sha512-SCV673+jsuUy1VNwmre0JlfCwkkTWMrhHH0NA6Z1tarbXz5S1HRekPUS0LSveZFTPD/WubaUSgaEa+uLzLX6mQ==",
+      "upstreamShasum": "3e9848e6ae44ce410a3b677932c5c51453660415",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.25.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SCV673+jsuUy1VNwmre0JlfCwkkTWMrhHH0NA6Z1tarbXz5S1HRekPUS0LSveZFTPD/WubaUSgaEa+uLzLX6mQ==",
+          "shasum": "3e9848e6ae44ce410a3b677932c5c51453660415"
+        }
+      }
+    },
+    {
+      "version": "2.26.0",
+      "variantId": "registry-package.openupm.com-ee78b68d7c94643c",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "92b6676911ecdb94a2fc1f7c48d96eab2e955468",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.26.0.tgz",
+      "upstreamIntegrity": "sha512-u1mxxvpguwbxzK9jPyTaDApwmJNqJlHV0gbGOc+137gyBpvPid6kY8qxOJfTs+V/VUyhwaxYejcLHQ7sLUWVmQ==",
+      "upstreamShasum": "0b9572bccc868fd15ea8f4b99e4e85a40df3265e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.26.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-u1mxxvpguwbxzK9jPyTaDApwmJNqJlHV0gbGOc+137gyBpvPid6kY8qxOJfTs+V/VUyhwaxYejcLHQ7sLUWVmQ==",
+          "shasum": "0b9572bccc868fd15ea8f4b99e4e85a40df3265e"
+        }
+      }
+    },
+    {
+      "version": "2.26.1",
+      "variantId": "registry-package.openupm.com-48307a7c15e5403b",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "ab1792a059796ff2b71068bac3306b755fdc1ef9",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.26.1.tgz",
+      "upstreamIntegrity": "sha512-O8shKZEcpIqJmYaTkiLtJ0s/RdG26xmlfcYUUL0egKLqG1ebM9cBlGPvNZ+Pt8ohc9GaT32nIoXp1t9pYtTaSw==",
+      "upstreamShasum": "4f12d7ccc5406e9e6525dd65bb645dfc5986c068",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.26.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-O8shKZEcpIqJmYaTkiLtJ0s/RdG26xmlfcYUUL0egKLqG1ebM9cBlGPvNZ+Pt8ohc9GaT32nIoXp1t9pYtTaSw==",
+          "shasum": "4f12d7ccc5406e9e6525dd65bb645dfc5986c068"
+        }
+      }
+    },
+    {
+      "version": "2.27.0",
+      "variantId": "registry-package.openupm.com-e86c6ca36a542f61",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "4a83272389ec45884ef1bd39a655fa12afbe0c8e",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.27.0.tgz",
+      "upstreamIntegrity": "sha512-bh6sUD/ShUdT78IPG8nG0uiJkiBRDUL5q1VsGlxf3OE2QOzLebPgSv6JV9g8E68VTU458ig2by+FX7VTXNGL1g==",
+      "upstreamShasum": "975c9addecff0815453add697ff8391fb084fd10",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.27.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bh6sUD/ShUdT78IPG8nG0uiJkiBRDUL5q1VsGlxf3OE2QOzLebPgSv6JV9g8E68VTU458ig2by+FX7VTXNGL1g==",
+          "shasum": "975c9addecff0815453add697ff8391fb084fd10"
+        }
+      }
+    },
+    {
+      "version": "2.27.1",
+      "variantId": "registry-package.openupm.com-933d6edb19cc4362",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "7d64d7ed94a72e7b072b72fa6188facd351e8b60",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.27.1.tgz",
+      "upstreamIntegrity": "sha512-JwACt8bZLtTJjduTq6vyVGY/2gJckGZibR3Zwtaqlel/qDIAe14eZzFi4gbnT5QiV0cUht9daajlyEvsnSkKwg==",
+      "upstreamShasum": "18e90b4bd26d006e17787c47f79875b87839cbb2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.27.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JwACt8bZLtTJjduTq6vyVGY/2gJckGZibR3Zwtaqlel/qDIAe14eZzFi4gbnT5QiV0cUht9daajlyEvsnSkKwg==",
+          "shasum": "18e90b4bd26d006e17787c47f79875b87839cbb2"
+        }
+      }
+    },
+    {
+      "version": "2.27.2",
+      "variantId": "registry-package.openupm.com-4d6f6077abcf88fa",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "1339bff9023f508de2f1a69500c7eccb97ab2e6c",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.27.2.tgz",
+      "upstreamIntegrity": "sha512-MDxWnZQxYmSB/gFo9EcfuMzlowQevahg3YDWzErjluofzPFJXv+Po8Zkgax0oBGEjjP9kbmUHTrpKlF0fMT62w==",
+      "upstreamShasum": "04a9702c4ba3ac427a5addf450c4e4019ee25932",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.27.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MDxWnZQxYmSB/gFo9EcfuMzlowQevahg3YDWzErjluofzPFJXv+Po8Zkgax0oBGEjjP9kbmUHTrpKlF0fMT62w==",
+          "shasum": "04a9702c4ba3ac427a5addf450c4e4019ee25932"
+        }
+      }
+    },
+    {
+      "version": "2.28.0",
+      "variantId": "registry-package.openupm.com-39e16dcaa68e6988",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "7d45e205b737b50e0cad013b33933b578dacd8b4",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.28.0.tgz",
+      "upstreamIntegrity": "sha512-G4sRwVCNhKI9eZBDTzxhE9w2TpjjJ8/y3bqEXG/Ay2IMOALQSYxHxEP1EOaeB1zGBv9ytG5QvHRBve7xd8QUKg==",
+      "upstreamShasum": "57fda2e6b6bf1eabbe0ff957ae8a48939d65bc3d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.28.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-G4sRwVCNhKI9eZBDTzxhE9w2TpjjJ8/y3bqEXG/Ay2IMOALQSYxHxEP1EOaeB1zGBv9ytG5QvHRBve7xd8QUKg==",
+          "shasum": "57fda2e6b6bf1eabbe0ff957ae8a48939d65bc3d"
+        }
+      }
+    },
+    {
+      "version": "2.29.0",
+      "variantId": "registry-package.openupm.com-90653220167c1a80",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "d379046d69f592c4e3fa06b2b410c1992e9e9898",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.29.0.tgz",
+      "upstreamIntegrity": "sha512-t3lyG/e6kKJ6RWvYAKS5cCJesS5Ua3QFhDYM5E2vhbGuLATMorcr2htqCLmTN6LZ/yfbyRbA/S5jpc51ncAwxw==",
+      "upstreamShasum": "590ce036655ff8ac26526385c3b49cc1c4304d52",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.29.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-t3lyG/e6kKJ6RWvYAKS5cCJesS5Ua3QFhDYM5E2vhbGuLATMorcr2htqCLmTN6LZ/yfbyRbA/S5jpc51ncAwxw==",
+          "shasum": "590ce036655ff8ac26526385c3b49cc1c4304d52"
+        }
+      }
+    },
+    {
+      "version": "2.30.0",
+      "variantId": "registry-package.openupm.com-4bb9af950239acb9",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "df517ce71a052d6c0c6aa004d07d353f48cfaf33",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.30.0.tgz",
+      "upstreamIntegrity": "sha512-7X1O690gEr6Ix7BA1RBVzXaHhzSHsxJrpwQUAGM2MP5CESKrWLlNHo1ND8GFYUAG5op2aGWgYZEk2KXEo9MKEA==",
+      "upstreamShasum": "841dafd64df2e09b63defe5bc56e65d46b4b84db",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.30.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7X1O690gEr6Ix7BA1RBVzXaHhzSHsxJrpwQUAGM2MP5CESKrWLlNHo1ND8GFYUAG5op2aGWgYZEk2KXEo9MKEA==",
+          "shasum": "841dafd64df2e09b63defe5bc56e65d46b4b84db"
+        }
+      }
+    },
+    {
+      "version": "2.30.1",
+      "variantId": "registry-package.openupm.com-cf2e11fc52cbafee",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "19ec762bf53f138a5499445a5e5752f2586bbc8a",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.30.1.tgz",
+      "upstreamIntegrity": "sha512-SrkcdaHFk8yMyQuC1U+bengr/Cg/LDTkSI2VA8MhH2YfZHO03oumdQMM7lCPPd+evUEtCodzTZ1AcTr6KD1sog==",
+      "upstreamShasum": "7533c13693952bee12eea74bcb0a1c4c4c9b82a2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.30.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SrkcdaHFk8yMyQuC1U+bengr/Cg/LDTkSI2VA8MhH2YfZHO03oumdQMM7lCPPd+evUEtCodzTZ1AcTr6KD1sog==",
+          "shasum": "7533c13693952bee12eea74bcb0a1c4c4c9b82a2"
+        }
+      }
+    },
+    {
+      "version": "2.31.0",
+      "variantId": "registry-package.openupm.com-79d6f17aa2db8e6e",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "51d371f5a592f99e3c7e7ab77c7c8dc3deadbb0c",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.31.0.tgz",
+      "upstreamIntegrity": "sha512-1ls4F5AK3opqe8eIVjz8xHXKprkWJdvZAZSgQvxP7KRIGAoyqNNQPNDq41ujjoZY97sVvyxybj/GyDYBaWYgQQ==",
+      "upstreamShasum": "fd46d7e163666aa3c6334dafd4aca2f54cc64425",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.31.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1ls4F5AK3opqe8eIVjz8xHXKprkWJdvZAZSgQvxP7KRIGAoyqNNQPNDq41ujjoZY97sVvyxybj/GyDYBaWYgQQ==",
+          "shasum": "fd46d7e163666aa3c6334dafd4aca2f54cc64425"
+        }
+      }
+    },
+    {
+      "version": "2.32.0",
+      "variantId": "registry-package.openupm.com-77760b20535e4b0a",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "e693b7671d7c7810e05268fbfe9aa9e7398234cb",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.32.0.tgz",
+      "upstreamIntegrity": "sha512-+Jdrwn4MMEnn5dAJy1wvSD7H9+gJqIcajDOvm1NIKYR96/wl13a48Nh/571QWlJeTy5eST0k0HRLeHCD18klbg==",
+      "upstreamShasum": "b2bbdd0791dbc887dda5e174ca6244df934f755e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.32.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+Jdrwn4MMEnn5dAJy1wvSD7H9+gJqIcajDOvm1NIKYR96/wl13a48Nh/571QWlJeTy5eST0k0HRLeHCD18klbg==",
+          "shasum": "b2bbdd0791dbc887dda5e174ca6244df934f755e"
+        }
+      }
+    },
+    {
+      "version": "2.33.0",
+      "variantId": "registry-package.openupm.com-a543ec6bee5c2d02",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "fb1ec8bc8070e032dadaf282fe91bdbf928746ce",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.33.0.tgz",
+      "upstreamIntegrity": "sha512-duMvCWtQpnO34S6wI0OEdIk1ubDtmM2+YrjqSQmGEM6HT5rxyK2SaG07Zku3dVrYDhjcuLMQJmdt8pNbFPwepQ==",
+      "upstreamShasum": "a6a77614b193621db0a80853feeacd7a971aa926",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.33.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-duMvCWtQpnO34S6wI0OEdIk1ubDtmM2+YrjqSQmGEM6HT5rxyK2SaG07Zku3dVrYDhjcuLMQJmdt8pNbFPwepQ==",
+          "shasum": "a6a77614b193621db0a80853feeacd7a971aa926"
+        }
+      }
+    },
+    {
+      "version": "2.34.0",
+      "variantId": "registry-package.openupm.com-136b8a23d0dae23a",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "8e2fbc67d5294fa5e6dbccc6109f4d8434b11b5e",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.34.0.tgz",
+      "upstreamIntegrity": "sha512-jXmJSEtglD6sSydxyE0sXTmSvyZCtCD2ske9CsA73EaNXLhRUVpvtZ92dk+OeIpLqfjmc/xhowj/ASZgAyK8Kw==",
+      "upstreamShasum": "9afce8b6ff865343af333e6171c9183f63f64217",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.34.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jXmJSEtglD6sSydxyE0sXTmSvyZCtCD2ske9CsA73EaNXLhRUVpvtZ92dk+OeIpLqfjmc/xhowj/ASZgAyK8Kw==",
+          "shasum": "9afce8b6ff865343af333e6171c9183f63f64217"
+        }
+      }
+    },
+    {
+      "version": "2.35.0",
+      "variantId": "registry-package.openupm.com-b4e32fb978d28984",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "84bd481b693d8a752f713c0d3b3b68be03c1cbbf",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.35.0.tgz",
+      "upstreamIntegrity": "sha512-+TaylVRCAwJQ9s89saCEd4sqaHLn0qS464N5O2leKRheeWdLnggzmkxBZrCn0owFYYCGETAmYgdVKp8SYPrd9w==",
+      "upstreamShasum": "5b99edf741e3bee39b1944c7271064bbd7c2ef87",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.35.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+TaylVRCAwJQ9s89saCEd4sqaHLn0qS464N5O2leKRheeWdLnggzmkxBZrCn0owFYYCGETAmYgdVKp8SYPrd9w==",
+          "shasum": "5b99edf741e3bee39b1944c7271064bbd7c2ef87"
+        }
+      }
+    },
+    {
+      "version": "2.35.1",
+      "variantId": "registry-package.openupm.com-c987b17b4c1f5317",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "de9942879e87cbf3e7f2b278e6c3cde7b8a70813",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.35.1.tgz",
+      "upstreamIntegrity": "sha512-NdkvELvPLgkmkvM560uoLb2JfUfnFMTqmzYwh98FwyD+RpX5RNBNydTxeCj0KUNPK158xZeN/f1mCCqRnMSpjQ==",
+      "upstreamShasum": "be64b7f5668c60ea64086787570aeed4cd04b562",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.35.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NdkvELvPLgkmkvM560uoLb2JfUfnFMTqmzYwh98FwyD+RpX5RNBNydTxeCj0KUNPK158xZeN/f1mCCqRnMSpjQ==",
+          "shasum": "be64b7f5668c60ea64086787570aeed4cd04b562"
+        }
+      }
+    },
+    {
+      "version": "2.36.0",
+      "variantId": "registry-package.openupm.com-e8069b031452afe4",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "1c7e9832402de53a21d023bf5dd4ce976e9bd81b",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.36.0.tgz",
+      "upstreamIntegrity": "sha512-YS8Ijdda+TKyYMQdYO3UPA/AJCA11eUiaMpsLNps+0wR8xXiuZ4hcUWcSwHzraJn++bm1ziKSI95hERBU1lp8Q==",
+      "upstreamShasum": "0e4e3fff99d514de11507a9d97256f6358cabf04",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.36.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YS8Ijdda+TKyYMQdYO3UPA/AJCA11eUiaMpsLNps+0wR8xXiuZ4hcUWcSwHzraJn++bm1ziKSI95hERBU1lp8Q==",
+          "shasum": "0e4e3fff99d514de11507a9d97256f6358cabf04"
+        }
+      }
+    },
+    {
+      "version": "2.36.1",
+      "variantId": "registry-package.openupm.com-52be32146c277356",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "0739ebe7a0957b3ac8d5a0dcd9f1f47278f22336",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.36.1.tgz",
+      "upstreamIntegrity": "sha512-y4PMqJM9ez4qoTj+itdUO26eOeJIuks3vNGyMyW7UDtrGpIr0xchN8VKRMzWc+B+YTZeVOK4my/cVKp3rqEN2Q==",
+      "upstreamShasum": "43eedda4193a2a5ebdfc9a728c6f648d3988c6f0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.36.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-y4PMqJM9ez4qoTj+itdUO26eOeJIuks3vNGyMyW7UDtrGpIr0xchN8VKRMzWc+B+YTZeVOK4my/cVKp3rqEN2Q==",
+          "shasum": "43eedda4193a2a5ebdfc9a728c6f648d3988c6f0"
+        }
+      }
+    },
+    {
+      "version": "2.36.2",
+      "variantId": "registry-package.openupm.com-73336e2ae9f6e932",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "d772c4fdaf5e7e7fc9662e2045d3f7fd3559034b",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.36.2.tgz",
+      "upstreamIntegrity": "sha512-bfksT7i/KvI0xKHmoiIVy7QruI2D1zVV2P8fIaaVUl6afZPxNrvoqlVrMK12x1AiqurE1hODiL0guQ+6Z8Hzkg==",
+      "upstreamShasum": "f84a8645d258ef33de2aca22075506a7aa5f9df3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.36.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bfksT7i/KvI0xKHmoiIVy7QruI2D1zVV2P8fIaaVUl6afZPxNrvoqlVrMK12x1AiqurE1hODiL0guQ+6Z8Hzkg==",
+          "shasum": "f84a8645d258ef33de2aca22075506a7aa5f9df3"
+        }
+      }
+    },
+    {
+      "version": "2.36.3",
+      "variantId": "registry-package.openupm.com-d1d078e5bfe41b0f",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "97a819911782908f76c32ec40ebbb4123501b0f0",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.36.3.tgz",
+      "upstreamIntegrity": "sha512-gGOuGDI04EiPTqpkWpJNsjqkA3JFGL3mKqEpVaP0FXa6zkJnOkSRD6Pzb9Mxw7yKHQdxK+eTJzGOvL+jlnRERg==",
+      "upstreamShasum": "8fd46fd6f60606f1ca63ef25ec9b6f7a149a0f65",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.36.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gGOuGDI04EiPTqpkWpJNsjqkA3JFGL3mKqEpVaP0FXa6zkJnOkSRD6Pzb9Mxw7yKHQdxK+eTJzGOvL+jlnRERg==",
+          "shasum": "8fd46fd6f60606f1ca63ef25ec9b6f7a149a0f65"
+        }
+      }
+    },
+    {
+      "version": "2.37.0",
+      "variantId": "registry-package.openupm.com-e514c5917e07f19c",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "57e7d9539e548d20739794a8b4c5ee4a5db88db8",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.37.0.tgz",
+      "upstreamIntegrity": "sha512-kIIJu5o3+nf1ZOwBtA/vbutoy8PP/eKCGyuUKX4L59aMgh5NVJYM2yuTXZgw4DImcqj3lHorWAQwwkGwZnNMHg==",
+      "upstreamShasum": "532e2325f601a8b38d4e49a14b8d85710b37c243",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.37.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kIIJu5o3+nf1ZOwBtA/vbutoy8PP/eKCGyuUKX4L59aMgh5NVJYM2yuTXZgw4DImcqj3lHorWAQwwkGwZnNMHg==",
+          "shasum": "532e2325f601a8b38d4e49a14b8d85710b37c243"
+        }
+      }
+    },
+    {
+      "version": "2.37.1",
+      "variantId": "registry-package.openupm.com-79d4493a17155577",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "279d2a38c5adb352c6a2394064236241ab8a439b",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.37.1.tgz",
+      "upstreamIntegrity": "sha512-/oV7MElsoZALF9b54X8JbKW1sZN8e3ggKh5LjJInSq/5RiZ48/IfSLDs6j0Ppk7dMm+bju861UbbUkA+8UEkig==",
+      "upstreamShasum": "cc551b7faa5ca81c9169c0c8ea3e18dd7ea14dbb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.37.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/oV7MElsoZALF9b54X8JbKW1sZN8e3ggKh5LjJInSq/5RiZ48/IfSLDs6j0Ppk7dMm+bju861UbbUkA+8UEkig==",
+          "shasum": "cc551b7faa5ca81c9169c0c8ea3e18dd7ea14dbb"
+        }
+      }
+    },
+    {
+      "version": "2.37.2",
+      "variantId": "registry-package.openupm.com-1bb7119bcf1e8b61",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "e68bd937170c0f445c049c9ac1fbd3cd0d7e7d33",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.37.2.tgz",
+      "upstreamIntegrity": "sha512-lvKy3B38Wl8o/IsRQcjN8Zaoy1IUIRaILkbjz55/0uVkHrW4cRRMxKcynwqpavaHcXRo/XqHWPFwoGcsYKOQiQ==",
+      "upstreamShasum": "8785e96c56b3cff0e856ae397cc5fdc685b0236b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.37.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lvKy3B38Wl8o/IsRQcjN8Zaoy1IUIRaILkbjz55/0uVkHrW4cRRMxKcynwqpavaHcXRo/XqHWPFwoGcsYKOQiQ==",
+          "shasum": "8785e96c56b3cff0e856ae397cc5fdc685b0236b"
+        }
+      }
+    },
+    {
+      "version": "2.38.0",
+      "variantId": "registry-package.openupm.com-79c2da82fdfbba30",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "e62bb7195d2a5859c55f8d3940aa99989756ff82",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.38.0.tgz",
+      "upstreamIntegrity": "sha512-9hicPTOZFiPyu3NmbkkB6UOKf7WKjcCgxcWDpNDOvkXNQQnbyLif92QbcKjlMmO4KcYkWtHBlDle33Tl80XyrQ==",
+      "upstreamShasum": "cc3aa4be95ac1297113c2d2b5f71aed86bb68065",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.38.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9hicPTOZFiPyu3NmbkkB6UOKf7WKjcCgxcWDpNDOvkXNQQnbyLif92QbcKjlMmO4KcYkWtHBlDle33Tl80XyrQ==",
+          "shasum": "cc3aa4be95ac1297113c2d2b5f71aed86bb68065"
+        }
+      }
+    },
+    {
+      "version": "2.38.1",
+      "variantId": "registry-package.openupm.com-904973f2142deaf5",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "45b534f40087c3a0b8887cdb321d6ae8b8ecafd2",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.38.1.tgz",
+      "upstreamIntegrity": "sha512-uzs0hvmCb/TUb3dk8NGOK9yFOMfQXBSKOQcQ1qxIYdKgidejVRl+A/oqZwJK80TMY4q7K0Nau2uxQtWu2APKLA==",
+      "upstreamShasum": "4a5389d35d3767c495450b8da46be351e37004b6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.38.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uzs0hvmCb/TUb3dk8NGOK9yFOMfQXBSKOQcQ1qxIYdKgidejVRl+A/oqZwJK80TMY4q7K0Nau2uxQtWu2APKLA==",
+          "shasum": "4a5389d35d3767c495450b8da46be351e37004b6"
+        }
+      }
+    },
+    {
+      "version": "2.39.0",
+      "variantId": "registry-package.openupm.com-5fe9bef295c7e677",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "e8f7a87ea9176c3ee823b185070dac065d39255e",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.39.0.tgz",
+      "upstreamIntegrity": "sha512-+KNlctsuaei7D7teQtX1qK7M5jdJg1mCECUJJI+kFLB61wsGNANj+wybmLlTceYKaSBH8JDu5kqRgA2A6rLJYA==",
+      "upstreamShasum": "fa8ee3ad82a701b7da81689897eded0e116bed9b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.39.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+KNlctsuaei7D7teQtX1qK7M5jdJg1mCECUJJI+kFLB61wsGNANj+wybmLlTceYKaSBH8JDu5kqRgA2A6rLJYA==",
+          "shasum": "fa8ee3ad82a701b7da81689897eded0e116bed9b"
+        }
+      }
+    },
+    {
+      "version": "2.39.1",
+      "variantId": "registry-package.openupm.com-af330ad2e25c5268",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "95e79198ed5b1381a46e2a824be283df3ef4a362",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.39.1.tgz",
+      "upstreamIntegrity": "sha512-wjtzGVR9z6CrBF/Ec7ohv/omZ8TNgqcd5kSSIMRoSk3odA7AwIpBEL0HnDnr6l5QjM18RrjfKpqYiNdroZS9xA==",
+      "upstreamShasum": "8a743ab1571ba8f813ef7b6c3ce894ce4a076d18",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.39.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wjtzGVR9z6CrBF/Ec7ohv/omZ8TNgqcd5kSSIMRoSk3odA7AwIpBEL0HnDnr6l5QjM18RrjfKpqYiNdroZS9xA==",
+          "shasum": "8a743ab1571ba8f813ef7b6c3ce894ce4a076d18"
+        }
+      }
+    },
+    {
+      "version": "2.39.2",
+      "variantId": "registry-package.openupm.com-61786f87e6950e6a",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "9916dd9f47ef0e843b3e6f3cd710202777cb7acd",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.39.2.tgz",
+      "upstreamIntegrity": "sha512-sw3DhWAprP63xS4AilDHbrT7q8z7d747c6pTu3phUmaSWyvREy5nCBA4ZtMLc2L+A8610FFZbDvByzSOQrprYg==",
+      "upstreamShasum": "5c4a548e4fea4c82b72bebef625637c0df48184e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.39.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sw3DhWAprP63xS4AilDHbrT7q8z7d747c6pTu3phUmaSWyvREy5nCBA4ZtMLc2L+A8610FFZbDvByzSOQrprYg==",
+          "shasum": "5c4a548e4fea4c82b72bebef625637c0df48184e"
+        }
+      }
+    },
+    {
+      "version": "2.40.0",
+      "variantId": "registry-package.openupm.com-a9fefe142254f7bb",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "241fcf73677f7007376b95f8cf168dbeb9d900dd",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.40.0.tgz",
+      "upstreamIntegrity": "sha512-clgA8tsbVSMkXRhhzzXEL9fD5QvDQiD7Y1APE4s68U0kRtN98QBA4GH/l//0/t8i/xh5dGefZOMj+d7T2Jef5g==",
+      "upstreamShasum": "72ede9a9803004e3c784da5eef10c567f53264dc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.40.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-clgA8tsbVSMkXRhhzzXEL9fD5QvDQiD7Y1APE4s68U0kRtN98QBA4GH/l//0/t8i/xh5dGefZOMj+d7T2Jef5g==",
+          "shasum": "72ede9a9803004e3c784da5eef10c567f53264dc"
+        }
+      }
+    },
+    {
+      "version": "2.40.1",
+      "variantId": "registry-package.openupm.com-706e381df6ea6156",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "ea510859b1e72e545f3822bfbffe870218b0be7d",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.40.1.tgz",
+      "upstreamIntegrity": "sha512-FeA83a6SkQJYyQvGlpXUwUiKQEhu5TtUNYdOk7nD2JgaA6uWbt/dCCpZApHBvbN7t5yF3evjsDows4bRW8sHTQ==",
+      "upstreamShasum": "4266fa6cfc1cd6619fa8b08ba4489b8dafa2d591",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.40.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FeA83a6SkQJYyQvGlpXUwUiKQEhu5TtUNYdOk7nD2JgaA6uWbt/dCCpZApHBvbN7t5yF3evjsDows4bRW8sHTQ==",
+          "shasum": "4266fa6cfc1cd6619fa8b08ba4489b8dafa2d591"
+        }
+      }
+    },
+    {
+      "version": "2.40.2",
+      "variantId": "registry-package.openupm.com-15697476e187f688",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "688c4aa12a7945dce8373408f0cd3c1566dbae41",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.40.2.tgz",
+      "upstreamIntegrity": "sha512-GF3cEufyKH5pqCMRrdGDZrFOBGDzq8EnetEN+gIC9/kQjHrUrxZbqWi0YKc4+1flDdZwNjuusnhfELw+QSVrtA==",
+      "upstreamShasum": "e04693c5c73ba315d5006d4f129d80a3da16dd7e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.40.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GF3cEufyKH5pqCMRrdGDZrFOBGDzq8EnetEN+gIC9/kQjHrUrxZbqWi0YKc4+1flDdZwNjuusnhfELw+QSVrtA==",
+          "shasum": "e04693c5c73ba315d5006d4f129d80a3da16dd7e"
+        }
+      }
+    },
+    {
+      "version": "2.40.3",
+      "variantId": "registry-package.openupm.com-600c43415d2c2139",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "335dc9446d45c65352dcd8fd571af067366d1dca",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.40.3.tgz",
+      "upstreamIntegrity": "sha512-WUGT7lSQvhwHIeDOOtnRqCrJNwjj6GOMltAAaf9EJP8SlXu1hTTszz4k8VyUYtEtst58cUkSSOe6F1g+A24DQw==",
+      "upstreamShasum": "5e07bfbdfef696a6417119ea89e7f3340fe02011",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.40.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WUGT7lSQvhwHIeDOOtnRqCrJNwjj6GOMltAAaf9EJP8SlXu1hTTszz4k8VyUYtEtst58cUkSSOe6F1g+A24DQw==",
+          "shasum": "5e07bfbdfef696a6417119ea89e7f3340fe02011"
+        }
+      }
+    },
+    {
+      "version": "2.40.4",
+      "variantId": "registry-package.openupm.com-bdfd804552afe545",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "e89bfbc48de331a9ae4bebae038a2399ab999d46",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.40.4.tgz",
+      "upstreamIntegrity": "sha512-u/VMmiDJO1RqHVhALjykxcZU2I3BKt1tMJLvjaL1X+TbYb/jFshcElnO8+aHnnofBuMveKwsFtFHvP/VKcTegQ==",
+      "upstreamShasum": "5ff61c857a3cfdab939b7304e84c831f013cd67b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.40.4",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-u/VMmiDJO1RqHVhALjykxcZU2I3BKt1tMJLvjaL1X+TbYb/jFshcElnO8+aHnnofBuMveKwsFtFHvP/VKcTegQ==",
+          "shasum": "5ff61c857a3cfdab939b7304e84c831f013cd67b"
+        }
+      }
+    },
+    {
+      "version": "2.40.5",
+      "variantId": "registry-package.openupm.com-b729e717181621aa",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "e3be5a798434b43fcc17345424621075d590eb9e",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.40.5.tgz",
+      "upstreamIntegrity": "sha512-sTnqKKPr0/vIRmvN07iROQbKzrYbBzPyPFpJG7Q+FAZR5ZwLsETB7bQAyqTt1C77SzVVHYwfTQVEqXeBzyuQeQ==",
+      "upstreamShasum": "5271807fbd42ff509c5d0c7882efa15b846db396",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.40.5",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sTnqKKPr0/vIRmvN07iROQbKzrYbBzPyPFpJG7Q+FAZR5ZwLsETB7bQAyqTt1C77SzVVHYwfTQVEqXeBzyuQeQ==",
+          "shasum": "5271807fbd42ff509c5d0c7882efa15b846db396"
+        }
+      }
+    },
+    {
+      "version": "2.40.6",
+      "variantId": "registry-package.openupm.com-b38e33c500138c98",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "f20c07f084edad2254548078c317322316e5fba4",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.40.6.tgz",
+      "upstreamIntegrity": "sha512-GaLEcecdcxFkQ9Uqjp+sgPAtArMvQa4mjIOjRnZkIWZgCG0rbvdV9R+cMvvT0mNVEeqsP105/MgVVvtMlxbFeA==",
+      "upstreamShasum": "890e7f623b65ec24b66fe5b8e2b094a7ec308028",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.40.6",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GaLEcecdcxFkQ9Uqjp+sgPAtArMvQa4mjIOjRnZkIWZgCG0rbvdV9R+cMvvT0mNVEeqsP105/MgVVvtMlxbFeA==",
+          "shasum": "890e7f623b65ec24b66fe5b8e2b094a7ec308028"
+        }
+      }
+    },
+    {
+      "version": "2.41.0",
+      "variantId": "registry-package.openupm.com-037ed97c36ca63c3",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "8c15343a6a09e50cbf8c27aa7b481f08cc2bfe5d",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.41.0.tgz",
+      "upstreamIntegrity": "sha512-KAXme1tdJWJ6dLr1W1GzC83qDxFb3fW3rbM2qcGmklcsaYDSE9jZiGkRzIhqVNwaoQ/WuWOf5acAT5382WV7tA==",
+      "upstreamShasum": "d7de08f569c90416eeef65f34d6d658a8a29303e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.41.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KAXme1tdJWJ6dLr1W1GzC83qDxFb3fW3rbM2qcGmklcsaYDSE9jZiGkRzIhqVNwaoQ/WuWOf5acAT5382WV7tA==",
+          "shasum": "d7de08f569c90416eeef65f34d6d658a8a29303e"
+        }
+      }
+    },
+    {
+      "version": "2.41.1",
+      "variantId": "registry-package.openupm.com-20416bd3c18f2857",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "a05bb82ddf04be98df102587ca4f456a5320ec6a",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.41.1.tgz",
+      "upstreamIntegrity": "sha512-x21o9yJL+W/ibI/9OjlfAuvkCNH/H4lE7lET7vl2+/z0gfok4/Mq4OrMhKzlp6EqYN0y7MsCnkY+Ft/B+rjTsQ==",
+      "upstreamShasum": "7a5ef78b934acb99ff68754cfb9dcc573ac5f15e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.41.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-x21o9yJL+W/ibI/9OjlfAuvkCNH/H4lE7lET7vl2+/z0gfok4/Mq4OrMhKzlp6EqYN0y7MsCnkY+Ft/B+rjTsQ==",
+          "shasum": "7a5ef78b934acb99ff68754cfb9dcc573ac5f15e"
+        }
+      }
+    },
+    {
+      "version": "2.41.3",
+      "variantId": "registry-package.openupm.com-90ee887959fd4ed3",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "725707682f25c47589c0195fef664259a9109422",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.41.3.tgz",
+      "upstreamIntegrity": "sha512-yu/8LLev/fcDnEYSo7nRQGKgFGGvT29G708HNI5bmlHxJla/hVJM2wUZevma+ZeWyHmQdjswXrLK51p/c9URbw==",
+      "upstreamShasum": "32296f47af463766e7d3ed13012e6a105d42255c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.41.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yu/8LLev/fcDnEYSo7nRQGKgFGGvT29G708HNI5bmlHxJla/hVJM2wUZevma+ZeWyHmQdjswXrLK51p/c9URbw==",
+          "shasum": "32296f47af463766e7d3ed13012e6a105d42255c"
+        }
+      }
+    },
+    {
+      "version": "2.41.4",
+      "variantId": "registry-package.openupm.com-fc1513c8d0e3f800",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "951270ddded6cedfcb2bb42fea7c4ba3d42ba8fb",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.41.4.tgz",
+      "upstreamIntegrity": "sha512-VIAz1QmadPvhi56yS1yFyDpPCjnsIYcF2dDjFW35ipoqCFqATd/2Szu+p4HCtWOUNwTSITGMfgmR4K7geP8ysw==",
+      "upstreamShasum": "58f4da0b9a1b55327d0bb7d8088e26b7b8b0d543",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.41.4",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VIAz1QmadPvhi56yS1yFyDpPCjnsIYcF2dDjFW35ipoqCFqATd/2Szu+p4HCtWOUNwTSITGMfgmR4K7geP8ysw==",
+          "shasum": "58f4da0b9a1b55327d0bb7d8088e26b7b8b0d543"
+        }
+      }
+    },
+    {
+      "version": "2.41.5",
+      "variantId": "registry-package.openupm.com-662e9498a975a2a5",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "9ac065481338ee1d56a93bd639787d66225fc4db",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.41.5.tgz",
+      "upstreamIntegrity": "sha512-nB4dX9G+E+7JxUGNut1g+lr+fjkMLg3sy84c3QK0xays8F5TeWcha3rQPWUkuJCTGeY6txGjzbRsNtB3ksUsOw==",
+      "upstreamShasum": "70c065d786d9ba30dca8800eed072bd74e15e6d5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.41.5",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nB4dX9G+E+7JxUGNut1g+lr+fjkMLg3sy84c3QK0xays8F5TeWcha3rQPWUkuJCTGeY6txGjzbRsNtB3ksUsOw==",
+          "shasum": "70c065d786d9ba30dca8800eed072bd74e15e6d5"
+        }
+      }
+    },
+    {
+      "version": "2.41.6",
+      "variantId": "registry-package.openupm.com-9c1f9ddab8e8c94a",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "cb9334ca988f63320b090051fe5886fdf0bd5874",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.41.6.tgz",
+      "upstreamIntegrity": "sha512-G3nRwfPhvrHya3M1JKcACMozs2A6lxGwIHJDb32rMzM8ZaWRIwjzRBveaDJ6fEKCPZpigJy/7GlibWWZl33tiQ==",
+      "upstreamShasum": "0de63bc914c4cead958253ea4607740c8a8d8971",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.41.6",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-G3nRwfPhvrHya3M1JKcACMozs2A6lxGwIHJDb32rMzM8ZaWRIwjzRBveaDJ6fEKCPZpigJy/7GlibWWZl33tiQ==",
+          "shasum": "0de63bc914c4cead958253ea4607740c8a8d8971"
+        }
+      }
+    },
+    {
+      "version": "2.41.7",
+      "variantId": "registry-package.openupm.com-abf056703630d78a",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "61f5c68a32de748778ca898445ff9ca14befffc1",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.41.7.tgz",
+      "upstreamIntegrity": "sha512-VG/u3xv7Z7jcRvLkHeZpbq3Wl6DUuWdn23Rn1POk7fIGeySm8zJxEwzXrivcN8E8e689jdULQ6bSEuNAoPUwmQ==",
+      "upstreamShasum": "45969f98a18ea3aa68c60524a69914d47cfc7257",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.41.7",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VG/u3xv7Z7jcRvLkHeZpbq3Wl6DUuWdn23Rn1POk7fIGeySm8zJxEwzXrivcN8E8e689jdULQ6bSEuNAoPUwmQ==",
+          "shasum": "45969f98a18ea3aa68c60524a69914d47cfc7257"
+        }
+      }
+    },
+    {
+      "version": "2.41.8",
+      "variantId": "registry-package.openupm.com-8e1164a813a816b6",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "b4d4ed9fa0ca6d5df83e27539610d4c7428539d0",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.41.8.tgz",
+      "upstreamIntegrity": "sha512-Y4943TGfCapFiAeHpgHe21GIHOmEoDOusmy7iad6J7mQVw+XiHwP9h+rnO8XvwhprnflDw8wVQfBWNWapgrqkw==",
+      "upstreamShasum": "74a7dec2660b4607b54ddea9cd80c79be281a963",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.41.8",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Y4943TGfCapFiAeHpgHe21GIHOmEoDOusmy7iad6J7mQVw+XiHwP9h+rnO8XvwhprnflDw8wVQfBWNWapgrqkw==",
+          "shasum": "74a7dec2660b4607b54ddea9cd80c79be281a963"
+        }
+      }
+    },
+    {
+      "version": "2.42.0",
+      "variantId": "registry-package.openupm.com-d2fcc9449c4cf3fa",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "12f24443c39e8d1d082633596e6d9a3ece264fbb",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.42.0.tgz",
+      "upstreamIntegrity": "sha512-buXdajCDuEkA3Sx4NV/L6PGA2Jy7Wv9/uaOWRPKFO2s/k8OjtyxkBcgY+4/0v8VJiLCoKWgJxxLGHfXLSkF9Ew==",
+      "upstreamShasum": "44985516be277b552218ab203e7865de78c59747",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.42.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-buXdajCDuEkA3Sx4NV/L6PGA2Jy7Wv9/uaOWRPKFO2s/k8OjtyxkBcgY+4/0v8VJiLCoKWgJxxLGHfXLSkF9Ew==",
+          "shasum": "44985516be277b552218ab203e7865de78c59747"
+        }
+      }
+    },
+    {
+      "version": "2.42.1",
+      "variantId": "registry-package.openupm.com-d5c17e3e4ed82998",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "013a1f8ec88176b1fcb0eef9e023f407638125c0",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.42.1.tgz",
+      "upstreamIntegrity": "sha512-alPpqBfEBlkwqjknhTFYU4glZbV3mCIiCYXXWW/BF9Q76YJetefxfIPBPSLOMkoUdVEzfmQEWVJjnyzVfy6Tuw==",
+      "upstreamShasum": "9615aa75a969111cb859c3855ef8fa4a0a7cca6c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.42.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-alPpqBfEBlkwqjknhTFYU4glZbV3mCIiCYXXWW/BF9Q76YJetefxfIPBPSLOMkoUdVEzfmQEWVJjnyzVfy6Tuw==",
+          "shasum": "9615aa75a969111cb859c3855ef8fa4a0a7cca6c"
+        }
+      }
+    },
+    {
+      "version": "2.42.2",
+      "variantId": "registry-package.openupm.com-6575c6a98bd42ac4",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "64108ffafe51811f590480d65c233600d32dd037",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.42.2.tgz",
+      "upstreamIntegrity": "sha512-wP6bPvOho5al6eNfXbojoyRkNUqhQ3pDo7zi/iR7Ywsg3FnTX0hB/1Eh3RfL+c5TkzZHigBtwbgXdppnQq+d5w==",
+      "upstreamShasum": "ee04a7e4499b8483dbdeee75212378fe43bcfd89",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.42.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wP6bPvOho5al6eNfXbojoyRkNUqhQ3pDo7zi/iR7Ywsg3FnTX0hB/1Eh3RfL+c5TkzZHigBtwbgXdppnQq+d5w==",
+          "shasum": "ee04a7e4499b8483dbdeee75212378fe43bcfd89"
+        }
+      }
+    },
+    {
+      "version": "2.42.3",
+      "variantId": "registry-package.openupm.com-e039dab950e18a53",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "91ba310def092c9cdfdb16ece2f3123253e4ca54",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.42.3.tgz",
+      "upstreamIntegrity": "sha512-SWlQ+6eyFSMBmGOpgKrS/BMZuV/136iMUw+JJq4A2WH9+knWzfv+DDolwxtyeMseIhU5E5WvUD0CqIWhzJZqRQ==",
+      "upstreamShasum": "a66202b537940b158ef77597dd2e45d77fbbc1e8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.42.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SWlQ+6eyFSMBmGOpgKrS/BMZuV/136iMUw+JJq4A2WH9+knWzfv+DDolwxtyeMseIhU5E5WvUD0CqIWhzJZqRQ==",
+          "shasum": "a66202b537940b158ef77597dd2e45d77fbbc1e8"
+        }
+      }
+    },
+    {
+      "version": "2.42.4",
+      "variantId": "registry-package.openupm.com-e3129f10ee324076",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "e65c022a33e57a94e61535d36417118ca71c5bc1",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.42.4.tgz",
+      "upstreamIntegrity": "sha512-XN7IYHhnef4hg9XF8kW58sLfDyjDKV/2zG0VvgvGJPI4cIge9aNwRioirJ0MHeGLT5o4FYrNMZjQ4Q56MRCrUw==",
+      "upstreamShasum": "c087c243cce945544073b0326b1e14d9cf947414",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.42.4",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XN7IYHhnef4hg9XF8kW58sLfDyjDKV/2zG0VvgvGJPI4cIge9aNwRioirJ0MHeGLT5o4FYrNMZjQ4Q56MRCrUw==",
+          "shasum": "c087c243cce945544073b0326b1e14d9cf947414"
+        }
+      }
+    },
+    {
+      "version": "2.43.0",
+      "variantId": "registry-package.openupm.com-2e8c339a706ed219",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "0c851d3df9d54ca1589d81ed9f480c72ce78b933",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.43.0.tgz",
+      "upstreamIntegrity": "sha512-v5gDd++RoTx6lBFJakSRUPIT+3mcWu3S9LwABNi+Cl3dST18ohN73RxcS1M7jyF4Vtk99aIP9Jm6cqVNFvEeGg==",
+      "upstreamShasum": "7ec3c5f5c5975af1e6f13c671f0404b4959a8e52",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.43.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-v5gDd++RoTx6lBFJakSRUPIT+3mcWu3S9LwABNi+Cl3dST18ohN73RxcS1M7jyF4Vtk99aIP9Jm6cqVNFvEeGg==",
+          "shasum": "7ec3c5f5c5975af1e6f13c671f0404b4959a8e52"
+        }
+      }
+    },
+    {
+      "version": "2.43.1",
+      "variantId": "registry-package.openupm.com-60b9691779481123",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "655645c6d8585713dc49bf68e16bb62fa49601d9",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.43.1.tgz",
+      "upstreamIntegrity": "sha512-yGdUMwgkKHqQPe/EBQpFko5P0NKckywsvlTK/2Sxuqf47ZMnKDv2wBGxIW4fNHd0JXzjU4D0KZzchwR7r3CNwA==",
+      "upstreamShasum": "28816f6a71038a9e99b77bfe472217ececf12d49",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.43.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yGdUMwgkKHqQPe/EBQpFko5P0NKckywsvlTK/2Sxuqf47ZMnKDv2wBGxIW4fNHd0JXzjU4D0KZzchwR7r3CNwA==",
+          "shasum": "28816f6a71038a9e99b77bfe472217ececf12d49"
+        }
+      }
+    },
+    {
+      "version": "2.43.2",
+      "variantId": "registry-package.openupm.com-046934bcdd8ccb17",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "8fd4660377dfab0f389969b3b30ba5d513ba4c41",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.43.2.tgz",
+      "upstreamIntegrity": "sha512-27u6s0DGD9AkUd5VvSh9fH4ZfT0PDTurOMt0BKqRZDThv9xQQzuA8nSbNnFj+x7ii3StCN+Rb5F/MhrJ/AAE3g==",
+      "upstreamShasum": "3f4f11db5902596d7eaa8204e9be735464eaec78",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.43.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-27u6s0DGD9AkUd5VvSh9fH4ZfT0PDTurOMt0BKqRZDThv9xQQzuA8nSbNnFj+x7ii3StCN+Rb5F/MhrJ/AAE3g==",
+          "shasum": "3f4f11db5902596d7eaa8204e9be735464eaec78"
+        }
+      }
+    },
+    {
+      "version": "2.43.3",
+      "variantId": "registry-package.openupm.com-f90655c76bb54b01",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "8505c0795fc1d0b9866cc078b1a73abc3e858fdf",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.43.3.tgz",
+      "upstreamIntegrity": "sha512-sKTecEFOzEQxBWCpb9tLdFpFudqxJUKO9X2SI4Llj8Mdd3dIK5JXyTJvU2zdm4KNnYxZhaIFwZPTBjnIdoDGOw==",
+      "upstreamShasum": "d58fb1953ecc12691671a6da8cc2b265496c3987",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.43.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sKTecEFOzEQxBWCpb9tLdFpFudqxJUKO9X2SI4Llj8Mdd3dIK5JXyTJvU2zdm4KNnYxZhaIFwZPTBjnIdoDGOw==",
+          "shasum": "d58fb1953ecc12691671a6da8cc2b265496c3987"
+        }
+      }
+    },
+    {
+      "version": "2.44.0",
+      "variantId": "registry-package.openupm.com-e7e12e4866e58c90",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "b3f97d2c82dc0c79784e87ae36768f36f640d1d1",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.44.0.tgz",
+      "upstreamIntegrity": "sha512-akQQftwgA8oEbiBS0ea7Z522+Lax8+Mve0tzt0dmp3X69TJ0LN+CDr7CvZBEe0eHgbbrsCTichPNV+88mNqpjA==",
+      "upstreamShasum": "d3d7c6eff5bc0984ad96eb2ef2d39b50e5340ee6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.44.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-akQQftwgA8oEbiBS0ea7Z522+Lax8+Mve0tzt0dmp3X69TJ0LN+CDr7CvZBEe0eHgbbrsCTichPNV+88mNqpjA==",
+          "shasum": "d3d7c6eff5bc0984ad96eb2ef2d39b50e5340ee6"
+        }
+      }
+    },
+    {
+      "version": "2.44.1",
+      "variantId": "registry-package.openupm.com-2b3d2bdc297ddb68",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "5572d98c83137266c5cf9221c4305db5dcf22015",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.44.1.tgz",
+      "upstreamIntegrity": "sha512-JP8j/tMGMeZ/6ovYnrTqFTcoZFfZdvYdKxSDmIFKx3E77QUqAay7gRdbXAiqppOaczHFJ+Lnv5PZTW+/Fyh8hA==",
+      "upstreamShasum": "bf4092f10417bb16ef17deb6025eea6fcc31e05d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.44.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JP8j/tMGMeZ/6ovYnrTqFTcoZFfZdvYdKxSDmIFKx3E77QUqAay7gRdbXAiqppOaczHFJ+Lnv5PZTW+/Fyh8hA==",
+          "shasum": "bf4092f10417bb16ef17deb6025eea6fcc31e05d"
+        }
+      }
+    },
+    {
+      "version": "2.45.0",
+      "variantId": "registry-package.openupm.com-5489eb84ff088b15",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "d1160ffaba1b264b774e54283c309b83757bd4b1",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.45.0.tgz",
+      "upstreamIntegrity": "sha512-oMnQu55206qj2WV9dkKjlqo2TC868/w4HBsay5R6I1uQGx6bKdfMZlSyLnqNcnI4zJjB+wnamysdo5hYyjgfLg==",
+      "upstreamShasum": "ce8edb92bd5f627593b0d340e1ef9d43fb573cd6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.45.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oMnQu55206qj2WV9dkKjlqo2TC868/w4HBsay5R6I1uQGx6bKdfMZlSyLnqNcnI4zJjB+wnamysdo5hYyjgfLg==",
+          "shasum": "ce8edb92bd5f627593b0d340e1ef9d43fb573cd6"
+        }
+      }
+    },
+    {
+      "version": "2.45.1",
+      "variantId": "registry-package.openupm.com-1b3ef2af0fd8a754",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "c283c9d0ec31fd0b6d618484e4acb5105dfa3420",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.45.1.tgz",
+      "upstreamIntegrity": "sha512-XAgzBW8zmg9yX0aywpvE7k5EIuVALDm9GNZgD2vBmcVpOS71K/sxVTJ7A/tmXazOC+PurKkFmRiR1ooFlgDR2A==",
+      "upstreamShasum": "70e8854f77007665cabc2a6d41f6fbf75294bec3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.45.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XAgzBW8zmg9yX0aywpvE7k5EIuVALDm9GNZgD2vBmcVpOS71K/sxVTJ7A/tmXazOC+PurKkFmRiR1ooFlgDR2A==",
+          "shasum": "70e8854f77007665cabc2a6d41f6fbf75294bec3"
+        }
+      }
+    },
+    {
+      "version": "2.45.2",
+      "variantId": "registry-package.openupm.com-c0602020f878ec07",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "78c1915aef95600f64ba4a1db50b2113431c6519",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.45.2.tgz",
+      "upstreamIntegrity": "sha512-JImiIACc3IG2OmHMyWmQ/+d3ZnikYetzallGpcDJ2hgqrTqo2ZgN/LNA9+s5etoLLnVvnmMcBxPo16Bx0S1WqQ==",
+      "upstreamShasum": "db3b41078cf869a9ea148163d081df34b5d6db1b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.45.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JImiIACc3IG2OmHMyWmQ/+d3ZnikYetzallGpcDJ2hgqrTqo2ZgN/LNA9+s5etoLLnVvnmMcBxPo16Bx0S1WqQ==",
+          "shasum": "db3b41078cf869a9ea148163d081df34b5d6db1b"
+        }
+      }
+    },
+    {
+      "version": "2.45.3",
+      "variantId": "registry-package.openupm.com-3b2e9bbbfdd694d7",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "39fdb77b5a4b405bf213a081cf0d6d0f39cdd669",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.45.3.tgz",
+      "upstreamIntegrity": "sha512-M9s3DV1EPkTzLPAQpqluxoHDHF9b6PHtTv+Esa2gprvtBo/5EKMf5NUs2qTE94p+6BnjaOHKvZ2FGrS2wrTZFQ==",
+      "upstreamShasum": "92ffee1823c2bdee3841872697147faa9353e205",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.45.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-M9s3DV1EPkTzLPAQpqluxoHDHF9b6PHtTv+Esa2gprvtBo/5EKMf5NUs2qTE94p+6BnjaOHKvZ2FGrS2wrTZFQ==",
+          "shasum": "92ffee1823c2bdee3841872697147faa9353e205"
+        }
+      }
+    },
+    {
+      "version": "2.45.4",
+      "variantId": "registry-package.openupm.com-b0f231894270e815",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "a915a513dbdabbe18e33d395545b1362f41fa233",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.45.4.tgz",
+      "upstreamIntegrity": "sha512-+IV2o/G9cFgYux4RHk/Rdy5KaaTXFm1NTfnk2pNdIbRcdNQnRMKpIrUi5g6xZN7imp+kkk641IbcuaSMoZzKkg==",
+      "upstreamShasum": "1c6e243102cda28f27d6a2eecf692474110b809d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.45.4",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+IV2o/G9cFgYux4RHk/Rdy5KaaTXFm1NTfnk2pNdIbRcdNQnRMKpIrUi5g6xZN7imp+kkk641IbcuaSMoZzKkg==",
+          "shasum": "1c6e243102cda28f27d6a2eecf692474110b809d"
+        }
+      }
+    },
+    {
+      "version": "2.45.5",
+      "variantId": "registry-package.openupm.com-3f962e6d43351e1b",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "8f453bae9cbc1ed9a33d16eb1470de0b010f5af0",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.45.5.tgz",
+      "upstreamIntegrity": "sha512-cGwZqGaXmV6MXZCw6LrM+r0/orzsBpTo7xxUSPMj0nrlRqd5uC411/F+pJgn28rycMaOqZdyhnKPtieI73mJeQ==",
+      "upstreamShasum": "2e9f7ef3a5c8388bae75123b71a46839b1f683ed",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.45.5",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cGwZqGaXmV6MXZCw6LrM+r0/orzsBpTo7xxUSPMj0nrlRqd5uC411/F+pJgn28rycMaOqZdyhnKPtieI73mJeQ==",
+          "shasum": "2e9f7ef3a5c8388bae75123b71a46839b1f683ed"
+        }
+      }
+    },
+    {
+      "version": "2.46.0",
+      "variantId": "registry-package.openupm.com-8a2a8052b1b53f3a",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "6a2f75a8b96182d6bfee4d6d664e00f1f2ef5a0d",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-2.46.0.tgz",
+      "upstreamIntegrity": "sha512-sj4D082pkrwlhANPr4t4MrnSCT6xZLNaeXFQVyZ1SUTP9c2qd4TTAgcZyKLSsrinSMN4Vtzenjd0USjGCK6mEg==",
+      "upstreamShasum": "c767aca468b72b38d45449b8ef071e40d9684980",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/2.46.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sj4D082pkrwlhANPr4t4MrnSCT6xZLNaeXFQVyZ1SUTP9c2qd4TTAgcZyKLSsrinSMN4Vtzenjd0USjGCK6mEg==",
+          "shasum": "c767aca468b72b38d45449b8ef071e40d9684980"
+        }
+      }
+    },
+    {
+      "version": "3.0.0",
+      "variantId": "registry-package.openupm.com-c23ebedaf19bca5e",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "7d3c2dcdbe8a7734dc5d1e6cb6d5843803aada97",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-3.0.0.tgz",
+      "upstreamIntegrity": "sha512-nwB50cL6Wkxa1b3Ug6tEFh3DodTLF3v6KSTIcy0B5MJgqAxW8ZrJ9XxQChPLfHUq1cB1JTNmf2CnS7Oo6PAlag==",
+      "upstreamShasum": "21be6a762ea799bcca5d40826aad024fc3d1548e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/3.0.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nwB50cL6Wkxa1b3Ug6tEFh3DodTLF3v6KSTIcy0B5MJgqAxW8ZrJ9XxQChPLfHUq1cB1JTNmf2CnS7Oo6PAlag==",
+          "shasum": "21be6a762ea799bcca5d40826aad024fc3d1548e"
+        }
+      }
+    },
+    {
+      "version": "3.1.0",
+      "variantId": "registry-package.openupm.com-9b9b62818c9fa86c",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "87b5ca3f9ddd7e90ed07fbaa1710c13cebd1b9d2",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-3.1.0.tgz",
+      "upstreamIntegrity": "sha512-9CewOqijwsbPM77u3Vsf24HUSxGsB6Up9ejYgIIAU0u2Lo4/CPlKwbupor6dCnZ7ZAP6pu8kqSX/l3S7hDAz4w==",
+      "upstreamShasum": "405828cf0e9049438d76bc3967024cca1314ab6b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/3.1.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9CewOqijwsbPM77u3Vsf24HUSxGsB6Up9ejYgIIAU0u2Lo4/CPlKwbupor6dCnZ7ZAP6pu8kqSX/l3S7hDAz4w==",
+          "shasum": "405828cf0e9049438d76bc3967024cca1314ab6b"
+        }
+      }
+    },
+    {
+      "version": "3.2.0",
+      "variantId": "registry-package.openupm.com-86aa69a946fcd7e3",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "3360555840f865e42d8552bfa0f619e7c30d0cb1",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-3.2.0.tgz",
+      "upstreamIntegrity": "sha512-o3AeAYq1+33AdsDupRVJsgJcKELpeHqaC7xlg61p7Ybhmq4a6A1HP3zD+xvualnNDXRSh0Ga6Zzsfzphe3cCZg==",
+      "upstreamShasum": "9f810378902b0ccdbba455746f27d1ebc297c174",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/3.2.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-o3AeAYq1+33AdsDupRVJsgJcKELpeHqaC7xlg61p7Ybhmq4a6A1HP3zD+xvualnNDXRSh0Ga6Zzsfzphe3cCZg==",
+          "shasum": "9f810378902b0ccdbba455746f27d1ebc297c174"
+        }
+      }
+    },
+    {
+      "version": "3.2.1",
+      "variantId": "registry-package.openupm.com-18a225bd3f7e453d",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "6ebe238240650e30890adb7aba8c5fe1373885e7",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-3.2.1.tgz",
+      "upstreamIntegrity": "sha512-5l2bNjcxFIkVGXJcbP+h4RAWoSBNwnKqMRRmMQPTf9bNER3o7HRwv0ZH6T1cdZYenrA2I2sSyIc5Ih1uUb0JZA==",
+      "upstreamShasum": "774236b23727df7684cc2c764ddb1c7766c9782f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/3.2.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5l2bNjcxFIkVGXJcbP+h4RAWoSBNwnKqMRRmMQPTf9bNER3o7HRwv0ZH6T1cdZYenrA2I2sSyIc5Ih1uUb0JZA==",
+          "shasum": "774236b23727df7684cc2c764ddb1c7766c9782f"
+        }
+      }
+    },
+    {
+      "version": "4.0.0",
+      "variantId": "registry-package.openupm.com-795c71b79638643e",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "3ee904d1c28c997ae600dcad50d2066f065d5581",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-4.0.0.tgz",
+      "upstreamIntegrity": "sha512-RRCU0SBOS1YCnV9F/EKcViGjeNL6yXoJ1pOLmN8BGjPW2b5C/S3qDu4EkqnfsQi4dEZ4yQE+nuY1qm+RfpzmPw==",
+      "upstreamShasum": "751bcbeeac500648577bdf488da9466014beb6a9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/4.0.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RRCU0SBOS1YCnV9F/EKcViGjeNL6yXoJ1pOLmN8BGjPW2b5C/S3qDu4EkqnfsQi4dEZ4yQE+nuY1qm+RfpzmPw==",
+          "shasum": "751bcbeeac500648577bdf488da9466014beb6a9"
+        }
+      }
+    },
+    {
+      "version": "4.1.0",
+      "variantId": "registry-package.openupm.com-766bf456b4a4c0ef",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "01e553d53b305f78033822681adffc9d150cf49f",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-4.1.0.tgz",
+      "upstreamIntegrity": "sha512-+yIa1S6jLrGL7ZAf37azYizeJEIiNxzWsqjdl6LgZhSPSE4KCDSMvGi3wiW6abRb5HMEWDJ9KRaq75dZnlDP9A==",
+      "upstreamShasum": "163c1f566a9f176fed5d5be21387f0c0a1f5d431",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/4.1.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+yIa1S6jLrGL7ZAf37azYizeJEIiNxzWsqjdl6LgZhSPSE4KCDSMvGi3wiW6abRb5HMEWDJ9KRaq75dZnlDP9A==",
+          "shasum": "163c1f566a9f176fed5d5be21387f0c0a1f5d431"
+        }
+      }
+    },
+    {
+      "version": "4.1.1",
+      "variantId": "registry-package.openupm.com-ed9874007ddbe852",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "73f35b045dd8c4773ea865e25c425f8120fe2c68",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-4.1.1.tgz",
+      "upstreamIntegrity": "sha512-u9TWm8TGhA74k6zDCjiAsUUgGZJXK2aeCilvI0jFcvoFC3rikG5BiOigQg4j3XAciY8usSfCLOfgCPoHZ3EzoQ==",
+      "upstreamShasum": "b6fde805ecc85b9761deb8c4bca24aa4ae235133",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/4.1.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-u9TWm8TGhA74k6zDCjiAsUUgGZJXK2aeCilvI0jFcvoFC3rikG5BiOigQg4j3XAciY8usSfCLOfgCPoHZ3EzoQ==",
+          "shasum": "b6fde805ecc85b9761deb8c4bca24aa4ae235133"
+        }
+      }
+    },
+    {
+      "version": "4.1.2",
+      "variantId": "registry-package.openupm.com-e19d7995cb85f35e",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "970efb695c7d6e2bded80679cd3b6b57a6224088",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-4.1.2.tgz",
+      "upstreamIntegrity": "sha512-WdGY+y2WZ/zjoB76YNt+k3518T0eckz48qWpUt4HiiFxOw+yA/S2L5K87GV1bxZPIZj7fC7RPGOJ1cpQje3MRg==",
+      "upstreamShasum": "f253a1f33efc996086bb2b9f0f44c93788599428",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/4.1.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WdGY+y2WZ/zjoB76YNt+k3518T0eckz48qWpUt4HiiFxOw+yA/S2L5K87GV1bxZPIZj7fC7RPGOJ1cpQje3MRg==",
+          "shasum": "f253a1f33efc996086bb2b9f0f44c93788599428"
+        }
+      }
+    },
+    {
+      "version": "4.1.3",
+      "variantId": "registry-package.openupm.com-11ae0a6c787a3116",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "ebe3d619174834be78face2232811ae9e43660e9",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-4.1.3.tgz",
+      "upstreamIntegrity": "sha512-9EKd/NGKHW/fHWFh8x0l3GHEzbyhRTnyLGZJllJC/QafDcIB0UDOl2pEfkJTQxub+z81zArb9aOxQrNsn9PtAA==",
+      "upstreamShasum": "3a234f353453055ba8b8b314d629ca3be3877018",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/4.1.3",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9EKd/NGKHW/fHWFh8x0l3GHEzbyhRTnyLGZJllJC/QafDcIB0UDOl2pEfkJTQxub+z81zArb9aOxQrNsn9PtAA==",
+          "shasum": "3a234f353453055ba8b8b314d629ca3be3877018"
+        }
+      }
+    },
+    {
+      "version": "4.1.4",
+      "variantId": "registry-package.openupm.com-2f13186136e019cc",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "3618beabafdeb8602b630fd96d2973aae520dae7",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-4.1.4.tgz",
+      "upstreamIntegrity": "sha512-5cHl2hzmEO+S8xCvayZIv5hjuxKP5MOl3VPa5jF6ZAfmK8f3GPN/vJqdgSdRstQRUt2JeNM8IJZu0oq0Xih7Pw==",
+      "upstreamShasum": "de3739f44b432ee80047e3064f7e64f27397f148",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/4.1.4",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5cHl2hzmEO+S8xCvayZIv5hjuxKP5MOl3VPa5jF6ZAfmK8f3GPN/vJqdgSdRstQRUt2JeNM8IJZu0oq0Xih7Pw==",
+          "shasum": "de3739f44b432ee80047e3064f7e64f27397f148"
+        }
+      }
+    },
+    {
+      "version": "4.1.5",
+      "variantId": "registry-package.openupm.com-c93221c2e10954dc",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "ca8478b41e8218c9adec8e95dec7e6aec9afaf3f",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-4.1.5.tgz",
+      "upstreamIntegrity": "sha512-YLbkuGx9AwBkSWzliyRCcY+Qss8JupUvySYPx75FCy4V/OBoRYlWQWBXXRdKViaSk8f4czMhZT9l1QykinRhHw==",
+      "upstreamShasum": "a891bbaba04f3257c828274e5aa1c94128af021c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/4.1.5",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YLbkuGx9AwBkSWzliyRCcY+Qss8JupUvySYPx75FCy4V/OBoRYlWQWBXXRdKViaSk8f4czMhZT9l1QykinRhHw==",
+          "shasum": "a891bbaba04f3257c828274e5aa1c94128af021c"
+        }
+      }
+    },
+    {
+      "version": "4.2.0",
+      "variantId": "registry-package.openupm.com-4b688155e4e39480",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "f0dc2fd63a057e4a1b1cb6979ace93c230f7f70a",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-4.2.0.tgz",
+      "upstreamIntegrity": "sha512-QCUaMSCoq0p92Lch0oWy9HC0QHxoW2REYhc7kB+DuNf73itzgmKlnOxTL9pRp6ACVW0J/nH61xWyhulR9AV+Zg==",
+      "upstreamShasum": "f5123e284495a3f96e31b668bb4a90b587cde8be",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/4.2.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QCUaMSCoq0p92Lch0oWy9HC0QHxoW2REYhc7kB+DuNf73itzgmKlnOxTL9pRp6ACVW0J/nH61xWyhulR9AV+Zg==",
+          "shasum": "f5123e284495a3f96e31b668bb4a90b587cde8be"
+        }
+      }
+    },
+    {
+      "version": "4.2.1",
+      "variantId": "registry-package.openupm.com-bc7268c630dbe8cd",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "3857e9f3e882811f8dec1bcc50f47ab3c5885b91",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-4.2.1.tgz",
+      "upstreamIntegrity": "sha512-Q/3xsVJOiBpB0vf6PcO+UztMSN6qUqH+tIpbzlOYn39mchhWquNxhbNYpjasYnPiZfdDUVyC2p+fLlJmRbGRbQ==",
+      "upstreamShasum": "eb13ee5b1efe9465148b92d041404ffab0e32855",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/4.2.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Q/3xsVJOiBpB0vf6PcO+UztMSN6qUqH+tIpbzlOYn39mchhWquNxhbNYpjasYnPiZfdDUVyC2p+fLlJmRbGRbQ==",
+          "shasum": "eb13ee5b1efe9465148b92d041404ffab0e32855"
+        }
+      }
+    },
+    {
+      "version": "5.0.0",
+      "variantId": "registry-package.openupm.com-f2f836635c6a6e8f",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "b22981383fd0781ad0937eb540454e35e4b79837",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-5.0.0.tgz",
+      "upstreamIntegrity": "sha512-j7VDvCTB6toO5Go1IGRq2kpsw2jP3f4JbOOgHjkzG4oLqhLXYuQVlK8+NvOnrTRvk51FOM5CJWRn4eeuTNNltg==",
+      "upstreamShasum": "0522ca46f3f523128bfae3b7adcd4d93031f2028",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/5.0.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-j7VDvCTB6toO5Go1IGRq2kpsw2jP3f4JbOOgHjkzG4oLqhLXYuQVlK8+NvOnrTRvk51FOM5CJWRn4eeuTNNltg==",
+          "shasum": "0522ca46f3f523128bfae3b7adcd4d93031f2028"
+        }
+      }
+    },
+    {
+      "version": "5.1.0",
+      "variantId": "registry-package.openupm.com-b60205672244cd57",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "cdfcd328fe60eac8a6cea6bc4847227ca2d423cb",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-5.1.0.tgz",
+      "upstreamIntegrity": "sha512-aaTUorLNrvXtm4AgB6G+BvIUoXkRmjc47VyKG5GL8SyBmU8ece+pqrzsGMmY8zmXlVuF1kT7rua/+1Bl5Jk0nA==",
+      "upstreamShasum": "21d06b432b1ef04bc13367fea977b0b7213cf123",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/5.1.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-aaTUorLNrvXtm4AgB6G+BvIUoXkRmjc47VyKG5GL8SyBmU8ece+pqrzsGMmY8zmXlVuF1kT7rua/+1Bl5Jk0nA==",
+          "shasum": "21d06b432b1ef04bc13367fea977b0b7213cf123"
+        }
+      }
+    },
+    {
+      "version": "5.2.0",
+      "variantId": "registry-package.openupm.com-afefa3f8bae1e146",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "4254dda94c90f4a5b326f8eba1f2b99013474e16",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-5.2.0.tgz",
+      "upstreamIntegrity": "sha512-CrYxBT+viAkwvnzhIzm7Mtuq5iETqviKWDuK0sR7hWikXF+YZKwBWUDAb2k/0aFUojiS8gmVVZ0lETBU5LctAA==",
+      "upstreamShasum": "d2ff072b424d49b34fbb0361b4f7cc1e8d4b2a4c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/5.2.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CrYxBT+viAkwvnzhIzm7Mtuq5iETqviKWDuK0sR7hWikXF+YZKwBWUDAb2k/0aFUojiS8gmVVZ0lETBU5LctAA==",
+          "shasum": "d2ff072b424d49b34fbb0361b4f7cc1e8d4b2a4c"
+        }
+      }
+    },
+    {
+      "version": "5.2.1",
+      "variantId": "registry-package.openupm.com-ac37fe3c4919d574",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "bc30ad2036f54a5a7e147be899dedfe23c9e7685",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-5.2.1.tgz",
+      "upstreamIntegrity": "sha512-Ry5KyDSjI8iE/v6fLHm1K0+hWAH49KTHpkw3lbvOJHqwerBFHTQnIrHS0o3rd/27iqfuJQG9TkWjjc+/lWTkMg==",
+      "upstreamShasum": "de0755c312572f32e19cfafd08d7f93f21675ab3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/5.2.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ry5KyDSjI8iE/v6fLHm1K0+hWAH49KTHpkw3lbvOJHqwerBFHTQnIrHS0o3rd/27iqfuJQG9TkWjjc+/lWTkMg==",
+          "shasum": "de0755c312572f32e19cfafd08d7f93f21675ab3"
+        }
+      }
+    },
+    {
+      "version": "5.3.0",
+      "variantId": "registry-package.openupm.com-0240c83e2c7d7593",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "c2c85365358581830278ed4d9e90f19821789860",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-5.3.0.tgz",
+      "upstreamIntegrity": "sha512-FBiVusmBvp5jAeBNoexqSKGIJoF3RvmbtLRDYEKYVus2Em8yjrAoykPehLrzewQxSJ2sC4t5EVGWDUpOmqzN7w==",
+      "upstreamShasum": "ef2da176d4a27ecb962792731fc8b316f7258c63",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/5.3.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FBiVusmBvp5jAeBNoexqSKGIJoF3RvmbtLRDYEKYVus2Em8yjrAoykPehLrzewQxSJ2sC4t5EVGWDUpOmqzN7w==",
+          "shasum": "ef2da176d4a27ecb962792731fc8b316f7258c63"
+        }
+      }
+    },
+    {
+      "version": "5.3.1",
+      "variantId": "registry-package.openupm.com-6a96b2bccf6abe0e",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "d9f4828f71d7a261e75976b52a292206107fe7c1",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-5.3.1.tgz",
+      "upstreamIntegrity": "sha512-no0quYz6+bAgNfMb5K2cG457NFstOStHQVX1K1HaLZS+YPhwUz1bzKUuHKHjV3xrhEuuVHHGNMtxhLXxPR+/mA==",
+      "upstreamShasum": "e1af4d713be48f2e0928ad5e21963e3912d83884",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/5.3.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-no0quYz6+bAgNfMb5K2cG457NFstOStHQVX1K1HaLZS+YPhwUz1bzKUuHKHjV3xrhEuuVHHGNMtxhLXxPR+/mA==",
+          "shasum": "e1af4d713be48f2e0928ad5e21963e3912d83884"
+        }
+      }
+    },
+    {
+      "version": "5.3.2",
+      "variantId": "registry-package.openupm.com-acf034b5856a7048",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "231cb64e4d37be797379c7c9f01c7dd564952ab9",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-5.3.2.tgz",
+      "upstreamIntegrity": "sha512-q2rpSEhUZjzpxoyKTtCjE4Td492kvkFy0TBSTg7R1JeaMWXkv2sI3lRRi5OWi2ezHSYyh5l04Qhsgb3F1pWA4w==",
+      "upstreamShasum": "b2ec7805813ad8055116d7f1f1b5564c52966c0c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/5.3.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-q2rpSEhUZjzpxoyKTtCjE4Td492kvkFy0TBSTg7R1JeaMWXkv2sI3lRRi5OWi2ezHSYyh5l04Qhsgb3F1pWA4w==",
+          "shasum": "b2ec7805813ad8055116d7f1f1b5564c52966c0c"
+        }
+      }
+    },
+    {
+      "version": "5.4.0",
+      "variantId": "registry-package.openupm.com-0cc0d7cd995ed343",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "b82a3f2288ad06a6784a9367bc4d92d3e4f643ed",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-5.4.0.tgz",
+      "upstreamIntegrity": "sha512-b0EJTTVwVqf0Rbnf5/bSjda8LWayd2JPxt5dppz2FK+qnEHagaK8id4Ziph/KHT38WwsRMCwyeKV6tVxNX/UcA==",
+      "upstreamShasum": "ebcc2755b7ff8c708c5fbaa11c565429a9e0fbbc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/5.4.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-b0EJTTVwVqf0Rbnf5/bSjda8LWayd2JPxt5dppz2FK+qnEHagaK8id4Ziph/KHT38WwsRMCwyeKV6tVxNX/UcA==",
+          "shasum": "ebcc2755b7ff8c708c5fbaa11c565429a9e0fbbc"
+        }
+      }
+    },
+    {
+      "version": "5.5.0",
+      "variantId": "registry-package.openupm.com-a20a9653be9207eb",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "266036efd97c430f1dff8ff2d2736b8f678cb9aa",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-5.5.0.tgz",
+      "upstreamIntegrity": "sha512-5z/+CC8VbqTH2rkQVlPZ+1aQd94JG4u8u+wD73MgyDFsWrPgvEjT+TxUYTSgPyU/rmyjPxe/t6zRiFefAzQLnw==",
+      "upstreamShasum": "ced73d22a3be3d789c626c80c131fa497637e77c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/5.5.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5z/+CC8VbqTH2rkQVlPZ+1aQd94JG4u8u+wD73MgyDFsWrPgvEjT+TxUYTSgPyU/rmyjPxe/t6zRiFefAzQLnw==",
+          "shasum": "ced73d22a3be3d789c626c80c131fa497637e77c"
+        }
+      }
+    },
+    {
+      "version": "5.5.1",
+      "variantId": "registry-package.openupm.com-40f246c2da9fab02",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "5550f509601a2e56063cccffde2af4eb7fd45d7a",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-5.5.1.tgz",
+      "upstreamIntegrity": "sha512-DGJq/vkcyG2pkQlAHqSxQkpYbUCJDLqV1ouoLORAngT9M5dLsFuRzPl1RLgK93Hez9gXQKY43sYcRZBFgc85aA==",
+      "upstreamShasum": "5f2109471e9fb29319e4fb9d04f6d846e14a6b05",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/5.5.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-DGJq/vkcyG2pkQlAHqSxQkpYbUCJDLqV1ouoLORAngT9M5dLsFuRzPl1RLgK93Hez9gXQKY43sYcRZBFgc85aA==",
+          "shasum": "5f2109471e9fb29319e4fb9d04f6d846e14a6b05"
+        }
+      }
+    },
+    {
+      "version": "5.5.2",
+      "variantId": "registry-package.openupm.com-0a560aaf02cc3bcd",
+      "sourceUrl": "https://github.com/akiojin/unity-mcp-server.git",
+      "sourceRef": "140e9449b41ff2bfeb245731add6dfaac60c4e31",
+      "downloadUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/-/com.akiojin.unity-mcp-server-5.5.2.tgz",
+      "upstreamIntegrity": "sha512-tJvx0r2T+48sqXzqtT6QXxmt3rr5GGf0+6ovIZTHlxCaqQ6gftMg1vwN+u71ysycJdUkghtaRcxnaeiu79z/nQ==",
+      "upstreamShasum": "080b2ac7905fcba946c722c2e1dda59c575808ed",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.addressables": "1.22.3",
+        "com.unity.inputsystem": "1.14.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.recorder": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.akiojin.unity-mcp-server/5.5.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tJvx0r2T+48sqXzqtT6QXxmt3rr5GGf0+6ovIZTHlxCaqQ6gftMg1vwN+u71ysycJdUkghtaRcxnaeiu79z/nQ==",
+          "shasum": "080b2ac7905fcba946c722c2e1dda59c575808ed"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "5.5.2"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.akiojin.unity-mcp-server.yml",
+  "definitionBlobSha": "79938c7e08ccbd42c467a35c30712586bedea3ef",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "5.5.2",
+    "5.5.1",
+    "4.2.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 95,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

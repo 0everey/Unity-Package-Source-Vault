@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "1.0",
+  "id": "org.nuget.nacl.net",
+  "displayName": "org.nuget.nacl.net",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/org.nuget.nacl.net",
+      "fetchedAt": "2026-10-17T17:45:41.157975Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.1.12",
+      "variantId": "registry-package.openupm.com-0be83bf67e7bd21f",
+      "sourceUrl": "https://github.com/somdoron/NaCl.net.git",
+      "sourceRef": "",
+      "downloadUrl": "https://package.openupm.com/org.nuget.nacl.net/-/org.nuget.nacl.net-0.1.12.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "5a731d4cc3ef5c58505e1d7c4819d4a28c343611",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.memory": "4.5.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.nacl.net/0.1.12",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "5a731d4cc3ef5c58505e1d7c4819d4a28c343611"
+        }
+      }
+    },
+    {
+      "version": "0.1.13",
+      "variantId": "registry-package.openupm.com-dd3564d8cf2d0baa",
+      "sourceUrl": "https://github.com/somdoron/NaCl.net.git",
+      "sourceRef": "",
+      "downloadUrl": "https://package.openupm.com/org.nuget.nacl.net/-/org.nuget.nacl.net-0.1.13.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8315358668073e7af0a19bbba97a6c82b82f91cd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.nuget.system.memory": "4.5.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.nuget.nacl.net/0.1.13",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "shasum": "8315358668073e7af0a19bbba97a6c82b82f91cd"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.1.13"
+  },
+  "targetVersions": [
+    "0.1.13"
+  ],
+  "selectedVersions": [
+    "0.1.13",
+    "0.1.12"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 2,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

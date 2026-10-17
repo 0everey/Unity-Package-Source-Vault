@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.quabug.parallel-counting-sort.cpu",
+  "displayName": "com.quabug.parallel-counting-sort.cpu",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.quabug.parallel-counting-sort.cpu",
+      "fetchedAt": "2026-10-17T17:41:14.268403Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-4e5afb29565f3f1e",
+      "sourceUrl": "https://package.openupm.com/com.quabug.parallel-counting-sort.cpu",
+      "sourceRef": "32f52b6928611d72bf45d8b7f3295e0259c1741b",
+      "downloadUrl": "https://package.openupm.com/com.quabug.parallel-counting-sort.cpu/-/com.quabug.parallel-counting-sort.cpu-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-10m53a83S+QTUxSxXMCgLBY+Yxt3iCYmhS0WUaeTdHYvkx31WbU+xtae8VMncIlf9aGmtf62EZE+1IJoiigD2w==",
+      "upstreamShasum": "9204c56c0768bb71be150712dfce8224bcb15854",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.quabug.parallel-prefix-sum.cpu": "1.0.2",
+        "com.unity.burst": "1.8.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.quabug.parallel-counting-sort.cpu/1.0.0",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-10m53a83S+QTUxSxXMCgLBY+Yxt3iCYmhS0WUaeTdHYvkx31WbU+xtae8VMncIlf9aGmtf62EZE+1IJoiigD2w==",
+          "shasum": "9204c56c0768bb71be150712dfce8224bcb15854"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.quabug.parallel-counting-sort.cpu.yml",
+  "definitionBlobSha": "ea26efb5ee342f45998bcdc2fc49233e51ebb3f7",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

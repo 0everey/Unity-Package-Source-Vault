@@ -1,0 +1,2277 @@
+{
+  "schemaVersion": "1.0",
+  "id": "org.pcsoft.extension",
+  "displayName": "org.pcsoft.extension",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "fetchedAt": "2026-10-17T17:44:55.702632Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-25c9a898851f91d1",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "b8e286e0fd9473ab18b126fe211c733c64277bac",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-z8iJ31dBGN3pcN8ipMPHVHMGe7dRJ00bl4SkybmtzJCcqi5VEOu3C593joN85fL55xPg6NHSFgduP1YMIh2hoA==",
+      "upstreamShasum": "7d537ac9f09f633965c705bbdf2ed9f869123901",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.0.1",
+        "org.pcsoft.editor-ex": "1.0.1",
+        "com.unity.inputsystem": "1.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.0.1",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-z8iJ31dBGN3pcN8ipMPHVHMGe7dRJ00bl4SkybmtzJCcqi5VEOu3C593joN85fL55xPg6NHSFgduP1YMIh2hoA==",
+          "shasum": "7d537ac9f09f633965c705bbdf2ed9f869123901"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-bc84469588d3c9fa",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "2889e5d6aa1a72a4f3db1a83b76c5be1c0e483d4",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-IHJ+/70kRt8dtHiLJ1URY9RHA/1HW+S/WK/uq6ciIVtCNLaHguZ9M4TXO0NJIFaAteTu+j7KL29NS3xxgFcUqQ==",
+      "upstreamShasum": "41598d3b49d4e42f483d56f45dc6a927e036b713",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.0.1",
+        "org.pcsoft.editor-ex": "1.0.1",
+        "com.unity.inputsystem": "1.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.1.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IHJ+/70kRt8dtHiLJ1URY9RHA/1HW+S/WK/uq6ciIVtCNLaHguZ9M4TXO0NJIFaAteTu+j7KL29NS3xxgFcUqQ==",
+          "shasum": "41598d3b49d4e42f483d56f45dc6a927e036b713"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-e884d3b4f7592757",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "0fb17295f133b7272f3e62c79865baf139eb9667",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-OT36cOgejpj6t9mb/AZnkpQaprX3167NeDUKeSu8eVDSEywbSsZz0bfcuCZ12AKT9PrZ0vRc9Qv1Xes4gESfOQ==",
+      "upstreamShasum": "b17db63986a621c9e1fe34be43ef63af2ab0b4c6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.1.0",
+        "org.pcsoft.editor-ex": "1.1.0",
+        "com.unity.inputsystem": "1.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.2.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OT36cOgejpj6t9mb/AZnkpQaprX3167NeDUKeSu8eVDSEywbSsZz0bfcuCZ12AKT9PrZ0vRc9Qv1Xes4gESfOQ==",
+          "shasum": "b17db63986a621c9e1fe34be43ef63af2ab0b4c6"
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "variantId": "registry-package.openupm.com-c7d2e1646552391d",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "f214acaae14410a43be46e4e78822be5f6552717",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.3.0.tgz",
+      "upstreamIntegrity": "sha512-p8a+A8AW5HU/R9m9QSuzqACbpZ4zMWMEOqKkhkiJQaXKsiX3NcZo1lFhWvXHQHZuUNPQZeGXTILvrICefIQ0HQ==",
+      "upstreamShasum": "95e203c65db9cd7c7b1a3af3cd257e7da7cf7377",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.editor-ex": "1.1.0",
+        "com.unity.inputsystem": "1.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.3.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-p8a+A8AW5HU/R9m9QSuzqACbpZ4zMWMEOqKkhkiJQaXKsiX3NcZo1lFhWvXHQHZuUNPQZeGXTILvrICefIQ0HQ==",
+          "shasum": "95e203c65db9cd7c7b1a3af3cd257e7da7cf7377"
+        }
+      }
+    },
+    {
+      "version": "1.4.0",
+      "variantId": "registry-package.openupm.com-70e0e6391e6b2fd7",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "e86335f4373f9a7e9a3215addf2abaa0bb26d7e8",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.4.0.tgz",
+      "upstreamIntegrity": "sha512-kQMpTW4JQt0GEKb6MlScOLAqcFDTPUHQK9LpKW70v59+P3VunWRkDsc05H9HiuDTQUZVBOaqlzIq2cnjPcu7BQ==",
+      "upstreamShasum": "80fb603021dd1d344844404feb4d80053f83a1db",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.editor-ex": "1.1.0",
+        "com.unity.inputsystem": "1.1.1",
+        "org.pcsoft.asset-loader": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.4.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kQMpTW4JQt0GEKb6MlScOLAqcFDTPUHQK9LpKW70v59+P3VunWRkDsc05H9HiuDTQUZVBOaqlzIq2cnjPcu7BQ==",
+          "shasum": "80fb603021dd1d344844404feb4d80053f83a1db"
+        }
+      }
+    },
+    {
+      "version": "1.4.1",
+      "variantId": "registry-package.openupm.com-0e34ac87c720ce9f",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "704d9c64d9f3649891a6219257c0e9766750e37f",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.4.1.tgz",
+      "upstreamIntegrity": "sha512-wc0trSSk2r6u4S0rb+5k4/lt7ud8BBPxZAGpScQuSoBJ5/4BYor3eu+IDHnT24uzU3T5RODfFbxJAhUmb93Mvw==",
+      "upstreamShasum": "c3258a558c0f7c229687d56b5643ae2a2d9ce4a1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.editor-ex": "1.1.0",
+        "com.unity.inputsystem": "1.1.1",
+        "org.pcsoft.asset-loader": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.4.1",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wc0trSSk2r6u4S0rb+5k4/lt7ud8BBPxZAGpScQuSoBJ5/4BYor3eu+IDHnT24uzU3T5RODfFbxJAhUmb93Mvw==",
+          "shasum": "c3258a558c0f7c229687d56b5643ae2a2d9ce4a1"
+        }
+      }
+    },
+    {
+      "version": "1.5.0",
+      "variantId": "registry-package.openupm.com-0f1fd7e596a9abf3",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "2adc4757c4a4f78be18781e6440441b6d3be5672",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.5.0.tgz",
+      "upstreamIntegrity": "sha512-dps2LSNvsqQQEzitQ+6Upxbpf+nKH3PTEzqI6nFgxPDHHGOrF3ew6yJtuiVtadTI29UKzXHD5y7vxkaBcdaklw==",
+      "upstreamShasum": "a476a8a4d2f6e208882d8a3d9a1398d6438ea863",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.editor-ex": "1.1.3",
+        "com.unity.inputsystem": "1.1.1",
+        "org.pcsoft.asset-loader": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.5.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dps2LSNvsqQQEzitQ+6Upxbpf+nKH3PTEzqI6nFgxPDHHGOrF3ew6yJtuiVtadTI29UKzXHD5y7vxkaBcdaklw==",
+          "shasum": "a476a8a4d2f6e208882d8a3d9a1398d6438ea863"
+        }
+      }
+    },
+    {
+      "version": "1.6.0",
+      "variantId": "registry-package.openupm.com-e05b7e698a7b4db3",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "ee835fb990eb40ea4c0756b68c4f7b6044b3c742",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.6.0.tgz",
+      "upstreamIntegrity": "sha512-RHg9ZbG6MDp3g8EQtyn4C8myoCwtVgVz7BR/zfiti2vq5ZOQ7A+/gHKlGBsm5EEO4uULnGb0nyOuzqfUSbwncA==",
+      "upstreamShasum": "169f76f076ebe5799a07d09330917f574cd83a97",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.2",
+        "org.pcsoft.editor-ex": "1.1.4",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.6.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RHg9ZbG6MDp3g8EQtyn4C8myoCwtVgVz7BR/zfiti2vq5ZOQ7A+/gHKlGBsm5EEO4uULnGb0nyOuzqfUSbwncA==",
+          "shasum": "169f76f076ebe5799a07d09330917f574cd83a97"
+        }
+      }
+    },
+    {
+      "version": "1.6.1",
+      "variantId": "registry-package.openupm.com-fbc6ee55b01f880e",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "d99f1f4ccb379cff82ecbdb299a3327ce67164a1",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.6.1.tgz",
+      "upstreamIntegrity": "sha512-plzjfApF40pnepNmC5KZiakCuJdLiDj84V+JeIGJvM532PQ5N6kcGppLiTuDJIoyeVyHeAm+Cch5azln7MWF5w==",
+      "upstreamShasum": "915975007eef794a4eaf41dae6d9055b4def905e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.2",
+        "org.pcsoft.editor-ex": "1.1.5",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.6.1",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-plzjfApF40pnepNmC5KZiakCuJdLiDj84V+JeIGJvM532PQ5N6kcGppLiTuDJIoyeVyHeAm+Cch5azln7MWF5w==",
+          "shasum": "915975007eef794a4eaf41dae6d9055b4def905e"
+        }
+      }
+    },
+    {
+      "version": "1.6.2",
+      "variantId": "registry-package.openupm.com-784de19082c8d46f",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "684f7a7de036cddbb0746559a4c2f18131c8be43",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.6.2.tgz",
+      "upstreamIntegrity": "sha512-vL5p4unlXz/5voR+qJXDVog+fj14Cdgoj90kkeL0l5ygoyaR+n4rQOI9Sz3bcMHx6MbJ8TXlhjR9AvhKih5Dcg==",
+      "upstreamShasum": "e5d6a043ed5d79c9e7659811ea9d991b779744b5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.2",
+        "org.pcsoft.editor-ex": "1.1.5",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.6.2",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vL5p4unlXz/5voR+qJXDVog+fj14Cdgoj90kkeL0l5ygoyaR+n4rQOI9Sz3bcMHx6MbJ8TXlhjR9AvhKih5Dcg==",
+          "shasum": "e5d6a043ed5d79c9e7659811ea9d991b779744b5"
+        }
+      }
+    },
+    {
+      "version": "1.6.3",
+      "variantId": "registry-package.openupm.com-50fb9087c276a494",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "8ac4daf72c89586b4d3523460ec23b5675c50e33",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.6.3.tgz",
+      "upstreamIntegrity": "sha512-Jp8PImod5UmNQlK5BtnR7pJirhC817lN+m33K5bcILeLjJYlQ7AOyHIRkX6hkrCeHhBRVWF6HN8/+/MULzr4Jw==",
+      "upstreamShasum": "eb73a3ad802a24800976cafe1f6e2e4435378bb4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.2",
+        "org.pcsoft.editor-ex": "1.1.6",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.6.3",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Jp8PImod5UmNQlK5BtnR7pJirhC817lN+m33K5bcILeLjJYlQ7AOyHIRkX6hkrCeHhBRVWF6HN8/+/MULzr4Jw==",
+          "shasum": "eb73a3ad802a24800976cafe1f6e2e4435378bb4"
+        }
+      }
+    },
+    {
+      "version": "1.6.4",
+      "variantId": "registry-package.openupm.com-3732509ced48ee99",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "0a86c1ee827148e87764ad77b8ee6ebe9007a06a",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.6.4.tgz",
+      "upstreamIntegrity": "sha512-210fhpJKXsXF180n2PK7033NLcwujcshXhxscHv5qNXI12ls6ZXh8AwQijhc1cnCtyOkqtwN22925wEGpnDARg==",
+      "upstreamShasum": "3f49d73bc4c13ec7e625f3ef26065632b08cb0d8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.2",
+        "org.pcsoft.editor-ex": "1.1.6",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.6.4",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-210fhpJKXsXF180n2PK7033NLcwujcshXhxscHv5qNXI12ls6ZXh8AwQijhc1cnCtyOkqtwN22925wEGpnDARg==",
+          "shasum": "3f49d73bc4c13ec7e625f3ef26065632b08cb0d8"
+        }
+      }
+    },
+    {
+      "version": "1.6.5",
+      "variantId": "registry-package.openupm.com-59b9f1abbd9a6658",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "35a892150db1b8b0fa4e13d296e5aa737a9d7351",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.6.5.tgz",
+      "upstreamIntegrity": "sha512-mXWQWcaetrlcveDHS8IdX9yTo6ozUehwkQbBvQrKxoyAWAgvGs0OKeSzgyQorAWfvL0VgZuoVeUJ+dhV3txRwA==",
+      "upstreamShasum": "f5bacb59ee86b907aca4c842055b83637f03529a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.2",
+        "org.pcsoft.editor-ex": "1.1.6",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.6.5",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mXWQWcaetrlcveDHS8IdX9yTo6ozUehwkQbBvQrKxoyAWAgvGs0OKeSzgyQorAWfvL0VgZuoVeUJ+dhV3txRwA==",
+          "shasum": "f5bacb59ee86b907aca4c842055b83637f03529a"
+        }
+      }
+    },
+    {
+      "version": "1.6.6",
+      "variantId": "registry-package.openupm.com-f69faedd41d11e07",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "6a6a0d2c061a299220b67047701c565518ec13d2",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.6.6.tgz",
+      "upstreamIntegrity": "sha512-97hgOnvSqQhCrTcdqqNFddyQOkUXGHiIKBuf+nPWzmEyZaf5ejLAoxalDcGp/svr3/d5hwn8c1d6glnsdRKV4A==",
+      "upstreamShasum": "c0834d63722ec9152d376ea82295a1969703b984",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.2",
+        "org.pcsoft.editor-ex": "1.1.6",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.6.6",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-97hgOnvSqQhCrTcdqqNFddyQOkUXGHiIKBuf+nPWzmEyZaf5ejLAoxalDcGp/svr3/d5hwn8c1d6glnsdRKV4A==",
+          "shasum": "c0834d63722ec9152d376ea82295a1969703b984"
+        }
+      }
+    },
+    {
+      "version": "1.6.7",
+      "variantId": "registry-package.openupm.com-26839cfc3e5c585a",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "59bda7cd7377e8e7aa9c07aa63a0a3f8e8282959",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.6.7.tgz",
+      "upstreamIntegrity": "sha512-KNGdceopfOLpcsJy5BGe79r4kDo2DY2gwvzRF7WJ+8l9D8ui+kTk0xQpBNzAedUjDjCZ4eel+BUBHtMZD+5PpQ==",
+      "upstreamShasum": "cccca24099cc321e93664f1affe9ff923a320065",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.2",
+        "org.pcsoft.editor-ex": "1.1.6",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.6.7",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KNGdceopfOLpcsJy5BGe79r4kDo2DY2gwvzRF7WJ+8l9D8ui+kTk0xQpBNzAedUjDjCZ4eel+BUBHtMZD+5PpQ==",
+          "shasum": "cccca24099cc321e93664f1affe9ff923a320065"
+        }
+      }
+    },
+    {
+      "version": "1.6.8",
+      "variantId": "registry-package.openupm.com-50b8b344de877fdf",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "cd79d10e6267c71b49b1a9f6c80c4b59370eb9a6",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.6.8.tgz",
+      "upstreamIntegrity": "sha512-f+Dczp51irKMqGQOpbyEgBXMnHVSBbopgaarJZFsxWmow2MMDG2Nkl/yKoUMDhJY5cY1zr26MIKPfCp0G7Z14A==",
+      "upstreamShasum": "61607064bcae72f37a392095a660f5c70b7cebc0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.2",
+        "org.pcsoft.editor-ex": "1.1.6",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.6.8",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-f+Dczp51irKMqGQOpbyEgBXMnHVSBbopgaarJZFsxWmow2MMDG2Nkl/yKoUMDhJY5cY1zr26MIKPfCp0G7Z14A==",
+          "shasum": "61607064bcae72f37a392095a660f5c70b7cebc0"
+        }
+      }
+    },
+    {
+      "version": "1.6.9",
+      "variantId": "registry-package.openupm.com-59cbcd4b7428583e",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "e47239f02066f151efca5996726a2e1f79fc70b4",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.6.9.tgz",
+      "upstreamIntegrity": "sha512-wvHd31HV554RVvI/vY/pN3Kv8j9mEaZYZlCZwekVH3+bqkHkDahRbmNefBaR4cudUdUBV7jjpy2xZK9bJGdGaQ==",
+      "upstreamShasum": "fcf3161703f15f8c598b1a95ba0b83e3e28ae9a7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.2",
+        "org.pcsoft.editor-ex": "1.1.6",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.6.9",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wvHd31HV554RVvI/vY/pN3Kv8j9mEaZYZlCZwekVH3+bqkHkDahRbmNefBaR4cudUdUBV7jjpy2xZK9bJGdGaQ==",
+          "shasum": "fcf3161703f15f8c598b1a95ba0b83e3e28ae9a7"
+        }
+      }
+    },
+    {
+      "version": "1.7.0-EA.1",
+      "variantId": "registry-package.openupm.com-8fc9f514a344940a",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "6c85ec493e8ac4e8ef6dad72c93a33336e9cc4a9",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.7.0-EA.1.tgz",
+      "upstreamIntegrity": "sha512-hY9iS8/haptOjSByiwxIznKtB3yD/87wVC0J0Hrq/fyOQoHxESag5xWDk3MLrQ4PzjkM76MkSNwbCKP7+OxPDw==",
+      "upstreamShasum": "858138d329c549f74e2801d792debe09786c96bc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.4",
+        "org.pcsoft.editor-ex": "1.1.7",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.7.0-EA.1",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hY9iS8/haptOjSByiwxIznKtB3yD/87wVC0J0Hrq/fyOQoHxESag5xWDk3MLrQ4PzjkM76MkSNwbCKP7+OxPDw==",
+          "shasum": "858138d329c549f74e2801d792debe09786c96bc"
+        }
+      }
+    },
+    {
+      "version": "1.7.0-EA.2",
+      "variantId": "registry-package.openupm.com-9c5a3a1691bafe88",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "c60480d9e59b961dd1e23d8fa9b2c04bb2f88b47",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.7.0-EA.2.tgz",
+      "upstreamIntegrity": "sha512-NMGFrIc3JelXMZRsFbIFKj+79UcjE380lVD4uhmu392AwEjHEWfkJdmuupgWQzqhdDxlVtC1UuDqmGCq2afqkw==",
+      "upstreamShasum": "c7284258ddc1913139f7b728d9db0b7a575edb1a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.4",
+        "org.pcsoft.editor-ex": "1.1.7",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.7.0-EA.2",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NMGFrIc3JelXMZRsFbIFKj+79UcjE380lVD4uhmu392AwEjHEWfkJdmuupgWQzqhdDxlVtC1UuDqmGCq2afqkw==",
+          "shasum": "c7284258ddc1913139f7b728d9db0b7a575edb1a"
+        }
+      }
+    },
+    {
+      "version": "1.7.0",
+      "variantId": "registry-package.openupm.com-9242079a08e8fb8e",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "dde5c55edfa8abc1f4b78c66f741bda0c2030f87",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.7.0.tgz",
+      "upstreamIntegrity": "sha512-zW4lAUjKwPcfkJZ5ftZnSwr2oY3CkixgOu+b8wkAaCEE2kKRRtMKxTMBa1Bs6G4MoUwb0QTfhY4ILh1cESJgxA==",
+      "upstreamShasum": "58c0073b485365da5e4017cf0e75637ab221f3d5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.4",
+        "org.pcsoft.editor-ex": "1.1.8",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.7.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zW4lAUjKwPcfkJZ5ftZnSwr2oY3CkixgOu+b8wkAaCEE2kKRRtMKxTMBa1Bs6G4MoUwb0QTfhY4ILh1cESJgxA==",
+          "shasum": "58c0073b485365da5e4017cf0e75637ab221f3d5"
+        }
+      }
+    },
+    {
+      "version": "1.7.1",
+      "variantId": "registry-package.openupm.com-7dabdc2b269bc5a3",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "e1d879914f019504637d90a1c3186ce739c5048e",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.7.1.tgz",
+      "upstreamIntegrity": "sha512-YIVpk/KPkUub2iXHdHhQuGh4LV6vpmCVfNshH/Aq9iAzxNfkgw0h+MO05XGJZLR10yHX9ENHX3AEKjRq05Y5qQ==",
+      "upstreamShasum": "e592eedf89fbc6e3989c833ced49ce0bc12e7dc9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.4",
+        "org.pcsoft.editor-ex": "1.1.8",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.7.1",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YIVpk/KPkUub2iXHdHhQuGh4LV6vpmCVfNshH/Aq9iAzxNfkgw0h+MO05XGJZLR10yHX9ENHX3AEKjRq05Y5qQ==",
+          "shasum": "e592eedf89fbc6e3989c833ced49ce0bc12e7dc9"
+        }
+      }
+    },
+    {
+      "version": "1.7.2",
+      "variantId": "registry-package.openupm.com-5f5a5e1b2cd73677",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "8a3a3b10abc1a9254ed77afdfe48c515d536ed49",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.7.2.tgz",
+      "upstreamIntegrity": "sha512-Bb6xn2vB7XEUICKqib3SNYRNwaIFmE9VwshvZewa3zjmghpM+uRCg0+ZQjeWYrLsMXGSHzOKBJWB7hpOiCNCVQ==",
+      "upstreamShasum": "f04a94af875a08e694b9883ab960fcf9f9c905ae",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.5",
+        "org.pcsoft.editor-ex": "1.1.8",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.2.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.7.2",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Bb6xn2vB7XEUICKqib3SNYRNwaIFmE9VwshvZewa3zjmghpM+uRCg0+ZQjeWYrLsMXGSHzOKBJWB7hpOiCNCVQ==",
+          "shasum": "f04a94af875a08e694b9883ab960fcf9f9c905ae"
+        }
+      }
+    },
+    {
+      "version": "1.7.3",
+      "variantId": "registry-package.openupm.com-ffc8439f0c5a0f23",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "66516a4c064fd7bb64983382ea15f59fb176cbfd",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.7.3.tgz",
+      "upstreamIntegrity": "sha512-N8KSadXdafoM5vcYWmR/V19VPk+b3FN8UY9AOPbKnJ9c/XjLOLeY5KDx1dCezeUyLVAfSSgBcZQt+Khrb9oXzA==",
+      "upstreamShasum": "c8b833a6ade49301a23efc26d6ea4bd76fb41072",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.6",
+        "org.pcsoft.editor-ex": "1.1.8",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.3.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.7.3",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-N8KSadXdafoM5vcYWmR/V19VPk+b3FN8UY9AOPbKnJ9c/XjLOLeY5KDx1dCezeUyLVAfSSgBcZQt+Khrb9oXzA==",
+          "shasum": "c8b833a6ade49301a23efc26d6ea4bd76fb41072"
+        }
+      }
+    },
+    {
+      "version": "1.7.4",
+      "variantId": "registry-package.openupm.com-99b03a2005944c9e",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "ae541b212ed94ef1431f72b2da4e6a2232b3ac07",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.7.4.tgz",
+      "upstreamIntegrity": "sha512-HGjNKOQfJsjp75kIjTlFFM9V/vL37CXhBIy9QROnzqMoryAFW61JWotjRDfznTTeHtTdVv9QUz3V2l2SYYReDg==",
+      "upstreamShasum": "83dfbbe1732aebdd382301f70c14603ba07e3de5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.6",
+        "org.pcsoft.editor-ex": "1.1.8",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.3.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.7.4",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HGjNKOQfJsjp75kIjTlFFM9V/vL37CXhBIy9QROnzqMoryAFW61JWotjRDfznTTeHtTdVv9QUz3V2l2SYYReDg==",
+          "shasum": "83dfbbe1732aebdd382301f70c14603ba07e3de5"
+        }
+      }
+    },
+    {
+      "version": "1.7.5",
+      "variantId": "registry-package.openupm.com-61bc13968c9ca5d8",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "bcef933d1504d57ee5f3ad1333997af96f69f7d9",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.7.5.tgz",
+      "upstreamIntegrity": "sha512-Qgqpat6KIYQT3xbPiX76kBMyYPICu/1+qBlNWlACrAVHxdhPzVXQcY9YVGhKrGpDbExZJPUe6UZ+gSgLdWOF8Q==",
+      "upstreamShasum": "f354665b88d07421295b70d902e2521bf1a4271e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.7",
+        "org.pcsoft.editor-ex": "1.1.8",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.3.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.7.5",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Qgqpat6KIYQT3xbPiX76kBMyYPICu/1+qBlNWlACrAVHxdhPzVXQcY9YVGhKrGpDbExZJPUe6UZ+gSgLdWOF8Q==",
+          "shasum": "f354665b88d07421295b70d902e2521bf1a4271e"
+        }
+      }
+    },
+    {
+      "version": "1.7.6",
+      "variantId": "registry-package.openupm.com-a6b539dc7becec2f",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "a494acd52e4b353398aff279ae63d0ee6896511f",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.7.6.tgz",
+      "upstreamIntegrity": "sha512-VlJivX9xdAavb28RkOvgt110bw2vuZqKg/YomSJN5UbsC5B4p3F9NoEX1RYRc+68GNocfnwTEiCCnvcWPYvTGg==",
+      "upstreamShasum": "39c23bbfce6b27c9b31d3a2092cc74d89f993a45",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.7",
+        "org.pcsoft.editor-ex": "1.1.9",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.3.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.7.6",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VlJivX9xdAavb28RkOvgt110bw2vuZqKg/YomSJN5UbsC5B4p3F9NoEX1RYRc+68GNocfnwTEiCCnvcWPYvTGg==",
+          "shasum": "39c23bbfce6b27c9b31d3a2092cc74d89f993a45"
+        }
+      }
+    },
+    {
+      "version": "1.7.7",
+      "variantId": "registry-package.openupm.com-b7c80564bb4066d3",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "df250b8f0bf8a0699e55f3d6843b07f057182290",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.7.7.tgz",
+      "upstreamIntegrity": "sha512-eus1P1Wjkl8kOjsRiBJdKxIpnc9sku50oaezY2zfFQADiR496YioXiTGYpb4avweuAu96w4Hl6yDuz3TwAYJgA==",
+      "upstreamShasum": "3372bfa9b23b6fcc389503af06be66a8cd30f8ab",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.7",
+        "org.pcsoft.editor-ex": "1.1.9",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.3.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.7.7",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eus1P1Wjkl8kOjsRiBJdKxIpnc9sku50oaezY2zfFQADiR496YioXiTGYpb4avweuAu96w4Hl6yDuz3TwAYJgA==",
+          "shasum": "3372bfa9b23b6fcc389503af06be66a8cd30f8ab"
+        }
+      }
+    },
+    {
+      "version": "1.7.8",
+      "variantId": "registry-package.openupm.com-50b6ccdeb1749346",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "84f194e25691048648aef6a47503af694b8e4468",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.7.8.tgz",
+      "upstreamIntegrity": "sha512-Kk+hTnRP6jf6Zs5befQlX5Fj7js10mi3xHxehBHz5R6cvWkjK/rozK5jCYmqe7GEI4zEfrlyQE50n6Q+/zXRvA==",
+      "upstreamShasum": "f854c5f16b000c91eb036ac2edf56f64d734859e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.7",
+        "org.pcsoft.editor-ex": "1.1.9",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.3.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.7.8",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Kk+hTnRP6jf6Zs5befQlX5Fj7js10mi3xHxehBHz5R6cvWkjK/rozK5jCYmqe7GEI4zEfrlyQE50n6Q+/zXRvA==",
+          "shasum": "f854c5f16b000c91eb036ac2edf56f64d734859e"
+        }
+      }
+    },
+    {
+      "version": "1.8.0",
+      "variantId": "registry-package.openupm.com-aa459e2ac793eb3e",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "8f197197a515bf28f4a11346073ed13785b824af",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.8.0.tgz",
+      "upstreamIntegrity": "sha512-kwGMGdT+IamB9fkJaFKoYYTWRXvfFuWQS7XdVhTx8lPh+yoc6AQeUKc7R6GpPVw6MsDclzkYj2YI/Yw5BSt5zA==",
+      "upstreamShasum": "ca27594762d5df5728aad67ba7f21b51df16acd4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.8",
+        "org.pcsoft.editor-ex": "1.1.10",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.3.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.8.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kwGMGdT+IamB9fkJaFKoYYTWRXvfFuWQS7XdVhTx8lPh+yoc6AQeUKc7R6GpPVw6MsDclzkYj2YI/Yw5BSt5zA==",
+          "shasum": "ca27594762d5df5728aad67ba7f21b51df16acd4"
+        }
+      }
+    },
+    {
+      "version": "1.8.1",
+      "variantId": "registry-package.openupm.com-a01c0dc341d23e37",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "deac47c92f44bf7d83df0954e5f0471fe6930fea",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.8.1.tgz",
+      "upstreamIntegrity": "sha512-2A/i44ON5XbRyHcBpPzWU+FIrXEod45089ohZRMc16/fJZI3raX5cG2yUk5yc/1YAEvMGF0ZHoZfarpgVq01Xw==",
+      "upstreamShasum": "3c1533ed656d3a6e4021f318e009fab8688d03c4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.3",
+        "org.pcsoft.common-ex": "1.1.8",
+        "org.pcsoft.editor-ex": "1.1.10",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.3.0",
+        "org.pcsoft.asset-loader": "1.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.8.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2A/i44ON5XbRyHcBpPzWU+FIrXEod45089ohZRMc16/fJZI3raX5cG2yUk5yc/1YAEvMGF0ZHoZfarpgVq01Xw==",
+          "shasum": "3c1533ed656d3a6e4021f318e009fab8688d03c4"
+        }
+      }
+    },
+    {
+      "version": "1.8.2",
+      "variantId": "registry-package.openupm.com-82066b6fd6344580",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "8632ebbb68fe9cbd6c67d9c0e753135e20e5b752",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.8.2.tgz",
+      "upstreamIntegrity": "sha512-8KSdm3wHnhN+QlPXTVGUdVRGCLfw9U9/UJk+dJpJz01tPGs3urBndi66SaflDNrO5/LH3YGwnHYFADI3nGhr+w==",
+      "upstreamShasum": "05e3d67b9c581c6c0cef6b6b09ee33a868a21b14",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.8",
+        "org.pcsoft.editor-ex": "1.1.12",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.3.0",
+        "org.pcsoft.asset-loader": "2.0.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.8.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8KSdm3wHnhN+QlPXTVGUdVRGCLfw9U9/UJk+dJpJz01tPGs3urBndi66SaflDNrO5/LH3YGwnHYFADI3nGhr+w==",
+          "shasum": "05e3d67b9c581c6c0cef6b6b09ee33a868a21b14"
+        }
+      }
+    },
+    {
+      "version": "1.8.3",
+      "variantId": "registry-package.openupm.com-947b111f40a9b1ed",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "80b54d27c7a9501d2201d6a47f276fd8f0b6a970",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.8.3.tgz",
+      "upstreamIntegrity": "sha512-3jlhywTcdyaeHuBOm2CsTz/5Q7zxT7SBqiyaeJrqT25Stbt1VvyixpBaP0hlzrc2DSybjrim5pgW0eikU8VpyQ==",
+      "upstreamShasum": "e5c2f58f6adcdf2b15a8af085a0ccef6f61da198",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.8",
+        "org.pcsoft.editor-ex": "1.1.13",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.3.0",
+        "org.pcsoft.asset-loader": "2.0.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.8.3",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3jlhywTcdyaeHuBOm2CsTz/5Q7zxT7SBqiyaeJrqT25Stbt1VvyixpBaP0hlzrc2DSybjrim5pgW0eikU8VpyQ==",
+          "shasum": "e5c2f58f6adcdf2b15a8af085a0ccef6f61da198"
+        }
+      }
+    },
+    {
+      "version": "1.8.4",
+      "variantId": "registry-package.openupm.com-c9bc742955f85b72",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "d1c5454073e47e483c9a93219d825c3b8c7a853e",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.8.4.tgz",
+      "upstreamIntegrity": "sha512-l6ZlHVsfsvOqL+PPSDV2VWMdm58NGlvaYR5UOSL7vI95o34iA/gIdSQnZNGU21XtaRUr496ktR5ZqIVoSE35/g==",
+      "upstreamShasum": "251fbe004be82fced351dd09a1ec92185848d481",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.8",
+        "org.pcsoft.editor-ex": "1.1.13",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.3.0",
+        "org.pcsoft.asset-loader": "2.0.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.8.4",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-l6ZlHVsfsvOqL+PPSDV2VWMdm58NGlvaYR5UOSL7vI95o34iA/gIdSQnZNGU21XtaRUr496ktR5ZqIVoSE35/g==",
+          "shasum": "251fbe004be82fced351dd09a1ec92185848d481"
+        }
+      }
+    },
+    {
+      "version": "1.8.5",
+      "variantId": "registry-package.openupm.com-064933853991d2f5",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "5e6dec580063c3e294ee2ba1e8521beeeab16663",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.8.5.tgz",
+      "upstreamIntegrity": "sha512-eyH0eHLjtRQWHNIYJkREFbRaXaH4rf6I6GZ8u+BX2OhwPbBrLNe9sJ4k8qvp1m9rf0H1lQFcZr2KroKMaXOl/Q==",
+      "upstreamShasum": "a4bfcee638a8604c95736f27bc3e0fc381c333d9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.8",
+        "org.pcsoft.editor-ex": "1.1.16",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.8.5",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eyH0eHLjtRQWHNIYJkREFbRaXaH4rf6I6GZ8u+BX2OhwPbBrLNe9sJ4k8qvp1m9rf0H1lQFcZr2KroKMaXOl/Q==",
+          "shasum": "a4bfcee638a8604c95736f27bc3e0fc381c333d9"
+        }
+      }
+    },
+    {
+      "version": "1.8.6",
+      "variantId": "registry-package.openupm.com-3a6b6771c10f0b85",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "d444e131c27695ad37b2cb9375b096efbca61b76",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.8.6.tgz",
+      "upstreamIntegrity": "sha512-4z7mV/RgnPnGnw8fXEjck1uf+PDIXhQwagk2LOaZhDng94Wv2ncvsrVPGEvl7BSKnVv0JzkAX5HIKHpOKul7ew==",
+      "upstreamShasum": "d45985abaa6d08d87e37b1841f3ad3d6935b563f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.9",
+        "org.pcsoft.editor-ex": "1.1.16",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.8.6",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4z7mV/RgnPnGnw8fXEjck1uf+PDIXhQwagk2LOaZhDng94Wv2ncvsrVPGEvl7BSKnVv0JzkAX5HIKHpOKul7ew==",
+          "shasum": "d45985abaa6d08d87e37b1841f3ad3d6935b563f"
+        }
+      }
+    },
+    {
+      "version": "1.9.0",
+      "variantId": "registry-package.openupm.com-1cbf50932619fc0b",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "ebed3d99eb03f06a75f1c2bf6bdc86ac306d3ddb",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.9.0.tgz",
+      "upstreamIntegrity": "sha512-/Myab8NDWxYlorNF6x8Na7wuyUJ/xeAHPOG+qtilHqm4bknw5jG0HPyQLCviHUmrZ0SSnNBwPnBfaomHDbRAbw==",
+      "upstreamShasum": "1caf4148ff593352fe8ffe2e6f2543819fbc1ffa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.10",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.9.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/Myab8NDWxYlorNF6x8Na7wuyUJ/xeAHPOG+qtilHqm4bknw5jG0HPyQLCviHUmrZ0SSnNBwPnBfaomHDbRAbw==",
+          "shasum": "1caf4148ff593352fe8ffe2e6f2543819fbc1ffa"
+        }
+      }
+    },
+    {
+      "version": "1.9.1",
+      "variantId": "registry-package.openupm.com-c382f5435077389b",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "7a200550dc26a3b2ac74032eaf963be6fb16a403",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.9.1.tgz",
+      "upstreamIntegrity": "sha512-Sxzz65e+vjrtHH+SvqFKZ+obMj9PtwvmiSOd/KBW92lScvrXiB3hCtnw0qpK6AR2y3cs008wB+kVgAgG1KpQqg==",
+      "upstreamShasum": "d7ddf8e27d1f39915466114a7794ea30a98d8399",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.10",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.9.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Sxzz65e+vjrtHH+SvqFKZ+obMj9PtwvmiSOd/KBW92lScvrXiB3hCtnw0qpK6AR2y3cs008wB+kVgAgG1KpQqg==",
+          "shasum": "d7ddf8e27d1f39915466114a7794ea30a98d8399"
+        }
+      }
+    },
+    {
+      "version": "1.9.2",
+      "variantId": "registry-package.openupm.com-c09f97843b80f537",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "f17953e5956ebca3f0bb05fa7c4be18f963a986c",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.9.2.tgz",
+      "upstreamIntegrity": "sha512-y0oR12vAgLIOoyZhUYFzzcEJs3CPsVNQwPdbgGCd2w6nsNfMatOQcIXvsU736AAxhZ6Ch9N7ycFqgQ/RC7RMiQ==",
+      "upstreamShasum": "5b9e7a1311e83a3a2929acb2bf0a611267a12b09",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.10",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.9.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-y0oR12vAgLIOoyZhUYFzzcEJs3CPsVNQwPdbgGCd2w6nsNfMatOQcIXvsU736AAxhZ6Ch9N7ycFqgQ/RC7RMiQ==",
+          "shasum": "5b9e7a1311e83a3a2929acb2bf0a611267a12b09"
+        }
+      }
+    },
+    {
+      "version": "1.10.0",
+      "variantId": "registry-package.openupm.com-c12b7fe3bafb2e77",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "1c086cdee6f621072565e7b424b3bcae978bd7ab",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.10.0.tgz",
+      "upstreamIntegrity": "sha512-2gio2sFw6MFK5q4ftoU9JMSL3BbrGw+U28MfyqRL5tmo14qFMaBnKG+PR9Omh1rx8Y/2pi0lHvvMTvO+te/R0w==",
+      "upstreamShasum": "4c5d56eabe44e2520e02b5a2238f2ef1694ea6ea",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.10",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.10.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2gio2sFw6MFK5q4ftoU9JMSL3BbrGw+U28MfyqRL5tmo14qFMaBnKG+PR9Omh1rx8Y/2pi0lHvvMTvO+te/R0w==",
+          "shasum": "4c5d56eabe44e2520e02b5a2238f2ef1694ea6ea"
+        }
+      }
+    },
+    {
+      "version": "1.10.1",
+      "variantId": "registry-package.openupm.com-6e796315a0a2dde3",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "b5a9bf15d6f974654cd5c360ab08caed6f27bbf4",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.10.1.tgz",
+      "upstreamIntegrity": "sha512-Jr8uQd5NYNoMJQfXqR+Ng4xsHE13gdrY/rNM/qkEHGvycA5hrEC16CCegzg3PWLJPHUDN/ev5l0MGUvCaGig/Q==",
+      "upstreamShasum": "5900f9523869eb9249d52ff120c292317f18c749",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.10",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.10.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Jr8uQd5NYNoMJQfXqR+Ng4xsHE13gdrY/rNM/qkEHGvycA5hrEC16CCegzg3PWLJPHUDN/ev5l0MGUvCaGig/Q==",
+          "shasum": "5900f9523869eb9249d52ff120c292317f18c749"
+        }
+      }
+    },
+    {
+      "version": "1.11.0",
+      "variantId": "registry-package.openupm.com-a1a2770209fbbacf",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "edca1a91102b210bc5ad85f22e1c2073c587ddaf",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.11.0.tgz",
+      "upstreamIntegrity": "sha512-46LRTJMOx+IZ8JTYKWyyNwL5E3pt4tZYSB+UPv+wyKPVsYs/Wa91FFDtVycW4JAZuhIlE6zhbmQjhZhTCJJt3w==",
+      "upstreamShasum": "8d0a91fa5446a1a8e99e44d3ef569ee4b6d50f0c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "1.0.0",
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.10",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "org.pcsoft.input-ex": "1.1.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.11.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-46LRTJMOx+IZ8JTYKWyyNwL5E3pt4tZYSB+UPv+wyKPVsYs/Wa91FFDtVycW4JAZuhIlE6zhbmQjhZhTCJJt3w==",
+          "shasum": "8d0a91fa5446a1a8e99e44d3ef569ee4b6d50f0c"
+        }
+      }
+    },
+    {
+      "version": "1.11.1",
+      "variantId": "registry-package.openupm.com-f5ad1fda1974f647",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "f27c0181873a30aaf15b28211dd507b312bd3913",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.11.1.tgz",
+      "upstreamIntegrity": "sha512-PM97mk/7thAzGd7jbvrYBS8EwU4upnR3UpT6n7ytz2+Fn9vIm+00eJqzH/nojWo88pZDYnRAJQjfN+NhK/wu4g==",
+      "upstreamShasum": "d5e3ce554afffa1c8ac989cb98a6f23a5bb57b41",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "1.0.0",
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.10",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "org.pcsoft.input-ex": "1.1.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.11.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PM97mk/7thAzGd7jbvrYBS8EwU4upnR3UpT6n7ytz2+Fn9vIm+00eJqzH/nojWo88pZDYnRAJQjfN+NhK/wu4g==",
+          "shasum": "d5e3ce554afffa1c8ac989cb98a6f23a5bb57b41"
+        }
+      }
+    },
+    {
+      "version": "1.11.2",
+      "variantId": "registry-package.openupm.com-825e9b8a2719484d",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "3806458597c5f73a99403faaa1cd68e4e27c105f",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.11.2.tgz",
+      "upstreamIntegrity": "sha512-86OeOKQXivVbsAminrD7JYB/Vn5uN6eyiyVCqDS0wnKvlz4OX70TqM86TkBxHxgU3QzmohAl9oKutipm71zzIw==",
+      "upstreamShasum": "034d8f5c1e617fb30fc6676243982dc4b9eff122",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "1.0.0",
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.10",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "org.pcsoft.input-ex": "1.1.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.11.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-86OeOKQXivVbsAminrD7JYB/Vn5uN6eyiyVCqDS0wnKvlz4OX70TqM86TkBxHxgU3QzmohAl9oKutipm71zzIw==",
+          "shasum": "034d8f5c1e617fb30fc6676243982dc4b9eff122"
+        }
+      }
+    },
+    {
+      "version": "1.11.3",
+      "variantId": "registry-package.openupm.com-55daf89b3cde29f6",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "16bc847e7ce24419656e70eaabd32db817b223c3",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.11.3.tgz",
+      "upstreamIntegrity": "sha512-P7npY8cxXrUjkEndBxa2VcdurA5xtnlIvkkKc4fQP5Zh6BLPH8f8uEUbwJlfL7w6Hx/QJ6nUDMeEf/xRwhKtuw==",
+      "upstreamShasum": "129c7c6792fe9c2a821d7744c8feedb4d31471a0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "1.0.0",
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.10",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "org.pcsoft.input-ex": "1.1.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.11.3",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-P7npY8cxXrUjkEndBxa2VcdurA5xtnlIvkkKc4fQP5Zh6BLPH8f8uEUbwJlfL7w6Hx/QJ6nUDMeEf/xRwhKtuw==",
+          "shasum": "129c7c6792fe9c2a821d7744c8feedb4d31471a0"
+        }
+      }
+    },
+    {
+      "version": "1.12.0",
+      "variantId": "registry-package.openupm.com-52c90d339dbc66e7",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "4c3dce70c0eeabd28a99d12ce2f835f1b8e50776",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.12.0.tgz",
+      "upstreamIntegrity": "sha512-mWx7D2Y+wHt6W3a6YMOScJHp8PLyuu0v8mXI/KuVZbLnxPQnzHIh694OpeQayo5Uc3Wcgt2neGZwM1afWoQflQ==",
+      "upstreamShasum": "d2c35f921b9d90f5028b0544d914c05a466d6446",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "1.0.0",
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.10",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "org.pcsoft.input-ex": "1.1.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.12.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mWx7D2Y+wHt6W3a6YMOScJHp8PLyuu0v8mXI/KuVZbLnxPQnzHIh694OpeQayo5Uc3Wcgt2neGZwM1afWoQflQ==",
+          "shasum": "d2c35f921b9d90f5028b0544d914c05a466d6446"
+        }
+      }
+    },
+    {
+      "version": "1.12.1",
+      "variantId": "registry-package.openupm.com-e6aa6ac4a76bf396",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "056de8117a1e71d0bb2d20ac7cbcb400dfa35940",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.12.1.tgz",
+      "upstreamIntegrity": "sha512-79ytZa/vdve+eeDR3mlAjEse5BBx6B/Z1Zaz3VU1OwOFZhoTSa00dbS59KB0q8wjqDifzoPm5JoKbyvFu9vaKQ==",
+      "upstreamShasum": "fa6849f3629b4254639514eaf77ff523cc696d37",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "1.0.0",
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.10",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "org.pcsoft.input-ex": "1.1.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.12.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-79ytZa/vdve+eeDR3mlAjEse5BBx6B/Z1Zaz3VU1OwOFZhoTSa00dbS59KB0q8wjqDifzoPm5JoKbyvFu9vaKQ==",
+          "shasum": "fa6849f3629b4254639514eaf77ff523cc696d37"
+        }
+      }
+    },
+    {
+      "version": "1.12.2",
+      "variantId": "registry-package.openupm.com-69d856ae97834b03",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "48f0efb858f529cea80b42d721a8447b01e94964",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.12.2.tgz",
+      "upstreamIntegrity": "sha512-EuFKqo7aG3znfxH9ouT6LZfqOQ/qVDv8rDdXmGvxfI5D/9/4YtW7lCbeTqsRktgyc2ugYm7vd49k68G9jGl2nQ==",
+      "upstreamShasum": "db2831b0a89c4c254a7d66e597b04af65d32ca0c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "1.0.0",
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.10",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "org.pcsoft.input-ex": "1.1.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.12.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-EuFKqo7aG3znfxH9ouT6LZfqOQ/qVDv8rDdXmGvxfI5D/9/4YtW7lCbeTqsRktgyc2ugYm7vd49k68G9jGl2nQ==",
+          "shasum": "db2831b0a89c4c254a7d66e597b04af65d32ca0c"
+        }
+      }
+    },
+    {
+      "version": "1.12.3",
+      "variantId": "registry-package.openupm.com-1d3fe3d9069f151e",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "d3753eca1bc75656125ed7880d2280ea106e03b6",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.12.3.tgz",
+      "upstreamIntegrity": "sha512-2Pxi471/GNt+zO+WjpHSROvBdzGjunnsz/tHOuud8R2QDsfHdQs/SC9fZj/c6FqRp/ykAbJayXGzlVPnPISskA==",
+      "upstreamShasum": "0ac073dedadd15a08037e69f905332f272e37e36",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "1.0.0",
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.10",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "org.pcsoft.input-ex": "1.1.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.12.3",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2Pxi471/GNt+zO+WjpHSROvBdzGjunnsz/tHOuud8R2QDsfHdQs/SC9fZj/c6FqRp/ykAbJayXGzlVPnPISskA==",
+          "shasum": "0ac073dedadd15a08037e69f905332f272e37e36"
+        }
+      }
+    },
+    {
+      "version": "1.12.4",
+      "variantId": "registry-package.openupm.com-113b231106057409",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "5195b5c4331bf3937009faf80d675b5b2b2e1bce",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.12.4.tgz",
+      "upstreamIntegrity": "sha512-OvQnjnxfGXW/ytHrAXvYJ0wvw9bFZFMTQfxFGuFw5iOxtL3ABBN4HcqVFd+U2C2Tv79c+2amSumQsqyuIh7ujQ==",
+      "upstreamShasum": "fb48fefd3df56531c0cb31a3b77e7e731c92d4cf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "1.0.0",
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.11",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "org.pcsoft.input-ex": "1.1.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.12.4",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OvQnjnxfGXW/ytHrAXvYJ0wvw9bFZFMTQfxFGuFw5iOxtL3ABBN4HcqVFd+U2C2Tv79c+2amSumQsqyuIh7ujQ==",
+          "shasum": "fb48fefd3df56531c0cb31a3b77e7e731c92d4cf"
+        }
+      }
+    },
+    {
+      "version": "1.12.5",
+      "variantId": "registry-package.openupm.com-66281241de7a5cdb",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "0ec27cea2f4b829fcb88e5ac588b668c444321b6",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.12.5.tgz",
+      "upstreamIntegrity": "sha512-F+UBtcnTscMZap6tTtOyEDGFZ0Ew7xuxMURBNQx4m6E48R5NKqy0qVxEWMxcO+torBNOJoUiVMe47z8KaBO1zw==",
+      "upstreamShasum": "9a8580575bc2e54a90673bf18157b9cdeeaeb584",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "1.0.0",
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.11",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "org.pcsoft.input-ex": "1.1.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.12.5",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-F+UBtcnTscMZap6tTtOyEDGFZ0Ew7xuxMURBNQx4m6E48R5NKqy0qVxEWMxcO+torBNOJoUiVMe47z8KaBO1zw==",
+          "shasum": "9a8580575bc2e54a90673bf18157b9cdeeaeb584"
+        }
+      }
+    },
+    {
+      "version": "1.12.6",
+      "variantId": "registry-package.openupm.com-a8b8ca3dc5615fc5",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "d43f7758aa9c5b785c2edc5dc9dbe7d156a265be",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.12.6.tgz",
+      "upstreamIntegrity": "sha512-wb76E+dRHzHQduixyAk0UBBRtYta/kgWShhadTSNdS7Vjka/nWDxEJq64SyX0aUmWI1pne2oCe5/yPuWGcy50g==",
+      "upstreamShasum": "fc5671f7977cb5732faa96c405df0209f35eb08f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "1.0.0",
+        "org.pcsoft.animation": "1.2.4",
+        "org.pcsoft.common-ex": "1.1.11",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.4.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "org.pcsoft.input-ex": "1.1.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.12.6",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wb76E+dRHzHQduixyAk0UBBRtYta/kgWShhadTSNdS7Vjka/nWDxEJq64SyX0aUmWI1pne2oCe5/yPuWGcy50g==",
+          "shasum": "fc5671f7977cb5732faa96c405df0209f35eb08f"
+        }
+      }
+    },
+    {
+      "version": "1.12.7",
+      "variantId": "registry-package.openupm.com-3a05626b731bc875",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "07d771088ade6eeda481170a9a3c8b10f86613fa",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.12.7.tgz",
+      "upstreamIntegrity": "sha512-wxekJAhlVTQvbKFie6tw6uPS+CTUlLy0uXaSWEWFZU1uqy0m7Z0tQWP+RBQA2aux47ul5WYoPgxqO4EZvpEYxw==",
+      "upstreamShasum": "9f8a7ffd683bdd0d01dff75cd69c576bd30820ac",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "1.0.1",
+        "org.pcsoft.animation": "1.2.7",
+        "org.pcsoft.common-ex": "1.1.11",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.5.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "org.pcsoft.input-ex": "1.1.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.12.7",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wxekJAhlVTQvbKFie6tw6uPS+CTUlLy0uXaSWEWFZU1uqy0m7Z0tQWP+RBQA2aux47ul5WYoPgxqO4EZvpEYxw==",
+          "shasum": "9f8a7ffd683bdd0d01dff75cd69c576bd30820ac"
+        }
+      }
+    },
+    {
+      "version": "1.12.8",
+      "variantId": "registry-package.openupm.com-1ea89730cd527dd8",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "33da274da48c871437e547eac64685e9ae8d131b",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-1.12.8.tgz",
+      "upstreamIntegrity": "sha512-k1V3bpipgQPVNXtlawFDx8E31eMO3tF/fqcs0EXe6TWVZsyJYM2ac5CPtOqvEra+jNm2wUAkoDQP/ECcKT1g4g==",
+      "upstreamShasum": "6a997957c931dc1b65afe589b68886af20f151dc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "1.0.2",
+        "org.pcsoft.animation": "1.2.7",
+        "org.pcsoft.common-ex": "1.1.12",
+        "org.pcsoft.editor-ex": "1.1.17",
+        "org.pcsoft.android-ex": "1.0.1",
+        "com.unity.inputsystem": "1.5.0",
+        "org.pcsoft.asset-loader": "2.0.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "org.pcsoft.input-ex": "1.1.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/1.12.8",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-k1V3bpipgQPVNXtlawFDx8E31eMO3tF/fqcs0EXe6TWVZsyJYM2ac5CPtOqvEra+jNm2wUAkoDQP/ECcKT1g4g==",
+          "shasum": "6a997957c931dc1b65afe589b68886af20f151dc"
+        }
+      }
+    },
+    {
+      "version": "2.0.0-EA.1",
+      "variantId": "registry-package.openupm.com-406f76ada76a0d57",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "4edd464b46b9e44141838f4d768b73f38de95281",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-2.0.0-EA.1.tgz",
+      "upstreamIntegrity": "sha512-OEFPDY7PBUNU+pzOx2ADTPcOpnkQd/fXMkkJcM8bJ944vuzR2onGrTqSWzls1Iyv7H2zdzx/PgqQTRfmjFh0Zw==",
+      "upstreamShasum": "bf56b709b554ebae5e52c9fb17e4139585546d32",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "2.0.0-EA.01",
+        "org.pcsoft.animation": "1.3.1",
+        "org.pcsoft.editor-ex": "1.2.0",
+        "com.unity.inputsystem": "1.5.0",
+        "org.pcsoft.asset-loader": "2.1.0",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/2.0.0-EA.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OEFPDY7PBUNU+pzOx2ADTPcOpnkQd/fXMkkJcM8bJ944vuzR2onGrTqSWzls1Iyv7H2zdzx/PgqQTRfmjFh0Zw==",
+          "shasum": "bf56b709b554ebae5e52c9fb17e4139585546d32"
+        }
+      }
+    },
+    {
+      "version": "2.0.0-EA.2",
+      "variantId": "registry-package.openupm.com-c9d900f640a4fb82",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "116812d89ea44a9f83f171cea26f83bc01a20ac3",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-2.0.0-EA.2.tgz",
+      "upstreamIntegrity": "sha512-oY6BWRt9dEeVd0yg7SuLf22hptwM7xlg7UE4YMiKZrZScknQIpVLtnlwqPg4ODpVJsN0m+JpC0Fn4j+wo06R6w==",
+      "upstreamShasum": "9aa2e06be6e22077db073bc8613de1dadb2d61bc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "2.0.0-EA.2",
+        "org.pcsoft.animation": "1.3.2",
+        "org.pcsoft.editor-ex": "1.2.1",
+        "com.unity.inputsystem": "1.10.0",
+        "org.pcsoft.asset-loader": "2.1.1",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/2.0.0-EA.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oY6BWRt9dEeVd0yg7SuLf22hptwM7xlg7UE4YMiKZrZScknQIpVLtnlwqPg4ODpVJsN0m+JpC0Fn4j+wo06R6w==",
+          "shasum": "9aa2e06be6e22077db073bc8613de1dadb2d61bc"
+        }
+      }
+    },
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-571ffaacca77aaa2",
+      "sourceUrl": "https://package.openupm.com/org.pcsoft.extension",
+      "sourceRef": "e8a7303facae38ebe5e93736441d9e0ef0fbefb9",
+      "downloadUrl": "https://package.openupm.com/org.pcsoft.extension/-/org.pcsoft.extension-2.0.0.tgz",
+      "upstreamIntegrity": "sha512-s2hCLme8ScZQ0uCCz+IxAXhWuBZrDnVnRbfnu20fEZcBzOKZ3Y2UZ+o5ejU6SWmuLC11NjyaB+ANjJ/eQ+4jDQ==",
+      "upstreamShasum": "e37bde4e429a3484e93f77f315cb02e90fb8d8b2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "org.pcsoft.base": "2.0.0",
+        "org.pcsoft.animation": "1.4.0",
+        "org.pcsoft.editor-ex": "1.3.4",
+        "com.unity.inputsystem": "1.14.2",
+        "org.pcsoft.asset-loader": "3.0.0-EA.1",
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/org.pcsoft.extension/2.0.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-s2hCLme8ScZQ0uCCz+IxAXhWuBZrDnVnRbfnu20fEZcBzOKZ3Y2UZ+o5ejU6SWmuLC11NjyaB+ANjJ/eQ+4jDQ==",
+          "shasum": "e37bde4e429a3484e93f77f315cb02e90fb8d8b2"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/org.pcsoft.extension.yml",
+  "definitionBlobSha": "e518d23f27d34fe665f57d77ad971039cd4a888f",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "1.0.1",
+    "1.2.0",
+    "1.6.3",
+    "1.6.9",
+    "1.7.2",
+    "1.8.0"
+  ],
+  "selectedVersions": [
+    "1.0.1",
+    "1.2.0",
+    "1.6.3",
+    "1.6.9",
+    "1.7.2",
+    "1.8.0",
+    "2.0.0"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 56,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

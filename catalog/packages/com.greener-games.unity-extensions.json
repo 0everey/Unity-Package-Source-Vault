@@ -1,0 +1,647 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.greener-games.unity-extensions",
+  "displayName": "com.greener-games.unity-extensions",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions",
+      "fetchedAt": "2026-10-17T17:38:40.429510Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.4.0",
+      "variantId": "registry-package.openupm.com-f3d6e0442b81db19",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": "d89d6b978a5ee79fdd1acd47dde37c567d1b5b58",
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-0.4.0.tgz",
+      "upstreamIntegrity": "sha512-7ljxb2zFKzOvq7WHV9QK2+dmHlJtIyjprHpGG9aDyrwcsFEbzMBprxQPClACBi3sVfJtGW53PYX3d2dp8TzH1g==",
+      "upstreamShasum": "260dfd5b22565826c9eeca32adf2ac1949abf003",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/0.4.0",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7ljxb2zFKzOvq7WHV9QK2+dmHlJtIyjprHpGG9aDyrwcsFEbzMBprxQPClACBi3sVfJtGW53PYX3d2dp8TzH1g==",
+          "shasum": "260dfd5b22565826c9eeca32adf2ac1949abf003"
+        }
+      }
+    },
+    {
+      "version": "0.5.0",
+      "variantId": "registry-package.openupm.com-446acb684acf0a99",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": "6bd0146e00ee9238ec8a7b265145ed2d75fff852",
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-0.5.0.tgz",
+      "upstreamIntegrity": "sha512-KNSoNvxw+H2rNAJd9KPUh5q3p5qViqrhEN8xD/Q9elMo3SpgP1FLe37jUAfVSOIm499+CKf6rqgldct+a32Q2A==",
+      "upstreamShasum": "fbf7fe962e23e5822f3c5727018d16dfab343eb2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/0.5.0",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KNSoNvxw+H2rNAJd9KPUh5q3p5qViqrhEN8xD/Q9elMo3SpgP1FLe37jUAfVSOIm499+CKf6rqgldct+a32Q2A==",
+          "shasum": "fbf7fe962e23e5822f3c5727018d16dfab343eb2"
+        }
+      }
+    },
+    {
+      "version": "0.6.0",
+      "variantId": "registry-package.openupm.com-918de632604d0f01",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": "c233186bc6fd4a0baa7582d4d5791f7c4aed1d8f",
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-0.6.0.tgz",
+      "upstreamIntegrity": "sha512-bj6hTqZx4zLkemZ+pC1gtq3tFOIig/vzsVryo6cdPMg+VsRRTnv7UzqZ+ePF2UfrDMXPLtoeXZvswnZ2U+U1LQ==",
+      "upstreamShasum": "9c7d410088dfd0f06a1066d2f13b8de173380f1f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/0.6.0",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bj6hTqZx4zLkemZ+pC1gtq3tFOIig/vzsVryo6cdPMg+VsRRTnv7UzqZ+ePF2UfrDMXPLtoeXZvswnZ2U+U1LQ==",
+          "shasum": "9c7d410088dfd0f06a1066d2f13b8de173380f1f"
+        }
+      }
+    },
+    {
+      "version": "0.7.0",
+      "variantId": "registry-package.openupm.com-e655909b7c369f26",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": "7072358cbe0e73735492517c497e55cc5fa5d87a",
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-0.7.0.tgz",
+      "upstreamIntegrity": "sha512-RhsGf7FonCduSoM3MVoWDlHClxh5gvXtdRVYU6GOWLiokEzJU9Oyvc3CSDcEv6RJPbDkkKc8vmR0G7miLjGd3A==",
+      "upstreamShasum": "f1395ed93c054d504fe38f1d117246fb07dda93f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/0.7.0",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RhsGf7FonCduSoM3MVoWDlHClxh5gvXtdRVYU6GOWLiokEzJU9Oyvc3CSDcEv6RJPbDkkKc8vmR0G7miLjGd3A==",
+          "shasum": "f1395ed93c054d504fe38f1d117246fb07dda93f"
+        }
+      }
+    },
+    {
+      "version": "0.8.0",
+      "variantId": "registry-package.openupm.com-c869c3f0373e511b",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": "332b492623281ffb9b74a1fc8048acf1206832da",
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-0.8.0.tgz",
+      "upstreamIntegrity": "sha512-GaC+2FPtzbKHkX6uDMcP7pRWSS4HAYa16nWvL8UXXeCmsNK3ziqwXEGfwLEJtuqrdBgsQPP2O7QTT/+iXWtCpg==",
+      "upstreamShasum": "2ea50d1f28a99f6d58b706b981b1a2564556a044",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/0.8.0",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GaC+2FPtzbKHkX6uDMcP7pRWSS4HAYa16nWvL8UXXeCmsNK3ziqwXEGfwLEJtuqrdBgsQPP2O7QTT/+iXWtCpg==",
+          "shasum": "2ea50d1f28a99f6d58b706b981b1a2564556a044"
+        }
+      }
+    },
+    {
+      "version": "0.9.0",
+      "variantId": "registry-package.openupm.com-1985694e43188edf",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": "528e9fa0b9e48fc98fc26665b42b5f7fd5768386",
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-0.9.0.tgz",
+      "upstreamIntegrity": "sha512-+NCfgyVWOz4TnvIz/E7UN6rQdzIVsjm9dGKd1UGSAgmrsIdAcZgQl+5QyNgXYgo/O9Z+Ln1bqx2ms0FUW9pPkA==",
+      "upstreamShasum": "669bba95c6f888d7b98f8a64902842213946a436",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/0.9.0",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+NCfgyVWOz4TnvIz/E7UN6rQdzIVsjm9dGKd1UGSAgmrsIdAcZgQl+5QyNgXYgo/O9Z+Ln1bqx2ms0FUW9pPkA==",
+          "shasum": "669bba95c6f888d7b98f8a64902842213946a436"
+        }
+      }
+    },
+    {
+      "version": "0.11.0",
+      "variantId": "registry-package.openupm.com-b2c2c124a78c470c",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-0.11.0.tgz",
+      "upstreamIntegrity": "sha512-ak8gh/FY6gH8EYztMSMg+x/Wnms1f80RQ0jn6GO9GDxPPNJpwLcfkxl4NNnJ/OoDusOGH9wi7aadb9jvU5kIPg==",
+      "upstreamShasum": "3f01809eef0fa6f74fe813b45a2a79084b07aa78",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/0.11.0",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ak8gh/FY6gH8EYztMSMg+x/Wnms1f80RQ0jn6GO9GDxPPNJpwLcfkxl4NNnJ/OoDusOGH9wi7aadb9jvU5kIPg==",
+          "shasum": "3f01809eef0fa6f74fe813b45a2a79084b07aa78"
+        }
+      }
+    },
+    {
+      "version": "0.12.0",
+      "variantId": "registry-package.openupm.com-43d1be481e4c8c48",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-0.12.0.tgz",
+      "upstreamIntegrity": "sha512-ZZ/+1FrB8MdNv/eezGZwEWGwV6YkcIK0U6ksLgpUJ1a+sUVVCyzmXNuaexJwfHZHIu0qV5BTM9lVQxP0kK2+gg==",
+      "upstreamShasum": "c1e1be0e561daf5d84bd53a7d8d4bf0d2ad3e529",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/0.12.0",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZZ/+1FrB8MdNv/eezGZwEWGwV6YkcIK0U6ksLgpUJ1a+sUVVCyzmXNuaexJwfHZHIu0qV5BTM9lVQxP0kK2+gg==",
+          "shasum": "c1e1be0e561daf5d84bd53a7d8d4bf0d2ad3e529"
+        }
+      }
+    },
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-6bb899058eb5abfd",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-/Y8cmrMYsX/feu+aQR/U6NJydF+4IVxi2iGbsRPt6KefDrOvBEqapdfpXQaXVzImjPjCrs88gTA3VVHXikXCDg==",
+      "upstreamShasum": "83c9efa6615d11d59e078527acd5a47b561c0fb7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/1.0.0",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/Y8cmrMYsX/feu+aQR/U6NJydF+4IVxi2iGbsRPt6KefDrOvBEqapdfpXQaXVzImjPjCrs88gTA3VVHXikXCDg==",
+          "shasum": "83c9efa6615d11d59e078527acd5a47b561c0fb7"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-c10530c793d4c501",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-fOJpMDtmQPMSc485+8Q/aXvoUKQs68JNPluaBHd6SNpfBFM/n3BvPkfNbXgowX+hQCVBooH95yGUYYGlDzxkPA==",
+      "upstreamShasum": "44d3739b6a6161939106bb2a850998874eff272e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/1.0.1",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fOJpMDtmQPMSc485+8Q/aXvoUKQs68JNPluaBHd6SNpfBFM/n3BvPkfNbXgowX+hQCVBooH95yGUYYGlDzxkPA==",
+          "shasum": "44d3739b6a6161939106bb2a850998874eff272e"
+        }
+      }
+    },
+    {
+      "version": "1.0.2",
+      "variantId": "registry-package.openupm.com-10de949a88d7587e",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-1.0.2.tgz",
+      "upstreamIntegrity": "sha512-7ojL1r60lYxRDENAsExNARZ3LEpjQa/3QIq8o004fLeHoOXpQGnx9msuhLuSHndh/WFa7hSI0B5fjw7Re7PNsQ==",
+      "upstreamShasum": "815c4304aa13ddcebc6a2de224bd1ebb0e37d035",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/1.0.2",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7ojL1r60lYxRDENAsExNARZ3LEpjQa/3QIq8o004fLeHoOXpQGnx9msuhLuSHndh/WFa7hSI0B5fjw7Re7PNsQ==",
+          "shasum": "815c4304aa13ddcebc6a2de224bd1ebb0e37d035"
+        }
+      }
+    },
+    {
+      "version": "1.0.3",
+      "variantId": "registry-package.openupm.com-e37d54753e56aea0",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-1.0.3.tgz",
+      "upstreamIntegrity": "sha512-CxJDB9uPSzGJDgZFu0D+6g3k+XvGuTwX4ibBGtzyP0zwQWKNtM7TRXEUE04Jcku1nyeCfZkLJgeUNjfukLgHbA==",
+      "upstreamShasum": "b25d806cdcd3414b88eb7d42d55a0db2bd256b71",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/1.0.3",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CxJDB9uPSzGJDgZFu0D+6g3k+XvGuTwX4ibBGtzyP0zwQWKNtM7TRXEUE04Jcku1nyeCfZkLJgeUNjfukLgHbA==",
+          "shasum": "b25d806cdcd3414b88eb7d42d55a0db2bd256b71"
+        }
+      }
+    },
+    {
+      "version": "1.0.4",
+      "variantId": "registry-package.openupm.com-4c07750078e9c005",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-1.0.4.tgz",
+      "upstreamIntegrity": "sha512-3o+FD7jG2UM+lSilBM28M3IYy9afCzxBrggxaEQA/fhYC0WvJOTXzjNFtMgIbSAb3ryryz0EDRWOH+UzOkZTRw==",
+      "upstreamShasum": "5b5ffd6f6dc0040490ce1ba2141ea03c21e47b45",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/1.0.4",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3o+FD7jG2UM+lSilBM28M3IYy9afCzxBrggxaEQA/fhYC0WvJOTXzjNFtMgIbSAb3ryryz0EDRWOH+UzOkZTRw==",
+          "shasum": "5b5ffd6f6dc0040490ce1ba2141ea03c21e47b45"
+        }
+      }
+    },
+    {
+      "version": "1.0.5",
+      "variantId": "registry-package.openupm.com-2e16e8f15c7b1ebf",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-1.0.5.tgz",
+      "upstreamIntegrity": "sha512-wu9QdpZEoblJDrnT9IWhTioRJmvcoHjOzOnFSV5R2Ft15vMFlkxnJlAAs3ORnDMDNoRxfWu9dhuIvnNTh9ASjw==",
+      "upstreamShasum": "c5cf93d4acb5156eaada4c515afe691ebf3856e4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/1.0.5",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wu9QdpZEoblJDrnT9IWhTioRJmvcoHjOzOnFSV5R2Ft15vMFlkxnJlAAs3ORnDMDNoRxfWu9dhuIvnNTh9ASjw==",
+          "shasum": "c5cf93d4acb5156eaada4c515afe691ebf3856e4"
+        }
+      }
+    },
+    {
+      "version": "1.0.6",
+      "variantId": "registry-package.openupm.com-2f42ff331d18139e",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-1.0.6.tgz",
+      "upstreamIntegrity": "sha512-57VGxJcws3vo7mR0OrV1xTEpTOoBhfV9w3Qi+mD2AdtmYJh5hVlmQC3xiZLrqztgbpwqA7o+cqcxesBu4jSZ8Q==",
+      "upstreamShasum": "044472425d0b5918c5cbae612837c4123a15bff4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/1.0.6",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-57VGxJcws3vo7mR0OrV1xTEpTOoBhfV9w3Qi+mD2AdtmYJh5hVlmQC3xiZLrqztgbpwqA7o+cqcxesBu4jSZ8Q==",
+          "shasum": "044472425d0b5918c5cbae612837c4123a15bff4"
+        }
+      }
+    },
+    {
+      "version": "1.0.7",
+      "variantId": "registry-package.openupm.com-d76496d8e7b3b1f4",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-1.0.7.tgz",
+      "upstreamIntegrity": "sha512-q+xpEIypLX1NyXJxRHeP75p074ih8xS8VEl9COVtbG6bvRsKg1u5Whv1ulD5Afvkj6jOX4evXn7K3bmrGylxSw==",
+      "upstreamShasum": "47ceee4f77698d7f52cfd4302392a99cbe1aa856",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/1.0.7",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-q+xpEIypLX1NyXJxRHeP75p074ih8xS8VEl9COVtbG6bvRsKg1u5Whv1ulD5Afvkj6jOX4evXn7K3bmrGylxSw==",
+          "shasum": "47ceee4f77698d7f52cfd4302392a99cbe1aa856"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-db6daf275ae779ca",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": "84e3b98caed89ec4d76ac44cfb3c77e937863859",
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-Z1GP17AVBXTa/UtPBhC+N3eyos6aAeHI6s3dGubWDhzDQW5kkuDphKYtN0sydhWgCTuk1AqPZr4p9gf6SjTWsA==",
+      "upstreamShasum": "4201ab38cd8dbf233c77446bf04fb986b796ea00",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/1.1.0",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Z1GP17AVBXTa/UtPBhC+N3eyos6aAeHI6s3dGubWDhzDQW5kkuDphKYtN0sydhWgCTuk1AqPZr4p9gf6SjTWsA==",
+          "shasum": "4201ab38cd8dbf233c77446bf04fb986b796ea00"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-6f10ad4439593eb6",
+      "sourceUrl": "https://github.com/Greener-Games/Unity_Extensions.git",
+      "sourceRef": "ccb01aa7de95d38da4e9065f2d9d0163bb90c2dc",
+      "downloadUrl": "https://package.openupm.com/com.greener-games.unity-extensions/-/com.greener-games.unity-extensions-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-2eBF/xnaeEwkU0mf/wIGnzMLEpeoBicqmjEzAX2CGzNp5wOU+m5w/7l3sg347+Z9zgr81AW9TIL2F8tsV54Nlw==",
+      "upstreamShasum": "b427e2c16260ddaa983c7c050b7a66fa2ae57f8d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.svermeulen.asyncawaitutil": "0.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.greener-games.unity-extensions/1.2.0",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2eBF/xnaeEwkU0mf/wIGnzMLEpeoBicqmjEzAX2CGzNp5wOU+m5w/7l3sg347+Z9zgr81AW9TIL2F8tsV54Nlw==",
+          "shasum": "b427e2c16260ddaa983c7c050b7a66fa2ae57f8d"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.2.0",
+    "patch@1.0.2": "1.0.2"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.greener-games.unity-extensions.yml",
+  "definitionBlobSha": "3141fe96712738aae43d41dbeaa9dffbb46208e8",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "0.9.0",
+    "1.0.0",
+    "1.0.7"
+  ],
+  "selectedVersions": [
+    "0.9.0",
+    "1.0.0",
+    "1.0.7",
+    "1.2.0"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 18,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

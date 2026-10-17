@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "id": "de.frebreco.sig.python",
+  "displayName": "de.frebreco.sig.python",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/de.frebreco.sig.python",
+      "fetchedAt": "2026-10-17T17:43:36.313115Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-976e03466a28f91f",
+      "sourceUrl": "https://package.openupm.com/de.frebreco.sig.python",
+      "sourceRef": "dff06d09ed2857e0263a74483a64719fdf9e0e8d",
+      "downloadUrl": "https://package.openupm.com/de.frebreco.sig.python/-/de.frebreco.sig.python-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-c+4qe6etqnFKfbXe0psmGRsrfW3SHjgFRxZcSSWNigsr08VwXwFxlzi9XV+4QB0qIbdjwb7vXhjDdqSPZWCigg==",
+      "upstreamShasum": "f14654f6540d153c9b4451477178f98e8e7117db",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.scripting.python": "2.1.1-preview.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/de.frebreco.sig.python/1.0.0",
+      "deprecated": null,
+      "unity": "2020.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-c+4qe6etqnFKfbXe0psmGRsrfW3SHjgFRxZcSSWNigsr08VwXwFxlzi9XV+4QB0qIbdjwb7vXhjDdqSPZWCigg==",
+          "shasum": "f14654f6540d153c9b4451477178f98e8e7117db"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/de.frebreco.sig.python.yml",
+  "definitionBlobSha": "4917e536d51d6457e629bf8929981ae55fd85fa7",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

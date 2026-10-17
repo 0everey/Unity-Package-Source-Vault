@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.com2usplatform.hiveaxyl.payments.addon.apple",
+  "displayName": "com.com2usplatform.hiveaxyl.payments.addon.apple",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.com2usplatform.hiveaxyl.payments.addon.apple",
+      "fetchedAt": "2026-10-17T17:37:07.036131Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-596a2fac60e2c97a",
+      "sourceUrl": "https://github.com/com2usplatform/hiveaxyl-sdk-unity.git",
+      "sourceRef": "54229b33754d3d8f54973c369c12470cafdcfb5b",
+      "downloadUrl": "https://package.openupm.com/com.com2usplatform.hiveaxyl.payments.addon.apple/-/com.com2usplatform.hiveaxyl.payments.addon.apple-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-AqRGbc4XzV2dyS4FFzIKYPBSZM5QTCtA6YWGx5HzoREYn0oWF/JbGe/tBATVKHPDKVrJS52QjjC+Q/PaP1Cdug==",
+      "upstreamShasum": "c20973c02952a891a47e403015336787ab13f45c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.com2usplatform.hiveaxyl.core": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.com2usplatform.hiveaxyl.payments.addon.apple/1.0.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-AqRGbc4XzV2dyS4FFzIKYPBSZM5QTCtA6YWGx5HzoREYn0oWF/JbGe/tBATVKHPDKVrJS52QjjC+Q/PaP1Cdug==",
+          "shasum": "c20973c02952a891a47e403015336787ab13f45c"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.com2usplatform.hiveaxyl.payments.addon.apple.yml",
+  "definitionBlobSha": "534f3fe0bb1a96d731296794cea99430e1fa411e",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

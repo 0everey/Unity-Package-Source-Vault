@@ -1,0 +1,680 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.amazonaws.gamelift",
+  "displayName": "com.amazonaws.gamelift",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift",
+      "fetchedAt": "2026-10-17T17:36:32.842568Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.2.1",
+      "variantId": "registry-package.openupm.com-711b3e85ac978386",
+      "sourceUrl": "https://package.openupm.com/com.amazonaws.gamelift",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-0.2.1.tgz",
+      "upstreamIntegrity": "sha512-9HULRNZqfQR/4zgja3J0EKG9yp3cJytZfNjn7G/1tyxbBJOteDeKpID5FvRDZXoOXur9UyjnKWE/3IMd4A0wTA==",
+      "upstreamShasum": "ca1126eeb91db95a83fff5b8376deeeab978bae1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/0.2.1",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9HULRNZqfQR/4zgja3J0EKG9yp3cJytZfNjn7G/1tyxbBJOteDeKpID5FvRDZXoOXur9UyjnKWE/3IMd4A0wTA==",
+          "shasum": "ca1126eeb91db95a83fff5b8376deeeab978bae1"
+        }
+      }
+    },
+    {
+      "version": "0.2.2",
+      "variantId": "registry-package.openupm.com-76892c0399658995",
+      "sourceUrl": "https://package.openupm.com/com.amazonaws.gamelift",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-0.2.2.tgz",
+      "upstreamIntegrity": "sha512-NRSDvcvrhDpl4warCCZ1FmlfKX9w/pBVFFDDNXpB4A9zF5GNHvg6c8uqoSjXnjcWOBcg8k7m9ZlErtPwac+8Hw==",
+      "upstreamShasum": "7c6e54ff0a1fd32c66ea00c1b3a40844881b6c3a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/0.2.2",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NRSDvcvrhDpl4warCCZ1FmlfKX9w/pBVFFDDNXpB4A9zF5GNHvg6c8uqoSjXnjcWOBcg8k7m9ZlErtPwac+8Hw==",
+          "shasum": "7c6e54ff0a1fd32c66ea00c1b3a40844881b6c3a"
+        }
+      }
+    },
+    {
+      "version": "0.2.4",
+      "variantId": "registry-package.openupm.com-41f5b1b445490aaf",
+      "sourceUrl": "https://package.openupm.com/com.amazonaws.gamelift",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-0.2.4.tgz",
+      "upstreamIntegrity": "sha512-WTBmKiycE6Pg03FTGzjhPa1C8nEGeIlGf/SbjolmthPR9efOyFXgDmvzvP8MFXHxROCzhP2fu/kXpINdZ6+tWg==",
+      "upstreamShasum": "c90b28a727306014618b5680510c883a6d843710",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/0.2.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WTBmKiycE6Pg03FTGzjhPa1C8nEGeIlGf/SbjolmthPR9efOyFXgDmvzvP8MFXHxROCzhP2fu/kXpINdZ6+tWg==",
+          "shasum": "c90b28a727306014618b5680510c883a6d843710"
+        }
+      }
+    },
+    {
+      "version": "0.2.5",
+      "variantId": "registry-package.openupm.com-89d34d864447e43a",
+      "sourceUrl": "https://package.openupm.com/com.amazonaws.gamelift",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-0.2.5.tgz",
+      "upstreamIntegrity": "sha512-Kw7LwDhKAEUBfjlLdH6VK+yQujV6M3wk/o2R4bVkTLoxVgjRiUbzihGTcCg4eywa5Ja7eyMwLAZDP5NGM2VWDQ==",
+      "upstreamShasum": "fbd9d5ca00e6e0614b0576a2940e02af6f5839ff",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/0.2.5",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Kw7LwDhKAEUBfjlLdH6VK+yQujV6M3wk/o2R4bVkTLoxVgjRiUbzihGTcCg4eywa5Ja7eyMwLAZDP5NGM2VWDQ==",
+          "shasum": "fbd9d5ca00e6e0614b0576a2940e02af6f5839ff"
+        }
+      }
+    },
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-c6024e907efc2c20",
+      "sourceUrl": "https://package.openupm.com/com.amazonaws.gamelift",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-fxud+LSTd6GU2ibRKbi4SCEL5TxIXiZZQXG1TjWCu31WTbXke3PX/IAApYPDN1qpZ34on2fsixYfdPr+luoTwg==",
+      "upstreamShasum": "3d05276100d853833309b33aefc0bd5410c5155f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/1.0.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fxud+LSTd6GU2ibRKbi4SCEL5TxIXiZZQXG1TjWCu31WTbXke3PX/IAApYPDN1qpZ34on2fsixYfdPr+luoTwg==",
+          "shasum": "3d05276100d853833309b33aefc0bd5410c5155f"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-1fa119ad046674e4",
+      "sourceUrl": "https://github.com/aws/amazon-gamelift-plugin-unity.git",
+      "sourceRef": "113e886e7efeb282d13690b3ec0b3a94b51a198d",
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-LOytoqeVT8U/BUPznOwQ8vL+IBnt/hvhP7Jbi4S6Ob4zYpBogwsPh+Me9HdM8FObR4e8IhUmu46GrJjBncD5bg==",
+      "upstreamShasum": "e2a3ac24d78bc7f3066c2b6951def0c67512e0db",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/1.1.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LOytoqeVT8U/BUPznOwQ8vL+IBnt/hvhP7Jbi4S6Ob4zYpBogwsPh+Me9HdM8FObR4e8IhUmu46GrJjBncD5bg==",
+          "shasum": "e2a3ac24d78bc7f3066c2b6951def0c67512e0db"
+        }
+      }
+    },
+    {
+      "version": "1.1.1",
+      "variantId": "registry-package.openupm.com-8c8da03f469586b9",
+      "sourceUrl": "https://github.com/aws/amazon-gamelift-plugin-unity.git",
+      "sourceRef": "4adbb62333c89d8c1edc9c67c50b456a8b83e7d6",
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-1.1.1.tgz",
+      "upstreamIntegrity": "sha512-yiFesKn9c+hV/NF9dw0fMs2IeV/xKg7f9TX1jf0JQUMC/k5XDa2cC0EpqOBo8xVVYAoPuQOAG0u9ydj0TEBRjQ==",
+      "upstreamShasum": "cb5af666c363e03321da8dae5723680696c50c1b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/1.1.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yiFesKn9c+hV/NF9dw0fMs2IeV/xKg7f9TX1jf0JQUMC/k5XDa2cC0EpqOBo8xVVYAoPuQOAG0u9ydj0TEBRjQ==",
+          "shasum": "cb5af666c363e03321da8dae5723680696c50c1b"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-3bf22903c1ab84a9",
+      "sourceUrl": "https://github.com/aws/amazon-gamelift-plugin-unity.git",
+      "sourceRef": "a3fbb99fd27fdf484ed30dc167b861e2e77c12ba",
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-Sa5dCpm6nLiBYc25DhDWRE18ZsJcKnZurgQmInr3N4VaA4wEeLBPEezkyXBfDGgqxBSh410ghsDPYGqcI2tbXg==",
+      "upstreamShasum": "1cc0765526a9d5f1588f563dfdfb3e553640f1ce",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/1.2.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Sa5dCpm6nLiBYc25DhDWRE18ZsJcKnZurgQmInr3N4VaA4wEeLBPEezkyXBfDGgqxBSh410ghsDPYGqcI2tbXg==",
+          "shasum": "1cc0765526a9d5f1588f563dfdfb3e553640f1ce"
+        }
+      }
+    },
+    {
+      "version": "1.2.1",
+      "variantId": "registry-package.openupm.com-1a86123a170094a2",
+      "sourceUrl": "https://github.com/aws/amazon-gamelift-plugin-unity.git",
+      "sourceRef": "13b9526dc791844daae00ee67d56ae7c76089b2e",
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-1.2.1.tgz",
+      "upstreamIntegrity": "sha512-rf1+tsZ0uqJlOEpurL5wE9qI4QktE7RDx+XPhtFkmHD9jZJiyRHClWCOS0LUudE9BW8amAY3sx54J8wv/ojdZw==",
+      "upstreamShasum": "17bc2bf5d88e5432a4ad9e41b15983b01fb599c5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/1.2.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rf1+tsZ0uqJlOEpurL5wE9qI4QktE7RDx+XPhtFkmHD9jZJiyRHClWCOS0LUudE9BW8amAY3sx54J8wv/ojdZw==",
+          "shasum": "17bc2bf5d88e5432a4ad9e41b15983b01fb599c5"
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "variantId": "registry-package.openupm.com-8b73b6f59fedd1b6",
+      "sourceUrl": "https://github.com/aws/amazon-gamelift-plugin-unity.git",
+      "sourceRef": "c068e1dc2ab1e454713ee3c8c6ae0e2077b6a60f",
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-1.3.0.tgz",
+      "upstreamIntegrity": "sha512-LPH/fRX2sBNJ4g/08xYM6tqGAYWIxWdbPZy1CeXN85RTyS4ycBZlbiW/L+CPQs4x4D2DJPIcmVnUCp5Gicaulg==",
+      "upstreamShasum": "ee4e889b3a5fc385bb1382f2989ca0a51bf492a4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/1.3.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LPH/fRX2sBNJ4g/08xYM6tqGAYWIxWdbPZy1CeXN85RTyS4ycBZlbiW/L+CPQs4x4D2DJPIcmVnUCp5Gicaulg==",
+          "shasum": "ee4e889b3a5fc385bb1382f2989ca0a51bf492a4"
+        }
+      }
+    },
+    {
+      "version": "1.3.1",
+      "variantId": "registry-package.openupm.com-14ab73086b78c44e",
+      "sourceUrl": "https://github.com/aws/amazon-gamelift-plugin-unity.git",
+      "sourceRef": "9ef50c7b98e4497c4a59d9632a98b58ad54ab700",
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-1.3.1.tgz",
+      "upstreamIntegrity": "sha512-tbUIPahr20FYMW6+5sQsoytZyw3/cuK3za05c6ZVfLF69ZQrBXeHPaTj0kn0B3QnAdRGXc3B7Y137PJxQfBf0w==",
+      "upstreamShasum": "8b4da4d94a1725c343dd44f711b64d31a22cc821",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/1.3.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tbUIPahr20FYMW6+5sQsoytZyw3/cuK3za05c6ZVfLF69ZQrBXeHPaTj0kn0B3QnAdRGXc3B7Y137PJxQfBf0w==",
+          "shasum": "8b4da4d94a1725c343dd44f711b64d31a22cc821"
+        }
+      }
+    },
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-c68cd810c9f4de3c",
+      "sourceUrl": "https://github.com/aws/amazon-gamelift-plugin-unity.git",
+      "sourceRef": "5b51751cc952ab239d6efd1f5087748a4638f0ce",
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-2.0.0.tgz",
+      "upstreamIntegrity": "sha512-kUW9UaqO+BdFjvEz1N1Iju2FuAHeptVM6TN1XxE80omvagkoT0iGZZ/s8PrV+HGwtSpYpPsT5LoPm163DkEv0A==",
+      "upstreamShasum": "859bea44886eacfdb7a3f0948fe9829630d81a9c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/2.0.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kUW9UaqO+BdFjvEz1N1Iju2FuAHeptVM6TN1XxE80omvagkoT0iGZZ/s8PrV+HGwtSpYpPsT5LoPm163DkEv0A==",
+          "shasum": "859bea44886eacfdb7a3f0948fe9829630d81a9c"
+        }
+      }
+    },
+    {
+      "version": "2.1.0",
+      "variantId": "registry-package.openupm.com-13e61022674e2123",
+      "sourceUrl": "https://github.com/aws/amazon-gamelift-plugin-unity.git",
+      "sourceRef": "f5241d697d2d827a55afc3dacc4b0a6ae514741c",
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-2.1.0.tgz",
+      "upstreamIntegrity": "sha512-Spd5GZcwyXIlq6OmOJDsLSX4TXrTcn7gpNo37VpsjxHwuqgWufLLP3vL9wOYZ5yCK+BTgTYTyuSEhjLA8L3tIA==",
+      "upstreamShasum": "bb0235b39f7739f2d78227b74191b4220112a6de",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/2.1.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Spd5GZcwyXIlq6OmOJDsLSX4TXrTcn7gpNo37VpsjxHwuqgWufLLP3vL9wOYZ5yCK+BTgTYTyuSEhjLA8L3tIA==",
+          "shasum": "bb0235b39f7739f2d78227b74191b4220112a6de"
+        }
+      }
+    },
+    {
+      "version": "3.0.0",
+      "variantId": "registry-package.openupm.com-1d93d0f0cdbb10a8",
+      "sourceUrl": "https://github.com/aws/amazon-gamelift-plugin-unity.git",
+      "sourceRef": "86fb80dbabb73b1c869bd0605cdd541cddc53872",
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-3.0.0.tgz",
+      "upstreamIntegrity": "sha512-1ot3tC/y2kGMCLwjhMuDWvMmf3po3/5GVyI+gkhCwAhIKdNFFoolyzP9v4wca8WQjgXNJolVVUDece9JIQOleA==",
+      "upstreamShasum": "3f5b0246edec8ddd6e4efca5b62a49aa8e18b131",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/3.0.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1ot3tC/y2kGMCLwjhMuDWvMmf3po3/5GVyI+gkhCwAhIKdNFFoolyzP9v4wca8WQjgXNJolVVUDece9JIQOleA==",
+          "shasum": "3f5b0246edec8ddd6e4efca5b62a49aa8e18b131"
+        }
+      }
+    },
+    {
+      "version": "3.0.1",
+      "variantId": "registry-package.openupm.com-1ac98a08a844f642",
+      "sourceUrl": "https://github.com/aws/amazon-gamelift-plugin-unity.git",
+      "sourceRef": "3a03a597032ef837159ffe97e586047847e1c847",
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-3.0.1.tgz",
+      "upstreamIntegrity": "sha512-8w+f47zq7+Tg2/IWCwUqN8LKuYb/n7fHq6MxHHQ8UYkhTc3lXihKl0E6anV7pP7UE8zSHj42XNvcOr4TY3YrpQ==",
+      "upstreamShasum": "0637486563f87370e7d231b57e9322b027e74b89",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/3.0.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8w+f47zq7+Tg2/IWCwUqN8LKuYb/n7fHq6MxHHQ8UYkhTc3lXihKl0E6anV7pP7UE8zSHj42XNvcOr4TY3YrpQ==",
+          "shasum": "0637486563f87370e7d231b57e9322b027e74b89"
+        }
+      }
+    },
+    {
+      "version": "3.1.0",
+      "variantId": "registry-package.openupm.com-09b78f06c004d838",
+      "sourceUrl": "https://github.com/amazon-gamelift/amazon-gamelift-plugin-unity.git",
+      "sourceRef": "b86b79c62e13ce61d41c7a6b41909905c2dac3e4",
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-3.1.0.tgz",
+      "upstreamIntegrity": "sha512-gNPU2CjjvAZLyEXS3c7Z2PR7/mZ6uqUYd22VYfl740uNxOiH91C5wLuo0aNBURYE90AfQn6Puuev1f4YIYr5hQ==",
+      "upstreamShasum": "e3899cb0b5ac31507c56130840f7cd6ef181eb2a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/3.1.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gNPU2CjjvAZLyEXS3c7Z2PR7/mZ6uqUYd22VYfl740uNxOiH91C5wLuo0aNBURYE90AfQn6Puuev1f4YIYr5hQ==",
+          "shasum": "e3899cb0b5ac31507c56130840f7cd6ef181eb2a"
+        }
+      }
+    },
+    {
+      "version": "3.2.0",
+      "variantId": "registry-package.openupm.com-63205ef86099d96d",
+      "sourceUrl": "https://github.com/amazon-gamelift/amazon-gamelift-plugin-unity.git",
+      "sourceRef": "c8cc73602c2cf0973c7bd52319df1c097624505c",
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-3.2.0.tgz",
+      "upstreamIntegrity": "sha512-wOLWQPP8T9CtyKEX4+U9gT0P+Kqw0m5GDVsmi9sMiyzN39rfZBK67qTBPgqFUCe4/XR2Buqmuu2W4E42918OIQ==",
+      "upstreamShasum": "549288368b2870ed7cb7e311acf5304d18800a1a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/3.2.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wOLWQPP8T9CtyKEX4+U9gT0P+Kqw0m5GDVsmi9sMiyzN39rfZBK67qTBPgqFUCe4/XR2Buqmuu2W4E42918OIQ==",
+          "shasum": "549288368b2870ed7cb7e311acf5304d18800a1a"
+        }
+      }
+    },
+    {
+      "version": "3.3.0",
+      "variantId": "registry-package.openupm.com-ca0f82dea8427617",
+      "sourceUrl": "https://github.com/aws/amazon-gamelift-plugin-unity.git",
+      "sourceRef": "4460f8d2c393095b1ce2ac2ed4c41d33788c23cb",
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-3.3.0.tgz",
+      "upstreamIntegrity": "sha512-Dl9hanTiy4fZu3je0JR7gp9tguDVX+TLL/c9UlWxrZtfSazZjDKcO7TLspHhDNyLzDcQp8fGutw5re5HhZLugw==",
+      "upstreamShasum": "c3b1fa542c1891f979fc729ca3780738c2155405",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/3.3.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Dl9hanTiy4fZu3je0JR7gp9tguDVX+TLL/c9UlWxrZtfSazZjDKcO7TLspHhDNyLzDcQp8fGutw5re5HhZLugw==",
+          "shasum": "c3b1fa542c1891f979fc729ca3780738c2155405"
+        }
+      }
+    },
+    {
+      "version": "3.3.1",
+      "variantId": "registry-package.openupm.com-2b7e698f20c2a4fe",
+      "sourceUrl": "https://github.com/aws/amazon-gamelift-plugin-unity.git",
+      "sourceRef": "58468fcb67a23a82afe1afdc471d8d9fcdd779a5",
+      "downloadUrl": "https://package.openupm.com/com.amazonaws.gamelift/-/com.amazonaws.gamelift-3.3.1.tgz",
+      "upstreamIntegrity": "sha512-R4cXaxDoD2SyQW91kTDq0Mx0TYq+xEh9J9k8v1bYzCguZ6jgqlQX+6VI+pgEdxuH62YqsHYtfTs3Qnfxf2pu3g==",
+      "upstreamShasum": "b59c293ee41c9e6b6697c549a318fa9a05e37dc9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.amazonaws.gamelift/3.3.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-R4cXaxDoD2SyQW91kTDq0Mx0TYq+xEh9J9k8v1bYzCguZ6jgqlQX+6VI+pgEdxuH62YqsHYtfTs3Qnfxf2pu3g==",
+          "shasum": "b59c293ee41c9e6b6697c549a318fa9a05e37dc9"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "3.3.1",
+    "patch@0.2.1": "0.2.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.amazonaws.gamelift.yml",
+  "definitionBlobSha": "a190564d76bff0ba9273a7448c4fbdd9d862ca93",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "3.3.1",
+    "3.3.0",
+    "2.1.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 19,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

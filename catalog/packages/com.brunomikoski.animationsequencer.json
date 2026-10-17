@@ -1,0 +1,977 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.brunomikoski.animationsequencer",
+  "displayName": "com.brunomikoski.animationsequencer",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer",
+      "fetchedAt": "2026-10-17T17:36:56.066032Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "variantId": "registry-package.openupm.com-b27b2e0c2c064580",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "47b336b032d5162b6cca785c6a5d0f6b3b2812dc",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.1.0.tgz",
+      "upstreamIntegrity": "sha512-nL0xHMj6H3RxLjjo/zDil8SsQIYu4WgQQnXamKbHlTu42u6PO2au3QW7okeA8l0Jc1rwDm931t48h96unhk1eg==",
+      "upstreamShasum": "748e1fd7c3e26864747df6f6de48c519e7fd2ad3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.1.0",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nL0xHMj6H3RxLjjo/zDil8SsQIYu4WgQQnXamKbHlTu42u6PO2au3QW7okeA8l0Jc1rwDm931t48h96unhk1eg==",
+          "shasum": "748e1fd7c3e26864747df6f6de48c519e7fd2ad3"
+        }
+      }
+    },
+    {
+      "version": "0.1.1",
+      "variantId": "registry-package.openupm.com-0a6cada3c101faa4",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "a69511cbfe29ae3b35d3a3f08a80d56e73e0844d",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.1.1.tgz",
+      "upstreamIntegrity": "sha512-LhmDMnl9QUEn1lHWNh87CBhs9sCieb8t5UCns+pnELcen8zsEHs3CirOBq6+GHt+VfdbtKHzW+nun3mPUCgrHA==",
+      "upstreamShasum": "f5ff69844921054e7e362dbfa8343417d7d6cdc4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.1.1",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LhmDMnl9QUEn1lHWNh87CBhs9sCieb8t5UCns+pnELcen8zsEHs3CirOBq6+GHt+VfdbtKHzW+nun3mPUCgrHA==",
+          "shasum": "f5ff69844921054e7e362dbfa8343417d7d6cdc4"
+        }
+      }
+    },
+    {
+      "version": "0.1.2",
+      "variantId": "registry-package.openupm.com-5fc40fe29507ce2d",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "fd639f7d5171946d88de05a199a334b2c47e727a",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.1.2.tgz",
+      "upstreamIntegrity": "sha512-cVNCCCXBai353xQ6xuN+GrxRzaHU8tOAOaGZ78Rh5DX1Thm52HTWaNxsioQsIJWNbe04HYsBv9f9CHaT5/f9fA==",
+      "upstreamShasum": "6ca8c66d1677c7c678a9c326ece1a0305558e668",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.1.2",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cVNCCCXBai353xQ6xuN+GrxRzaHU8tOAOaGZ78Rh5DX1Thm52HTWaNxsioQsIJWNbe04HYsBv9f9CHaT5/f9fA==",
+          "shasum": "6ca8c66d1677c7c678a9c326ece1a0305558e668"
+        }
+      }
+    },
+    {
+      "version": "0.1.3",
+      "variantId": "registry-package.openupm.com-3b3c428ea6d512e8",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "c910757c089a48a8803192ff7e86ee853786a358",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.1.3.tgz",
+      "upstreamIntegrity": "sha512-dKdg+j+CFVr8CUFHvitDtPeY1AcxzUFcOBmqbikm5eb7Wf+axgbG+db3Y/0TL7MXisPCHA4htOowb5bGAQtodA==",
+      "upstreamShasum": "39069a62224724ce24c7473dc46a8c8830144840",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.1.3",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dKdg+j+CFVr8CUFHvitDtPeY1AcxzUFcOBmqbikm5eb7Wf+axgbG+db3Y/0TL7MXisPCHA4htOowb5bGAQtodA==",
+          "shasum": "39069a62224724ce24c7473dc46a8c8830144840"
+        }
+      }
+    },
+    {
+      "version": "0.1.5",
+      "variantId": "registry-package.openupm.com-de3fc4540ca5b2fe",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "998fdc30e69195b0346b78311a9b22682f9c0fc8",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.1.5.tgz",
+      "upstreamIntegrity": "sha512-01E4mCWuRdECGDyDkhQCwvsK7DzSK7O6WV7ecOTmg0UH6Og9hpMtHAGvykjGDTYJP0A7jHYXSdwBoZrb5Y21Dg==",
+      "upstreamShasum": "e98f1efd68d8c46359d07886076d8e288936d897",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.1.5",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-01E4mCWuRdECGDyDkhQCwvsK7DzSK7O6WV7ecOTmg0UH6Og9hpMtHAGvykjGDTYJP0A7jHYXSdwBoZrb5Y21Dg==",
+          "shasum": "e98f1efd68d8c46359d07886076d8e288936d897"
+        }
+      }
+    },
+    {
+      "version": "0.1.6",
+      "variantId": "registry-package.openupm.com-45a6bb115cfc18bc",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "b1717eb21dfd01c214d5eb8c934e3a768f6594ba",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.1.6.tgz",
+      "upstreamIntegrity": "sha512-1zNG1GkzVsV/JXlK3Mak6iUzotjO4b4QTlNXCGMeYdwXY1GMoQNHZDEkxveal57XzI1za8xPR+WfUW3OEXiWzA==",
+      "upstreamShasum": "10d42ca5f232dd7ba95397d7ae18f1e891a5e792",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.1.6",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1zNG1GkzVsV/JXlK3Mak6iUzotjO4b4QTlNXCGMeYdwXY1GMoQNHZDEkxveal57XzI1za8xPR+WfUW3OEXiWzA==",
+          "shasum": "10d42ca5f232dd7ba95397d7ae18f1e891a5e792"
+        }
+      }
+    },
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-1df68c087d045fe7",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "4d2152b45d204b459d4f092c48374c5c86cfb2c7",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-12+NxV+KtxpENi2fwUYU4u+PyDWaCGyGF++k0NCDwP3eTttclb6Fo6dTUE6k1Z3oRadbTf+rbGIoJonyChVrrw==",
+      "upstreamShasum": "fe3e8f060427885df93918e65f933749c4f94196",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.2.0",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-12+NxV+KtxpENi2fwUYU4u+PyDWaCGyGF++k0NCDwP3eTttclb6Fo6dTUE6k1Z3oRadbTf+rbGIoJonyChVrrw==",
+          "shasum": "fe3e8f060427885df93918e65f933749c4f94196"
+        }
+      }
+    },
+    {
+      "version": "0.2.1",
+      "variantId": "registry-package.openupm.com-17e22fe462c2e440",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "4cb041a1036a7bc11e52056b8822677e152aeda6",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.2.1.tgz",
+      "upstreamIntegrity": "sha512-gcz9Fvv3wMHsgyrEVMpZt44eLLCDd0srG3yZ4AuNTFDGU/ZnF+hCFnmkyMd0IUCPt/VbXRiOCobgIGTqbaEOXg==",
+      "upstreamShasum": "5a88ae50e43e499a235d31ac280aa2962047668f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.2.1",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gcz9Fvv3wMHsgyrEVMpZt44eLLCDd0srG3yZ4AuNTFDGU/ZnF+hCFnmkyMd0IUCPt/VbXRiOCobgIGTqbaEOXg==",
+          "shasum": "5a88ae50e43e499a235d31ac280aa2962047668f"
+        }
+      }
+    },
+    {
+      "version": "0.2.2",
+      "variantId": "registry-package.openupm.com-f7f84f6c0172b8f4",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "fe6aab59fabc94e03d451b36086013a421912d97",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.2.2.tgz",
+      "upstreamIntegrity": "sha512-3+oiBWATofro/ZvctSU4e8hwYs2w+Qe8O4EilYj0XKK2Ncwdxg21KykegwA83JvjZ4LWvkmePVg5bkoXzIjnMA==",
+      "upstreamShasum": "899e1626f447c197a765bfbc1437ecdcdae410d8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.2.2",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3+oiBWATofro/ZvctSU4e8hwYs2w+Qe8O4EilYj0XKK2Ncwdxg21KykegwA83JvjZ4LWvkmePVg5bkoXzIjnMA==",
+          "shasum": "899e1626f447c197a765bfbc1437ecdcdae410d8"
+        }
+      }
+    },
+    {
+      "version": "0.2.3",
+      "variantId": "registry-package.openupm.com-9b5affd424424c0b",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "f3f567edb1180e008b318079bdf880d9616c289a",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.2.3.tgz",
+      "upstreamIntegrity": "sha512-4fPCkrlK81q9PZWR5pGF7e+bczgtQIGfFbDbe32UX4j21cXB6PAEAb5wbVLZLhODCSJYc47onOvhzb9nkvJ0UA==",
+      "upstreamShasum": "2223e34a7ff154ae00b4632dcfb56484978526c2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.2.3",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4fPCkrlK81q9PZWR5pGF7e+bczgtQIGfFbDbe32UX4j21cXB6PAEAb5wbVLZLhODCSJYc47onOvhzb9nkvJ0UA==",
+          "shasum": "2223e34a7ff154ae00b4632dcfb56484978526c2"
+        }
+      }
+    },
+    {
+      "version": "0.2.4",
+      "variantId": "registry-package.openupm.com-57d8742427a7ba1b",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "56c59ec2c41f260b90b1ebe8fdd323918184242c",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.2.4.tgz",
+      "upstreamIntegrity": "sha512-aGJ5UB+pvV/RR3KC0AUDAN5/dsUbEYXBmlH3Y6+VV/ljTiqo1ukr+9UwIUHjNacNGDYVghEt/+OXIabMsGwjzA==",
+      "upstreamShasum": "4a7ac5411b4af1521b411c90451ca6eae40ed134",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.2.4",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-aGJ5UB+pvV/RR3KC0AUDAN5/dsUbEYXBmlH3Y6+VV/ljTiqo1ukr+9UwIUHjNacNGDYVghEt/+OXIabMsGwjzA==",
+          "shasum": "4a7ac5411b4af1521b411c90451ca6eae40ed134"
+        }
+      }
+    },
+    {
+      "version": "0.2.6",
+      "variantId": "registry-package.openupm.com-7c721c77f6731f0e",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "0cdad5a114491b737567ce7f25ec3e5aa8db7e09",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.2.6.tgz",
+      "upstreamIntegrity": "sha512-Fb16IwsJ8iUdAWbL+JPyd6iIaXXnTnu6GjMnKNplj0lFlsJihmaW5CPNTkGuSU3SuPf/SQ7UfB5kbI3ylsc1rg==",
+      "upstreamShasum": "4447888c6134214706e79a57419d222cae162152",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.2.6",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Fb16IwsJ8iUdAWbL+JPyd6iIaXXnTnu6GjMnKNplj0lFlsJihmaW5CPNTkGuSU3SuPf/SQ7UfB5kbI3ylsc1rg==",
+          "shasum": "4447888c6134214706e79a57419d222cae162152"
+        }
+      }
+    },
+    {
+      "version": "0.2.7",
+      "variantId": "registry-package.openupm.com-349cc48447d54d29",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "4678f92435dedfb28398cc495a8217bb0a0964d4",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.2.7.tgz",
+      "upstreamIntegrity": "sha512-jxUlp2dBv10TLE+KyryK9I9l5LHmB81ciA4JC6nrJjXLlX69iTm86T0P7fMx2jZGRAUIOOY9Yp5jKZF/PsRZcw==",
+      "upstreamShasum": "88602c7d1d2afe03c4824d131ecec4a45e14c618",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.2.7",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jxUlp2dBv10TLE+KyryK9I9l5LHmB81ciA4JC6nrJjXLlX69iTm86T0P7fMx2jZGRAUIOOY9Yp5jKZF/PsRZcw==",
+          "shasum": "88602c7d1d2afe03c4824d131ecec4a45e14c618"
+        }
+      }
+    },
+    {
+      "version": "0.2.8",
+      "variantId": "registry-package.openupm.com-711f2ff56e119ca1",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "6fdb7dd49cbd7635481a465620a465f098fb503e",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.2.8.tgz",
+      "upstreamIntegrity": "sha512-XJXqeZ0U6/LJ6OB9fcfyJlCxByLp7Lcskd8wl9WCG5gtQzDzQxMr/G8TyryyVz6JOoUdyItBi6nMfrfBAyfSRw==",
+      "upstreamShasum": "ee1d70df1f01bbf2838c3bb3adafc1a154c0d0e6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.demigiant.dotween": "1.2.632"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.2.8",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XJXqeZ0U6/LJ6OB9fcfyJlCxByLp7Lcskd8wl9WCG5gtQzDzQxMr/G8TyryyVz6JOoUdyItBi6nMfrfBAyfSRw==",
+          "shasum": "ee1d70df1f01bbf2838c3bb3adafc1a154c0d0e6"
+        }
+      }
+    },
+    {
+      "version": "0.3.0",
+      "variantId": "registry-package.openupm.com-2d859f1e6683a35f",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "3bb21923f3d26ed7d915378917523d51fae1e04d",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.3.0.tgz",
+      "upstreamIntegrity": "sha512-avGPhNrhfGC3hJbBhK54+12pF5fThUS3pZ9vlxNnZAOrl0UmndfQ9SNapUMZAjkW8W0i+Cnm/qkg6MJqTmKh0Q==",
+      "upstreamShasum": "a750ae646b7c4613af7ce0bbbcfa419c4f42ef16",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.demigiant.dotween": "1.2.632"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.3.0",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-avGPhNrhfGC3hJbBhK54+12pF5fThUS3pZ9vlxNnZAOrl0UmndfQ9SNapUMZAjkW8W0i+Cnm/qkg6MJqTmKh0Q==",
+          "shasum": "a750ae646b7c4613af7ce0bbbcfa419c4f42ef16"
+        }
+      }
+    },
+    {
+      "version": "0.3.1",
+      "variantId": "registry-package.openupm.com-7754d734eadee593",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "efa61e3ffe8f493644ebf13a2428cd4b5cc79d04",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.3.1.tgz",
+      "upstreamIntegrity": "sha512-vQWAgOLwVmYnLm8LnkxAnCPEDrHVs8oNS50tYUlw2PXSrzvZtRefw4XnrhXEU9tuMToPaHRKI97Zg6kw3517lA==",
+      "upstreamShasum": "d05f1dcd270bf7617d596259cf6172e1825fe9d8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.demigiant.dotween": "1.2.632"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.3.1",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vQWAgOLwVmYnLm8LnkxAnCPEDrHVs8oNS50tYUlw2PXSrzvZtRefw4XnrhXEU9tuMToPaHRKI97Zg6kw3517lA==",
+          "shasum": "d05f1dcd270bf7617d596259cf6172e1825fe9d8"
+        }
+      }
+    },
+    {
+      "version": "0.3.3",
+      "variantId": "registry-package.openupm.com-d30475b43d731d80",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "f7544c38635e439089b09bc8d81e4ac8c63cc4d4",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.3.3.tgz",
+      "upstreamIntegrity": "sha512-40m+wAOmGX1tDdcGqluGm+qL4FSRs9PESZzIMpm/lS5bQySHvzi5aQfa6/KUT1StT61ou0t3Fp3qK3zv5PT4YA==",
+      "upstreamShasum": "62838b6ac09ac03ff135756349863ba125522c7c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.demigiant.dotween": "1.2.632"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.3.3",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-40m+wAOmGX1tDdcGqluGm+qL4FSRs9PESZzIMpm/lS5bQySHvzi5aQfa6/KUT1StT61ou0t3Fp3qK3zv5PT4YA==",
+          "shasum": "62838b6ac09ac03ff135756349863ba125522c7c"
+        }
+      }
+    },
+    {
+      "version": "0.3.4",
+      "variantId": "registry-package.openupm.com-d93e9c063b9e4a77",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "b44afcbb3879e1d9b9e579ffec0c7b369b2844e6",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.3.4.tgz",
+      "upstreamIntegrity": "sha512-duK/HQjwgdOeY9XSDRhf1xCAZqQ+oiVeUU8OB9aJKiAkrKWW8E3vYDDDBOEciLOZixdpo0LImDLyzKG3RqN7Sw==",
+      "upstreamShasum": "fc773c56bba7cdfdda39749846051f2b1031c74d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.demigiant.dotween": "1.2.632"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.3.4",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-duK/HQjwgdOeY9XSDRhf1xCAZqQ+oiVeUU8OB9aJKiAkrKWW8E3vYDDDBOEciLOZixdpo0LImDLyzKG3RqN7Sw==",
+          "shasum": "fc773c56bba7cdfdda39749846051f2b1031c74d"
+        }
+      }
+    },
+    {
+      "version": "0.3.5",
+      "variantId": "registry-package.openupm.com-15533b98a9789938",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "ed38210bfc9540253786c44c728513f663be1c39",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.3.5.tgz",
+      "upstreamIntegrity": "sha512-TGLZPMqa/fnUK+WYeHO9kF1x0ZJQr0jol1yTaf5F1mzIilRjIHZkGDo0W5vSgnjDtJqd9DmdY3mm21ADmPBrAQ==",
+      "upstreamShasum": "0ef877f3ec4ad11a8f7f17f6a22971456650cd04",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.demigiant.dotween": "1.2.632"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.3.5",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TGLZPMqa/fnUK+WYeHO9kF1x0ZJQr0jol1yTaf5F1mzIilRjIHZkGDo0W5vSgnjDtJqd9DmdY3mm21ADmPBrAQ==",
+          "shasum": "0ef877f3ec4ad11a8f7f17f6a22971456650cd04"
+        }
+      }
+    },
+    {
+      "version": "0.3.6",
+      "variantId": "registry-package.openupm.com-3bb72355ba21d37f",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "2ff996f7f28dece69f10ef8092e40a82018fbfea",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.3.6.tgz",
+      "upstreamIntegrity": "sha512-8fw+9J4x721he2anZkHM8vKlw8R61I8eOX8ZoN3w8Jka8B2LjhBWwd+7ZOOvrPb015MNNORBwh3lXEwMYsYVOQ==",
+      "upstreamShasum": "5aa3fe062adcc7e402fa755cf6e10784f1a5979a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.demigiant.dotween": "1.2.632"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.3.6",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8fw+9J4x721he2anZkHM8vKlw8R61I8eOX8ZoN3w8Jka8B2LjhBWwd+7ZOOvrPb015MNNORBwh3lXEwMYsYVOQ==",
+          "shasum": "5aa3fe062adcc7e402fa755cf6e10784f1a5979a"
+        }
+      }
+    },
+    {
+      "version": "0.3.8",
+      "variantId": "registry-package.openupm.com-f8877895421c514b",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "6c6a1caf12aca1b4f2290d34c9fecd8cd6eaf000",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.3.8.tgz",
+      "upstreamIntegrity": "sha512-4LTVdO7SzNQCB5stsKMBjfi3BLETeWRUTCJg3hgPiHsh/lOZ/UE/sKJoL5HkTlSu+NDhxGRJkpi97GTKfJ0o4w==",
+      "upstreamShasum": "005db6538fa55a7c680bb3ac5681354d5ff5b2f4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.3.8",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4LTVdO7SzNQCB5stsKMBjfi3BLETeWRUTCJg3hgPiHsh/lOZ/UE/sKJoL5HkTlSu+NDhxGRJkpi97GTKfJ0o4w==",
+          "shasum": "005db6538fa55a7c680bb3ac5681354d5ff5b2f4"
+        }
+      }
+    },
+    {
+      "version": "0.3.9",
+      "variantId": "registry-package.openupm.com-619850fd8fc56697",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "081a71312ae85118703a3bd6ce5922d27a67ea41",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.3.9.tgz",
+      "upstreamIntegrity": "sha512-MMKRTnjFeBnugmsV+JtnUU+ahNoLt1R6szsZDRpKWdIXArsi4hBrMRSzpyyU3sYtLrlmU5MFv711mI4wSmhxPA==",
+      "upstreamShasum": "854043c2ee6fdf4816a414392f32c6b2c3d1a8d3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.3.9",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MMKRTnjFeBnugmsV+JtnUU+ahNoLt1R6szsZDRpKWdIXArsi4hBrMRSzpyyU3sYtLrlmU5MFv711mI4wSmhxPA==",
+          "shasum": "854043c2ee6fdf4816a414392f32c6b2c3d1a8d3"
+        }
+      }
+    },
+    {
+      "version": "0.4.0",
+      "variantId": "registry-package.openupm.com-057359b79b95760b",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "327087f7d5ef6ec20b02c8f46ea1dc7661896d66",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.4.0.tgz",
+      "upstreamIntegrity": "sha512-kShpHL7QG7JDWmwt8uMYO3hzp4H3Rv2jSPotE6LH6YZ1k3DWRj6ChwP8FpkiuC+m5BFbOnXO8w3k1WascSnRlA==",
+      "upstreamShasum": "1871d49b834c932de90f647128cba4795905d43b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.4.0",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kShpHL7QG7JDWmwt8uMYO3hzp4H3Rv2jSPotE6LH6YZ1k3DWRj6ChwP8FpkiuC+m5BFbOnXO8w3k1WascSnRlA==",
+          "shasum": "1871d49b834c932de90f647128cba4795905d43b"
+        }
+      }
+    },
+    {
+      "version": "0.5.0",
+      "variantId": "registry-package.openupm.com-c65719d4f6531fef",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "d6cb37083b40adbc88e2a7dab04cf5f6c975bd0a",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.5.0.tgz",
+      "upstreamIntegrity": "sha512-SgKfZajITQHfzDpzjTZQrmUgtMQAzYcHhzMv5osBOpNGwhZIY1+y5O75IEHOE/WvKRv84YF527wDmYxbAiAirA==",
+      "upstreamShasum": "81c5a19d1b5d2b2d95279a7df1009c9dc7fb0a83",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.5.0",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SgKfZajITQHfzDpzjTZQrmUgtMQAzYcHhzMv5osBOpNGwhZIY1+y5O75IEHOE/WvKRv84YF527wDmYxbAiAirA==",
+          "shasum": "81c5a19d1b5d2b2d95279a7df1009c9dc7fb0a83"
+        }
+      }
+    },
+    {
+      "version": "0.5.1",
+      "variantId": "registry-package.openupm.com-7524d4673d9d88dc",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "72577af1b1d7c8478307147c59c8e256330a5cd3",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.5.1.tgz",
+      "upstreamIntegrity": "sha512-5GpwPCjIVXagCjkVVQXNTHn1sPyZBPgaIKiom5Vsn+pVbHNsoC0d6r7+R8gzhM+iJ8HH+Axbdogoe63oFruBEQ==",
+      "upstreamShasum": "e893a48dcc13d6ad47da6ffe110f689a01373dea",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.5.1",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5GpwPCjIVXagCjkVVQXNTHn1sPyZBPgaIKiom5Vsn+pVbHNsoC0d6r7+R8gzhM+iJ8HH+Axbdogoe63oFruBEQ==",
+          "shasum": "e893a48dcc13d6ad47da6ffe110f689a01373dea"
+        }
+      }
+    },
+    {
+      "version": "0.5.2",
+      "variantId": "registry-package.openupm.com-42c2d92ecf30056a",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "07b7ee81afcee90c4348513bb59eba2554f07e18",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.5.2.tgz",
+      "upstreamIntegrity": "sha512-SDWoLrg6QUYZ6kilLx1aP54UTCwZhx+iJyw9qtDRmx8q6O+sPdmdpk0+brIdPgJppy6PO5MqlxjPJw2i3XF2Wg==",
+      "upstreamShasum": "39721c82ebd6a4cea4a05d63fc7fe86d05e63dff",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.5.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SDWoLrg6QUYZ6kilLx1aP54UTCwZhx+iJyw9qtDRmx8q6O+sPdmdpk0+brIdPgJppy6PO5MqlxjPJw2i3XF2Wg==",
+          "shasum": "39721c82ebd6a4cea4a05d63fc7fe86d05e63dff"
+        }
+      }
+    },
+    {
+      "version": "0.5.3",
+      "variantId": "registry-package.openupm.com-fb79e5a8d8b6669b",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "28a13b491cc49e39a75a0f8d145b53452aebfb7d",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.5.3.tgz",
+      "upstreamIntegrity": "sha512-O6YD233QgGByf4Syq+cB3kdlqS+4HAwAh9JJ1rE0SqusD2PSyQgnYCIpJipvXTUPV28j0FOOxmBs/Q/jQo+h/w==",
+      "upstreamShasum": "0e012ea093751dc40cdaa4658dc4941f1dd93258",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.5.3",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-O6YD233QgGByf4Syq+cB3kdlqS+4HAwAh9JJ1rE0SqusD2PSyQgnYCIpJipvXTUPV28j0FOOxmBs/Q/jQo+h/w==",
+          "shasum": "0e012ea093751dc40cdaa4658dc4941f1dd93258"
+        }
+      }
+    },
+    {
+      "version": "0.5.4",
+      "variantId": "registry-package.openupm.com-ec63a47bff3c7832",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "a786134e17ad4d30d8c3272d7625ef3e43afc7d5",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.5.4.tgz",
+      "upstreamIntegrity": "sha512-aJgfoyEP4XILeXhGxSE77mBTgq79vTfcXbgDDVPcVf1/pcXLMykhyiyqiLgnkkq/U2jzcivcVo1OxQxuY4tnZg==",
+      "upstreamShasum": "0bad5fe6dced6670671070cc3759bba9d03941fd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.5.4",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-aJgfoyEP4XILeXhGxSE77mBTgq79vTfcXbgDDVPcVf1/pcXLMykhyiyqiLgnkkq/U2jzcivcVo1OxQxuY4tnZg==",
+          "shasum": "0bad5fe6dced6670671070cc3759bba9d03941fd"
+        }
+      }
+    },
+    {
+      "version": "0.5.5",
+      "variantId": "registry-package.openupm.com-b40074e8fa66e692",
+      "sourceUrl": "https://github.com/brunomikoski/Animation-Sequencer.git",
+      "sourceRef": "1ed78c4c69ccf295d02098da2ae31e44a5dd16fa",
+      "downloadUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/-/com.brunomikoski.animationsequencer-0.5.5.tgz",
+      "upstreamIntegrity": "sha512-o40fzbRxbqk1TICfGuV8ToAwhob8vhEHsCe7sddTTklBrsKO4UMwk1jYii7K+RKozn3ryjlygLa1JRRm7/KCjg==",
+      "upstreamShasum": "243cdf05289f3d2d1ff1c0c5d676ae7246295fa2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.brunomikoski.animationsequencer/0.5.5",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-o40fzbRxbqk1TICfGuV8ToAwhob8vhEHsCe7sddTTklBrsKO4UMwk1jYii7K+RKozn3ryjlygLa1JRRm7/KCjg==",
+          "shasum": "243cdf05289f3d2d1ff1c0c5d676ae7246295fa2"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.5.5"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.brunomikoski.animationsequencer.yml",
+  "definitionBlobSha": "78db849dc4d6447a24ff3063d063eee530d99bd9",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.1.6",
+    "0.5.5",
+    "0.1.5"
+  ],
+  "targetVersions": [
+    "0.1.6"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 29,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

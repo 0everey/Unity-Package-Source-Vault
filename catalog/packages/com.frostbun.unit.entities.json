@@ -1,0 +1,3839 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.frostbun.unit.entities",
+  "displayName": "com.frostbun.unit.entities",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "fetchedAt": "2026-10-17T17:37:59.160341Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-0c5ea18044c6713e",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "8861840255d937d7b2b13641d1cb48c770cd756d",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-mFYj2ecoO2PyvZq2jvbSuITZgCpVVbaa7EOrIzPrBH/IoPm0w1SKBl7VXibaRrz6NGaOIgGIOOnwDEDPgKH+DA==",
+      "upstreamShasum": "b9a4538681f1fc5fadac80a552d4daa2f0d68f34",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.15",
+        "com.frostbun.unit.logging": "1.0.0",
+        "com.frostbun.unit.pooling": "1.0.0",
+        "com.frostbun.unit.di": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mFYj2ecoO2PyvZq2jvbSuITZgCpVVbaa7EOrIzPrBH/IoPm0w1SKBl7VXibaRrz6NGaOIgGIOOnwDEDPgKH+DA==",
+          "shasum": "b9a4538681f1fc5fadac80a552d4daa2f0d68f34"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-93162b0fc2753606",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "e684ea8d2a270aea18dc2fb0f5fa83f57c3a5704",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-ObaVNj4Rrr5AZzMxVTAWdunbm1Rulw48Tf8yv385gRF64le/gmDzlLkAaVoJdGK+pFS45fzDE1KzPUEkwJEVDg==",
+      "upstreamShasum": "11a1c399f2476342894e7d9c548e2b1db8c82338",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.16",
+        "com.frostbun.unit.logging": "1.0.0",
+        "com.frostbun.unit.pooling": "1.0.0",
+        "com.frostbun.unit.di": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ObaVNj4Rrr5AZzMxVTAWdunbm1Rulw48Tf8yv385gRF64le/gmDzlLkAaVoJdGK+pFS45fzDE1KzPUEkwJEVDg==",
+          "shasum": "11a1c399f2476342894e7d9c548e2b1db8c82338"
+        }
+      }
+    },
+    {
+      "version": "1.0.2",
+      "variantId": "registry-package.openupm.com-bf536d275b940614",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "53f9d823df91d6571120dc5cfff40a30d840d830",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.2.tgz",
+      "upstreamIntegrity": "sha512-LLn1zpV6rTkN2oZa+P6COcNl8O7xYkJmhizyZkzytz4bAX4UFXYqzw4MQYsFEzeACLhrBdZAbmKS0iK6SkLCZQ==",
+      "upstreamShasum": "b2a5d667df164a62c4f3d6c14670a3fd49b59955",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.18",
+        "com.frostbun.unit.logging": "1.0.2",
+        "com.frostbun.unit.pooling": "1.0.1",
+        "com.frostbun.unit.di": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LLn1zpV6rTkN2oZa+P6COcNl8O7xYkJmhizyZkzytz4bAX4UFXYqzw4MQYsFEzeACLhrBdZAbmKS0iK6SkLCZQ==",
+          "shasum": "b2a5d667df164a62c4f3d6c14670a3fd49b59955"
+        }
+      }
+    },
+    {
+      "version": "1.0.3",
+      "variantId": "registry-package.openupm.com-cbe99dcb83a79700",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "43a99620c4110d6f7e01cc89aa61d319e3177718",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.3.tgz",
+      "upstreamIntegrity": "sha512-sZT4FU1zFDJVKOXB7IfBQ7dCXHvzDprkhhqbuH4slEZZH5ABUdQlm8dKTuYxNehWmeTSGrsP80y6drOztXxu7Q==",
+      "upstreamShasum": "4ea8db6581221c7f8744c3f9d61d82bc191d21a5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.19",
+        "com.frostbun.unit.logging": "1.0.3",
+        "com.frostbun.unit.pooling": "1.0.2",
+        "com.frostbun.unit.di": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sZT4FU1zFDJVKOXB7IfBQ7dCXHvzDprkhhqbuH4slEZZH5ABUdQlm8dKTuYxNehWmeTSGrsP80y6drOztXxu7Q==",
+          "shasum": "4ea8db6581221c7f8744c3f9d61d82bc191d21a5"
+        }
+      }
+    },
+    {
+      "version": "1.0.4",
+      "variantId": "registry-package.openupm.com-42cb65902808353a",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "01c7f05db8b4254e82a592a13d1c956ebcdbaf3e",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.4.tgz",
+      "upstreamIntegrity": "sha512-lLE+OADpyTD9apvfAZWhK7cvbHBCIXeHYf19JRDPywp4zYs6aMP1OvhBiviDYhn0A3FfXD4oQiZkZJj5RI+hQQ==",
+      "upstreamShasum": "66123d4fc28ea8f4728b85a57c7672c084ee4457",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.19",
+        "com.frostbun.unit.logging": "1.0.3",
+        "com.frostbun.unit.pooling": "1.0.2",
+        "com.frostbun.unit.di": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lLE+OADpyTD9apvfAZWhK7cvbHBCIXeHYf19JRDPywp4zYs6aMP1OvhBiviDYhn0A3FfXD4oQiZkZJj5RI+hQQ==",
+          "shasum": "66123d4fc28ea8f4728b85a57c7672c084ee4457"
+        }
+      }
+    },
+    {
+      "version": "1.0.5",
+      "variantId": "registry-package.openupm.com-d7f3eb6da00aa71c",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "11579091547381adfa3b8919bc0fd6a86968d45b",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.5.tgz",
+      "upstreamIntegrity": "sha512-fnqBkstjUqTMg35eJphTvEmI75FzDfyHLkixw4N7VDxB8VG/bUMi7XRO+gMItGwzhumXGZ+6/KxJqo+NyY/seA==",
+      "upstreamShasum": "d12459d6be72cfe785aac12d769077896214be1c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.22",
+        "com.frostbun.unit.logging": "1.0.3",
+        "com.frostbun.unit.pooling": "1.0.3",
+        "com.frostbun.unit.di": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.5",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fnqBkstjUqTMg35eJphTvEmI75FzDfyHLkixw4N7VDxB8VG/bUMi7XRO+gMItGwzhumXGZ+6/KxJqo+NyY/seA==",
+          "shasum": "d12459d6be72cfe785aac12d769077896214be1c"
+        }
+      }
+    },
+    {
+      "version": "1.0.6",
+      "variantId": "registry-package.openupm.com-f31d067053d15b91",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "1f6cae2f98d7a40a8b0a036bc61d1292023d2308",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.6.tgz",
+      "upstreamIntegrity": "sha512-Gl9rxj/JAP3oiex07H9wqMHYryAoxJJCgVDMG7uCWwnR965QF8OcYP1fVB3/rLmnrBQGtWXUl0n7e2JmOBtkmw==",
+      "upstreamShasum": "5fb710bd704fcef513a01e09f2ac4e9ca48b3a72",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.22",
+        "com.frostbun.unit.logging": "1.0.3",
+        "com.frostbun.unit.pooling": "1.0.3",
+        "com.frostbun.unit.di": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.6",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Gl9rxj/JAP3oiex07H9wqMHYryAoxJJCgVDMG7uCWwnR965QF8OcYP1fVB3/rLmnrBQGtWXUl0n7e2JmOBtkmw==",
+          "shasum": "5fb710bd704fcef513a01e09f2ac4e9ca48b3a72"
+        }
+      }
+    },
+    {
+      "version": "1.0.7",
+      "variantId": "registry-package.openupm.com-a66531ad776290d1",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "e3583a98db275f13fb0d56da5bb139fba2982e2e",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.7.tgz",
+      "upstreamIntegrity": "sha512-vStukryxWdzGOtpsai4UUAQEscwvsRptJLZjpkFmSzVifypKVRgy+mIHkhBlcufendIYG0lIMfJPZeJ9833mkg==",
+      "upstreamShasum": "6c62486cc75fe4d4a27b8df6abc6795ef48cb521",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.28",
+        "com.frostbun.unit.logging": "1.0.4",
+        "com.frostbun.unit.pooling": "1.0.5",
+        "com.frostbun.unit.di": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.7",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vStukryxWdzGOtpsai4UUAQEscwvsRptJLZjpkFmSzVifypKVRgy+mIHkhBlcufendIYG0lIMfJPZeJ9833mkg==",
+          "shasum": "6c62486cc75fe4d4a27b8df6abc6795ef48cb521"
+        }
+      }
+    },
+    {
+      "version": "1.0.8",
+      "variantId": "registry-package.openupm.com-5496f57af130b900",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "5a7f0c4e29ba07b4c83eb11f4f122f7be3746deb",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.8.tgz",
+      "upstreamIntegrity": "sha512-b2lSOuMA/Gr0ot9YcNMU73d1wssObi1MNPYbhFVpj3pjXHMI/qk8MH/eq/M+zaC74qZtHKFdpe8P2onyCzWY2g==",
+      "upstreamShasum": "4a2107b3c5e70c634f4487066a868e20ee32fc73",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.28",
+        "com.frostbun.unit.logging": "1.0.4",
+        "com.frostbun.unit.pooling": "1.0.5",
+        "com.frostbun.unit.di": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.8",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-b2lSOuMA/Gr0ot9YcNMU73d1wssObi1MNPYbhFVpj3pjXHMI/qk8MH/eq/M+zaC74qZtHKFdpe8P2onyCzWY2g==",
+          "shasum": "4a2107b3c5e70c634f4487066a868e20ee32fc73"
+        }
+      }
+    },
+    {
+      "version": "1.0.9",
+      "variantId": "registry-package.openupm.com-a4029d85c855226a",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "8c0938f8afd3f812255a59b663b40693f3b42e0c",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.9.tgz",
+      "upstreamIntegrity": "sha512-85BkpJua1u0zTSitGFq32jPetKDhCvzIigjp8UEbW6j6SEtovuTd9PS+fDA2ONBIFRDE1pAgOAzpqoNrJCYKSA==",
+      "upstreamShasum": "0404b0f5ca40eafc2d4739294969af5f9c66568b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.28",
+        "com.frostbun.unit.logging": "1.0.4",
+        "com.frostbun.unit.pooling": "1.0.5",
+        "com.frostbun.unit.di": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.9",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-85BkpJua1u0zTSitGFq32jPetKDhCvzIigjp8UEbW6j6SEtovuTd9PS+fDA2ONBIFRDE1pAgOAzpqoNrJCYKSA==",
+          "shasum": "0404b0f5ca40eafc2d4739294969af5f9c66568b"
+        }
+      }
+    },
+    {
+      "version": "1.0.10",
+      "variantId": "registry-package.openupm.com-4047a475faaa84c9",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "90630dff62b54e15190fa20d3c983df72c6f29d4",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.10.tgz",
+      "upstreamIntegrity": "sha512-xPLKamY/AWSo1EezsbNJsATmuq2+RmaHZkPuRit4fG+TQIXdfMDJ0CAXwVjZuTgErsWi0TCB9opUbwd3SxdSJg==",
+      "upstreamShasum": "f0a22903f3665978dc443c3676dc98f1c2cdf175",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.28",
+        "com.frostbun.unit.logging": "1.0.4",
+        "com.frostbun.unit.pooling": "1.0.5",
+        "com.frostbun.unit.di": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.10",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xPLKamY/AWSo1EezsbNJsATmuq2+RmaHZkPuRit4fG+TQIXdfMDJ0CAXwVjZuTgErsWi0TCB9opUbwd3SxdSJg==",
+          "shasum": "f0a22903f3665978dc443c3676dc98f1c2cdf175"
+        }
+      }
+    },
+    {
+      "version": "1.0.11",
+      "variantId": "registry-package.openupm.com-01f9d12ef923f2f3",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "0852c695ec38b67133a27baf7b2f969cc53af4f4",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.11.tgz",
+      "upstreamIntegrity": "sha512-uIeklYdBkqNzFZ98MAM+rX+UXW/Ns715sDfasLHqD81nMTKdJqu7IDETjbOkaIV5hYlWAdW7uUMrSX8sJOaoAw==",
+      "upstreamShasum": "0a956ca383be1514b1b70d3734cba2661b02aa13",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.36",
+        "com.frostbun.unit.logging": "1.0.4",
+        "com.frostbun.unit.pooling": "1.0.7",
+        "com.frostbun.unit.di": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.11",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uIeklYdBkqNzFZ98MAM+rX+UXW/Ns715sDfasLHqD81nMTKdJqu7IDETjbOkaIV5hYlWAdW7uUMrSX8sJOaoAw==",
+          "shasum": "0a956ca383be1514b1b70d3734cba2661b02aa13"
+        }
+      }
+    },
+    {
+      "version": "1.0.12",
+      "variantId": "registry-package.openupm.com-d331ebdeb9ba8989",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "5f456fc9874454076d4f69a14429a81cd73e9eb3",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.12.tgz",
+      "upstreamIntegrity": "sha512-OJUl4kF/DE9QrOVEQFdwDyfS+fKIjU/SlzBMPs+ocWtUCykl7+Vzd6VvSiGRW5tuVIiiFwl1nN3Pg3owLCLULg==",
+      "upstreamShasum": "9f9dc41b92c2fec3653566baca06dc161312fa6d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.36",
+        "com.frostbun.unit.logging": "1.0.4",
+        "com.frostbun.unit.pooling": "1.0.7",
+        "com.frostbun.unit.di": "1.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.12",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OJUl4kF/DE9QrOVEQFdwDyfS+fKIjU/SlzBMPs+ocWtUCykl7+Vzd6VvSiGRW5tuVIiiFwl1nN3Pg3owLCLULg==",
+          "shasum": "9f9dc41b92c2fec3653566baca06dc161312fa6d"
+        }
+      }
+    },
+    {
+      "version": "1.0.13",
+      "variantId": "registry-package.openupm.com-909a85f92553ac8a",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "3d21e5d66a39aabd969f0907ee0d41826fd9181a",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.13.tgz",
+      "upstreamIntegrity": "sha512-NbXcQfBo52zeo5Dtr/QmZJZGP/ZhUNp4ijG5X5RPhWtMGWVxogUILCnCvCnH7wM/aN5msz6FGz/kFl9P5kVbnw==",
+      "upstreamShasum": "51f1d8a6de1ac12ffaff7cebf6dd708e829b6960",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.36",
+        "com.frostbun.unit.logging": "1.0.5",
+        "com.frostbun.unit.pooling": "1.0.8",
+        "com.frostbun.unit.di": "1.0.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.13",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NbXcQfBo52zeo5Dtr/QmZJZGP/ZhUNp4ijG5X5RPhWtMGWVxogUILCnCvCnH7wM/aN5msz6FGz/kFl9P5kVbnw==",
+          "shasum": "51f1d8a6de1ac12ffaff7cebf6dd708e829b6960"
+        }
+      }
+    },
+    {
+      "version": "1.0.14",
+      "variantId": "registry-package.openupm.com-a851b605f93303b5",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "cdf85e33b5af531255dea265b2c04c199e1ab2ed",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.14.tgz",
+      "upstreamIntegrity": "sha512-RoYD50dgRuf0JIPrrEzqOQiZJRACjYGDXY0n1wDSZTpmb5VxXUNPlS4wOovjV1gkEBwWniknQClBkxNvYWif1w==",
+      "upstreamShasum": "7384cb3bfc292e0213be37a5be413c815ea6e349",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.39",
+        "com.frostbun.unit.logging": "1.0.6",
+        "com.frostbun.unit.pooling": "1.0.9",
+        "com.frostbun.unit.di": "1.0.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.14",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RoYD50dgRuf0JIPrrEzqOQiZJRACjYGDXY0n1wDSZTpmb5VxXUNPlS4wOovjV1gkEBwWniknQClBkxNvYWif1w==",
+          "shasum": "7384cb3bfc292e0213be37a5be413c815ea6e349"
+        }
+      }
+    },
+    {
+      "version": "1.0.15",
+      "variantId": "registry-package.openupm.com-fc9a4e6adc7f2f46",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "e9030fbf5f1be1bde74bf05805aafd7c754e9ff3",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.15.tgz",
+      "upstreamIntegrity": "sha512-oI+VPPW5Ogf6q7pB3C/llqsm6kITLukGnAWfBMQA5HXPHF62k6gxeKxvPO+QdKsrbEnfoQNLYLlfL9XV2Kdxhg==",
+      "upstreamShasum": "fcbb859cfc159ea221003a66cf7f851f042c044e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.41",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.9",
+        "com.frostbun.unit.di": "1.0.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.15",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oI+VPPW5Ogf6q7pB3C/llqsm6kITLukGnAWfBMQA5HXPHF62k6gxeKxvPO+QdKsrbEnfoQNLYLlfL9XV2Kdxhg==",
+          "shasum": "fcbb859cfc159ea221003a66cf7f851f042c044e"
+        }
+      }
+    },
+    {
+      "version": "1.0.16",
+      "variantId": "registry-package.openupm.com-e289917f701a4fa2",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "d222b384d0a19bc6fb3bfe233219351615c1cba2",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.16.tgz",
+      "upstreamIntegrity": "sha512-XjYzOMFTszesOhdG3zEm3Z2cO23bOSL8tDCxKaAawT5dsOLJyFpV67jhQBrJWGJjf6MRcVceYZNdBl4Y3m+2GQ==",
+      "upstreamShasum": "1470aad1d13b69cfe11d1e479c09aca4a1e9e81d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.41",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.10",
+        "com.frostbun.unit.di": "1.0.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.16",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XjYzOMFTszesOhdG3zEm3Z2cO23bOSL8tDCxKaAawT5dsOLJyFpV67jhQBrJWGJjf6MRcVceYZNdBl4Y3m+2GQ==",
+          "shasum": "1470aad1d13b69cfe11d1e479c09aca4a1e9e81d"
+        }
+      }
+    },
+    {
+      "version": "1.0.17",
+      "variantId": "registry-package.openupm.com-24a732f170958a12",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "2b3a3142a3372d8e0ff6f5add85a8ff4a9826898",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.17.tgz",
+      "upstreamIntegrity": "sha512-lOYOTXS3qzPn3wBynD4rGKx5AEB9OpuL9Ra/S/cRNAkmFERNm/yjZjyRdMZxUjp/y0sgbBcUrIVwAX7DOOVTxQ==",
+      "upstreamShasum": "5cb4a6326502c328ce541418383d4c32059bcf58",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.44",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.10",
+        "com.frostbun.unit.di": "1.0.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.17",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lOYOTXS3qzPn3wBynD4rGKx5AEB9OpuL9Ra/S/cRNAkmFERNm/yjZjyRdMZxUjp/y0sgbBcUrIVwAX7DOOVTxQ==",
+          "shasum": "5cb4a6326502c328ce541418383d4c32059bcf58"
+        }
+      }
+    },
+    {
+      "version": "1.0.18",
+      "variantId": "registry-package.openupm.com-a34f4f8663c36260",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "d661c6d35ffacb6997ce6a0a1d1d6e0c51ab7b8d",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.18.tgz",
+      "upstreamIntegrity": "sha512-kuvcnIVX9iqfTyjHPfe4aQA+iJEy7QQ6XNlfspc8LV0VCL802M0fziq3phtXXR5aQNnTT2ovmYHdSlTgwg3eQQ==",
+      "upstreamShasum": "0df65fc2541f27fabab3ba4f86e17778723f0d0d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.51",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.10",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.18",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kuvcnIVX9iqfTyjHPfe4aQA+iJEy7QQ6XNlfspc8LV0VCL802M0fziq3phtXXR5aQNnTT2ovmYHdSlTgwg3eQQ==",
+          "shasum": "0df65fc2541f27fabab3ba4f86e17778723f0d0d"
+        }
+      }
+    },
+    {
+      "version": "1.0.19",
+      "variantId": "registry-package.openupm.com-62b486832425f4dc",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "5e5066af136cf4c30aea24abf5b326eff8e65428",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.19.tgz",
+      "upstreamIntegrity": "sha512-lN5sHRDeqZe4TZznPpy+Ld2QZI/DY8lsLIB89LosVyeC91z85P7d1CR2vh46goMS87R0FGs/ZaGVqNH7lF36ug==",
+      "upstreamShasum": "fd28d80d37a66e4ca0604b69762a30533ed481bd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.51",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.10",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.19",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lN5sHRDeqZe4TZznPpy+Ld2QZI/DY8lsLIB89LosVyeC91z85P7d1CR2vh46goMS87R0FGs/ZaGVqNH7lF36ug==",
+          "shasum": "fd28d80d37a66e4ca0604b69762a30533ed481bd"
+        }
+      }
+    },
+    {
+      "version": "1.0.20",
+      "variantId": "registry-package.openupm.com-44e16a2cbfa768a0",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "55219d8db47004a8397a16cb51e7350e45e974ab",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.20.tgz",
+      "upstreamIntegrity": "sha512-Bzjiw2WqSAVFeo1/CmWgv88/a5cHFBWPrx50rL9lg8adce4Nd3NqIIXS78cMH42Jelg3bwGHvkAfuFpmCtvhrw==",
+      "upstreamShasum": "a6de61acabb79421d006984c5313b8ffcd2044df",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.51",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.11",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.20",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Bzjiw2WqSAVFeo1/CmWgv88/a5cHFBWPrx50rL9lg8adce4Nd3NqIIXS78cMH42Jelg3bwGHvkAfuFpmCtvhrw==",
+          "shasum": "a6de61acabb79421d006984c5313b8ffcd2044df"
+        }
+      }
+    },
+    {
+      "version": "1.0.21",
+      "variantId": "registry-package.openupm.com-759cd44a93ad5ec6",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "4a9b7ed0ccdf720019f6601909834f33929fefdd",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.21.tgz",
+      "upstreamIntegrity": "sha512-LaQ86zs+BH4e8s1CMkHnWrMYlLcCw60NCZ7BIMg1Cfko0x8N8R8Zp4KvfCm8Dg8/M70f5C7He0ceClhDb4iuCw==",
+      "upstreamShasum": "120127475e50ec0c11ff2906f0d4af51ef2f8919",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.51",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.11",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.21",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LaQ86zs+BH4e8s1CMkHnWrMYlLcCw60NCZ7BIMg1Cfko0x8N8R8Zp4KvfCm8Dg8/M70f5C7He0ceClhDb4iuCw==",
+          "shasum": "120127475e50ec0c11ff2906f0d4af51ef2f8919"
+        }
+      }
+    },
+    {
+      "version": "1.0.22",
+      "variantId": "registry-package.openupm.com-9c5d91f4ab8a1989",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "e3763891d123f42d153e1511651d8bee713cab3b",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.22.tgz",
+      "upstreamIntegrity": "sha512-gTpfC//9feXoBj/KGsU2TaXIufvEGqxoELy/7rz4XugphUBA4XPPBRCAffpscJuHR+dRwLOs0H27xDmmoN4Cug==",
+      "upstreamShasum": "ffd09f73cfbd4611c001b4bca55a385eff0d0864",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.51",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.11",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.22",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gTpfC//9feXoBj/KGsU2TaXIufvEGqxoELy/7rz4XugphUBA4XPPBRCAffpscJuHR+dRwLOs0H27xDmmoN4Cug==",
+          "shasum": "ffd09f73cfbd4611c001b4bca55a385eff0d0864"
+        }
+      }
+    },
+    {
+      "version": "1.0.23",
+      "variantId": "registry-package.openupm.com-c4f1153eb9abdc7b",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "9b76e0f290ffd09fb68770942143b16970d82018",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.23.tgz",
+      "upstreamIntegrity": "sha512-SFNK5K/6yzlx8JHuVKml+foPi52AJOj0d7wbW1fujE22NW3Dp5QUjRa7iL7VQoN49r/ufzC5wW+CNueZffchrg==",
+      "upstreamShasum": "6bdbf8137c4d7291c76b41ea1f7e9becc40cb053",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.51",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.12",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.23",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SFNK5K/6yzlx8JHuVKml+foPi52AJOj0d7wbW1fujE22NW3Dp5QUjRa7iL7VQoN49r/ufzC5wW+CNueZffchrg==",
+          "shasum": "6bdbf8137c4d7291c76b41ea1f7e9becc40cb053"
+        }
+      }
+    },
+    {
+      "version": "1.0.24",
+      "variantId": "registry-package.openupm.com-6400bb15ae7866d6",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "bb3da04e58590e72362231347b11054336756200",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.24.tgz",
+      "upstreamIntegrity": "sha512-+3gK3kxGK70p9NyhchX9jB1Fgmi8a1cTGD4xQRWAYghSfcQiGvI3UvSsf2NBGcO5O1d9A4o4WZpujYAhVs+i0g==",
+      "upstreamShasum": "91f250806edf71b643fd4ca6e864995d518123e0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.52",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.12",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.24",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+3gK3kxGK70p9NyhchX9jB1Fgmi8a1cTGD4xQRWAYghSfcQiGvI3UvSsf2NBGcO5O1d9A4o4WZpujYAhVs+i0g==",
+          "shasum": "91f250806edf71b643fd4ca6e864995d518123e0"
+        }
+      }
+    },
+    {
+      "version": "1.0.25",
+      "variantId": "registry-package.openupm.com-5c473c302b276dc8",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "480a25f9d70c3b6817f91f624c0e29ea1a026225",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.25.tgz",
+      "upstreamIntegrity": "sha512-8+e93EwBCZGvz6ELwWZmiBB/FWTZJxnLOcvxirGcI5omBxcwN0kqyyUUdJtO/Io84orWtK2OMpGgUV/GUyWdPA==",
+      "upstreamShasum": "10b030a51d181db1a062195973c6d49cd45d44e2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.53",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.13",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.25",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8+e93EwBCZGvz6ELwWZmiBB/FWTZJxnLOcvxirGcI5omBxcwN0kqyyUUdJtO/Io84orWtK2OMpGgUV/GUyWdPA==",
+          "shasum": "10b030a51d181db1a062195973c6d49cd45d44e2"
+        }
+      }
+    },
+    {
+      "version": "1.0.26",
+      "variantId": "registry-package.openupm.com-dd1c662aaaa74561",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "b6073a54883cd5a01eea69675ef8f43130685fe9",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.26.tgz",
+      "upstreamIntegrity": "sha512-WE98DsoOZHdvULMEj2Tu2XAgeYeHrOWEJb2iH07/OncSn7oVbYNyBPxVyjvbp06UIORNKAhmoaSR6vVeNxmtvg==",
+      "upstreamShasum": "0d6b17a5468cb3fca174b60b1697dcb639da69f5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.53",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.14",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.26",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WE98DsoOZHdvULMEj2Tu2XAgeYeHrOWEJb2iH07/OncSn7oVbYNyBPxVyjvbp06UIORNKAhmoaSR6vVeNxmtvg==",
+          "shasum": "0d6b17a5468cb3fca174b60b1697dcb639da69f5"
+        }
+      }
+    },
+    {
+      "version": "1.0.27",
+      "variantId": "registry-package.openupm.com-c65e46534a3697d5",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "0ec01abd5acc247a7d2d70195214395f549b4225",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.27.tgz",
+      "upstreamIntegrity": "sha512-lcr7NLDWOLmiEJPQTaYMIt7ddRrQCe2xVzbqo20lAiEIINq8f1L+xrK9MhVuX1w21BQO/vSjdS4J3oB7N21whA==",
+      "upstreamShasum": "baac8efd9bd9a99263f7ff1bc6308b183c71c970",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.56",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.15",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.27",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lcr7NLDWOLmiEJPQTaYMIt7ddRrQCe2xVzbqo20lAiEIINq8f1L+xrK9MhVuX1w21BQO/vSjdS4J3oB7N21whA==",
+          "shasum": "baac8efd9bd9a99263f7ff1bc6308b183c71c970"
+        }
+      }
+    },
+    {
+      "version": "1.0.28",
+      "variantId": "registry-package.openupm.com-fca4bf6e87cf72be",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "1a9494e7626344b5556ed904d2da4ec41212c14f",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.28.tgz",
+      "upstreamIntegrity": "sha512-qHHdz8t+8ljCtN5BlT5LgCmk6BTKsflKWW36GcYg+aw2kv9V7MM1jDy1emLWVJzk1LbfEytnqXKncRxUrmP61g==",
+      "upstreamShasum": "f923435bbc283d59faf91b469e0ad796462e1b0a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.56",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.15",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.28",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qHHdz8t+8ljCtN5BlT5LgCmk6BTKsflKWW36GcYg+aw2kv9V7MM1jDy1emLWVJzk1LbfEytnqXKncRxUrmP61g==",
+          "shasum": "f923435bbc283d59faf91b469e0ad796462e1b0a"
+        }
+      }
+    },
+    {
+      "version": "1.0.29",
+      "variantId": "registry-package.openupm.com-4c2d562407487b66",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "48866a6fc509bcf4d8cea8d8c7f278c84b6a1ef5",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.29.tgz",
+      "upstreamIntegrity": "sha512-JYzypx+G1H2o0LKU8Tz4EZQLzXhGa16VeDXSLSKMB0i2rfRJLr8r9MZ7dOZeGVFKSMGKmQk5vpvR7oxiW2T0MA==",
+      "upstreamShasum": "ddbba1a5ebcc534ffc7cea93965e656d44c8c029",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.58",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.15",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.29",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JYzypx+G1H2o0LKU8Tz4EZQLzXhGa16VeDXSLSKMB0i2rfRJLr8r9MZ7dOZeGVFKSMGKmQk5vpvR7oxiW2T0MA==",
+          "shasum": "ddbba1a5ebcc534ffc7cea93965e656d44c8c029"
+        }
+      }
+    },
+    {
+      "version": "1.0.30",
+      "variantId": "registry-package.openupm.com-52f46a15daa19151",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "83ae6831624e59ee0578c12a885fd023725da4ee",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.30.tgz",
+      "upstreamIntegrity": "sha512-s5A1jZQfCb9f75zBmm9/+kSvZuFtSL5hhX8XYlF/P0azaLzwVhqKyKuPCkZdEfq2m7eu97q6cuf9iGvPhKMecg==",
+      "upstreamShasum": "42c650576d25cf57a46d8a5d5e29d57302735257",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.58",
+        "com.frostbun.unit.logging": "1.0.7",
+        "com.frostbun.unit.pooling": "1.0.15",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.30",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-s5A1jZQfCb9f75zBmm9/+kSvZuFtSL5hhX8XYlF/P0azaLzwVhqKyKuPCkZdEfq2m7eu97q6cuf9iGvPhKMecg==",
+          "shasum": "42c650576d25cf57a46d8a5d5e29d57302735257"
+        }
+      }
+    },
+    {
+      "version": "1.0.31",
+      "variantId": "registry-package.openupm.com-cf7111ad0680fe7e",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "68b12b5e58fdccc9e5bb119f40c81f6cf175af66",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.31.tgz",
+      "upstreamIntegrity": "sha512-1bIgWxOjxC2ojgHFGnqby4igqGCtJQY1KLgA/RnulYhMCE/9C+NcuJkNufpyg6v8DfHSNYZ95cYPDwitK4ZcgQ==",
+      "upstreamShasum": "bc2c60826a9967e346b8c129918910055e47753d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.73",
+        "com.frostbun.unit.pooling": "1.0.16",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.31",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1bIgWxOjxC2ojgHFGnqby4igqGCtJQY1KLgA/RnulYhMCE/9C+NcuJkNufpyg6v8DfHSNYZ95cYPDwitK4ZcgQ==",
+          "shasum": "bc2c60826a9967e346b8c129918910055e47753d"
+        }
+      }
+    },
+    {
+      "version": "1.0.32",
+      "variantId": "registry-package.openupm.com-e6b02a7560195705",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "7ee347b07b40ac341c7a0219e354ba3c24e5fad3",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.32.tgz",
+      "upstreamIntegrity": "sha512-9lOMu6sHZr9RitpwNcD/qfd/aVifkO6jc4oEY+ScdaS4ltNhDjh4axHXqYI//X6mD5GGy5K4fkoXcYcbpQQBMw==",
+      "upstreamShasum": "16d6a5953a43098c07c70f5bbb286e05633c5aa7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.80",
+        "com.frostbun.unit.pooling": "1.0.16",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.32",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9lOMu6sHZr9RitpwNcD/qfd/aVifkO6jc4oEY+ScdaS4ltNhDjh4axHXqYI//X6mD5GGy5K4fkoXcYcbpQQBMw==",
+          "shasum": "16d6a5953a43098c07c70f5bbb286e05633c5aa7"
+        }
+      }
+    },
+    {
+      "version": "1.0.33",
+      "variantId": "registry-package.openupm.com-74261f71a98e3c40",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "4a1582c1a2c0d11e8d24adf45aab6f0470ca0c21",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.0.33.tgz",
+      "upstreamIntegrity": "sha512-+sgIAB4YrEg4RISCVXZdt/eLK19fjWR10+VfqnPJUFCoxiyjpuKiSDstMbcjA87kPZmdiE1d9YUf60XxqUMu6Q==",
+      "upstreamShasum": "4c8e4e5cded67eec8a7ec31a40f9f29886174cfe",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.0.85",
+        "com.frostbun.unit.pooling": "1.0.18",
+        "com.frostbun.unit.di": "1.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.0.33",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+sgIAB4YrEg4RISCVXZdt/eLK19fjWR10+VfqnPJUFCoxiyjpuKiSDstMbcjA87kPZmdiE1d9YUf60XxqUMu6Q==",
+          "shasum": "4c8e4e5cded67eec8a7ec31a40f9f29886174cfe"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-de5c7e94df2a0cdf",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "54401155f6f012518eac5612b167b47ac0065945",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-gwEfTOjsy/GCGzYdaKbpNVmKTydF+AGnwbdIzevP7bFgbpf3muYuE+Oc9HnVuIpbacpeyHz2IDXC3qmUVYk42Q==",
+      "upstreamShasum": "bd879516f60996ecb2a0262bbce8358612e331e4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.1.0",
+        "com.frostbun.unit.pooling": "1.1.0",
+        "com.frostbun.unit.di": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.1.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gwEfTOjsy/GCGzYdaKbpNVmKTydF+AGnwbdIzevP7bFgbpf3muYuE+Oc9HnVuIpbacpeyHz2IDXC3qmUVYk42Q==",
+          "shasum": "bd879516f60996ecb2a0262bbce8358612e331e4"
+        }
+      }
+    },
+    {
+      "version": "1.1.1",
+      "variantId": "registry-package.openupm.com-12feb86d01565566",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "82a6b0b6ab746be8a97a75781da8ac2fae75b471",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.1.1.tgz",
+      "upstreamIntegrity": "sha512-VmLlTQRIiHRuEsWObRQw+cf7kkvNUpkjNnd5KnSdQ0XbWrVYay8yA7XrHPPR1Pk7KrLPv2F2WiBx2SqA7GWvhw==",
+      "upstreamShasum": "449803637c7c6074192e2f3f23194e86cea19fe9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.1.8",
+        "com.frostbun.unit.pooling": "1.1.2",
+        "com.frostbun.unit.di": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.1.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VmLlTQRIiHRuEsWObRQw+cf7kkvNUpkjNnd5KnSdQ0XbWrVYay8yA7XrHPPR1Pk7KrLPv2F2WiBx2SqA7GWvhw==",
+          "shasum": "449803637c7c6074192e2f3f23194e86cea19fe9"
+        }
+      }
+    },
+    {
+      "version": "1.1.2",
+      "variantId": "registry-package.openupm.com-e8562f4a3554ee19",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "eade6675347e9b98626c1716b4a05a5880610f8f",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.1.2.tgz",
+      "upstreamIntegrity": "sha512-ugvjxIP9mEKgxjS8leCKrMarZoQOiNaMH3jUwRoN5NnuLh88JiOCfzswqv/TxSRXQICv//m8ZZeXU1FEE7EWjQ==",
+      "upstreamShasum": "f02044a6903b4d6ab251591986d400f5e9c2c936",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.1.10",
+        "com.frostbun.unit.pooling": "1.1.2",
+        "com.frostbun.unit.di": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.1.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ugvjxIP9mEKgxjS8leCKrMarZoQOiNaMH3jUwRoN5NnuLh88JiOCfzswqv/TxSRXQICv//m8ZZeXU1FEE7EWjQ==",
+          "shasum": "f02044a6903b4d6ab251591986d400f5e9c2c936"
+        }
+      }
+    },
+    {
+      "version": "1.1.3",
+      "variantId": "registry-package.openupm.com-6db5890306be4104",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "100b0a67903b9f468da42b1caf9c4242b1dc2aa5",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.1.3.tgz",
+      "upstreamIntegrity": "sha512-0YrClPq+XlIVnyO+FWgjVrpHI1vY3uS/DnbNiEFvEjpQrPnFhGNemRzQhD1SmoVQs98noW5xIUr7YQOxEKbT1A==",
+      "upstreamShasum": "b90e3bb14c1283ea0ce1553069b95b46d4de43c6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.1.16",
+        "com.frostbun.unit.pooling": "1.1.4",
+        "com.frostbun.unit.di": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.1.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-0YrClPq+XlIVnyO+FWgjVrpHI1vY3uS/DnbNiEFvEjpQrPnFhGNemRzQhD1SmoVQs98noW5xIUr7YQOxEKbT1A==",
+          "shasum": "b90e3bb14c1283ea0ce1553069b95b46d4de43c6"
+        }
+      }
+    },
+    {
+      "version": "1.1.4",
+      "variantId": "registry-package.openupm.com-6ea14a0317c12e37",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "d7d3bbb9b0ec0fa9ebb7c939d0ed23c1c788c415",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.1.4.tgz",
+      "upstreamIntegrity": "sha512-zhyxIJFhK42gvXIuDyhmk8dhm6RP0IEjTWRQPNH9WHG+M9k9KXv2ceW8lB3tMKxGCbl9BJEytpq7F0Y+MebjMA==",
+      "upstreamShasum": "8b69108ebd6616c23bfd0c2b93d6bf55fecc031d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.1.22",
+        "com.frostbun.unit.pooling": "1.1.5",
+        "com.frostbun.unit.di": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.1.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zhyxIJFhK42gvXIuDyhmk8dhm6RP0IEjTWRQPNH9WHG+M9k9KXv2ceW8lB3tMKxGCbl9BJEytpq7F0Y+MebjMA==",
+          "shasum": "8b69108ebd6616c23bfd0c2b93d6bf55fecc031d"
+        }
+      }
+    },
+    {
+      "version": "1.1.5",
+      "variantId": "registry-package.openupm.com-5fe86e8f75546108",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "e66a8944aa6d461fe52e02078aebac1af88dd403",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.1.5.tgz",
+      "upstreamIntegrity": "sha512-IOyfEGdqcvDQpT1t5jutLw00aiFR4pWrO166vCwwwkO6UCj9GFN5ISAgYQaHJDcnAP6c9VsDWQLpldEh1sLaZQ==",
+      "upstreamShasum": "e3b968023ae04f1a2fcca7d92b64c9aaaf87608b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "1.1.25",
+        "com.frostbun.unit.pooling": "1.1.6",
+        "com.frostbun.unit.di": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.1.5",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IOyfEGdqcvDQpT1t5jutLw00aiFR4pWrO166vCwwwkO6UCj9GFN5ISAgYQaHJDcnAP6c9VsDWQLpldEh1sLaZQ==",
+          "shasum": "e3b968023ae04f1a2fcca7d92b64c9aaaf87608b"
+        }
+      }
+    },
+    {
+      "version": "1.1.6",
+      "variantId": "registry-package.openupm.com-7e843acb02c53a23",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "1f1857d794b22d16804a5e13631902699ebb5cc9",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.1.6.tgz",
+      "upstreamIntegrity": "sha512-cBKBZySDGWJJCaIMbCbuW1EtDwmiXGF87+gS2A+WGoQIYBEtjS84nKom70ectjWYgQg34iEcKHpoZ7WYvgzSiQ==",
+      "upstreamShasum": "a82e1040b579e93fc2f8739a886a9c0fdb16f450",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.di": "1.1.2",
+        "com.frostbun.unit.extensions": "1.1.27",
+        "com.frostbun.unit.pooling": "1.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.1.6",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cBKBZySDGWJJCaIMbCbuW1EtDwmiXGF87+gS2A+WGoQIYBEtjS84nKom70ectjWYgQg34iEcKHpoZ7WYvgzSiQ==",
+          "shasum": "a82e1040b579e93fc2f8739a886a9c0fdb16f450"
+        }
+      }
+    },
+    {
+      "version": "1.1.7",
+      "variantId": "registry-package.openupm.com-500088b0232e6c3a",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "b6313405757aaad6c7726f7982b6e49ed3a897a9",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.1.7.tgz",
+      "upstreamIntegrity": "sha512-wpVjLzKaDeGyFsMo2DHOxBOal5veKlV5HPDoML01YbaMKLsFbAiNOCo8aHORJF9tTv2KjGhCRUIe8vE3h3oFwg==",
+      "upstreamShasum": "7d77e95a4f6d8efb0ba3dcd007a81e32cac9a657",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.di": "1.1.2",
+        "com.frostbun.unit.extensions": "1.1.29",
+        "com.frostbun.unit.pooling": "1.1.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.1.7",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wpVjLzKaDeGyFsMo2DHOxBOal5veKlV5HPDoML01YbaMKLsFbAiNOCo8aHORJF9tTv2KjGhCRUIe8vE3h3oFwg==",
+          "shasum": "7d77e95a4f6d8efb0ba3dcd007a81e32cac9a657"
+        }
+      }
+    },
+    {
+      "version": "1.1.8",
+      "variantId": "registry-package.openupm.com-36277444c8f9364e",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": "4293e39ac8419d37a93d2444dc0d8cd35827d9bc",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.1.8.tgz",
+      "upstreamIntegrity": "sha512-rSvTensYz5EUJGqNsEmUOK0epq5qjEpI2x+mbMRd+JLITSMnsrY+kv+vQ+4B3goaRtd+tHuzRI3jFETtOyIrvw==",
+      "upstreamShasum": "c0d0f5bd3dfa3524167b0432d2f641584bad038e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.di": "1.1.2",
+        "com.frostbun.unit.extensions": "1.1.32",
+        "com.frostbun.unit.pooling": "1.1.8"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.1.8",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rSvTensYz5EUJGqNsEmUOK0epq5qjEpI2x+mbMRd+JLITSMnsrY+kv+vQ+4B3goaRtd+tHuzRI3jFETtOyIrvw==",
+          "shasum": "c0d0f5bd3dfa3524167b0432d2f641584bad038e"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-5ee3378d2c953479",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-08VyqOnrwp3+v3KCyWURSmJigQpKbR8BlUEIe515QvfD/eQ1SZRwH87XLwvhOY1NHyrFoluWreEEMElQGPrw/A==",
+      "upstreamShasum": "f86dcd441dec9c4f82be9ceb8be3e9cf65cf747a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.di": "1.2.0",
+        "com.frostbun.unit.extensions": "1.2.0",
+        "com.frostbun.unit.pooling": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.2.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-08VyqOnrwp3+v3KCyWURSmJigQpKbR8BlUEIe515QvfD/eQ1SZRwH87XLwvhOY1NHyrFoluWreEEMElQGPrw/A==",
+          "shasum": "f86dcd441dec9c4f82be9ceb8be3e9cf65cf747a"
+        }
+      }
+    },
+    {
+      "version": "1.2.1",
+      "variantId": "registry-package.openupm.com-f86c70822b28ebb8",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.2.1.tgz",
+      "upstreamIntegrity": "sha512-QtZxMJwYl7Fb4pT1tp6f95oyD/wa4tNaYhpVhUcW9IXbWfpGzE//uOWARM3j2x8xNJEic99wTqbfQmIiZQL02w==",
+      "upstreamShasum": "30a6a288482ecb12a034ff0a36be9686591534d9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.di": "1.2.1",
+        "com.frostbun.unit.extensions": "1.2.1",
+        "com.frostbun.unit.pooling": "1.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.2.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QtZxMJwYl7Fb4pT1tp6f95oyD/wa4tNaYhpVhUcW9IXbWfpGzE//uOWARM3j2x8xNJEic99wTqbfQmIiZQL02w==",
+          "shasum": "30a6a288482ecb12a034ff0a36be9686591534d9"
+        }
+      }
+    },
+    {
+      "version": "1.2.2",
+      "variantId": "registry-package.openupm.com-6cdda0ce2f483ab5",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.2.2.tgz",
+      "upstreamIntegrity": "sha512-Q1AJQ4WlQriC150dW/ALqCpkgRUExCdoe/aBKHpaBIPfkt01+FH1SecfHVMtztux2phcurbVctEgtj0EwvJjgw==",
+      "upstreamShasum": "ae3014b1d01beb5758b79717a4e7177034a9e54a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.di": "1.2.2",
+        "com.frostbun.unit.extensions": "1.2.2",
+        "com.frostbun.unit.pooling": "1.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.2.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Q1AJQ4WlQriC150dW/ALqCpkgRUExCdoe/aBKHpaBIPfkt01+FH1SecfHVMtztux2phcurbVctEgtj0EwvJjgw==",
+          "shasum": "ae3014b1d01beb5758b79717a4e7177034a9e54a"
+        }
+      }
+    },
+    {
+      "version": "1.2.3",
+      "variantId": "registry-package.openupm.com-307162dbdcb7d153",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.2.3.tgz",
+      "upstreamIntegrity": "sha512-UNn8xUc3RHcuizNhnqGs3kZ8nZlnapLTinqrCYBLdi5+j6SVzQDOzaVHrJ8666zimduDRtFxMDiS5sELhjuTLg==",
+      "upstreamShasum": "7b7f1b858700bed2fd38058b70c5694b23d080b5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.di": "1.2.3",
+        "com.frostbun.unit.extensions": "1.2.3",
+        "com.frostbun.unit.pooling": "1.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.2.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-UNn8xUc3RHcuizNhnqGs3kZ8nZlnapLTinqrCYBLdi5+j6SVzQDOzaVHrJ8666zimduDRtFxMDiS5sELhjuTLg==",
+          "shasum": "7b7f1b858700bed2fd38058b70c5694b23d080b5"
+        }
+      }
+    },
+    {
+      "version": "1.2.4",
+      "variantId": "registry-package.openupm.com-e69d79f5127b32dc",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.2.4.tgz",
+      "upstreamIntegrity": "sha512-XZSvVByiTco9qc/SiruiNKkbvu8dO/gfvn3n8UHxt6VOgfxlBbVlDXfN/juF62C10yaDajSYdvvMB8JV7AwozA==",
+      "upstreamShasum": "d16e374044c764aee089e9ea9981203e6f99ec5f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.di": "1.2.4",
+        "com.frostbun.unit.extensions": "1.2.4",
+        "com.frostbun.unit.pooling": "1.2.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.2.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XZSvVByiTco9qc/SiruiNKkbvu8dO/gfvn3n8UHxt6VOgfxlBbVlDXfN/juF62C10yaDajSYdvvMB8JV7AwozA==",
+          "shasum": "d16e374044c764aee089e9ea9981203e6f99ec5f"
+        }
+      }
+    },
+    {
+      "version": "1.2.5",
+      "variantId": "registry-package.openupm.com-a247fe44d2a9a19b",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.2.5.tgz",
+      "upstreamIntegrity": "sha512-ThNgZ/NwRdzUpKpV2n4477+6yfVS+RzwIVuQWYFVvQ97Ifrbwnk8vJIGzsCqryhJ6xnkAOYKk6J4vWC7ecOHjQ==",
+      "upstreamShasum": "6480f64b4b9b716a5db81d813fdcafc069617e09",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.di": "1.2.5",
+        "com.frostbun.unit.extensions": "1.2.5",
+        "com.frostbun.unit.pooling": "1.2.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.2.5",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ThNgZ/NwRdzUpKpV2n4477+6yfVS+RzwIVuQWYFVvQ97Ifrbwnk8vJIGzsCqryhJ6xnkAOYKk6J4vWC7ecOHjQ==",
+          "shasum": "6480f64b4b9b716a5db81d813fdcafc069617e09"
+        }
+      }
+    },
+    {
+      "version": "1.2.6",
+      "variantId": "registry-package.openupm.com-74c1be46a7c33063",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.2.6.tgz",
+      "upstreamIntegrity": "sha512-24SlqjuBCT5r+cAwZyZZ54in8fNK4X1rbcR+vUUbcJyt9FXK2ohtBnjqjugUk7pIKf7PcEbWceKApjgJjWvTZg==",
+      "upstreamShasum": "391ab8744d0d2b1ad7569a97b05254221ea910ee",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.di": "1.2.6",
+        "com.frostbun.unit.extensions": "1.2.6",
+        "com.frostbun.unit.pooling": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.2.6",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-24SlqjuBCT5r+cAwZyZZ54in8fNK4X1rbcR+vUUbcJyt9FXK2ohtBnjqjugUk7pIKf7PcEbWceKApjgJjWvTZg==",
+          "shasum": "391ab8744d0d2b1ad7569a97b05254221ea910ee"
+        }
+      }
+    },
+    {
+      "version": "1.2.7",
+      "variantId": "registry-package.openupm.com-636ad83e52f360cd",
+      "sourceUrl": "https://package.openupm.com/com.frostbun.unit.entities",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-1.2.7.tgz",
+      "upstreamIntegrity": "sha512-kASiEjQX/hP7kj975iSvMn+h9KPJ6jtnKJxdNqP70cyMsHBD3+0co7vWPBaBVwJ7iAnquJVNZLMa848D6if6Fg==",
+      "upstreamShasum": "0899193ac7dce07611f54f30c8f4d5cfb7e69283",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.di": "1.2.7",
+        "com.frostbun.unit.extensions": "1.2.7",
+        "com.frostbun.unit.pooling": "1.2.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/1.2.7",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kASiEjQX/hP7kj975iSvMn+h9KPJ6jtnKJxdNqP70cyMsHBD3+0co7vWPBaBVwJ7iAnquJVNZLMa848D6if6Fg==",
+          "shasum": "0899193ac7dce07611f54f30c8f4d5cfb7e69283"
+        }
+      }
+    },
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-0a6b0fb335ec16bc",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "ed3e7b9d7a150bdcb95a754a41d78c1fbd809005",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-2.0.0.tgz",
+      "upstreamIntegrity": "sha512-XL6h9WOVD1o6t2z1f3uqOAULqxFY+tOUc5xkiIwThM16sa8VC/aOawOYs5MlvF1ZZ8xE7/9/5PB2mi8njevIIQ==",
+      "upstreamShasum": "59e395c8f4cf9c4d8cb8582152c7cc467641eb6c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.di": "2.0.0",
+        "com.frostbun.unit.extensions": "2.0.0",
+        "com.frostbun.unit.logging": "2.0.0",
+        "com.frostbun.unit.pooling": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/2.0.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XL6h9WOVD1o6t2z1f3uqOAULqxFY+tOUc5xkiIwThM16sa8VC/aOawOYs5MlvF1ZZ8xE7/9/5PB2mi8njevIIQ==",
+          "shasum": "59e395c8f4cf9c4d8cb8582152c7cc467641eb6c"
+        }
+      }
+    },
+    {
+      "version": "3.0.0",
+      "variantId": "registry-package.openupm.com-04a855623ead922c",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "1f591b337df60d88a8fa19659a102adf2b232ed2",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-3.0.0.tgz",
+      "upstreamIntegrity": "sha512-d1UEWwD65rx2uCurko6DmdpE7FhSf0nABQzKpBN/KkqahzE6J3vRnYDTFUfhjk+wHxtposLPMkUQhyyJqG+mXg==",
+      "upstreamShasum": "4678ed826756c2c6477904bde69bf79cb52374cf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.10",
+        "com.frostbun.unit.di": "3.0.0",
+        "com.frostbun.unit.extensions": "3.0.0",
+        "com.frostbun.unit.logging": "3.0.0",
+        "com.frostbun.unit.pooling": "3.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/3.0.0",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-d1UEWwD65rx2uCurko6DmdpE7FhSf0nABQzKpBN/KkqahzE6J3vRnYDTFUfhjk+wHxtposLPMkUQhyyJqG+mXg==",
+          "shasum": "4678ed826756c2c6477904bde69bf79cb52374cf"
+        }
+      }
+    },
+    {
+      "version": "3.1.0",
+      "variantId": "registry-package.openupm.com-ced499d25b284a2a",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "46605036852299d41c0943f60ae29d781429aa13",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-3.1.0.tgz",
+      "upstreamIntegrity": "sha512-LP8J/sryzAjUZiH/mR1VSa60F/REfZahFSpCAxEpVdZoInwB+faijp1xndLlS1MQg9PQ+V51FqmKROs49cMIkw==",
+      "upstreamShasum": "563cb3def32e4e7715ebe74d1309eb78a0939880",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.10",
+        "com.frostbun.unit.di": "3.1.0",
+        "com.frostbun.unit.extensions": "3.1.0",
+        "com.frostbun.unit.logging": "3.1.0",
+        "com.frostbun.unit.pooling": "3.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/3.1.0",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LP8J/sryzAjUZiH/mR1VSa60F/REfZahFSpCAxEpVdZoInwB+faijp1xndLlS1MQg9PQ+V51FqmKROs49cMIkw==",
+          "shasum": "563cb3def32e4e7715ebe74d1309eb78a0939880"
+        }
+      }
+    },
+    {
+      "version": "3.1.1",
+      "variantId": "registry-package.openupm.com-d8aed94f2550eafd",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "1ac5c1140af7930389e9f1ca9119c3b7376d3177",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-3.1.1.tgz",
+      "upstreamIntegrity": "sha512-7EkAZ9NupTN3Z0uXI++RrSpS4cO+M5t6xiaBcMF/Sm+YLF6Eq2KGPkWSHquUpNz60lvps6EH2Xh5kvWG2Y3+eA==",
+      "upstreamShasum": "253bee43f42f1b57b3f0e60b458d5408ba2710cf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.10",
+        "com.frostbun.unit.di": "3.1.1",
+        "com.frostbun.unit.extensions": "3.1.1",
+        "com.frostbun.unit.logging": "3.1.1",
+        "com.frostbun.unit.pooling": "3.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/3.1.1",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7EkAZ9NupTN3Z0uXI++RrSpS4cO+M5t6xiaBcMF/Sm+YLF6Eq2KGPkWSHquUpNz60lvps6EH2Xh5kvWG2Y3+eA==",
+          "shasum": "253bee43f42f1b57b3f0e60b458d5408ba2710cf"
+        }
+      }
+    },
+    {
+      "version": "3.1.2",
+      "variantId": "registry-package.openupm.com-56909dd05dfec3d7",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "21dbb676f64be6dbd726d5cd54555f5611b53368",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-3.1.2.tgz",
+      "upstreamIntegrity": "sha512-C2CZlho5/DxOLOdStjk5u3QCZSJ/Wobm/PpgVg630yB3e2pP6kyIcOvi82B9ap3ilB7oO6rPO/MuVU4K/+zkrQ==",
+      "upstreamShasum": "08592be0705b811533083c830163f354c2ce234e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11",
+        "com.frostbun.unit.di": "3.1.2",
+        "com.frostbun.unit.extensions": "3.1.2",
+        "com.frostbun.unit.logging": "3.1.2",
+        "com.frostbun.unit.pooling": "3.1.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/3.1.2",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-C2CZlho5/DxOLOdStjk5u3QCZSJ/Wobm/PpgVg630yB3e2pP6kyIcOvi82B9ap3ilB7oO6rPO/MuVU4K/+zkrQ==",
+          "shasum": "08592be0705b811533083c830163f354c2ce234e"
+        }
+      }
+    },
+    {
+      "version": "3.1.3",
+      "variantId": "registry-package.openupm.com-bb74173d78bbbd85",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "7b99fc3b5c5e1b43ed2cecde1034c751f9b80ac6",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-3.1.3.tgz",
+      "upstreamIntegrity": "sha512-ti00lVejypIiMv2u/st7i1MHMNUDmwhnUKJRrGoqHDFWkSbhggZNYpqC0PQJGBLr4oJtYnlIuM1P+MGcx3Rlpw==",
+      "upstreamShasum": "b3320de9b6103afded3537c1de189a67d2f32ecd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11",
+        "com.frostbun.unit.di": "3.1.3",
+        "com.frostbun.unit.extensions": "3.1.3",
+        "com.frostbun.unit.logging": "3.1.3",
+        "com.frostbun.unit.pooling": "3.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/3.1.3",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ti00lVejypIiMv2u/st7i1MHMNUDmwhnUKJRrGoqHDFWkSbhggZNYpqC0PQJGBLr4oJtYnlIuM1P+MGcx3Rlpw==",
+          "shasum": "b3320de9b6103afded3537c1de189a67d2f32ecd"
+        }
+      }
+    },
+    {
+      "version": "3.1.4",
+      "variantId": "registry-package.openupm.com-c1bab28e6f3bc0f2",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "4d6068db542cfed3dd9188cecfc98d30475ef17e",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-3.1.4.tgz",
+      "upstreamIntegrity": "sha512-P5YQdjLzSWadfsiztFT7eK3eJC/23iDdSM7KwF48L2MrNxNA2mVCy6UIexC7Cz4yunBeRlcAcxdacSp689P3WQ==",
+      "upstreamShasum": "ceacfbe0fc39a8eddeaf76e49941556d6c821d70",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11",
+        "com.frostbun.unit.di": "3.1.4",
+        "com.frostbun.unit.extensions": "3.1.4",
+        "com.frostbun.unit.logging": "3.1.4",
+        "com.frostbun.unit.pooling": "3.1.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/3.1.4",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-P5YQdjLzSWadfsiztFT7eK3eJC/23iDdSM7KwF48L2MrNxNA2mVCy6UIexC7Cz4yunBeRlcAcxdacSp689P3WQ==",
+          "shasum": "ceacfbe0fc39a8eddeaf76e49941556d6c821d70"
+        }
+      }
+    },
+    {
+      "version": "4.0.0",
+      "variantId": "registry-package.openupm.com-fcae7c252cff8c16",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "0aa909dd7d5470043900830223c18308c42059bd",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.0.0.tgz",
+      "upstreamIntegrity": "sha512-Hq/PGqMlcVfeaFIEH/1Nu1JLY37sulkdrvpn7CRFzRlO69vYemmD0rNzDPQDj/iQZ9kbP99TbISa1sxuQx7z9g==",
+      "upstreamShasum": "307ecb944c9a38fff794f809eecf4a8dfc52048e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11",
+        "com.frostbun.unit.di": "4.0.0",
+        "com.frostbun.unit.extensions": "4.0.0",
+        "com.frostbun.unit.logging": "4.0.0",
+        "com.frostbun.unit.pooling": "4.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.0.0",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Hq/PGqMlcVfeaFIEH/1Nu1JLY37sulkdrvpn7CRFzRlO69vYemmD0rNzDPQDj/iQZ9kbP99TbISa1sxuQx7z9g==",
+          "shasum": "307ecb944c9a38fff794f809eecf4a8dfc52048e"
+        }
+      }
+    },
+    {
+      "version": "4.0.1",
+      "variantId": "registry-package.openupm.com-21707f81c9cfd3e6",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "4da38106ae10770cb3cfa38ace60969ecb48e67a",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.0.1.tgz",
+      "upstreamIntegrity": "sha512-d3Eet3CC8YCDYuWqCmSQPQATdWIk7Yxm4FNndKaJ5kaIlVjOdSLxHP81uwGoGxxDW2nFtoKEjiuIgTG0GBsl0w==",
+      "upstreamShasum": "c8ba84697e3df7008f690872b8970acd77099bfe",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11",
+        "com.frostbun.unit.di": "4.0.1",
+        "com.frostbun.unit.extensions": "4.0.1",
+        "com.frostbun.unit.logging": "4.0.1",
+        "com.frostbun.unit.pooling": "4.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.0.1",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-d3Eet3CC8YCDYuWqCmSQPQATdWIk7Yxm4FNndKaJ5kaIlVjOdSLxHP81uwGoGxxDW2nFtoKEjiuIgTG0GBsl0w==",
+          "shasum": "c8ba84697e3df7008f690872b8970acd77099bfe"
+        }
+      }
+    },
+    {
+      "version": "4.0.2",
+      "variantId": "registry-package.openupm.com-7d6ca842d148b088",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "14cf57810c57382d176a847233e078b542540ed0",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.0.2.tgz",
+      "upstreamIntegrity": "sha512-ZjOi+z9x3lv23MMNoHxiUXvwdvMtuQFRvuiGHAvMjb7kN3gkhYiwdBdOGhSDHvvuVKyKVUy7VEK2J5voTD7USw==",
+      "upstreamShasum": "b2d34f35cff328f138ea91b4974701a1df0fb3f6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11",
+        "com.frostbun.unit.di": "4.0.2",
+        "com.frostbun.unit.extensions": "4.0.2",
+        "com.frostbun.unit.logging": "4.0.2",
+        "com.frostbun.unit.pooling": "4.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.0.2",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZjOi+z9x3lv23MMNoHxiUXvwdvMtuQFRvuiGHAvMjb7kN3gkhYiwdBdOGhSDHvvuVKyKVUy7VEK2J5voTD7USw==",
+          "shasum": "b2d34f35cff328f138ea91b4974701a1df0fb3f6"
+        }
+      }
+    },
+    {
+      "version": "4.0.3",
+      "variantId": "registry-package.openupm.com-ba3d3ad1c0c4b503",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "02364b8c5d2d9103475291bb57efa933bec58de3",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.0.3.tgz",
+      "upstreamIntegrity": "sha512-O2JXT52KhWPyx51qUKDGarGfXc79zIGk22hvO4JfZrfctekITbKgvRyvofUF9LZZQvC7WftFG+VsSRGtU88Xuw==",
+      "upstreamShasum": "1de4fc3afec96dcec7eb1475b3307fbeef81a74d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11",
+        "com.frostbun.unit.di": "4.0.3",
+        "com.frostbun.unit.extensions": "4.0.3",
+        "com.frostbun.unit.logging": "4.0.3",
+        "com.frostbun.unit.pooling": "4.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.0.3",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-O2JXT52KhWPyx51qUKDGarGfXc79zIGk22hvO4JfZrfctekITbKgvRyvofUF9LZZQvC7WftFG+VsSRGtU88Xuw==",
+          "shasum": "1de4fc3afec96dcec7eb1475b3307fbeef81a74d"
+        }
+      }
+    },
+    {
+      "version": "4.1.0",
+      "variantId": "registry-package.openupm.com-c5b33260061c13ac",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "cc9998c498af3566768112fe6d8e748468ee71f0",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.1.0.tgz",
+      "upstreamIntegrity": "sha512-MQCtqxdJFz2TNWaLvgXKH1UQAUD7oKJWW5RDeKD+qKNSxU6KGBxwnkMNZb/rqrt5SJzeLQQ6hyaJMiCng7W8zQ==",
+      "upstreamShasum": "81af5005b0ef85f8d8f97facbbc8c849e76d4688",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11",
+        "com.frostbun.unit.di": "4.1.0",
+        "com.frostbun.unit.extensions": "4.1.0",
+        "com.frostbun.unit.logging": "4.1.0",
+        "com.frostbun.unit.pooling": "4.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.1.0",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MQCtqxdJFz2TNWaLvgXKH1UQAUD7oKJWW5RDeKD+qKNSxU6KGBxwnkMNZb/rqrt5SJzeLQQ6hyaJMiCng7W8zQ==",
+          "shasum": "81af5005b0ef85f8d8f97facbbc8c849e76d4688"
+        }
+      }
+    },
+    {
+      "version": "4.1.1",
+      "variantId": "registry-package.openupm.com-3dcce0b0edec4da7",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "edcc9986454d85782a7ae4bea24e69be4077fe73",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.1.1.tgz",
+      "upstreamIntegrity": "sha512-h3txZe9FHuBdCnMZaE3QeSlEtsW2B61Vs7d/DujRbgllGzhxZR/aRXaPKyqUQ4QS9Z9FOcQ9Yz2v9eNDYMHB+A==",
+      "upstreamShasum": "319508fcd238612c989a7979b36e6f6d1874190f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11",
+        "com.frostbun.unit.di": "4.1.1",
+        "com.frostbun.unit.extensions": "4.1.1",
+        "com.frostbun.unit.logging": "4.1.1",
+        "com.frostbun.unit.pooling": "4.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.1.1",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-h3txZe9FHuBdCnMZaE3QeSlEtsW2B61Vs7d/DujRbgllGzhxZR/aRXaPKyqUQ4QS9Z9FOcQ9Yz2v9eNDYMHB+A==",
+          "shasum": "319508fcd238612c989a7979b36e6f6d1874190f"
+        }
+      }
+    },
+    {
+      "version": "4.1.2",
+      "variantId": "registry-package.openupm.com-767d5295aec6e2df",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "6edd8e129d8c7ccd4c1668f9f75d0596244ca5e2",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.1.2.tgz",
+      "upstreamIntegrity": "sha512-JVgzUg1b4KAUPG5yHUqHAoLSXNVHeH6lhUNJbpHYLoPSj11MqkFC88pH6eTT1R/pk38Wzl6UsX4uhtDsAxkrrQ==",
+      "upstreamShasum": "cb68f8a849b67584af891b250b12e912d389b093",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11",
+        "com.frostbun.unit.di": "4.1.2",
+        "com.frostbun.unit.extensions": "4.1.2",
+        "com.frostbun.unit.logging": "4.1.2",
+        "com.frostbun.unit.pooling": "4.1.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.1.2",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JVgzUg1b4KAUPG5yHUqHAoLSXNVHeH6lhUNJbpHYLoPSj11MqkFC88pH6eTT1R/pk38Wzl6UsX4uhtDsAxkrrQ==",
+          "shasum": "cb68f8a849b67584af891b250b12e912d389b093"
+        }
+      }
+    },
+    {
+      "version": "4.1.3",
+      "variantId": "registry-package.openupm.com-8fcbacf76f4c29a1",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "e1cad557b7568ad8528e76cf8fa00f2ceb8964ff",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.1.3.tgz",
+      "upstreamIntegrity": "sha512-senBDLUSMtAspUQGb9a1dy+Y9uunGr2HYyGpk+W7Znxg9gRZOi77mbMDd2AFaPM2r4qtC6CIgoM2pvx4AxQchw==",
+      "upstreamShasum": "235aed88ad0be124e311160e536ace12c50e54f2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11",
+        "com.frostbun.unit.di": "4.1.3",
+        "com.frostbun.unit.extensions": "4.1.3",
+        "com.frostbun.unit.logging": "4.1.3",
+        "com.frostbun.unit.pooling": "4.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.1.3",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-senBDLUSMtAspUQGb9a1dy+Y9uunGr2HYyGpk+W7Znxg9gRZOi77mbMDd2AFaPM2r4qtC6CIgoM2pvx4AxQchw==",
+          "shasum": "235aed88ad0be124e311160e536ace12c50e54f2"
+        }
+      }
+    },
+    {
+      "version": "4.1.4",
+      "variantId": "registry-package.openupm.com-75201f214b7a9db8",
+      "sourceUrl": "https://github.com/frostbun/UniT.Entities.git",
+      "sourceRef": "9c15c8f676bcc8e1ef6b7c52dd2ce9a64ddbfee6",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.1.4.tgz",
+      "upstreamIntegrity": "sha512-coIZ8pNudOovpFYQjSrQzBmwpLdzifhcUKwxujJ9Gnvk89jc5KDhtMYN7LenuY1nl3F1GORSg18ibB8tMyN5Tw==",
+      "upstreamShasum": "9b85737645234a70f503ae4deb586eb4f9615d00",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11",
+        "com.frostbun.unit.di": "4.1.4",
+        "com.frostbun.unit.extensions": "4.1.4",
+        "com.frostbun.unit.logging": "4.1.4",
+        "com.frostbun.unit.pooling": "4.1.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.1.4",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-coIZ8pNudOovpFYQjSrQzBmwpLdzifhcUKwxujJ9Gnvk89jc5KDhtMYN7LenuY1nl3F1GORSg18ibB8tMyN5Tw==",
+          "shasum": "9b85737645234a70f503ae4deb586eb4f9615d00"
+        }
+      }
+    },
+    {
+      "version": "4.2.0",
+      "variantId": "registry-package.openupm.com-1362494f0c404b3e",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "ef8fecd30eaa379b1e1e4025209117197f239569",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.2.0.tgz",
+      "upstreamIntegrity": "sha512-NrdzAFY5db8qAOswZRMs8e2ULSrBQwEOpg9J0BMRhlldqT88jVMUtLRx6BmjlsW8yxohUicLiKkN4xma7UHong==",
+      "upstreamShasum": "70d17997db8b8ce76939b2e6fec6a6fd80dc90a6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.2.0",
+        "com.frostbun.unit.di": "4.2.0",
+        "com.frostbun.unit.logging": "4.2.0",
+        "com.frostbun.unit.pooling": "4.2.0",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.2.0",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NrdzAFY5db8qAOswZRMs8e2ULSrBQwEOpg9J0BMRhlldqT88jVMUtLRx6BmjlsW8yxohUicLiKkN4xma7UHong==",
+          "shasum": "70d17997db8b8ce76939b2e6fec6a6fd80dc90a6"
+        }
+      }
+    },
+    {
+      "version": "4.2.1",
+      "variantId": "registry-package.openupm.com-49fa8a76c8ff681e",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "efd7125eb709432ccfc2d94f1e3b43856b315d6c",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.2.1.tgz",
+      "upstreamIntegrity": "sha512-brRYhbgDrlDabJdFqD4ALJvitkVtirbA7NeVYNjnwhyXWysKOWWvvMboeRgMTPwTPFZhYAB+NRLmbP1hUpLmoQ==",
+      "upstreamShasum": "cad91b772d97e55e70703d096ee28342f6103417",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.2.1",
+        "com.frostbun.unit.di": "4.2.1",
+        "com.frostbun.unit.logging": "4.2.1",
+        "com.frostbun.unit.pooling": "4.2.1",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.2.1",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-brRYhbgDrlDabJdFqD4ALJvitkVtirbA7NeVYNjnwhyXWysKOWWvvMboeRgMTPwTPFZhYAB+NRLmbP1hUpLmoQ==",
+          "shasum": "cad91b772d97e55e70703d096ee28342f6103417"
+        }
+      }
+    },
+    {
+      "version": "4.3.0",
+      "variantId": "registry-package.openupm.com-f1075cc89eff70cd",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "26460d681832d00edcfdbc538a87a67cb9c7651f",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.3.0.tgz",
+      "upstreamIntegrity": "sha512-cJwAm9oldpiEid0q5V5uCvwy2RQa7VuIR5AAO/NAchKGW5v1oZKjafGKfmq0FAnq3cE2TwEdxFePw13oRR/M2Q==",
+      "upstreamShasum": "f1b39f8323285f867297f5c993d6c4b33196105f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.3.0",
+        "com.frostbun.unit.di": "4.3.0",
+        "com.frostbun.unit.logging": "4.3.0",
+        "com.frostbun.unit.pooling": "4.3.0",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.3.0",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cJwAm9oldpiEid0q5V5uCvwy2RQa7VuIR5AAO/NAchKGW5v1oZKjafGKfmq0FAnq3cE2TwEdxFePw13oRR/M2Q==",
+          "shasum": "f1b39f8323285f867297f5c993d6c4b33196105f"
+        }
+      }
+    },
+    {
+      "version": "4.3.1",
+      "variantId": "registry-package.openupm.com-d925ab618982dab4",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "d064808ca9cc486b281dab77d4483cbaa67914ba",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.3.1.tgz",
+      "upstreamIntegrity": "sha512-gAgA/BLSDzDizY1MUufIyz8L5HwPhLEYL2EPUdndWCRyOC3k0tLa3j2SZQ58Dz4LRz+jnM3EkA/l7mNz/jSLqA==",
+      "upstreamShasum": "4b4770f3d2b4e137fb55d8c8df3efc000dbab5fa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.3.1",
+        "com.frostbun.unit.di": "4.3.1",
+        "com.frostbun.unit.logging": "4.3.1",
+        "com.frostbun.unit.pooling": "4.3.1",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.3.1",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gAgA/BLSDzDizY1MUufIyz8L5HwPhLEYL2EPUdndWCRyOC3k0tLa3j2SZQ58Dz4LRz+jnM3EkA/l7mNz/jSLqA==",
+          "shasum": "4b4770f3d2b4e137fb55d8c8df3efc000dbab5fa"
+        }
+      }
+    },
+    {
+      "version": "4.3.2",
+      "variantId": "registry-package.openupm.com-ae817e9727858cad",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "0f124c4a27aace67ae6f744bce0aeaf2a6cdabbd",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.3.2.tgz",
+      "upstreamIntegrity": "sha512-a1o72htX7LqKlzOfvgft/YywV04XPRavAY2qAA8AJE8JPov6qOXoRlrcDnn7KrAJQp51nmmfJmYJW6Nfu+M3pA==",
+      "upstreamShasum": "e888b0f361686045534a2290aa04f3464ce50d1d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.3.2",
+        "com.frostbun.unit.di": "4.3.2",
+        "com.frostbun.unit.logging": "4.3.2",
+        "com.frostbun.unit.pooling": "4.3.2",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.3.2",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-a1o72htX7LqKlzOfvgft/YywV04XPRavAY2qAA8AJE8JPov6qOXoRlrcDnn7KrAJQp51nmmfJmYJW6Nfu+M3pA==",
+          "shasum": "e888b0f361686045534a2290aa04f3464ce50d1d"
+        }
+      }
+    },
+    {
+      "version": "4.3.3",
+      "variantId": "registry-package.openupm.com-9082fff8c922358f",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "4ffcc0f0429015c1c8eec11dcd849dfce122810f",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.3.3.tgz",
+      "upstreamIntegrity": "sha512-SPaCyg9J1UoXR8gJHINc4+8oP0LUEu/Ze8nHGl5b598t6YGqQugae4Gz3x6NOPp+iVfJ0X6vYJNE5h3firt/Hg==",
+      "upstreamShasum": "a8eb1628a72831e002673344b14a89ebb383399a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.3.3",
+        "com.frostbun.unit.di": "4.3.3",
+        "com.frostbun.unit.logging": "4.3.3",
+        "com.frostbun.unit.pooling": "4.3.3",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.3.3",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SPaCyg9J1UoXR8gJHINc4+8oP0LUEu/Ze8nHGl5b598t6YGqQugae4Gz3x6NOPp+iVfJ0X6vYJNE5h3firt/Hg==",
+          "shasum": "a8eb1628a72831e002673344b14a89ebb383399a"
+        }
+      }
+    },
+    {
+      "version": "4.4.0",
+      "variantId": "registry-package.openupm.com-659b84b940206d05",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "6ec3897d428f5580b3bc173da684cac214249382",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.4.0.tgz",
+      "upstreamIntegrity": "sha512-6XdmbA/UjwJjKvfwlq47gxe/QeNBy0rK3p9Xb+3kBUWfJQMB6KU04bLrWh+x00NupnUKpGgt1kCb4rnBPzaJTg==",
+      "upstreamShasum": "327b33164ce1dc4bc2ec8e1f8e206f713b05cbe0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.4.0",
+        "com.frostbun.unit.di": "4.4.0",
+        "com.frostbun.unit.logging": "4.4.0",
+        "com.frostbun.unit.pooling": "4.4.0",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.4.0",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6XdmbA/UjwJjKvfwlq47gxe/QeNBy0rK3p9Xb+3kBUWfJQMB6KU04bLrWh+x00NupnUKpGgt1kCb4rnBPzaJTg==",
+          "shasum": "327b33164ce1dc4bc2ec8e1f8e206f713b05cbe0"
+        }
+      }
+    },
+    {
+      "version": "4.4.1",
+      "variantId": "registry-package.openupm.com-a31447eb32f10d70",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "28ef5c5c079ecb353d0aa2acd86f8fee01824f98",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.4.1.tgz",
+      "upstreamIntegrity": "sha512-b+RWwTSr/x+U1TJjcjk0o5vYl8l8O68qzbfVglOtrvN9n3mB7or3kQ5ZqpD8Ww4PSeNGZSA+Ix7fCtYoRltICA==",
+      "upstreamShasum": "4806b9f157e699091a709bbe2598d847eb7c3abd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.4.1",
+        "com.frostbun.unit.di": "4.4.1",
+        "com.frostbun.unit.logging": "4.4.1",
+        "com.frostbun.unit.pooling": "4.4.1",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.4.1",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-b+RWwTSr/x+U1TJjcjk0o5vYl8l8O68qzbfVglOtrvN9n3mB7or3kQ5ZqpD8Ww4PSeNGZSA+Ix7fCtYoRltICA==",
+          "shasum": "4806b9f157e699091a709bbe2598d847eb7c3abd"
+        }
+      }
+    },
+    {
+      "version": "4.4.2",
+      "variantId": "registry-package.openupm.com-9b906da48d883375",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "e108845e713dae825b99525dbf145befc02633e9",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.4.2.tgz",
+      "upstreamIntegrity": "sha512-lnvspCfeRzVx4iummwa+fV09wImGwd3Sx9jrv39YdZRhrk7rMILg7eJquRULdU0aEVsgytDUJ4eIZMU28+xbiQ==",
+      "upstreamShasum": "a3357bfc4af6e24b4648cf3daf83d868c2970401",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.4.2",
+        "com.frostbun.unit.di": "4.4.2",
+        "com.frostbun.unit.logging": "4.4.2",
+        "com.frostbun.unit.pooling": "4.4.2",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.4.2",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lnvspCfeRzVx4iummwa+fV09wImGwd3Sx9jrv39YdZRhrk7rMILg7eJquRULdU0aEVsgytDUJ4eIZMU28+xbiQ==",
+          "shasum": "a3357bfc4af6e24b4648cf3daf83d868c2970401"
+        }
+      }
+    },
+    {
+      "version": "4.4.3",
+      "variantId": "registry-package.openupm.com-f01644b4b4f1e3d8",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "6902453432cce400f7c10776410cc1aeb486569e",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.4.3.tgz",
+      "upstreamIntegrity": "sha512-E/yhXesZ7RMgOJ+QWlq1MPmNDigpuLGvwFn7fmo4D1r1/0G5+aciX7K51vL+cuVSyxqAKHpe7UtT50bh/WPZkg==",
+      "upstreamShasum": "c3960782d2f20a19b7e487fd55ccc636e54a9c3e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.4.3",
+        "com.frostbun.unit.di": "4.4.3",
+        "com.frostbun.unit.logging": "4.4.3",
+        "com.frostbun.unit.pooling": "4.4.3",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.4.3",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-E/yhXesZ7RMgOJ+QWlq1MPmNDigpuLGvwFn7fmo4D1r1/0G5+aciX7K51vL+cuVSyxqAKHpe7UtT50bh/WPZkg==",
+          "shasum": "c3960782d2f20a19b7e487fd55ccc636e54a9c3e"
+        }
+      }
+    },
+    {
+      "version": "4.4.4",
+      "variantId": "registry-package.openupm.com-4b01dd8eb01dfae2",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "b155473ebb03924da6d9234f396ffd3edabf6753",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.4.4.tgz",
+      "upstreamIntegrity": "sha512-TMA9JBbyzxnx8cgGL5ZnTh+D3YsLEVqtIxvmBwRjDziuHjJsXqDV3Yi0kATwuiY7qmDckVwUZ/TI2mBhOCvz4A==",
+      "upstreamShasum": "a6ee9b1a398306837a7a9ab2a67159e196ebce59",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.4.4",
+        "com.frostbun.unit.di": "4.4.4",
+        "com.frostbun.unit.logging": "4.4.4",
+        "com.frostbun.unit.pooling": "4.4.4",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.4.4",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TMA9JBbyzxnx8cgGL5ZnTh+D3YsLEVqtIxvmBwRjDziuHjJsXqDV3Yi0kATwuiY7qmDckVwUZ/TI2mBhOCvz4A==",
+          "shasum": "a6ee9b1a398306837a7a9ab2a67159e196ebce59"
+        }
+      }
+    },
+    {
+      "version": "4.4.5",
+      "variantId": "registry-package.openupm.com-5f0280dced6e3cf3",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "5658119061e5d9591a4b15adc4c7a7fbeb9684c1",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.4.5.tgz",
+      "upstreamIntegrity": "sha512-FL9YMgjreo5AcpICK4iFy9GLK1qsoU4s39aeIm1RYV+iSoyqhOpIk6SiR5ybS4AR4XVocopEpcImex7JOJf43A==",
+      "upstreamShasum": "01019616c8dd70d980acb6f1b6ab938985f9dcaf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.4.5",
+        "com.frostbun.unit.di": "4.4.5",
+        "com.frostbun.unit.logging": "4.4.5",
+        "com.frostbun.unit.pooling": "4.4.5",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.4.5",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FL9YMgjreo5AcpICK4iFy9GLK1qsoU4s39aeIm1RYV+iSoyqhOpIk6SiR5ybS4AR4XVocopEpcImex7JOJf43A==",
+          "shasum": "01019616c8dd70d980acb6f1b6ab938985f9dcaf"
+        }
+      }
+    },
+    {
+      "version": "4.4.6",
+      "variantId": "registry-package.openupm.com-8861d3c7633cf1e2",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "9afdb0d7e9f0932c3d3b566298cf6f8bab0725ab",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.4.6.tgz",
+      "upstreamIntegrity": "sha512-lHDnnOFXr2cISpzQHXkqjzNg2gDfJokvFXofc7aZrE/8XZQbC9cs+X/2PjWVW1H7nHTe/qjZNleb60KRHByxTQ==",
+      "upstreamShasum": "cf5d40b6b7b30eb5117495f917e684ddb74c53e2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.4.6",
+        "com.frostbun.unit.di": "4.4.6",
+        "com.frostbun.unit.logging": "4.4.6",
+        "com.frostbun.unit.pooling": "4.4.6",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.4.6",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lHDnnOFXr2cISpzQHXkqjzNg2gDfJokvFXofc7aZrE/8XZQbC9cs+X/2PjWVW1H7nHTe/qjZNleb60KRHByxTQ==",
+          "shasum": "cf5d40b6b7b30eb5117495f917e684ddb74c53e2"
+        }
+      }
+    },
+    {
+      "version": "4.4.7",
+      "variantId": "registry-package.openupm.com-2879341bafc62e81",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "812d7ec3af7c76338642ee14d9cc80c4f61776fa",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.4.7.tgz",
+      "upstreamIntegrity": "sha512-f02s35q04XFCY+kUe3liDAN7hwgUffkr6L1B5GIOHootqOnb8zTOjpfqaksNzm8aozp5FRNF6M5tD05TQxt6+A==",
+      "upstreamShasum": "27bb2b44eb5a39d860a47dcde6da245be733e0a2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.4.7",
+        "com.frostbun.unit.di": "4.4.7",
+        "com.frostbun.unit.logging": "4.4.7",
+        "com.frostbun.unit.pooling": "4.4.7",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.4.7",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-f02s35q04XFCY+kUe3liDAN7hwgUffkr6L1B5GIOHootqOnb8zTOjpfqaksNzm8aozp5FRNF6M5tD05TQxt6+A==",
+          "shasum": "27bb2b44eb5a39d860a47dcde6da245be733e0a2"
+        }
+      }
+    },
+    {
+      "version": "4.4.8",
+      "variantId": "registry-package.openupm.com-689a98e016893a11",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "9a8a6dcc3acab3c898af6b4859f56d4346881216",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.4.8.tgz",
+      "upstreamIntegrity": "sha512-fnItx7NM+XMN523IWB2BHiNB7kgC+48vBJz9T5f08E133P4K9ef8XhZGfQ32ze4Qr2bvvqLwZkiiujXtrTFG0Q==",
+      "upstreamShasum": "f5a1401145f63a280f8cb5185c743a4a6b91082c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.4.8",
+        "com.frostbun.unit.di": "4.4.8",
+        "com.frostbun.unit.logging": "4.4.8",
+        "com.frostbun.unit.pooling": "4.4.8",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.4.8",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fnItx7NM+XMN523IWB2BHiNB7kgC+48vBJz9T5f08E133P4K9ef8XhZGfQ32ze4Qr2bvvqLwZkiiujXtrTFG0Q==",
+          "shasum": "f5a1401145f63a280f8cb5185c743a4a6b91082c"
+        }
+      }
+    },
+    {
+      "version": "4.4.9",
+      "variantId": "registry-package.openupm.com-2267536b2c7a25fa",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "6e51b4a698f70a61c1fba1f68148857932279726",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.4.9.tgz",
+      "upstreamIntegrity": "sha512-b2BUdu61GiR4A1zQffRHGDdBBaJFocQghRkMdlEudxhllHxS9UVNjLVykCU2NLPOanF6tI8vr8ipyEKmYN5uxg==",
+      "upstreamShasum": "2d848f5d7b6c4469d5711736a82fe47d99736421",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.4.9",
+        "com.frostbun.unit.di": "4.4.9",
+        "com.frostbun.unit.logging": "4.4.9",
+        "com.frostbun.unit.pooling": "4.4.9",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.4.9",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-b2BUdu61GiR4A1zQffRHGDdBBaJFocQghRkMdlEudxhllHxS9UVNjLVykCU2NLPOanF6tI8vr8ipyEKmYN5uxg==",
+          "shasum": "2d848f5d7b6c4469d5711736a82fe47d99736421"
+        }
+      }
+    },
+    {
+      "version": "4.5.0",
+      "variantId": "registry-package.openupm.com-456b85d10cb3ab6e",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "d879b371022c654e7a025d8182c6ae824beb0f3b",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.5.0.tgz",
+      "upstreamIntegrity": "sha512-F00gAE6KWMpcjuLytl+uLxZOhxw2yBIX2NKzNPrJJ/1Tcl6TgRUnSEz2aCdCQTfv7DzgLeVHOQfvJz2GQNaQbA==",
+      "upstreamShasum": "ccc8c7e0f2665dfc24cc6ec4f64dbc73dddf4229",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.5.0",
+        "com.frostbun.unit.di": "4.5.0",
+        "com.frostbun.unit.logging": "4.5.0",
+        "com.frostbun.unit.pooling": "4.5.0",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.5.0",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-F00gAE6KWMpcjuLytl+uLxZOhxw2yBIX2NKzNPrJJ/1Tcl6TgRUnSEz2aCdCQTfv7DzgLeVHOQfvJz2GQNaQbA==",
+          "shasum": "ccc8c7e0f2665dfc24cc6ec4f64dbc73dddf4229"
+        }
+      }
+    },
+    {
+      "version": "4.5.1",
+      "variantId": "registry-package.openupm.com-d417599f6aecdec3",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "978c8d4b458d243382da8efb3412debd47b6dd20",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.5.1.tgz",
+      "upstreamIntegrity": "sha512-xoUNjDwE5Z+kwkRKNZNSwX4ytuDXOP/GZMACo3IIoggi7HfkI4x2LKImB0WypRJ4WhqGHuUpvRLT8CN73hdY8w==",
+      "upstreamShasum": "c554f0dc39a8ed833f6edaf9e8055cde52297ac1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.5.1",
+        "com.frostbun.unit.di": "4.5.1",
+        "com.frostbun.unit.logging": "4.5.1",
+        "com.frostbun.unit.pooling": "4.5.1",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.5.1",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xoUNjDwE5Z+kwkRKNZNSwX4ytuDXOP/GZMACo3IIoggi7HfkI4x2LKImB0WypRJ4WhqGHuUpvRLT8CN73hdY8w==",
+          "shasum": "c554f0dc39a8ed833f6edaf9e8055cde52297ac1"
+        }
+      }
+    },
+    {
+      "version": "4.5.2",
+      "variantId": "registry-package.openupm.com-4c6d863f030e719b",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "0ffa94b9079a1f65e191c3e325b31ad8e086d809",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.5.2.tgz",
+      "upstreamIntegrity": "sha512-tctlxEJhoeDMS6wRDjDlAV0hDIxUGrkL21i4nnHuk/cU+/R9f5ulhtBZVyJYwgk+qclj7Rmp6K26mf7gGb2OIg==",
+      "upstreamShasum": "c53ff08868a2040ef6519247ff9dc8def5b9c397",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.5.2",
+        "com.frostbun.unit.di": "4.5.2",
+        "com.frostbun.unit.logging": "4.5.2",
+        "com.frostbun.unit.pooling": "4.5.2",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.5.2",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tctlxEJhoeDMS6wRDjDlAV0hDIxUGrkL21i4nnHuk/cU+/R9f5ulhtBZVyJYwgk+qclj7Rmp6K26mf7gGb2OIg==",
+          "shasum": "c53ff08868a2040ef6519247ff9dc8def5b9c397"
+        }
+      }
+    },
+    {
+      "version": "4.5.3",
+      "variantId": "registry-package.openupm.com-838821b57633ca2f",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "9e5c98085e78d16cba7da02ac08906b14fa20ae9",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-4.5.3.tgz",
+      "upstreamIntegrity": "sha512-rYiSIB6IjzFKdLf+t6WgdIc2EO2MlTQ457QY4+2ElsQ0wN8VDOTs/v8L5Tjil/fTqkLl+imS4lBBhIWvI3MkSg==",
+      "upstreamShasum": "55f7ab98563195185dacd1c6092dcdffd012970d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "4.5.3",
+        "com.frostbun.unit.di": "4.5.3",
+        "com.frostbun.unit.logging": "4.5.3",
+        "com.frostbun.unit.pooling": "4.5.3",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/4.5.3",
+      "deprecated": null,
+      "unity": "6.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rYiSIB6IjzFKdLf+t6WgdIc2EO2MlTQ457QY4+2ElsQ0wN8VDOTs/v8L5Tjil/fTqkLl+imS4lBBhIWvI3MkSg==",
+          "shasum": "55f7ab98563195185dacd1c6092dcdffd012970d"
+        }
+      }
+    },
+    {
+      "version": "5.0.0",
+      "variantId": "registry-package.openupm.com-f377b5c80bbe2873",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "e68899eba0f66d6b69eb76ba932bc9b286d1cb92",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.0.0.tgz",
+      "upstreamIntegrity": "sha512-pLbHqFxd4gA6GXVT+dtuhybFcr93ADUo2mEQYmrEc0d+Ax8t6Hi+jfXQrCBnymYn9nKglp1joUi4B89t0kVG4g==",
+      "upstreamShasum": "0a1fc5f544ca265a4674d27cfffcec338849fbb7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.0.0",
+        "com.frostbun.unit.di": "5.0.0",
+        "com.frostbun.unit.logging": "5.0.0",
+        "com.frostbun.unit.pooling": "5.0.0",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.0.0",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-pLbHqFxd4gA6GXVT+dtuhybFcr93ADUo2mEQYmrEc0d+Ax8t6Hi+jfXQrCBnymYn9nKglp1joUi4B89t0kVG4g==",
+          "shasum": "0a1fc5f544ca265a4674d27cfffcec338849fbb7"
+        }
+      }
+    },
+    {
+      "version": "5.0.1",
+      "variantId": "registry-package.openupm.com-c3f16ed015c173bc",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "a45efd0728c218b78d543fc2389563d1f255b3f3",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.0.1.tgz",
+      "upstreamIntegrity": "sha512-I1/+zyFz8nYLsad+mDBmkukXPF2TAlotQy62A5YkccNvgJgcR7guvaFGHdma8Zf4UyyJOV9/ci+u4hjFTk83GQ==",
+      "upstreamShasum": "7baf0ed627e312a65095e832101d358ca059e4bd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.0.1",
+        "com.frostbun.unit.di": "5.0.1",
+        "com.frostbun.unit.logging": "5.0.1",
+        "com.frostbun.unit.pooling": "5.0.1",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.0.1",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-I1/+zyFz8nYLsad+mDBmkukXPF2TAlotQy62A5YkccNvgJgcR7guvaFGHdma8Zf4UyyJOV9/ci+u4hjFTk83GQ==",
+          "shasum": "7baf0ed627e312a65095e832101d358ca059e4bd"
+        }
+      }
+    },
+    {
+      "version": "5.0.2",
+      "variantId": "registry-package.openupm.com-2ff7c90265c73853",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "062ab9136b2016e63bb084705a268fa9c6e58308",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.0.2.tgz",
+      "upstreamIntegrity": "sha512-UDk3yP6QzFWCmbZ8sywvernN12bMrVUizSO/f+Uwt2dGOgqSNxnZKYq25a5K0K7Hkf36ZX0Z4HUz+p5OLthRgA==",
+      "upstreamShasum": "92fe6088f40acba935255220fac50a59cc689de6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.0.2",
+        "com.frostbun.unit.di": "5.0.2",
+        "com.frostbun.unit.logging": "5.0.2",
+        "com.frostbun.unit.pooling": "5.0.2",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.0.2",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-UDk3yP6QzFWCmbZ8sywvernN12bMrVUizSO/f+Uwt2dGOgqSNxnZKYq25a5K0K7Hkf36ZX0Z4HUz+p5OLthRgA==",
+          "shasum": "92fe6088f40acba935255220fac50a59cc689de6"
+        }
+      }
+    },
+    {
+      "version": "5.1.0",
+      "variantId": "registry-package.openupm.com-5ae0ab5e77dd8f3a",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "fed7c613e4eb1084e4e9348ddd7ff813d0a0d890",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.1.0.tgz",
+      "upstreamIntegrity": "sha512-kWA5AuqoALof1Q5vXW+wyL4ALEI8cwZkbve91yAibbwGYqy1tuaU0aQpKOeeXEjETF8BckXTlGKBRZe2wHNwww==",
+      "upstreamShasum": "bf4260e45f2f0ea69a3882113bbab1cb4fd0710d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.1.0",
+        "com.frostbun.unit.di": "5.1.0",
+        "com.frostbun.unit.logging": "5.1.0",
+        "com.frostbun.unit.pooling": "5.1.0",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.1.0",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kWA5AuqoALof1Q5vXW+wyL4ALEI8cwZkbve91yAibbwGYqy1tuaU0aQpKOeeXEjETF8BckXTlGKBRZe2wHNwww==",
+          "shasum": "bf4260e45f2f0ea69a3882113bbab1cb4fd0710d"
+        }
+      }
+    },
+    {
+      "version": "5.2.0",
+      "variantId": "registry-package.openupm.com-3388c90bc6345581",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "6d38597cd8428a80caa4d64aa0955e0ce4be1beb",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.2.0.tgz",
+      "upstreamIntegrity": "sha512-oOqkBfZvrSYtsuLorvA50UWG/HvoMIpGbwAj1UShmTHzavjvBwA1b6XCBkVBnbh+70o9nnW1EEU+lUHS8igM6w==",
+      "upstreamShasum": "d805c9950188e824201861b862840f2af195945d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.2.0",
+        "com.frostbun.unit.di": "5.2.0",
+        "com.frostbun.unit.logging": "5.2.0",
+        "com.frostbun.unit.pooling": "5.2.0",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.2.0",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oOqkBfZvrSYtsuLorvA50UWG/HvoMIpGbwAj1UShmTHzavjvBwA1b6XCBkVBnbh+70o9nnW1EEU+lUHS8igM6w==",
+          "shasum": "d805c9950188e824201861b862840f2af195945d"
+        }
+      }
+    },
+    {
+      "version": "5.3.0",
+      "variantId": "registry-package.openupm.com-28c22731d2b69b80",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "67a52f060bd514a8208daa6ca5013bb2a5adf537",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.3.0.tgz",
+      "upstreamIntegrity": "sha512-UoVeRsd7P2QZ2JE+C3bN4AcIwGUG8CcAxNR7UNvySy++VyJEmwKYTXxaJH9rlXA/1uBD8iPAAcdqVmPhJ2gB+g==",
+      "upstreamShasum": "eabc034293d8b4e393a686890736b7570e11063d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.3.0",
+        "com.frostbun.unit.di": "5.3.0",
+        "com.frostbun.unit.logging": "5.3.0",
+        "com.frostbun.unit.pooling": "5.3.0",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.3.0",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-UoVeRsd7P2QZ2JE+C3bN4AcIwGUG8CcAxNR7UNvySy++VyJEmwKYTXxaJH9rlXA/1uBD8iPAAcdqVmPhJ2gB+g==",
+          "shasum": "eabc034293d8b4e393a686890736b7570e11063d"
+        }
+      }
+    },
+    {
+      "version": "5.3.1",
+      "variantId": "registry-package.openupm.com-d48cadf9fe0c5e88",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "8558d6d9c57d07108e94571eb4fb34e3d0dbea82",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.3.1.tgz",
+      "upstreamIntegrity": "sha512-YSr2hSYLTKUro1VlgenzUNwuRxUw6Gc706rGbJP2oHqIZONb1byV/NXMHaE0YuoGu1XU87Z1MQBmxIQW9zYrig==",
+      "upstreamShasum": "b792e5f78f759ce03ee5b3c8ea1e6dde311bb5b4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.3.1",
+        "com.frostbun.unit.di": "5.3.1",
+        "com.frostbun.unit.logging": "5.3.1",
+        "com.frostbun.unit.pooling": "5.3.1",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.3.1",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YSr2hSYLTKUro1VlgenzUNwuRxUw6Gc706rGbJP2oHqIZONb1byV/NXMHaE0YuoGu1XU87Z1MQBmxIQW9zYrig==",
+          "shasum": "b792e5f78f759ce03ee5b3c8ea1e6dde311bb5b4"
+        }
+      }
+    },
+    {
+      "version": "5.3.2",
+      "variantId": "registry-package.openupm.com-9d32c50176fc3986",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "24c82d84ee2ad046124853dfa8b98e64ffe5c730",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.3.2.tgz",
+      "upstreamIntegrity": "sha512-zoUU4jgoLjfADT8XllHH5me8GCrf+tJ0N8Isze/W2wOVe30nrx40viQu7hoPXdofZP8I10d1SPUDKWIDPZeHvA==",
+      "upstreamShasum": "2843393e6e555b0fe01a81bdee70d267f8f7564f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.3.2",
+        "com.frostbun.unit.di": "5.3.2",
+        "com.frostbun.unit.logging": "5.3.2",
+        "com.frostbun.unit.pooling": "5.3.2",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.3.2",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zoUU4jgoLjfADT8XllHH5me8GCrf+tJ0N8Isze/W2wOVe30nrx40viQu7hoPXdofZP8I10d1SPUDKWIDPZeHvA==",
+          "shasum": "2843393e6e555b0fe01a81bdee70d267f8f7564f"
+        }
+      }
+    },
+    {
+      "version": "5.3.3",
+      "variantId": "registry-package.openupm.com-5621c7a7e3fda45d",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "857b8778668f87bff64d616c98769c2a6c71fb08",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.3.3.tgz",
+      "upstreamIntegrity": "sha512-yL3DGNul+rnN51zsosrH1/+XRHcm/af0pv4gOo0CUpwYs2V5Zhm+mbU47iZsxJRr1adZccfOuu6BNIhsOj4Z4Q==",
+      "upstreamShasum": "9fcab67648735f31602d8214eef8e3be78cc00c0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.3.3",
+        "com.frostbun.unit.di": "5.3.3",
+        "com.frostbun.unit.logging": "5.3.3",
+        "com.frostbun.unit.pooling": "5.3.3",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.3.3",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yL3DGNul+rnN51zsosrH1/+XRHcm/af0pv4gOo0CUpwYs2V5Zhm+mbU47iZsxJRr1adZccfOuu6BNIhsOj4Z4Q==",
+          "shasum": "9fcab67648735f31602d8214eef8e3be78cc00c0"
+        }
+      }
+    },
+    {
+      "version": "5.4.0",
+      "variantId": "registry-package.openupm.com-41d8152a920ddea3",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "2ddbbddb53481371a488c2a1a646e1796c134a65",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.4.0.tgz",
+      "upstreamIntegrity": "sha512-ZDwwT7MLvBtmlDdVOwIYi+V1JZkV/eQTgcmzF6jIkCJ/nIMGpp+JSRGdKuc5Kf/gNgBF8MMSkzN8VWW4lJozng==",
+      "upstreamShasum": "a2337b28c1df20170a0bc92f1826c4ce287b8bb6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.4.0",
+        "com.frostbun.unit.di": "5.4.0",
+        "com.frostbun.unit.logging": "5.4.0",
+        "com.frostbun.unit.pooling": "5.4.0",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.4.0",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZDwwT7MLvBtmlDdVOwIYi+V1JZkV/eQTgcmzF6jIkCJ/nIMGpp+JSRGdKuc5Kf/gNgBF8MMSkzN8VWW4lJozng==",
+          "shasum": "a2337b28c1df20170a0bc92f1826c4ce287b8bb6"
+        }
+      }
+    },
+    {
+      "version": "5.4.1",
+      "variantId": "registry-package.openupm.com-7277cab09172c918",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "6c98258137db4b9b104645023719a4e61dae0b63",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.4.1.tgz",
+      "upstreamIntegrity": "sha512-zVxr5aJqCd9A2bUInYHi31MWFeNwQJWWYAE02HsBz6qt83i+wcRov+1n2U40WeCx1DlYUe3oC+rWQT6CrXsHJg==",
+      "upstreamShasum": "a1eae532c510dc668ec31f2cd3b00c0ee52763cb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.4.1",
+        "com.frostbun.unit.di": "5.4.1",
+        "com.frostbun.unit.logging": "5.4.1",
+        "com.frostbun.unit.pooling": "5.4.1",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.4.1",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zVxr5aJqCd9A2bUInYHi31MWFeNwQJWWYAE02HsBz6qt83i+wcRov+1n2U40WeCx1DlYUe3oC+rWQT6CrXsHJg==",
+          "shasum": "a1eae532c510dc668ec31f2cd3b00c0ee52763cb"
+        }
+      }
+    },
+    {
+      "version": "5.5.0",
+      "variantId": "registry-package.openupm.com-8da3a64ed6ecc829",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "ace5c5fe5958b8467371ee0d2004f52f87ae5bcb",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.5.0.tgz",
+      "upstreamIntegrity": "sha512-cUhCklMCkSRg9XpM7hUtmAJDGTiDFS91/+y1ZN7nbTWQj4GplrDgARZ8dC8PaXMD30R7L9tWGnpTj/tns0TSpQ==",
+      "upstreamShasum": "ca4a74ae03bc1ed1e25f6a811e3ee22fccdb6f8a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.5.0",
+        "com.frostbun.unit.di": "5.5.0",
+        "com.frostbun.unit.logging": "5.5.0",
+        "com.frostbun.unit.pooling": "5.5.0",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.5.0",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cUhCklMCkSRg9XpM7hUtmAJDGTiDFS91/+y1ZN7nbTWQj4GplrDgARZ8dC8PaXMD30R7L9tWGnpTj/tns0TSpQ==",
+          "shasum": "ca4a74ae03bc1ed1e25f6a811e3ee22fccdb6f8a"
+        }
+      }
+    },
+    {
+      "version": "5.6.0",
+      "variantId": "registry-package.openupm.com-095fe7f344a3c770",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "93f067bab07010b2b1002104227146d9f3af8288",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.6.0.tgz",
+      "upstreamIntegrity": "sha512-4V7F4JEkyHb2dgAiGIZ0K8VYoQKxrFXkeEVWhC/AbqimQSSPcCm6QfBXO95vxrcjKboU+UlYMajR5kSptKNUpg==",
+      "upstreamShasum": "dfa1d86f0262983ea5364b2758a0b5e9f1daa997",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.6.0",
+        "com.frostbun.unit.di": "5.6.0",
+        "com.frostbun.unit.logging": "5.6.0",
+        "com.frostbun.unit.pooling": "5.6.0",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.6.0",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4V7F4JEkyHb2dgAiGIZ0K8VYoQKxrFXkeEVWhC/AbqimQSSPcCm6QfBXO95vxrcjKboU+UlYMajR5kSptKNUpg==",
+          "shasum": "dfa1d86f0262983ea5364b2758a0b5e9f1daa997"
+        }
+      }
+    },
+    {
+      "version": "5.6.1",
+      "variantId": "registry-package.openupm.com-e761c4fbad9fdb77",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "99d480146495d8a1009e318230cd5d31315772ad",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.6.1.tgz",
+      "upstreamIntegrity": "sha512-iJUNmspqizRuMYQdDJaYvRM0WSDY903iDmNEXuV+ZLxNRr1lfcIXgegZZV2VLCG4FaT8vFOiijuX7BnQAF7AfQ==",
+      "upstreamShasum": "9ef1122984ccd5db69445a3acabcc87c45128e45",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.6.1",
+        "com.frostbun.unit.di": "5.6.1",
+        "com.frostbun.unit.logging": "5.6.1",
+        "com.frostbun.unit.pooling": "5.6.1",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.6.1",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iJUNmspqizRuMYQdDJaYvRM0WSDY903iDmNEXuV+ZLxNRr1lfcIXgegZZV2VLCG4FaT8vFOiijuX7BnQAF7AfQ==",
+          "shasum": "9ef1122984ccd5db69445a3acabcc87c45128e45"
+        }
+      }
+    },
+    {
+      "version": "5.7.0",
+      "variantId": "registry-package.openupm.com-ecf737dd3ec490f1",
+      "sourceUrl": "https://github.com/HNVW/UniT.Entities.git",
+      "sourceRef": "98ac69a9a75259167ec0c45fae3907002c399611",
+      "downloadUrl": "https://package.openupm.com/com.frostbun.unit.entities/-/com.frostbun.unit.entities-5.7.0.tgz",
+      "upstreamIntegrity": "sha512-+bx2T/0hN0CJO9EcjCYKYFMhlXqWpQgGkp3nYDxxiulrd8kV9CojSdu7TBnLfncKar/UrQemeJ33GYwY5D/ktg==",
+      "upstreamShasum": "fc432b073e3f6cec5190b03897bc5a422d190d08",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.frostbun.unit.extensions": "5.7.0",
+        "com.frostbun.unit.di": "5.7.0",
+        "com.frostbun.unit.logging": "5.7.0",
+        "com.frostbun.unit.pooling": "5.7.0",
+        "com.cysharp.unitask": "2.5.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.frostbun.unit.entities/5.7.0",
+      "deprecated": null,
+      "unity": "6000.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+bx2T/0hN0CJO9EcjCYKYFMhlXqWpQgGkp3nYDxxiulrd8kV9CojSdu7TBnLfncKar/UrQemeJ33GYwY5D/ktg==",
+          "shasum": "fc432b073e3f6cec5190b03897bc5a422d190d08"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "5.7.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.frostbun.unit.entities.yml",
+  "definitionBlobSha": "7f07ff6e6890d27e405117916b0f7377f16815c7",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "1.0.0"
+  ],
+  "selectedVersions": [
+    "1.0.0",
+    "5.7.0",
+    "1.0.1"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 102,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

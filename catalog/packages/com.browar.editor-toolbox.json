@@ -1,0 +1,917 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.browar.editor-toolbox",
+  "displayName": "com.browar.editor-toolbox",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "fetchedAt": "2026-10-17T17:36:56.075392Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.11.5",
+      "variantId": "registry-package.openupm.com-91625e6da5661df9",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "dd74c5b61583cf00b99702e81d589247641605e1",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.11.5.tgz",
+      "upstreamIntegrity": "sha512-1OmCpjoUzpMua1XqWb3rpWo60u39GIQT376CtCll0SU+bhhpAjh0DQzTnjE683jC9hmx8pa6jxxQ41RQym8Fpw==",
+      "upstreamShasum": "fe5f3a7fff1af955d947b9acef336559e370e7e2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.11.5",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1OmCpjoUzpMua1XqWb3rpWo60u39GIQT376CtCll0SU+bhhpAjh0DQzTnjE683jC9hmx8pa6jxxQ41RQym8Fpw==",
+          "shasum": "fe5f3a7fff1af955d947b9acef336559e370e7e2"
+        }
+      }
+    },
+    {
+      "version": "0.11.7",
+      "variantId": "registry-package.openupm.com-31e2d62603adc73c",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "ac46ca871bb92d956560cb7c33d07c4179842204",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.11.7.tgz",
+      "upstreamIntegrity": "sha512-QJeTnhxWg+xrF537DxTt+hUWEhxy5yMUUICYz6wJF2np11R+95iQR74RetuMSv0rUCvRqlfWZC9t5Km8Ly4KCg==",
+      "upstreamShasum": "f9696f74f40898b6cb660d02ed4eab446a30868c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.11.7",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QJeTnhxWg+xrF537DxTt+hUWEhxy5yMUUICYz6wJF2np11R+95iQR74RetuMSv0rUCvRqlfWZC9t5Km8Ly4KCg==",
+          "shasum": "f9696f74f40898b6cb660d02ed4eab446a30868c"
+        }
+      }
+    },
+    {
+      "version": "0.11.8",
+      "variantId": "registry-package.openupm.com-4994afd947db784a",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "ef5e83d7f260ffdc92166f51dcf6fbc3859c2d9d",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.11.8.tgz",
+      "upstreamIntegrity": "sha512-xHhi7vN0wWEHphJYEHo7p3LSPDCk7Z3MEq3llV56n4oYtu7RbzxrEHQ+j0QDZby3OG080MXTlsq/No8RqsArrA==",
+      "upstreamShasum": "6aa45221751d9a9fd7c56e7899992b667a1d1f26",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.11.8",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xHhi7vN0wWEHphJYEHo7p3LSPDCk7Z3MEq3llV56n4oYtu7RbzxrEHQ+j0QDZby3OG080MXTlsq/No8RqsArrA==",
+          "shasum": "6aa45221751d9a9fd7c56e7899992b667a1d1f26"
+        }
+      }
+    },
+    {
+      "version": "0.11.9",
+      "variantId": "registry-package.openupm.com-3549eb3d573b5eb5",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "01fb97ef8fe37fcb8e0373d3832807795b3c712f",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.11.9.tgz",
+      "upstreamIntegrity": "sha512-uOjIYYNWMl0DJ9AkRxRG0/eIbwFFMkhvGc8KvS21bwcSwwXwTCRmFMRmCCAxGKrfBg2u0orJb6KgRb4bIs2UyA==",
+      "upstreamShasum": "a8b55643ae7320102912e6972a5bc01c3fd22b6c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.11.9",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uOjIYYNWMl0DJ9AkRxRG0/eIbwFFMkhvGc8KvS21bwcSwwXwTCRmFMRmCCAxGKrfBg2u0orJb6KgRb4bIs2UyA==",
+          "shasum": "a8b55643ae7320102912e6972a5bc01c3fd22b6c"
+        }
+      }
+    },
+    {
+      "version": "0.12.0",
+      "variantId": "registry-package.openupm.com-ac3e20dd9b8e3d56",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "5c9f7944bfc8a849c1fb83c10f2e5407e78cf614",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.12.0.tgz",
+      "upstreamIntegrity": "sha512-yRcNJgUM+0IKKjHvdoU/l1z3kJRfTYd9T2jdI+aOQn6lsD6i0I7ebX9RUDRiC7h0vTH2C/5CTB/76NwKomBw6A==",
+      "upstreamShasum": "66ba81497251b06cc4dec8a571d56f7a40587380",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.12.0",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yRcNJgUM+0IKKjHvdoU/l1z3kJRfTYd9T2jdI+aOQn6lsD6i0I7ebX9RUDRiC7h0vTH2C/5CTB/76NwKomBw6A==",
+          "shasum": "66ba81497251b06cc4dec8a571d56f7a40587380"
+        }
+      }
+    },
+    {
+      "version": "0.12.1",
+      "variantId": "registry-package.openupm.com-3c999dd38f8d1800",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "06742b17b602d37cf7d535acc0c102aac5ef073f",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.12.1.tgz",
+      "upstreamIntegrity": "sha512-BYMvOIN5nQohbIXBmSm0luRsIV8SRckc1i1TMmqSqdpPJvsvALdjJN9hBSv32J7JHmHzzzfIh7y3G3uQDLKx9w==",
+      "upstreamShasum": "d919019d2ea5b830b9408e6ac2cbf985c35bcb51",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.12.1",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BYMvOIN5nQohbIXBmSm0luRsIV8SRckc1i1TMmqSqdpPJvsvALdjJN9hBSv32J7JHmHzzzfIh7y3G3uQDLKx9w==",
+          "shasum": "d919019d2ea5b830b9408e6ac2cbf985c35bcb51"
+        }
+      }
+    },
+    {
+      "version": "0.12.3",
+      "variantId": "registry-package.openupm.com-13753ff9d8af1eae",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "b92221b42e48168e830fe384a7e21107702b5af0",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.12.3.tgz",
+      "upstreamIntegrity": "sha512-6PwSnAShmOIfSzm9j0NleifbuTMXytVQcuv5g31P7926IcMmn2kjbimuRhLTAFwCnxekmga7451mTM7Xh+Rj+w==",
+      "upstreamShasum": "8f8c25142f5fd64ffcc2a480ac53d8fbc982475d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.12.3",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6PwSnAShmOIfSzm9j0NleifbuTMXytVQcuv5g31P7926IcMmn2kjbimuRhLTAFwCnxekmga7451mTM7Xh+Rj+w==",
+          "shasum": "8f8c25142f5fd64ffcc2a480ac53d8fbc982475d"
+        }
+      }
+    },
+    {
+      "version": "0.12.4",
+      "variantId": "registry-package.openupm.com-ee355a2dd7315010",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "1f2c62ab1f0dbc2b29904225445672b8c7b45b63",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.12.4.tgz",
+      "upstreamIntegrity": "sha512-RvVbjNCzNGyK5eQitVBaiMIkcNkgvx92QN0ffZKPOav5aBZqWaXn4pd/+OXZBuEuwF8l6NeAAHrHcoLabm5wcA==",
+      "upstreamShasum": "39901add63e75e2fe493d8b2e1f6c3afff1db30f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.12.4",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RvVbjNCzNGyK5eQitVBaiMIkcNkgvx92QN0ffZKPOav5aBZqWaXn4pd/+OXZBuEuwF8l6NeAAHrHcoLabm5wcA==",
+          "shasum": "39901add63e75e2fe493d8b2e1f6c3afff1db30f"
+        }
+      }
+    },
+    {
+      "version": "0.12.5",
+      "variantId": "registry-package.openupm.com-edeafa72ddf73d68",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "830e64c465fcac3d967e93b8b29054a6e4d595bc",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.12.5.tgz",
+      "upstreamIntegrity": "sha512-f9BZjfZY16eXnxOdK4SGbXEC0/2hi/odbuZTIVPoyOtxeP9JgiAZj5ZutoVuIROKgBvUUDnG36VeKmYAZaiJxw==",
+      "upstreamShasum": "397d8e13add799a9f9068e65f2a1b2a27097f6d9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.12.5",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-f9BZjfZY16eXnxOdK4SGbXEC0/2hi/odbuZTIVPoyOtxeP9JgiAZj5ZutoVuIROKgBvUUDnG36VeKmYAZaiJxw==",
+          "shasum": "397d8e13add799a9f9068e65f2a1b2a27097f6d9"
+        }
+      }
+    },
+    {
+      "version": "0.12.6",
+      "variantId": "registry-package.openupm.com-144131910a8516f6",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "c86a67f89eccc38cc23666f2e33e49d3a23783ab",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.12.6.tgz",
+      "upstreamIntegrity": "sha512-SqU0l+dH+hXDm8gW8S1ZeGpppgoEf/nBrJXGCQZ/hCEryNsjJbqqZHjleVsVA/MBzPzuC/ZhRjz1F4ZxZqxeYQ==",
+      "upstreamShasum": "8e15c66c586a091bd856aab8101953077f426f26",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.12.6",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SqU0l+dH+hXDm8gW8S1ZeGpppgoEf/nBrJXGCQZ/hCEryNsjJbqqZHjleVsVA/MBzPzuC/ZhRjz1F4ZxZqxeYQ==",
+          "shasum": "8e15c66c586a091bd856aab8101953077f426f26"
+        }
+      }
+    },
+    {
+      "version": "0.12.7",
+      "variantId": "registry-package.openupm.com-60a0ccf8dfd53923",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "3d4e8abace482c2067e3e198175f308a917e5c85",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.12.7.tgz",
+      "upstreamIntegrity": "sha512-Plf7e58lt4CD/GCfdhMOiiUOPMYpVclo2VV61D/dfD//sqYBsXxfnc2y72JBi9MCOn+16omgMb4YoeuPQeMVCQ==",
+      "upstreamShasum": "aa2fba9ddb32945dc902c2ecd520e067745327b8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.12.7",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Plf7e58lt4CD/GCfdhMOiiUOPMYpVclo2VV61D/dfD//sqYBsXxfnc2y72JBi9MCOn+16omgMb4YoeuPQeMVCQ==",
+          "shasum": "aa2fba9ddb32945dc902c2ecd520e067745327b8"
+        }
+      }
+    },
+    {
+      "version": "0.12.8",
+      "variantId": "registry-package.openupm.com-7d6a1b746f15b944",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "71fb80de7a612a159341c41e1196ddc3e8d576e1",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.12.8.tgz",
+      "upstreamIntegrity": "sha512-VOwqk4wxpZnRHGS+ROTPIEbyI4uvn9DrW+Wyxz5kxJ4HsuSaYEKh+gg1JCKJjx4ctAotAKezqN1cBTDZNe9HFA==",
+      "upstreamShasum": "a0b704fea168d763b4f12176946788e25e7cd84d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.12.8",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VOwqk4wxpZnRHGS+ROTPIEbyI4uvn9DrW+Wyxz5kxJ4HsuSaYEKh+gg1JCKJjx4ctAotAKezqN1cBTDZNe9HFA==",
+          "shasum": "a0b704fea168d763b4f12176946788e25e7cd84d"
+        }
+      }
+    },
+    {
+      "version": "0.12.9",
+      "variantId": "registry-package.openupm.com-d794fc2cde75a419",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "4a72fd03c652e80bf26873d2b1cf6ffa9ab3b042",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.12.9.tgz",
+      "upstreamIntegrity": "sha512-1LMdoapSfs6GJBylCSyFiHk1jM1CvUbl/4VxC+7yXxKur9fyHZtRYKyWHOFVZccG18V+7owsiTwNA1L5b3hxdw==",
+      "upstreamShasum": "bbc90ed1d1dc553ff3695a64c87f8cfa65036278",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.12.9",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1LMdoapSfs6GJBylCSyFiHk1jM1CvUbl/4VxC+7yXxKur9fyHZtRYKyWHOFVZccG18V+7owsiTwNA1L5b3hxdw==",
+          "shasum": "bbc90ed1d1dc553ff3695a64c87f8cfa65036278"
+        }
+      }
+    },
+    {
+      "version": "0.12.10",
+      "variantId": "registry-package.openupm.com-80e29f6d0fb8c5d0",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "8eb47f934af5d0b2c2e15337232cc176d4e92277",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.12.10.tgz",
+      "upstreamIntegrity": "sha512-seE6gDd3fUkrp/bIDaRT3nysTtcoFcHKiP2GGx+YxV7hzxeWx6DInwFMq4KhB7kPbi0OQdUTTMd5qLnhfx/wVg==",
+      "upstreamShasum": "8a67e97524c9a3fdcd2b58985aa6959d6a2e9dc4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.12.10",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-seE6gDd3fUkrp/bIDaRT3nysTtcoFcHKiP2GGx+YxV7hzxeWx6DInwFMq4KhB7kPbi0OQdUTTMd5qLnhfx/wVg==",
+          "shasum": "8a67e97524c9a3fdcd2b58985aa6959d6a2e9dc4"
+        }
+      }
+    },
+    {
+      "version": "0.12.11",
+      "variantId": "registry-package.openupm.com-7a47cf4bde0727fc",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "4985b2f459b7698940a3a7a99dc1bfc2900b620b",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.12.11.tgz",
+      "upstreamIntegrity": "sha512-3jB86Fw65aYixratFtBq+1D6sof98D31d4TBKPWAPqe7h5uTNCNI13+s1Gc7I/v29HirP/p3fWyKUJYnisgicg==",
+      "upstreamShasum": "c75f814ab293b394b62da021b324bb68bbdd9296",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.12.11",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3jB86Fw65aYixratFtBq+1D6sof98D31d4TBKPWAPqe7h5uTNCNI13+s1Gc7I/v29HirP/p3fWyKUJYnisgicg==",
+          "shasum": "c75f814ab293b394b62da021b324bb68bbdd9296"
+        }
+      }
+    },
+    {
+      "version": "0.12.12",
+      "variantId": "registry-package.openupm.com-6a669469b259216c",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "acfa0ba4c0983e70df5aa181f344d8b920fd59b6",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.12.12.tgz",
+      "upstreamIntegrity": "sha512-LDZnlNa4gLnxuSXUivHNarT1/vVqg6dRyY+A7Zo1PUodSUlOsQvSqtxbEIZ07CYje6PnbgoFjhiu3EIGFFoAAg==",
+      "upstreamShasum": "528f28ebd17d4835da28a0ad5bc251f296971f9b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.12.12",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LDZnlNa4gLnxuSXUivHNarT1/vVqg6dRyY+A7Zo1PUodSUlOsQvSqtxbEIZ07CYje6PnbgoFjhiu3EIGFFoAAg==",
+          "shasum": "528f28ebd17d4835da28a0ad5bc251f296971f9b"
+        }
+      }
+    },
+    {
+      "version": "0.12.13",
+      "variantId": "registry-package.openupm.com-5bb9f4dcdeb44261",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "6e0f089ea19a013b5500e5fdc39c5a31fed46e06",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.12.13.tgz",
+      "upstreamIntegrity": "sha512-E9H1UBdva1bFNbKgb16tSNRtmabJJ65oFSuWg/RsjTq/wuSA13/MMmO9+h8WOmpjlO1dlBjexpbFMmG7JdrYxQ==",
+      "upstreamShasum": "9d00e35445abf3ccee826e7b6b9dc76f395d3afa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.12.13",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-E9H1UBdva1bFNbKgb16tSNRtmabJJ65oFSuWg/RsjTq/wuSA13/MMmO9+h8WOmpjlO1dlBjexpbFMmG7JdrYxQ==",
+          "shasum": "9d00e35445abf3ccee826e7b6b9dc76f395d3afa"
+        }
+      }
+    },
+    {
+      "version": "0.13.0",
+      "variantId": "registry-package.openupm.com-57330ee74e36cf77",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "8942b991aaeddaaaa20cd0d55078d199fb63a620",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.13.0.tgz",
+      "upstreamIntegrity": "sha512-4HZ/jWX03nK0fLjfZfroLx1ztY6TU3m4bGiOSfTCp7ysHApMMuGtm+rJPFGoiPSxOG9blj3SegbE3c1K/kuT1g==",
+      "upstreamShasum": "d91c259dd6f031c5659d823311a886f8758d2b30",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.13.0",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4HZ/jWX03nK0fLjfZfroLx1ztY6TU3m4bGiOSfTCp7ysHApMMuGtm+rJPFGoiPSxOG9blj3SegbE3c1K/kuT1g==",
+          "shasum": "d91c259dd6f031c5659d823311a886f8758d2b30"
+        }
+      }
+    },
+    {
+      "version": "0.13.1",
+      "variantId": "registry-package.openupm.com-2c59fc81748ca13b",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "625cdcf68f695ee8572b1b8eb49a70d5f93adb07",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.13.1.tgz",
+      "upstreamIntegrity": "sha512-2wW8c3LwH+yzjOwet4McuHogpAHI9sgQSOEjm8wdFALInf+9qxN42Q87vKUBXsOabe+Mq9xjVzLqPFxHenSqLQ==",
+      "upstreamShasum": "659208a43fe2062020fcb5d1f9d52b79177c61ad",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.13.1",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2wW8c3LwH+yzjOwet4McuHogpAHI9sgQSOEjm8wdFALInf+9qxN42Q87vKUBXsOabe+Mq9xjVzLqPFxHenSqLQ==",
+          "shasum": "659208a43fe2062020fcb5d1f9d52b79177c61ad"
+        }
+      }
+    },
+    {
+      "version": "0.13.2",
+      "variantId": "registry-package.openupm.com-2d28d16e2d9bd210",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "a07a3e974089dbd752503ce002b19de950c917f9",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.13.2.tgz",
+      "upstreamIntegrity": "sha512-Jfh/poou+X+Ddq4W2utMk1oqYd9GybFNX2hblhiRPsvntUV1/dJexosg8PSfwR92YvidtiALss6XCUjrcfUpcA==",
+      "upstreamShasum": "63c73fd2c0ac3386cc6b3e09a6dd98dfd60e592f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.13.2",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Jfh/poou+X+Ddq4W2utMk1oqYd9GybFNX2hblhiRPsvntUV1/dJexosg8PSfwR92YvidtiALss6XCUjrcfUpcA==",
+          "shasum": "63c73fd2c0ac3386cc6b3e09a6dd98dfd60e592f"
+        }
+      }
+    },
+    {
+      "version": "0.14.0",
+      "variantId": "registry-package.openupm.com-0c0e89576598d61d",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "ce91498c6cced709722e25b11b58f7998e355b44",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.14.0.tgz",
+      "upstreamIntegrity": "sha512-pHd+7/nXMADlmZ/dtm6UMT8rhH82rQqqCBjqAgTfcWQa2jnlfFEvuaOarwQb5G6uO+nhW3FLlbh4aaIgMFiKEA==",
+      "upstreamShasum": "bb80892dc7e4e3197eb301a50ecb0ba542cb4dbd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.14.0",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-pHd+7/nXMADlmZ/dtm6UMT8rhH82rQqqCBjqAgTfcWQa2jnlfFEvuaOarwQb5G6uO+nhW3FLlbh4aaIgMFiKEA==",
+          "shasum": "bb80892dc7e4e3197eb301a50ecb0ba542cb4dbd"
+        }
+      }
+    },
+    {
+      "version": "0.14.1",
+      "variantId": "registry-package.openupm.com-712e2de0749f543b",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "8c7112e67dbb28c783d961ee235fbd837ff5fe13",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.14.1.tgz",
+      "upstreamIntegrity": "sha512-x+t3ZFSGTJ2dmMJrXW9ZzXmNfAVzTJW/V//by1pPutoOKaGqhm1whO+eAcKUktNWZmy9ihOQkcJPrmOuvGJwPg==",
+      "upstreamShasum": "cf297eb14da3c57bb5721a1c5b0709ae403dc64a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.14.1",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-x+t3ZFSGTJ2dmMJrXW9ZzXmNfAVzTJW/V//by1pPutoOKaGqhm1whO+eAcKUktNWZmy9ihOQkcJPrmOuvGJwPg==",
+          "shasum": "cf297eb14da3c57bb5721a1c5b0709ae403dc64a"
+        }
+      }
+    },
+    {
+      "version": "0.14.2",
+      "variantId": "registry-package.openupm.com-74c393d382b77319",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "46c88b5c6db2a0273e9b16983e293faea96121f7",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.14.2.tgz",
+      "upstreamIntegrity": "sha512-hO9lGRGw+4myNLFjQGwtuoOOgJepEtz4Nkq/n6/xzhIZ6D/OLVOnC4SE5R3H/irLbWdTqGlyhri+6jBCpFFOdw==",
+      "upstreamShasum": "93b1b2f3fbacf909b6971d9ba50bb03557c6761e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.14.2",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hO9lGRGw+4myNLFjQGwtuoOOgJepEtz4Nkq/n6/xzhIZ6D/OLVOnC4SE5R3H/irLbWdTqGlyhri+6jBCpFFOdw==",
+          "shasum": "93b1b2f3fbacf909b6971d9ba50bb03557c6761e"
+        }
+      }
+    },
+    {
+      "version": "0.14.3",
+      "variantId": "registry-package.openupm.com-20afbda97291dd9a",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": "18ac973a5307455375ea80391d71f8c0b6e36a70",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.14.3.tgz",
+      "upstreamIntegrity": "sha512-xVKIBLy3Xw+zFFHXcZPoph7/14z7Q1pm9guPlW9IZLM6HBGZSNaF7b5mGFLCCF85lvvjKIPlvwQDu1cxAisNZw==",
+      "upstreamShasum": "d5efa67fc95f0676129d74c67ec4a83c27b1258a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.14.3",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xVKIBLy3Xw+zFFHXcZPoph7/14z7Q1pm9guPlW9IZLM6HBGZSNaF7b5mGFLCCF85lvvjKIPlvwQDu1cxAisNZw==",
+          "shasum": "d5efa67fc95f0676129d74c67ec4a83c27b1258a"
+        }
+      }
+    },
+    {
+      "version": "0.14.4",
+      "variantId": "registry-package.openupm.com-89887991628e47c6",
+      "sourceUrl": "https://package.openupm.com/com.browar.editor-toolbox",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.14.4.tgz",
+      "upstreamIntegrity": "sha512-fIfGsAaHsRyN6UGhVzRAI+ucRM32E8qYvCOmGNxzJX8UDpvhePd51GkzYkM6Z673PpFe35zUvS4JYuUzOTnzbw==",
+      "upstreamShasum": "c8713727f4e4d6d7fd53355402cdff1ef50544df",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.14.4",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fIfGsAaHsRyN6UGhVzRAI+ucRM32E8qYvCOmGNxzJX8UDpvhePd51GkzYkM6Z673PpFe35zUvS4JYuUzOTnzbw==",
+          "shasum": "c8713727f4e4d6d7fd53355402cdff1ef50544df"
+        }
+      }
+    },
+    {
+      "version": "0.14.5",
+      "variantId": "registry-package.openupm.com-57a71d46b79bfd86",
+      "sourceUrl": "https://github.com/arimger/Unity-Editor-Toolbox.git",
+      "sourceRef": "f0863ebd0c78f9e5f3206d4dddf8119388edbab3",
+      "downloadUrl": "https://package.openupm.com/com.browar.editor-toolbox/-/com.browar.editor-toolbox-0.14.5.tgz",
+      "upstreamIntegrity": "sha512-kxs5J/0aN2sJ1czqX3DZc5lKDDnLQVmvUeM+dI1Bu7W3r3yTWlzkimhTGTvLS0HSqE84aj6IgI5myK53l4HRcQ==",
+      "upstreamShasum": "5a32ccab084400b5f2c75863cbfd284993310fc2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.browar.editor-toolbox/0.14.5",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kxs5J/0aN2sJ1czqX3DZc5lKDDnLQVmvUeM+dI1Bu7W3r3yTWlzkimhTGTvLS0HSqE84aj6IgI5myK53l4HRcQ==",
+          "shasum": "5a32ccab084400b5f2c75863cbfd284993310fc2"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.14.5"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.browar.editor-toolbox.yml",
+  "definitionBlobSha": "f84823ba3c1bf1881e7dd615dbc24e1fb2c4c347",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.14.5",
+    "0.14.4",
+    "0.14.3"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 26,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

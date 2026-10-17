@@ -1,0 +1,2594 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.onesignal.unity.ios",
+  "displayName": "com.onesignal.unity.ios",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios",
+      "fetchedAt": "2026-10-17T17:40:43.256737Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "2.14.0",
+      "variantId": "registry-package.openupm.com-948c4ca6d6443c7c",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "1fd6a3e8472d2b7fe7b9adb380b608883cc1ab06",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-2.14.0.tgz",
+      "upstreamIntegrity": "sha512-OktGZXIOByfzKTMVxtzdeNuMxq0W/s3fV3e1zMDf1gCwIWKG2xNnXyLMOj5oJUanJDB/JvVtkHPKQEtV/NGW1g==",
+      "upstreamShasum": "a14056fc14f0030d59ec2fd24cc2d90e0f2c145b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "2.14.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/2.14.0",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OktGZXIOByfzKTMVxtzdeNuMxq0W/s3fV3e1zMDf1gCwIWKG2xNnXyLMOj5oJUanJDB/JvVtkHPKQEtV/NGW1g==",
+          "shasum": "a14056fc14f0030d59ec2fd24cc2d90e0f2c145b"
+        }
+      }
+    },
+    {
+      "version": "2.14.1",
+      "variantId": "registry-package.openupm.com-54f3a4614af6272d",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "50c91f138b1cd0489f4bea47d61ae1aa48970522",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-2.14.1.tgz",
+      "upstreamIntegrity": "sha512-Q5rS3U5lnYWHeEKkcnmAJ1ibGgnapgtKRnLLniiFfPhKi9gEfHF53YIIJkSbbygGIglJuf28uqQK2SNR9qHhYg==",
+      "upstreamShasum": "35395dac425d582d99d03fbb0ad6730ba2227abd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "2.14.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/2.14.1",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Q5rS3U5lnYWHeEKkcnmAJ1ibGgnapgtKRnLLniiFfPhKi9gEfHF53YIIJkSbbygGIglJuf28uqQK2SNR9qHhYg==",
+          "shasum": "35395dac425d582d99d03fbb0ad6730ba2227abd"
+        }
+      }
+    },
+    {
+      "version": "2.14.2",
+      "variantId": "registry-package.openupm.com-fc415f4bc2035d78",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "5f698ac9406d92ae29478e603930657e005f9d9c",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-2.14.2.tgz",
+      "upstreamIntegrity": "sha512-98wNKhkVDLHLN5Mj+CFD85FdK06Z15z7AwaU4oYZSvjfz8ev1LtO32HSqeVKCuIarRQsbuCwV6LJ3ViO1L/wHQ==",
+      "upstreamShasum": "db7c9136b96ee5cc96bc9c63406fa6e4312d332f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "2.14.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/2.14.2",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-98wNKhkVDLHLN5Mj+CFD85FdK06Z15z7AwaU4oYZSvjfz8ev1LtO32HSqeVKCuIarRQsbuCwV6LJ3ViO1L/wHQ==",
+          "shasum": "db7c9136b96ee5cc96bc9c63406fa6e4312d332f"
+        }
+      }
+    },
+    {
+      "version": "2.14.3",
+      "variantId": "registry-package.openupm.com-d7268211a4360008",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "293348c8be25ded45200fbc7f9c8910e28876e86",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-2.14.3.tgz",
+      "upstreamIntegrity": "sha512-eUDYgnj2U6lzbn3MDuptmrKZEgXjY48Q7bXrqkrX4YNapkCrcga9SU6Aq3755F05vkKrXB5pHVTy6C+aerurSg==",
+      "upstreamShasum": "d7136d7a2b963b3f1b211f2cf5c61b9b789096b0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "2.14.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/2.14.3",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eUDYgnj2U6lzbn3MDuptmrKZEgXjY48Q7bXrqkrX4YNapkCrcga9SU6Aq3755F05vkKrXB5pHVTy6C+aerurSg==",
+          "shasum": "d7136d7a2b963b3f1b211f2cf5c61b9b789096b0"
+        }
+      }
+    },
+    {
+      "version": "2.14.4",
+      "variantId": "registry-package.openupm.com-62df74d4be8ddbcd",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "3aa219875af4a7c6a49f77642ab8127a8d6b5989",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-2.14.4.tgz",
+      "upstreamIntegrity": "sha512-nzXMdyiS+A3oqMii5vBLuk6nsXt/6r6kfP2eZXqx6w9HftcXHupm1b0TLxa0sQcu+lpmqqI4JFZTXw3UAwxbwQ==",
+      "upstreamShasum": "f1272f16f79fafd4cec99580a334aedc8356ca5d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "2.14.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/2.14.4",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nzXMdyiS+A3oqMii5vBLuk6nsXt/6r6kfP2eZXqx6w9HftcXHupm1b0TLxa0sQcu+lpmqqI4JFZTXw3UAwxbwQ==",
+          "shasum": "f1272f16f79fafd4cec99580a334aedc8356ca5d"
+        }
+      }
+    },
+    {
+      "version": "2.14.5",
+      "variantId": "registry-package.openupm.com-9e216cc8db0865b5",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "370febd00fc0c416198cdd806c62742cdc6abb64",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-2.14.5.tgz",
+      "upstreamIntegrity": "sha512-o5O43VTpzgh9fw53S/5+lF+kB+vlPYoCB53hwNv3HjJXKbE3F/Bw+MPnVmKv0/NcnJbKfvuPeprIA8ukRUAssQ==",
+      "upstreamShasum": "c7702f87f487bab3d05163af0ed982b0290b6ba4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "2.14.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/2.14.5",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-o5O43VTpzgh9fw53S/5+lF+kB+vlPYoCB53hwNv3HjJXKbE3F/Bw+MPnVmKv0/NcnJbKfvuPeprIA8ukRUAssQ==",
+          "shasum": "c7702f87f487bab3d05163af0ed982b0290b6ba4"
+        }
+      }
+    },
+    {
+      "version": "2.14.6",
+      "variantId": "registry-package.openupm.com-e0c7585fdd2e9c6f",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "a5a2db49604e9b6386fb46c7869db9d7f814702d",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-2.14.6.tgz",
+      "upstreamIntegrity": "sha512-bDAKrsWXF0JgnNSwwEl3Et29vhohCpDnGdzGqNOlAGf0JSOPy0ank4TpNcbqZlzo+PRM/vlVR4d4F1LGJNEvpw==",
+      "upstreamShasum": "661fe098309e6730f8cc40b454ae9ab374608b7d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "2.14.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/2.14.6",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bDAKrsWXF0JgnNSwwEl3Et29vhohCpDnGdzGqNOlAGf0JSOPy0ank4TpNcbqZlzo+PRM/vlVR4d4F1LGJNEvpw==",
+          "shasum": "661fe098309e6730f8cc40b454ae9ab374608b7d"
+        }
+      }
+    },
+    {
+      "version": "3.0.0-beta.1",
+      "variantId": "registry-package.openupm.com-bdd0cfbb5b1b6d96",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "ea9bf4ed1813e475908bdd7d572a5f7f3f97532a",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.0-beta.1.tgz",
+      "upstreamIntegrity": "sha512-JYCeebWbwtp9/OjlRppV/MV41pjpwJfN9gW7Sm7uwTggGkFXCID/cLe2VsiRMS9Ksb/gXVppCyxYH2yTYdQnoQ==",
+      "upstreamShasum": "6cab5ae6546bbf6fadf54c7043e7af33e59d9cf4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.0-beta.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.0-beta.1",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JYCeebWbwtp9/OjlRppV/MV41pjpwJfN9gW7Sm7uwTggGkFXCID/cLe2VsiRMS9Ksb/gXVppCyxYH2yTYdQnoQ==",
+          "shasum": "6cab5ae6546bbf6fadf54c7043e7af33e59d9cf4"
+        }
+      }
+    },
+    {
+      "version": "3.0.0-beta.2",
+      "variantId": "registry-package.openupm.com-53ad7ace33961c5e",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "3cfc6372eb3b16385d52889c14887fadb67e7343",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.0-beta.2.tgz",
+      "upstreamIntegrity": "sha512-V4DyKQHr1avDe3OrLS5u9c/uAKV1ZLwbK3V4Z2yAJGNP0x9Z/lNa3VsSozbYZQ0rXnha4O3ekqQ2KuclbzArsQ==",
+      "upstreamShasum": "27a7310e6605c839d8463bfb5b330ab219d26d29",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.0-beta.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.0-beta.2",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-V4DyKQHr1avDe3OrLS5u9c/uAKV1ZLwbK3V4Z2yAJGNP0x9Z/lNa3VsSozbYZQ0rXnha4O3ekqQ2KuclbzArsQ==",
+          "shasum": "27a7310e6605c839d8463bfb5b330ab219d26d29"
+        }
+      }
+    },
+    {
+      "version": "3.0.0-beta.3",
+      "variantId": "registry-package.openupm.com-e9484f51abc6c0c1",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "8b614961de2800ea6406259e366180678b407ab1",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.0-beta.3.tgz",
+      "upstreamIntegrity": "sha512-vlphi/0D6hUtK15knpYPRo/mm3CXrcEcCEvLTCQoLP+yH+9FGDR6FjakPqv2vXMurDe8TVtQII5hA95kVkoVTg==",
+      "upstreamShasum": "912105b152970e37b11072d5ab5e45578ee177b4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.0-beta.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.0-beta.3",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vlphi/0D6hUtK15knpYPRo/mm3CXrcEcCEvLTCQoLP+yH+9FGDR6FjakPqv2vXMurDe8TVtQII5hA95kVkoVTg==",
+          "shasum": "912105b152970e37b11072d5ab5e45578ee177b4"
+        }
+      }
+    },
+    {
+      "version": "3.0.0-beta.4",
+      "variantId": "registry-package.openupm.com-b08f90d598c5b06e",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "4bbd76cb6ea9309cc673734fced91fb8760e1c38",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.0-beta.4.tgz",
+      "upstreamIntegrity": "sha512-syzybU+tF37qaxS0yHXfuP45CEQHvL91TXbx2on7ONlS5E93hemBYqqRE4HWz0CCB1hWU36lvjeZ546hcFQbgQ==",
+      "upstreamShasum": "7b629a2efb49a69534f6b36ac35e9b2ebb795b6c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.0-beta.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.0-beta.4",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-syzybU+tF37qaxS0yHXfuP45CEQHvL91TXbx2on7ONlS5E93hemBYqqRE4HWz0CCB1hWU36lvjeZ546hcFQbgQ==",
+          "shasum": "7b629a2efb49a69534f6b36ac35e9b2ebb795b6c"
+        }
+      }
+    },
+    {
+      "version": "3.0.0-beta.5",
+      "variantId": "registry-package.openupm.com-a8453f16c59672ee",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "6890ad0f3aaf8c07010e0ac2aa0b4a443dcb0172",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.0-beta.5.tgz",
+      "upstreamIntegrity": "sha512-A8I6fjKl1GpFH6mA/C++hwFLSQ6B0PptRmdKhQJjFnc/lSO2nmqq2RsiaIUqu9P7dc4HqzCs3w5a47oj6Or48w==",
+      "upstreamShasum": "e26013e2bc6550914c71a5ff13f0b265741e5387",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.0-beta.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.0-beta.5",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-A8I6fjKl1GpFH6mA/C++hwFLSQ6B0PptRmdKhQJjFnc/lSO2nmqq2RsiaIUqu9P7dc4HqzCs3w5a47oj6Or48w==",
+          "shasum": "e26013e2bc6550914c71a5ff13f0b265741e5387"
+        }
+      }
+    },
+    {
+      "version": "3.0.0-beta.6",
+      "variantId": "registry-package.openupm.com-204a0740ec08499d",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "07de8b065714a7ec65ea5d6591a829f70299db54",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.0-beta.6.tgz",
+      "upstreamIntegrity": "sha512-RU1eWw+OHM0FD6O/f9YGMAtirCdH5y9P5KUL4jum/Mi8J4mU9L5+oufAfoiHsQp8I8lvIehpZtu2JHoneE8NVA==",
+      "upstreamShasum": "1da53737564214d2787d3e8cec7c4828c05e710a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.0-beta.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.0-beta.6",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-RU1eWw+OHM0FD6O/f9YGMAtirCdH5y9P5KUL4jum/Mi8J4mU9L5+oufAfoiHsQp8I8lvIehpZtu2JHoneE8NVA==",
+          "shasum": "1da53737564214d2787d3e8cec7c4828c05e710a"
+        }
+      }
+    },
+    {
+      "version": "3.0.0",
+      "variantId": "registry-package.openupm.com-98ed6698cdca9d10",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "ae7fca3cb03137e53e52e7f78d9baf3b1da5b3f6",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.0.tgz",
+      "upstreamIntegrity": "sha512-wT2/EA3vgXPhrjyrT5luGUCAFv1uZiumH0K/cjsRIkY3KSgSwCluoR7HAGsmH5GZndOmjB1MJ7si5tDo3EoRtA==",
+      "upstreamShasum": "eaeb8d46805d4c3c166b6296cd8b0da2fe078ea3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.0",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wT2/EA3vgXPhrjyrT5luGUCAFv1uZiumH0K/cjsRIkY3KSgSwCluoR7HAGsmH5GZndOmjB1MJ7si5tDo3EoRtA==",
+          "shasum": "eaeb8d46805d4c3c166b6296cd8b0da2fe078ea3"
+        }
+      }
+    },
+    {
+      "version": "3.0.1",
+      "variantId": "registry-package.openupm.com-337f9d980ce76f33",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "0bb7c92a60f07a8b3ab0bdf87ddc8b1f5487a390",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.1.tgz",
+      "upstreamIntegrity": "sha512-k0732FIMFLdKczDx0k+JzCu6H+RL9A6UBPuJCOlifKtE/LxPWHbIGjziwzTEaQ9YEJbFcZwWb31Yt75cx/C5PA==",
+      "upstreamShasum": "eb2cbd90c785252dbdb6f8819c4731bb4a9f0e7d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.1",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-k0732FIMFLdKczDx0k+JzCu6H+RL9A6UBPuJCOlifKtE/LxPWHbIGjziwzTEaQ9YEJbFcZwWb31Yt75cx/C5PA==",
+          "shasum": "eb2cbd90c785252dbdb6f8819c4731bb4a9f0e7d"
+        }
+      }
+    },
+    {
+      "version": "3.0.2",
+      "variantId": "registry-package.openupm.com-64cde92490a8582a",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "83cb08ae3a0f56e070947de1f7e867c8da83ef45",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.2.tgz",
+      "upstreamIntegrity": "sha512-bn1tuJFyajt2nVqzURmo92wF16kqvbOLbX8yto6ff2b8yrBz+ZEZNI5mFF7bvWjRU31O83fTk1915FU1224v9A==",
+      "upstreamShasum": "78e197e0f6f6b62393bcb4dbcb12a75446b6b1dc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.2",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bn1tuJFyajt2nVqzURmo92wF16kqvbOLbX8yto6ff2b8yrBz+ZEZNI5mFF7bvWjRU31O83fTk1915FU1224v9A==",
+          "shasum": "78e197e0f6f6b62393bcb4dbcb12a75446b6b1dc"
+        }
+      }
+    },
+    {
+      "version": "3.0.3",
+      "variantId": "registry-package.openupm.com-e9f97168d50eee45",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "d1ff77cb86282095f3814407082dfba08d4ef043",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.3.tgz",
+      "upstreamIntegrity": "sha512-ImxyWg9aVkJ9F7Cgo6rc0dxk1VkLw4zJrMksVhze2POu8tWsl0rVOCx+lCARqu2hztvOWumOEA556z7w7A8bEA==",
+      "upstreamShasum": "92332ed24c28936b8d6ad61bc7bca159b1478283",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.3",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ImxyWg9aVkJ9F7Cgo6rc0dxk1VkLw4zJrMksVhze2POu8tWsl0rVOCx+lCARqu2hztvOWumOEA556z7w7A8bEA==",
+          "shasum": "92332ed24c28936b8d6ad61bc7bca159b1478283"
+        }
+      }
+    },
+    {
+      "version": "3.0.4",
+      "variantId": "registry-package.openupm.com-7f29c73bfe5a8121",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "a7e29a5acf2a061e499b4346be3d0cad36ee3d0d",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.4.tgz",
+      "upstreamIntegrity": "sha512-ZJ70gxG3CY7uN5Tk5+fX5maO7sg1OJb3H/457TCySXAebSUu5WmwR+TvOehUqtWYxT0nlIC+t14O297l77bUwQ==",
+      "upstreamShasum": "c1bbc33379e5bf465a5ca3b646b6360976dfc8e3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.4",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZJ70gxG3CY7uN5Tk5+fX5maO7sg1OJb3H/457TCySXAebSUu5WmwR+TvOehUqtWYxT0nlIC+t14O297l77bUwQ==",
+          "shasum": "c1bbc33379e5bf465a5ca3b646b6360976dfc8e3"
+        }
+      }
+    },
+    {
+      "version": "3.0.5",
+      "variantId": "registry-package.openupm.com-becc4252b91d1756",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "7a6a164257c6ba2e9af0c82007345762cbf857e3",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.5.tgz",
+      "upstreamIntegrity": "sha512-Lo0A2EJmvyqN0xNQnq6hsVePz1MdTv862pssZc6FBcm8YLq/hyN19DIDaRYUqoDy0J3mcduPOMaj6MEaMMT/rQ==",
+      "upstreamShasum": "3413173396a37c0d75a328bc69b33db1930a4cfa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.5",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Lo0A2EJmvyqN0xNQnq6hsVePz1MdTv862pssZc6FBcm8YLq/hyN19DIDaRYUqoDy0J3mcduPOMaj6MEaMMT/rQ==",
+          "shasum": "3413173396a37c0d75a328bc69b33db1930a4cfa"
+        }
+      }
+    },
+    {
+      "version": "3.0.6",
+      "variantId": "registry-package.openupm.com-6700a9043be32a4d",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "c00054545f5ccc3f70280d7986e8067840ef6256",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.6.tgz",
+      "upstreamIntegrity": "sha512-7G4dwoxzxrLz6IHovLr1ObWBk/Y9NB/KizFfUpSQRYfiAfb2vg3SX3wADw9xnUKdAqr1wmzCAmxbULxCgm1xnQ==",
+      "upstreamShasum": "ee8ca20f3928a6be3833c97da80a98c61874a398",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.6",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7G4dwoxzxrLz6IHovLr1ObWBk/Y9NB/KizFfUpSQRYfiAfb2vg3SX3wADw9xnUKdAqr1wmzCAmxbULxCgm1xnQ==",
+          "shasum": "ee8ca20f3928a6be3833c97da80a98c61874a398"
+        }
+      }
+    },
+    {
+      "version": "3.0.7",
+      "variantId": "registry-package.openupm.com-5ead52a792f54850",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "c7d0f173715c454332df42a7d78fd1188719532d",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.7.tgz",
+      "upstreamIntegrity": "sha512-iElpnapGbBEB4R3u+qI8jXRHsdxct/WusgZaFCRFQN7QK/Ohi2zIvQh0ZVcSpaHgWQeYYzcJBQpUMs6r6cKU+Q==",
+      "upstreamShasum": "4a6000761ad1cf3714aaa027773b1870dd188b30",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.7",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iElpnapGbBEB4R3u+qI8jXRHsdxct/WusgZaFCRFQN7QK/Ohi2zIvQh0ZVcSpaHgWQeYYzcJBQpUMs6r6cKU+Q==",
+          "shasum": "4a6000761ad1cf3714aaa027773b1870dd188b30"
+        }
+      }
+    },
+    {
+      "version": "3.0.8",
+      "variantId": "registry-package.openupm.com-6b242bb1567e9b64",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "25edf64e70aa130fc6ae1cb484be26b615e1f81e",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.8.tgz",
+      "upstreamIntegrity": "sha512-2tzuTY+HGxilgEGmsCHKNpnd/8+suYBXrX7AXbYUI/3Gv5/+mYrljIeF5UjPnZU2BqKrGghAiUucpM3Ohx5++g==",
+      "upstreamShasum": "bccd30af52bb00efa8f484d026c88d4e8041e779",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.8"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.8",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2tzuTY+HGxilgEGmsCHKNpnd/8+suYBXrX7AXbYUI/3Gv5/+mYrljIeF5UjPnZU2BqKrGghAiUucpM3Ohx5++g==",
+          "shasum": "bccd30af52bb00efa8f484d026c88d4e8041e779"
+        }
+      }
+    },
+    {
+      "version": "3.0.9",
+      "variantId": "registry-package.openupm.com-fb832386b20f48bf",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "c0ed907525f645d2a0a624aa6d7a5c27f7eddd1f",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.9.tgz",
+      "upstreamIntegrity": "sha512-tqD4QljhnXmAV9ahu2q1deCi0QHB7B28fqgnYochU+FblLofSRqVT/41Cc3NBhuoaqV39ECKUIiREB0K3nD5JA==",
+      "upstreamShasum": "5c27cd66c2febcdc5d39b8ef8f208fa76beb1940",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.9",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-tqD4QljhnXmAV9ahu2q1deCi0QHB7B28fqgnYochU+FblLofSRqVT/41Cc3NBhuoaqV39ECKUIiREB0K3nD5JA==",
+          "shasum": "5c27cd66c2febcdc5d39b8ef8f208fa76beb1940"
+        }
+      }
+    },
+    {
+      "version": "3.0.10",
+      "variantId": "registry-package.openupm.com-2824ee953bc461ca",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "c9535454270a6259bb44e2a994da7e6c835c6448",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.10.tgz",
+      "upstreamIntegrity": "sha512-/GCXt/+qSUUuqkmIcOJFBqeMY+nnAUqFBaJ+4jIrZR0q0l78HHv9YWz3zbHgWBPzOlupKrkFtbJJ9jvJquay6w==",
+      "upstreamShasum": "3957d3ca862bf4669a4cda39580b82b294ad38bb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.10",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/GCXt/+qSUUuqkmIcOJFBqeMY+nnAUqFBaJ+4jIrZR0q0l78HHv9YWz3zbHgWBPzOlupKrkFtbJJ9jvJquay6w==",
+          "shasum": "3957d3ca862bf4669a4cda39580b82b294ad38bb"
+        }
+      }
+    },
+    {
+      "version": "3.0.11",
+      "variantId": "registry-package.openupm.com-d09516ae868e5ee1",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "43fe454ab5a0816b18e8b531784fc6575825f250",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.11.tgz",
+      "upstreamIntegrity": "sha512-kMdqG01r7jow1877a9UDMATiwdWdqDAUTQ2jKkNZpSgc7PT2R6s9I46qpkczU/pT/yvhlaJyL8Y7lH2O7IpYow==",
+      "upstreamShasum": "2cd0a20d277a0fe444fb0a26b2cf185940e7c9a5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.11",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kMdqG01r7jow1877a9UDMATiwdWdqDAUTQ2jKkNZpSgc7PT2R6s9I46qpkczU/pT/yvhlaJyL8Y7lH2O7IpYow==",
+          "shasum": "2cd0a20d277a0fe444fb0a26b2cf185940e7c9a5"
+        }
+      }
+    },
+    {
+      "version": "3.0.12",
+      "variantId": "registry-package.openupm.com-7644f551f185ff73",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "f09af6e27e83b40996c16a95eb2f7c21484c5d90",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.12.tgz",
+      "upstreamIntegrity": "sha512-u86OdhOkjgoMKZ/BtccaatU0NA+s5tj+Su2eDHFKf3V4G0fvMkg7FOF3OOXt75FznYCvJUgBtHlI3sYc0pqIYA==",
+      "upstreamShasum": "aea6ceb61a741de730c34772f27ca724419ad5aa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.12",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-u86OdhOkjgoMKZ/BtccaatU0NA+s5tj+Su2eDHFKf3V4G0fvMkg7FOF3OOXt75FznYCvJUgBtHlI3sYc0pqIYA==",
+          "shasum": "aea6ceb61a741de730c34772f27ca724419ad5aa"
+        }
+      }
+    },
+    {
+      "version": "3.0.13",
+      "variantId": "registry-package.openupm.com-1011196a367facb9",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "0b07c5e2b10772c8177a1c1da479699b795ccd51",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-3.0.13.tgz",
+      "upstreamIntegrity": "sha512-HUU2gV+cESi6yqkzKvDfjCYsct1m1m8sw0OjTcjH/yaiJColNRg0t4QV71cgjiSeJTGCJ+Ny6ChJ1Mbe3gTowg==",
+      "upstreamShasum": "dc33869720a0664f4d0bf48b178d7876fb37b9bc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "3.0.13"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/3.0.13",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HUU2gV+cESi6yqkzKvDfjCYsct1m1m8sw0OjTcjH/yaiJColNRg0t4QV71cgjiSeJTGCJ+Ny6ChJ1Mbe3gTowg==",
+          "shasum": "dc33869720a0664f4d0bf48b178d7876fb37b9bc"
+        }
+      }
+    },
+    {
+      "version": "5.0.0-beta.1",
+      "variantId": "registry-package.openupm.com-ac1f859204cd5adc",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "8c8254737df5b3667b3e7cb895b2e5f5482ae9ad",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.0.0-beta.1.tgz",
+      "upstreamIntegrity": "sha512-SXohugGUZKIsUkff0iDycYsC6xCDcFvLQqrjr4zUv/IKcTm1XBXD6XB4hFqbZAS6cZXmIvoNUSkeGDXTm9S5uw==",
+      "upstreamShasum": "bc75fbefedfce66ef935671ad401148a92aaeab0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.0.0-beta.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.0.0-beta.1",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SXohugGUZKIsUkff0iDycYsC6xCDcFvLQqrjr4zUv/IKcTm1XBXD6XB4hFqbZAS6cZXmIvoNUSkeGDXTm9S5uw==",
+          "shasum": "bc75fbefedfce66ef935671ad401148a92aaeab0"
+        }
+      }
+    },
+    {
+      "version": "5.0.0-beta.2",
+      "variantId": "registry-package.openupm.com-8fee611c21c3ba13",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "2cf3a47b402f7cd9066e0e6f898cf5100148e414",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.0.0-beta.2.tgz",
+      "upstreamIntegrity": "sha512-R+9/95UHgBaxzeA53TyLod2EP9+yHfaD3/nFmvIUo9Ayhx77sgHRohey6oKi6MGQKGFvnTszkCG7BzdqLB5w6g==",
+      "upstreamShasum": "7dd9fbb2c4e8730f4922dae24032b7479d09b19c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.0.0-beta.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.0.0-beta.2",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-R+9/95UHgBaxzeA53TyLod2EP9+yHfaD3/nFmvIUo9Ayhx77sgHRohey6oKi6MGQKGFvnTszkCG7BzdqLB5w6g==",
+          "shasum": "7dd9fbb2c4e8730f4922dae24032b7479d09b19c"
+        }
+      }
+    },
+    {
+      "version": "5.0.0-beta.3",
+      "variantId": "registry-package.openupm.com-b7000a96e6de072f",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "2f996bace8975d931a5704422de0b197d88ab599",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.0.0-beta.3.tgz",
+      "upstreamIntegrity": "sha512-+ReR9l5kJruytkgCKlgif/yN1sUNuNFgFVS4RcLBWeZSGpvcA8cgfTGuM0kg6f0JzVERzt2qzDz/EpwDpDIQnA==",
+      "upstreamShasum": "7e1f6f440fe9e3f2c35229fdccc11b5305419a2e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.0.0-beta.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.0.0-beta.3",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+ReR9l5kJruytkgCKlgif/yN1sUNuNFgFVS4RcLBWeZSGpvcA8cgfTGuM0kg6f0JzVERzt2qzDz/EpwDpDIQnA==",
+          "shasum": "7e1f6f440fe9e3f2c35229fdccc11b5305419a2e"
+        }
+      }
+    },
+    {
+      "version": "5.0.0",
+      "variantId": "registry-package.openupm.com-30d1e6088220d92c",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "58e0c05bb47b7480d98140ac9a2a6a6fce0e364e",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.0.0.tgz",
+      "upstreamIntegrity": "sha512-Ds1VNlo9Lf5lEp4YLxbDvsmaZvP/Pz4mh1HDK5868vtlF3FLnMwT0TSFDbWj+y/39bpuPLG1MpR3f3aLiD0+Ew==",
+      "upstreamShasum": "e74e1fd9b9b798d17c28c3a61204afdd95842240",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.0.0",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ds1VNlo9Lf5lEp4YLxbDvsmaZvP/Pz4mh1HDK5868vtlF3FLnMwT0TSFDbWj+y/39bpuPLG1MpR3f3aLiD0+Ew==",
+          "shasum": "e74e1fd9b9b798d17c28c3a61204afdd95842240"
+        }
+      }
+    },
+    {
+      "version": "5.0.1",
+      "variantId": "registry-package.openupm.com-74af6742ff4b5449",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "0c1f3d9d4ef2d6565d7dfb14eec260e22587c44b",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.0.1.tgz",
+      "upstreamIntegrity": "sha512-X14B1p5akc/TzB5HVOPXLnUZJMmORUitJBTn6ILScp7khz+z9lJH9sgLOnGPfLrLWaL3RNnkDrIE9Gunef9iOw==",
+      "upstreamShasum": "015df6b1ba5cf2b668ec88d681e1f2c2b2d3f3af",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.0.1",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-X14B1p5akc/TzB5HVOPXLnUZJMmORUitJBTn6ILScp7khz+z9lJH9sgLOnGPfLrLWaL3RNnkDrIE9Gunef9iOw==",
+          "shasum": "015df6b1ba5cf2b668ec88d681e1f2c2b2d3f3af"
+        }
+      }
+    },
+    {
+      "version": "5.0.2",
+      "variantId": "registry-package.openupm.com-946f0886ff4f28bc",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "a2339d47bcd180c1dffa63a5d5c989be01c4a69a",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.0.2.tgz",
+      "upstreamIntegrity": "sha512-YZjtR3bc1tmw35DzT0+A7k+nVQWWZfE/4Bxsks024agwDfTJCtbTBUM6OpVH5OGtlCVwjzSGckqpv/Jxoj0s3A==",
+      "upstreamShasum": "097c501f72391fc3b4db9cfa78ca66cff6416092",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.0.2",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YZjtR3bc1tmw35DzT0+A7k+nVQWWZfE/4Bxsks024agwDfTJCtbTBUM6OpVH5OGtlCVwjzSGckqpv/Jxoj0s3A==",
+          "shasum": "097c501f72391fc3b4db9cfa78ca66cff6416092"
+        }
+      }
+    },
+    {
+      "version": "5.0.3",
+      "variantId": "registry-package.openupm.com-7f935bd58628f9ff",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "796569d36c8f3cb9eb48448dd6c2013caff0f559",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.0.3.tgz",
+      "upstreamIntegrity": "sha512-qlJIpuHiMbVZPaiBpSrQnO2xFKX0h6fhea07PFCdopy5xciZ1/EZgKzTLcQsPpkqUdPYM6oyIGWOC+B442l5xw==",
+      "upstreamShasum": "ca1c4fbde9d4288b482c0220e89ca74a8d32ee70",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.0.3",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qlJIpuHiMbVZPaiBpSrQnO2xFKX0h6fhea07PFCdopy5xciZ1/EZgKzTLcQsPpkqUdPYM6oyIGWOC+B442l5xw==",
+          "shasum": "ca1c4fbde9d4288b482c0220e89ca74a8d32ee70"
+        }
+      }
+    },
+    {
+      "version": "5.0.4",
+      "variantId": "registry-package.openupm.com-691bf3f9aab8a653",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "d26c568475b3107bcbece49c8fead5b25471c948",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.0.4.tgz",
+      "upstreamIntegrity": "sha512-Oo21Y9SIjAtSEBZeg4aCj4cdorxi9OiU3cJP9zwIVHufxOorf67aiWFUrWItssMvroBsfbSktpo974U9FxJEyg==",
+      "upstreamShasum": "bb2a0f0b9e66c4aadf29325ccff53cecc20859e6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.0.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.0.4",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Oo21Y9SIjAtSEBZeg4aCj4cdorxi9OiU3cJP9zwIVHufxOorf67aiWFUrWItssMvroBsfbSktpo974U9FxJEyg==",
+          "shasum": "bb2a0f0b9e66c4aadf29325ccff53cecc20859e6"
+        }
+      }
+    },
+    {
+      "version": "5.0.5",
+      "variantId": "registry-package.openupm.com-2f59f84a5ad2f0c9",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "de21c7c8ad5869a6a8cacc1dc82a16eb4b6000d5",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.0.5.tgz",
+      "upstreamIntegrity": "sha512-Ch9p65hleJrAff7/Z6AsZz3WD7W6T8mrikT/iO5oyOGCaskXaJgWkEdD9oKc346FsrBbk7deRs0xyw2W6n10Ew==",
+      "upstreamShasum": "0a173fde1a34ef0fe02ab014b478908a101e3e80",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.0.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.0.5",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ch9p65hleJrAff7/Z6AsZz3WD7W6T8mrikT/iO5oyOGCaskXaJgWkEdD9oKc346FsrBbk7deRs0xyw2W6n10Ew==",
+          "shasum": "0a173fde1a34ef0fe02ab014b478908a101e3e80"
+        }
+      }
+    },
+    {
+      "version": "5.0.6",
+      "variantId": "registry-package.openupm.com-3633ee49ff850e18",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "ded467e0a5d67c36c26fceca0983cfa409a519d1",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.0.6.tgz",
+      "upstreamIntegrity": "sha512-kXK9jWXidq/7rKt7G5zw5UD9KH1BZCfITZaPAdlT5QheP18SRdILkQCWVPrYXNBaIOCDajbKfkNwCTWcAwuHtg==",
+      "upstreamShasum": "d6102fe906b470d0365097d88fdee802b02fdcf4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.0.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.0.6",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kXK9jWXidq/7rKt7G5zw5UD9KH1BZCfITZaPAdlT5QheP18SRdILkQCWVPrYXNBaIOCDajbKfkNwCTWcAwuHtg==",
+          "shasum": "d6102fe906b470d0365097d88fdee802b02fdcf4"
+        }
+      }
+    },
+    {
+      "version": "5.1.0",
+      "variantId": "registry-package.openupm.com-0e92d7a313c31362",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "a3095e8ab7964e8665c5b968b0becb18852dac7a",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.0.tgz",
+      "upstreamIntegrity": "sha512-3m/ypQAvMm+/7VZqBSoTDhD0N8tG9LRoD3POqG/wiezHMRqYfm5JHYDlcru8AXA8MAPSvaX6nXT0NympXXDz/w==",
+      "upstreamShasum": "ffe643c6b43578ca926f4c4caff77d7355b0605e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.0",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3m/ypQAvMm+/7VZqBSoTDhD0N8tG9LRoD3POqG/wiezHMRqYfm5JHYDlcru8AXA8MAPSvaX6nXT0NympXXDz/w==",
+          "shasum": "ffe643c6b43578ca926f4c4caff77d7355b0605e"
+        }
+      }
+    },
+    {
+      "version": "5.1.1",
+      "variantId": "registry-package.openupm.com-151fe7cff4af7688",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "6b1216d7f7f84cafd5caf22716183f394be9b023",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.1.tgz",
+      "upstreamIntegrity": "sha512-3tW9dlP/jSvO1SWpq0429+93j6HzkO3S1o/U0N+kgPMjVW08XWcJEZRzI90ZOqckXaRzvWPvQY2xDLlOhbc6/w==",
+      "upstreamShasum": "19bdba366c930367db9d4d82b628cc87153e6345",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.1",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3tW9dlP/jSvO1SWpq0429+93j6HzkO3S1o/U0N+kgPMjVW08XWcJEZRzI90ZOqckXaRzvWPvQY2xDLlOhbc6/w==",
+          "shasum": "19bdba366c930367db9d4d82b628cc87153e6345"
+        }
+      }
+    },
+    {
+      "version": "5.1.2",
+      "variantId": "registry-package.openupm.com-6cc40e746f9e0ea8",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "bf4a8182c24367a57f915b04f6c2e980aa788b1e",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.2.tgz",
+      "upstreamIntegrity": "sha512-GS+cVvagXQsG5xtLBPoQEWcWtXBin/Bx1CGXTkF0Lv9Wq7Qk5cEBTV/kZjjihhpbnbCQkL1Yyb32icdsaaynOQ==",
+      "upstreamShasum": "f8d0c8998625ee3c6eb11bcd862506caa7e6a70c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.2",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GS+cVvagXQsG5xtLBPoQEWcWtXBin/Bx1CGXTkF0Lv9Wq7Qk5cEBTV/kZjjihhpbnbCQkL1Yyb32icdsaaynOQ==",
+          "shasum": "f8d0c8998625ee3c6eb11bcd862506caa7e6a70c"
+        }
+      }
+    },
+    {
+      "version": "5.1.3",
+      "variantId": "registry-package.openupm.com-615e2326059a1c28",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "cd41a2fbb5e4c26608c13c7f3ea8cece001edb00",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.3.tgz",
+      "upstreamIntegrity": "sha512-vhXRXsuzq2Dw6mEfrH15roB2JBWQQQ6K+kyRvfGToPE4yhGh/XiJAhpXrJQr09rQIqHSvkhsXb57IejzmNuuLQ==",
+      "upstreamShasum": "a742faedbd5d662ccff3af86d4de074bbbc92c5f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.3",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vhXRXsuzq2Dw6mEfrH15roB2JBWQQQ6K+kyRvfGToPE4yhGh/XiJAhpXrJQr09rQIqHSvkhsXb57IejzmNuuLQ==",
+          "shasum": "a742faedbd5d662ccff3af86d4de074bbbc92c5f"
+        }
+      }
+    },
+    {
+      "version": "5.1.4",
+      "variantId": "registry-package.openupm.com-fd440bab6eecc699",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "52f14f13b30fd088c430e95d49709f4c23e212be",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.4.tgz",
+      "upstreamIntegrity": "sha512-lA84aqL0z6aXr4ReRizFqfd1wp6ol0+XutokmJZjmt5C5K90Px3WQbYR5PxBykUy3UZaZ3w9aCNb4UG+ZZ0rrA==",
+      "upstreamShasum": "64550d3343fe1f56078ae0959b065ff01fa6afbd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.4",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lA84aqL0z6aXr4ReRizFqfd1wp6ol0+XutokmJZjmt5C5K90Px3WQbYR5PxBykUy3UZaZ3w9aCNb4UG+ZZ0rrA==",
+          "shasum": "64550d3343fe1f56078ae0959b065ff01fa6afbd"
+        }
+      }
+    },
+    {
+      "version": "5.1.5",
+      "variantId": "registry-package.openupm.com-86fc682cdc4e9fa2",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "b1c4cc799fe771ad0d99d793cb86e70bc097f6f6",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.5.tgz",
+      "upstreamIntegrity": "sha512-UPB2X66tnbvlkWDwJDzb4Uh0WaLC7NSLKNAjtHU6UhpGOGr++KbAUpCcQM5ZGHOQV1mWAJfJlrQxVDQiWKQZww==",
+      "upstreamShasum": "e7d79f475e821208a68515d17df98a376e1988de",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.5",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-UPB2X66tnbvlkWDwJDzb4Uh0WaLC7NSLKNAjtHU6UhpGOGr++KbAUpCcQM5ZGHOQV1mWAJfJlrQxVDQiWKQZww==",
+          "shasum": "e7d79f475e821208a68515d17df98a376e1988de"
+        }
+      }
+    },
+    {
+      "version": "5.1.6",
+      "variantId": "registry-package.openupm.com-19f3caf023bff844",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "3a7988d58b9bcd9b2aa515bd707be0da1ba24155",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.6.tgz",
+      "upstreamIntegrity": "sha512-S46vyjSD9z9Fy6EuJSTaVY/Iq6wRoZQsLX8ndklrMDn9FjZzpxRGG9GR5zwc24tKf/BfrIApARxHAL52AzGDfQ==",
+      "upstreamShasum": "2afdb8d7c05a22fef4643b17f8b933fa51eea183",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.6",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-S46vyjSD9z9Fy6EuJSTaVY/Iq6wRoZQsLX8ndklrMDn9FjZzpxRGG9GR5zwc24tKf/BfrIApARxHAL52AzGDfQ==",
+          "shasum": "2afdb8d7c05a22fef4643b17f8b933fa51eea183"
+        }
+      }
+    },
+    {
+      "version": "5.1.7",
+      "variantId": "registry-package.openupm.com-35f34d966f74c9f3",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "9315bd49252044cb7b94f45b13d6fdba50a01a07",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.7.tgz",
+      "upstreamIntegrity": "sha512-U4aaQOP4x8iF/iEQBZtfTkVLcxH/uxWSYiLmMCbTQqORsqPnljah477W4+F6g/dtFXPqZ1m3M/AR/tY2Unhmow==",
+      "upstreamShasum": "131fce2bec8994c15c89e39a8798092d859ee52a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.7",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-U4aaQOP4x8iF/iEQBZtfTkVLcxH/uxWSYiLmMCbTQqORsqPnljah477W4+F6g/dtFXPqZ1m3M/AR/tY2Unhmow==",
+          "shasum": "131fce2bec8994c15c89e39a8798092d859ee52a"
+        }
+      }
+    },
+    {
+      "version": "5.1.8",
+      "variantId": "registry-package.openupm.com-e9e94f984af40283",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "f3544b5b0d2a3a4b85298d33cf57f7e985653c18",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.8.tgz",
+      "upstreamIntegrity": "sha512-Pgr+xGZ6+XFm+fC4wfM+DBg7vnLcBx6deiqq4bvlOzA0OeunAK1oClsKwaY2JTW/g1qMyQSANpxOVC4ZxVZ6Tg==",
+      "upstreamShasum": "39bd15815f802c7dc1abda7c8b3b28c471fceda2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.8"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.8",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Pgr+xGZ6+XFm+fC4wfM+DBg7vnLcBx6deiqq4bvlOzA0OeunAK1oClsKwaY2JTW/g1qMyQSANpxOVC4ZxVZ6Tg==",
+          "shasum": "39bd15815f802c7dc1abda7c8b3b28c471fceda2"
+        }
+      }
+    },
+    {
+      "version": "5.1.9",
+      "variantId": "registry-package.openupm.com-bd04df813ce28995",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "cdecd7b09e8129f9f2b48cbaba4d1191d4cef8e6",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.9.tgz",
+      "upstreamIntegrity": "sha512-sLRqqLrBAOX1yr23BfPoTXK4PRI9bmE630mXBhnWn0iF6iGJzb5IrP9NjYPc53/I/5KaWxzeWplQD46rt9raZA==",
+      "upstreamShasum": "9ea090cdd8c941fd1bf15123ff16a8d64d710e0f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.9",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sLRqqLrBAOX1yr23BfPoTXK4PRI9bmE630mXBhnWn0iF6iGJzb5IrP9NjYPc53/I/5KaWxzeWplQD46rt9raZA==",
+          "shasum": "9ea090cdd8c941fd1bf15123ff16a8d64d710e0f"
+        }
+      }
+    },
+    {
+      "version": "5.1.10",
+      "variantId": "registry-package.openupm.com-2133fc313cbb786c",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "0318a3febf1c30c0cc02daf7774ca2340c6d92e8",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.10.tgz",
+      "upstreamIntegrity": "sha512-6pbS/mPsDqrw0kwC8LlKA4e4UhE/NFmqnP3tbyr9oKwuIxvucnar6UFZ2H2HeMxMwn6MUYBWIVYHdK1phyaSsw==",
+      "upstreamShasum": "c2a38673fa894d88f418c6dde10f28a09dc2bf77",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.10",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6pbS/mPsDqrw0kwC8LlKA4e4UhE/NFmqnP3tbyr9oKwuIxvucnar6UFZ2H2HeMxMwn6MUYBWIVYHdK1phyaSsw==",
+          "shasum": "c2a38673fa894d88f418c6dde10f28a09dc2bf77"
+        }
+      }
+    },
+    {
+      "version": "5.1.11",
+      "variantId": "registry-package.openupm.com-9777f4af9a6088a3",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "80c8f7ca0fb5bc0b8325fae8e8202795a375c578",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.11.tgz",
+      "upstreamIntegrity": "sha512-OSYXAN0BTJustDhG07IC5eqFLDq9kwIYn3DVFBAToil2awKuWe6bDsAa9x0Cys6LfAT2Jqg/rvsSK+uYU8loyQ==",
+      "upstreamShasum": "594b5b6d1c35def131f2db7e6c47147d2e2fd0eb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.11",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OSYXAN0BTJustDhG07IC5eqFLDq9kwIYn3DVFBAToil2awKuWe6bDsAa9x0Cys6LfAT2Jqg/rvsSK+uYU8loyQ==",
+          "shasum": "594b5b6d1c35def131f2db7e6c47147d2e2fd0eb"
+        }
+      }
+    },
+    {
+      "version": "5.1.12",
+      "variantId": "registry-package.openupm.com-1684c82eab5efa63",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "2cb4f634efdf3027e6e4260de8943c504ff811a4",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.12.tgz",
+      "upstreamIntegrity": "sha512-5bLdJGVLcM7pSZJdb1PeOvd0DRBlIbP1e93VWaxNPBUudjCk8s5faZtSxNVYOWUzOkSZV3WK7K5wM3+dLCRpLg==",
+      "upstreamShasum": "dffca2c0c26a5841afc1b8ea8941d9595b0f4959",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.12",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5bLdJGVLcM7pSZJdb1PeOvd0DRBlIbP1e93VWaxNPBUudjCk8s5faZtSxNVYOWUzOkSZV3WK7K5wM3+dLCRpLg==",
+          "shasum": "dffca2c0c26a5841afc1b8ea8941d9595b0f4959"
+        }
+      }
+    },
+    {
+      "version": "5.1.13",
+      "variantId": "registry-package.openupm.com-9126738f680ea208",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "8d9af29189525286ff6a440b047dd72abbd9ec62",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.13.tgz",
+      "upstreamIntegrity": "sha512-V6BLkYY6Q12GiqJtmxW7n010lmN58SH9BNpaUPaVZ5pkY1Sh4CsThofib8458FUjYfGEP5HFYhDr/ppa+KBlUg==",
+      "upstreamShasum": "6c88e82f5be2a59ee1c1931591d68d3636d07e8b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.13"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.13",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-V6BLkYY6Q12GiqJtmxW7n010lmN58SH9BNpaUPaVZ5pkY1Sh4CsThofib8458FUjYfGEP5HFYhDr/ppa+KBlUg==",
+          "shasum": "6c88e82f5be2a59ee1c1931591d68d3636d07e8b"
+        }
+      }
+    },
+    {
+      "version": "5.1.14",
+      "variantId": "registry-package.openupm.com-440bf9f9dd457846",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "25d1bbb675187f3af39561cff9d6151463f73c3d",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.14.tgz",
+      "upstreamIntegrity": "sha512-MDX5Xp6lx9mxm03mMjA3vHQvqVazH3IrGSM174qwT3tnwM7F2znQb9MaW56DR8hlZ/TYtSrXw9P/m1O6XCNiWQ==",
+      "upstreamShasum": "b94c916c388b9356edac167dc8be11f95f5d34e8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.14"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.14",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MDX5Xp6lx9mxm03mMjA3vHQvqVazH3IrGSM174qwT3tnwM7F2znQb9MaW56DR8hlZ/TYtSrXw9P/m1O6XCNiWQ==",
+          "shasum": "b94c916c388b9356edac167dc8be11f95f5d34e8"
+        }
+      }
+    },
+    {
+      "version": "5.1.15",
+      "variantId": "registry-package.openupm.com-d9d2f0a4dbbd7e8a",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "e7a99ec68ed4cabe82d417b6106a20cf63b2369a",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.15.tgz",
+      "upstreamIntegrity": "sha512-43AJWKzcivhafjs/JqSQ2IO1Nx59+twHbdlkujTvOEiDBehjaCrg1komMIlzwwgawo/plu1kG0pZN3RWQJ0mZw==",
+      "upstreamShasum": "be758a6b11a588bc863130ad31df2e2f376ae4d4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.15"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.15",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-43AJWKzcivhafjs/JqSQ2IO1Nx59+twHbdlkujTvOEiDBehjaCrg1komMIlzwwgawo/plu1kG0pZN3RWQJ0mZw==",
+          "shasum": "be758a6b11a588bc863130ad31df2e2f376ae4d4"
+        }
+      }
+    },
+    {
+      "version": "5.1.16",
+      "variantId": "registry-package.openupm.com-f890b44708a5ef7c",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "2e8c52757d59d0b7926362164e19360b43dd83e3",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.1.16.tgz",
+      "upstreamIntegrity": "sha512-y4bTprLnhFQiXwPgoPCuNpqDx8RL/G1kVyZ2fuIKiZg/qq3iBYJ3X47uTBAo5St4bnIfTcahF23DchWbZvtmng==",
+      "upstreamShasum": "245b23e2640bbc05a6c524b1033467f96a7c9f60",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.1.16"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.1.16",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-y4bTprLnhFQiXwPgoPCuNpqDx8RL/G1kVyZ2fuIKiZg/qq3iBYJ3X47uTBAo5St4bnIfTcahF23DchWbZvtmng==",
+          "shasum": "245b23e2640bbc05a6c524b1033467f96a7c9f60"
+        }
+      }
+    },
+    {
+      "version": "5.2.0-beta-01",
+      "variantId": "registry-package.openupm.com-25d9826d7303544a",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "78f809681b56818d3ee3c366f7145e66928fd2b4",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.2.0-beta-01.tgz",
+      "upstreamIntegrity": "sha512-/Faqf/IWgIj9h+EYwkOXFDAqTASOheFgku+q2Vmj56/ryvXKRKPyDFgtKDOFAkfP9U+lTgZM/JX9u4RuXrx4tw==",
+      "upstreamShasum": "2b12430273e45957d43113ea497d9369704db99c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.2.0-beta-01"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.2.0-beta-01",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-/Faqf/IWgIj9h+EYwkOXFDAqTASOheFgku+q2Vmj56/ryvXKRKPyDFgtKDOFAkfP9U+lTgZM/JX9u4RuXrx4tw==",
+          "shasum": "2b12430273e45957d43113ea497d9369704db99c"
+        }
+      }
+    },
+    {
+      "version": "5.2.0",
+      "variantId": "registry-package.openupm.com-c946d7aac0678373",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "0d088c8a20e637b9cd9e47a1d4164f0c626359c3",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.2.0.tgz",
+      "upstreamIntegrity": "sha512-cxNIDUg0oA81m3jy+ppfxgWyIq0kVBBIKPGovKjaQOn8lhALrFgo/yTPGqb7IbGBDQta5Tblv/vPUa66XEZZtg==",
+      "upstreamShasum": "63d876c370348e6dd5ace2ffcb356c7f26f86d3e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.2.0",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cxNIDUg0oA81m3jy+ppfxgWyIq0kVBBIKPGovKjaQOn8lhALrFgo/yTPGqb7IbGBDQta5Tblv/vPUa66XEZZtg==",
+          "shasum": "63d876c370348e6dd5ace2ffcb356c7f26f86d3e"
+        }
+      }
+    },
+    {
+      "version": "5.2.1",
+      "variantId": "registry-package.openupm.com-5423c41dba656967",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "8632dd16ff9837893dd6b4488cd3869f7b70b547",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.2.1.tgz",
+      "upstreamIntegrity": "sha512-pwDnob66vm2eFDw/yUKBTrn19j+XlMecnWsHp7XxNiS8XMlYcOywnstK1pAoQXQvuALaV3yjA2MLWUFizq/pAA==",
+      "upstreamShasum": "2748ed321de7a0c444f090ff0ed2d320c3c44aa7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.2.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.2.1",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-pwDnob66vm2eFDw/yUKBTrn19j+XlMecnWsHp7XxNiS8XMlYcOywnstK1pAoQXQvuALaV3yjA2MLWUFizq/pAA==",
+          "shasum": "2748ed321de7a0c444f090ff0ed2d320c3c44aa7"
+        }
+      }
+    },
+    {
+      "version": "5.2.2",
+      "variantId": "registry-package.openupm.com-2e08d4d395ccbf46",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "b68d17b7fba5f7f8f6f6a26f28db3b589bb7c0fb",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.2.2.tgz",
+      "upstreamIntegrity": "sha512-xGS+5TzyiZg9mxwsQ2Pvm8e80kHKr9c4fbty4E38S/l98pyRt6I851perhYDXRKqUi7z6ti26jbMhJjI+Ev0ZA==",
+      "upstreamShasum": "3f3d3c083b90950a5289d265922149cad5ce090f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.2.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.2.2",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xGS+5TzyiZg9mxwsQ2Pvm8e80kHKr9c4fbty4E38S/l98pyRt6I851perhYDXRKqUi7z6ti26jbMhJjI+Ev0ZA==",
+          "shasum": "3f3d3c083b90950a5289d265922149cad5ce090f"
+        }
+      }
+    },
+    {
+      "version": "5.2.3",
+      "variantId": "registry-package.openupm.com-a4d9070e29f89a4b",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "7e1af18c9806b52ddd6b03e379af7681b9311c3c",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.2.3.tgz",
+      "upstreamIntegrity": "sha512-e8fhTFiY9yQU8sREtpcZJ4blG9XWaihlfWJublr86eodll+58vvlJeaekYoAtkYzCsCqTNYdxAWGq6U0EZANrQ==",
+      "upstreamShasum": "b9b408144c80f5ec72b66e988e43ff0accc380b4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.2.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.2.3",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-e8fhTFiY9yQU8sREtpcZJ4blG9XWaihlfWJublr86eodll+58vvlJeaekYoAtkYzCsCqTNYdxAWGq6U0EZANrQ==",
+          "shasum": "b9b408144c80f5ec72b66e988e43ff0accc380b4"
+        }
+      }
+    },
+    {
+      "version": "5.2.4",
+      "variantId": "registry-package.openupm.com-0ee2a5738e0f149d",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "93f64a6e604ff01c813269a1943e0bd805507e09",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.2.4.tgz",
+      "upstreamIntegrity": "sha512-CLaX9Jk42pNIobybsnstFFPEa9/CaICQBi3aRWNeqB1o2FX/eAXNUVgtj0/iR8ijJFnaWWCqRm3VGfSdLAP0ag==",
+      "upstreamShasum": "13472aaad67315ba2600cabd7b8fe7e243151c55",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.2.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.2.4",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CLaX9Jk42pNIobybsnstFFPEa9/CaICQBi3aRWNeqB1o2FX/eAXNUVgtj0/iR8ijJFnaWWCqRm3VGfSdLAP0ag==",
+          "shasum": "13472aaad67315ba2600cabd7b8fe7e243151c55"
+        }
+      }
+    },
+    {
+      "version": "5.2.5",
+      "variantId": "registry-package.openupm.com-94486088bc5454cb",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "5c8f037fea4a243ac8b9c146efc9000d0cafd3e8",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.2.5.tgz",
+      "upstreamIntegrity": "sha512-xZ0By+CM5IEYHoTGDnrhyIWJGUB6WEDZRwNUbfUoVpjOeTDCJqf6mgGqhN7OQ0cW/yjDO17QcwHWHkYuXFS+Uw==",
+      "upstreamShasum": "bb7784994636b86d6d59b18bed57c2e90a176410",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.2.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.2.5",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-xZ0By+CM5IEYHoTGDnrhyIWJGUB6WEDZRwNUbfUoVpjOeTDCJqf6mgGqhN7OQ0cW/yjDO17QcwHWHkYuXFS+Uw==",
+          "shasum": "bb7784994636b86d6d59b18bed57c2e90a176410"
+        }
+      }
+    },
+    {
+      "version": "5.2.6",
+      "variantId": "registry-package.openupm.com-c71f407352a298c3",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "dbd77db1d66f7035e5edc1ae34d5cd9d99b9fcdc",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.2.6.tgz",
+      "upstreamIntegrity": "sha512-MKKy9nlrxWG4ujPNzd4zqeinhb+/xt7ft6wfOukIXhBqB2H6p00rvZ0JLzc38b3lJp7fgGlvR6GFwn7oFA4iIQ==",
+      "upstreamShasum": "0f9b52605fc6b83ea2637535304ef2434a1db262",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.2.6",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MKKy9nlrxWG4ujPNzd4zqeinhb+/xt7ft6wfOukIXhBqB2H6p00rvZ0JLzc38b3lJp7fgGlvR6GFwn7oFA4iIQ==",
+          "shasum": "0f9b52605fc6b83ea2637535304ef2434a1db262"
+        }
+      }
+    },
+    {
+      "version": "5.2.7",
+      "variantId": "registry-package.openupm.com-4fe180ab144e8d9f",
+      "sourceUrl": "ssh://git@github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.2.7.tgz",
+      "upstreamIntegrity": "sha512-26rEtcDtbyo4m8xBpjPTOLG91hnNWoHhETBgAR/PtDrLGPPWYS/HZ0gz0bkgONRvzfM9k5GuB/sYunryncojuA==",
+      "upstreamShasum": "52a31090d710e1a4848abb443477b91400e4531d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.2.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.2.7",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-26rEtcDtbyo4m8xBpjPTOLG91hnNWoHhETBgAR/PtDrLGPPWYS/HZ0gz0bkgONRvzfM9k5GuB/sYunryncojuA==",
+          "shasum": "52a31090d710e1a4848abb443477b91400e4531d"
+        }
+      }
+    },
+    {
+      "version": "5.2.8",
+      "variantId": "registry-package.openupm.com-5e7831b1b9612637",
+      "sourceUrl": "https://github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "7e4693231e9cc3953fae7d00f094900e731654a6",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.2.8.tgz",
+      "upstreamIntegrity": "sha512-I6ei9X3+SWepLng4xdv/+izBNm1LdS0WEqK0reqyH4hMtZULapWucgilrOh1VN1Ujtprq4vSKUX4gzwmwu3aRQ==",
+      "upstreamShasum": "fc0e3bb4c64d0adeb4db01bd29213c690cc81708",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.2.8"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.2.8",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-I6ei9X3+SWepLng4xdv/+izBNm1LdS0WEqK0reqyH4hMtZULapWucgilrOh1VN1Ujtprq4vSKUX4gzwmwu3aRQ==",
+          "shasum": "fc0e3bb4c64d0adeb4db01bd29213c690cc81708"
+        }
+      }
+    },
+    {
+      "version": "5.2.9",
+      "variantId": "registry-package.openupm.com-b1ee4fa006121bd8",
+      "sourceUrl": "https://github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "b25c38ce00ac1a12030c0b9ae0ad74145e64ab9b",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.2.9.tgz",
+      "upstreamIntegrity": "sha512-XxMQ80RFMQBrVL/7zq7cC8BxEEVOpFe3PTlMDpmqkDJWHvlokkybD5SDB+8QDInMuwNYRl3kXBXfzIODO4DOvg==",
+      "upstreamShasum": "19668968bf750377dc04ae271d831bb482f0b74d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.2.9"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.2.9",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XxMQ80RFMQBrVL/7zq7cC8BxEEVOpFe3PTlMDpmqkDJWHvlokkybD5SDB+8QDInMuwNYRl3kXBXfzIODO4DOvg==",
+          "shasum": "19668968bf750377dc04ae271d831bb482f0b74d"
+        }
+      }
+    },
+    {
+      "version": "5.2.10",
+      "variantId": "registry-package.openupm.com-6673b81469849b10",
+      "sourceUrl": "https://github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "6bf10c3b6516e8e7c0f6b68ef411ce3a983e43f3",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.2.10.tgz",
+      "upstreamIntegrity": "sha512-5zxvleDoGOmNKOK+NYGAgvIzytHQqzy9nCzk/LOkW2K7QvkjzsoPBumXVIv85C9fZGwc1J5MD18Qc/sdLaJUFg==",
+      "upstreamShasum": "cddadb67954e09dd9a3c285dc0c5720146e441be",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.2.10"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.2.10",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5zxvleDoGOmNKOK+NYGAgvIzytHQqzy9nCzk/LOkW2K7QvkjzsoPBumXVIv85C9fZGwc1J5MD18Qc/sdLaJUFg==",
+          "shasum": "cddadb67954e09dd9a3c285dc0c5720146e441be"
+        }
+      }
+    },
+    {
+      "version": "5.2.11",
+      "variantId": "registry-package.openupm.com-1449296458e6c44e",
+      "sourceUrl": "https://github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "1ec13f41a2bd911b684dd008d74bb5da69e25833",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.2.11.tgz",
+      "upstreamIntegrity": "sha512-qIZjEz8Ua9xh9HJDS5s97ON+9aeOrCCCxiciFiSjzqgdilNum1+EzdvqCjHub6NgM8cTwAX0Lo+dmeHe2gGfWQ==",
+      "upstreamShasum": "2b4652c4a41c351ee39a6fd9cf9a5b1a5a2adfd9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.2.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.2.11",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qIZjEz8Ua9xh9HJDS5s97ON+9aeOrCCCxiciFiSjzqgdilNum1+EzdvqCjHub6NgM8cTwAX0Lo+dmeHe2gGfWQ==",
+          "shasum": "2b4652c4a41c351ee39a6fd9cf9a5b1a5a2adfd9"
+        }
+      }
+    },
+    {
+      "version": "5.3.0",
+      "variantId": "registry-package.openupm.com-409d921ceb590c12",
+      "sourceUrl": "https://github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "66686bb0096751c47d2abf871b4e18411a82f513",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.3.0.tgz",
+      "upstreamIntegrity": "sha512-NfpY0IPk/qFw1HJxr+lj566AqeOu/Rl9SfF42GRs5zmBuZz9H0npoi0Ic7OErX3oa+dmAYZLCGgNXiikKevD+A==",
+      "upstreamShasum": "0c6f071f6a8e26e9dcb89dd6c4fce9ea341824e6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.3.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.3.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NfpY0IPk/qFw1HJxr+lj566AqeOu/Rl9SfF42GRs5zmBuZz9H0npoi0Ic7OErX3oa+dmAYZLCGgNXiikKevD+A==",
+          "shasum": "0c6f071f6a8e26e9dcb89dd6c4fce9ea341824e6"
+        }
+      }
+    },
+    {
+      "version": "5.3.1",
+      "variantId": "registry-package.openupm.com-5ddf8e8b3a35c3e0",
+      "sourceUrl": "https://github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "f35eaa7e94d0de68a3b8b3f34fac715a7f44ce87",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.3.1.tgz",
+      "upstreamIntegrity": "sha512-UiT8Rl0brxXh/4MXVmhRd3EVWg+rPDXnhFnmDuefHM2YZ/KD5xid1AzhEZHRi6LUAj3N3vdPK8rLACqyEtnJig==",
+      "upstreamShasum": "985c5b8c3eebd2aa981fe0595eb1ea5ccd27d253",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.3.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.3.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-UiT8Rl0brxXh/4MXVmhRd3EVWg+rPDXnhFnmDuefHM2YZ/KD5xid1AzhEZHRi6LUAj3N3vdPK8rLACqyEtnJig==",
+          "shasum": "985c5b8c3eebd2aa981fe0595eb1ea5ccd27d253"
+        }
+      }
+    },
+    {
+      "version": "5.3.2",
+      "variantId": "registry-package.openupm.com-d9757a25d9d5c3ba",
+      "sourceUrl": "https://github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "aca3fbc6e839724a51ee25ccc416e70b40b21017",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.3.2.tgz",
+      "upstreamIntegrity": "sha512-x/0hAZC/e6raAgyIOYlqMR9VHEicHOM5HH4TQnM6q2zfXGjjlZZ5V9AMr5QSriDC2pDd0Jk3iUziOwIKIWnoTg==",
+      "upstreamShasum": "83ce26636decb8854fedf59ad1ebad8ab169a67b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.3.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.3.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-x/0hAZC/e6raAgyIOYlqMR9VHEicHOM5HH4TQnM6q2zfXGjjlZZ5V9AMr5QSriDC2pDd0Jk3iUziOwIKIWnoTg==",
+          "shasum": "83ce26636decb8854fedf59ad1ebad8ab169a67b"
+        }
+      }
+    },
+    {
+      "version": "5.3.3",
+      "variantId": "registry-package.openupm.com-1ae34f64287adbec",
+      "sourceUrl": "https://github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "2bb392c2833ecd189fe3b555ce39ff1b39bbf3ab",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.3.3.tgz",
+      "upstreamIntegrity": "sha512-6A1dvQbLrRi3Pyz9RKMg2hlIiuZoeBJp0tBHgJPbzjENnLob7fFtgDBfEw0u5zCPotWoZ825B1LuW7632EY4Ag==",
+      "upstreamShasum": "947f9357aa2bc3b2fb7e9f051458d8393304141c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.3.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.3.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6A1dvQbLrRi3Pyz9RKMg2hlIiuZoeBJp0tBHgJPbzjENnLob7fFtgDBfEw0u5zCPotWoZ825B1LuW7632EY4Ag==",
+          "shasum": "947f9357aa2bc3b2fb7e9f051458d8393304141c"
+        }
+      }
+    },
+    {
+      "version": "5.3.4",
+      "variantId": "registry-package.openupm.com-83d7550ce1787e49",
+      "sourceUrl": "https://github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "2af00c380b1b4e95e72d209e4c3fd11ecd0497d3",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.3.4.tgz",
+      "upstreamIntegrity": "sha512-dfzoW5AeSNF/jwljWt4yTMZqpreQ95bSGZG05z/Oe4kbdem71+M522wtV18evmaGrQs0EGYNkvA2qUHWwAqViQ==",
+      "upstreamShasum": "b22ba6d66ed1e0ef4d449316cc9bad5d71b67c4e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.3.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dfzoW5AeSNF/jwljWt4yTMZqpreQ95bSGZG05z/Oe4kbdem71+M522wtV18evmaGrQs0EGYNkvA2qUHWwAqViQ==",
+          "shasum": "b22ba6d66ed1e0ef4d449316cc9bad5d71b67c4e"
+        }
+      }
+    },
+    {
+      "version": "5.3.5",
+      "variantId": "registry-package.openupm.com-bbbb9ac012653ba9",
+      "sourceUrl": "https://github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "bc83db7bc1c7e15b35e84eff0007893e27fbe7b9",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.3.5.tgz",
+      "upstreamIntegrity": "sha512-OpzHNAklPpXyo1s+xJ1UVGWcUXX0+e8D2wcWxhTBlj6NzVvn2l54j44x7p5/DRqvHgEXShjRIiAhYvAGPGYr4w==",
+      "upstreamShasum": "41c7d732c5e8fe037ae2d4a287ab10e5708cdd61",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.3.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.3.5",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OpzHNAklPpXyo1s+xJ1UVGWcUXX0+e8D2wcWxhTBlj6NzVvn2l54j44x7p5/DRqvHgEXShjRIiAhYvAGPGYr4w==",
+          "shasum": "41c7d732c5e8fe037ae2d4a287ab10e5708cdd61"
+        }
+      }
+    },
+    {
+      "version": "5.3.6",
+      "variantId": "registry-package.openupm.com-eb6ef767f2a4dbee",
+      "sourceUrl": "https://github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "84cd3aee27f213721e97d3428525a16ef3d0b5b6",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.3.6.tgz",
+      "upstreamIntegrity": "sha512-KVO2sWjq+mAmOBIGmElcNeZMnIkrHLUDn8QJ6mCB83AXtgLB5+JFpPMzs8DM7X7SpNwP9hgl7lYW7XJ2L0U2nQ==",
+      "upstreamShasum": "d1074ec3d2776b5041a9e5d6b28369f91c16481b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.3.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.3.6",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KVO2sWjq+mAmOBIGmElcNeZMnIkrHLUDn8QJ6mCB83AXtgLB5+JFpPMzs8DM7X7SpNwP9hgl7lYW7XJ2L0U2nQ==",
+          "shasum": "d1074ec3d2776b5041a9e5d6b28369f91c16481b"
+        }
+      }
+    },
+    {
+      "version": "5.4.0",
+      "variantId": "registry-package.openupm.com-db4c15ea221ec14b",
+      "sourceUrl": "https://github.com/OneSignal/OneSignal-Unity-SDK.git",
+      "sourceRef": "234bd10bb00df068f9979d77454e9a3107566f4f",
+      "downloadUrl": "https://package.openupm.com/com.onesignal.unity.ios/-/com.onesignal.unity.ios-5.4.0.tgz",
+      "upstreamIntegrity": "sha512-ZNoCHGqUeZG8mmggBWYO7ixj1w5N+Jv7PHFmCie1PEurNkawoD7oGgGuzD/CAX+iPBC/gXkgYbn+3Tj2KaX4TA==",
+      "upstreamShasum": "5ea5ad58e424422b3a1aed311205d8610326fe8e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.onesignal.unity.core": "5.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.onesignal.unity.ios/5.4.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZNoCHGqUeZG8mmggBWYO7ixj1w5N+Jv7PHFmCie1PEurNkawoD7oGgGuzD/CAX+iPBC/gXkgYbn+3Tj2KaX4TA==",
+          "shasum": "5ea5ad58e424422b3a1aed311205d8610326fe8e"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "5.4.0",
+    "patch@3.0.0-beta.1": "3.0.0-beta.1",
+    "patch@3.0.0-beta.2": "3.0.0-beta.2",
+    "patch@3.0.0-beta.3": "3.0.0-beta.3",
+    "patch@3.0.0-beta.4": "3.0.0-beta.4",
+    "patch@3.0.0-beta.5": "3.0.0-beta.5",
+    "patch@3.0.0-beta.6": "3.0.0-beta.6",
+    "patch@5.0.0-beta.1": "5.0.0-beta.1",
+    "patch@5.0.0-beta.2": "5.0.0-beta.2",
+    "patch@5.0.0-beta.3": "5.0.0-beta.3",
+    "patch@3.0.13": "3.0.13",
+    "patch-5.1.16": "5.1.16"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.onesignal.unity.ios.yml",
+  "definitionBlobSha": "e556c031d7a9104d38e21bdf2c3556015926acc0",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "5.4.0",
+    "5.3.0",
+    "3.0.13"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 75,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

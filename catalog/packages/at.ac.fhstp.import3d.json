@@ -1,0 +1,581 @@
+{
+  "schemaVersion": "1.0",
+  "id": "at.ac.fhstp.import3d",
+  "displayName": "at.ac.fhstp.import3d",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "fetchedAt": "2026-10-17T17:36:19.067047Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "variantId": "registry-package.openupm.com-579382b75091b75a",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "4eaebc1d6fc666de8d900dbc0a5370cc89e02b50",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.1.0.tgz",
+      "upstreamIntegrity": "sha512-WdBTwJ5vpjr8odgVe7dboqkliGFKOQjr9jdyuWJwPaf5V0otQ0Ne+JaNa35yVL3ytnQGVaVkmziCSTkLAJhXug==",
+      "upstreamShasum": "c4e4ed46f2051186a65ecc925f7b5e38ff3e0193",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.1.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WdBTwJ5vpjr8odgVe7dboqkliGFKOQjr9jdyuWJwPaf5V0otQ0Ne+JaNa35yVL3ytnQGVaVkmziCSTkLAJhXug==",
+          "shasum": "c4e4ed46f2051186a65ecc925f7b5e38ff3e0193"
+        }
+      }
+    },
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-bcf9470033a1e3f5",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "47259338c4f3c907e3c26f091cb8b93b0d97fece",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-kAy/6eIIAgiLSuRjBFCwmkv1ZsM0V6BTmi2sGgDSXVRcBx6hEGegXSrnmcOpgOyN1zh1cOGHCESeEcVg7D6C8w==",
+      "upstreamShasum": "00e8368c6f4202d26be5ad71c4458536c8873d6f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.2.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kAy/6eIIAgiLSuRjBFCwmkv1ZsM0V6BTmi2sGgDSXVRcBx6hEGegXSrnmcOpgOyN1zh1cOGHCESeEcVg7D6C8w==",
+          "shasum": "00e8368c6f4202d26be5ad71c4458536c8873d6f"
+        }
+      }
+    },
+    {
+      "version": "0.3.0",
+      "variantId": "registry-package.openupm.com-cb55e694d206b6b2",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "0b14a3afa1a53c5d4e72941821a22d284b131c4e",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.3.0.tgz",
+      "upstreamIntegrity": "sha512-AEoosrWhFKzMvqburAMFfVJSdaGv4ia64nBT30SXuI7oRcAYZ4Qg1A6YxE1wXR7e0ZBydeAzO+j9LPHZH2JQcA==",
+      "upstreamShasum": "bc87da1d13c295295f1c7182738a1d61ad488f6d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.3.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-AEoosrWhFKzMvqburAMFfVJSdaGv4ia64nBT30SXuI7oRcAYZ4Qg1A6YxE1wXR7e0ZBydeAzO+j9LPHZH2JQcA==",
+          "shasum": "bc87da1d13c295295f1c7182738a1d61ad488f6d"
+        }
+      }
+    },
+    {
+      "version": "0.4.0",
+      "variantId": "registry-package.openupm.com-5fa9a7035beef35b",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "dac23fb1e7907ad5d8096cbd27eade2adf306046",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.4.0.tgz",
+      "upstreamIntegrity": "sha512-hKt3ObV5x267gjayRPX1vEVFTcmiHFwm+4YSBYOfLiiuBTgB+73XyFQFeTBZ9bBgChCVTxu4TMldrLNUzXY6Mw==",
+      "upstreamShasum": "3d32ff96771a39085b7e116328b304e96e68d5e5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.4.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hKt3ObV5x267gjayRPX1vEVFTcmiHFwm+4YSBYOfLiiuBTgB+73XyFQFeTBZ9bBgChCVTxu4TMldrLNUzXY6Mw==",
+          "shasum": "3d32ff96771a39085b7e116328b304e96e68d5e5"
+        }
+      }
+    },
+    {
+      "version": "0.5.0",
+      "variantId": "registry-package.openupm.com-e155247532811ec1",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "10a1dcb300ecef06d5e224ec8e35f2299430c6ef",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.5.0.tgz",
+      "upstreamIntegrity": "sha512-Cd9XHpOTrAGXLwFOa9i9GkMOa93iGYe4TV5r7d9F8Gac02ydOnsMM3WQhXGnmbD1ySFuvbrh9XJ0I0Nyn51HpQ==",
+      "upstreamShasum": "69ba7891b6bee3e15c530b121849a57dd3cac7d2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.5.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Cd9XHpOTrAGXLwFOa9i9GkMOa93iGYe4TV5r7d9F8Gac02ydOnsMM3WQhXGnmbD1ySFuvbrh9XJ0I0Nyn51HpQ==",
+          "shasum": "69ba7891b6bee3e15c530b121849a57dd3cac7d2"
+        }
+      }
+    },
+    {
+      "version": "0.5.1",
+      "variantId": "registry-package.openupm.com-31959da2a34a1e75",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "d341fe10089fa0395ad9d7dee286c67c6fa1cc89",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.5.1.tgz",
+      "upstreamIntegrity": "sha512-GWFTmOljwcp6nqnN0NheIeGxT6OLO9RuwrFvUyitfwVUHHEGf4fM83bqoupJvPpXG+Lw1BKELOGY+RYYeNlz3w==",
+      "upstreamShasum": "6917fb33513b4aa49a9f61d6c3e3b07a77c81d9d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.5.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GWFTmOljwcp6nqnN0NheIeGxT6OLO9RuwrFvUyitfwVUHHEGf4fM83bqoupJvPpXG+Lw1BKELOGY+RYYeNlz3w==",
+          "shasum": "6917fb33513b4aa49a9f61d6c3e3b07a77c81d9d"
+        }
+      }
+    },
+    {
+      "version": "0.6.0",
+      "variantId": "registry-package.openupm.com-42e1e5a1bafbb370",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "a614cc4343ef923a5c6add4d75bf0f4f0920648e",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.6.0.tgz",
+      "upstreamIntegrity": "sha512-WMm6BTK/XRtrzFSycAzKIYvim/Xa6pYiUs6OEMiiu+yis2D8S/wxGHgFD3QWS0tOlHAd9OQjtl1ZztSRQzV7EA==",
+      "upstreamShasum": "49f8118c51b79c11388db499e852973a40bc30f9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.6.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WMm6BTK/XRtrzFSycAzKIYvim/Xa6pYiUs6OEMiiu+yis2D8S/wxGHgFD3QWS0tOlHAd9OQjtl1ZztSRQzV7EA==",
+          "shasum": "49f8118c51b79c11388db499e852973a40bc30f9"
+        }
+      }
+    },
+    {
+      "version": "0.6.1",
+      "variantId": "registry-package.openupm.com-de9919e3bca81160",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "97a0a3ac1b9f81b1a12266dcf10f8523a361a447",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.6.1.tgz",
+      "upstreamIntegrity": "sha512-GmnOcD316DcDZfAnSl1kOsusuO3Zhmyx1caMINQtF9uX7XpCxQzbTa0OBT7et7O5wNVemJjfUMnM3nQI2HCpdA==",
+      "upstreamShasum": "398438bc28448e354599692ad65aa3898ab78cfc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0",
+        "dev.comradevanti.opt-unity": "3.3.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.6.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GmnOcD316DcDZfAnSl1kOsusuO3Zhmyx1caMINQtF9uX7XpCxQzbTa0OBT7et7O5wNVemJjfUMnM3nQI2HCpdA==",
+          "shasum": "398438bc28448e354599692ad65aa3898ab78cfc"
+        }
+      }
+    },
+    {
+      "version": "0.6.2",
+      "variantId": "registry-package.openupm.com-5cc1847e7e689934",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "48677c57febbd9cc23ec9fc05c8e94ce519d768d",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.6.2.tgz",
+      "upstreamIntegrity": "sha512-3RmGHts9TGYfDfWyYVJvB4a8d31MZ4lvkxV0ljTzFAbe3gVF7ZRZj8yCb64U3cqGJE13vqzRwyEilfuLYFbZ4g==",
+      "upstreamShasum": "72df5bd546736ced2f3b47640fc48650bf2a0bc4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0",
+        "dev.comradevanti.opt-unity": "3.3.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.6.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3RmGHts9TGYfDfWyYVJvB4a8d31MZ4lvkxV0ljTzFAbe3gVF7ZRZj8yCb64U3cqGJE13vqzRwyEilfuLYFbZ4g==",
+          "shasum": "72df5bd546736ced2f3b47640fc48650bf2a0bc4"
+        }
+      }
+    },
+    {
+      "version": "0.7.0",
+      "variantId": "registry-package.openupm.com-09a92288315fc70e",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "bc545abead7554a0411a473c77f28630b28881fd",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.7.0.tgz",
+      "upstreamIntegrity": "sha512-+ZGJj/wgexbC6BJ1l2dlXc7lOKVe+F43hIWdmQjYB6FWmdJE/23ZleS1jNLJtV/h9f4tLdOeLj4jik+3Swe04A==",
+      "upstreamShasum": "aaa28ce93cd4e3bd98828e542b62faf1c5e5e317",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0",
+        "dev.comradevanti.opt-unity": "3.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.7.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+ZGJj/wgexbC6BJ1l2dlXc7lOKVe+F43hIWdmQjYB6FWmdJE/23ZleS1jNLJtV/h9f4tLdOeLj4jik+3Swe04A==",
+          "shasum": "aaa28ce93cd4e3bd98828e542b62faf1c5e5e317"
+        }
+      }
+    },
+    {
+      "version": "0.8.0",
+      "variantId": "registry-package.openupm.com-7d4aeb8e4eb0c053",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "259bbb87aecfaceb5f573fcc5d8323e4f32eafe5",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.8.0.tgz",
+      "upstreamIntegrity": "sha512-idVXB2tIc5N0W3SXOTdjPO9XSMhHc+8e1ev9gsA4FO6z3m1L1J1fwxh/O/sI49+sunu/kk9d0PLAb1LZ1qBhTA==",
+      "upstreamShasum": "1bb55e740b2238413dfd7997a868b5d05ce35743",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0",
+        "dev.comradevanti.opt-unity": "3.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.8.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-idVXB2tIc5N0W3SXOTdjPO9XSMhHc+8e1ev9gsA4FO6z3m1L1J1fwxh/O/sI49+sunu/kk9d0PLAb1LZ1qBhTA==",
+          "shasum": "1bb55e740b2238413dfd7997a868b5d05ce35743"
+        }
+      }
+    },
+    {
+      "version": "0.9.0",
+      "variantId": "registry-package.openupm.com-f204bb3d6e3ca960",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "1a68f2bbcc76415a70d645b52b24e863f7841be8",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.9.0.tgz",
+      "upstreamIntegrity": "sha512-od1hRDsEQniFEHtLnzi70Tb6eJu2Y+B+H011ookp7pABgzGbKz6/HBI7afoZyXNLn/fw6JULu6Zu16ty1eoOEA==",
+      "upstreamShasum": "a4168fa860e232398103d3e17f1e17744e1bdb2e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0",
+        "dev.comradevanti.opt-unity": "3.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.9.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-od1hRDsEQniFEHtLnzi70Tb6eJu2Y+B+H011ookp7pABgzGbKz6/HBI7afoZyXNLn/fw6JULu6Zu16ty1eoOEA==",
+          "shasum": "a4168fa860e232398103d3e17f1e17744e1bdb2e"
+        }
+      }
+    },
+    {
+      "version": "0.10.0",
+      "variantId": "registry-package.openupm.com-b9e62969c3be1c33",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "f7a693303bb8eeebe8105eaeeff696e5025cdbbe",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.10.0.tgz",
+      "upstreamIntegrity": "sha512-WunoC75YX9ellS70bamhjVXmdCbXVIEM7pZx3H2s5bErEjmP1IqDOp4fQ7bKZ70BZrL61xiczRextyRwEeKOLA==",
+      "upstreamShasum": "7336575f863caca55be3bf84223b9e8b79390cf0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0",
+        "dev.comradevanti.opt-unity": "3.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.10.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WunoC75YX9ellS70bamhjVXmdCbXVIEM7pZx3H2s5bErEjmP1IqDOp4fQ7bKZ70BZrL61xiczRextyRwEeKOLA==",
+          "shasum": "7336575f863caca55be3bf84223b9e8b79390cf0"
+        }
+      }
+    },
+    {
+      "version": "0.10.1",
+      "variantId": "registry-package.openupm.com-49c5b60b5a3cf4de",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "11194f426b5ff88c6c5a8a63d28c15324189ddb9",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.10.1.tgz",
+      "upstreamIntegrity": "sha512-kGGbRaKZl/0Zt9iSLIxUzvCG6HtWI6O4BbcVs1ilg4rxSOQgab2K06h1Mc/lECu2uoTgv24Q4l6A8np8vsvRBQ==",
+      "upstreamShasum": "0dfea411fb5699788708b434669d17ef12e6d9c1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0",
+        "dev.comradevanti.opt-unity": "3.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.10.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kGGbRaKZl/0Zt9iSLIxUzvCG6HtWI6O4BbcVs1ilg4rxSOQgab2K06h1Mc/lECu2uoTgv24Q4l6A8np8vsvRBQ==",
+          "shasum": "0dfea411fb5699788708b434669d17ef12e6d9c1"
+        }
+      }
+    },
+    {
+      "version": "0.11.0",
+      "variantId": "registry-package.openupm.com-b2f0083cbea3d41f",
+      "sourceUrl": "https://package.openupm.com/at.ac.fhstp.import3d",
+      "sourceRef": "ff9eae5565c33e62fa3e39bc6fd3b80f8824db7e",
+      "downloadUrl": "https://package.openupm.com/at.ac.fhstp.import3d/-/at.ac.fhstp.import3d-0.11.0.tgz",
+      "upstreamIntegrity": "sha512-5bsJ/ZsfwpfZpIEQtXQBIxWmynvw1gkXa8BoaAHQuXVkOaG+nklzS/3YknhyFfGOQXUixG/l1IZcn+jFfrUaDg==",
+      "upstreamShasum": "8efaef4a012554605c68c29009b13806692dd7d1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "2.0.1-exp.2",
+        "org.nuget.system.collections.immutable": "7.0.0",
+        "org.nuget.dev.comradevanti.nothing": "1.0.0",
+        "dev.comradevanti.opt-unity": "3.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/at.ac.fhstp.import3d/0.11.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5bsJ/ZsfwpfZpIEQtXQBIxWmynvw1gkXa8BoaAHQuXVkOaG+nklzS/3YknhyFfGOQXUixG/l1IZcn+jFfrUaDg==",
+          "shasum": "8efaef4a012554605c68c29009b13806692dd7d1"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.11.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/at.ac.fhstp.import3d.yml",
+  "definitionBlobSha": "03dfebe5531f8dc355e99f8e24a3bb46f049e44b",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.11.0",
+    "0.10.0",
+    "0.10.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 15,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

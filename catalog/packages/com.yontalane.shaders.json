@@ -1,0 +1,643 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.yontalane.shaders",
+  "displayName": "com.yontalane.shaders",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "fetchedAt": "2026-10-17T17:43:26.106480Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-e006a15edf0dd7f6",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-pb+/XzzJMR0vL/iUQkG6gkIO1MVwhyCnJYMj3bpuJm7GHC9CPK5mo05C9D0LIxMAVxRjD0uzBNRKmf7FxSWE8w==",
+      "upstreamShasum": "e9f8d4701dcbd3670b8c70060df8d7c72adb47a2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-pb+/XzzJMR0vL/iUQkG6gkIO1MVwhyCnJYMj3bpuJm7GHC9CPK5mo05C9D0LIxMAVxRjD0uzBNRKmf7FxSWE8w==",
+          "shasum": "e9f8d4701dcbd3670b8c70060df8d7c72adb47a2"
+        }
+      }
+    },
+    {
+      "version": "1.0.2",
+      "variantId": "registry-package.openupm.com-5a3d83eed3f94283",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.2.tgz",
+      "upstreamIntegrity": "sha512-Bzo0WNV0dk1NTNnOuavwOBOreayggpiMpC+eGo8K5cjHpUuMfEkF1ICzxgErCZ4qeWJWz8hz2mEcgplfdyocTw==",
+      "upstreamShasum": "56e8f4d91018d3affa623509a987cbf11b91b0b0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Bzo0WNV0dk1NTNnOuavwOBOreayggpiMpC+eGo8K5cjHpUuMfEkF1ICzxgErCZ4qeWJWz8hz2mEcgplfdyocTw==",
+          "shasum": "56e8f4d91018d3affa623509a987cbf11b91b0b0"
+        }
+      }
+    },
+    {
+      "version": "1.0.3",
+      "variantId": "registry-package.openupm.com-c53c84fd444d256b",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.3.tgz",
+      "upstreamIntegrity": "sha512-8xTy/nKXW4vKjY3qYHt32RKLMA8drtlDZTFGcDycUN8dGwA9RmSS0ls498OdvRIGjMB39CVN0WTYHB32Gergdw==",
+      "upstreamShasum": "739a32c5fff5ff18157457187bd84df10fddd8dc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8xTy/nKXW4vKjY3qYHt32RKLMA8drtlDZTFGcDycUN8dGwA9RmSS0ls498OdvRIGjMB39CVN0WTYHB32Gergdw==",
+          "shasum": "739a32c5fff5ff18157457187bd84df10fddd8dc"
+        }
+      }
+    },
+    {
+      "version": "1.0.5",
+      "variantId": "registry-package.openupm.com-6d615ce9b9d05967",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.5.tgz",
+      "upstreamIntegrity": "sha512-IoABJ1plnu9wwJ5Uh3zYL/4STl9PannugRMH00g65rkv/qWrw3tnbb+J//YjoG5F9S1i8etYxenaMJiXVf2Nmw==",
+      "upstreamShasum": "0211eb3e17c83a4cad4b7fcee4ad193f48618196",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IoABJ1plnu9wwJ5Uh3zYL/4STl9PannugRMH00g65rkv/qWrw3tnbb+J//YjoG5F9S1i8etYxenaMJiXVf2Nmw==",
+          "shasum": "0211eb3e17c83a4cad4b7fcee4ad193f48618196"
+        }
+      }
+    },
+    {
+      "version": "1.0.6",
+      "variantId": "registry-package.openupm.com-a592d1e0bb9ec649",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": "3e1f7c93290d99ed79eb032baa7e71602eddf075",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.6.tgz",
+      "upstreamIntegrity": "sha512-cirh0KTXbH57Wt99LgBzjlrF/smfb72OS6F92Jai6a/d6JRlBB7CVpT+xhSb3uy3Z58+lCKTli/co79nIgCuvg==",
+      "upstreamShasum": "db3f4d0d8ae70813cfde045d52dd25d1ec3f5860",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.6",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cirh0KTXbH57Wt99LgBzjlrF/smfb72OS6F92Jai6a/d6JRlBB7CVpT+xhSb3uy3Z58+lCKTli/co79nIgCuvg==",
+          "shasum": "db3f4d0d8ae70813cfde045d52dd25d1ec3f5860"
+        }
+      }
+    },
+    {
+      "version": "1.0.7",
+      "variantId": "registry-package.openupm.com-79a490eba31e8105",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": "2682ab8166724c11cdcd4a83d5eff209d4cf022f",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.7.tgz",
+      "upstreamIntegrity": "sha512-ycfRwQTf5hUIOMmAP6XiW9ma0Gj6xuytfro1Hg5tQeWeuyXThM11Rv1iYo+uGbxOdFHnQYTV1KiqA+GNVdpzfg==",
+      "upstreamShasum": "fbce395ed3e0daae9499fc3dca33415a1084344e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.7",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ycfRwQTf5hUIOMmAP6XiW9ma0Gj6xuytfro1Hg5tQeWeuyXThM11Rv1iYo+uGbxOdFHnQYTV1KiqA+GNVdpzfg==",
+          "shasum": "fbce395ed3e0daae9499fc3dca33415a1084344e"
+        }
+      }
+    },
+    {
+      "version": "1.0.8",
+      "variantId": "registry-package.openupm.com-f23864a9c0fef34f",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": "537ade57fb4c9b27add1dbad5fe3638d45ff621c",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.8.tgz",
+      "upstreamIntegrity": "sha512-HpNmMvM2lWfBONLoxs3GQSVpMdDDOOLhmhLPyF0hn4rEobU5W4dvwYsfEm/1e0bqiMg0gvt5JjkwyAqpGpMtNQ==",
+      "upstreamShasum": "c49ac0e2abc5ea51dceaedd84f414bd58da55da7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.8",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-HpNmMvM2lWfBONLoxs3GQSVpMdDDOOLhmhLPyF0hn4rEobU5W4dvwYsfEm/1e0bqiMg0gvt5JjkwyAqpGpMtNQ==",
+          "shasum": "c49ac0e2abc5ea51dceaedd84f414bd58da55da7"
+        }
+      }
+    },
+    {
+      "version": "1.0.9",
+      "variantId": "registry-package.openupm.com-9ca8487ae9fd745a",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": "37e780333657d774b05bd753f9548757d911a034",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.9.tgz",
+      "upstreamIntegrity": "sha512-OV0kzV2nW3WQlupZ3veSCVeaAb0YXwnJr9hzuJXFSBCe1VYpJUEWl2eDD8yQx4dtanjO7RZrM0Hbq/fURsDpDw==",
+      "upstreamShasum": "a1e0e95efa842953896db9b27b07fd9420f175db",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.9",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OV0kzV2nW3WQlupZ3veSCVeaAb0YXwnJr9hzuJXFSBCe1VYpJUEWl2eDD8yQx4dtanjO7RZrM0Hbq/fURsDpDw==",
+          "shasum": "a1e0e95efa842953896db9b27b07fd9420f175db"
+        }
+      }
+    },
+    {
+      "version": "1.0.10",
+      "variantId": "registry-package.openupm.com-075a9dc997b31c18",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": "0228b19285569eb211dcbfd23a2cead92a3ed5d2",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.10.tgz",
+      "upstreamIntegrity": "sha512-dIyJUDO/XjMu8qJnbw953sUJjna45mCo0cRKVDQWiqDU+nURNZgLyaCa4Y4B3s+BbWLmVt0J4RwZfUrTpvU1ag==",
+      "upstreamShasum": "63553275486a1dfea4a854bd38f18e17ff9cf9f0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.10",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dIyJUDO/XjMu8qJnbw953sUJjna45mCo0cRKVDQWiqDU+nURNZgLyaCa4Y4B3s+BbWLmVt0J4RwZfUrTpvU1ag==",
+          "shasum": "63553275486a1dfea4a854bd38f18e17ff9cf9f0"
+        }
+      }
+    },
+    {
+      "version": "1.0.12",
+      "variantId": "registry-package.openupm.com-ef2191a753b63e06",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": "f3030c549e8b2459f7d84d79d562a5ce2386b65a",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.12.tgz",
+      "upstreamIntegrity": "sha512-vi+BwDwNcogJedDhQb28GU0UaDUK5qUrBhemybqkp8RbrwLaTAZZEPX390N1FUL1m7fhE+LRydAnarbVK2IC5w==",
+      "upstreamShasum": "2e1a860d89f3a7372e36d376c0b001d663994726",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.12",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-vi+BwDwNcogJedDhQb28GU0UaDUK5qUrBhemybqkp8RbrwLaTAZZEPX390N1FUL1m7fhE+LRydAnarbVK2IC5w==",
+          "shasum": "2e1a860d89f3a7372e36d376c0b001d663994726"
+        }
+      }
+    },
+    {
+      "version": "1.0.13",
+      "variantId": "registry-package.openupm.com-0d99f5dd55b02ca0",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": "9c36ed2543bdee0864998eb5b6aeb7fdc049b931",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.13.tgz",
+      "upstreamIntegrity": "sha512-QF614bitP+ou8MqdZykKmPZ9d1lpPYyKxrSLGoYMGVdFjvrUAWuQ0JWnjIaK+IgvzZ9gRLfs+fMk2J6KDzzYxw==",
+      "upstreamShasum": "6e3fe54055c23c258f7305f3df2f66a486be0a64",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.13",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QF614bitP+ou8MqdZykKmPZ9d1lpPYyKxrSLGoYMGVdFjvrUAWuQ0JWnjIaK+IgvzZ9gRLfs+fMk2J6KDzzYxw==",
+          "shasum": "6e3fe54055c23c258f7305f3df2f66a486be0a64"
+        }
+      }
+    },
+    {
+      "version": "1.0.14",
+      "variantId": "registry-package.openupm.com-2279e8fb32c298f5",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": "1ff07320ac89944c14e5fade0890f27fed5801b0",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.14.tgz",
+      "upstreamIntegrity": "sha512-QmymmfmX9B3oSR6SdBu0XdFodGDB23wrLMp+J2bLgmKGSipVYC8vwZioFeRPE5XCAR6pV+JE548hHAixZL/3JQ==",
+      "upstreamShasum": "807e63c213de3f16eb8fcc7c6e68db865c9dc3b1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.14",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QmymmfmX9B3oSR6SdBu0XdFodGDB23wrLMp+J2bLgmKGSipVYC8vwZioFeRPE5XCAR6pV+JE548hHAixZL/3JQ==",
+          "shasum": "807e63c213de3f16eb8fcc7c6e68db865c9dc3b1"
+        }
+      }
+    },
+    {
+      "version": "1.0.15",
+      "variantId": "registry-package.openupm.com-e5f79dca6831a228",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": "05ccbf266f16aa6c44d6c27c5adba82f64aeca4c",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.15.tgz",
+      "upstreamIntegrity": "sha512-Qk7nsw8hc7NfxDZfVJC++hD5gNIASNdQIcxspUsuNnMrxT6+bEJkZrZ637u9lJRNHHxrktmNcLg1vHpm8h+Heg==",
+      "upstreamShasum": "8cbf473d8a2704857e7f505b7b8d822cab0724d2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.15",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Qk7nsw8hc7NfxDZfVJC++hD5gNIASNdQIcxspUsuNnMrxT6+bEJkZrZ637u9lJRNHHxrktmNcLg1vHpm8h+Heg==",
+          "shasum": "8cbf473d8a2704857e7f505b7b8d822cab0724d2"
+        }
+      }
+    },
+    {
+      "version": "1.0.16",
+      "variantId": "registry-package.openupm.com-be09765e7c628e1e",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": "0fcdf0e00cae287021a4c970e2a995d8d57454dc",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.16.tgz",
+      "upstreamIntegrity": "sha512-7+m/QnIyIlGPUEArOnOwuuXxRU5munPt1xnghuTzsKRP7wn673lJ/eNu7SJMPPmHDJVas/S6u4VoNR2XKvIxuQ==",
+      "upstreamShasum": "70715b5a784304b036cfe4aefda2bf99b5a63553",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.16",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7+m/QnIyIlGPUEArOnOwuuXxRU5munPt1xnghuTzsKRP7wn673lJ/eNu7SJMPPmHDJVas/S6u4VoNR2XKvIxuQ==",
+          "shasum": "70715b5a784304b036cfe4aefda2bf99b5a63553"
+        }
+      }
+    },
+    {
+      "version": "1.0.17",
+      "variantId": "registry-package.openupm.com-c5d8d501fbc69577",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": "2ac5ca6e6603a1ad9c015c000165eddefd7a3fea",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.17.tgz",
+      "upstreamIntegrity": "sha512-QFE7A69S3nngjZA4J32zT1xHF5GBfHRZpDrnNRzYXqgDL21NPQYKLWtCbc7P9/255a854RWvd4IyxxO2Y5K6GQ==",
+      "upstreamShasum": "cbd1451cbe52addc2d3d351f1748de4d87a9d670",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.17",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QFE7A69S3nngjZA4J32zT1xHF5GBfHRZpDrnNRzYXqgDL21NPQYKLWtCbc7P9/255a854RWvd4IyxxO2Y5K6GQ==",
+          "shasum": "cbd1451cbe52addc2d3d351f1748de4d87a9d670"
+        }
+      }
+    },
+    {
+      "version": "1.0.18",
+      "variantId": "registry-package.openupm.com-197cc08251c840c2",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": "36d2d9fbf3db94a56c6a6017774a38848e085c4a",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.18.tgz",
+      "upstreamIntegrity": "sha512-VKnYjIijPkWoYEJ/vv+XOYO7axTDoAJQSCrm7N2V8Qq7g5r3XEe2NyNyetCv/uaLwzeUI6Dg3fytTAUwTR9kcw==",
+      "upstreamShasum": "33c1af2d73a44e8524f813fd0b3c7704d7d027aa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.18",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VKnYjIijPkWoYEJ/vv+XOYO7axTDoAJQSCrm7N2V8Qq7g5r3XEe2NyNyetCv/uaLwzeUI6Dg3fytTAUwTR9kcw==",
+          "shasum": "33c1af2d73a44e8524f813fd0b3c7704d7d027aa"
+        }
+      }
+    },
+    {
+      "version": "1.0.19",
+      "variantId": "registry-package.openupm.com-b34867652f0c200f",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": "b6933b730df1d28156ec5bb9d5cb441dd173f6be",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.19.tgz",
+      "upstreamIntegrity": "sha512-uQaXbboakOmJXPE0iAiPAQQSgUnvTRtFjW9qwKnqz2/+Wj6VvB6/7I187R4yUColeZHuK9RhoDhuaZpdjJsueA==",
+      "upstreamShasum": "33b322276a43182051bca07682f64afde6d67e75",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.19",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uQaXbboakOmJXPE0iAiPAQQSgUnvTRtFjW9qwKnqz2/+Wj6VvB6/7I187R4yUColeZHuK9RhoDhuaZpdjJsueA==",
+          "shasum": "33b322276a43182051bca07682f64afde6d67e75"
+        }
+      }
+    },
+    {
+      "version": "1.0.20",
+      "variantId": "registry-package.openupm.com-75c3068d1b69563d",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.shaders",
+      "sourceRef": "026a1084e414a215c8cd60600f3351ad5870663f",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.shaders/-/com.yontalane.shaders-1.0.20.tgz",
+      "upstreamIntegrity": "sha512-QulcHvVRkVeKGGX4aN/7jogs8b+dGQrTphSbP2046BVVMmTvVymU1mXtO1V4BqXYPVoqO7scLI+gxljEXWfZhw==",
+      "upstreamShasum": "b93ea2585b0b01aef3a0f4cdf6654c912b914080",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.shaders/1.0.20",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QulcHvVRkVeKGGX4aN/7jogs8b+dGQrTphSbP2046BVVMmTvVymU1mXtO1V4BqXYPVoqO7scLI+gxljEXWfZhw==",
+          "shasum": "b93ea2585b0b01aef3a0f4cdf6654c912b914080"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.20"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.yontalane.shaders.yml",
+  "definitionBlobSha": "dc88c9e516bf750030d00a246838a93c4ccaf412",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.20",
+    "1.0.19",
+    "1.0.18"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 18,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

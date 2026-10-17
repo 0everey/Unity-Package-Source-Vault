@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.pokeum.upm",
+  "displayName": "com.pokeum.upm",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.pokeum.upm",
+      "fetchedAt": "2026-10-17T17:40:57.285494Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.0.0",
+      "variantId": "registry-package.openupm.com-3166bdf7f792ae0a",
+      "sourceUrl": "https://package.openupm.com/com.pokeum.upm",
+      "sourceRef": "2c75f7fd312aca83467d54acff8f614118cc72d5",
+      "downloadUrl": "https://package.openupm.com/com.pokeum.upm/-/com.pokeum.upm-0.0.0.tgz",
+      "upstreamIntegrity": "sha512-du2qqxBmKPmj4VLaHkf2gOcdoUBhRmHsX5bqQ3DjdYn/sN/AWvt1dqKN9pQDFkFXVEvYLxrqdcgsvUz2Hc7DwQ==",
+      "upstreamShasum": "f17c8568602308682564bd7b536403a674a2b548",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.pokeum.upm/0.0.0",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-du2qqxBmKPmj4VLaHkf2gOcdoUBhRmHsX5bqQ3DjdYn/sN/AWvt1dqKN9pQDFkFXVEvYLxrqdcgsvUz2Hc7DwQ==",
+          "shasum": "f17c8568602308682564bd7b536403a674a2b548"
+        }
+      }
+    },
+    {
+      "version": "0.0.1",
+      "variantId": "registry-package.openupm.com-a1ce8bc4ee5daf36",
+      "sourceUrl": "https://package.openupm.com/com.pokeum.upm",
+      "sourceRef": "9ac97bb0ba9c314fa5eafc9bedd65d11035556ca",
+      "downloadUrl": "https://package.openupm.com/com.pokeum.upm/-/com.pokeum.upm-0.0.1.tgz",
+      "upstreamIntegrity": "sha512-uM3xlxZyW0SCkaru93tmR2vKIsNxIag9GrkYAGLhY0urwJxCi/G7w+abTcd53RJWEHpVFxk5c145D4+sOrcnyA==",
+      "upstreamShasum": "285313fe48b95ce2c40b8f6f581d7fba4b8dbfb7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.178"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.pokeum.upm/0.0.1",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-uM3xlxZyW0SCkaru93tmR2vKIsNxIag9GrkYAGLhY0urwJxCi/G7w+abTcd53RJWEHpVFxk5c145D4+sOrcnyA==",
+          "shasum": "285313fe48b95ce2c40b8f6f581d7fba4b8dbfb7"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.0.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.pokeum.upm.yml",
+  "definitionBlobSha": "3331d95e4917748e4c7e76c1db90518f21058e64",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.0.1",
+    "0.0.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 2,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

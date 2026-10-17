@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.macacagames.designdataagent",
+  "displayName": "com.macacagames.designdataagent",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.macacagames.designdataagent",
+      "fetchedAt": "2026-10-17T17:39:57.245238Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "variantId": "registry-package.openupm.com-9d013029d83f19d2",
+      "sourceUrl": "https://package.openupm.com/com.macacagames.designdataagent",
+      "sourceRef": "9dd4af298a5d902a73e2196779dfb2f133b18a6e",
+      "downloadUrl": "https://package.openupm.com/com.macacagames.designdataagent/-/com.macacagames.designdataagent-0.0.1.tgz",
+      "upstreamIntegrity": "sha512-ZT8k6enyikcfavqkPVOq/XvIYP7JYBvBbSuOD0JWFSkDfOnRl63tJaR42hrL7yaiADs+I35t2qKBxSSS3ZH0Qw==",
+      "upstreamShasum": "163ad00f9e32ed88b08b9903c2b0b410779d5974",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.macacagames.oniondataeditor": "1.0.0",
+        "com.macacagames.unitylitjson": "0.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.macacagames.designdataagent/0.0.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZT8k6enyikcfavqkPVOq/XvIYP7JYBvBbSuOD0JWFSkDfOnRl63tJaR42hrL7yaiADs+I35t2qKBxSSS3ZH0Qw==",
+          "shasum": "163ad00f9e32ed88b08b9903c2b0b410779d5974"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.0.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.macacagames.designdataagent.yml",
+  "definitionBlobSha": "b1a1029466c2d44b32b4c4fe347cf2bb96b7264b",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.0.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

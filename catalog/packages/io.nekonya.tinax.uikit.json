@@ -1,0 +1,817 @@
+{
+  "schemaVersion": "1.0",
+  "id": "io.nekonya.tinax.uikit",
+  "displayName": "io.nekonya.tinax.uikit",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "fetchedAt": "2026-10-17T17:44:17.160599Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "6.6.0-preview",
+      "variantId": "registry-package.openupm.com-41b9abca8a84a9e8",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "cabe1b3b81fcf3eebbe9cd2bb2c58d8a91c0efd7",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.0-preview.tgz",
+      "upstreamIntegrity": "sha512-LX4MnrgpPRnKSKpzC/P84lwQul/TKsPKUSeCP8anBLOMIte+5ALIGsNnUvnobEQadcaplrYEx4bg8aTf/Npdcg==",
+      "upstreamShasum": "99fe451bdc70677b18b894a154030991141729c4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.0-preview",
+        "com.neuecc.unirx": "7.1.0",
+        "io.nekonya.tinax.xcomponent": "6.6.0-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.0-preview",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LX4MnrgpPRnKSKpzC/P84lwQul/TKsPKUSeCP8anBLOMIte+5ALIGsNnUvnobEQadcaplrYEx4bg8aTf/Npdcg==",
+          "shasum": "99fe451bdc70677b18b894a154030991141729c4"
+        }
+      }
+    },
+    {
+      "version": "6.6.1-preview",
+      "variantId": "registry-package.openupm.com-dfa96da21ed76192",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "adc47efec4ac198068511166888606c5716e3082",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.1-preview.tgz",
+      "upstreamIntegrity": "sha512-4ULNxbIWOlVbzxAfQuT+e9Qx4EKZG1twJJUmlTd+lS3uHIDXJgtS+O3Wmkfw/23e966y8EStyqNmYarEBaKgeA==",
+      "upstreamShasum": "6dfd35973df8519f5f1a1f96286fb77b8e69559e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.1-preview",
+        "com.neuecc.unirx": "7.1.0",
+        "io.nekonya.tinax.xcomponent": "6.6.0-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.1-preview",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4ULNxbIWOlVbzxAfQuT+e9Qx4EKZG1twJJUmlTd+lS3uHIDXJgtS+O3Wmkfw/23e966y8EStyqNmYarEBaKgeA==",
+          "shasum": "6dfd35973df8519f5f1a1f96286fb77b8e69559e"
+        }
+      }
+    },
+    {
+      "version": "6.6.2-preview",
+      "variantId": "registry-package.openupm.com-c03ab28c019b8d6d",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "decd5499aeac463404d2ec5e9dd5e248d99f158b",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.2-preview.tgz",
+      "upstreamIntegrity": "sha512-YbYkuZPS3p+hjVzVc+5fqBy8z8gTB+w4Kyh7Jh+depUpC1EWE2+O6WY6+ga0DGh1JY+bjvLIM/JixhnjBgq6WA==",
+      "upstreamShasum": "ea63e0aa7999b46c85a6c64fd73d332d424928e0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.2-preview",
+        "com.neuecc.unirx": "7.1.0",
+        "io.nekonya.tinax.xcomponent": "6.6.0-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.2-preview",
+      "deprecated": null,
+      "unity": "2019.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-YbYkuZPS3p+hjVzVc+5fqBy8z8gTB+w4Kyh7Jh+depUpC1EWE2+O6WY6+ga0DGh1JY+bjvLIM/JixhnjBgq6WA==",
+          "shasum": "ea63e0aa7999b46c85a6c64fd73d332d424928e0"
+        }
+      }
+    },
+    {
+      "version": "6.6.3",
+      "variantId": "registry-package.openupm.com-11ce5667ebdb936c",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "b58ef188fd73526eb5b0954b6e8e873fae8b6839",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.3.tgz",
+      "upstreamIntegrity": "sha512-KhqNg6DUQiqrgI/4s3AdXCGjJrdkjykEE72NFQ0lHq+s8Pw8q41PsQZ0IyCwm2G5OgPbFGTmNQC0PS9Y2oFj2g==",
+      "upstreamShasum": "706fa0fef538c3bf63f736cead8f36be580714af",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.3",
+        "com.neuecc.unirx": "7.1.0",
+        "io.nekonya.tinax.xcomponent": "6.6.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KhqNg6DUQiqrgI/4s3AdXCGjJrdkjykEE72NFQ0lHq+s8Pw8q41PsQZ0IyCwm2G5OgPbFGTmNQC0PS9Y2oFj2g==",
+          "shasum": "706fa0fef538c3bf63f736cead8f36be580714af"
+        }
+      }
+    },
+    {
+      "version": "6.6.4",
+      "variantId": "registry-package.openupm.com-dfa7bf775cf5bd85",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "0c9aee35612c0a154a60e2303200ac1abfe38aca",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.4.tgz",
+      "upstreamIntegrity": "sha512-SY8wl+wSD0F6RhNvTjxKEPoNBDaXxBeMklow+JMPvurNGLcbuSgo6KNqvdm6gG+WDVk6PaImL1uloXKpwkzGBQ==",
+      "upstreamShasum": "0ac83452487951e13a44d366951453b80d745e41",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.3",
+        "com.neuecc.unirx": "7.1.0",
+        "io.nekonya.tinax.xcomponent": "6.6.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SY8wl+wSD0F6RhNvTjxKEPoNBDaXxBeMklow+JMPvurNGLcbuSgo6KNqvdm6gG+WDVk6PaImL1uloXKpwkzGBQ==",
+          "shasum": "0ac83452487951e13a44d366951453b80d745e41"
+        }
+      }
+    },
+    {
+      "version": "6.6.5",
+      "variantId": "registry-package.openupm.com-9db08b5c88997cea",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "91a3fa1a66689401920dac957c25ff8f83405c9f",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.5.tgz",
+      "upstreamIntegrity": "sha512-XNIwVItxvIqadzeC6/8EE5nl63t1++fNjFx3K2aM6CbUrXBkO/FXLMc2lpZOVouh9CZjirpLYTXM5UBkSohoiw==",
+      "upstreamShasum": "429ca64be4eae85abb49d00baee40afe1ebdb88f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.3",
+        "com.neuecc.unirx": "7.1.0",
+        "io.nekonya.tinax.xcomponent": "6.6.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.5",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XNIwVItxvIqadzeC6/8EE5nl63t1++fNjFx3K2aM6CbUrXBkO/FXLMc2lpZOVouh9CZjirpLYTXM5UBkSohoiw==",
+          "shasum": "429ca64be4eae85abb49d00baee40afe1ebdb88f"
+        }
+      }
+    },
+    {
+      "version": "6.6.6",
+      "variantId": "registry-package.openupm.com-36a6473e67eb15bd",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "d0423c354e6e98259be1fad0ab0dd59af5576c3e",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.6.tgz",
+      "upstreamIntegrity": "sha512-IkMK2Xcv/Erz9tOdiB66CN3zCKQDF4UNjjSj61oIaslhNgQT59pI+F9kgq2vnpGimMHT3x58ADEHL+Vrza0IcQ==",
+      "upstreamShasum": "d17d01d2ac27e3c5a4e8fc43b7deb8d14738cc86",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.3",
+        "com.neuecc.unirx": "7.1.0",
+        "io.nekonya.tinax.xcomponent": "6.6.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.6",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IkMK2Xcv/Erz9tOdiB66CN3zCKQDF4UNjjSj61oIaslhNgQT59pI+F9kgq2vnpGimMHT3x58ADEHL+Vrza0IcQ==",
+          "shasum": "d17d01d2ac27e3c5a4e8fc43b7deb8d14738cc86"
+        }
+      }
+    },
+    {
+      "version": "6.6.9",
+      "variantId": "registry-package.openupm.com-5e3ec0480788de99",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "5b92d98900c26ff31a292c84b6dd8fbeae795678",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.9.tgz",
+      "upstreamIntegrity": "sha512-OZI52GBvF+OI0f2XsjiGaa9e/GN5kf9SvaV2zqpThXLR6MTT8cFQdz2rP0Gq6CtljFRG+OrxRF50HPsQFn74xg==",
+      "upstreamShasum": "52d0cae84b7aef522f772749847044f9306d2cc9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.3",
+        "com.neuecc.unirx": "7.1.0",
+        "io.nekonya.tinax.xcomponent": "6.6.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.9",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OZI52GBvF+OI0f2XsjiGaa9e/GN5kf9SvaV2zqpThXLR6MTT8cFQdz2rP0Gq6CtljFRG+OrxRF50HPsQFn74xg==",
+          "shasum": "52d0cae84b7aef522f772749847044f9306d2cc9"
+        }
+      }
+    },
+    {
+      "version": "6.6.10",
+      "variantId": "registry-package.openupm.com-ffe4999617e8fd1e",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "8f45afcf3f2685744fbfc899311d22fadc955828",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.10.tgz",
+      "upstreamIntegrity": "sha512-JGsd9hlhS5vRKtr4AM1M3x+YCojorTP/MVAIfcXX0yOcLq4GkDou5siJ4A5wnukRWT3CON9wsmXnKTEk5zQRQA==",
+      "upstreamShasum": "ecd98894960d39eb06a0a858cc5d1f716f3c6b5b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.9",
+        "com.neuecc.unirx": "7.1.0",
+        "io.nekonya.tinax.xcomponent": "6.6.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.10",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JGsd9hlhS5vRKtr4AM1M3x+YCojorTP/MVAIfcXX0yOcLq4GkDou5siJ4A5wnukRWT3CON9wsmXnKTEk5zQRQA==",
+          "shasum": "ecd98894960d39eb06a0a858cc5d1f716f3c6b5b"
+        }
+      }
+    },
+    {
+      "version": "6.6.11",
+      "variantId": "registry-package.openupm.com-8d2213ab5afff399",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "b1c84e54caf85794ebdc12e118b153c887cca9f1",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.11.tgz",
+      "upstreamIntegrity": "sha512-hRvqloUNI2ONW8z/c5d10gi7JIQr+09LOqHH+50gxB2bUnrKU0ApObUbB4zcpAcxQzTrDKxNjIVTdhTHEUby2Q==",
+      "upstreamShasum": "c18ef07c4329ece8099f60dc3e4323049d95b356",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.9",
+        "com.neuecc.unirx": "7.1.0",
+        "io.nekonya.tinax.xcomponent": "6.6.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.11",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-hRvqloUNI2ONW8z/c5d10gi7JIQr+09LOqHH+50gxB2bUnrKU0ApObUbB4zcpAcxQzTrDKxNjIVTdhTHEUby2Q==",
+          "shasum": "c18ef07c4329ece8099f60dc3e4323049d95b356"
+        }
+      }
+    },
+    {
+      "version": "6.6.13",
+      "variantId": "registry-package.openupm.com-dc8ed730097d7bdd",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "adcb324762867120ffaf502fd11cf4ce3beffa23",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.13.tgz",
+      "upstreamIntegrity": "sha512-gD4sv4Z0iR5/o8SWgMoh+BuMoJMSfFcmoeDb32YXlFxMfphPrA8ba5bAmlDl4fjh0piRswkwj41Ul1cp4Od6FA==",
+      "upstreamShasum": "61b2572cb6294a884856feb2b0f3de64fa6ee641",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.10",
+        "com.neuecc.unirx": "7.1.0",
+        "io.nekonya.tinax.xcomponent": "6.6.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.13",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gD4sv4Z0iR5/o8SWgMoh+BuMoJMSfFcmoeDb32YXlFxMfphPrA8ba5bAmlDl4fjh0piRswkwj41Ul1cp4Od6FA==",
+          "shasum": "61b2572cb6294a884856feb2b0f3de64fa6ee641"
+        }
+      }
+    },
+    {
+      "version": "6.6.14",
+      "variantId": "registry-package.openupm.com-364ff64124c56156",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "e79763c8bf0f5f82e179b44383151e179ed01151",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.14.tgz",
+      "upstreamIntegrity": "sha512-ltWVhAdF4mWCauJMWjDeoK5VBrc2mL2C3Wl2LbO9lUQYHbiZhOwIJoofRtSIP/vzhTjvaJUuHrOStLJfg6CQSw==",
+      "upstreamShasum": "be676990e299d4c29f6ea2aa933d881bbbe69c05",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.21",
+        "com.neuecc.unirx": "7.1.0",
+        "io.nekonya.tinax.xcomponent": "6.6.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.14",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ltWVhAdF4mWCauJMWjDeoK5VBrc2mL2C3Wl2LbO9lUQYHbiZhOwIJoofRtSIP/vzhTjvaJUuHrOStLJfg6CQSw==",
+          "shasum": "be676990e299d4c29f6ea2aa933d881bbbe69c05"
+        }
+      }
+    },
+    {
+      "version": "6.6.15",
+      "variantId": "registry-package.openupm.com-1056a2f9e27cd375",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "96e5bd9d8e801db9cc1afab2c8530951f9fd0649",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.15.tgz",
+      "upstreamIntegrity": "sha512-X2sfgohy1uDAYCFWlWqfLqFromjBOULBt4LiUOI1zDdV7kPPfS5QJVVS8bbySP5fMOPZQfqm+ojuwRg5CFe2Xg==",
+      "upstreamShasum": "59f1ef4fc7075d02236e1c49b88687b2e9351042",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.23",
+        "io.nekonya.tinax.xcomponent": "6.6.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.15",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-X2sfgohy1uDAYCFWlWqfLqFromjBOULBt4LiUOI1zDdV7kPPfS5QJVVS8bbySP5fMOPZQfqm+ojuwRg5CFe2Xg==",
+          "shasum": "59f1ef4fc7075d02236e1c49b88687b2e9351042"
+        }
+      }
+    },
+    {
+      "version": "6.6.16",
+      "variantId": "registry-package.openupm.com-d97584de00b307fa",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "67e1b5499cfdc2ec3c1cc042b232290e6e858956",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.16.tgz",
+      "upstreamIntegrity": "sha512-9FeyNwUOvQVAUloO4U/IRPxDf2hU4YhohlrGr8lXW4PhAIErn4vpz1UmTdkMq3D8pAvvB1g3+NFRUMgJCY7V9g==",
+      "upstreamShasum": "e9157dc9280deee0144c5714ca9d7cfc02c666f9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.23",
+        "io.nekonya.tinax.xcomponent": "6.6.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.16",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9FeyNwUOvQVAUloO4U/IRPxDf2hU4YhohlrGr8lXW4PhAIErn4vpz1UmTdkMq3D8pAvvB1g3+NFRUMgJCY7V9g==",
+          "shasum": "e9157dc9280deee0144c5714ca9d7cfc02c666f9"
+        }
+      }
+    },
+    {
+      "version": "6.6.17",
+      "variantId": "registry-package.openupm.com-77ac85f2107a4741",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "6a2d4822588aa4944718b7921db792aad7b9aae3",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.17.tgz",
+      "upstreamIntegrity": "sha512-OlA5oPSVJNAQMDJH9oM339DV48bt9OlGgnZgqKKCUeBtTttgV2cAt+drBBLdgtlzw1vyEutu7xvjr178e7lyDw==",
+      "upstreamShasum": "2f253d72c0490f95447f7b3d6128166b2540086a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.23",
+        "io.nekonya.tinax.xcomponent": "6.6.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.17",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OlA5oPSVJNAQMDJH9oM339DV48bt9OlGgnZgqKKCUeBtTttgV2cAt+drBBLdgtlzw1vyEutu7xvjr178e7lyDw==",
+          "shasum": "2f253d72c0490f95447f7b3d6128166b2540086a"
+        }
+      }
+    },
+    {
+      "version": "6.6.18",
+      "variantId": "registry-package.openupm.com-4a8655614649462f",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "6d8c1d67126c2f43040cdd88dbd6b0b9d548569c",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.18.tgz",
+      "upstreamIntegrity": "sha512-u3W5nb7FMcjKiQ3nH4XITMZg1wtCsEKQDXWZSpcubLSvXlP1XYnTaWpu5cT35fmHt/ytgmgwcSFnV8PtSUsTBw==",
+      "upstreamShasum": "7f5721ad769480f3389b9b10989feac1f1aee8d7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.23",
+        "io.nekonya.tinax.xcomponent": "6.6.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.18",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-u3W5nb7FMcjKiQ3nH4XITMZg1wtCsEKQDXWZSpcubLSvXlP1XYnTaWpu5cT35fmHt/ytgmgwcSFnV8PtSUsTBw==",
+          "shasum": "7f5721ad769480f3389b9b10989feac1f1aee8d7"
+        }
+      }
+    },
+    {
+      "version": "6.6.19",
+      "variantId": "registry-package.openupm.com-59a68243cc871fdd",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "2a8bd27fbf638be6553f83d760efeeb0e1465610",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.19.tgz",
+      "upstreamIntegrity": "sha512-+/uv1OBqeN4FVup3oRduy3+F0oOVaeWzZnXXu1FwDG5bdLpV2JO7wOyFu397N8xbpLLbzcxBzpAifBRRMoziGw==",
+      "upstreamShasum": "32a66c7d139fd3f420bbd68e182b20df8cecd00d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.23",
+        "io.nekonya.tinax.xcomponent": "6.6.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.19",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+/uv1OBqeN4FVup3oRduy3+F0oOVaeWzZnXXu1FwDG5bdLpV2JO7wOyFu397N8xbpLLbzcxBzpAifBRRMoziGw==",
+          "shasum": "32a66c7d139fd3f420bbd68e182b20df8cecd00d"
+        }
+      }
+    },
+    {
+      "version": "6.6.20",
+      "variantId": "registry-package.openupm.com-c5641fce7984e60a",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "dacc97415b91b0e98b81bb65ad1c372841e43cea",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.20.tgz",
+      "upstreamIntegrity": "sha512-0r4EdKJI4Lzm05yJqNiuIpmy+QUzpa3Sx60AYrsHNNzJyP7EnrJOGJ0CIUMqTTomLhvgWs42LvLEHgbMf41GUg==",
+      "upstreamShasum": "a8c7a4893cb1077e647f61bdd74ad86f14cf944a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.23",
+        "io.nekonya.tinax.xcomponent": "6.6.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.20",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-0r4EdKJI4Lzm05yJqNiuIpmy+QUzpa3Sx60AYrsHNNzJyP7EnrJOGJ0CIUMqTTomLhvgWs42LvLEHgbMf41GUg==",
+          "shasum": "a8c7a4893cb1077e647f61bdd74ad86f14cf944a"
+        }
+      }
+    },
+    {
+      "version": "6.6.21",
+      "variantId": "registry-package.openupm.com-57aad84b4a0d5d48",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "b083ce6e0cd087a7e4d203e5bd5d5470c9182484",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.21.tgz",
+      "upstreamIntegrity": "sha512-qo8dXVKqC8M4eGYIACBxULJgDKOM8NeC8gxxf6ivqObK6pkDlMTJRknuetEGx6GMcKvOUxrrv/4h2nVaRO9srw==",
+      "upstreamShasum": "789987a85ed710a55962a2622e7648435b311a6a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.23",
+        "io.nekonya.tinax.xcomponent": "6.6.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.21",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qo8dXVKqC8M4eGYIACBxULJgDKOM8NeC8gxxf6ivqObK6pkDlMTJRknuetEGx6GMcKvOUxrrv/4h2nVaRO9srw==",
+          "shasum": "789987a85ed710a55962a2622e7648435b311a6a"
+        }
+      }
+    },
+    {
+      "version": "6.6.22",
+      "variantId": "registry-package.openupm.com-a3e17cd37bb28292",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "e5105729fccfe4e33553c529d7c8cfa8f2c4a75e",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.22.tgz",
+      "upstreamIntegrity": "sha512-nYbSp44r4uwYTVctp4E+dc4J/dctvUSJHnrn+QYGmrGY6VGQlWl96S869gbh8VLDuKEFrvrdQLYrKEpduYyyCA==",
+      "upstreamShasum": "2915f0ba21faae08ae1940ccd883da6831aa7d74",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.23",
+        "io.nekonya.tinax.xcomponent": "6.6.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.22",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nYbSp44r4uwYTVctp4E+dc4J/dctvUSJHnrn+QYGmrGY6VGQlWl96S869gbh8VLDuKEFrvrdQLYrKEpduYyyCA==",
+          "shasum": "2915f0ba21faae08ae1940ccd883da6831aa7d74"
+        }
+      }
+    },
+    {
+      "version": "6.6.23",
+      "variantId": "registry-package.openupm.com-2be4b8304b5e9606",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "546ec6c6975feef4c6719807594752fd9e64b36e",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-6.6.23.tgz",
+      "upstreamIntegrity": "sha512-iJEkrKn1KjjZWVZHneLGGTeEJZXjlAZXfWKL4nl+7yFOMJ+Y+7ptKZLwFyvTTA+l8VAS7N8xfxoqE2HpH9O8qw==",
+      "upstreamShasum": "89812f6bed2473f4cef9a25dc050325aab39d945",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "6.6.23",
+        "io.nekonya.tinax.xcomponent": "6.6.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/6.6.23",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iJEkrKn1KjjZWVZHneLGGTeEJZXjlAZXfWKL4nl+7yFOMJ+Y+7ptKZLwFyvTTA+l8VAS7N8xfxoqE2HpH9O8qw==",
+          "shasum": "89812f6bed2473f4cef9a25dc050325aab39d945"
+        }
+      }
+    },
+    {
+      "version": "7.0.0-preview",
+      "variantId": "registry-package.openupm.com-84e14ffd3d37f33b",
+      "sourceUrl": "https://package.openupm.com/io.nekonya.tinax.uikit",
+      "sourceRef": "80651708fcd954cfc39deb5f2af512973e25da37",
+      "downloadUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/-/io.nekonya.tinax.uikit-7.0.0-preview.tgz",
+      "upstreamIntegrity": "sha512-fsYV8Gf8Jd+mCsTTUN8MXeCt3nywqklsLof9zXciuriuN5th3VxDJ9wf5IDZy+TbF6lxtrhYISP6LgB02HCyuA==",
+      "upstreamShasum": "2fef5ab170a2b55c6698f4fb9019c25d803593b7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.nekonya.tinax.core": "7.0.0-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/io.nekonya.tinax.uikit/7.0.0-preview",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fsYV8Gf8Jd+mCsTTUN8MXeCt3nywqklsLof9zXciuriuN5th3VxDJ9wf5IDZy+TbF6lxtrhYISP6LgB02HCyuA==",
+          "shasum": "2fef5ab170a2b55c6698f4fb9019c25d803593b7"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "7.0.0-preview"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/io.nekonya.tinax.uikit.yml",
+  "definitionBlobSha": "5eb2dff4d46bc912bff5fdae2d4295b47f121376",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "6.6.17",
+    "6.6.5",
+    "6.6.23"
+  ],
+  "targetVersions": [
+    "6.6.17",
+    "6.6.5"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 22,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

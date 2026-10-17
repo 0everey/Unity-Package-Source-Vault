@@ -1,0 +1,838 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.realitytoolkit.pico",
+  "displayName": "com.realitytoolkit.pico",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico",
+      "fetchedAt": "2026-10-17T17:41:21.815454Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0-pre.1",
+      "variantId": "registry-package.openupm.com-a4527b96f73344de",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "edb7ec817dab26b796734752bc72ab0afc070d44",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.0-pre.1.tgz",
+      "upstreamIntegrity": "sha512-W0+VTfrpXnL1HcNKTkv7MSJw4auD806d1bwu3zwq36IZJKaoHkNFCc2jQYShmVDpSeUmYbD1idb/4PsQuXCKOA==",
+      "upstreamShasum": "794c1e7f5c14b179cd6f84a73d67b82b28cfc353",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.1",
+        "com.unity.xr.picoxr": "2.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.0-pre.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-W0+VTfrpXnL1HcNKTkv7MSJw4auD806d1bwu3zwq36IZJKaoHkNFCc2jQYShmVDpSeUmYbD1idb/4PsQuXCKOA==",
+          "shasum": "794c1e7f5c14b179cd6f84a73d67b82b28cfc353"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-pre.2",
+      "variantId": "registry-package.openupm.com-86e9effd92d647da",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "0adaea2ffbbd286ce387e1a8ce6da1168887424a",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.0-pre.2.tgz",
+      "upstreamIntegrity": "sha512-ChOhEfn6+UoTYJlIBnpDCNX7vHGFYybsoPJ+lAF90P6qF4Wt+ga6LKZS+BPfqliah8TpQJYTjxk+El2wc0jW/g==",
+      "upstreamShasum": "62504efa54c21f55285bacec1a415e25c46b6d7f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.6",
+        "com.unity.xr.picoxr": "2.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.0-pre.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ChOhEfn6+UoTYJlIBnpDCNX7vHGFYybsoPJ+lAF90P6qF4Wt+ga6LKZS+BPfqliah8TpQJYTjxk+El2wc0jW/g==",
+          "shasum": "62504efa54c21f55285bacec1a415e25c46b6d7f"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-pre.3",
+      "variantId": "registry-package.openupm.com-5d59b723bce42174",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "0251fdb89491509cd25916fd5419fcaa397af093",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.0-pre.3.tgz",
+      "upstreamIntegrity": "sha512-eNyUS4kumAHedwY6P/QFZTx53skWJc4r2DuNavkuB9UABEyKtyHFHX3VvyI0/7px/TNu/1DLCC6McfONWZJh3g==",
+      "upstreamShasum": "57d735e4f7fdd5955ff5a67c556c3e64db9fd085",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.7",
+        "com.unity.xr.picoxr": "2.1.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.0-pre.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eNyUS4kumAHedwY6P/QFZTx53skWJc4r2DuNavkuB9UABEyKtyHFHX3VvyI0/7px/TNu/1DLCC6McfONWZJh3g==",
+          "shasum": "57d735e4f7fdd5955ff5a67c556c3e64db9fd085"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-pre.4",
+      "variantId": "registry-package.openupm.com-fdf057b734ae8579",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "bbd81322684c04601143d1d0c8b8e70db7657920",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.0-pre.4.tgz",
+      "upstreamIntegrity": "sha512-TmnyaEX0jjUfBiCDFRf0mSehrkR2CrLgTXiGsX1o5fcY/rKuwU4BctDc4DkQRm4LPV484FVCmBgQyqcHUpsM+A==",
+      "upstreamShasum": "14226d5529a89615ed8db5e559a7f4fe77c56eb6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.0-pre.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TmnyaEX0jjUfBiCDFRf0mSehrkR2CrLgTXiGsX1o5fcY/rKuwU4BctDc4DkQRm4LPV484FVCmBgQyqcHUpsM+A==",
+          "shasum": "14226d5529a89615ed8db5e559a7f4fe77c56eb6"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-pre.5",
+      "variantId": "registry-package.openupm.com-5ad33b0acb98a63e",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "3fe7ef19957f4d41351a7e97b1037c8fe1417efa",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.0-pre.5.tgz",
+      "upstreamIntegrity": "sha512-nG16K7BbrXR86fLNHbEgQHtquSokWgOw4wiJJyTXx/SK/8W5DZSYHn2AFH2JQJ6KymDfDpmMWT/uVHcGFEyOAw==",
+      "upstreamShasum": "2a66b3bc5a993dbbf98466e651bed3b5435d40c5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.0-pre.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nG16K7BbrXR86fLNHbEgQHtquSokWgOw4wiJJyTXx/SK/8W5DZSYHn2AFH2JQJ6KymDfDpmMWT/uVHcGFEyOAw==",
+          "shasum": "2a66b3bc5a993dbbf98466e651bed3b5435d40c5"
+        }
+      }
+    },
+    {
+      "version": "1.0.0-pre.6",
+      "variantId": "registry-package.openupm.com-fe4b4a29103942d0",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "b0a22c47fa30e30233ac4397e325615552702d02",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.0-pre.6.tgz",
+      "upstreamIntegrity": "sha512-fEnUfzt4A/VOXMN5by6XPOM2846DNDjAi1QVHtOwxGYzOgeATwjykZxV8zwpD7EjI9lMuQc72SyNe08ylTcS5g==",
+      "upstreamShasum": "1a04660e34f8e7caa7ac8a71d658c2db0657dd98",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.0-pre.6",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fEnUfzt4A/VOXMN5by6XPOM2846DNDjAi1QVHtOwxGYzOgeATwjykZxV8zwpD7EjI9lMuQc72SyNe08ylTcS5g==",
+          "shasum": "1a04660e34f8e7caa7ac8a71d658c2db0657dd98"
+        }
+      }
+    },
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-af268fda57621ee5",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "a7004ad1c8b74352b5e7b935aa876d7081ee2ef7",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-7UeoAnaX5B6VlFAzxOpddyWxpePIE3SPPZz4kw43I6pQjI7gqhXhnRkAx0ab52uI3q0qPJOCeKtdAEUBwYMuHQ==",
+      "upstreamShasum": "9ab0b705b85d5b532a9539b92a3a78b84ab3129f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7UeoAnaX5B6VlFAzxOpddyWxpePIE3SPPZz4kw43I6pQjI7gqhXhnRkAx0ab52uI3q0qPJOCeKtdAEUBwYMuHQ==",
+          "shasum": "9ab0b705b85d5b532a9539b92a3a78b84ab3129f"
+        }
+      }
+    },
+    {
+      "version": "1.0.1-pre.1",
+      "variantId": "registry-package.openupm.com-3914456dee3643ae",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "838c49adf5af9e63b8bb5a855efe5f6ec9c18865",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.1-pre.1.tgz",
+      "upstreamIntegrity": "sha512-+at3F4Y7x/HQFZkua65RvYfZMN+edEw/dMBgmF9FgpdxRafkDvZMGkQl387UBQsl8wnvfQp9mtBvypQjiEdUgQ==",
+      "upstreamShasum": "47a59c8de08c2fb518abef239e2799cd8dc995da",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.1-pre.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+at3F4Y7x/HQFZkua65RvYfZMN+edEw/dMBgmF9FgpdxRafkDvZMGkQl387UBQsl8wnvfQp9mtBvypQjiEdUgQ==",
+          "shasum": "47a59c8de08c2fb518abef239e2799cd8dc995da"
+        }
+      }
+    },
+    {
+      "version": "1.0.1-pre.2",
+      "variantId": "registry-package.openupm.com-3583ca6a9fb2de8b",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "1881c9c7e064f81a6408aff73f9352d49eda1afa",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.1-pre.2.tgz",
+      "upstreamIntegrity": "sha512-IThq78V5lMIYNy8joYPgLvS9C/fczBMMb+yx1EbMAloX4W2ix2jUACnW7iXeidKAYt3RKcx2x2NlVbdwXu1MUQ==",
+      "upstreamShasum": "d4993ac929f48c89ada5306baf3f0d7f071b0ac3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.1-pre.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IThq78V5lMIYNy8joYPgLvS9C/fczBMMb+yx1EbMAloX4W2ix2jUACnW7iXeidKAYt3RKcx2x2NlVbdwXu1MUQ==",
+          "shasum": "d4993ac929f48c89ada5306baf3f0d7f071b0ac3"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-367de89d1a73016a",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "9aafb1f931bb4928b926aaf1c15a0dc2975359c0",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-mVXhmT8KDZhmwX8IVTeOlI9Ysx+4M0zsnS7eLhiHLqIqe22YyErImlrLp4Zq86PmES0Ad+YgBsKzfqhyXI04pA==",
+      "upstreamShasum": "831a6e3e49ff4528ac8d69234b61b26bad4ed221",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mVXhmT8KDZhmwX8IVTeOlI9Ysx+4M0zsnS7eLhiHLqIqe22YyErImlrLp4Zq86PmES0Ad+YgBsKzfqhyXI04pA==",
+          "shasum": "831a6e3e49ff4528ac8d69234b61b26bad4ed221"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.1",
+      "variantId": "registry-package.openupm.com-6c625bf54e978e8b",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "819e17f0a048558cdbb13e4b30406c4787a7dcc5",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.2-pre.1.tgz",
+      "upstreamIntegrity": "sha512-oV8uA7XdvW0B1Vm3G9zNHT7mQnrTQciIqoBKjBosc7ZWt21H185zssblV4nS6ZG5eluPXAyPlqywPgsfKx4f8g==",
+      "upstreamShasum": "9407effde4037cde02e5f2564b2b7acb963e0cd6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.12"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.2-pre.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oV8uA7XdvW0B1Vm3G9zNHT7mQnrTQciIqoBKjBosc7ZWt21H185zssblV4nS6ZG5eluPXAyPlqywPgsfKx4f8g==",
+          "shasum": "9407effde4037cde02e5f2564b2b7acb963e0cd6"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.2",
+      "variantId": "registry-package.openupm.com-052718a8008f2b2e",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "a2fdb1c79e37dadef47b53729f09ee4ff9510602",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.2-pre.2.tgz",
+      "upstreamIntegrity": "sha512-NLQwi24XrwfpHjvCIVA65ggoDK3eYVLJBjYlfZHfxxxQBh84bU125RTjJo8Nz8fMH5X9hsYrdRxcOCA+baCcaw==",
+      "upstreamShasum": "7ec6db4985ecf0324c3b2087990ba8f4893fb2d4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.14",
+        "com.realitytoolkit.camera": "1.0.1-pre.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.2-pre.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NLQwi24XrwfpHjvCIVA65ggoDK3eYVLJBjYlfZHfxxxQBh84bU125RTjJo8Nz8fMH5X9hsYrdRxcOCA+baCcaw==",
+          "shasum": "7ec6db4985ecf0324c3b2087990ba8f4893fb2d4"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.3",
+      "variantId": "registry-package.openupm.com-73c77a8725f18617",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "1ad28a0f589cf7b3d0dd23c5ad8e9f5d07f2b2d2",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.2-pre.3.tgz",
+      "upstreamIntegrity": "sha512-payTmIQa2i1mpOFG+g0ai1rUzfbxoRpNb7da4hFthZZgP1EEfh3UvSbGxGGgO14reU2LYtAFclTl6GUF+kS9LA==",
+      "upstreamShasum": "2d1b96fb87e3a3e6f271d15464eaf6ae4a84acf2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.15",
+        "com.realitytoolkit.camera": "1.0.1-pre.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.2-pre.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-payTmIQa2i1mpOFG+g0ai1rUzfbxoRpNb7da4hFthZZgP1EEfh3UvSbGxGGgO14reU2LYtAFclTl6GUF+kS9LA==",
+          "shasum": "2d1b96fb87e3a3e6f271d15464eaf6ae4a84acf2"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.4",
+      "variantId": "registry-package.openupm.com-675ae19aa4bf7d86",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "2af2ef3421c84d9c14d44c726b5fad6b85a94287",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.2-pre.4.tgz",
+      "upstreamIntegrity": "sha512-gpk3OCalCVUANmpU2//IeEXa/yOd4vJ2eiGPnz5Zaz7t7mM8SB+TQ54RErHZt/5Vl4Iiafm9BjTCaFdLb7lhyA==",
+      "upstreamShasum": "8fd746849e1b88282fc24d7dfb14c4ab877dec0b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.15",
+        "com.realitytoolkit.camera": "1.0.1-pre.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.2-pre.4",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gpk3OCalCVUANmpU2//IeEXa/yOd4vJ2eiGPnz5Zaz7t7mM8SB+TQ54RErHZt/5Vl4Iiafm9BjTCaFdLb7lhyA==",
+          "shasum": "8fd746849e1b88282fc24d7dfb14c4ab877dec0b"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.5",
+      "variantId": "registry-package.openupm.com-e5609afc59bd2601",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "2eb46a274053209417b8f6e11146dd640287469c",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.2-pre.5.tgz",
+      "upstreamIntegrity": "sha512-CXHNcMMFrDWCXqMVqB60iDaS6WZ2I2Vo1qKwEdgZ1e+SAvC9OiJnyshT9vPXm3ciHgBDjYbd0YvSq6GT1l1Ibg==",
+      "upstreamShasum": "9fbd3c8f93bdf36619ec552de7dc244175b76aaa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.18",
+        "com.realitytoolkit.camera": "1.0.1-pre.5"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.2-pre.5",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CXHNcMMFrDWCXqMVqB60iDaS6WZ2I2Vo1qKwEdgZ1e+SAvC9OiJnyshT9vPXm3ciHgBDjYbd0YvSq6GT1l1Ibg==",
+          "shasum": "9fbd3c8f93bdf36619ec552de7dc244175b76aaa"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.6",
+      "variantId": "registry-package.openupm.com-d574f0a2fe44d82f",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "3d64fd6c296306f9545163a6cbab322f434dd10a",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.2-pre.6.tgz",
+      "upstreamIntegrity": "sha512-BQZ0Fzw3+IU2KOMdNP40LkUx1JQFCoETt+F1TlY1Aw7soQLzXBOd/XyOkgBS1Tp2uSWFS1EESi49N7q/TE8RBQ==",
+      "upstreamShasum": "f30d4ed0141e06d289d7647085bd7011664ae066",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.18",
+        "com.realitytoolkit.camera": "1.0.1-pre.5",
+        "com.unity.xr.picoxr": "2.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.2-pre.6",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BQZ0Fzw3+IU2KOMdNP40LkUx1JQFCoETt+F1TlY1Aw7soQLzXBOd/XyOkgBS1Tp2uSWFS1EESi49N7q/TE8RBQ==",
+          "shasum": "f30d4ed0141e06d289d7647085bd7011664ae066"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.7",
+      "variantId": "registry-package.openupm.com-bdf3ffbdb127e380",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "e460e2b105092e6135e22f9c1615b7f1c50d85d7",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.2-pre.7.tgz",
+      "upstreamIntegrity": "sha512-b4G2yPtYMXV56SYFOHr7FmKf6fO9pB8LU/h3LUR2dUh0lPZv85oNg3JoaS3Gc8COMzWo8DgMKTik/l3XELx7yg==",
+      "upstreamShasum": "94fb30573fbd3e7c3497d7da233c01584ea0c80d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.18",
+        "com.realitytoolkit.player": "1.0.1-pre.5",
+        "com.unity.xr.picoxr": "2.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.2-pre.7",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-b4G2yPtYMXV56SYFOHr7FmKf6fO9pB8LU/h3LUR2dUh0lPZv85oNg3JoaS3Gc8COMzWo8DgMKTik/l3XELx7yg==",
+          "shasum": "94fb30573fbd3e7c3497d7da233c01584ea0c80d"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.8",
+      "variantId": "registry-package.openupm.com-55031c32e5aa2a00",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "327e166115e72b987e9e40ae59044bce7bb54bf3",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.2-pre.8.tgz",
+      "upstreamIntegrity": "sha512-T8g8EBYvtGolxrF9/A+PRt8i/wv3hAJ8DGV9lV3HwFV1W6riUMW96WcNRYTdBbTsGrNoNWDZki4oy/morljgdA==",
+      "upstreamShasum": "a9decfe8d55ff907fa2db31805b52318fac1e889",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.37",
+        "com.realitytoolkit.player": "1.0.3-pre.1",
+        "com.unity.xr.picoxr": "2.3.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.2-pre.8",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-T8g8EBYvtGolxrF9/A+PRt8i/wv3hAJ8DGV9lV3HwFV1W6riUMW96WcNRYTdBbTsGrNoNWDZki4oy/morljgdA==",
+          "shasum": "a9decfe8d55ff907fa2db31805b52318fac1e889"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.9",
+      "variantId": "registry-package.openupm.com-96cf4e43d256cf6c",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "292d5af86c180e34e000138b92def092afef1a8f",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.2-pre.9.tgz",
+      "upstreamIntegrity": "sha512-FaNhPPALFWb4gQlgTjuUgY9JE/9Susjxsba4N37/Io8qd+PIeynA9UyZ0Em9YeE5Dia580WY9bCNJx/q0p1/yg==",
+      "upstreamShasum": "4885223132174c0a891fd653a0e912fdcaeb0238",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.48",
+        "com.realitytoolkit.player": "1.0.4",
+        "com.unity.xr.picoxr": "2.5.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.2-pre.9",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FaNhPPALFWb4gQlgTjuUgY9JE/9Susjxsba4N37/Io8qd+PIeynA9UyZ0Em9YeE5Dia580WY9bCNJx/q0p1/yg==",
+          "shasum": "4885223132174c0a891fd653a0e912fdcaeb0238"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.10",
+      "variantId": "registry-package.openupm.com-a47bf8e0824f6cc8",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "5271b3fa784df1063ecd1cd8c90c19fd9a84bc27",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.2-pre.10.tgz",
+      "upstreamIntegrity": "sha512-D4xkjNIG8+hcJT77FOX57k2TGXbNy3kv9KNMx8gjc2dl7Z3y+rQimu4gK4emBMfRM1xZ+rLRjgVWnea59QxT/g==",
+      "upstreamShasum": "2a34f38a9b591f701b3daff26f7e9a248e121cd9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.50",
+        "com.realitytoolkit.player": "1.0.5-pre.6",
+        "com.unity.xr.picoxr": "2.5.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.2-pre.10",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-D4xkjNIG8+hcJT77FOX57k2TGXbNy3kv9KNMx8gjc2dl7Z3y+rQimu4gK4emBMfRM1xZ+rLRjgVWnea59QxT/g==",
+          "shasum": "2a34f38a9b591f701b3daff26f7e9a248e121cd9"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.11",
+      "variantId": "registry-package.openupm.com-6394d47470b5dbc2",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "9295689d493fab4e292ea5f4c131bdd86a036fb8",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.2-pre.11.tgz",
+      "upstreamIntegrity": "sha512-QcTo0h5sQEs3/2dV3xvUIvZ0SVHrBB9BvJ8Uru/FJFBpGRSiY24CfYJL9TvorLufQBz94MVikH8V8iRFUF9QrQ==",
+      "upstreamShasum": "d96b757bd8609ebc59e8a0483ed943f11d139995",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.57",
+        "com.realitytoolkit.player": "1.0.5-pre.7",
+        "com.unity.xr.picoxr": "2.5.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.2-pre.11",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QcTo0h5sQEs3/2dV3xvUIvZ0SVHrBB9BvJ8Uru/FJFBpGRSiY24CfYJL9TvorLufQBz94MVikH8V8iRFUF9QrQ==",
+          "shasum": "d96b757bd8609ebc59e8a0483ed943f11d139995"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.12",
+      "variantId": "registry-package.openupm.com-9ee4ea8abe3b01a0",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "4501b4be7c1a9a6beb9b6aa85ba663d3fcb6a311",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.2-pre.12.tgz",
+      "upstreamIntegrity": "sha512-mGj7zoDvF43PwymOzoJBpD6OVZzM6IgM4czjapti7P85QWWJyHoyHZA6uBNwyY3DJ8FXYqVYzK0+woAyKDU90A==",
+      "upstreamShasum": "8be701181e9c215ca452ad4511d37cb6b277372c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.72",
+        "com.realitytoolkit.player": "1.0.5",
+        "com.unity.xr.picoxr": "2.5.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.2-pre.12",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mGj7zoDvF43PwymOzoJBpD6OVZzM6IgM4czjapti7P85QWWJyHoyHZA6uBNwyY3DJ8FXYqVYzK0+woAyKDU90A==",
+          "shasum": "8be701181e9c215ca452ad4511d37cb6b277372c"
+        }
+      }
+    },
+    {
+      "version": "1.0.2-pre.13",
+      "variantId": "registry-package.openupm.com-a029180c7937e803",
+      "sourceUrl": "https://github.com/realitycollective/com.realitytoolkit.pico.git",
+      "sourceRef": "930c8704771402f33eda7b16648a4a7fa80d6381",
+      "downloadUrl": "https://package.openupm.com/com.realitytoolkit.pico/-/com.realitytoolkit.pico-1.0.2-pre.13.tgz",
+      "upstreamIntegrity": "sha512-oqwzTBkpIbYO7lB1lBM9BVt8sHh1WTIVOMJ/N2mAW7jXgbzLQDoN0yf9yqCzoAtCpstkaI1JZQv9mqw5nH+tXQ==",
+      "upstreamShasum": "299f8c90cc9e25d1e84c3a6ccaad7131cd0be2cb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.realitytoolkit.core": "1.0.0-pre.72",
+        "com.realitytoolkit.player": "1.0.5",
+        "com.unity.xr.picoxr": "2.5.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://package.openupm.com/com.realitytoolkit.pico/1.0.2-pre.13",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oqwzTBkpIbYO7lB1lBM9BVt8sHh1WTIVOMJ/N2mAW7jXgbzLQDoN0yf9yqCzoAtCpstkaI1JZQv9mqw5nH+tXQ==",
+          "shasum": "299f8c90cc9e25d1e84c3a6ccaad7131cd0be2cb"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.2-pre.13"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.realitytoolkit.pico.yml",
+  "definitionBlobSha": "7f95a217beb09a0a3e8dc7fcc02acdcb9695f631",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.1",
+    "1.0.0",
+    "1.0.2-pre.13"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 23,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

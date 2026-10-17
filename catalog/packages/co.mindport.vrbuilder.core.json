@@ -1,0 +1,806 @@
+{
+  "schemaVersion": "1.0",
+  "id": "co.mindport.vrbuilder.core",
+  "displayName": "co.mindport.vrbuilder.core",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "fetchedAt": "2026-10-17T17:36:24.221973Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "4.0.0",
+      "variantId": "registry-package.openupm.com-e59faf72fbf8c91f",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "9e19dbbc100f5fa7ecb6a186c668ca306d6c611f",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-4.0.0.tgz",
+      "upstreamIntegrity": "sha512-Fj38WtJZq/2oHZnfpNvEs8CHM+7J6ew85hvt2jMv9e42IGWRZ52Y5w075e2+VzxHpvRExxCT2LlTCvRtAjL0ZA==",
+      "upstreamShasum": "53aa5ab23553545e2283411fff44b59e75b721df",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/4.0.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Fj38WtJZq/2oHZnfpNvEs8CHM+7J6ew85hvt2jMv9e42IGWRZ52Y5w075e2+VzxHpvRExxCT2LlTCvRtAjL0ZA==",
+          "shasum": "53aa5ab23553545e2283411fff44b59e75b721df"
+        }
+      }
+    },
+    {
+      "version": "4.1.0",
+      "variantId": "registry-package.openupm.com-b5e908b5106e3277",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "2897da6562651c10839cd3532189d7af68b8773c",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-4.1.0.tgz",
+      "upstreamIntegrity": "sha512-G4leP1ahAtROPDgXldxe58+x+a+olPZTWziqzmCAQadsiqfS1XiITXvHjvmE9KH8LS3UB2Vhs3YL9+3wnlIbLw==",
+      "upstreamShasum": "e3b7f8ad2fce3900f68c8c97cfd03616a019cc0a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/4.1.0",
+      "deprecated": null,
+      "unity": "2021.1",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-G4leP1ahAtROPDgXldxe58+x+a+olPZTWziqzmCAQadsiqfS1XiITXvHjvmE9KH8LS3UB2Vhs3YL9+3wnlIbLw==",
+          "shasum": "e3b7f8ad2fce3900f68c8c97cfd03616a019cc0a"
+        }
+      }
+    },
+    {
+      "version": "4.1.1",
+      "variantId": "registry-package.openupm.com-5e3c1c8301497506",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "3c871739d9b41091d5a7f54bd9b0f4454d4b40f0",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-4.1.1.tgz",
+      "upstreamIntegrity": "sha512-Rd7KceSVwnk5yZNAJzxpKjUeEC6mBWB6b1L8VE2nRV6/CuKnQwebcfHm3sSkzlklL/qR0NxGv74A/a9OXsQ9qA==",
+      "upstreamShasum": "51c894b5362ba2382bd73fc43f8e578085580b53",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/4.1.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Rd7KceSVwnk5yZNAJzxpKjUeEC6mBWB6b1L8VE2nRV6/CuKnQwebcfHm3sSkzlklL/qR0NxGv74A/a9OXsQ9qA==",
+          "shasum": "51c894b5362ba2382bd73fc43f8e578085580b53"
+        }
+      }
+    },
+    {
+      "version": "4.2.0",
+      "variantId": "registry-package.openupm.com-898084e6ae44c740",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "200b3bddb7aa6f48d2e8292cf914169d4665d175",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-4.2.0.tgz",
+      "upstreamIntegrity": "sha512-5cLqLdL2YlEtdthKO+lETwiSm07d2C6DDwtS9jgBTpB9fZ/POW2d6bEzi3DNIHVtNQgzANLwSEpq8T9xm5RlYg==",
+      "upstreamShasum": "aec9346be10cc366a5d0ff482a247f1ce92d0c6d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/4.2.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5cLqLdL2YlEtdthKO+lETwiSm07d2C6DDwtS9jgBTpB9fZ/POW2d6bEzi3DNIHVtNQgzANLwSEpq8T9xm5RlYg==",
+          "shasum": "aec9346be10cc366a5d0ff482a247f1ce92d0c6d"
+        }
+      }
+    },
+    {
+      "version": "4.2.1",
+      "variantId": "registry-package.openupm.com-ce13309a004a8410",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "b02e75d14700159b8d4eb4d89ed72279188decf2",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-4.2.1.tgz",
+      "upstreamIntegrity": "sha512-w1vFbQ6lLy6eONGTc/73Xk0lWEtrHbYELjTO1T/gYnrEuc+UU7fGJ2na3MgIkETzqPQGjisNinGop/BNf69c0Q==",
+      "upstreamShasum": "d9d4a6383323e45e5067350f77d207f3c13d297e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/4.2.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-w1vFbQ6lLy6eONGTc/73Xk0lWEtrHbYELjTO1T/gYnrEuc+UU7fGJ2na3MgIkETzqPQGjisNinGop/BNf69c0Q==",
+          "shasum": "d9d4a6383323e45e5067350f77d207f3c13d297e"
+        }
+      }
+    },
+    {
+      "version": "4.3.0",
+      "variantId": "registry-package.openupm.com-086e5be19475e23a",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "a5b4c855337f1aa2c0637f24f8d66afffa1c3c25",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-4.3.0.tgz",
+      "upstreamIntegrity": "sha512-lJ2b/edB5gchxnDFG/5Bgx53ybBWClc0p1uUsqjA5QVge7B21sO1qlEZMGwBFTjlkoK/8jnAutiarmqXjtXw2g==",
+      "upstreamShasum": "6b130258b53a856f4c49e649d4594664837ac1cd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/4.3.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lJ2b/edB5gchxnDFG/5Bgx53ybBWClc0p1uUsqjA5QVge7B21sO1qlEZMGwBFTjlkoK/8jnAutiarmqXjtXw2g==",
+          "shasum": "6b130258b53a856f4c49e649d4594664837ac1cd"
+        }
+      }
+    },
+    {
+      "version": "4.4.0",
+      "variantId": "registry-package.openupm.com-468683b992140ac0",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "16a34f633c0445563fc286f57c414a90758ca1d0",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-4.4.0.tgz",
+      "upstreamIntegrity": "sha512-Ww90Fx5QjsWnOmpPT5Z4YgYA9t26OyyFcz77FVFnsEFPyiuOHPXCYkMlEuUFjL0HN2BGB8wS6JZYU/9Rai/8wQ==",
+      "upstreamShasum": "9e19e4b463738b9f63315104fe50781e3dedd52a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/4.4.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Ww90Fx5QjsWnOmpPT5Z4YgYA9t26OyyFcz77FVFnsEFPyiuOHPXCYkMlEuUFjL0HN2BGB8wS6JZYU/9Rai/8wQ==",
+          "shasum": "9e19e4b463738b9f63315104fe50781e3dedd52a"
+        }
+      }
+    },
+    {
+      "version": "5.0.0",
+      "variantId": "registry-package.openupm.com-af21da4ec4279915",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "591e06ffe7a47c74dbd2463dc27774673fa84cf5",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.0.0.tgz",
+      "upstreamIntegrity": "sha512-swiCyasFgzuun3PwvX7W2T3Ly3JOPwPGKtrjSP4NWZMdI0PGd13FrMZbwQJroZzlRdURt/rzNK3anWFg7JCgLw==",
+      "upstreamShasum": "be0c2e6a494d20dc0d7ac8270114babaf9359329",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.0.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-swiCyasFgzuun3PwvX7W2T3Ly3JOPwPGKtrjSP4NWZMdI0PGd13FrMZbwQJroZzlRdURt/rzNK3anWFg7JCgLw==",
+          "shasum": "be0c2e6a494d20dc0d7ac8270114babaf9359329"
+        }
+      }
+    },
+    {
+      "version": "5.0.1",
+      "variantId": "registry-package.openupm.com-fa1dbb8585e42fe4",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "9f7ccafd059b47224073fced28932f25ad8bcd9e",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.0.1.tgz",
+      "upstreamIntegrity": "sha512-ZuHeonunFq/a9+19uZ7MIVXh1W5PDW/E0rUKm+1UEG1MHk+gn/kG5z5OHifH4cef5ANTgkAjEj6t7VtmfELIsg==",
+      "upstreamShasum": "db0b274df1ea0b84e78ca08af63183c52095c381",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.0.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ZuHeonunFq/a9+19uZ7MIVXh1W5PDW/E0rUKm+1UEG1MHk+gn/kG5z5OHifH4cef5ANTgkAjEj6t7VtmfELIsg==",
+          "shasum": "db0b274df1ea0b84e78ca08af63183c52095c381"
+        }
+      }
+    },
+    {
+      "version": "5.1.0",
+      "variantId": "registry-package.openupm.com-b151bd72993060bd",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "a46677d45fff10cdf4dfe37bac0e807000d98202",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.1.0.tgz",
+      "upstreamIntegrity": "sha512-PlUQxuA42/hU8SnvEh9vyPZ75yhYlYLZiex2yTxWGqdh5wYFS2F2E4TACKsS2Nke/+/KZUxHR5mcGrcWMSgiVw==",
+      "upstreamShasum": "ef2f8a933873e377b9ef60598e1d85204f79c120",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.1.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PlUQxuA42/hU8SnvEh9vyPZ75yhYlYLZiex2yTxWGqdh5wYFS2F2E4TACKsS2Nke/+/KZUxHR5mcGrcWMSgiVw==",
+          "shasum": "ef2f8a933873e377b9ef60598e1d85204f79c120"
+        }
+      }
+    },
+    {
+      "version": "5.2.0",
+      "variantId": "registry-package.openupm.com-a43db62ded9abcee",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "347077a9ef0464de5c62250028b4e12051243572",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.2.0.tgz",
+      "upstreamIntegrity": "sha512-qm4AC9PQdaTdqtiNjwk0b3TYM/ZDsDwWYNejnIMFoBzeW/+QtxSrbJgaGqEVD7sTv72cRLoQq6W7hQG8vmLpYw==",
+      "upstreamShasum": "2dca76f697b5b785f0b41f7704c61e34ee718fe7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.2.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qm4AC9PQdaTdqtiNjwk0b3TYM/ZDsDwWYNejnIMFoBzeW/+QtxSrbJgaGqEVD7sTv72cRLoQq6W7hQG8vmLpYw==",
+          "shasum": "2dca76f697b5b785f0b41f7704c61e34ee718fe7"
+        }
+      }
+    },
+    {
+      "version": "5.3.0",
+      "variantId": "registry-package.openupm.com-509d2db63cc77984",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "acf6a117d874c864234ffb4ac04bea491049587c",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.3.0.tgz",
+      "upstreamIntegrity": "sha512-ECBLH3JMNF1yR9tW52SMecoulzixTHC4U5WHc+eWrHcWRKJjTUZDdkNl68xCtnr5PC2nhbGsFwYuq2C0xR0lXw==",
+      "upstreamShasum": "2547755dcac52d9aca78d1b527134b7c72070441",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.3.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ECBLH3JMNF1yR9tW52SMecoulzixTHC4U5WHc+eWrHcWRKJjTUZDdkNl68xCtnr5PC2nhbGsFwYuq2C0xR0lXw==",
+          "shasum": "2547755dcac52d9aca78d1b527134b7c72070441"
+        }
+      }
+    },
+    {
+      "version": "5.3.1",
+      "variantId": "registry-package.openupm.com-efaa74f7f3b2007b",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "f88e90acbaa4241516bcd51cd9848fb80985e155",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.3.1.tgz",
+      "upstreamIntegrity": "sha512-lWQ+aphqO3xXIKT9XFOg0KsL1XGmiMwNWqU33BfWGvrXYHKMUVNYLdlfxxcL6OE2BrXWPqS1NJJK6Zgvnv+Reg==",
+      "upstreamShasum": "21e6cdd5d8cb27172a925565f0d48bf7da31e49f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.3.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-lWQ+aphqO3xXIKT9XFOg0KsL1XGmiMwNWqU33BfWGvrXYHKMUVNYLdlfxxcL6OE2BrXWPqS1NJJK6Zgvnv+Reg==",
+          "shasum": "21e6cdd5d8cb27172a925565f0d48bf7da31e49f"
+        }
+      }
+    },
+    {
+      "version": "5.3.2",
+      "variantId": "registry-package.openupm.com-336369809e60c4aa",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "545c476c76967c2215555a8c513bf5c7065cd842",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.3.2.tgz",
+      "upstreamIntegrity": "sha512-F0zpVGHOhYeSdiOnKmpQDkueF+NK5J7ZxyUfesgaWaS41D33ip085QUlohxWZxYvg6CSuBarxmWq4STA01QHYA==",
+      "upstreamShasum": "867c2eb3ce339786aea9656e9d6970f81a60e073",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.3.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-F0zpVGHOhYeSdiOnKmpQDkueF+NK5J7ZxyUfesgaWaS41D33ip085QUlohxWZxYvg6CSuBarxmWq4STA01QHYA==",
+          "shasum": "867c2eb3ce339786aea9656e9d6970f81a60e073"
+        }
+      }
+    },
+    {
+      "version": "5.4.0",
+      "variantId": "registry-package.openupm.com-b8d7ba42b3888275",
+      "sourceUrl": "https://package.openupm.com/co.mindport.vrbuilder.core",
+      "sourceRef": "91fe5b57f1ddcd38d6dcef35eb2ed3ec017d4786",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.4.0.tgz",
+      "upstreamIntegrity": "sha512-7Zy819pKYTnosZphZwDmpd/hz1kc+JjBwDGVAUzxD0Py/ko/bASh9i8ReC0fQxWtQpcN+D16mQ/qag5oyQYtJA==",
+      "upstreamShasum": "8c49304c9b08e2f09df05ec6cfde35ed0193518b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.4.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7Zy819pKYTnosZphZwDmpd/hz1kc+JjBwDGVAUzxD0Py/ko/bASh9i8ReC0fQxWtQpcN+D16mQ/qag5oyQYtJA==",
+          "shasum": "8c49304c9b08e2f09df05ec6cfde35ed0193518b"
+        }
+      }
+    },
+    {
+      "version": "5.5.0",
+      "variantId": "registry-package.openupm.com-ef2b3a566f2769e6",
+      "sourceUrl": "https://github.com/MindPort-GmbH/VR-Builder.git",
+      "sourceRef": "20c1cc57d947a413f590495743b29eee0e484d6c",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.5.0.tgz",
+      "upstreamIntegrity": "sha512-JKgjyI6JglPHt/ZzOiOgHiqnJYYujwD/3I/qWoy7mt8JzLH31rX3ldDR7EbRW7wZmmfLQM+EEuENnxIZ0hn37g==",
+      "upstreamShasum": "a03d2e7515dd25a16de40af9f13a817dca9cbac5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.5.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JKgjyI6JglPHt/ZzOiOgHiqnJYYujwD/3I/qWoy7mt8JzLH31rX3ldDR7EbRW7wZmmfLQM+EEuENnxIZ0hn37g==",
+          "shasum": "a03d2e7515dd25a16de40af9f13a817dca9cbac5"
+        }
+      }
+    },
+    {
+      "version": "5.6.0",
+      "variantId": "registry-package.openupm.com-a77a6136bcb0281f",
+      "sourceUrl": "https://github.com/MindPort-GmbH/VR-Builder.git",
+      "sourceRef": "b153aa96fac92cf35ea1a4de1926fbd2728ba377",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.6.0.tgz",
+      "upstreamIntegrity": "sha512-1SJjGQTCW9nYar4IpkU3ve2W/jUI1AKOqDi5er+tP/4thPx/yJ9C3gkCmWJv6QmsZBVbcgzGwr/D/ZYNWpvdNA==",
+      "upstreamShasum": "3ed8e55a3ca0d3f20c29cb947f6b0079712184a2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.6.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-1SJjGQTCW9nYar4IpkU3ve2W/jUI1AKOqDi5er+tP/4thPx/yJ9C3gkCmWJv6QmsZBVbcgzGwr/D/ZYNWpvdNA==",
+          "shasum": "3ed8e55a3ca0d3f20c29cb947f6b0079712184a2"
+        }
+      }
+    },
+    {
+      "version": "5.6.1",
+      "variantId": "registry-package.openupm.com-ef1c42a8842ac657",
+      "sourceUrl": "https://github.com/MindPort-GmbH/VR-Builder.git",
+      "sourceRef": "269a6367556efffafa573aa686941e765d3855b2",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.6.1.tgz",
+      "upstreamIntegrity": "sha512-gMfudc2lLG/razMxCDTR25o4mdscH3LHLn2X3vrm7U1LMB8ZkRH96cHSvB3buBL0CGK8fRcqAM6oGnqcEbnqKg==",
+      "upstreamShasum": "f92c2ab027f5be9bcee8a55b9e92827589f34955",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.6.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gMfudc2lLG/razMxCDTR25o4mdscH3LHLn2X3vrm7U1LMB8ZkRH96cHSvB3buBL0CGK8fRcqAM6oGnqcEbnqKg==",
+          "shasum": "f92c2ab027f5be9bcee8a55b9e92827589f34955"
+        }
+      }
+    },
+    {
+      "version": "5.6.2",
+      "variantId": "registry-package.openupm.com-419acdf21fa5bbcd",
+      "sourceUrl": "https://github.com/MindPort-GmbH/VR-Builder.git",
+      "sourceRef": "a2a0b5fc8167855817f9760308bb57c5457642cd",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.6.2.tgz",
+      "upstreamIntegrity": "sha512-L4Wl3BQ22BWZbIlrwsoEgj1zelYJwPGU9eeoIxRJ0QTdI6xlmeX7+Cskv7siM9up8nAKBCDCbHtdq7cmMmDyIQ==",
+      "upstreamShasum": "c91bf9c9110d077ca3ce35296a5fae933a6e6f7a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.6.2",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-L4Wl3BQ22BWZbIlrwsoEgj1zelYJwPGU9eeoIxRJ0QTdI6xlmeX7+Cskv7siM9up8nAKBCDCbHtdq7cmMmDyIQ==",
+          "shasum": "c91bf9c9110d077ca3ce35296a5fae933a6e6f7a"
+        }
+      }
+    },
+    {
+      "version": "5.6.3",
+      "variantId": "registry-package.openupm.com-09818c3e25c082a5",
+      "sourceUrl": "https://github.com/MindPort-GmbH/VR-Builder.git",
+      "sourceRef": "5e0dd57463b1da5e7163fb7a80349dafd658ded9",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.6.3.tgz",
+      "upstreamIntegrity": "sha512-PN05N8jI/IssoDG23EjaGLgbCoBJuKAY8yz2s3/fmEruqs+RZIGPy3Inz/GUy1ECMCGQl61vuZmRpqeyoMpjVg==",
+      "upstreamShasum": "6ed8407eb8e477dadbbd94878a76741a26e22a59",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.6.3",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PN05N8jI/IssoDG23EjaGLgbCoBJuKAY8yz2s3/fmEruqs+RZIGPy3Inz/GUy1ECMCGQl61vuZmRpqeyoMpjVg==",
+          "shasum": "6ed8407eb8e477dadbbd94878a76741a26e22a59"
+        }
+      }
+    },
+    {
+      "version": "5.7.0",
+      "variantId": "registry-package.openupm.com-e78b1c498bc8679e",
+      "sourceUrl": "https://github.com/MindPort-GmbH/VR-Builder.git",
+      "sourceRef": "3c232edd35628e6b325b414f036d337a177f6540",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.7.0.tgz",
+      "upstreamIntegrity": "sha512-2QexfVmEBHb7mWRi4bLfxD+WgZrMGHMfgxL4i6eH7NoJBAwaI3N3A84wvhzCb7+XGHnGkWiq6TjHR4uszZF3ww==",
+      "upstreamShasum": "1541f6e0fbe13b87904292d57d1116da4dc25b4b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.7.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2QexfVmEBHb7mWRi4bLfxD+WgZrMGHMfgxL4i6eH7NoJBAwaI3N3A84wvhzCb7+XGHnGkWiq6TjHR4uszZF3ww==",
+          "shasum": "1541f6e0fbe13b87904292d57d1116da4dc25b4b"
+        }
+      }
+    },
+    {
+      "version": "5.8.0",
+      "variantId": "registry-package.openupm.com-4033bcf9d089f89a",
+      "sourceUrl": "https://github.com/MindPort-GmbH/VR-Builder.git",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.8.0.tgz",
+      "upstreamIntegrity": "sha512-MYMx+ylNkjSwnnd+nTt1mZaE5gZq9neFWLxaTGJgCjdvVjH+5i5GxYZa5dW4UZBrDbTIChLgkqHARl88Utfi1w==",
+      "upstreamShasum": "eb07656213da752884633c361a364b7a0cd468cf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.8.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MYMx+ylNkjSwnnd+nTt1mZaE5gZq9neFWLxaTGJgCjdvVjH+5i5GxYZa5dW4UZBrDbTIChLgkqHARl88Utfi1w==",
+          "shasum": "eb07656213da752884633c361a364b7a0cd468cf"
+        }
+      }
+    },
+    {
+      "version": "5.9.0",
+      "variantId": "registry-package.openupm.com-e26ad228f6cdc3da",
+      "sourceUrl": "https://github.com/MindPort-GmbH/VR-Builder.git",
+      "sourceRef": "7744a0f5c0f6ca821bb20082d29e8ce2eeed1adb",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.9.0.tgz",
+      "upstreamIntegrity": "sha512-z+37dWsy1qvvq+w1H4aegpASdeaoIZHXzQ4aESJ7hdq7lHo4ivD3l7wXs0/nGnFB/mnlXJ9lwRqV7zb5wNVnxw==",
+      "upstreamShasum": "970be8dd28424a608fe964443dbbaf2b6909c57d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "co.mindport.processengine": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.9.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-z+37dWsy1qvvq+w1H4aegpASdeaoIZHXzQ4aESJ7hdq7lHo4ivD3l7wXs0/nGnFB/mnlXJ9lwRqV7zb5wNVnxw==",
+          "shasum": "970be8dd28424a608fe964443dbbaf2b6909c57d"
+        }
+      }
+    },
+    {
+      "version": "5.10.0",
+      "variantId": "registry-package.openupm.com-2ca96f59c7e5cf1a",
+      "sourceUrl": "https://github.com/MindPort-GmbH/VR-Builder.git",
+      "sourceRef": "c064fbfcdf79cd27f3fc5e576aaf6e04d4c19ff3",
+      "downloadUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/-/co.mindport.vrbuilder.core-5.10.0.tgz",
+      "upstreamIntegrity": "sha512-79eDSetwxUEQEbZmaaxlypOhlW4oU4KXLjH/WA9EmPtLuxgrGc39jeVnm1zYBpfw7Dl+obY0AqqE2/mNaOIovQ==",
+      "upstreamShasum": "4e4330bb3f0e67a97e4d65887064bbd1adb8a8ac",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "co.mindport.processengine": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/co.mindport.vrbuilder.core/5.10.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-79eDSetwxUEQEbZmaaxlypOhlW4oU4KXLjH/WA9EmPtLuxgrGc39jeVnm1zYBpfw7Dl+obY0AqqE2/mNaOIovQ==",
+          "shasum": "4e4330bb3f0e67a97e4d65887064bbd1adb8a8ac"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "5.10.0",
+    "patch@5.4.0": "5.4.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/co.mindport.vrbuilder.core.yml",
+  "definitionBlobSha": "5aa0aa9afee93d2f8270b377d677301d65717004",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "5.10.0",
+    "5.9.0",
+    "4.4.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 24,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

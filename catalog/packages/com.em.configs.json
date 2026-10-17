@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.em.configs",
+  "displayName": "com.em.configs",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.em.configs",
+      "fetchedAt": "2026-10-17T17:37:39.011259Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-e24ef46da014d4df",
+      "sourceUrl": "https://package.openupm.com/com.em.configs",
+      "sourceRef": "988ba66d9702ee7d36a787a0f7695e08e1f2bc22",
+      "downloadUrl": "https://package.openupm.com/com.em.configs/-/com.em.configs-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-Xgv3mMc0+4Z6VsAxQcBAGhKvhg6aQl780BDR1FkVgVjDMDvx8XecOomV1a9G1z9kWuQ9wKAaKKFhQ7hZCPHETw==",
+      "upstreamShasum": "6e0ef65eeccf2b6e5bafbf551d728435f5016fe4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.em.buildsystem": "0.0.2",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.neuecc.messagepack": "2.5.124"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.em.configs/1.0.1",
+      "deprecated": null,
+      "unity": null,
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Xgv3mMc0+4Z6VsAxQcBAGhKvhg6aQl780BDR1FkVgVjDMDvx8XecOomV1a9G1z9kWuQ9wKAaKKFhQ7hZCPHETw==",
+          "shasum": "6e0ef65eeccf2b6e5bafbf551d728435f5016fe4"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.em.configs.yml",
+  "definitionBlobSha": "ebaaaee1dbb7f0bc455c5c050cf8cf7f9f3925e4",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

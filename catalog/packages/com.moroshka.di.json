@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.moroshka.di",
+  "displayName": "com.moroshka.di",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.moroshka.di",
+      "fetchedAt": "2026-10-17T17:40:12.828120Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-a221a9d8badbb582",
+      "sourceUrl": "https://package.openupm.com/com.moroshka.di",
+      "sourceRef": "96d2ec252ac344b17aaa26c74f45f9e0964eaf05",
+      "downloadUrl": "https://package.openupm.com/com.moroshka.di/-/com.moroshka.di-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-V6UlS213+fXHbipJV8wg8Ed7DN1g610PR+cRcfWyxiT+cw3pOBQ32NgRNewlBquaXxGdCU+64oe0Rwr8t5zH7g==",
+      "upstreamShasum": "f26cd1640fc59a370e791179aff9bade4671131a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.moroshka.collections": "1.1.1",
+        "com.moroshka.factory": "1.1.1",
+        "com.moroshka.instance-provider": "1.1.0",
+        "com.moroshka.object-pool": "1.1.1",
+        "com.moroshka.type-analyzer": "1.0.1",
+        "com.moroshka.xcp": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.moroshka.di/1.0.0",
+      "deprecated": null,
+      "unity": "6000.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-V6UlS213+fXHbipJV8wg8Ed7DN1g610PR+cRcfWyxiT+cw3pOBQ32NgRNewlBquaXxGdCU+64oe0Rwr8t5zH7g==",
+          "shasum": "f26cd1640fc59a370e791179aff9bade4671131a"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.moroshka.di.yml",
+  "definitionBlobSha": "1ee1ecaaa174b08dcd5a13da9a373b2b5e3cfe07",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.0"
+  ],
+  "targetVersions": [
+    "1.0.0"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

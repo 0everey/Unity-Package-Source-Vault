@@ -1,0 +1,843 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.yontalane.query",
+  "displayName": "com.yontalane.query",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query",
+      "fetchedAt": "2026-10-17T17:43:46.353642Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-a149e3fd481a54f8",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-so58Tk4EqtSgMtHsoTVwQsU1FuPkjhwiZ/mziFlwAqRBPgj7lFY5y3U2qShhwi5B44I+BQGWlbHrFwQV5Od0nA==",
+      "upstreamShasum": "63a761aa272579d4882c567ae1d5585531a27938",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.0",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-so58Tk4EqtSgMtHsoTVwQsU1FuPkjhwiZ/mziFlwAqRBPgj7lFY5y3U2qShhwi5B44I+BQGWlbHrFwQV5Od0nA==",
+          "shasum": "63a761aa272579d4882c567ae1d5585531a27938"
+        }
+      }
+    },
+    {
+      "version": "1.0.1",
+      "variantId": "registry-package.openupm.com-d070e29d5fa0426f",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "f8f1550573cc0d7d49186153cd13da02e0d19260",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.1.tgz",
+      "upstreamIntegrity": "sha512-iYUcoYzSI1qnlgVtn/DaMZO4GW3qJDWTf9Ng+NGtmIhXDXUuN4+tO67XIt2KzXS50iIKcaQU4O0yRMT6iz1l0Q==",
+      "upstreamShasum": "6736e58835840b74c92968dc2b30ff61d4f348c8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.0",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.1",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iYUcoYzSI1qnlgVtn/DaMZO4GW3qJDWTf9Ng+NGtmIhXDXUuN4+tO67XIt2KzXS50iIKcaQU4O0yRMT6iz1l0Q==",
+          "shasum": "6736e58835840b74c92968dc2b30ff61d4f348c8"
+        }
+      }
+    },
+    {
+      "version": "1.0.2",
+      "variantId": "registry-package.openupm.com-31cc5c1b5fd5b60a",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "24ae8d8f694080844b1c6e09ef64ad289af21676",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.2.tgz",
+      "upstreamIntegrity": "sha512-6aoLXJCp5GbMcORCjMKw1l7MlPlICTAwOv4wLuHMmVvxNQICOpM8xvndqdt+QV+230qKm+iF0e0ypEX/UIxsbg==",
+      "upstreamShasum": "e3e70e2735f62b5db38a03746dcb1659a7393d8b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.0",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.2",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6aoLXJCp5GbMcORCjMKw1l7MlPlICTAwOv4wLuHMmVvxNQICOpM8xvndqdt+QV+230qKm+iF0e0ypEX/UIxsbg==",
+          "shasum": "e3e70e2735f62b5db38a03746dcb1659a7393d8b"
+        }
+      }
+    },
+    {
+      "version": "1.0.3",
+      "variantId": "registry-package.openupm.com-36c31c70bb8f1c29",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "0ec7321095aa27b98748d28dbddc677f403d4974",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.3.tgz",
+      "upstreamIntegrity": "sha512-Swl/6rlkpW4qRzbA0pOgMdqy1Re7qz2kWRPhR0lhiJ4mdpySjyi6qfiZ/X+B87kzbJe7NNub3gDyxAMkA7bl0w==",
+      "upstreamShasum": "a70633e41c3459634a5f5ca13f9bdd0625ce6dd0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.0",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.3",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Swl/6rlkpW4qRzbA0pOgMdqy1Re7qz2kWRPhR0lhiJ4mdpySjyi6qfiZ/X+B87kzbJe7NNub3gDyxAMkA7bl0w==",
+          "shasum": "a70633e41c3459634a5f5ca13f9bdd0625ce6dd0"
+        }
+      }
+    },
+    {
+      "version": "1.0.4",
+      "variantId": "registry-package.openupm.com-b44c7fd92c7136bc",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "20cd27c34796a462dbd697821417ae70bf4cad75",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.4.tgz",
+      "upstreamIntegrity": "sha512-VGFwyKVX3bCvt8a6jRmn3zPI9C2y49xrZZkvGrNpEQYcMi+LXJsOjlSROYjkeYyIV3yfYPCZ0mIKG5NmlIp0Lw==",
+      "upstreamShasum": "c273cf7be1c610484a02ac4e5e3ac3c83c7dfa5e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.0",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.4",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VGFwyKVX3bCvt8a6jRmn3zPI9C2y49xrZZkvGrNpEQYcMi+LXJsOjlSROYjkeYyIV3yfYPCZ0mIKG5NmlIp0Lw==",
+          "shasum": "c273cf7be1c610484a02ac4e5e3ac3c83c7dfa5e"
+        }
+      }
+    },
+    {
+      "version": "1.0.5",
+      "variantId": "registry-package.openupm.com-e1ebd5285065f326",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "a45ca405efbf86d6f47e32c7f6a61b00c509a601",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.5.tgz",
+      "upstreamIntegrity": "sha512-24hSOyR0Byjm3c6wSSQbBKBDxFnHEWLwxrXhcQXjmsCQCSYWP+PDNHgjCiPS+CQcWRGZc6IssbXTUHv6b+B0FQ==",
+      "upstreamShasum": "19c6f21c56f823604c6888440fe14c4314bc8842",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.0",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.5",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-24hSOyR0Byjm3c6wSSQbBKBDxFnHEWLwxrXhcQXjmsCQCSYWP+PDNHgjCiPS+CQcWRGZc6IssbXTUHv6b+B0FQ==",
+          "shasum": "19c6f21c56f823604c6888440fe14c4314bc8842"
+        }
+      }
+    },
+    {
+      "version": "1.0.6",
+      "variantId": "registry-package.openupm.com-db29c77cac464adf",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "d5905e06abba81e49425976d178f6725e18e6f26",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.6.tgz",
+      "upstreamIntegrity": "sha512-EZOn0vfLPm5/8cWanWo4VsljD4z+PMvuPncTkDjGFrLCAjCMZaXGO9LK0OP71t6gH9Mozv1kVGJe8L+kxKBnqQ==",
+      "upstreamShasum": "b4a3ec9dc2c585bb02b58343ef37ec39131b7bb4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.18",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.6",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-EZOn0vfLPm5/8cWanWo4VsljD4z+PMvuPncTkDjGFrLCAjCMZaXGO9LK0OP71t6gH9Mozv1kVGJe8L+kxKBnqQ==",
+          "shasum": "b4a3ec9dc2c585bb02b58343ef37ec39131b7bb4"
+        }
+      }
+    },
+    {
+      "version": "1.0.7",
+      "variantId": "registry-package.openupm.com-a174d66fa252a051",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "1d2717ce83271f7404b092aa2ecf5da8a801d2a9",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.7.tgz",
+      "upstreamIntegrity": "sha512-JG/lavBHdTQ0jTXPlN+zJfFwd044VnYjqqOgVg7ViKtk02NxhvkacoU2/qh5rz6QaPgCWGxh4yUd2z9+BH4MKg==",
+      "upstreamShasum": "dc0e573938c63127c9720d8e51f220a35f082786",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.18",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.7",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JG/lavBHdTQ0jTXPlN+zJfFwd044VnYjqqOgVg7ViKtk02NxhvkacoU2/qh5rz6QaPgCWGxh4yUd2z9+BH4MKg==",
+          "shasum": "dc0e573938c63127c9720d8e51f220a35f082786"
+        }
+      }
+    },
+    {
+      "version": "1.0.8",
+      "variantId": "registry-package.openupm.com-1eaecebb718b9e87",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "69ca38cdefb6faa695748da3d62faf61adcd2be4",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.8.tgz",
+      "upstreamIntegrity": "sha512-X87P1PGWhDCW4l0uL4gDYoFzOG060qK9+FqiBd/+jA7YX2iEMmyhDREgJdND5DOubMOLUJCQZVR9fFodzFjeUg==",
+      "upstreamShasum": "3407ff4b451f2301604ed183fe855725904b17ab",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.29",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.8",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-X87P1PGWhDCW4l0uL4gDYoFzOG060qK9+FqiBd/+jA7YX2iEMmyhDREgJdND5DOubMOLUJCQZVR9fFodzFjeUg==",
+          "shasum": "3407ff4b451f2301604ed183fe855725904b17ab"
+        }
+      }
+    },
+    {
+      "version": "1.0.9",
+      "variantId": "registry-package.openupm.com-36df2148c7881fc9",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "05f9d39afa3462b7539420eb6d943319a839e902",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.9.tgz",
+      "upstreamIntegrity": "sha512-jOwq1UeT6qBe8+/JSjjDUiHYsYY/sOFZQ5P1PwAP9+f39+j0ZaRAEKa42hx6/slBrcfTPIw4qFKduVUyidQ9xw==",
+      "upstreamShasum": "ad9ecc11feff7872394d1442ef39b4275f17a565",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.29",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.9",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jOwq1UeT6qBe8+/JSjjDUiHYsYY/sOFZQ5P1PwAP9+f39+j0ZaRAEKa42hx6/slBrcfTPIw4qFKduVUyidQ9xw==",
+          "shasum": "ad9ecc11feff7872394d1442ef39b4275f17a565"
+        }
+      }
+    },
+    {
+      "version": "1.0.10",
+      "variantId": "registry-package.openupm.com-c1e39473c727ec38",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "e25433a55d9ee19d953d84fea1ed55cf9f4b9427",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.10.tgz",
+      "upstreamIntegrity": "sha512-XX5IojI2DwzO+H/SsD1makRBCkqq1UfB45WxAeolDl30ZBEd1YxfUqUGrKytfa7De+rb9dV8n01Tuf+LBis78g==",
+      "upstreamShasum": "10cbd1c758c2806e8da1bb059429286d9b662a36",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.31",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.10",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XX5IojI2DwzO+H/SsD1makRBCkqq1UfB45WxAeolDl30ZBEd1YxfUqUGrKytfa7De+rb9dV8n01Tuf+LBis78g==",
+          "shasum": "10cbd1c758c2806e8da1bb059429286d9b662a36"
+        }
+      }
+    },
+    {
+      "version": "1.0.11",
+      "variantId": "registry-package.openupm.com-ba43007d2d3d736a",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "dad6bf3317e87c47b0550a6d94c47ad5c40bad8a",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.11.tgz",
+      "upstreamIntegrity": "sha512-pcTjndAtOcgqOJPwzDeDRzW3UFO37UVpcsFPZ6fiwUA9kaaBwO9sqOkvRFjVhf3EdgBnVWdqfc5BDCKBg6p5FQ==",
+      "upstreamShasum": "b8e348800082f9a8b0353299f6a34b94566072aa",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.31",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.11",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-pcTjndAtOcgqOJPwzDeDRzW3UFO37UVpcsFPZ6fiwUA9kaaBwO9sqOkvRFjVhf3EdgBnVWdqfc5BDCKBg6p5FQ==",
+          "shasum": "b8e348800082f9a8b0353299f6a34b94566072aa"
+        }
+      }
+    },
+    {
+      "version": "1.0.12",
+      "variantId": "registry-package.openupm.com-128b21f4bc3fdee7",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "f57b8afc47d153f17940b8071013b41c8c75b839",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.12.tgz",
+      "upstreamIntegrity": "sha512-9d3EQeQgEE7ANbV/H2tdTv3aEAPc77IG0660CmsfoAl7tfRkx/sAfqtu1Tcp8DCNzqtAqyvVMY5+bKnyrOxfgA==",
+      "upstreamShasum": "10fe843407350d3f3c5f943fc9d047ec41698489",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.31",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.12",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9d3EQeQgEE7ANbV/H2tdTv3aEAPc77IG0660CmsfoAl7tfRkx/sAfqtu1Tcp8DCNzqtAqyvVMY5+bKnyrOxfgA==",
+          "shasum": "10fe843407350d3f3c5f943fc9d047ec41698489"
+        }
+      }
+    },
+    {
+      "version": "1.0.13",
+      "variantId": "registry-package.openupm.com-ce608ca1c83063a1",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "a4f4523d074bf9296ddf33b53bdac8e3ca6b47a6",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.13.tgz",
+      "upstreamIntegrity": "sha512-zrWawCMpXXsco37pIFO67/wIu917pPXThwvWa5qXyo0xE+Pjmge+aGcxAsZSj+doMLIVMeeH8BYXQIrX47Wgnw==",
+      "upstreamShasum": "8ae326d4c72aaafb76f447343fbdb7ca0bbdb38e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.31",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.13",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zrWawCMpXXsco37pIFO67/wIu917pPXThwvWa5qXyo0xE+Pjmge+aGcxAsZSj+doMLIVMeeH8BYXQIrX47Wgnw==",
+          "shasum": "8ae326d4c72aaafb76f447343fbdb7ca0bbdb38e"
+        }
+      }
+    },
+    {
+      "version": "1.0.14",
+      "variantId": "registry-package.openupm.com-9db4a1dc908f351b",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "2e5bc094fa9ba0ec1f932b831a639472f425bac6",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.14.tgz",
+      "upstreamIntegrity": "sha512-DtAHEYn8fZLW8U3ezTOIvVzejwItX3K+1KE4fasWQWcRLzWhHjJtP3yEP1+0lKdid54oMcpJVXGfdyN1IrBi3g==",
+      "upstreamShasum": "54ab6bc18eaaec1bdf7f7692f95d840c34804c57",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.31",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.14",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-DtAHEYn8fZLW8U3ezTOIvVzejwItX3K+1KE4fasWQWcRLzWhHjJtP3yEP1+0lKdid54oMcpJVXGfdyN1IrBi3g==",
+          "shasum": "54ab6bc18eaaec1bdf7f7692f95d840c34804c57"
+        }
+      }
+    },
+    {
+      "version": "1.0.15",
+      "variantId": "registry-package.openupm.com-e9da95ed243bcf67",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "5750eac6a070ef80f53aebb730f8c774bd9899de",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.15.tgz",
+      "upstreamIntegrity": "sha512-PcNige+mi8GQHk3ObASWypDb4nq/6s+5DG29pgUKvu8tOZdeftylwX0uJdubVnNu2Q1K3yrL+zCNp1/uKy1joA==",
+      "upstreamShasum": "30c4ac0c1230971fc3a0d3000694e32d7e8939a4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.31",
+        "com.unity.inputsystem": "1.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.15",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-PcNige+mi8GQHk3ObASWypDb4nq/6s+5DG29pgUKvu8tOZdeftylwX0uJdubVnNu2Q1K3yrL+zCNp1/uKy1joA==",
+          "shasum": "30c4ac0c1230971fc3a0d3000694e32d7e8939a4"
+        }
+      }
+    },
+    {
+      "version": "1.0.16",
+      "variantId": "registry-package.openupm.com-998f1e334b1eac26",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "8fc9fedea7a0745d05e008cb19324e6b2a2f74fd",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.16.tgz",
+      "upstreamIntegrity": "sha512-P5u/t+81O/y29OmMVpLRnDm5oufc3RukIWli2W4u7/KvzTLRwre6l8daLrMyP4gHReoOBY00dEGniDamBG/zMA==",
+      "upstreamShasum": "cdeec5b669dbd6a13787df31925d4d66fb5954ec",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.37",
+        "com.unity.inputsystem": "1.14.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.16",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-P5u/t+81O/y29OmMVpLRnDm5oufc3RukIWli2W4u7/KvzTLRwre6l8daLrMyP4gHReoOBY00dEGniDamBG/zMA==",
+          "shasum": "cdeec5b669dbd6a13787df31925d4d66fb5954ec"
+        }
+      }
+    },
+    {
+      "version": "1.0.17",
+      "variantId": "registry-package.openupm.com-88ccf3d2aa35ad02",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "7f22cae8da721d9242e1078a6d712ad927c8af26",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.17.tgz",
+      "upstreamIntegrity": "sha512-LqFXPxW4poad8C6Q2NSnAO0bQcRyQqjZcGoDQ3BdURgZLmxYV30BDzqun8VOLb+oJYadIOPZHPZkVPjeXFkSfA==",
+      "upstreamShasum": "d48ebeb4bd9bfaeb700ee1b4cf1436f89a1213c5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.37",
+        "com.unity.inputsystem": "1.14.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.17",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-LqFXPxW4poad8C6Q2NSnAO0bQcRyQqjZcGoDQ3BdURgZLmxYV30BDzqun8VOLb+oJYadIOPZHPZkVPjeXFkSfA==",
+          "shasum": "d48ebeb4bd9bfaeb700ee1b4cf1436f89a1213c5"
+        }
+      }
+    },
+    {
+      "version": "1.0.18",
+      "variantId": "registry-package.openupm.com-e19667653daa8fa6",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "3a8f0428d7bf1b86a1360afd65c648c591b7d932",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.18.tgz",
+      "upstreamIntegrity": "sha512-FDsTgUcNaGWqDLAusl+8o4rS20pugFPX6nUDuUUc2pDCRQ3O2PQmKjhYds03aJXbqW/O4UzUSIlnT5qavOdK8g==",
+      "upstreamShasum": "6a209ef7400665b445993fbf35046629a0a8d787",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.37",
+        "com.unity.inputsystem": "1.14.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.18",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FDsTgUcNaGWqDLAusl+8o4rS20pugFPX6nUDuUUc2pDCRQ3O2PQmKjhYds03aJXbqW/O4UzUSIlnT5qavOdK8g==",
+          "shasum": "6a209ef7400665b445993fbf35046629a0a8d787"
+        }
+      }
+    },
+    {
+      "version": "1.0.19",
+      "variantId": "registry-package.openupm.com-605535dad4ecdf72",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "d21e2f7bb0b0afdde1668c6c08332d0e7f76ca7c",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.19.tgz",
+      "upstreamIntegrity": "sha512-F3klZKG3C08dsfiT0ayuxv3tvIXT5BSFDZ24WwTerEyAaX5xXEJk0zd1d1EMBR9YQ1OjYYYsK0W3Wff6uFukYA==",
+      "upstreamShasum": "f4bba81fe4ad0bacf44bc58ed02bfce907f6bb86",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.yontalane.core": "1.0.40",
+        "com.unity.inputsystem": "1.14.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.19",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-F3klZKG3C08dsfiT0ayuxv3tvIXT5BSFDZ24WwTerEyAaX5xXEJk0zd1d1EMBR9YQ1OjYYYsK0W3Wff6uFukYA==",
+          "shasum": "f4bba81fe4ad0bacf44bc58ed02bfce907f6bb86"
+        }
+      }
+    },
+    {
+      "version": "1.0.20",
+      "variantId": "registry-package.openupm.com-cbbd4ba231bfc7cd",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": "af70b3716455c752f4870979cf437d0e112296fe",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.20.tgz",
+      "upstreamIntegrity": "sha512-AGBhTpBs/DprPjwHa8fhMmPDz3TTzzEv9S0cXFSAbsHfORpXLmX2x8WexX5pOhWHW/fzJOggk9HUUvCA/bNyTA==",
+      "upstreamShasum": "806b6b223f8b2d3c148321764427a9bc0606f2d4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.inputsystem": "1.14.1",
+        "com.yontalane.core": "1.0.40"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.20",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-AGBhTpBs/DprPjwHa8fhMmPDz3TTzzEv9S0cXFSAbsHfORpXLmX2x8WexX5pOhWHW/fzJOggk9HUUvCA/bNyTA==",
+          "shasum": "806b6b223f8b2d3c148321764427a9bc0606f2d4"
+        }
+      }
+    },
+    {
+      "version": "1.0.21",
+      "variantId": "registry-package.openupm.com-12450b45620592ce",
+      "sourceUrl": "https://package.openupm.com/com.yontalane.query",
+      "sourceRef": null,
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.21.tgz",
+      "upstreamIntegrity": "sha512-IBN4LemBThuaHYdLZI5BGOJNuPuMXK8k4vqhoSEI/OSqaFH3k6CnVUcBpqt9oIp9BNTvy/HxfbTzMWA9f1JCdw==",
+      "upstreamShasum": "0570323cbe0a3bf8610b5a525c13bebda976079b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.inputsystem": "1.14.1",
+        "com.yontalane.core": "1.0.44"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.21",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-IBN4LemBThuaHYdLZI5BGOJNuPuMXK8k4vqhoSEI/OSqaFH3k6CnVUcBpqt9oIp9BNTvy/HxfbTzMWA9f1JCdw==",
+          "shasum": "0570323cbe0a3bf8610b5a525c13bebda976079b"
+        }
+      }
+    },
+    {
+      "version": "1.0.22",
+      "variantId": "registry-package.openupm.com-b61f7a2aaf784cc2",
+      "sourceUrl": "https://github.com/yontalane/UnityPackages.git",
+      "sourceRef": "8adb5e91b7beda8922566567d1bf041892fdd2c4",
+      "downloadUrl": "https://package.openupm.com/com.yontalane.query/-/com.yontalane.query-1.0.22.tgz",
+      "upstreamIntegrity": "sha512-j9v9s0Cb8FG44SMypUCol4Zo90I6JD6W2yasWzRuOvFZchekr3ChPQlA2ypG/9AsgLrwrjGSgOD0gvlj6oyz8Q==",
+      "upstreamShasum": "9ccfd16f914eae915e37ce2813e83179903b50ff",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.inputsystem": "1.14.1",
+        "com.yontalane.core": "1.0.44"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.yontalane.query/1.0.22",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-j9v9s0Cb8FG44SMypUCol4Zo90I6JD6W2yasWzRuOvFZchekr3ChPQlA2ypG/9AsgLrwrjGSgOD0gvlj6oyz8Q==",
+          "shasum": "9ccfd16f914eae915e37ce2813e83179903b50ff"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.22"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.yontalane.query.yml",
+  "definitionBlobSha": "37ea1da6184118467686a8784edb01bf344497dd",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "targetVersions": [
+    "1.0.0",
+    "1.0.17",
+    "1.0.18"
+  ],
+  "selectedVersions": [
+    "1.0.0",
+    "1.0.17",
+    "1.0.18",
+    "1.0.22"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 23,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.karrar.netick",
+  "displayName": "com.karrar.netick",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.karrar.netick",
+      "fetchedAt": "2026-10-17T17:39:43.916464Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.11.13",
+      "variantId": "registry-package.openupm.com-214b91d39fb768b3",
+      "sourceUrl": "https://package.openupm.com/com.karrar.netick",
+      "sourceRef": "1c488d71966ce81a45e1a8b65c8d6d78d2e13700",
+      "downloadUrl": "https://package.openupm.com/com.karrar.netick/-/com.karrar.netick-0.11.13.tgz",
+      "upstreamIntegrity": "sha512-Udcw0qkqyTSP6toLCdO8P6XFM0RAFM7NDVn1urGM4Kx2V8iRyvuCJdBafUer0a+lgHH5mP91kW+iaD6QnB8GyQ==",
+      "upstreamShasum": "dddbca55f5144806bfbd293a87e0cd2d590ec636",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.11.4"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.karrar.netick/0.11.13",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Udcw0qkqyTSP6toLCdO8P6XFM0RAFM7NDVn1urGM4Kx2V8iRyvuCJdBafUer0a+lgHH5mP91kW+iaD6QnB8GyQ==",
+          "shasum": "dddbca55f5144806bfbd293a87e0cd2d590ec636"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.11.13"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.karrar.netick.yml",
+  "definitionBlobSha": "bb048cf1c03cace2335c3fed3fbe8312d5d6bd71",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.11.13"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,867 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.roytheunissen.fmod-syntax",
+  "displayName": "com.roytheunissen.fmod-syntax",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax",
+      "fetchedAt": "2026-10-17T17:41:47.696445Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "variantId": "registry-package.openupm.com-8d26bfa105cb30df",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "26a3536b0f8f560d05c7241f1c4bbef2fe308a73",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.0.1.tgz",
+      "upstreamIntegrity": "sha512-5ANR4ulSegXTNpnwiIBNk0KC7LAyrK2gOu5azJ7Rx8o+uYpbAEUX5/JkLUOd9AqZi3mA3BkVgEzhZ/CoJY7/HQ==",
+      "upstreamShasum": "302a532302965a53b3213cadeec7974b375afcd8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.0.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-5ANR4ulSegXTNpnwiIBNk0KC7LAyrK2gOu5azJ7Rx8o+uYpbAEUX5/JkLUOd9AqZi3mA3BkVgEzhZ/CoJY7/HQ==",
+          "shasum": "302a532302965a53b3213cadeec7974b375afcd8"
+        }
+      }
+    },
+    {
+      "version": "0.0.2",
+      "variantId": "registry-package.openupm.com-73d4b4294f690150",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "aab1bf9123e58c02439108ebf2a4f5ff2588bb44",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.0.2.tgz",
+      "upstreamIntegrity": "sha512-GiWnaEXmB2sSUoyKxm1QqdGPxp+7v/XX1K0wRIVEa8eGCe9WpEQsUU0uq0dC9sU27e4V7cX+ZEoiuhtGBAOvhg==",
+      "upstreamShasum": "7e0f91a7ce5dae0aa02b9c8bbe729a42063acf9f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.0.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GiWnaEXmB2sSUoyKxm1QqdGPxp+7v/XX1K0wRIVEa8eGCe9WpEQsUU0uq0dC9sU27e4V7cX+ZEoiuhtGBAOvhg==",
+          "shasum": "7e0f91a7ce5dae0aa02b9c8bbe729a42063acf9f"
+        }
+      }
+    },
+    {
+      "version": "0.0.3",
+      "variantId": "registry-package.openupm.com-a883e5f048209d67",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "9adcfcba0d677cc31fd58571f2971638b05f9ecb",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.0.3.tgz",
+      "upstreamIntegrity": "sha512-d/HMJV20HRes9vsudhtoDSz7nwIkChbdDOxeqLpAGMGvN1vgJ5ImxnZEHororQjoq2SJTx6YFuuK/gWQcVlyew==",
+      "upstreamShasum": "454de1f3c3cd252774fdeb10fc8864e22c3e2c6c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.0.3",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-d/HMJV20HRes9vsudhtoDSz7nwIkChbdDOxeqLpAGMGvN1vgJ5ImxnZEHororQjoq2SJTx6YFuuK/gWQcVlyew==",
+          "shasum": "454de1f3c3cd252774fdeb10fc8864e22c3e2c6c"
+        }
+      }
+    },
+    {
+      "version": "0.0.4",
+      "variantId": "registry-package.openupm.com-d445b98e903de1f7",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "51e621cadb56b840f42832b4cb6302359e022f2c",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.0.4.tgz",
+      "upstreamIntegrity": "sha512-bjz4z84MkO/8oArxld76PfBBVjokoGNAhGzS5IwQY70S0m6kwKZlSO3EQ7UDDFRBhuksrSk9bbzpnPZniDdizQ==",
+      "upstreamShasum": "315ad6bb367ac7bbe1de9e6865caa966a53f6c86",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.0.4",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bjz4z84MkO/8oArxld76PfBBVjokoGNAhGzS5IwQY70S0m6kwKZlSO3EQ7UDDFRBhuksrSk9bbzpnPZniDdizQ==",
+          "shasum": "315ad6bb367ac7bbe1de9e6865caa966a53f6c86"
+        }
+      }
+    },
+    {
+      "version": "0.0.5",
+      "variantId": "registry-package.openupm.com-f5cb3656a224579c",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "cc14531fe310103fca1dbdc6a33af9a9eb7d3bda",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.0.5.tgz",
+      "upstreamIntegrity": "sha512-VT5y8K7dUhTEsOgRsVtw8c/j/U62R5jHi57Y1rMgdKA1ukWqbMajAOyFJPlUGdwW5ckrFEAlTYYYfjM14t/aUg==",
+      "upstreamShasum": "74ed2e3e4e15a5c1f9c6d25ae1497e630d88de29",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.0.5",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VT5y8K7dUhTEsOgRsVtw8c/j/U62R5jHi57Y1rMgdKA1ukWqbMajAOyFJPlUGdwW5ckrFEAlTYYYfjM14t/aUg==",
+          "shasum": "74ed2e3e4e15a5c1f9c6d25ae1497e630d88de29"
+        }
+      }
+    },
+    {
+      "version": "0.0.6",
+      "variantId": "registry-package.openupm.com-31d3e377ecdfb9c0",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "8a19819bbadaeb0d275122d84af499023250279e",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.0.6.tgz",
+      "upstreamIntegrity": "sha512-9yFRcOv2k/8ywovskkWYI25xikoAvQ6Q+ARH7RCZZ6kO5KLVII+CPcrSIuwB8YV3cSEGu6OLcO9coYUEL6qszw==",
+      "upstreamShasum": "fbbd59e6925352f3a2d68d68425609257b968a03",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.0.6",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9yFRcOv2k/8ywovskkWYI25xikoAvQ6Q+ARH7RCZZ6kO5KLVII+CPcrSIuwB8YV3cSEGu6OLcO9coYUEL6qszw==",
+          "shasum": "fbbd59e6925352f3a2d68d68425609257b968a03"
+        }
+      }
+    },
+    {
+      "version": "0.0.7",
+      "variantId": "registry-package.openupm.com-c2dd07d47fd4e858",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "47c181748fd80dd560827a825dfe464cb7a2f32a",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.0.7.tgz",
+      "upstreamIntegrity": "sha512-VnTPoR3ARCxoSdMziayEdM9ydmyAmEev84MakJzon1weQ8oZXojUNWHIUNZwBRffhGgRczATopGvoV2MheyZeA==",
+      "upstreamShasum": "1b8e3068fc53c1cd8405747a20de66862c22514f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.0.7",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VnTPoR3ARCxoSdMziayEdM9ydmyAmEev84MakJzon1weQ8oZXojUNWHIUNZwBRffhGgRczATopGvoV2MheyZeA==",
+          "shasum": "1b8e3068fc53c1cd8405747a20de66862c22514f"
+        }
+      }
+    },
+    {
+      "version": "0.0.8",
+      "variantId": "registry-package.openupm.com-46645e1343341394",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "bcd0ac713cb005ec3aae2537e308401b7c249ebb",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.0.8.tgz",
+      "upstreamIntegrity": "sha512-gVRSMtG5VKuD72fmSYz96ifKUsK/iD/2e2ONCw9LMIAub8F67wz07+2FYDsgEGQ2Te+E4mjmRorh0mcppEZfGA==",
+      "upstreamShasum": "0933bdfe2f8efcd44e218feec193bc524c966aca",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.0.8",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-gVRSMtG5VKuD72fmSYz96ifKUsK/iD/2e2ONCw9LMIAub8F67wz07+2FYDsgEGQ2Te+E4mjmRorh0mcppEZfGA==",
+          "shasum": "0933bdfe2f8efcd44e218feec193bc524c966aca"
+        }
+      }
+    },
+    {
+      "version": "0.0.9",
+      "variantId": "registry-package.openupm.com-fcac0a13cf46be0c",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "80ea22e7f297bac9f616d4d7502a9c308754214c",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.0.9.tgz",
+      "upstreamIntegrity": "sha512-Pe5aFZt4JKNWnhQcSENaMhwjCWAjvUTnRVJrGgyziDvNlC98Q8eAHOY8PvBUPOnnoW3mORnApJvEYsYI7JHGGQ==",
+      "upstreamShasum": "760044095bf562b8d6baab946bf578e5cdf5dfad",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.0.9",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Pe5aFZt4JKNWnhQcSENaMhwjCWAjvUTnRVJrGgyziDvNlC98Q8eAHOY8PvBUPOnnoW3mORnApJvEYsYI7JHGGQ==",
+          "shasum": "760044095bf562b8d6baab946bf578e5cdf5dfad"
+        }
+      }
+    },
+    {
+      "version": "0.1.0",
+      "variantId": "registry-package.openupm.com-b81732332e975740",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "8128ecacf6fa056e6fea822ca18f662a7c19b53d",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.1.0.tgz",
+      "upstreamIntegrity": "sha512-2g4OasJmouTxhGtPKeR1iL4U6CxqatLMg7Tm6AHHqBQVNzwOlFNA+QYC9VmeTwAkB8rRTS3NRI0n7lpjQtd+kw==",
+      "upstreamShasum": "6cf23eb054cc1d1aa2e2d03a8b809d8988c02552",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.1.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2g4OasJmouTxhGtPKeR1iL4U6CxqatLMg7Tm6AHHqBQVNzwOlFNA+QYC9VmeTwAkB8rRTS3NRI0n7lpjQtd+kw==",
+          "shasum": "6cf23eb054cc1d1aa2e2d03a8b809d8988c02552"
+        }
+      }
+    },
+    {
+      "version": "0.1.1",
+      "variantId": "registry-package.openupm.com-ddc373fd393c0439",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "0c6b4b3af4368442191266b14fcbd13a32b25f85",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.1.1.tgz",
+      "upstreamIntegrity": "sha512-zoklont5xBAbzRa9FpLcThtqRWtKqmdVr8nBmrGv7s/Fiw0VvhhEVr5ZdiYCjhUh4Ah/BEiYtplnnT/4CA6ZZw==",
+      "upstreamShasum": "02289674a25f01ada3c2298c6c7ea73e4b905d8a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.1.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-zoklont5xBAbzRa9FpLcThtqRWtKqmdVr8nBmrGv7s/Fiw0VvhhEVr5ZdiYCjhUh4Ah/BEiYtplnnT/4CA6ZZw==",
+          "shasum": "02289674a25f01ada3c2298c6c7ea73e4b905d8a"
+        }
+      }
+    },
+    {
+      "version": "0.1.2",
+      "variantId": "registry-package.openupm.com-1c1b0bf10531a91b",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "a9f36a8b7d884d80a13d46a54afe9d49d171d3a5",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.1.2.tgz",
+      "upstreamIntegrity": "sha512-QSgTj66bRudpo/yKKloFPhXjbaVqlbGZErPML7qts7kcSSZDzThO9Rjwgq5FVvAtYU9QRmQdquYKZ0qzh3YQlg==",
+      "upstreamShasum": "00eafc7d694cbf79f184dfc3851381eec7de9863",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.1.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-QSgTj66bRudpo/yKKloFPhXjbaVqlbGZErPML7qts7kcSSZDzThO9Rjwgq5FVvAtYU9QRmQdquYKZ0qzh3YQlg==",
+          "shasum": "00eafc7d694cbf79f184dfc3851381eec7de9863"
+        }
+      }
+    },
+    {
+      "version": "0.1.3",
+      "variantId": "registry-package.openupm.com-8cdeb27d48a01dd6",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "6f1a942a09706bf0cd426d415fd5dbfe4a52a87e",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.1.3.tgz",
+      "upstreamIntegrity": "sha512-NfaPylY8ErjR635i/Ft/ySS53XbcevZCuNTaOLgES9XEs/OmjaGg8szUrQU1JogCwS6jKE7uFXjxr0zVCZ4uCg==",
+      "upstreamShasum": "2815c8b0e0013595bceb445fa1e07a38481ec307",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.1.3",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NfaPylY8ErjR635i/Ft/ySS53XbcevZCuNTaOLgES9XEs/OmjaGg8szUrQU1JogCwS6jKE7uFXjxr0zVCZ4uCg==",
+          "shasum": "2815c8b0e0013595bceb445fa1e07a38481ec307"
+        }
+      }
+    },
+    {
+      "version": "0.1.4",
+      "variantId": "registry-package.openupm.com-8731f00d9e03fb3f",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "6255a2d02fd95baa6c6adcf2b4a2b94b503a9903",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.1.4.tgz",
+      "upstreamIntegrity": "sha512-yR9qnmIA46BQCxfGGfDqSLy+U0fT6lkN5tTeriPS2ZkV4mwjX0X+g5epBYWtT/JV1rFKPOXotRQMLjJhC4sTzg==",
+      "upstreamShasum": "58c49c22b1476d8ae5249e2acb62b8f53e50e97d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.1.4",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yR9qnmIA46BQCxfGGfDqSLy+U0fT6lkN5tTeriPS2ZkV4mwjX0X+g5epBYWtT/JV1rFKPOXotRQMLjJhC4sTzg==",
+          "shasum": "58c49c22b1476d8ae5249e2acb62b8f53e50e97d"
+        }
+      }
+    },
+    {
+      "version": "0.1.5",
+      "variantId": "registry-package.openupm.com-70dbf04974759837",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "449d7164fbb7fd8ac451755d280a5d084096ab17",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.1.5.tgz",
+      "upstreamIntegrity": "sha512-4JdIHloRSo6JUO/sR8JteK45eHa3Lziew0hJ37+xLxOMS7Kc8lOrr/MTRpkVqeatbmJIlqnNs/OMD+1x4/6Tzg==",
+      "upstreamShasum": "bc86a8f098ba4c9d99ef546d79fc386e16eaaf3e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.1.5",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4JdIHloRSo6JUO/sR8JteK45eHa3Lziew0hJ37+xLxOMS7Kc8lOrr/MTRpkVqeatbmJIlqnNs/OMD+1x4/6Tzg==",
+          "shasum": "bc86a8f098ba4c9d99ef546d79fc386e16eaaf3e"
+        }
+      }
+    },
+    {
+      "version": "0.1.6",
+      "variantId": "registry-package.openupm.com-116a1f808b50a8b3",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "d6d554842a314f4e74781ecc00ac977e5650ece8",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.1.6.tgz",
+      "upstreamIntegrity": "sha512-yvCcUEBfO9l9jU3K1eK+kNqr/jVVlmRKd+EKKiLyetMtd+YdzvMlKoPNWUDY8ZfEw/6mYVIXzX8sIZbdU6DEoQ==",
+      "upstreamShasum": "4cfb09243252346c9aad5e20e56c51811ceaa399",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.1.6",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yvCcUEBfO9l9jU3K1eK+kNqr/jVVlmRKd+EKKiLyetMtd+YdzvMlKoPNWUDY8ZfEw/6mYVIXzX8sIZbdU6DEoQ==",
+          "shasum": "4cfb09243252346c9aad5e20e56c51811ceaa399"
+        }
+      }
+    },
+    {
+      "version": "0.1.7",
+      "variantId": "registry-package.openupm.com-3c742f65c30a84e2",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "3e16cd2d1b5ab86f6840b019e45ebd1b555ea5ae",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.1.7.tgz",
+      "upstreamIntegrity": "sha512-ntg/iyieyB8I9ZSIpxYltIYKGS4IS9jy4g4zZp0IGiqlh8g6T5Z67JSzXCf3wQjwOi3hqlTYG0IwzAKXqmgcdQ==",
+      "upstreamShasum": "cc08965da52eea63b306b4df6b3b8eaec4f5d482",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.1.7",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ntg/iyieyB8I9ZSIpxYltIYKGS4IS9jy4g4zZp0IGiqlh8g6T5Z67JSzXCf3wQjwOi3hqlTYG0IwzAKXqmgcdQ==",
+          "shasum": "cc08965da52eea63b306b4df6b3b8eaec4f5d482"
+        }
+      }
+    },
+    {
+      "version": "0.1.8",
+      "variantId": "registry-package.openupm.com-b2fdb855c2e31df4",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "4a9b988a0bd9de051faf4ce4e96b17ff0bd8e060",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.1.8.tgz",
+      "upstreamIntegrity": "sha512-g7GDrgNrHKYKBJkJL1e5KCgPi0lZe8a3VXs4oLj1TpwJbRkm7KwZNyNJMexpyC9M1rJiB35v6zkmulQTzv8LXA==",
+      "upstreamShasum": "849f058a1f5ec41159ab1829a18b7d2a84a104b4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.1.8",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-g7GDrgNrHKYKBJkJL1e5KCgPi0lZe8a3VXs4oLj1TpwJbRkm7KwZNyNJMexpyC9M1rJiB35v6zkmulQTzv8LXA==",
+          "shasum": "849f058a1f5ec41159ab1829a18b7d2a84a104b4"
+        }
+      }
+    },
+    {
+      "version": "0.1.9",
+      "variantId": "registry-package.openupm.com-dffaad81abab6824",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "b194570460db841f39ee3960b71e6bcd70b8ddf5",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.1.9.tgz",
+      "upstreamIntegrity": "sha512-fesM95J1KNkFvPBTZGPxW0SpqX3EtAPsQ2gjJUSvMjF2tEogOPMsVyexICJiNE8hvwGK0Y04YBqWDCOBV1hY6Q==",
+      "upstreamShasum": "e3a0c2c5f5c822ecabfa474fd85126330fdf3fde",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.1.9",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fesM95J1KNkFvPBTZGPxW0SpqX3EtAPsQ2gjJUSvMjF2tEogOPMsVyexICJiNE8hvwGK0Y04YBqWDCOBV1hY6Q==",
+          "shasum": "e3a0c2c5f5c822ecabfa474fd85126330fdf3fde"
+        }
+      }
+    },
+    {
+      "version": "0.2.0",
+      "variantId": "registry-package.openupm.com-3e80bcaa7550c653",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "8ff201c226fa56b569ee6998a5c882c780bb93a5",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.2.0.tgz",
+      "upstreamIntegrity": "sha512-jIBfX5qn1fZ7M+DWyhuC9NrIYl1ehK0OEMxGIW6eH3+TgpsYVYQlbZuXVS2uvGpZsuwPXAIg6X4b/VRngjBbZg==",
+      "upstreamShasum": "b50d1922cb6b634f3cdefb09eabb615e08c702f1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.2.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jIBfX5qn1fZ7M+DWyhuC9NrIYl1ehK0OEMxGIW6eH3+TgpsYVYQlbZuXVS2uvGpZsuwPXAIg6X4b/VRngjBbZg==",
+          "shasum": "b50d1922cb6b634f3cdefb09eabb615e08c702f1"
+        }
+      }
+    },
+    {
+      "version": "0.2.1",
+      "variantId": "registry-package.openupm.com-d49412598d97bd3a",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "47a3f5a49f255a09c3de50c58b337d1ce12d2a81",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.2.1.tgz",
+      "upstreamIntegrity": "sha512-DsEjQq7t2Ivr6hsLTul/bf8hVmlwrIuezU07vGmxaABtr+tilgvid4hTzhmpcH0PQ/lXDwW0UQsSasl0+TEo/g==",
+      "upstreamShasum": "ffc4b596ade40c3fe34460683a0cbaf8e45e58db",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.2.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-DsEjQq7t2Ivr6hsLTul/bf8hVmlwrIuezU07vGmxaABtr+tilgvid4hTzhmpcH0PQ/lXDwW0UQsSasl0+TEo/g==",
+          "shasum": "ffc4b596ade40c3fe34460683a0cbaf8e45e58db"
+        }
+      }
+    },
+    {
+      "version": "0.2.2",
+      "variantId": "registry-package.openupm.com-bde3b403e8f61c9e",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "bc4018c6020378b6ab0c7bf01fc8f5eddf1cab9d",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.2.2.tgz",
+      "upstreamIntegrity": "sha512-ns1CyuWSr1gbqMesm3RwCHZCiwA2FMWkSuXjMDFf+Wc0pL/z9Bqow1CSqJo7AG8AWOqw49xuWph3tJrDFWfwoA==",
+      "upstreamShasum": "efbad160c2a94a66d217efcc15055c83f8914331",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.2.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ns1CyuWSr1gbqMesm3RwCHZCiwA2FMWkSuXjMDFf+Wc0pL/z9Bqow1CSqJo7AG8AWOqw49xuWph3tJrDFWfwoA==",
+          "shasum": "efbad160c2a94a66d217efcc15055c83f8914331"
+        }
+      }
+    },
+    {
+      "version": "0.2.3",
+      "variantId": "registry-package.openupm.com-48d444e029cb330d",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "07c3320934b6c8c6922bd7842a7a3826551c5183",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.2.3.tgz",
+      "upstreamIntegrity": "sha512-slmxbwpLni4z18Vx+BTmLpruGv/U3KQX6olDiwX2KwSxeHW55e0KqfiZvFMKN/UB8/SCOkpgzpKxt2w341Ihrg==",
+      "upstreamShasum": "ef17531973c4bed8da82e4313c572ff37f789057",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.2.3",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-slmxbwpLni4z18Vx+BTmLpruGv/U3KQX6olDiwX2KwSxeHW55e0KqfiZvFMKN/UB8/SCOkpgzpKxt2w341Ihrg==",
+          "shasum": "ef17531973c4bed8da82e4313c572ff37f789057"
+        }
+      }
+    },
+    {
+      "version": "0.2.4",
+      "variantId": "registry-package.openupm.com-674fd30efc25bf20",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "49037ed2089f4384c822a5330f7dcf1b77b48dec",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.2.4.tgz",
+      "upstreamIntegrity": "sha512-ERz9osSMaPa2WtxAHifOrynYWvQky51yi+HHCIbYxvJsRS9AEBlJUZ6zhKqEv6y4eonXWb657WPrdlz+x2cLqg==",
+      "upstreamShasum": "a5aa5c506a0dcecc52db9ecb699148caba321516",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.2.4",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ERz9osSMaPa2WtxAHifOrynYWvQky51yi+HHCIbYxvJsRS9AEBlJUZ6zhKqEv6y4eonXWb657WPrdlz+x2cLqg==",
+          "shasum": "a5aa5c506a0dcecc52db9ecb699148caba321516"
+        }
+      }
+    },
+    {
+      "version": "0.2.5",
+      "variantId": "registry-package.openupm.com-d6b81dd54ceedfb6",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "0cb776bcc863b0c8ffc34c960accde46fbf21f8e",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.2.5.tgz",
+      "upstreamIntegrity": "sha512-JaCxVcHJWB8HvXjzbVIR6ClfP1ObOuij+URXVwVFfd7RJTKcQJ8sx8ZO91YWaXYEnKs3EGEvwAz/TYO108C/AQ==",
+      "upstreamShasum": "af77128adc1aef394434b33734883380aad86211",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.2.5",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JaCxVcHJWB8HvXjzbVIR6ClfP1ObOuij+URXVwVFfd7RJTKcQJ8sx8ZO91YWaXYEnKs3EGEvwAz/TYO108C/AQ==",
+          "shasum": "af77128adc1aef394434b33734883380aad86211"
+        }
+      }
+    },
+    {
+      "version": "0.2.6",
+      "variantId": "registry-package.openupm.com-6e9c11d827442472",
+      "sourceUrl": "https://github.com/RoyTheunissen/FMOD-Syntax.git",
+      "sourceRef": "9fabf76456cce4e18014a300e4bd7c55e29b071e",
+      "downloadUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/-/com.roytheunissen.fmod-syntax-0.2.6.tgz",
+      "upstreamIntegrity": "sha512-fqWOJQKlzeQmtl5mKyrJB6xLtxVO8M0hdRWSaST01BWr71w+XfwAlmBF21PY0XdABXcqCvnGIjf12ptH+YhCyg==",
+      "upstreamShasum": "6c44602bc0eb285df3e4197a88d9f1594855eca5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.roytheunissen.fmod-syntax/0.2.6",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fqWOJQKlzeQmtl5mKyrJB6xLtxVO8M0hdRWSaST01BWr71w+XfwAlmBF21PY0XdABXcqCvnGIjf12ptH+YhCyg==",
+          "shasum": "6c44602bc0eb285df3e4197a88d9f1594855eca5"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.2.6",
+    "patch@0.0.2": "0.0.2",
+    "patch@0.0.7": "0.0.7"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.roytheunissen.fmod-syntax.yml",
+  "definitionBlobSha": "bc1b5d7c2fd4897244231acfcfd6ce1a4a716302",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.2.6",
+    "0.2.5",
+    "0.2.4"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 26,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

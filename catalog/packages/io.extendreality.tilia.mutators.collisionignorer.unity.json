@@ -1,0 +1,2449 @@
+{
+  "schemaVersion": "1.0",
+  "id": "io.extendreality.tilia.mutators.collisionignorer.unity",
+  "displayName": "io.extendreality.tilia.mutators.collisionignorer.unity",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity",
+      "fetchedAt": "2026-10-17T17:44:08.895132Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-3d9a1ee87dcfa3c7",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "99b45f5a28f660af396040d9694bc86e227babef",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-spLQQcUngrONY5pWPmdSqs2QlZe73itZy4RHR1ticjJQycY7KPpuIh0J/+w72feLJfU41hnXb5M5day4Ih7QOg==",
+      "upstreamShasum": "330c5c4599e53959c91b14578ea8e8a59f558af4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.9.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.0.0",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-spLQQcUngrONY5pWPmdSqs2QlZe73itZy4RHR1ticjJQycY7KPpuIh0J/+w72feLJfU41hnXb5M5day4Ih7QOg==",
+          "shasum": "330c5c4599e53959c91b14578ea8e8a59f558af4"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-fc9809de6cc6dde2",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "f506a6dc784f6c765953b07b5b42c7f33ae9aebf",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-4lH1Xid8cQ99UVzYpooK3X5Mlhugi3X8tIxYHtf2KZaNVDjfgigjr6eFn7isHHV8KV80BC5Vp/ANbgjFD657dw==",
+      "upstreamShasum": "9a530826de922ce48dbb0635b725d2660ae7285c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.9.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.0",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4lH1Xid8cQ99UVzYpooK3X5Mlhugi3X8tIxYHtf2KZaNVDjfgigjr6eFn7isHHV8KV80BC5Vp/ANbgjFD657dw==",
+          "shasum": "9a530826de922ce48dbb0635b725d2660ae7285c"
+        }
+      }
+    },
+    {
+      "version": "1.1.1",
+      "variantId": "registry-package.openupm.com-db517cde4194e9d7",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "7a4e83568da6af838a1d06c3e1004104ca293f66",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.1.tgz",
+      "upstreamIntegrity": "sha512-v+XtUGqLS1h45jz+bwHTEECytJB9P0tN7q44qty2nwWnKoB42K7wpDwt3i+twIyCVgAXBnO76ud66EY9gIiMJw==",
+      "upstreamShasum": "f0817be7df9817e8a2faa34903d41b46b0b98f00",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.11.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.1",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-v+XtUGqLS1h45jz+bwHTEECytJB9P0tN7q44qty2nwWnKoB42K7wpDwt3i+twIyCVgAXBnO76ud66EY9gIiMJw==",
+          "shasum": "f0817be7df9817e8a2faa34903d41b46b0b98f00"
+        }
+      }
+    },
+    {
+      "version": "1.1.2",
+      "variantId": "registry-package.openupm.com-7a71dbd4529af894",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "fd898e76debb522cd713eba879be06f0e0aad16d",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.2.tgz",
+      "upstreamIntegrity": "sha512-55KlZMB6KtE7Wbc6SEiyovgxvMxXECkiWr9uYdrdai+hYpcAHxgHhWfQ7j+2+6cVVbp3CLjaEx62h/fbkxsXgw==",
+      "upstreamShasum": "a3a173ec35d37fe0ec56d7aa4bd79c224d178de4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.12.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.2",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-55KlZMB6KtE7Wbc6SEiyovgxvMxXECkiWr9uYdrdai+hYpcAHxgHhWfQ7j+2+6cVVbp3CLjaEx62h/fbkxsXgw==",
+          "shasum": "a3a173ec35d37fe0ec56d7aa4bd79c224d178de4"
+        }
+      }
+    },
+    {
+      "version": "1.1.3",
+      "variantId": "registry-package.openupm.com-d50fa36eb24e741c",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "2f0837f1dbcc45a0a25dac6ea9856cccb1293765",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.3.tgz",
+      "upstreamIntegrity": "sha512-qAcoyLA1uKLODv4eH20vWM1LGa2p9EBoDeVMVaIJOeK55PYt+xiLBBUfRsTwrlY8lERJuf+zCMsoXQGoVguBOw==",
+      "upstreamShasum": "e50c7b172815100cb7a32bf67f7960543c8e5166",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.14.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.3",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qAcoyLA1uKLODv4eH20vWM1LGa2p9EBoDeVMVaIJOeK55PYt+xiLBBUfRsTwrlY8lERJuf+zCMsoXQGoVguBOw==",
+          "shasum": "e50c7b172815100cb7a32bf67f7960543c8e5166"
+        }
+      }
+    },
+    {
+      "version": "1.1.4",
+      "variantId": "registry-package.openupm.com-f115a385850b0552",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "b6adf3cccc7777a1ca49e699cd41e0cbb2ec1f55",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.4.tgz",
+      "upstreamIntegrity": "sha512-ArYBWxPVaNNGQiJdOsPChW4XVBhfYR3PvyfhhybuKG6ljuLZoHgbef1XwLwUpG/zBesH+BzHxg79PBW7bYu+2w==",
+      "upstreamShasum": "d71adbc9407fca920c42bef628db7e49a0b65ff2",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.14.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.4",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ArYBWxPVaNNGQiJdOsPChW4XVBhfYR3PvyfhhybuKG6ljuLZoHgbef1XwLwUpG/zBesH+BzHxg79PBW7bYu+2w==",
+          "shasum": "d71adbc9407fca920c42bef628db7e49a0b65ff2"
+        }
+      }
+    },
+    {
+      "version": "1.1.5",
+      "variantId": "registry-package.openupm.com-82c97d69437cb301",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "16878bf81e260c1ce2f479b2427c82d20fb51a4c",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.5.tgz",
+      "upstreamIntegrity": "sha512-orB1rp5Lkz8YNgRCudmfVCM+sAh9gapd+i3Yrw+0uHwWw19RlBR/T87kvxSeTmIvk+fkvrbMakgLjHhICKFN4A==",
+      "upstreamShasum": "f1071a1e1f3e3c391a759414edada0db2b185732",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.15.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.5",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-orB1rp5Lkz8YNgRCudmfVCM+sAh9gapd+i3Yrw+0uHwWw19RlBR/T87kvxSeTmIvk+fkvrbMakgLjHhICKFN4A==",
+          "shasum": "f1071a1e1f3e3c391a759414edada0db2b185732"
+        }
+      }
+    },
+    {
+      "version": "1.1.6",
+      "variantId": "registry-package.openupm.com-5d7a021918ed8152",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "cedc56fc53e17ef96728c905f08e8b44f36d65fd",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.6.tgz",
+      "upstreamIntegrity": "sha512-Zd1glZQtfANeDcVAuIrz2zn8PNjAefJQX8vAWYDwfy8W6Oq7+lJK/0mXNDMskCCkwQ4Bo58j9JKgVEejzIW4RQ==",
+      "upstreamShasum": "466b510c0e311e4b1129625a34638b34b1fd59de",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.16.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.6",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Zd1glZQtfANeDcVAuIrz2zn8PNjAefJQX8vAWYDwfy8W6Oq7+lJK/0mXNDMskCCkwQ4Bo58j9JKgVEejzIW4RQ==",
+          "shasum": "466b510c0e311e4b1129625a34638b34b1fd59de"
+        }
+      }
+    },
+    {
+      "version": "1.1.7",
+      "variantId": "registry-package.openupm.com-84bdff51964d7009",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "7c56f49dad7784e19fbc42ee77ef8c166c86b10c",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.7.tgz",
+      "upstreamIntegrity": "sha512-rzg695d1VqDPD2x8a37Njeb65K2O7Mz6BNVHiUjVkUOKY3HhJbc8EqWuCDiluVZ9oTK4eWyNnITb84IrlyrTmQ==",
+      "upstreamShasum": "43da2c2d7c3c23deba20c0d8a07dc364924f49d9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.17.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.7",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-rzg695d1VqDPD2x8a37Njeb65K2O7Mz6BNVHiUjVkUOKY3HhJbc8EqWuCDiluVZ9oTK4eWyNnITb84IrlyrTmQ==",
+          "shasum": "43da2c2d7c3c23deba20c0d8a07dc364924f49d9"
+        }
+      }
+    },
+    {
+      "version": "1.1.8",
+      "variantId": "registry-package.openupm.com-7cf5537f1e235864",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "ba124455cda80223e2a0e2931ecae84d8769c88b",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.8.tgz",
+      "upstreamIntegrity": "sha512-sW138SXUVcOovNhAYnq+iY8BDem9akfYgc/yG+jW+B5lFUiFqDk7/6Md3uo3Si+PbbqIwezB2AkRS/Qj1lokcg==",
+      "upstreamShasum": "aab5d9238957138abf90ec1c5e2c4e29ceadc572",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.17.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.8",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sW138SXUVcOovNhAYnq+iY8BDem9akfYgc/yG+jW+B5lFUiFqDk7/6Md3uo3Si+PbbqIwezB2AkRS/Qj1lokcg==",
+          "shasum": "aab5d9238957138abf90ec1c5e2c4e29ceadc572"
+        }
+      }
+    },
+    {
+      "version": "1.1.9",
+      "variantId": "registry-package.openupm.com-600c3df786b6f589",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "ee22029f9ec9c4e0a92404e95ed6f666b0bdf996",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.9.tgz",
+      "upstreamIntegrity": "sha512-iKteeGiqO1zOsFyFCdkdP2Q0niyAxnRjZ+veT0OipNZNHkzySTN5+pCddFLCki0Z2ZpmU53kjS8GKnHmQMd1Vg==",
+      "upstreamShasum": "efc78a39fa8e3b70ae0e93ed57d7d2b8a4f232c9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.18.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.9",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iKteeGiqO1zOsFyFCdkdP2Q0niyAxnRjZ+veT0OipNZNHkzySTN5+pCddFLCki0Z2ZpmU53kjS8GKnHmQMd1Vg==",
+          "shasum": "efc78a39fa8e3b70ae0e93ed57d7d2b8a4f232c9"
+        }
+      }
+    },
+    {
+      "version": "1.1.10",
+      "variantId": "registry-package.openupm.com-c08dac0145164fe6",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "80242157c99b57961d62b9eb880056989908b2fe",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.10.tgz",
+      "upstreamIntegrity": "sha512-kHr2ERwUHXtn1TBwG6iRTdFXMU9+Hh+6ijRTL8uI/AqSGvI1IUWyKIvrX71g1/Ut8duFOrPiL0eF56OI8fU6JA==",
+      "upstreamShasum": "78d6d883e0c20ccea812931e85b900ea45170f73",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.19.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.10",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kHr2ERwUHXtn1TBwG6iRTdFXMU9+Hh+6ijRTL8uI/AqSGvI1IUWyKIvrX71g1/Ut8duFOrPiL0eF56OI8fU6JA==",
+          "shasum": "78d6d883e0c20ccea812931e85b900ea45170f73"
+        }
+      }
+    },
+    {
+      "version": "1.1.11",
+      "variantId": "registry-package.openupm.com-a2d7c1344686bfa1",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "04f893c0ac84f147e9e85e0e077dc732792fe789",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.11.tgz",
+      "upstreamIntegrity": "sha512-nCIy8WtqaQoTt5V+HVWERZCsfJt2dwuFY0uKtNepx9bvInL8NziUb2/wLpxlirHkl7V2UQOrOp+1KlEnAMjXAw==",
+      "upstreamShasum": "f91ea8fcc4b5b3858d3ee2ab6af1e5a671944dce",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.19.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.11",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nCIy8WtqaQoTt5V+HVWERZCsfJt2dwuFY0uKtNepx9bvInL8NziUb2/wLpxlirHkl7V2UQOrOp+1KlEnAMjXAw==",
+          "shasum": "f91ea8fcc4b5b3858d3ee2ab6af1e5a671944dce"
+        }
+      }
+    },
+    {
+      "version": "1.1.12",
+      "variantId": "registry-package.openupm.com-a8cc1b4b6f4e5afd",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "120da7a5c1e7ccf737ae362a0cd4871acc135ec6",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.12.tgz",
+      "upstreamIntegrity": "sha512-4wB3yrqx8/MNZkbd3Eqb9SBHBgNV4I5LYjPkJhDh+DkKFLz+h+Gr1Zq+sZE5yvE1enjzv/BEHMu0YjXpU6aAPw==",
+      "upstreamShasum": "e286caa5eade9d74471e616b9deb38e2be5b2902",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.20.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.12",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4wB3yrqx8/MNZkbd3Eqb9SBHBgNV4I5LYjPkJhDh+DkKFLz+h+Gr1Zq+sZE5yvE1enjzv/BEHMu0YjXpU6aAPw==",
+          "shasum": "e286caa5eade9d74471e616b9deb38e2be5b2902"
+        }
+      }
+    },
+    {
+      "version": "1.1.13",
+      "variantId": "registry-package.openupm.com-e25ee04143e96d64",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "5b3df4961070fd5762facd9d06b923201a9d7510",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.13.tgz",
+      "upstreamIntegrity": "sha512-XjMjqNqAb1waHh3vutnwC4k7Rlm8sOigaZrCyBTli1x9facYTaNms1DSq5MOB5gI8p+1fYjK8J3RnvELApyBbQ==",
+      "upstreamShasum": "d8b708efc15c6436c0451b34f6e1e50a8a67f23d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.21.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.13",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XjMjqNqAb1waHh3vutnwC4k7Rlm8sOigaZrCyBTli1x9facYTaNms1DSq5MOB5gI8p+1fYjK8J3RnvELApyBbQ==",
+          "shasum": "d8b708efc15c6436c0451b34f6e1e50a8a67f23d"
+        }
+      }
+    },
+    {
+      "version": "1.1.14",
+      "variantId": "registry-package.openupm.com-7a6b69e93e6648cc",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "dcccbe604caf1ec4fc063e5dcb444e9bcd42d843",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.14.tgz",
+      "upstreamIntegrity": "sha512-FtQfNlU3ayg1SewUU5VObOs31irZQ/f0XqE6rjGHpxH4+6y0ole5XaC8AF8rg4wA3DyY14EDCWeAs+GFEXQruA==",
+      "upstreamShasum": "c1e5679bc9acda2886d316e129f008acc00ca691",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.22.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.14",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-FtQfNlU3ayg1SewUU5VObOs31irZQ/f0XqE6rjGHpxH4+6y0ole5XaC8AF8rg4wA3DyY14EDCWeAs+GFEXQruA==",
+          "shasum": "c1e5679bc9acda2886d316e129f008acc00ca691"
+        }
+      }
+    },
+    {
+      "version": "1.1.15",
+      "variantId": "registry-package.openupm.com-4fae7900183382b1",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "bb41985802ba730cd7edc683028a581b3f17b3ae",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.15.tgz",
+      "upstreamIntegrity": "sha512-sLNEesNbzM1bFW8DXo041f8VmCiUYn56SnwKPWvEv6VmiZyCNZuqY/UrHSR/yJJvRspHrU9J2XQdiJLz9dSZDQ==",
+      "upstreamShasum": "9d468af691a53f4bd853c4dc5b24e020d5460117",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.23.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.15",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-sLNEesNbzM1bFW8DXo041f8VmCiUYn56SnwKPWvEv6VmiZyCNZuqY/UrHSR/yJJvRspHrU9J2XQdiJLz9dSZDQ==",
+          "shasum": "9d468af691a53f4bd853c4dc5b24e020d5460117"
+        }
+      }
+    },
+    {
+      "version": "1.1.16",
+      "variantId": "registry-package.openupm.com-aae55667cd69d08f",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "2fb8b81c0f4f128f5d097b898693626a0294fcdc",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.16.tgz",
+      "upstreamIntegrity": "sha512-XC4gIX2/Yqe5bfLX9Dutp1Wgc7unvoMh34k96rafva3dwNx/nJqrBeyK+7h1MKTulw5uHyuMW1iyZ2ahwLqeLw==",
+      "upstreamShasum": "4d8c6d236d7ecf2b7df1d2d504e12c36189b3e78",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.24.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.16",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-XC4gIX2/Yqe5bfLX9Dutp1Wgc7unvoMh34k96rafva3dwNx/nJqrBeyK+7h1MKTulw5uHyuMW1iyZ2ahwLqeLw==",
+          "shasum": "4d8c6d236d7ecf2b7df1d2d504e12c36189b3e78"
+        }
+      }
+    },
+    {
+      "version": "1.1.17",
+      "variantId": "registry-package.openupm.com-c9c6f326036fed9a",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "ecb495187ebead95d99a3234e8a7042b3cb541f6",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.17.tgz",
+      "upstreamIntegrity": "sha512-foW5yMfUFFwpF4F2Fc96oPElwjJcU8I6HDSo6hbeI5xV1OQKzrZEGYPnQZkP8+b/YzIzuIcZwYppdbXOLrLILg==",
+      "upstreamShasum": "ff93ae91def5c484c593433ca391e68680a07ef9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.25.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.17",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-foW5yMfUFFwpF4F2Fc96oPElwjJcU8I6HDSo6hbeI5xV1OQKzrZEGYPnQZkP8+b/YzIzuIcZwYppdbXOLrLILg==",
+          "shasum": "ff93ae91def5c484c593433ca391e68680a07ef9"
+        }
+      }
+    },
+    {
+      "version": "1.1.18",
+      "variantId": "registry-package.openupm.com-62bc253d41617dfa",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "feed5e5863414dbaa0a15f017f41c91eb9263d03",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.18.tgz",
+      "upstreamIntegrity": "sha512-686EnfC639gg00DoH3zPozWbOmrL/qM4rz56BcJWsd39mfpZ39WMK6YEd+MxxKWhuAi9HXT8LHSu0ZhXhnY62A==",
+      "upstreamShasum": "5e30412ea351fd796c19189e3e41c0970a2ba42c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.25.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.18",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-686EnfC639gg00DoH3zPozWbOmrL/qM4rz56BcJWsd39mfpZ39WMK6YEd+MxxKWhuAi9HXT8LHSu0ZhXhnY62A==",
+          "shasum": "5e30412ea351fd796c19189e3e41c0970a2ba42c"
+        }
+      }
+    },
+    {
+      "version": "1.1.19",
+      "variantId": "registry-package.openupm.com-7f615ec7f498fef2",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "7e7240276b02b9514dbb78e7c019882474599e71",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.19.tgz",
+      "upstreamIntegrity": "sha512-CANg4B5oUVoG4w5bRlU/2Uu7ZmamX6l77Z2osrU4OYc6SD3yWXHx+mgj0N3Jzoliw39QlvtlZzN0uh5Z0u6+Lw==",
+      "upstreamShasum": "ee83916c90dddbcca079b4129fdb42c4863104f7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.25.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.19",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-CANg4B5oUVoG4w5bRlU/2Uu7ZmamX6l77Z2osrU4OYc6SD3yWXHx+mgj0N3Jzoliw39QlvtlZzN0uh5Z0u6+Lw==",
+          "shasum": "ee83916c90dddbcca079b4129fdb42c4863104f7"
+        }
+      }
+    },
+    {
+      "version": "1.1.20",
+      "variantId": "registry-package.openupm.com-aec11182c1bb7fe9",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "fb34ff28a2a2450f286117eaf993c8eed2131b5a",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.20.tgz",
+      "upstreamIntegrity": "sha512-nU+ph6C8TqAzqwGCwkRv4A/qhtdqyJt0EkGiAk283n3L+AFrXfcKAXt+NBDyz48EpkaGh78mROUH7dnWSxJEtg==",
+      "upstreamShasum": "c84a51b4af8490c6727c750d31de09dcb437029d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.27.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.20",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-nU+ph6C8TqAzqwGCwkRv4A/qhtdqyJt0EkGiAk283n3L+AFrXfcKAXt+NBDyz48EpkaGh78mROUH7dnWSxJEtg==",
+          "shasum": "c84a51b4af8490c6727c750d31de09dcb437029d"
+        }
+      }
+    },
+    {
+      "version": "1.1.21",
+      "variantId": "registry-package.openupm.com-f2cc803a6b9b6d7a",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "ec217373b67fc80c63eb8caeee4b50eb277dd025",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.21.tgz",
+      "upstreamIntegrity": "sha512-cXOTvxoTan4zSKoDmiYOWG1u1l3wVlhqVMTJa0uDD90wojkrts4rv0Ioc/YyzXB1kZSTxaPvlSZnX1Jmn8dqVg==",
+      "upstreamShasum": "859c38ad938ef6694340be5147056833689384b8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.28.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.21",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-cXOTvxoTan4zSKoDmiYOWG1u1l3wVlhqVMTJa0uDD90wojkrts4rv0Ioc/YyzXB1kZSTxaPvlSZnX1Jmn8dqVg==",
+          "shasum": "859c38ad938ef6694340be5147056833689384b8"
+        }
+      }
+    },
+    {
+      "version": "1.1.22",
+      "variantId": "registry-package.openupm.com-d4acfa295d3f54a5",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "5430cd654d42a2b8a2fc1a65bc61505260d1b301",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.22.tgz",
+      "upstreamIntegrity": "sha512-bZJm6tFfaZSIoAI0oiDpFk6v/TinTlL+dkQG3PafH6v145jdoAx2pAG2jVn6/Ak1/5433jCjL5MwlkOYM+XTwA==",
+      "upstreamShasum": "7de857846f9b89a72e9466a50f7f1056c9444620",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.28.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.22",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-bZJm6tFfaZSIoAI0oiDpFk6v/TinTlL+dkQG3PafH6v145jdoAx2pAG2jVn6/Ak1/5433jCjL5MwlkOYM+XTwA==",
+          "shasum": "7de857846f9b89a72e9466a50f7f1056c9444620"
+        }
+      }
+    },
+    {
+      "version": "1.1.23",
+      "variantId": "registry-package.openupm.com-582f989c19506699",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "839d27b367fd88585bf2d794da01da9b36615392",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.23.tgz",
+      "upstreamIntegrity": "sha512-kolDq+XwXv/xv9Qm2GXa2AGuSRBXoOQ1uhxdL6Cfv/eNaxyT1JYB2OQujRj3jevV+wL+bEeWDZZAnVHr4ecPgA==",
+      "upstreamShasum": "b8fe0e9b3e3153f401343fe655165253ecc29bec",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.29.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.23",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-kolDq+XwXv/xv9Qm2GXa2AGuSRBXoOQ1uhxdL6Cfv/eNaxyT1JYB2OQujRj3jevV+wL+bEeWDZZAnVHr4ecPgA==",
+          "shasum": "b8fe0e9b3e3153f401343fe655165253ecc29bec"
+        }
+      }
+    },
+    {
+      "version": "1.1.24",
+      "variantId": "registry-package.openupm.com-6e667177fcbc23e3",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "ad2fc94c5b2940890bbf9639f391f776ab19f073",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.24.tgz",
+      "upstreamIntegrity": "sha512-D8HOQFG5qajujCs+UmW/J+EsWz4u/NlXnAP3Krgz9lyHVbCQSHhMG9I+mhayDpOBsGRcjaDswHsQeTIWM2UJQA==",
+      "upstreamShasum": "a62a44d1c20675b5894ba693da2cadb7795f756c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.30.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.24",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-D8HOQFG5qajujCs+UmW/J+EsWz4u/NlXnAP3Krgz9lyHVbCQSHhMG9I+mhayDpOBsGRcjaDswHsQeTIWM2UJQA==",
+          "shasum": "a62a44d1c20675b5894ba693da2cadb7795f756c"
+        }
+      }
+    },
+    {
+      "version": "1.1.25",
+      "variantId": "registry-package.openupm.com-46602480e20c6727",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "2b64f52e64aae18e41a20cd1b838f56a52d0cf87",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.25.tgz",
+      "upstreamIntegrity": "sha512-v5VMD1pN4x8K/o4f5wdlx1pCX/Gyr/izsSYJLFdSmyDK3ga010l86fGU9VsVGt146WDD4/MXqhTtWNA/Bg1IRA==",
+      "upstreamShasum": "cdc0f144502e996882486ada70d4ed1cee987595",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.31.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.25",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-v5VMD1pN4x8K/o4f5wdlx1pCX/Gyr/izsSYJLFdSmyDK3ga010l86fGU9VsVGt146WDD4/MXqhTtWNA/Bg1IRA==",
+          "shasum": "cdc0f144502e996882486ada70d4ed1cee987595"
+        }
+      }
+    },
+    {
+      "version": "1.1.26",
+      "variantId": "registry-package.openupm.com-58d72e5ce3fd711e",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "7bbf3150f906045f8d03553a2a332e5bb8daf750",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.26.tgz",
+      "upstreamIntegrity": "sha512-ArHZBBkoEKDHjVxzcqAQbytMGOyhVH9cAKnq9HT1UVZRPgAxbiAPKidcPDx1McA1qa8URnvWxxmFrerHSyw+Fg==",
+      "upstreamShasum": "ca84ba570e7457e1ba88f247a0fe6a03b1649385",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.31.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.26",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ArHZBBkoEKDHjVxzcqAQbytMGOyhVH9cAKnq9HT1UVZRPgAxbiAPKidcPDx1McA1qa8URnvWxxmFrerHSyw+Fg==",
+          "shasum": "ca84ba570e7457e1ba88f247a0fe6a03b1649385"
+        }
+      }
+    },
+    {
+      "version": "1.1.27",
+      "variantId": "registry-package.openupm.com-f00ae357e22df3b2",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "d3d4033df7ba93d73df26ebcd16c3d6b68b90ded",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.1.27.tgz",
+      "upstreamIntegrity": "sha512-OxHNxD4mQwU6dWzaJa2zGGgZpMXGYisjVPTecJUzrTbVtc2qijpEldrw7EDXHSkar/boaSaZB9qBCa+SKAQy7g==",
+      "upstreamShasum": "1823f3048d59e3b262eaa5c66f59e3615d95e04d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.33.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.1.27",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-OxHNxD4mQwU6dWzaJa2zGGgZpMXGYisjVPTecJUzrTbVtc2qijpEldrw7EDXHSkar/boaSaZB9qBCa+SKAQy7g==",
+          "shasum": "1823f3048d59e3b262eaa5c66f59e3615d95e04d"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-b81af7fa7e28d1d1",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "cd4483111d8ebe7154c650d9e4117d1fc8fea7e8",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-qeVmn/05q/eC9ngOKxtPWTc69bfnA47xsj9NqTGB3kK3BDPELJoxqHshWguAcD9MT3mO6Mp2NZVKtqpFuv1bRg==",
+      "upstreamShasum": "a5b6dccdf4736727a5cd284321356af4e40621c1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.34.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.0",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qeVmn/05q/eC9ngOKxtPWTc69bfnA47xsj9NqTGB3kK3BDPELJoxqHshWguAcD9MT3mO6Mp2NZVKtqpFuv1bRg==",
+          "shasum": "a5b6dccdf4736727a5cd284321356af4e40621c1"
+        }
+      }
+    },
+    {
+      "version": "1.2.1",
+      "variantId": "registry-package.openupm.com-fc954828883e249d",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "6427fe9c965d395b7fb4817c6489b6bf7c5b4d61",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.1.tgz",
+      "upstreamIntegrity": "sha512-i78bWfHDRN9PwZeat/DjfeG/IMTFYnBrBINId0sLF0MKgIMNc+2ArEtyUdMP9Sw1FA5yEyoWbuQAwhOMpTaMew==",
+      "upstreamShasum": "b840732c26b366294284f0e18583449550b74337",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.35.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.1",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-i78bWfHDRN9PwZeat/DjfeG/IMTFYnBrBINId0sLF0MKgIMNc+2ArEtyUdMP9Sw1FA5yEyoWbuQAwhOMpTaMew==",
+          "shasum": "b840732c26b366294284f0e18583449550b74337"
+        }
+      }
+    },
+    {
+      "version": "1.2.2",
+      "variantId": "registry-package.openupm.com-418ea07b643db683",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "bacc95d417621b071ec277e2636700faef47c8ae",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.2.tgz",
+      "upstreamIntegrity": "sha512-fnn2o1HP2GX0E9H2XebD5ZyNJvcC4de5hVlMchNkZWcu8gzpPgFkCuWIYqtvmJej/FOaYmqbNnKysMZLLJemUw==",
+      "upstreamShasum": "dc8645e4dd91e4bcc289e25601844e362a78d1a3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.36.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.2",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fnn2o1HP2GX0E9H2XebD5ZyNJvcC4de5hVlMchNkZWcu8gzpPgFkCuWIYqtvmJej/FOaYmqbNnKysMZLLJemUw==",
+          "shasum": "dc8645e4dd91e4bcc289e25601844e362a78d1a3"
+        }
+      }
+    },
+    {
+      "version": "1.2.3",
+      "variantId": "registry-package.openupm.com-e11f03c5eb0ea125",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "6574803f0cceac234b436f8c79a01f79ed0658d2",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.3.tgz",
+      "upstreamIntegrity": "sha512-04jydKtrGwoT7+8oVlo6fcWe9Pvh1tKGQDRaNnS3pWvdEAT+y+Oo0vskSfj4ciVAOGoGUh5razpchwND3nQURg==",
+      "upstreamShasum": "d6d8e48972e79a0c53b71ce738d86c2b0fa08714",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.36.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.3",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-04jydKtrGwoT7+8oVlo6fcWe9Pvh1tKGQDRaNnS3pWvdEAT+y+Oo0vskSfj4ciVAOGoGUh5razpchwND3nQURg==",
+          "shasum": "d6d8e48972e79a0c53b71ce738d86c2b0fa08714"
+        }
+      }
+    },
+    {
+      "version": "1.2.4",
+      "variantId": "registry-package.openupm.com-a061b7c1839f9307",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "39e4dba5d71d3614034562bc517ab27d05c708b3",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.4.tgz",
+      "upstreamIntegrity": "sha512-BlgzEVkrVyuNQInoSeCnQ/+pzXmZVyLQZwGO4hVzVkHAHj7BlOVPGmzvX4i6jZ216shipjaJsPd0tkinUasCkA==",
+      "upstreamShasum": "9ffb2a3651b5d8c067fdd48e44eb4a0a0d7b653c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.36.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.4",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-BlgzEVkrVyuNQInoSeCnQ/+pzXmZVyLQZwGO4hVzVkHAHj7BlOVPGmzvX4i6jZ216shipjaJsPd0tkinUasCkA==",
+          "shasum": "9ffb2a3651b5d8c067fdd48e44eb4a0a0d7b653c"
+        }
+      }
+    },
+    {
+      "version": "1.2.5",
+      "variantId": "registry-package.openupm.com-8fa9fbb4d08bac0a",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "edb1315477390cc1700bd0a51a2c86b1081f4bbc",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.5.tgz",
+      "upstreamIntegrity": "sha512-2/eFlmVEqrA8zYSdnZVIkWEFnFvKpMcwjfxMyMeYaxW/v92Fk/0bhQ3sidJl8vJRa0eol4Y+8+PKIy5lJhqrww==",
+      "upstreamShasum": "5c3000b17ba42afd023a0729e75815d4f5f7ce49",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.37.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.5",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2/eFlmVEqrA8zYSdnZVIkWEFnFvKpMcwjfxMyMeYaxW/v92Fk/0bhQ3sidJl8vJRa0eol4Y+8+PKIy5lJhqrww==",
+          "shasum": "5c3000b17ba42afd023a0729e75815d4f5f7ce49"
+        }
+      }
+    },
+    {
+      "version": "1.2.6",
+      "variantId": "registry-package.openupm.com-994e3d74e540016d",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "33f5dfcc1f58aff5a81588c4d9e4d5c167a0a8cb",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.6.tgz",
+      "upstreamIntegrity": "sha512-67InfJA1L4VXi8SerLkrsc5s8o94f4mdWf0akfECDEjrvs0EOpPE7IKO48ZjgMbUi9PcEZeOuNUK7hVgNRxAMw==",
+      "upstreamShasum": "54ad5a8c5d731a2d12ad9e34cf6283e0f5f25750",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.38.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.6",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-67InfJA1L4VXi8SerLkrsc5s8o94f4mdWf0akfECDEjrvs0EOpPE7IKO48ZjgMbUi9PcEZeOuNUK7hVgNRxAMw==",
+          "shasum": "54ad5a8c5d731a2d12ad9e34cf6283e0f5f25750"
+        }
+      }
+    },
+    {
+      "version": "1.2.7",
+      "variantId": "registry-package.openupm.com-b61de135741babb5",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "ce6d7be4d95c3d1ce6d05c5636f9ab237dbf6dfb",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.7.tgz",
+      "upstreamIntegrity": "sha512-4JxkK3kkI0oVr7XsEfMaiR9h8RVH6g43/lZCSdyJAmdx7t5IcM3o6WOYXrcKguW1UVIvXGfeGUwTMX9rXmOw/w==",
+      "upstreamShasum": "d714b658d5b8118f4abd6458705834874a45f7b7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.38.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.7",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4JxkK3kkI0oVr7XsEfMaiR9h8RVH6g43/lZCSdyJAmdx7t5IcM3o6WOYXrcKguW1UVIvXGfeGUwTMX9rXmOw/w==",
+          "shasum": "d714b658d5b8118f4abd6458705834874a45f7b7"
+        }
+      }
+    },
+    {
+      "version": "1.2.8",
+      "variantId": "registry-package.openupm.com-8c86aba650c9d6cb",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "fd17c8042cff43de2952bf95782eb982dd6fdc80",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.8.tgz",
+      "upstreamIntegrity": "sha512-oFAE9mFlsZxBtFXu9Ze830rEvaEbZCOIye15Gvj4YSKytQv9qc51nNX9oBglkmnsV3xmvTp04ErQUmvJcP/ZLQ==",
+      "upstreamShasum": "5e7da0fd9b64f277374f0d55d3e530429a43b676",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.39.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.8",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oFAE9mFlsZxBtFXu9Ze830rEvaEbZCOIye15Gvj4YSKytQv9qc51nNX9oBglkmnsV3xmvTp04ErQUmvJcP/ZLQ==",
+          "shasum": "5e7da0fd9b64f277374f0d55d3e530429a43b676"
+        }
+      }
+    },
+    {
+      "version": "1.2.9",
+      "variantId": "registry-package.openupm.com-d77817e36d7bef89",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "5ee908ae4a6e445bac7b0de7bccc12e5a05f9c66",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.9.tgz",
+      "upstreamIntegrity": "sha512-0vusu+Gv8roUhMVAbRbFhOglZ50AYG72WjYu29mpTBYkj3BSceMLQ9rDQHeLKERgqFuK1z7bKZxN3STjCJyolw==",
+      "upstreamShasum": "129ac8b18a6cda6d25f97a210288a4e872d1c345",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.40.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.9",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-0vusu+Gv8roUhMVAbRbFhOglZ50AYG72WjYu29mpTBYkj3BSceMLQ9rDQHeLKERgqFuK1z7bKZxN3STjCJyolw==",
+          "shasum": "129ac8b18a6cda6d25f97a210288a4e872d1c345"
+        }
+      }
+    },
+    {
+      "version": "1.2.10",
+      "variantId": "registry-package.openupm.com-4563c0cda40ccb51",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "4d1dd260afefda21c78f0840faa02c60dcb3c6b0",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.10.tgz",
+      "upstreamIntegrity": "sha512-I157s07JfkGPexZxHXAc4mGneNAMJaDDUhrfHwQd2Vhsub16w/F3vegfcp65BwrQsTmO/RADZe9ZTHoX46EH/w==",
+      "upstreamShasum": "e117e19475442d79025e67fdfb58f0a4d53159e9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.41.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.10",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-I157s07JfkGPexZxHXAc4mGneNAMJaDDUhrfHwQd2Vhsub16w/F3vegfcp65BwrQsTmO/RADZe9ZTHoX46EH/w==",
+          "shasum": "e117e19475442d79025e67fdfb58f0a4d53159e9"
+        }
+      }
+    },
+    {
+      "version": "1.2.11",
+      "variantId": "registry-package.openupm.com-458187e8e48e6591",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "62d4d3bd859fbe681aa0905ecb94bc0d8213ea5e",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.11.tgz",
+      "upstreamIntegrity": "sha512-J2XjovnyJWhw9SPFyEim7eCZmQtvfX6kqpy6NDx157nxWynu+4ARIlDZgqGmdmYCnhY1TQ7JFo4u9a7UzSyukw==",
+      "upstreamShasum": "56331c03113faa4161ae57e83b00a1d7b5404254",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.42.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.11",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-J2XjovnyJWhw9SPFyEim7eCZmQtvfX6kqpy6NDx157nxWynu+4ARIlDZgqGmdmYCnhY1TQ7JFo4u9a7UzSyukw==",
+          "shasum": "56331c03113faa4161ae57e83b00a1d7b5404254"
+        }
+      }
+    },
+    {
+      "version": "1.2.12",
+      "variantId": "registry-package.openupm.com-4326c50b60d900e3",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "2b11f1b18306e9aeb5b81841f08ed79255219af9",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.12.tgz",
+      "upstreamIntegrity": "sha512-dXu/ZT2U7tCOBpk0kdQrvFe3EleFvJ8RNDk2ybITw5XK0B3/nftE6PurmSo6pKzKCNPZIDAf4h28EPQnjC5Wdg==",
+      "upstreamShasum": "9610a7420277089ef160dd0db82b72162d76f883",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.43.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.12",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dXu/ZT2U7tCOBpk0kdQrvFe3EleFvJ8RNDk2ybITw5XK0B3/nftE6PurmSo6pKzKCNPZIDAf4h28EPQnjC5Wdg==",
+          "shasum": "9610a7420277089ef160dd0db82b72162d76f883"
+        }
+      }
+    },
+    {
+      "version": "1.2.13",
+      "variantId": "registry-package.openupm.com-a344a98b89213ae6",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "6e83d3d72857eeccc79a4876106ebdc83c313ebc",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.13.tgz",
+      "upstreamIntegrity": "sha512-wjeaqCibZ4VZjdmhdoA0dUC2LmRwwXKniWHRKburqH6N73KxFk/uqptLjAueD/7v/8kUIg2QhT1McxeKN0oaiA==",
+      "upstreamShasum": "13cfdf4a1e9a9e33f96090a4bbd096454256c06a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.44.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.13",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wjeaqCibZ4VZjdmhdoA0dUC2LmRwwXKniWHRKburqH6N73KxFk/uqptLjAueD/7v/8kUIg2QhT1McxeKN0oaiA==",
+          "shasum": "13cfdf4a1e9a9e33f96090a4bbd096454256c06a"
+        }
+      }
+    },
+    {
+      "version": "1.2.14",
+      "variantId": "registry-package.openupm.com-bb5d4df95c73e31e",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "4dbe936309bed8871b794090dff8bdbaa3601089",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.14.tgz",
+      "upstreamIntegrity": "sha512-jSkZVbfA8MykRqXmfIJ+tdBZNubcVQTNgUAjDkGBnZxQlRYbqHVNpliy19aY6wzJthSVxvyMZRajjI+JJk0+RA==",
+      "upstreamShasum": "ce568be4d2f7abdc4587cbfc2f3fccd4c00d873b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.45.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.14",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-jSkZVbfA8MykRqXmfIJ+tdBZNubcVQTNgUAjDkGBnZxQlRYbqHVNpliy19aY6wzJthSVxvyMZRajjI+JJk0+RA==",
+          "shasum": "ce568be4d2f7abdc4587cbfc2f3fccd4c00d873b"
+        }
+      }
+    },
+    {
+      "version": "1.2.15",
+      "variantId": "registry-package.openupm.com-6e28d7511cf17053",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "36bdeeee5676d7f7ea649f0ae4316cda7f905dda",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.2.15.tgz",
+      "upstreamIntegrity": "sha512-DbOzWCjZPIYqjwDvc6MFaUdau5KR/+/CdSF+66MNyPtlY1g21lN6SAknxnnps6QOEPaiAcF/565ZtNOnxYiwXg==",
+      "upstreamShasum": "98b370fe3c94247d22295deebc4192b53ed5d59a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.46.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.2.15",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-DbOzWCjZPIYqjwDvc6MFaUdau5KR/+/CdSF+66MNyPtlY1g21lN6SAknxnnps6QOEPaiAcF/565ZtNOnxYiwXg==",
+          "shasum": "98b370fe3c94247d22295deebc4192b53ed5d59a"
+        }
+      }
+    },
+    {
+      "version": "1.3.0",
+      "variantId": "registry-package.openupm.com-b2609f2202cac181",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "f897db2ec9d80d2182932abde8322d3a67b90742",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.3.0.tgz",
+      "upstreamIntegrity": "sha512-P4Nm6CN65IYPU5GhQPHo3Apfrxn7nDoD6IrjgPBGrz4o9jMD7fsxhJu+oZZHNdKiF7X/WW3n7CIYf71YIbDwbA==",
+      "upstreamShasum": "0cf89995e1feb2c27c91e3d28f31d7c3ba6a8e2a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.46.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.3.0",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-P4Nm6CN65IYPU5GhQPHo3Apfrxn7nDoD6IrjgPBGrz4o9jMD7fsxhJu+oZZHNdKiF7X/WW3n7CIYf71YIbDwbA==",
+          "shasum": "0cf89995e1feb2c27c91e3d28f31d7c3ba6a8e2a"
+        }
+      }
+    },
+    {
+      "version": "1.3.1",
+      "variantId": "registry-package.openupm.com-d76fc1c3fa7b133d",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "123e55d27fdeb67b1e098bd38ec85a7b5e271a2a",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.3.1.tgz",
+      "upstreamIntegrity": "sha512-4h7zr5WF/4bm8oaV8qMx/o/6zhJ0UmnHdogD2HwyenSObrijS0AJhnlMQfW8ZwODnyCsjdh/axOO22CAolUUzA==",
+      "upstreamShasum": "25bc2a95a36387e2301cda41188c184e268009a8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.47.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.3.1",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-4h7zr5WF/4bm8oaV8qMx/o/6zhJ0UmnHdogD2HwyenSObrijS0AJhnlMQfW8ZwODnyCsjdh/axOO22CAolUUzA==",
+          "shasum": "25bc2a95a36387e2301cda41188c184e268009a8"
+        }
+      }
+    },
+    {
+      "version": "1.3.2",
+      "variantId": "registry-package.openupm.com-9dc80ffde69793b7",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "6f6cf050f7683c5de915fe239152a48b41d681d9",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-1.3.2.tgz",
+      "upstreamIntegrity": "sha512-qIlM7nG7NKsgRQjtFh3ig8K/QObVXAdEM1NIb8UHDXQR2Y4hY+lwv8ywtdzyQmLj+2tkeuAVRC1asVXoFsL+WQ==",
+      "upstreamShasum": "d04dc2a889d81bbdc571f33243e8a62ba4ef82cb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.47.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/1.3.2",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-qIlM7nG7NKsgRQjtFh3ig8K/QObVXAdEM1NIb8UHDXQR2Y4hY+lwv8ywtdzyQmLj+2tkeuAVRC1asVXoFsL+WQ==",
+          "shasum": "d04dc2a889d81bbdc571f33243e8a62ba4ef82cb"
+        }
+      }
+    },
+    {
+      "version": "2.0.0",
+      "variantId": "registry-package.openupm.com-55fa998b275407ee",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "fc800503c8668353fed626f3ba90dffeeb71bfd6",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.0.tgz",
+      "upstreamIntegrity": "sha512-JvfuAw9iq6GJkTnyfe1E6NeYCvOJmHsygqctivIV+bQKoqx4iKnN394//h1C4HWvugvxSbdkl8ShjOKNDqHeuQ==",
+      "upstreamShasum": "abe82d62fb16f6f95f957fe18d3009455d70369a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "1.47.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.0",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JvfuAw9iq6GJkTnyfe1E6NeYCvOJmHsygqctivIV+bQKoqx4iKnN394//h1C4HWvugvxSbdkl8ShjOKNDqHeuQ==",
+          "shasum": "abe82d62fb16f6f95f957fe18d3009455d70369a"
+        }
+      }
+    },
+    {
+      "version": "2.0.1",
+      "variantId": "registry-package.openupm.com-a9629756aa77e058",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "d2a0e432c42133a740135ae737a4c416111ee172",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.1.tgz",
+      "upstreamIntegrity": "sha512-Of11j2sCJ2vvjaOhmgz5kdxEVW/iHvbiaKT5EmCSe5QNJXzch/EiFK+u7KyhS0mZncrxe6ZXRV0B5IuiILU7Fg==",
+      "upstreamShasum": "6d93260a580024b95bb2b30ddd7489ad04753595",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.1",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Of11j2sCJ2vvjaOhmgz5kdxEVW/iHvbiaKT5EmCSe5QNJXzch/EiFK+u7KyhS0mZncrxe6ZXRV0B5IuiILU7Fg==",
+          "shasum": "6d93260a580024b95bb2b30ddd7489ad04753595"
+        }
+      }
+    },
+    {
+      "version": "2.0.2",
+      "variantId": "registry-package.openupm.com-904d988b734b762a",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "187f2ff81cdcdf925106b33897648dcb7fa84404",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.2.tgz",
+      "upstreamIntegrity": "sha512-b75IOEpPtPYW63tlb+IrDibJ8TMQe5hBCYSslTlJMgL/KslB31HEr1OUQStijksH23rQTg6wh6JXZ+zLtRg6+Q==",
+      "upstreamShasum": "57e977efc7fd357df64bc2b0cb78e2aea416aa43",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.2",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-b75IOEpPtPYW63tlb+IrDibJ8TMQe5hBCYSslTlJMgL/KslB31HEr1OUQStijksH23rQTg6wh6JXZ+zLtRg6+Q==",
+          "shasum": "57e977efc7fd357df64bc2b0cb78e2aea416aa43"
+        }
+      }
+    },
+    {
+      "version": "2.0.3",
+      "variantId": "registry-package.openupm.com-583cfeca24418a61",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "5085737517d339f1c1eaf167f8044e1b11e25654",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.3.tgz",
+      "upstreamIntegrity": "sha512-pyQRu04jtiOreLwGLyu999apGQRJGv8vaFIL2WCT1qqTomAln9Ude2auI42PH7j8SuM+T3Tu9NyQ6+mJHtVwig==",
+      "upstreamShasum": "83231e07236742c63a94ea937a4690a2aaa07ef7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.2.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.3",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-pyQRu04jtiOreLwGLyu999apGQRJGv8vaFIL2WCT1qqTomAln9Ude2auI42PH7j8SuM+T3Tu9NyQ6+mJHtVwig==",
+          "shasum": "83231e07236742c63a94ea937a4690a2aaa07ef7"
+        }
+      }
+    },
+    {
+      "version": "2.0.4",
+      "variantId": "registry-package.openupm.com-83ed0fa91f878a80",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "4c9cd3c8813cdcec1b78b8271eb3077f6b1134c2",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.4.tgz",
+      "upstreamIntegrity": "sha512-eOZlD9ZH3OYp419ZPTkitcCer+vIf7uYNbMzpZNZSNXwsGZn5uI2Qgp5Jl3uadTUNVV+YUrCljlT2tIf6efBIw==",
+      "upstreamShasum": "bb214c0b516b00603504ade45ce5c9aba4d66eb7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.3.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.4",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-eOZlD9ZH3OYp419ZPTkitcCer+vIf7uYNbMzpZNZSNXwsGZn5uI2Qgp5Jl3uadTUNVV+YUrCljlT2tIf6efBIw==",
+          "shasum": "bb214c0b516b00603504ade45ce5c9aba4d66eb7"
+        }
+      }
+    },
+    {
+      "version": "2.0.5",
+      "variantId": "registry-package.openupm.com-40dac81055b02bb2",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "2087f07f7688da099880d0299bdb8c5e00d59b81",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.5.tgz",
+      "upstreamIntegrity": "sha512-md2rVxdduFOfcFZwQFDNk9fwto8Qo2vbUtjGGnF1pUQEO+8cShfWiFKP4bGO2/2xybyk1OHjwJx++/tfQQejvg==",
+      "upstreamShasum": "bd33c3268cb56dc03fdb2c82d7be987c8915e42b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.4.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.5",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-md2rVxdduFOfcFZwQFDNk9fwto8Qo2vbUtjGGnF1pUQEO+8cShfWiFKP4bGO2/2xybyk1OHjwJx++/tfQQejvg==",
+          "shasum": "bd33c3268cb56dc03fdb2c82d7be987c8915e42b"
+        }
+      }
+    },
+    {
+      "version": "2.0.6",
+      "variantId": "registry-package.openupm.com-9aa266c6b43abe90",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "47402104e15cf00d2a7a1a6b72786ccaa17b100a",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.6.tgz",
+      "upstreamIntegrity": "sha512-TBXMSHoWc1cOHJxQA3q1B8qSHvdVCyy19I+9t7lCQsKRN99hxRx8tytiLELcCLrYAerg11PhVazbUxLkdZMK0w==",
+      "upstreamShasum": "fc2405ad60e8af4463cb70d183e9cbc58211fc65",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.5.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.6",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-TBXMSHoWc1cOHJxQA3q1B8qSHvdVCyy19I+9t7lCQsKRN99hxRx8tytiLELcCLrYAerg11PhVazbUxLkdZMK0w==",
+          "shasum": "fc2405ad60e8af4463cb70d183e9cbc58211fc65"
+        }
+      }
+    },
+    {
+      "version": "2.0.7",
+      "variantId": "registry-package.openupm.com-4171178c29e91735",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "d877e54489f2e850945cd5356e1a5d5a2bce6478",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.7.tgz",
+      "upstreamIntegrity": "sha512-r6+2Pm2p6ORgpd3xIOuUUaQ32YHxeW26l6nXspaYNGxgtBJ7j/LPocxyjUBkD0vdpmlCe/9M7ENK+kxHQNJ22A==",
+      "upstreamShasum": "a47ac94a282951805e9713ed900773b565a1e353",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.6.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.7",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-r6+2Pm2p6ORgpd3xIOuUUaQ32YHxeW26l6nXspaYNGxgtBJ7j/LPocxyjUBkD0vdpmlCe/9M7ENK+kxHQNJ22A==",
+          "shasum": "a47ac94a282951805e9713ed900773b565a1e353"
+        }
+      }
+    },
+    {
+      "version": "2.0.8",
+      "variantId": "registry-package.openupm.com-3cbf64251a1b68c2",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "cb60557b7c0455841401d2ad13a2ff0d3845c802",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.8.tgz",
+      "upstreamIntegrity": "sha512-2f05wkoCedJods8GNo6mLdHj7b82hg7Aj0y9q93IAzu4I8ikVcKNIClO8CcKpvlkORUl+IdZym32p1EY1msoAw==",
+      "upstreamShasum": "446a288a39ba66afd390c1fa3bce0adcbd4db948",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.7.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.8",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-2f05wkoCedJods8GNo6mLdHj7b82hg7Aj0y9q93IAzu4I8ikVcKNIClO8CcKpvlkORUl+IdZym32p1EY1msoAw==",
+          "shasum": "446a288a39ba66afd390c1fa3bce0adcbd4db948"
+        }
+      }
+    },
+    {
+      "version": "2.0.9",
+      "variantId": "registry-package.openupm.com-dfddbf99762d70b3",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "0da91adb1dcec675373bd4f314923089566861ce",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.9.tgz",
+      "upstreamIntegrity": "sha512-L+5wf4qgq6eowMmDwFbXEaYvnXXRs5INnolccqRoWcZmg6dYstOxcafvCzHaEVdCjySTse8qRl5s94l1aH/pUw==",
+      "upstreamShasum": "3766d77f611ea52fc11f9045931e119252193d64",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.7.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.9",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-L+5wf4qgq6eowMmDwFbXEaYvnXXRs5INnolccqRoWcZmg6dYstOxcafvCzHaEVdCjySTse8qRl5s94l1aH/pUw==",
+          "shasum": "3766d77f611ea52fc11f9045931e119252193d64"
+        }
+      }
+    },
+    {
+      "version": "2.0.10",
+      "variantId": "registry-package.openupm.com-37ca7623cf9895f0",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "d0179e5f937159b7557ac5b0214cc090d3a32e06",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.10.tgz",
+      "upstreamIntegrity": "sha512-9T4UWOzPitVqK6LcxL35UArffHSAOu+RCiA1Qmf2y9rh4eR8xnyrCZXDbX1HzK/heiTjXFhrx+fLwePOFlaUoQ==",
+      "upstreamShasum": "c9959f43c485ce266ab796f6639fe7b38a6ad328",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.7.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.10",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-9T4UWOzPitVqK6LcxL35UArffHSAOu+RCiA1Qmf2y9rh4eR8xnyrCZXDbX1HzK/heiTjXFhrx+fLwePOFlaUoQ==",
+          "shasum": "c9959f43c485ce266ab796f6639fe7b38a6ad328"
+        }
+      }
+    },
+    {
+      "version": "2.0.11",
+      "variantId": "registry-package.openupm.com-a112584bfd1ebb95",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "9553d4bc1ab73ad3e14250d1ccb1c29349d48491",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.11.tgz",
+      "upstreamIntegrity": "sha512-F8aRf08ZMMPXUsOjPSxhKH6mCEH677vYCB6iKA62RMBapeiE0QBSQs4LNNyTZyf0VQW0TutJk37HB17gGvXYmQ==",
+      "upstreamShasum": "3ea2733df0953cd0e5b53e7adac31ae29ddea21f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.8.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.11",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-F8aRf08ZMMPXUsOjPSxhKH6mCEH677vYCB6iKA62RMBapeiE0QBSQs4LNNyTZyf0VQW0TutJk37HB17gGvXYmQ==",
+          "shasum": "3ea2733df0953cd0e5b53e7adac31ae29ddea21f"
+        }
+      }
+    },
+    {
+      "version": "2.0.12",
+      "variantId": "registry-package.openupm.com-af020efe30a85d21",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "a2e3aceeb63bb2a40b4d192415fa9d89adaae2d2",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.12.tgz",
+      "upstreamIntegrity": "sha512-yTsoBJFlOcJg+16fOn4+GvfjOfMbv9GM4gNoOWITrFYGwwdoJy4/OTldKKKE3d4Wq+tlbsN3DprRCqB7AghN7A==",
+      "upstreamShasum": "6eb81ad7dcaeba64ea5079de5babce2eb2f9807c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.9.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.12",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yTsoBJFlOcJg+16fOn4+GvfjOfMbv9GM4gNoOWITrFYGwwdoJy4/OTldKKKE3d4Wq+tlbsN3DprRCqB7AghN7A==",
+          "shasum": "6eb81ad7dcaeba64ea5079de5babce2eb2f9807c"
+        }
+      }
+    },
+    {
+      "version": "2.0.13",
+      "variantId": "registry-package.openupm.com-771cfaed6383a066",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "4c5a7482683455ff4e417fac9c41de058b035810",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.13.tgz",
+      "upstreamIntegrity": "sha512-3FbbAh6Ga8MKpbLCRDNqgry6FTupFfwJ9ozKkkjgNKXqEvfVivp4PKkKVTJotMrEzdTxiUZtz33ZPweOzm5inQ==",
+      "upstreamShasum": "a439350ced3e6bc4eaf9fc21760bc1c2f9f93133",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.10.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.13",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-3FbbAh6Ga8MKpbLCRDNqgry6FTupFfwJ9ozKkkjgNKXqEvfVivp4PKkKVTJotMrEzdTxiUZtz33ZPweOzm5inQ==",
+          "shasum": "a439350ced3e6bc4eaf9fc21760bc1c2f9f93133"
+        }
+      }
+    },
+    {
+      "version": "2.0.14",
+      "variantId": "registry-package.openupm.com-ab9712b3441a46ac",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "971fa897c9e8e73edb4fd0f6cc68ef3de97adb7b",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.14.tgz",
+      "upstreamIntegrity": "sha512-dEpiOVLQ9q7L1cSEUDjY0RdvoS2Cy57bmMZ+42wVxYew3WPFRsQN+5tUmul5wh97a+pHy8pbRm/Gy8+EDUfMpA==",
+      "upstreamShasum": "c86081f70c5ac55be674a810c9c328e28e501c7d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.11.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.14",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-dEpiOVLQ9q7L1cSEUDjY0RdvoS2Cy57bmMZ+42wVxYew3WPFRsQN+5tUmul5wh97a+pHy8pbRm/Gy8+EDUfMpA==",
+          "shasum": "c86081f70c5ac55be674a810c9c328e28e501c7d"
+        }
+      }
+    },
+    {
+      "version": "2.0.15",
+      "variantId": "registry-package.openupm.com-68ee4fa0a1a4107a",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "ca2e925b08491562f9df0bb89b0c022251745688",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.15.tgz",
+      "upstreamIntegrity": "sha512-iOQ1kG0PgFeALjD/QAT3XjsNvtplB3p1eItRWxvzcvWNrDFNkhA+YJYp5P7bX/JlEXwxLeweSRkW/4mj4p93UQ==",
+      "upstreamShasum": "3033191e09bb5ad0d99cd10454df87c29fb1722e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.12.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.15",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iOQ1kG0PgFeALjD/QAT3XjsNvtplB3p1eItRWxvzcvWNrDFNkhA+YJYp5P7bX/JlEXwxLeweSRkW/4mj4p93UQ==",
+          "shasum": "3033191e09bb5ad0d99cd10454df87c29fb1722e"
+        }
+      }
+    },
+    {
+      "version": "2.0.16",
+      "variantId": "registry-package.openupm.com-3b9bb19073c6fd30",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "2f155909099a277be47d7748618c59d8816afc88",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.16.tgz",
+      "upstreamIntegrity": "sha512-GWuaL1Pmgd/h/ionzwpu1a76XsEFMZLL8ExT6MV7BOSEagR8Dl2DKwSkAfHUNeqVrgoLrQjuskcEnjfmzT40qw==",
+      "upstreamShasum": "5d9bb899e78fa2020a649767403b83c4b248b0a0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.12.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.16",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-GWuaL1Pmgd/h/ionzwpu1a76XsEFMZLL8ExT6MV7BOSEagR8Dl2DKwSkAfHUNeqVrgoLrQjuskcEnjfmzT40qw==",
+          "shasum": "5d9bb899e78fa2020a649767403b83c4b248b0a0"
+        }
+      }
+    },
+    {
+      "version": "2.0.17",
+      "variantId": "registry-package.openupm.com-ec37c069b7f1964b",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "8c6ef865b2388687ba9902a014b1bc4a457b0cab",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.17.tgz",
+      "upstreamIntegrity": "sha512-D894OjcSySyiIAlaGeBzbqpRSVaIRY3vy9oYX0yhtxdsvBaSeBwMLRPpOJNVhfUw1VH+UKmlH30rhWuiQUBITg==",
+      "upstreamShasum": "16efc1ca4a7723a5cebd2d57bef9190813c43239",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.13.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.17",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-D894OjcSySyiIAlaGeBzbqpRSVaIRY3vy9oYX0yhtxdsvBaSeBwMLRPpOJNVhfUw1VH+UKmlH30rhWuiQUBITg==",
+          "shasum": "16efc1ca4a7723a5cebd2d57bef9190813c43239"
+        }
+      }
+    },
+    {
+      "version": "2.0.18",
+      "variantId": "registry-package.openupm.com-895f9a1da43da440",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "81260aec95a89e077590366fc4a22adbbf21fbe9",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.18.tgz",
+      "upstreamIntegrity": "sha512-u+1J6lWFbz3T8PY9h+L6Sz1wnpLvjXdAnR/Y8UAV6iNoc4mdqWGgz+CBUrIfBUc7nKn7fXK5ZMNi2qfFAT//QA==",
+      "upstreamShasum": "90832ca05d4ddfd74a2072c49a5e1afa174a3812",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.14.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.18",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-u+1J6lWFbz3T8PY9h+L6Sz1wnpLvjXdAnR/Y8UAV6iNoc4mdqWGgz+CBUrIfBUc7nKn7fXK5ZMNi2qfFAT//QA==",
+          "shasum": "90832ca05d4ddfd74a2072c49a5e1afa174a3812"
+        }
+      }
+    },
+    {
+      "version": "2.0.19",
+      "variantId": "registry-package.openupm.com-74d2cb30e4e745dd",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "e109ba0a4d292bff4b2b7cde5450f19dbdbe2bdf",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.19.tgz",
+      "upstreamIntegrity": "sha512-MSZh2ht+26wEvHlESQ7Shs7+aBr6rncC0b0pDfBJEDCg6WqCs99LJG4EtKrEMyE+7+AZPdFu948/79A2WGy/QQ==",
+      "upstreamShasum": "be108722e9f0847fd6079f2788f40304fddf0728",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.15.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.19",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-MSZh2ht+26wEvHlESQ7Shs7+aBr6rncC0b0pDfBJEDCg6WqCs99LJG4EtKrEMyE+7+AZPdFu948/79A2WGy/QQ==",
+          "shasum": "be108722e9f0847fd6079f2788f40304fddf0728"
+        }
+      }
+    },
+    {
+      "version": "2.0.20",
+      "variantId": "registry-package.openupm.com-7f316a541f3a3403",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "c0a36000c4c5d18b3e824e14f5fb7b7e5da37bae",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.20.tgz",
+      "upstreamIntegrity": "sha512-NjAu+cWT5mFRtyqdHQt4OnPHepZbXimqL7gGMGiYpLzjaNV+DWaNcPJwtCq4oeAVtaxZ6vG6ndniux1AraaXww==",
+      "upstreamShasum": "b01a7ad50b68059fd9ef6b040e59b64772f5d8e5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.16.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.20",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-NjAu+cWT5mFRtyqdHQt4OnPHepZbXimqL7gGMGiYpLzjaNV+DWaNcPJwtCq4oeAVtaxZ6vG6ndniux1AraaXww==",
+          "shasum": "b01a7ad50b68059fd9ef6b040e59b64772f5d8e5"
+        }
+      }
+    },
+    {
+      "version": "2.0.21",
+      "variantId": "registry-package.openupm.com-923e518c2624aa76",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "5b8e6dcec2bc39323d3dca3db24d59e115f1d672",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.21.tgz",
+      "upstreamIntegrity": "sha512-7jKzQnhpYTFlWFTuZ/SQJZcS6s5bE5JsB2+17NLXAXlcfTXSejGtEvWPEKal5ToloSkTYPkfwbbjqscxMoDMDg==",
+      "upstreamShasum": "c383c14ade69569f2ef4bc0358a63b2997a86de8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.16.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.21",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-7jKzQnhpYTFlWFTuZ/SQJZcS6s5bE5JsB2+17NLXAXlcfTXSejGtEvWPEKal5ToloSkTYPkfwbbjqscxMoDMDg==",
+          "shasum": "c383c14ade69569f2ef4bc0358a63b2997a86de8"
+        }
+      }
+    },
+    {
+      "version": "2.0.22",
+      "variantId": "registry-package.openupm.com-20b49449700d79fe",
+      "sourceUrl": "ssh://git@github.com/ExtendRealityLtd/Tilia.Mutators.CollisionIgnorer.Unity.git",
+      "sourceRef": "412ce204457682c695306fe03a788da3b922ba6b",
+      "downloadUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/-/io.extendreality.tilia.mutators.collisionignorer.unity-2.0.22.tgz",
+      "upstreamIntegrity": "sha512-8Rubib9N12gTRjXi0E9TCibv1Ln1J32UaSgZlcrlDVqi0cZ/woRhuUNuZ8Uc82Rg/+8zjBAsm9rydj+X467qOQ==",
+      "upstreamShasum": "455e098f043dbaf925d9c254c7bf505675ea6305",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "io.extendreality.zinnia.unity": "2.16.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/io.extendreality.tilia.mutators.collisionignorer.unity/2.0.22",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-8Rubib9N12gTRjXi0E9TCibv1Ln1J32UaSgZlcrlDVqi0cZ/woRhuUNuZ8Uc82Rg/+8zjBAsm9rydj+X467qOQ==",
+          "shasum": "455e098f043dbaf925d9c254c7bf505675ea6305"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.0.22"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/io.extendreality.tilia.mutators.collisionignorer.unity.yml",
+  "definitionBlobSha": "7e1ba550607326b3788188fb399d560a22e2b80a",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.1.4",
+    "2.0.22",
+    "1.1.3"
+  ],
+  "targetVersions": [
+    "1.1.4"
+  ],
+  "missingTargetVersions": [],
+  "allListedVersions": 71,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

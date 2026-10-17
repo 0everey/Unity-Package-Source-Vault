@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.com2usplatform.hiveaxyl.analytics",
+  "displayName": "com.com2usplatform.hiveaxyl.analytics",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.com2usplatform.hiveaxyl.analytics",
+      "fetchedAt": "2026-10-17T17:37:06.124498Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-437af4d1e0ccd78d",
+      "sourceUrl": "https://github.com/com2usplatform/hiveaxyl-sdk-unity.git",
+      "sourceRef": "54229b33754d3d8f54973c369c12470cafdcfb5b",
+      "downloadUrl": "https://package.openupm.com/com.com2usplatform.hiveaxyl.analytics/-/com.com2usplatform.hiveaxyl.analytics-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-wM9KtADj2IUAN6DIOtqQKLetJo5jF2i04DuCzmJD4TIgwH5fTPVvXoJo5KgvFvBKwfYIFybIGcXV4cV9+Y8IlA==",
+      "upstreamShasum": "71d15210468266e00cd3c2a566ffd35f5d9f137d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "Apache-2.0",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.com2usplatform.hiveaxyl.core": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.com2usplatform.hiveaxyl.analytics/1.0.0",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-wM9KtADj2IUAN6DIOtqQKLetJo5jF2i04DuCzmJD4TIgwH5fTPVvXoJo5KgvFvBKwfYIFybIGcXV4cV9+Y8IlA==",
+          "shasum": "71d15210468266e00cd3c2a566ffd35f5d9f137d"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.com2usplatform.hiveaxyl.analytics.yml",
+  "definitionBlobSha": "ad2232bdcbad6279f64cedc7105b45042f94c74b",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.0.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

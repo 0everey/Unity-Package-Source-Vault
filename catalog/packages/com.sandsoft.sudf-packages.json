@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.sandsoft.sudf-packages",
+  "displayName": "com.sandsoft.sudf-packages",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.sandsoft.sudf-packages",
+      "fetchedAt": "2026-10-17T17:41:51.872339Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "variantId": "registry-package.openupm.com-1050d5f49572db81",
+      "sourceUrl": "https://package.openupm.com/com.sandsoft.sudf-packages",
+      "sourceRef": "ff265452e4bae7228e5e3335f8cc83f5a1cb8aee",
+      "downloadUrl": "https://package.openupm.com/com.sandsoft.sudf-packages/-/com.sandsoft.sudf-packages-0.0.1.tgz",
+      "upstreamIntegrity": "sha512-SkBMnr51+hioEKw2SiHCjPTQE9QUpwx7exbBfPOUrt5fL241Y82Lg9ZQ801FpXifyApOZxxHJeiGV5gVbys2/g==",
+      "upstreamShasum": "5a10814f3427ec3006863c396fbd27e86cd2ca15",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.mackysoft.serializereference-extensions": "git+https://github.com/mackysoft/Unity-SerializeReferenceExtensions.git"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.sandsoft.sudf-packages/0.0.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SkBMnr51+hioEKw2SiHCjPTQE9QUpwx7exbBfPOUrt5fL241Y82Lg9ZQ801FpXifyApOZxxHJeiGV5gVbys2/g==",
+          "shasum": "5a10814f3427ec3006863c396fbd27e86cd2ca15"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "0.0.1"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.sandsoft.sudf-packages.yml",
+  "definitionBlobSha": "e86136929941e733d8225f5963e9a59740e2cf7f",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "0.0.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

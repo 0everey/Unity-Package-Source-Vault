@@ -1,0 +1,558 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.github-joc0de.visual-studio-solution-generator",
+  "displayName": "com.github-joc0de.visual-studio-solution-generator",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "fetchedAt": "2026-10-17T17:38:46.495143Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "registry-package.openupm.com-ba3fcb9afffa6b76",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "b63bc85a2798e8f13a30e4703945fdb551652560",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.0.0.tgz",
+      "upstreamIntegrity": "sha512-+P/OXf6Gffjn1ryWcPCowmKpOMOnxTn8OHFxB7qnNhn56FMXUG85otaEchG5eQG7Yq8XJjsLeITlysJHWUr+aQ==",
+      "upstreamShasum": "bba515d6b46ed515c6f4d8205ae6ab20c21b8835",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.20",
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.0.0",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-+P/OXf6Gffjn1ryWcPCowmKpOMOnxTn8OHFxB7qnNhn56FMXUG85otaEchG5eQG7Yq8XJjsLeITlysJHWUr+aQ==",
+          "shasum": "bba515d6b46ed515c6f4d8205ae6ab20c21b8835"
+        }
+      }
+    },
+    {
+      "version": "1.0.2",
+      "variantId": "registry-package.openupm.com-9c03f5284edef103",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "610d9a0add14dfad6792747375b86fc801f7c3a8",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.0.2.tgz",
+      "upstreamIntegrity": "sha512-Lfl7awcgTi1uX/O1VcUdBYyj+Q5x8G4rEsgGGdMn89WrSu2V4vP3gT1EJcCm7twbJ9UozhYXgOq5ivEjyL48WQ==",
+      "upstreamShasum": "6bbd4269625e3c7f2040f41a03303e79dbaceb68",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.20",
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.0.2",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Lfl7awcgTi1uX/O1VcUdBYyj+Q5x8G4rEsgGGdMn89WrSu2V4vP3gT1EJcCm7twbJ9UozhYXgOq5ivEjyL48WQ==",
+          "shasum": "6bbd4269625e3c7f2040f41a03303e79dbaceb68"
+        }
+      }
+    },
+    {
+      "version": "1.0.3",
+      "variantId": "registry-package.openupm.com-742a4de130ce4720",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "ae5265f216859c3847ce505746945405e69d8c3b",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.0.3.tgz",
+      "upstreamIntegrity": "sha512-Vm0D3ozwILgYwx17AxSRiwdnxfblaorUoq1xDRmiTR4h8hIzX2NqP2yku/R/Q2w/sWkNlq09L7hyE1WMUKv+/g==",
+      "upstreamShasum": "a99cb56ee5438cf9deb0dc68c89fb85a73f561ec",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.20",
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.0.3",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-Vm0D3ozwILgYwx17AxSRiwdnxfblaorUoq1xDRmiTR4h8hIzX2NqP2yku/R/Q2w/sWkNlq09L7hyE1WMUKv+/g==",
+          "shasum": "a99cb56ee5438cf9deb0dc68c89fb85a73f561ec"
+        }
+      }
+    },
+    {
+      "version": "1.0.4",
+      "variantId": "registry-package.openupm.com-2233b4f96707d756",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "e0192a0fff40e70955f380be456ed3f45058c57b",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.0.4.tgz",
+      "upstreamIntegrity": "sha512-6o6vEB9VAeZ5mofFbzJzQmI2n0iBe4fT2M79cGqzAd3ZufJetxcl4RqdE36Hx11vFTqFilSZLzQLuNsninCO2w==",
+      "upstreamShasum": "51b84e5f290f210cf38f8b9d28e4840936e73a65",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.20",
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.0.4",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-6o6vEB9VAeZ5mofFbzJzQmI2n0iBe4fT2M79cGqzAd3ZufJetxcl4RqdE36Hx11vFTqFilSZLzQLuNsninCO2w==",
+          "shasum": "51b84e5f290f210cf38f8b9d28e4840936e73a65"
+        }
+      }
+    },
+    {
+      "version": "1.0.5",
+      "variantId": "registry-package.openupm.com-6e6fa3305376823b",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "2ffad50022fb65d661d2453086396224de29c54d",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.0.5.tgz",
+      "upstreamIntegrity": "sha512-fL5QTOKng8DCHG577RRqokefcDsFEbOgS7EadQt82/qRs1P0N8fNcfJnZv85UsnCQlIGi20uyWXi0DJSuDv6nA==",
+      "upstreamShasum": "d5ecc92e7d632bd10b8d59a81ae51f92fb4a779c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.20",
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.0.5",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-fL5QTOKng8DCHG577RRqokefcDsFEbOgS7EadQt82/qRs1P0N8fNcfJnZv85UsnCQlIGi20uyWXi0DJSuDv6nA==",
+          "shasum": "d5ecc92e7d632bd10b8d59a81ae51f92fb4a779c"
+        }
+      }
+    },
+    {
+      "version": "1.0.6",
+      "variantId": "registry-package.openupm.com-f182382aff8a2252",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "a3315fddbcd631066cade7c73ea3f10f4eb35324",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.0.6.tgz",
+      "upstreamIntegrity": "sha512-mG/YVmP0kmwsajRJV7+udc0iby6IydonQIjg+aYVa+oPB2qSbErtRYZFkb+CLSUKx2/gE0zchGjPFxv7Hgcf7Q==",
+      "upstreamShasum": "c0f3560e7d73519d022c06b2b18dba016aa76b38",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.20",
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.0.6",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-mG/YVmP0kmwsajRJV7+udc0iby6IydonQIjg+aYVa+oPB2qSbErtRYZFkb+CLSUKx2/gE0zchGjPFxv7Hgcf7Q==",
+          "shasum": "c0f3560e7d73519d022c06b2b18dba016aa76b38"
+        }
+      }
+    },
+    {
+      "version": "1.0.7",
+      "variantId": "registry-package.openupm.com-1fa60801e186ae53",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "c09620df31833e8d7d91df2f813fc906c4f4073e",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.0.7.tgz",
+      "upstreamIntegrity": "sha512-iTftSrndQyimmgBrihM4KmFysHNKeLzGprGCQbc4MIjfui9GkYYgJ9Jwhq7u6W2bempO2z+vzfFUTmlJifN+Uw==",
+      "upstreamShasum": "bb83a69522c16f592aed7b2418b852fd4468ff39",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.20",
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.0.7",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-iTftSrndQyimmgBrihM4KmFysHNKeLzGprGCQbc4MIjfui9GkYYgJ9Jwhq7u6W2bempO2z+vzfFUTmlJifN+Uw==",
+          "shasum": "bb83a69522c16f592aed7b2418b852fd4468ff39"
+        }
+      }
+    },
+    {
+      "version": "1.0.8",
+      "variantId": "registry-package.openupm.com-90b6d8fc39a22cbf",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "c7fe26668393c67740cb923bca64eda3f32bde15",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.0.8.tgz",
+      "upstreamIntegrity": "sha512-ldQ63PV1anTZ3KXeX7ryGPGXAWR2+XK4eBeAXQ8lJhMo+424Bs7UTUIno58pMxhiWYOa01eIBHQ3sJoH9AFjqw==",
+      "upstreamShasum": "000f6e83e4745631da13c3c9ac9bff76185de73b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.21",
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.0.8",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-ldQ63PV1anTZ3KXeX7ryGPGXAWR2+XK4eBeAXQ8lJhMo+424Bs7UTUIno58pMxhiWYOa01eIBHQ3sJoH9AFjqw==",
+          "shasum": "000f6e83e4745631da13c3c9ac9bff76185de73b"
+        }
+      }
+    },
+    {
+      "version": "1.0.9",
+      "variantId": "registry-package.openupm.com-3bcd668b51a3f400",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "37f96e1da44430c9d1329ce9061f772611f818f6",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.0.9.tgz",
+      "upstreamIntegrity": "sha512-KX43kV2zs6R5cABN2wb8QTZB1isM04N0u8QmkJz8FgbzL9wzMW8RHFmdgBrLn1XlUfL8io8qzEAWDObY8BxIfQ==",
+      "upstreamShasum": "d37dbdb7b4da4198e0213d051196659affacfb2d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.21",
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.0.9",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-KX43kV2zs6R5cABN2wb8QTZB1isM04N0u8QmkJz8FgbzL9wzMW8RHFmdgBrLn1XlUfL8io8qzEAWDObY8BxIfQ==",
+          "shasum": "d37dbdb7b4da4198e0213d051196659affacfb2d"
+        }
+      }
+    },
+    {
+      "version": "1.0.10",
+      "variantId": "registry-package.openupm.com-4053ab46cf5e406d",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "2d2f01faa73161ab8b59a18b072a8f709791769b",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.0.10.tgz",
+      "upstreamIntegrity": "sha512-oaFfTh5fLQijAuZ2dV95X71Vpdfp0Rgq4XBBI31Hh09sG/K+sOBeJJOnVYPGlrnpH7WpCAQ+TYJPVUZ+IchAWw==",
+      "upstreamShasum": "a4fd9a942885284768c8ff384b05ff758edc47f3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.22",
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.0.10",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-oaFfTh5fLQijAuZ2dV95X71Vpdfp0Rgq4XBBI31Hh09sG/K+sOBeJJOnVYPGlrnpH7WpCAQ+TYJPVUZ+IchAWw==",
+          "shasum": "a4fd9a942885284768c8ff384b05ff758edc47f3"
+        }
+      }
+    },
+    {
+      "version": "1.0.11",
+      "variantId": "registry-package.openupm.com-5ed5d44d59e67b5e",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "48a373e1ba26cf54582babb4a3d7303795279586",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.0.11.tgz",
+      "upstreamIntegrity": "sha512-VRRnGZDjVVobtb47cyHbiS+ixvR/1i/R56y3J40wb6YDB01xIkIQqw90W4wxZ3PIVfFAqVO6k5q40qnoJU4t5Q==",
+      "upstreamShasum": "ee54d1f8961b6221a5a2c9dac4cb2e0c20042db8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.22",
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.0.11",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VRRnGZDjVVobtb47cyHbiS+ixvR/1i/R56y3J40wb6YDB01xIkIQqw90W4wxZ3PIVfFAqVO6k5q40qnoJU4t5Q==",
+          "shasum": "ee54d1f8961b6221a5a2c9dac4cb2e0c20042db8"
+        }
+      }
+    },
+    {
+      "version": "1.0.12",
+      "variantId": "registry-package.openupm.com-b3241783d9396003",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "b30f5431131eade26925573c4798da19b63f5f35",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.0.12.tgz",
+      "upstreamIntegrity": "sha512-VrCzEIzmmJ0BZzn8qrgpFurY15ylYc3HOA15wyM8lJdUx/9YvxDiUqjXtZSl/TZvtD/kwAxVsdL8KP7pdBBH1w==",
+      "upstreamShasum": "eb203f253f7c9aced9da6368cc1dde85be2507d3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.22",
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.0.12",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-VrCzEIzmmJ0BZzn8qrgpFurY15ylYc3HOA15wyM8lJdUx/9YvxDiUqjXtZSl/TZvtD/kwAxVsdL8KP7pdBBH1w==",
+          "shasum": "eb203f253f7c9aced9da6368cc1dde85be2507d3"
+        }
+      }
+    },
+    {
+      "version": "1.0.13",
+      "variantId": "registry-package.openupm.com-e768be082b06aa56",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "297e1b01953708d492859af7471b9b3234591037",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.0.13.tgz",
+      "upstreamIntegrity": "sha512-WJhA1DQ4ZBu1uC/qyTMASb3zOK+KMyAnfjkhkjV7VCjXHvxi5dsmVh1PeTP2tr2IZMGK3W8GgMwWSqWRPrA/9A==",
+      "upstreamShasum": "7d393806e0e6ba00f1de7a461b112e8566d93104",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.22",
+        "com.unity.settings-manager": "2.0.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.0.13",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-WJhA1DQ4ZBu1uC/qyTMASb3zOK+KMyAnfjkhkjV7VCjXHvxi5dsmVh1PeTP2tr2IZMGK3W8GgMwWSqWRPrA/9A==",
+          "shasum": "7d393806e0e6ba00f1de7a461b112e8566d93104"
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "variantId": "registry-package.openupm.com-95b1ee3d346bd866",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "288fa888e3258c12c44dbccf4490759c59624cb3",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.1.0.tgz",
+      "upstreamIntegrity": "sha512-yLRcx75uvh+h53RrbfgkK5F12pC3itPHc18t0ZPTC4fdNXf9qzFRh7jgf0RypIz4uuSPLMUbV+1kMsCrbkgyZw==",
+      "upstreamShasum": "c8c0aabf19bab340c37fc260d4f46b39616bb475",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.23",
+        "com.unity.settings-manager": "2.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.1.0",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-yLRcx75uvh+h53RrbfgkK5F12pC3itPHc18t0ZPTC4fdNXf9qzFRh7jgf0RypIz4uuSPLMUbV+1kMsCrbkgyZw==",
+          "shasum": "c8c0aabf19bab340c37fc260d4f46b39616bb475"
+        }
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "registry-package.openupm.com-cc13742683f8d0e8",
+      "sourceUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator",
+      "sourceRef": "04d5064f1c8c7fb713718705301437e0a81e64e1",
+      "downloadUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/-/com.github-joc0de.visual-studio-solution-generator-1.2.0.tgz",
+      "upstreamIntegrity": "sha512-SvyiFx3SpmjcHPrGTQURHVUIvyNpOYEBLvHhuN+jR8S7fgBlIc66GniCKs8oIlfyuJ7IDKkvD45+9lBYnIopXA==",
+      "upstreamShasum": "b621396336a9bc33324026100fbd264fd03e236f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ide.visualstudio": "2.0.26",
+        "com.unity.settings-manager": "2.1.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.github-joc0de.visual-studio-solution-generator/1.2.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SvyiFx3SpmjcHPrGTQURHVUIvyNpOYEBLvHhuN+jR8S7fgBlIc66GniCKs8oIlfyuJ7IDKkvD45+9lBYnIopXA==",
+          "shasum": "b621396336a9bc33324026100fbd264fd03e236f"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.2.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.github-joc0de.visual-studio-solution-generator.yml",
+  "definitionBlobSha": "625c6c0475164d2b339c3564178912aeeb1bab5d",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "1.2.0",
+    "1.1.0",
+    "1.0.13"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 15,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.laicasaane.genesis",
+  "displayName": "com.laicasaane.genesis",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://package.openupm.com",
+      "metadataUrl": "https://package.openupm.com/com.laicasaane.genesis",
+      "fetchedAt": "2026-10-17T17:39:50.259229Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://package.openupm.com",
+  "versions": [
+    {
+      "version": "3.0.0",
+      "variantId": "registry-package.openupm.com-c35bb58c73292233",
+      "sourceUrl": "https://package.openupm.com/com.laicasaane.genesis",
+      "sourceRef": "eedd7f703f6003c99f743d98ec3bb7579ce7ab9b",
+      "downloadUrl": "https://package.openupm.com/com.laicasaane.genesis/-/com.laicasaane.genesis-3.0.0.tgz",
+      "upstreamIntegrity": "sha512-JQatYTiOmwsLdG+C+gFgek9hHR+lj6xMH5FtZzKY9oGkxeC13LXTX5mcLLrNsW5xfXur1lyqY8BEljCKmIFFMw==",
+      "upstreamShasum": "13ffb39d2d72f9f31871c457f23643ebd34d9a1e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.settings-manager": "1.0.3",
+        "org.nuget.system.collections.immutable": "5.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/com.laicasaane.genesis/3.0.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-JQatYTiOmwsLdG+C+gFgek9hHR+lj6xMH5FtZzKY9oGkxeC13LXTX5mcLLrNsW5xfXur1lyqY8BEljCKmIFFMw==",
+          "shasum": "13ffb39d2d72f9f31871c457f23643ebd34d9a1e"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "3.0.0"
+  },
+  "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/com.laicasaane.genesis.yml",
+  "definitionBlobSha": "4ce64bc0b4c7154f75210c6ad39e394998de5f2c",
+  "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
+  "selectedVersions": [
+    "3.0.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "allListedVersions": 1,
+  "versionPolicy": "3-5-plus-all-available-targets"
+}
