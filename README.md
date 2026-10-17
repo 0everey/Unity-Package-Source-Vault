@@ -16,6 +16,13 @@ references and skip implementation recovery. An unknown Editor installation or
 profile remains pending. Some newer rendering/UI packages ship with the Editor;
 their pinned official manifests are references, not mirrored archives.
 
+The first common batch reviewed 64 of 65 archive tasks. Fifteen published
+version/variant records refer to twelve distinct version archives. Burst 1.8.20
+exceeds the collector's 512 MiB in-memory limit and retains its explicit failure
+and official download route; Burst 1.8.31 was acquired. Twenty-seven builtin or
+official version references are separate from archive acquisition. Unknown
+rights remain explicit and are not mirrored.
+
 ## Install
 
 ```powershell

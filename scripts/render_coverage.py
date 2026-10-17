@@ -12,7 +12,7 @@ lines=["# Common package coverage (R4)","",
        "Two common versions per family, at most three for justified gaps/legacy; fewer available versions remain explicit.","",
        f"Generated: {report['generatedAt']}. Registered {report['registeredPackages']}/{report['discoveredPackages']} entries; "
        f"{report['listedVersions']} version records; {report['completedSelectedVersionTasks']}/{report['selectedVersionTasks']} archive tasks collected; "
-       f"{report['publishedVersionRecords']} published with anonymous remote hash verification.","",
+       f"{report['publishedVersionRecords']} published version/variant records with anonymous remote hash verification.","",
        "`reference-only` means no archive was acquired. Newer Editor-bundled rendering/UI versions link pinned official manifests/source paths and the matching Editor installation route.",
        "`collected` means bytes were reviewed/fingerprinted then released locally; only published objects are held by this vault remotely.",
        "`official-fetch-only` and `license-unresolved` are explicit acquisition/rights limits. They are not public payload mirrors or exact target matches.","",
@@ -24,7 +24,8 @@ for package in queue['packages']:
         artifact=version.get('artifact') or {}
         status=version.get('fetchStatus','pending')
         label=f"{version['version']}: {status}, {version.get('disposition','license-unresolved')}"
-        url=artifact.get('url') if artifact.get('verifiedRemote') else version.get('sourceUrl')
+        if version.get('fetchError'):label+=' — '+version['fetchError'].get('message',version['fetchError'].get('kind','unresolved'))
+        url=artifact.get('url') if artifact.get('verifiedRemote') else version.get('downloadUrl') or version.get('sourceUrl')
         states.append(f"[{label}]({url})" if url else label)
     if not states:states=[package.get('reason') or package.get('metadataStatus','pending')]
     lines.append('| '+package['id']+' | '+'; '.join(states)+' |')
