@@ -14,3 +14,6 @@ uvault = "uvault.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.data-files]
+"share/uvault" = ["sources/component-reviews.json"]

@@ -33,6 +33,9 @@ def publish_artifact(data, record, repo="0everey/Unity-Package-Source-Vault"):
     if not suffix:
         raise ValueError("Unsupported artifact format")
     name = digest + suffix
+    rights=json.dumps({"artifactSha256":digest,"license":record["license"]},ensure_ascii=False,indent=2).encode("utf-8")
+    rights_digest=hashlib.sha256(rights).hexdigest()
+    rights_name=digest+".license-"+rights_digest[:16]+".json"
     lookup = subprocess.run(["gh","release","view",tag,"--repo",repo,"--json","assets"],capture_output=True,text=True)
     if lookup.returncode:
         gh("release","create",tag,"--repo",repo,"--title",f"Immutable content objects {digest[:2]}","--notes","Third-party originals. Each catalog version has independent licensing and provenance; the vault tool MIT license does not cover these archives.")
@@ -47,6 +50,14 @@ def publish_artifact(data, record, repo="0everey/Unity-Package-Source-Vault"):
             gh("release","upload",tag,archive,"--repo",repo)
         assets=json.loads(gh("release","view",tag,"--repo",repo,"--json","assets"))["assets"]
         found=next(asset for asset in assets if asset["name"]==name)
+    rights_asset=next((asset for asset in assets if asset["name"]==rights_name),None)
+    if not rights_asset:
+        with tempfile.TemporaryDirectory(prefix="uvault-notices-") as root:
+            sidecar=Path(root)/rights_name
+            sidecar.write_bytes(rights)
+            gh("release","upload",tag,sidecar,"--repo",repo)
+        assets=json.loads(gh("release","view",tag,"--repo",repo,"--json","assets"))["assets"]
+        rights_asset=next(asset for asset in assets if asset["name"]==rights_name)
     url=found["url"]
     request=urllib.request.Request(url, headers={"User-Agent":"uvault/0.1"})
     h=hashlib.sha256(); size=0
@@ -55,4 +66,9 @@ def publish_artifact(data, record, repo="0everey/Unity-Package-Source-Vault"):
             h.update(chunk);size+=len(chunk)
     if h.hexdigest()!=digest or size!=len(data):
         raise ValueError("Anonymous remote readback failed; catalog must not reference this object")
-    return {**(record.get("artifact") or {}), "sha256":digest,"size":size,"format":fmt,"url":url,"assetId":found.get("id"),"releaseTag":tag,"verifiedRemote":True}
+    with urllib.request.urlopen(urllib.request.Request(rights_asset["url"],headers={"User-Agent":"uvault/0.1"}),timeout=90) as response:
+        remote_rights=response.read()
+    if hashlib.sha256(remote_rights).hexdigest()!=rights_digest:
+        raise ValueError("License/NOTICE sidecar readback checksum mismatch")
+    return {**(record.get("artifact") or {}), "sha256":digest,"size":size,"format":fmt,"url":url,"assetId":found.get("id"),"releaseTag":tag,"verifiedRemote":True,
+            "licenseUrl":rights_asset["url"],"licenseSha256":rights_digest,"licenseAssetId":rights_asset.get("id")}

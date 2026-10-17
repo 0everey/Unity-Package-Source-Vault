@@ -1,0 +1,517 @@
+{
+  "schemaVersion": "1.0",
+  "reviews": [
+    {
+      "packageId": "com.cysharp.unitask",
+      "version": "1.3.1",
+      "archiveSha256": "7642daa57ed3e3eb23fa2f3a680465c14002982eaf21b61c01f6a7907f251469",
+      "sourceUrl": "https://github.com/Cysharp/UniTask",
+      "sourceRef": "28e1fa98c9db7a6fbe5d3bf2bcaf7a82d89e5b9a",
+      "sourceTag": "1.3.1",
+      "sourceTagEvidenceUrl": "https://api.github.com/repos/Cysharp/UniTask/git/ref/tags/1.3.1",
+      "reviewedAt": "2026-10-17T17:39:41.672170Z",
+      "reviewStatus": "reviewed",
+      "upstreamComparison": {
+        "archiveUrl": "https://codeload.github.com/Cysharp/UniTask/tar.gz/28e1fa98c9db7a6fbe5d3bf2bcaf7a82d89e5b9a",
+        "archiveSha256": "6126e85905ed8e69588ce017545110a2c3f637dd7dbd3f058b50f87219b8975c",
+        "matchedSourceRoots": [
+          "UniTask-28e1fa98c9db7a6fbe5d3bf2bcaf7a82d89e5b9a/Assets/UniRx.Async/"
+        ],
+        "comparedCodeFiles": 95,
+        "completeCodeFileEquality": true
+      },
+      "licenseEvidence": {
+        "path": "LICENSE",
+        "expression": "MIT",
+        "sha256": "b0e6aada5cdff8e90865b150498b81af955343f1d8f091e5b609fd94c4d4b3d0",
+        "text": "The MIT License (MIT)\n\nCopyright (c) 2019 Yoshifumi Kawai / Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "evidenceUrl": "https://raw.githubusercontent.com/Cysharp/UniTask/28e1fa98c9db7a6fbe5d3bf2bcaf7a82d89e5b9a/LICENSE",
+        "scope": "pinned-upstream-repository-root",
+        "sourceRef": "28e1fa98c9db7a6fbe5d3bf2bcaf7a82d89e5b9a"
+      },
+      "components": [],
+      "scopeLimitation": "Only these exact archive bytes/version and reviewed paths; no rights granted to separately acquired external SDKs, DOTween, TextMeshPro, Addressables or XR packages."
+    },
+    {
+      "packageId": "com.cysharp.unitask",
+      "version": "2.5.10",
+      "archiveSha256": "d739e70a84d49271479e35d77dff00017261b7216ca339e03caa4e8acdfb3bab",
+      "sourceUrl": "https://github.com/Cysharp/UniTask",
+      "sourceRef": "7c0f199fe0d3fc528024488ccd671e6c7b27745b",
+      "sourceTag": "2.5.10",
+      "sourceTagEvidenceUrl": "https://api.github.com/repos/Cysharp/UniTask/git/ref/tags/2.5.10",
+      "reviewedAt": "2026-10-17T17:40:08.222604Z",
+      "reviewStatus": "reviewed",
+      "upstreamComparison": {
+        "archiveUrl": "https://codeload.github.com/Cysharp/UniTask/tar.gz/7c0f199fe0d3fc528024488ccd671e6c7b27745b",
+        "archiveSha256": "694f12b075f78b202aeb062ce656c43db15e2597383b577cce9f658467b5d79e",
+        "matchedSourceRoots": [
+          "UniTask-7c0f199fe0d3fc528024488ccd671e6c7b27745b/src/UniTask/Assets/Plugins/UniTask/"
+        ],
+        "comparedCodeFiles": 172,
+        "completeCodeFileEquality": true
+      },
+      "licenseEvidence": {
+        "path": "LICENSE",
+        "expression": "MIT",
+        "sha256": "b0e6aada5cdff8e90865b150498b81af955343f1d8f091e5b609fd94c4d4b3d0",
+        "text": "The MIT License (MIT)\n\nCopyright (c) 2019 Yoshifumi Kawai / Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "evidenceUrl": "https://raw.githubusercontent.com/Cysharp/UniTask/7c0f199fe0d3fc528024488ccd671e6c7b27745b/LICENSE",
+        "scope": "pinned-upstream-repository-root",
+        "sourceRef": "7c0f199fe0d3fc528024488ccd671e6c7b27745b"
+      },
+      "components": [
+        {
+          "path": "Runtime/External",
+          "classification": "project-authored-integration-adapters",
+          "expression": "MIT",
+          "files": [
+            {
+              "path": "Runtime/External/Addressables.meta",
+              "sha256": "4147141e31e69b972f95201d01becb0d3e3197c1a952c34ddb882d9700c4c364",
+              "size": 172
+            },
+            {
+              "path": "Runtime/External/Addressables/AddressablesAsyncExtensions.cs",
+              "sha256": "dc10d998f564af0eef0a4287e330fd4187a3d024c03f9f2a54c6e4ac64f69ad8",
+              "size": 17721
+            },
+            {
+              "path": "Runtime/External/Addressables/AddressablesAsyncExtensions.cs.meta",
+              "sha256": "ce0ca65419186f9672bf6b82bd580da69427859551065a0625ef53c59ace770d",
+              "size": 243
+            },
+            {
+              "path": "Runtime/External/Addressables/UniTask.Addressables.asmdef",
+              "sha256": "a47c23ed182062e90c4a4c946dd5d37a840ab78b0ccfc5f0c96da7bdad9274d4",
+              "size": 713
+            },
+            {
+              "path": "Runtime/External/Addressables/UniTask.Addressables.asmdef.meta",
+              "sha256": "2519e61b04e485e6f3a411319f9acc5712b1b01fef32663f7cc8c5a6631cb5dc",
+              "size": 166
+            },
+            {
+              "path": "Runtime/External/DOTween.meta",
+              "sha256": "49c0d6a69574bec8a70482af27c01b9bfea4bb0917f9a3b5f95c57d76dfa65fc",
+              "size": 172
+            },
+            {
+              "path": "Runtime/External/DOTween/DOTweenAsyncExtensions.cs",
+              "sha256": "03852a33ad27f474cfc20e4d671fab2ed4731417c5e0c4b996b4ee4ef20706e8",
+              "size": 17101
+            },
+            {
+              "path": "Runtime/External/DOTween/DOTweenAsyncExtensions.cs.meta",
+              "sha256": "9f46dd3090b1c0e5eaa9a03b072ca241a906ef6bab783a255a41fe631a672f2f",
+              "size": 243
+            },
+            {
+              "path": "Runtime/External/DOTween/UniTask.DOTween.asmdef",
+              "sha256": "95914f1c74a355c6f0a10d241b43d553ed4dad7d56ad117859f277ce3277145a",
+              "size": 521
+            },
+            {
+              "path": "Runtime/External/DOTween/UniTask.DOTween.asmdef.meta",
+              "sha256": "6b99ef14abb8d0563271fd3b2cc7aa682798b244ce372cec7d4412fe2942ad63",
+              "size": 166
+            },
+            {
+              "path": "Runtime/External/TextMeshPro.meta",
+              "sha256": "fd4e56088b5997305ce7e90c4e3824d3bfaf0db7c8ed2466c862d52c890b7c5e",
+              "size": 172
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProAsyncExtensions.InputField.cs",
+              "sha256": "cb5f08fd2c7c1a584b808af9cbf982149bee02e8546bba54061165fd48b0a07f",
+              "size": 12312
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProAsyncExtensions.InputField.cs.meta",
+              "sha256": "c0caaf68c78bd97aa0dd007a6d801d3dd3760a21d4bbefd87930ca5853ee1e69",
+              "size": 243
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProAsyncExtensions.InputField.tt",
+              "sha256": "97145dbab589dcc5691109f6ec213766394416df84e9c7b588429095a3cd6669",
+              "size": 2769
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProAsyncExtensions.InputField.tt.meta",
+              "sha256": "059a530ceb94fb26b3e6269c12591c8417491b0dfbca66f42ddbce1f459856ee",
+              "size": 155
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProAsyncExtensions.cs",
+              "sha256": "d1bb4171199c7154a05cdf15cb9c0d87dc4e4f590cf69d90f40cb80007ad298d",
+              "size": 4176
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProAsyncExtensions.cs.meta",
+              "sha256": "a64c05c5e78d827a73986fe8fc093d32339e84cfff783cae24fa2cf0cf44e4fa",
+              "size": 243
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/UniTask.TextMeshPro.asmdef",
+              "sha256": "6f83bd1919aa26ae3f96ece80d33ac91dd2d0fd95611a3fff15f16467e18ec0c",
+              "size": 678
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/UniTask.TextMeshPro.asmdef.meta",
+              "sha256": "c1b2f7911c0dbec0366405bc25546c82982b25e5f1c1325268177534402f9d6b",
+              "size": 166
+            }
+          ],
+          "basis": "Reviewed actual C# extension/awaiter/observable implementations, asmdef external references and generated TMP adapter template. They consume external APIs in Cysharp/R3 namespaces; no vendor implementation or SDK payload is included. Exact archive code files also equal this pinned upstream repository version."
+        }
+      ],
+      "scopeLimitation": "Only these exact archive bytes/version and reviewed paths; no rights granted to separately acquired external SDKs, DOTween, TextMeshPro, Addressables or XR packages."
+    },
+    {
+      "packageId": "com.cysharp.unitask",
+      "version": "2.5.11",
+      "archiveSha256": "f502c3d1e56afee722c2707ba7370562446a6f3d4684a27afb74fd5817ab0a5b",
+      "sourceUrl": "https://github.com/Cysharp/UniTask",
+      "sourceRef": "2e993ff18f28c931602a07292df0b0804eebef99",
+      "sourceTag": "2.5.11",
+      "sourceTagEvidenceUrl": "https://api.github.com/repos/Cysharp/UniTask/git/ref/tags/2.5.11",
+      "reviewedAt": "2026-10-17T17:40:12.041523Z",
+      "reviewStatus": "reviewed",
+      "upstreamComparison": {
+        "archiveUrl": "https://codeload.github.com/Cysharp/UniTask/tar.gz/2e993ff18f28c931602a07292df0b0804eebef99",
+        "archiveSha256": "361ff2fda7f5e5bf96f4cce14394ec7af5ef97d2f9de6ef5fe5ff22297eca62a",
+        "matchedSourceRoots": [
+          "UniTask-2e993ff18f28c931602a07292df0b0804eebef99/src/UniTask/Assets/Plugins/UniTask/"
+        ],
+        "comparedCodeFiles": 172,
+        "completeCodeFileEquality": true
+      },
+      "licenseEvidence": {
+        "path": "LICENSE",
+        "expression": "MIT",
+        "sha256": "b0e6aada5cdff8e90865b150498b81af955343f1d8f091e5b609fd94c4d4b3d0",
+        "text": "The MIT License (MIT)\n\nCopyright (c) 2019 Yoshifumi Kawai / Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "evidenceUrl": "https://raw.githubusercontent.com/Cysharp/UniTask/2e993ff18f28c931602a07292df0b0804eebef99/LICENSE",
+        "scope": "pinned-upstream-repository-root",
+        "sourceRef": "2e993ff18f28c931602a07292df0b0804eebef99"
+      },
+      "components": [
+        {
+          "path": "Runtime/External",
+          "classification": "project-authored-integration-adapters",
+          "expression": "MIT",
+          "files": [
+            {
+              "path": "Runtime/External/Addressables.meta",
+              "sha256": "4147141e31e69b972f95201d01becb0d3e3197c1a952c34ddb882d9700c4c364",
+              "size": 172
+            },
+            {
+              "path": "Runtime/External/Addressables/AddressablesAsyncExtensions.cs",
+              "sha256": "dc10d998f564af0eef0a4287e330fd4187a3d024c03f9f2a54c6e4ac64f69ad8",
+              "size": 17721
+            },
+            {
+              "path": "Runtime/External/Addressables/AddressablesAsyncExtensions.cs.meta",
+              "sha256": "ce0ca65419186f9672bf6b82bd580da69427859551065a0625ef53c59ace770d",
+              "size": 243
+            },
+            {
+              "path": "Runtime/External/Addressables/UniTask.Addressables.asmdef",
+              "sha256": "a47c23ed182062e90c4a4c946dd5d37a840ab78b0ccfc5f0c96da7bdad9274d4",
+              "size": 713
+            },
+            {
+              "path": "Runtime/External/Addressables/UniTask.Addressables.asmdef.meta",
+              "sha256": "2519e61b04e485e6f3a411319f9acc5712b1b01fef32663f7cc8c5a6631cb5dc",
+              "size": 166
+            },
+            {
+              "path": "Runtime/External/DOTween.meta",
+              "sha256": "49c0d6a69574bec8a70482af27c01b9bfea4bb0917f9a3b5f95c57d76dfa65fc",
+              "size": 172
+            },
+            {
+              "path": "Runtime/External/DOTween/DOTweenAsyncExtensions.cs",
+              "sha256": "03852a33ad27f474cfc20e4d671fab2ed4731417c5e0c4b996b4ee4ef20706e8",
+              "size": 17101
+            },
+            {
+              "path": "Runtime/External/DOTween/DOTweenAsyncExtensions.cs.meta",
+              "sha256": "9f46dd3090b1c0e5eaa9a03b072ca241a906ef6bab783a255a41fe631a672f2f",
+              "size": 243
+            },
+            {
+              "path": "Runtime/External/DOTween/UniTask.DOTween.asmdef",
+              "sha256": "95914f1c74a355c6f0a10d241b43d553ed4dad7d56ad117859f277ce3277145a",
+              "size": 521
+            },
+            {
+              "path": "Runtime/External/DOTween/UniTask.DOTween.asmdef.meta",
+              "sha256": "6b99ef14abb8d0563271fd3b2cc7aa682798b244ce372cec7d4412fe2942ad63",
+              "size": 166
+            },
+            {
+              "path": "Runtime/External/TextMeshPro.meta",
+              "sha256": "fd4e56088b5997305ce7e90c4e3824d3bfaf0db7c8ed2466c862d52c890b7c5e",
+              "size": 172
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProAsyncExtensions.InputField.cs",
+              "sha256": "cb5f08fd2c7c1a584b808af9cbf982149bee02e8546bba54061165fd48b0a07f",
+              "size": 12312
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProAsyncExtensions.InputField.cs.meta",
+              "sha256": "c0caaf68c78bd97aa0dd007a6d801d3dd3760a21d4bbefd87930ca5853ee1e69",
+              "size": 243
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProAsyncExtensions.InputField.tt",
+              "sha256": "97145dbab589dcc5691109f6ec213766394416df84e9c7b588429095a3cd6669",
+              "size": 2769
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProAsyncExtensions.InputField.tt.meta",
+              "sha256": "059a530ceb94fb26b3e6269c12591c8417491b0dfbca66f42ddbce1f459856ee",
+              "size": 155
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProAsyncExtensions.cs",
+              "sha256": "d1bb4171199c7154a05cdf15cb9c0d87dc4e4f590cf69d90f40cb80007ad298d",
+              "size": 4176
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProAsyncExtensions.cs.meta",
+              "sha256": "a64c05c5e78d827a73986fe8fc093d32339e84cfff783cae24fa2cf0cf44e4fa",
+              "size": 243
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/UniTask.TextMeshPro.asmdef",
+              "sha256": "6f83bd1919aa26ae3f96ece80d33ac91dd2d0fd95611a3fff15f16467e18ec0c",
+              "size": 678
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/UniTask.TextMeshPro.asmdef.meta",
+              "sha256": "c1b2f7911c0dbec0366405bc25546c82982b25e5f1c1325268177534402f9d6b",
+              "size": 166
+            }
+          ],
+          "basis": "Reviewed actual C# extension/awaiter/observable implementations, asmdef external references and generated TMP adapter template. They consume external APIs in Cysharp/R3 namespaces; no vendor implementation or SDK payload is included. Exact archive code files also equal this pinned upstream repository version."
+        }
+      ],
+      "scopeLimitation": "Only these exact archive bytes/version and reviewed paths; no rights granted to separately acquired external SDKs, DOTween, TextMeshPro, Addressables or XR packages."
+    },
+    {
+      "packageId": "com.cysharp.r3",
+      "version": "0.1.23",
+      "archiveSha256": "57e48660a9f7dd31ac49986764e000d680cc378cd0da33482c7ea47d22d744d3",
+      "sourceUrl": "https://github.com/Cysharp/R3",
+      "sourceRef": "ac1ca3107a6ea43a89e54735b8e7c2ab4f373fcc",
+      "sourceTag": "0.1.23",
+      "sourceTagEvidenceUrl": "https://api.github.com/repos/Cysharp/R3/git/ref/tags/0.1.23",
+      "reviewedAt": "2026-10-17T17:40:17.237449Z",
+      "reviewStatus": "reviewed",
+      "upstreamComparison": {
+        "archiveUrl": "https://codeload.github.com/Cysharp/R3/tar.gz/ac1ca3107a6ea43a89e54735b8e7c2ab4f373fcc",
+        "archiveSha256": "f1ea45750d310f10742a98c48aee820f1c0e3f17f6dc2b3af568d28eaf8d359e",
+        "matchedSourceRoots": [
+          "R3-ac1ca3107a6ea43a89e54735b8e7c2ab4f373fcc/src/R3.Unity/Assets/R3.Unity/"
+        ],
+        "comparedCodeFiles": 53,
+        "completeCodeFileEquality": true
+      },
+      "licenseEvidence": {
+        "path": "LICENSE",
+        "expression": "MIT",
+        "sha256": "f7ad61ea54f0a855ffdcb8536d602a6d0a59fb6da19fe4a748aabde377865d9a",
+        "text": "MIT License\n\nCopyright (c) 2024 Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "evidenceUrl": "https://raw.githubusercontent.com/Cysharp/R3/ac1ca3107a6ea43a89e54735b8e7c2ab4f373fcc/LICENSE",
+        "scope": "pinned-upstream-repository-root",
+        "sourceRef": "ac1ca3107a6ea43a89e54735b8e7c2ab4f373fcc"
+      },
+      "components": [],
+      "scopeLimitation": "Only these exact archive bytes/version and reviewed paths; no rights granted to separately acquired external SDKs, DOTween, TextMeshPro, Addressables or XR packages."
+    },
+    {
+      "packageId": "com.cysharp.r3",
+      "version": "1.3.0",
+      "archiveSha256": "0f33096d53875bf71557ee838f7ac5e7bc102da644f1e9949d8446ec540485f0",
+      "sourceUrl": "https://github.com/Cysharp/R3",
+      "sourceRef": "329ca7915713417f2e0837b0e0a80b4da074db4a",
+      "sourceTag": "1.3.0",
+      "sourceTagEvidenceUrl": "https://api.github.com/repos/Cysharp/R3/git/ref/tags/1.3.0",
+      "reviewedAt": "2026-10-17T17:40:22.377549Z",
+      "reviewStatus": "reviewed",
+      "upstreamComparison": {
+        "archiveUrl": "https://codeload.github.com/Cysharp/R3/tar.gz/329ca7915713417f2e0837b0e0a80b4da074db4a",
+        "archiveSha256": "cf27a7a05267af230b0dac52306f8da9fa7d1068480d9982f92270d0a434ee37",
+        "matchedSourceRoots": [
+          "R3-329ca7915713417f2e0837b0e0a80b4da074db4a/src/R3.Unity/Assets/R3.Unity/"
+        ],
+        "comparedCodeFiles": 59,
+        "completeCodeFileEquality": true
+      },
+      "licenseEvidence": {
+        "path": "LICENSE",
+        "expression": "MIT",
+        "sha256": "f7ad61ea54f0a855ffdcb8536d602a6d0a59fb6da19fe4a748aabde377865d9a",
+        "text": "MIT License\n\nCopyright (c) 2024 Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "evidenceUrl": "https://raw.githubusercontent.com/Cysharp/R3/329ca7915713417f2e0837b0e0a80b4da074db4a/LICENSE",
+        "scope": "pinned-upstream-repository-root",
+        "sourceRef": "329ca7915713417f2e0837b0e0a80b4da074db4a"
+      },
+      "components": [
+        {
+          "path": "Runtime/External",
+          "classification": "project-authored-integration-adapters",
+          "expression": "MIT",
+          "files": [
+            {
+              "path": "Runtime/External/TextMeshPro.meta",
+              "sha256": "8dbdc7f122f3901b022d399e81551b24c2b16783b4881283bca3cb53bde3b435",
+              "size": 172
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/R3.Unity.TextMeshPro.asmdef",
+              "sha256": "2c02e93a772a40d247fc2efeb3a6e04c344b7703437a7ae98a7ca44775031a29",
+              "size": 695
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/R3.Unity.TextMeshPro.asmdef.meta",
+              "sha256": "79874a1f4228608de82a5c8cd9d32fce4e7ced2fa8070d459da03ccfddf1d761",
+              "size": 166
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProExtensions.cs",
+              "sha256": "7a7906febc23080b1cdaff74d3bbc84c929bcb1fcec59d0f93fcea648981d95e",
+              "size": 2019
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProExtensions.cs.meta",
+              "sha256": "55fbaf1e0ef8ead01b16048c6b8aa81b4905bd27b906fe8c07fd8fe590ec5b0f",
+              "size": 243
+            },
+            {
+              "path": "Runtime/External/XRInteractionToolkit.meta",
+              "sha256": "080337abebaa398549e4303cfd2b94062a12f280808a490dd9c186a29c587e27",
+              "size": 172
+            },
+            {
+              "path": "Runtime/External/XRInteractionToolkit/R3.Unity.XRInteractionToolkit.asmdef",
+              "sha256": "f2bdf00b274d9704afd352ee17163126e4431ca3ede84f1f6fda7cebc22310d6",
+              "size": 606
+            },
+            {
+              "path": "Runtime/External/XRInteractionToolkit/R3.Unity.XRInteractionToolkit.asmdef.meta",
+              "sha256": "206249ee31ae57d00b5839aaf655083ba191eec09dbbda1e74d48269b32566bb",
+              "size": 166
+            },
+            {
+              "path": "Runtime/External/XRInteractionToolkit/UnityXRBaseInteractableExtensions.cs",
+              "sha256": "9e4652868a10b285e088f7b0808bc8a7acfc8e0c4d40c4ef7cb6e3a140f7b558",
+              "size": 4315
+            },
+            {
+              "path": "Runtime/External/XRInteractionToolkit/UnityXRBaseInteractableExtensions.cs.meta",
+              "sha256": "c35778e0a1acc0f56412cf2f3cd9276ab79136ccbf5a679bbfd18f407cbd17fd",
+              "size": 243
+            }
+          ],
+          "basis": "Reviewed actual C# extension/awaiter/observable implementations, asmdef external references and generated TMP adapter template. They consume external APIs in Cysharp/R3 namespaces; no vendor implementation or SDK payload is included. Exact archive code files also equal this pinned upstream repository version."
+        }
+      ],
+      "scopeLimitation": "Only these exact archive bytes/version and reviewed paths; no rights granted to separately acquired external SDKs, DOTween, TextMeshPro, Addressables or XR packages."
+    },
+    {
+      "packageId": "com.cysharp.r3",
+      "version": "1.3.1",
+      "archiveSha256": "92d11624457bdfbc91910f05fdde09fa120471fce75ab6398c1ea616c62fc045",
+      "sourceUrl": "https://github.com/Cysharp/R3",
+      "sourceRef": "f6eed2dd4208dc4ae171c601e799e85f82aca25e",
+      "sourceTag": "1.3.1",
+      "sourceTagEvidenceUrl": "https://api.github.com/repos/Cysharp/R3/git/ref/tags/1.3.1",
+      "reviewedAt": "2026-10-17T17:40:27.351356Z",
+      "reviewStatus": "reviewed",
+      "upstreamComparison": {
+        "archiveUrl": "https://codeload.github.com/Cysharp/R3/tar.gz/f6eed2dd4208dc4ae171c601e799e85f82aca25e",
+        "archiveSha256": "35013740d5da82b6b60bd7da58a7d90467558e22962cd94876d62c48f80c511d",
+        "matchedSourceRoots": [
+          "R3-f6eed2dd4208dc4ae171c601e799e85f82aca25e/src/R3.Unity/Assets/R3.Unity/"
+        ],
+        "comparedCodeFiles": 59,
+        "completeCodeFileEquality": true
+      },
+      "licenseEvidence": {
+        "path": "LICENSE",
+        "expression": "MIT",
+        "sha256": "f7ad61ea54f0a855ffdcb8536d602a6d0a59fb6da19fe4a748aabde377865d9a",
+        "text": "MIT License\n\nCopyright (c) 2024 Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "evidenceUrl": "https://raw.githubusercontent.com/Cysharp/R3/f6eed2dd4208dc4ae171c601e799e85f82aca25e/LICENSE",
+        "scope": "pinned-upstream-repository-root",
+        "sourceRef": "f6eed2dd4208dc4ae171c601e799e85f82aca25e"
+      },
+      "components": [
+        {
+          "path": "Runtime/External",
+          "classification": "project-authored-integration-adapters",
+          "expression": "MIT",
+          "files": [
+            {
+              "path": "Runtime/External/TextMeshPro.meta",
+              "sha256": "8dbdc7f122f3901b022d399e81551b24c2b16783b4881283bca3cb53bde3b435",
+              "size": 172
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/R3.Unity.TextMeshPro.asmdef",
+              "sha256": "2c02e93a772a40d247fc2efeb3a6e04c344b7703437a7ae98a7ca44775031a29",
+              "size": 695
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/R3.Unity.TextMeshPro.asmdef.meta",
+              "sha256": "79874a1f4228608de82a5c8cd9d32fce4e7ced2fa8070d459da03ccfddf1d761",
+              "size": 166
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProExtensions.cs",
+              "sha256": "7a7906febc23080b1cdaff74d3bbc84c929bcb1fcec59d0f93fcea648981d95e",
+              "size": 2019
+            },
+            {
+              "path": "Runtime/External/TextMeshPro/TextMeshProExtensions.cs.meta",
+              "sha256": "55fbaf1e0ef8ead01b16048c6b8aa81b4905bd27b906fe8c07fd8fe590ec5b0f",
+              "size": 243
+            },
+            {
+              "path": "Runtime/External/XRInteractionToolkit.meta",
+              "sha256": "080337abebaa398549e4303cfd2b94062a12f280808a490dd9c186a29c587e27",
+              "size": 172
+            },
+            {
+              "path": "Runtime/External/XRInteractionToolkit/R3.Unity.XRInteractionToolkit.asmdef",
+              "sha256": "f2bdf00b274d9704afd352ee17163126e4431ca3ede84f1f6fda7cebc22310d6",
+              "size": 606
+            },
+            {
+              "path": "Runtime/External/XRInteractionToolkit/R3.Unity.XRInteractionToolkit.asmdef.meta",
+              "sha256": "206249ee31ae57d00b5839aaf655083ba191eec09dbbda1e74d48269b32566bb",
+              "size": 166
+            },
+            {
+              "path": "Runtime/External/XRInteractionToolkit/UnityXRBaseInteractableExtensions.cs",
+              "sha256": "9e4652868a10b285e088f7b0808bc8a7acfc8e0c4d40c4ef7cb6e3a140f7b558",
+              "size": 4315
+            },
+            {
+              "path": "Runtime/External/XRInteractionToolkit/UnityXRBaseInteractableExtensions.cs.meta",
+              "sha256": "c35778e0a1acc0f56412cf2f3cd9276ab79136ccbf5a679bbfd18f407cbd17fd",
+              "size": 243
+            }
+          ],
+          "basis": "Reviewed actual C# extension/awaiter/observable implementations, asmdef external references and generated TMP adapter template. They consume external APIs in Cysharp/R3 namespaces; no vendor implementation or SDK payload is included. Exact archive code files also equal this pinned upstream repository version."
+        }
+      ],
+      "scopeLimitation": "Only these exact archive bytes/version and reviewed paths; no rights granted to separately acquired external SDKs, DOTween, TextMeshPro, Addressables or XR packages."
+    }
+  ]
+}

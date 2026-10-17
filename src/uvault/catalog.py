@@ -1,6 +1,8 @@
 """Small catalog loading with commit-pinned remote shard resolution."""
 from __future__ import annotations
 import concurrent.futures
+import gzip
+import hashlib
 import json
 from pathlib import Path, PurePosixPath
 import re
@@ -51,20 +53,39 @@ def load_registry(registry=DEFAULT_REGISTRY):
         if not commit or commit == "pending":
             result = subprocess.run(["git", "-C", str(Path(registry).parent), "rev-parse", "HEAD"], capture_output=True, text=True)
             commit = result.stdout.strip() if result.returncode == 0 else "local-uncommitted"
+    def location_for(relative):
+        if PurePosixPath(relative).is_absolute() or any(x in relative for x in ("\\", ":", "?", "#")) or ".." in PurePosixPath(relative).parts:
+            raise ValueError("Unsafe catalog shard path")
+        return urllib.parse.urljoin(registry, relative) if remote else str(Path(registry).parent / relative)
     def load(entry):
         if "versions" in entry:
             return entry
         relative = entry["path"]
-        if PurePosixPath(relative).is_absolute() or ".." in PurePosixPath(relative).parts or "\\" in relative:
-            raise ValueError("Unsafe catalog shard path")
-        location = urllib.parse.urljoin(registry, relative) if remote else str(Path(registry).parent / relative)
+        location = location_for(relative)
         package = read_json(location)
         if package.get("id") != entry["id"]:
             raise ValueError("Catalog shard identity mismatch")
         return package
-    with concurrent.futures.ThreadPoolExecutor(max_workers=12) as pool:
-        packages = list(pool.map(load, index.get("packages", [])))
-    return {**index, "catalogCommit": commit, "registry": registry, "packages": packages}
+    bundle=index.get("bundle") if not all("versions" in p for p in index.get("packages",[])) else None
+    if bundle:
+        location=location_for(bundle["path"])
+        if remote:
+            with urllib.request.urlopen(urllib.request.Request(location,headers={"User-Agent":"uvault/0.1"}),timeout=180) as response:
+                data=response.read()
+        else:
+            data=Path(location).read_bytes()
+        if len(data)!=bundle["size"] or hashlib.sha256(data).hexdigest()!=bundle["sha256"]:
+            raise ValueError("Catalog metadata bundle checksum mismatch")
+        packages=json.loads(gzip.decompress(data).decode("utf-8"))["packages"]
+        if {p["id"] for p in packages}!={p["id"] for p in index["packages"]} or len(packages)!=len(index["packages"]):
+            raise ValueError("Catalog metadata bundle identities mismatch")
+    else:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=12) as pool:
+            packages = list(pool.map(load, index.get("packages", [])))
+    expanded={**index, "catalogCommit": commit, "registry": registry, "packages": packages}
+    if "bundle" in expanded:
+        expanded["sourceBundle"]=expanded.pop("bundle")
+    return expanded
 
 def write_json(path, value):
     path = Path(path)
