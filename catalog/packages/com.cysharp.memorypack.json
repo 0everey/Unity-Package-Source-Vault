@@ -23,16 +23,91 @@
       "upstreamShasum": "6e379488decdecdce190798a550648817bcbfe93",
       "disposition": "license-unresolved",
       "license": {
-        "expression": "MIT",
+        "expression": null,
         "evidenceUrl": null,
         "sha256": null,
+        "text": null,
         "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-17T19:34:22.896082Z",
+        "decisionBasis": [
+          "No recognized archive-root license grant"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "c65339bcabecb27e2fbbe9363f21c259e03a556d0d5038ac18aafad220f150be",
+        "size": 2109,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://package.openupm.com/com.cysharp.memorypack/-/com.cysharp.memorypack-1.21.3.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "5fe23e1c1eb1624849c6598913cea163bf757390cfba4ed714ea7260337c86d8",
+        "artifactSha256": "c65339bcabecb27e2fbbe9363f21c259e03a556d0d5038ac18aafad220f150be",
+        "artifactSize": 2109,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "MemoryPack"
+        ],
+        "types": [
+          "MemoryPack.AnimationCurveFormatter",
+          "MemoryPack.GradientFormatter",
+          "MemoryPack.MemoryPackUnityFormatterProviderInitializer",
+          "MemoryPack.RectOffsetFormatter"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "MemoryPack.Unity",
+            "path": "Runtime/MemoryPack.Unity.asmdef",
+            "guid": "756335c0388f7114790e504ed368ae1d",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [],
+            "types": [
+              "MemoryPack.AnimationCurveFormatter",
+              "MemoryPack.GradientFormatter",
+              "MemoryPack.MemoryPackUnityFormatterProviderInitializer",
+              "MemoryPack.RectOffsetFormatter"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/c65339bcabecb27e2fbbe9363f21c259e03a556d0d5038ac18aafad220f150be-595fb35e69ff.json.gz",
+          "sha256": "5ff324bd68232229956c6824c77ead938ca70980e8653f1e9b3928e904bef280",
+          "size": 1201,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 9,
+        "sourceFileCount": 2,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 0,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://package.openupm.com/com.cysharp.memorypack/1.21.3",
       "deprecated": null,
@@ -43,7 +118,9 @@
           "integrity": "sha512-WQ5lBvB/2nonk5QBbiTrHCB9VrAQb4vNXn3ROci+6TQwT9yLbBN4EmRUkz/E/Y44cQwtD7JZ0p7WCre0w2jfFg==",
           "shasum": "6e379488decdecdce190798a550648817bcbfe93"
         }
-      }
+      },
+      "packageId": "com.cysharp.memorypack",
+      "collectedAt": "2026-10-17T19:34:22.897353Z"
     },
     {
       "version": "1.21.4",
@@ -55,16 +132,91 @@
       "upstreamShasum": "8d9eac4126c6deb9f1ca2eb6f9ca58cf8179fe67",
       "disposition": "license-unresolved",
       "license": {
-        "expression": "MIT",
+        "expression": null,
         "evidenceUrl": null,
         "sha256": null,
+        "text": null,
         "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-17T19:34:23.209020Z",
+        "decisionBasis": [
+          "No recognized archive-root license grant"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "777e436161c3489fbb7f4b5121040dd7a9d364e9825af040593f37e74f3abffb",
+        "size": 2111,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://package.openupm.com/com.cysharp.memorypack/-/com.cysharp.memorypack-1.21.4.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "5fe23e1c1eb1624849c6598913cea163bf757390cfba4ed714ea7260337c86d8",
+        "artifactSha256": "777e436161c3489fbb7f4b5121040dd7a9d364e9825af040593f37e74f3abffb",
+        "artifactSize": 2111,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "MemoryPack"
+        ],
+        "types": [
+          "MemoryPack.AnimationCurveFormatter",
+          "MemoryPack.GradientFormatter",
+          "MemoryPack.MemoryPackUnityFormatterProviderInitializer",
+          "MemoryPack.RectOffsetFormatter"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "MemoryPack.Unity",
+            "path": "Runtime/MemoryPack.Unity.asmdef",
+            "guid": "756335c0388f7114790e504ed368ae1d",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [],
+            "types": [
+              "MemoryPack.AnimationCurveFormatter",
+              "MemoryPack.GradientFormatter",
+              "MemoryPack.MemoryPackUnityFormatterProviderInitializer",
+              "MemoryPack.RectOffsetFormatter"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/777e436161c3489fbb7f4b5121040dd7a9d364e9825af040593f37e74f3abffb-595fb35e69ff.json.gz",
+          "sha256": "eea03d377361347096cdea90748f30317177e07ce4b9f1b2b498780222950766",
+          "size": 1202,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 9,
+        "sourceFileCount": 2,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 0,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://package.openupm.com/com.cysharp.memorypack/1.21.4",
       "deprecated": null,
@@ -75,7 +227,9 @@
           "integrity": "sha512-76izTaeyqQLmmbdNFVoXXuEulUlbLau89OyLhWsAwvuevDjyAbKi2nwHr06eapOZSDpPzuXi4GuZgA7Ds5Cl3A==",
           "shasum": "8d9eac4126c6deb9f1ca2eb6f9ca58cf8179fe67"
         }
-      }
+      },
+      "packageId": "com.cysharp.memorypack",
+      "collectedAt": "2026-10-17T19:34:23.210135Z"
     }
   ],
   "metadataStatus": "complete",

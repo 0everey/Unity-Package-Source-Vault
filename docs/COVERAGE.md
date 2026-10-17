@@ -4,7 +4,7 @@ Current denominator: 35 common families, 17 builtin module providers and three r
 The whitelist is complete for this scope; it is not a Unity ecosystem census.
 Two common versions per family, at most three for justified gaps/legacy; fewer available versions remain explicit.
 
-Generated: 2026-10-17T19:28:36.499428Z. Registered 55/55 entries; 92 version records; 7/65 archive tasks collected; 6 published with anonymous remote hash verification.
+Generated: 2026-10-17T19:34:25.763853Z. Registered 55/55 entries; 92 version records; 23/65 archive tasks collected; 6 published with anonymous remote hash verification.
 
 `reference-only` means no archive was acquired. Newer Editor-bundled rendering/UI versions link pinned official manifests/source paths and the matching Editor installation route.
 `collected` means bytes were reviewed/fingerprinted then released locally; only published objects are held by this vault remotely.
@@ -12,17 +12,17 @@ Generated: 2026-10-17T19:28:36.499428Z. Registered 55/55 entries; 92 version rec
 
 | Package | Versions and actual state |
 | --- | --- |
-| DOTween | [v1.2.785: pending, license-unresolved](https://github.com/Demigiant/dotween); [v1.2.815: pending, license-unresolved](https://github.com/Demigiant/dotween) |
+| DOTween | [v1.2.785: collected, official-fetch-only](https://github.com/Demigiant/dotween); [v1.2.815: collected, official-fetch-only](https://github.com/Demigiant/dotween) |
 | Facepunch.Steamworks | Wrapper and bundled Steam SDK rights differ; official reference until components are resolved |
-| Google.Protobuf | [3.31.0: pending, license-unresolved](https://www.nuget.org/packages/Google.Protobuf/3.31.0); [3.36.2: pending, license-unresolved](https://www.nuget.org/packages/Google.Protobuf/3.36.2) |
-| Grpc.Core.Api | [2.83.0: pending, license-unresolved](https://www.nuget.org/packages/Grpc.Core.Api/2.83.0); [2.84.0: pending, license-unresolved](https://www.nuget.org/packages/Grpc.Core.Api/2.84.0) |
-| Grpc.Net.Client | [2.83.0: pending, license-unresolved](https://www.nuget.org/packages/Grpc.Net.Client/2.83.0); [2.84.0: pending, license-unresolved](https://www.nuget.org/packages/Grpc.Net.Client/2.84.0) |
-| Newtonsoft.Json | [13.0.3: pending, license-unresolved](https://www.nuget.org/packages/Newtonsoft.Json/13.0.3); [13.0.4: pending, license-unresolved](https://www.nuget.org/packages/Newtonsoft.Json/13.0.4) |
+| Google.Protobuf | [3.31.0: collected, official-fetch-only](https://github.com/protocolbuffers/protobuf.git); [3.36.2: collected, official-fetch-only](https://github.com/protocolbuffers/protobuf.git) |
+| Grpc.Core.Api | [2.83.0: collected, official-fetch-only](https://github.com/grpc/grpc-dotnet.git); [2.84.0: collected, official-fetch-only](https://github.com/grpc/grpc-dotnet.git) |
+| Grpc.Net.Client | [2.83.0: collected, official-fetch-only](https://github.com/grpc/grpc-dotnet.git); [2.84.0: collected, official-fetch-only](https://github.com/grpc/grpc-dotnet.git) |
+| Newtonsoft.Json | [13.0.3: collected, official-fetch-only](https://github.com/JamesNK/Newtonsoft.Json); [13.0.4: collected, official-fetch-only](https://github.com/JamesNK/Newtonsoft.Json) |
 | PrimeTween | Source redistribution restrictions; official acquisition reference only |
 | Spine.Runtimes | Runtime license conditions need individual confirmation; no automatic public payload mirror |
-| com.annulusgames.lit-motion | [2.0.1: pending, license-unresolved](https://package.openupm.com/com.annulusgames.lit-motion); [2.0.2: pending, license-unresolved](https://package.openupm.com/com.annulusgames.lit-motion) |
-| com.annulusgames.lit-motion.animation | [2.0.1: pending, license-unresolved](https://package.openupm.com/com.annulusgames.lit-motion.animation); [2.0.2: pending, license-unresolved](https://package.openupm.com/com.annulusgames.lit-motion.animation) |
-| com.cysharp.memorypack | [1.21.3: pending, license-unresolved](https://package.openupm.com/com.cysharp.memorypack); [1.21.4: pending, license-unresolved](https://package.openupm.com/com.cysharp.memorypack) |
+| com.annulusgames.lit-motion | [2.0.1: collected, license-unresolved](https://package.openupm.com/com.annulusgames.lit-motion); [2.0.2: collected, license-unresolved](https://package.openupm.com/com.annulusgames.lit-motion) |
+| com.annulusgames.lit-motion.animation | [2.0.1: collected, license-unresolved](https://package.openupm.com/com.annulusgames.lit-motion.animation); [2.0.2: collected, license-unresolved](https://package.openupm.com/com.annulusgames.lit-motion.animation) |
+| com.cysharp.memorypack | [1.21.3: collected, license-unresolved](https://package.openupm.com/com.cysharp.memorypack); [1.21.4: collected, license-unresolved](https://package.openupm.com/com.cysharp.memorypack) |
 | com.cysharp.r3 | [1.3.0: published, mirror-allowed](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-0f/0f33096d53875bf71557ee838f7ac5e7bc102da644f1e9949d8446ec540485f0.tar.gz); [1.3.1: published, mirror-allowed](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-92/92d11624457bdfbc91910f05fdde09fa120471fce75ab6398c1ea616c62fc045.tar.gz); [1.3.1: pending, license-unresolved](https://github.com/Cysharp/R3.git) |
 | com.cysharp.unitask | [1.3.1: published, mirror-allowed](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-76/7642daa57ed3e3eb23fa2f3a680465c14002982eaf21b61c01f6a7907f251469.tar.gz); [2.5.10: published, mirror-allowed](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-d7/d739e70a84d49271479e35d77dff00017261b7216ca339e03caa4e8acdfb3bab.tar.gz); [2.5.11: pending, license-unresolved](https://github.com/Cysharp/UniTask.git); [2.5.11: published, mirror-allowed](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-f5/f502c3d1e56afee722c2707ba7370562446a6f3d4684a27afb74fd5817ab0a5b.tar.gz) |
 | com.github.messagepack-csharp | [3.1.11: pending, license-unresolved](https://github.com/MessagePack-CSharp/MessagePack-CSharp.git); [3.1.12: pending, license-unresolved](https://github.com/MessagePack-CSharp/MessagePack-CSharp.git) |
