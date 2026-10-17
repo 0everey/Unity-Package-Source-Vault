@@ -345,7 +345,7 @@ def fetch_package(seed):
             "versionStatus":"stable","dependencies":manifest.get("dependencies",{}),"unity":manifest.get("unity"),
             "license":{"expression":None,"evidenceUrl":url,"sha256":None,"components":[],"reviewStatus":"official-manifest-reference-no-payload-grant"},
             "acquisition":{"kind":"unity-editor-bundled-package","sourcePath":ref["path"].removesuffix("/package.json"),
-                "manifestSha256":hashlib.sha256(content).hexdigest(),"installationUrl":"https://docs.unity3d.com/6000.0/Documentation/Manual/pack-core.html",
+                "manifestSha256":hashlib.sha256(content).hexdigest(),"installationUrl":"https://unity.com/download",
                 "reason":"Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"}})
     from .curated import curate_package
     return curate_package(package,seed)

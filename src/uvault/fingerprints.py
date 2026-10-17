@@ -154,14 +154,28 @@ def _summary(fingerprint, reference, artifact_sha):
     return summary
 
 
-def _write_immutable(path, data):
+def _write_immutable(path, data, raw):
     path.parent.mkdir(parents=True, exist_ok=True)
     if _is_link(path.parent) or _is_link(path):
         raise ValueError("Fingerprint shard destination may not be a link")
-    if path.exists():
-        if not path.is_file() or path.read_bytes() != data:
+    def existing_bytes():
+        if not path.is_file() or path.stat().st_size > MAX_COMPRESSED_BYTES:
             raise ValueError("Immutable fingerprint shard already exists with different bytes")
-        return
+        stored=path.read_bytes()
+        if stored==data:return stored
+        # Python 3.12 gzip headers differ across Windows/Linux. Preserve the
+        # original compressed object and checksum only when its complete,
+        # bounded uncompressed canonical manifest is exactly identical.
+        try:
+            with gzip.GzipFile(fileobj=io.BytesIO(stored)) as stream:
+                equivalent=stream.read(len(raw)+1)==raw
+        except (OSError,EOFError):
+            equivalent=False
+        if not equivalent:
+            raise ValueError("Immutable fingerprint shard already exists with different bytes")
+        return stored
+    if path.exists():
+        return existing_bytes()
     temporary = None
     try:
         with tempfile.NamedTemporaryFile(prefix=".uvault-fingerprint-", suffix=".tmp", dir=path.parent, delete=False) as stream:
@@ -174,8 +188,10 @@ def _write_immutable(path, data):
         try:
             os.link(temporary, path)
         except FileExistsError:
-            if _is_link(path) or not path.is_file() or path.read_bytes() != data:
+            if _is_link(path):
                 raise ValueError("Immutable fingerprint shard already exists with different bytes") from None
+            return existing_bytes()
+        return data
     finally:
         if temporary is not None:
             temporary.unlink(missing_ok=True)
@@ -200,12 +216,13 @@ def externalize_fingerprint(root: Path, version: dict) -> bool:
     if len(raw) > MAX_FULL_FINGERPRINT_BYTES:
         raise ValueError("Fingerprint metadata exceeds the uncompressed size limit")
     data = gzip.compress(raw, mtime=0)
+    data = data[:9] + b"\xff" + data[10:]
     if len(data) > MAX_COMPRESSED_BYTES:
         raise ValueError("Fingerprint metadata exceeds the compressed size limit")
+    path = _local_path(root, relative)
+    data = _write_immutable(path, data, raw)
     reference = {"path": relative, "sha256": _sha(data), "size": len(data), "producer": producer}
     summary = _summary(fingerprint, reference, artifact_sha)
-    path = _local_path(root, relative)
-    _write_immutable(path, data)
     version["fingerprint"] = summary
     return True
 

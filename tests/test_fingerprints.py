@@ -85,6 +85,21 @@ class FingerprintShardTests(unittest.TestCase):
             self.assertEqual(len(list(root.rglob("*.json.gz"))), 2)
             self.assertEqual(load_full_fingerprint(changed, {"registry": str(root / "catalog.json")})["fingerprintProducer"]["version"], "future-version")
 
+    def test_cross_platform_gzip_reuses_exact_manifest_without_overwriting(self):
+        version=sample_version();second=copy.deepcopy(version);original=copy.deepcopy(version["fingerprint"])
+        with tempfile.TemporaryDirectory() as temporary:
+            root=Path(temporary)
+            externalize_fingerprint(root,version)
+            path=root/version["fingerprint"]["fileManifestRef"]["path"]
+            data=path.read_bytes();foreign=data[:9]+b"\x03"+data[10:]
+            path.write_bytes(foreign)
+            stamp=path.stat().st_mtime_ns
+            externalize_fingerprint(root,second)
+            self.assertEqual(path.read_bytes(),foreign)
+            self.assertEqual(path.stat().st_mtime_ns,stamp)
+            self.assertEqual(second["fingerprint"]["fileManifestRef"]["sha256"],hashlib.sha256(foreign).hexdigest())
+            self.assertEqual(load_full_fingerprint(second,{"registry":root/"catalog.json"}),original)
+
     def test_changed_bytes_at_existing_object_are_never_overwritten(self):
         version = sample_version()
         changed = copy.deepcopy(version)
