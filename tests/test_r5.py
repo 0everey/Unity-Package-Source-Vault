@@ -107,8 +107,15 @@ class R5Tests(unittest.TestCase):
             self.assertTrue(locked['namedPending']);self.assertEqual(locked['libraries'][0]['status'],'origin-unresolved')
             locked.pop('namedPending');locked['unknown']=[];locked['conflicts']=[]
             locked['libraries'][0].pop('namedPending');locked['libraries'][0]['status']='exact-artifact'
-            exported=export_remaker(locked)
+            locked['libraries'][0]['suggestedReuseScope']=[{'kind':'source-file','path':'X.cs'}]
+            from uvault.materialize import canonical_hash
+            original=copy.deepcopy(locked)
+            exported=export_remaker(locked,{'lockSha256':canonical_hash(locked),'libraries':[]})
             self.assertTrue(exported['namedPending']);self.assertEqual(exported['libraries'][0]['status'],'origin-unresolved')
+            self.assertEqual(exported['matchBasis'][0]['status'],'origin-unresolved')
+            self.assertEqual(exported['suggestedReuseScope'][0]['scope'],[])
+            self.assertEqual(exported['libraries'][0]['unverifiedSuggestedReuseScope'],[{'kind':'source-file','path':'X.cs'}])
+            self.assertEqual(exported['lockContentSha256'],canonical_hash(original));self.assertEqual(locked,original)
 
     def test_named_prefix_lookalikes_are_not_marked_and_shared_business_keeps_address(self):
         inv=inventory(declaration('p','UnityEngine.Physics'),declaration('c','UnityEngine.Collider'),

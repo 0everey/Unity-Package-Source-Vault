@@ -27,7 +27,11 @@ def export_remaker(lock: dict, materialized: dict | None = None, lock_file_sha25
     for unresolved in (materialized or {}).get("unresolved",[]):
         if unresolved not in result["unresolved"]:
             result["unresolved"].append(deepcopy(unresolved))
-    for library in lock.get("libraries", []):
+    # Bind the original input/receipt first, then derive every consumer field
+    # from a protected copy, so status and reuse suggestions cannot diverge.
+    from .named_identity import preserve_pending
+    preserve_pending(result)
+    for library in result["libraries"]:
         identity = {key: library.get(key) for key in ("packageId", "version", "variantId")}
         result["sourceRefs"].append({**identity, "sourceUrl": library.get("sourceUrl"),
             "sourceRef": library.get("sourceRef"), "artifact": deepcopy(library.get("artifact")),
@@ -51,5 +55,4 @@ def export_remaker(lock: dict, materialized: dict | None = None, lock_file_sha25
         library["skipNativeRecovery"] = False
         library["adoptionStatus"] = "pending"
         library["sourceRefs"]=[deepcopy(ref) for ref in result["sourceRefs"] if all(ref.get(k)==library.get(k) for k in ("packageId","version","variantId"))]
-    from .named_identity import preserve_pending
-    return preserve_pending(result)
+    return result

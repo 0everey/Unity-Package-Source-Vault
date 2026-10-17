@@ -2,6 +2,7 @@
 from __future__ import annotations
 import hashlib
 import json
+from copy import deepcopy
 from pathlib import Path
 from .curated import configuration
 
@@ -51,7 +52,11 @@ def preserve_pending(document):
         affected={item["familyId"]:item for item in match_pending(package_id=library.get("packageId", ""))}
         for item in fingerprint_pending(library.get("fingerprint") or {}):affected[item["familyId"]]=item
         if not affected:continue
-        library.update(namedPending=list(affected.values()),status="origin-unresolved",skipNativeRecovery=False)
+        if library.get("status")!="origin-unresolved":library.setdefault("observedMatchStatus",library.get("status","unknown"))
+        if library.get("suggestedReuseScope"):
+            library.setdefault("unverifiedSuggestedReuseScope",deepcopy(library["suggestedReuseScope"]))
+        library.update(namedPending=list(affected.values()),status="origin-unresolved",skipNativeRecovery=False,
+                       suggestedReuseScope=[],scopeUsageStatus="comparison-only-origin-and-differences-unresolved")
         for family,item in affected.items():found[family]=item
         conflict={"kind":"named-origin-and-modification-unresolved","families":list(affected.values())}
         if conflict not in library.setdefault("conflicts",[]):library["conflicts"].append(conflict)
