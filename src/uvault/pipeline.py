@@ -14,6 +14,7 @@ from pathlib import Path
 import subprocess
 import sys
 import time
+import secrets
 import urllib.parse
 from contextlib import contextmanager
 from . import harvest, sources
@@ -237,7 +238,9 @@ def _run(argv=None):
             yielded=True
         write_json(root/"collection-run.json",{"schemaVersion":"1.0","attempted":checkpoint_count,"needsContinuation":yielded,
                    "reason":"Hosting runner deadline; completed tasks retained remotely" if yielded else "Selected queue traversal finished; failures and restrictions remain explicit",
-                   "packages":args.package,"generatedAt":sources.utc_now()})
+                   "packages":args.package,"mode":"collect","runId":os.environ.get("GITHUB_RUN_ID"),
+                   "runAttempt":os.environ.get("GITHUB_RUN_ATTEMPT"),"continuationId":secrets.token_hex(16) if yielded else None,
+                   "generatedAt":sources.utc_now()})
     save_index(root,queue,bundle=True)
     if args.checkpoint_push:
         push_checkpoint(root,queue)

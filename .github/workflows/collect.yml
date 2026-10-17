@@ -11,6 +11,19 @@ on:
         type: string
         description: Optional comma-separated package IDs; empty processes the full queue
         default: ''
+      parent_run:
+        type: string
+        default: ''
+        description: Bound parent run for automatic continuation; leave empty for a manual resume
+      parent_attempt:
+        type: string
+        default: ''
+      parent_checkpoint:
+        type: string
+        default: ''
+      continuation_id:
+        type: string
+        default: ''
 permissions:
   contents: write
   actions: write
@@ -28,6 +41,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Verify successful parent before successor collection
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PARENT_RUN: ${{ inputs.parent_run }}
+          PARENT_ATTEMPT: ${{ inputs.parent_attempt }}
+          PARENT_CHECKPOINT: ${{ inputs.parent_checkpoint }}
+          CONTINUATION_ID: ${{ inputs.continuation_id }}
+        run: PYTHONPATH=src python -m uvault.continuation
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
@@ -55,16 +76,6 @@ jobs:
             if [[ -n "$id" ]]; then args+=(--package "$id"); fi
           done
           python -m uvault.pipeline "${args[@]}"
-      - name: Continue queue on a fresh ephemeral runner
-        env:
-          GH_TOKEN: ${{ github.token }}
-          PACKAGES: ${{ inputs.packages }}
-        shell: bash
-        run: |
-          continuation=$(python -c "import json;from pathlib import Path;p=Path('catalog/collection-run.json');print('yes' if p.is_file() and json.loads(p.read_text()).get('needsContinuation') else 'no')")
-          if [[ "$continuation" == yes ]]; then
-            gh workflow run collect.yml --ref main -f mode=collect -f packages="$PACKAGES"
-          fi
       - name: Commit completed checkpoints
         if: always()
         shell: bash
@@ -77,3 +88,24 @@ jobs:
             git commit -q -m 'Checkpoint verified collection and remaining queue'
             git push
           fi
+      - name: Continue queue after validated checkpoint commit
+        if: ${{ success() && inputs.mode == 'collect' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PACKAGES: ${{ inputs.packages }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,os,subprocess
+          from pathlib import Path
+          path=Path('catalog/collection-run.json')
+          manifest=json.loads(path.read_text()) if path.is_file() else {}
+          if (manifest.get('needsContinuation') is True and manifest.get('mode')=='collect'
+              and manifest.get('runId')==os.environ['GITHUB_RUN_ID']
+              and manifest.get('runAttempt')==os.environ['GITHUB_RUN_ATTEMPT']):
+              checkpoint=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+              subprocess.run(['gh','workflow','run','collect.yml','--ref','main','-f','mode=collect',
+                  '-f','packages='+os.environ['PACKAGES'],'-f','parent_run='+manifest['runId'],
+                  '-f','parent_attempt='+manifest['runAttempt'],'-f','parent_checkpoint='+checkpoint,
+                  '-f','continuation_id='+manifest['continuationId']],check=True)
+          PY
