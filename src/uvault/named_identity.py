@@ -48,6 +48,15 @@ def preserve_pending(document):
     source=document.get("input") or document.get("inputIdentity") or {}
     found={item["familyId"]:item for item in document.get("namedPending",[])}
     for item in fingerprint_pending(source.get("fingerprint") or {}):found[item["familyId"]]=item
+    # Explicit distribution choice narrows acquisition, not observed identity.
+    # Old inputs may carry the only named-origin clue in an unselected candidate.
+    retained = [entry.get("match", {}) for entry in document.get("unselectedAlternatives", [])]
+    retained.extend(document.get("unresolved", []))
+    for match in retained:
+        for row in [match, *match.get("candidates", [])]:
+            for item in row.get("namedPending", []):found[item["familyId"]]=item
+            for item in match_pending(package_id=row.get("packageId", match.get("packageId", ""))):found[item["familyId"]]=item
+            for item in fingerprint_pending(row.get("fingerprint") or {}):found[item["familyId"]]=item
     for library in document.get("libraries",[]):
         affected={item["familyId"]:item for item in match_pending(package_id=library.get("packageId", ""))}
         for item in fingerprint_pending(library.get("fingerprint") or {}):affected[item["familyId"]]=item

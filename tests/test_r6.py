@@ -103,6 +103,25 @@ class R6Tests(unittest.TestCase):
         with patch('uvault.harvest.collect_version',side_effect=AssertionError('dormant collected')):
             self.assertEqual(harvest.collect_selected(state,package_ids=[p['id'] for p in state['onDemandCandidates']])['attempted'],0)
 
+    def test_unselected_named_candidate_and_old_lock_keep_global_pending(self):
+        matches=self.matches();matches['unknown']=[]
+        for match in matches['matches']:match['status']='exact-artifact'
+        matches['matches'][1]['candidates'][0]['fingerprint']={'assemblies':[{'name':'Tekly.Common.Runtime'}],'types':['Tekly.Common.X']}
+        before=copy.deepcopy(matches)
+        result=resolve(matches,[{'packageId':'Newtonsoft.Json','version':'1.0.0','variantId':'test'}])
+        self.assertTrue(result['namedPending']);self.assertTrue(result['unknown'])
+        self.assertTrue(all(l['status']=='exact-artifact' for l in result['libraries']))
+        self.assertEqual(result['unselectedAlternatives'][0]['match'],matches['matches'][1])
+        self.assertEqual(matches,before)
+        old=copy.deepcopy(result)
+        for key in ('namedPending','unknown','conflicts'):old.pop(key,None)
+        original=copy.deepcopy(old);receipt={'lockSha256':canonical_hash(old),'libraries':[]}
+        exported=export_remaker(old,receipt)
+        self.assertTrue(exported['namedPending']);self.assertTrue(exported['unknown'])
+        self.assertEqual(exported['lockContentSha256'],canonical_hash(old));self.assertEqual(old,original)
+        from uvault.cli import _partial
+        self.assertTrue(_partial(result));self.assertTrue(_partial(exported))
+
     def test_cli_conflict_and_explicit_choice_both_remain_partial_with_unknown(self):
         with tempfile.TemporaryDirectory() as temporary:
             root=Path(temporary);source=root/'matches.json';source.write_text(json.dumps(self.matches()))

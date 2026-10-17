@@ -116,7 +116,9 @@ def queue(existing=None):
             if key in seed:packages[-1][key]=seed[key]
     return {"schemaVersion":"1.0","scopeVersion":"R4","requirementRevision":configuration().get("requirementRevision","R4"),"scope":"Common Unity builtin providers and explicitly listed common packages; two or three versions per family",
             "createdAt":utc_now(),"completeEnumeration":True,"enumerationMeaning":"Complete current common whitelist, not an ecosystem enumeration",
-            "snapshots":[{"source":"common-packages.json","scopeVersion":"R4","configuredPackageFamilies":len(configuration()["packages"]),"discoveredAt":utc_now()}],
+            "snapshots":[{"source":"common-packages.json","scopeVersion":"R4",
+                          "configuredPackageFamilies":sum(p.get("dependencyRole")!="companion-not-root-family" for p in configuration()["packages"]),
+                          "configuredCompanionEntries":sum(p.get("dependencyRole")=="companion-not-root-family" for p in configuration()["packages"]),"discoveredAt":utc_now()}],
             "packages":packages,"frontier":[],"compatibilitySetDefinitions":deepcopy(configuration().get("compatibilitySetDefinitions",[])),
             "onDemandCandidates":deepcopy(configuration().get("onDemandCandidates",[])),
             "providerRuleCandidates":deepcopy(configuration().get("providerRuleCandidates",[]))}
