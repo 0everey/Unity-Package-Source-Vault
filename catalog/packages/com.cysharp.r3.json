@@ -100,8 +100,8 @@
         ],
         "notices": [],
         "reviewStatus": "archive-text-reviewed",
-        "reviewAlgorithm": "archive-rights-v2",
-        "reviewedAt": "2026-10-17T17:51:38.772949Z",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-17T19:42:36.180766Z",
         "decisionBasis": [
           "Recognized permissive root grant; all detected license documents reviewed; no detected native SDK components"
         ],
@@ -120,9 +120,9 @@
         "verifiedRemote": true,
         "assetId": "RA_kwDOVNoTL84mz-Ed",
         "releaseTag": "objects-0f",
-        "licenseUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-0f/0f33096d53875bf71557ee838f7ac5e7bc102da644f1e9949d8446ec540485f0.license-6a643da6d6998010.json",
-        "licenseSha256": "6a643da6d69980108ec9f95d41b4fd18991c654eadfcf89dee06ee4f77e55337",
-        "licenseAssetId": "RA_kwDOVNoTL84mz-H6"
+        "licenseUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-0f/0f33096d53875bf71557ee838f7ac5e7bc102da644f1e9949d8446ec540485f0.license-abde306a424796d5.json",
+        "licenseSha256": "abde306a424796d5ec0e3af3c49216a93b73503d9cf8c885b85d0b36a747e7cc",
+        "licenseAssetId": "RA_kwDOVNoTL84m08-p"
       },
       "fingerprint": {
         "fingerprintProducer": {
@@ -444,7 +444,7 @@
         }
       },
       "packageId": "com.cysharp.r3",
-      "collectedAt": "2026-10-17T17:51:38.919813Z",
+      "collectedAt": "2026-10-17T19:42:36.196390Z",
       "sourceRefEvidence": {
         "kind": "reviewed-archive-upstream-code-equality",
         "archiveSha256": "0f33096d53875bf71557ee838f7ac5e7bc102da644f1e9949d8446ec540485f0",
@@ -548,8 +548,8 @@
         ],
         "notices": [],
         "reviewStatus": "archive-text-reviewed",
-        "reviewAlgorithm": "archive-rights-v2",
-        "reviewedAt": "2026-10-17T17:51:57.771442Z",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-17T19:42:38.992703Z",
         "decisionBasis": [
           "Recognized permissive root grant; all detected license documents reviewed; no detected native SDK components"
         ],
@@ -568,9 +568,9 @@
         "verifiedRemote": true,
         "assetId": "RA_kwDOVNoTL84mz-Pi",
         "releaseTag": "objects-92",
-        "licenseUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-92/92d11624457bdfbc91910f05fdde09fa120471fce75ab6398c1ea616c62fc045.license-3bf03af232b8b0d3.json",
-        "licenseSha256": "3bf03af232b8b0d33a24d002f5ec63ba836df18f4902673e2e89af1b0ca7906a",
-        "licenseAssetId": "RA_kwDOVNoTL84mz-Ty"
+        "licenseUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-92/92d11624457bdfbc91910f05fdde09fa120471fce75ab6398c1ea616c62fc045.license-63c5113c4dadb747.json",
+        "licenseSha256": "63c5113c4dadb7477d833877d484f9868dea4d3ab1d0d657ce686c589f8d78d7",
+        "licenseAssetId": "RA_kwDOVNoTL84m08_9"
       },
       "fingerprint": {
         "fingerprintProducer": {
@@ -892,7 +892,7 @@
         }
       },
       "packageId": "com.cysharp.r3",
-      "collectedAt": "2026-10-17T17:51:57.868576Z",
+      "collectedAt": "2026-10-17T19:42:39.008509Z",
       "sourceRefEvidence": {
         "kind": "archive-package-json",
         "sha256": "8e3101dbba5a9fd645f0275336ecaa5f7cd31ce3dc9cd897dcff716b6458436b"
@@ -903,25 +903,422 @@
     {
       "version": "1.3.1",
       "variantId": "registry-package.openupm.com-c9ad5cd2c550a2a0",
-      "sourceUrl": "https://github.com/Cysharp/R3.git",
+      "sourceUrl": "https://github.com/Cysharp/R3",
       "sourceRef": "f6eed2dd4208dc4ae171c601e799e85f82aca25e",
       "downloadUrl": "https://package.openupm.com/com.cysharp.r3/-/com.cysharp.r3-1.3.1.tgz",
       "upstreamIntegrity": "sha512-ajTSvxXSb00FTqPlyaaQfeqsPKVN/YLklIG09lEZfdWi2AJod65zOy1MbO6id2BH4xhb/OrPgpfzRrvvrIzh3w==",
       "upstreamShasum": "c103fb978c125c726037446018f44dd28e6bcbc8",
-      "disposition": "license-unresolved",
+      "disposition": "mirror-allowed",
       "license": {
         "expression": "MIT",
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "evidenceUrl": "https://raw.githubusercontent.com/Cysharp/R3/f6eed2dd4208dc4ae171c601e799e85f82aca25e/LICENSE",
+        "sha256": "f7ad61ea54f0a855ffdcb8536d602a6d0a59fb6da19fe4a748aabde377865d9a",
+        "text": "MIT License\n\nCopyright (c) 2024 Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "components": [
+          {
+            "path": "LICENSE",
+            "expression": "MIT",
+            "sha256": "f7ad61ea54f0a855ffdcb8536d602a6d0a59fb6da19fe4a748aabde377865d9a",
+            "text": "MIT License\n\nCopyright (c) 2024 Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+            "evidenceUrl": "https://raw.githubusercontent.com/Cysharp/R3/f6eed2dd4208dc4ae171c601e799e85f82aca25e/LICENSE",
+            "scope": "pinned-upstream-repository-root",
+            "sourceRef": "f6eed2dd4208dc4ae171c601e799e85f82aca25e"
+          },
+          {
+            "path": "Runtime/External",
+            "expression": "MIT",
+            "reviewStatus": "reviewed-project-authored-integration-adapters",
+            "evidenceUrl": "https://github.com/Cysharp/R3/tree/f6eed2dd4208dc4ae171c601e799e85f82aca25e",
+            "archiveSha256": "92d11624457bdfbc91910f05fdde09fa120471fce75ab6398c1ea616c62fc045",
+            "files": [
+              {
+                "path": "Runtime/External/TextMeshPro.meta",
+                "sha256": "8dbdc7f122f3901b022d399e81551b24c2b16783b4881283bca3cb53bde3b435",
+                "size": 172
+              },
+              {
+                "path": "Runtime/External/TextMeshPro/R3.Unity.TextMeshPro.asmdef",
+                "sha256": "2c02e93a772a40d247fc2efeb3a6e04c344b7703437a7ae98a7ca44775031a29",
+                "size": 695
+              },
+              {
+                "path": "Runtime/External/TextMeshPro/R3.Unity.TextMeshPro.asmdef.meta",
+                "sha256": "79874a1f4228608de82a5c8cd9d32fce4e7ced2fa8070d459da03ccfddf1d761",
+                "size": 166
+              },
+              {
+                "path": "Runtime/External/TextMeshPro/TextMeshProExtensions.cs",
+                "sha256": "7a7906febc23080b1cdaff74d3bbc84c929bcb1fcec59d0f93fcea648981d95e",
+                "size": 2019
+              },
+              {
+                "path": "Runtime/External/TextMeshPro/TextMeshProExtensions.cs.meta",
+                "sha256": "55fbaf1e0ef8ead01b16048c6b8aa81b4905bd27b906fe8c07fd8fe590ec5b0f",
+                "size": 243
+              },
+              {
+                "path": "Runtime/External/XRInteractionToolkit.meta",
+                "sha256": "080337abebaa398549e4303cfd2b94062a12f280808a490dd9c186a29c587e27",
+                "size": 172
+              },
+              {
+                "path": "Runtime/External/XRInteractionToolkit/R3.Unity.XRInteractionToolkit.asmdef",
+                "sha256": "f2bdf00b274d9704afd352ee17163126e4431ca3ede84f1f6fda7cebc22310d6",
+                "size": 606
+              },
+              {
+                "path": "Runtime/External/XRInteractionToolkit/R3.Unity.XRInteractionToolkit.asmdef.meta",
+                "sha256": "206249ee31ae57d00b5839aaf655083ba191eec09dbbda1e74d48269b32566bb",
+                "size": 166
+              },
+              {
+                "path": "Runtime/External/XRInteractionToolkit/UnityXRBaseInteractableExtensions.cs",
+                "sha256": "9e4652868a10b285e088f7b0808bc8a7acfc8e0c4d40c4ef7cb6e3a140f7b558",
+                "size": 4315
+              },
+              {
+                "path": "Runtime/External/XRInteractionToolkit/UnityXRBaseInteractableExtensions.cs.meta",
+                "sha256": "c35778e0a1acc0f56412cf2f3cd9276ab79136ccbf5a679bbfd18f407cbd17fd",
+                "size": 243
+              }
+            ],
+            "reason": "Reviewed actual C# extension/awaiter/observable implementations, asmdef external references and generated TMP adapter template. They consume external APIs in Cysharp/R3 namespaces; no vendor implementation or SDK payload is included. Exact archive code files also equal this pinned upstream repository version."
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-17T19:42:41.748465Z",
+        "decisionBasis": [
+          "Recognized permissive root grant; all detected license documents reviewed; no detected native SDK components"
+        ],
+        "noticeDelivery": "Archive omits license text; preserve catalog license text as a companion when materializing or redistributing",
+        "componentReviewSha256": "6f3714b32c12c42a4cce8f141505ee2d207d587685994f12ef13aa73f32ea834"
       },
       "dependencies": {
         "com.unity.modules.imgui": "1.0.0"
       },
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "92d11624457bdfbc91910f05fdde09fa120471fce75ab6398c1ea616c62fc045",
+        "size": 25363,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-92/92d11624457bdfbc91910f05fdde09fa120471fce75ab6398c1ea616c62fc045.tar.gz",
+        "verifiedRemote": true,
+        "assetId": "RA_kwDOVNoTL84mz-Pi",
+        "releaseTag": "objects-92",
+        "licenseUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-92/92d11624457bdfbc91910f05fdde09fa120471fce75ab6398c1ea616c62fc045.license-4b34fff4d8deded0.json",
+        "licenseSha256": "4b34fff4d8deded00bd693a8eee05273b59700fe5f261d8518295aa2da4bfa5c",
+        "licenseAssetId": "RA_kwDOVNoTL84m09A9"
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "547e80414f96fc198070da2ff94088f9e5891aeb7c52fca78f9c7c6f59ab6507",
+        "artifactSha256": "92d11624457bdfbc91910f05fdde09fa120471fce75ab6398c1ea616c62fc045",
+        "artifactSize": 25363,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "R3",
+          "R3.Triggers",
+          "R3.Unity.Editor"
+        ],
+        "types": [
+          "R3.FrameTimer",
+          "R3.FrameTimer+RunningState",
+          "R3.MonoBehaviourExtensions",
+          "R3.ObserveOnExtensions",
+          "R3.PlayerLoopHelper",
+          "R3.PlayerLoopTiming",
+          "R3.R3LoopRunners",
+          "R3.R3LoopRunners+R3EarlyUpdate",
+          "R3.R3LoopRunners+R3FixedUpdate",
+          "R3.R3LoopRunners+R3Initialization",
+          "R3.R3LoopRunners+R3PostFixedUpdate",
+          "R3.R3LoopRunners+R3PostLateUpdate",
+          "R3.R3LoopRunners+R3PreLateUpdate",
+          "R3.R3LoopRunners+R3PreUpdate",
+          "R3.R3LoopRunners+R3TimeUpdate",
+          "R3.R3LoopRunners+R3Update",
+          "R3.SerializableReactiveProperty",
+          "R3.SerializableReactivePropertyDrawer",
+          "R3.TextMeshProExtensions",
+          "R3.TimeKind",
+          "R3.Triggers.ObservableAnimatorTrigger",
+          "R3.Triggers.ObservableBeginDragTrigger",
+          "R3.Triggers.ObservableCancelTrigger",
+          "R3.Triggers.ObservableCanvasGroupChangedTrigger",
+          "R3.Triggers.ObservableCollision2DTrigger",
+          "R3.Triggers.ObservableCollisionTrigger",
+          "R3.Triggers.ObservableDeselectTrigger",
+          "R3.Triggers.ObservableDestroyTrigger",
+          "R3.Triggers.ObservableDragTrigger",
+          "R3.Triggers.ObservableDropTrigger",
+          "R3.Triggers.ObservableEnableTrigger",
+          "R3.Triggers.ObservableEndDragTrigger",
+          "R3.Triggers.ObservableEventTrigger",
+          "R3.Triggers.ObservableFixedUpdateTrigger",
+          "R3.Triggers.ObservableInitializePotentialDragTrigger",
+          "R3.Triggers.ObservableJointTrigger",
+          "R3.Triggers.ObservableLateUpdateTrigger",
+          "R3.Triggers.ObservableMouseTrigger",
+          "R3.Triggers.ObservableMoveTrigger",
+          "R3.Triggers.ObservableParticleTrigger",
+          "R3.Triggers.ObservablePointerClickTrigger",
+          "R3.Triggers.ObservablePointerDownTrigger",
+          "R3.Triggers.ObservablePointerEnterTrigger",
+          "R3.Triggers.ObservablePointerExitTrigger",
+          "R3.Triggers.ObservablePointerUpTrigger",
+          "R3.Triggers.ObservableRectTransformTrigger",
+          "R3.Triggers.ObservableScrollTrigger",
+          "R3.Triggers.ObservableSelectTrigger",
+          "R3.Triggers.ObservableStateMachineTrigger",
+          "R3.Triggers.ObservableStateMachineTrigger+OnStateInfo",
+          "R3.Triggers.ObservableStateMachineTrigger+OnStateMachineInfo",
+          "R3.Triggers.ObservableSubmitTrigger",
+          "R3.Triggers.ObservableTransformChangedTrigger",
+          "R3.Triggers.ObservableTrigger2DTrigger",
+          "R3.Triggers.ObservableTriggerBase",
+          "R3.Triggers.ObservableTriggerExtensions",
+          "R3.Triggers.ObservableTriggerTrigger",
+          "R3.Triggers.ObservableUpdateSelectedTrigger",
+          "R3.Triggers.ObservableUpdateTrigger",
+          "R3.Triggers.ObservableVisibleTrigger",
+          "R3.Unity.Editor.EditorEnableState",
+          "R3.Unity.Editor.ObservableTrackerTreeView",
+          "R3.Unity.Editor.ObservableTrackerViewItem",
+          "R3.Unity.Editor.ObservableTrackerWindow",
+          "R3.Unity.Editor.SplitterGUILayout",
+          "R3.UnityEventExtensions",
+          "R3.UnityFrameProvider",
+          "R3.UnityProviderInitializer",
+          "R3.UnityTimeProvider",
+          "R3.UnityUIComponentExtensions",
+          "R3.UnityXRBaseInteractableExtensions"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "R3.Unity",
+            "path": "Runtime/R3.Unity.asmdef",
+            "guid": "77221876cc6b8244180b96e320b1bcd4",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.ugui",
+                "expression": "",
+                "define": "R3_UGUI_SUPPORT"
+              },
+              {
+                "name": "com.unity.modules.physics",
+                "expression": "",
+                "define": "R3_PHYSICS_SUPPORT"
+              },
+              {
+                "name": "com.unity.modules.physics2d",
+                "expression": "",
+                "define": "R3_PHYSICS2D_SUPPORT"
+              },
+              {
+                "name": "com.unity.modules.particlesystem",
+                "expression": "",
+                "define": "R3_PARTICLESYSTEM_SUPPORT"
+              },
+              {
+                "name": "com.unity.modules.animation",
+                "expression": "",
+                "define": "R3_ANIMATION_SUPPORT"
+              }
+            ],
+            "references": [],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "R3.FrameTimer",
+              "R3.FrameTimer+RunningState",
+              "R3.MonoBehaviourExtensions",
+              "R3.ObserveOnExtensions",
+              "R3.PlayerLoopHelper",
+              "R3.PlayerLoopTiming",
+              "R3.R3LoopRunners",
+              "R3.R3LoopRunners+R3EarlyUpdate",
+              "R3.R3LoopRunners+R3FixedUpdate",
+              "R3.R3LoopRunners+R3Initialization",
+              "R3.R3LoopRunners+R3PostFixedUpdate",
+              "R3.R3LoopRunners+R3PostLateUpdate",
+              "R3.R3LoopRunners+R3PreLateUpdate",
+              "R3.R3LoopRunners+R3PreUpdate",
+              "R3.R3LoopRunners+R3TimeUpdate",
+              "R3.R3LoopRunners+R3Update",
+              "R3.SerializableReactiveProperty",
+              "R3.SerializableReactivePropertyDrawer",
+              "R3.TimeKind",
+              "R3.Triggers.ObservableAnimatorTrigger",
+              "R3.Triggers.ObservableBeginDragTrigger",
+              "R3.Triggers.ObservableCancelTrigger",
+              "R3.Triggers.ObservableCanvasGroupChangedTrigger",
+              "R3.Triggers.ObservableCollision2DTrigger",
+              "R3.Triggers.ObservableCollisionTrigger",
+              "R3.Triggers.ObservableDeselectTrigger",
+              "R3.Triggers.ObservableDestroyTrigger",
+              "R3.Triggers.ObservableDragTrigger",
+              "R3.Triggers.ObservableDropTrigger",
+              "R3.Triggers.ObservableEnableTrigger",
+              "R3.Triggers.ObservableEndDragTrigger",
+              "R3.Triggers.ObservableEventTrigger",
+              "R3.Triggers.ObservableFixedUpdateTrigger",
+              "R3.Triggers.ObservableInitializePotentialDragTrigger",
+              "R3.Triggers.ObservableJointTrigger",
+              "R3.Triggers.ObservableLateUpdateTrigger",
+              "R3.Triggers.ObservableMouseTrigger",
+              "R3.Triggers.ObservableMoveTrigger",
+              "R3.Triggers.ObservableParticleTrigger",
+              "R3.Triggers.ObservablePointerClickTrigger",
+              "R3.Triggers.ObservablePointerDownTrigger",
+              "R3.Triggers.ObservablePointerEnterTrigger",
+              "R3.Triggers.ObservablePointerExitTrigger",
+              "R3.Triggers.ObservablePointerUpTrigger",
+              "R3.Triggers.ObservableRectTransformTrigger",
+              "R3.Triggers.ObservableScrollTrigger",
+              "R3.Triggers.ObservableSelectTrigger",
+              "R3.Triggers.ObservableStateMachineTrigger",
+              "R3.Triggers.ObservableStateMachineTrigger+OnStateInfo",
+              "R3.Triggers.ObservableStateMachineTrigger+OnStateMachineInfo",
+              "R3.Triggers.ObservableSubmitTrigger",
+              "R3.Triggers.ObservableTransformChangedTrigger",
+              "R3.Triggers.ObservableTrigger2DTrigger",
+              "R3.Triggers.ObservableTriggerBase",
+              "R3.Triggers.ObservableTriggerExtensions",
+              "R3.Triggers.ObservableTriggerTrigger",
+              "R3.Triggers.ObservableUpdateSelectedTrigger",
+              "R3.Triggers.ObservableUpdateTrigger",
+              "R3.Triggers.ObservableVisibleTrigger",
+              "R3.UnityEventExtensions",
+              "R3.UnityFrameProvider",
+              "R3.UnityProviderInitializer",
+              "R3.UnityTimeProvider",
+              "R3.UnityUIComponentExtensions"
+            ]
+          },
+          {
+            "name": "R3.Unity.Editor",
+            "path": "Editor/R3.Unity.Editor.asmdef",
+            "guid": "f8c68d614fe30d647996098360b5e0d5",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "R3.Unity"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "R3.Unity.Editor.EditorEnableState",
+              "R3.Unity.Editor.ObservableTrackerTreeView",
+              "R3.Unity.Editor.ObservableTrackerViewItem",
+              "R3.Unity.Editor.ObservableTrackerWindow",
+              "R3.Unity.Editor.SplitterGUILayout"
+            ]
+          },
+          {
+            "name": "R3.Unity.TextMeshPro",
+            "path": "Runtime/External/TextMeshPro/R3.Unity.TextMeshPro.asmdef",
+            "guid": "f02da9ca564ed54499f6f43d8249d415",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.textmeshpro",
+                "expression": "",
+                "define": "R3_TEXTMESHPRO_SUPPORT"
+              },
+              {
+                "name": "com.unity.ugui",
+                "expression": "2.0.0",
+                "define": "R3_TEXTMESHPRO_SUPPORT"
+              }
+            ],
+            "references": [
+              "R3.Unity",
+              "Unity.TextMeshPro"
+            ],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "R3.TextMeshProExtensions"
+            ]
+          },
+          {
+            "name": "R3.Unity.XRInteractionToolkit",
+            "path": "Runtime/External/XRInteractionToolkit/R3.Unity.XRInteractionToolkit.asmdef",
+            "guid": "f7c3854fe92796b44ace45670f7ee36c",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.xr.interaction.toolkit",
+                "expression": "",
+                "define": "R3_XRI_SUPPORT"
+              }
+            ],
+            "references": [
+              "R3.Unity",
+              "Unity.XR.Interaction.Toolkit"
+            ],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "R3.UnityXRBaseInteractableExtensions"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/92d11624457bdfbc91910f05fdde09fa120471fce75ab6398c1ea616c62fc045-595fb35e69ff.json.gz",
+          "sha256": "0878ed191a31e171c8a4a74d393a286ecdc7d6fdcfaedea310b9a90f3bf78fa8",
+          "size": 9099,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 126,
+        "sourceFileCount": 55,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 35,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "published",
       "versionStatus": "stable",
       "metadataUrl": "https://package.openupm.com/com.cysharp.r3/1.3.1",
       "deprecated": null,
@@ -932,7 +1329,14 @@
           "integrity": "sha512-ajTSvxXSb00FTqPlyaaQfeqsPKVN/YLklIG09lEZfdWi2AJod65zOy1MbO6id2BH4xhb/OrPgpfzRrvvrIzh3w==",
           "shasum": "c103fb978c125c726037446018f44dd28e6bcbc8"
         }
-      }
+      },
+      "packageId": "com.cysharp.r3",
+      "sourceRefEvidence": {
+        "kind": "archive-package-json",
+        "sha256": "8e3101dbba5a9fd645f0275336ecaa5f7cd31ce3dc9cd897dcff716b6458436b"
+      },
+      "collectedAt": "2026-10-17T19:42:41.764322Z",
+      "publicationStatus": "verified"
     }
   ],
   "metadataStatus": "complete",

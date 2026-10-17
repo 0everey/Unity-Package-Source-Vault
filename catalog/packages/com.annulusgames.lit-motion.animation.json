@@ -16,25 +16,37 @@
     {
       "version": "2.0.1",
       "variantId": "registry-package.openupm.com-0140944c00f97d12",
-      "sourceUrl": "https://package.openupm.com/com.annulusgames.lit-motion.animation",
+      "sourceUrl": "https://github.com/annulusgames/LitMotion",
       "sourceRef": "79e1b02d7df49d55721e427bf41a7b655c675462",
       "downloadUrl": "https://package.openupm.com/com.annulusgames.lit-motion.animation/-/com.annulusgames.lit-motion.animation-2.0.1.tgz",
       "upstreamIntegrity": "sha512-06rI5jVB/BbXidQwkKrTTWSGhPhjT67BWipP2hv7m53CxZB2ei5XKIQE9XZZB3QUHqPu9ArzxrIINYRdUaEbjA==",
       "upstreamShasum": "4ff0cf9d3f7351a8d9aa30d720ae46582394ea7c",
-      "disposition": "license-unresolved",
+      "disposition": "mirror-allowed",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "text": null,
-        "components": [],
+        "expression": "MIT",
+        "evidenceUrl": "https://raw.githubusercontent.com/annulusgames/LitMotion/79e1b02d7df49d55721e427bf41a7b655c675462/LICENSE",
+        "sha256": "0c855ec3d09c4f354d1a9f5e04e8590d5fd30c030f479a59b7e893f7de4e5975",
+        "text": "MIT License\n\nCopyright (c) 2023 Annulus Games\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "components": [
+          {
+            "path": "LICENSE",
+            "expression": "MIT",
+            "sha256": "0c855ec3d09c4f354d1a9f5e04e8590d5fd30c030f479a59b7e893f7de4e5975",
+            "text": "MIT License\n\nCopyright (c) 2023 Annulus Games\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+            "evidenceUrl": "https://raw.githubusercontent.com/annulusgames/LitMotion/79e1b02d7df49d55721e427bf41a7b655c675462/LICENSE",
+            "scope": "pinned-upstream-repository-root",
+            "sourceRef": "79e1b02d7df49d55721e427bf41a7b655c675462"
+          }
+        ],
         "notices": [],
         "reviewStatus": "archive-text-reviewed",
         "reviewAlgorithm": "archive-rights-v3-binary-layout",
-        "reviewedAt": "2026-10-17T19:34:22.122832Z",
+        "reviewedAt": "2026-10-17T19:42:15.518896Z",
         "decisionBasis": [
-          "No recognized archive-root license grant"
-        ]
+          "Recognized permissive root grant; all detected license documents reviewed; no detected native SDK components"
+        ],
+        "noticeDelivery": "Archive omits license text; preserve catalog license text as a companion when materializing or redistributing",
+        "componentReviewSha256": "2cb226f6b310ab3c33315b4ea5b56d4468d133a5ffe2f587f3133270c1f4b96f"
       },
       "dependencies": {
         "com.annulusgames.lit-motion": "2.0.0"
@@ -44,8 +56,13 @@
         "size": 22007,
         "format": "tar.gz",
         "kind": "source",
-        "url": "https://package.openupm.com/com.annulusgames.lit-motion.animation/-/com.annulusgames.lit-motion.animation-2.0.1.tgz",
-        "verifiedRemote": false
+        "url": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-52/526b1946f09db73ed3b838539694f9bbd1c656e4ed1a8ac10954920125f5ed63.tar.gz",
+        "verifiedRemote": true,
+        "assetId": "RA_kwDOVNoTL84m0814",
+        "releaseTag": "objects-52",
+        "licenseUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-52/526b1946f09db73ed3b838539694f9bbd1c656e4ed1a8ac10954920125f5ed63.license-002e0d5fb18a5cb5.json",
+        "licenseSha256": "002e0d5fb18a5cb5e326b97644666397f8d79b4cb0073fad719021ea101e7003",
+        "licenseAssetId": "RA_kwDOVNoTL84m082u"
       },
       "fingerprint": {
         "fingerprintProducer": {
@@ -367,7 +384,7 @@
         "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
         "binaryFingerprints": []
       },
-      "fetchStatus": "collected",
+      "fetchStatus": "published",
       "versionStatus": "stable",
       "metadataUrl": "https://package.openupm.com/com.annulusgames.lit-motion.animation/2.0.1",
       "deprecated": null,
@@ -380,30 +397,56 @@
         }
       },
       "packageId": "com.annulusgames.lit-motion.animation",
-      "collectedAt": "2026-10-17T19:34:22.129635Z"
+      "collectedAt": "2026-10-17T19:42:15.528940Z",
+      "sourceRefEvidence": {
+        "kind": "reviewed-archive-upstream-code-equality",
+        "archiveSha256": "526b1946f09db73ed3b838539694f9bbd1c656e4ed1a8ac10954920125f5ed63",
+        "comparison": {
+          "archiveUrl": "https://codeload.github.com/annulusgames/LitMotion/tar.gz/79e1b02d7df49d55721e427bf41a7b655c675462",
+          "archiveSha256": "5826b939ec8f13563b94ed8c48dbeed6ee1660abab355ca374182d7108d2e83c",
+          "matchedSourceRoots": [
+            "LitMotion-79e1b02d7df49d55721e427bf41a7b655c675462/src/LitMotion/Assets/LitMotion.Animation/"
+          ],
+          "comparedCodeFiles": 23,
+          "completeCodeFileEquality": true
+        }
+      },
+      "publicationStatus": "verified"
     },
     {
       "version": "2.0.2",
       "variantId": "registry-package.openupm.com-d556cc00a0f1baa3",
-      "sourceUrl": "https://package.openupm.com/com.annulusgames.lit-motion.animation",
-      "sourceRef": null,
+      "sourceUrl": "https://github.com/annulusgames/LitMotion",
+      "sourceRef": "0b4c588ee75a07198841d92aab653e6b39445089",
       "downloadUrl": "https://package.openupm.com/com.annulusgames.lit-motion.animation/-/com.annulusgames.lit-motion.animation-2.0.2.tgz",
       "upstreamIntegrity": "sha512-8L6jYeqvO9KiHAshRK+KWB9NLTKECUU2U9Z+Hi5wyga18+68rLzi1tq3X1YfcsGZYL/03gdB8oEPIZWfSgbibA==",
       "upstreamShasum": "4001f41199ba7718f0d5267b012a362751bcb806",
-      "disposition": "license-unresolved",
+      "disposition": "mirror-allowed",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "text": null,
-        "components": [],
+        "expression": "MIT",
+        "evidenceUrl": "https://raw.githubusercontent.com/annulusgames/LitMotion/0b4c588ee75a07198841d92aab653e6b39445089/LICENSE",
+        "sha256": "1e2e5a19388f0d59afb02a833b7f9cdbb0b9913f91f181b94f66c05c9179e3ff",
+        "text": "MIT License\n\nCopyright (c) 2023 Yusuke Nakada\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "components": [
+          {
+            "path": "LICENSE",
+            "expression": "MIT",
+            "sha256": "1e2e5a19388f0d59afb02a833b7f9cdbb0b9913f91f181b94f66c05c9179e3ff",
+            "text": "MIT License\n\nCopyright (c) 2023 Yusuke Nakada\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+            "evidenceUrl": "https://raw.githubusercontent.com/annulusgames/LitMotion/0b4c588ee75a07198841d92aab653e6b39445089/LICENSE",
+            "scope": "pinned-upstream-repository-root",
+            "sourceRef": "0b4c588ee75a07198841d92aab653e6b39445089"
+          }
+        ],
         "notices": [],
         "reviewStatus": "archive-text-reviewed",
         "reviewAlgorithm": "archive-rights-v3-binary-layout",
-        "reviewedAt": "2026-10-17T19:34:22.496719Z",
+        "reviewedAt": "2026-10-17T19:42:20.923125Z",
         "decisionBasis": [
-          "No recognized archive-root license grant"
-        ]
+          "Recognized permissive root grant; all detected license documents reviewed; no detected native SDK components"
+        ],
+        "noticeDelivery": "Archive omits license text; preserve catalog license text as a companion when materializing or redistributing",
+        "componentReviewSha256": "06dc398c8ad7e38be1560395cc99711c0e9259d2bc9c58123572d1f3fa2f3bb0"
       },
       "dependencies": {
         "com.annulusgames.lit-motion": "2.0.0"
@@ -413,8 +456,13 @@
         "size": 22482,
         "format": "tar.gz",
         "kind": "source",
-        "url": "https://package.openupm.com/com.annulusgames.lit-motion.animation/-/com.annulusgames.lit-motion.animation-2.0.2.tgz",
-        "verifiedRemote": false
+        "url": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-0b/0be4a0afc683f8f368dee6ae0f65387e9ad01c259c7c02035dcac61ee19688f9.tar.gz",
+        "verifiedRemote": true,
+        "assetId": "RA_kwDOVNoTL84m084m",
+        "releaseTag": "objects-0b",
+        "licenseUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-0b/0be4a0afc683f8f368dee6ae0f65387e9ad01c259c7c02035dcac61ee19688f9.license-aa57fbcd4ea18792.json",
+        "licenseSha256": "aa57fbcd4ea1879201b3bc1f4707c72659c87f6a885c3d801a5b870d73cc56f5",
+        "licenseAssetId": "RA_kwDOVNoTL84m085F"
       },
       "fingerprint": {
         "fingerprintProducer": {
@@ -738,7 +786,7 @@
         "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
         "binaryFingerprints": []
       },
-      "fetchStatus": "collected",
+      "fetchStatus": "published",
       "versionStatus": "stable",
       "metadataUrl": "https://package.openupm.com/com.annulusgames.lit-motion.animation/2.0.2",
       "deprecated": null,
@@ -751,7 +799,21 @@
         }
       },
       "packageId": "com.annulusgames.lit-motion.animation",
-      "collectedAt": "2026-10-17T19:34:22.503730Z"
+      "collectedAt": "2026-10-17T19:42:20.932453Z",
+      "sourceRefEvidence": {
+        "kind": "reviewed-archive-upstream-code-equality",
+        "archiveSha256": "0be4a0afc683f8f368dee6ae0f65387e9ad01c259c7c02035dcac61ee19688f9",
+        "comparison": {
+          "archiveUrl": "https://codeload.github.com/annulusgames/LitMotion/tar.gz/0b4c588ee75a07198841d92aab653e6b39445089",
+          "archiveSha256": "376160933c3a6dcf5a3b2a8523c7345a3a53d3823d458389c3b5481f35f1b4b5",
+          "matchedSourceRoots": [
+            "LitMotion-0b4c588ee75a07198841d92aab653e6b39445089/src/LitMotion/Assets/LitMotion.Animation/"
+          ],
+          "comparedCodeFiles": 23,
+          "completeCodeFileEquality": true
+        }
+      },
+      "publicationStatus": "verified"
     }
   ],
   "metadataStatus": "complete",

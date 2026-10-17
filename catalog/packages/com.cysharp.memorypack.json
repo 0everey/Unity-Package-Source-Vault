@@ -16,25 +16,37 @@
     {
       "version": "1.21.3",
       "variantId": "registry-package.openupm.com-37a2ec28d22dcdc2",
-      "sourceUrl": "https://package.openupm.com/com.cysharp.memorypack",
+      "sourceUrl": "https://github.com/Cysharp/MemoryPack",
       "sourceRef": "1e4bf883b3e4963e565774656f7de938f252c9c4",
       "downloadUrl": "https://package.openupm.com/com.cysharp.memorypack/-/com.cysharp.memorypack-1.21.3.tgz",
       "upstreamIntegrity": "sha512-WQ5lBvB/2nonk5QBbiTrHCB9VrAQb4vNXn3ROci+6TQwT9yLbBN4EmRUkz/E/Y44cQwtD7JZ0p7WCre0w2jfFg==",
       "upstreamShasum": "6e379488decdecdce190798a550648817bcbfe93",
-      "disposition": "license-unresolved",
+      "disposition": "mirror-allowed",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "text": null,
-        "components": [],
+        "expression": "MIT",
+        "evidenceUrl": "https://raw.githubusercontent.com/Cysharp/MemoryPack/1e4bf883b3e4963e565774656f7de938f252c9c4/LICENSE.md",
+        "sha256": "49877bf1474e33fda62f80825cd8cde3b9272e645796b6ab8137054f8d9d5d29",
+        "text": "MIT License\n\nCopyright (c) 2022 Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": "MIT",
+            "sha256": "49877bf1474e33fda62f80825cd8cde3b9272e645796b6ab8137054f8d9d5d29",
+            "text": "MIT License\n\nCopyright (c) 2022 Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+            "evidenceUrl": "https://raw.githubusercontent.com/Cysharp/MemoryPack/1e4bf883b3e4963e565774656f7de938f252c9c4/LICENSE.md",
+            "scope": "pinned-upstream-repository-root",
+            "sourceRef": "1e4bf883b3e4963e565774656f7de938f252c9c4"
+          }
+        ],
         "notices": [],
         "reviewStatus": "archive-text-reviewed",
         "reviewAlgorithm": "archive-rights-v3-binary-layout",
-        "reviewedAt": "2026-10-17T19:34:22.896082Z",
+        "reviewedAt": "2026-10-17T19:42:25.914245Z",
         "decisionBasis": [
-          "No recognized archive-root license grant"
-        ]
+          "Recognized permissive root grant; all detected license documents reviewed; no detected native SDK components"
+        ],
+        "noticeDelivery": "Archive omits license text; preserve catalog license text as a companion when materializing or redistributing",
+        "componentReviewSha256": "39dadf64eb1a8a5eb487292f361941261150d5432cb1a3d3795b690661eb0a86"
       },
       "dependencies": {},
       "artifact": {
@@ -42,8 +54,13 @@
         "size": 2109,
         "format": "tar.gz",
         "kind": "source",
-        "url": "https://package.openupm.com/com.cysharp.memorypack/-/com.cysharp.memorypack-1.21.3.tgz",
-        "verifiedRemote": false
+        "url": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-c6/c65339bcabecb27e2fbbe9363f21c259e03a556d0d5038ac18aafad220f150be.tar.gz",
+        "verifiedRemote": true,
+        "assetId": "RA_kwDOVNoTL84m0867",
+        "releaseTag": "objects-c6",
+        "licenseUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-c6/c65339bcabecb27e2fbbe9363f21c259e03a556d0d5038ac18aafad220f150be.license-6904f2cd1fc9e35f.json",
+        "licenseSha256": "6904f2cd1fc9e35fb25a231ad0c306ed1aa8fe0e1ec01af24cbe67251e298a4a",
+        "licenseAssetId": "RA_kwDOVNoTL84m087d"
       },
       "fingerprint": {
         "fingerprintProducer": {
@@ -107,7 +124,7 @@
         "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
         "binaryFingerprints": []
       },
-      "fetchStatus": "collected",
+      "fetchStatus": "published",
       "versionStatus": "stable",
       "metadataUrl": "https://package.openupm.com/com.cysharp.memorypack/1.21.3",
       "deprecated": null,
@@ -120,30 +137,56 @@
         }
       },
       "packageId": "com.cysharp.memorypack",
-      "collectedAt": "2026-10-17T19:34:22.897353Z"
+      "collectedAt": "2026-10-17T19:42:25.915364Z",
+      "sourceRefEvidence": {
+        "kind": "reviewed-archive-upstream-code-equality",
+        "archiveSha256": "c65339bcabecb27e2fbbe9363f21c259e03a556d0d5038ac18aafad220f150be",
+        "comparison": {
+          "archiveUrl": "https://codeload.github.com/Cysharp/MemoryPack/tar.gz/1e4bf883b3e4963e565774656f7de938f252c9c4",
+          "archiveSha256": "75669c0b11d3bf349a76a9363b79a1e054764f9bf56b0be53cf27ffa687ed374",
+          "matchedSourceRoots": [
+            "MemoryPack-1e4bf883b3e4963e565774656f7de938f252c9c4/src/MemoryPack.Unity/Assets/MemoryPack.Unity/"
+          ],
+          "comparedCodeFiles": 3,
+          "completeCodeFileEquality": true
+        }
+      },
+      "publicationStatus": "verified"
     },
     {
       "version": "1.21.4",
       "variantId": "registry-package.openupm.com-ab7ef6dc18fe938f",
-      "sourceUrl": "https://package.openupm.com/com.cysharp.memorypack",
+      "sourceUrl": "https://github.com/Cysharp/MemoryPack",
       "sourceRef": "0f2fe0827907940768293b7bb81b9605a7d8cba8",
       "downloadUrl": "https://package.openupm.com/com.cysharp.memorypack/-/com.cysharp.memorypack-1.21.4.tgz",
       "upstreamIntegrity": "sha512-76izTaeyqQLmmbdNFVoXXuEulUlbLau89OyLhWsAwvuevDjyAbKi2nwHr06eapOZSDpPzuXi4GuZgA7Ds5Cl3A==",
       "upstreamShasum": "8d9eac4126c6deb9f1ca2eb6f9ca58cf8179fe67",
-      "disposition": "license-unresolved",
+      "disposition": "mirror-allowed",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "text": null,
-        "components": [],
+        "expression": "MIT",
+        "evidenceUrl": "https://raw.githubusercontent.com/Cysharp/MemoryPack/0f2fe0827907940768293b7bb81b9605a7d8cba8/LICENSE.md",
+        "sha256": "49877bf1474e33fda62f80825cd8cde3b9272e645796b6ab8137054f8d9d5d29",
+        "text": "MIT License\n\nCopyright (c) 2022 Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": "MIT",
+            "sha256": "49877bf1474e33fda62f80825cd8cde3b9272e645796b6ab8137054f8d9d5d29",
+            "text": "MIT License\n\nCopyright (c) 2022 Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+            "evidenceUrl": "https://raw.githubusercontent.com/Cysharp/MemoryPack/0f2fe0827907940768293b7bb81b9605a7d8cba8/LICENSE.md",
+            "scope": "pinned-upstream-repository-root",
+            "sourceRef": "0f2fe0827907940768293b7bb81b9605a7d8cba8"
+          }
+        ],
         "notices": [],
         "reviewStatus": "archive-text-reviewed",
         "reviewAlgorithm": "archive-rights-v3-binary-layout",
-        "reviewedAt": "2026-10-17T19:34:23.209020Z",
+        "reviewedAt": "2026-10-17T19:42:30.983110Z",
         "decisionBasis": [
-          "No recognized archive-root license grant"
-        ]
+          "Recognized permissive root grant; all detected license documents reviewed; no detected native SDK components"
+        ],
+        "noticeDelivery": "Archive omits license text; preserve catalog license text as a companion when materializing or redistributing",
+        "componentReviewSha256": "96f8a9a933503c0e88d3254f7646a8fcab9590469a0ae1fdb70215d8ca74d067"
       },
       "dependencies": {},
       "artifact": {
@@ -151,8 +194,13 @@
         "size": 2111,
         "format": "tar.gz",
         "kind": "source",
-        "url": "https://package.openupm.com/com.cysharp.memorypack/-/com.cysharp.memorypack-1.21.4.tgz",
-        "verifiedRemote": false
+        "url": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-77/777e436161c3489fbb7f4b5121040dd7a9d364e9825af040593f37e74f3abffb.tar.gz",
+        "verifiedRemote": true,
+        "assetId": "RA_kwDOVNoTL84m0887",
+        "releaseTag": "objects-77",
+        "licenseUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-77/777e436161c3489fbb7f4b5121040dd7a9d364e9825af040593f37e74f3abffb.license-a5279046e97de2ec.json",
+        "licenseSha256": "a5279046e97de2ec3e9b6fc408af20d51305a7c2e07d9010dee893e4a32ee68a",
+        "licenseAssetId": "RA_kwDOVNoTL84m089k"
       },
       "fingerprint": {
         "fingerprintProducer": {
@@ -216,7 +264,7 @@
         "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
         "binaryFingerprints": []
       },
-      "fetchStatus": "collected",
+      "fetchStatus": "published",
       "versionStatus": "stable",
       "metadataUrl": "https://package.openupm.com/com.cysharp.memorypack/1.21.4",
       "deprecated": null,
@@ -229,7 +277,21 @@
         }
       },
       "packageId": "com.cysharp.memorypack",
-      "collectedAt": "2026-10-17T19:34:23.210135Z"
+      "collectedAt": "2026-10-17T19:42:30.984241Z",
+      "sourceRefEvidence": {
+        "kind": "reviewed-archive-upstream-code-equality",
+        "archiveSha256": "777e436161c3489fbb7f4b5121040dd7a9d364e9825af040593f37e74f3abffb",
+        "comparison": {
+          "archiveUrl": "https://codeload.github.com/Cysharp/MemoryPack/tar.gz/0f2fe0827907940768293b7bb81b9605a7d8cba8",
+          "archiveSha256": "0f5fe04364719e3c51bf3c39cfd8eb94cbdd1ec5eb46bc274d017476b365c46a",
+          "matchedSourceRoots": [
+            "MemoryPack-0f2fe0827907940768293b7bb81b9605a7d8cba8/src/MemoryPack.Unity/Assets/MemoryPack.Unity/"
+          ],
+          "comparedCodeFiles": 3,
+          "completeCodeFileEquality": true
+        }
+      },
+      "publicationStatus": "verified"
     }
   ],
   "metadataStatus": "complete",
