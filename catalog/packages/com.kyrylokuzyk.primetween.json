@@ -21,18 +21,470 @@
       "downloadUrl": "https://registry.npmjs.org/com.kyrylokuzyk.primetween/-/com.kyrylokuzyk.primetween-1.4.8.tgz",
       "upstreamIntegrity": "sha512-gEIB1cyw4NVFNAtmZItQzT5hHiSWUgUwVGrTWox1iuZCY2+LbEaEAohMpkG+S2MLoR3IKhxRnSOgl9iJ4P38Pg==",
       "upstreamShasum": "d86bb6572edd55c78342155a510f8d8c429f81ab",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "LicenseRef-PrimeTween",
+        "evidenceUrl": "https://registry.npmjs.org/com.kyrylokuzyk.primetween/-/com.kyrylokuzyk.primetween-1.4.8.tgz#package/license.md",
+        "sha256": "17c3c6f5ae27c2002fefa385d88a16c3892c02e804b3696a4d1078cbdec0f39b",
+        "text": "It's **allowed**:\r\n- Use PrimeTween and modify its source code in **free and commercial** products distributed in binary format (apps and games).\r\n- Use the free PrimeTween version in derivative (free and commercial) projects (templates, libraries, GitHub projects) that depend on PrimeTween, but only if PrimeTween is installed as an [**NPM package**](https://github.com/KyryloKuzyk/PrimeTween#install-via-unity-package-manager-upm)\r\n- Use, modify, and redistribute PrimeTween internally within a team or company, for example through a **private** Git repository or an **internal** package distribution system.\r\n\r\nIt's **not allowed**:\r\n- Distribute PrimeTween's source code and tarball (.tgz) archive inside derivative products. To build templates or libraries that depend on PrimeTween, use the NPM installation method instead.\r\n- Distribute, resell, or claim PrimeTween's ownership even if modified.\r\n- Resell PrimeTween by itself or as part of another library or asset pack.\r\n\r\n**In short**: you can use PrimeTween in your Unity projects, including commercial ones, but you can’t repackage or resell PrimeTween itself.\r\n\r\nCopyright: Kyrylo Kuzyk 2023\r\n",
+        "components": [
+          {
+            "path": "license.md",
+            "expression": "LicenseRef-PrimeTween",
+            "sha256": "17c3c6f5ae27c2002fefa385d88a16c3892c02e804b3696a4d1078cbdec0f39b",
+            "evidenceUrl": "https://registry.npmjs.org/com.kyrylokuzyk.primetween/-/com.kyrylokuzyk.primetween-1.4.8.tgz#package/license.md",
+            "text": "It's **allowed**:\r\n- Use PrimeTween and modify its source code in **free and commercial** products distributed in binary format (apps and games).\r\n- Use the free PrimeTween version in derivative (free and commercial) projects (templates, libraries, GitHub projects) that depend on PrimeTween, but only if PrimeTween is installed as an [**NPM package**](https://github.com/KyryloKuzyk/PrimeTween#install-via-unity-package-manager-upm)\r\n- Use, modify, and redistribute PrimeTween internally within a team or company, for example through a **private** Git repository or an **internal** package distribution system.\r\n\r\nIt's **not allowed**:\r\n- Distribute PrimeTween's source code and tarball (.tgz) archive inside derivative products. To build templates or libraries that depend on PrimeTween, use the NPM installation method instead.\r\n- Distribute, resell, or claim PrimeTween's ownership even if modified.\r\n- Resell PrimeTween by itself or as part of another library or asset pack.\r\n\r\n**In short**: you can use PrimeTween in your Unity projects, including commercial ones, but you can’t repackage or resell PrimeTween itself.\r\n\r\nCopyright: Kyrylo Kuzyk 2023\r\n"
+          },
+          {
+            "path": "license.md.meta",
+            "expression": null,
+            "sha256": "5abf432a4024b804c56e6911754ee191bd963b6758ba0447751edd36bd274dac",
+            "evidenceUrl": "https://registry.npmjs.org/com.kyrylokuzyk.primetween/-/com.kyrylokuzyk.primetween-1.4.8.tgz#package/license.md.meta",
+            "text": "fileFormatVersion: 2\r\nguid: 0525e33a4bd6548cd92d528f6959997b\r\nTextScriptImporter:\r\n  externalObjects: {}\r\n  userData: \r\n  assetBundleName: \r\n  assetBundleVariant: \r\n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:34:52.368053Z",
+        "decisionBasis": [
+          "Special-purpose or usage-restricted license",
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "7b954ee58cc07d3ba0b97918c9cb5216fbcce32198b56495ef2ba826c7833240",
+        "size": 802368,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://registry.npmjs.org/com.kyrylokuzyk.primetween/-/com.kyrylokuzyk.primetween-1.4.8.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "64ecbc4075ebb20cee1a6da5c6e80165ae9d67d85a7c0206679b8e1db2c6aa81",
+        "artifactSha256": "7b954ee58cc07d3ba0b97918c9cb5216fbcce32198b56495ef2ba826c7833240",
+        "artifactSize": 802368,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "PrimeTween",
+          "PrimeTweenDemo"
+        ],
+        "types": [
+          "CodeGenerator",
+          "CodeGenerator+AdditiveMethodsGenerator",
+          "CodeGenerator+AdditiveMethodsGenerator+AdditiveMethodsGeneratorData",
+          "CodeGenerator+ManualTweenTypeData",
+          "CodeGenerator+ManualTweenTypeDataFlags",
+          "CodeGenerator+SpeedBasedMethodsGenerator",
+          "CodeGenerator+SpeedBasedMethodsGenerator+Data",
+          "CustomPropertyScope",
+          "DebugInspectorTest",
+          "Dependency",
+          "DependencyFlags",
+          "DestructionOrderTest",
+          "EditModeTest",
+          "EditModeTests",
+          "Ext",
+          "FramePacingTest",
+          "ManualTest",
+          "MethodGenerationData",
+          "PrimeTween.Assert",
+          "PrimeTween.ColdData",
+          "PrimeTween.Constants",
+          "PrimeTween.CoroutineIterator",
+          "PrimeTween.CycleMode",
+          "PrimeTween.DOTween",
+          "PrimeTween.DOTweenAdapter",
+          "PrimeTween.DOVirtual",
+          "PrimeTween.Ease",
+          "PrimeTween.Easing",
+          "PrimeTween.Extensions",
+          "PrimeTween.Flags",
+          "PrimeTween.LoopType",
+          "PrimeTween.Mathf",
+          "PrimeTween.ObsoleteMessages",
+          "PrimeTween.ParametricEase",
+          "PrimeTween.PrimeTweenConfig",
+          "PrimeTween.PrimeTweenManager",
+          "PrimeTween.PrimeTweenManager+CurrentAnimationData",
+          "PrimeTween.PrimeTweenManager+StartValueBackupData",
+          "PrimeTween.PrimeTweenManager+TweenInspectorData",
+          "PrimeTween.PropType",
+          "PrimeTween.Sequence",
+          "PrimeTween.Sequence+SequenceChildrenEnumerator",
+          "PrimeTween.Sequence+SequenceCycleMode",
+          "PrimeTween.Sequence+SequenceDirectEnumerator",
+          "PrimeTween.ShakeData",
+          "PrimeTween.ShakeSettings",
+          "PrimeTween.StackTraces",
+          "PrimeTween.StandardEasing",
+          "PrimeTween.Tween",
+          "PrimeTween.Tween+Custom_internal",
+          "PrimeTween.Tween+ShakeCustom",
+          "PrimeTween.Tween+TweenAwaiter",
+          "PrimeTween.TweenAnimation",
+          "PrimeTween.TweenAnimation+TweenType",
+          "PrimeTween.TweenAnimation+ValueWrapper",
+          "PrimeTween.TweenArray",
+          "PrimeTween.TweenArray+Enumerator",
+          "PrimeTween.TweenArray+EnumeratorElement",
+          "PrimeTween.TweenArray+Lock",
+          "PrimeTween.TweenData",
+          "PrimeTween.TweenData+obj",
+          "PrimeTween.TweenSettings",
+          "PrimeTween.UnmanagedTweenData",
+          "PrimeTween.UpdateType",
+          "PrimeTween.Utils",
+          "PrimeTween.Utils+MaterialPropertyBlockSetterScope",
+          "PrimeTween.ValueContainerStartEnd",
+          "PrimeTween._CycleMode",
+          "PrimeTween._UpdateType",
+          "PrimeTween.void",
+          "PrimeTweenDemo.BasicExample",
+          "PrimeTweenDemo.SequenceExample",
+          "PrimeTweenManagerInspector",
+          "PrimeTweenManagerInspector+StringCache",
+          "SerializedPropertyExtensions",
+          "ShakeSettingsPropDrawer",
+          "Tests",
+          "TweenSettingsPropDrawer",
+          "TweenSettingsTypesPropDrawer",
+          "TweensWithDurationOfDeltaTime",
+          "UpdateTypePropDrawer",
+          "ValueContainerStartEndPropDrawer",
+          "YieldInstructionsClash"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "PrimeTween.Editor",
+            "path": "Editor/PrimeTween.Editor.asmdef",
+            "guid": "9b75a211bc674cd2906483cd8aa2159d",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.modules.uielements",
+                "expression": "1.0.0",
+                "define": "UI_ELEMENTS_MODULE_INSTALLED"
+              },
+              {
+                "name": "com.unity.modules.physics",
+                "expression": "1.0.0",
+                "define": "PHYSICS_MODULE_INSTALLED"
+              },
+              {
+                "name": "com.kyrylokuzyk.primetween",
+                "expression": "[1.4.8-pro]",
+                "define": "PRIME_TWEEN_PRO"
+              }
+            ],
+            "references": [
+              "PrimeTween.Runtime"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified"
+            ],
+            "types": [
+              "CodeGenerator",
+              "CodeGenerator+AdditiveMethodsGenerator",
+              "CodeGenerator+AdditiveMethodsGenerator+AdditiveMethodsGeneratorData",
+              "CodeGenerator+ManualTweenTypeData",
+              "CodeGenerator+ManualTweenTypeDataFlags",
+              "CodeGenerator+SpeedBasedMethodsGenerator",
+              "CodeGenerator+SpeedBasedMethodsGenerator+Data",
+              "CustomPropertyScope",
+              "Dependency",
+              "DependencyFlags",
+              "Ext",
+              "MethodGenerationData",
+              "PrimeTweenManagerInspector",
+              "PrimeTweenManagerInspector+StringCache",
+              "SerializedPropertyExtensions",
+              "ShakeSettingsPropDrawer",
+              "TweenSettingsPropDrawer",
+              "TweenSettingsTypesPropDrawer",
+              "UpdateTypePropDrawer",
+              "ValueContainerStartEndPropDrawer"
+            ]
+          },
+          {
+            "name": "PrimeTween.Runtime",
+            "path": "Runtime/PrimeTween.Runtime.asmdef",
+            "guid": "80ecb87cae9c44d19824e70ea7229748",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.ugui",
+                "expression": "1.0.0",
+                "define": "UNITY_UGUI_INSTALLED"
+              },
+              {
+                "name": "com.unity.modules.audio",
+                "expression": "1.0.0",
+                "define": "AUDIO_MODULE_INSTALLED"
+              },
+              {
+                "name": "com.unity.modules.physics",
+                "expression": "1.0.0",
+                "define": "PHYSICS_MODULE_INSTALLED"
+              },
+              {
+                "name": "com.unity.modules.physics2d",
+                "expression": "1.0.0",
+                "define": "PHYSICS2D_MODULE_INSTALLED"
+              },
+              {
+                "name": "com.unity.modules.uielements",
+                "expression": "1.0.0",
+                "define": "UI_ELEMENTS_MODULE_INSTALLED"
+              },
+              {
+                "name": "com.unity.textmeshpro",
+                "expression": "1.0.0",
+                "define": "TEXT_MESH_PRO_INSTALLED"
+              },
+              {
+                "name": "com.unity.ugui",
+                "expression": "2.0.0",
+                "define": "TEXT_MESH_PRO_INSTALLED"
+              },
+              {
+                "name": "com.kyrylokuzyk.primetween",
+                "expression": "[1.4.8-pro]",
+                "define": "PRIME_TWEEN_PRO"
+              },
+              {
+                "name": "com.unity.burst",
+                "expression": "1.0.0",
+                "define": "BURST_INSTALLED"
+              },
+              {
+                "name": "com.unity.test-framework",
+                "expression": "1.3.9",
+                "define": "TEST_FRAMEWORK_INSTALLED"
+              }
+            ],
+            "references": [
+              "Unity.TextMeshPro",
+              "Unity.Burst"
+            ],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "PrimeTween.Assert",
+              "PrimeTween.ColdData",
+              "PrimeTween.Constants",
+              "PrimeTween.CoroutineIterator",
+              "PrimeTween.CycleMode",
+              "PrimeTween.DOTween",
+              "PrimeTween.DOTweenAdapter",
+              "PrimeTween.DOVirtual",
+              "PrimeTween.Ease",
+              "PrimeTween.Easing",
+              "PrimeTween.Extensions",
+              "PrimeTween.Flags",
+              "PrimeTween.LoopType",
+              "PrimeTween.Mathf",
+              "PrimeTween.ObsoleteMessages",
+              "PrimeTween.ParametricEase",
+              "PrimeTween.PrimeTweenConfig",
+              "PrimeTween.PrimeTweenManager",
+              "PrimeTween.PrimeTweenManager+CurrentAnimationData",
+              "PrimeTween.PrimeTweenManager+StartValueBackupData",
+              "PrimeTween.PrimeTweenManager+TweenInspectorData",
+              "PrimeTween.PropType",
+              "PrimeTween.Sequence",
+              "PrimeTween.Sequence+SequenceChildrenEnumerator",
+              "PrimeTween.Sequence+SequenceCycleMode",
+              "PrimeTween.Sequence+SequenceDirectEnumerator",
+              "PrimeTween.ShakeData",
+              "PrimeTween.ShakeSettings",
+              "PrimeTween.StackTraces",
+              "PrimeTween.StandardEasing",
+              "PrimeTween.Tween",
+              "PrimeTween.Tween+Custom_internal",
+              "PrimeTween.Tween+ShakeCustom",
+              "PrimeTween.Tween+TweenAwaiter",
+              "PrimeTween.TweenAnimation",
+              "PrimeTween.TweenAnimation+TweenType",
+              "PrimeTween.TweenAnimation+ValueWrapper",
+              "PrimeTween.TweenArray",
+              "PrimeTween.TweenArray+Enumerator",
+              "PrimeTween.TweenArray+EnumeratorElement",
+              "PrimeTween.TweenArray+Lock",
+              "PrimeTween.TweenData",
+              "PrimeTween.TweenData+obj",
+              "PrimeTween.TweenSettings",
+              "PrimeTween.UnmanagedTweenData",
+              "PrimeTween.UpdateType",
+              "PrimeTween.Utils",
+              "PrimeTween.Utils+MaterialPropertyBlockSetterScope",
+              "PrimeTween.ValueContainerStartEnd",
+              "PrimeTween._CycleMode",
+              "PrimeTween._UpdateType",
+              "PrimeTween.void"
+            ]
+          },
+          {
+            "name": "PrimeTween.Samples",
+            "path": "Samples~/Examples/PrimeTween.Samples.asmdef",
+            "guid": "5ba42b9ce9d01442097b281770dd21b1",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.inputsystem",
+                "expression": "1.0.0",
+                "define": "INPUT_SYSTEM_INSTALLED"
+              }
+            ],
+            "references": [
+              "PrimeTween.Runtime",
+              "Unity.InputSystem"
+            ],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "PrimeTweenDemo.BasicExample",
+              "PrimeTweenDemo.SequenceExample"
+            ]
+          },
+          {
+            "name": "PrimeTween.Tests",
+            "path": "Tests/PrimeTween.Tests.asmdef",
+            "guid": "2f1f0462514f541c7851be3650ccd0ff",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [
+              {
+                "name": "com.unity.test-framework",
+                "expression": "1.3.9",
+                "define": "TEST_FRAMEWORK_INSTALLED"
+              },
+              {
+                "name": "com.kyrylokuzyk.primetween",
+                "expression": "[1.4.8-pro]",
+                "define": "PRIME_TWEEN_PRO"
+              }
+            ],
+            "references": [
+              "UnityEngine.TestRunner",
+              "UnityEditor.TestRunner",
+              "PrimeTween.Runtime",
+              "PrimeTween.Editor",
+              "Unity.TextMeshPro"
+            ],
+            "profileIssues": [
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "DebugInspectorTest",
+              "DestructionOrderTest",
+              "EditModeTest",
+              "FramePacingTest",
+              "ManualTest",
+              "Tests",
+              "TweensWithDurationOfDeltaTime",
+              "YieldInstructionsClash"
+            ]
+          },
+          {
+            "name": "PrimeTween.Tests.Editor",
+            "path": "Editor/Tests/PrimeTween.Tests.Editor.asmdef",
+            "guid": "96901b66f89944bf6aa2338f07026648",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [
+              {
+                "name": "com.unity.test-framework",
+                "expression": "1.3.9",
+                "define": "TEST_FRAMEWORK_INSTALLED"
+              },
+              {
+                "name": "com.kyrylokuzyk.primetween",
+                "expression": "[1.4.8-pro]",
+                "define": "PRIME_TWEEN_PRO"
+              }
+            ],
+            "references": [
+              "UnityEngine.TestRunner",
+              "UnityEditor.TestRunner",
+              "PrimeTween.Runtime",
+              "PrimeTween.Tests",
+              "Unity.TextMeshPro",
+              "PrimeTween.Editor"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "EditModeTests"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/7b954ee58cc07d3ba0b97918c9cb5216fbcce32198b56495ef2ba826c7833240-595fb35e69ff.json.gz",
+          "sha256": "4888a127d6f7fe448770d0ab25d7730aecb7a6acdf0a5862860bba311ec903ea",
+          "size": 12121,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 170,
+        "sourceFileCount": 55,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 36,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://registry.npmjs.org/com.kyrylokuzyk.primetween/1.4.8",
       "deprecated": null,
@@ -43,7 +495,9 @@
           "integrity": "sha512-gEIB1cyw4NVFNAtmZItQzT5hHiSWUgUwVGrTWox1iuZCY2+LbEaEAohMpkG+S2MLoR3IKhxRnSOgl9iJ4P38Pg==",
           "shasum": "d86bb6572edd55c78342155a510f8d8c429f81ab"
         }
-      }
+      },
+      "packageId": "com.kyrylokuzyk.primetween",
+      "collectedAt": "2026-10-18T05:34:52.460895Z"
     },
     {
       "version": "1.5.0",
@@ -53,18 +507,436 @@
       "downloadUrl": "https://registry.npmjs.org/com.kyrylokuzyk.primetween/-/com.kyrylokuzyk.primetween-1.5.0.tgz",
       "upstreamIntegrity": "sha512-mL5kU8dU2+PPrXTb8WbqPbl6+ckrBe0QpgXv8C2YNLv5fdR+h7SFyO+nN28wnH+WjbGmzaaBISdvVsWLMoE69g==",
       "upstreamShasum": "425c7ceaa7d522f4776cc64b9b556418e138fe3a",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "LicenseRef-PrimeTween",
+        "evidenceUrl": "https://registry.npmjs.org/com.kyrylokuzyk.primetween/-/com.kyrylokuzyk.primetween-1.5.0.tgz#package/license.md",
+        "sha256": "17c3c6f5ae27c2002fefa385d88a16c3892c02e804b3696a4d1078cbdec0f39b",
+        "text": "It's **allowed**:\r\n- Use PrimeTween and modify its source code in **free and commercial** products distributed in binary format (apps and games).\r\n- Use the free PrimeTween version in derivative (free and commercial) projects (templates, libraries, GitHub projects) that depend on PrimeTween, but only if PrimeTween is installed as an [**NPM package**](https://github.com/KyryloKuzyk/PrimeTween#install-via-unity-package-manager-upm)\r\n- Use, modify, and redistribute PrimeTween internally within a team or company, for example through a **private** Git repository or an **internal** package distribution system.\r\n\r\nIt's **not allowed**:\r\n- Distribute PrimeTween's source code and tarball (.tgz) archive inside derivative products. To build templates or libraries that depend on PrimeTween, use the NPM installation method instead.\r\n- Distribute, resell, or claim PrimeTween's ownership even if modified.\r\n- Resell PrimeTween by itself or as part of another library or asset pack.\r\n\r\n**In short**: you can use PrimeTween in your Unity projects, including commercial ones, but you can’t repackage or resell PrimeTween itself.\r\n\r\nCopyright: Kyrylo Kuzyk 2023\r\n",
+        "components": [
+          {
+            "path": "license.md",
+            "expression": "LicenseRef-PrimeTween",
+            "sha256": "17c3c6f5ae27c2002fefa385d88a16c3892c02e804b3696a4d1078cbdec0f39b",
+            "evidenceUrl": "https://registry.npmjs.org/com.kyrylokuzyk.primetween/-/com.kyrylokuzyk.primetween-1.5.0.tgz#package/license.md",
+            "text": "It's **allowed**:\r\n- Use PrimeTween and modify its source code in **free and commercial** products distributed in binary format (apps and games).\r\n- Use the free PrimeTween version in derivative (free and commercial) projects (templates, libraries, GitHub projects) that depend on PrimeTween, but only if PrimeTween is installed as an [**NPM package**](https://github.com/KyryloKuzyk/PrimeTween#install-via-unity-package-manager-upm)\r\n- Use, modify, and redistribute PrimeTween internally within a team or company, for example through a **private** Git repository or an **internal** package distribution system.\r\n\r\nIt's **not allowed**:\r\n- Distribute PrimeTween's source code and tarball (.tgz) archive inside derivative products. To build templates or libraries that depend on PrimeTween, use the NPM installation method instead.\r\n- Distribute, resell, or claim PrimeTween's ownership even if modified.\r\n- Resell PrimeTween by itself or as part of another library or asset pack.\r\n\r\n**In short**: you can use PrimeTween in your Unity projects, including commercial ones, but you can’t repackage or resell PrimeTween itself.\r\n\r\nCopyright: Kyrylo Kuzyk 2023\r\n"
+          },
+          {
+            "path": "license.md.meta",
+            "expression": null,
+            "sha256": "5abf432a4024b804c56e6911754ee191bd963b6758ba0447751edd36bd274dac",
+            "evidenceUrl": "https://registry.npmjs.org/com.kyrylokuzyk.primetween/-/com.kyrylokuzyk.primetween-1.5.0.tgz#package/license.md.meta",
+            "text": "fileFormatVersion: 2\r\nguid: 0525e33a4bd6548cd92d528f6959997b\r\nTextScriptImporter:\r\n  externalObjects: {}\r\n  userData: \r\n  assetBundleName: \r\n  assetBundleVariant: \r\n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:34:52.608642Z",
+        "decisionBasis": [
+          "Special-purpose or usage-restricted license",
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "435c7be7e1ffab4f1ca880b5de06eabf32d4886db41edd0af28a61d44d027e4f",
+        "size": 1712091,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://registry.npmjs.org/com.kyrylokuzyk.primetween/-/com.kyrylokuzyk.primetween-1.5.0.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "ef6d17a00bbb557c5870ee5652a1cabefab787a1238c8fec16a1ddb07d20d79e",
+        "artifactSha256": "435c7be7e1ffab4f1ca880b5de06eabf32d4886db41edd0af28a61d44d027e4f",
+        "artifactSize": 1712091,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "PrimeTween",
+          "PrimeTweenDemo"
+        ],
+        "types": [
+          "CodeGenerator",
+          "CodeGenerator+AdditiveMethodsGenerator",
+          "CodeGenerator+AdditiveMethodsGenerator+AdditiveMethodsGeneratorData",
+          "CodeGenerator+ManualTweenTypeData",
+          "CodeGenerator+ManualTweenTypeDataFlags",
+          "CodeGenerator+SpeedBasedMethodsGenerator",
+          "CodeGenerator+SpeedBasedMethodsGenerator+Data",
+          "CustomPropertyScope",
+          "Dependency",
+          "DependencyFlags",
+          "Ext",
+          "MethodGenerationData",
+          "PrimeTween.Assert",
+          "PrimeTween.ColdData",
+          "PrimeTween.Constants",
+          "PrimeTween.CoroutineIterator",
+          "PrimeTween.CycleMode",
+          "PrimeTween.DOTween",
+          "PrimeTween.DOTweenAdapter",
+          "PrimeTween.DOVirtual",
+          "PrimeTween.Ease",
+          "PrimeTween.Easing",
+          "PrimeTween.Extensions",
+          "PrimeTween.Flags",
+          "PrimeTween.LoopType",
+          "PrimeTween.Mathf",
+          "PrimeTween.ObsoleteMessages",
+          "PrimeTween.ParametricEase",
+          "PrimeTween.PrimeTweenConfig",
+          "PrimeTween.PrimeTweenManager",
+          "PrimeTween.PrimeTweenManager+CurrentAnimationData",
+          "PrimeTween.PrimeTweenManager+StartValueBackupData",
+          "PrimeTween.PrimeTweenManager+TweenArraysEnumerator",
+          "PrimeTween.PrimeTweenManager+TweenInspectorData",
+          "PrimeTween.PrimeTweenManager+UpdateDepthScope",
+          "PrimeTween.PropType",
+          "PrimeTween.Sequence",
+          "PrimeTween.Sequence+InsertWait",
+          "PrimeTween.Sequence+SequenceChildrenEnumerator",
+          "PrimeTween.Sequence+SequenceCycleMode",
+          "PrimeTween.Sequence+SequenceDirectEnumerator",
+          "PrimeTween.Sequence+where",
+          "PrimeTween.ShakeData",
+          "PrimeTween.ShakeSettings",
+          "PrimeTween.StackTraces",
+          "PrimeTween.StandardEasing",
+          "PrimeTween.State",
+          "PrimeTween.Tween",
+          "PrimeTween.Tween+Custom_internal",
+          "PrimeTween.Tween+ShakeCustom",
+          "PrimeTween.Tween+TweenAwaiter",
+          "PrimeTween.Tween+where",
+          "PrimeTween.TweenAnimation",
+          "PrimeTween.TweenAnimation+CallbackDirection",
+          "PrimeTween.TweenAnimation+TweenType",
+          "PrimeTween.TweenAnimation+ValueWrapper",
+          "PrimeTween.TweenArray",
+          "PrimeTween.TweenArray+Enumerator",
+          "PrimeTween.TweenArray+EnumeratorElement",
+          "PrimeTween.TweenArray+Lock",
+          "PrimeTween.TweenData",
+          "PrimeTween.TweenData+DelayPayloadLayout",
+          "PrimeTween.TweenData+Int2",
+          "PrimeTween.TweenData+Int3",
+          "PrimeTween.TweenData+Int4",
+          "PrimeTween.TweenData+obj",
+          "PrimeTween.TweenData+where",
+          "PrimeTween.TweenSettings",
+          "PrimeTween.TweenSettings+CancellationMode",
+          "PrimeTween.UnmanagedTweenData",
+          "PrimeTween.UpdateType",
+          "PrimeTween.Utils",
+          "PrimeTween.Utils+MaterialPropertyBlockSetterScope",
+          "PrimeTween.ValueContainerStartEnd",
+          "PrimeTween._CycleMode",
+          "PrimeTween._UpdateType",
+          "PrimeTween.void",
+          "PrimeTweenDemo.BasicExample",
+          "PrimeTweenDemo.SequenceExample",
+          "PrimeTweenManagerInspector",
+          "PrimeTweenManagerInspector+StringCache",
+          "SerializedPropertyExtensions",
+          "ShakeSettingsPropDrawer",
+          "TweenSettingsPropDrawer",
+          "TweenSettingsTypesPropDrawer",
+          "UpdateTypePropDrawer",
+          "ValueContainerStartEndPropDrawer"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "PrimeTween.Editor",
+            "path": "Editor/PrimeTween.Editor.asmdef",
+            "guid": "9b75a211bc674cd2906483cd8aa2159d",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.inputsystem",
+                "expression": "1.0.0",
+                "define": "INPUT_SYSTEM_INSTALLED"
+              },
+              {
+                "name": "com.unity.modules.uielements",
+                "expression": "1.0.0",
+                "define": "UI_ELEMENTS_MODULE_INSTALLED"
+              },
+              {
+                "name": "com.unity.modules.physics",
+                "expression": "1.0.0",
+                "define": "PHYSICS_MODULE_INSTALLED"
+              },
+              {
+                "name": "com.kyrylokuzyk.primetween",
+                "expression": "[1.5.0-pro]",
+                "define": "PRIME_TWEEN_PRO"
+              },
+              {
+                "name": "com.kyrylokuzyk.primetween",
+                "expression": "[1.5.0-text]",
+                "define": "PRIME_TWEEN_TEXT"
+              },
+              {
+                "name": "com.unity.textmeshpro",
+                "expression": "1.0.0",
+                "define": "TEXT_MESH_PRO_INSTALLED"
+              },
+              {
+                "name": "com.unity.ugui",
+                "expression": "2.0.0",
+                "define": "TEXT_MESH_PRO_INSTALLED"
+              }
+            ],
+            "references": [
+              "PrimeTween.Runtime",
+              "Unity.TextMeshPro"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified"
+            ],
+            "types": [
+              "CodeGenerator",
+              "CodeGenerator+AdditiveMethodsGenerator",
+              "CodeGenerator+AdditiveMethodsGenerator+AdditiveMethodsGeneratorData",
+              "CodeGenerator+ManualTweenTypeData",
+              "CodeGenerator+ManualTweenTypeDataFlags",
+              "CodeGenerator+SpeedBasedMethodsGenerator",
+              "CodeGenerator+SpeedBasedMethodsGenerator+Data",
+              "CustomPropertyScope",
+              "Dependency",
+              "DependencyFlags",
+              "Ext",
+              "MethodGenerationData",
+              "PrimeTweenManagerInspector",
+              "PrimeTweenManagerInspector+StringCache",
+              "SerializedPropertyExtensions",
+              "ShakeSettingsPropDrawer",
+              "TweenSettingsPropDrawer",
+              "TweenSettingsTypesPropDrawer",
+              "UpdateTypePropDrawer",
+              "ValueContainerStartEndPropDrawer"
+            ]
+          },
+          {
+            "name": "PrimeTween.Runtime",
+            "path": "Runtime/PrimeTween.Runtime.asmdef",
+            "guid": "80ecb87cae9c44d19824e70ea7229748",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.ugui",
+                "expression": "1.0.0",
+                "define": "UNITY_UGUI_INSTALLED"
+              },
+              {
+                "name": "com.unity.modules.audio",
+                "expression": "1.0.0",
+                "define": "AUDIO_MODULE_INSTALLED"
+              },
+              {
+                "name": "com.unity.modules.physics",
+                "expression": "1.0.0",
+                "define": "PHYSICS_MODULE_INSTALLED"
+              },
+              {
+                "name": "com.unity.modules.physics2d",
+                "expression": "1.0.0",
+                "define": "PHYSICS2D_MODULE_INSTALLED"
+              },
+              {
+                "name": "com.unity.modules.uielements",
+                "expression": "1.0.0",
+                "define": "UI_ELEMENTS_MODULE_INSTALLED"
+              },
+              {
+                "name": "com.unity.inputsystem",
+                "expression": "1.0.0",
+                "define": "INPUT_SYSTEM_INSTALLED"
+              },
+              {
+                "name": "com.unity.textmeshpro",
+                "expression": "1.0.0",
+                "define": "TEXT_MESH_PRO_INSTALLED"
+              },
+              {
+                "name": "com.unity.ugui",
+                "expression": "2.0.0",
+                "define": "TEXT_MESH_PRO_INSTALLED"
+              },
+              {
+                "name": "com.kyrylokuzyk.primetween",
+                "expression": "[1.5.0-pro]",
+                "define": "PRIME_TWEEN_PRO"
+              },
+              {
+                "name": "com.kyrylokuzyk.primetween",
+                "expression": "[1.5.0-text]",
+                "define": "PRIME_TWEEN_TEXT"
+              },
+              {
+                "name": "com.unity.burst",
+                "expression": "1.0.0",
+                "define": "BURST_INSTALLED"
+              },
+              {
+                "name": "com.unity.test-framework",
+                "expression": "1.3.9",
+                "define": "TEST_FRAMEWORK_INSTALLED"
+              },
+              {
+                "name": "com.cysharp.unitask",
+                "expression": "2.0.13",
+                "define": "UNITASK_INSTALLED"
+              }
+            ],
+            "references": [
+              "Unity.TextMeshPro",
+              "Unity.InputSystem",
+              "Unity.Burst",
+              "UniTask"
+            ],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "PrimeTween.Assert",
+              "PrimeTween.ColdData",
+              "PrimeTween.Constants",
+              "PrimeTween.CoroutineIterator",
+              "PrimeTween.CycleMode",
+              "PrimeTween.DOTween",
+              "PrimeTween.DOTweenAdapter",
+              "PrimeTween.DOVirtual",
+              "PrimeTween.Ease",
+              "PrimeTween.Easing",
+              "PrimeTween.Extensions",
+              "PrimeTween.Flags",
+              "PrimeTween.LoopType",
+              "PrimeTween.Mathf",
+              "PrimeTween.ObsoleteMessages",
+              "PrimeTween.ParametricEase",
+              "PrimeTween.PrimeTweenConfig",
+              "PrimeTween.PrimeTweenManager",
+              "PrimeTween.PrimeTweenManager+CurrentAnimationData",
+              "PrimeTween.PrimeTweenManager+StartValueBackupData",
+              "PrimeTween.PrimeTweenManager+TweenArraysEnumerator",
+              "PrimeTween.PrimeTweenManager+TweenInspectorData",
+              "PrimeTween.PrimeTweenManager+UpdateDepthScope",
+              "PrimeTween.PropType",
+              "PrimeTween.Sequence",
+              "PrimeTween.Sequence+InsertWait",
+              "PrimeTween.Sequence+SequenceChildrenEnumerator",
+              "PrimeTween.Sequence+SequenceCycleMode",
+              "PrimeTween.Sequence+SequenceDirectEnumerator",
+              "PrimeTween.Sequence+where",
+              "PrimeTween.ShakeData",
+              "PrimeTween.ShakeSettings",
+              "PrimeTween.StackTraces",
+              "PrimeTween.StandardEasing",
+              "PrimeTween.State",
+              "PrimeTween.Tween",
+              "PrimeTween.Tween+Custom_internal",
+              "PrimeTween.Tween+ShakeCustom",
+              "PrimeTween.Tween+TweenAwaiter",
+              "PrimeTween.Tween+where",
+              "PrimeTween.TweenAnimation",
+              "PrimeTween.TweenAnimation+CallbackDirection",
+              "PrimeTween.TweenAnimation+TweenType",
+              "PrimeTween.TweenAnimation+ValueWrapper",
+              "PrimeTween.TweenArray",
+              "PrimeTween.TweenArray+Enumerator",
+              "PrimeTween.TweenArray+EnumeratorElement",
+              "PrimeTween.TweenArray+Lock",
+              "PrimeTween.TweenData",
+              "PrimeTween.TweenData+DelayPayloadLayout",
+              "PrimeTween.TweenData+Int2",
+              "PrimeTween.TweenData+Int3",
+              "PrimeTween.TweenData+Int4",
+              "PrimeTween.TweenData+obj",
+              "PrimeTween.TweenData+where",
+              "PrimeTween.TweenSettings",
+              "PrimeTween.TweenSettings+CancellationMode",
+              "PrimeTween.UnmanagedTweenData",
+              "PrimeTween.UpdateType",
+              "PrimeTween.Utils",
+              "PrimeTween.Utils+MaterialPropertyBlockSetterScope",
+              "PrimeTween.ValueContainerStartEnd",
+              "PrimeTween._CycleMode",
+              "PrimeTween._UpdateType",
+              "PrimeTween.void"
+            ]
+          },
+          {
+            "name": "PrimeTween.Samples",
+            "path": "Samples~/Examples/PrimeTween.Samples.asmdef",
+            "guid": "5ba42b9ce9d01442097b281770dd21b1",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.inputsystem",
+                "expression": "1.0.0",
+                "define": "INPUT_SYSTEM_INSTALLED"
+              }
+            ],
+            "references": [
+              "PrimeTween.Runtime",
+              "Unity.InputSystem"
+            ],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "PrimeTweenDemo.BasicExample",
+              "PrimeTweenDemo.SequenceExample"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/435c7be7e1ffab4f1ca880b5de06eabf32d4886db41edd0af28a61d44d027e4f-595fb35e69ff.json.gz",
+          "sha256": "01e338dd2aa89e131e8d9c600c37cb36c5de39bfe1f0eb0068cf4a021240f878",
+          "size": 9725,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 130,
+        "sourceFileCount": 40,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 26,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://registry.npmjs.org/com.kyrylokuzyk.primetween/1.5.0",
       "deprecated": null,
@@ -75,7 +947,9 @@
           "integrity": "sha512-mL5kU8dU2+PPrXTb8WbqPbl6+ckrBe0QpgXv8C2YNLv5fdR+h7SFyO+nN28wnH+WjbGmzaaBISdvVsWLMoE69g==",
           "shasum": "425c7ceaa7d522f4776cc64b9b556418e138fe3a"
         }
-      }
+      },
+      "packageId": "com.kyrylokuzyk.primetween",
+      "collectedAt": "2026-10-18T05:34:52.689252Z"
     }
   ],
   "metadataStatus": "complete",

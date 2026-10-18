@@ -22,17 +22,652 @@
       "sourceTag": "2.5.1",
       "versionBasis": "official-repository-tag-not-target-equivalence",
       "downloadUrl": "https://codeload.github.com/Cysharp/ZString/tar.gz/7629cf7ca8801fb25104b641fc0ac0457849d7c9",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "MIT",
+        "evidenceUrl": "https://codeload.github.com/Cysharp/ZString/tar.gz/7629cf7ca8801fb25104b641fc0ac0457849d7c9#ZString-7629cf7ca8801fb25104b641fc0ac0457849d7c9/LICENSE",
+        "sha256": "f3e6cffb78d6d94fa37fd26ada7294c3284b6b89940b5645f93ed24cdd5b36b0",
+        "text": "MIT License\n\nCopyright (c) 2020 Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "components": [
+          {
+            "path": "LICENSE",
+            "expression": "MIT",
+            "sha256": "f3e6cffb78d6d94fa37fd26ada7294c3284b6b89940b5645f93ed24cdd5b36b0",
+            "evidenceUrl": "https://codeload.github.com/Cysharp/ZString/tar.gz/7629cf7ca8801fb25104b641fc0ac0457849d7c9#ZString-7629cf7ca8801fb25104b641fc0ac0457849d7c9/LICENSE",
+            "text": "MIT License\n\nCopyright (c) 2020 Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+          },
+          {
+            "path": "src/ZString.Unity/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:34:44.186785Z",
+        "decisionBasis": [
+          "Native/SDK components require their own redistribution evidence"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "ab50a00b8560d2fe96c731d7387757cc0c72bce6b72327c4b66d208e46a12074",
+        "size": 284296,
+        "format": "tar.gz",
+        "kind": "mixed-source-binary",
+        "url": "https://codeload.github.com/Cysharp/ZString/tar.gz/7629cf7ca8801fb25104b641fc0ac0457849d7c9",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types",
+          "managedMetadata": {
+            "name": "uvault.managed-index",
+            "version": "1",
+            "reader": "System.Reflection.Metadata/PEReader",
+            "available": true,
+            "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+          }
+        },
+        "sourceSetSha256": "bfa0d1a4032abd9772e6a10da13676a19e2305afcbb3e5cf0b9469c2af32c44b",
+        "artifactSha256": "ab50a00b8560d2fe96c731d7387757cc0c72bce6b72327c4b66d208e46a12074",
+        "artifactSize": 284296,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "BenchmarkVsReleasedVersion",
+          "ConsoleApp",
+          "ConsoleAppNet472",
+          "Cysharp.Text",
+          "Microsoft.CodeAnalysis",
+          "PerfBenchmark",
+          "PerfBenchmark.Benchmarks",
+          "System",
+          "System.Buffers.Text",
+          "System.Numerics",
+          "System.Runtime.CompilerServices",
+          "System.Runtime.Versioning",
+          "System.Text",
+          "ZStringTests"
+        ],
+        "types": [
+          "BenchmarkVsReleasedVersion.BenchmarkConfig",
+          "BenchmarkVsReleasedVersion.BuiltinTypesBenchmark",
+          "BenchmarkVsReleasedVersion.ConcatBenchmark",
+          "BenchmarkVsReleasedVersion.FormatBenchmark",
+          "BenchmarkVsReleasedVersion.MaximumArgsFormatBenchmark",
+          "BenchmarkVsReleasedVersion.Program",
+          "ConsoleApp.FormatBenchmark",
+          "ConsoleApp.JoinBenchmark",
+          "ConsoleApp.MyStruct",
+          "ConsoleApp.Program",
+          "ConsoleAppNet472.Program",
+          "Cysharp.Text.EnumUtil",
+          "Cysharp.Text.ExceptionUtil",
+          "Cysharp.Text.FastNumberWriter",
+          "Cysharp.Text.FormatParser",
+          "Cysharp.Text.FormatParser+ParseResult",
+          "Cysharp.Text.IResettableBufferWriter",
+          "Cysharp.Text.Int32",
+          "Cysharp.Text.NestedStringBuilderCreationException",
+          "Cysharp.Text.ParserScanResult",
+          "Cysharp.Text.PreparedFormatHelper",
+          "Cysharp.Text.ReadOnlyListAdaptor",
+          "Cysharp.Text.ShimsExtensions",
+          "Cysharp.Text.TextMeshProExtensions",
+          "Cysharp.Text.Utf16FormatHelper",
+          "Cysharp.Text.Utf16FormatSegment",
+          "Cysharp.Text.Utf16PreparedFormat",
+          "Cysharp.Text.Utf16ValueStringBuilder",
+          "Cysharp.Text.Utf16ValueStringBuilder+ExceptionUtil",
+          "Cysharp.Text.Utf16ValueStringBuilder+FormatterCache",
+          "Cysharp.Text.Utf16ValueStringBuilder+bool",
+          "Cysharp.Text.Utf8FormatHelper",
+          "Cysharp.Text.Utf8FormatSegment",
+          "Cysharp.Text.Utf8PreparedFormat",
+          "Cysharp.Text.Utf8ValueStringBuilder",
+          "Cysharp.Text.Utf8ValueStringBuilder+FormatterCache",
+          "Cysharp.Text.Utf8ValueStringBuilder+bool",
+          "Cysharp.Text.ZString",
+          "Cysharp.Text.ZStringWriter",
+          "Microsoft.CodeAnalysis.EmbeddedAttribute",
+          "PackageExporter",
+          "PackageExporter+Version",
+          "PerfBenchmark.BenchmarkConfig",
+          "PerfBenchmark.Benchmarks.AppendPerformance",
+          "PerfBenchmark.Benchmarks.FormatBenchmark",
+          "PerfBenchmark.Benchmarks.ReplaceBenchmark",
+          "PerfBenchmark.Benchmarks.SixObjectConcatBenchmark",
+          "PerfBenchmark.Benchmarks.StringBuilderAppendFormat",
+          "PerfBenchmark.Benchmarks.StringBuilderAppendJoin",
+          "PerfBenchmark.Benchmarks.StringListJoinBenchmark",
+          "PerfBenchmark.Benchmarks.Utf8AppendPerformance",
+          "PerfBenchmark.Benchmarks.VSStringFormatter",
+          "PerfBenchmark.Program",
+          "System.BufferEx",
+          "System.Buffers.Text.FormattingHelpers",
+          "System.DecimalEx",
+          "System.DecimalEx+DecCalc",
+          "System.DecimalEx+DecimalBits",
+          "System.FloatEx",
+          "System.GuidEx",
+          "System.HexConverter",
+          "System.HexConverter+Casing",
+          "System.InternalSpanEx",
+          "System.MathEx",
+          "System.Number",
+          "System.Number+BigInteger",
+          "System.Number+DiyFp",
+          "System.Number+FloatingPointInfo",
+          "System.Number+Grisu3",
+          "System.Number+NumberBuffer",
+          "System.Number+NumberBufferKind",
+          "System.Number+ParsingStatus",
+          "System.NumberFormatInfoEx",
+          "System.Numerics.BitOperations",
+          "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+          "System.Runtime.CompilerServices.NativeIntegerAttribute",
+          "System.Runtime.CompilerServices.Unsafe",
+          "System.Runtime.Versioning.NonVersionableAttribute",
+          "System.Text.ValueStringBuilder",
+          "Test",
+          "ZStringTests.AppendJoinTest",
+          "ZStringTests.CompositeFormatTest",
+          "ZStringTests.DuplicateEnum",
+          "ZStringTests.EnumTest",
+          "ZStringTests.FlagsEnum",
+          "ZStringTests.FormatTest",
+          "ZStringTests.InsertTest",
+          "ZStringTests.JoinTest",
+          "ZStringTests.MoreMyEnum",
+          "ZStringTests.NestedStringBuilder",
+          "ZStringTests.Primitives",
+          "ZStringTests.RemoveTest",
+          "ZStringTests.ReplaceTest",
+          "ZStringTests.StandardEnum",
+          "ZStringTests.StringBuilderTest",
+          "ZStringTests.Utf8StringBuilderTest",
+          "ZStringTests.ZStringWriterTest"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/BenchmarkVsReleasedVersion/BuiltinTypesBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/BenchmarkVsReleasedVersion/ConcatBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/BenchmarkVsReleasedVersion/FormatBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/BenchmarkVsReleasedVersion/MaximumArgsFormatBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/BenchmarkVsReleasedVersion/Program.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/ConsoleApp/Program.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/ConsoleAppNet472/Program.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/ConsoleAppNet472/Properties/AssemblyInfo.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/AppendPerformance.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/FormatBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/ReplaceBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/SixObjectConcatBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/StringBuilderAppendFormat.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/StringBuilderAppendJoin.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/StringListJoinBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/VSStringFormatter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Program.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/EnumUtil.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ExceptionUtil.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/FastNumberWriter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/FormatHelper.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/FormatParser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/IResettableBufferWriter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/NestedStringBuilderCreationException.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/BitOperations.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/BufferEx.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/DecimalEx.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/FloatEx.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/FormattingHelpers.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/GuidEx.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/HexConverter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/InternalSpanEx.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/MathEx.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.BigInteger.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.DiyFp.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.Dragon4.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.Formatting.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.Grisu3.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.NumberBuffer.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.NumberToFloatingPointBits.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.Parsing.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/NumberFormatInfoEx.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/ValueStringBuilder.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/PreparedFormat.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/PreparedFormatHelper.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ReadOnlyListAdaptor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Shims.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/StringBuilder.AppendJoin.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Unity/TextMeshProExtensions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf16/Utf16ValueStringBuilder.AppendFormat.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf16/Utf16ValueStringBuilder.CreateFormatter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf16/Utf16ValueStringBuilder.SpanFormattableAppend.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf16ValueStringBuilder.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf8/Utf8ValueStringBuilder.AppendFormat.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf8/Utf8ValueStringBuilder.CreateFormatter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf8/Utf8ValueStringBuilder.SpanFormattableAppend.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf8ValueStringBuilder.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ZString.Concat.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ZString.Format.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ZString.Prepare.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ZString.Utf8Format.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ZString.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ZStringWriter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/_InternalVisibleTo.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/AppendJoinTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/CompositeFormatTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/EnumTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/FormatTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/InsertTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/JoinTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/NestedStringBuilder.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/Primitives.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/RemoveTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/ReplaceTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/StringBuilderTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/Utf8StringBuilderTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/ZStringWriterTest.cs"
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "Assembly-CSharp",
+            "path": null,
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "profileIssues": [
+              "unity-default-rules-not-compiler-verified"
+            ],
+            "types": [
+              "Test"
+            ]
+          },
+          {
+            "name": "Assembly-CSharp-Editor",
+            "path": null,
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "profileIssues": [
+              "unity-default-rules-not-compiler-verified"
+            ],
+            "types": [
+              "PackageExporter",
+              "PackageExporter+Version"
+            ]
+          },
+          {
+            "name": "ZString",
+            "path": "src/ZString.Unity/Assets/Scripts/ZString/ZString.asmdef",
+            "guid": "33661e06c33d31b4c9223810bf503247",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.textmeshpro",
+                "expression": "",
+                "define": "ZSTRING_TEXTMESHPRO_SUPPORT"
+              }
+            ],
+            "references": [
+              "Unity.TextMeshPro"
+            ],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "Cysharp.Text.EnumUtil",
+              "Cysharp.Text.ExceptionUtil",
+              "Cysharp.Text.FastNumberWriter",
+              "Cysharp.Text.FormatParser",
+              "Cysharp.Text.FormatParser+ParseResult",
+              "Cysharp.Text.IResettableBufferWriter",
+              "Cysharp.Text.Int32",
+              "Cysharp.Text.NestedStringBuilderCreationException",
+              "Cysharp.Text.ParserScanResult",
+              "Cysharp.Text.PreparedFormatHelper",
+              "Cysharp.Text.ReadOnlyListAdaptor",
+              "Cysharp.Text.ShimsExtensions",
+              "Cysharp.Text.TextMeshProExtensions",
+              "Cysharp.Text.Utf16FormatHelper",
+              "Cysharp.Text.Utf16FormatSegment",
+              "Cysharp.Text.Utf16PreparedFormat",
+              "Cysharp.Text.Utf16ValueStringBuilder",
+              "Cysharp.Text.Utf16ValueStringBuilder+ExceptionUtil",
+              "Cysharp.Text.Utf16ValueStringBuilder+FormatterCache",
+              "Cysharp.Text.Utf16ValueStringBuilder+bool",
+              "Cysharp.Text.Utf8FormatHelper",
+              "Cysharp.Text.Utf8FormatSegment",
+              "Cysharp.Text.Utf8PreparedFormat",
+              "Cysharp.Text.Utf8ValueStringBuilder",
+              "Cysharp.Text.Utf8ValueStringBuilder+FormatterCache",
+              "Cysharp.Text.Utf8ValueStringBuilder+bool",
+              "Cysharp.Text.ZString",
+              "Cysharp.Text.ZStringWriter",
+              "System.BufferEx",
+              "System.Buffers.Text.FormattingHelpers",
+              "System.DecimalEx",
+              "System.DecimalEx+DecCalc",
+              "System.DecimalEx+DecimalBits",
+              "System.FloatEx",
+              "System.GuidEx",
+              "System.HexConverter",
+              "System.HexConverter+Casing",
+              "System.InternalSpanEx",
+              "System.MathEx",
+              "System.Number",
+              "System.Number+BigInteger",
+              "System.Number+DiyFp",
+              "System.Number+FloatingPointInfo",
+              "System.Number+Grisu3",
+              "System.Number+NumberBuffer",
+              "System.Number+NumberBufferKind",
+              "System.Number+ParsingStatus",
+              "System.NumberFormatInfoEx",
+              "System.Numerics.BitOperations",
+              "System.Text.ValueStringBuilder"
+            ]
+          },
+          {
+            "name": "System.Runtime.CompilerServices.Unsafe",
+            "scope": {
+              "name": "System.Runtime.CompilerServices.Unsafe",
+              "version": "6.0.0.0",
+              "culture": "neutral",
+              "publicKeyToken": "b03f5f7f11d50a3a"
+            },
+            "path": "src/ZString.Unity/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+              "System.Runtime.CompilerServices.NativeIntegerAttribute",
+              "System.Runtime.CompilerServices.Unsafe",
+              "System.Runtime.Versioning.NonVersionableAttribute"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/ab50a00b8560d2fe96c731d7387757cc0c72bce6b72327c4b66d208e46a12074-603581728bbb.json.gz",
+          "sha256": "94632ce60cb776e4119a2abbc462ba72090859f2858fbba2f807262f66c0d1d7",
+          "size": 17304,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types",
+            "managedMetadata": {
+              "name": "uvault.managed-index",
+              "version": "1",
+              "reader": "System.Reflection.Metadata/PEReader",
+              "available": true,
+              "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+            }
+          }
+        },
+        "fileCount": 261,
+        "sourceFileCount": 126,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 16,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": [
+          {
+            "path": "src/ZString.Unity/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll",
+            "sha256": "01748200f2400c742aa689f1f5101bd6298efdfd92c00c18f4fa473847235ba9",
+            "size": 18024,
+            "dummyDll": false
+          }
+        ]
+      },
+      "fetchStatus": "collected",
+      "versionStatus": "stable",
+      "packageId": "ZString",
+      "collectedAt": "2026-10-18T05:34:44.524542Z"
     },
     {
       "version": "2.6.0",
@@ -43,17 +678,657 @@
       "sourceTag": "2.6.0",
       "versionBasis": "official-repository-tag-not-target-equivalence",
       "downloadUrl": "https://codeload.github.com/Cysharp/ZString/tar.gz/3156134075b89a162fe95350a2e92a4c85ccca59",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "MIT",
+        "evidenceUrl": "https://codeload.github.com/Cysharp/ZString/tar.gz/3156134075b89a162fe95350a2e92a4c85ccca59#ZString-3156134075b89a162fe95350a2e92a4c85ccca59/LICENSE",
+        "sha256": "f3e6cffb78d6d94fa37fd26ada7294c3284b6b89940b5645f93ed24cdd5b36b0",
+        "text": "MIT License\n\nCopyright (c) 2020 Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "components": [
+          {
+            "path": "LICENSE",
+            "expression": "MIT",
+            "sha256": "f3e6cffb78d6d94fa37fd26ada7294c3284b6b89940b5645f93ed24cdd5b36b0",
+            "evidenceUrl": "https://codeload.github.com/Cysharp/ZString/tar.gz/3156134075b89a162fe95350a2e92a4c85ccca59#ZString-3156134075b89a162fe95350a2e92a4c85ccca59/LICENSE",
+            "text": "MIT License\n\nCopyright (c) 2020 Cysharp, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+          },
+          {
+            "path": "src/ZString.Unity/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:34:44.725744Z",
+        "decisionBasis": [
+          "Native/SDK components require their own redistribution evidence"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "9bd9f56143d59250b4803f0e67b9a6b5aed5a19f8dffbce1b2ef158fc6e5c17f",
+        "size": 283517,
+        "format": "tar.gz",
+        "kind": "mixed-source-binary",
+        "url": "https://codeload.github.com/Cysharp/ZString/tar.gz/3156134075b89a162fe95350a2e92a4c85ccca59",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types",
+          "managedMetadata": {
+            "name": "uvault.managed-index",
+            "version": "1",
+            "reader": "System.Reflection.Metadata/PEReader",
+            "available": true,
+            "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+          }
+        },
+        "sourceSetSha256": "ede85f2826de14c348e850cba18dfb6899e5a6c3bd5e151ad383bed67ebcf714",
+        "artifactSha256": "9bd9f56143d59250b4803f0e67b9a6b5aed5a19f8dffbce1b2ef158fc6e5c17f",
+        "artifactSize": 283517,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "BenchmarkVsReleasedVersion",
+          "ConsoleApp",
+          "ConsoleAppNet472",
+          "Cysharp.Text",
+          "Microsoft.CodeAnalysis",
+          "PerfBenchmark",
+          "PerfBenchmark.Benchmarks",
+          "System",
+          "System.Buffers.Text",
+          "System.Numerics",
+          "System.Runtime.CompilerServices",
+          "System.Runtime.Versioning",
+          "System.Text",
+          "ZStringTests"
+        ],
+        "types": [
+          "BenchmarkVsReleasedVersion.BenchmarkConfig",
+          "BenchmarkVsReleasedVersion.BuiltinTypesBenchmark",
+          "BenchmarkVsReleasedVersion.ConcatBenchmark",
+          "BenchmarkVsReleasedVersion.FormatBenchmark",
+          "BenchmarkVsReleasedVersion.MaximumArgsFormatBenchmark",
+          "BenchmarkVsReleasedVersion.Program",
+          "ConsoleApp.FormatBenchmark",
+          "ConsoleApp.JoinBenchmark",
+          "ConsoleApp.MyStruct",
+          "ConsoleApp.Program",
+          "ConsoleAppNet472.Program",
+          "Cysharp.Text.EnumUtil",
+          "Cysharp.Text.ExceptionUtil",
+          "Cysharp.Text.FastNumberWriter",
+          "Cysharp.Text.FormatParser",
+          "Cysharp.Text.FormatParser+ParseResult",
+          "Cysharp.Text.IResettableBufferWriter",
+          "Cysharp.Text.Int32",
+          "Cysharp.Text.NestedStringBuilderCreationException",
+          "Cysharp.Text.ParserScanResult",
+          "Cysharp.Text.PreparedFormatHelper",
+          "Cysharp.Text.ReadOnlyListAdaptor",
+          "Cysharp.Text.ShimsExtensions",
+          "Cysharp.Text.TextMeshProExtensions",
+          "Cysharp.Text.Utf16FormatHelper",
+          "Cysharp.Text.Utf16FormatSegment",
+          "Cysharp.Text.Utf16PreparedFormat",
+          "Cysharp.Text.Utf16ValueStringBuilder",
+          "Cysharp.Text.Utf16ValueStringBuilder+ExceptionUtil",
+          "Cysharp.Text.Utf16ValueStringBuilder+FormatterCache",
+          "Cysharp.Text.Utf16ValueStringBuilder+bool",
+          "Cysharp.Text.Utf8FormatHelper",
+          "Cysharp.Text.Utf8FormatSegment",
+          "Cysharp.Text.Utf8PreparedFormat",
+          "Cysharp.Text.Utf8ValueStringBuilder",
+          "Cysharp.Text.Utf8ValueStringBuilder+FormatterCache",
+          "Cysharp.Text.Utf8ValueStringBuilder+bool",
+          "Cysharp.Text.ZString",
+          "Cysharp.Text.ZStringWriter",
+          "Microsoft.CodeAnalysis.EmbeddedAttribute",
+          "PackageExporter",
+          "PackageExporter+Version",
+          "PerfBenchmark.BenchmarkConfig",
+          "PerfBenchmark.Benchmarks.AppendPerformance",
+          "PerfBenchmark.Benchmarks.FormatBenchmark",
+          "PerfBenchmark.Benchmarks.ReplaceBenchmark",
+          "PerfBenchmark.Benchmarks.SixObjectConcatBenchmark",
+          "PerfBenchmark.Benchmarks.StringBuilderAppendFormat",
+          "PerfBenchmark.Benchmarks.StringBuilderAppendJoin",
+          "PerfBenchmark.Benchmarks.StringListJoinBenchmark",
+          "PerfBenchmark.Benchmarks.Utf8AppendPerformance",
+          "PerfBenchmark.Benchmarks.VSStringFormatter",
+          "PerfBenchmark.Program",
+          "System.BufferEx",
+          "System.Buffers.Text.FormattingHelpers",
+          "System.DecimalEx",
+          "System.DecimalEx+DecCalc",
+          "System.DecimalEx+DecimalBits",
+          "System.FloatEx",
+          "System.GuidEx",
+          "System.HexConverter",
+          "System.HexConverter+Casing",
+          "System.InternalSpanEx",
+          "System.MathEx",
+          "System.Number",
+          "System.Number+BigInteger",
+          "System.Number+DiyFp",
+          "System.Number+FloatingPointInfo",
+          "System.Number+Grisu3",
+          "System.Number+NumberBuffer",
+          "System.Number+NumberBufferKind",
+          "System.Number+ParsingStatus",
+          "System.NumberFormatInfoEx",
+          "System.Numerics.BitOperations",
+          "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+          "System.Runtime.CompilerServices.NativeIntegerAttribute",
+          "System.Runtime.CompilerServices.Unsafe",
+          "System.Runtime.Versioning.NonVersionableAttribute",
+          "System.Text.ValueStringBuilder",
+          "Test",
+          "ZStringTests.AppendJoinTest",
+          "ZStringTests.CompositeFormatTest",
+          "ZStringTests.DuplicateEnum",
+          "ZStringTests.EnumTest",
+          "ZStringTests.FlagsEnum",
+          "ZStringTests.FormatTest",
+          "ZStringTests.InsertTest",
+          "ZStringTests.JoinTest",
+          "ZStringTests.MoreMyEnum",
+          "ZStringTests.NestedStringBuilder",
+          "ZStringTests.Primitives",
+          "ZStringTests.RemoveTest",
+          "ZStringTests.ReplaceTest",
+          "ZStringTests.StandardEnum",
+          "ZStringTests.StringBuilderTest",
+          "ZStringTests.Utf8StringBuilderTest",
+          "ZStringTests.ZStringWriterTest"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/BenchmarkVsReleasedVersion/BuiltinTypesBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/BenchmarkVsReleasedVersion/ConcatBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/BenchmarkVsReleasedVersion/FormatBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/BenchmarkVsReleasedVersion/MaximumArgsFormatBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/BenchmarkVsReleasedVersion/Program.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/ConsoleApp/Program.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/ConsoleAppNet472/Program.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/ConsoleAppNet472/Properties/AssemblyInfo.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/AppendPerformance.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/FormatBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/ReplaceBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/SixObjectConcatBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/StringBuilderAppendFormat.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/StringBuilderAppendJoin.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/StringListJoinBenchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Benchmarks/VSStringFormatter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "sandbox/PerfBenchmark/Program.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/EnumUtil.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ExceptionUtil.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/FastNumberWriter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/FormatHelper.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/FormatParser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/IResettableBufferWriter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/NestedStringBuilderCreationException.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/BitOperations.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/BufferEx.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/DecimalEx.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/FloatEx.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/FormattingHelpers.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/GuidEx.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/HexConverter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/InternalSpanEx.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/MathEx.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.BigInteger.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.DiyFp.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.Dragon4.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.Formatting.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.Grisu3.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.NumberBuffer.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.NumberToFloatingPointBits.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/Number.Parsing.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/NumberFormatInfoEx.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Number/ValueStringBuilder.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/PreparedFormat.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/PreparedFormatHelper.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ReadOnlyListAdaptor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Shims.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/StringBuilder.AppendJoin.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Unity/TextMeshProExtensions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf16/Utf16ValueStringBuilder.AppendFormat.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf16/Utf16ValueStringBuilder.CreateFormatter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf16/Utf16ValueStringBuilder.SpanFormattableAppend.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf16ValueStringBuilder.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf8/Utf8ValueStringBuilder.AppendFormat.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf8/Utf8ValueStringBuilder.CreateFormatter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf8/Utf8ValueStringBuilder.SpanFormattableAppend.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/Utf8ValueStringBuilder.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ZString.Concat.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ZString.Format.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ZString.Prepare.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ZString.Utf8Format.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ZString.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/ZStringWriter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/ZString/_InternalVisibleTo.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/AppendJoinTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/CompositeFormatTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/EnumTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/FormatTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/InsertTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/JoinTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/NestedStringBuilder.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/Primitives.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/RemoveTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/ReplaceTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/StringBuilderTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/Utf8StringBuilderTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/ZString.Tests/ZStringWriterTest.cs"
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "Assembly-CSharp",
+            "path": null,
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "profileIssues": [
+              "unity-default-rules-not-compiler-verified"
+            ],
+            "types": [
+              "Test"
+            ]
+          },
+          {
+            "name": "Assembly-CSharp-Editor",
+            "path": null,
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "profileIssues": [
+              "unity-default-rules-not-compiler-verified"
+            ],
+            "types": [
+              "PackageExporter",
+              "PackageExporter+Version"
+            ]
+          },
+          {
+            "name": "ZString",
+            "path": "src/ZString.Unity/Assets/Scripts/ZString/ZString.asmdef",
+            "guid": "33661e06c33d31b4c9223810bf503247",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.textmeshpro",
+                "expression": "",
+                "define": "ZSTRING_TEXTMESHPRO_SUPPORT"
+              },
+              {
+                "name": "com.unity.ugui",
+                "expression": "2.0.0",
+                "define": "ZSTRING_TEXTMESHPRO_SUPPORT"
+              }
+            ],
+            "references": [
+              "Unity.TextMeshPro"
+            ],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "Cysharp.Text.EnumUtil",
+              "Cysharp.Text.ExceptionUtil",
+              "Cysharp.Text.FastNumberWriter",
+              "Cysharp.Text.FormatParser",
+              "Cysharp.Text.FormatParser+ParseResult",
+              "Cysharp.Text.IResettableBufferWriter",
+              "Cysharp.Text.Int32",
+              "Cysharp.Text.NestedStringBuilderCreationException",
+              "Cysharp.Text.ParserScanResult",
+              "Cysharp.Text.PreparedFormatHelper",
+              "Cysharp.Text.ReadOnlyListAdaptor",
+              "Cysharp.Text.ShimsExtensions",
+              "Cysharp.Text.TextMeshProExtensions",
+              "Cysharp.Text.Utf16FormatHelper",
+              "Cysharp.Text.Utf16FormatSegment",
+              "Cysharp.Text.Utf16PreparedFormat",
+              "Cysharp.Text.Utf16ValueStringBuilder",
+              "Cysharp.Text.Utf16ValueStringBuilder+ExceptionUtil",
+              "Cysharp.Text.Utf16ValueStringBuilder+FormatterCache",
+              "Cysharp.Text.Utf16ValueStringBuilder+bool",
+              "Cysharp.Text.Utf8FormatHelper",
+              "Cysharp.Text.Utf8FormatSegment",
+              "Cysharp.Text.Utf8PreparedFormat",
+              "Cysharp.Text.Utf8ValueStringBuilder",
+              "Cysharp.Text.Utf8ValueStringBuilder+FormatterCache",
+              "Cysharp.Text.Utf8ValueStringBuilder+bool",
+              "Cysharp.Text.ZString",
+              "Cysharp.Text.ZStringWriter",
+              "System.BufferEx",
+              "System.Buffers.Text.FormattingHelpers",
+              "System.DecimalEx",
+              "System.DecimalEx+DecCalc",
+              "System.DecimalEx+DecimalBits",
+              "System.FloatEx",
+              "System.GuidEx",
+              "System.HexConverter",
+              "System.HexConverter+Casing",
+              "System.InternalSpanEx",
+              "System.MathEx",
+              "System.Number",
+              "System.Number+BigInteger",
+              "System.Number+DiyFp",
+              "System.Number+FloatingPointInfo",
+              "System.Number+Grisu3",
+              "System.Number+NumberBuffer",
+              "System.Number+NumberBufferKind",
+              "System.Number+ParsingStatus",
+              "System.NumberFormatInfoEx",
+              "System.Numerics.BitOperations",
+              "System.Text.ValueStringBuilder"
+            ]
+          },
+          {
+            "name": "System.Runtime.CompilerServices.Unsafe",
+            "scope": {
+              "name": "System.Runtime.CompilerServices.Unsafe",
+              "version": "6.0.0.0",
+              "culture": "neutral",
+              "publicKeyToken": "b03f5f7f11d50a3a"
+            },
+            "path": "src/ZString.Unity/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+              "System.Runtime.CompilerServices.NativeIntegerAttribute",
+              "System.Runtime.CompilerServices.Unsafe",
+              "System.Runtime.Versioning.NonVersionableAttribute"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/9bd9f56143d59250b4803f0e67b9a6b5aed5a19f8dffbce1b2ef158fc6e5c17f-603581728bbb.json.gz",
+          "sha256": "02f56ca7ecea1b6af83ac8c35ab25afe201ccd5c7ff189504e22ebae5f7c0fe6",
+          "size": 17335,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types",
+            "managedMetadata": {
+              "name": "uvault.managed-index",
+              "version": "1",
+              "reader": "System.Reflection.Metadata/PEReader",
+              "available": true,
+              "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+            }
+          }
+        },
+        "fileCount": 261,
+        "sourceFileCount": 126,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 18,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": [
+          {
+            "path": "src/ZString.Unity/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll",
+            "sha256": "01748200f2400c742aa689f1f5101bd6298efdfd92c00c18f4fa473847235ba9",
+            "size": 18024,
+            "dummyDll": false
+          }
+        ]
+      },
+      "fetchStatus": "collected",
+      "versionStatus": "stable",
+      "packageId": "ZString",
+      "collectedAt": "2026-10-18T05:34:45.059232Z"
     }
   ],
   "metadataStatus": "complete",
