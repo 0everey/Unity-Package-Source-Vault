@@ -1,4 +1,4 @@
-# Vendor package increment ? 2026-10-18
+# Vendor package increment - 2026-10-18
 
 The public catalog now contains 190 entries, up from 162. This increment adds 22 official commercial acquisition entries and six fixed original source snapshots. Product entries without original payloads remain acquisition gaps. These counts do not measure project coverage.
 
@@ -20,6 +20,19 @@ Dreamteck Splines requires its Utilities submodule at `b486e4d7ca897497af39bafc0
 ## Unity 2022 check
 
 Amplify Color and Occlusion compiled together, with original vendor C# bytes unchanged, in an isolated Unity 2022.3.45f1 project. The project required the built-in VR and XR modules. See [the bounded compilation receipt](verification/vendor-source-2022-compile.json). Rendering output, shaders, Player builds and target-project compatibility were not validated. No game was run for this increment.
+
+## Download and import the two verified originals
+
+These links require no GitHub login:
+
+| Original source archive | Component to import |
+| --- | --- |
+| [Amplify Color](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-8f/8f306296d80af72a783e61fa6a1f25d95a4e16b524389118279e0b54c0ceba12.tar.gz) | `Assets/AmplifyColor` |
+| [Amplify Occlusion](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-cd/cd8414f0fd06db9027b7359d07d2402bc91e19336ae48ad7dcb368b5ccb74737.tar.gz) | `Assets/AmplifyOcclusion` |
+
+Extract the selected archive and copy its named component into your Unity project's `Assets` directory. Preserve each archive's root `LICENSE` with that component, for example as `Assets/AmplifyColor/LICENSE` and `Assets/AmplifyOcclusion/LICENSE`. Enable the built-in VR and XR modules; the compilation receipt above lists the complete module set used for validation. Importing the archive's upstream `Packages` or `ProjectSettings` is unnecessary for these components.
+
+The [public download acceptance](verification/vendor-source-public-download.json) loads the actual catalog at commit `73f26cf4dd8ad92beb3a9e919614602bc1621da3`, selects these two source snapshots explicitly, and exercises `uvault resolve` and `uvault materialize`. Anonymous archive downloads, all 357 catalog file hashes, both license sidecars, and offline receipt reuse passed. Resolve retains `candidate` with exit code 3 because requesting an original source is not evidence of equivalence to a user's existing project; materialization and offline reuse return 0. This download check does not extend the compilation scope above.
 
 ## Commercial original acquisition gaps
 
