@@ -16,23 +16,296 @@
     {
       "version": "2.1.2",
       "variantId": "registry-packages.unity.com-8f3c3d1e55830cb7",
-      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers",
       "sourceRef": "4248c99ee8691211d369fad6f3145a1f3c50be21",
       "downloadUrl": "https://download.packages.unity.com/com.unity.xr.legacyinputhelpers/-/com.unity.xr.legacyinputhelpers-2.1.2.tgz",
       "upstreamIntegrity": null,
       "upstreamShasum": "76bfeba274c0bafb6ec5c71729ac604af130d759",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "LicenseRef-Unity-Companion",
+        "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.legacyinputhelpers/-/com.unity.xr.legacyinputhelpers-2.1.2.tgz#package/LICENSE.md",
+        "sha256": "3733e64b0d642e188bdfcbe727b8aa2c38143b65af1908b133c3177940cec7c2",
+        "text": "com.unity.xr.legacyinputhelpers copyright © 2019 Unity Technologies ApS\r\n\r\nLicensed under the Unity Companion License for Unity-dependent projects--see [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License).\r\n\r\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\r\n",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": "LicenseRef-Unity-Companion",
+            "sha256": "3733e64b0d642e188bdfcbe727b8aa2c38143b65af1908b133c3177940cec7c2",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.legacyinputhelpers/-/com.unity.xr.legacyinputhelpers-2.1.2.tgz#package/LICENSE.md",
+            "text": "com.unity.xr.legacyinputhelpers copyright © 2019 Unity Technologies ApS\r\n\r\nLicensed under the Unity Companion License for Unity-dependent projects--see [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License).\r\n\r\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\r\n"
+          },
+          {
+            "path": "LICENSE.md.meta",
+            "expression": null,
+            "sha256": "4b0368541d6077456426ac21c0d31060e2fa6562d4999eec9d44a19a21006df9",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.legacyinputhelpers/-/com.unity.xr.legacyinputhelpers-2.1.2.tgz#package/LICENSE.md.meta",
+            "text": "fileFormatVersion: 2\r\nguid: 215aa718ae432a2458439d4959fc9471\r\nTextScriptImporter:\r\n  externalObjects: {}\r\n  userData: \r\n  assetBundleName: \r\n  assetBundleVariant: \r\n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:37:07.591422Z",
+        "decisionBasis": [
+          "Special-purpose or usage-restricted license",
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "a9d06270abe59f391851f57340fba210976dbb1e2ba94b1a7d7206dbebb4f787",
+        "size": 451254,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://download.packages.unity.com/com.unity.xr.legacyinputhelpers/-/com.unity.xr.legacyinputhelpers-2.1.2.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "eb0a7ea9c5caaa3552be775120d30fe5aa33091b485fa4fe89f53967ee49f4ca",
+        "artifactSha256": "a9d06270abe59f391851f57340fba210976dbb1e2ba94b1a7d7206dbebb4f787",
+        "artifactSize": 451254,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "UnityEditor.XR.LegacyInputHelpers",
+          "UnityEditor.XR.LegacyInputHelpers.Tests",
+          "UnityEngine.Experimental.XR.Interaction",
+          "UnityEngine.SpatialTracking",
+          "UnityEngine.XR.LegacyInputHelpers"
+        ],
+        "types": [
+          "UnityEditor.XR.LegacyInputHelpers.ArmModelEditor",
+          "UnityEditor.XR.LegacyInputHelpers.ArmModelEditor+ArmModelStyles",
+          "UnityEditor.XR.LegacyInputHelpers.CameraOffset",
+          "UnityEditor.XR.LegacyInputHelpers.CameraOffsetHelperEditor",
+          "UnityEditor.XR.LegacyInputHelpers.MenuUtils",
+          "UnityEditor.XR.LegacyInputHelpers.SeedXRInputBindings",
+          "UnityEditor.XR.LegacyInputHelpers.SeedXRInputBindings+BindingData",
+          "UnityEditor.XR.LegacyInputHelpers.SeedXRInputBindings+InputAxis",
+          "UnityEditor.XR.LegacyInputHelpers.SwingArmModelEditor",
+          "UnityEditor.XR.LegacyInputHelpers.SwingArmModelEditor+SwingArmModelStyles",
+          "UnityEditor.XR.LegacyInputHelpers.Tests.TestSeededInput",
+          "UnityEditor.XR.LegacyInputHelpers.TransitionArmModelEditor",
+          "UnityEditor.XR.LegacyInputHelpers.TransitionArmModelEditor+Styles",
+          "UnityEditor.XR.LegacyInputHelpers.UserRequestedTrackingMode",
+          "UnityEngine.Experimental.XR.Interaction.BasePoseProvider",
+          "UnityEngine.SpatialTracking.PoseDataFlags",
+          "UnityEngine.SpatialTracking.PoseDataSource",
+          "UnityEngine.SpatialTracking.TrackedPoseDriver",
+          "UnityEngine.SpatialTracking.TrackedPoseDriver+DeviceType",
+          "UnityEngine.SpatialTracking.TrackedPoseDriver+TrackedPose",
+          "UnityEngine.SpatialTracking.TrackedPoseDriver+TrackingType",
+          "UnityEngine.SpatialTracking.TrackedPoseDriver+UpdateType",
+          "UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription",
+          "UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription+PoseData",
+          "UnityEngine.SpatialTracking.TrackedPoseDriverEditor",
+          "UnityEngine.SpatialTracking.TrackedPoseDriverEditor+Styles",
+          "UnityEngine.SpatialTracking.TrackedPoseDriverTests",
+          "UnityEngine.SpatialTracking.TrackedPoseDriverTests+TestPoseProvider",
+          "UnityEngine.SpatialTracking.TrackedPoseDriverTests+TestTrackedPoseDriverWrapper",
+          "UnityEngine.XR.LegacyInputHelpers.ArmModel",
+          "UnityEngine.XR.LegacyInputHelpers.ArmModelTransition",
+          "UnityEngine.XR.LegacyInputHelpers.SwingArmModel",
+          "UnityEngine.XR.LegacyInputHelpers.TransitionArmModel",
+          "UnityEngine.XR.LegacyInputHelpers.TransitionArmModel+ArmModelBlendData"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "UnityEditor.SpatialTracking",
+            "path": "Editor/TrackedPoseDriver/UnityEditor.SpatialTracking.asmdef",
+            "guid": "b13a1d1dfb13f1b489a0ff5612f36f29",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.xr.management",
+                "expression": "1.0.0",
+                "define": "XR_MANAGEMENT"
+              }
+            ],
+            "references": [
+              "UnityEngine.SpatialTracking"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified"
+            ],
+            "types": [
+              "UnityEngine.SpatialTracking.TrackedPoseDriverEditor",
+              "UnityEngine.SpatialTracking.TrackedPoseDriverEditor+Styles"
+            ]
+          },
+          {
+            "name": "UnityEditor.XR.LegacyInputHelpers",
+            "path": "Editor/LegacyInputHelpersEditor.asmdef",
+            "guid": "52c867deb3832554c84dc4202bd47258",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.xr.interaction.toolkit",
+                "expression": "0.9.0",
+                "define": "XRI_PRESENT"
+              }
+            ],
+            "references": [
+              "UnityEngine.XR.LegacyInputHelpers",
+              "UnityEngine.SpatialTracking"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified"
+            ],
+            "types": [
+              "UnityEditor.XR.LegacyInputHelpers.ArmModelEditor",
+              "UnityEditor.XR.LegacyInputHelpers.ArmModelEditor+ArmModelStyles",
+              "UnityEditor.XR.LegacyInputHelpers.CameraOffsetHelperEditor",
+              "UnityEditor.XR.LegacyInputHelpers.MenuUtils",
+              "UnityEditor.XR.LegacyInputHelpers.SeedXRInputBindings",
+              "UnityEditor.XR.LegacyInputHelpers.SeedXRInputBindings+BindingData",
+              "UnityEditor.XR.LegacyInputHelpers.SeedXRInputBindings+InputAxis",
+              "UnityEditor.XR.LegacyInputHelpers.SwingArmModelEditor",
+              "UnityEditor.XR.LegacyInputHelpers.SwingArmModelEditor+SwingArmModelStyles",
+              "UnityEditor.XR.LegacyInputHelpers.TransitionArmModelEditor",
+              "UnityEditor.XR.LegacyInputHelpers.TransitionArmModelEditor+Styles"
+            ]
+          },
+          {
+            "name": "UnityEditor.XR.LegacyInputHelpers.Tests",
+            "path": "Tests/Editor/LegacyInputHelpersEditorTests.asmdef",
+            "guid": "559bcbd55c770ea4d959cfdb857c39a5",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "UnityEditor.XR.LegacyInputHelpers"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEditor.XR.LegacyInputHelpers.Tests.TestSeededInput"
+            ]
+          },
+          {
+            "name": "UnityEngine.SpatialTracking",
+            "path": "Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.asmdef",
+            "guid": "ba171b3dd2a51234ab864770f99741a5",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [],
+            "types": [
+              "UnityEngine.Experimental.XR.Interaction.BasePoseProvider",
+              "UnityEngine.SpatialTracking.PoseDataFlags",
+              "UnityEngine.SpatialTracking.PoseDataSource",
+              "UnityEngine.SpatialTracking.TrackedPoseDriver",
+              "UnityEngine.SpatialTracking.TrackedPoseDriver+DeviceType",
+              "UnityEngine.SpatialTracking.TrackedPoseDriver+TrackedPose",
+              "UnityEngine.SpatialTracking.TrackedPoseDriver+TrackingType",
+              "UnityEngine.SpatialTracking.TrackedPoseDriver+UpdateType",
+              "UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription",
+              "UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription+PoseData"
+            ]
+          },
+          {
+            "name": "UnityEngine.SpatialTracking.Tests",
+            "path": "Tests/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.Tests.asmdef",
+            "guid": "0ed2122ec3d57864e862de5fb40f7eae",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "UnityEngine.SpatialTracking"
+            ],
+            "profileIssues": [],
+            "types": [
+              "UnityEngine.SpatialTracking.TrackedPoseDriverTests",
+              "UnityEngine.SpatialTracking.TrackedPoseDriverTests+TestPoseProvider",
+              "UnityEngine.SpatialTracking.TrackedPoseDriverTests+TestTrackedPoseDriverWrapper"
+            ]
+          },
+          {
+            "name": "UnityEngine.XR.LegacyInputHelpers",
+            "path": "Runtime/LegacyInputHelpers.asmdef",
+            "guid": "28c5e819ece8a0746abb16dc5aa91f44",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "UnityEngine.SpatialTracking",
+              "Windows.UI.Input.Spatial"
+            ],
+            "profileIssues": [],
+            "types": [
+              "UnityEditor.XR.LegacyInputHelpers.CameraOffset",
+              "UnityEditor.XR.LegacyInputHelpers.UserRequestedTrackingMode",
+              "UnityEngine.XR.LegacyInputHelpers.ArmModel",
+              "UnityEngine.XR.LegacyInputHelpers.ArmModelTransition",
+              "UnityEngine.XR.LegacyInputHelpers.SwingArmModel",
+              "UnityEngine.XR.LegacyInputHelpers.TransitionArmModel",
+              "UnityEngine.XR.LegacyInputHelpers.TransitionArmModel+ArmModelBlendData"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/a9d06270abe59f391851f57340fba210976dbb1e2ba94b1a7d7206dbebb4f787-595fb35e69ff.json.gz",
+          "sha256": "cf0fb2adbd06dd7e34f83a501bfe5da0d6259c4bf7bfde6eec02cf9cb96464b6",
+          "size": 7242,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 102,
+        "sourceFileCount": 17,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 13,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://packages.unity.com/com.unity.xr.legacyinputhelpers/2.1.2",
       "deprecated": null,
@@ -42,31 +315,355 @@
         "dist": {
           "shasum": "76bfeba274c0bafb6ec5c71729ac604af130d759"
         }
-      }
+      },
+      "packageId": "com.unity.xr.legacyinputhelpers",
+      "sourceRefEvidence": {
+        "kind": "archive-package-json",
+        "sha256": "bccd149771d133a680f98e8fd6d134368c2775b1c7ceea9d13c4e156c453f681"
+      },
+      "collectedAt": "2026-10-18T05:37:07.614092Z"
     },
     {
       "version": "2.1.10",
       "variantId": "registry-packages.unity.com-2dd09e71f531b43c",
-      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers",
       "sourceRef": "465ee12451634ea2b2986d54f6ae8be37316772a",
       "downloadUrl": "https://download.packages.unity.com/com.unity.xr.legacyinputhelpers/-/com.unity.xr.legacyinputhelpers-2.1.10.tgz",
       "upstreamIntegrity": null,
       "upstreamShasum": "4716850f3b0c9a398c68cd272d279e68245c49a7",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "LicenseRef-Unity-Companion",
+        "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.legacyinputhelpers/-/com.unity.xr.legacyinputhelpers-2.1.10.tgz#package/LICENSE.md",
+        "sha256": "3733e64b0d642e188bdfcbe727b8aa2c38143b65af1908b133c3177940cec7c2",
+        "text": "com.unity.xr.legacyinputhelpers copyright © 2019 Unity Technologies ApS\r\n\r\nLicensed under the Unity Companion License for Unity-dependent projects--see [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License).\r\n\r\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\r\n",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": "LicenseRef-Unity-Companion",
+            "sha256": "3733e64b0d642e188bdfcbe727b8aa2c38143b65af1908b133c3177940cec7c2",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.legacyinputhelpers/-/com.unity.xr.legacyinputhelpers-2.1.10.tgz#package/LICENSE.md",
+            "text": "com.unity.xr.legacyinputhelpers copyright © 2019 Unity Technologies ApS\r\n\r\nLicensed under the Unity Companion License for Unity-dependent projects--see [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License).\r\n\r\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\r\n"
+          },
+          {
+            "path": "LICENSE.md.meta",
+            "expression": null,
+            "sha256": "4b0368541d6077456426ac21c0d31060e2fa6562d4999eec9d44a19a21006df9",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.legacyinputhelpers/-/com.unity.xr.legacyinputhelpers-2.1.10.tgz#package/LICENSE.md.meta",
+            "text": "fileFormatVersion: 2\r\nguid: 215aa718ae432a2458439d4959fc9471\r\nTextScriptImporter:\r\n  externalObjects: {}\r\n  userData: \r\n  assetBundleName: \r\n  assetBundleVariant: \r\n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:37:07.757988Z",
+        "decisionBasis": [
+          "Special-purpose or usage-restricted license",
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0"
       },
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "30cb8cfb33642c540b1a2b052abfef360fed4086236bab2ee9b1295ae4977b07",
+        "size": 458326,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://download.packages.unity.com/com.unity.xr.legacyinputhelpers/-/com.unity.xr.legacyinputhelpers-2.1.10.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "94bb936b073214c9c6c261eba6602e6b6d25938da47f60d05660820d0c66a27a",
+        "artifactSha256": "30cb8cfb33642c540b1a2b052abfef360fed4086236bab2ee9b1295ae4977b07",
+        "artifactSize": 458326,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "UnityEditor.XR.LegacyInputHelpers",
+          "UnityEditor.XR.LegacyInputHelpers.Tests",
+          "UnityEngine.Experimental.XR.Interaction",
+          "UnityEngine.SpatialTracking",
+          "UnityEngine.XR.LegacyInputHelpers"
+        ],
+        "types": [
+          "UnityEditor.XR.LegacyInputHelpers.ArmModelEditor",
+          "UnityEditor.XR.LegacyInputHelpers.ArmModelEditor+ArmModelStyles",
+          "UnityEditor.XR.LegacyInputHelpers.CameraOffset",
+          "UnityEditor.XR.LegacyInputHelpers.CameraOffsetHelperEditor",
+          "UnityEditor.XR.LegacyInputHelpers.MenuUtils",
+          "UnityEditor.XR.LegacyInputHelpers.SeedXRInputBindings",
+          "UnityEditor.XR.LegacyInputHelpers.SeedXRInputBindings+BindingData",
+          "UnityEditor.XR.LegacyInputHelpers.SeedXRInputBindings+InputAxis",
+          "UnityEditor.XR.LegacyInputHelpers.SwingArmModelEditor",
+          "UnityEditor.XR.LegacyInputHelpers.SwingArmModelEditor+SwingArmModelStyles",
+          "UnityEditor.XR.LegacyInputHelpers.Tests.TestSeededInput",
+          "UnityEditor.XR.LegacyInputHelpers.TransitionArmModelEditor",
+          "UnityEditor.XR.LegacyInputHelpers.TransitionArmModelEditor+Styles",
+          "UnityEditor.XR.LegacyInputHelpers.UserRequestedTrackingMode",
+          "UnityEngine.Experimental.XR.Interaction.BasePoseProvider",
+          "UnityEngine.SpatialTracking.PoseDataFlags",
+          "UnityEngine.SpatialTracking.PoseDataSource",
+          "UnityEngine.SpatialTracking.TrackedPoseDriver",
+          "UnityEngine.SpatialTracking.TrackedPoseDriver+DeviceType",
+          "UnityEngine.SpatialTracking.TrackedPoseDriver+TrackedPose",
+          "UnityEngine.SpatialTracking.TrackedPoseDriver+TrackingType",
+          "UnityEngine.SpatialTracking.TrackedPoseDriver+UpdateType",
+          "UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription",
+          "UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription+PoseData",
+          "UnityEngine.SpatialTracking.TrackedPoseDriverEditor",
+          "UnityEngine.SpatialTracking.TrackedPoseDriverEditor+Styles",
+          "UnityEngine.SpatialTracking.TrackedPoseDriverTests",
+          "UnityEngine.SpatialTracking.TrackedPoseDriverTests+TestPoseProvider",
+          "UnityEngine.SpatialTracking.TrackedPoseDriverTests+TestTrackedPoseDriverWrapper",
+          "UnityEngine.XR.LegacyInputHelpers.ArmModel",
+          "UnityEngine.XR.LegacyInputHelpers.ArmModelTransition",
+          "UnityEngine.XR.LegacyInputHelpers.SwingArmModel",
+          "UnityEngine.XR.LegacyInputHelpers.TransitionArmModel",
+          "UnityEngine.XR.LegacyInputHelpers.TransitionArmModel+ArmModelBlendData"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "UnityEditor.SpatialTracking",
+            "path": "Editor/TrackedPoseDriver/UnityEditor.SpatialTracking.asmdef",
+            "guid": "b13a1d1dfb13f1b489a0ff5612f36f29",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.xr.management",
+                "expression": "1.0.0",
+                "define": "XR_MANAGEMENT"
+              }
+            ],
+            "references": [
+              "UnityEngine.SpatialTracking"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified"
+            ],
+            "types": [
+              "UnityEngine.SpatialTracking.TrackedPoseDriverEditor",
+              "UnityEngine.SpatialTracking.TrackedPoseDriverEditor+Styles"
+            ]
+          },
+          {
+            "name": "UnityEditor.XR.LegacyInputHelpers",
+            "path": "Editor/LegacyInputHelpersEditor.asmdef",
+            "guid": "52c867deb3832554c84dc4202bd47258",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.xr.interaction.toolkit",
+                "expression": "0.9.0",
+                "define": "XRI_PRESENT"
+              },
+              {
+                "name": "com.unity.render-pipelines.high-definition",
+                "expression": "1.0.0",
+                "define": "HDRP_PRESENT"
+              },
+              {
+                "name": "com.unity.render-pipelines.universal",
+                "expression": "1.0.0",
+                "define": "URP_PRESENT"
+              },
+              {
+                "name": "com.unity.render-pipelines.universal",
+                "expression": "[10.0.0,10.1.0)",
+                "define": "URP_PRESENT_10_0"
+              },
+              {
+                "name": "com.unity.render-pipelines.universal",
+                "expression": "10.1.0",
+                "define": "URP_PRESENT_10_1_OR_NEWER"
+              },
+              {
+                "name": "com.unity.render-pipelines.high-definition",
+                "expression": "[10.0.0,10.1.0)",
+                "define": "HDRP_PRESENT_10_0"
+              },
+              {
+                "name": "com.unity.render-pipelines.high-definition",
+                "expression": "10.1.0",
+                "define": "HDRP_PRESENT_10_1_OR_NEWER"
+              },
+              {
+                "name": "com.unity.inputsystem",
+                "expression": "1.0.0",
+                "define": "ISX_PRESENT"
+              }
+            ],
+            "references": [
+              "UnityEngine.XR.LegacyInputHelpers",
+              "UnityEngine.SpatialTracking",
+              "Unity.RenderPipelines.HighDefinition.Runtime",
+              "Unity.RenderPipelines.Universal.Runtime",
+              "Unity.InputSystem"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified"
+            ],
+            "types": [
+              "UnityEditor.XR.LegacyInputHelpers.ArmModelEditor",
+              "UnityEditor.XR.LegacyInputHelpers.ArmModelEditor+ArmModelStyles",
+              "UnityEditor.XR.LegacyInputHelpers.CameraOffsetHelperEditor",
+              "UnityEditor.XR.LegacyInputHelpers.MenuUtils",
+              "UnityEditor.XR.LegacyInputHelpers.SeedXRInputBindings",
+              "UnityEditor.XR.LegacyInputHelpers.SeedXRInputBindings+BindingData",
+              "UnityEditor.XR.LegacyInputHelpers.SeedXRInputBindings+InputAxis",
+              "UnityEditor.XR.LegacyInputHelpers.SwingArmModelEditor",
+              "UnityEditor.XR.LegacyInputHelpers.SwingArmModelEditor+SwingArmModelStyles",
+              "UnityEditor.XR.LegacyInputHelpers.TransitionArmModelEditor",
+              "UnityEditor.XR.LegacyInputHelpers.TransitionArmModelEditor+Styles"
+            ]
+          },
+          {
+            "name": "UnityEditor.XR.LegacyInputHelpers.Tests",
+            "path": "Tests/Editor/LegacyInputHelpersEditorTests.asmdef",
+            "guid": "559bcbd55c770ea4d959cfdb857c39a5",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [],
+            "references": [
+              "UnityEditor.XR.LegacyInputHelpers"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEditor.XR.LegacyInputHelpers.Tests.TestSeededInput"
+            ]
+          },
+          {
+            "name": "UnityEngine.SpatialTracking",
+            "path": "Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.asmdef",
+            "guid": "ba171b3dd2a51234ab864770f99741a5",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [],
+            "types": [
+              "UnityEngine.Experimental.XR.Interaction.BasePoseProvider",
+              "UnityEngine.SpatialTracking.PoseDataFlags",
+              "UnityEngine.SpatialTracking.PoseDataSource",
+              "UnityEngine.SpatialTracking.TrackedPoseDriver",
+              "UnityEngine.SpatialTracking.TrackedPoseDriver+DeviceType",
+              "UnityEngine.SpatialTracking.TrackedPoseDriver+TrackedPose",
+              "UnityEngine.SpatialTracking.TrackedPoseDriver+TrackingType",
+              "UnityEngine.SpatialTracking.TrackedPoseDriver+UpdateType",
+              "UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription",
+              "UnityEngine.SpatialTracking.TrackedPoseDriverDataDescription+PoseData"
+            ]
+          },
+          {
+            "name": "UnityEngine.SpatialTracking.Tests",
+            "path": "Tests/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.Tests.asmdef",
+            "guid": "0ed2122ec3d57864e862de5fb40f7eae",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [],
+            "references": [
+              "UnityEngine.SpatialTracking"
+            ],
+            "profileIssues": [
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEngine.SpatialTracking.TrackedPoseDriverTests",
+              "UnityEngine.SpatialTracking.TrackedPoseDriverTests+TestPoseProvider",
+              "UnityEngine.SpatialTracking.TrackedPoseDriverTests+TestTrackedPoseDriverWrapper"
+            ]
+          },
+          {
+            "name": "UnityEngine.XR.LegacyInputHelpers",
+            "path": "Runtime/LegacyInputHelpers.asmdef",
+            "guid": "28c5e819ece8a0746abb16dc5aa91f44",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "UnityEngine.SpatialTracking",
+              "Windows.UI.Input.Spatial"
+            ],
+            "profileIssues": [],
+            "types": [
+              "UnityEditor.XR.LegacyInputHelpers.CameraOffset",
+              "UnityEditor.XR.LegacyInputHelpers.UserRequestedTrackingMode",
+              "UnityEngine.XR.LegacyInputHelpers.ArmModel",
+              "UnityEngine.XR.LegacyInputHelpers.ArmModelTransition",
+              "UnityEngine.XR.LegacyInputHelpers.SwingArmModel",
+              "UnityEngine.XR.LegacyInputHelpers.TransitionArmModel",
+              "UnityEngine.XR.LegacyInputHelpers.TransitionArmModel+ArmModelBlendData"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/30cb8cfb33642c540b1a2b052abfef360fed4086236bab2ee9b1295ae4977b07-595fb35e69ff.json.gz",
+          "sha256": "007fb8c0835d209191c1d2dd948ce30602daec560c9c378be7e9b7cb1ca6029b",
+          "size": 7533,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 104,
+        "sourceFileCount": 17,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 10,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://packages.unity.com/com.unity.xr.legacyinputhelpers/2.1.10",
       "deprecated": null,
@@ -76,7 +673,13 @@
         "dist": {
           "shasum": "4716850f3b0c9a398c68cd272d279e68245c49a7"
         }
-      }
+      },
+      "packageId": "com.unity.xr.legacyinputhelpers",
+      "sourceRefEvidence": {
+        "kind": "archive-package-json",
+        "sha256": "68d482b0e4b36487bed1ecd538b50e0fa5e0a0a79c642aaf56f73e972fedd245"
+      },
+      "collectedAt": "2026-10-18T05:37:07.781408Z"
     }
   ],
   "metadataStatus": "complete",

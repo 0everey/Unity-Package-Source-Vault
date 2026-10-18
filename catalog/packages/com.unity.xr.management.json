@@ -16,18 +16,41 @@
     {
       "version": "4.4.0",
       "variantId": "registry-packages.unity.com-6676b046bad6ca0f",
-      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/xr.sdk.management",
       "sourceRef": "6fefbe0e3deca93f6eb53e66ca554b58f2acf0d8",
       "downloadUrl": "https://download.packages.unity.com/com.unity.xr.management/-/com.unity.xr.management-4.4.0.tgz",
       "upstreamIntegrity": null,
       "upstreamShasum": "23603bb7faacb609310a19e54cfda9101dc5dd20",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "LicenseRef-Unity-Companion",
+        "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.management/-/com.unity.xr.management-4.4.0.tgz#package/LICENSE.md",
+        "sha256": "ca732e9631e04a74944880296b67f9cb5b63cbcf03d3481afb520ac0dc1286e8",
+        "text": "com.unity.xr.management copyright © 2020 Unity Technologies ApS\n\nLicensed under the Unity Companion License for Unity-dependent projects--see [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License).\n\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\n",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": "LicenseRef-Unity-Companion",
+            "sha256": "ca732e9631e04a74944880296b67f9cb5b63cbcf03d3481afb520ac0dc1286e8",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.management/-/com.unity.xr.management-4.4.0.tgz#package/LICENSE.md",
+            "text": "com.unity.xr.management copyright © 2020 Unity Technologies ApS\n\nLicensed under the Unity Companion License for Unity-dependent projects--see [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License).\n\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\n"
+          },
+          {
+            "path": "LICENSE.md.meta",
+            "expression": null,
+            "sha256": "5e9fadb0af59c8c958b1a155ac2a6796ca6f166fa6c4499293ac880c072f8a0d",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.management/-/com.unity.xr.management-4.4.0.tgz#package/LICENSE.md.meta",
+            "text": "fileFormatVersion: 2\nguid: abd74e060b6444ffe880023f0bc02e10\nTextScriptImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:37:07.933068Z",
+        "decisionBasis": [
+          "Special-purpose or usage-restricted license",
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {
         "com.unity.modules.vr": "1.0.0",
@@ -35,9 +58,591 @@
         "com.unity.modules.subsystems": "1.0.0",
         "com.unity.xr.legacyinputhelpers": "2.1.7"
       },
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "6a64e68385094ec9d71c4b9a237ba0138b64ab567e5e446cdf722ba2956ee350",
+        "size": 193349,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://download.packages.unity.com/com.unity.xr.management/-/com.unity.xr.management-4.4.0.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "e9a3ff0910f272abdbd05f99d926e123548c7c4eaa31ea2a94fc689144ec6db0",
+        "artifactSha256": "6a64e68385094ec9d71c4b9a237ba0138b64ab567e5e446cdf722ba2956ee350",
+        "artifactSize": 193349,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "Samples",
+          "Unity.XR.Management.AndroidManifest.Editor",
+          "Unity.XR.Management.TestPackage",
+          "Unity.XR.Management.TestPackage.Editor",
+          "Unity.XR.TestTooling",
+          "UnityEditor.XR.Management",
+          "UnityEditor.XR.Management.Legacy",
+          "UnityEditor.XR.Management.Metadata",
+          "UnityEditor.XR.Management.Tests",
+          "UnityEditor.XR.Management.Tests.BuildTests",
+          "UnityEngine.XR.Management",
+          "UnityEngine.XR.Management.Tests",
+          "UnityEngine.XR.Management.Tests.Standalone",
+          "UnityEngine.XR.Management.Tests.Standalone.Providing"
+        ],
+        "types": [
+          "AndroidManifestTests",
+          "AndroidManifestTests+MockManifestRequirementProvider",
+          "AndroidManifestTests+MockXrLoader",
+          "Samples.SampleBuildProcessor",
+          "Samples.SampleConstants",
+          "Samples.SampleLoader",
+          "Samples.SamplePackage",
+          "Samples.SamplePackage+SampleLoaderMetadata",
+          "Samples.SamplePackage+SamplePackageMetadata",
+          "Samples.SampleSettings",
+          "Samples.SampleSettings+Requirement",
+          "Samples.SampleSettingsEditor",
+          "Samples.SampleStandaloneLoaderUI",
+          "Samples.SampleStandaloneLoaderUI+Content",
+          "Unity.XR.Management.AndroidManifest.Editor.AndroidManifestBuildEventReceiver",
+          "Unity.XR.Management.AndroidManifest.Editor.AndroidManifestDocument",
+          "Unity.XR.Management.AndroidManifest.Editor.AndroidManifestProcessor",
+          "Unity.XR.Management.AndroidManifest.Editor.IAndroidManifestRequirementProvider",
+          "Unity.XR.Management.AndroidManifest.Editor.ManifestElement",
+          "Unity.XR.Management.AndroidManifest.Editor.ManifestRequirement",
+          "Unity.XR.Management.TestPackage.Constants",
+          "Unity.XR.Management.TestPackage.Editor.TestLoaderMetadata",
+          "Unity.XR.Management.TestPackage.Editor.TestMetadata",
+          "Unity.XR.Management.TestPackage.Editor.TestPackage",
+          "Unity.XR.Management.TestPackage.Editor.TestPackageMetadata",
+          "Unity.XR.Management.TestPackage.Editor.TestSettingsEditor",
+          "Unity.XR.Management.TestPackage.TestLoaderBase",
+          "Unity.XR.Management.TestPackage.TestLoaderOne",
+          "Unity.XR.Management.TestPackage.TestLoaderThree",
+          "Unity.XR.Management.TestPackage.TestLoaderTwo",
+          "Unity.XR.Management.TestPackage.TestSettings",
+          "Unity.XR.TestTooling.LoaderTestSetup",
+          "Unity.XR.TestTooling.ManagementTestSetup",
+          "UnityEditor.XR.Management.BootConfig",
+          "UnityEditor.XR.Management.BuildHelpers",
+          "UnityEditor.XR.Management.EditorUtilities",
+          "UnityEditor.XR.Management.EditorWorkQueue",
+          "UnityEditor.XR.Management.EditorWorkQueue+Queue",
+          "UnityEditor.XR.Management.EditorWorkQueueBase",
+          "UnityEditor.XR.Management.IXRCustomLoaderUI",
+          "UnityEditor.XR.Management.IXRLoaderOrderManager",
+          "UnityEditor.XR.Management.Legacy.XRLegacyStandaloneSubsystem",
+          "UnityEditor.XR.Management.Legacy.XRLegacyUninstaller",
+          "UnityEditor.XR.Management.Legacy.XRLegacyUninstaller+LegacyPackageListRequest",
+          "UnityEditor.XR.Management.Legacy.XRLegacyUninstaller+PackageRemovalOperation",
+          "UnityEditor.XR.Management.Legacy.XRLegacyUninstaller+PackageRemovalRequest",
+          "UnityEditor.XR.Management.Metadata.IXRLoaderMetadata",
+          "UnityEditor.XR.Management.Metadata.IXRPackage",
+          "UnityEditor.XR.Management.Metadata.IXRPackageMetadata",
+          "UnityEditor.XR.Management.Metadata.KnownPackages",
+          "UnityEditor.XR.Management.Metadata.KnownPackages+KnownLoaderMetadata",
+          "UnityEditor.XR.Management.Metadata.KnownPackages+KnownPackage",
+          "UnityEditor.XR.Management.Metadata.KnownPackages+KnownPackageMetadata",
+          "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore",
+          "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore+CachedMDStoreInformation",
+          "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore+InstallationState",
+          "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore+KnownPackageInfo",
+          "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore+LoaderAssignmentRequest",
+          "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore+LoaderAssignmentRequests",
+          "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore+LoaderBuildTargetQueryResult",
+          "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore+LogLevel",
+          "UnityEditor.XR.Management.PackageNotificationInfo",
+          "UnityEditor.XR.Management.PackageNotificationUtils",
+          "UnityEditor.XR.Management.Tests.BuildTests.BuildTestHelpers",
+          "UnityEditor.XR.Management.Tests.BuildTests.GraphicsAPICompatibilityTests",
+          "UnityEditor.XR.Management.Tests.BuildTests.XRGeneralSettingsBuildTests",
+          "UnityEditor.XR.Management.Tests.BuildTests.XRGeneralSettingsPerBuildTargetExclusionTests",
+          "UnityEditor.XR.Management.Tests.BuildTests.XRGeneralSettingsPerBuildTargetInclusionTests",
+          "UnityEditor.XR.Management.Tests.BuildTests.XRLoaderSelection",
+          "UnityEditor.XR.Management.Tests.DomainReloadTests",
+          "UnityEditor.XR.Management.Tests.EditorActiveLoadersManipulationTests",
+          "UnityEditor.XR.Management.Tests.EditorTests",
+          "UnityEditor.XR.Management.Tests.MetadataTests",
+          "UnityEditor.XR.Management.Tests.PackageInitSettingsTests",
+          "UnityEditor.XR.Management.Tests.PackageManagementTests",
+          "UnityEditor.XR.Management.Tests.XRGeneralSettingsTests",
+          "UnityEditor.XR.Management.TypeLoaderExtensions",
+          "UnityEditor.XR.Management.XRBuildHelper",
+          "UnityEditor.XR.Management.XRConfigurationProvider",
+          "UnityEditor.XR.Management.XRConstants",
+          "UnityEditor.XR.Management.XRCustomLoaderUIAttribute",
+          "UnityEditor.XR.Management.XRCustomLoaderUIManager",
+          "UnityEditor.XR.Management.XRGeneralBuildProcessor",
+          "UnityEditor.XR.Management.XRGeneralBuildProcessor+PreInitInfo",
+          "UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget",
+          "UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget+AssetCallbacks",
+          "UnityEditor.XR.Management.XRGeneralSettingsUpgrade",
+          "UnityEditor.XR.Management.XRLoaderInfo",
+          "UnityEditor.XR.Management.XRLoaderInfoManager",
+          "UnityEditor.XR.Management.XRLoaderInfoManager+AssetCallbacks",
+          "UnityEditor.XR.Management.XRLoaderOrderUI",
+          "UnityEditor.XR.Management.XRLoaderOrderUI+Content",
+          "UnityEditor.XR.Management.XRLoaderOrderUI+DeprecationInfo",
+          "UnityEditor.XR.Management.XRLoaderOrderUI+LoaderInformation",
+          "UnityEditor.XR.Management.XRManagerSettingsEditor",
+          "UnityEditor.XR.Management.XRPackageInitializationBase",
+          "UnityEditor.XR.Management.XRPackageInitializationBootstrap",
+          "UnityEditor.XR.Management.XRPackageInitializationSettings",
+          "UnityEditor.XR.Management.XRSettingsManager",
+          "UnityEditor.XR.Management.XRSettingsManager+Content",
+          "UnityEditor.XR.Management.XRSettingsManager+Styles",
+          "UnityEditor.XR.Management.XRSupportedBuildTargetAttribute",
+          "UnityEngine.XR.Management.IXRLoaderPreInit",
+          "UnityEngine.XR.Management.Tests.DummyLoader",
+          "UnityEngine.XR.Management.Tests.GraphicsAPICompatibilityTests",
+          "UnityEngine.XR.Management.Tests.ManualLifetimeTests",
+          "UnityEngine.XR.Management.Tests.RuntimeActiveLoadersManipulationTests",
+          "UnityEngine.XR.Management.Tests.RuntimeLoaderTests",
+          "UnityEngine.XR.Management.Tests.RuntimeTestSettings",
+          "UnityEngine.XR.Management.Tests.Standalone.Providing.StandaloneSubsystemParams",
+          "UnityEngine.XR.Management.Tests.Standalone.StandaloneLoader",
+          "UnityEngine.XR.Management.Tests.Standalone.StandaloneSubsystem",
+          "UnityEngine.XR.Management.Tests.Standalone.StandaloneSubsystem+Provider",
+          "UnityEngine.XR.Management.Tests.Standalone.StandaloneSubsystemDescriptor",
+          "UnityEngine.XR.Management.Tests.Standalone.StandaloneSubsystemImpl",
+          "UnityEngine.XR.Management.Tests.Standalone.StandaloneSubsystemImpl+ProviderImpl",
+          "UnityEngine.XR.Management.Tests.Standalone.StandaloneSubsystemParams",
+          "UnityEngine.XR.Management.Tests.XRSettingsManagerTestBase",
+          "UnityEngine.XR.Management.XRConfigurationDataAttribute",
+          "UnityEngine.XR.Management.XRGeneralSettings",
+          "UnityEngine.XR.Management.XRLoader",
+          "UnityEngine.XR.Management.XRLoader+ISubsystem",
+          "UnityEngine.XR.Management.XRLoaderHelper",
+          "UnityEngine.XR.Management.XRLoaderHelper+ISubsystem",
+          "UnityEngine.XR.Management.XRManagementAnalytics",
+          "UnityEngine.XR.Management.XRManagementAnalytics+BuildEvent",
+          "UnityEngine.XR.Management.XRManagerSettings"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "Unity.XR.Management",
+            "path": "Runtime/Unity.XR.Management.asmdef",
+            "guid": "e40ba710768534012815d3193fa296cb",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.modules.unityanalytics",
+                "expression": "1.0.0",
+                "define": "UNITY_ANALYTICS"
+              }
+            ],
+            "references": [],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "UnityEngine.XR.Management.IXRLoaderPreInit",
+              "UnityEngine.XR.Management.XRConfigurationDataAttribute",
+              "UnityEngine.XR.Management.XRGeneralSettings",
+              "UnityEngine.XR.Management.XRLoader",
+              "UnityEngine.XR.Management.XRLoader+ISubsystem",
+              "UnityEngine.XR.Management.XRLoaderHelper",
+              "UnityEngine.XR.Management.XRLoaderHelper+ISubsystem",
+              "UnityEngine.XR.Management.XRManagementAnalytics",
+              "UnityEngine.XR.Management.XRManagementAnalytics+BuildEvent",
+              "UnityEngine.XR.Management.XRManagerSettings"
+            ]
+          },
+          {
+            "name": "Unity.XR.Management.Editor",
+            "path": "Editor/Unity.XR.Management.Editor.asmdef",
+            "guid": "f9fe0089ec81f4079af78eb2287a6163",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "Unity.XR.Management"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "Unity.XR.Management.AndroidManifest.Editor.AndroidManifestBuildEventReceiver",
+              "Unity.XR.Management.AndroidManifest.Editor.AndroidManifestDocument",
+              "Unity.XR.Management.AndroidManifest.Editor.AndroidManifestProcessor",
+              "Unity.XR.Management.AndroidManifest.Editor.IAndroidManifestRequirementProvider",
+              "Unity.XR.Management.AndroidManifest.Editor.ManifestElement",
+              "Unity.XR.Management.AndroidManifest.Editor.ManifestRequirement",
+              "UnityEditor.XR.Management.BootConfig",
+              "UnityEditor.XR.Management.BuildHelpers",
+              "UnityEditor.XR.Management.EditorUtilities",
+              "UnityEditor.XR.Management.EditorWorkQueue",
+              "UnityEditor.XR.Management.EditorWorkQueue+Queue",
+              "UnityEditor.XR.Management.EditorWorkQueueBase",
+              "UnityEditor.XR.Management.IXRCustomLoaderUI",
+              "UnityEditor.XR.Management.IXRLoaderOrderManager",
+              "UnityEditor.XR.Management.Legacy.XRLegacyStandaloneSubsystem",
+              "UnityEditor.XR.Management.Legacy.XRLegacyUninstaller",
+              "UnityEditor.XR.Management.Legacy.XRLegacyUninstaller+LegacyPackageListRequest",
+              "UnityEditor.XR.Management.Legacy.XRLegacyUninstaller+PackageRemovalOperation",
+              "UnityEditor.XR.Management.Legacy.XRLegacyUninstaller+PackageRemovalRequest",
+              "UnityEditor.XR.Management.Metadata.IXRLoaderMetadata",
+              "UnityEditor.XR.Management.Metadata.IXRPackage",
+              "UnityEditor.XR.Management.Metadata.IXRPackageMetadata",
+              "UnityEditor.XR.Management.Metadata.KnownPackages",
+              "UnityEditor.XR.Management.Metadata.KnownPackages+KnownLoaderMetadata",
+              "UnityEditor.XR.Management.Metadata.KnownPackages+KnownPackage",
+              "UnityEditor.XR.Management.Metadata.KnownPackages+KnownPackageMetadata",
+              "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore",
+              "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore+CachedMDStoreInformation",
+              "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore+InstallationState",
+              "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore+KnownPackageInfo",
+              "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore+LoaderAssignmentRequest",
+              "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore+LoaderAssignmentRequests",
+              "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore+LoaderBuildTargetQueryResult",
+              "UnityEditor.XR.Management.Metadata.XRPackageMetadataStore+LogLevel",
+              "UnityEditor.XR.Management.PackageNotificationInfo",
+              "UnityEditor.XR.Management.PackageNotificationUtils",
+              "UnityEditor.XR.Management.TypeLoaderExtensions",
+              "UnityEditor.XR.Management.XRBuildHelper",
+              "UnityEditor.XR.Management.XRConfigurationProvider",
+              "UnityEditor.XR.Management.XRConstants",
+              "UnityEditor.XR.Management.XRCustomLoaderUIAttribute",
+              "UnityEditor.XR.Management.XRCustomLoaderUIManager",
+              "UnityEditor.XR.Management.XRGeneralBuildProcessor",
+              "UnityEditor.XR.Management.XRGeneralBuildProcessor+PreInitInfo",
+              "UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget",
+              "UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget+AssetCallbacks",
+              "UnityEditor.XR.Management.XRGeneralSettingsUpgrade",
+              "UnityEditor.XR.Management.XRLoaderInfo",
+              "UnityEditor.XR.Management.XRLoaderInfoManager",
+              "UnityEditor.XR.Management.XRLoaderInfoManager+AssetCallbacks",
+              "UnityEditor.XR.Management.XRLoaderOrderUI",
+              "UnityEditor.XR.Management.XRLoaderOrderUI+Content",
+              "UnityEditor.XR.Management.XRLoaderOrderUI+DeprecationInfo",
+              "UnityEditor.XR.Management.XRLoaderOrderUI+LoaderInformation",
+              "UnityEditor.XR.Management.XRManagerSettingsEditor",
+              "UnityEditor.XR.Management.XRPackageInitializationBase",
+              "UnityEditor.XR.Management.XRPackageInitializationBootstrap",
+              "UnityEditor.XR.Management.XRPackageInitializationSettings",
+              "UnityEditor.XR.Management.XRSettingsManager",
+              "UnityEditor.XR.Management.XRSettingsManager+Content",
+              "UnityEditor.XR.Management.XRSettingsManager+Styles",
+              "UnityEditor.XR.Management.XRSupportedBuildTargetAttribute"
+            ]
+          },
+          {
+            "name": "Unity.XR.Management.EditorTests",
+            "path": "Tests/Editor/Unity.XR.Management.EditorTests.asmdef",
+            "guid": "f46fc3751c3e84133af5527f7c1abae5",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [
+              {
+                "name": "com.unity.subsystemregistration",
+                "define": "USE_LEGACY_SUBSYS_REGISTRATION"
+              }
+            ],
+            "references": [
+              "Unity.XR.Management.Editor",
+              "Unity.XR.Management",
+              "Unity.XR.Management.Tests.Standalone",
+              "Unity.XR.Management.Tests",
+              "Unity.XR.Management.TestPackage",
+              "Unity.XR.Management.TestPackage.Editor",
+              "Unity.XR.TestSupport"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "AndroidManifestTests",
+              "AndroidManifestTests+MockManifestRequirementProvider",
+              "AndroidManifestTests+MockXrLoader",
+              "UnityEditor.XR.Management.Tests.BuildTests.BuildTestHelpers",
+              "UnityEditor.XR.Management.Tests.BuildTests.GraphicsAPICompatibilityTests",
+              "UnityEditor.XR.Management.Tests.BuildTests.XRGeneralSettingsBuildTests",
+              "UnityEditor.XR.Management.Tests.BuildTests.XRGeneralSettingsPerBuildTargetExclusionTests",
+              "UnityEditor.XR.Management.Tests.BuildTests.XRGeneralSettingsPerBuildTargetInclusionTests",
+              "UnityEditor.XR.Management.Tests.BuildTests.XRLoaderSelection",
+              "UnityEditor.XR.Management.Tests.DomainReloadTests",
+              "UnityEditor.XR.Management.Tests.EditorActiveLoadersManipulationTests",
+              "UnityEditor.XR.Management.Tests.EditorTests",
+              "UnityEditor.XR.Management.Tests.MetadataTests",
+              "UnityEditor.XR.Management.Tests.PackageInitSettingsTests",
+              "UnityEditor.XR.Management.Tests.PackageManagementTests",
+              "UnityEditor.XR.Management.Tests.XRGeneralSettingsTests"
+            ]
+          },
+          {
+            "name": "Unity.XR.Management.Samples",
+            "path": "Samples~/Unity.XR.Management.Samples.asmdef",
+            "guid": "4b8d623d49974443c835ab669d1771ed",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "Unity.XR.Management.Editor",
+              "Unity.XR.Management"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "Samples.SampleConstants",
+              "Samples.SampleLoader",
+              "Samples.SampleSettings",
+              "Samples.SampleSettings+Requirement"
+            ]
+          },
+          {
+            "name": "Unity.XR.Management.Samples.Editor",
+            "path": "Samples~/Editor/Unity.XR.Management.Samples.Editor.asmdef",
+            "guid": "20d89efd2cc1043e5ac2c8f870d4e8fa",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "Unity.XR.Management.Editor",
+              "Unity.XR.Management.Samples",
+              "Unity.XR.Management"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "Samples.SampleBuildProcessor",
+              "Samples.SamplePackage",
+              "Samples.SamplePackage+SampleLoaderMetadata",
+              "Samples.SamplePackage+SamplePackageMetadata",
+              "Samples.SampleSettingsEditor",
+              "Samples.SampleStandaloneLoaderUI",
+              "Samples.SampleStandaloneLoaderUI+Content"
+            ]
+          },
+          {
+            "name": "Unity.XR.Management.TestPackage",
+            "path": "Tests/TestPackage/Runtime/Uniyt.XR.Management.TestPackage.asmdef",
+            "guid": "9b8b61ec9cb92d1439beb03814dc2cb0",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor",
+              "WindowsStandalone64"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [],
+            "references": [
+              "Unity.Subsystem.Registration",
+              "Unity.XR.Management",
+              "Unity.XR.Management.Editor",
+              "Unity.XR.Management.Tests.Standalone"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "Unity.XR.Management.TestPackage.Constants",
+              "Unity.XR.Management.TestPackage.TestLoaderBase",
+              "Unity.XR.Management.TestPackage.TestLoaderOne",
+              "Unity.XR.Management.TestPackage.TestLoaderThree",
+              "Unity.XR.Management.TestPackage.TestLoaderTwo",
+              "Unity.XR.Management.TestPackage.TestSettings"
+            ]
+          },
+          {
+            "name": "Unity.XR.Management.TestPackage.Editor",
+            "path": "Tests/TestPackage/Editor/Uniyt.XR.Management.TestPackage.Editor.asmdef",
+            "guid": "c536cb714a8a9e84cb16ecf0330eea40",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [],
+            "references": [
+              "Unity.XR.Management.Editor",
+              "Unity.XR.Management",
+              "Unity.XR.Management.TestPackage"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "Unity.XR.Management.TestPackage.Editor.TestLoaderMetadata",
+              "Unity.XR.Management.TestPackage.Editor.TestMetadata",
+              "Unity.XR.Management.TestPackage.Editor.TestPackage",
+              "Unity.XR.Management.TestPackage.Editor.TestPackageMetadata",
+              "Unity.XR.Management.TestPackage.Editor.TestSettingsEditor"
+            ]
+          },
+          {
+            "name": "Unity.XR.Management.Tests",
+            "path": "Tests/Runtime/Unity.XR.Management.Tests.asmdef",
+            "guid": "0a731f4d44d04439bb291bdbaa8cb9fc",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [
+              {
+                "name": "com.unity.subsystemregistration",
+                "define": "USE_LEGACY_SUBSYS_REGISTRATION"
+              }
+            ],
+            "references": [
+              "Unity.XR.Management",
+              "Unity.XR.Management.Tests.Standalone",
+              "Unity.XR.TestSupport"
+            ],
+            "profileIssues": [
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEngine.XR.Management.Tests.DummyLoader",
+              "UnityEngine.XR.Management.Tests.GraphicsAPICompatibilityTests",
+              "UnityEngine.XR.Management.Tests.ManualLifetimeTests",
+              "UnityEngine.XR.Management.Tests.RuntimeActiveLoadersManipulationTests",
+              "UnityEngine.XR.Management.Tests.RuntimeLoaderTests",
+              "UnityEngine.XR.Management.Tests.RuntimeTestSettings",
+              "UnityEngine.XR.Management.Tests.XRSettingsManagerTestBase"
+            ]
+          },
+          {
+            "name": "Unity.XR.Management.Tests.Standalone",
+            "path": "Tests/StandaloneSubsystem/Unity.XR.Management.Tests.Standalone.asmdef",
+            "guid": "575f7633d101095488b014272f40d6f7",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [
+              {
+                "name": "com.unity.subsystemregistration",
+                "define": "USE_LEGACY_SUBSYS_REGISTRATION"
+              }
+            ],
+            "references": [
+              "Unity.Subsystem.Registration",
+              "Unity.XR.Management"
+            ],
+            "profileIssues": [
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEngine.XR.Management.Tests.Standalone.Providing.StandaloneSubsystemParams",
+              "UnityEngine.XR.Management.Tests.Standalone.StandaloneLoader",
+              "UnityEngine.XR.Management.Tests.Standalone.StandaloneSubsystem",
+              "UnityEngine.XR.Management.Tests.Standalone.StandaloneSubsystem+Provider",
+              "UnityEngine.XR.Management.Tests.Standalone.StandaloneSubsystemDescriptor",
+              "UnityEngine.XR.Management.Tests.Standalone.StandaloneSubsystemImpl",
+              "UnityEngine.XR.Management.Tests.Standalone.StandaloneSubsystemImpl+ProviderImpl",
+              "UnityEngine.XR.Management.Tests.Standalone.StandaloneSubsystemParams"
+            ]
+          },
+          {
+            "name": "Unity.XR.TestSupport",
+            "path": "Tests/TestTooling/Unity.XR.TestSupport.asmdef",
+            "guid": "174dd372073128d46a2d10d2daaf414f",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [],
+            "references": [
+              "GUID:f9fe0089ec81f4079af78eb2287a6163",
+              "GUID:e40ba710768534012815d3193fa296cb"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "Unity.XR.TestTooling.LoaderTestSetup",
+              "Unity.XR.TestTooling.ManagementTestSetup"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/6a64e68385094ec9d71c4b9a237ba0138b64ab567e5e446cdf722ba2956ee350-595fb35e69ff.json.gz",
+          "sha256": "1b64c036d8c8a652c0de3615cdb1b4fd570fc1c5afc353c3dbfcdeb0611ed898",
+          "size": 15033,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 204,
+        "sourceFileCount": 73,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 30,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://packages.unity.com/com.unity.xr.management/4.4.0",
       "deprecated": null,
@@ -47,7 +652,13 @@
         "dist": {
           "shasum": "23603bb7faacb609310a19e54cfda9101dc5dd20"
         }
-      }
+      },
+      "packageId": "com.unity.xr.management",
+      "sourceRefEvidence": {
+        "kind": "archive-package-json",
+        "sha256": "533e7461a4fad7f2de44cf27bc12c4d832c2521378e50c3cf7770f4bb2f9e9fa"
+      },
+      "collectedAt": "2026-10-18T05:37:07.980264Z"
     },
     {
       "version": "4.7.0",

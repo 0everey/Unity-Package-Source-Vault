@@ -636,25 +636,170 @@
     {
       "version": "5.0.2",
       "variantId": "registry-packages.unity.com-1a8b27bbe24bfff8",
-      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/arfoundation.git",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/arfoundation",
       "sourceRef": "14592dfeeb9ecce202f640c8b661b72b3a763f72",
       "downloadUrl": "https://download.packages.unity.com/com.unity.xr.arsubsystems/-/com.unity.xr.arsubsystems-5.0.2.tgz",
       "upstreamIntegrity": null,
       "upstreamShasum": "8b5984a899f4981ef560a9f8c9765147ed8ee212",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "LicenseRef-Unity-Companion",
+        "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.arsubsystems/-/com.unity.xr.arsubsystems-5.0.2.tgz#package/LICENSE.md",
+        "sha256": "4766ff6534fabd7bf3f455eb54428ad1202f132cc793590906d557879a997f86",
+        "text": "AR Subsystems © 2019 Unity Technologies\n\nLicensed under the Unity Companion License for Unity-dependent projects (see [Unity Companion License](https://unity3d.com/legal/licenses/unity_companion_license)).\n\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\n",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": "LicenseRef-Unity-Companion",
+            "sha256": "4766ff6534fabd7bf3f455eb54428ad1202f132cc793590906d557879a997f86",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.arsubsystems/-/com.unity.xr.arsubsystems-5.0.2.tgz#package/LICENSE.md",
+            "text": "AR Subsystems © 2019 Unity Technologies\n\nLicensed under the Unity Companion License for Unity-dependent projects (see [Unity Companion License](https://unity3d.com/legal/licenses/unity_companion_license)).\n\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\n"
+          },
+          {
+            "path": "LICENSE.md.meta",
+            "expression": null,
+            "sha256": "027e063cf976c38de4862380c9076beab4b5c8a46f8045b19ec66c7d7bf1a453",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.arsubsystems/-/com.unity.xr.arsubsystems-5.0.2.tgz#package/LICENSE.md.meta",
+            "text": "fileFormatVersion: 2\nguid: b9deede419244af490c9c7e2ec88387c\nTextScriptImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:36:58.408849Z",
+        "decisionBasis": [
+          "Special-purpose or usage-restricted license",
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {
         "com.unity.xr.arfoundation": "5.0.2"
       },
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "b29ddfc5543512797b266491f325c188a90b592621d931b5a39b35d60367dec2",
+        "size": 10304,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://download.packages.unity.com/com.unity.xr.arsubsystems/-/com.unity.xr.arsubsystems-5.0.2.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "fd29de3878044f9b44fa5f763be05007fb065ace964a33b01f41e3074be47392",
+        "artifactSha256": "b29ddfc5543512797b266491f325c188a90b592621d931b5a39b35d60367dec2",
+        "artifactSize": 10304,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "UnityEditor.XR.ARSubsystems",
+          "UnityEngine.XR.ARSubsystems.Tests"
+        ],
+        "types": [
+          "UnityEditor.XR.ARSubsystems.DeprecatedWarning",
+          "UnityEngine.XR.ARSubsystems.Tests.EditorExampleTest",
+          "UnityEngine.XR.ARSubsystems.Tests.RuntimeExampleTest"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "Unity.XR.ARSubsystemsDeprecated.Editor",
+            "path": "Editor/Unity.XR.ARSubsystemsDeprecated.Editor.asmdef",
+            "guid": "6123f5c425de94177b6904cab29dda85",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "Unity.XR.ARSubsystems.Editor",
+              "Unity.XR.ARSubsystems"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEditor.XR.ARSubsystems.DeprecatedWarning"
+            ]
+          },
+          {
+            "name": "Unity.XR.ARSubsystemsDeprecated.Editor.Tests",
+            "path": "Tests/Editor/Unity.XR.ARSubsystemsDeprecated.Editor.Tests.asmdef",
+            "guid": "cf1ab18f42337495ba71be6af4945b1e",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [],
+            "references": [
+              "Unity.XR.ARSubsystems",
+              "Unity.XR.ARSubsystems.Editor"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEngine.XR.ARSubsystems.Tests.EditorExampleTest"
+            ]
+          },
+          {
+            "name": "Unity.XR.ARSubsystemsDeprecated.Runtime.Tests",
+            "path": "Tests/Runtime/Unity.XR.ARSubsystemsDeprecated.Runtime.Tests.asmdef",
+            "guid": "b8da61a1c0119439bab798a1031ede31",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [],
+            "references": [
+              "Unity.XR.ARSubsystems"
+            ],
+            "profileIssues": [
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEngine.XR.ARSubsystems.Tests.RuntimeExampleTest"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/b29ddfc5543512797b266491f325c188a90b592621d931b5a39b35d60367dec2-595fb35e69ff.json.gz",
+          "sha256": "929bcae4dc95c9f900c931fb5f53fa099aaf484beb463b7c121ff0eded5e4619",
+          "size": 2466,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 29,
+        "sourceFileCount": 3,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 0,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://packages.unity.com/com.unity.xr.arsubsystems/5.0.2",
       "deprecated": null,
@@ -664,7 +809,13 @@
         "dist": {
           "shasum": "8b5984a899f4981ef560a9f8c9765147ed8ee212"
         }
-      }
+      },
+      "packageId": "com.unity.xr.arsubsystems",
+      "sourceRefEvidence": {
+        "kind": "archive-package-json",
+        "sha256": "c5ec58c833779c8bb06fbce5157c8663ebba4b7b561f7f99701f464ea1087b5f"
+      },
+      "collectedAt": "2026-10-18T05:36:58.412123Z"
     }
   ],
   "metadataStatus": "complete",

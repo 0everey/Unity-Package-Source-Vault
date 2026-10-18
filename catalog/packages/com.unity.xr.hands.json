@@ -16,18 +16,97 @@
     {
       "version": "1.7.2",
       "variantId": "registry-packages.unity.com-affb1afdf986af5b",
-      "sourceUrl": "https://packages.unity.com/com.unity.xr.hands",
-      "sourceRef": null,
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.hands",
+      "sourceRef": "3e401c04779feb43ff8067da8a77474bdbc37d94",
       "downloadUrl": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.7.2.tgz",
       "upstreamIntegrity": null,
       "upstreamShasum": "6361f2b63a8e1db97ee084a3438b607baa923cde",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
         "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.7.2.tgz#package/LICENSE.md",
+        "sha256": "48016e857da1c75274bac6abfef8addbd8d12af70884c19efa4e62b4fb5808be",
+        "text": "XR Hands copyright © 2024 Unity Technologies\n\nLicensed under the Unity Package Distribution License (see https://unity3d.com/legal/licenses/Unity_Package_Distribution_License ).\n\nUnless expressly provided otherwise, the software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\n",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": null,
+            "sha256": "48016e857da1c75274bac6abfef8addbd8d12af70884c19efa4e62b4fb5808be",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.7.2.tgz#package/LICENSE.md",
+            "text": "XR Hands copyright © 2024 Unity Technologies\n\nLicensed under the Unity Package Distribution License (see https://unity3d.com/legal/licenses/Unity_Package_Distribution_License ).\n\nUnless expressly provided otherwise, the software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\n"
+          },
+          {
+            "path": "LICENSE.md.meta",
+            "expression": null,
+            "sha256": "5d7133deae513342817e7defeb398fcf81fe047b517343a8d6b4c9706109ec86",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.7.2.tgz#package/LICENSE.md.meta",
+            "text": "fileFormatVersion: 2\nguid: 50475dd42acaba449a6160af5830c8cb\nTextScriptImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n"
+          },
+          {
+            "path": "Runtime/universalwindows/arm32/UnityOpenXRHands.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "Runtime/universalwindows/arm64/UnityOpenXRHands.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "Runtime/universalwindows/x64/UnityOpenXRHands.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "Runtime/windows/x64/UnityOpenXRHands.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "Runtime/osx/UnityOpenXRHands.dylib",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "Runtime/android/arm64/libUnityOpenXRHands.so",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "Runtime/android/x64/libUnityOpenXRHands.so",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:36:59.540263Z",
+        "decisionBasis": [
+          "Native/SDK components require their own redistribution evidence",
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {
         "com.unity.modules.xr": "1.0.0",
@@ -36,9 +115,810 @@
         "com.unity.xr.core-utils": "2.2.0",
         "com.unity.xr.management": "4.0.1"
       },
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "f81e09cc1967b323e401ba6b05aa683b2addc0bd3c7000f528485b56c29b51ca",
+        "size": 23161686,
+        "format": "tar.gz",
+        "kind": "mixed-source-binary",
+        "url": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.7.2.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types",
+          "managedMetadata": {
+            "name": "uvault.managed-index",
+            "version": "1",
+            "reader": "System.Reflection.Metadata/PEReader",
+            "available": true,
+            "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+          }
+        },
+        "sourceSetSha256": "b66fcbfb6cc726289db6707c2da4f09f141eeb44aa79220b9cb8923a9e54077a",
+        "artifactSha256": "f81e09cc1967b323e401ba6b05aa683b2addc0bd3c7000f528485b56c29b51ca",
+        "artifactSize": 23161686,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "System.Runtime.CompilerServices",
+          "Unity.XR.Hands.Runtime.Tests",
+          "Unity.XR.Hands.Tests.NUnitExtensions",
+          "UnityEditor.XR.Hands",
+          "UnityEditor.XR.Hands.Analytics",
+          "UnityEditor.XR.Hands.Capture",
+          "UnityEditor.XR.Hands.Gestures",
+          "UnityEditor.XR.Hands.OpenXR",
+          "UnityEditor.XR.Hands.ProjectValidation",
+          "UnityEditor.XR.Hands.Samples.Capture",
+          "UnityEditor.XR.Hands.Tests",
+          "UnityEngine.XR.Hands",
+          "UnityEngine.XR.Hands.Analytics",
+          "UnityEngine.XR.Hands.Capture",
+          "UnityEngine.XR.Hands.Capture.Recording",
+          "UnityEngine.XR.Hands.Configuration",
+          "UnityEngine.XR.Hands.Gestures",
+          "UnityEngine.XR.Hands.Meshing",
+          "UnityEngine.XR.Hands.Meshing.ProviderImplementation",
+          "UnityEngine.XR.Hands.OpenXR",
+          "UnityEngine.XR.Hands.OpenXR.Meshing",
+          "UnityEngine.XR.Hands.Processing",
+          "UnityEngine.XR.Hands.ProviderImplementation",
+          "UnityEngine.XR.Hands.Samples.Capture",
+          "UnityEngine.XR.Hands.Samples.GestureSample",
+          "UnityEngine.XR.Hands.Samples.GestureSample.Editor",
+          "UnityEngine.XR.Hands.Samples.Gestures.DebugTools",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample"
+        ],
+        "types": [
+          "MockCommonGestureListener",
+          "MockCommonGestureListener+PerHandMockGestureListener",
+          "System.Runtime.CompilerServices.IsExternalInit",
+          "TestCommonGestureData",
+          "TestCommonGestureData+PerHandCommonGestureData",
+          "TestHandData",
+          "TestHandProvider",
+          "TestHandProvider+CommonGestureBehavior",
+          "TestHandProviderExtensions",
+          "TestHandUtils",
+          "TestHandUtils+MockHandAction",
+          "TestHandUtils+MockHandAction+bool",
+          "TestHandUtils+MockHandAction+void",
+          "TestHandUtils+bool",
+          "Tests",
+          "Unity.XR.Hands.Runtime.Tests.XRHandShapeTests",
+          "Unity.XR.Hands.Runtime.Tests.XRHandsAnalyticsTests",
+          "Unity.XR.Hands.Tests.NUnitExtensions.FloatTryGetEqualityComparer",
+          "Unity.XR.Hands.Tests.NUnitExtensions.Is",
+          "Unity.XR.Hands.Tests.NUnitExtensions.PoseEqualityComparer",
+          "Unity.XR.Hands.Tests.NUnitExtensions.PoseTryGetEqualityComparer",
+          "UnityEditor.XR.Hands.Analytics.AnalyticsPlayModeUsageHooks",
+          "UnityEditor.XR.Hands.Analytics.XRHandCaptureAnalyticsData",
+          "UnityEditor.XR.Hands.Analytics.XRHandsAnalytics",
+          "UnityEditor.XR.Hands.Analytics.XRHandsEditmodeUsageEvent",
+          "UnityEditor.XR.Hands.Analytics.XRHandsEditmodeUsageEvent+Payload",
+          "UnityEditor.XR.Hands.Analytics.XRHandsEditorAnalyticsEvent",
+          "UnityEditor.XR.Hands.Analytics.XRHandsPlaymodeUsageEvent",
+          "UnityEditor.XR.Hands.Analytics.XRHandsPlaymodeUsageEvent+Payload",
+          "UnityEditor.XR.Hands.Analytics.if",
+          "UnityEditor.XR.Hands.BaseXRHandsEditor",
+          "UnityEditor.XR.Hands.Capture.AndroidDeviceFileService",
+          "UnityEditor.XR.Hands.Capture.EditorUIUtils",
+          "UnityEditor.XR.Hands.Capture.GameObjectExtensions",
+          "UnityEditor.XR.Hands.Capture.HandGameObjects",
+          "UnityEditor.XR.Hands.Capture.IDeviceFileService",
+          "UnityEditor.XR.Hands.Capture.JointVisualizer",
+          "UnityEditor.XR.Hands.Capture.XRHandCaptureEditor",
+          "UnityEditor.XR.Hands.Capture.XRHandCaptureEditorCallbacks",
+          "UnityEditor.XR.Hands.Capture.XRHandCaptureEditorWindow",
+          "UnityEditor.XR.Hands.Capture.XRHandCaptureImporter",
+          "UnityEditor.XR.Hands.Capture.XRHandCapturePlayback",
+          "UnityEditor.XR.Hands.Gestures.XRHandShapeEditor",
+          "UnityEditor.XR.Hands.OpenXR.ModifyAndroidManifest",
+          "UnityEditor.XR.Hands.OpenXR.ModifyAndroidManifest+AndroidManifest",
+          "UnityEditor.XR.Hands.OpenXR.ModifyAndroidManifest+AndroidXmlDocument",
+          "UnityEditor.XR.Hands.ProjectValidation.ProjectValidationUtility",
+          "UnityEditor.XR.Hands.ProjectValidation.ProjectValidationUtility+PackageSampleData",
+          "UnityEditor.XR.Hands.ProjectValidation.ProjectValidationUtility+SampleData",
+          "UnityEditor.XR.Hands.Samples.Capture.XRHandCaptureEditorLauncher",
+          "UnityEditor.XR.Hands.Samples.Capture.XRHandCaptureSampleProjectValidation",
+          "UnityEditor.XR.Hands.Tests.XRHandsEditorAnalyticsTests",
+          "UnityEditor.XR.Hands.Tests.XRHandsEditorTests",
+          "UnityEditor.XR.Hands.XRHandSkeletonDriverEditor",
+          "UnityEditor.XR.Hands.XRHandSkeletonDriverEditor+Contents",
+          "UnityEditor.XR.Hands.XRHandSkeletonDriverEditor+JointTransformReferenceReorderableList",
+          "UnityEditor.XR.Hands.XRHandTrackingEventsEditor",
+          "UnityEditor.XR.Hands.XRHandTrackingEventsEditor+Contents",
+          "UnityEngine.XR.Hands.Analytics.XRHandAnalyticsData",
+          "UnityEngine.XR.Hands.Analytics.XRHandFeatureUsageData",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBase",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBinaryFileFormatConfigs",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBlob",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingFrameBuffer",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingFrameCapturedEventArgs",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingInitializeArgs",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingMetadata",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingRawFrame",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingSaveArgs",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingSettings",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingStatus",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingStatusChangedEventArgs",
+          "UnityEngine.XR.Hands.Capture.XRHandCaptureFrame",
+          "UnityEngine.XR.Hands.Capture.XRHandCaptureSequence",
+          "UnityEngine.XR.Hands.Configuration.XRHandDevicePoseSource",
+          "UnityEngine.XR.Hands.Configuration.XRHandSubsystemConfiguration",
+          "UnityEngine.XR.Hands.Configuration.XRHandSubsystemConfigurationUpdatedEventArgs",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShape",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShapeCondition",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShapeCondition+Target",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShapeConfiguration",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShapeMath",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShapeType",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShapeTypes",
+          "UnityEngine.XR.Hands.Gestures.XRHandAlignmentCondition",
+          "UnityEngine.XR.Hands.Gestures.XRHandAxis",
+          "UnityEngine.XR.Hands.Gestures.XRHandOrientationUtility",
+          "UnityEngine.XR.Hands.Gestures.XRHandPose",
+          "UnityEngine.XR.Hands.Gestures.XRHandRelativeOrientation",
+          "UnityEngine.XR.Hands.Gestures.XRHandRelativeOrientation+TargetCondition",
+          "UnityEngine.XR.Hands.Gestures.XRHandRelativeOrientation+UserCondition",
+          "UnityEngine.XR.Hands.Gestures.XRHandShape",
+          "UnityEngine.XR.Hands.Gestures.XRHandTargetRelativeDirection",
+          "UnityEngine.XR.Hands.Gestures.XRHandUserRelativeDirection",
+          "UnityEngine.XR.Hands.HandUpdatedEvent",
+          "UnityEngine.XR.Hands.Handedness",
+          "UnityEngine.XR.Hands.JointToTransformReference",
+          "UnityEngine.XR.Hands.Meshing.ProviderImplementation.XRHandMeshDataExtensions",
+          "UnityEngine.XR.Hands.Meshing.ProviderImplementation.XRHandMeshDataQueryResultExtensions",
+          "UnityEngine.XR.Hands.Meshing.XRHandMeshData",
+          "UnityEngine.XR.Hands.Meshing.XRHandMeshDataQueryParams",
+          "UnityEngine.XR.Hands.Meshing.XRHandMeshDataQueryResult",
+          "UnityEngine.XR.Hands.MetaAimFlags",
+          "UnityEngine.XR.Hands.MetaAimHand",
+          "UnityEngine.XR.Hands.OpenXR.HandTracking",
+          "UnityEngine.XR.Hands.OpenXR.HandTracking+DestroyingSubsystemEventArgs",
+          "UnityEngine.XR.Hands.OpenXR.HandTracking+NativeApi",
+          "UnityEngine.XR.Hands.OpenXR.HandTracking+SubsystemCreatedEventArgs",
+          "UnityEngine.XR.Hands.OpenXR.Meshing.IOpenXRHandMeshDataSupplier",
+          "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim",
+          "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim+AimFlags",
+          "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim+MetaAimHand",
+          "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim+NativeApi",
+          "UnityEngine.XR.Hands.OpenXR.OpenXRHandProvider",
+          "UnityEngine.XR.Hands.OpenXR.OpenXRHandProvider+NativeApi",
+          "UnityEngine.XR.Hands.OpenXR.OpenXRHandProvider+Usages",
+          "UnityEngine.XR.Hands.Processing.IXRHandProcessor",
+          "UnityEngine.XR.Hands.Processing.XRHandProcessingUtility",
+          "UnityEngine.XR.Hands.ProviderImplementation.XRHandProviderUtility",
+          "UnityEngine.XR.Hands.ProviderImplementation.XRHandProviderUtility+SubsystemUpdater",
+          "UnityEngine.XR.Hands.ProviderImplementation.XRHandProviderUtility+SubsystemUpdater+XRHandSubsystemPlayerLoopRunnerUpdateSystem",
+          "UnityEngine.XR.Hands.ProviderImplementation.XRHandSubsystemProvider",
+          "UnityEngine.XR.Hands.ProviderImplementation.XRHandSubsystemProvider+FingerConfigDefaults",
+          "UnityEngine.XR.Hands.Samples.Capture.CaptureSessionManager",
+          "UnityEngine.XR.Hands.Samples.Capture.RecorderUserJourneyManager",
+          "UnityEngine.XR.Hands.Samples.Capture.RecorderUserJourneyManager+JourneyStateChangeEventArgs",
+          "UnityEngine.XR.Hands.Samples.Capture.RecorderUserJourneyManager+UserJourneyState",
+          "UnityEngine.XR.Hands.Samples.Capture.RecordingController",
+          "UnityEngine.XR.Hands.Samples.Capture.RecordingItemView",
+          "UnityEngine.XR.Hands.Samples.GestureSample.Editor.HandsSampleProjectValidation",
+          "UnityEngine.XR.Hands.Samples.GestureSample.HandShapeCompletenessCalculator",
+          "UnityEngine.XR.Hands.Samples.GestureSample.StaticHandGesture",
+          "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRAllFingerShapesDebugUI",
+          "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRFingerShapeDebugBar",
+          "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRFingerShapeDebugUI",
+          "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRHandShapeDebugUI",
+          "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRSelectedHandShapeDebugUI",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor+ProcessorExampleMode",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.HandVisualizer",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.HandVisualizer+HandGameObjects",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.HandVisualizer+VelocityType",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.JointVisualizer",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandler",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandlerEditor",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.ShaderContainer",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.ShaderContainerDrawer",
+          "UnityEngine.XR.Hands.UpdateTypesExtensions",
+          "UnityEngine.XR.Hands.XRCommonHandGestures",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+AimActivateValueUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+AimPoseUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+GraspValueUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+GripPoseUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+PinchPoseUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+PinchValueUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+PokePoseUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRDetectedHandMeshLayout",
+          "UnityEngine.XR.Hands.XRHand",
+          "UnityEngine.XR.Hands.XRHandAnalyticsFlags",
+          "UnityEngine.XR.Hands.XRHandDevice",
+          "UnityEngine.XR.Hands.XRHandDeviceState",
+          "UnityEngine.XR.Hands.XRHandFingerID",
+          "UnityEngine.XR.Hands.XRHandJoint",
+          "UnityEngine.XR.Hands.XRHandJointID",
+          "UnityEngine.XR.Hands.XRHandJointIDUtility",
+          "UnityEngine.XR.Hands.XRHandJointTrackingState",
+          "UnityEngine.XR.Hands.XRHandJointsUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRHandMeshController",
+          "UnityEngine.XR.Hands.XRHandSkeletonDriver",
+          "UnityEngine.XR.Hands.XRHandSkeletonDriverUtility",
+          "UnityEngine.XR.Hands.XRHandSubsystem",
+          "UnityEngine.XR.Hands.XRHandSubsystem+IXRHandProcessor",
+          "UnityEngine.XR.Hands.XRHandSubsystem+UpdateSuccessFlags",
+          "UnityEngine.XR.Hands.XRHandSubsystem+UpdateType",
+          "UnityEngine.XR.Hands.XRHandSubsystemDescriptor",
+          "UnityEngine.XR.Hands.XRHandSubsystemDescriptor+Cinfo",
+          "UnityEngine.XR.Hands.XRHandTrackingEvents",
+          "UnityEngine.XR.Hands.XRHandTrackingEvents+UpdateTypes",
+          "UnityEngine.XR.Hands.XRHelpURLConstants",
+          "XRHandCaptureTests"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "Unity.XR.Hands",
+            "path": "Runtime/Unity.XR.Hands.asmdef",
+            "guid": "ce522b6ed64c8be4c989a1d26d0e3275",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.xr.openxr",
+                "expression": "1.0.0",
+                "define": "UNITY_OPENXR_PACKAGE"
+              },
+              {
+                "name": "com.unity.xr.openxr",
+                "expression": "1.2.0",
+                "define": "UNITY_OPENXR_PACKAGE_1_2"
+              },
+              {
+                "name": "com.unity.xr.openxr",
+                "expression": "1.6.0",
+                "define": "UNITY_OPENXR_PACKAGE_1_6"
+              },
+              {
+                "name": "com.unity.xr.openxr",
+                "expression": "1.8.1",
+                "define": "UNITY_OPENXR_PACKAGE_1_8"
+              },
+              {
+                "name": "com.unity.burst",
+                "expression": "1.6.6",
+                "define": "BURST_PRESENT"
+              }
+            ],
+            "references": [
+              "Unity.Burst",
+              "Unity.InputSystem",
+              "Unity.XR.CoreUtils",
+              "Unity.XR.Management",
+              "Unity.XR.Management.Editor",
+              "Unity.XR.OpenXR",
+              "Unity.XR.OpenXR.Features.OculusQuestSupport",
+              "Unity.Mathematics"
+            ],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "System.Runtime.CompilerServices.IsExternalInit",
+              "UnityEngine.XR.Hands.Analytics.XRHandAnalyticsData",
+              "UnityEngine.XR.Hands.Analytics.XRHandFeatureUsageData",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBase",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBinaryFileFormatConfigs",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBlob",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingFrameBuffer",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingFrameCapturedEventArgs",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingInitializeArgs",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingMetadata",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingRawFrame",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingSaveArgs",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingSettings",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingStatus",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingStatusChangedEventArgs",
+              "UnityEngine.XR.Hands.Capture.XRHandCaptureFrame",
+              "UnityEngine.XR.Hands.Capture.XRHandCaptureSequence",
+              "UnityEngine.XR.Hands.Configuration.XRHandDevicePoseSource",
+              "UnityEngine.XR.Hands.Configuration.XRHandSubsystemConfiguration",
+              "UnityEngine.XR.Hands.Configuration.XRHandSubsystemConfigurationUpdatedEventArgs",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShape",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShapeCondition",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShapeCondition+Target",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShapeConfiguration",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShapeMath",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShapeType",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShapeTypes",
+              "UnityEngine.XR.Hands.Gestures.XRHandAlignmentCondition",
+              "UnityEngine.XR.Hands.Gestures.XRHandAxis",
+              "UnityEngine.XR.Hands.Gestures.XRHandOrientationUtility",
+              "UnityEngine.XR.Hands.Gestures.XRHandPose",
+              "UnityEngine.XR.Hands.Gestures.XRHandRelativeOrientation",
+              "UnityEngine.XR.Hands.Gestures.XRHandRelativeOrientation+TargetCondition",
+              "UnityEngine.XR.Hands.Gestures.XRHandRelativeOrientation+UserCondition",
+              "UnityEngine.XR.Hands.Gestures.XRHandShape",
+              "UnityEngine.XR.Hands.Gestures.XRHandTargetRelativeDirection",
+              "UnityEngine.XR.Hands.Gestures.XRHandUserRelativeDirection",
+              "UnityEngine.XR.Hands.HandUpdatedEvent",
+              "UnityEngine.XR.Hands.Handedness",
+              "UnityEngine.XR.Hands.JointToTransformReference",
+              "UnityEngine.XR.Hands.Meshing.ProviderImplementation.XRHandMeshDataExtensions",
+              "UnityEngine.XR.Hands.Meshing.ProviderImplementation.XRHandMeshDataQueryResultExtensions",
+              "UnityEngine.XR.Hands.Meshing.XRHandMeshData",
+              "UnityEngine.XR.Hands.Meshing.XRHandMeshDataQueryParams",
+              "UnityEngine.XR.Hands.Meshing.XRHandMeshDataQueryResult",
+              "UnityEngine.XR.Hands.MetaAimFlags",
+              "UnityEngine.XR.Hands.MetaAimHand",
+              "UnityEngine.XR.Hands.OpenXR.HandTracking",
+              "UnityEngine.XR.Hands.OpenXR.HandTracking+DestroyingSubsystemEventArgs",
+              "UnityEngine.XR.Hands.OpenXR.HandTracking+NativeApi",
+              "UnityEngine.XR.Hands.OpenXR.HandTracking+SubsystemCreatedEventArgs",
+              "UnityEngine.XR.Hands.OpenXR.Meshing.IOpenXRHandMeshDataSupplier",
+              "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim",
+              "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim+AimFlags",
+              "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim+MetaAimHand",
+              "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim+NativeApi",
+              "UnityEngine.XR.Hands.OpenXR.OpenXRHandProvider",
+              "UnityEngine.XR.Hands.OpenXR.OpenXRHandProvider+NativeApi",
+              "UnityEngine.XR.Hands.OpenXR.OpenXRHandProvider+Usages",
+              "UnityEngine.XR.Hands.Processing.IXRHandProcessor",
+              "UnityEngine.XR.Hands.Processing.XRHandProcessingUtility",
+              "UnityEngine.XR.Hands.ProviderImplementation.XRHandProviderUtility",
+              "UnityEngine.XR.Hands.ProviderImplementation.XRHandProviderUtility+SubsystemUpdater",
+              "UnityEngine.XR.Hands.ProviderImplementation.XRHandProviderUtility+SubsystemUpdater+XRHandSubsystemPlayerLoopRunnerUpdateSystem",
+              "UnityEngine.XR.Hands.ProviderImplementation.XRHandSubsystemProvider",
+              "UnityEngine.XR.Hands.ProviderImplementation.XRHandSubsystemProvider+FingerConfigDefaults",
+              "UnityEngine.XR.Hands.UpdateTypesExtensions",
+              "UnityEngine.XR.Hands.XRCommonHandGestures",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+AimActivateValueUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+AimPoseUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+GraspValueUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+GripPoseUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+PinchPoseUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+PinchValueUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+PokePoseUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRDetectedHandMeshLayout",
+              "UnityEngine.XR.Hands.XRHand",
+              "UnityEngine.XR.Hands.XRHandAnalyticsFlags",
+              "UnityEngine.XR.Hands.XRHandDevice",
+              "UnityEngine.XR.Hands.XRHandDeviceState",
+              "UnityEngine.XR.Hands.XRHandFingerID",
+              "UnityEngine.XR.Hands.XRHandJoint",
+              "UnityEngine.XR.Hands.XRHandJointID",
+              "UnityEngine.XR.Hands.XRHandJointIDUtility",
+              "UnityEngine.XR.Hands.XRHandJointTrackingState",
+              "UnityEngine.XR.Hands.XRHandJointsUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRHandMeshController",
+              "UnityEngine.XR.Hands.XRHandSkeletonDriver",
+              "UnityEngine.XR.Hands.XRHandSkeletonDriverUtility",
+              "UnityEngine.XR.Hands.XRHandSubsystem",
+              "UnityEngine.XR.Hands.XRHandSubsystem+IXRHandProcessor",
+              "UnityEngine.XR.Hands.XRHandSubsystem+UpdateSuccessFlags",
+              "UnityEngine.XR.Hands.XRHandSubsystem+UpdateType",
+              "UnityEngine.XR.Hands.XRHandSubsystemDescriptor",
+              "UnityEngine.XR.Hands.XRHandSubsystemDescriptor+Cinfo",
+              "UnityEngine.XR.Hands.XRHandTrackingEvents",
+              "UnityEngine.XR.Hands.XRHandTrackingEvents+UpdateTypes",
+              "UnityEngine.XR.Hands.XRHelpURLConstants"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Analytics.Editor",
+            "path": "Editor/Analytics/Unity.XR.Hands.Analytics.Editor.asmdef",
+            "guid": "0798df6146a7b4854b827b4bf087a6b9",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "Unity.XR.CoreUtils.Editor",
+              "Unity.XR.Hands"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEditor.XR.Hands.Analytics.XRHandCaptureAnalyticsData",
+              "UnityEditor.XR.Hands.Analytics.XRHandsAnalytics",
+              "UnityEditor.XR.Hands.Analytics.XRHandsEditmodeUsageEvent",
+              "UnityEditor.XR.Hands.Analytics.XRHandsEditmodeUsageEvent+Payload",
+              "UnityEditor.XR.Hands.Analytics.XRHandsEditorAnalyticsEvent",
+              "UnityEditor.XR.Hands.Analytics.XRHandsPlaymodeUsageEvent",
+              "UnityEditor.XR.Hands.Analytics.XRHandsPlaymodeUsageEvent+Payload",
+              "UnityEditor.XR.Hands.Analytics.if"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Analytics.Hooks.Editor",
+            "path": "Editor/AnalyticsHooks/Unity.XR.Hands.Analytics.Hooks.Editor.asmdef",
+            "guid": "f764bf0f52734927ad743536ecb8f9f8",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "Unity.XR.Hands",
+              "Unity.XR.Hands.Analytics.Editor",
+              "Unity.XR.CoreUtils.Editor"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEditor.XR.Hands.Analytics.AnalyticsPlayModeUsageHooks"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Editor",
+            "path": "Editor/Unity.XR.Hands.Editor.asmdef",
+            "guid": "43e9109b8cf6eec438823b2311391706",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.xr.openxr",
+                "expression": "1.6.0",
+                "define": "UNITY_OPENXR_PACKAGE"
+              }
+            ],
+            "references": [
+              "Unity.XR.Hands",
+              "Unity.XR.OpenXR",
+              "Unity.XR.OpenXR.Editor",
+              "Unity.XR.OpenXR.Features.MetaQuestSupport",
+              "Unity.XR.Hands.Analytics.Editor",
+              "Unity.XR.CoreUtils",
+              "Unity.XR.CoreUtils.Editor"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified"
+            ],
+            "types": [
+              "UnityEditor.XR.Hands.BaseXRHandsEditor",
+              "UnityEditor.XR.Hands.Capture.AndroidDeviceFileService",
+              "UnityEditor.XR.Hands.Capture.EditorUIUtils",
+              "UnityEditor.XR.Hands.Capture.GameObjectExtensions",
+              "UnityEditor.XR.Hands.Capture.HandGameObjects",
+              "UnityEditor.XR.Hands.Capture.IDeviceFileService",
+              "UnityEditor.XR.Hands.Capture.JointVisualizer",
+              "UnityEditor.XR.Hands.Capture.XRHandCaptureEditor",
+              "UnityEditor.XR.Hands.Capture.XRHandCaptureEditorCallbacks",
+              "UnityEditor.XR.Hands.Capture.XRHandCaptureEditorWindow",
+              "UnityEditor.XR.Hands.Capture.XRHandCaptureImporter",
+              "UnityEditor.XR.Hands.Capture.XRHandCapturePlayback",
+              "UnityEditor.XR.Hands.Gestures.XRHandShapeEditor",
+              "UnityEditor.XR.Hands.OpenXR.ModifyAndroidManifest",
+              "UnityEditor.XR.Hands.OpenXR.ModifyAndroidManifest+AndroidManifest",
+              "UnityEditor.XR.Hands.OpenXR.ModifyAndroidManifest+AndroidXmlDocument",
+              "UnityEditor.XR.Hands.ProjectValidation.ProjectValidationUtility",
+              "UnityEditor.XR.Hands.ProjectValidation.ProjectValidationUtility+PackageSampleData",
+              "UnityEditor.XR.Hands.ProjectValidation.ProjectValidationUtility+SampleData",
+              "UnityEditor.XR.Hands.XRHandSkeletonDriverEditor",
+              "UnityEditor.XR.Hands.XRHandSkeletonDriverEditor+Contents",
+              "UnityEditor.XR.Hands.XRHandSkeletonDriverEditor+JointTransformReferenceReorderableList",
+              "UnityEditor.XR.Hands.XRHandTrackingEventsEditor",
+              "UnityEditor.XR.Hands.XRHandTrackingEventsEditor+Contents"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Editor.Tests",
+            "path": "Tests/Editor/Unity.XR.Hands.Editor.Tests.asmdef",
+            "guid": "2309ade88055b8c4c85f57d09f3076d3",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [
+              {
+                "name": "com.unity.xr.openxr",
+                "expression": "1.0.0",
+                "define": "UNITY_OPENXR_PACKAGE"
+              }
+            ],
+            "references": [
+              "Unity.XR.Hands",
+              "Unity.XR.Hands.OpenXR",
+              "Unity.XR.OpenXR",
+              "Unity.XR.OpenXR.Features",
+              "Unity.XR.Hands.Analytics.Editor"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEditor.XR.Hands.Tests.XRHandsEditorAnalyticsTests",
+              "UnityEditor.XR.Hands.Tests.XRHandsEditorTests"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Samples.Gestures",
+            "path": "Samples~/Gestures/Unity.XR.Hands.Samples.Gestures.asmdef",
+            "guid": "237d4a93e9dbbf24fa9810e0b3215007",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "GUID:dc960734dc080426fa6612f1c5fe95f3",
+              "GUID:ce522b6ed64c8be4c989a1d26d0e3275",
+              "GUID:6055be8ebefd69e48b49212b09b47b2f"
+            ],
+            "profileIssues": [],
+            "types": [
+              "UnityEngine.XR.Hands.Samples.GestureSample.HandShapeCompletenessCalculator",
+              "UnityEngine.XR.Hands.Samples.GestureSample.StaticHandGesture",
+              "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRAllFingerShapesDebugUI",
+              "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRFingerShapeDebugBar",
+              "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRFingerShapeDebugUI",
+              "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRHandShapeDebugUI",
+              "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRSelectedHandShapeDebugUI"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Samples.Gestures.Editor",
+            "path": "Samples~/Gestures/Editor/Unity.XR.Hands.Samples.Gestures.Editor.asmdef",
+            "guid": "cdb23768d1ae34c53841d8b4dfc7a453",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "GUID:dc960734dc080426fa6612f1c5fe95f3",
+              "GUID:4ddd23ea56a3a40f0aa0036d1624a53e",
+              "GUID:ce522b6ed64c8be4c989a1d26d0e3275",
+              "GUID:43e9109b8cf6eec438823b2311391706"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEngine.XR.Hands.Samples.GestureSample.Editor.HandsSampleProjectValidation"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Samples.HandCapture",
+            "path": "Samples~/HandCapture/Unity.XR.Hands.Samples.HandCapture.asmdef",
+            "guid": "2ec6f53223b164283bc02acef6a65571",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.textmeshpro",
+                "expression": "3.0.8",
+                "define": "TEXT_MESH_PRO_PRESENT"
+              },
+              {
+                "name": "com.unity.ugui",
+                "expression": "2.0.0",
+                "define": "UGUI_2_0_PRESENT"
+              }
+            ],
+            "references": [
+              "GUID:ce522b6ed64c8be4c989a1d26d0e3275",
+              "GUID:6055be8ebefd69e48b49212b09b47b2f",
+              "GUID:dc960734dc080426fa6612f1c5fe95f3"
+            ],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "UnityEngine.XR.Hands.Samples.Capture.CaptureSessionManager",
+              "UnityEngine.XR.Hands.Samples.Capture.RecorderUserJourneyManager",
+              "UnityEngine.XR.Hands.Samples.Capture.RecorderUserJourneyManager+JourneyStateChangeEventArgs",
+              "UnityEngine.XR.Hands.Samples.Capture.RecorderUserJourneyManager+UserJourneyState",
+              "UnityEngine.XR.Hands.Samples.Capture.RecordingController",
+              "UnityEngine.XR.Hands.Samples.Capture.RecordingItemView"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Samples.HandCapture.Editor",
+            "path": "Samples~/HandCapture/Editor/Unity.XR.Hands.Samples.HandCapture.Editor.asmdef",
+            "guid": "e12f9a3745b454422b7caa8a5ba128ca",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.textmeshpro",
+                "expression": "3.0.8",
+                "define": "TEXT_MESH_PRO_PRESENT"
+              },
+              {
+                "name": "com.unity.ugui",
+                "expression": "2.0.0",
+                "define": "UGUI_2_0_PRESENT"
+              }
+            ],
+            "references": [
+              "GUID:43e9109b8cf6eec438823b2311391706",
+              "GUID:2ec6f53223b164283bc02acef6a65571",
+              "GUID:4ddd23ea56a3a40f0aa0036d1624a53e",
+              "GUID:6055be8ebefd69e48b49212b09b47b2f"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified"
+            ],
+            "types": [
+              "UnityEditor.XR.Hands.Samples.Capture.XRHandCaptureEditorLauncher",
+              "UnityEditor.XR.Hands.Samples.Capture.XRHandCaptureSampleProjectValidation"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Samples.VisualizerSample",
+            "path": "Samples~/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef",
+            "guid": "60e576d96416ac94182fe26f63acf9ff",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "GUID:75469ad4d38634e559750d17036d5f7c",
+              "GUID:dc960734dc080426fa6612f1c5fe95f3",
+              "GUID:ce522b6ed64c8be4c989a1d26d0e3275"
+            ],
+            "profileIssues": [],
+            "types": [
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor+ProcessorExampleMode",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.HandVisualizer",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.HandVisualizer+HandGameObjects",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.HandVisualizer+VelocityType",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.JointVisualizer",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandler",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandlerEditor",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.ShaderContainer",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.ShaderContainerDrawer"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Tests",
+            "path": "Tests/Runtime/Unity.XR.Hands.Tests.asmdef",
+            "guid": "abdfafa7f167a3f49a0b776a17e8ce05",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [],
+            "references": [
+              "Unity.XR.Hands",
+              "Unity.InputSystem"
+            ],
+            "profileIssues": [
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "MockCommonGestureListener",
+              "MockCommonGestureListener+PerHandMockGestureListener",
+              "TestCommonGestureData",
+              "TestCommonGestureData+PerHandCommonGestureData",
+              "TestHandData",
+              "TestHandProvider",
+              "TestHandProvider+CommonGestureBehavior",
+              "TestHandProviderExtensions",
+              "TestHandUtils",
+              "TestHandUtils+MockHandAction",
+              "TestHandUtils+MockHandAction+bool",
+              "TestHandUtils+MockHandAction+void",
+              "TestHandUtils+bool",
+              "Tests",
+              "Unity.XR.Hands.Runtime.Tests.XRHandShapeTests",
+              "Unity.XR.Hands.Runtime.Tests.XRHandsAnalyticsTests",
+              "Unity.XR.Hands.Tests.NUnitExtensions.FloatTryGetEqualityComparer",
+              "Unity.XR.Hands.Tests.NUnitExtensions.Is",
+              "Unity.XR.Hands.Tests.NUnitExtensions.PoseEqualityComparer",
+              "Unity.XR.Hands.Tests.NUnitExtensions.PoseTryGetEqualityComparer",
+              "XRHandCaptureTests"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/f81e09cc1967b323e401ba6b05aa683b2addc0bd3c7000f528485b56c29b51ca-603581728bbb.json.gz",
+          "sha256": "442ad79aaf4b88d5e6db61ddd79e72f60fb133c495c60942c1bc4d0107d38aea",
+          "size": 48190,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types",
+            "managedMetadata": {
+              "name": "uvault.managed-index",
+              "version": "1",
+              "reader": "System.Reflection.Metadata/PEReader",
+              "available": true,
+              "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+            }
+          }
+        },
+        "fileCount": 785,
+        "sourceFileCount": 112,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 41,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": [
+          {
+            "path": "Runtime/universalwindows/arm32/UnityOpenXRHands.dll",
+            "sha256": "3c6a0136f399af142cb3611f76df44505afbb1b37377e692a7cf31bc5fcdd9f0",
+            "size": 13824,
+            "dummyDll": false
+          },
+          {
+            "path": "Runtime/universalwindows/arm64/UnityOpenXRHands.dll",
+            "sha256": "da3d244cb40e7bd26698f1ef3bd79dea3939e73e9ed8e643bb02244122206eb3",
+            "size": 16384,
+            "dummyDll": false
+          },
+          {
+            "path": "Runtime/universalwindows/x64/UnityOpenXRHands.dll",
+            "sha256": "90f0dbf124d630a7c61a717eb4fa8978f13493d7fc63c8acf3d31a99d84a4b52",
+            "size": 15872,
+            "dummyDll": false
+          },
+          {
+            "path": "Runtime/windows/x64/UnityOpenXRHands.dll",
+            "sha256": "968ca55172d023aba2c2e498c02ce5fccfe2fb6bfb8d41846256bda4eb04be6d",
+            "size": 111616,
+            "dummyDll": false
+          }
+        ]
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://packages.unity.com/com.unity.xr.hands/1.7.2",
       "deprecated": null,
@@ -48,23 +928,116 @@
         "dist": {
           "shasum": "6361f2b63a8e1db97ee084a3438b607baa923cde"
         }
-      }
+      },
+      "packageId": "com.unity.xr.hands",
+      "sourceRefEvidence": {
+        "kind": "archive-package-json",
+        "sha256": "f7d3ec75fc2b9fdbcd721a47c813e2658a7dac0a0a4a9a949e193815ff5be1c5"
+      },
+      "collectedAt": "2026-10-18T05:36:59.901809Z"
     },
     {
       "version": "1.8.1",
       "variantId": "registry-packages.unity.com-dc59620c3baf17e4",
-      "sourceUrl": "https://packages.unity.com/com.unity.xr.hands",
-      "sourceRef": null,
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.hands",
+      "sourceRef": "d5d57b0c51f5adb717b2f28751434b860316b6a1",
       "downloadUrl": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.8.1.tgz",
       "upstreamIntegrity": null,
       "upstreamShasum": "0908de89928b658f7c842f087510a94f45317941",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
         "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.8.1.tgz#package/LICENSE.md",
+        "sha256": "4f9d3a47475c63a35f245ec2ab74ab274fd8af8ea179b44a879566ee0ac0949d",
+        "text": "XR Hands copyright © 2026 Unity Technologies\n\nLicensed under the Unity Package Distribution License (see https://unity3d.com/legal/licenses/Unity_Package_Distribution_License ).\n\nUnless expressly provided otherwise, the software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\n",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": null,
+            "sha256": "4f9d3a47475c63a35f245ec2ab74ab274fd8af8ea179b44a879566ee0ac0949d",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.8.1.tgz#package/LICENSE.md",
+            "text": "XR Hands copyright © 2026 Unity Technologies\n\nLicensed under the Unity Package Distribution License (see https://unity3d.com/legal/licenses/Unity_Package_Distribution_License ).\n\nUnless expressly provided otherwise, the software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\n"
+          },
+          {
+            "path": "LICENSE.md.meta",
+            "expression": null,
+            "sha256": "5d7133deae513342817e7defeb398fcf81fe047b517343a8d6b4c9706109ec86",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.8.1.tgz#package/LICENSE.md.meta",
+            "text": "fileFormatVersion: 2\nguid: 50475dd42acaba449a6160af5830c8cb\nTextScriptImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n"
+          },
+          {
+            "path": "Runtime/ios/arm64/UnityOpenXRHands.a",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "Runtime/universalwindows/arm32/UnityOpenXRHands.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "Runtime/universalwindows/arm64/UnityOpenXRHands.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "Runtime/universalwindows/x64/UnityOpenXRHands.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "Runtime/windows/x64/UnityOpenXRHands.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "Runtime/osx/UnityOpenXRHands.dylib",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "Runtime/android/arm64/libUnityOpenXRHands.so",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "Runtime/android/x64/libUnityOpenXRHands.so",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:37:00.639863Z",
+        "decisionBasis": [
+          "Native/SDK components require their own redistribution evidence",
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {
         "com.unity.modules.xr": "1.0.0",
@@ -73,9 +1046,967 @@
         "com.unity.xr.core-utils": "2.2.0",
         "com.unity.xr.management": "4.0.1"
       },
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "47217e51a1aadce437436b79d347bd1c14bc763569a19a1cde7b8432f7783f92",
+        "size": 23723372,
+        "format": "tar.gz",
+        "kind": "mixed-source-binary",
+        "url": "https://download.packages.unity.com/com.unity.xr.hands/-/com.unity.xr.hands-1.8.1.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types",
+          "managedMetadata": {
+            "name": "uvault.managed-index",
+            "version": "1",
+            "reader": "System.Reflection.Metadata/PEReader",
+            "available": true,
+            "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+          }
+        },
+        "sourceSetSha256": "2e39018a61037f57cbca356768e772e0f62e77bfe0a17f6b4649ff1ed2871d4f",
+        "artifactSha256": "47217e51a1aadce437436b79d347bd1c14bc763569a19a1cde7b8432f7783f92",
+        "artifactSize": 23723372,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "System.Runtime.CompilerServices",
+          "Unity.XR.Hands.Runtime.Tests",
+          "Unity.XR.Hands.Tests.NUnitExtensions",
+          "UnityEditor.XR.Hands",
+          "UnityEditor.XR.Hands.Analytics",
+          "UnityEditor.XR.Hands.Capture",
+          "UnityEditor.XR.Hands.Gestures",
+          "UnityEditor.XR.Hands.OpenXR",
+          "UnityEditor.XR.Hands.ProjectValidation",
+          "UnityEditor.XR.Hands.Samples.Capture",
+          "UnityEditor.XR.Hands.Tests",
+          "UnityEngine.XR.Hands",
+          "UnityEngine.XR.Hands.Analytics",
+          "UnityEngine.XR.Hands.Capture",
+          "UnityEngine.XR.Hands.Capture.Playback",
+          "UnityEngine.XR.Hands.Capture.Recording",
+          "UnityEngine.XR.Hands.Configuration",
+          "UnityEngine.XR.Hands.Gestures",
+          "UnityEngine.XR.Hands.Meshing",
+          "UnityEngine.XR.Hands.Meshing.ProviderImplementation",
+          "UnityEngine.XR.Hands.OpenXR",
+          "UnityEngine.XR.Hands.OpenXR.Meshing",
+          "UnityEngine.XR.Hands.Processing",
+          "UnityEngine.XR.Hands.ProviderImplementation",
+          "UnityEngine.XR.Hands.Samples.Capture",
+          "UnityEngine.XR.Hands.Samples.GestureSample",
+          "UnityEngine.XR.Hands.Samples.GestureSample.Editor",
+          "UnityEngine.XR.Hands.Samples.Gestures.DebugTools",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample"
+        ],
+        "types": [
+          "CoordinateTransformTests",
+          "MockCommonGestureListener",
+          "MockCommonGestureListener+PerHandMockGestureListener",
+          "OpenXRHandSubsystemManagerTests",
+          "PlaybackFrameProviderTests",
+          "PlaybackInterpolatorTests",
+          "PlaybackTimeControllerTests",
+          "SubsystemManagerSample",
+          "System.Runtime.CompilerServices.IsExternalInit",
+          "TestCommonGestureData",
+          "TestCommonGestureData+PerHandCommonGestureData",
+          "TestHandData",
+          "TestHandProvider",
+          "TestHandProvider+CommonGestureBehavior",
+          "TestHandProviderExtensions",
+          "TestHandUtils",
+          "TestHandUtils+MockHandAction",
+          "TestHandUtils+MockHandAction+bool",
+          "TestHandUtils+MockHandAction+void",
+          "TestHandUtils+bool",
+          "Tests",
+          "Unity.XR.Hands.Runtime.Tests.XRHandShapeTests",
+          "Unity.XR.Hands.Runtime.Tests.XRHandsAnalyticsTests",
+          "Unity.XR.Hands.Tests.NUnitExtensions.FloatTryGetEqualityComparer",
+          "Unity.XR.Hands.Tests.NUnitExtensions.Is",
+          "Unity.XR.Hands.Tests.NUnitExtensions.PoseEqualityComparer",
+          "Unity.XR.Hands.Tests.NUnitExtensions.PoseTryGetEqualityComparer",
+          "UnityEditor.XR.Hands.Analytics.AnalyticsPlayModeUsageHooks",
+          "UnityEditor.XR.Hands.Analytics.XRHandCaptureAnalyticsData",
+          "UnityEditor.XR.Hands.Analytics.XRHandsAnalytics",
+          "UnityEditor.XR.Hands.Analytics.XRHandsEditmodeUsageEvent",
+          "UnityEditor.XR.Hands.Analytics.XRHandsEditmodeUsageEvent+Payload",
+          "UnityEditor.XR.Hands.Analytics.XRHandsEditorAnalyticsEvent",
+          "UnityEditor.XR.Hands.Analytics.XRHandsPlaymodeUsageEvent",
+          "UnityEditor.XR.Hands.Analytics.XRHandsPlaymodeUsageEvent+Payload",
+          "UnityEditor.XR.Hands.Analytics.if",
+          "UnityEditor.XR.Hands.BaseXRHandsEditor",
+          "UnityEditor.XR.Hands.Capture.AndroidDeviceFileService",
+          "UnityEditor.XR.Hands.Capture.EditorUIUtils",
+          "UnityEditor.XR.Hands.Capture.GameObjectExtensions",
+          "UnityEditor.XR.Hands.Capture.HandGameObjects",
+          "UnityEditor.XR.Hands.Capture.IDeviceFileService",
+          "UnityEditor.XR.Hands.Capture.JointVisualizer",
+          "UnityEditor.XR.Hands.Capture.XRHandCaptureEditor",
+          "UnityEditor.XR.Hands.Capture.XRHandCaptureEditorCallbacks",
+          "UnityEditor.XR.Hands.Capture.XRHandCaptureEditorWindow",
+          "UnityEditor.XR.Hands.Capture.XRHandCaptureImporter",
+          "UnityEditor.XR.Hands.Capture.XRHandCapturePlayback",
+          "UnityEditor.XR.Hands.Gestures.XRHandShapeEditor",
+          "UnityEditor.XR.Hands.OpenXR.ModifyAndroidManifest",
+          "UnityEditor.XR.Hands.OpenXR.ModifyAndroidManifest+AndroidManifest",
+          "UnityEditor.XR.Hands.OpenXR.ModifyAndroidManifest+AndroidXmlDocument",
+          "UnityEditor.XR.Hands.ProjectValidation.ProjectValidationUtility",
+          "UnityEditor.XR.Hands.ProjectValidation.ProjectValidationUtility+PackageSampleData",
+          "UnityEditor.XR.Hands.ProjectValidation.ProjectValidationUtility+SampleData",
+          "UnityEditor.XR.Hands.Samples.Capture.XRHandCaptureEditorLauncher",
+          "UnityEditor.XR.Hands.Samples.Capture.XRHandCaptureSampleProjectValidation",
+          "UnityEditor.XR.Hands.Tests.XRHandsEditorAnalyticsTests",
+          "UnityEditor.XR.Hands.Tests.XRHandsEditorTests",
+          "UnityEditor.XR.Hands.XRHandSkeletonDriverEditor",
+          "UnityEditor.XR.Hands.XRHandSkeletonDriverEditor+Contents",
+          "UnityEditor.XR.Hands.XRHandSkeletonDriverEditor+JointTransformReferenceReorderableList",
+          "UnityEditor.XR.Hands.XRHandTrackingEventsEditor",
+          "UnityEditor.XR.Hands.XRHandTrackingEventsEditor+Contents",
+          "UnityEngine.XR.Hands.AimStateFlags",
+          "UnityEngine.XR.Hands.Analytics.XRHandAnalyticsData",
+          "UnityEngine.XR.Hands.Analytics.XRHandFeatureUsageData",
+          "UnityEngine.XR.Hands.Capture.FrameFlags",
+          "UnityEngine.XR.Hands.Capture.HandFlags",
+          "UnityEngine.XR.Hands.Capture.Playback.FrameBasedTimeController",
+          "UnityEngine.XR.Hands.Capture.Playback.IPlaybackCoordinateTransform",
+          "UnityEngine.XR.Hands.Capture.Playback.IPlaybackTimeController",
+          "UnityEngine.XR.Hands.Capture.Playback.PlaybackFrameProvider",
+          "UnityEngine.XR.Hands.Capture.Playback.PlaybackGestureHandler",
+          "UnityEngine.XR.Hands.Capture.Playback.PlaybackGestureHandler+T",
+          "UnityEngine.XR.Hands.Capture.Playback.PlaybackGestureHandler+bool",
+          "UnityEngine.XR.Hands.Capture.Playback.PlaybackInterpolator",
+          "UnityEngine.XR.Hands.Capture.Playback.PlaybackProvider",
+          "UnityEngine.XR.Hands.Capture.Playback.RelativeToInitialRootTransform",
+          "UnityEngine.XR.Hands.Capture.Playback.TimeBasedTimeController",
+          "UnityEngine.XR.Hands.Capture.Playback.WorldSpaceCoordinateTransform",
+          "UnityEngine.XR.Hands.Capture.Playback.XRHandPlayback",
+          "UnityEngine.XR.Hands.Capture.Playback.XRHandPlaybackExtensions",
+          "UnityEngine.XR.Hands.Capture.Playback.XRHandPlaybackOnlySubsystemCreationOptions",
+          "UnityEngine.XR.Hands.Capture.Playback.XRHandPlaybackOptions",
+          "UnityEngine.XR.Hands.Capture.Recording.FrameBuffer",
+          "UnityEngine.XR.Hands.Capture.Recording.HandBuffer",
+          "UnityEngine.XR.Hands.Capture.Recording.HandSnapshotBuffer",
+          "UnityEngine.XR.Hands.Capture.Recording.SerializationExtensions",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBase",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBinaryFileFormatConfigs",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBlob",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBlob+ReadRecordingContext",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBlob+WriteRecordingContext",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingFrameCapturedEventArgs",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingInitializeArgs",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingMetadata",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingRawFrame",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingSaveArgs",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingSettings",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingStatus",
+          "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingStatusChangedEventArgs",
+          "UnityEngine.XR.Hands.Capture.SequenceFlags",
+          "UnityEngine.XR.Hands.Capture.SnapshotFlags",
+          "UnityEngine.XR.Hands.Capture.XRHandCaptureFrame",
+          "UnityEngine.XR.Hands.Capture.XRHandCaptureSequence",
+          "UnityEngine.XR.Hands.Capture.XRHandCaptureSnapshot",
+          "UnityEngine.XR.Hands.Capture.XRHandRecordingOptions",
+          "UnityEngine.XR.Hands.Configuration.XRHandDevicePoseSource",
+          "UnityEngine.XR.Hands.Configuration.XRHandSubsystemConfiguration",
+          "UnityEngine.XR.Hands.Configuration.XRHandSubsystemConfigurationUpdatedEventArgs",
+          "UnityEngine.XR.Hands.Constants",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShape",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShapeCondition",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShapeCondition+Target",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShapeConfiguration",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShapeConfigurationState",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShapeMath",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShapeType",
+          "UnityEngine.XR.Hands.Gestures.XRFingerShapeTypes",
+          "UnityEngine.XR.Hands.Gestures.XRHandAlignmentCondition",
+          "UnityEngine.XR.Hands.Gestures.XRHandAxis",
+          "UnityEngine.XR.Hands.Gestures.XRHandOrientationUtility",
+          "UnityEngine.XR.Hands.Gestures.XRHandPose",
+          "UnityEngine.XR.Hands.Gestures.XRHandRelativeOrientation",
+          "UnityEngine.XR.Hands.Gestures.XRHandRelativeOrientation+TargetCondition",
+          "UnityEngine.XR.Hands.Gestures.XRHandRelativeOrientation+UserCondition",
+          "UnityEngine.XR.Hands.Gestures.XRHandShape",
+          "UnityEngine.XR.Hands.Gestures.XRHandTargetRelativeDirection",
+          "UnityEngine.XR.Hands.Gestures.XRHandUserRelativeDirection",
+          "UnityEngine.XR.Hands.HandUpdatedEvent",
+          "UnityEngine.XR.Hands.Handedness",
+          "UnityEngine.XR.Hands.HandsUtility",
+          "UnityEngine.XR.Hands.HashCodeUtil",
+          "UnityEngine.XR.Hands.JointToTransformReference",
+          "UnityEngine.XR.Hands.Meshing.ProviderImplementation.XRHandMeshDataExtensions",
+          "UnityEngine.XR.Hands.Meshing.ProviderImplementation.XRHandMeshDataQueryResultExtensions",
+          "UnityEngine.XR.Hands.Meshing.XRHandMeshData",
+          "UnityEngine.XR.Hands.Meshing.XRHandMeshDataQueryParams",
+          "UnityEngine.XR.Hands.Meshing.XRHandMeshDataQueryResult",
+          "UnityEngine.XR.Hands.MetaAimFlags",
+          "UnityEngine.XR.Hands.MetaAimHand",
+          "UnityEngine.XR.Hands.MetaAimHandState",
+          "UnityEngine.XR.Hands.OpenXR.HandTracking",
+          "UnityEngine.XR.Hands.OpenXR.HandTracking+DestroyingSubsystemEventArgs",
+          "UnityEngine.XR.Hands.OpenXR.HandTracking+NativeApi",
+          "UnityEngine.XR.Hands.OpenXR.HandTracking+SubsystemCreatedEventArgs",
+          "UnityEngine.XR.Hands.OpenXR.Meshing.IOpenXRHandMeshDataSupplier",
+          "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim",
+          "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim+AimFlags",
+          "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim+MetaAimHand",
+          "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim+NativeApi",
+          "UnityEngine.XR.Hands.OpenXR.OpenXRHandProvider",
+          "UnityEngine.XR.Hands.OpenXR.OpenXRHandProvider+NativeApi",
+          "UnityEngine.XR.Hands.OpenXR.OpenXRHandProvider+Usages",
+          "UnityEngine.XR.Hands.OpenXR.OpenXRHandSubsystemManager",
+          "UnityEngine.XR.Hands.Processing.IXRHandProcessor",
+          "UnityEngine.XR.Hands.Processing.XRHandProcessingUtility",
+          "UnityEngine.XR.Hands.ProviderImplementation.XRHandProviderUtility",
+          "UnityEngine.XR.Hands.ProviderImplementation.XRHandProviderUtility+SubsystemUpdater",
+          "UnityEngine.XR.Hands.ProviderImplementation.XRHandProviderUtility+SubsystemUpdater+XRHandSubsystemPlayerLoopRunnerUpdateSystem",
+          "UnityEngine.XR.Hands.ProviderImplementation.XRHandSubsystemProvider",
+          "UnityEngine.XR.Hands.ProviderImplementation.XRHandSubsystemProvider+FingerConfigDefaults",
+          "UnityEngine.XR.Hands.Samples.Capture.CaptureSessionManager",
+          "UnityEngine.XR.Hands.Samples.Capture.RecorderUserJourneyManager",
+          "UnityEngine.XR.Hands.Samples.Capture.RecorderUserJourneyManager+JourneyStateChangeEventArgs",
+          "UnityEngine.XR.Hands.Samples.Capture.RecorderUserJourneyManager+UserJourneyState",
+          "UnityEngine.XR.Hands.Samples.Capture.RecordingController",
+          "UnityEngine.XR.Hands.Samples.Capture.RecordingItemView",
+          "UnityEngine.XR.Hands.Samples.GestureSample.Editor.HandsSampleProjectValidation",
+          "UnityEngine.XR.Hands.Samples.GestureSample.HandShapeCompletenessCalculator",
+          "UnityEngine.XR.Hands.Samples.GestureSample.StaticHandGesture",
+          "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRAllFingerShapesDebugUI",
+          "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRFingerShapeDebugBar",
+          "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRFingerShapeDebugUI",
+          "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRHandShapeDebugUI",
+          "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRSelectedHandShapeDebugUI",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor+ProcessorExampleMode",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.HandVisualizer",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.HandVisualizer+HandGameObjects",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.HandVisualizer+VelocityType",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.JointVisualizer",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandler",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandlerEditor",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.ShaderContainer",
+          "UnityEngine.XR.Hands.Samples.VisualizerSample.ShaderContainerDrawer",
+          "UnityEngine.XR.Hands.UpdateTypesExtensions",
+          "UnityEngine.XR.Hands.XRCommonHandGestures",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+AimActivateValueUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+AimActivatedStateUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+AimPoseUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+GraspFirmStateUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+GraspValueUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+GripPoseUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+PinchPoseUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+PinchTouchedStateUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+PinchValueUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGestures+PokePoseUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRCommonHandGesturesFlags",
+          "UnityEngine.XR.Hands.XRCommonHandGesturesState",
+          "UnityEngine.XR.Hands.XRDetectedHandMeshLayout",
+          "UnityEngine.XR.Hands.XRHand",
+          "UnityEngine.XR.Hands.XRHand+LifetimeType",
+          "UnityEngine.XR.Hands.XRHandAimState",
+          "UnityEngine.XR.Hands.XRHandAnalyticsFlags",
+          "UnityEngine.XR.Hands.XRHandDevice",
+          "UnityEngine.XR.Hands.XRHandDeviceState",
+          "UnityEngine.XR.Hands.XRHandFingerID",
+          "UnityEngine.XR.Hands.XRHandJoint",
+          "UnityEngine.XR.Hands.XRHandJointID",
+          "UnityEngine.XR.Hands.XRHandJointIDUtility",
+          "UnityEngine.XR.Hands.XRHandJointTrackingState",
+          "UnityEngine.XR.Hands.XRHandJointsUpdatedEventArgs",
+          "UnityEngine.XR.Hands.XRHandMeshController",
+          "UnityEngine.XR.Hands.XRHandSkeletonDriver",
+          "UnityEngine.XR.Hands.XRHandSkeletonDriverUtility",
+          "UnityEngine.XR.Hands.XRHandSubsystem",
+          "UnityEngine.XR.Hands.XRHandSubsystem+IXRHandProcessor",
+          "UnityEngine.XR.Hands.XRHandSubsystem+StatePerHand",
+          "UnityEngine.XR.Hands.XRHandSubsystem+UpdateSuccessFlags",
+          "UnityEngine.XR.Hands.XRHandSubsystem+UpdateType",
+          "UnityEngine.XR.Hands.XRHandSubsystemActions",
+          "UnityEngine.XR.Hands.XRHandSubsystemDescriptor",
+          "UnityEngine.XR.Hands.XRHandSubsystemDescriptor+Cinfo",
+          "UnityEngine.XR.Hands.XRHandTrackingEvents",
+          "UnityEngine.XR.Hands.XRHandTrackingEvents+UpdateTypes",
+          "UnityEngine.XR.Hands.XRHelpURLConstants",
+          "XRHandCaptureTests"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "Unity.XR.Hands",
+            "path": "Runtime/Unity.XR.Hands.asmdef",
+            "guid": "ce522b6ed64c8be4c989a1d26d0e3275",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.xr.openxr",
+                "expression": "1.0.0",
+                "define": "UNITY_OPENXR_PACKAGE"
+              },
+              {
+                "name": "com.unity.xr.openxr",
+                "expression": "1.2.0",
+                "define": "UNITY_OPENXR_PACKAGE_1_2"
+              },
+              {
+                "name": "com.unity.xr.openxr",
+                "expression": "1.6.0",
+                "define": "UNITY_OPENXR_PACKAGE_1_6"
+              },
+              {
+                "name": "com.unity.xr.openxr",
+                "expression": "1.8.1",
+                "define": "UNITY_OPENXR_PACKAGE_1_8"
+              },
+              {
+                "name": "com.unity.burst",
+                "expression": "1.6.6",
+                "define": "BURST_PRESENT"
+              }
+            ],
+            "references": [
+              "Unity.Burst",
+              "Unity.InputSystem",
+              "Unity.XR.CoreUtils",
+              "Unity.XR.Management",
+              "Unity.XR.Management.Editor",
+              "Unity.XR.OpenXR",
+              "Unity.XR.OpenXR.Features.OculusQuestSupport",
+              "Unity.Mathematics"
+            ],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "System.Runtime.CompilerServices.IsExternalInit",
+              "UnityEngine.XR.Hands.AimStateFlags",
+              "UnityEngine.XR.Hands.Analytics.XRHandAnalyticsData",
+              "UnityEngine.XR.Hands.Analytics.XRHandFeatureUsageData",
+              "UnityEngine.XR.Hands.Capture.FrameFlags",
+              "UnityEngine.XR.Hands.Capture.HandFlags",
+              "UnityEngine.XR.Hands.Capture.Playback.FrameBasedTimeController",
+              "UnityEngine.XR.Hands.Capture.Playback.IPlaybackCoordinateTransform",
+              "UnityEngine.XR.Hands.Capture.Playback.IPlaybackTimeController",
+              "UnityEngine.XR.Hands.Capture.Playback.PlaybackFrameProvider",
+              "UnityEngine.XR.Hands.Capture.Playback.PlaybackGestureHandler",
+              "UnityEngine.XR.Hands.Capture.Playback.PlaybackGestureHandler+T",
+              "UnityEngine.XR.Hands.Capture.Playback.PlaybackGestureHandler+bool",
+              "UnityEngine.XR.Hands.Capture.Playback.PlaybackInterpolator",
+              "UnityEngine.XR.Hands.Capture.Playback.PlaybackProvider",
+              "UnityEngine.XR.Hands.Capture.Playback.RelativeToInitialRootTransform",
+              "UnityEngine.XR.Hands.Capture.Playback.TimeBasedTimeController",
+              "UnityEngine.XR.Hands.Capture.Playback.WorldSpaceCoordinateTransform",
+              "UnityEngine.XR.Hands.Capture.Playback.XRHandPlayback",
+              "UnityEngine.XR.Hands.Capture.Playback.XRHandPlaybackExtensions",
+              "UnityEngine.XR.Hands.Capture.Playback.XRHandPlaybackOnlySubsystemCreationOptions",
+              "UnityEngine.XR.Hands.Capture.Playback.XRHandPlaybackOptions",
+              "UnityEngine.XR.Hands.Capture.Recording.FrameBuffer",
+              "UnityEngine.XR.Hands.Capture.Recording.HandBuffer",
+              "UnityEngine.XR.Hands.Capture.Recording.HandSnapshotBuffer",
+              "UnityEngine.XR.Hands.Capture.Recording.SerializationExtensions",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBase",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBinaryFileFormatConfigs",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBlob",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBlob+ReadRecordingContext",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingBlob+WriteRecordingContext",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingFrameCapturedEventArgs",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingInitializeArgs",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingMetadata",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingRawFrame",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingSaveArgs",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingSettings",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingStatus",
+              "UnityEngine.XR.Hands.Capture.Recording.XRHandRecordingStatusChangedEventArgs",
+              "UnityEngine.XR.Hands.Capture.SequenceFlags",
+              "UnityEngine.XR.Hands.Capture.SnapshotFlags",
+              "UnityEngine.XR.Hands.Capture.XRHandCaptureFrame",
+              "UnityEngine.XR.Hands.Capture.XRHandCaptureSequence",
+              "UnityEngine.XR.Hands.Capture.XRHandCaptureSnapshot",
+              "UnityEngine.XR.Hands.Capture.XRHandRecordingOptions",
+              "UnityEngine.XR.Hands.Configuration.XRHandDevicePoseSource",
+              "UnityEngine.XR.Hands.Configuration.XRHandSubsystemConfiguration",
+              "UnityEngine.XR.Hands.Configuration.XRHandSubsystemConfigurationUpdatedEventArgs",
+              "UnityEngine.XR.Hands.Constants",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShape",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShapeCondition",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShapeCondition+Target",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShapeConfiguration",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShapeConfigurationState",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShapeMath",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShapeType",
+              "UnityEngine.XR.Hands.Gestures.XRFingerShapeTypes",
+              "UnityEngine.XR.Hands.Gestures.XRHandAlignmentCondition",
+              "UnityEngine.XR.Hands.Gestures.XRHandAxis",
+              "UnityEngine.XR.Hands.Gestures.XRHandOrientationUtility",
+              "UnityEngine.XR.Hands.Gestures.XRHandPose",
+              "UnityEngine.XR.Hands.Gestures.XRHandRelativeOrientation",
+              "UnityEngine.XR.Hands.Gestures.XRHandRelativeOrientation+TargetCondition",
+              "UnityEngine.XR.Hands.Gestures.XRHandRelativeOrientation+UserCondition",
+              "UnityEngine.XR.Hands.Gestures.XRHandShape",
+              "UnityEngine.XR.Hands.Gestures.XRHandTargetRelativeDirection",
+              "UnityEngine.XR.Hands.Gestures.XRHandUserRelativeDirection",
+              "UnityEngine.XR.Hands.HandUpdatedEvent",
+              "UnityEngine.XR.Hands.Handedness",
+              "UnityEngine.XR.Hands.HandsUtility",
+              "UnityEngine.XR.Hands.HashCodeUtil",
+              "UnityEngine.XR.Hands.JointToTransformReference",
+              "UnityEngine.XR.Hands.Meshing.ProviderImplementation.XRHandMeshDataExtensions",
+              "UnityEngine.XR.Hands.Meshing.ProviderImplementation.XRHandMeshDataQueryResultExtensions",
+              "UnityEngine.XR.Hands.Meshing.XRHandMeshData",
+              "UnityEngine.XR.Hands.Meshing.XRHandMeshDataQueryParams",
+              "UnityEngine.XR.Hands.Meshing.XRHandMeshDataQueryResult",
+              "UnityEngine.XR.Hands.MetaAimFlags",
+              "UnityEngine.XR.Hands.MetaAimHand",
+              "UnityEngine.XR.Hands.MetaAimHandState",
+              "UnityEngine.XR.Hands.OpenXR.HandTracking",
+              "UnityEngine.XR.Hands.OpenXR.HandTracking+DestroyingSubsystemEventArgs",
+              "UnityEngine.XR.Hands.OpenXR.HandTracking+NativeApi",
+              "UnityEngine.XR.Hands.OpenXR.HandTracking+SubsystemCreatedEventArgs",
+              "UnityEngine.XR.Hands.OpenXR.Meshing.IOpenXRHandMeshDataSupplier",
+              "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim",
+              "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim+AimFlags",
+              "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim+MetaAimHand",
+              "UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim+NativeApi",
+              "UnityEngine.XR.Hands.OpenXR.OpenXRHandProvider",
+              "UnityEngine.XR.Hands.OpenXR.OpenXRHandProvider+NativeApi",
+              "UnityEngine.XR.Hands.OpenXR.OpenXRHandProvider+Usages",
+              "UnityEngine.XR.Hands.OpenXR.OpenXRHandSubsystemManager",
+              "UnityEngine.XR.Hands.Processing.IXRHandProcessor",
+              "UnityEngine.XR.Hands.Processing.XRHandProcessingUtility",
+              "UnityEngine.XR.Hands.ProviderImplementation.XRHandProviderUtility",
+              "UnityEngine.XR.Hands.ProviderImplementation.XRHandProviderUtility+SubsystemUpdater",
+              "UnityEngine.XR.Hands.ProviderImplementation.XRHandProviderUtility+SubsystemUpdater+XRHandSubsystemPlayerLoopRunnerUpdateSystem",
+              "UnityEngine.XR.Hands.ProviderImplementation.XRHandSubsystemProvider",
+              "UnityEngine.XR.Hands.ProviderImplementation.XRHandSubsystemProvider+FingerConfigDefaults",
+              "UnityEngine.XR.Hands.UpdateTypesExtensions",
+              "UnityEngine.XR.Hands.XRCommonHandGestures",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+AimActivateValueUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+AimActivatedStateUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+AimPoseUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+GraspFirmStateUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+GraspValueUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+GripPoseUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+PinchPoseUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+PinchTouchedStateUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+PinchValueUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGestures+PokePoseUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRCommonHandGesturesFlags",
+              "UnityEngine.XR.Hands.XRCommonHandGesturesState",
+              "UnityEngine.XR.Hands.XRDetectedHandMeshLayout",
+              "UnityEngine.XR.Hands.XRHand",
+              "UnityEngine.XR.Hands.XRHand+LifetimeType",
+              "UnityEngine.XR.Hands.XRHandAimState",
+              "UnityEngine.XR.Hands.XRHandAnalyticsFlags",
+              "UnityEngine.XR.Hands.XRHandDevice",
+              "UnityEngine.XR.Hands.XRHandDeviceState",
+              "UnityEngine.XR.Hands.XRHandFingerID",
+              "UnityEngine.XR.Hands.XRHandJoint",
+              "UnityEngine.XR.Hands.XRHandJointID",
+              "UnityEngine.XR.Hands.XRHandJointIDUtility",
+              "UnityEngine.XR.Hands.XRHandJointTrackingState",
+              "UnityEngine.XR.Hands.XRHandJointsUpdatedEventArgs",
+              "UnityEngine.XR.Hands.XRHandMeshController",
+              "UnityEngine.XR.Hands.XRHandSkeletonDriver",
+              "UnityEngine.XR.Hands.XRHandSkeletonDriverUtility",
+              "UnityEngine.XR.Hands.XRHandSubsystem",
+              "UnityEngine.XR.Hands.XRHandSubsystem+IXRHandProcessor",
+              "UnityEngine.XR.Hands.XRHandSubsystem+StatePerHand",
+              "UnityEngine.XR.Hands.XRHandSubsystem+UpdateSuccessFlags",
+              "UnityEngine.XR.Hands.XRHandSubsystem+UpdateType",
+              "UnityEngine.XR.Hands.XRHandSubsystemActions",
+              "UnityEngine.XR.Hands.XRHandSubsystemDescriptor",
+              "UnityEngine.XR.Hands.XRHandSubsystemDescriptor+Cinfo",
+              "UnityEngine.XR.Hands.XRHandTrackingEvents",
+              "UnityEngine.XR.Hands.XRHandTrackingEvents+UpdateTypes",
+              "UnityEngine.XR.Hands.XRHelpURLConstants"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Analytics.Editor",
+            "path": "Editor/Analytics/Unity.XR.Hands.Analytics.Editor.asmdef",
+            "guid": "0798df6146a7b4854b827b4bf087a6b9",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "Unity.XR.CoreUtils.Editor",
+              "Unity.XR.Hands"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEditor.XR.Hands.Analytics.XRHandCaptureAnalyticsData",
+              "UnityEditor.XR.Hands.Analytics.XRHandsAnalytics",
+              "UnityEditor.XR.Hands.Analytics.XRHandsEditmodeUsageEvent",
+              "UnityEditor.XR.Hands.Analytics.XRHandsEditmodeUsageEvent+Payload",
+              "UnityEditor.XR.Hands.Analytics.XRHandsEditorAnalyticsEvent",
+              "UnityEditor.XR.Hands.Analytics.XRHandsPlaymodeUsageEvent",
+              "UnityEditor.XR.Hands.Analytics.XRHandsPlaymodeUsageEvent+Payload",
+              "UnityEditor.XR.Hands.Analytics.if"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Analytics.Hooks.Editor",
+            "path": "Editor/AnalyticsHooks/Unity.XR.Hands.Analytics.Hooks.Editor.asmdef",
+            "guid": "f764bf0f52734927ad743536ecb8f9f8",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "Unity.XR.Hands",
+              "Unity.XR.Hands.Analytics.Editor",
+              "Unity.XR.CoreUtils.Editor"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEditor.XR.Hands.Analytics.AnalyticsPlayModeUsageHooks"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.CodeSamples.Editor.Tests",
+            "path": "DocCodeSamples.Tests/Unity.XR.Hands.CodeSamples.Editor.Tests.asmdef",
+            "guid": "97b34203021ce8e479915dfd818db688",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "Unity.XR.Hands"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "SubsystemManagerSample"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Editor",
+            "path": "Editor/Unity.XR.Hands.Editor.asmdef",
+            "guid": "43e9109b8cf6eec438823b2311391706",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.xr.openxr",
+                "expression": "1.6.0",
+                "define": "UNITY_OPENXR_PACKAGE"
+              }
+            ],
+            "references": [
+              "Unity.XR.Hands",
+              "Unity.XR.OpenXR",
+              "Unity.XR.OpenXR.Editor",
+              "Unity.XR.OpenXR.Features.MetaQuestSupport",
+              "Unity.XR.Hands.Analytics.Editor",
+              "Unity.XR.CoreUtils",
+              "Unity.XR.CoreUtils.Editor"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified"
+            ],
+            "types": [
+              "UnityEditor.XR.Hands.BaseXRHandsEditor",
+              "UnityEditor.XR.Hands.Capture.AndroidDeviceFileService",
+              "UnityEditor.XR.Hands.Capture.EditorUIUtils",
+              "UnityEditor.XR.Hands.Capture.GameObjectExtensions",
+              "UnityEditor.XR.Hands.Capture.HandGameObjects",
+              "UnityEditor.XR.Hands.Capture.IDeviceFileService",
+              "UnityEditor.XR.Hands.Capture.JointVisualizer",
+              "UnityEditor.XR.Hands.Capture.XRHandCaptureEditor",
+              "UnityEditor.XR.Hands.Capture.XRHandCaptureEditorCallbacks",
+              "UnityEditor.XR.Hands.Capture.XRHandCaptureEditorWindow",
+              "UnityEditor.XR.Hands.Capture.XRHandCaptureImporter",
+              "UnityEditor.XR.Hands.Capture.XRHandCapturePlayback",
+              "UnityEditor.XR.Hands.Gestures.XRHandShapeEditor",
+              "UnityEditor.XR.Hands.OpenXR.ModifyAndroidManifest",
+              "UnityEditor.XR.Hands.OpenXR.ModifyAndroidManifest+AndroidManifest",
+              "UnityEditor.XR.Hands.OpenXR.ModifyAndroidManifest+AndroidXmlDocument",
+              "UnityEditor.XR.Hands.ProjectValidation.ProjectValidationUtility",
+              "UnityEditor.XR.Hands.ProjectValidation.ProjectValidationUtility+PackageSampleData",
+              "UnityEditor.XR.Hands.ProjectValidation.ProjectValidationUtility+SampleData",
+              "UnityEditor.XR.Hands.XRHandSkeletonDriverEditor",
+              "UnityEditor.XR.Hands.XRHandSkeletonDriverEditor+Contents",
+              "UnityEditor.XR.Hands.XRHandSkeletonDriverEditor+JointTransformReferenceReorderableList",
+              "UnityEditor.XR.Hands.XRHandTrackingEventsEditor",
+              "UnityEditor.XR.Hands.XRHandTrackingEventsEditor+Contents"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Editor.Tests",
+            "path": "Tests/Editor/Unity.XR.Hands.Editor.Tests.asmdef",
+            "guid": "2309ade88055b8c4c85f57d09f3076d3",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [
+              {
+                "name": "com.unity.xr.openxr",
+                "expression": "1.0.0",
+                "define": "UNITY_OPENXR_PACKAGE"
+              }
+            ],
+            "references": [
+              "Unity.XR.Hands",
+              "Unity.XR.Hands.OpenXR",
+              "Unity.XR.OpenXR",
+              "Unity.XR.OpenXR.Features",
+              "Unity.XR.Hands.Analytics.Editor"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEditor.XR.Hands.Tests.XRHandsEditorAnalyticsTests",
+              "UnityEditor.XR.Hands.Tests.XRHandsEditorTests"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Samples.Gestures",
+            "path": "Samples~/Gestures/Unity.XR.Hands.Samples.Gestures.asmdef",
+            "guid": "237d4a93e9dbbf24fa9810e0b3215007",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.textmeshpro",
+                "expression": "3.0.8",
+                "define": "TEXT_MESH_PRO_PRESENT"
+              },
+              {
+                "name": "com.unity.ugui",
+                "expression": "2.0.0",
+                "define": "UGUI_2_0_PRESENT"
+              }
+            ],
+            "references": [
+              "Unity.XR.CoreUtils",
+              "Unity.XR.Hands",
+              "Unity.TextMeshPro"
+            ],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "UnityEngine.XR.Hands.Samples.GestureSample.HandShapeCompletenessCalculator",
+              "UnityEngine.XR.Hands.Samples.GestureSample.StaticHandGesture",
+              "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRAllFingerShapesDebugUI",
+              "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRFingerShapeDebugBar",
+              "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRFingerShapeDebugUI",
+              "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRHandShapeDebugUI",
+              "UnityEngine.XR.Hands.Samples.Gestures.DebugTools.XRSelectedHandShapeDebugUI"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Samples.Gestures.Editor",
+            "path": "Samples~/Gestures/Editor/Unity.XR.Hands.Samples.Gestures.Editor.asmdef",
+            "guid": "cdb23768d1ae34c53841d8b4dfc7a453",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.textmeshpro",
+                "expression": "3.0.8",
+                "define": "TEXT_MESH_PRO_PRESENT"
+              },
+              {
+                "name": "com.unity.ugui",
+                "expression": "2.0.0",
+                "define": "UGUI_2_0_PRESENT"
+              }
+            ],
+            "references": [
+              "Unity.XR.CoreUtils",
+              "Unity.XR.CoreUtils.Editor",
+              "Unity.XR.Hands",
+              "Unity.XR.Hands.Editor",
+              "Unity.TextMeshPro"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified"
+            ],
+            "types": [
+              "UnityEngine.XR.Hands.Samples.GestureSample.Editor.HandsSampleProjectValidation"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Samples.HandCapture",
+            "path": "Samples~/HandCapture/Unity.XR.Hands.Samples.HandCapture.asmdef",
+            "guid": "2ec6f53223b164283bc02acef6a65571",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.textmeshpro",
+                "expression": "3.0.8",
+                "define": "TEXT_MESH_PRO_PRESENT"
+              },
+              {
+                "name": "com.unity.ugui",
+                "expression": "2.0.0",
+                "define": "UGUI_2_0_PRESENT"
+              }
+            ],
+            "references": [
+              "GUID:ce522b6ed64c8be4c989a1d26d0e3275",
+              "GUID:6055be8ebefd69e48b49212b09b47b2f",
+              "GUID:dc960734dc080426fa6612f1c5fe95f3",
+              "GUID:75469ad4d38634e559750d17036d5f7c",
+              "GUID:60e576d96416ac94182fe26f63acf9ff"
+            ],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "UnityEngine.XR.Hands.Samples.Capture.CaptureSessionManager",
+              "UnityEngine.XR.Hands.Samples.Capture.RecorderUserJourneyManager",
+              "UnityEngine.XR.Hands.Samples.Capture.RecorderUserJourneyManager+JourneyStateChangeEventArgs",
+              "UnityEngine.XR.Hands.Samples.Capture.RecorderUserJourneyManager+UserJourneyState",
+              "UnityEngine.XR.Hands.Samples.Capture.RecordingController",
+              "UnityEngine.XR.Hands.Samples.Capture.RecordingItemView"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Samples.HandCapture.Editor",
+            "path": "Samples~/HandCapture/Editor/Unity.XR.Hands.Samples.HandCapture.Editor.asmdef",
+            "guid": "e12f9a3745b454422b7caa8a5ba128ca",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.textmeshpro",
+                "expression": "3.0.8",
+                "define": "TEXT_MESH_PRO_PRESENT"
+              },
+              {
+                "name": "com.unity.ugui",
+                "expression": "2.0.0",
+                "define": "UGUI_2_0_PRESENT"
+              }
+            ],
+            "references": [
+              "GUID:43e9109b8cf6eec438823b2311391706",
+              "GUID:2ec6f53223b164283bc02acef6a65571",
+              "GUID:4ddd23ea56a3a40f0aa0036d1624a53e",
+              "GUID:6055be8ebefd69e48b49212b09b47b2f"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified"
+            ],
+            "types": [
+              "UnityEditor.XR.Hands.Samples.Capture.XRHandCaptureEditorLauncher",
+              "UnityEditor.XR.Hands.Samples.Capture.XRHandCaptureSampleProjectValidation"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Samples.VisualizerSample",
+            "path": "Samples~/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef",
+            "guid": "60e576d96416ac94182fe26f63acf9ff",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "GUID:75469ad4d38634e559750d17036d5f7c",
+              "GUID:dc960734dc080426fa6612f1c5fe95f3",
+              "GUID:ce522b6ed64c8be4c989a1d26d0e3275"
+            ],
+            "profileIssues": [],
+            "types": [
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.HandProcessor+ProcessorExampleMode",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.HandVisualizer",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.HandVisualizer+HandGameObjects",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.HandVisualizer+VelocityType",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.JointVisualizer",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandler",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.MaterialPipelineHandlerEditor",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.RenderPipelineValidation",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.ShaderContainer",
+              "UnityEngine.XR.Hands.Samples.VisualizerSample.ShaderContainerDrawer"
+            ]
+          },
+          {
+            "name": "Unity.XR.Hands.Tests",
+            "path": "Tests/Runtime/Unity.XR.Hands.Tests.asmdef",
+            "guid": "abdfafa7f167a3f49a0b776a17e8ce05",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [
+              {
+                "name": "com.unity.xr.openxr",
+                "expression": "1.0.0",
+                "define": "UNITY_OPENXR_PACKAGE"
+              }
+            ],
+            "references": [
+              "Unity.XR.Hands",
+              "Unity.InputSystem",
+              "Unity.XR.OpenXR"
+            ],
+            "profileIssues": [
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "CoordinateTransformTests",
+              "MockCommonGestureListener",
+              "MockCommonGestureListener+PerHandMockGestureListener",
+              "OpenXRHandSubsystemManagerTests",
+              "PlaybackFrameProviderTests",
+              "PlaybackInterpolatorTests",
+              "PlaybackTimeControllerTests",
+              "TestCommonGestureData",
+              "TestCommonGestureData+PerHandCommonGestureData",
+              "TestHandData",
+              "TestHandProvider",
+              "TestHandProvider+CommonGestureBehavior",
+              "TestHandProviderExtensions",
+              "TestHandUtils",
+              "TestHandUtils+MockHandAction",
+              "TestHandUtils+MockHandAction+bool",
+              "TestHandUtils+MockHandAction+void",
+              "TestHandUtils+bool",
+              "Tests",
+              "Unity.XR.Hands.Runtime.Tests.XRHandShapeTests",
+              "Unity.XR.Hands.Runtime.Tests.XRHandsAnalyticsTests",
+              "Unity.XR.Hands.Tests.NUnitExtensions.FloatTryGetEqualityComparer",
+              "Unity.XR.Hands.Tests.NUnitExtensions.Is",
+              "Unity.XR.Hands.Tests.NUnitExtensions.PoseEqualityComparer",
+              "Unity.XR.Hands.Tests.NUnitExtensions.PoseTryGetEqualityComparer",
+              "XRHandCaptureTests"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/47217e51a1aadce437436b79d347bd1c14bc763569a19a1cde7b8432f7783f92-603581728bbb.json.gz",
+          "sha256": "87e66444612efede698f52aec750f313fd6b563b218a1938e86ae67c491cc06a",
+          "size": 54460,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types",
+            "managedMetadata": {
+              "name": "uvault.managed-index",
+              "version": "1",
+              "reader": "System.Reflection.Metadata/PEReader",
+              "available": true,
+              "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+            }
+          }
+        },
+        "fileCount": 876,
+        "sourceFileCount": 147,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 47,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": [
+          {
+            "path": "Runtime/universalwindows/arm32/UnityOpenXRHands.dll",
+            "sha256": "98ba7330bc49155018c23c51ba12e352a4c297009fcde61d400798abb7d24158",
+            "size": 24496,
+            "dummyDll": false
+          },
+          {
+            "path": "Runtime/universalwindows/arm64/UnityOpenXRHands.dll",
+            "sha256": "42afe2b380ab430671929fda928fe273ca03a1c1a58023620785b56379e384f9",
+            "size": 27048,
+            "dummyDll": false
+          },
+          {
+            "path": "Runtime/universalwindows/x64/UnityOpenXRHands.dll",
+            "sha256": "fd7f310ddc84fe0de56fb8206d581692446219782861358985aec11d8cc9bfed",
+            "size": 26536,
+            "dummyDll": false
+          },
+          {
+            "path": "Runtime/windows/x64/UnityOpenXRHands.dll",
+            "sha256": "50bd89f4e47e9f23661efaf19c1f9580681be4e06fd81aa0915f8c3f24b4e55d",
+            "size": 122288,
+            "dummyDll": false
+          }
+        ]
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://packages.unity.com/com.unity.xr.hands/1.8.1",
       "deprecated": null,
@@ -85,7 +2016,13 @@
         "dist": {
           "shasum": "0908de89928b658f7c842f087510a94f45317941"
         }
-      }
+      },
+      "packageId": "com.unity.xr.hands",
+      "sourceRefEvidence": {
+        "kind": "archive-package-json",
+        "sha256": "e5da7ac67d863f0207aa559a5ae11af8481de7bba5271db73985c8b94af58772"
+      },
+      "collectedAt": "2026-10-18T05:37:01.043921Z"
     }
   ],
   "metadataStatus": "complete",
