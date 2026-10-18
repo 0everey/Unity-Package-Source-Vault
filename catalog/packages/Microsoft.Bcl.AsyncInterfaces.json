@@ -14,22 +14,374 @@
     {
       "version": "8.0.0",
       "variantId": "nuget",
-      "sourceUrl": "https://www.nuget.org/packages/Microsoft.Bcl.AsyncInterfaces/8.0.0",
-      "sourceRef": null,
+      "sourceUrl": "https://github.com/dotnet/runtime",
+      "sourceRef": "5535e31a712343a63f5d7d796cd874e563e5ac14",
       "downloadUrl": "https://api.nuget.org/v3-flatcontainer/microsoft.bcl.asyncinterfaces/8.0.0/microsoft.bcl.asyncinterfaces.8.0.0.nupkg",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-nuspec"
+        "expression": "MIT",
+        "evidenceUrl": "https://api.nuget.org/v3-flatcontainer/microsoft.bcl.asyncinterfaces/8.0.0/microsoft.bcl.asyncinterfaces.8.0.0.nupkg#LICENSE.TXT",
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b",
+        "text": "The MIT License (MIT)\r\n\r\nCopyright (c) .NET Foundation and Contributors\r\n\r\nAll rights reserved.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n",
+        "components": [
+          {
+            "path": "LICENSE.TXT",
+            "expression": "MIT",
+            "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b",
+            "evidenceUrl": "https://api.nuget.org/v3-flatcontainer/microsoft.bcl.asyncinterfaces/8.0.0/microsoft.bcl.asyncinterfaces.8.0.0.nupkg#LICENSE.TXT",
+            "text": "The MIT License (MIT)\r\n\r\nCopyright (c) .NET Foundation and Contributors\r\n\r\nAll rights reserved.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n"
+          },
+          {
+            "path": "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:33:40.595117Z",
+        "decisionBasis": [
+          "Native/SDK components require their own redistribution evidence"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "f5a5a68b03092ab2abf68843d4a4aea25dfbcbe8dd0f13c625cb779b6fc1927c",
+        "size": 99740,
+        "format": "nupkg",
+        "kind": "binary-only",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.bcl.asyncinterfaces/8.0.0/microsoft.bcl.asyncinterfaces.8.0.0.nupkg",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types",
+          "managedMetadata": {
+            "name": "uvault.managed-index",
+            "version": "1",
+            "reader": "System.Reflection.Metadata/PEReader",
+            "available": true,
+            "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+          }
+        },
+        "sourceSetSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "artifactSha256": "f5a5a68b03092ab2abf68843d4a4aea25dfbcbe8dd0f13c625cb779b6fc1927c",
+        "artifactSize": 99740,
+        "artifactFormat": "nupkg",
+        "namespaces": [
+          "Microsoft.CodeAnalysis",
+          "System",
+          "System.Collections.Generic",
+          "System.Diagnostics.CodeAnalysis",
+          "System.Runtime.CompilerServices",
+          "System.Runtime.InteropServices",
+          "System.Threading.Tasks",
+          "System.Threading.Tasks.Sources"
+        ],
+        "types": [
+          "Microsoft.CodeAnalysis.EmbeddedAttribute",
+          "System.Collections.Generic.IAsyncEnumerable`1",
+          "System.Collections.Generic.IAsyncEnumerator`1",
+          "System.Diagnostics.CodeAnalysis.AllowNullAttribute",
+          "System.Diagnostics.CodeAnalysis.DisallowNullAttribute",
+          "System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute",
+          "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
+          "System.Diagnostics.CodeAnalysis.MaybeNullAttribute",
+          "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
+          "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
+          "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
+          "System.Diagnostics.CodeAnalysis.NotNullAttribute",
+          "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
+          "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
+          "System.IAsyncDisposable",
+          "System.Runtime.CompilerServices.AsyncIteratorMethodBuilder",
+          "System.Runtime.CompilerServices.AsyncIteratorStateMachineAttribute",
+          "System.Runtime.CompilerServices.ConfiguredAsyncDisposable",
+          "System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1",
+          "System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1+Enumerator",
+          "System.Runtime.CompilerServices.EnumeratorCancellationAttribute",
+          "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+          "System.Runtime.CompilerServices.NullableAttribute",
+          "System.Runtime.CompilerServices.NullableContextAttribute",
+          "System.Runtime.CompilerServices.NullablePublicOnlyAttribute",
+          "System.Runtime.CompilerServices.RefSafetyRulesAttribute",
+          "System.Runtime.InteropServices.LibraryImportAttribute",
+          "System.Runtime.InteropServices.StringMarshalling",
+          "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCoreShared",
+          "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1",
+          "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1+<>c",
+          "System.Threading.Tasks.TaskAsyncEnumerableExtensions"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "Microsoft.Bcl.AsyncInterfaces",
+            "scope": {
+              "name": "Microsoft.Bcl.AsyncInterfaces",
+              "version": "8.0.0.0",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Collections.Generic.IAsyncEnumerable`1",
+              "System.Collections.Generic.IAsyncEnumerator`1",
+              "System.Diagnostics.CodeAnalysis.AllowNullAttribute",
+              "System.Diagnostics.CodeAnalysis.DisallowNullAttribute",
+              "System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute",
+              "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
+              "System.Diagnostics.CodeAnalysis.MaybeNullAttribute",
+              "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
+              "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
+              "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
+              "System.Diagnostics.CodeAnalysis.NotNullAttribute",
+              "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
+              "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
+              "System.IAsyncDisposable",
+              "System.Runtime.CompilerServices.AsyncIteratorMethodBuilder",
+              "System.Runtime.CompilerServices.AsyncIteratorStateMachineAttribute",
+              "System.Runtime.CompilerServices.ConfiguredAsyncDisposable",
+              "System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1",
+              "System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1+Enumerator",
+              "System.Runtime.CompilerServices.EnumeratorCancellationAttribute",
+              "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+              "System.Runtime.CompilerServices.NullableAttribute",
+              "System.Runtime.CompilerServices.NullableContextAttribute",
+              "System.Runtime.CompilerServices.NullablePublicOnlyAttribute",
+              "System.Runtime.CompilerServices.RefSafetyRulesAttribute",
+              "System.Runtime.InteropServices.LibraryImportAttribute",
+              "System.Runtime.InteropServices.StringMarshalling",
+              "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCoreShared",
+              "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1",
+              "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1+<>c",
+              "System.Threading.Tasks.TaskAsyncEnumerableExtensions"
+            ]
+          },
+          {
+            "name": "Microsoft.Bcl.AsyncInterfaces",
+            "scope": {
+              "name": "Microsoft.Bcl.AsyncInterfaces",
+              "version": "8.0.0.0",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Collections.Generic.IAsyncEnumerable`1",
+              "System.Collections.Generic.IAsyncEnumerator`1",
+              "System.Diagnostics.CodeAnalysis.AllowNullAttribute",
+              "System.Diagnostics.CodeAnalysis.DisallowNullAttribute",
+              "System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute",
+              "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
+              "System.Diagnostics.CodeAnalysis.MaybeNullAttribute",
+              "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
+              "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
+              "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
+              "System.Diagnostics.CodeAnalysis.NotNullAttribute",
+              "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
+              "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
+              "System.IAsyncDisposable",
+              "System.Runtime.CompilerServices.AsyncIteratorMethodBuilder",
+              "System.Runtime.CompilerServices.AsyncIteratorStateMachineAttribute",
+              "System.Runtime.CompilerServices.ConfiguredAsyncDisposable",
+              "System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1",
+              "System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1+Enumerator",
+              "System.Runtime.CompilerServices.EnumeratorCancellationAttribute",
+              "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+              "System.Runtime.CompilerServices.NullableAttribute",
+              "System.Runtime.CompilerServices.NullableContextAttribute",
+              "System.Runtime.CompilerServices.NullablePublicOnlyAttribute",
+              "System.Runtime.CompilerServices.RefSafetyRulesAttribute",
+              "System.Runtime.InteropServices.LibraryImportAttribute",
+              "System.Runtime.InteropServices.StringMarshalling",
+              "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCoreShared",
+              "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1",
+              "System.Threading.Tasks.Sources.ManualResetValueTaskSourceCore`1+<>c",
+              "System.Threading.Tasks.TaskAsyncEnumerableExtensions"
+            ]
+          },
+          {
+            "name": "Microsoft.Bcl.AsyncInterfaces",
+            "scope": {
+              "name": "Microsoft.Bcl.AsyncInterfaces",
+              "version": "8.0.0.0",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
+              "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
+              "System.Runtime.CompilerServices.RefSafetyRulesAttribute",
+              "System.Runtime.InteropServices.LibraryImportAttribute",
+              "System.Runtime.InteropServices.StringMarshalling"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/f5a5a68b03092ab2abf68843d4a4aea25dfbcbe8dd0f13c625cb779b6fc1927c-603581728bbb.json.gz",
+          "sha256": "29b376b53f610b1898f735e1b2b9b38dd70bce24bd578f01cc6b81ecd625e7c6",
+          "size": 6659,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types",
+            "managedMetadata": {
+              "name": "uvault.managed-index",
+              "version": "1",
+              "reader": "System.Reflection.Metadata/PEReader",
+              "available": true,
+              "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+            }
+          }
+        },
+        "fileCount": 18,
+        "sourceFileCount": 0,
+        "sourceSetNonEmpty": false,
+        "conditionalSourceCount": 0,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": [
+          {
+            "path": "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll",
+            "sha256": "80678203bd0203a6594f4e330b22543c0de5059382bb1c9334b7868b8f31b1bc",
+            "size": 26904,
+            "dummyDll": false
+          },
+          {
+            "path": "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+            "sha256": "33e3c58d46c76d5535d7c24085957b7ccb7ce3815707300955a6309ecc2e81d1",
+            "size": 26784,
+            "dummyDll": false
+          },
+          {
+            "path": "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+            "sha256": "136d5965cf4768e8420b547a8bddea882921f426c371833d558a858a2f0c235a",
+            "size": 19104,
+            "dummyDll": false
+          }
+        ]
+      },
+      "fetchStatus": "collected",
+      "versionStatus": "stable",
+      "packageId": "Microsoft.Bcl.AsyncInterfaces",
+      "nuget": {
+        "declaredLicense": "MIT",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dotnet/runtime",
+          "commit": "5535e31a712343a63f5d7d796cd874e563e5ac14"
+        },
+        "dependencies": [
+          {
+            "id": "System.Threading.Tasks.Extensions",
+            "version": "4.5.4",
+            "exclude": "Build,Analyzers"
+          },
+          {
+            "id": "System.Threading.Tasks.Extensions",
+            "version": "4.5.4",
+            "exclude": "Build,Analyzers"
+          }
+        ],
+        "targetFrameworks": [
+          ".NETFramework4.6.2",
+          ".NETStandard2.0",
+          ".NETStandard2.1"
+        ],
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETFramework4.6.2",
+            "dependencies": [
+              {
+                "id": "System.Threading.Tasks.Extensions",
+                "version": "4.5.4",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Threading.Tasks.Extensions",
+                "version": "4.5.4",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard2.1",
+            "dependencies": []
+          }
+        ],
+        "nuspecSha256": "a414ecfcf15d90be1f13152ad60651077c7511eec2857a7d6910f55df19af263",
+        "nuspecPath": "Microsoft.Bcl.AsyncInterfaces.nuspec",
+        "assets": [
+          {
+            "path": "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll",
+            "targetFramework": "net462",
+            "kind": "lib",
+            "sha256": "80678203bd0203a6594f4e330b22543c0de5059382bb1c9334b7868b8f31b1bc",
+            "size": 26904
+          },
+          {
+            "path": "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "33e3c58d46c76d5535d7c24085957b7ccb7ce3815707300955a6309ecc2e81d1",
+            "size": 26784
+          },
+          {
+            "path": "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+            "targetFramework": "netstandard2.1",
+            "kind": "lib",
+            "sha256": "136d5965cf4768e8420b547a8bddea882921f426c371833d558a858a2f0c235a",
+            "size": 19104
+          }
+        ],
+        "archiveSha256": "f5a5a68b03092ab2abf68843d4a4aea25dfbcbe8dd0f13c625cb779b6fc1927c"
+      },
+      "collectedAt": "2026-10-18T05:33:40.725456Z"
     }
   ],
   "metadataStatus": "complete",

@@ -24,15 +24,266 @@
       "downloadUrl": "https://codeload.github.com/LitJSON/litjson/tar.gz/087029d842691720f991fd8befc8d08c4aec6064",
       "disposition": "license-unresolved",
       "license": {
-        "expression": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "Unlicense",
+        "evidenceUrl": "https://codeload.github.com/LitJSON/litjson/tar.gz/087029d842691720f991fd8befc8d08c4aec6064#litjson-087029d842691720f991fd8befc8d08c4aec6064/COPYING",
+        "sha256": "066d8140067d11431b22d40486430b3b51ae1912e681a4c18d9c4ade35e96009",
+        "text": "This is free and unencumbered software released into the public domain.\n\nAnyone is free to copy, modify, publish, use, compile, sell, or\ndistribute this software, either in source code form or as a compiled\nbinary, for any purpose, commercial or non-commercial, and by any\nmeans.\n\nIn jurisdictions that recognize copyright laws, the author or authors\nof this software dedicate any and all copyright interest in the\nsoftware to the public domain. We make this dedication for the benefit\nof the public at large and to the detriment of our heirs and\nsuccessors. We intend this dedication to be an overt act of\nrelinquishment in perpetuity of all present and future rights to this\nsoftware under copyright law.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nFor more information, please refer to <http://unlicense.org/>\n\nThank you for reading this notice. Following the tradition of other public\ndomain projects, here's a blessing:\n\n  May you find forgiveness for yourself and forgive others.\n  May you experience and share the gift of unconditional love.\n  May you see light, wherever the illusion of darkness appears.\n",
+        "components": [
+          {
+            "path": "COPYING",
+            "expression": "Unlicense",
+            "sha256": "066d8140067d11431b22d40486430b3b51ae1912e681a4c18d9c4ade35e96009",
+            "evidenceUrl": "https://codeload.github.com/LitJSON/litjson/tar.gz/087029d842691720f991fd8befc8d08c4aec6064#litjson-087029d842691720f991fd8befc8d08c4aec6064/COPYING",
+            "text": "This is free and unencumbered software released into the public domain.\n\nAnyone is free to copy, modify, publish, use, compile, sell, or\ndistribute this software, either in source code form or as a compiled\nbinary, for any purpose, commercial or non-commercial, and by any\nmeans.\n\nIn jurisdictions that recognize copyright laws, the author or authors\nof this software dedicate any and all copyright interest in the\nsoftware to the public domain. We make this dedication for the benefit\nof the public at large and to the detriment of our heirs and\nsuccessors. We intend this dedication to be an overt act of\nrelinquishment in perpetuity of all present and future rights to this\nsoftware under copyright law.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nFor more information, please refer to <http://unlicense.org/>\n\nThank you for reading this notice. Following the tradition of other public\ndomain projects, here's a blessing:\n\n  May you find forgiveness for yourself and forgive others.\n  May you experience and share the gift of unconditional love.\n  May you see light, wherever the illusion of darkness appears.\n"
+          },
+          {
+            "path": "doc/out/css/vendor",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "bundled-component-rights-unresolved",
+            "reason": "Bundled third-party directory has no separately detected license evidence"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:33:35.615258Z",
+        "decisionBasis": [
+          "Bundled third-party directories need component-specific rights evidence"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "eaad1a289da47f80e098131ffb1ca1ef8ddebbaa52c4dd054f2d13336b22f586",
+        "size": 58631,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://codeload.github.com/LitJSON/litjson/tar.gz/087029d842691720f991fd8befc8d08c4aec6064",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "73222df253033ba2b0695095ad754fb17c49b6c78079ec9e54428b6849a86356",
+        "artifactSha256": "eaad1a289da47f80e098131ffb1ca1ef8ddebbaa52c4dd054f2d13336b22f586",
+        "artifactSize": 58631,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "LitJson",
+          "LitJson.Benchmarks",
+          "LitJson.Test"
+        ],
+        "types": [
+          "Benchmark",
+          "BenchmarkAttribute",
+          "LitJson.ArrayMetadata",
+          "LitJson.Benchmarks.BenchmarkJayrock",
+          "LitJson.Benchmarks.BenchmarkLitJson",
+          "LitJson.Benchmarks.BenchmarkNewtonsoft",
+          "LitJson.Benchmarks.Common",
+          "LitJson.Benchmarks.Job",
+          "LitJson.Benchmarks.Person",
+          "LitJson.Condition",
+          "LitJson.FsmContext",
+          "LitJson.IJsonWrapper",
+          "LitJson.JsonData",
+          "LitJson.JsonException",
+          "LitJson.JsonMapper",
+          "LitJson.JsonMapper+object",
+          "LitJson.JsonMockWrapper",
+          "LitJson.JsonReader",
+          "LitJson.JsonToken",
+          "LitJson.JsonType",
+          "LitJson.JsonWriter",
+          "LitJson.Lexer",
+          "LitJson.Lexer+bool",
+          "LitJson.Netstandard15Polyfill",
+          "LitJson.ObjectMetadata",
+          "LitJson.OrderedDictionaryEnumerator",
+          "LitJson.ParserToken",
+          "LitJson.PropertyMetadata",
+          "LitJson.TValue",
+          "LitJson.Test.CompoundNullableType",
+          "LitJson.Test.CompoundNullableTypesTest",
+          "LitJson.Test.EnumsTest",
+          "LitJson.Test.Instruments",
+          "LitJson.Test.JsonDataTest",
+          "LitJson.Test.JsonMapperTest",
+          "LitJson.Test.JsonMapperTest+DateTime",
+          "LitJson.Test.JsonMapperTest+int",
+          "LitJson.Test.JsonReaderTest",
+          "LitJson.Test.JsonWriterTest",
+          "LitJson.Test.NestedArrays",
+          "LitJson.Test.NullableEnum",
+          "LitJson.Test.NullableEnumTest",
+          "LitJson.Test.NullableTypesTest",
+          "LitJson.Test.Planets",
+          "LitJson.Test.PropertyReadOnly",
+          "LitJson.Test.PropertyWriteOnly",
+          "LitJson.Test.UiImage",
+          "LitJson.Test.UiSample",
+          "LitJson.Test.UiText",
+          "LitJson.Test.UiWidget",
+          "LitJson.Test.UiWindow",
+          "LitJson.Test.ValueTypesTest",
+          "LitJson.WriterContext",
+          "LitJson.object",
+          "LitJson.void"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/Benchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmCommon.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmJayrockExport.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmJayrockImport.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmJayrockOutput.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmJayrockReader.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmJayrockWriter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmLitJsonExport.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmLitJsonImport.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmLitJsonOutput.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmLitJsonReader.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmLitJsonWriter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmNewtonsoftExport.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmNewtonsoftImport.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmNewtonsoftOutput.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmNewtonsoftReader.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmNewtonsoftWriter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/IJsonWrapper.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/JsonData.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/JsonException.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/JsonMapper.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/JsonMockWrapper.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/JsonReader.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/JsonWriter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/Lexer.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/Netstandard15Polyfill.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/ParserToken.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "test/JsonDataTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "test/JsonMapperTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "test/JsonReaderTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "test/JsonWriterTest.cs"
+          }
+        ],
+        "assemblies": [],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/eaad1a289da47f80e098131ffb1ca1ef8ddebbaa52c4dd054f2d13336b22f586-595fb35e69ff.json.gz",
+          "sha256": "1e033e4d1d7aba0d3ee923298397b059b8c9eb26144943276f17d97ce9a93f94",
+          "size": 4281,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 59,
+        "sourceFileCount": 31,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 3,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
+      "versionStatus": "stable",
+      "packageId": "LitJSON",
+      "collectedAt": "2026-10-18T05:33:35.644226Z"
     },
     {
       "version": "0.14.1",
@@ -45,15 +296,266 @@
       "downloadUrl": "https://codeload.github.com/LitJSON/litjson/tar.gz/f358392d709fdc3667fe195151256d8aef3d7408",
       "disposition": "license-unresolved",
       "license": {
-        "expression": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "Unlicense",
+        "evidenceUrl": "https://codeload.github.com/LitJSON/litjson/tar.gz/f358392d709fdc3667fe195151256d8aef3d7408#litjson-f358392d709fdc3667fe195151256d8aef3d7408/COPYING",
+        "sha256": "066d8140067d11431b22d40486430b3b51ae1912e681a4c18d9c4ade35e96009",
+        "text": "This is free and unencumbered software released into the public domain.\n\nAnyone is free to copy, modify, publish, use, compile, sell, or\ndistribute this software, either in source code form or as a compiled\nbinary, for any purpose, commercial or non-commercial, and by any\nmeans.\n\nIn jurisdictions that recognize copyright laws, the author or authors\nof this software dedicate any and all copyright interest in the\nsoftware to the public domain. We make this dedication for the benefit\nof the public at large and to the detriment of our heirs and\nsuccessors. We intend this dedication to be an overt act of\nrelinquishment in perpetuity of all present and future rights to this\nsoftware under copyright law.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nFor more information, please refer to <http://unlicense.org/>\n\nThank you for reading this notice. Following the tradition of other public\ndomain projects, here's a blessing:\n\n  May you find forgiveness for yourself and forgive others.\n  May you experience and share the gift of unconditional love.\n  May you see light, wherever the illusion of darkness appears.\n",
+        "components": [
+          {
+            "path": "COPYING",
+            "expression": "Unlicense",
+            "sha256": "066d8140067d11431b22d40486430b3b51ae1912e681a4c18d9c4ade35e96009",
+            "evidenceUrl": "https://codeload.github.com/LitJSON/litjson/tar.gz/f358392d709fdc3667fe195151256d8aef3d7408#litjson-f358392d709fdc3667fe195151256d8aef3d7408/COPYING",
+            "text": "This is free and unencumbered software released into the public domain.\n\nAnyone is free to copy, modify, publish, use, compile, sell, or\ndistribute this software, either in source code form or as a compiled\nbinary, for any purpose, commercial or non-commercial, and by any\nmeans.\n\nIn jurisdictions that recognize copyright laws, the author or authors\nof this software dedicate any and all copyright interest in the\nsoftware to the public domain. We make this dedication for the benefit\nof the public at large and to the detriment of our heirs and\nsuccessors. We intend this dedication to be an overt act of\nrelinquishment in perpetuity of all present and future rights to this\nsoftware under copyright law.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nFor more information, please refer to <http://unlicense.org/>\n\nThank you for reading this notice. Following the tradition of other public\ndomain projects, here's a blessing:\n\n  May you find forgiveness for yourself and forgive others.\n  May you experience and share the gift of unconditional love.\n  May you see light, wherever the illusion of darkness appears.\n"
+          },
+          {
+            "path": "doc/out/css/vendor",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "bundled-component-rights-unresolved",
+            "reason": "Bundled third-party directory has no separately detected license evidence"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:33:35.785809Z",
+        "decisionBasis": [
+          "Bundled third-party directories need component-specific rights evidence"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "00ff0f9e92281a2ef59a16e5abfa05cf814544b230be9499fd885219e1285017",
+        "size": 64336,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://codeload.github.com/LitJSON/litjson/tar.gz/f358392d709fdc3667fe195151256d8aef3d7408",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "73222df253033ba2b0695095ad754fb17c49b6c78079ec9e54428b6849a86356",
+        "artifactSha256": "00ff0f9e92281a2ef59a16e5abfa05cf814544b230be9499fd885219e1285017",
+        "artifactSize": 64336,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "LitJson",
+          "LitJson.Benchmarks",
+          "LitJson.Test"
+        ],
+        "types": [
+          "Benchmark",
+          "BenchmarkAttribute",
+          "LitJson.ArrayMetadata",
+          "LitJson.Benchmarks.BenchmarkJayrock",
+          "LitJson.Benchmarks.BenchmarkLitJson",
+          "LitJson.Benchmarks.BenchmarkNewtonsoft",
+          "LitJson.Benchmarks.Common",
+          "LitJson.Benchmarks.Job",
+          "LitJson.Benchmarks.Person",
+          "LitJson.Condition",
+          "LitJson.FsmContext",
+          "LitJson.IJsonWrapper",
+          "LitJson.JsonData",
+          "LitJson.JsonException",
+          "LitJson.JsonMapper",
+          "LitJson.JsonMapper+object",
+          "LitJson.JsonMockWrapper",
+          "LitJson.JsonReader",
+          "LitJson.JsonToken",
+          "LitJson.JsonType",
+          "LitJson.JsonWriter",
+          "LitJson.Lexer",
+          "LitJson.Lexer+bool",
+          "LitJson.Netstandard15Polyfill",
+          "LitJson.ObjectMetadata",
+          "LitJson.OrderedDictionaryEnumerator",
+          "LitJson.ParserToken",
+          "LitJson.PropertyMetadata",
+          "LitJson.TValue",
+          "LitJson.Test.CompoundNullableType",
+          "LitJson.Test.CompoundNullableTypesTest",
+          "LitJson.Test.EnumsTest",
+          "LitJson.Test.Instruments",
+          "LitJson.Test.JsonDataTest",
+          "LitJson.Test.JsonMapperTest",
+          "LitJson.Test.JsonMapperTest+DateTime",
+          "LitJson.Test.JsonMapperTest+int",
+          "LitJson.Test.JsonReaderTest",
+          "LitJson.Test.JsonWriterTest",
+          "LitJson.Test.NestedArrays",
+          "LitJson.Test.NullableEnum",
+          "LitJson.Test.NullableEnumTest",
+          "LitJson.Test.NullableTypesTest",
+          "LitJson.Test.Planets",
+          "LitJson.Test.PropertyReadOnly",
+          "LitJson.Test.PropertyWriteOnly",
+          "LitJson.Test.UiImage",
+          "LitJson.Test.UiSample",
+          "LitJson.Test.UiText",
+          "LitJson.Test.UiWidget",
+          "LitJson.Test.UiWindow",
+          "LitJson.Test.ValueTypesTest",
+          "LitJson.WriterContext",
+          "LitJson.object",
+          "LitJson.void"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/Benchmark.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmCommon.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmJayrockExport.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmJayrockImport.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmJayrockOutput.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmJayrockReader.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmJayrockWriter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmLitJsonExport.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmLitJsonImport.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmLitJsonOutput.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmLitJsonReader.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmLitJsonWriter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmNewtonsoftExport.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmNewtonsoftImport.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmNewtonsoftOutput.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmNewtonsoftReader.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BmNewtonsoftWriter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/IJsonWrapper.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/JsonData.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/JsonException.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/JsonMapper.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/JsonMockWrapper.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/JsonReader.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/JsonWriter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/Lexer.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/Netstandard15Polyfill.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/LitJson/ParserToken.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "test/JsonDataTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "test/JsonMapperTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "test/JsonReaderTest.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "test/JsonWriterTest.cs"
+          }
+        ],
+        "assemblies": [],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/00ff0f9e92281a2ef59a16e5abfa05cf814544b230be9499fd885219e1285017-595fb35e69ff.json.gz",
+          "sha256": "89e60657b4f5a5ea1fe2107c2bdfadbc5f6e4750d4fde3f91704d943ca7b8fcb",
+          "size": 4442,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 62,
+        "sourceFileCount": 31,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 3,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
+      "versionStatus": "stable",
+      "packageId": "LitJSON",
+      "collectedAt": "2026-10-18T05:33:35.814786Z"
     }
   ],
   "metadataStatus": "complete",

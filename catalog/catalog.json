@@ -1429,6 +1429,182 @@
       },
       {
         "parent": {
+          "packageId": "Microsoft.Bcl.AsyncInterfaces",
+          "version": "8.0.0",
+          "variantId": "nuget",
+          "archiveSha256": "f5a5a68b03092ab2abf68843d4a4aea25dfbcbe8dd0f13c625cb779b6fc1927c",
+          "nuspecSha256": "a414ecfcf15d90be1f13152ad60651077c7511eec2857a7d6910f55df19af263"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Threading.Tasks.Extensions",
+                "version": "4.5.4",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "33e3c58d46c76d5535d7c24085957b7ccb7ce3815707300955a6309ecc2e81d1",
+            "size": 26784
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Threading.Tasks.Extensions",
+            "version": "4.5.4",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Microsoft.Bcl.AsyncInterfaces",
+          "version": "8.0.0",
+          "variantId": "nuget",
+          "archiveSha256": "f5a5a68b03092ab2abf68843d4a4aea25dfbcbe8dd0f13c625cb779b6fc1927c",
+          "nuspecSha256": "a414ecfcf15d90be1f13152ad60651077c7511eec2857a7d6910f55df19af263"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.1",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+            "targetFramework": "netstandard2.1",
+            "kind": "lib",
+            "sha256": "136d5965cf4768e8420b547a8bddea882921f426c371833d558a858a2f0c235a",
+            "size": 19104
+          }
+        ],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "version": "8.0.0",
+          "variantId": "nuget",
+          "archiveSha256": "ef92b31065a36d110b7332690a226e6fe96d35430c6f3e40ff529053ee5d80ff",
+          "nuspecSha256": "5e666a909af764ae8ab3faeeccc2773187d4ca4155d5d756356cad6766443f51"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "Microsoft.Bcl.AsyncInterfaces",
+                "version": "8.0.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Threading.Tasks.Extensions",
+                "version": "4.5.4",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "eeb588c0e926bdd8ef5a55bf6b57796b892009eb72b68312a8c9357369c40746",
+            "size": 64176
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "Microsoft.Bcl.AsyncInterfaces",
+            "version": "8.0.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "8.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Threading.Tasks.Extensions",
+            "version": "4.5.4",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "version": "8.0.0",
+          "variantId": "nuget",
+          "archiveSha256": "ef92b31065a36d110b7332690a226e6fe96d35430c6f3e40ff529053ee5d80ff",
+          "nuspecSha256": "5e666a909af764ae8ab3faeeccc2773187d4ca4155d5d756356cad6766443f51"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.1",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+            "targetFramework": "netstandard2.1",
+            "kind": "lib",
+            "sha256": "3a588921e88c7b989f805adc5721ed25e24d389e8a9bc968ebcff79f412a5288",
+            "size": 64264
+          }
+        ],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
           "packageId": "Microsoft.Extensions.Logging.Abstractions",
           "version": "8.0.0",
           "variantId": "nuget",
@@ -6145,9 +6321,9 @@
   ],
   "bundles": [
     {
-      "path": "lookup-0000-40cc02437fb9b2ff1f830885.json.gz",
-      "sha256": "40cc02437fb9b2ff1f8308852ce777755e38c4b56f0349240c68c6fca3881c3b",
-      "size": 1589134
+      "path": "lookup-0000-cd2a151b20aa2bdc5bd81ab3.json.gz",
+      "sha256": "cd2a151b20aa2bdc5bd81ab3391cdb02045edaff6cdd785d8362717d0e119352",
+      "size": 1611392
     }
   ]
 }

@@ -240,14 +240,215 @@
       "disposition": "license-unresolved",
       "license": {
         "expression": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "evidenceUrl": null,
+        "sha256": null,
+        "text": null,
+        "components": [
+          {
+            "path": "Assets/LeanTween/License.txt",
+            "expression": "MIT",
+            "sha256": "8a3c462b027c7d8653a0bb7b881474c05801e2b82f76aa97b054b1f897104bf4",
+            "evidenceUrl": "https://codeload.github.com/dentedpixel/LeanTween/tar.gz/87aa32b1c6fd19eba8cdf7dde7db26f315846d1f#LeanTween-87aa32b1c6fd19eba8cdf7dde7db26f315846d1f/Assets/LeanTween/License.txt",
+            "text": "The MIT License (MIT)\n\nCopyright (c) 2017 Russell Savage - Dented Pixel\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nTERMS OF USE - EASING EQUATIONS\nOpen source under the BSD License.\nCopyright (c)2001 Robert Penner\nAll rights reserved.\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\nRedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\nRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nNeither the name of the author nor the names of contributors may be used to endorse or promote products derived from this software without specific prior written permission.\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n"
+          },
+          {
+            "path": "Assets/LeanTween/License.txt.meta",
+            "expression": null,
+            "sha256": "3c48b6ab7aa18e7e4a7616e3af08fe7faf7ed8b94c92277e83c43ccb630b126e",
+            "evidenceUrl": "https://codeload.github.com/dentedpixel/LeanTween/tar.gz/87aa32b1c6fd19eba8cdf7dde7db26f315846d1f#LeanTween-87aa32b1c6fd19eba8cdf7dde7db26f315846d1f/Assets/LeanTween/License.txt.meta",
+            "text": "fileFormatVersion: 2\nguid: e389e9bcd4f944c338327697bd209cad\ntimeCreated: 1469016738\nlicenseType: Free\nTextScriptImporter:\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:33:35.378375Z",
+        "decisionBasis": [
+          "One or more component license texts are unrecognized or restricted",
+          "No recognized archive-root license grant"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "prerelease"
+      "artifact": {
+        "sha256": "88d8ae9eaaaf17cd21bf4aba3c6e327f1a25ccb07651c1c11c870b56abae3d77",
+        "size": 1338854,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://codeload.github.com/dentedpixel/LeanTween/tar.gz/87aa32b1c6fd19eba8cdf7dde7db26f315846d1f",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "fed480d1722dd4ce0e3e439382c87fba64ab5a34da63df2b0afb289b031f310f",
+        "artifactSha256": "88d8ae9eaaaf17cd21bf4aba3c6e327f1a25ccb07651c1c11c870b56abae3d77",
+        "artifactSize": 1338854,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "DentedPixel",
+          "DentedPixel.LTExamples"
+        ],
+        "types": [
+          "DentedPixel.LTExamples.PathBezier",
+          "DentedPixel.LTExamples.TestingUnitTests",
+          "DentedPixel.LeanTween+LeanDummy",
+          "ExampleSpline",
+          "GeneralAdvancedTechniques",
+          "GeneralBasicCS",
+          "GeneralBasics2dCS",
+          "GeneralCameraShake",
+          "GeneralEasingTypes",
+          "GeneralEventsListenersCS",
+          "GeneralEventsListenersCS+MyEvents",
+          "GeneralSequencer",
+          "GeneralSimpleUiCS",
+          "GeneralUISpaceCS",
+          "LTDescr",
+          "LTDescr+Vector3",
+          "LTDescr+void",
+          "LTDescrOptional",
+          "LTSeq",
+          "LeanAudio",
+          "LeanAudioOptions",
+          "LeanAudioOptions+LeanAudioWaveStyle",
+          "LeanAudioStream",
+          "LeanTest",
+          "LeanTester",
+          "LeanTween",
+          "LeanTween+LTBezier",
+          "LeanTween+LTBezierPath",
+          "LeanTween+LTEvent",
+          "LeanTween+LTGUI",
+          "LeanTween+LTGUI+Element_Type",
+          "LeanTween+LTRect",
+          "LeanTween+LTSpline",
+          "LeanTween+LTUtility",
+          "LeanTweenDocumentationEditor",
+          "LeanTweenType",
+          "LogoCinematic",
+          "OldGUIExamplesCS",
+          "PathBezier2d",
+          "PathSpline2d",
+          "PathSplineEndlessCS",
+          "PathSplinePerformanceCS",
+          "PathSplineTrackCS",
+          "PathSplines",
+          "Testing240",
+          "Testing243",
+          "TestingAllCS",
+          "TestingAllCS+TimingType",
+          "TestingAllCS+void",
+          "TestingColorTweening",
+          "TestingIssue",
+          "TestingIssue2",
+          "TestingMaxTweens",
+          "TestingPunch",
+          "TestingRigidbodyCS",
+          "TestingRotate",
+          "TestingSceneSwitching",
+          "TestingSequencer",
+          "TweenAction"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "Assembly-CSharp",
+            "path": null,
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "profileIssues": [
+              "unity-default-rules-not-compiler-verified"
+            ],
+            "types": [
+              "DentedPixel.LTExamples.PathBezier",
+              "DentedPixel.LTExamples.TestingUnitTests",
+              "ExampleSpline",
+              "GeneralAdvancedTechniques",
+              "GeneralBasicCS",
+              "GeneralBasics2dCS",
+              "GeneralCameraShake",
+              "GeneralEasingTypes",
+              "GeneralEventsListenersCS",
+              "GeneralEventsListenersCS+MyEvents",
+              "GeneralSequencer",
+              "GeneralSimpleUiCS",
+              "GeneralUISpaceCS",
+              "LogoCinematic",
+              "OldGUIExamplesCS",
+              "PathBezier2d",
+              "PathSpline2d",
+              "PathSplineEndlessCS",
+              "PathSplinePerformanceCS",
+              "PathSplineTrackCS",
+              "PathSplines",
+              "Testing240",
+              "Testing243",
+              "TestingAllCS",
+              "TestingAllCS+TimingType",
+              "TestingAllCS+void",
+              "TestingColorTweening",
+              "TestingIssue",
+              "TestingIssue2",
+              "TestingMaxTweens",
+              "TestingPunch",
+              "TestingRigidbodyCS",
+              "TestingRotate",
+              "TestingSceneSwitching",
+              "TestingSequencer"
+            ]
+          },
+          {
+            "name": "Assembly-CSharp-Editor",
+            "path": null,
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "profileIssues": [
+              "unity-default-rules-not-compiler-verified"
+            ],
+            "types": [
+              "LeanTweenDocumentationEditor"
+            ]
+          },
+          {
+            "name": "Assembly-CSharp-firstpass",
+            "path": null,
+            "ownershipVerified": false,
+            "profileVerified": false,
+            "active": true,
+            "profileIssues": [
+              "unity-default-rules-not-compiler-verified"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/88d8ae9eaaaf17cd21bf4aba3c6e327f1a25ccb07651c1c11c870b56abae3d77-595fb35e69ff.json.gz",
+          "sha256": "4c7303c162f4c30f3f76dd4bfe5146d306780f66f3160602fe5236d41f7455de",
+          "size": 21613,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 390,
+        "sourceFileCount": 39,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 10,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
+      "versionStatus": "prerelease",
+      "packageId": "LeanTween",
+      "collectedAt": "2026-10-18T05:33:35.456902Z"
     }
   ],
   "metadataStatus": "complete",
