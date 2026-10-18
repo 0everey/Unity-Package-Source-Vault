@@ -22,22 +22,377 @@
       "sourceTag": "2018.3.0f2",
       "versionBasis": "official-repository-tag-not-target-equivalence",
       "downloadUrl": "https://codeload.github.com/Unity-Technologies/NavMeshComponents/tar.gz/d29a5f3e8f163620e658a3d8ae641f0ffe319e93",
-      "disposition": "license-unresolved",
+      "disposition": "mirror-allowed",
       "license": {
-        "expression": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "MIT",
+        "evidenceUrl": "https://codeload.github.com/Unity-Technologies/NavMeshComponents/tar.gz/d29a5f3e8f163620e658a3d8ae641f0ffe319e93#NavMeshComponents-d29a5f3e8f163620e658a3d8ae641f0ffe319e93/LICENSE",
+        "sha256": "8ff2aeedfc43211d085e27fc057a2c4c58d665808e2369a97cc43099dc390afb",
+        "text": "The MIT License (MIT)\n\nCopyright (c) 2016, Unity Technologies\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+        "components": [
+          {
+            "path": "LICENSE",
+            "expression": "MIT",
+            "sha256": "8ff2aeedfc43211d085e27fc057a2c4c58d665808e2369a97cc43099dc390afb",
+            "evidenceUrl": "https://codeload.github.com/Unity-Technologies/NavMeshComponents/tar.gz/d29a5f3e8f163620e658a3d8ae641f0ffe319e93#NavMeshComponents-d29a5f3e8f163620e658a3d8ae641f0ffe319e93/LICENSE",
+            "text": "The MIT License (MIT)\n\nCopyright (c) 2016, Unity Technologies\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:33:44.392970Z",
+        "decisionBasis": [
+          "Recognized permissive root grant; all detected license documents reviewed; no detected native SDK components"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "9fb3833b93d94c4ac664a0031c4635cec5b7ca9d0a0611406f32bb3058e6ef33",
+        "size": 3228566,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-9f/9fb3833b93d94c4ac664a0031c4635cec5b7ca9d0a0611406f32bb3058e6ef33.tar.gz",
+        "verifiedRemote": true,
+        "assetId": "RA_kwDOVNoTL84m5bJ0",
+        "releaseTag": "objects-9f",
+        "licenseUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-9f/9fb3833b93d94c4ac664a0031c4635cec5b7ca9d0a0611406f32bb3058e6ef33.license-459ca6acfb99f8c3.json",
+        "licenseSha256": "459ca6acfb99f8c3c39244d47c890df57083c952442be96fbf590afed15e9fc6",
+        "licenseAssetId": "RA_kwDOVNoTL84m5bKl"
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "39263e1a8b004b57a492629cb2a8ad338815656b8ddb476737ce5be18ea599ec",
+        "artifactSha256": "9fb3833b93d94c4ac664a0031c4635cec5b7ca9d0a0611406f32bb3058e6ef33",
+        "artifactSize": 3228566,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "UnityEditor.AI",
+          "UnityEngine.AI"
+        ],
+        "types": [
+          "AgentLinkMover",
+          "ClickToMove",
+          "DestroyOnTrigger",
+          "DungeonManager",
+          "EnableIffSleeping",
+          "FreeCam",
+          "FreeCam+RotationAxes",
+          "LocalNavMeshBuilder",
+          "MeshTool",
+          "MeshTool+ExtrudeMethod",
+          "NavMeshModifierVolumeInPrefabTests",
+          "NavMeshPrefabInstance",
+          "NavMeshPrefabInstanceEditor",
+          "NavMeshSourceTag",
+          "NavMeshSurfaceAgentTests",
+          "NavMeshSurfaceInPrefabTests",
+          "NavMeshSurfaceInPrefabVariantTests",
+          "NavMeshSurfaceLinkTests",
+          "NavMeshSurfaceModifierTests",
+          "NavMeshSurfaceModifierVolumeTests",
+          "NavMeshSurfaceTests",
+          "OffMeshLinkMoveMethod",
+          "Oscillator",
+          "PrefabSavingUtil",
+          "PrefabStageAutoSavingUtil",
+          "RandomInstancing",
+          "RandomWalk",
+          "SpawnPrefabOnKeyDown",
+          "UnityEditor.AI.NavMeshAssetManager",
+          "UnityEditor.AI.NavMeshAssetManager+AsyncBakeOperation",
+          "UnityEditor.AI.NavMeshAssetManager+SavedPrefabNavMeshData",
+          "UnityEditor.AI.NavMeshComponentsGUIUtility",
+          "UnityEditor.AI.NavMeshLinkEditor",
+          "UnityEditor.AI.NavMeshModifierEditor",
+          "UnityEditor.AI.NavMeshModifierVolumeEditor",
+          "UnityEditor.AI.NavMeshSurfaceEditor",
+          "UnityEditor.AI.NavMeshSurfaceEditor+Styles",
+          "UnityEngine.AI.CollectObjects",
+          "UnityEngine.AI.NavMeshLink",
+          "UnityEngine.AI.NavMeshModifier",
+          "UnityEngine.AI.NavMeshModifierVolume",
+          "UnityEngine.AI.NavMeshSurface"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "NavMeshComponents",
+            "path": "Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef",
+            "guid": "8c4dd21966739024fbd72155091d199e",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [],
+            "types": [
+              "UnityEngine.AI.CollectObjects",
+              "UnityEngine.AI.NavMeshLink",
+              "UnityEngine.AI.NavMeshModifier",
+              "UnityEngine.AI.NavMeshModifierVolume",
+              "UnityEngine.AI.NavMeshSurface"
+            ]
+          },
+          {
+            "name": "NavMeshComponentsEditor",
+            "path": "Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef",
+            "guid": "86c9d8e67265f41469be06142c397d17",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "NavMeshComponents"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEditor.AI.NavMeshAssetManager",
+              "UnityEditor.AI.NavMeshAssetManager+AsyncBakeOperation",
+              "UnityEditor.AI.NavMeshAssetManager+SavedPrefabNavMeshData",
+              "UnityEditor.AI.NavMeshComponentsGUIUtility",
+              "UnityEditor.AI.NavMeshLinkEditor",
+              "UnityEditor.AI.NavMeshModifierEditor",
+              "UnityEditor.AI.NavMeshModifierVolumeEditor",
+              "UnityEditor.AI.NavMeshSurfaceEditor",
+              "UnityEditor.AI.NavMeshSurfaceEditor+Styles"
+            ]
+          },
+          {
+            "name": "NavMeshComponentsExamples",
+            "path": "Assets/Examples/NavMeshComponentsExamples.asmdef",
+            "guid": "62b574997e92efd41a8a1109157a0cb5",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "NavMeshComponents"
+            ],
+            "profileIssues": [],
+            "types": [
+              "AgentLinkMover",
+              "ClickToMove",
+              "DestroyOnTrigger",
+              "DungeonManager",
+              "EnableIffSleeping",
+              "FreeCam",
+              "FreeCam+RotationAxes",
+              "LocalNavMeshBuilder",
+              "MeshTool",
+              "MeshTool+ExtrudeMethod",
+              "NavMeshPrefabInstance",
+              "NavMeshSourceTag",
+              "OffMeshLinkMoveMethod",
+              "Oscillator",
+              "RandomInstancing",
+              "RandomWalk",
+              "SpawnPrefabOnKeyDown"
+            ]
+          },
+          {
+            "name": "NavMeshComponentsExamplesEditor",
+            "path": "Assets/Examples/Editor/NavMeshComponentsExamplesEditor.asmdef",
+            "guid": "a7ee44b1baf6b0b4cbdf2079057c7f85",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "NavMeshComponentsExamples"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "NavMeshPrefabInstanceEditor"
+            ]
+          },
+          {
+            "name": "NavMeshComponentsTestsEditmode",
+            "path": "Assets/Tests/Editor/NavMeshComponentsTestsEditmode.asmdef",
+            "guid": "794824b4a8f003f47a92875e8342f790",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "NavMeshComponents",
+              "NavMeshComponentsEditor"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "NavMeshModifierVolumeInPrefabTests",
+              "NavMeshSurfaceInPrefabTests",
+              "NavMeshSurfaceInPrefabVariantTests",
+              "PrefabSavingUtil",
+              "PrefabStageAutoSavingUtil"
+            ]
+          },
+          {
+            "name": "NavMeshComponentsTestsPlaymode",
+            "path": "Assets/Tests/NavMeshComponentsTestsPlaymode.asmdef",
+            "guid": "455cd750f394b1c41b963b3335eae29c",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "NavMeshComponents"
+            ],
+            "profileIssues": [],
+            "types": [
+              "NavMeshSurfaceAgentTests",
+              "NavMeshSurfaceLinkTests",
+              "NavMeshSurfaceModifierTests",
+              "NavMeshSurfaceModifierVolumeTests",
+              "NavMeshSurfaceTests"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/9fb3833b93d94c4ac664a0031c4635cec5b7ca9d0a0611406f32bb3058e6ef33-595fb35e69ff.json.gz",
+          "sha256": "fcf902b4721a091366f8de685d1b25e2db353047050e1220d8d1aadeabc258f2",
+          "size": 14168,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 232,
+        "sourceFileCount": 35,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 12,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": [],
+        "componentIndex": {
+          "assemblies": [
+            {
+              "name": "NavMeshComponents",
+              "path": "Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef",
+              "guid": "8c4dd21966739024fbd72155091d199e",
+              "ownershipVerified": true,
+              "profileVerified": false,
+              "active": true,
+              "includePlatforms": [],
+              "excludePlatforms": [],
+              "defineConstraints": [],
+              "versionDefines": [],
+              "references": [],
+              "profileIssues": [],
+              "types": [
+                "UnityEngine.AI.CollectObjects",
+                "UnityEngine.AI.NavMeshLink",
+                "UnityEngine.AI.NavMeshModifier",
+                "UnityEngine.AI.NavMeshModifierVolume",
+                "UnityEngine.AI.NavMeshSurface"
+              ]
+            },
+            {
+              "name": "NavMeshComponentsEditor",
+              "path": "Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef",
+              "guid": "86c9d8e67265f41469be06142c397d17",
+              "ownershipVerified": true,
+              "profileVerified": false,
+              "active": null,
+              "includePlatforms": [
+                "Editor"
+              ],
+              "excludePlatforms": [],
+              "defineConstraints": [],
+              "versionDefines": [],
+              "references": [
+                "NavMeshComponents"
+              ],
+              "profileIssues": [
+                "unknown-platform"
+              ],
+              "types": [
+                "UnityEditor.AI.NavMeshAssetManager",
+                "UnityEditor.AI.NavMeshAssetManager+AsyncBakeOperation",
+                "UnityEditor.AI.NavMeshAssetManager+SavedPrefabNavMeshData",
+                "UnityEditor.AI.NavMeshComponentsGUIUtility",
+                "UnityEditor.AI.NavMeshLinkEditor",
+                "UnityEditor.AI.NavMeshModifierEditor",
+                "UnityEditor.AI.NavMeshModifierVolumeEditor",
+                "UnityEditor.AI.NavMeshSurfaceEditor",
+                "UnityEditor.AI.NavMeshSurfaceEditor+Styles"
+              ]
+            }
+          ],
+          "types": [
+            "UnityEditor.AI.NavMeshAssetManager",
+            "UnityEditor.AI.NavMeshAssetManager+AsyncBakeOperation",
+            "UnityEditor.AI.NavMeshAssetManager+SavedPrefabNavMeshData",
+            "UnityEditor.AI.NavMeshComponentsGUIUtility",
+            "UnityEditor.AI.NavMeshLinkEditor",
+            "UnityEditor.AI.NavMeshModifierEditor",
+            "UnityEditor.AI.NavMeshModifierVolumeEditor",
+            "UnityEditor.AI.NavMeshSurfaceEditor",
+            "UnityEditor.AI.NavMeshSurfaceEditor+Styles",
+            "UnityEngine.AI.CollectObjects",
+            "UnityEngine.AI.NavMeshLink",
+            "UnityEngine.AI.NavMeshModifier",
+            "UnityEngine.AI.NavMeshModifierVolume",
+            "UnityEngine.AI.NavMeshSurface"
+          ],
+          "namespaces": [
+            "UnityEditor.AI",
+            "UnityEngine.AI"
+          ],
+          "sourceSetSha256": "940a3840f9f085221b4e0ecb1af8b2090d16401ac9db9c35456dbf87f71997ef",
+          "profileVerified": false,
+          "sourcePath": "Assets/NavMeshComponents",
+          "basis": "file-path-scoped-original-manifest",
+          "sourceSetNonEmpty": true,
+          "binaryFingerprints": []
+        }
+      },
+      "fetchStatus": "published",
       "versionStatus": "prerelease",
       "componentScope": {
         "sourcePath": "Assets/NavMeshComponents",
         "archiveScope": "complete-original-repository-archive",
         "targetComponentEquivalenceVerified": false
-      }
+      },
+      "packageId": "NavMeshComponents",
+      "collectedAt": "2026-10-18T05:33:44.453739Z",
+      "publicationStatus": "verified"
     },
     {
       "version": "2019.4.0f1",
@@ -48,22 +403,377 @@
       "sourceTag": "2019.4.0f1",
       "versionBasis": "official-repository-tag-not-target-equivalence",
       "downloadUrl": "https://codeload.github.com/Unity-Technologies/NavMeshComponents/tar.gz/f173ee3cce45dc00ab4aa7f5c0016b6b5cb7477b",
-      "disposition": "license-unresolved",
+      "disposition": "mirror-allowed",
       "license": {
-        "expression": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "MIT",
+        "evidenceUrl": "https://codeload.github.com/Unity-Technologies/NavMeshComponents/tar.gz/f173ee3cce45dc00ab4aa7f5c0016b6b5cb7477b#NavMeshComponents-f173ee3cce45dc00ab4aa7f5c0016b6b5cb7477b/LICENSE",
+        "sha256": "8ff2aeedfc43211d085e27fc057a2c4c58d665808e2369a97cc43099dc390afb",
+        "text": "The MIT License (MIT)\n\nCopyright (c) 2016, Unity Technologies\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n",
+        "components": [
+          {
+            "path": "LICENSE",
+            "expression": "MIT",
+            "sha256": "8ff2aeedfc43211d085e27fc057a2c4c58d665808e2369a97cc43099dc390afb",
+            "evidenceUrl": "https://codeload.github.com/Unity-Technologies/NavMeshComponents/tar.gz/f173ee3cce45dc00ab4aa7f5c0016b6b5cb7477b#NavMeshComponents-f173ee3cce45dc00ab4aa7f5c0016b6b5cb7477b/LICENSE",
+            "text": "The MIT License (MIT)\n\nCopyright (c) 2016, Unity Technologies\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:33:47.730969Z",
+        "decisionBasis": [
+          "Recognized permissive root grant; all detected license documents reviewed; no detected native SDK components"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "599b59ee9fff1a2e4cabd557c378fe2afde75986b81e9fa11bc91df46bc0e547",
+        "size": 3224545,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-59/599b59ee9fff1a2e4cabd557c378fe2afde75986b81e9fa11bc91df46bc0e547.tar.gz",
+        "verifiedRemote": true,
+        "assetId": "RA_kwDOVNoTL84m5bMK",
+        "releaseTag": "objects-59",
+        "licenseUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-59/599b59ee9fff1a2e4cabd557c378fe2afde75986b81e9fa11bc91df46bc0e547.license-4c29342367daab2c.json",
+        "licenseSha256": "4c29342367daab2c7c560033b12434a504036c1ec0b1fcb1693852512bc1a2c5",
+        "licenseAssetId": "RA_kwDOVNoTL84m5bMq"
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "39263e1a8b004b57a492629cb2a8ad338815656b8ddb476737ce5be18ea599ec",
+        "artifactSha256": "599b59ee9fff1a2e4cabd557c378fe2afde75986b81e9fa11bc91df46bc0e547",
+        "artifactSize": 3224545,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "UnityEditor.AI",
+          "UnityEngine.AI"
+        ],
+        "types": [
+          "AgentLinkMover",
+          "ClickToMove",
+          "DestroyOnTrigger",
+          "DungeonManager",
+          "EnableIffSleeping",
+          "FreeCam",
+          "FreeCam+RotationAxes",
+          "LocalNavMeshBuilder",
+          "MeshTool",
+          "MeshTool+ExtrudeMethod",
+          "NavMeshModifierVolumeInPrefabTests",
+          "NavMeshPrefabInstance",
+          "NavMeshPrefabInstanceEditor",
+          "NavMeshSourceTag",
+          "NavMeshSurfaceAgentTests",
+          "NavMeshSurfaceInPrefabTests",
+          "NavMeshSurfaceInPrefabVariantTests",
+          "NavMeshSurfaceLinkTests",
+          "NavMeshSurfaceModifierTests",
+          "NavMeshSurfaceModifierVolumeTests",
+          "NavMeshSurfaceTests",
+          "OffMeshLinkMoveMethod",
+          "Oscillator",
+          "PrefabSavingUtil",
+          "PrefabStageAutoSavingUtil",
+          "RandomInstancing",
+          "RandomWalk",
+          "SpawnPrefabOnKeyDown",
+          "UnityEditor.AI.NavMeshAssetManager",
+          "UnityEditor.AI.NavMeshAssetManager+AsyncBakeOperation",
+          "UnityEditor.AI.NavMeshAssetManager+SavedPrefabNavMeshData",
+          "UnityEditor.AI.NavMeshComponentsGUIUtility",
+          "UnityEditor.AI.NavMeshLinkEditor",
+          "UnityEditor.AI.NavMeshModifierEditor",
+          "UnityEditor.AI.NavMeshModifierVolumeEditor",
+          "UnityEditor.AI.NavMeshSurfaceEditor",
+          "UnityEditor.AI.NavMeshSurfaceEditor+Styles",
+          "UnityEngine.AI.CollectObjects",
+          "UnityEngine.AI.NavMeshLink",
+          "UnityEngine.AI.NavMeshModifier",
+          "UnityEngine.AI.NavMeshModifierVolume",
+          "UnityEngine.AI.NavMeshSurface"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "NavMeshComponents",
+            "path": "Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef",
+            "guid": "8c4dd21966739024fbd72155091d199e",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [],
+            "types": [
+              "UnityEngine.AI.CollectObjects",
+              "UnityEngine.AI.NavMeshLink",
+              "UnityEngine.AI.NavMeshModifier",
+              "UnityEngine.AI.NavMeshModifierVolume",
+              "UnityEngine.AI.NavMeshSurface"
+            ]
+          },
+          {
+            "name": "NavMeshComponentsEditor",
+            "path": "Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef",
+            "guid": "86c9d8e67265f41469be06142c397d17",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "NavMeshComponents"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEditor.AI.NavMeshAssetManager",
+              "UnityEditor.AI.NavMeshAssetManager+AsyncBakeOperation",
+              "UnityEditor.AI.NavMeshAssetManager+SavedPrefabNavMeshData",
+              "UnityEditor.AI.NavMeshComponentsGUIUtility",
+              "UnityEditor.AI.NavMeshLinkEditor",
+              "UnityEditor.AI.NavMeshModifierEditor",
+              "UnityEditor.AI.NavMeshModifierVolumeEditor",
+              "UnityEditor.AI.NavMeshSurfaceEditor",
+              "UnityEditor.AI.NavMeshSurfaceEditor+Styles"
+            ]
+          },
+          {
+            "name": "NavMeshComponentsExamples",
+            "path": "Assets/Examples/NavMeshComponentsExamples.asmdef",
+            "guid": "62b574997e92efd41a8a1109157a0cb5",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "NavMeshComponents"
+            ],
+            "profileIssues": [],
+            "types": [
+              "AgentLinkMover",
+              "ClickToMove",
+              "DestroyOnTrigger",
+              "DungeonManager",
+              "EnableIffSleeping",
+              "FreeCam",
+              "FreeCam+RotationAxes",
+              "LocalNavMeshBuilder",
+              "MeshTool",
+              "MeshTool+ExtrudeMethod",
+              "NavMeshPrefabInstance",
+              "NavMeshSourceTag",
+              "OffMeshLinkMoveMethod",
+              "Oscillator",
+              "RandomInstancing",
+              "RandomWalk",
+              "SpawnPrefabOnKeyDown"
+            ]
+          },
+          {
+            "name": "NavMeshComponentsExamplesEditor",
+            "path": "Assets/Examples/Editor/NavMeshComponentsExamplesEditor.asmdef",
+            "guid": "a7ee44b1baf6b0b4cbdf2079057c7f85",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "NavMeshComponentsExamples"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "NavMeshPrefabInstanceEditor"
+            ]
+          },
+          {
+            "name": "NavMeshComponentsTestsEditmode",
+            "path": "Assets/Tests/Editor/NavMeshComponentsTestsEditmode.asmdef",
+            "guid": "794824b4a8f003f47a92875e8342f790",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "NavMeshComponents",
+              "NavMeshComponentsEditor"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "NavMeshModifierVolumeInPrefabTests",
+              "NavMeshSurfaceInPrefabTests",
+              "NavMeshSurfaceInPrefabVariantTests",
+              "PrefabSavingUtil",
+              "PrefabStageAutoSavingUtil"
+            ]
+          },
+          {
+            "name": "NavMeshComponentsTestsPlaymode",
+            "path": "Assets/Tests/NavMeshComponentsTestsPlaymode.asmdef",
+            "guid": "455cd750f394b1c41b963b3335eae29c",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "NavMeshComponents"
+            ],
+            "profileIssues": [],
+            "types": [
+              "NavMeshSurfaceAgentTests",
+              "NavMeshSurfaceLinkTests",
+              "NavMeshSurfaceModifierTests",
+              "NavMeshSurfaceModifierVolumeTests",
+              "NavMeshSurfaceTests"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/599b59ee9fff1a2e4cabd557c378fe2afde75986b81e9fa11bc91df46bc0e547-595fb35e69ff.json.gz",
+          "sha256": "90b4d441fe7c520298997e0e6f46b54c528edd6246dc628755e637c0bdc45246",
+          "size": 14176,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 233,
+        "sourceFileCount": 35,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 12,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": [],
+        "componentIndex": {
+          "assemblies": [
+            {
+              "name": "NavMeshComponents",
+              "path": "Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef",
+              "guid": "8c4dd21966739024fbd72155091d199e",
+              "ownershipVerified": true,
+              "profileVerified": false,
+              "active": true,
+              "includePlatforms": [],
+              "excludePlatforms": [],
+              "defineConstraints": [],
+              "versionDefines": [],
+              "references": [],
+              "profileIssues": [],
+              "types": [
+                "UnityEngine.AI.CollectObjects",
+                "UnityEngine.AI.NavMeshLink",
+                "UnityEngine.AI.NavMeshModifier",
+                "UnityEngine.AI.NavMeshModifierVolume",
+                "UnityEngine.AI.NavMeshSurface"
+              ]
+            },
+            {
+              "name": "NavMeshComponentsEditor",
+              "path": "Assets/NavMeshComponents/Editor/NavMeshComponentsEditor.asmdef",
+              "guid": "86c9d8e67265f41469be06142c397d17",
+              "ownershipVerified": true,
+              "profileVerified": false,
+              "active": null,
+              "includePlatforms": [
+                "Editor"
+              ],
+              "excludePlatforms": [],
+              "defineConstraints": [],
+              "versionDefines": [],
+              "references": [
+                "NavMeshComponents"
+              ],
+              "profileIssues": [
+                "unknown-platform"
+              ],
+              "types": [
+                "UnityEditor.AI.NavMeshAssetManager",
+                "UnityEditor.AI.NavMeshAssetManager+AsyncBakeOperation",
+                "UnityEditor.AI.NavMeshAssetManager+SavedPrefabNavMeshData",
+                "UnityEditor.AI.NavMeshComponentsGUIUtility",
+                "UnityEditor.AI.NavMeshLinkEditor",
+                "UnityEditor.AI.NavMeshModifierEditor",
+                "UnityEditor.AI.NavMeshModifierVolumeEditor",
+                "UnityEditor.AI.NavMeshSurfaceEditor",
+                "UnityEditor.AI.NavMeshSurfaceEditor+Styles"
+              ]
+            }
+          ],
+          "types": [
+            "UnityEditor.AI.NavMeshAssetManager",
+            "UnityEditor.AI.NavMeshAssetManager+AsyncBakeOperation",
+            "UnityEditor.AI.NavMeshAssetManager+SavedPrefabNavMeshData",
+            "UnityEditor.AI.NavMeshComponentsGUIUtility",
+            "UnityEditor.AI.NavMeshLinkEditor",
+            "UnityEditor.AI.NavMeshModifierEditor",
+            "UnityEditor.AI.NavMeshModifierVolumeEditor",
+            "UnityEditor.AI.NavMeshSurfaceEditor",
+            "UnityEditor.AI.NavMeshSurfaceEditor+Styles",
+            "UnityEngine.AI.CollectObjects",
+            "UnityEngine.AI.NavMeshLink",
+            "UnityEngine.AI.NavMeshModifier",
+            "UnityEngine.AI.NavMeshModifierVolume",
+            "UnityEngine.AI.NavMeshSurface"
+          ],
+          "namespaces": [
+            "UnityEditor.AI",
+            "UnityEngine.AI"
+          ],
+          "sourceSetSha256": "940a3840f9f085221b4e0ecb1af8b2090d16401ac9db9c35456dbf87f71997ef",
+          "profileVerified": false,
+          "sourcePath": "Assets/NavMeshComponents",
+          "basis": "file-path-scoped-original-manifest",
+          "sourceSetNonEmpty": true,
+          "binaryFingerprints": []
+        }
+      },
+      "fetchStatus": "published",
       "versionStatus": "prerelease",
       "componentScope": {
         "sourcePath": "Assets/NavMeshComponents",
         "archiveScope": "complete-original-repository-archive",
         "targetComponentEquivalenceVerified": false
-      }
+      },
+      "packageId": "NavMeshComponents",
+      "collectedAt": "2026-10-18T05:33:47.792081Z",
+      "publicationStatus": "verified"
     }
   ],
   "metadataStatus": "complete",

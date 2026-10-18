@@ -25,14 +25,275 @@
       "disposition": "license-unresolved",
       "license": {
         "expression": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "evidenceUrl": "https://codeload.github.com/endel/NativeWebSocket/tar.gz/16b5faab16aeece6aa4c5dced47e67745872e9d9#NativeWebSocket-16b5faab16aeece6aa4c5dced47e67745872e9d9/LICENSE",
+        "sha256": "50e754644c6bf26a359a7d278a660625344243342087de19fb8c9c90147307f8",
+        "text": "Copyright 2019 Endel Dreyer <endel.dreyer@gmail.com>\nCopyright 2018 Jiri Hybek <jiri@hybek.cz>\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n\n",
+        "components": [
+          {
+            "path": "LICENSE",
+            "expression": null,
+            "sha256": "50e754644c6bf26a359a7d278a660625344243342087de19fb8c9c90147307f8",
+            "evidenceUrl": "https://codeload.github.com/endel/NativeWebSocket/tar.gz/16b5faab16aeece6aa4c5dced47e67745872e9d9#NativeWebSocket-16b5faab16aeece6aa4c5dced47e67745872e9d9/LICENSE",
+            "text": "Copyright 2019 Endel Dreyer <endel.dreyer@gmail.com>\nCopyright 2018 Jiri Hybek <jiri@hybek.cz>\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n\n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:33:43.818233Z",
+        "decisionBasis": [
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "8d823d8ff7b0ff35a4859f33449e5db7630c2cd9340ce83283eee3d5080bd6f0",
+        "size": 294964,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://codeload.github.com/endel/NativeWebSocket/tar.gz/16b5faab16aeece6aa4c5dced47e67745872e9d9",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "c4356e781bdaf1a556c7f9e32e17e9a4f52d102a00e71d98900542c22b8c25a0",
+        "artifactSha256": "8d823d8ff7b0ff35a4859f33449e5db7630c2cd9340ce83283eee3d5080bd6f0",
+        "artifactSize": 294964,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "MonoGameExample",
+          "NativeWebSocket",
+          "NativeWebSocket.Legacy",
+          "NativeWebSocket.MonoGame"
+        ],
+        "types": [
+          "BenchmarkBatchRunner",
+          "BenchmarkLogger",
+          "BenchmarkRunner",
+          "BenchmarkStats",
+          "BurstBench",
+          "Connection",
+          "FrameTimeBench",
+          "GCAllocBench",
+          "IBenchSocket",
+          "LatencyBench",
+          "MainThreadUtil",
+          "MonoGameExample.Game1",
+          "NativeWebSocket.IWebSocket",
+          "NativeWebSocket.Legacy.WaitForBackgroundThread",
+          "NativeWebSocket.Legacy.WebSocket",
+          "NativeWebSocket.Legacy.WebSocketCloseCode",
+          "NativeWebSocket.Legacy.WebSocketHelpers",
+          "NativeWebSocket.Legacy.WebSocketState",
+          "NativeWebSocket.Legacy.void",
+          "NativeWebSocket.MonoGame.SingleThreadSynchronizationContext",
+          "NativeWebSocket.MonoGame.WebSocketGameComponent",
+          "NativeWebSocket.WaitForBackgroundThread",
+          "NativeWebSocket.WebSocket",
+          "NativeWebSocket.WebSocketCloseCode",
+          "NativeWebSocket.WebSocketException",
+          "NativeWebSocket.WebSocketFactory",
+          "NativeWebSocket.WebSocketFactory+void",
+          "NativeWebSocket.WebSocketHelpers",
+          "NativeWebSocket.WebSocketInvalidArgumentException",
+          "NativeWebSocket.WebSocketInvalidStateException",
+          "NativeWebSocket.WebSocketState",
+          "NativeWebSocket.WebSocketUnexpectedException",
+          "NativeWebSocket.void",
+          "NewSocket",
+          "OldSocket",
+          "Program",
+          "Stats",
+          "ThroughputBench",
+          "WaitForUpdate",
+          "WaitForUpdate+MainThreadAwaiter",
+          "WebSocketExample",
+          "volatile_bool"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/BenchmarkBatchRunner.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/BenchmarkLogger.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/BenchmarkRunner.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/BenchmarkStats.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/BurstBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/FrameTimeBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/GCAllocBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/LatencyBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/ThroughputBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/NativeWebSocket/IWebSocket.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/NativeWebSocket/WebSocket.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/NativeWebSocket/WebSocketTypes.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/BenchmarkBatchRunner.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/BenchmarkLogger.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/BenchmarkRunner.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/BenchmarkStats.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/BurstBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/FrameTimeBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/GCAllocBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/LatencyBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/ThroughputBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/WebSocket/WebSocket.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/ConsoleRunner/OldImpl/WebSocket.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/ConsoleRunner/Program.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "examples/Godot/WebSocketExample.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "examples/MonoGame/Game1.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "examples/MonoGame/Program.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "examples/Unity/Connection.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "integrations/Godot/Example.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "integrations/MonoGame/WebSocketGameComponent.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/NativeWebSocket/IWebSocket.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/NativeWebSocket/WebSocket.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/NativeWebSocket/WebSocketTypes.cs"
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "colyseus.nativewebsocket",
+            "path": "integrations/Unity/colyseus.nativewebsocket.asmdef",
+            "guid": null,
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [],
+            "types": [
+              "Connection",
+              "NativeWebSocket.WebSocket",
+              "NativeWebSocket.WebSocketFactory",
+              "NativeWebSocket.WebSocketFactory+void"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/8d823d8ff7b0ff35a4859f33449e5db7630c2cd9340ce83283eee3d5080bd6f0-595fb35e69ff.json.gz",
+          "sha256": "262ddeba193772e664d99de1597fa2492453671915350a52b51fabd2f96e88f0",
+          "size": 4607,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 66,
+        "sourceFileCount": 36,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 9,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
+      "versionStatus": "stable",
+      "packageId": "NativeWebSocket",
+      "collectedAt": "2026-10-18T05:33:43.847657Z"
     },
     {
       "version": "2.0.7",
@@ -46,14 +307,275 @@
       "disposition": "license-unresolved",
       "license": {
         "expression": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "evidenceUrl": "https://codeload.github.com/endel/NativeWebSocket/tar.gz/d516a8b378e233514ba0096c4502679cfaf67e5d#NativeWebSocket-d516a8b378e233514ba0096c4502679cfaf67e5d/LICENSE",
+        "sha256": "50e754644c6bf26a359a7d278a660625344243342087de19fb8c9c90147307f8",
+        "text": "Copyright 2019 Endel Dreyer <endel.dreyer@gmail.com>\nCopyright 2018 Jiri Hybek <jiri@hybek.cz>\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n\n",
+        "components": [
+          {
+            "path": "LICENSE",
+            "expression": null,
+            "sha256": "50e754644c6bf26a359a7d278a660625344243342087de19fb8c9c90147307f8",
+            "evidenceUrl": "https://codeload.github.com/endel/NativeWebSocket/tar.gz/d516a8b378e233514ba0096c4502679cfaf67e5d#NativeWebSocket-d516a8b378e233514ba0096c4502679cfaf67e5d/LICENSE",
+            "text": "Copyright 2019 Endel Dreyer <endel.dreyer@gmail.com>\nCopyright 2018 Jiri Hybek <jiri@hybek.cz>\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n\n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:33:44.004665Z",
+        "decisionBasis": [
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "047d9df342f8804106ad6f2b370242ca0ec45dbcfb24c8ae1b5558b4dd3cb0a2",
+        "size": 295702,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://codeload.github.com/endel/NativeWebSocket/tar.gz/d516a8b378e233514ba0096c4502679cfaf67e5d",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "005bc535a5580807721b68c66fba0311b0ed618512ed04736d2a2bfaa332e924",
+        "artifactSha256": "047d9df342f8804106ad6f2b370242ca0ec45dbcfb24c8ae1b5558b4dd3cb0a2",
+        "artifactSize": 295702,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "MonoGameExample",
+          "NativeWebSocket",
+          "NativeWebSocket.Legacy",
+          "NativeWebSocket.MonoGame"
+        ],
+        "types": [
+          "BenchmarkBatchRunner",
+          "BenchmarkLogger",
+          "BenchmarkRunner",
+          "BenchmarkStats",
+          "BurstBench",
+          "Connection",
+          "FrameTimeBench",
+          "GCAllocBench",
+          "IBenchSocket",
+          "LatencyBench",
+          "MainThreadUtil",
+          "MonoGameExample.Game1",
+          "NativeWebSocket.IWebSocket",
+          "NativeWebSocket.Legacy.WaitForBackgroundThread",
+          "NativeWebSocket.Legacy.WebSocket",
+          "NativeWebSocket.Legacy.WebSocketCloseCode",
+          "NativeWebSocket.Legacy.WebSocketHelpers",
+          "NativeWebSocket.Legacy.WebSocketState",
+          "NativeWebSocket.Legacy.void",
+          "NativeWebSocket.MonoGame.SingleThreadSynchronizationContext",
+          "NativeWebSocket.MonoGame.WebSocketGameComponent",
+          "NativeWebSocket.WaitForBackgroundThread",
+          "NativeWebSocket.WebSocket",
+          "NativeWebSocket.WebSocketCloseCode",
+          "NativeWebSocket.WebSocketException",
+          "NativeWebSocket.WebSocketFactory",
+          "NativeWebSocket.WebSocketFactory+void",
+          "NativeWebSocket.WebSocketHelpers",
+          "NativeWebSocket.WebSocketInvalidArgumentException",
+          "NativeWebSocket.WebSocketInvalidStateException",
+          "NativeWebSocket.WebSocketState",
+          "NativeWebSocket.WebSocketUnexpectedException",
+          "NativeWebSocket.void",
+          "NewSocket",
+          "OldSocket",
+          "Program",
+          "Stats",
+          "ThroughputBench",
+          "WaitForUpdate",
+          "WaitForUpdate+MainThreadAwaiter",
+          "WebSocketExample",
+          "volatile_bool"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/BenchmarkBatchRunner.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/BenchmarkLogger.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/BenchmarkRunner.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/BenchmarkStats.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/BurstBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/FrameTimeBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/GCAllocBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/LatencyBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/Benchmark/ThroughputBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/NativeWebSocket/IWebSocket.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/NativeWebSocket/WebSocket.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkNew/Assets/NativeWebSocket/WebSocketTypes.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/BenchmarkBatchRunner.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/BenchmarkLogger.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/BenchmarkRunner.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/BenchmarkStats.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/BurstBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/FrameTimeBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/GCAllocBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/LatencyBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/Benchmark/ThroughputBench.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/BenchmarkOld/Assets/WebSocket/WebSocket.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/ConsoleRunner/OldImpl/WebSocket.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "benchmarks/ConsoleRunner/Program.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "examples/Godot/WebSocketExample.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "examples/MonoGame/Game1.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "examples/MonoGame/Program.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "examples/Unity/Connection.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "integrations/Godot/Example.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "integrations/MonoGame/WebSocketGameComponent.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/NativeWebSocket/IWebSocket.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/NativeWebSocket/WebSocket.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "src/NativeWebSocket/WebSocketTypes.cs"
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "colyseus.nativewebsocket",
+            "path": "integrations/Unity/colyseus.nativewebsocket.asmdef",
+            "guid": null,
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [],
+            "types": [
+              "Connection",
+              "NativeWebSocket.WebSocket",
+              "NativeWebSocket.WebSocketFactory",
+              "NativeWebSocket.WebSocketFactory+void"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/047d9df342f8804106ad6f2b370242ca0ec45dbcfb24c8ae1b5558b4dd3cb0a2-595fb35e69ff.json.gz",
+          "sha256": "c27eb5f634d020baacf80e49543dcbd3485a0b313ea007fded4dfe01bb77a037",
+          "size": 4606,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 66,
+        "sourceFileCount": 36,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 9,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
+      "versionStatus": "stable",
+      "packageId": "NativeWebSocket",
+      "collectedAt": "2026-10-18T05:33:44.033803Z"
     }
   ],
   "metadataStatus": "complete",

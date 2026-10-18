@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-18T05:33:41.484848Z",
+  "generatedAt": "2026-10-18T05:34:16.418844Z",
   "sourceSnapshots": [
     {
       "source": "common-packages.json",
@@ -1593,6 +1593,104 @@
       },
       {
         "parent": {
+          "packageId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "version": "8.0.1",
+          "variantId": "nuget",
+          "archiveSha256": "9734d82e9443022df05bdb91ae44cd26d32669876d1892477412db50abbad0f3",
+          "nuspecSha256": "1ed9fd0c77d67cc75208b3268df565762916a992f3e246973430dbd77ede2413"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "Microsoft.Bcl.AsyncInterfaces",
+                "version": "8.0.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Threading.Tasks.Extensions",
+                "version": "4.5.4",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "6a9d00644284de6bdf5f78cf12560a771129caa11910bf5f823ec9e476ad6244",
+            "size": 64160
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "Microsoft.Bcl.AsyncInterfaces",
+            "version": "8.0.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "8.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Threading.Tasks.Extensions",
+            "version": "4.5.4",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "version": "8.0.1",
+          "variantId": "nuget",
+          "archiveSha256": "9734d82e9443022df05bdb91ae44cd26d32669876d1892477412db50abbad0f3",
+          "nuspecSha256": "1ed9fd0c77d67cc75208b3268df565762916a992f3e246973430dbd77ede2413"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.1",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+            "targetFramework": "netstandard2.1",
+            "kind": "lib",
+            "sha256": "23f9b73220ab127daff8ce4792c1928d4806f17e10b54293ddb76f482bbc667a",
+            "size": 64176
+          }
+        ],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
           "packageId": "Microsoft.Extensions.Logging.Abstractions",
           "version": "8.0.0",
           "variantId": "nuget",
@@ -2641,21 +2739,21 @@
   },
   "listedVersions": 285,
   "selectedVersionTasks": 235,
-  "completedSelectedVersionTasks": 126,
-  "pendingSelectedVersionTasks": 109,
-  "fetchedVersionRecords": 126,
-  "publishedVersionRecords": 17,
-  "remoteReadbackVerifiedVersionRecords": 17,
+  "completedSelectedVersionTasks": 136,
+  "pendingSelectedVersionTasks": 99,
+  "fetchedVersionRecords": 136,
+  "publishedVersionRecords": 19,
+  "remoteReadbackVerifiedVersionRecords": 19,
   "dispositionCounts": {
-    "official-fetch-only": 135,
-    "license-unresolved": 125,
-    "mirror-allowed": 17,
+    "official-fetch-only": 141,
+    "license-unresolved": 117,
+    "mirror-allowed": 19,
     "builtin-reference": 28
   },
   "fetchStatusCounts": {
-    "collected": 109,
-    "published": 17,
-    "pending": 108,
+    "collected": 117,
+    "published": 19,
+    "pending": 98,
     "reference-only": 50,
     "fetch-failed": 1
   },
