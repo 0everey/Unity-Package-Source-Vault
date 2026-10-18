@@ -236,6 +236,10 @@ def license_expression(text):
         return "LicenseRef-Unity-Reference-Only"
     if "unity companion license" in lower:
         return "LicenseRef-Unity-Companion"
+    if re.search(r"\bfmod end user licen[cs]e agreement\b",lower) and "firelight technologies" in lower:
+        # Governing EULA first: its Vorbis/Android BSD and Resonance appendices
+        # do not grant those terms over the complete FMOD document or SDK.
+        return "LicenseRef-FMOD-EULA"
     if "spine runtimes license" in lower or "spine runtime software license" in lower:
         return "LicenseRef-Spine-Runtimes"
     if "primetween" in lower and any(word in lower for word in ("prohibit", "not permitted", "not allowed", "may not", "must not")):
@@ -450,6 +454,7 @@ def collect_version(package, version, *, publish=None):
     """
     record = copy.deepcopy(version)
     record["packageId"] = package["id"]
+    pinned_git = package.get("adapter")=="github" and bool(re.fullmatch(r"[0-9a-fA-F]{40}",str(record.get("sourceRef",""))))
     url = record.get("downloadUrl")
     if not url:
         record["fetchStatus"] = "source-unavailable"
@@ -465,28 +470,38 @@ def collect_version(package, version, *, publish=None):
         rights = inspect_licenses(data, archive_format, record)
         review = _find_component_review(record, _sha(data))
         if review:
-            record["sourceRef"] = review["sourceRef"]
-            record["sourceUrl"] = review["sourceUrl"]
-            record["sourceRefEvidence"] = {"kind": "reviewed-archive-upstream-code-equality", "archiveSha256": review["archiveSha256"], "comparison": review["upstreamComparison"]}
+            if pinned_git:
+                record.setdefault("embeddedRepositoryObservations",[]).append({"kind":"reviewed-component-upstream-source","sourceRef":review["sourceRef"],"sourceUrl":review["sourceUrl"],"archiveSourceAuthority":False})
+            else:
+                record["sourceRef"] = review["sourceRef"]
+                record["sourceUrl"] = review["sourceUrl"]
+                record["sourceRefEvidence"] = {"kind": "reviewed-archive-upstream-code-equality", "archiveSha256": review["archiveSha256"], "comparison": review["upstreamComparison"]}
             rights = inspect_licenses(data, archive_format, record, upstream_license=review["licenseEvidence"], component_review=review)
         manifest = rights["packageManifest"]
         if manifest.get("name") == package["id"] and manifest.get("version") == record["version"]:
             repository = manifest.get("repository") or {}
             if isinstance(repository, dict) and re.fullmatch(r"[0-9a-fA-F]{40}", str(repository.get("revision", ""))):
-                record["sourceRef"] = repository["revision"]
-                record["sourceUrl"] = sources._repo_url(repository).removesuffix(".git")
-                record["sourceRefEvidence"] = {"kind": "archive-package-json", "sha256": manifest["sha256"]}
+                if pinned_git:
+                    record.setdefault("embeddedRepositoryObservations",[]).append({"kind":"archive-package-json-repository","repository":copy.deepcopy(repository),"manifestSha256":manifest["sha256"],"archiveSourceAuthority":False})
+                else:
+                    record["sourceRef"] = repository["revision"]
+                    record["sourceUrl"] = sources._repo_url(repository).removesuffix(".git")
+                    record["sourceRefEvidence"] = {"kind": "archive-package-json", "sha256": manifest["sha256"]}
             if not rights["license"].get("expression"):
                 evidence = _pinned_upstream_license(record, manifest)
                 if evidence:
                     rights = inspect_licenses(data, archive_format, record, upstream_license=evidence)
         record["license"], record["disposition"] = rights["license"], rights["disposition"]
-        if rights["nuspec"]:
+        if rights["nuspec"] and archive_format != "nupkg":
+            record["embeddedNugetMetadata"]={"observation":copy.deepcopy(rights["nuspec"]),
+                "scope":"embedded-nuspec-not-archive-source-or-current-package-authority","archiveSourceAuthority":False}
+            record.pop("nuget",None)
+        elif rights["nuspec"]:
             record["nuget"] = rights["nuspec"]
             repo = rights["nuspec"].get("repository", {})
-            if repo.get("url"):
+            if repo.get("url") and not pinned_git:
                 record["sourceUrl"] = repo["url"]
-            if repo.get("commit"):
+            if repo.get("commit") and not pinned_git:
                 record["sourceRef"] = repo["commit"]
         from .inventory import fingerprint_archive
         fingerprint = fingerprint_archive(data, archive_format)

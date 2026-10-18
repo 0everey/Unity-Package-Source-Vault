@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-18T05:41:24.984301Z",
+  "generatedAt": "2026-10-18T06:13:28.238968Z",
   "sourceSnapshots": [
     {
       "source": "common-packages.json",
@@ -275,98 +275,6 @@
     "frameworkPolicy": "netstandard2.0/2.1 only; explicit 2.0 fallback candidate, never reference verification",
     "completeClosure": false,
     "parents": [
-      {
-        "parent": {
-          "packageId": "FishNet",
-          "version": "4.7.3",
-          "variantId": "git-73f30cf2425d",
-          "archiveSha256": "b45794ea1a326d7dc5e57045b04ba9b3d70c85a69db11827912ba8efe9c1e4bb",
-          "nuspecSha256": "9c120071b38240b2cf274e81543cb4bf2757f8d215d97297709e5c160480c13d"
-        },
-        "requestedFramework": "netstandard2.0",
-        "status": "declared-framework-candidate",
-        "dependencyGroups": [
-          {
-            "targetFramework": ".NETStandard2.0",
-            "dependencies": []
-          }
-        ],
-        "assets": [],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "FishNet",
-          "version": "4.7.3",
-          "variantId": "git-73f30cf2425d",
-          "archiveSha256": "b45794ea1a326d7dc5e57045b04ba9b3d70c85a69db11827912ba8efe9c1e4bb",
-          "nuspecSha256": "9c120071b38240b2cf274e81543cb4bf2757f8d215d97297709e5c160480c13d"
-        },
-        "requestedFramework": "netstandard2.1",
-        "status": "explicit-compatible-fallback-candidate",
-        "dependencyGroups": [
-          {
-            "targetFramework": ".NETStandard2.0",
-            "dependencies": []
-          }
-        ],
-        "assets": [],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "FishNet",
-          "version": "4.7.4",
-          "variantId": "git-a3627529c187",
-          "archiveSha256": "a9a57c0f7e634e3e2856fa9060468a240fa336eb0af59e6f71e22d73422b8ecc",
-          "nuspecSha256": "9c120071b38240b2cf274e81543cb4bf2757f8d215d97297709e5c160480c13d"
-        },
-        "requestedFramework": "netstandard2.0",
-        "status": "declared-framework-candidate",
-        "dependencyGroups": [
-          {
-            "targetFramework": ".NETStandard2.0",
-            "dependencies": []
-          }
-        ],
-        "assets": [],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "FishNet",
-          "version": "4.7.4",
-          "variantId": "git-a3627529c187",
-          "archiveSha256": "a9a57c0f7e634e3e2856fa9060468a240fa336eb0af59e6f71e22d73422b8ecc",
-          "nuspecSha256": "9c120071b38240b2cf274e81543cb4bf2757f8d215d97297709e5c160480c13d"
-        },
-        "requestedFramework": "netstandard2.1",
-        "status": "explicit-compatible-fallback-candidate",
-        "dependencyGroups": [
-          {
-            "targetFramework": ".NETStandard2.0",
-            "dependencies": []
-          }
-        ],
-        "assets": [],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
       {
         "parent": {
           "packageId": "Grpc.Core",
@@ -2227,88 +2135,6 @@
       },
       {
         "parent": {
-          "packageId": "Steamworks.NET",
-          "version": "20.2.0",
-          "variantId": "git-a3fe8091f723",
-          "archiveSha256": "46c0fa6282d64e2d8a66633c7633eab77feecd560feb373f8f2191376e846175",
-          "nuspecSha256": "b134b6b4ce9106cd715a4d0cedf50a97e07d9e7740e1f12164e621f1fa698dd9"
-        },
-        "requestedFramework": "netstandard2.0",
-        "status": "framework-group-unavailable",
-        "dependencyGroups": [],
-        "assets": [],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "Steamworks.NET",
-          "version": "20.2.0",
-          "variantId": "git-a3fe8091f723",
-          "archiveSha256": "46c0fa6282d64e2d8a66633c7633eab77feecd560feb373f8f2191376e846175",
-          "nuspecSha256": "b134b6b4ce9106cd715a4d0cedf50a97e07d9e7740e1f12164e621f1fa698dd9"
-        },
-        "requestedFramework": "netstandard2.1",
-        "status": "declared-framework-candidate",
-        "dependencyGroups": [
-          {
-            "targetFramework": "netstandard2.1",
-            "dependencies": []
-          }
-        ],
-        "assets": [],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "Steamworks.NET",
-          "version": "2025.164.1",
-          "variantId": "git-c21a8f0e31c5",
-          "archiveSha256": "d713131cb981c23c4ac35f825d5c86a7203db311bc3fcea53f7444b458fadb53",
-          "nuspecSha256": "b134b6b4ce9106cd715a4d0cedf50a97e07d9e7740e1f12164e621f1fa698dd9"
-        },
-        "requestedFramework": "netstandard2.0",
-        "status": "framework-group-unavailable",
-        "dependencyGroups": [],
-        "assets": [],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "Steamworks.NET",
-          "version": "2025.164.1",
-          "variantId": "git-c21a8f0e31c5",
-          "archiveSha256": "d713131cb981c23c4ac35f825d5c86a7203db311bc3fcea53f7444b458fadb53",
-          "nuspecSha256": "b134b6b4ce9106cd715a4d0cedf50a97e07d9e7740e1f12164e621f1fa698dd9"
-        },
-        "requestedFramework": "netstandard2.1",
-        "status": "declared-framework-candidate",
-        "dependencyGroups": [
-          {
-            "targetFramework": "netstandard2.1",
-            "dependencies": []
-          }
-        ],
-        "assets": [],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
           "packageId": "System.Buffers",
           "version": "4.5.1",
           "variantId": "nuget",
@@ -3075,78 +2901,6 @@
             "size": 18024
           }
         ],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "Zenject",
-          "version": "6.5.0",
-          "variantId": "git-07100a8fc698",
-          "archiveSha256": "bf5796ab72581c72a384c65f311384c8435202ea2d58090fa1f26b21798dacaa",
-          "nuspecSha256": "f65aca3f185b7812e7687bd09d7bf222f3f7924a68dd0c67b150c0cd3291a8f9"
-        },
-        "requestedFramework": "netstandard2.0",
-        "status": "framework-group-unavailable",
-        "dependencyGroups": [],
-        "assets": [],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "Zenject",
-          "version": "6.5.0",
-          "variantId": "git-07100a8fc698",
-          "archiveSha256": "bf5796ab72581c72a384c65f311384c8435202ea2d58090fa1f26b21798dacaa",
-          "nuspecSha256": "f65aca3f185b7812e7687bd09d7bf222f3f7924a68dd0c67b150c0cd3291a8f9"
-        },
-        "requestedFramework": "netstandard2.1",
-        "status": "framework-group-unavailable",
-        "dependencyGroups": [],
-        "assets": [],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "Zenject",
-          "version": "9.1.0",
-          "variantId": "git-1993ccaa816b",
-          "archiveSha256": "0266077fd15c63f92f92757a933eae25ca67dc8ec5d7b22c339b671ccee0b1ab",
-          "nuspecSha256": "f65aca3f185b7812e7687bd09d7bf222f3f7924a68dd0c67b150c0cd3291a8f9"
-        },
-        "requestedFramework": "netstandard2.0",
-        "status": "framework-group-unavailable",
-        "dependencyGroups": [],
-        "assets": [],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "Zenject",
-          "version": "9.1.0",
-          "variantId": "git-1993ccaa816b",
-          "archiveSha256": "0266077fd15c63f92f92757a933eae25ca67dc8ec5d7b22c339b671ccee0b1ab",
-          "nuspecSha256": "f65aca3f185b7812e7687bd09d7bf222f3f7924a68dd0c67b150c0cd3291a8f9"
-        },
-        "requestedFramework": "netstandard2.1",
-        "status": "framework-group-unavailable",
-        "dependencyGroups": [],
-        "assets": [],
         "dependencies": [],
         "profileVerified": false,
         "installed": false,

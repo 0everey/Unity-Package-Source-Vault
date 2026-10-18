@@ -4,7 +4,7 @@ Current denominator: 92 common root families, 19 parent-constrained companion en
 The whitelist is complete for this scope; it is not a Unity ecosystem census.
 Normally two versions within a default budget of three; named per-package legacy/dependency exceptions allow four or five and retain previous immutable evidence. Fewer available versions remain explicit.
 
-Generated: 2026-10-18T05:41:33.103761Z. Registered 162/162 entries; 285 version records; 234/235 archive tasks collected; 20 published version/variant records with anonymous remote hash verification.
+Generated: 2026-10-18T06:13:30.007870Z. Registered 162/162 entries; 285 version records; 234/235 archive tasks collected; 20 published version/variant records with anonymous remote hash verification.
 
 `reference-only` means no archive was acquired. Newer Editor-bundled rendering/UI versions link pinned official manifests/source paths and the matching Editor installation route.
 `collected` means bytes were reviewed/fingerprinted then released locally; only published objects are held by this vault remotely.

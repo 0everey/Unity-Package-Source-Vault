@@ -75,6 +75,8 @@ def resolve(matches: dict, selections: list[dict] | None = None) -> dict:
         library = {key: deepcopy(candidate.get(key)) for key in (
             "packageId", "version", "variantId", "artifact", "license", "sourceUrl",
             "sourceRef", "sourcePath", "sourceTag", "versionBasis", "versionStatus", "versionStatusEvidence", "componentScope", "integrationConstraints", "downloadUrl", "disposition", "fingerprint", "sdkBundle", "nuget")}
+        for key in ("embeddedRepositoryObservations", "embeddedNugetMetadata"):
+            if key in candidate:library[key]=deepcopy(candidate[key])
         library.update({"status": match.get("status", "candidate"),
                         "evidence": deepcopy(match.get("evidence", [])),
                         "conflicts": deepcopy(match.get("conflicts", [])),

@@ -69,8 +69,10 @@ for selection, and one unavailable metadata observation. Manifest and lock sourc
 forks, Git/file specs, exact versions, acquisition and reference-only records remain
 separate. Runtime consumers are unproved: complete-runtime ratios stay null.
 Sample fractions are not market/game coverage or compilation/runtime success.
+The actual before/after results and per-project rows are in
+[the diagnostic report](CROSS-GAME-DIAGNOSTIC.md) and its linked JSON.
 
-The suite reached 219 tests passing with one skipped. The installed wheel also
+The corrected implementation passes 222 tests with one skipped. The installed wheel also
 loaded all 23 family rules, 28 builtin rules, 111 active configuration entries
 and the component module outside the checkout; its temporary environment was
 removed. Frozen CLI and panel evidence bind their own explicit snapshots.
@@ -104,3 +106,47 @@ prerelease. Live2D Unity/R12 retains independently observed official stable
 release metadata, while R11 remains unassessed. SteamVR beta and modern Live2D
 explicit statuses remain as evidenced. Eight new records were annotated without
 changing original archives, licenses, fingerprints, SDK identities or old records.
+
+## Frozen CLI verification
+
+Snapshot `9d3454b870c451eb85b5f85caa2dae7fb074be15` passed
+[CI 39101838097](https://github.com/0everey/Unity-Package-Source-Vault/actions/runs/39101838097).
+The [actual CLI receipt](verification/r7-cli-001.json), SHA256
+`878cc2b4848bbe7582c04dbf2faaeb7945d5211db2e56a3184a75a66327d9d90`,
+records 39 steps and 154 checks, all passing. The author helper prepared the
+producer; this is author verification, separate from independent acceptance.
+
+Ink runtime 1.2.1, Cinemachine 2.1.13, PrimeTween 1.5.0 and Google Mobile Ads
+11.6.0 were actually identified, explicitly selected, materialized, rehashed,
+exported with adoption pending and reused offline. AdMob's ten DLL identities
+and hashes were re-read directly from the usage directory with the offline metadata reader;
+no SDK code or service ran. Unrelated candidates and unknowns stayed visible.
+Partial exit 3 represents those unresolved facts, not a failed materialization.
+
+Bad SHA and mismatched old receipts were rejected. Missing versions, family clues,
+same-address business declarations, finite provider signatures, staticness and
+component sibling/asmref scope were exercised with explicitly synthetic fixtures.
+Source/configuration hashes were identical at start/end; all temporary archives,
+use directories and failed stages were removed. The [installed-wheel receipt](verification/r7-installed-wheel.json)
+separately verifies rules outside the checkout and temporary environment cleanup.
+
+## Scoped corrections after the frozen CLI
+
+Final independent inspection found two bounded metadata issues. The FMOD license
+document's governing EULA now has `LicenseRef-FMOD-EULA`; its BSD/Apache appendices
+do not govern the complete document. Its root MIT, original text/raw hash, archive
+and fingerprint remain unchanged, with overall `license-unresolved` and no mirror.
+See [the exact one-field correction](verification/r7-fmod-license-correction.json).
+
+Git archive identity is protected from embedded package/nuspec repository hints.
+Two Steamworks.NET source pins were restored to the original fixed commits;
+six Git records retain their complete embedded nuspec observations separately,
+without treating them as active NuGet package or dependency authority. Genuine
+nupkg provenance remains supported. The observations survive resolve/export.
+See [the scoped provenance correction](verification/r7-embedded-provenance-correction.json).
+
+The 39-step receipt remains evidence for its stated 9d snapshot. These subsequent
+corrections are verified through their actual license/source cases, lawful Git
+locks, old-lock digest controls and unchanged archive evidence; they do not claim
+that four archives were downloaded again. Final acceptance binds the corrected
+snapshot and its own CI separately.

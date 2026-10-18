@@ -55,7 +55,7 @@ uvault classify --inventory <DECLARATIONS.json> --profile <profile.json> --out <
 | reuse-upstream / skip-native | 仅在原 writer 接收具名成员范围和已确认来源后减少恢复任务 |
 | regenerate | 仅在生成器和完整输入已核实后进入再生成队列；不冒执行完成 |
 
-R6 当前库为 48 个常用根包族、4 个父约束伴随条目、23 个内置模块及 7 个商业／Editor／受限／待辨参考项，每包通常两版、最多三版，Unsafe 仅一版，实际缺口再补。SRP 17／14、UGUI 2、VFX Graph 17／14 等 Editor 随附版本有固定官方 manifest／源码入口而无可下载归档时，保持 official-fetch-only、artifact=null、reference-only；不能当 exact 或静默改用旧版。独立包继续进入找源／辨版队列，不改称内置模块。
+R7 当前库为 92 个常用根发行条目、19 个直接伴随条目、28 个内置 provider 参考及 23 个商业／Editor／受限参考项；不是独立 SDK 数或游戏覆盖概率。通常两版、默认预算三版，具名旧代／父线例外允许四／五版，实际消费者缺口再补。SRP 17／14／12、UGUI 1／2、VFX Graph 17／14／12 等 Editor 随附版本有固定官方 manifest／源码入口而无可下载归档时，保持 official-fetch-only、artifact=null、reference-only；不能当 exact 或静默改用旧版。独立包继续进入找源／辨版队列，不改称内置模块。
 
 R6 的 `nuget.dependencyGroups` 保存原 TFM、原版本范围及 include/exclude；`nuget.assets` 绑定 lib/ref 相对路径、TFM、实际 SHA。`nugetDependencyCandidates` 仅提供 netstandard2.0/2.1 目录候选，Logging/Diagnostic 的 2.0 回退不冒 2.1 资产或引用通过。裸 NuGet 版本是最低范围，不能当 exact；未收 DI/Memory/Buffers/Bcl 等仍具名缺口。程序集版本不锁包版本，普通 Unsafe 不替 Sentry 前缀组件。
 
@@ -103,3 +103,5 @@ uvault classify --inventory <原DECLARATIONS.json> --profile <原profile.json> -
 `knownFamilies`、`familyHints`、`missingVersionRequests` 经 matches／lock／export 保留；缺版来自实际 manifest／lock，不能用程序集版本或最近版本补齐。官方商用 API 线索保留未知全名、程序集和精确版本，分类器加找源工作项但保持 nativeAction／业务 alias。新规则内容进入 cache 绑定。源快照、Git 子路径、组件版本与归档整体各自保身份；Spine 两组件和其未满足的原依赖不可合成一个已闭合 SDK。
 
 13 项目 metadata 诊断只衡量所观察集合，完整 Runtime 分母仍未知；它不证明安装、编译或实际游戏恢复概率。原 writer 的 prepare／census／selection 接线和采用回执仍为 integration-pending。
+
+固定 Git 归档的来源由真实 pin 与原始归档身份决定。内部打包模板的 `.nuspec` 或 `package.json` repository 字段只作嵌入观察，不覆盖来源；`embeddedNugetMetadata`／`embeddedRepositoryObservations` 随锁和导出保留，不作当前包的 NuGet 版本／依赖权威。真实 nupkg 继续保原 TFM／range／资产身份。FMOD 的主 EULA 与第三方 BSD／Apache 附录分开，整包仍许可未清；根 MIT 不覆盖 SDK 条件。

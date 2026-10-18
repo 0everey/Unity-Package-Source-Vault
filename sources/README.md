@@ -1,12 +1,16 @@
-# Common package sources (R4)
+# Common package sources (R7)
 
-`common-packages.json` is the current whitelist: 43 common official/third-party
-families and seven commercial/Editor/restricted/unresolved reference entries. `builtin-modules.json` defines 23
+`common-packages.json` is the current whitelist: 92 root distribution entries,
+19 direct companion entries and 23 commercial/Editor/restricted references.
+`builtin-modules.json` defines 28
 finite Unity providers. No normal CLI or workflow enumerates OpenUPM, persists
 all historical versions, or recursively expands dependency version tasks.
 
-Default selection keeps two common stable versions, at most three including an
-observed gap, verified legacy version or useful archive fallback. One available
+Default selection keeps two common versions within a budget of three, including
+an observed gap, verified legacy version or useful archive fallback. Named R7
+legacy/dependency exceptions allow four or five and preserve prior records.
+Unknown vendor tags retain an unassessed status; explicit upstream beta/stable
+evidence stays separate from syntax. One available
 version stays one. Queries may read a selected package's version list in memory;
 only chosen versions persist. Missing dependencies remain named consumer gaps.
 Use `uvault.pipeline --add-gap PACKAGE VERSION REASON --metadata` for an explicit
@@ -42,7 +46,12 @@ metadata is absent from the active catalog and preserved in Git history.
 
 R5 dependency sets are limited to two explicitly selected DOTS groups. Every
 member edge comes from actual package metadata; shared exact-version gaps stay
-visible without implicit substitution or recursive collection. Sentry keeps its
+visible without implicit substitution or recursive collection. R7 explicitly
+activates the six former demand candidates and four finite providers; fixed
+gitPins/sourcePath/component manifests constrain new source attribution, while
+commercial API families keep unknown versions and native eligibility. See
+[R7 implementation](../docs/R7-ADDITIONS.md) and the
+[actual diagnostic panel](../docs/CROSS-GAME-DIAGNOSTIC.md). Sentry keeps its
 bundled renamed assemblies per SDK archive. Best HTTP and Sprite are acquisition
 references. Tekly/OOI have named unresolved components; installed rules preserve
 origin/modification uncertainty through identify/classify/resolve/export.

@@ -1,0 +1,860 @@
+{
+  "kind": "r7-real-cli-author-verification",
+  "role": "author-helper-not-independent-acceptance",
+  "schemaVersion": "1.0",
+  "commit": "9d3454b870c451eb85b5f85caa2dae7fb074be15",
+  "startedAt": "2026-10-18T05:49:58.978383Z",
+  "preparationHistory": {
+    "previousScriptSha256": "b03e6b45030dd7f38389ab5c7d36826b73c1adcdb8df880592fe3f7d52e44e51",
+    "previousPreparationExecuted": false
+  },
+  "gameRun": false,
+  "productionWrites": false,
+  "adoption": "pending",
+  "syntheticEvidenceScope": "Synthetic fixtures test tool behavior only; no game/runtime evidence.",
+  "requestedArchiveMenu": [
+    {
+      "packageId": "Ink.Runtime.Source",
+      "version": "1.2.1"
+    },
+    {
+      "packageId": "com.unity.cinemachine",
+      "version": "2.1.13"
+    },
+    {
+      "packageId": "com.kyrylokuzyk.primetween",
+      "version": "1.5.0"
+    },
+    {
+      "packageId": "GoogleMobileAds.Unity",
+      "version": "11.6.0"
+    }
+  ],
+  "steps": [
+    {
+      "name": "fixed-public-catalog-sync",
+      "exitCode": 0,
+      "expectedExitCodes": [
+        0
+      ],
+      "seconds": 15.483,
+      "stdoutSha256": "8b51e3adf4206fee61acb4bacbf00a3f51fb0e5f7c32f067f72c1657ab3a1cf7",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 30292373,
+      "stderrBytes": 0
+    },
+    {
+      "name": "small-license-source-identify-actual-archive",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 3.841,
+      "stdoutSha256": "d825b9f9b88b9da82debe86d593a5331d16f0aea4793fe98ee96089122540edc",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 479229,
+      "stderrBytes": 0
+    },
+    {
+      "name": "small-license-source-resolve-explicit-fixed-identity",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 1.423,
+      "stdoutSha256": "1ba6f062faf04296deecf28dad1787cd43a4f1cdf9885c753101c9165a718742",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 183693,
+      "stderrBytes": 0
+    },
+    {
+      "name": "small-license-source-materialize-selected",
+      "exitCode": 0,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 4.005,
+      "stdoutSha256": "290749c05b6dc3dbf5b4d0d9f492026e7b01c0da18ed842e730d278baac0e0da",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 24291,
+      "stderrBytes": 0
+    },
+    {
+      "name": "small-license-source-export-materialized-pending",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 1.106,
+      "stdoutSha256": "f1d6d457c14fd229b2bc4d27461e659457549aba9966330978b483cad0d56129",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 224830,
+      "stderrBytes": 0
+    },
+    {
+      "name": "small-license-source-offline-existing-rehash",
+      "exitCode": 0,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 0.839,
+      "stdoutSha256": "c604a868992bf1601b67e6f72d6cd1c315297d09adfc19e440089a53240a2518",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 24285,
+      "stderrBytes": 0
+    },
+    {
+      "name": "legacy-unity-supplement-identify-actual-archive",
+      "exitCode": 0,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 5.614,
+      "stdoutSha256": "60ec63a5fa407238b8b98ed661947ed91fdd2a7f2e7be55ea3a6ed42cedef202",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 364789,
+      "stderrBytes": 0
+    },
+    {
+      "name": "legacy-unity-supplement-resolve-explicit-fixed-identity",
+      "exitCode": 0,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 1.239,
+      "stdoutSha256": "e4183e012605c7446434b1f10da33cef0e826783c26d4c227147288b9b1df833",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 364544,
+      "stderrBytes": 0
+    },
+    {
+      "name": "legacy-unity-supplement-materialize-selected",
+      "exitCode": 0,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 5.315,
+      "stdoutSha256": "aa4e00076b0e2ae6e832d6c62aab08381b258b826148a86756c40b68206f83db",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 56452,
+      "stderrBytes": 0
+    },
+    {
+      "name": "legacy-unity-supplement-export-materialized-pending",
+      "exitCode": 0,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 2.362,
+      "stdoutSha256": "588a388ce0020cb8f4949b3ac9a4c8a73c244ff79e3680998dc433feade1d169",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 449269,
+      "stderrBytes": 0
+    },
+    {
+      "name": "legacy-unity-supplement-offline-existing-rehash",
+      "exitCode": 0,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 2.122,
+      "stdoutSha256": "f39c46713992be7d802f620d77ddaae385e955d3b73d0fdb338f6fa036b5f21b",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 56446,
+      "stderrBytes": 0
+    },
+    {
+      "name": "primetween-1-5-official-only-identify-actual-archive",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 8.193,
+      "stdoutSha256": "f1ad677ab9e909ede264ebac4c5373006487f32904d0b89071bced97e6f3eb6d",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 209900,
+      "stderrBytes": 0
+    },
+    {
+      "name": "primetween-1-5-official-only-resolve-explicit-fixed-identity",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 4.57,
+      "stdoutSha256": "8d93aefc6710117cb1396b596257e04850ed569431db22561b220583751c985a",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 209669,
+      "stderrBytes": 0
+    },
+    {
+      "name": "primetween-1-5-official-only-materialize-selected",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 6.532,
+      "stdoutSha256": "e017b39b4c2f978101faa627890902d6b9c71bf891acff6a4a1be7f59793b376",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 22655,
+      "stderrBytes": 0
+    },
+    {
+      "name": "primetween-1-5-official-only-export-materialized-pending",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 1.822,
+      "stdoutSha256": "3ce94d8d1b6f61fea5d85d9257a6db6b1ff282a2b393b598ac0f87c44ac97c6a",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 245049,
+      "stderrBytes": 0
+    },
+    {
+      "name": "primetween-1-5-official-only-offline-existing-rehash",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 1.956,
+      "stdoutSha256": "befd5e4c59f91eeb2da01702d3792f616253c6f0e397a8a0b4893e139f8f8ebb",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 22649,
+      "stderrBytes": 0
+    },
+    {
+      "name": "google-mobile-ads-11-6-sdk-components-identify-actual-archive",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 9.021,
+      "stdoutSha256": "cc5a369c6af97f83b0a3923e110f3e103168f3259e5d0b068dd48ebd876b2724",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 9736296,
+      "stderrBytes": 0
+    },
+    {
+      "name": "google-mobile-ads-11-6-sdk-components-resolve-explicit-fixed-identity",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 2.31,
+      "stdoutSha256": "a44273fd9e8d2652538eef3aa55545b93fbd498e4152762ca6cb034e9cabd20e",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 3863967,
+      "stderrBytes": 0
+    },
+    {
+      "name": "google-mobile-ads-11-6-sdk-components-materialize-selected",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 14.413,
+      "stdoutSha256": "1d4612af59b41d39e58863b4108b755fae20390ad24939d5b17ac15855336fa0",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 295277,
+      "stderrBytes": 0
+    },
+    {
+      "name": "google-mobile-ads-11-6-sdk-components-export-materialized-pending",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 2.119,
+      "stdoutSha256": "f0ed4a9b16a281bc83790fe53fb9cd56a16ddd4a3108df6d996add6b1bb7d247",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 4335069,
+      "stderrBytes": 0
+    },
+    {
+      "name": "google-mobile-ads-11-6-sdk-components-offline-existing-rehash",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 2.601,
+      "stdoutSha256": "b744c4265383f8107f79c46d99f82afc814558acaa61fff4d388082e4638ffed",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 295271,
+      "stderrBytes": 0
+    },
+    {
+      "name": "actual-bad-sha-rejected",
+      "exitCode": 2,
+      "expectedExitCodes": [
+        2
+      ],
+      "seconds": 2.421,
+      "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrSha256": "9fe2c37586407e8912c8eb5615805d94b260735ca35f24c8a944cb26257c9e10",
+      "stdoutBytes": 0,
+      "stderrBytes": 83
+    },
+    {
+      "name": "offline-new-has-no-cache",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        3
+      ],
+      "seconds": 0.811,
+      "stdoutSha256": "834d3618a00d31d34c01bb27242e116cfb522af43a2013a731ea897528ebf64e",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 313,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-family-identify",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 2.943,
+      "stdoutSha256": "0d13a6f0e233e7d33780d3f24b70564b96dee3d391f5cea96bea8ad62422aa4e",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 6243144,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-family-resolve",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 3.463,
+      "stdoutSha256": "2a1158473d239cd4ae991d320fa273434e506014de9bf293b1638360a3fb621a",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 6241001,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-family-export",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 3.662,
+      "stdoutSha256": "121436bcc7bda4f6d59de34309aef9e8b5b543879e3f34ee43b81a34e4bbae1a",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 6281068,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-family-native",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 5.043,
+      "stdoutSha256": "2d8fbc8fb55d1a4b229b01ada92eb06358701862258b774e5983c730e3a99e97",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 1694,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-cross-assembly-pair-counterexample",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 2.344,
+      "stdoutSha256": "da81be009511a779d7432f18b02f57bb4535ac077152472ae9b35799389439e6",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 77945,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-missing-version-identify",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        3
+      ],
+      "seconds": 5.33,
+      "stdoutSha256": "ef2dbaa4cb90458aaab91b00be154b5a28b8d2d2803ea3437fa3693d6ccccfb1",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 72869,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-missing-version-resolve",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        3
+      ],
+      "seconds": 1.019,
+      "stdoutSha256": "1152284c8da143e66137534e4176cdc74c07ae2766b47c1efe6faba37ba7adf3",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 73060,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-old-gap-lock-export-original-digest",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        3
+      ],
+      "seconds": 0.711,
+      "stdoutSha256": "5788e7637f48665fd19e57fa90d247fcc4bb479597fecacdfd101c1479118f9b",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 73546,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-wrong-old-receipt-rejected-before-export",
+      "exitCode": 2,
+      "expectedExitCodes": [
+        2
+      ],
+      "seconds": 0.663,
+      "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderrSha256": "261dcbe6f19c01075f14d870d3eb22ba369f77cfc73519b1b5543ae1326c3417",
+      "stdoutBytes": 0,
+      "stderrBytes": 87
+    },
+    {
+      "name": "synthetic-four-provider-normal",
+      "exitCode": 0,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 4.195,
+      "stdoutSha256": "d9fb67ad95c2aa912c5b8e93e82b61f7d25beb4c35218278af70a32496b454b3",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 1745,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-provider-staticness-and-single-type-counterexamples",
+      "exitCode": 0,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 4.568,
+      "stdoutSha256": "3e38d36805fece7a1242f06d8f2adc61f4876d9fe644b0e1800810d416268270",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 1601,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-four-provider-business-protection",
+      "exitCode": 0,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 5.082,
+      "stdoutSha256": "cce32b14961abdc901300553abaf68323e2b1c90b220f2f4d63a4c8e094f42cd",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 1601,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-component-full",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 1.595,
+      "stdoutSha256": "94b4e64a6601b8e8b91bbb354ca076bdfcc8ba59caee6c54412cf01cdfaef305",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 1744,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-component-full-sibling-identify",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 1.731,
+      "stdoutSha256": "d86173979bf2a0f8185b46e12704aec3cc74439fd40b3c9eab371e3380c31200",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 6216,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-component-compact",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 1.734,
+      "stdoutSha256": "d2b405c383821a7c0abd15da84555cb532686147bb64157e36a9384ae13a6ce3",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 1744,
+      "stderrBytes": 0
+    },
+    {
+      "name": "synthetic-component-compact-sibling-identify",
+      "exitCode": 3,
+      "expectedExitCodes": [
+        0,
+        3
+      ],
+      "seconds": 0.928,
+      "stdoutSha256": "5fb99a6a8ca14868f3fd2aa26404dfa3e06221d44e8c581910f9dcbfc58f1794",
+      "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdoutBytes": 5037,
+      "stderrBytes": 0
+    }
+  ],
+  "checks": {
+    "working-head-is-fixed-commit": true,
+    "frozen-src-and-sources-are-committed": true,
+    "nonempty-source-hash-baseline": true,
+    "task-scratch-is-contained": true,
+    "fixed-public-catalog-sync-expected-exit": true,
+    "catalog-resolved-to-fixed-commit": true,
+    "catalog-fingerprint-reads-stay-pinned": true,
+    "catalog-package-identities-unique": true,
+    "six-demand-and-four-provider-activated": true,
+    "activated-packages-present-not-background-collection": true,
+    "cinemachine-preserves-modern-and-old-lines": true,
+    "primetween-reference-does-not-pretend-payload": true,
+    "small-license-source-allowlisted-id": true,
+    "Ink.Runtime.Source-package-present": true,
+    "Ink.Runtime.Source-one-fixed-version": true,
+    "Ink.Runtime.Source-actually-collected": true,
+    "Ink.Runtime.Source-reviewed-disposition": true,
+    "Ink.Runtime.Source-bounded-verified-archive": true,
+    "Ink.Runtime.Source-unauthenticated-https": true,
+    "ink-published-mirror-source-positive-control": true,
+    "small-license-source-archive-byte-sha-and-size": true,
+    "small-license-source-identify-actual-archive-expected-exit": true,
+    "small-license-source-exact-one-variant": true,
+    "small-license-source-resolve-explicit-fixed-identity-expected-exit": true,
+    "small-license-source-lock-selected-one-and-not-adopted": true,
+    "small-license-source-materialize-selected-expected-exit": true,
+    "small-license-source-materialized-one": true,
+    "small-license-source-use-stays-in-task": true,
+    "small-license-source-all-files-rehashed-not-only-sources": true,
+    "small-license-source-receipt-content-digest": true,
+    "small-license-source-export-materialized-pending-expected-exit": true,
+    "small-license-source-export-keeps-original-lock-and-boundary": true,
+    "small-license-source-offline-existing-rehash-expected-exit": true,
+    "small-license-source-offline-actually-reused": true,
+    "legacy-unity-supplement-allowlisted-id": true,
+    "com.unity.cinemachine-package-present": true,
+    "com.unity.cinemachine-one-fixed-version": true,
+    "com.unity.cinemachine-actually-collected": true,
+    "com.unity.cinemachine-reviewed-disposition": true,
+    "com.unity.cinemachine-bounded-verified-archive": true,
+    "com.unity.cinemachine-unauthenticated-https": true,
+    "legacy-unity-supplement-archive-byte-sha-and-size": true,
+    "legacy-unity-supplement-identify-actual-archive-expected-exit": true,
+    "legacy-unity-supplement-exact-one-variant": true,
+    "legacy-unity-supplement-resolve-explicit-fixed-identity-expected-exit": true,
+    "legacy-unity-supplement-lock-selected-one-and-not-adopted": true,
+    "legacy-unity-supplement-materialize-selected-expected-exit": true,
+    "legacy-unity-supplement-materialized-one": true,
+    "legacy-unity-supplement-use-stays-in-task": true,
+    "legacy-unity-supplement-all-files-rehashed-not-only-sources": true,
+    "legacy-unity-supplement-receipt-content-digest": true,
+    "legacy-unity-supplement-export-materialized-pending-expected-exit": true,
+    "legacy-unity-supplement-export-keeps-original-lock-and-boundary": true,
+    "legacy-unity-supplement-offline-existing-rehash-expected-exit": true,
+    "legacy-unity-supplement-offline-actually-reused": true,
+    "primetween-1-5-official-only-allowlisted-id": true,
+    "com.kyrylokuzyk.primetween-package-present": true,
+    "com.kyrylokuzyk.primetween-one-fixed-version": true,
+    "com.kyrylokuzyk.primetween-actually-collected": true,
+    "com.kyrylokuzyk.primetween-reviewed-disposition": true,
+    "com.kyrylokuzyk.primetween-bounded-verified-archive": true,
+    "com.kyrylokuzyk.primetween-unauthenticated-https": true,
+    "primetween-official-npm-fetch-not-vault-mirror": true,
+    "primetween-1-5-official-only-archive-byte-sha-and-size": true,
+    "primetween-1-5-official-only-identify-actual-archive-expected-exit": true,
+    "primetween-1-5-official-only-exact-one-variant": true,
+    "primetween-1-5-official-only-resolve-explicit-fixed-identity-expected-exit": true,
+    "primetween-1-5-official-only-lock-selected-one-and-not-adopted": true,
+    "primetween-1-5-official-only-materialize-selected-expected-exit": true,
+    "primetween-1-5-official-only-materialized-one": true,
+    "primetween-1-5-official-only-use-stays-in-task": true,
+    "primetween-1-5-official-only-all-files-rehashed-not-only-sources": true,
+    "primetween-1-5-official-only-receipt-content-digest": true,
+    "primetween-1-5-official-only-export-materialized-pending-expected-exit": true,
+    "primetween-1-5-official-only-export-keeps-original-lock-and-boundary": true,
+    "primetween-1-5-official-only-offline-existing-rehash-expected-exit": true,
+    "primetween-1-5-official-only-offline-actually-reused": true,
+    "google-mobile-ads-11-6-sdk-components-allowlisted-id": true,
+    "GoogleMobileAds.Unity-package-present": true,
+    "GoogleMobileAds.Unity-one-fixed-version": true,
+    "GoogleMobileAds.Unity-actually-collected": true,
+    "GoogleMobileAds.Unity-reviewed-disposition": true,
+    "GoogleMobileAds.Unity-bounded-verified-archive": true,
+    "GoogleMobileAds.Unity-unauthenticated-https": true,
+    "google-ads-official-fixed-source-not-vault-mirror": true,
+    "google-mobile-ads-11-6-sdk-components-archive-byte-sha-and-size": true,
+    "google-mobile-ads-11-6-sdk-components-identify-actual-archive-expected-exit": true,
+    "google-mobile-ads-11-6-sdk-components-exact-one-variant": true,
+    "google-mobile-ads-11-6-sdk-components-resolve-explicit-fixed-identity-expected-exit": true,
+    "google-mobile-ads-11-6-sdk-components-lock-selected-one-and-not-adopted": true,
+    "google-mobile-ads-11-6-sdk-components-materialize-selected-expected-exit": true,
+    "google-mobile-ads-11-6-sdk-components-materialized-one": true,
+    "google-mobile-ads-11-6-sdk-components-use-stays-in-task": true,
+    "google-mobile-ads-11-6-sdk-components-all-files-rehashed-not-only-sources": true,
+    "google-mobile-ads-11-6-sdk-components-receipt-content-digest": true,
+    "google-ads-ten-real-managed-components-in-catalog": true,
+    "google-ads-lock-preserves-sdkBundle-identities-and-shas": true,
+    "google-ads-component-paths-stay-in-use-directory": true,
+    "google-ads-every-used-dll-rehashed-against-sdkBundle": true,
+    "google-ads-used-dll-managed-identities-equal-sdkBundle": true,
+    "google-mobile-ads-11-6-sdk-components-export-materialized-pending-expected-exit": true,
+    "google-mobile-ads-11-6-sdk-components-export-keeps-original-lock-and-boundary": true,
+    "google-ads-export-preserves-sdkBundle-identities-and-shas": true,
+    "google-mobile-ads-11-6-sdk-components-offline-existing-rehash-expected-exit": true,
+    "google-mobile-ads-11-6-sdk-components-offline-actually-reused": true,
+    "google-ads-offline-used-dll-component-shas-still-equal-sdkBundle": true,
+    "actual-bad-sha-rejected-expected-exit": true,
+    "bad-sha-no-destination-or-stage": true,
+    "offline-new-has-no-cache-expected-exit": true,
+    "offline-new-no-payload-or-destination": true,
+    "synthetic-family-identify-expected-exit": true,
+    "rewired-official-and-photon-same-assembly-clues": true,
+    "weak-business-simple-names-remain-hints": true,
+    "assembly-version-is-not-package-version-gap": true,
+    "family-clue-does-not-confirm-source-or-version": true,
+    "synthetic-family-resolve-expected-exit": true,
+    "family-context-crosses-resolve": true,
+    "synthetic-family-export-expected-exit": true,
+    "family-context-crosses-export": true,
+    "synthetic-family-native-expected-exit": true,
+    "all-family-and-weak-business-declarations-stay-native": true,
+    "family-clues-enter-library-workset-without-native-exclusion": true,
+    "synthetic-cross-assembly-pair-counterexample-expected-exit": true,
+    "photon-pair-cannot-join-different-assemblies": true,
+    "synthetic-gap-version-really-absent": true,
+    "synthetic-missing-version-identify-expected-exit": true,
+    "missing-version-is-explicit": true,
+    "synthetic-missing-version-resolve-expected-exit": true,
+    "missing-version-crosses-resolve": true,
+    "synthetic-old-gap-lock-export-original-digest-expected-exit": true,
+    "old-lock-gap-rebuilt-with-original-file-and-content-digests": true,
+    "synthetic-wrong-old-receipt-rejected-before-export-expected-exit": true,
+    "wrong-receipt-did-not-create-export": true,
+    "synthetic-four-provider-normal-expected-exit": true,
+    "four-provider-normal-routes-are-finite-reference-pending": true,
+    "synthetic-provider-staticness-and-single-type-counterexamples-expected-exit": true,
+    "wrong-staticness-and-insufficient-type-evidence-stay-native": true,
+    "synthetic-four-provider-business-protection-expected-exit": true,
+    "four-providers-never-exclude-business-declarations": true,
+    "synthetic-producer-sees-sibling-and-external-asmref": true,
+    "synthetic-component-full-expected-exit": true,
+    "component-full-only-owned-core-can-defer": true,
+    "synthetic-component-full-sibling-identify-expected-exit": true,
+    "component-full-sibling-cannot-claim-core-package": true,
+    "synthetic-component-externalized": true,
+    "synthetic-original-full-manifest-is-preserved": true,
+    "synthetic-component-compact-expected-exit": true,
+    "component-compact-only-owned-core-can-defer": true,
+    "synthetic-component-compact-sibling-identify-expected-exit": true,
+    "component-compact-sibling-cannot-claim-core-package": true,
+    "all-task-payloads-and-fixtures-cleaned": true,
+    "src-and-sources-hashes-stable": true,
+    "src-and-sources-hashes-stable-finally": true,
+    "receipt-has-no-private-absolute-path": true
+  },
+  "selectedArchives": [
+    {
+      "packageId": "Ink.Runtime.Source",
+      "version": "1.2.1",
+      "variantId": "git-35c63e52f1d3",
+      "fetchStatus": "published",
+      "disposition": "mirror-allowed",
+      "artifactSha256": "9f4bc577d2e8fbbc809eba2f3f28a7fbfe92eeb520ecea59be08319fc3bd61cd",
+      "artifactSize": 471483,
+      "publicFetchUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-9f/9f4bc577d2e8fbbc809eba2f3f28a7fbfe92eeb520ecea59be08319fc3bd61cd.tar.gz",
+      "fileCount": 147,
+      "fileHashMapSha256": "4d847a9c04d820ddd16ccd9b6538498e927e2d917d373136ad0d773dfbe7c881",
+      "otherIdentificationMatchCount": 2,
+      "unknownAndConflictsPreserved": true,
+      "sdkComponentVerification": null
+    },
+    {
+      "packageId": "com.unity.cinemachine",
+      "version": "2.1.13",
+      "variantId": "registry-packages.unity.com-2f01a689e8a56d22",
+      "fetchStatus": "collected",
+      "disposition": "official-fetch-only",
+      "artifactSha256": "e2e29dc32db30551cf842cfb55248fa1786815cc5e3399c59ce96e227051a9b3",
+      "artifactSize": 9046535,
+      "publicFetchUrl": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.1.13.tgz",
+      "fileCount": 321,
+      "fileHashMapSha256": "b5bdd5b715b3eedbdf978db7f356c13c33e7733801bd93a8d389b857c9f25d3d",
+      "otherIdentificationMatchCount": 0,
+      "unknownAndConflictsPreserved": true,
+      "sdkComponentVerification": null
+    },
+    {
+      "packageId": "com.kyrylokuzyk.primetween",
+      "version": "1.5.0",
+      "variantId": "registry-registry.npmjs.org-682900415f0c386e",
+      "fetchStatus": "collected",
+      "disposition": "official-fetch-only",
+      "artifactSha256": "435c7be7e1ffab4f1ca880b5de06eabf32d4886db41edd0af28a61d44d027e4f",
+      "artifactSize": 1712091,
+      "publicFetchUrl": "https://registry.npmjs.org/com.kyrylokuzyk.primetween/-/com.kyrylokuzyk.primetween-1.5.0.tgz",
+      "fileCount": 130,
+      "fileHashMapSha256": "4d7be623f1299f9309f2441670a24d4f927995ebf9a59ba9dd265d91d58b2d0f",
+      "otherIdentificationMatchCount": 0,
+      "unknownAndConflictsPreserved": true,
+      "sdkComponentVerification": null
+    },
+    {
+      "packageId": "GoogleMobileAds.Unity",
+      "version": "11.6.0",
+      "variantId": "git-8ea7b043986d",
+      "fetchStatus": "collected",
+      "disposition": "official-fetch-only",
+      "artifactSha256": "5eaca1fbfc9e66972e14028dc03cb96864dd864cc269f32fab71b8d6fb51462e",
+      "artifactSize": 3863348,
+      "publicFetchUrl": "https://codeload.github.com/googleads/googleads-mobile-unity/tar.gz/8ea7b043986dd7221b001023c85d569fff810666",
+      "fileCount": 1204,
+      "fileHashMapSha256": "dd9f61dcb222752aa72ce387c82a31a527d032b092f39aea60bc4bbc1ddc93b3",
+      "otherIdentificationMatchCount": 26,
+      "unknownAndConflictsPreserved": true,
+      "sdkComponentVerification": {
+        "packageId": "GoogleMobileAds.Unity",
+        "version": "11.6.0",
+        "componentCount": 10,
+        "sdkBundleSha256": "91fac7a7e3dfb66bb6194b4d9cd3dcb95866f32b5b3c698454716bb20981e958",
+        "actualComponentIdentityAndShaMapSha256": "99b96bd3545bebfcebe167c1646babcdef9f3689eba9d2f313b6d189bead610f",
+        "targetSdkCodeExecuted": false
+      }
+    }
+  ],
+  "sourceHashesStart": {
+    "src/unity_package_source_vault.egg-info/dependency_links.txt": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "src/unity_package_source_vault.egg-info/entry_points.txt": "628584f3bc8900d51fd7a7fbbb170242bcef6845ee5ec8e619ab4d50fae180db",
+    "src/unity_package_source_vault.egg-info/PKG-INFO": "eb432f43cb48c164fd5e8b4305808878c2749be29914cd86e222c12cb566689f",
+    "src/unity_package_source_vault.egg-info/SOURCES.txt": "c511fe945efb2fb0aeb4abe69a963d080cd15b28ea75612cb9b25a99733bff61",
+    "src/unity_package_source_vault.egg-info/top_level.txt": "5923003b246c45bb22942827d72ba83d6709005f04d232fbb44e885b7daef217",
+    "src/uvault/__init__.py": "b7c644c61f67fe998d8f49bd3dac199e9e6f1f56e8bf5b41685218540f089849",
+    "src/uvault/__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+    "src/uvault/alternatives.py": "82595c2eb9013e1d213697366074ff747e3510faa78a10fd36afd6ad6759a46c",
+    "src/uvault/builtin.py": "2d9c65a5fdb9e3232e3412b8a133a4ca9208c7a833d111f6025fea2359e573dd",
+    "src/uvault/catalog.py": "46ab9111c39be99543a38e36ded7323ee7d588b5b3ccc12e35d7a9b170ee4c6f",
+    "src/uvault/classify.py": "4b0ca3a4cc66a8bf6df21be62959fdf790910f21a810cb61bb00138aa293d169",
+    "src/uvault/cli.py": "142220276878d28a7660bd9a74b0ec8ce0ee1cff21a477497bb12c1305e693b6",
+    "src/uvault/component_scope.py": "b3377dcbeff24199612efbcc24e30e2b02fe0ecda5f83e7112c01f571669ce23",
+    "src/uvault/continuation.py": "121ca309a43a6ad9510364c6b1acfa8c0e2b39ed2811df3def23988b0d38fe85",
+    "src/uvault/coverage_audit.py": "7eb82632d504a43274fb9bd1b35f9cc28ddfcd2920d0043e9d51cf3f65ba9f31",
+    "src/uvault/curated.py": "e159b413ba6c382170a2194f40013e9860053c8e8c0264111f9ab3c5fb1e8ead",
+    "src/uvault/family_identity.py": "09445eae78b0f29aef491f8214b188d36b7e0a54d6dd06f333b3abcf683cf2bc",
+    "src/uvault/fingerprints.py": "625bb9ee47f05bbf180991baceb7552e96bd21448353c0f730da1d52c3ea8b0b",
+    "src/uvault/harvest.py": "f7ad0b4971b1220640d9e4973e472803aaee9920affdf52ca17ff6ef89e84982",
+    "src/uvault/identify.py": "da3105088e0061b82ed13cc7a0c74a334c03e8aca9e40f3c54eb143b0897772a",
+    "src/uvault/inventory.py": "6cefa1e105b87dfd9a60cf19b5db888cc6d6409a553d443b2930f4cee1f32c72",
+    "src/uvault/license_components.py": "2df529b68ba457d4204156f762a72417ca84db7813c71e7403ae287e81bf153d",
+    "src/uvault/managed.py": "11398396416c19219391e0481b1f03328bea4cf4d58c9ac98520211d8f810f4d",
+    "src/uvault/materialize.py": "9afa63a58940480ec3253bb50a1b6661f67255b4fae7033f3a7702759799de89",
+    "src/uvault/named_identity.py": "d08da8dc9826bd5104cd92ea61c0f583b2706730311f35a5a83f558f31bb810b",
+    "src/uvault/nuget.py": "ee27f46d0aa3eee6811d58c179317633a1bb15b638218ccf28d51c7b4549a4ac",
+    "src/uvault/pipeline.py": "56d67402ef7eb4fb0f89b52068ab8481d7a686fdd9724d3c0c8beea4f674321c",
+    "src/uvault/publish.py": "969000cb2fb0b15e46dbb675985598561647328ded41f1a02d979f9305db3446",
+    "src/uvault/reindex.py": "e79c1570a07b8c14dd74a2b075b1187e5e57eb70f5ec529201d06a1b8272f154",
+    "src/uvault/remaker.py": "9dfec00f50d542d85128b36a767dd2e0d100b45e3a7a561bef7c785e81a65e00",
+    "src/uvault/resolve.py": "79d07b6ad19a4efe173f20164b71c04a3168b639da3dfe14efd2c580cfed055f",
+    "src/uvault/sources.py": "bd9f98e5c4f79d97fee42238e7f56b9911b28f8656dae6af37ea796a6d9a2df3",
+    "sources/builtin-modules.json": "bc8bfc70119a30dfd9c8a1fee77a628d6b64ef8e16ed037777ae93fa169f16c2",
+    "sources/common-packages.json": "639912a5004f713125beafeb115f5ace34525324f423890cd5b7d278eb286b19",
+    "sources/component-reviews.json": "f94583d4343cd70bd41929bf41cf523b4ddf128c9e00fd7f088bb5deba2a0c68",
+    "sources/coverage-panel-r7.json": "7db1c3ed9346af5bd6a848ed351065ca29f19caae74f2213dd74a88f88909763",
+    "sources/family-references.json": "ae78103d555d8f0214a23857d89fe1f46d66d1d804befe14c9085447bcef5111",
+    "sources/README.md": "35d0ce8740b25c6567ae38012ad3265d3440ad08d0db05f11f0aa2ed8dd1229f"
+  },
+  "sourceHashesEnd": {
+    "src/unity_package_source_vault.egg-info/dependency_links.txt": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "src/unity_package_source_vault.egg-info/entry_points.txt": "628584f3bc8900d51fd7a7fbbb170242bcef6845ee5ec8e619ab4d50fae180db",
+    "src/unity_package_source_vault.egg-info/PKG-INFO": "eb432f43cb48c164fd5e8b4305808878c2749be29914cd86e222c12cb566689f",
+    "src/unity_package_source_vault.egg-info/SOURCES.txt": "c511fe945efb2fb0aeb4abe69a963d080cd15b28ea75612cb9b25a99733bff61",
+    "src/unity_package_source_vault.egg-info/top_level.txt": "5923003b246c45bb22942827d72ba83d6709005f04d232fbb44e885b7daef217",
+    "src/uvault/__init__.py": "b7c644c61f67fe998d8f49bd3dac199e9e6f1f56e8bf5b41685218540f089849",
+    "src/uvault/__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+    "src/uvault/alternatives.py": "82595c2eb9013e1d213697366074ff747e3510faa78a10fd36afd6ad6759a46c",
+    "src/uvault/builtin.py": "2d9c65a5fdb9e3232e3412b8a133a4ca9208c7a833d111f6025fea2359e573dd",
+    "src/uvault/catalog.py": "46ab9111c39be99543a38e36ded7323ee7d588b5b3ccc12e35d7a9b170ee4c6f",
+    "src/uvault/classify.py": "4b0ca3a4cc66a8bf6df21be62959fdf790910f21a810cb61bb00138aa293d169",
+    "src/uvault/cli.py": "142220276878d28a7660bd9a74b0ec8ce0ee1cff21a477497bb12c1305e693b6",
+    "src/uvault/component_scope.py": "b3377dcbeff24199612efbcc24e30e2b02fe0ecda5f83e7112c01f571669ce23",
+    "src/uvault/continuation.py": "121ca309a43a6ad9510364c6b1acfa8c0e2b39ed2811df3def23988b0d38fe85",
+    "src/uvault/coverage_audit.py": "7eb82632d504a43274fb9bd1b35f9cc28ddfcd2920d0043e9d51cf3f65ba9f31",
+    "src/uvault/curated.py": "e159b413ba6c382170a2194f40013e9860053c8e8c0264111f9ab3c5fb1e8ead",
+    "src/uvault/family_identity.py": "09445eae78b0f29aef491f8214b188d36b7e0a54d6dd06f333b3abcf683cf2bc",
+    "src/uvault/fingerprints.py": "625bb9ee47f05bbf180991baceb7552e96bd21448353c0f730da1d52c3ea8b0b",
+    "src/uvault/harvest.py": "f7ad0b4971b1220640d9e4973e472803aaee9920affdf52ca17ff6ef89e84982",
+    "src/uvault/identify.py": "da3105088e0061b82ed13cc7a0c74a334c03e8aca9e40f3c54eb143b0897772a",
+    "src/uvault/inventory.py": "6cefa1e105b87dfd9a60cf19b5db888cc6d6409a553d443b2930f4cee1f32c72",
+    "src/uvault/license_components.py": "2df529b68ba457d4204156f762a72417ca84db7813c71e7403ae287e81bf153d",
+    "src/uvault/managed.py": "11398396416c19219391e0481b1f03328bea4cf4d58c9ac98520211d8f810f4d",
+    "src/uvault/materialize.py": "9afa63a58940480ec3253bb50a1b6661f67255b4fae7033f3a7702759799de89",
+    "src/uvault/named_identity.py": "d08da8dc9826bd5104cd92ea61c0f583b2706730311f35a5a83f558f31bb810b",
+    "src/uvault/nuget.py": "ee27f46d0aa3eee6811d58c179317633a1bb15b638218ccf28d51c7b4549a4ac",
+    "src/uvault/pipeline.py": "56d67402ef7eb4fb0f89b52068ab8481d7a686fdd9724d3c0c8beea4f674321c",
+    "src/uvault/publish.py": "969000cb2fb0b15e46dbb675985598561647328ded41f1a02d979f9305db3446",
+    "src/uvault/reindex.py": "e79c1570a07b8c14dd74a2b075b1187e5e57eb70f5ec529201d06a1b8272f154",
+    "src/uvault/remaker.py": "9dfec00f50d542d85128b36a767dd2e0d100b45e3a7a561bef7c785e81a65e00",
+    "src/uvault/resolve.py": "79d07b6ad19a4efe173f20164b71c04a3168b639da3dfe14efd2c580cfed055f",
+    "src/uvault/sources.py": "bd9f98e5c4f79d97fee42238e7f56b9911b28f8656dae6af37ea796a6d9a2df3",
+    "sources/builtin-modules.json": "bc8bfc70119a30dfd9c8a1fee77a628d6b64ef8e16ed037777ae93fa169f16c2",
+    "sources/common-packages.json": "639912a5004f713125beafeb115f5ace34525324f423890cd5b7d278eb286b19",
+    "sources/component-reviews.json": "f94583d4343cd70bd41929bf41cf523b4ddf128c9e00fd7f088bb5deba2a0c68",
+    "sources/coverage-panel-r7.json": "7db1c3ed9346af5bd6a848ed351065ca29f19caae74f2213dd74a88f88909763",
+    "sources/family-references.json": "ae78103d555d8f0214a23857d89fe1f46d66d1d804befe14c9085447bcef5111",
+    "sources/README.md": "35d0ce8740b25c6567ae38012ad3265d3440ad08d0db05f11f0aa2ed8dd1229f"
+  },
+  "catalog": {
+    "registryUrl": "https://raw.githubusercontent.com/0everey/Unity-Package-Source-Vault/9d3454b870c451eb85b5f85caa2dae7fb074be15/catalog/catalog.json",
+    "catalogCommit": "9d3454b870c451eb85b5f85caa2dae7fb074be15",
+    "expandedCatalogSha256": "b7d9b04c5b7c60b9f3b29e9dcd7ed3f4d9767089a238ce2af2b1a7f227d2036c",
+    "packageCount": 162,
+    "scopeVersion": "R4"
+  },
+  "syntheticFixture": {
+    "kind": "non-game-sourcePath-sibling-asmref-business-native-controls",
+    "originalFileManifestSha256": "8bfac91207d5f29fa72afc3f1bcc2b691ca223ca895ed1c71f0d52f5b01a5427",
+    "originalFileCount": 9,
+    "testedModes": [
+      "full-fingerprint",
+      "checksum-bound-compact-component-index"
+    ],
+    "runtimeExecution": false
+  },
+  "success": true,
+  "finishedAt": "2026-10-18T05:54:21.519178Z",
+  "payloadCleanupConfirmed": true
+}

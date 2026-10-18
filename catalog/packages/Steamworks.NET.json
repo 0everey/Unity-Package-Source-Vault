@@ -16,8 +16,8 @@
     {
       "version": "20.2.0",
       "variantId": "git-a3fe8091f723",
-      "sourceUrl": "https://github.com/rlabrecque/Steamworks.NET.git",
-      "sourceRef": "15.0.1",
+      "sourceUrl": "https://github.com/rlabrecque/Steamworks.NET",
+      "sourceRef": "a3fe8091f7237eef3f38becc3faa29b2dc6f9ce9",
       "sourcePath": null,
       "sourceTag": "20.2.0",
       "versionBasis": "official-repository-tag-not-target-equivalence",
@@ -1267,28 +1267,6 @@
       "fetchStatus": "collected",
       "versionStatus": "stable",
       "packageId": "Steamworks.NET",
-      "nuget": {
-        "declaredLicense": "MIT",
-        "repository": {
-          "type": "git",
-          "url": "https://github.com/rlabrecque/Steamworks.NET.git",
-          "commit": "15.0.1"
-        },
-        "dependencies": [],
-        "targetFrameworks": [
-          "netstandard2.1"
-        ],
-        "dependencyGroups": [
-          {
-            "targetFramework": "netstandard2.1",
-            "dependencies": []
-          }
-        ],
-        "nuspecSha256": "b134b6b4ce9106cd715a4d0cedf50a97e07d9e7740e1f12164e621f1fa698dd9",
-        "nuspecPath": "Standalone/Steamworks.NET.nuspec",
-        "assets": [],
-        "archiveSha256": "46c0fa6282d64e2d8a66633c7633eab77feecd560feb373f8f2191376e846175"
-      },
       "sdkBundle": {
         "packageId": "Steamworks.NET",
         "version": "20.2.0",
@@ -1310,13 +1288,39 @@
           }
         ]
       },
-      "collectedAt": "2026-10-18T05:34:26.119832Z"
+      "collectedAt": "2026-10-18T05:34:26.119832Z",
+      "embeddedNugetMetadata": {
+        "observation": {
+          "declaredLicense": "MIT",
+          "repository": {
+            "type": "git",
+            "url": "https://github.com/rlabrecque/Steamworks.NET.git",
+            "commit": "15.0.1"
+          },
+          "dependencies": [],
+          "targetFrameworks": [
+            "netstandard2.1"
+          ],
+          "dependencyGroups": [
+            {
+              "targetFramework": "netstandard2.1",
+              "dependencies": []
+            }
+          ],
+          "nuspecSha256": "b134b6b4ce9106cd715a4d0cedf50a97e07d9e7740e1f12164e621f1fa698dd9",
+          "nuspecPath": "Standalone/Steamworks.NET.nuspec",
+          "assets": [],
+          "archiveSha256": "46c0fa6282d64e2d8a66633c7633eab77feecd560feb373f8f2191376e846175"
+        },
+        "scope": "embedded-nuspec-not-archive-source-or-current-package-authority",
+        "archiveSourceAuthority": false
+      }
     },
     {
       "version": "2025.164.1",
       "variantId": "git-c21a8f0e31c5",
-      "sourceUrl": "https://github.com/rlabrecque/Steamworks.NET.git",
-      "sourceRef": "15.0.1",
+      "sourceUrl": "https://github.com/rlabrecque/Steamworks.NET",
+      "sourceRef": "c21a8f0e31c56ae8707130967faf491f7dd7c0d8",
       "sourcePath": null,
       "sourceTag": "2025.164.1",
       "versionBasis": "official-repository-tag-not-target-equivalence",
@@ -2581,28 +2585,6 @@
       "fetchStatus": "collected",
       "versionStatus": "stable",
       "packageId": "Steamworks.NET",
-      "nuget": {
-        "declaredLicense": "MIT",
-        "repository": {
-          "type": "git",
-          "url": "https://github.com/rlabrecque/Steamworks.NET.git",
-          "commit": "15.0.1"
-        },
-        "dependencies": [],
-        "targetFrameworks": [
-          "netstandard2.1"
-        ],
-        "dependencyGroups": [
-          {
-            "targetFramework": "netstandard2.1",
-            "dependencies": []
-          }
-        ],
-        "nuspecSha256": "b134b6b4ce9106cd715a4d0cedf50a97e07d9e7740e1f12164e621f1fa698dd9",
-        "nuspecPath": "Standalone2.0/Steamworks.NET.nuspec",
-        "assets": [],
-        "archiveSha256": "d713131cb981c23c4ac35f825d5c86a7203db311bc3fcea53f7444b458fadb53"
-      },
       "sdkBundle": {
         "packageId": "Steamworks.NET",
         "version": "2025.164.1",
@@ -2624,7 +2606,33 @@
           }
         ]
       },
-      "collectedAt": "2026-10-18T05:34:26.748288Z"
+      "collectedAt": "2026-10-18T05:34:26.748288Z",
+      "embeddedNugetMetadata": {
+        "observation": {
+          "declaredLicense": "MIT",
+          "repository": {
+            "type": "git",
+            "url": "https://github.com/rlabrecque/Steamworks.NET.git",
+            "commit": "15.0.1"
+          },
+          "dependencies": [],
+          "targetFrameworks": [
+            "netstandard2.1"
+          ],
+          "dependencyGroups": [
+            {
+              "targetFramework": "netstandard2.1",
+              "dependencies": []
+            }
+          ],
+          "nuspecSha256": "b134b6b4ce9106cd715a4d0cedf50a97e07d9e7740e1f12164e621f1fa698dd9",
+          "nuspecPath": "Standalone2.0/Steamworks.NET.nuspec",
+          "assets": [],
+          "archiveSha256": "d713131cb981c23c4ac35f825d5c86a7203db311bc3fcea53f7444b458fadb53"
+        },
+        "scope": "embedded-nuspec-not-archive-source-or-current-package-authority",
+        "archiveSourceAuthority": false
+      }
     }
   ],
   "metadataStatus": "complete",

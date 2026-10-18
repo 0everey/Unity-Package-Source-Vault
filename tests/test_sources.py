@@ -2,6 +2,7 @@ import hashlib
 import io
 import json
 import tarfile
+import zipfile
 import unittest
 from unittest.mock import patch
 
@@ -106,6 +107,20 @@ class SourceTests(unittest.TestCase):
         rights = harvest.inspect_licenses(data, "tar.gz", {"downloadUrl": "https://example.invalid/a"})
         self.assertEqual(rights["disposition"], "license-unresolved")
 
+    def test_mixed_fmod_eula_does_not_inherit_bsd_appendix(self):
+        bsd=b'Redistribution and use in source and binary forms are permitted. Neither the name nor contributors may endorse. THIS SOFTWARE IS PROVIDED AS IS.'
+        eula=b'FMOD END USER LICENCE AGREEMENT\nFirelight Technologies\nFMOD SDK files are not to be distributed.\n7. OGG VORBIS CODEC\n'+bsd
+        self.assertEqual(harvest.license_expression(bsd.decode()),'BSD-3-Clause')
+        self.assertEqual(harvest.license_expression(eula.decode()),'LicenseRef-FMOD-EULA')
+        data=tar_bytes({'p/LICENSE':MIT,'p/Assets/Plugins/FMOD/LICENSE.TXT':eula,'p/A.cs':b'class A{}'})
+        rights=harvest.inspect_licenses(data,'tar.gz',{'downloadUrl':'https://example.invalid/fmod.tar.gz'})
+        self.assertEqual(rights['license']['expression'],'MIT')
+        component=next(c for c in rights['license']['components'] if c['path']=='Assets/Plugins/FMOD/LICENSE.TXT')
+        self.assertEqual(component['expression'],'LicenseRef-FMOD-EULA')
+        self.assertEqual(component['sha256'],hashlib.sha256(eula).hexdigest())
+        self.assertEqual(component['text'],eula.decode())
+        self.assertEqual(rights['disposition'],'license-unresolved')
+
     def test_special_license_does_not_become_mit(self):
         for text in (b"Spine Runtimes License Agreement", b"Unity Companion License", b"PrimeTween: You may not distribute source code"):
             data = tar_bytes({"p/LICENSE": text})
@@ -118,6 +133,30 @@ class SourceTests(unittest.TestCase):
             result = harvest.collect_version({"id": "test"}, version)
         self.assertEqual(result["fetchStatus"], "fetch-failed")
         self.assertIn("SHA1 mismatch", result["fetchError"]["message"])
+
+    def test_git_pin_is_not_overwritten_by_embedded_packaging_metadata(self):
+        seed={'id':'Example.Core','repository':'Owner/Example','gitPins':[{'version':'1.0.0','sourceRef':'a'*40}]}
+        package=sources.pinned_git_package(seed)
+        nuspec=b'<package><metadata><id>Template</id><repository url="https://github.com/Old/Template.git" commit="15.0.1" /></metadata></package>'
+        manifest=json.dumps({'name':'Example.Core','version':'1.0.0','repository':{'url':'https://github.com/Other/Repo.git','revision':'b'*40}}).encode()
+        data=tar_bytes({'repo/LICENSE':MIT,'repo/package.json':manifest,'repo/Standalone/Template.nuspec':nuspec,'repo/Core.cs':b'class Core{}'})
+        with patch('uvault.sources.request_bytes',return_value=data):record=harvest.collect_version(package,package['versions'][0])
+        self.assertEqual(record['fetchStatus'],'collected')
+        self.assertEqual(record['sourceRef'],'a'*40);self.assertEqual(record['sourceUrl'],'https://github.com/Owner/Example')
+        self.assertNotIn('nuget',record)
+        self.assertEqual(record['embeddedNugetMetadata']['observation']['repository']['commit'],'15.0.1')
+        self.assertFalse(record['embeddedNugetMetadata']['archiveSourceAuthority'])
+        self.assertEqual(record['embeddedRepositoryObservations'][0]['repository']['revision'],'b'*40)
+
+    def test_actual_nupkg_keeps_nuspec_repository_provenance(self):
+        nuspec=('<package><metadata><id>Example</id><version>1.0.0</version><repository url="https://github.com/Owner/Example" commit="'+'b'*40+'" /></metadata></package>').encode()
+        stream=io.BytesIO()
+        with zipfile.ZipFile(stream,'w') as archive:
+            archive.writestr('LICENSE',MIT);archive.writestr('Example.nuspec',nuspec)
+        version={'version':'1.0.0','variantId':'nuget','downloadUrl':'https://example.invalid/example.1.0.0.nupkg'}
+        with patch('uvault.sources.request_bytes',return_value=stream.getvalue()):record=harvest.collect_version({'id':'Example','adapter':'nuget'},version)
+        self.assertEqual(record['fetchStatus'],'collected');self.assertEqual(record['sourceRef'],'b'*40)
+        self.assertIn('nuget',record);self.assertNotIn('embeddedNugetMetadata',record)
 
     def test_resume_and_full_coverage_queue(self):
         queue = {"packages": [{"id": "done", "metadataStatus": "complete", "versions": []}, {"id": "todo", "adapter": "registry", "metadataStatus": "pending", "versions": []}, {"id": "later", "adapter": "registry", "metadataStatus": "pending", "versions": []}]}
