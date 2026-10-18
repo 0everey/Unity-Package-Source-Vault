@@ -1571,16 +1571,39 @@
           "sourceRef": "86e5b07702f74d00b4ab52b7d6c15ba3464b8b85",
           "sourceTag": "Unity/R12",
           "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "5-r.5",
+          "sourceTag": "5-r.5",
+          "sourceRef": "c598e36eb2302a7e8a6177b2c8e52e9c1da21923",
+          "versionStatus": "stable",
+          "versionBasis": "official-stable-release-tag-not-Cubism-compatibility-version",
+          "integrationConstraints": {
+            "documentedCubismCompatibility": "5.3",
+            "renderPipeline": "URP with custom render passes",
+            "unsupportedRenderPipelines": [
+              "BIRP",
+              "HDRP"
+            ],
+            "inputSystemExpectation": true,
+            "nativeCore": "separate-proprietary-component-matching-version-rights-unverified",
+            "editorProfileVerified": false,
+            "runtimeMinimumUnityVersionConfirmed": false,
+            "evidenceUrl": "https://raw.githubusercontent.com/Live2D/CubismUnityComponents/c598e36eb2302a7e8a6177b2c8e52e9c1da21923/README.md",
+            "evidenceSha256": "f3090cfa98aed534e8c544c59cc6dff15c93858d495b23a9f0317c6b8ee6a546"
+          }
         }
       ],
       "preferredVersions": [
         "Unity/R11",
-        "Unity/R12"
+        "Unity/R12",
+        "5-r.5"
       ],
       "selectionMode": "fixed-common",
       "componentBundle": "sdk-managed-components",
       "maxCommonVersions": 3,
-      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+      "integrationNote": "R11/R12 are 2019 Cubism3-era vendor labels with no proved asmdef; modern5-r.5 is Cubism5.3/URP line. Same API names do not identify an exact generation. No nativeCore compatibility or redistribution inferred."
     },
     {
       "id": "AppLovin.MAX.Unity",

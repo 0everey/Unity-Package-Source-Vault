@@ -237,7 +237,8 @@ def _candidate(package_id, version):
 
 def _match_candidate(fingerprint, version, observation=None):
     target = (observation or {}).get("fingerprint") or fingerprint
-    catalog_fp = version.get("fingerprint") or {}
+    from .component_scope import scoped_fingerprint
+    catalog_fp = scoped_fingerprint(version)
     evidence, conflicts, scope = [], [], []
     target_sources, source_files = _source_map(target), _source_map(catalog_fp)
     identity = bool(observation)
@@ -307,9 +308,10 @@ def _match_candidate(fingerprint, version, observation=None):
                 parsed=urllib.parse.urlsplit(specification)
                 repository=urllib.parse.urlunsplit((parsed.scheme,parsed.netloc,parsed.path.removesuffix(".git"),"",""))
                 package_path=urllib.parse.parse_qs(parsed.query).get("path",[None])[0]
+                if isinstance(package_path,str):package_path=package_path.lstrip("/")
                 source_verified=bool(commit and version.get("sourceRef")==commit and
                                      repository==str(version.get("sourceUrl","")).removesuffix(".git") and
-                                     (not package_path or package_path==version.get("sourcePath")))
+                                     package_path==version.get("sourcePath"))
             if archive_verified and source_verified and (not commit or version.get("sourceRef") == commit):
                 evidence.append({"kind": "lock-pinned-source-provenance", "source": observation.get("source"), "commit": commit})
                 return {"status": "pinned-source", "evidence": evidence, "conflicts": conflicts, "scope": [], "rank": 3}
@@ -380,8 +382,9 @@ def identify(input_path, catalog, profile=None) -> dict:
         targets = package_observations or [None]
         candidates = []
         for version in package.get("versions", []):
-            summary=version.get("fingerprint") or {}
-            if summary.get("fileManifestRef"):
+            from .component_scope import scoped_fingerprint
+            summary=scoped_fingerprint(version)
+            if (version.get("fingerprint") or {}).get("fileManifestRef"):
                 eligible=bool(package_observations)
                 relevant=[observation.get("fingerprint") or fingerprint for observation in targets if observation] or [fingerprint]
                 for target in relevant:
@@ -404,20 +407,23 @@ def identify(input_path, catalog, profile=None) -> dict:
                 if any(c["kind"] in ("modified-or-incomplete-target", "modified-or-different-binary-target") for c in all_conflicts):
                     best.update(status="strong-candidate", rank=2, scope=[])
                 candidates.append((_candidate(package_id, version), best))
+        # Missing versions belong to each actual observation, independently of
+        # another installation of the same ID matching an existing version.
+        registered={v["version"] for v in package.get("versions",[])}
+        for observation in package_observations:
+            value=observation.get("version")
+            if isinstance(value,str) and re.fullmatch(r"\d+(?:\.\d+){1,3}(?:[-+][0-9A-Za-z.-]+)?",value) and value not in registered:
+                request={"packageId":package_id,"version":value,"observedVersionBasis":"actual-package-manifest-or-lock",
+                         "reason":"observed-version-not-in-current-catalog","automaticSubstitution":False,
+                         "lockSource":observation.get("source"),"sourceSpecification":observation.get("sourceSpecification"),
+                         "lockedVersion":observation.get("lockedVersion"),"targetPresent":observation.get("targetPresent",False),
+                         "installationKind":observation.get("installationKind"),"sourceEquivalenceVerified":False,
+                         "observedSourceSetSha256":(observation.get("fingerprint") or {}).get("sourceSetSha256")}
+                if request not in result.setdefault("missingVersionRequests",[]):result["missingVersionRequests"].append(request)
         if not candidates:
             if package_id in observed_ids:
                 observed=[o.get("version") for o in package_observations]
                 result["unknown"].append({"packageId": package_id, "observedVersions":observed,"reason": "observed-version-not-in-catalog-or-no-evidence"})
-                registered={v["version"] for v in package.get("versions",[])}
-                for observation in package_observations:
-                    value=observation.get("version")
-                    if isinstance(value,str) and re.fullmatch(r"\d+(?:\.\d+){1,3}(?:[-+][0-9A-Za-z.-]+)?",value) and value not in registered:
-                        request={"packageId":package_id,"version":value,"observedVersionBasis":"actual-package-manifest-or-lock",
-                                 "reason":"observed-version-not-in-current-catalog","automaticSubstitution":False,
-                                 "lockSource":observation.get("source"),"sourceSpecification":observation.get("sourceSpecification"),
-                                 "lockedVersion":observation.get("lockedVersion"),"targetPresent":observation.get("targetPresent",False),
-                                 "installationKind":observation.get("installationKind"),"sourceEquivalenceVerified":False}
-                        if request not in result.setdefault("missingVersionRequests",[]):result["missingVersionRequests"].append(request)
             continue
         rank = max(match["rank"] for _, match in candidates)
         selected = [(candidate, match) for candidate, match in candidates if match["rank"] == rank]

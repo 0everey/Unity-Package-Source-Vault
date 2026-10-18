@@ -8,7 +8,7 @@
     {
       "kind": "explicit-immutable-git-pins",
       "url": "https://github.com/Live2D/CubismUnityComponents",
-      "fetchedAt": "2026-10-18T04:59:02.172802Z",
+      "fetchedAt": "2026-10-18T05:16:51.067652Z",
       "completeEnumeration": false
     }
   ],
@@ -54,10 +54,45 @@
       "fingerprint": null,
       "fetchStatus": "pending",
       "versionStatus": "prerelease"
+    },
+    {
+      "version": "5-r.5",
+      "variantId": "git-c598e36eb230",
+      "sourceUrl": "https://github.com/Live2D/CubismUnityComponents",
+      "sourceRef": "c598e36eb2302a7e8a6177b2c8e52e9c1da21923",
+      "sourcePath": null,
+      "sourceTag": "5-r.5",
+      "versionBasis": "official-stable-release-tag-not-Cubism-compatibility-version",
+      "downloadUrl": "https://codeload.github.com/Live2D/CubismUnityComponents/tar.gz/c598e36eb2302a7e8a6177b2c8e52e9c1da21923",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "integrationConstraints": {
+        "documentedCubismCompatibility": "5.3",
+        "renderPipeline": "URP with custom render passes",
+        "unsupportedRenderPipelines": [
+          "BIRP",
+          "HDRP"
+        ],
+        "inputSystemExpectation": true,
+        "nativeCore": "separate-proprietary-component-matching-version-rights-unverified",
+        "editorProfileVerified": false,
+        "runtimeMinimumUnityVersionConfirmed": false,
+        "evidenceUrl": "https://raw.githubusercontent.com/Live2D/CubismUnityComponents/c598e36eb2302a7e8a6177b2c8e52e9c1da21923/README.md",
+        "evidenceSha256": "f3090cfa98aed534e8c544c59cc6dff15c93858d495b23a9f0317c6b8ee6a546"
+      }
     }
   ],
   "metadataStatus": "complete",
-  "availableUpstreamVersionCount": 2,
+  "availableUpstreamVersionCount": 3,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
@@ -65,7 +100,8 @@
     "budgetReason": null,
     "preferredVersions": [
       "Unity/R11",
-      "Unity/R12"
+      "Unity/R12",
+      "5-r.5"
     ],
     "legacyMajor": null,
     "selectionMode": "fixed-common",
@@ -74,6 +110,7 @@
   },
   "explicitVersionRequests": [],
   "selectedVersions": [
+    "5-r.5",
     "Unity/R11",
     "Unity/R12"
   ],
@@ -81,6 +118,7 @@
   "missingTargetVersions": [],
   "missingPreferredVersions": [],
   "category": "animation",
+  "integrationNote": "R11/R12 are 2019 Cubism3-era vendor labels with no proved asmdef; modern5-r.5 is Cubism5.3/URP line. Same API names do not identify an exact generation. No nativeCore compatibility or redistribution inferred.",
   "componentBundle": "sdk-managed-components",
   "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
   "gitPins": [
@@ -95,15 +133,29 @@
       "sourceRef": "86e5b07702f74d00b4ab52b7d6c15ba3464b8b85",
       "sourceTag": "Unity/R12",
       "versionBasis": "official-repository-tag-not-target-equivalence"
+    },
+    {
+      "version": "5-r.5",
+      "sourceTag": "5-r.5",
+      "sourceRef": "c598e36eb2302a7e8a6177b2c8e52e9c1da21923",
+      "versionStatus": "stable",
+      "versionBasis": "official-stable-release-tag-not-Cubism-compatibility-version",
+      "integrationConstraints": {
+        "documentedCubismCompatibility": "5.3",
+        "renderPipeline": "URP with custom render passes",
+        "unsupportedRenderPipelines": [
+          "BIRP",
+          "HDRP"
+        ],
+        "inputSystemExpectation": true,
+        "nativeCore": "separate-proprietary-component-matching-version-rights-unverified",
+        "editorProfileVerified": false,
+        "runtimeMinimumUnityVersionConfirmed": false,
+        "evidenceUrl": "https://raw.githubusercontent.com/Live2D/CubismUnityComponents/c598e36eb2302a7e8a6177b2c8e52e9c1da21923/README.md",
+        "evidenceSha256": "f3090cfa98aed534e8c544c59cc6dff15c93858d495b23a9f0317c6b8ee6a546"
+      }
     }
   ],
   "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
-  "family": "common-animation",
-  "preferredVersions": [
-    "Unity/R11",
-    "Unity/R12"
-  ],
-  "selectionMode": "fixed-common",
-  "maxCommonVersions": 3,
-  "registry": "https://packages.unity.com"
+  "family": "common-animation"
 }

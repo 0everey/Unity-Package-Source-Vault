@@ -47,6 +47,19 @@ Spine 4.2 observations distinguish Unity 4.2.120 from C# 4.2.37. The Unity manif
 still requests C# 4.2.0. FMOD source snapshots and SteamVR beta tags retain their
 actual version basis. No combined SDK release or installed closure is invented.
 
+Live2D retains the 2019 Unity/R11 and Unity/R12 labels and adds stable vendor tag
+5-r.5 at c598e36eb2302a7e8a6177b2c8e52e9c1da21923, within three versions. That
+line documents Cubism 5.3 compatibility, URP/custom passes and Input System
+expectations; it does not support BIRP/HDRP. These statements do not certify an
+Editor profile or native Core pairing. The older tags have no proved asmdef;
+modern assembly bindings and renderer requirements are not transferred to them.
+
+Monorepo archives keep complete original hashes, rights and file manifests.
+Component routing separately indexes declarations whose actual file paths lie
+inside sourcePath; sibling directories and external asmref sources retain native
+eligibility. Compact indexes carry this scope; old summaries without path proof
+remain weak. A whole-repository Git lock cannot certify an unnamed subcomponent.
+
 ## Diagnostic comparison and validation
 
 `scripts/audit_coverage_panel.py` compares the same frozen public metadata panel

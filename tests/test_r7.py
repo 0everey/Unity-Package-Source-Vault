@@ -131,6 +131,29 @@ class R7Tests(unittest.TestCase):
         lock=resolve(result);lock.pop('unknown',None)
         self.assertTrue(export_remaker(lock)['unknown'])
 
+    def test_matching_installation_does_not_swallow_other_observed_version_gap(self):
+        from uvault.inventory import inventory_directory
+        with tempfile.TemporaryDirectory() as temporary:
+            root=Path(temporary)
+            for folder,version,body in [('old-copy','1.0.0','void Old() {}'),('new-copy','2.0.0','void New() {}')]:
+                package=root/'Packages'/folder;package.mkdir(parents=True)
+                (package/'package.json').write_text(json.dumps({'name':'com.example.shared','version':version,'unity':'2020.3'}))
+                (package/'Runtime.asmdef').write_text('{"name":"Example.Shared"}')
+                (package/'Widget.cs').write_text('namespace Example { public class Widget { '+body+' } }')
+            fp=inventory_directory(root/'Packages'/'old-copy',None)
+            cat={'schemaVersion':'1.0','catalogCommit':'c'*40,'packages':[{'id':'com.example.shared','versions':[
+                {'version':'1.0.0','variantId':'test','fingerprint':fp}]}]}
+            result=identify(root,cat)
+        self.assertEqual(result['matches'][0]['status'],'exact-artifact')
+        self.assertEqual(result['matches'][0]['candidates'][0]['version'],'1.0.0')
+        request=result['missingVersionRequests'][0]
+        self.assertEqual(request['version'],'2.0.0');self.assertTrue(request['targetPresent'])
+        self.assertTrue(request['observedSourceSetSha256']);self.assertTrue(result['unknown'])
+        lock=resolve(result);self.assertTrue(lock['unresolved'])
+        lock.pop('unknown');lock.pop('unresolved')
+        export=export_remaker(lock)
+        self.assertTrue(export['unknown']);self.assertEqual(export['missingVersionRequests'],result['missingVersionRequests'])
+
     def test_family_cache_binding_changes_when_producer_or_rules_change(self):
         inv=inventory(declaration('app','Game.App','Assembly-CSharp',category='game-business'))
         first=classify(inv,catalog())

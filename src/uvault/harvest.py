@@ -511,14 +511,16 @@ def collect_version(package, version, *, publish=None):
             record["sdkBundle"]["unparsedDlls"]=[{"path":item["path"],"status":item.get("metadataStatus"),"reason":item.get("metadataError")}
                                                  for item in fingerprint.get("managedMetadata",[]) if item.get("metadataStatus") not in ("managed","native")]
         elif package.get("componentBundle")=="sdk-managed-components":
+            from .component_scope import scoped_fingerprint
+            component_fingerprint=scoped_fingerprint(record)
             record["sdkBundle"]={"packageId":package["id"],"version":record["version"],"archiveSha256":_sha(data),
                 "assemblies":[{"path":item["path"],"sha256":item["sha256"],"assemblyIdentity":copy.deepcopy(item["assemblyIdentity"]),
                                "basis":"actual-sdk-archive-offline-managed-metadata"}
-                              for item in fingerprint.get("managedMetadata",[]) if item.get("metadataStatus")=="managed"],
+                              for item in component_fingerprint.get("managedMetadata",[]) if item.get("metadataStatus")=="managed"],
                 "scope":"Actual bundled managed identities only; no inference of native SDK versions or interchangeable dependencies","profileVerified":False}
             record["sdkBundle"]["metadataStatus"]="decoded-managed-identities" if record["sdkBundle"]["assemblies"] else "no-decoded-managed-dll-identities"
             record["sdkBundle"]["unparsedDlls"]=[{"path":item["path"],"status":item.get("metadataStatus"),"reason":item.get("metadataError")}
-                                                 for item in fingerprint.get("managedMetadata",[]) if item.get("metadataStatus")!="managed"]
+                                                 for item in component_fingerprint.get("managedMetadata",[]) if item.get("metadataStatus")!="managed"]
         names = [item["path"] for item in fingerprint.get("files", [])]
         has_sources = any(name.lower().endswith(".cs") for name in names)
         has_binary = bool(rights["binaryComponents"])

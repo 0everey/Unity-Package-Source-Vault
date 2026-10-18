@@ -223,6 +223,8 @@ def externalize_fingerprint(root: Path, version: dict) -> bool:
     data = _write_immutable(path, data, raw)
     reference = {"path": relative, "sha256": _sha(data), "size": len(data), "producer": producer}
     summary = _summary(fingerprint, reference, artifact_sha)
+    from .component_scope import component_path,routing_index
+    if component_path(version):summary["componentIndex"]=routing_index(version)
     version["fingerprint"] = summary
     return True
 

@@ -175,7 +175,8 @@ def _catalog_index(catalog, matches):
                          "artifactSha256": (version.get("artifact") or {}).get("sha256"),
                          "matchStatus": match.get("status", "declaration-candidate"),
                          "conflicts": match.get("conflicts", [])}
-            fingerprint = version.get("fingerprint") or {}
+            from .component_scope import scoped_fingerprint
+            fingerprint = scoped_fingerprint(version)
             assemblies = fingerprint.get("assemblies", [])
             assemblies_by_id = {a["id"]: a for a in assemblies if isinstance(a, dict) and a.get("id")}
             scoped = []
@@ -285,11 +286,14 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
     builtin_identity = rules_identity()
     from .family_identity import detect_inventory,rules_identity as family_rules_identity
     family_rules=family_rules_identity()
+    from .component_scope import producer_identity
+    component_producer=producer_identity()
     cache_key = _hash(dict(binding, classifierSha256=classifier_sha, inventorySha256=_hash(inventory),
                            matchesSha256=_hash(matches), decisionsSha256=_hash(decisions),
                            builtinRules=builtin_identity,
                            namedOriginRules=named_rules_identity(),
                            officialFamilyRules=family_rules,
+                           componentScopeProducer=component_producer,
                            restoration={"ids": sorted(restore_ids), "reason": restore_reason}))
     accepted = _decisions(decisions, binding, by_id)
     index, weak = _catalog_index(catalog, matches)
@@ -517,6 +521,7 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
     return {"classification": {**common, "classifierSha256": classifier_sha, "profile": copy.deepcopy(profile),
                                 "builtinRules": builtin_identity,
                                 "officialFamilyRules":family_rules,
+                                "componentScopeProducer":component_producer,
                                 "completeScope": copy.deepcopy(inventory["completeScope"]),
                                 "sourceRefs": copy.deepcopy(inventory.get("sourceRefs", [])),
                                 "items": rows, "externalAliases": external_aliases, "adoptionStatus": "pending"},

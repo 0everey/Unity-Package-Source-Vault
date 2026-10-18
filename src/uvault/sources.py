@@ -279,6 +279,9 @@ def pinned_git_package(seed):
                 "disposition":"license-unresolved","license":{"expression":None,"components":[],"reviewStatus":"pending-per-version-archive"},
                 "dependencies":{},"artifact":None,"fingerprint":None,"fetchStatus":"pending",
                 "versionStatus":pin.get("versionStatus") or ("snapshot" if pin["version"].startswith("source-") else "prerelease" if _is_prerelease(pin["version"]) else "stable")}
+        if pin.get("integrationConstraints"):
+            from copy import deepcopy
+            record["integrationConstraints"]=deepcopy(pin["integrationConstraints"])
         if pin.get("componentMetadata"):
             record["componentScope"]={"sourcePath":path,"metadata":pin["componentMetadata"],
                                       "archiveScope":"complete-original-repository-archive","targetComponentEquivalenceVerified":False}
