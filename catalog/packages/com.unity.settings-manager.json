@@ -16,23 +16,214 @@
     {
       "version": "1.0.3",
       "variantId": "registry-packages.unity.com-559e18d929f7a876",
-      "sourceUrl": "https://github.com/Unity-Technologies/com.unity.settings-manager.git",
+      "sourceUrl": "https://github.com/Unity-Technologies/com.unity.settings-manager",
       "sourceRef": "473664ccba1496294b741cf169740a5d54b3d0b6",
       "downloadUrl": "https://download.packages.unity.com/com.unity.settings-manager/-/com.unity.settings-manager-1.0.3.tgz",
       "upstreamIntegrity": null,
       "upstreamShasum": "59cbe0e443a51c5752c74323dcae91119bac1ba6",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "LicenseRef-Unity-Companion",
+        "evidenceUrl": "https://download.packages.unity.com/com.unity.settings-manager/-/com.unity.settings-manager-1.0.3.tgz#package/LICENSE.md",
+        "sha256": "a71932798c77ed7d34ceec77858dd0005bde0d1b32f8e26b2b1d74e4469a8a5d",
+        "text": "Settings-Manager copyright © 2019 Unity Technologies ApS\r\n\r\nLicensed under the Unity Companion License for Unity-dependent projects--see [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License).\r\n\r\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\r\n",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": "LicenseRef-Unity-Companion",
+            "sha256": "a71932798c77ed7d34ceec77858dd0005bde0d1b32f8e26b2b1d74e4469a8a5d",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.settings-manager/-/com.unity.settings-manager-1.0.3.tgz#package/LICENSE.md",
+            "text": "Settings-Manager copyright © 2019 Unity Technologies ApS\r\n\r\nLicensed under the Unity Companion License for Unity-dependent projects--see [Unity Companion License](http://www.unity3d.com/legal/licenses/Unity_Companion_License).\r\n\r\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.\r\n"
+          },
+          {
+            "path": "LICENSE.md.meta",
+            "expression": null,
+            "sha256": "a6447f383364bd54d234bafc14de10192e7e1b46ef393c031b6cd05adfa8d080",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.settings-manager/-/com.unity.settings-manager-1.0.3.tgz#package/LICENSE.md.meta",
+            "text": "fileFormatVersion: 2\r\nguid: 27264456a8bbc094d9479c5d5f9b0aa5\r\nTextScriptImporter:\r\n  externalObjects: {}\r\n  userData: \r\n  assetBundleName: \r\n  assetBundleVariant: \r\n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:36:33.157671Z",
+        "decisionBasis": [
+          "Special-purpose or usage-restricted license",
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "d03cf61977b69776862f77e865d848afbc2131b377cdca1bc05d22184579eaf0",
+        "size": 611223,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://download.packages.unity.com/com.unity.settings-manager/-/com.unity.settings-manager-1.0.3.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "5d27d535fe9649d779d388b28b0c6421ed41ec23775fbbdbb291f02b42fcc06a",
+        "artifactSha256": "d03cf61977b69776862f77e865d848afbc2131b377cdca1bc05d22184579eaf0",
+        "artifactSize": 611223,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "UnityEditor.SettingsManagement",
+          "UnityEditor.SettingsManagement.Examples",
+          "UnityEngine.SettingsManagement.EditorTests"
+        ],
+        "types": [
+          "UnityEditor.SettingsManagement.Examples.FooClass",
+          "UnityEditor.SettingsManagement.Examples.MySetting",
+          "UnityEditor.SettingsManagement.Examples.MySettingsExamples",
+          "UnityEditor.SettingsManagement.Examples.MySettingsManager",
+          "UnityEditor.SettingsManagement.Examples.MySettingsProvider",
+          "UnityEditor.SettingsManagement.Examples.PerPlatformSettingsTool",
+          "UnityEditor.SettingsManagement.ISettingsRepository",
+          "UnityEditor.SettingsManagement.IUserSetting",
+          "UnityEditor.SettingsManagement.PackageSettingsRepository",
+          "UnityEditor.SettingsManagement.SettingVisibility",
+          "UnityEditor.SettingsManagement.Settings",
+          "UnityEditor.SettingsManagement.SettingsDictionary",
+          "UnityEditor.SettingsManagement.SettingsDictionary+SettingsKeyValuePair",
+          "UnityEditor.SettingsManagement.SettingsGUILayout",
+          "UnityEditor.SettingsManagement.SettingsGUILayout+IndentedGroup",
+          "UnityEditor.SettingsManagement.SettingsGUIStyles",
+          "UnityEditor.SettingsManagement.SettingsKeyAttribute",
+          "UnityEditor.SettingsManagement.UserSetting",
+          "UnityEditor.SettingsManagement.UserSettingAttribute",
+          "UnityEditor.SettingsManagement.UserSettingBlockAttribute",
+          "UnityEditor.SettingsManagement.UserSettings",
+          "UnityEditor.SettingsManagement.UserSettingsProvider",
+          "UnityEditor.SettingsManagement.UserSettingsProvider+PrefEntry",
+          "UnityEditor.SettingsManagement.UserSettingsRepository",
+          "UnityEditor.SettingsManagement.ValueWrapper",
+          "UnityEngine.SettingsManagement.EditorTests.MultipleProjectSettings",
+          "UnityEngine.SettingsManagement.EditorTests.SettingsTests",
+          "UnityEngine.SettingsManagement.EditorTests.SettingsTests+DummyClass",
+          "UnityEngine.SettingsManagement.EditorTests.SettingsTests+DummyStruct"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "Unity.Settings.Editor",
+            "path": "Editor/Unity.Settings.Editor.asmdef",
+            "guid": "49818357e697641afb75d2f8acaf1861",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEditor.SettingsManagement.ISettingsRepository",
+              "UnityEditor.SettingsManagement.IUserSetting",
+              "UnityEditor.SettingsManagement.PackageSettingsRepository",
+              "UnityEditor.SettingsManagement.SettingVisibility",
+              "UnityEditor.SettingsManagement.Settings",
+              "UnityEditor.SettingsManagement.SettingsDictionary",
+              "UnityEditor.SettingsManagement.SettingsDictionary+SettingsKeyValuePair",
+              "UnityEditor.SettingsManagement.SettingsGUILayout",
+              "UnityEditor.SettingsManagement.SettingsGUILayout+IndentedGroup",
+              "UnityEditor.SettingsManagement.SettingsGUIStyles",
+              "UnityEditor.SettingsManagement.SettingsKeyAttribute",
+              "UnityEditor.SettingsManagement.UserSetting",
+              "UnityEditor.SettingsManagement.UserSettingAttribute",
+              "UnityEditor.SettingsManagement.UserSettingBlockAttribute",
+              "UnityEditor.SettingsManagement.UserSettings",
+              "UnityEditor.SettingsManagement.UserSettingsProvider",
+              "UnityEditor.SettingsManagement.UserSettingsProvider+PrefEntry",
+              "UnityEditor.SettingsManagement.UserSettingsRepository",
+              "UnityEditor.SettingsManagement.ValueWrapper"
+            ]
+          },
+          {
+            "name": "Unity.Settings.Example",
+            "path": "Samples~/Unity.Settings.Example.asmdef",
+            "guid": null,
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "Unity.Settings.Editor"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEditor.SettingsManagement.Examples.FooClass",
+              "UnityEditor.SettingsManagement.Examples.MySetting",
+              "UnityEditor.SettingsManagement.Examples.MySettingsExamples",
+              "UnityEditor.SettingsManagement.Examples.MySettingsManager",
+              "UnityEditor.SettingsManagement.Examples.MySettingsProvider",
+              "UnityEditor.SettingsManagement.Examples.PerPlatformSettingsTool"
+            ]
+          },
+          {
+            "name": "Unity.Settings.Tests",
+            "path": "Tests/Editor/Unity.Settings.Editor.Tests.asmdef",
+            "guid": "b8c9b6a82a342504c8e4a2747471d23c",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "Unity.Settings.Editor"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEngine.SettingsManagement.EditorTests.MultipleProjectSettings",
+              "UnityEngine.SettingsManagement.EditorTests.SettingsTests",
+              "UnityEngine.SettingsManagement.EditorTests.SettingsTests+DummyClass",
+              "UnityEngine.SettingsManagement.EditorTests.SettingsTests+DummyStruct"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/d03cf61977b69776862f77e865d848afbc2131b377cdca1bc05d22184579eaf0-595fb35e69ff.json.gz",
+          "sha256": "b662e0c85d0a8140f605c6027731ed51cdee2c42ec3e68b8b9e32e98b516f0c4",
+          "size": 4523,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 58,
+        "sourceFileCount": 18,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 6,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://packages.unity.com/com.unity.settings-manager/1.0.3",
       "deprecated": null,
@@ -42,7 +233,13 @@
         "dist": {
           "shasum": "59cbe0e443a51c5752c74323dcae91119bac1ba6"
         }
-      }
+      },
+      "packageId": "com.unity.settings-manager",
+      "sourceRefEvidence": {
+        "kind": "archive-package-json",
+        "sha256": "3daf427875d97a9d92b9c1e85e12ddb0b4904265a581150b852fc247a63140bb"
+      },
+      "collectedAt": "2026-10-18T05:36:33.177384Z"
     }
   ],
   "metadataStatus": "complete",
