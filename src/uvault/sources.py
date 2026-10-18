@@ -260,6 +260,15 @@ def git_package(package_id, repository):
             "versions": sorted(versions, key=lambda item: version_key(item["version"])), "metadataStatus": "complete"}
 
 
+def _pinned_version_status(pin):
+    if pin.get("versionStatus"):return pin["versionStatus"]
+    version=pin["version"]
+    if version.startswith("source-"):return "snapshot"
+    if not re.fullmatch(r"[vV]?\d+(?:\.\d+){1,3}(?:[-+][0-9A-Za-z.-]+)?",version):
+        return "vendor-tag-unassessed"
+    return "prerelease" if _is_prerelease(version) else "stable"
+
+
 def pinned_git_package(seed):
     """Read an explicitly chosen immutable source menu; no tag enumeration."""
     repository=seed["repository"].removeprefix("https://github.com/").removesuffix(".git").strip("/")
@@ -278,7 +287,10 @@ def pinned_git_package(seed):
                 "downloadUrl":"https://codeload.github.com/"+repository+"/tar.gz/"+sha,
                 "disposition":"license-unresolved","license":{"expression":None,"components":[],"reviewStatus":"pending-per-version-archive"},
                 "dependencies":{},"artifact":None,"fingerprint":None,"fetchStatus":"pending",
-                "versionStatus":pin.get("versionStatus") or ("snapshot" if pin["version"].startswith("source-") else "prerelease" if _is_prerelease(pin["version"]) else "stable")}
+                "versionStatus":_pinned_version_status(pin)}
+        if pin.get("versionStatusEvidence"):
+            from copy import deepcopy
+            record["versionStatusEvidence"]=deepcopy(pin["versionStatusEvidence"])
         if pin.get("integrationConstraints"):
             from copy import deepcopy
             record["integrationConstraints"]=deepcopy(pin["integrationConstraints"])

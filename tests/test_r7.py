@@ -51,6 +51,18 @@ class R7Tests(unittest.TestCase):
             self.assertFalse(row['automaticCollection'])
         self.assertEqual(len(config['activatedProviderCandidates']),4);self.assertFalse(config['providerRuleCandidates'])
 
+    def test_vendor_tag_syntax_does_not_invent_prerelease_state(self):
+        seed={'id':'example','repository':'Owner/Example','gitPins':[]}
+        for label,status in [('Unity/R11','vendor-tag-unassessed'),('Release2.45','vendor-tag-unassessed'),
+                             ('release_8_6_5','vendor-tag-unassessed'),('1.2.0','stable'),('v1.2.0-beta.1','prerelease'),
+                             ('source-abc','snapshot')]:
+            seed['gitPins']=[{'version':label,'sourceRef':'a'*40}]
+            self.assertEqual(sources.pinned_git_package(seed)['versions'][0]['versionStatus'],status)
+        seed['gitPins']=[{'version':'Unity/R12','sourceRef':'a'*40,'versionStatus':'stable',
+                          'versionStatusEvidence':{'kind':'official-release','prerelease':False}}]
+        record=sources.pinned_git_package(seed)['versions'][0]
+        self.assertEqual(record['versionStatus'],'stable');self.assertFalse(record['versionStatusEvidence']['prerelease'])
+
     def _director(self,a='extern public void Play();',b='public extern void Stop();'):
         return inventory(declaration('play','UnityEngine.Playables.PlayableDirector','UnityEngine.DirectorModule',memberSignature=a),
                          declaration('stop','UnityEngine.Playables.PlayableDirector','UnityEngine.DirectorModule',memberSignature=b))
@@ -160,6 +172,20 @@ class R7Tests(unittest.TestCase):
         identity=family_identity.rules_identity();identity['rulesSha256']='f'*64
         with patch('uvault.family_identity.rules_identity',return_value=identity):second=classify(inv,catalog())
         self.assertNotEqual(first['classification']['cacheKey'],second['classification']['cacheKey'])
+
+    def test_weak_family_hint_stays_unresolved_in_old_lock_export(self):
+        found={'schemaVersion':'1.0','catalogCommit':'c'*40,'input':{},'matches':[],
+               'familyHints':[{'familyId':'Moodkie.EasySave','status':'weak-simple-api-names-only',
+                               'assemblyIdentity':{'name':'Game.Business'},'packageVersion':None}]}
+        lock=resolve(found)
+        self.assertTrue(lock['unknown'])
+        lock.pop('unknown');lock.pop('unresolved')
+        original=copy.deepcopy(lock)
+        receipt={'lockSha256':canonical_hash(lock),'libraries':[]}
+        exported=export_remaker(lock,receipt,'a'*64)
+        self.assertEqual(lock,original);self.assertTrue(exported['unknown'])
+        self.assertEqual(exported['familyHints'],lock['familyHints'])
+        self.assertEqual(exported['lockContentSha256'],canonical_hash(original))
 
     def test_actual_binary_difference_protects_native_like_source_difference(self):
         cat=catalog();cat['packages'].append({'id':'com.example.library','versions':[{'version':'1.0.0','variantId':'test',

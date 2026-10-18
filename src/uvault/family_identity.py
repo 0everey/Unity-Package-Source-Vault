@@ -132,7 +132,7 @@ def detect_fingerprint(fingerprint):
 
 def preserve_context(document):
     """Old locks cannot hide unresolved family/version facts by clearing status."""
-    for family in document.get("knownFamilies",[]):
+    for family in document.get("knownFamilies",[])+document.get("familyHints",[]):
         unknown={"reason":"official-family-clue-version-and-source-unresolved","familyId":family.get("familyId"),
                  "assemblyIdentity":deepcopy(family.get("assemblyIdentity")),"status":family.get("status")}
         if unknown not in document.setdefault("unknown",[]):document["unknown"].append(unknown)
