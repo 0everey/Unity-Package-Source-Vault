@@ -16,25 +16,441 @@
     {
       "version": "1.1.5",
       "variantId": "registry-packages.unity.com-b2d87ef1f9fff817",
-      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation",
       "sourceRef": "a905e1ab41c8afae1a75688ceb3b4dfa1686ea75",
       "downloadUrl": "https://download.packages.unity.com/com.unity.ai.navigation/-/com.unity.ai.navigation-1.1.5.tgz",
       "upstreamIntegrity": null,
       "upstreamShasum": "f5dd6f5e8f9e9bf808358068d8116d1d35f9bcf4",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "LicenseRef-Unity-Companion",
+        "evidenceUrl": "https://download.packages.unity.com/com.unity.ai.navigation/-/com.unity.ai.navigation-1.1.5.tgz#package/LICENSE.md",
+        "sha256": "97db82ccb8f7a29ec712a91315eaa706ec5c735b9693a039f85399f85c4c0f51",
+        "text": "com.unity.ai.navigation copyright © 2016 Unity Technologies ApS\r\n\r\nLicensed under the Unity Companion License for Unity-dependent projects (see https://unity3d.com/legal/licenses/unity_companion_license).\r\n\r\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions.",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": "LicenseRef-Unity-Companion",
+            "sha256": "97db82ccb8f7a29ec712a91315eaa706ec5c735b9693a039f85399f85c4c0f51",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.ai.navigation/-/com.unity.ai.navigation-1.1.5.tgz#package/LICENSE.md",
+            "text": "com.unity.ai.navigation copyright © 2016 Unity Technologies ApS\r\n\r\nLicensed under the Unity Companion License for Unity-dependent projects (see https://unity3d.com/legal/licenses/unity_companion_license).\r\n\r\nUnless expressly provided otherwise, the Software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the license for details on these and other terms and conditions."
+          },
+          {
+            "path": "LICENSE.md.meta",
+            "expression": null,
+            "sha256": "39339207f907f92ddec067ce4121c0fdee0af9f317d2fc008a4cccc251352fa8",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.ai.navigation/-/com.unity.ai.navigation-1.1.5.tgz#package/LICENSE.md.meta",
+            "text": "fileFormatVersion: 2\r\nguid: af8f9a7f066204789819c6a616afe2c0\r\nTextScriptImporter:\r\n  externalObjects: {}\r\n  userData: \r\n  assetBundleName: \r\n  assetBundleVariant: \r\n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:35:16.757148Z",
+        "decisionBasis": [
+          "Special-purpose or usage-restricted license",
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {
         "com.unity.modules.ai": "1.0.0"
       },
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "76eefb44011c3bcb05267c5a44187f95839911ea44c57db42a20cd02d6034c80",
+        "size": 8665751,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://download.packages.unity.com/com.unity.ai.navigation/-/com.unity.ai.navigation-1.1.5.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "6bd737514be1ba9f38fe55df32da54b2d1c8bb3ed6a60dcdb6350432ceafac5e",
+        "artifactSha256": "76eefb44011c3bcb05267c5a44187f95839911ea44c57db42a20cd02d6034c80",
+        "artifactSize": 8665751,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "Unity.AI.Navigation",
+          "Unity.AI.Navigation.Editor",
+          "Unity.AI.Navigation.Editor.Converter",
+          "Unity.AI.Navigation.Editor.Tests",
+          "Unity.AI.Navigation.Samples",
+          "Unity.AI.Navigation.Samples.Editor",
+          "Unity.AI.Navigation.Tests",
+          "Unity.AI.Navigation.Updater"
+        ],
+        "types": [
+          "Unity.AI.Navigation.CollectObjects",
+          "Unity.AI.Navigation.Editor.Converter.ConverterItemDescriptor",
+          "Unity.AI.Navigation.Editor.Converter.ConverterItemInfo",
+          "Unity.AI.Navigation.Editor.Converter.ConverterItemState",
+          "Unity.AI.Navigation.Editor.Converter.ConverterItems",
+          "Unity.AI.Navigation.Editor.Converter.ConverterState",
+          "Unity.AI.Navigation.Editor.Converter.EditorStyles",
+          "Unity.AI.Navigation.Editor.Converter.InitializeConverterContext",
+          "Unity.AI.Navigation.Editor.Converter.RunItemContext",
+          "Unity.AI.Navigation.Editor.Converter.Status",
+          "Unity.AI.Navigation.Editor.Converter.SystemConverter",
+          "Unity.AI.Navigation.Editor.Converter.SystemConverterContainer",
+          "Unity.AI.Navigation.Editor.Converter.SystemConvertersEditor",
+          "Unity.AI.Navigation.Editor.NavMeshAssetManager",
+          "Unity.AI.Navigation.Editor.NavMeshAssetManager+AsyncBakeOperation",
+          "Unity.AI.Navigation.Editor.NavMeshAssetManager+SavedPrefabNavMeshData",
+          "Unity.AI.Navigation.Editor.NavMeshComponentsGUIUtility",
+          "Unity.AI.Navigation.Editor.NavMeshLinkEditor",
+          "Unity.AI.Navigation.Editor.NavMeshModifierEditor",
+          "Unity.AI.Navigation.Editor.NavMeshModifierVolumeEditor",
+          "Unity.AI.Navigation.Editor.NavMeshSurfaceEditor",
+          "Unity.AI.Navigation.Editor.NavMeshSurfaceEditor+Styles",
+          "Unity.AI.Navigation.Editor.NavigationOverlay",
+          "Unity.AI.Navigation.Editor.NavigationOverlay+Style",
+          "Unity.AI.Navigation.Editor.NavigationPreferencesProvider",
+          "Unity.AI.Navigation.Editor.NavigationPreferencesProvider+Styles",
+          "Unity.AI.Navigation.Editor.NavigationWindow",
+          "Unity.AI.Navigation.Editor.NavigationWindow+Mode",
+          "Unity.AI.Navigation.Editor.NavigationWindow+Styles",
+          "Unity.AI.Navigation.Editor.ObsoleteNavigationWindowMenuEntry",
+          "Unity.AI.Navigation.Editor.Tests.ConverterTests",
+          "Unity.AI.Navigation.Editor.Tests.NavMeshModifierVolumeInPrefabTests",
+          "Unity.AI.Navigation.Editor.Tests.NavMeshSurfaceInPrefabTests",
+          "Unity.AI.Navigation.Editor.Tests.NavMeshSurfaceInPrefabVariantTests",
+          "Unity.AI.Navigation.Editor.Tests.NavigationPresenceInMenus",
+          "Unity.AI.Navigation.Editor.Tests.PrefabSavingUtil",
+          "Unity.AI.Navigation.Editor.Tests.PrefabStageAutoSavingUtil",
+          "Unity.AI.Navigation.Editor.Tests.RunMode",
+          "Unity.AI.Navigation.Editor.Tests.TestUtility",
+          "Unity.AI.Navigation.HelpUrls",
+          "Unity.AI.Navigation.NavMeshLink",
+          "Unity.AI.Navigation.NavMeshModifier",
+          "Unity.AI.Navigation.NavMeshModifierVolume",
+          "Unity.AI.Navigation.NavMeshSurface",
+          "Unity.AI.Navigation.Samples.AgentLinkMover",
+          "Unity.AI.Navigation.Samples.ClickToMove",
+          "Unity.AI.Navigation.Samples.Despawner",
+          "Unity.AI.Navigation.Samples.DestroyOnTrigger",
+          "Unity.AI.Navigation.Samples.DungeonManager",
+          "Unity.AI.Navigation.Samples.DynamicNavMeshObject",
+          "Unity.AI.Navigation.Samples.Editor.NavigationSampleProjectSettingsGenerator",
+          "Unity.AI.Navigation.Samples.Editor.NavigationSampleProjectSettingsGenerator+NavMeshBuildSettings",
+          "Unity.AI.Navigation.Samples.Editor.NavigationSampleSettingsState",
+          "Unity.AI.Navigation.Samples.EnableIffSleeping",
+          "Unity.AI.Navigation.Samples.FreeCam",
+          "Unity.AI.Navigation.Samples.FreeCam+RotationAxes",
+          "Unity.AI.Navigation.Samples.GloballyUpdatedNavMeshSurface",
+          "Unity.AI.Navigation.Samples.MeshTool",
+          "Unity.AI.Navigation.Samples.MeshTool+ExtrudeMethod",
+          "Unity.AI.Navigation.Samples.NavMeshSurfaceVolumeUpdater",
+          "Unity.AI.Navigation.Samples.NavigationLoop",
+          "Unity.AI.Navigation.Samples.NavigationSampleInitializer",
+          "Unity.AI.Navigation.Samples.OffMeshLinkMoveMethod",
+          "Unity.AI.Navigation.Samples.Oscillator",
+          "Unity.AI.Navigation.Samples.RandomInstancing",
+          "Unity.AI.Navigation.Samples.RandomWalk",
+          "Unity.AI.Navigation.Samples.SpawnPrefabOnKeyDown",
+          "Unity.AI.Navigation.Tests.NavMeshSurfaceAgentTests",
+          "Unity.AI.Navigation.Tests.NavMeshSurfaceLinkTests",
+          "Unity.AI.Navigation.Tests.NavMeshSurfaceModifierTests",
+          "Unity.AI.Navigation.Tests.NavMeshSurfaceModifierVolumeTests",
+          "Unity.AI.Navigation.Tests.NavMeshSurfaceTests",
+          "Unity.AI.Navigation.Updater.BuiltInToNavMeshSurfaceConverterContainer",
+          "Unity.AI.Navigation.Updater.NavMeshSceneConverter",
+          "Unity.AI.Navigation.Updater.NavMeshUpdaterEditor",
+          "Unity.AI.Navigation.Updater.NavMeshUpdaterUtility"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "Unity.AI.Navigation",
+            "path": "Runtime/Unity.AI.Navigation.asmdef",
+            "guid": "8c4dd21966739024fbd72155091d199e",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [
+              {
+                "name": "com.unity.modules.terrain",
+                "expression": "1.0.0",
+                "define": "NMC_CAN_ACCESS_TERRAIN"
+              }
+            ],
+            "references": [],
+            "profileIssues": [
+              "version-defines-unverified"
+            ],
+            "types": [
+              "Unity.AI.Navigation.CollectObjects",
+              "Unity.AI.Navigation.HelpUrls",
+              "Unity.AI.Navigation.NavMeshLink",
+              "Unity.AI.Navigation.NavMeshModifier",
+              "Unity.AI.Navigation.NavMeshModifierVolume",
+              "Unity.AI.Navigation.NavMeshSurface"
+            ]
+          },
+          {
+            "name": "Unity.AI.Navigation.Editor",
+            "path": "Editor/Unity.AI.Navigation.Editor.asmdef",
+            "guid": "86c9d8e67265f41469be06142c397d17",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "GUID:8c4dd21966739024fbd72155091d199e",
+              "GUID:c57630adab7a340ec94f10e4fcac12f1"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "Unity.AI.Navigation.Editor.NavMeshAssetManager",
+              "Unity.AI.Navigation.Editor.NavMeshAssetManager+AsyncBakeOperation",
+              "Unity.AI.Navigation.Editor.NavMeshAssetManager+SavedPrefabNavMeshData",
+              "Unity.AI.Navigation.Editor.NavMeshComponentsGUIUtility",
+              "Unity.AI.Navigation.Editor.NavMeshLinkEditor",
+              "Unity.AI.Navigation.Editor.NavMeshModifierEditor",
+              "Unity.AI.Navigation.Editor.NavMeshModifierVolumeEditor",
+              "Unity.AI.Navigation.Editor.NavMeshSurfaceEditor",
+              "Unity.AI.Navigation.Editor.NavMeshSurfaceEditor+Styles",
+              "Unity.AI.Navigation.Editor.NavigationOverlay",
+              "Unity.AI.Navigation.Editor.NavigationOverlay+Style",
+              "Unity.AI.Navigation.Editor.NavigationPreferencesProvider",
+              "Unity.AI.Navigation.Editor.NavigationPreferencesProvider+Styles",
+              "Unity.AI.Navigation.Editor.NavigationWindow",
+              "Unity.AI.Navigation.Editor.NavigationWindow+Mode",
+              "Unity.AI.Navigation.Editor.NavigationWindow+Styles",
+              "Unity.AI.Navigation.Editor.ObsoleteNavigationWindowMenuEntry"
+            ]
+          },
+          {
+            "name": "Unity.AI.Navigation.Editor.ConversionSystem",
+            "path": "Editor/ConversionSystem/Unity.AI.Navigation.Editor.ConversionSystem.asmdef",
+            "guid": "c57630adab7a340ec94f10e4fcac12f1",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "Unity.AI.Navigation.Editor.Converter.ConverterItemDescriptor",
+              "Unity.AI.Navigation.Editor.Converter.ConverterItemInfo",
+              "Unity.AI.Navigation.Editor.Converter.ConverterItemState",
+              "Unity.AI.Navigation.Editor.Converter.ConverterItems",
+              "Unity.AI.Navigation.Editor.Converter.ConverterState",
+              "Unity.AI.Navigation.Editor.Converter.EditorStyles",
+              "Unity.AI.Navigation.Editor.Converter.InitializeConverterContext",
+              "Unity.AI.Navigation.Editor.Converter.RunItemContext",
+              "Unity.AI.Navigation.Editor.Converter.Status",
+              "Unity.AI.Navigation.Editor.Converter.SystemConverter",
+              "Unity.AI.Navigation.Editor.Converter.SystemConverterContainer",
+              "Unity.AI.Navigation.Editor.Converter.SystemConvertersEditor"
+            ]
+          },
+          {
+            "name": "Unity.AI.Navigation.Editor.Tests",
+            "path": "Tests/Editor/Unity.AI.Navigation.Editor.Tests.asmdef",
+            "guid": "794824b4a8f003f47a92875e8342f790",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [],
+            "references": [
+              "GUID:27619889b8ba8c24980f49ee34dbb44a",
+              "GUID:0acc523941302664db1f4e527237feb3",
+              "GUID:8c4dd21966739024fbd72155091d199e",
+              "GUID:86c9d8e67265f41469be06142c397d17",
+              "GUID:1664e92176d434ccd902c1705fefe682"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "Unity.AI.Navigation.Editor.Tests.ConverterTests",
+              "Unity.AI.Navigation.Editor.Tests.NavMeshModifierVolumeInPrefabTests",
+              "Unity.AI.Navigation.Editor.Tests.NavMeshSurfaceInPrefabTests",
+              "Unity.AI.Navigation.Editor.Tests.NavMeshSurfaceInPrefabVariantTests",
+              "Unity.AI.Navigation.Editor.Tests.NavigationPresenceInMenus",
+              "Unity.AI.Navigation.Editor.Tests.PrefabSavingUtil",
+              "Unity.AI.Navigation.Editor.Tests.PrefabStageAutoSavingUtil",
+              "Unity.AI.Navigation.Editor.Tests.RunMode",
+              "Unity.AI.Navigation.Editor.Tests.TestUtility"
+            ]
+          },
+          {
+            "name": "Unity.AI.Navigation.Samples",
+            "path": "Samples~/Unity.AI.Navigation.Samples.asmdef",
+            "guid": "62b574997e92efd41a8a1109157a0cb5",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "GUID:8c4dd21966739024fbd72155091d199e",
+              "GUID:1dcde1c83efa6e14e8e75ed67addeba3"
+            ],
+            "profileIssues": [],
+            "types": [
+              "Unity.AI.Navigation.Samples.AgentLinkMover",
+              "Unity.AI.Navigation.Samples.ClickToMove",
+              "Unity.AI.Navigation.Samples.Despawner",
+              "Unity.AI.Navigation.Samples.DestroyOnTrigger",
+              "Unity.AI.Navigation.Samples.DungeonManager",
+              "Unity.AI.Navigation.Samples.DynamicNavMeshObject",
+              "Unity.AI.Navigation.Samples.EnableIffSleeping",
+              "Unity.AI.Navigation.Samples.FreeCam",
+              "Unity.AI.Navigation.Samples.FreeCam+RotationAxes",
+              "Unity.AI.Navigation.Samples.GloballyUpdatedNavMeshSurface",
+              "Unity.AI.Navigation.Samples.MeshTool",
+              "Unity.AI.Navigation.Samples.MeshTool+ExtrudeMethod",
+              "Unity.AI.Navigation.Samples.NavMeshSurfaceVolumeUpdater",
+              "Unity.AI.Navigation.Samples.NavigationLoop",
+              "Unity.AI.Navigation.Samples.NavigationSampleInitializer",
+              "Unity.AI.Navigation.Samples.OffMeshLinkMoveMethod",
+              "Unity.AI.Navigation.Samples.Oscillator",
+              "Unity.AI.Navigation.Samples.RandomInstancing",
+              "Unity.AI.Navigation.Samples.RandomWalk",
+              "Unity.AI.Navigation.Samples.SpawnPrefabOnKeyDown"
+            ]
+          },
+          {
+            "name": "Unity.AI.Navigation.Samples.Initialization.Editor",
+            "path": "Samples~/Scripts/ProjectSettingsUtilities/Editor/Unity.AI.Navigation.Samples.Initialization.Editor.asmdef",
+            "guid": "1dcde1c83efa6e14e8e75ed67addeba3",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "Unity.AI.Navigation.Samples.Editor.NavigationSampleProjectSettingsGenerator",
+              "Unity.AI.Navigation.Samples.Editor.NavigationSampleProjectSettingsGenerator+NavMeshBuildSettings",
+              "Unity.AI.Navigation.Samples.Editor.NavigationSampleSettingsState"
+            ]
+          },
+          {
+            "name": "Unity.AI.Navigation.Tests",
+            "path": "Tests/Runtime/Unity.AI.Navigation.Tests.asmdef",
+            "guid": "455cd750f394b1c41b963b3335eae29c",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [
+              {
+                "name": "com.unity.modules.physics",
+                "expression": "1.0.0",
+                "define": "NMC_CAN_ACCESS_PHYSICS"
+              }
+            ],
+            "references": [
+              "GUID:27619889b8ba8c24980f49ee34dbb44a",
+              "GUID:0acc523941302664db1f4e527237feb3",
+              "GUID:8c4dd21966739024fbd72155091d199e"
+            ],
+            "profileIssues": [
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "Unity.AI.Navigation.Tests.NavMeshSurfaceAgentTests",
+              "Unity.AI.Navigation.Tests.NavMeshSurfaceLinkTests",
+              "Unity.AI.Navigation.Tests.NavMeshSurfaceModifierTests",
+              "Unity.AI.Navigation.Tests.NavMeshSurfaceModifierVolumeTests",
+              "Unity.AI.Navigation.Tests.NavMeshSurfaceTests"
+            ]
+          },
+          {
+            "name": "Unity.AI.Navigation.Updater",
+            "path": "Editor/Updater/Unity.AI.Navigation.Updater.asmdef",
+            "guid": "1664e92176d434ccd902c1705fefe682",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "GUID:8c4dd21966739024fbd72155091d199e",
+              "GUID:86c9d8e67265f41469be06142c397d17",
+              "GUID:c57630adab7a340ec94f10e4fcac12f1"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "Unity.AI.Navigation.Updater.BuiltInToNavMeshSurfaceConverterContainer",
+              "Unity.AI.Navigation.Updater.NavMeshSceneConverter",
+              "Unity.AI.Navigation.Updater.NavMeshUpdaterEditor",
+              "Unity.AI.Navigation.Updater.NavMeshUpdaterUtility"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/76eefb44011c3bcb05267c5a44187f95839911ea44c57db42a20cd02d6034c80-595fb35e69ff.json.gz",
+          "sha256": "c685fc3cbeddd692d0babb90d78bb7cfde14d7243781bdb6491f2b124a13e5c9",
+          "size": 27813,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 483,
+        "sourceFileCount": 61,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 38,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://packages.unity.com/com.unity.ai.navigation/1.1.5",
       "deprecated": null,
@@ -44,7 +460,13 @@
         "dist": {
           "shasum": "f5dd6f5e8f9e9bf808358068d8116d1d35f9bcf4"
         }
-      }
+      },
+      "packageId": "com.unity.ai.navigation",
+      "sourceRefEvidence": {
+        "kind": "archive-package-json",
+        "sha256": "9cee18674f6fd47afed9ec5f447b3dfb2139098878748464a7b9dbf798e7ca99"
+      },
+      "collectedAt": "2026-10-18T05:35:16.883583Z"
     },
     {
       "version": "2.0.15",

@@ -16,26 +16,505 @@
     {
       "version": "4.17.0",
       "variantId": "registry-packages.unity.com-e81557043c211079",
-      "sourceUrl": "https://packages.unity.com/com.unity.ads",
-      "sourceRef": null,
+      "sourceUrl": "https://github.com/Unity-Technologies/unity-ads-sdk",
+      "sourceRef": "d60069aaa232aba7f329697a610444d67bed593b",
       "downloadUrl": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.17.0.tgz",
       "upstreamIntegrity": null,
       "upstreamShasum": "c6e6f61ed7d9d729077ed53e67417739ff154f1a",
       "disposition": "license-unresolved",
       "license": {
         "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "evidenceUrl": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.17.0.tgz#package/LICENSE.md",
+        "sha256": "02e634a636a7528a986f4a663f2b7ec2deb0d15c17ed44f71e8ded7456356a1d",
+        "text": "Unity Advertisements copyright © 2026 Unity Technologies.\n\nThis software is subject to, and made available under, the Unity Terms of Service (see https://unity.com/legal). Your use of this software constitutes your acceptance of such terms.\n\nUnless expressly provided otherwise, the software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the Terms of Service for details on these and other terms and conditions.",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": null,
+            "sha256": "02e634a636a7528a986f4a663f2b7ec2deb0d15c17ed44f71e8ded7456356a1d",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.17.0.tgz#package/LICENSE.md",
+            "text": "Unity Advertisements copyright © 2026 Unity Technologies.\n\nThis software is subject to, and made available under, the Unity Terms of Service (see https://unity.com/legal). Your use of this software constitutes your acceptance of such terms.\n\nUnless expressly provided otherwise, the software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the Terms of Service for details on these and other terms and conditions."
+          },
+          {
+            "path": "LICENSE.md.meta",
+            "expression": null,
+            "sha256": "71075e88f2e097546ee50d507749adab2e991237f55122bc047b2bed71cf2746",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.17.0.tgz#package/LICENSE.md.meta",
+            "text": "fileFormatVersion: 2\nguid: 4c6fe94acbb24417c988bab18cbd5209\nTextScriptImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n"
+          },
+          {
+            "path": "LICENSE.txt.meta",
+            "expression": null,
+            "sha256": "11f01757592a9c854503eb5e471750eeb5b458c06774a0d710e1e783b76ccf4a",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.17.0.tgz#package/LICENSE.txt.meta",
+            "text": "fileFormatVersion: 2\nguid: 4ac4d12312c48451db52b690b2f12a6a\nTextScriptImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n"
+          },
+          {
+            "path": "LICENSE.txt",
+            "expression": null,
+            "sha256": "02e634a636a7528a986f4a663f2b7ec2deb0d15c17ed44f71e8ded7456356a1d",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.17.0.tgz#package/LICENSE.txt",
+            "text": "Unity Advertisements copyright © 2026 Unity Technologies.\n\nThis software is subject to, and made available under, the Unity Terms of Service (see https://unity.com/legal). Your use of this software constitutes your acceptance of such terms.\n\nUnless expressly provided otherwise, the software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the Terms of Service for details on these and other terms and conditions."
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:35:15.867801Z",
+        "decisionBasis": [
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.androidjni": "1.0.0"
       },
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "8e28c3509fb3ea0e37aa84f8e0dc4a98c15def532a4455875cc127a7dbaaa942",
+        "size": 2349883,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.17.0.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "051c4e52d8162cc151ccecc9452f2092c986686360665aaee3ef214c95d52442",
+        "artifactSha256": "8e28c3509fb3ea0e37aa84f8e0dc4a98c15def532a4455875cc127a7dbaaa942",
+        "artifactSize": 2349883,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "UnityEngine.Advertisements",
+          "UnityEngine.Advertisements.Editor",
+          "UnityEngine.Advertisements.Editor.Tests",
+          "UnityEngine.Advertisements.Events",
+          "UnityEngine.Advertisements.Platform",
+          "UnityEngine.Advertisements.Platform.Android",
+          "UnityEngine.Advertisements.Platform.Editor",
+          "UnityEngine.Advertisements.Platform.Unsupported",
+          "UnityEngine.Advertisements.Platform.iOS",
+          "UnityEngine.Advertisements.Tests",
+          "UnityEngine.Advertisements.Utilities"
+        ],
+        "types": [
+          "UnityAdsExampleUI",
+          "UnityAdsManager",
+          "UnityAdsManager+void",
+          "UnityEngine.Advertisements.Advertisement",
+          "UnityEngine.Advertisements.Advertisement+Banner",
+          "UnityEngine.Advertisements.AndroidInitializationListener",
+          "UnityEngine.Advertisements.AndroidLoadListener",
+          "UnityEngine.Advertisements.AndroidShowListener",
+          "UnityEngine.Advertisements.Banner",
+          "UnityEngine.Advertisements.BannerLoadOptions",
+          "UnityEngine.Advertisements.BannerLoadOptions+void",
+          "UnityEngine.Advertisements.BannerOptions",
+          "UnityEngine.Advertisements.BannerOptions+void",
+          "UnityEngine.Advertisements.BannerPosition",
+          "UnityEngine.Advertisements.Configuration",
+          "UnityEngine.Advertisements.Editor.AdsDashboardUrls",
+          "UnityEngine.Advertisements.Editor.AdsService",
+          "UnityEngine.Advertisements.Editor.AdsServiceEnabler",
+          "UnityEngine.Advertisements.Editor.AdsServiceIdentifier",
+          "UnityEngine.Advertisements.Editor.AdsServiceTopMenu",
+          "UnityEngine.Advertisements.Editor.AdsSettingsProvider",
+          "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender",
+          "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender+AnalyticsAction",
+          "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender+AnalyticsComponent",
+          "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender+EditorGameServiceEvent",
+          "UnityEngine.Advertisements.Editor.EditorTimer",
+          "UnityEngine.Advertisements.Editor.GameIdsUi",
+          "UnityEngine.Advertisements.Editor.GettingStartedUi",
+          "UnityEngine.Advertisements.Editor.ISkAdNetworkParser",
+          "UnityEngine.Advertisements.Editor.ISkAdNetworkSource",
+          "UnityEngine.Advertisements.Editor.MobileDependencyResolverInstallerUnity",
+          "UnityEngine.Advertisements.Editor.PluginUtils",
+          "UnityEngine.Advertisements.Editor.PostProcessBuildPlist",
+          "UnityEngine.Advertisements.Editor.RequestGameIds",
+          "UnityEngine.Advertisements.Editor.RequestGameIds+Body",
+          "UnityEngine.Advertisements.Editor.RequestGameIds+Response",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkFileExtension",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkJsonParser",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkJsonParser+SkAdNetworkIdArray",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkJsonParser+SkAdNetworkInfo",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkLocalSource",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkLocalSourceProvider",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkParser",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkRemoteSource",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkUrlParser",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkXmlParser",
+          "UnityEngine.Advertisements.Editor.Tests.SkAdNetworkParserTests",
+          "UnityEngine.Advertisements.Editor.Tests.SkAdNetworkSourceTests",
+          "UnityEngine.Advertisements.Editor.UiConstants",
+          "UnityEngine.Advertisements.Editor.UiConstants+ClassNames",
+          "UnityEngine.Advertisements.Editor.UiConstants+Formats",
+          "UnityEngine.Advertisements.Editor.UiConstants+LocalizedStrings",
+          "UnityEngine.Advertisements.Editor.UiConstants+StyleSheetPaths",
+          "UnityEngine.Advertisements.Editor.UiConstants+UiElementNames",
+          "UnityEngine.Advertisements.Editor.UiConstants+UiTemplatePaths",
+          "UnityEngine.Advertisements.Editor.UiConstants+Urls",
+          "UnityEngine.Advertisements.Editor.UiUtils",
+          "UnityEngine.Advertisements.Events.FinishEventArgs",
+          "UnityEngine.Advertisements.Events.StartEventArgs",
+          "UnityEngine.Advertisements.IBanner",
+          "UnityEngine.Advertisements.INativeBanner",
+          "UnityEngine.Advertisements.INativePlatform",
+          "UnityEngine.Advertisements.IUnityAdsInitializationListener",
+          "UnityEngine.Advertisements.IUnityAdsLoadListener",
+          "UnityEngine.Advertisements.IUnityAdsShowListener",
+          "UnityEngine.Advertisements.IosShowListener",
+          "UnityEngine.Advertisements.IosShowListener+void",
+          "UnityEngine.Advertisements.LoadOptions",
+          "UnityEngine.Advertisements.MetaData",
+          "UnityEngine.Advertisements.Placeholder",
+          "UnityEngine.Advertisements.Platform.Android.AndroidBanner",
+          "UnityEngine.Advertisements.Platform.Android.AndroidPlatform",
+          "UnityEngine.Advertisements.Platform.Android.BannerBundle",
+          "UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder",
+          "UnityEngine.Advertisements.Platform.Editor.EditorBanner",
+          "UnityEngine.Advertisements.Platform.Editor.EditorPlatform",
+          "UnityEngine.Advertisements.Platform.IPlatform",
+          "UnityEngine.Advertisements.Platform.Platform",
+          "UnityEngine.Advertisements.Platform.Unsupported.UnsupportedBanner",
+          "UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform",
+          "UnityEngine.Advertisements.Platform.iOS.IosBanner",
+          "UnityEngine.Advertisements.Platform.iOS.IosBanner+void",
+          "UnityEngine.Advertisements.Platform.iOS.IosInitializationListener",
+          "UnityEngine.Advertisements.Platform.iOS.IosInitializationListener+void",
+          "UnityEngine.Advertisements.Platform.iOS.IosLoadListener",
+          "UnityEngine.Advertisements.Platform.iOS.IosLoadListener+void",
+          "UnityEngine.Advertisements.Platform.iOS.IosNativeObject",
+          "UnityEngine.Advertisements.Platform.iOS.IosPlatform",
+          "UnityEngine.Advertisements.ShowOptions",
+          "UnityEngine.Advertisements.ShowResult",
+          "UnityEngine.Advertisements.Tests.BannerTests",
+          "UnityEngine.Advertisements.Tests.ConfigurationTests",
+          "UnityEngine.Advertisements.Tests.FinishEventArgsTests",
+          "UnityEngine.Advertisements.Tests.MetaDataTests",
+          "UnityEngine.Advertisements.Tests.MetaDataTests+TestJsonObject",
+          "UnityEngine.Advertisements.Tests.PlatformTests",
+          "UnityEngine.Advertisements.Tests.StartEventArgsTests",
+          "UnityEngine.Advertisements.Tests.UnityLifecycleManagerTests",
+          "UnityEngine.Advertisements.Tests.UnsupportedPlatformTests",
+          "UnityEngine.Advertisements.UnityAdsCompletionState",
+          "UnityEngine.Advertisements.UnityAdsInitializationError",
+          "UnityEngine.Advertisements.UnityAdsInitializationListenerMainDispatch",
+          "UnityEngine.Advertisements.UnityAdsLoadError",
+          "UnityEngine.Advertisements.UnityAdsLoadListenerMainDispatch",
+          "UnityEngine.Advertisements.UnityAdsShowCompletionState",
+          "UnityEngine.Advertisements.UnityAdsShowError",
+          "UnityEngine.Advertisements.UnityAdsShowListenerMainDispatch",
+          "UnityEngine.Advertisements.Utilities.ApplicationQuit",
+          "UnityEngine.Advertisements.Utilities.AssemblyInfoUtilities",
+          "UnityEngine.Advertisements.Utilities.Color",
+          "UnityEngine.Advertisements.Utilities.CoroutineExecutor",
+          "UnityEngine.Advertisements.Utilities.EnumUtilities",
+          "UnityEngine.Advertisements.Utilities.IUnityLifecycleManager",
+          "UnityEngine.Advertisements.Utilities.Json",
+          "UnityEngine.Advertisements.Utilities.Json+Parser",
+          "UnityEngine.Advertisements.Utilities.Json+Parser+TOKEN",
+          "UnityEngine.Advertisements.Utilities.Json+Serializer",
+          "UnityEngine.Advertisements.Utilities.UnityLifecycleManager",
+          "XCodeSwiftSupportPostProcess"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "Assembly-CSharp",
+            "path": null,
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "profileIssues": [
+              "unity-default-rules-not-compiler-verified"
+            ],
+            "types": [
+              "UnityAdsExampleUI",
+              "UnityAdsManager",
+              "UnityAdsManager+void"
+            ]
+          },
+          {
+            "name": "UnityEngine.Advertisements",
+            "path": "Runtime/Advertisement/UnityEngine.Advertisements.asmdef",
+            "guid": "ff6de30450f3748908ff580f6ec64d9a",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "!ADS_ASSET_STORE_PACKAGE_DETECTED"
+            ],
+            "versionDefines": [],
+            "references": [
+              "UnityEngine.UI"
+            ],
+            "profileIssues": [
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEngine.Advertisements.Advertisement",
+              "UnityEngine.Advertisements.Advertisement+Banner",
+              "UnityEngine.Advertisements.AndroidInitializationListener",
+              "UnityEngine.Advertisements.AndroidLoadListener",
+              "UnityEngine.Advertisements.AndroidShowListener",
+              "UnityEngine.Advertisements.Banner",
+              "UnityEngine.Advertisements.BannerLoadOptions",
+              "UnityEngine.Advertisements.BannerLoadOptions+void",
+              "UnityEngine.Advertisements.BannerOptions",
+              "UnityEngine.Advertisements.BannerOptions+void",
+              "UnityEngine.Advertisements.BannerPosition",
+              "UnityEngine.Advertisements.Configuration",
+              "UnityEngine.Advertisements.Events.FinishEventArgs",
+              "UnityEngine.Advertisements.Events.StartEventArgs",
+              "UnityEngine.Advertisements.IBanner",
+              "UnityEngine.Advertisements.INativeBanner",
+              "UnityEngine.Advertisements.INativePlatform",
+              "UnityEngine.Advertisements.IUnityAdsInitializationListener",
+              "UnityEngine.Advertisements.IUnityAdsLoadListener",
+              "UnityEngine.Advertisements.IUnityAdsShowListener",
+              "UnityEngine.Advertisements.IosShowListener",
+              "UnityEngine.Advertisements.IosShowListener+void",
+              "UnityEngine.Advertisements.LoadOptions",
+              "UnityEngine.Advertisements.MetaData",
+              "UnityEngine.Advertisements.Placeholder",
+              "UnityEngine.Advertisements.Platform.Android.AndroidBanner",
+              "UnityEngine.Advertisements.Platform.Android.AndroidPlatform",
+              "UnityEngine.Advertisements.Platform.Android.BannerBundle",
+              "UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder",
+              "UnityEngine.Advertisements.Platform.Editor.EditorBanner",
+              "UnityEngine.Advertisements.Platform.Editor.EditorPlatform",
+              "UnityEngine.Advertisements.Platform.IPlatform",
+              "UnityEngine.Advertisements.Platform.Platform",
+              "UnityEngine.Advertisements.Platform.Unsupported.UnsupportedBanner",
+              "UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform",
+              "UnityEngine.Advertisements.Platform.iOS.IosBanner",
+              "UnityEngine.Advertisements.Platform.iOS.IosBanner+void",
+              "UnityEngine.Advertisements.Platform.iOS.IosInitializationListener",
+              "UnityEngine.Advertisements.Platform.iOS.IosInitializationListener+void",
+              "UnityEngine.Advertisements.Platform.iOS.IosLoadListener",
+              "UnityEngine.Advertisements.Platform.iOS.IosLoadListener+void",
+              "UnityEngine.Advertisements.Platform.iOS.IosNativeObject",
+              "UnityEngine.Advertisements.Platform.iOS.IosPlatform",
+              "UnityEngine.Advertisements.ShowOptions",
+              "UnityEngine.Advertisements.ShowResult",
+              "UnityEngine.Advertisements.UnityAdsCompletionState",
+              "UnityEngine.Advertisements.UnityAdsInitializationError",
+              "UnityEngine.Advertisements.UnityAdsInitializationListenerMainDispatch",
+              "UnityEngine.Advertisements.UnityAdsLoadError",
+              "UnityEngine.Advertisements.UnityAdsLoadListenerMainDispatch",
+              "UnityEngine.Advertisements.UnityAdsShowCompletionState",
+              "UnityEngine.Advertisements.UnityAdsShowError",
+              "UnityEngine.Advertisements.UnityAdsShowListenerMainDispatch",
+              "UnityEngine.Advertisements.Utilities.ApplicationQuit",
+              "UnityEngine.Advertisements.Utilities.AssemblyInfoUtilities",
+              "UnityEngine.Advertisements.Utilities.Color",
+              "UnityEngine.Advertisements.Utilities.CoroutineExecutor",
+              "UnityEngine.Advertisements.Utilities.EnumUtilities",
+              "UnityEngine.Advertisements.Utilities.IUnityLifecycleManager",
+              "UnityEngine.Advertisements.Utilities.Json",
+              "UnityEngine.Advertisements.Utilities.Json+Parser",
+              "UnityEngine.Advertisements.Utilities.Json+Parser+TOKEN",
+              "UnityEngine.Advertisements.Utilities.Json+Serializer",
+              "UnityEngine.Advertisements.Utilities.UnityLifecycleManager"
+            ]
+          },
+          {
+            "name": "UnityEngine.Advertisements.DevX.Editor",
+            "path": "Editor/DevX/UnityEngine.Advertisements.DevX.Editor.asmdef",
+            "guid": "5aac751f83eaba6479e8f37173176ce2",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_2019_4_OR_NEWER"
+            ],
+            "versionDefines": [
+              {
+                "name": "com.unity.services.core",
+                "expression": "0.3.0-preview",
+                "define": "SERVICES_SDK_CORE_ENABLED"
+              }
+            ],
+            "references": [
+              "Unity.Services.Core",
+              "Unity.Services.Core.Editor"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEngine.Advertisements.Editor.AdsDashboardUrls",
+              "UnityEngine.Advertisements.Editor.AdsService",
+              "UnityEngine.Advertisements.Editor.AdsServiceEnabler",
+              "UnityEngine.Advertisements.Editor.AdsServiceIdentifier",
+              "UnityEngine.Advertisements.Editor.AdsServiceTopMenu",
+              "UnityEngine.Advertisements.Editor.AdsSettingsProvider",
+              "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender",
+              "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender+AnalyticsAction",
+              "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender+AnalyticsComponent",
+              "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender+EditorGameServiceEvent",
+              "UnityEngine.Advertisements.Editor.EditorTimer",
+              "UnityEngine.Advertisements.Editor.GameIdsUi",
+              "UnityEngine.Advertisements.Editor.GettingStartedUi",
+              "UnityEngine.Advertisements.Editor.PluginUtils",
+              "UnityEngine.Advertisements.Editor.RequestGameIds",
+              "UnityEngine.Advertisements.Editor.RequestGameIds+Body",
+              "UnityEngine.Advertisements.Editor.RequestGameIds+Response",
+              "UnityEngine.Advertisements.Editor.UiConstants",
+              "UnityEngine.Advertisements.Editor.UiConstants+ClassNames",
+              "UnityEngine.Advertisements.Editor.UiConstants+Formats",
+              "UnityEngine.Advertisements.Editor.UiConstants+LocalizedStrings",
+              "UnityEngine.Advertisements.Editor.UiConstants+StyleSheetPaths",
+              "UnityEngine.Advertisements.Editor.UiConstants+UiElementNames",
+              "UnityEngine.Advertisements.Editor.UiConstants+UiTemplatePaths",
+              "UnityEngine.Advertisements.Editor.UiConstants+Urls",
+              "UnityEngine.Advertisements.Editor.UiUtils"
+            ]
+          },
+          {
+            "name": "UnityEngine.Advertisements.Editor",
+            "path": "Editor/UnityEngine.Advertisements.Editor.asmdef",
+            "guid": "eb51336d7912e41739bc491a768fa824",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEngine.Advertisements.Editor.ISkAdNetworkParser",
+              "UnityEngine.Advertisements.Editor.ISkAdNetworkSource",
+              "UnityEngine.Advertisements.Editor.MobileDependencyResolverInstallerUnity",
+              "UnityEngine.Advertisements.Editor.PostProcessBuildPlist",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkFileExtension",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkJsonParser",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkJsonParser+SkAdNetworkIdArray",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkJsonParser+SkAdNetworkInfo",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkLocalSource",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkLocalSourceProvider",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkParser",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkRemoteSource",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkUrlParser",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkXmlParser",
+              "XCodeSwiftSupportPostProcess"
+            ]
+          },
+          {
+            "name": "UnityEngine.Advertisements.Editor.Tests",
+            "path": "Tests/Editor/Advertisement/UnityEngine.Advertisements.Editor.Tests.asmdef",
+            "guid": "11d2bef2c8c1341e283cdbbebf87d91b",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [
+              {
+                "name": "nuget.moq",
+                "expression": "1.0.0",
+                "define": "NUGET_MOQ_AVAILABLE"
+              }
+            ],
+            "references": [
+              "UnityEngine.Advertisements",
+              "UnityEngine.Advertisements.Editor"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEngine.Advertisements.Editor.Tests.SkAdNetworkParserTests",
+              "UnityEngine.Advertisements.Editor.Tests.SkAdNetworkSourceTests"
+            ]
+          },
+          {
+            "name": "UnityEngine.Advertisements.Tests",
+            "path": "Tests/Runtime/Advertisement/UnityEngine.Advertisements.Tests.asmdef",
+            "guid": "a660b633280694481b1769d89268eb3c",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [
+              {
+                "name": "nuget.moq",
+                "expression": "1.0.0",
+                "define": "NUGET_MOQ_AVAILABLE"
+              }
+            ],
+            "references": [
+              "UnityEngine.Advertisements",
+              "UnityEngine.Monetization",
+              "UnityEngine.UI"
+            ],
+            "profileIssues": [
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEngine.Advertisements.Tests.BannerTests",
+              "UnityEngine.Advertisements.Tests.ConfigurationTests",
+              "UnityEngine.Advertisements.Tests.FinishEventArgsTests",
+              "UnityEngine.Advertisements.Tests.MetaDataTests",
+              "UnityEngine.Advertisements.Tests.MetaDataTests+TestJsonObject",
+              "UnityEngine.Advertisements.Tests.PlatformTests",
+              "UnityEngine.Advertisements.Tests.StartEventArgsTests",
+              "UnityEngine.Advertisements.Tests.UnityLifecycleManagerTests",
+              "UnityEngine.Advertisements.Tests.UnsupportedPlatformTests"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/8e28c3509fb3ea0e37aa84f8e0dc4a98c15def532a4455875cc127a7dbaaa942-595fb35e69ff.json.gz",
+          "sha256": "a130349af14bd588c13c1a4171f74bc64a8a56206ec194eb58da3ceff5c8576e",
+          "size": 20451,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 313,
+        "sourceFileCount": 95,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 36,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://packages.unity.com/com.unity.ads/4.17.0",
       "deprecated": null,
@@ -45,31 +524,516 @@
         "dist": {
           "shasum": "c6e6f61ed7d9d729077ed53e67417739ff154f1a"
         }
-      }
+      },
+      "packageId": "com.unity.ads",
+      "sourceRefEvidence": {
+        "kind": "archive-package-json",
+        "sha256": "9ab6890890322d8b108a8c963cf9105388c4409a2149c4042efdb50c590fc3f8"
+      },
+      "collectedAt": "2026-10-18T05:35:15.922013Z"
     },
     {
       "version": "4.19.0",
       "variantId": "registry-packages.unity.com-ba5428cd1374b933",
-      "sourceUrl": "https://packages.unity.com/com.unity.ads",
-      "sourceRef": null,
+      "sourceUrl": "https://github.com/Unity-Technologies/unity-ads-sdk",
+      "sourceRef": "2150c6382cd1cb85c992d5557261bcdc08f8b496",
       "downloadUrl": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.19.0.tgz",
       "upstreamIntegrity": null,
       "upstreamShasum": "dbd68e7e78e9c2d54252c12c9601299756613697",
       "disposition": "license-unresolved",
       "license": {
         "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "evidenceUrl": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.19.0.tgz#package/LICENSE.md",
+        "sha256": "02e634a636a7528a986f4a663f2b7ec2deb0d15c17ed44f71e8ded7456356a1d",
+        "text": "Unity Advertisements copyright © 2026 Unity Technologies.\n\nThis software is subject to, and made available under, the Unity Terms of Service (see https://unity.com/legal). Your use of this software constitutes your acceptance of such terms.\n\nUnless expressly provided otherwise, the software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the Terms of Service for details on these and other terms and conditions.",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": null,
+            "sha256": "02e634a636a7528a986f4a663f2b7ec2deb0d15c17ed44f71e8ded7456356a1d",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.19.0.tgz#package/LICENSE.md",
+            "text": "Unity Advertisements copyright © 2026 Unity Technologies.\n\nThis software is subject to, and made available under, the Unity Terms of Service (see https://unity.com/legal). Your use of this software constitutes your acceptance of such terms.\n\nUnless expressly provided otherwise, the software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the Terms of Service for details on these and other terms and conditions."
+          },
+          {
+            "path": "LICENSE.md.meta",
+            "expression": null,
+            "sha256": "71075e88f2e097546ee50d507749adab2e991237f55122bc047b2bed71cf2746",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.19.0.tgz#package/LICENSE.md.meta",
+            "text": "fileFormatVersion: 2\nguid: 4c6fe94acbb24417c988bab18cbd5209\nTextScriptImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n"
+          },
+          {
+            "path": "LICENSE.txt.meta",
+            "expression": null,
+            "sha256": "11f01757592a9c854503eb5e471750eeb5b458c06774a0d710e1e783b76ccf4a",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.19.0.tgz#package/LICENSE.txt.meta",
+            "text": "fileFormatVersion: 2\nguid: 4ac4d12312c48451db52b690b2f12a6a\nTextScriptImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: \n"
+          },
+          {
+            "path": "LICENSE.txt",
+            "expression": null,
+            "sha256": "02e634a636a7528a986f4a663f2b7ec2deb0d15c17ed44f71e8ded7456356a1d",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.19.0.tgz#package/LICENSE.txt",
+            "text": "Unity Advertisements copyright © 2026 Unity Technologies.\n\nThis software is subject to, and made available under, the Unity Terms of Service (see https://unity.com/legal). Your use of this software constitutes your acceptance of such terms.\n\nUnless expressly provided otherwise, the software under this license is made available strictly on an “AS IS” BASIS WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. Please review the Terms of Service for details on these and other terms and conditions."
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:35:16.255925Z",
+        "decisionBasis": [
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.androidjni": "1.0.0"
       },
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "bd7ff39066c4d43f697a5eab08b498e5e749707f6ff6226a42f6368b1e5aaf4d",
+        "size": 2350605,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.19.0.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "9a04b0bc06b98a30b5b425676d8232051cf4e971154a3fb23fbe65cbaa5f1cfe",
+        "artifactSha256": "bd7ff39066c4d43f697a5eab08b498e5e749707f6ff6226a42f6368b1e5aaf4d",
+        "artifactSize": 2350605,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "UnityEngine.Advertisements",
+          "UnityEngine.Advertisements.Editor",
+          "UnityEngine.Advertisements.Editor.Tests",
+          "UnityEngine.Advertisements.Events",
+          "UnityEngine.Advertisements.Platform",
+          "UnityEngine.Advertisements.Platform.Android",
+          "UnityEngine.Advertisements.Platform.Editor",
+          "UnityEngine.Advertisements.Platform.Unsupported",
+          "UnityEngine.Advertisements.Platform.iOS",
+          "UnityEngine.Advertisements.Tests",
+          "UnityEngine.Advertisements.Utilities"
+        ],
+        "types": [
+          "UnityAdsExampleUI",
+          "UnityAdsManager",
+          "UnityAdsManager+void",
+          "UnityEngine.Advertisements.Advertisement",
+          "UnityEngine.Advertisements.Advertisement+Banner",
+          "UnityEngine.Advertisements.AndroidInitializationListener",
+          "UnityEngine.Advertisements.AndroidLoadListener",
+          "UnityEngine.Advertisements.AndroidShowListener",
+          "UnityEngine.Advertisements.Banner",
+          "UnityEngine.Advertisements.BannerLoadOptions",
+          "UnityEngine.Advertisements.BannerLoadOptions+void",
+          "UnityEngine.Advertisements.BannerOptions",
+          "UnityEngine.Advertisements.BannerOptions+void",
+          "UnityEngine.Advertisements.BannerPosition",
+          "UnityEngine.Advertisements.Configuration",
+          "UnityEngine.Advertisements.Editor.AdsDashboardUrls",
+          "UnityEngine.Advertisements.Editor.AdsService",
+          "UnityEngine.Advertisements.Editor.AdsServiceEnabler",
+          "UnityEngine.Advertisements.Editor.AdsServiceIdentifier",
+          "UnityEngine.Advertisements.Editor.AdsServiceTopMenu",
+          "UnityEngine.Advertisements.Editor.AdsSettingsProvider",
+          "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender",
+          "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender+AnalyticsAction",
+          "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender+AnalyticsComponent",
+          "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender+EditorGameServiceEvent",
+          "UnityEngine.Advertisements.Editor.EditorTimer",
+          "UnityEngine.Advertisements.Editor.GameIdsUi",
+          "UnityEngine.Advertisements.Editor.GettingStartedUi",
+          "UnityEngine.Advertisements.Editor.ISkAdNetworkParser",
+          "UnityEngine.Advertisements.Editor.ISkAdNetworkSource",
+          "UnityEngine.Advertisements.Editor.MobileDependencyResolverInstallerUnity",
+          "UnityEngine.Advertisements.Editor.PluginUtils",
+          "UnityEngine.Advertisements.Editor.PostProcessBuildPlist",
+          "UnityEngine.Advertisements.Editor.RequestGameIds",
+          "UnityEngine.Advertisements.Editor.RequestGameIds+Body",
+          "UnityEngine.Advertisements.Editor.RequestGameIds+Response",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkFileExtension",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkJsonParser",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkJsonParser+SkAdNetworkIdArray",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkJsonParser+SkAdNetworkInfo",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkLocalSource",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkLocalSourceProvider",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkParser",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkRemoteSource",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkUrlParser",
+          "UnityEngine.Advertisements.Editor.SkAdNetworkXmlParser",
+          "UnityEngine.Advertisements.Editor.Tests.SkAdNetworkParserTests",
+          "UnityEngine.Advertisements.Editor.Tests.SkAdNetworkSourceTests",
+          "UnityEngine.Advertisements.Editor.UiConstants",
+          "UnityEngine.Advertisements.Editor.UiConstants+ClassNames",
+          "UnityEngine.Advertisements.Editor.UiConstants+Formats",
+          "UnityEngine.Advertisements.Editor.UiConstants+LocalizedStrings",
+          "UnityEngine.Advertisements.Editor.UiConstants+StyleSheetPaths",
+          "UnityEngine.Advertisements.Editor.UiConstants+UiElementNames",
+          "UnityEngine.Advertisements.Editor.UiConstants+UiTemplatePaths",
+          "UnityEngine.Advertisements.Editor.UiConstants+Urls",
+          "UnityEngine.Advertisements.Editor.UiUtils",
+          "UnityEngine.Advertisements.Events.FinishEventArgs",
+          "UnityEngine.Advertisements.Events.StartEventArgs",
+          "UnityEngine.Advertisements.IBanner",
+          "UnityEngine.Advertisements.INativeBanner",
+          "UnityEngine.Advertisements.INativePlatform",
+          "UnityEngine.Advertisements.IUnityAdsInitializationListener",
+          "UnityEngine.Advertisements.IUnityAdsLoadListener",
+          "UnityEngine.Advertisements.IUnityAdsShowListener",
+          "UnityEngine.Advertisements.IosShowListener",
+          "UnityEngine.Advertisements.IosShowListener+void",
+          "UnityEngine.Advertisements.LoadOptions",
+          "UnityEngine.Advertisements.MetaData",
+          "UnityEngine.Advertisements.Placeholder",
+          "UnityEngine.Advertisements.Platform.Android.AndroidBanner",
+          "UnityEngine.Advertisements.Platform.Android.AndroidPlatform",
+          "UnityEngine.Advertisements.Platform.Android.BannerBundle",
+          "UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder",
+          "UnityEngine.Advertisements.Platform.Editor.EditorBanner",
+          "UnityEngine.Advertisements.Platform.Editor.EditorPlatform",
+          "UnityEngine.Advertisements.Platform.IPlatform",
+          "UnityEngine.Advertisements.Platform.Platform",
+          "UnityEngine.Advertisements.Platform.Unsupported.UnsupportedBanner",
+          "UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform",
+          "UnityEngine.Advertisements.Platform.iOS.IosBanner",
+          "UnityEngine.Advertisements.Platform.iOS.IosBanner+void",
+          "UnityEngine.Advertisements.Platform.iOS.IosInitializationListener",
+          "UnityEngine.Advertisements.Platform.iOS.IosInitializationListener+void",
+          "UnityEngine.Advertisements.Platform.iOS.IosLoadListener",
+          "UnityEngine.Advertisements.Platform.iOS.IosLoadListener+void",
+          "UnityEngine.Advertisements.Platform.iOS.IosNativeObject",
+          "UnityEngine.Advertisements.Platform.iOS.IosPlatform",
+          "UnityEngine.Advertisements.ShowOptions",
+          "UnityEngine.Advertisements.ShowResult",
+          "UnityEngine.Advertisements.Tests.BannerTests",
+          "UnityEngine.Advertisements.Tests.ConfigurationTests",
+          "UnityEngine.Advertisements.Tests.FinishEventArgsTests",
+          "UnityEngine.Advertisements.Tests.MetaDataTests",
+          "UnityEngine.Advertisements.Tests.MetaDataTests+TestJsonObject",
+          "UnityEngine.Advertisements.Tests.PlatformTests",
+          "UnityEngine.Advertisements.Tests.StartEventArgsTests",
+          "UnityEngine.Advertisements.Tests.UnityLifecycleManagerTests",
+          "UnityEngine.Advertisements.Tests.UnsupportedPlatformTests",
+          "UnityEngine.Advertisements.UnityAdsCompletionState",
+          "UnityEngine.Advertisements.UnityAdsInitializationError",
+          "UnityEngine.Advertisements.UnityAdsInitializationListenerMainDispatch",
+          "UnityEngine.Advertisements.UnityAdsLoadError",
+          "UnityEngine.Advertisements.UnityAdsLoadListenerMainDispatch",
+          "UnityEngine.Advertisements.UnityAdsShowCompletionState",
+          "UnityEngine.Advertisements.UnityAdsShowError",
+          "UnityEngine.Advertisements.UnityAdsShowListenerMainDispatch",
+          "UnityEngine.Advertisements.Utilities.ApplicationQuit",
+          "UnityEngine.Advertisements.Utilities.AssemblyInfoUtilities",
+          "UnityEngine.Advertisements.Utilities.Color",
+          "UnityEngine.Advertisements.Utilities.CoroutineExecutor",
+          "UnityEngine.Advertisements.Utilities.EnumUtilities",
+          "UnityEngine.Advertisements.Utilities.IUnityLifecycleManager",
+          "UnityEngine.Advertisements.Utilities.Json",
+          "UnityEngine.Advertisements.Utilities.Json+Parser",
+          "UnityEngine.Advertisements.Utilities.Json+Parser+TOKEN",
+          "UnityEngine.Advertisements.Utilities.Json+Serializer",
+          "UnityEngine.Advertisements.Utilities.UnityLifecycleManager",
+          "XCodeSwiftSupportPostProcess"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "Assembly-CSharp",
+            "path": null,
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "profileIssues": [
+              "unity-default-rules-not-compiler-verified"
+            ],
+            "types": [
+              "UnityAdsExampleUI",
+              "UnityAdsManager",
+              "UnityAdsManager+void"
+            ]
+          },
+          {
+            "name": "UnityEngine.Advertisements",
+            "path": "Runtime/Advertisement/UnityEngine.Advertisements.asmdef",
+            "guid": "ff6de30450f3748908ff580f6ec64d9a",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "!ADS_ASSET_STORE_PACKAGE_DETECTED"
+            ],
+            "versionDefines": [],
+            "references": [
+              "UnityEngine.UI"
+            ],
+            "profileIssues": [
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEngine.Advertisements.Advertisement",
+              "UnityEngine.Advertisements.Advertisement+Banner",
+              "UnityEngine.Advertisements.AndroidInitializationListener",
+              "UnityEngine.Advertisements.AndroidLoadListener",
+              "UnityEngine.Advertisements.AndroidShowListener",
+              "UnityEngine.Advertisements.Banner",
+              "UnityEngine.Advertisements.BannerLoadOptions",
+              "UnityEngine.Advertisements.BannerLoadOptions+void",
+              "UnityEngine.Advertisements.BannerOptions",
+              "UnityEngine.Advertisements.BannerOptions+void",
+              "UnityEngine.Advertisements.BannerPosition",
+              "UnityEngine.Advertisements.Configuration",
+              "UnityEngine.Advertisements.Events.FinishEventArgs",
+              "UnityEngine.Advertisements.Events.StartEventArgs",
+              "UnityEngine.Advertisements.IBanner",
+              "UnityEngine.Advertisements.INativeBanner",
+              "UnityEngine.Advertisements.INativePlatform",
+              "UnityEngine.Advertisements.IUnityAdsInitializationListener",
+              "UnityEngine.Advertisements.IUnityAdsLoadListener",
+              "UnityEngine.Advertisements.IUnityAdsShowListener",
+              "UnityEngine.Advertisements.IosShowListener",
+              "UnityEngine.Advertisements.IosShowListener+void",
+              "UnityEngine.Advertisements.LoadOptions",
+              "UnityEngine.Advertisements.MetaData",
+              "UnityEngine.Advertisements.Placeholder",
+              "UnityEngine.Advertisements.Platform.Android.AndroidBanner",
+              "UnityEngine.Advertisements.Platform.Android.AndroidPlatform",
+              "UnityEngine.Advertisements.Platform.Android.BannerBundle",
+              "UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder",
+              "UnityEngine.Advertisements.Platform.Editor.EditorBanner",
+              "UnityEngine.Advertisements.Platform.Editor.EditorPlatform",
+              "UnityEngine.Advertisements.Platform.IPlatform",
+              "UnityEngine.Advertisements.Platform.Platform",
+              "UnityEngine.Advertisements.Platform.Unsupported.UnsupportedBanner",
+              "UnityEngine.Advertisements.Platform.Unsupported.UnsupportedPlatform",
+              "UnityEngine.Advertisements.Platform.iOS.IosBanner",
+              "UnityEngine.Advertisements.Platform.iOS.IosBanner+void",
+              "UnityEngine.Advertisements.Platform.iOS.IosInitializationListener",
+              "UnityEngine.Advertisements.Platform.iOS.IosInitializationListener+void",
+              "UnityEngine.Advertisements.Platform.iOS.IosLoadListener",
+              "UnityEngine.Advertisements.Platform.iOS.IosLoadListener+void",
+              "UnityEngine.Advertisements.Platform.iOS.IosNativeObject",
+              "UnityEngine.Advertisements.Platform.iOS.IosPlatform",
+              "UnityEngine.Advertisements.ShowOptions",
+              "UnityEngine.Advertisements.ShowResult",
+              "UnityEngine.Advertisements.UnityAdsCompletionState",
+              "UnityEngine.Advertisements.UnityAdsInitializationError",
+              "UnityEngine.Advertisements.UnityAdsInitializationListenerMainDispatch",
+              "UnityEngine.Advertisements.UnityAdsLoadError",
+              "UnityEngine.Advertisements.UnityAdsLoadListenerMainDispatch",
+              "UnityEngine.Advertisements.UnityAdsShowCompletionState",
+              "UnityEngine.Advertisements.UnityAdsShowError",
+              "UnityEngine.Advertisements.UnityAdsShowListenerMainDispatch",
+              "UnityEngine.Advertisements.Utilities.ApplicationQuit",
+              "UnityEngine.Advertisements.Utilities.AssemblyInfoUtilities",
+              "UnityEngine.Advertisements.Utilities.Color",
+              "UnityEngine.Advertisements.Utilities.CoroutineExecutor",
+              "UnityEngine.Advertisements.Utilities.EnumUtilities",
+              "UnityEngine.Advertisements.Utilities.IUnityLifecycleManager",
+              "UnityEngine.Advertisements.Utilities.Json",
+              "UnityEngine.Advertisements.Utilities.Json+Parser",
+              "UnityEngine.Advertisements.Utilities.Json+Parser+TOKEN",
+              "UnityEngine.Advertisements.Utilities.Json+Serializer",
+              "UnityEngine.Advertisements.Utilities.UnityLifecycleManager"
+            ]
+          },
+          {
+            "name": "UnityEngine.Advertisements.DevX.Editor",
+            "path": "Editor/DevX/UnityEngine.Advertisements.DevX.Editor.asmdef",
+            "guid": "5aac751f83eaba6479e8f37173176ce2",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_2019_4_OR_NEWER"
+            ],
+            "versionDefines": [
+              {
+                "name": "com.unity.services.core",
+                "expression": "0.3.0-preview",
+                "define": "SERVICES_SDK_CORE_ENABLED"
+              }
+            ],
+            "references": [
+              "Unity.Services.Core",
+              "Unity.Services.Core.Editor"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEngine.Advertisements.Editor.AdsDashboardUrls",
+              "UnityEngine.Advertisements.Editor.AdsService",
+              "UnityEngine.Advertisements.Editor.AdsServiceEnabler",
+              "UnityEngine.Advertisements.Editor.AdsServiceIdentifier",
+              "UnityEngine.Advertisements.Editor.AdsServiceTopMenu",
+              "UnityEngine.Advertisements.Editor.AdsSettingsProvider",
+              "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender",
+              "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender+AnalyticsAction",
+              "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender+AnalyticsComponent",
+              "UnityEngine.Advertisements.Editor.EditorGameServiceAnalyticsSender+EditorGameServiceEvent",
+              "UnityEngine.Advertisements.Editor.EditorTimer",
+              "UnityEngine.Advertisements.Editor.GameIdsUi",
+              "UnityEngine.Advertisements.Editor.GettingStartedUi",
+              "UnityEngine.Advertisements.Editor.PluginUtils",
+              "UnityEngine.Advertisements.Editor.RequestGameIds",
+              "UnityEngine.Advertisements.Editor.RequestGameIds+Body",
+              "UnityEngine.Advertisements.Editor.RequestGameIds+Response",
+              "UnityEngine.Advertisements.Editor.UiConstants",
+              "UnityEngine.Advertisements.Editor.UiConstants+ClassNames",
+              "UnityEngine.Advertisements.Editor.UiConstants+Formats",
+              "UnityEngine.Advertisements.Editor.UiConstants+LocalizedStrings",
+              "UnityEngine.Advertisements.Editor.UiConstants+StyleSheetPaths",
+              "UnityEngine.Advertisements.Editor.UiConstants+UiElementNames",
+              "UnityEngine.Advertisements.Editor.UiConstants+UiTemplatePaths",
+              "UnityEngine.Advertisements.Editor.UiConstants+Urls",
+              "UnityEngine.Advertisements.Editor.UiUtils"
+            ]
+          },
+          {
+            "name": "UnityEngine.Advertisements.Editor",
+            "path": "Editor/UnityEngine.Advertisements.Editor.asmdef",
+            "guid": "eb51336d7912e41739bc491a768fa824",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEngine.Advertisements.Editor.ISkAdNetworkParser",
+              "UnityEngine.Advertisements.Editor.ISkAdNetworkSource",
+              "UnityEngine.Advertisements.Editor.MobileDependencyResolverInstallerUnity",
+              "UnityEngine.Advertisements.Editor.PostProcessBuildPlist",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkFileExtension",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkJsonParser",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkJsonParser+SkAdNetworkIdArray",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkJsonParser+SkAdNetworkInfo",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkLocalSource",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkLocalSourceProvider",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkParser",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkRemoteSource",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkUrlParser",
+              "UnityEngine.Advertisements.Editor.SkAdNetworkXmlParser",
+              "XCodeSwiftSupportPostProcess"
+            ]
+          },
+          {
+            "name": "UnityEngine.Advertisements.Editor.Tests",
+            "path": "Tests/Editor/Advertisement/UnityEngine.Advertisements.Editor.Tests.asmdef",
+            "guid": "11d2bef2c8c1341e283cdbbebf87d91b",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [
+              {
+                "name": "nuget.moq",
+                "expression": "1.0.0",
+                "define": "NUGET_MOQ_AVAILABLE"
+              }
+            ],
+            "references": [
+              "UnityEngine.Advertisements",
+              "UnityEngine.Advertisements.Editor"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEngine.Advertisements.Editor.Tests.SkAdNetworkParserTests",
+              "UnityEngine.Advertisements.Editor.Tests.SkAdNetworkSourceTests"
+            ]
+          },
+          {
+            "name": "UnityEngine.Advertisements.Tests",
+            "path": "Tests/Runtime/Advertisement/UnityEngine.Advertisements.Tests.asmdef",
+            "guid": "a660b633280694481b1769d89268eb3c",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [
+              {
+                "name": "nuget.moq",
+                "expression": "1.0.0",
+                "define": "NUGET_MOQ_AVAILABLE"
+              }
+            ],
+            "references": [
+              "UnityEngine.Advertisements",
+              "UnityEngine.Monetization",
+              "UnityEngine.UI"
+            ],
+            "profileIssues": [
+              "version-defines-unverified",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEngine.Advertisements.Tests.BannerTests",
+              "UnityEngine.Advertisements.Tests.ConfigurationTests",
+              "UnityEngine.Advertisements.Tests.FinishEventArgsTests",
+              "UnityEngine.Advertisements.Tests.MetaDataTests",
+              "UnityEngine.Advertisements.Tests.MetaDataTests+TestJsonObject",
+              "UnityEngine.Advertisements.Tests.PlatformTests",
+              "UnityEngine.Advertisements.Tests.StartEventArgsTests",
+              "UnityEngine.Advertisements.Tests.UnityLifecycleManagerTests",
+              "UnityEngine.Advertisements.Tests.UnsupportedPlatformTests"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/bd7ff39066c4d43f697a5eab08b498e5e749707f6ff6226a42f6368b1e5aaf4d-595fb35e69ff.json.gz",
+          "sha256": "3add8587e902e8e3f40e15323c7a6353b7702297d9ba371c08e83ad6a4373b43",
+          "size": 20456,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 313,
+        "sourceFileCount": 95,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 36,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://packages.unity.com/com.unity.ads/4.19.0",
       "deprecated": null,
@@ -79,7 +1043,13 @@
         "dist": {
           "shasum": "dbd68e7e78e9c2d54252c12c9601299756613697"
         }
-      }
+      },
+      "packageId": "com.unity.ads",
+      "sourceRefEvidence": {
+        "kind": "archive-package-json",
+        "sha256": "59633330b79974760b589958d7047f31af5bc3bd0a58127786883819cdb202d2"
+      },
+      "collectedAt": "2026-10-18T05:35:16.310459Z"
     }
   ],
   "metadataStatus": "complete",
