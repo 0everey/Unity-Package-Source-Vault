@@ -94,8 +94,12 @@ class R6Tests(unittest.TestCase):
         self.assertEqual(result['libraries'][0]['nuget'],{'dependencyGroups':[]})
 
     def test_ondemand_and_unverified_providers_never_enqueue_or_activate_even_refresh(self):
-        state=curated.queue();ids={p['id'] for p in state['packages']}
-        self.assertEqual(len(state['onDemandCandidates']),6);self.assertEqual(len(state['providerRuleCandidates']),4)
+        configuration=copy.deepcopy(curated.configuration())
+        configuration['onDemandCandidates']=[{'id':'com.example.unactivated','version':None}]
+        configuration['providerRuleCandidates']=[{'providerHint':'com.example.unverified-module','active':False}]
+        with patch('uvault.curated.configuration',return_value=configuration):state=curated.queue()
+        ids={p['id'] for p in state['packages']}
+        self.assertEqual(len(state['onDemandCandidates']),1);self.assertEqual(len(state['providerRuleCandidates']),1)
         self.assertTrue(all(p['version'] is None and p['id'] not in ids for p in state['onDemandCandidates']))
         self.assertTrue(all(not p['active'] and p['providerHint'] not in ids for p in state['providerRuleCandidates']))
         with tempfile.TemporaryDirectory() as temporary, patch('uvault.sources.fetch_package',side_effect=AssertionError('dormant fetched')):

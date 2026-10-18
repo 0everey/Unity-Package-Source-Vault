@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.scriptablebuildpipeline",
+  "displayName": "com.unity.scriptablebuildpipeline",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.scriptablebuildpipeline",
+      "fetchedAt": "2026-10-18T04:59:02.124311Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "1.19.3",
+      "variantId": "registry-packages.unity.com-4c348c474aa17c19",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/Addressables.git",
+      "sourceRef": "8c308ac7c6b21457e076d1360a4d07c5d3361316",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.scriptablebuildpipeline/-/com.unity.scriptablebuildpipeline-1.19.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "01ea317dbaac05cf36f7a842f6894fa896213bf6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.scriptablebuildpipeline/1.19.3",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "01ea317dbaac05cf36f7a842f6894fa896213bf6"
+        }
+      }
+    },
+    {
+      "version": "1.22.4",
+      "variantId": "registry-packages.unity.com-c7b72cea8c6bd351",
+      "sourceUrl": "https://packages.unity.com/com.unity.scriptablebuildpipeline",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.scriptablebuildpipeline/-/com.unity.scriptablebuildpipeline-1.22.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d5cf5290df312f3a9b0e65154d78756452412ef0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "1.1.33",
+        "com.unity.modules.assetbundle": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.scriptablebuildpipeline/1.22.4",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "d5cf5290df312f3a9b0e65154d78756452412ef0"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "4.0.1"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "1.19.3",
+      "1.22.4"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "parent-constrained",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "1.19.3",
+    "1.22.4"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "parent-dependency",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "dependencyRole": "companion-not-root-family",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-parent-dependency",
+  "preferredVersions": [
+    "1.19.3",
+    "1.22.4"
+  ],
+  "selectionMode": "parent-constrained",
+  "maxCommonVersions": 3
+}

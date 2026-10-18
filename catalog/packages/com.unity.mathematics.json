@@ -7,12 +7,105 @@
       "kind": "registry",
       "url": "https://packages.unity.com",
       "metadataUrl": "https://packages.unity.com/com.unity.mathematics",
-      "fetchedAt": "2026-10-17T19:26:53.739866Z"
+      "fetchedAt": "2026-10-18T04:58:58.622245Z"
     }
   ],
   "adapter": "registry",
   "registry": "https://packages.unity.com",
   "versions": [
+    {
+      "version": "1.2.1",
+      "variantId": "registry-packages.unity.com-13c9f3933de52455",
+      "sourceUrl": "https://github.com/Unity-Technologies/Unity.Mathematics.git",
+      "sourceRef": "71412d94b7a0b0fdbb3195a5e6559bf6a761e91a",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.mathematics/-/com.unity.mathematics-1.2.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f0304818104d57e77ed2167359bf512ba6645cfd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.mathematics/1.2.1",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "f0304818104d57e77ed2167359bf512ba6645cfd"
+        }
+      }
+    },
+    {
+      "version": "1.2.4",
+      "variantId": "registry-packages.unity.com-5aa76500ac23e2b6",
+      "sourceUrl": "https://github.com/Unity-Technologies/Unity.Mathematics.git",
+      "sourceRef": "e5e6be4dbb2625f8776871f35fdf9193375d29f7",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.mathematics/-/com.unity.mathematics-1.2.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4395478434a857242ebcfb43b9a175ce5466d7a4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.mathematics/1.2.4",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "4395478434a857242ebcfb43b9a175ce5466d7a4"
+        }
+      }
+    },
+    {
+      "version": "1.2.6",
+      "variantId": "registry-packages.unity.com-6f3b1dfce394a306",
+      "sourceUrl": "https://github.com/Unity-Technologies/Unity.Mathematics.git",
+      "sourceRef": "f110c8c230d253654afed153569030a587cc7557",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.mathematics/-/com.unity.mathematics-1.2.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "54f22b9fcdf1466cdc42fb4b6415f14c901d5971",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.mathematics/1.2.6",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "54f22b9fcdf1466cdc42fb4b6415f14c901d5971"
+        }
+      }
+    },
     {
       "version": "1.3.2",
       "variantId": "registry-packages.unity.com-640347472904d5f9",
@@ -1114,21 +1207,29 @@
   "distTags": {
     "latest": "1.3.3"
   },
-  "availableUpstreamVersionCount": 2,
+  "availableUpstreamVersionCount": 5,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
-    "maxCommonVersions": 3,
+    "maxCommonVersions": 5,
+    "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records",
     "preferredVersions": [
-      "1.3.2"
+      "1.3.2",
+      "1.3.3",
+      "1.2.1",
+      "1.2.4",
+      "1.2.6"
     ],
     "legacyMajor": null,
-    "selectionMode": "common",
+    "selectionMode": "fixed-common",
     "retainVerifiedLegacy": false,
     "commonArchiveFallback": false
   },
   "explicitVersionRequests": [],
   "selectedVersions": [
+    "1.2.1",
+    "1.2.4",
+    "1.2.6",
     "1.3.2",
     "1.3.3"
   ],
@@ -1136,9 +1237,16 @@
   "missingTargetVersions": [],
   "missingPreferredVersions": [],
   "category": "dependency",
-  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "versionPolicy": "Finite common selection; default two versions, package budget 5; explicit exceptions retain immutable prior records",
   "family": "common-dependency",
   "preferredVersions": [
-    "1.3.2"
-  ]
+    "1.3.2",
+    "1.3.3",
+    "1.2.1",
+    "1.2.4",
+    "1.2.6"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 5,
+  "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
 }

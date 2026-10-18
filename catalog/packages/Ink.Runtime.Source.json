@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0",
+  "id": "Ink.Runtime.Source",
+  "displayName": "Ink.Runtime.Source",
+  "adapter": "github",
+  "repository": "inkle/ink",
+  "sources": [
+    {
+      "kind": "explicit-immutable-git-pins",
+      "url": "https://github.com/inkle/ink",
+      "fetchedAt": "2026-10-18T04:59:02.170102Z",
+      "completeEnumeration": false
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.1",
+      "variantId": "git-4c8ede85b1f9",
+      "sourceUrl": "https://github.com/inkle/ink",
+      "sourceRef": "4c8ede85b1f92e60112aae4f3ddd7f06bd328ca8",
+      "sourcePath": null,
+      "sourceTag": "v1.1.1",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/inkle/ink/tar.gz/4c8ede85b1f92e60112aae4f3ddd7f06bd328ca8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    },
+    {
+      "version": "1.2.1",
+      "variantId": "git-35c63e52f1d3",
+      "sourceUrl": "https://github.com/inkle/ink",
+      "sourceRef": "35c63e52f1d36060930dc7ed3cfba38ea224b528",
+      "sourcePath": null,
+      "sourceTag": "v1.2.1",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/inkle/ink/tar.gz/35c63e52f1d36060930dc7ed3cfba38ea224b528",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "1.1.1",
+      "1.2.1"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "parent-constrained",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "1.1.1",
+    "1.2.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "parent-dependency",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "dependencyRole": "companion-not-root-family",
+  "gitPins": [
+    {
+      "version": "1.1.1",
+      "sourceRef": "4c8ede85b1f92e60112aae4f3ddd7f06bd328ca8",
+      "sourceTag": "v1.1.1",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    },
+    {
+      "version": "1.2.1",
+      "sourceRef": "35c63e52f1d36060930dc7ed3cfba38ea224b528",
+      "sourceTag": "v1.2.1",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    }
+  ],
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-parent-dependency",
+  "preferredVersions": [
+    "1.1.1",
+    "1.2.1"
+  ],
+  "selectionMode": "parent-constrained",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

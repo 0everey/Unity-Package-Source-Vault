@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.xr.core-utils",
+  "displayName": "com.unity.xr.core-utils",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.core-utils",
+      "fetchedAt": "2026-10-18T04:59:02.579387Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "2.2.3",
+      "variantId": "registry-packages.unity.com-40e51af07d03b016",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git",
+      "sourceRef": "334e8977dc25f14d394655c8e77354e4888c35d1",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.xr.core-utils/-/com.unity.xr.core-utils-2.2.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "42074953780da38aca7bce8671a8a702a862b57e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.core-utils/2.2.3",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "42074953780da38aca7bce8671a8a702a862b57e"
+        }
+      }
+    },
+    {
+      "version": "2.3.0",
+      "variantId": "registry-packages.unity.com-6ac3bf6cabffb264",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git",
+      "sourceRef": "ca388cb73dfca7c7e8c46caba82f4d8adfbc82d0",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.xr.core-utils/-/com.unity.xr.core-utils-2.3.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f4116c6290594e2609ede158fccdad4a54a17081",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.modules.xr": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.core-utils/2.3.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "f4116c6290594e2609ede158fccdad4a54a17081"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.6.0"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "2.2.3",
+      "2.3.0"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "parent-constrained",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "2.2.3",
+    "2.3.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "parent-dependency",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "dependencyRole": "companion-not-root-family",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-parent-dependency",
+  "preferredVersions": [
+    "2.2.3",
+    "2.3.0"
+  ],
+  "selectionMode": "parent-constrained",
+  "maxCommonVersions": 3
+}

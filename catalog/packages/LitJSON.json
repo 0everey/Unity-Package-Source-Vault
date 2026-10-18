@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0",
+  "id": "LitJSON",
+  "displayName": "LitJSON",
+  "adapter": "github",
+  "repository": "LitJSON/litjson",
+  "sources": [
+    {
+      "kind": "explicit-immutable-git-pins",
+      "url": "https://github.com/LitJSON/litjson",
+      "fetchedAt": "2026-10-18T04:59:02.160835Z",
+      "completeEnumeration": false
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.14.0",
+      "variantId": "git-087029d84269",
+      "sourceUrl": "https://github.com/LitJSON/litjson",
+      "sourceRef": "087029d842691720f991fd8befc8d08c4aec6064",
+      "sourcePath": null,
+      "sourceTag": "v0.14.0",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/LitJSON/litjson/tar.gz/087029d842691720f991fd8befc8d08c4aec6064",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    },
+    {
+      "version": "0.14.1",
+      "variantId": "git-f358392d709f",
+      "sourceUrl": "https://github.com/LitJSON/litjson",
+      "sourceRef": "f358392d709fdc3667fe195151256d8aef3d7408",
+      "sourcePath": null,
+      "sourceTag": "v0.14.1",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/LitJSON/litjson/tar.gz/f358392d709fdc3667fe195151256d8aef3d7408",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "0.14.0",
+      "0.14.1"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "0.14.0",
+    "0.14.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "serialization",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "gitPins": [
+    {
+      "version": "0.14.0",
+      "sourceRef": "087029d842691720f991fd8befc8d08c4aec6064",
+      "sourceTag": "v0.14.0",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    },
+    {
+      "version": "0.14.1",
+      "sourceRef": "f358392d709fdc3667fe195151256d8aef3d7408",
+      "sourceTag": "v0.14.1",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    }
+  ],
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-serialization",
+  "preferredVersions": [
+    "0.14.0",
+    "0.14.1"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

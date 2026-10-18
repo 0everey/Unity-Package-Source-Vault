@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0",
+  "id": "FMOD.Unity.Integration",
+  "displayName": "FMOD.Unity.Integration",
+  "adapter": "github",
+  "repository": "fmod/fmod-for-unity",
+  "sources": [
+    {
+      "kind": "explicit-immutable-git-pins",
+      "url": "https://github.com/fmod/fmod-for-unity",
+      "fetchedAt": "2026-10-18T04:59:02.176859Z",
+      "completeEnumeration": false
+    }
+  ],
+  "versions": [
+    {
+      "version": "source-da38d508a55f",
+      "variantId": "git-da38d508a55f",
+      "sourceUrl": "https://github.com/fmod/fmod-for-unity",
+      "sourceRef": "da38d508a55f50e9d002d69619ac0f92276dd991",
+      "sourcePath": "Assets/Plugins/FMOD",
+      "sourceTag": null,
+      "versionBasis": "fixed-source-snapshot-sdk-version-unverified",
+      "downloadUrl": "https://codeload.github.com/fmod/fmod-for-unity/tar.gz/da38d508a55f50e9d002d69619ac0f92276dd991",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "snapshot",
+      "componentScope": {
+        "sourcePath": "Assets/Plugins/FMOD",
+        "archiveScope": "complete-original-repository-archive",
+        "targetComponentEquivalenceVerified": false
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 1,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "source-da38d508a55f"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "source-da38d508a55f"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "audio",
+  "componentBundle": "sdk-managed-components",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "gitPins": [
+    {
+      "version": "source-da38d508a55f",
+      "sourceRef": "da38d508a55f50e9d002d69619ac0f92276dd991",
+      "sourcePath": "Assets/Plugins/FMOD",
+      "versionBasis": "fixed-source-snapshot-sdk-version-unverified"
+    }
+  ],
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-audio",
+  "preferredVersions": [
+    "source-da38d508a55f"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

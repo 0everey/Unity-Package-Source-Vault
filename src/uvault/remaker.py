@@ -29,13 +29,15 @@ def export_remaker(lock: dict, materialized: dict | None = None, lock_file_sha25
             result["unresolved"].append(deepcopy(unresolved))
     # Bind the original input/receipt first, then derive every consumer field
     # from a protected copy, so status and reuse suggestions cannot diverge.
-    for key in ("nugetDependencyCandidates", "unselectedAlternatives"):
+    from .family_identity import CONTEXT_FIELDS,preserve_context
+    for key in ("nugetDependencyCandidates", "unselectedAlternatives", *CONTEXT_FIELDS):
         if key in lock:
             result[key] = deepcopy(lock[key])
     from .named_identity import preserve_pending
     preserve_pending(result)
     from .alternatives import preserve_conflicts
     preserve_conflicts(result)
+    preserve_context(result)
     for library in result["libraries"]:
         identity = {key: library.get(key) for key in ("packageId", "version", "variantId")}
         result["sourceRefs"].append({**identity, "sourceUrl": library.get("sourceUrl"),

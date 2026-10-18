@@ -2,6 +2,45 @@
   "id": "Spine.Runtimes",
   "sourceUrl": "https://github.com/EsotericSoftware/spine-runtimes",
   "reason": "Runtime license conditions need individual confirmation; no automatic public payload mirror",
+  "componentObservations": [
+    {
+      "packageId": "com.esotericsoftware.spine.spine-unity",
+      "version": "4.2.120",
+      "unity": "2018.3",
+      "manifestObservationRef": "spine42-package",
+      "declaredDependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.physics2d": "1.0.0",
+        "com.esotericsoftware.spine.spine-csharp": "4.2.0"
+      },
+      "sourceRef": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+      "sourceUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-unity/Assets/Spine/package.json",
+      "manifestSha256": "66e055f7e71b771a8e3c983b1f918f252bfc8759d411a0e5eac1232c01970ba6",
+      "sourcePath": "spine-unity/Assets/Spine",
+      "versionBasis": "fixed-official-component-package-json",
+      "targetVersionConfirmed": false,
+      "profileVerified": false,
+      "completeClosure": false
+    },
+    {
+      "packageId": "com.esotericsoftware.spine.spine-csharp",
+      "version": "4.2.37",
+      "unity": "2018.3",
+      "manifestObservationRef": "spine42-csharp-package",
+      "declaredDependencies": {},
+      "sourceRef": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+      "sourceUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-csharp/src/package.json",
+      "manifestSha256": "adbfa161eebd6502a84db1692bbea754091fed4fb814c65d13bf228567e415ef",
+      "sourcePath": "spine-csharp/src",
+      "versionBasis": "fixed-official-component-package-json",
+      "targetVersionConfirmed": false,
+      "profileVerified": false,
+      "completeClosure": false
+    }
+  ],
+  "componentDependencyObservation": "spine-unity declares com.esotericsoftware.spine.spine-csharp=4.2.0, while the same fixed tree component manifest says4.2.37. Both observations are preserved; no resolution, compatibility or dependency-closure result is claimed.",
   "schemaVersion": "1.0",
   "displayName": "Spine.Runtimes",
   "adapter": "reference",

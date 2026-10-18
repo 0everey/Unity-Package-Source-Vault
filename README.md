@@ -5,10 +5,12 @@ source retrieval. Permitted original archives live in GitHub Releases; Git
 contains tools, provenance, fingerprints and version-specific rights records.
 No permanent local package mirror or payload cache is created.
 
-R6 covers 48 common root package families, four parent-constrained companion
-entries, 23 built-in module providers and seven
-commercial, Editor, restricted or unresolved reference entries. Each common
-package keeps two versions, at most three for a justified gap or legacy need.
+R7 expands the finite list to 92 root package entries, 19 direct companion
+entries, 28 built-in provider references and 23 commercial, Editor or restricted
+reference entries. These are distribution IDs, not independent SDKs or a game
+coverage probability. Packages normally keep two versions within a budget of
+three; explicit per-package legacy/dependency exceptions allow four or five
+while retaining previous immutable records.
 See [coverage](docs/COVERAGE.md) and `catalog/coverage.json` for actual acquisition,
 rights and remaining gaps. Cold packages and full version histories remain
 outside the catalog.
@@ -24,12 +26,15 @@ or explicit selection cannot authorize replacement.
 Post Processing and Tilemap Extras. gRPC companions preserve raw NuGet framework
 groups, version ranges and asset hashes without claiming a complete installed
 closure. Unity/NuGet Newtonsoft are alternative distributions; selecting both
-produces an explicit conflict. Six demand candidates and four unverified module
-candidates are registered separately and remain inactive.
+produces an explicit conflict. R7 explicitly activates the six demand candidates
+and four finite module rules. See [R7 additions](docs/R7-ADDITIONS.md) for the
+complete scope, actual acquisition results and diagnostic panel.
 
 Built-in modules propose direct provider references after finite identity/API
-checks. JSONSerialize and ImageConversion use two exact public signatures in a
-single registered type; other modules retain the two-type rule. Unknown Editor
+checks. JSONSerialize, ImageConversion, Director and ScreenCapture use finite
+exact public signatures in one registered type. The legacy UnityEngine rule
+only routes its two registered API types; other modules retain the two-type
+rule. Unknown Editor
 installation/profile remains pending. Reference records are not downloaded
 archives or build compatibility claims. Permitted payloads stay in remote
 Releases; local storage contains tools/metadata and no permanent package mirror.

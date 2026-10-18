@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.nuget.mono-cecil",
+  "displayName": "com.unity.nuget.mono-cecil",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.nuget.mono-cecil",
+      "fetchedAt": "2026-10-18T04:59:02.402136Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "1.10.1",
+      "variantId": "registry-packages.unity.com-5783b91433892374",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.nuget.mono-cecil.git",
+      "sourceRef": "c1b254abc76d079830441168142797a454b48735",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.nuget.mono-cecil/-/com.unity.nuget.mono-cecil-1.10.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8c750c9152f0857f3b52fef1c546ece3bca718d1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.nuget.mono-cecil/1.10.1",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "8c750c9152f0857f3b52fef1c546ece3bca718d1"
+        }
+      }
+    },
+    {
+      "version": "1.11.4",
+      "variantId": "registry-packages.unity.com-1f307b9b8ba04f73",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.nuget.mono-cecil.git",
+      "sourceRef": "d0133ce672d724694b56bfd20672acf6f8737fec",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.nuget.mono-cecil/-/com.unity.nuget.mono-cecil-1.11.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d6f9955a5d5f84d45442ff1ad0fb694cc6e2fd62",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.nuget.mono-cecil/1.11.4",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "d6f9955a5d5f84d45442ff1ad0fb694cc6e2fd62"
+        }
+      }
+    },
+    {
+      "version": "1.11.6",
+      "variantId": "registry-packages.unity.com-8f288ef97089a3df",
+      "sourceUrl": "https://packages.unity.com/com.unity.nuget.mono-cecil",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.nuget.mono-cecil/-/com.unity.nuget.mono-cecil-1.11.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ecb9724e46fff855c46a4f37f0a3377a3cfffc06",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.nuget.mono-cecil/1.11.6",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "ecb9724e46fff855c46a4f37f0a3377a3cfffc06"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.11.6"
+  },
+  "availableUpstreamVersionCount": 3,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "1.10.1",
+      "1.11.4",
+      "1.11.6"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "parent-constrained",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "1.10.1",
+    "1.11.4",
+    "1.11.6"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "parent-dependency",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "dependencyRole": "companion-not-root-family",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-parent-dependency",
+  "preferredVersions": [
+    "1.10.1",
+    "1.11.4",
+    "1.11.6"
+  ],
+  "selectionMode": "parent-constrained",
+  "maxCommonVersions": 3
+}

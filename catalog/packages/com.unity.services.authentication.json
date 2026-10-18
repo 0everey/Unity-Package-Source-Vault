@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.services.authentication",
+  "displayName": "com.unity.services.authentication",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.services.authentication",
+      "fetchedAt": "2026-10-18T04:59:00.422384Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "3.5.1",
+      "variantId": "registry-packages.unity.com-1c3f3f53e197b4ff",
+      "sourceUrl": "https://packages.unity.com/com.unity.services.authentication",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.services.authentication/-/com.unity.services.authentication-3.5.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c43f6f840fa0990220e6d07c33724cef4df901a4",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.services.core": "1.15.1",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.services.authentication/3.5.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "c43f6f840fa0990220e6d07c33724cef4df901a4"
+        }
+      }
+    },
+    {
+      "version": "3.7.4",
+      "variantId": "registry-packages.unity.com-3910adc4ff1f889e",
+      "sourceUrl": "https://packages.unity.com/com.unity.services.authentication",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.services.authentication/-/com.unity.services.authentication-3.7.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "39eab783227c788e73c28c980f50e837bbe4280a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.services.core": "1.18.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.2",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.services.authentication/3.7.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "39eab783227c788e73c28c980f50e837bbe4280a"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "3.8.0"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "3.5.1",
+      "3.7.4"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "3.5.1",
+    "3.7.4"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "services",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-services",
+  "preferredVersions": [
+    "3.5.1",
+    "3.7.4"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3
+}

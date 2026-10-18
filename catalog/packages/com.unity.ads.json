@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.ads",
+  "displayName": "com.unity.ads",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.ads",
+      "fetchedAt": "2026-10-18T04:59:01.056019Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "4.17.0",
+      "variantId": "registry-packages.unity.com-e81557043c211079",
+      "sourceUrl": "https://packages.unity.com/com.unity.ads",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.17.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "c6e6f61ed7d9d729077ed53e67417739ff154f1a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.ads/4.17.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "c6e6f61ed7d9d729077ed53e67417739ff154f1a"
+        }
+      }
+    },
+    {
+      "version": "4.19.0",
+      "variantId": "registry-packages.unity.com-ba5428cd1374b933",
+      "sourceUrl": "https://packages.unity.com/com.unity.ads",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.ads/-/com.unity.ads-4.19.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "dbd68e7e78e9c2d54252c12c9601299756613697",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.androidjni": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.ads/4.19.0",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "dbd68e7e78e9c2d54252c12c9601299756613697"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "4.19.0"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "4.17.0",
+      "4.19.0"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "4.17.0",
+    "4.19.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "ads",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-ads",
+  "preferredVersions": [
+    "4.17.0",
+    "4.19.0"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3
+}

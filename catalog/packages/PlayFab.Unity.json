@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0",
+  "id": "PlayFab.Unity",
+  "displayName": "PlayFab.Unity",
+  "adapter": "github",
+  "repository": "PlayFab/UnitySDK",
+  "sources": [
+    {
+      "kind": "explicit-immutable-git-pins",
+      "url": "https://github.com/PlayFab/UnitySDK",
+      "fetchedAt": "2026-10-18T04:59:02.169499Z",
+      "completeEnumeration": false
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.242.260805",
+      "variantId": "git-d9c3ae9aa2f4",
+      "sourceUrl": "https://github.com/PlayFab/UnitySDK",
+      "sourceRef": "d9c3ae9aa2f4138c74674f3d9e4175d0a56a66f5",
+      "sourcePath": null,
+      "sourceTag": "2.242.260805",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/PlayFab/UnitySDK/tar.gz/d9c3ae9aa2f4138c74674f3d9e4175d0a56a66f5",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    },
+    {
+      "version": "2.244.260922",
+      "variantId": "git-2ea2d3385921",
+      "sourceUrl": "https://github.com/PlayFab/UnitySDK",
+      "sourceRef": "2ea2d33859210d5c2d64740e3394c1103a71048c",
+      "sourcePath": null,
+      "sourceTag": "2.244.260922",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/PlayFab/UnitySDK/tar.gz/2ea2d33859210d5c2d64740e3394c1103a71048c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "2.242.260805",
+      "2.244.260922"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "2.242.260805",
+    "2.244.260922"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "services",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "gitPins": [
+    {
+      "version": "2.242.260805",
+      "sourceRef": "d9c3ae9aa2f4138c74674f3d9e4175d0a56a66f5",
+      "sourceTag": "2.242.260805",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    },
+    {
+      "version": "2.244.260922",
+      "sourceRef": "2ea2d33859210d5c2d64740e3394c1103a71048c",
+      "sourceTag": "2.244.260922",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    }
+  ],
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-services",
+  "preferredVersions": [
+    "2.242.260805",
+    "2.244.260922"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

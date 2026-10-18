@@ -7,12 +7,76 @@
       "kind": "registry",
       "url": "https://packages.unity.com",
       "metadataUrl": "https://packages.unity.com/com.unity.cinemachine",
-      "fetchedAt": "2026-10-17T19:26:54.242165Z"
+      "fetchedAt": "2026-10-18T04:58:58.900239Z"
     }
   ],
   "adapter": "registry",
   "registry": "https://packages.unity.com",
   "versions": [
+    {
+      "version": "2.1.13",
+      "variantId": "registry-packages.unity.com-2f01a689e8a56d22",
+      "sourceUrl": "https://packages.unity.com/com.unity.cinemachine",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.1.13.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2c35f7d4154da9d2dfb118cf3ec136af5fdcd81c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.cinemachine/2.1.13",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "2c35f7d4154da9d2dfb118cf3ec136af5fdcd81c"
+        }
+      }
+    },
+    {
+      "version": "2.9.1",
+      "variantId": "registry-packages.unity.com-bf0331940a6398b4",
+      "sourceUrl": "https://github.com/Unity-Technologies/com.unity.cinemachine.git",
+      "sourceRef": "7d4ab17f95806756d588695aa0e7e83c16618082",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.cinemachine/-/com.unity.cinemachine-2.9.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "a3ce907b0ea1853b6c3a945fd4f1230e08f72a06",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.cinemachine/2.9.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "a3ce907b0ea1853b6c3a945fd4f1230e08f72a06"
+        }
+      }
+    },
     {
       "version": "3.1.6",
       "variantId": "registry-packages.unity.com-e119bf77674e502a",
@@ -3434,19 +3498,27 @@
   "distTags": {
     "latest": "3.1.7"
   },
-  "availableUpstreamVersionCount": 2,
+  "availableUpstreamVersionCount": 4,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
-    "maxCommonVersions": 3,
-    "preferredVersions": [],
+    "maxCommonVersions": 4,
+    "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records",
+    "preferredVersions": [
+      "3.1.6",
+      "3.1.7",
+      "2.1.13",
+      "2.9.1"
+    ],
     "legacyMajor": null,
-    "selectionMode": "common",
+    "selectionMode": "fixed-common",
     "retainVerifiedLegacy": false,
     "commonArchiveFallback": false
   },
   "explicitVersionRequests": [],
   "selectedVersions": [
+    "2.1.13",
+    "2.9.1",
     "3.1.6",
     "3.1.7"
   ],
@@ -3454,6 +3526,15 @@
   "missingTargetVersions": [],
   "missingPreferredVersions": [],
   "category": "camera",
-  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
-  "family": "common-camera"
+  "versionPolicy": "Finite common selection; default two versions, package budget 4; explicit exceptions retain immutable prior records",
+  "family": "common-camera",
+  "preferredVersions": [
+    "3.1.6",
+    "3.1.7",
+    "2.1.13",
+    "2.9.1"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 4,
+  "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
 }

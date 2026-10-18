@@ -144,12 +144,16 @@ these rows in the library resolution workset. A normal sourceConfirmed receipt
 cannot clear the named origin/difference work. Closing it requires a separately
 reviewed origin/version/target-difference and original-writer adoption decision.
 
-JSONSerialize and ImageConversion are the two finite single-public-type module
+JSONSerialize and ImageConversion are two finite single-public-type module
 exceptions: the same complete assembly identity and exact registered type must
 supply two different exact public static signatures, including return and
 parameter types. Private/Internal/Injected, substrings, altered shapes, duplicate
 members and cross-identity evidence do not authenticate the module. This routes
-only the exact type; all other modules retain the global two-type minimum.
+only the exact type. R7 adds PlayableDirector (public instance void Play/Stop)
+and ScreenCapture (two exact public static signatures) to the singleton allowlist.
+AndroidJNI and Analytics retain two-type confirmation. Legacy UnityEngine only
+routes GameObject/Transform after their complete assembly identity is established;
+it does not authenticate the whole namespace. Other modules retain two types.
 TextCore references use pinned official declaration URLs where API pages are
 unavailable. Installation/profile stays pending and isRecovered stays false.
 
@@ -158,3 +162,24 @@ assembly version/hash. Plain System assemblies and Assembly-CSharp wrappers do
 not inherit that attribution. Best HTTP remains a commercial candidate with
 legal acquisition links. 2D/DOTS group registration records official dependency
 edges and explicit exact-version gaps, not installation or compilation success.
+
+## R7 official family clues and missing versions
+
+Installed `family-references.json` contains official API observations and explicit
+type-to-assembly evidence where available. It never combines every product type
+with every listed assembly. Unproved assemblies, full names and exact versions
+remain unknown. `knownFamilies`/`familyHints` enter identify, resolve and export;
+classify attaches references and a library work item while keeping native actions,
+addresses and business aliases. A family clue does not authorize upstream adoption.
+Rules and producer hashes bind the classification cache.
+
+Numeric versions actually observed in package manifests/locks but missing from
+the catalog become `missingVersionRequests`, including source/lock context.
+Assembly versions and documentation generations cannot create package versions.
+These facts survive explicit selections and old-lock export. Existing lock/receipt
+digests are checked before context is restored; the added context cannot legitimize
+a modified receipt. A selected nearby version is never an exact substitute.
+
+Spine component observations retain spine-unity 4.2.120 and spine-csharp 4.2.37
+at one fixed source commit. The Unity component still declares csharp 4.2.0;
+neither a single whole-SDK version nor resolved dependency closure is inferred.

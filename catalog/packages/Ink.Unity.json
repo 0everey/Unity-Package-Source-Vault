@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0",
+  "id": "Ink.Unity",
+  "displayName": "Ink.Unity",
+  "adapter": "github",
+  "repository": "inkle/ink-unity-integration",
+  "sources": [
+    {
+      "kind": "explicit-immutable-git-pins",
+      "url": "https://github.com/inkle/ink-unity-integration",
+      "fetchedAt": "2026-10-18T04:59:02.170611Z",
+      "completeEnumeration": false
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.1.8",
+      "variantId": "git-5668568eeb72",
+      "sourceUrl": "https://github.com/inkle/ink-unity-integration",
+      "sourceRef": "5668568eeb72be39f740b1f9f3933a85cf436f23",
+      "sourcePath": "Packages/Ink",
+      "sourceTag": "v1.1.8",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/inkle/ink-unity-integration/tar.gz/5668568eeb72be39f740b1f9f3933a85cf436f23",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "componentScope": {
+        "sourcePath": "Packages/Ink",
+        "archiveScope": "complete-original-repository-archive",
+        "targetComponentEquivalenceVerified": false
+      }
+    },
+    {
+      "version": "1.2.0",
+      "variantId": "git-700f6e8c90ea",
+      "sourceUrl": "https://github.com/inkle/ink-unity-integration",
+      "sourceRef": "700f6e8c90ead4738102622bc9701d216d4f4e9e",
+      "sourcePath": "Packages/Ink",
+      "sourceTag": "v1.2.0",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/inkle/ink-unity-integration/tar.gz/700f6e8c90ead4738102622bc9701d216d4f4e9e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "componentScope": {
+        "sourcePath": "Packages/Ink",
+        "archiveScope": "complete-original-repository-archive",
+        "targetComponentEquivalenceVerified": false
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "1.1.8",
+      "1.2.0"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "1.1.8",
+    "1.2.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "dialogue",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "gitPins": [
+    {
+      "version": "1.1.8",
+      "sourceRef": "5668568eeb72be39f740b1f9f3933a85cf436f23",
+      "sourceTag": "v1.1.8",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "sourcePath": "Packages/Ink"
+    },
+    {
+      "version": "1.2.0",
+      "sourceRef": "700f6e8c90ead4738102622bc9701d216d4f4e9e",
+      "sourceTag": "v1.2.0",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "sourcePath": "Packages/Ink"
+    }
+  ],
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-dialogue",
+  "preferredVersions": [
+    "1.1.8",
+    "1.2.0"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

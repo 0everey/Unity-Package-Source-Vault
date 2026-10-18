@@ -16,21 +16,24 @@ class CuratedTests(unittest.TestCase):
         with patch("uvault.sources.discover_openupm", side_effect=AssertionError("ecosystem crawl")):
             state = harvest.discover()
         self.assertEqual(state["scopeVersion"], "R4")
-        self.assertEqual(len(state["packages"]), 82)
+        self.assertEqual(len(state["packages"]), 162)
         builtin = [p for p in state["packages"] if p.get("family") == "unity-builtin"]
-        self.assertEqual(len(builtin), 23)
+        self.assertEqual(len(builtin), 28)
         self.assertTrue(all(p["metadataStatus"] == "reference-only" and not p["selectedVersions"] for p in builtin))
 
     def test_retired_queue_projects_to_common_versions(self):
         seed = curated.seeds()[0]
+        seed["curatedPolicy"]={"preferredVersions":["1.12.0"],"versionCount":2,"maxCommonVersions":3}
         old = {**seed, "metadataStatus": "complete", "versions": versions("1.0.0", "1.11.0", "1.12.0", "1.13.0", "2.0.0")}
-        result = curated.queue({"packages": [old, {"id": "cold.package"}]})
+        with patch("uvault.curated.seeds", return_value=[seed]):
+            result = curated.queue({"packages": [old, {"id": "cold.package"}]})
         package = next(p for p in result["packages"] if p["id"] == old["id"])
         self.assertEqual({v["version"] for v in package["versions"]}, {"1.12.0", "1.13.0"})
         self.assertNotIn("cold.package", [p["id"] for p in result["packages"]])
 
     def test_real_gap_is_preserved_and_budgeted(self):
         state = curated.queue()
+        state["packages"][0]["curatedPolicy"]={"preferredVersions":["1.12.0"],"versionCount":2,"maxCommonVersions":3}
         p = curated.add_gap(state, "com.unity.inputsystem", "0.9.0", "Observed consumer lock")
         chosen = curated.curate_package({"versions": versions("0.9.0", "1.12.0", "1.13.0")}, p)
         self.assertIn("0.9.0", chosen["selectedVersions"])
@@ -46,12 +49,15 @@ class CuratedTests(unittest.TestCase):
     def test_consumer_gap_survives_failed_and_pending_projection(self):
         for status in ("pending","failed","complete"):
             state=curated.queue()
+            state["packages"][0]["curatedPolicy"]={"preferredVersions":["1.12.0"],"versionCount":2,"maxCommonVersions":3}
             p=curated.add_gap(state,"com.unity.inputsystem","0.9.0","Actual locked consumer")
             p["metadataStatus"]=status
             p["versions"]=versions("0.9.0","1.12.0")
             p["versions"][0]["artifact"]={"sha256":"a"*64}
             p["versions"][0]["fetchStatus"]="published"
-            current=curated.queue(state)
+            fixture=copy.deepcopy(p);fixture["versions"]=[]
+            with patch("uvault.curated.seeds",return_value=[fixture]):
+                current=curated.queue(state)
             result=next(item for item in current["packages"] if item["id"]==p["id"])
             self.assertEqual(result["explicitVersionRequests"],p["explicitVersionRequests"])
             self.assertEqual(result["metadataStatus"],status)
@@ -59,6 +65,7 @@ class CuratedTests(unittest.TestCase):
 
     def test_worker_metadata_does_not_add_dependency_tasks_or_old_versions(self):
         seed = curated.seeds()[0]
+        seed["curatedPolicy"]={"preferredVersions":["1.12.0"],"versionCount":2,"maxCommonVersions":3}
         seed["versions"] = versions("0.1.0", "0.2.0", "0.3.0", "1.12.0")
         state = {"scopeVersion": "R4", "packages": [seed], "frontier": []}
         upstream = {"id": seed["id"], "metadataStatus": "complete", "versions": versions("1.12.0", "1.13.0")}

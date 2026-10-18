@@ -8,15 +8,23 @@
       "id": "com.unity.inputsystem",
       "category": "input",
       "preferredVersions": [
-        "1.12.0"
-      ]
+        "1.12.0",
+        "1.20.1",
+        "1.8.1"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "budgetReason": "XRI3.0.8 declared parent line, keep both existing records"
     },
     {
       "id": "com.unity.render-pipelines.core",
       "category": "rendering",
       "preferredVersions": [
+        "10.10.1",
+        "14.0.12",
         "17.0.4",
-        "14.0.12"
+        "12.1.16",
+        "4.6.0-preview"
       ],
       "commonArchiveFallback": true,
       "manifestReferences": [
@@ -31,15 +39,26 @@
           "sourceRef": "03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3",
           "path": "Packages/com.unity.render-pipelines.core/package.json",
           "version": "14.0.12"
+        },
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "6034ecf6489af2ac1d543f9de25a76b8e91a78cb",
+          "path": "Packages/com.unity.render-pipelines.core/package.json",
+          "version": "12.1.16"
         }
-      ]
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 5,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.render-pipelines.universal",
       "category": "rendering",
       "preferredVersions": [
+        "10.10.1",
+        "14.0.12",
         "17.0.4",
-        "14.0.12"
+        "12.1.16"
       ],
       "commonArchiveFallback": true,
       "manifestReferences": [
@@ -54,15 +73,27 @@
           "sourceRef": "03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3",
           "path": "Packages/com.unity.render-pipelines.universal/package.json",
           "version": "14.0.12"
+        },
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "6034ecf6489af2ac1d543f9de25a76b8e91a78cb",
+          "path": "Packages/com.unity.render-pipelines.universal/package.json",
+          "version": "12.1.16"
         }
-      ]
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 4,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.render-pipelines.high-definition",
       "category": "rendering",
       "preferredVersions": [
+        "10.10.1",
+        "14.0.12",
         "17.0.4",
-        "14.0.12"
+        "12.1.16",
+        "4.6.0-preview"
       ],
       "commonArchiveFallback": true,
       "manifestReferences": [
@@ -77,15 +108,27 @@
           "sourceRef": "03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3",
           "path": "Packages/com.unity.render-pipelines.high-definition/package.json",
           "version": "14.0.12"
+        },
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "6034ecf6489af2ac1d543f9de25a76b8e91a78cb",
+          "path": "Packages/com.unity.render-pipelines.high-definition/package.json",
+          "version": "12.1.16"
         }
-      ]
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 5,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.shadergraph",
       "category": "rendering",
       "preferredVersions": [
+        "10.10.1",
+        "14.0.12",
         "17.0.4",
-        "14.0.12"
+        "12.1.16",
+        "4.6.0-preview"
       ],
       "commonArchiveFallback": true,
       "manifestReferences": [
@@ -100,13 +143,23 @@
           "sourceRef": "03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3",
           "path": "Packages/com.unity.shadergraph/package.json",
           "version": "14.0.12"
+        },
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "6034ecf6489af2ac1d543f9de25a76b8e91a78cb",
+          "path": "Packages/com.unity.shadergraph/package.json",
+          "version": "12.1.16"
         }
-      ]
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 5,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.ugui",
       "category": "ui",
       "preferredVersions": [
+        "1.0.0",
         "2.0.0"
       ],
       "manifestReferences": [
@@ -116,44 +169,114 @@
           "path": "com.unity.ugui/package.json",
           "version": "2.0.0"
         }
+      ],
+      "selectionMode": "fixed-common",
+      "documentReferences": [
+        {
+          "version": "1.0.0",
+          "variantId": "official-editor-document-reference",
+          "sourceUrl": "https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/index.html",
+          "sourceRef": null,
+          "downloadUrl": null,
+          "disposition": "official-fetch-only",
+          "fetchStatus": "reference-only",
+          "artifact": null,
+          "fingerprint": null,
+          "dependencies": {},
+          "acquisition": {
+            "kind": "matching-unity-editor-core-package",
+            "installationUrl": "https://unity.com/download",
+            "reason": "Core package version binds selected Editor; identical version label does not certify cross-Editor bytes",
+            "profileVerified": false
+          },
+          "license": {
+            "expression": null,
+            "evidenceUrl": "https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/index.html",
+            "sha256": null,
+            "components": [],
+            "reviewStatus": "official-editor-reference-no-payload-grant"
+          }
+        }
       ]
     },
     {
       "id": "com.unity.textmeshpro",
       "category": "ui",
-      "integrationNote": "Unity 6 UGUI may already supply TMP; do not install duplicate assemblies"
+      "integrationNote": "Unity 6 UGUI may already supply TMP; do not install duplicate assemblies",
+      "preferredVersions": [
+        "3.0.8",
+        "3.0.9",
+        "1.4.1",
+        "2.1.6",
+        "3.0.6"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 5,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.ai.navigation",
-      "category": "navigation"
+      "category": "navigation",
+      "preferredVersions": [
+        "2.0.15",
+        "2.0.16",
+        "1.1.5"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.addressables",
       "category": "assets",
       "preferredVersions": [
-        "2.6.0"
-      ]
+        "2.6.0",
+        "2.11.2",
+        "1.19.11",
+        "1.25.0"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 4,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.mathematics",
       "category": "dependency",
       "preferredVersions": [
-        "1.3.2"
-      ]
+        "1.3.2",
+        "1.3.3",
+        "1.2.1",
+        "1.2.4",
+        "1.2.6"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 5,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.collections",
       "category": "dependency",
       "preferredVersions": [
-        "2.4.3"
-      ]
+        "2.4.3",
+        "2.7.1",
+        "1.2.4"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.burst",
       "category": "dependency",
       "preferredVersions": [
-        "1.8.20"
-      ]
+        "1.8.20",
+        "1.8.31",
+        "1.6.6",
+        "1.8.9"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 4,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.serialization",
@@ -164,7 +287,16 @@
     },
     {
       "id": "com.unity.cinemachine",
-      "category": "camera"
+      "category": "camera",
+      "preferredVersions": [
+        "3.1.6",
+        "3.1.7",
+        "2.1.13",
+        "2.9.1"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 4,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.timeline",
@@ -172,15 +304,41 @@
     },
     {
       "id": "com.unity.animation.rigging",
-      "category": "animation"
+      "category": "animation",
+      "preferredVersions": [
+        "1.4.0",
+        "1.4.1",
+        "1.2.1"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.netcode.gameobjects",
-      "category": "networking"
+      "category": "networking",
+      "preferredVersions": [
+        "3.0.0",
+        "3.1.0",
+        "1.9.1",
+        "2.4.3"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 4,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.transport",
-      "category": "networking"
+      "category": "networking",
+      "preferredVersions": [
+        "2.7.3",
+        "2.7.4",
+        "1.4.0",
+        "2.5.1"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 4,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.profiling.core",
@@ -297,7 +455,15 @@
       "id": "jp.hadashikick.vcontainer",
       "category": "dependency-injection",
       "adapter": "registry",
-      "registry": "https://package.openupm.com"
+      "registry": "https://package.openupm.com",
+      "preferredVersions": [
+        "1.18.0",
+        "1.19.0",
+        "1.16.8"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.svermeulen.extenject",
@@ -397,18 +563,24 @@
       "category": "paths",
       "preferredVersions": [
         "2.9.0",
-        "2.9.1"
+        "2.9.1",
+        "2.0.0"
       ],
       "selectionMode": "fixed-common",
       "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
-      "integrationNote": "Keep Runtime/Editor assembly boundaries and named exact dependencies."
+      "integrationNote": "Keep Runtime/Editor assembly boundaries and named exact dependencies.",
+      "maxCommonVersions": 3,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.visualeffectgraph",
       "category": "rendering",
       "preferredVersions": [
+        "10.10.1",
         "14.0.12",
-        "17.0.4"
+        "17.0.4",
+        "12.1.16",
+        "4.8.0-preview"
       ],
       "selectionMode": "fixed-common",
       "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
@@ -425,20 +597,31 @@
           "sourceRef": "feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53",
           "path": "Packages/com.unity.visualeffectgraph/package.json",
           "version": "17.0.4"
+        },
+        {
+          "repository": "Unity-Technologies/Graphics",
+          "sourceRef": "6034ecf6489af2ac1d543f9de25a76b8e91a78cb",
+          "path": "Packages/com.unity.visualeffectgraph/package.json",
+          "version": "12.1.16"
         }
       ],
-      "integrationNote": "Bind SRP/Shader Graph versions; engine VFXModule is not this package."
+      "integrationNote": "Bind SRP/Shader Graph versions; engine VFXModule is not this package.",
+      "maxCommonVersions": 5,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.postprocessing",
       "category": "legacy-rendering",
       "preferredVersions": [
         "3.5.3",
-        "3.5.4"
+        "3.5.4",
+        "2.1.2"
       ],
       "selectionMode": "fixed-common",
       "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
-      "integrationNote": "Legacy Built-in rendering; no automatic URP/HDRP installation."
+      "integrationNote": "Legacy Built-in rendering; no automatic URP/HDRP installation.",
+      "maxCommonVersions": 3,
+      "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
     },
     {
       "id": "com.unity.2d.tilemap.extras",
@@ -501,23 +684,1221 @@
       "selectionMode": "parent-constrained",
       "parentBasis": "Grpc.Net.Client 2.83.0/2.84.0 netstandard2.0/2.1 dependency groups; Unsafe follows DiagnosticSource netstandard2.0. Bare NuGet versions are minimum ranges; no claim of original target versions or complete closure.",
       "integrationNote": "Retain raw TFM/ranges, explicit fallback and named missing dependencies; never replace SDK-prefixed Sentry components."
+    },
+    {
+      "id": "com.unity.2d.pixel-perfect",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "2d",
+      "preferredVersions": [
+        "4.0.1",
+        "5.1.1"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.services.core",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "services",
+      "preferredVersions": [
+        "1.12.5",
+        "1.15.1",
+        "1.15.2"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.services.authentication",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "services",
+      "preferredVersions": [
+        "3.5.1",
+        "3.7.4"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.purchasing",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "services",
+      "preferredVersions": [
+        "4.12.2",
+        "5.4.4"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.services.multiplayer",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "services",
+      "preferredVersions": [
+        "1.1.4"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.services.levelplay",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "ads",
+      "preferredVersions": [
+        "8.0.0",
+        "9.3.2"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.ads",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "ads",
+      "preferredVersions": [
+        "4.17.0",
+        "4.19.0"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.xr.management",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "xr",
+      "preferredVersions": [
+        "4.4.0",
+        "4.7.0"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.xr.openxr",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "xr",
+      "preferredVersions": [
+        "1.14.3",
+        "1.17.1"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.xr.interaction.toolkit",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "xr",
+      "preferredVersions": [
+        "2.6.4",
+        "3.0.8"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.xr.arfoundation",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "ar",
+      "preferredVersions": [
+        "5.1.6",
+        "6.6.2"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.xr.arcore",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "ar",
+      "preferredVersions": [
+        "5.1.6",
+        "6.6.2"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.xr.arkit",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "ar",
+      "preferredVersions": [
+        "5.1.6",
+        "6.6.2"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.xr.hands",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "xr",
+      "preferredVersions": [
+        "1.7.2",
+        "1.8.1"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.scriptablebuildpipeline",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "parent-dependency",
+      "dependencyRole": "companion-not-root-family",
+      "preferredVersions": [
+        "1.19.3",
+        "1.22.4"
+      ],
+      "selectionMode": "parent-constrained",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.nuget.mono-cecil",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "parent-dependency",
+      "dependencyRole": "companion-not-root-family",
+      "preferredVersions": [
+        "1.10.1",
+        "1.11.4",
+        "1.11.6"
+      ],
+      "selectionMode": "parent-constrained",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.settings-manager",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "parent-dependency",
+      "dependencyRole": "companion-not-root-family",
+      "preferredVersions": [
+        "1.0.3"
+      ],
+      "selectionMode": "parent-constrained",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.searcher",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "parent-dependency",
+      "dependencyRole": "companion-not-root-family",
+      "preferredVersions": [
+        "4.9.1"
+      ],
+      "selectionMode": "parent-constrained",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.netcode",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "parent-dependency",
+      "dependencyRole": "companion-not-root-family",
+      "preferredVersions": [
+        "7.0.0",
+        "7.1.0"
+      ],
+      "selectionMode": "parent-constrained",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.xr.core-utils",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "parent-dependency",
+      "dependencyRole": "companion-not-root-family",
+      "preferredVersions": [
+        "2.2.3",
+        "2.3.0"
+      ],
+      "selectionMode": "parent-constrained",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.xr.legacyinputhelpers",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "parent-dependency",
+      "dependencyRole": "companion-not-root-family",
+      "preferredVersions": [
+        "2.1.2",
+        "2.1.10"
+      ],
+      "selectionMode": "parent-constrained",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.unity.xr.arsubsystems",
+      "adapter": "registry",
+      "registry": "https://packages.unity.com",
+      "category": "parent-dependency",
+      "dependencyRole": "companion-not-root-family",
+      "preferredVersions": [
+        "4.2.10",
+        "5.0.2"
+      ],
+      "selectionMode": "parent-constrained",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "XLua",
+      "adapter": "github",
+      "repository": "Tencent/xLua",
+      "category": "hot-update",
+      "gitPins": [
+        {
+          "version": "2.1.16",
+          "sourceRef": "e961a93675468fb402acbe34e42d4f559c89fc46",
+          "sourceTag": "v2.1.16",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "2.1.15",
+          "sourceRef": "841ea8ecbfe8955e974d9346d91be9c6bdde9758",
+          "sourceTag": "v2.1.15",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "2.1.16",
+        "2.1.15"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.code-philosophy.hybridclr",
+      "adapter": "github",
+      "repository": "focus-creative-games/hybridclr_unity",
+      "category": "hot-update",
+      "gitPins": [
+        {
+          "version": "8.15.0",
+          "sourceRef": "d17a727fac8a56186c35294ec285362902f4a04d",
+          "sourceTag": "v8.15.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "9.0.3",
+          "sourceRef": "6cadd24d101f4cbd00cd80190106f6621132d24d",
+          "sourceTag": "v9.0.3",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "8.15.0",
+        "9.0.3"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "FairyGUI",
+      "adapter": "github",
+      "repository": "fairygui/FairyGUI-unity",
+      "category": "ui",
+      "gitPins": [
+        {
+          "version": "2.3.0",
+          "sourceRef": "e0612f745685aaf7f5ce9cd72c375ddab11c8b51",
+          "sourceTag": "v2.3.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "2.3.1",
+          "sourceRef": "e04e0ca1c1339200fe442f0b885a8cef7e12bc72",
+          "sourceTag": "v2.3.1",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "2.3.0",
+        "2.3.1"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "LeanTween",
+      "adapter": "github",
+      "repository": "dentedpixel/LeanTween",
+      "category": "tween",
+      "gitPins": [
+        {
+          "version": "Release2.44",
+          "sourceRef": "63c0e91fee378518b1442a19ce54cd36a0fc6f9d",
+          "sourceTag": "Release2.44",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "Release2.45",
+          "sourceRef": "87aa32b1c6fd19eba8cdf7dde7db26f315846d1f",
+          "sourceTag": "Release2.45",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "Release2.44",
+        "Release2.45"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "LitJSON",
+      "adapter": "github",
+      "repository": "LitJSON/litjson",
+      "category": "serialization",
+      "gitPins": [
+        {
+          "version": "0.14.0",
+          "sourceRef": "087029d842691720f991fd8befc8d08c4aec6064",
+          "sourceTag": "v0.14.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "0.14.1",
+          "sourceRef": "f358392d709fdc3667fe195151256d8aef3d7408",
+          "sourceTag": "v0.14.1",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "0.14.0",
+        "0.14.1"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "LiteNetLib",
+      "adapter": "github",
+      "repository": "RevenantX/LiteNetLib",
+      "category": "networking",
+      "gitPins": [
+        {
+          "version": "1.1.0",
+          "sourceRef": "b66441b7167a1068a15cd72444ef2de0668ff640",
+          "sourceTag": "v1.1.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "1.2.0",
+          "sourceRef": "07c089a22639ba64a414eb5816e4bd805cc5a684",
+          "sourceTag": "v1.2.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "1.1.0",
+        "1.2.0"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "NativeWebSocket",
+      "adapter": "github",
+      "repository": "endel/NativeWebSocket",
+      "category": "networking",
+      "gitPins": [
+        {
+          "version": "2.0.5",
+          "sourceRef": "16b5faab16aeece6aa4c5dced47e67745872e9d9",
+          "sourceTag": "2.0.5",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "2.0.7",
+          "sourceRef": "d516a8b378e233514ba0096c4502679cfaf67e5d",
+          "sourceTag": "2.0.7",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "2.0.5",
+        "2.0.7"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "Steamworks.NET",
+      "adapter": "github",
+      "repository": "rlabrecque/Steamworks.NET",
+      "category": "platform",
+      "gitPins": [
+        {
+          "version": "20.2.0",
+          "sourceRef": "a3fe8091f7237eef3f38becc3faa29b2dc6f9ce9",
+          "sourceTag": "20.2.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "2025.164.1",
+          "sourceRef": "c21a8f0e31c56ae8707130967faf491f7dd7c0d8",
+          "sourceTag": "2025.164.1",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "20.2.0",
+        "2025.164.1"
+      ],
+      "selectionMode": "fixed-common",
+      "componentBundle": "sdk-managed-components",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "NavMeshComponents",
+      "adapter": "github",
+      "repository": "Unity-Technologies/NavMeshComponents",
+      "category": "navigation",
+      "gitPins": [
+        {
+          "version": "2018.3.0f2",
+          "sourceRef": "d29a5f3e8f163620e658a3d8ae641f0ffe319e93",
+          "sourceTag": "2018.3.0f2",
+          "versionBasis": "official-repository-tag-not-target-equivalence",
+          "sourcePath": "Assets/NavMeshComponents"
+        },
+        {
+          "version": "2019.4.0f1",
+          "sourceRef": "f173ee3cce45dc00ab4aa7f5c0016b6b5cb7477b",
+          "sourceTag": "2019.4.0f1",
+          "versionBasis": "official-repository-tag-not-target-equivalence",
+          "sourcePath": "Assets/NavMeshComponents"
+        }
+      ],
+      "preferredVersions": [
+        "2018.3.0f2",
+        "2019.4.0f1"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "Zenject",
+      "adapter": "github",
+      "repository": "modesttree/Zenject",
+      "category": "dependency-injection",
+      "gitPins": [
+        {
+          "version": "6.5.0",
+          "sourceRef": "07100a8fc6989ed2ee968e083640a25758dd63dd",
+          "sourceTag": "v6.5.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "9.1.0",
+          "sourceRef": "1993ccaa816b63aff13ff44387294a311f8b76ca",
+          "sourceTag": "v9.1.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "6.5.0",
+        "9.1.0"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "Odin.Serializer",
+      "adapter": "github",
+      "repository": "TeamSirenix/odin-serializer",
+      "category": "serialization",
+      "gitPins": [
+        {
+          "version": "1.1.0.0",
+          "sourceRef": "994b98cf1185529c3e014fa3b5136fa52527c627",
+          "sourceTag": "1.1.0.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "1.1.1.0",
+          "sourceRef": "36ff4dff0dcf2acb77e154d89cf4d9367049e236",
+          "sourceTag": "1.1.1.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "1.1.0.0",
+        "1.1.1.0"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "YooAsset",
+      "adapter": "github",
+      "repository": "tuyoogame/YooAsset",
+      "category": "assets",
+      "gitPins": [
+        {
+          "version": "2.3.19",
+          "sourceRef": "5df594f7dc2383735796d8816d636a9b82976ea2",
+          "sourceTag": "2.3.19",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "3.0.6",
+          "sourceRef": "3b4cfb36cc2e81b9558ab74d65fee2cf2eac2804",
+          "sourceTag": "3.0.6",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "2.3.19",
+        "3.0.6"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "ZString",
+      "adapter": "github",
+      "repository": "Cysharp/ZString",
+      "category": "strings",
+      "gitPins": [
+        {
+          "version": "2.5.1",
+          "sourceRef": "7629cf7ca8801fb25104b641fc0ac0457849d7c9",
+          "sourceTag": "2.5.1",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "2.6.0",
+          "sourceRef": "3156134075b89a162fe95350a2e92a4c85ccca59",
+          "sourceTag": "2.6.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "2.5.1",
+        "2.6.0"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "FishNet",
+      "adapter": "github",
+      "repository": "FirstGearGames/FishNet",
+      "category": "networking",
+      "gitPins": [
+        {
+          "version": "4.7.3",
+          "sourceRef": "73f30cf2425dc808a4f463f0a233d386010810b3",
+          "sourceTag": "4.7.3",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "4.7.4",
+          "sourceRef": "a3627529c1875ebe6313c2fc9e2326cbd5d76719",
+          "sourceTag": "4.7.4",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "4.7.3",
+        "4.7.4"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "GoogleMobileAds.Unity",
+      "adapter": "github",
+      "repository": "googleads/googleads-mobile-unity",
+      "category": "ads",
+      "gitPins": [
+        {
+          "version": "11.5.0",
+          "sourceRef": "12a1edb48e7000e6b3531ada4bcbe23bae761065",
+          "sourceTag": "v11.5.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "11.6.0",
+          "sourceRef": "8ea7b043986dd7221b001023c85d569fff810666",
+          "sourceTag": "v11.6.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "11.5.0",
+        "11.6.0"
+      ],
+      "selectionMode": "fixed-common",
+      "componentBundle": "sdk-managed-components",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "Firebase.Unity",
+      "adapter": "github",
+      "repository": "firebase/firebase-unity-sdk",
+      "category": "services",
+      "gitPins": [
+        {
+          "version": "13.17.0",
+          "sourceRef": "0c4be5e058479705f90e89789e4b2c8505abf7aa",
+          "sourceTag": "v13.17.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "14.0.0",
+          "sourceRef": "adccc54c017af37099afb77623a75f067f71f882",
+          "sourceTag": "v14.0.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "13.17.0",
+        "14.0.0"
+      ],
+      "selectionMode": "fixed-common",
+      "componentBundle": "sdk-managed-components",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "PlayFab.Unity",
+      "adapter": "github",
+      "repository": "PlayFab/UnitySDK",
+      "category": "services",
+      "gitPins": [
+        {
+          "version": "2.242.260805",
+          "sourceRef": "d9c3ae9aa2f4138c74674f3d9e4175d0a56a66f5",
+          "sourceTag": "2.242.260805",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "2.244.260922",
+          "sourceRef": "2ea2d33859210d5c2d64740e3394c1103a71048c",
+          "sourceTag": "2.244.260922",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "2.242.260805",
+        "2.244.260922"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "Ink.Runtime.Source",
+      "adapter": "github",
+      "repository": "inkle/ink",
+      "category": "parent-dependency",
+      "gitPins": [
+        {
+          "version": "1.1.1",
+          "sourceRef": "4c8ede85b1f92e60112aae4f3ddd7f06bd328ca8",
+          "sourceTag": "v1.1.1",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "1.2.1",
+          "sourceRef": "35c63e52f1d36060930dc7ed3cfba38ea224b528",
+          "sourceTag": "v1.2.1",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "1.1.1",
+        "1.2.1"
+      ],
+      "selectionMode": "parent-constrained",
+      "dependencyRole": "companion-not-root-family",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "Ink.Unity",
+      "adapter": "github",
+      "repository": "inkle/ink-unity-integration",
+      "category": "dialogue",
+      "gitPins": [
+        {
+          "version": "1.1.8",
+          "sourceRef": "5668568eeb72be39f740b1f9f3933a85cf436f23",
+          "sourceTag": "v1.1.8",
+          "versionBasis": "official-repository-tag-not-target-equivalence",
+          "sourcePath": "Packages/Ink"
+        },
+        {
+          "version": "1.2.0",
+          "sourceRef": "700f6e8c90ead4738102622bc9701d216d4f4e9e",
+          "sourceTag": "v1.2.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence",
+          "sourcePath": "Packages/Ink"
+        }
+      ],
+      "preferredVersions": [
+        "1.1.8",
+        "1.2.0"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "YarnSpinner.Runtime.Source",
+      "adapter": "github",
+      "repository": "YarnSpinnerTool/YarnSpinner",
+      "category": "parent-dependency",
+      "gitPins": [
+        {
+          "version": "3.2.1",
+          "sourceRef": "3a5b7343f715e4e9a3705fa4224e7fa510b92f1c",
+          "sourceTag": "v3.2.1",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "3.2.2",
+          "sourceRef": "5b3a4ff2d24e4f727e3f90fee5d8ce637474c305",
+          "sourceTag": "v3.2.2",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "3.2.1",
+        "3.2.2"
+      ],
+      "selectionMode": "parent-constrained",
+      "dependencyRole": "companion-not-root-family",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "dev.yarnspinner.unity",
+      "adapter": "github",
+      "repository": "YarnSpinnerTool/YarnSpinner-Unity",
+      "category": "dialogue",
+      "gitPins": [
+        {
+          "version": "3.2.7",
+          "sourceRef": "4c0c8ef55129c1c93fd3d3419536ca0cc533335f",
+          "sourceTag": "v3.2.7",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "3.2.8",
+          "sourceRef": "bfc5b6a2e8bc8978e777caeea3a827a0d408cc7d",
+          "sourceTag": "v3.2.8",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "3.2.7",
+        "3.2.8"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "Live2D.Cubism.Unity",
+      "adapter": "github",
+      "repository": "Live2D/CubismUnityComponents",
+      "category": "animation",
+      "gitPins": [
+        {
+          "version": "Unity/R11",
+          "sourceRef": "acec6a8b3800f50b3ba4391b7757ac5967ed8d53",
+          "sourceTag": "Unity/R11",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "Unity/R12",
+          "sourceRef": "86e5b07702f74d00b4ab52b7d6c15ba3464b8b85",
+          "sourceTag": "Unity/R12",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "Unity/R11",
+        "Unity/R12"
+      ],
+      "selectionMode": "fixed-common",
+      "componentBundle": "sdk-managed-components",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "AppLovin.MAX.Unity",
+      "adapter": "github",
+      "repository": "AppLovin/AppLovin-MAX-Unity-Plugin",
+      "category": "ads",
+      "gitPins": [
+        {
+          "version": "release_8_6_5",
+          "sourceRef": "20d126864d3b907ce563ebc849f7f550233301c9",
+          "sourceTag": "release_8_6_5",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "release_8_6_6",
+          "sourceRef": "6141709246d09922a9b2f622623dbd2f3a9d0e46",
+          "sourceTag": "release_8_6_6",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "release_8_6_5",
+        "release_8_6_6"
+      ],
+      "selectionMode": "fixed-common",
+      "componentBundle": "sdk-managed-components",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "AppsFlyer.Unity",
+      "adapter": "github",
+      "repository": "AppsFlyerSDK/appsflyer-unity-plugin",
+      "category": "services",
+      "gitPins": [
+        {
+          "version": "6.18.1",
+          "sourceRef": "8adb2350ad1076de02a8acf63e2048efa07cf9ba",
+          "sourceTag": "v6.18.1",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        },
+        {
+          "version": "7.0.3",
+          "sourceRef": "071edaadf588269e673ecf9913fe573f1e125e58",
+          "sourceTag": "v7.0.3",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "6.18.1",
+        "7.0.3"
+      ],
+      "selectionMode": "fixed-common",
+      "componentBundle": "sdk-managed-components",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "SteamVR.Unity",
+      "adapter": "github",
+      "repository": "ValveSoftware/steamvr_unity_plugin",
+      "category": "xr",
+      "gitPins": [
+        {
+          "version": "2.8.3b2",
+          "sourceRef": "7e64e2cbc68d346a7771ce585dcd493387f868f7",
+          "sourceTag": "2.8.3b2",
+          "versionBasis": "official-repository-tag-not-target-equivalence",
+          "versionStatus": "prerelease"
+        },
+        {
+          "version": "2.8.5b",
+          "sourceRef": "eaa6fea7060c60926578e94af6bab526ac15f694",
+          "sourceTag": "2.8.5b",
+          "versionBasis": "official-repository-tag-not-target-equivalence",
+          "versionStatus": "prerelease"
+        }
+      ],
+      "preferredVersions": [
+        "2.8.3b2",
+        "2.8.5b"
+      ],
+      "selectionMode": "fixed-common",
+      "componentBundle": "sdk-managed-components",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "Facepunch.Steamworks",
+      "adapter": "github",
+      "repository": "Facepunch/Facepunch.Steamworks",
+      "category": "platform",
+      "gitPins": [
+        {
+          "version": "2.1.0",
+          "sourceRef": "fd50e3ba713156aa822c581118689fd34a90af45",
+          "sourceTag": "v2.1.0",
+          "versionBasis": "official-repository-tag-not-target-equivalence"
+        }
+      ],
+      "preferredVersions": [
+        "2.1.0"
+      ],
+      "selectionMode": "fixed-common",
+      "componentBundle": "sdk-managed-components",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.tencent.puerts.core",
+      "adapter": "github",
+      "repository": "Tencent/puerts",
+      "category": "hot-update",
+      "preferredVersions": [
+        "3.0.3"
+      ],
+      "selectionMode": "fixed-common",
+      "gitPins": [
+        {
+          "version": "3.0.3",
+          "sourceRef": "0ac7d2f1943e0f7bca9860ceab592ab390e6719b",
+          "sourcePath": "unity/upms/core",
+          "componentMetadata": {
+            "path": "unity/upms/core/package.json",
+            "sha256": "a9ff32243a0c6a65a67af4e43ddc9080bd5ed72f19b31389e14fa7cf3fb00958",
+            "name": "com.tencent.puerts.core",
+            "version": "3.0.3"
+          },
+          "versionBasis": "actual-unity-component-package-json-not-unreal-monorepo-tag"
+        }
+      ],
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "FMOD.Unity.Integration",
+      "adapter": "github",
+      "repository": "fmod/fmod-for-unity",
+      "category": "audio",
+      "componentBundle": "sdk-managed-components",
+      "preferredVersions": [
+        "source-da38d508a55f"
+      ],
+      "selectionMode": "fixed-common",
+      "gitPins": [
+        {
+          "version": "source-da38d508a55f",
+          "sourceRef": "da38d508a55f50e9d002d69619ac0f92276dd991",
+          "sourcePath": "Assets/Plugins/FMOD",
+          "versionBasis": "fixed-source-snapshot-sdk-version-unverified"
+        }
+      ],
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.kyrylokuzyk.primetween",
+      "adapter": "registry",
+      "registry": "https://registry.npmjs.org",
+      "category": "tween",
+      "preferredVersions": [
+        "1.4.8",
+        "1.5.0"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "com.meta.xr.sdk.core",
+      "adapter": "registry",
+      "registry": "https://npm.developer.oculus.com",
+      "category": "xr",
+      "componentBundle": "sdk-managed-components",
+      "preferredVersions": [
+        "74.0.0",
+        "207.0.1"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "protobuf-net",
+      "adapter": "nuget",
+      "category": "serialization",
+      "preferredVersions": [
+        "2.4.8",
+        "3.2.56"
+      ],
+      "selectionMode": "fixed-common",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "protobuf-net.Core",
+      "adapter": "nuget",
+      "category": "parent-dependency",
+      "preferredVersions": [
+        "3.2.56"
+      ],
+      "selectionMode": "parent-constrained",
+      "dependencyRole": "companion-not-root-family",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "Grpc.Core",
+      "adapter": "nuget",
+      "category": "networking",
+      "preferredVersions": [
+        "2.46.6"
+      ],
+      "selectionMode": "fixed-common",
+      "componentBundle": "sdk-managed-components",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "System.Memory",
+      "adapter": "nuget",
+      "category": "parent-dependency",
+      "preferredVersions": [
+        "4.5.4",
+        "4.5.5"
+      ],
+      "selectionMode": "parent-constrained",
+      "dependencyRole": "companion-not-root-family",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "System.Buffers",
+      "adapter": "nuget",
+      "category": "parent-dependency",
+      "preferredVersions": [
+        "4.5.1"
+      ],
+      "selectionMode": "parent-constrained",
+      "dependencyRole": "companion-not-root-family",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "adapter": "nuget",
+      "category": "parent-dependency",
+      "preferredVersions": [
+        "8.0.0",
+        "8.0.1"
+      ],
+      "selectionMode": "parent-constrained",
+      "dependencyRole": "companion-not-root-family",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "adapter": "nuget",
+      "category": "parent-dependency",
+      "preferredVersions": [
+        "8.0.0"
+      ],
+      "selectionMode": "parent-constrained",
+      "dependencyRole": "companion-not-root-family",
+      "maxCommonVersions": 3,
+      "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
     }
   ],
   "references": [
     {
       "id": "Spine.Runtimes",
       "sourceUrl": "https://github.com/EsotericSoftware/spine-runtimes",
-      "reason": "Runtime license conditions need individual confirmation; no automatic public payload mirror"
+      "reason": "Runtime license conditions need individual confirmation; no automatic public payload mirror",
+      "componentObservations": [
+        {
+          "packageId": "com.esotericsoftware.spine.spine-unity",
+          "version": "4.2.120",
+          "unity": "2018.3",
+          "manifestObservationRef": "spine42-package",
+          "declaredDependencies": {
+            "com.unity.ugui": "1.0.0",
+            "com.unity.modules.animation": "1.0.0",
+            "com.unity.modules.physics": "1.0.0",
+            "com.unity.modules.physics2d": "1.0.0",
+            "com.esotericsoftware.spine.spine-csharp": "4.2.0"
+          },
+          "sourceRef": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+          "sourceUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-unity/Assets/Spine/package.json",
+          "manifestSha256": "66e055f7e71b771a8e3c983b1f918f252bfc8759d411a0e5eac1232c01970ba6",
+          "sourcePath": "spine-unity/Assets/Spine",
+          "versionBasis": "fixed-official-component-package-json",
+          "targetVersionConfirmed": false,
+          "profileVerified": false,
+          "completeClosure": false
+        },
+        {
+          "packageId": "com.esotericsoftware.spine.spine-csharp",
+          "version": "4.2.37",
+          "unity": "2018.3",
+          "manifestObservationRef": "spine42-csharp-package",
+          "declaredDependencies": {},
+          "sourceRef": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+          "sourceUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-csharp/src/package.json",
+          "manifestSha256": "adbfa161eebd6502a84db1692bbea754091fed4fb814c65d13bf228567e415ef",
+          "sourcePath": "spine-csharp/src",
+          "versionBasis": "fixed-official-component-package-json",
+          "targetVersionConfirmed": false,
+          "profileVerified": false,
+          "completeClosure": false
+        }
+      ],
+      "componentDependencyObservation": "spine-unity declares com.esotericsoftware.spine.spine-csharp=4.2.0, while the same fixed tree component manifest says4.2.37. Both observations are preserved; no resolution, compatibility or dependency-closure result is claimed."
     },
     {
       "id": "PrimeTween",
       "sourceUrl": "https://github.com/KyryloKuzyk/PrimeTween",
       "reason": "Source redistribution restrictions; official acquisition reference only"
-    },
-    {
-      "id": "Facepunch.Steamworks",
-      "sourceUrl": "https://github.com/Facepunch/Facepunch.Steamworks",
-      "reason": "Wrapper and bundled Steam SDK rights differ; official reference until components are resolved"
     },
     {
       "id": "com.unity.2d.sprite",
@@ -779,9 +2160,186 @@
       },
       "versions": [],
       "sources": []
+    },
+    {
+      "id": "com.unity.2d.tilemap",
+      "family": "editor-core-package",
+      "sourceUrl": "https://docs.unity3d.com/Packages/com.unity.2d.tilemap@1.0/manual/index.html",
+      "reason": "Editor core Tilemap tooling; not engine TilemapModule or Tilemap Extras",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "variantId": "official-editor-document-reference",
+          "sourceUrl": "https://docs.unity3d.com/Packages/com.unity.2d.tilemap@1.0/manual/index.html",
+          "sourceRef": null,
+          "downloadUrl": null,
+          "disposition": "official-fetch-only",
+          "fetchStatus": "reference-only",
+          "artifact": null,
+          "fingerprint": null,
+          "dependencies": {},
+          "acquisition": {
+            "kind": "matching-unity-editor-core-package",
+            "installationUrl": "https://unity.com/download",
+            "reason": "Use matching Editor installation; no independent verified archive",
+            "profileVerified": false
+          },
+          "license": {
+            "expression": null,
+            "evidenceUrl": "https://docs.unity3d.com/Packages/com.unity.2d.tilemap@1.0/manual/index.html",
+            "sha256": null,
+            "components": [],
+            "reviewStatus": "official-editor-reference-no-payload-grant"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Photon.PUN",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "Photon.PUN",
+      "sourceUrl": "https://doc.photonengine.com/pun/current/getting-started/initial-setup",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "Photon.Fusion",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "Photon.Fusion",
+      "sourceUrl": "https://doc.photonengine.com/fusion/current/manual/network-runner",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "Photon.Realtime",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "Photon.Realtime",
+      "sourceUrl": "https://doc.photonengine.com/realtime/current/lobby-and-matchmaking/matchmaking-and-lobby",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "Audiokinetic.Wwise",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "Audiokinetic.Wwise",
+      "sourceUrl": "https://www.audiokinetic.com/en/library/edge/?source=Unity&id=class_ak_bank.html",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "CRIWARE.Unity",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "CRIWARE.Unity",
+      "sourceUrl": "https://www.criware.com/en/products/",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "Tasharen.NGUI",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "Tasharen.NGUI",
+      "sourceUrl": "https://www.tasharen.com/?page_id=140",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "Rewired",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "Rewired",
+      "sourceUrl": "https://guavaman.com/projects/rewired/",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "Moodkie.EasySave",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "Moodkie.EasySave",
+      "sourceUrl": "https://moodkie.com/easy-save/",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "Sirenix.OdinInspector",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "Sirenix.OdinInspector",
+      "sourceUrl": "https://odininspector.com/",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "RootMotion.FinalIK",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "RootMotion.FinalIK",
+      "sourceUrl": "https://root-motion.com/",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "AronGranberg.Astar",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "AronGranberg.Astar",
+      "sourceUrl": "https://arongranberg.com/astar/",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "Demigiant.DOTweenPro",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "Demigiant.DOTweenPro",
+      "sourceUrl": "https://dotween.demigiant.com/pro.php",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "I2.Localization",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "I2.Localization",
+      "sourceUrl": "https://www.inter-illusion.com/assets/I2LocalizationManual/BuyingI2Localization.html",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "Naninovel",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "Naninovel",
+      "sourceUrl": "https://naninovel.com/",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "Valve.SteamVR",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "Valve.SteamVR",
+      "sourceUrl": "https://github.com/ValveSoftware/steamvr_unity_plugin",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "Meta.XR.Core",
+      "family": "official-api-family-reference",
+      "familyReferenceId": "Meta.XR.Core",
+      "sourceUrl": "https://developers.meta.com/horizon/reference/unity/v74/class_o_v_r_manager",
+      "disposition": "official-fetch-only",
+      "versions": [],
+      "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
     }
   ],
-  "requirementRevision": "R6",
+  "requirementRevision": "R7",
   "compatibilitySetDefinitions": [
     {
       "id": "dots-unity6000",
@@ -804,98 +2362,135 @@
       "scope": "declared package dependencies only; not installed/compiled or current-game requirement"
     }
   ],
-  "onDemandCandidates": [
+  "activatedDemandCandidates": [
     {
       "id": "com.unity.services.core",
       "sourceUrl": "https://packages.unity.com/com.unity.services.core",
       "licenseHint": null,
       "trigger": "Observed Unity Gaming Services consumer",
-      "version": null,
+      "version": "1.12.5",
       "sourceRef": null,
-      "status": "on-observed-demand",
-      "activation": "explicit-consumer-or-coverage-decision-required",
-      "automaticCollection": false
+      "status": "activated-by-explicit-r7-coverage-decision",
+      "activation": "user-begin-all-additions",
+      "automaticCollection": false,
+      "selectedVersions": [
+        "1.12.5",
+        "1.15.1",
+        "1.15.2"
+      ]
     },
     {
       "id": "com.unity.services.authentication",
       "sourceUrl": "https://packages.unity.com/com.unity.services.authentication",
       "licenseHint": null,
       "trigger": "Observed authentication consumer; package preparation does not invoke services",
-      "version": null,
+      "version": "3.5.1",
       "sourceRef": null,
-      "status": "on-observed-demand",
-      "activation": "explicit-consumer-or-coverage-decision-required",
-      "automaticCollection": false
+      "status": "activated-by-explicit-r7-coverage-decision",
+      "activation": "user-begin-all-additions",
+      "automaticCollection": false,
+      "selectedVersions": [
+        "3.5.1",
+        "3.7.4"
+      ]
     },
     {
       "id": "com.unity.purchasing",
       "sourceUrl": "https://packages.unity.com/com.unity.purchasing",
       "licenseHint": null,
       "trigger": "Observed purchase SDK consumer; no store calls",
-      "version": null,
+      "version": "4.12.2",
       "sourceRef": null,
-      "status": "on-observed-demand",
-      "activation": "explicit-consumer-or-coverage-decision-required",
-      "automaticCollection": false
+      "status": "activated-by-explicit-r7-coverage-decision",
+      "activation": "user-begin-all-additions",
+      "automaticCollection": false,
+      "selectedVersions": [
+        "4.12.2",
+        "5.4.4"
+      ]
     },
     {
       "id": "Odin.Serializer",
       "sourceUrl": "https://github.com/TeamSirenix/odin-serializer",
       "licenseHint": "Apache-2.0",
       "trigger": "Observed serializer dependency; separate from commercial Odin Inspector",
-      "version": null,
+      "version": "1.1.0.0",
       "sourceRef": null,
-      "status": "on-observed-demand",
-      "activation": "explicit-consumer-or-coverage-decision-required",
-      "automaticCollection": false
+      "status": "activated-by-explicit-r7-coverage-decision",
+      "activation": "user-begin-all-additions",
+      "automaticCollection": false,
+      "selectedVersions": [
+        "1.1.0.0",
+        "1.1.1.0"
+      ]
     },
     {
       "id": "YooAsset",
       "sourceUrl": "https://github.com/tuyoogame/YooAsset",
       "licenseHint": "Apache-2.0",
       "trigger": "Observed consumer or explicit coverage decision; does not replace Addressables",
-      "version": null,
+      "version": "2.3.19",
       "sourceRef": null,
-      "status": "on-observed-demand",
-      "activation": "explicit-consumer-or-coverage-decision-required",
-      "automaticCollection": false
+      "status": "activated-by-explicit-r7-coverage-decision",
+      "activation": "user-begin-all-additions",
+      "automaticCollection": false,
+      "selectedVersions": [
+        "2.3.19",
+        "3.0.6"
+      ]
     },
     {
       "id": "ZString",
       "sourceUrl": "https://github.com/Cysharp/ZString",
       "licenseHint": "MIT",
       "trigger": "Observed reference or explicit common coverage decision",
-      "version": null,
+      "version": "2.5.1",
       "sourceRef": null,
-      "status": "on-observed-demand",
-      "activation": "explicit-consumer-or-coverage-decision-required",
-      "automaticCollection": false
+      "status": "activated-by-explicit-r7-coverage-decision",
+      "activation": "user-begin-all-additions",
+      "automaticCollection": false,
+      "selectedVersions": [
+        "2.5.1",
+        "2.6.0"
+      ]
     }
   ],
-  "providerRuleCandidates": [
+  "onDemandCandidates": [],
+  "coverageDecision": {
+    "revision": "R7",
+    "sourcePlanSha256": "7e44d47fc529d71dfb355feb4f61dbbec7f955816c3e267fd8f1d504f95bcfd9",
+    "scope": "Finite all named expansion items; not ecosystem enumeration",
+    "baselineCommit": "6d2e090768da3e294ae9f61f37a7e7690857236a"
+  },
+  "activatedProviderCandidates": [
     {
       "assemblyName": "UnityEngine.AndroidJNIModule",
       "providerHint": "com.unity.modules.androidjni",
-      "status": "official-api-rules-unverified",
-      "active": false
+      "status": "finite-official-api-rule-registered-profile-unverified",
+      "active": true,
+      "activation": "R7 explicit coverage decision"
     },
     {
       "assemblyName": "UnityEngine.DirectorModule",
       "providerHint": "com.unity.modules.director",
-      "status": "official-api-rules-unverified",
-      "active": false
+      "status": "finite-official-api-rule-registered-profile-unverified",
+      "active": true,
+      "activation": "R7 explicit coverage decision"
     },
     {
       "assemblyName": "UnityEngine.ScreenCaptureModule",
       "providerHint": "com.unity.modules.screencapture",
-      "status": "official-api-rules-unverified",
-      "active": false
+      "status": "finite-official-api-rule-registered-profile-unverified",
+      "active": true,
+      "activation": "R7 explicit coverage decision"
     },
     {
       "assemblyName": "UnityEngine.UnityAnalyticsModule",
       "providerHint": "com.unity.modules.unityanalytics",
-      "status": "official-api-rules-unverified",
-      "active": false
+      "status": "finite-official-api-rule-registered-profile-unverified",
+      "active": true,
+      "activation": "R7 explicit coverage decision"
     }
-  ]
+  ],
+  "providerRuleCandidates": []
 }

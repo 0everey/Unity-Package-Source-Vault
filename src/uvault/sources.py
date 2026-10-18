@@ -260,6 +260,36 @@ def git_package(package_id, repository):
             "versions": sorted(versions, key=lambda item: version_key(item["version"])), "metadataStatus": "complete"}
 
 
+def pinned_git_package(seed):
+    """Read an explicitly chosen immutable source menu; no tag enumeration."""
+    repository=seed["repository"].removeprefix("https://github.com/").removesuffix(".git").strip("/")
+    if not re.fullmatch(r"[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+",repository):
+        raise ValueError("Expected a GitHub owner/repository")
+    versions=[]
+    for pin in seed["gitPins"]:
+        sha=pin.get("sourceRef","")
+        if not re.fullmatch(r"[0-9a-f]{40}",sha) or not pin.get("version"):
+            raise ValueError("Pinned Git source requires a version basis and full commit SHA")
+        path=pin.get("sourcePath")
+        if path and (path.startswith("/") or any(p in ("", ".", "..") for p in path.split("/")) or any(c in path for c in ("\\",":","?","#"))):
+            raise ValueError("Pinned component path must be a safe relative POSIX path")
+        record={"version":pin["version"],"variantId":"git-"+sha[:12],"sourceUrl":"https://github.com/"+repository,
+                "sourceRef":sha,"sourcePath":path,"sourceTag":pin.get("sourceTag"),"versionBasis":pin.get("versionBasis"),
+                "downloadUrl":"https://codeload.github.com/"+repository+"/tar.gz/"+sha,
+                "disposition":"license-unresolved","license":{"expression":None,"components":[],"reviewStatus":"pending-per-version-archive"},
+                "dependencies":{},"artifact":None,"fingerprint":None,"fetchStatus":"pending",
+                "versionStatus":pin.get("versionStatus") or ("snapshot" if pin["version"].startswith("source-") else "prerelease" if _is_prerelease(pin["version"]) else "stable")}
+        if pin.get("componentMetadata"):
+            record["componentScope"]={"sourcePath":path,"metadata":pin["componentMetadata"],
+                                      "archiveScope":"complete-original-repository-archive","targetComponentEquivalenceVerified":False}
+        elif path:
+            record["componentScope"]={"sourcePath":path,"archiveScope":"complete-original-repository-archive","targetComponentEquivalenceVerified":False}
+        versions.append(record)
+    return {"schemaVersion":"1.0","id":seed["id"],"displayName":seed["id"],"adapter":"github","repository":repository,
+            "sources":[{"kind":"explicit-immutable-git-pins","url":"https://github.com/"+repository,"fetchedAt":utc_now(),"completeEnumeration":False}],
+            "versions":versions,"metadataStatus":"complete"}
+
+
 def nuget_package(package_id):
     base = "https://api.nuget.org/v3-flatcontainer/" + urllib.parse.quote(package_id.lower(), safe="")
     data = request_json(base + "/index.json")
@@ -321,7 +351,7 @@ def fetch_package(seed):
             package={"schemaVersion":"1.0", "id":seed["id"], "adapter":"registry", "registry":seed["registry"],
                      "metadataStatus":"complete", "sources":[], "versions":[], "registryStatus":"not-listed"}
     if adapter == "github":
-        package=git_package(seed["id"], seed["repository"])
+        package=pinned_git_package(seed) if seed.get("gitPins") else git_package(seed["id"], seed["repository"])
     if adapter == "nuget":
         package=nuget_package(seed["id"])
     if adapter == "reference":
@@ -347,5 +377,8 @@ def fetch_package(seed):
             "acquisition":{"kind":"unity-editor-bundled-package","sourcePath":ref["path"].removesuffix("/package.json"),
                 "manifestSha256":hashlib.sha256(content).hexdigest(),"installationUrl":"https://unity.com/download",
                 "reason":"Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"}})
+    if seed.get("documentReferences"):
+        from copy import deepcopy
+        package["versions"].extend(deepcopy(seed["documentReferences"]))
     from .curated import curate_package
     return curate_package(package,seed)

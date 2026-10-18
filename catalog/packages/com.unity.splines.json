@@ -7,12 +7,47 @@
       "kind": "registry",
       "url": "https://packages.unity.com",
       "metadataUrl": "https://packages.unity.com/com.unity.splines",
-      "fetchedAt": "2026-10-17T21:40:28.900060Z"
+      "fetchedAt": "2026-10-18T04:58:59.846274Z"
     }
   ],
   "adapter": "registry",
   "registry": "https://packages.unity.com",
   "versions": [
+    {
+      "version": "2.0.0",
+      "variantId": "registry-packages.unity.com-3579b02b0c5fbc1d",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.splines.git",
+      "sourceRef": "3d1fb0ab442e2537dc536dd7cab58e4303804b6d",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.splines/-/com.unity.splines-2.0.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d01052c492721890d437c2ed5fe00da70a63b1dc",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.splines/2.0.0",
+      "deprecated": null,
+      "unity": "2022.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "d01052c492721890d437c2ed5fe00da70a63b1dc"
+        }
+      }
+    },
     {
       "version": "2.9.0",
       "variantId": "registry-packages.unity.com-921d7343898af264",
@@ -1444,14 +1479,16 @@
   "distTags": {
     "latest": "2.9.1"
   },
-  "availableUpstreamVersionCount": 2,
+  "availableUpstreamVersionCount": 3,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
     "maxCommonVersions": 3,
+    "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records",
     "preferredVersions": [
       "2.9.0",
-      "2.9.1"
+      "2.9.1",
+      "2.0.0"
     ],
     "legacyMajor": null,
     "selectionMode": "fixed-common",
@@ -1460,6 +1497,7 @@
   },
   "explicitVersionRequests": [],
   "selectedVersions": [
+    "2.0.0",
     "2.9.0",
     "2.9.1"
   ],
@@ -1469,6 +1507,14 @@
   "category": "paths",
   "integrationNote": "Keep Runtime/Editor assembly boundaries and named exact dependencies.",
   "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
-  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
-  "family": "common-paths"
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-paths",
+  "preferredVersions": [
+    "2.9.0",
+    "2.9.1",
+    "2.0.0"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
 }

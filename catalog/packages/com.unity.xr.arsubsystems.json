@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.xr.arsubsystems",
+  "displayName": "com.unity.xr.arsubsystems",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.arsubsystems",
+      "fetchedAt": "2026-10-18T04:59:02.934629Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "4.2.10",
+      "variantId": "registry-packages.unity.com-66a3541b7465f1eb",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/arfoundation.git",
+      "sourceRef": "e9e2efe902fc394d3819244ecff203834e95dcc9",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.xr.arsubsystems/-/com.unity.xr.arsubsystems-4.2.10.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8450640dd361578358cd8b645a93d03d60b4129f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.management": "4.0.1",
+        "com.unity.subsystemregistration": "1.1.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.arsubsystems/4.2.10",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "8450640dd361578358cd8b645a93d03d60b4129f"
+        }
+      }
+    },
+    {
+      "version": "5.0.2",
+      "variantId": "registry-packages.unity.com-1a8b27bbe24bfff8",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/arfoundation.git",
+      "sourceRef": "14592dfeeb9ecce202f640c8b661b72b3a763f72",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.xr.arsubsystems/-/com.unity.xr.arsubsystems-5.0.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "8b5984a899f4981ef560a9f8c9765147ed8ee212",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.arfoundation": "5.0.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.arsubsystems/5.0.2",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "8b5984a899f4981ef560a9f8c9765147ed8ee212"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "4.2.10"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "4.2.10",
+      "5.0.2"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "parent-constrained",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "4.2.10",
+    "5.0.2"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "parent-dependency",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "dependencyRole": "companion-not-root-family",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-parent-dependency",
+  "preferredVersions": [
+    "4.2.10",
+    "5.0.2"
+  ],
+  "selectionMode": "parent-constrained",
+  "maxCommonVersions": 3
+}

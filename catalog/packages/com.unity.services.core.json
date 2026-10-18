@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.services.core",
+  "displayName": "com.unity.services.core",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.services.core",
+      "fetchedAt": "2026-10-18T04:59:00.411738Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "1.12.5",
+      "variantId": "registry-packages.unity.com-782bf0473a558b9e",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git",
+      "sourceRef": "85f4cc67cb1ec043a92990cbe34002037e9948e4",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.services.core/-/com.unity.services.core-1.12.5.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f76c6d6421f17682d87047bf65b1e27156c08d73",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.services.core/1.12.5",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "f76c6d6421f17682d87047bf65b1e27156c08d73"
+        }
+      }
+    },
+    {
+      "version": "1.15.1",
+      "variantId": "registry-packages.unity.com-b5e9c436ee9799d2",
+      "sourceUrl": "https://packages.unity.com/com.unity.services.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.services.core/-/com.unity.services.core-1.15.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "874e9d230d570aadc14c743a9bbdbbfdd89037d3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.services.core/1.15.1",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "874e9d230d570aadc14c743a9bbdbbfdd89037d3"
+        }
+      }
+    },
+    {
+      "version": "1.15.2",
+      "variantId": "registry-packages.unity.com-c6dd891813d44a57",
+      "sourceUrl": "https://packages.unity.com/com.unity.services.core",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.services.core/-/com.unity.services.core-1.15.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "093b28cbbef67ecf00ffdb2a426da1ec600dd4cf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.services.core/1.15.2",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "093b28cbbef67ecf00ffdb2a426da1ec600dd4cf"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.18.0"
+  },
+  "availableUpstreamVersionCount": 3,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "1.12.5",
+      "1.15.1",
+      "1.15.2"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "1.12.5",
+    "1.15.1",
+    "1.15.2"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "services",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-services",
+  "preferredVersions": [
+    "1.12.5",
+    "1.15.1",
+    "1.15.2"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3
+}

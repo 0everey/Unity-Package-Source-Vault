@@ -7,19 +7,25 @@
       "kind": "registry",
       "url": "https://packages.unity.com",
       "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.universal",
-      "fetchedAt": "2026-10-17T19:26:55.673579Z"
+      "fetchedAt": "2026-10-18T04:58:58.072906Z"
     },
     {
       "kind": "official-package-manifest",
       "url": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53/Packages/com.unity.render-pipelines.universal/package.json",
       "sha256": "07bd52c201f5682433fc8071d587129a2f852104d5f762773fa8ba62b5ecee82",
-      "fetchedAt": "2026-10-17T19:26:56.485968Z"
+      "fetchedAt": "2026-10-18T04:58:58.606927Z"
     },
     {
       "kind": "official-package-manifest",
       "url": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3/Packages/com.unity.render-pipelines.universal/package.json",
       "sha256": "bec6ec3281092224c48c21419fea162bae3134ba1004eacb66a9ddd76bb25e1f",
-      "fetchedAt": "2026-10-17T19:26:57.016092Z"
+      "fetchedAt": "2026-10-18T04:58:59.145581Z"
+    },
+    {
+      "kind": "official-package-manifest",
+      "url": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/6034ecf6489af2ac1d543f9de25a76b8e91a78cb/Packages/com.unity.render-pipelines.universal/package.json",
+      "sha256": "ecdf3dffec9c1b562f16d85787189552776a5b13587291cc229a11ea3cf2cbeb",
+      "fetchedAt": "2026-10-18T04:58:59.654595Z"
     }
   ],
   "adapter": "registry",
@@ -1394,6 +1400,39 @@
       "collectedAt": "2026-10-17T19:45:09.621956Z"
     },
     {
+      "version": "12.1.16",
+      "variantId": "unity-editor-source-6034ecf6489a",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics/tree/6034ecf6489af2ac1d543f9de25a76b8e91a78cb/Packages/com.unity.render-pipelines.universal",
+      "sourceRef": "6034ecf6489af2ac1d543f9de25a76b8e91a78cb",
+      "downloadUrl": null,
+      "disposition": "official-fetch-only",
+      "fetchStatus": "reference-only",
+      "artifact": null,
+      "fingerprint": null,
+      "versionStatus": "stable",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.burst": "1.8.9",
+        "com.unity.render-pipelines.core": "12.1.16",
+        "com.unity.shadergraph": "12.1.16"
+      },
+      "unity": "2021.3",
+      "license": {
+        "expression": null,
+        "evidenceUrl": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/6034ecf6489af2ac1d543f9de25a76b8e91a78cb/Packages/com.unity.render-pipelines.universal/package.json",
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "official-manifest-reference-no-payload-grant"
+      },
+      "acquisition": {
+        "kind": "unity-editor-bundled-package",
+        "sourcePath": "Packages/com.unity.render-pipelines.universal",
+        "manifestSha256": "ecdf3dffec9c1b562f16d85787189552776a5b13587291cc229a11ea3cf2cbeb",
+        "installationUrl": "https://unity.com/download",
+        "reason": "Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"
+      }
+    },
+    {
       "version": "14.0.12",
       "variantId": "unity-editor-source-03ca85dffdde",
       "sourceUrl": "https://github.com/Unity-Technologies/Graphics/tree/03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3/Packages/com.unity.render-pipelines.universal",
@@ -1425,7 +1464,9 @@
         "manifestSha256": "bec6ec3281092224c48c21419fea162bae3134ba1004eacb66a9ddd76bb25e1f",
         "installationUrl": "https://unity.com/download",
         "reason": "Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"
-      }
+      },
+      "upstreamListed": true,
+      "metadataRefreshedAt": "2026-10-18T04:58:59.664752Z"
     },
     {
       "version": "17.0.4",
@@ -1457,30 +1498,36 @@
         "manifestSha256": "07bd52c201f5682433fc8071d587129a2f852104d5f762773fa8ba62b5ecee82",
         "installationUrl": "https://unity.com/download",
         "reason": "Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"
-      }
+      },
+      "upstreamListed": true,
+      "metadataRefreshedAt": "2026-10-18T04:58:59.664752Z"
     }
   ],
   "metadataStatus": "complete",
   "distTags": {
     "latest": "10.10.1"
   },
-  "availableUpstreamVersionCount": 3,
+  "availableUpstreamVersionCount": 4,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
-    "maxCommonVersions": 3,
+    "maxCommonVersions": 4,
+    "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records",
     "preferredVersions": [
+      "10.10.1",
+      "14.0.12",
       "17.0.4",
-      "14.0.12"
+      "12.1.16"
     ],
     "legacyMajor": null,
-    "selectionMode": "common",
+    "selectionMode": "fixed-common",
     "retainVerifiedLegacy": false,
     "commonArchiveFallback": true
   },
   "explicitVersionRequests": [],
   "selectedVersions": [
     "10.10.1",
+    "12.1.16",
     "14.0.12",
     "17.0.4"
   ],
@@ -1499,14 +1546,25 @@
       "sourceRef": "03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3",
       "path": "Packages/com.unity.render-pipelines.universal/package.json",
       "version": "14.0.12"
+    },
+    {
+      "repository": "Unity-Technologies/Graphics",
+      "sourceRef": "6034ecf6489af2ac1d543f9de25a76b8e91a78cb",
+      "path": "Packages/com.unity.render-pipelines.universal/package.json",
+      "version": "12.1.16"
     }
   ],
   "category": "rendering",
-  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "versionPolicy": "Finite common selection; default two versions, package budget 4; explicit exceptions retain immutable prior records",
   "family": "common-rendering",
   "preferredVersions": [
+    "10.10.1",
+    "14.0.12",
     "17.0.4",
-    "14.0.12"
+    "12.1.16"
   ],
-  "commonArchiveFallback": true
+  "commonArchiveFallback": true,
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 4,
+  "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
 }

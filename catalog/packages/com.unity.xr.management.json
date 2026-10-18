@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.xr.management",
+  "displayName": "com.unity.xr.management",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.management",
+      "fetchedAt": "2026-10-18T04:59:01.161093Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "4.4.0",
+      "variantId": "registry-packages.unity.com-6676b046bad6ca0f",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git",
+      "sourceRef": "6fefbe0e3deca93f6eb53e66ca554b58f2acf0d8",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.xr.management/-/com.unity.xr.management-4.4.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "23603bb7faacb609310a19e54cfda9101dc5dd20",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.modules.subsystems": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.7"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.management/4.4.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "23603bb7faacb609310a19e54cfda9101dc5dd20"
+        }
+      }
+    },
+    {
+      "version": "4.7.0",
+      "variantId": "registry-packages.unity.com-dfa899ecc2e2bc17",
+      "sourceUrl": "https://packages.unity.com/com.unity.xr.management",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.xr.management/-/com.unity.xr.management-4.7.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2ad85c7dd480d2c8bfb047d40fa76e0745f5128d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.xr.core-utils": "2.2.1",
+        "com.unity.modules.subsystems": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.11"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.management/4.7.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "2ad85c7dd480d2c8bfb047d40fa76e0745f5128d"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "4.6.1"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "4.4.0",
+      "4.7.0"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "4.4.0",
+    "4.7.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "xr",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-xr",
+  "preferredVersions": [
+    "4.4.0",
+    "4.7.0"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3
+}

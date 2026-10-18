@@ -353,6 +353,20 @@ def identify(input_path, catalog, profile=None) -> dict:
     if "nugetDependencyCandidates" in catalog:
         from copy import deepcopy
         result["nugetDependencyCandidates"] = deepcopy(catalog["nugetDependencyCandidates"])
+    from .family_identity import detect_fingerprint,preserve_context
+    family_rows=detect_fingerprint(fingerprint)
+    for observation in observations:
+        if observation.get("fingerprint"):
+            family_rows.extend(detect_fingerprint(observation["fingerprint"]))
+    for field,statuses in (("knownFamilies",{"official-assembly-api-clue","same-input-assembly-api-pair-clue"}),
+                           ("familyHints",None)):
+        chosen=[];seen=set()
+        for row in family_rows:
+            is_known=row["status"] in {"official-assembly-api-clue","same-input-assembly-api-pair-clue"}
+            if (field=="knownFamilies")!=is_known:continue
+            key=json.dumps(row,sort_keys=True,separators=(",",":"))
+            if key not in seen:chosen.append(row);seen.add(key)
+        if chosen:result[field]=chosen
     observed_ids = {o["packageId"] for o in observations}
     catalog_ids = set()
     for package in catalog.get("packages", []):
@@ -392,7 +406,18 @@ def identify(input_path, catalog, profile=None) -> dict:
                 candidates.append((_candidate(package_id, version), best))
         if not candidates:
             if package_id in observed_ids:
-                result["unknown"].append({"packageId": package_id, "reason": "observed-version-not-in-catalog-or-no-evidence"})
+                observed=[o.get("version") for o in package_observations]
+                result["unknown"].append({"packageId": package_id, "observedVersions":observed,"reason": "observed-version-not-in-catalog-or-no-evidence"})
+                registered={v["version"] for v in package.get("versions",[])}
+                for observation in package_observations:
+                    value=observation.get("version")
+                    if isinstance(value,str) and re.fullmatch(r"\d+(?:\.\d+){1,3}(?:[-+][0-9A-Za-z.-]+)?",value) and value not in registered:
+                        request={"packageId":package_id,"version":value,"observedVersionBasis":"actual-package-manifest-or-lock",
+                                 "reason":"observed-version-not-in-current-catalog","automaticSubstitution":False,
+                                 "lockSource":observation.get("source"),"sourceSpecification":observation.get("sourceSpecification"),
+                                 "lockedVersion":observation.get("lockedVersion"),"targetPresent":observation.get("targetPresent",False),
+                                 "installationKind":observation.get("installationKind"),"sourceEquivalenceVerified":False}
+                        if request not in result.setdefault("missingVersionRequests",[]):result["missingVersionRequests"].append(request)
             continue
         rank = max(match["rank"] for _, match in candidates)
         selected = [(candidate, match) for candidate, match in candidates if match["rank"] == rank]
@@ -414,7 +439,7 @@ def identify(input_path, catalog, profile=None) -> dict:
             result["unknown"].append({"packageId": package_id, "reason": "weak-clues-only"})
         result["conflicts"].extend(dict(c, packageId=package_id) for c in conflicts)
     for package_id in sorted(observed_ids - catalog_ids):
-        result["unknown"].append({"packageId": package_id, "reason": "package-not-in-catalog"})
+        result["unknown"].append({"packageId": package_id,"observedVersions":[o.get("version") for o in observations if o["packageId"]==package_id], "reason": "package-not-in-catalog"})
     if not result["matches"] and not result["unknown"]:
         result["unknown"].append({"reason": "no-package-evidence"})
     from .named_identity import fingerprint_pending, match_pending
@@ -434,4 +459,4 @@ def identify(input_path, catalog, profile=None) -> dict:
                 conflict={"kind":"named-origin-and-modification-unresolved","families":implicated,"reason":"Public name or explicit selection does not establish original source or absence of project modifications"}
                 match["conflicts"].append(conflict)
                 result["conflicts"].append({"packageId":match["packageId"],**conflict})
-    return result
+    return preserve_context(result)

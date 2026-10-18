@@ -291,6 +291,7 @@
     "scopeVersion": "R4",
     "versionCount": 2,
     "maxCommonVersions": 3,
+    "budgetReason": null,
     "preferredVersions": [
       "1.0.2"
     ],
@@ -308,7 +309,7 @@
   "missingTargetVersions": [],
   "missingPreferredVersions": [],
   "category": "dependency",
-  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
   "family": "common-dependency",
   "preferredVersions": [
     "1.0.2"

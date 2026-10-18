@@ -16,7 +16,8 @@ def seeds():
         item=deepcopy(entry)
         item.setdefault("adapter","registry");item.setdefault("registry","https://packages.unity.com")
         item.update(schemaVersion="1.0",family="common-"+entry["category"],metadataStatus="pending",versions=[],curatedPolicy={
-            "scopeVersion":"R4","versionCount":2,"maxCommonVersions":3,
+            "scopeVersion":"R4","versionCount":entry.get("versionCount",2),"maxCommonVersions":entry.get("maxCommonVersions",3),
+            "budgetReason":entry.get("budgetReason"),
             "preferredVersions":entry.get("preferredVersions",[]),"legacyMajor":entry.get("legacyMajor"),
             "selectionMode":entry.get("selectionMode","common"),
             "retainVerifiedLegacy":entry.get("retainVerifiedLegacy",False), "commonArchiveFallback":entry.get("commonArchiveFallback",False)})
@@ -58,13 +59,13 @@ def choose_versions(versions,policy,requests=()):
     legacy=policy.get("legacyMajor")
     if legacy is not None and len(selected)<policy.get("maxCommonVersions",3):
         add(next((v for v in ordered if version_key(v)[1][0]==legacy),None))
-    if policy.get("retainVerifiedLegacy") and len(selected)<3:
+    if policy.get("retainVerifiedLegacy") and len(selected)<policy.get("maxCommonVersions",3):
         retained=sorted((v["version"] for v in versions if v.get("fetchStatus")=="published" and v["version"] not in selected),key=version_key,reverse=True)
         if retained:add(retained[0])
-    if policy.get("commonArchiveFallback") and len(selected)<3:
+    if policy.get("commonArchiveFallback") and len(selected)<policy.get("maxCommonVersions",3):
         add(next((v for v in ordered if by_name[v].get("downloadUrl")), None))
     if len(selected)>policy.get("maxCommonVersions",3):
-        raise ValueError("More than three requested versions requires explicitly revising this package's common-version budget")
+        raise ValueError("Requested versions exceed this package's explicit common-version budget")
     return [v for v in versions if v["version"] in selected]
 
 def curate_package(package,seed):
@@ -87,9 +88,9 @@ def curate_package(package,seed):
     package.pop("versionRequests",None)
     package["missingTargetVersions"]=[r["version"] for r in seed.get("explicitVersionRequests",[]) if r["version"] not in package["selectedVersions"]]
     package["missingPreferredVersions"]=[v for v in policy.get("preferredVersions",[]) if v not in package["selectedVersions"]]
-    for key in ("manifestReferences", "category", "integrationNote", "componentBundle", "coverageBasis", "priority", "dependencyRole", "parentBasis"):
+    for key in ("manifestReferences", "documentReferences", "category", "integrationNote", "componentBundle", "coverageBasis", "priority", "dependencyRole", "parentBasis", "gitPins"):
         if key in seed: package[key]=deepcopy(seed[key])
-    package["versionPolicy"]="R4: two common versions; at most three including a justified gap/legacy"
+    package["versionPolicy"]="Finite common selection; default two versions, package budget "+str(policy.get("maxCommonVersions",3))+"; explicit exceptions retain immutable prior records"
     return package
 
 def queue(existing=None):
@@ -114,13 +115,16 @@ def queue(existing=None):
         packages.append(curate_package(retained,retained))
         for key in ("family","category","integrationNote"):
             if key in seed:packages[-1][key]=seed[key]
-    return {"schemaVersion":"1.0","scopeVersion":"R4","requirementRevision":configuration().get("requirementRevision","R4"),"scope":"Common Unity builtin providers and explicitly listed common packages; two or three versions per family",
+    return {"schemaVersion":"1.0","scopeVersion":"R4","requirementRevision":configuration().get("requirementRevision","R4"),"scope":"Finite common Unity providers and named packages; default budget three versions with explicit per-package legacy/dependency exceptions",
             "createdAt":utc_now(),"completeEnumeration":True,"enumerationMeaning":"Complete current common whitelist, not an ecosystem enumeration",
             "snapshots":[{"source":"common-packages.json","scopeVersion":"R4",
                           "configuredPackageFamilies":sum(p.get("dependencyRole")!="companion-not-root-family" for p in configuration()["packages"]),
                           "configuredCompanionEntries":sum(p.get("dependencyRole")=="companion-not-root-family" for p in configuration()["packages"]),"discoveredAt":utc_now()}],
             "packages":packages,"frontier":[],"compatibilitySetDefinitions":deepcopy(configuration().get("compatibilitySetDefinitions",[])),
             "onDemandCandidates":deepcopy(configuration().get("onDemandCandidates",[])),
+            "activatedDemandCandidates":deepcopy(configuration().get("activatedDemandCandidates",[])),
+            "coverageDecision":deepcopy(configuration().get("coverageDecision",{})),
+            "activatedProviderCandidates":deepcopy(configuration().get("activatedProviderCandidates",[])),
             "providerRuleCandidates":deepcopy(configuration().get("providerRuleCandidates",[]))}
 
 def compatibility_sets(state):
@@ -184,8 +188,9 @@ def add_gap(state, package_id, version, reason):
     request = {"version": version, "reason": reason.strip()}
     if request not in requests:
         requests.append(request)
-    if len({r["version"] for r in requests} | set(package["curatedPolicy"].get("preferredVersions", []))) > 3:
-        raise ValueError("More than three explicit versions exceeds the common package scope")
+    budget=package["curatedPolicy"].get("maxCommonVersions",3)
+    if len({r["version"] for r in requests} | set(package["curatedPolicy"].get("preferredVersions", []))) > budget:
+        raise ValueError("Explicit versions exceed this package's common-version budget")
     package["explicitVersionRequests"] = requests
     package["metadataStatus"] = "pending"
     return package

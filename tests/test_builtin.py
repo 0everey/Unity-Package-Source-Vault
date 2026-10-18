@@ -30,8 +30,8 @@ def physics_inventory(*extras):
 class BuiltinTests(unittest.TestCase):
     def test_finite_reference_packages_have_no_artifact_or_invented_unity_version(self):
         records = package_records()
-        self.assertEqual(len(records), 23)
-        self.assertEqual(len({p["id"] for p in records}), 23)
+        self.assertEqual(len(records), 28)
+        self.assertEqual(len({p["id"] for p in records}), 28)
         for package in records:
             version = package["versions"][0]
             self.assertEqual(version["disposition"], "builtin-reference")

@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0",
   "catalogCommit": "pending",
-  "scope": "Common Unity builtin providers and explicitly listed common packages; two or three versions per family",
+  "scope": "Finite common Unity providers and named packages; default budget three versions with explicit per-package legacy/dependency exceptions",
   "scopeVersion": "R4",
-  "requirementRevision": "R6",
+  "requirementRevision": "R7",
   "compatibilitySetDefinitions": [
     {
       "id": "dots-unity6000",
@@ -99,20 +99,6 @@
         {
           "packageId": "com.unity.burst",
           "version": "1.8.29",
-          "requiredBy": "com.unity.entities",
-          "reason": "exact-declared-dependency-not-in-current-catalog",
-          "automaticSubstitution": false
-        },
-        {
-          "packageId": "com.unity.nuget.mono-cecil",
-          "version": "1.11.6",
-          "requiredBy": "com.unity.entities",
-          "reason": "exact-declared-dependency-not-in-current-catalog",
-          "automaticSubstitution": false
-        },
-        {
-          "packageId": "com.unity.modules.unityanalytics",
-          "version": "1.0.0",
           "requiredBy": "com.unity.entities",
           "reason": "exact-declared-dependency-not-in-current-catalog",
           "automaticSubstitution": false
@@ -252,13 +238,6 @@
           "automaticSubstitution": false
         },
         {
-          "packageId": "com.unity.modules.unityanalytics",
-          "version": "1.0.0",
-          "requiredBy": "com.unity.entities",
-          "reason": "exact-declared-dependency-not-in-current-catalog",
-          "automaticSubstitution": false
-        },
-        {
           "packageId": "com.unity.scriptablebuildpipeline",
           "version": "1.21.25",
           "requiredBy": "com.unity.entities",
@@ -308,162 +287,6 @@
     "frameworkPolicy": "netstandard2.0/2.1 only; explicit 2.0 fallback candidate, never reference verification",
     "completeClosure": false,
     "parents": [
-      {
-        "parent": {
-          "packageId": "Grpc.Core.Api",
-          "version": "2.83.0",
-          "variantId": "nuget",
-          "archiveSha256": "af36bafbf54efacb53abde2ff38efebec4e845eaa4bdc5aca1e9a71122788b3c",
-          "nuspecSha256": "1276f66b4414aa409f4548480ef6eeb245449ed2f747541c64d526f7ba73d3e0"
-        },
-        "requestedFramework": "netstandard2.0",
-        "status": "declared-framework-candidate",
-        "dependencyGroups": [
-          {
-            "targetFramework": ".NETStandard2.0",
-            "dependencies": [
-              {
-                "id": "System.Memory",
-                "version": "4.5.3",
-                "exclude": "Build,Analyzers"
-              }
-            ]
-          }
-        ],
-        "assets": [
-          {
-            "path": "lib/netstandard2.0/Grpc.Core.Api.dll",
-            "targetFramework": "netstandard2.0",
-            "kind": "lib",
-            "sha256": "1a2aabe96d7f55c5ddd7c90647899ee853b0126eba01003c106beffc3783507d",
-            "size": 59904
-          }
-        ],
-        "dependencies": [
-          {
-            "id": "System.Memory",
-            "version": "4.5.3",
-            "exclude": "Build,Analyzers",
-            "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
-            "automaticSubstitution": false
-          }
-        ],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "Grpc.Core.Api",
-          "version": "2.83.0",
-          "variantId": "nuget",
-          "archiveSha256": "af36bafbf54efacb53abde2ff38efebec4e845eaa4bdc5aca1e9a71122788b3c",
-          "nuspecSha256": "1276f66b4414aa409f4548480ef6eeb245449ed2f747541c64d526f7ba73d3e0"
-        },
-        "requestedFramework": "netstandard2.1",
-        "status": "declared-framework-candidate",
-        "dependencyGroups": [
-          {
-            "targetFramework": ".NETStandard2.1",
-            "dependencies": []
-          }
-        ],
-        "assets": [
-          {
-            "path": "lib/netstandard2.1/Grpc.Core.Api.dll",
-            "targetFramework": "netstandard2.1",
-            "kind": "lib",
-            "sha256": "440b6b0a5beca40718a01b3e892baa6e2fd03933f3f501fc40e2a956b0d937a1",
-            "size": 59904
-          }
-        ],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "Grpc.Core.Api",
-          "version": "2.84.0",
-          "variantId": "nuget",
-          "archiveSha256": "a6eedd9e6832fffe46848452d73274862fb319b8e6c141ec7ad39815af155063",
-          "nuspecSha256": "bba00f5d5be8423dd351662e313648b0abd13100ef67d55f6fc29de44c544a96"
-        },
-        "requestedFramework": "netstandard2.0",
-        "status": "declared-framework-candidate",
-        "dependencyGroups": [
-          {
-            "targetFramework": ".NETStandard2.0",
-            "dependencies": [
-              {
-                "id": "System.Memory",
-                "version": "4.6.3",
-                "exclude": "Build,Analyzers"
-              }
-            ]
-          }
-        ],
-        "assets": [
-          {
-            "path": "lib/netstandard2.0/Grpc.Core.Api.dll",
-            "targetFramework": "netstandard2.0",
-            "kind": "lib",
-            "sha256": "ef0c775f20f7e2d5d68e63e78977ee6605f61ee945f780f1e026b3065009008f",
-            "size": 70296
-          }
-        ],
-        "dependencies": [
-          {
-            "id": "System.Memory",
-            "version": "4.6.3",
-            "exclude": "Build,Analyzers",
-            "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
-            "automaticSubstitution": false
-          }
-        ],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "Grpc.Core.Api",
-          "version": "2.84.0",
-          "variantId": "nuget",
-          "archiveSha256": "a6eedd9e6832fffe46848452d73274862fb319b8e6c141ec7ad39815af155063",
-          "nuspecSha256": "bba00f5d5be8423dd351662e313648b0abd13100ef67d55f6fc29de44c544a96"
-        },
-        "requestedFramework": "netstandard2.1",
-        "status": "declared-framework-candidate",
-        "dependencyGroups": [
-          {
-            "targetFramework": ".NETStandard2.1",
-            "dependencies": []
-          }
-        ],
-        "assets": [
-          {
-            "path": "lib/netstandard2.1/Grpc.Core.Api.dll",
-            "targetFramework": "netstandard2.1",
-            "kind": "lib",
-            "sha256": "16b1ff898b9a2c1ffac0e22035c8280728967e7041bfe8a382bcb1f99a9a530b",
-            "size": 70296
-          }
-        ],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
       {
         "parent": {
           "packageId": "Grpc.Net.Client",
@@ -898,6 +721,308 @@
       },
       {
         "parent": {
+          "packageId": "Grpc.Core.Api",
+          "version": "2.83.0",
+          "variantId": "nuget",
+          "archiveSha256": "af36bafbf54efacb53abde2ff38efebec4e845eaa4bdc5aca1e9a71122788b3c",
+          "nuspecSha256": "1276f66b4414aa409f4548480ef6eeb245449ed2f747541c64d526f7ba73d3e0"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Memory",
+                "version": "4.5.3",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Grpc.Core.Api.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "1a2aabe96d7f55c5ddd7c90647899ee853b0126eba01003c106beffc3783507d",
+            "size": 59904
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Memory",
+            "version": "4.5.3",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.4",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              },
+              {
+                "version": "4.5.5",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Grpc.Core.Api",
+          "version": "2.83.0",
+          "variantId": "nuget",
+          "archiveSha256": "af36bafbf54efacb53abde2ff38efebec4e845eaa4bdc5aca1e9a71122788b3c",
+          "nuspecSha256": "1276f66b4414aa409f4548480ef6eeb245449ed2f747541c64d526f7ba73d3e0"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.1",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.1/Grpc.Core.Api.dll",
+            "targetFramework": "netstandard2.1",
+            "kind": "lib",
+            "sha256": "440b6b0a5beca40718a01b3e892baa6e2fd03933f3f501fc40e2a956b0d937a1",
+            "size": 59904
+          }
+        ],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Grpc.Core.Api",
+          "version": "2.84.0",
+          "variantId": "nuget",
+          "archiveSha256": "a6eedd9e6832fffe46848452d73274862fb319b8e6c141ec7ad39815af155063",
+          "nuspecSha256": "bba00f5d5be8423dd351662e313648b0abd13100ef67d55f6fc29de44c544a96"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Memory",
+                "version": "4.6.3",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Grpc.Core.Api.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "ef0c775f20f7e2d5d68e63e78977ee6605f61ee945f780f1e026b3065009008f",
+            "size": 70296
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Memory",
+            "version": "4.6.3",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.4",
+                "variantId": "nuget",
+                "satisfiesRange": false
+              },
+              {
+                "version": "4.5.5",
+                "variantId": "nuget",
+                "satisfiesRange": false
+              }
+            ],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Grpc.Core.Api",
+          "version": "2.84.0",
+          "variantId": "nuget",
+          "archiveSha256": "a6eedd9e6832fffe46848452d73274862fb319b8e6c141ec7ad39815af155063",
+          "nuspecSha256": "bba00f5d5be8423dd351662e313648b0abd13100ef67d55f6fc29de44c544a96"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.1",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.1/Grpc.Core.Api.dll",
+            "targetFramework": "netstandard2.1",
+            "kind": "lib",
+            "sha256": "16b1ff898b9a2c1ffac0e22035c8280728967e7041bfe8a382bcb1f99a9a530b",
+            "size": 70296
+          }
+        ],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Newtonsoft.Json",
+          "version": "13.0.3",
+          "variantId": "nuget",
+          "archiveSha256": "872fc189e638ab1056555b03aaa38f68bcb54286e221aa646eb1129babf63c77",
+          "nuspecSha256": "64aeffca22289eeb3bd32cbe72722ac878d2eadcee9f8885f17daa2e8357c518"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Newtonsoft.Json.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "8c1dd5c184b4e2e7ead06971ff3ebcb46783be972292d1deb1061744369b4d80",
+            "size": 705296
+          }
+        ],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Newtonsoft.Json",
+          "version": "13.0.3",
+          "variantId": "nuget",
+          "archiveSha256": "872fc189e638ab1056555b03aaa38f68bcb54286e221aa646eb1129babf63c77",
+          "nuspecSha256": "64aeffca22289eeb3bd32cbe72722ac878d2eadcee9f8885f17daa2e8357c518"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "explicit-compatible-fallback-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Newtonsoft.Json.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "8c1dd5c184b4e2e7ead06971ff3ebcb46783be972292d1deb1061744369b4d80",
+            "size": 705296
+          }
+        ],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Newtonsoft.Json",
+          "version": "13.0.4",
+          "variantId": "nuget",
+          "archiveSha256": "f09081d457405baf35a973fa0c50d6bf272ed683f2568c5a620a49da952f6529",
+          "nuspecSha256": "f4bc224d57a21fb481f1dc655c3fde6f2e5b8ce80a9448e74a5721a51932adf3"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Newtonsoft.Json.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "12246aa5e14245cbd1a0b8794851defd46e6d782c60eb650ba5aa90ef8447eee",
+            "size": 717736
+          }
+        ],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Newtonsoft.Json",
+          "version": "13.0.4",
+          "variantId": "nuget",
+          "archiveSha256": "f09081d457405baf35a973fa0c50d6bf272ed683f2568c5a620a49da952f6529",
+          "nuspecSha256": "f4bc224d57a21fb481f1dc655c3fde6f2e5b8ce80a9448e74a5721a51932adf3"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "explicit-compatible-fallback-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Newtonsoft.Json.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "12246aa5e14245cbd1a0b8794851defd46e6d782c60eb650ba5aa90ef8447eee",
+            "size": 717736
+          }
+        ],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
           "packageId": "Grpc.Net.Common",
           "version": "2.83.0",
           "variantId": "nuget",
@@ -958,8 +1083,14 @@
             "version": "8.0.0",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "8.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           }
         ],
@@ -1088,8 +1219,14 @@
             "version": "8.0.0",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "8.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           }
         ],
@@ -1203,8 +1340,19 @@
             "version": "8.0.0",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "8.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              },
+              {
+                "version": "8.0.1",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           },
           {
@@ -1212,8 +1360,14 @@
             "version": "4.5.1",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.1",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           },
           {
@@ -1221,8 +1375,19 @@
             "version": "4.5.5",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.4",
+                "variantId": "nuget",
+                "satisfiesRange": false
+              },
+              {
+                "version": "4.5.5",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           }
         ],
@@ -1278,8 +1443,19 @@
             "version": "8.0.0",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "8.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              },
+              {
+                "version": "8.0.1",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           },
           {
@@ -1287,8 +1463,14 @@
             "version": "4.5.1",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.1",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           },
           {
@@ -1296,8 +1478,19 @@
             "version": "4.5.5",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.4",
+                "variantId": "nuget",
+                "satisfiesRange": false
+              },
+              {
+                "version": "4.5.5",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           }
         ],
@@ -1353,8 +1546,19 @@
             "version": "8.0.1",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "8.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": false
+              },
+              {
+                "version": "8.0.1",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           },
           {
@@ -1362,8 +1566,14 @@
             "version": "4.5.1",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.1",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           },
           {
@@ -1371,8 +1581,19 @@
             "version": "4.5.5",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.4",
+                "variantId": "nuget",
+                "satisfiesRange": false
+              },
+              {
+                "version": "4.5.5",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           }
         ],
@@ -1428,8 +1649,19 @@
             "version": "8.0.1",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "8.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": false
+              },
+              {
+                "version": "8.0.1",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           },
           {
@@ -1437,8 +1669,14 @@
             "version": "4.5.1",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.1",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           },
           {
@@ -1446,135 +1684,22 @@
             "version": "4.5.5",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.4",
+                "variantId": "nuget",
+                "satisfiesRange": false
+              },
+              {
+                "version": "4.5.5",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           }
         ],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "Newtonsoft.Json",
-          "version": "13.0.3",
-          "variantId": "nuget",
-          "archiveSha256": "872fc189e638ab1056555b03aaa38f68bcb54286e221aa646eb1129babf63c77",
-          "nuspecSha256": "64aeffca22289eeb3bd32cbe72722ac878d2eadcee9f8885f17daa2e8357c518"
-        },
-        "requestedFramework": "netstandard2.0",
-        "status": "declared-framework-candidate",
-        "dependencyGroups": [
-          {
-            "targetFramework": ".NETStandard2.0",
-            "dependencies": []
-          }
-        ],
-        "assets": [
-          {
-            "path": "lib/netstandard2.0/Newtonsoft.Json.dll",
-            "targetFramework": "netstandard2.0",
-            "kind": "lib",
-            "sha256": "8c1dd5c184b4e2e7ead06971ff3ebcb46783be972292d1deb1061744369b4d80",
-            "size": 705296
-          }
-        ],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "Newtonsoft.Json",
-          "version": "13.0.3",
-          "variantId": "nuget",
-          "archiveSha256": "872fc189e638ab1056555b03aaa38f68bcb54286e221aa646eb1129babf63c77",
-          "nuspecSha256": "64aeffca22289eeb3bd32cbe72722ac878d2eadcee9f8885f17daa2e8357c518"
-        },
-        "requestedFramework": "netstandard2.1",
-        "status": "explicit-compatible-fallback-candidate",
-        "dependencyGroups": [
-          {
-            "targetFramework": ".NETStandard2.0",
-            "dependencies": []
-          }
-        ],
-        "assets": [
-          {
-            "path": "lib/netstandard2.0/Newtonsoft.Json.dll",
-            "targetFramework": "netstandard2.0",
-            "kind": "lib",
-            "sha256": "8c1dd5c184b4e2e7ead06971ff3ebcb46783be972292d1deb1061744369b4d80",
-            "size": 705296
-          }
-        ],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "Newtonsoft.Json",
-          "version": "13.0.4",
-          "variantId": "nuget",
-          "archiveSha256": "f09081d457405baf35a973fa0c50d6bf272ed683f2568c5a620a49da952f6529",
-          "nuspecSha256": "f4bc224d57a21fb481f1dc655c3fde6f2e5b8ce80a9448e74a5721a51932adf3"
-        },
-        "requestedFramework": "netstandard2.0",
-        "status": "declared-framework-candidate",
-        "dependencyGroups": [
-          {
-            "targetFramework": ".NETStandard2.0",
-            "dependencies": []
-          }
-        ],
-        "assets": [
-          {
-            "path": "lib/netstandard2.0/Newtonsoft.Json.dll",
-            "targetFramework": "netstandard2.0",
-            "kind": "lib",
-            "sha256": "12246aa5e14245cbd1a0b8794851defd46e6d782c60eb650ba5aa90ef8447eee",
-            "size": 717736
-          }
-        ],
-        "dependencies": [],
-        "profileVerified": false,
-        "installed": false,
-        "compiled": false,
-        "completeClosure": false
-      },
-      {
-        "parent": {
-          "packageId": "Newtonsoft.Json",
-          "version": "13.0.4",
-          "variantId": "nuget",
-          "archiveSha256": "f09081d457405baf35a973fa0c50d6bf272ed683f2568c5a620a49da952f6529",
-          "nuspecSha256": "f4bc224d57a21fb481f1dc655c3fde6f2e5b8ce80a9448e74a5721a51932adf3"
-        },
-        "requestedFramework": "netstandard2.1",
-        "status": "explicit-compatible-fallback-candidate",
-        "dependencyGroups": [
-          {
-            "targetFramework": ".NETStandard2.0",
-            "dependencies": []
-          }
-        ],
-        "assets": [
-          {
-            "path": "lib/netstandard2.0/Newtonsoft.Json.dll",
-            "targetFramework": "netstandard2.0",
-            "kind": "lib",
-            "sha256": "12246aa5e14245cbd1a0b8794851defd46e6d782c60eb650ba5aa90ef8447eee",
-            "size": 717736
-          }
-        ],
-        "dependencies": [],
         "profileVerified": false,
         "installed": false,
         "compiled": false,
@@ -1637,8 +1762,19 @@
             "version": "4.5.4",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.4",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              },
+              {
+                "version": "4.5.5",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           }
         ],
@@ -1704,8 +1840,19 @@
             "version": "4.5.4",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.4",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              },
+              {
+                "version": "4.5.5",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           }
         ],
@@ -1756,8 +1903,19 @@
             "version": "4.5.5",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.4",
+                "variantId": "nuget",
+                "satisfiesRange": false
+              },
+              {
+                "version": "4.5.5",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           },
           {
@@ -1823,8 +1981,19 @@
             "version": "4.5.5",
             "exclude": "Build,Analyzers",
             "declaringFramework": ".NETStandard2.0",
-            "catalogEvaluations": [],
-            "status": "named-dependency-gap",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.4",
+                "variantId": "nuget",
+                "satisfiesRange": false
+              },
+              {
+                "version": "4.5.5",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
             "automaticSubstitution": false
           },
           {
@@ -1912,218 +2081,3072 @@
       }
     ]
   },
-  "onDemandCandidates": [
+  "onDemandCandidates": [],
+  "providerRuleCandidates": [],
+  "activatedDemandCandidates": [
     {
       "id": "com.unity.services.core",
       "sourceUrl": "https://packages.unity.com/com.unity.services.core",
       "licenseHint": null,
       "trigger": "Observed Unity Gaming Services consumer",
-      "version": null,
+      "version": "1.12.5",
       "sourceRef": null,
-      "status": "on-observed-demand",
-      "activation": "explicit-consumer-or-coverage-decision-required",
-      "automaticCollection": false
+      "status": "activated-by-explicit-r7-coverage-decision",
+      "activation": "user-begin-all-additions",
+      "automaticCollection": false,
+      "selectedVersions": [
+        "1.12.5",
+        "1.15.1",
+        "1.15.2"
+      ]
     },
     {
       "id": "com.unity.services.authentication",
       "sourceUrl": "https://packages.unity.com/com.unity.services.authentication",
       "licenseHint": null,
       "trigger": "Observed authentication consumer; package preparation does not invoke services",
-      "version": null,
+      "version": "3.5.1",
       "sourceRef": null,
-      "status": "on-observed-demand",
-      "activation": "explicit-consumer-or-coverage-decision-required",
-      "automaticCollection": false
+      "status": "activated-by-explicit-r7-coverage-decision",
+      "activation": "user-begin-all-additions",
+      "automaticCollection": false,
+      "selectedVersions": [
+        "3.5.1",
+        "3.7.4"
+      ]
     },
     {
       "id": "com.unity.purchasing",
       "sourceUrl": "https://packages.unity.com/com.unity.purchasing",
       "licenseHint": null,
       "trigger": "Observed purchase SDK consumer; no store calls",
-      "version": null,
+      "version": "4.12.2",
       "sourceRef": null,
-      "status": "on-observed-demand",
-      "activation": "explicit-consumer-or-coverage-decision-required",
-      "automaticCollection": false
+      "status": "activated-by-explicit-r7-coverage-decision",
+      "activation": "user-begin-all-additions",
+      "automaticCollection": false,
+      "selectedVersions": [
+        "4.12.2",
+        "5.4.4"
+      ]
     },
     {
       "id": "Odin.Serializer",
       "sourceUrl": "https://github.com/TeamSirenix/odin-serializer",
       "licenseHint": "Apache-2.0",
       "trigger": "Observed serializer dependency; separate from commercial Odin Inspector",
-      "version": null,
+      "version": "1.1.0.0",
       "sourceRef": null,
-      "status": "on-observed-demand",
-      "activation": "explicit-consumer-or-coverage-decision-required",
-      "automaticCollection": false
+      "status": "activated-by-explicit-r7-coverage-decision",
+      "activation": "user-begin-all-additions",
+      "automaticCollection": false,
+      "selectedVersions": [
+        "1.1.0.0",
+        "1.1.1.0"
+      ]
     },
     {
       "id": "YooAsset",
       "sourceUrl": "https://github.com/tuyoogame/YooAsset",
       "licenseHint": "Apache-2.0",
       "trigger": "Observed consumer or explicit coverage decision; does not replace Addressables",
-      "version": null,
+      "version": "2.3.19",
       "sourceRef": null,
-      "status": "on-observed-demand",
-      "activation": "explicit-consumer-or-coverage-decision-required",
-      "automaticCollection": false
+      "status": "activated-by-explicit-r7-coverage-decision",
+      "activation": "user-begin-all-additions",
+      "automaticCollection": false,
+      "selectedVersions": [
+        "2.3.19",
+        "3.0.6"
+      ]
     },
     {
       "id": "ZString",
       "sourceUrl": "https://github.com/Cysharp/ZString",
       "licenseHint": "MIT",
       "trigger": "Observed reference or explicit common coverage decision",
-      "version": null,
+      "version": "2.5.1",
       "sourceRef": null,
-      "status": "on-observed-demand",
-      "activation": "explicit-consumer-or-coverage-decision-required",
-      "automaticCollection": false
+      "status": "activated-by-explicit-r7-coverage-decision",
+      "activation": "user-begin-all-additions",
+      "automaticCollection": false,
+      "selectedVersions": [
+        "2.5.1",
+        "2.6.0"
+      ]
     }
   ],
-  "providerRuleCandidates": [
+  "coverageDecision": {
+    "revision": "R7",
+    "sourcePlanSha256": "7e44d47fc529d71dfb355feb4f61dbbec7f955816c3e267fd8f1d504f95bcfd9",
+    "scope": "Finite all named expansion items; not ecosystem enumeration",
+    "baselineCommit": "6d2e090768da3e294ae9f61f37a7e7690857236a"
+  },
+  "activatedProviderCandidates": [
     {
       "assemblyName": "UnityEngine.AndroidJNIModule",
       "providerHint": "com.unity.modules.androidjni",
-      "status": "official-api-rules-unverified",
-      "active": false
+      "status": "finite-official-api-rule-registered-profile-unverified",
+      "active": true,
+      "activation": "R7 explicit coverage decision"
     },
     {
       "assemblyName": "UnityEngine.DirectorModule",
       "providerHint": "com.unity.modules.director",
-      "status": "official-api-rules-unverified",
-      "active": false
+      "status": "finite-official-api-rule-registered-profile-unverified",
+      "active": true,
+      "activation": "R7 explicit coverage decision"
     },
     {
       "assemblyName": "UnityEngine.ScreenCaptureModule",
       "providerHint": "com.unity.modules.screencapture",
-      "status": "official-api-rules-unverified",
-      "active": false
+      "status": "finite-official-api-rule-registered-profile-unverified",
+      "active": true,
+      "activation": "R7 explicit coverage decision"
     },
     {
       "assemblyName": "UnityEngine.UnityAnalyticsModule",
       "providerHint": "com.unity.modules.unityanalytics",
-      "status": "official-api-rules-unverified",
-      "active": false
+      "status": "finite-official-api-rule-registered-profile-unverified",
+      "active": true,
+      "activation": "R7 explicit coverage decision"
     }
   ],
+  "familyReferences": {
+    "ruleVersion": "r7-official-family-clues-1",
+    "rulesSha256": "ae78103d555d8f0214a23857d89fe1f46d66d1d804befe14c9085447bcef5111",
+    "references": [
+      {
+        "familyId": "Photon.PUN",
+        "displayName": "Photon PUN",
+        "generation": "PUN 2; PUN 1 is a separate legacy generation",
+        "officialSourceRefs": [
+          "pun-manual",
+          "pun-tutorial",
+          "pun-initial-setup"
+        ],
+        "assemblyEvidenceStatus": "unknown",
+        "versionHints": [
+          {
+            "value": "PUN 2",
+            "kind": "documented-product-generation",
+            "sourceRefs": [
+              "pun-manual"
+            ],
+            "note": "Official page explicitly says maintenance/LTS; not an exact package release.",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://doc.photonengine.com/pun/current/getting-started/initial-setup",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Exact managed assembly name and exact install version remain unknown from the readable official evidence.",
+          "doc-api responses were Gcore/loading challenges, not API pages."
+        ],
+        "boundaries": [
+          "Do not substitute Fusion or Realtime family matches for PUN; game-owned callbacks remain game-owned."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "PhotonNetwork",
+            "fullName": "Photon.Pun.PhotonNetwork",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-CSharp-usage-with-namespace-import",
+            "sourceRefs": [
+              "pun-tutorial",
+              "pun-manual"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "MonoBehaviourPunCallbacks",
+            "fullName": "Photon.Pun.MonoBehaviourPunCallbacks",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-CSharp-usage-with-namespace-import",
+            "sourceRefs": [
+              "pun-tutorial",
+              "pun-manual"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "Photon.Fusion",
+        "displayName": "Photon Fusion",
+        "generation": "Fusion 2; Fusion 1 needs separate version evidence",
+        "officialSourceRefs": [
+          "fusion-manual-runner",
+          "fusion-manual-object",
+          "fusion-network-behaviour"
+        ],
+        "assemblyEvidenceStatus": "unknown",
+        "versionHints": [
+          {
+            "value": "Fusion 2",
+            "kind": "documented-product-generation",
+            "sourceRefs": [
+              "fusion-manual-runner",
+              "fusion-manual-object"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://doc.photonengine.com/fusion/current/manual/network-runner",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Exact Fusion managed assembly identity and exact install version are not certified by these manual pages.",
+          "The official API host returned anti-bot challenge pages."
+        ],
+        "boundaries": [
+          "Networked project behaviour, generated weaving output and application logic are not automatically public SDK implementation."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "NetworkRunner",
+            "fullName": "Fusion.NetworkRunner",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-CSharp-usage-with-namespace-import",
+            "sourceRefs": [
+              "fusion-manual-runner",
+              "fusion-network-behaviour"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "NetworkObject",
+            "fullName": "Fusion.NetworkObject",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-CSharp-usage-with-namespace-import",
+            "sourceRefs": [
+              "fusion-manual-object",
+              "fusion-network-behaviour"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "Photon.Realtime",
+        "displayName": "Photon Realtime",
+        "generation": "Official manual currently titled Realtime 5; preserve observed API snippets rather than infer all releases",
+        "officialSourceRefs": [
+          "realtime-lobby",
+          "photon-products"
+        ],
+        "assemblyEvidenceStatus": "unknown",
+        "versionHints": [
+          {
+            "value": "Realtime 5",
+            "kind": "manual-title-generation",
+            "sourceRefs": [
+              "realtime-lobby"
+            ],
+            "note": "The page itself still shows LoadBalancingClient snippets; no claim that every v5 target has identical API.",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://doc.photonengine.com/realtime/current/lobby-and-matchmaking/matchmaking-and-lobby",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Exact managed assembly name and precise SDK revision unknown."
+        ],
+        "boundaries": [
+          "PUN/Fusion include or depend on Photon transport code but are separate products; a Realtime hit is not a PUN/Fusion exact-version identification."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "LoadBalancingClient",
+            "fullName": "Photon.Realtime.LoadBalancingClient",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-CSharp-usage-with-namespace-import",
+            "sourceRefs": [
+              "realtime-lobby"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "RoomOptions",
+            "fullName": "Photon.Realtime.RoomOptions",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-CSharp-usage-with-namespace-import",
+            "sourceRefs": [
+              "realtime-lobby"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "Audiokinetic.Wwise",
+        "displayName": "Wwise Unity Integration / Wwise Addressables",
+        "generation": "Core Unity Integration and separately versioned Addressables wrapper",
+        "officialSourceRefs": [
+          "wwise-bank",
+          "wwise-addressables-manager",
+          "wwise-addressables-assembly",
+          "wwise-addressables-package"
+        ],
+        "assemblyEvidenceStatus": "observed-names-not-target-binary-identity",
+        "versionHints": [
+          {
+            "value": "2025.1.11.9262",
+            "kind": "official-integration-doc-version",
+            "sourceRefs": [
+              "wwise-bank"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          },
+          {
+            "value": "2024.1.14",
+            "kind": "addressables-package-manifest",
+            "sourceRefs": [
+              "wwise-addressables-package"
+            ],
+            "note": "Companion version; must match the chosen Wwise integration line rather than substitute for core.",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [
+          "com.audiokinetic.wwise.addressables"
+        ],
+        "acquisition": {
+          "officialEntryUrl": "https://www.audiokinetic.com/en/library/edge/?source=Unity&id=class_ak_bank.html",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Core AkBank assembly ownership is not established by the Addressables asmdef.",
+          "AkSoundEngine guessed API paths returned 404; no AkSoundEngine proof is manufactured."
+        ],
+        "boundaries": [
+          "Addressables managed wrapper does not grant rights to Wwise native SDK, plug-ins or generated game SoundBanks."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "AkBank",
+            "fullName": null,
+            "evidenceStatus": "api-name-confirmed-qualified-identity-unknown",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "wwise-bank"
+            ],
+            "note": "Official current integration class page; exact core assembly identity remains unknown."
+          },
+          {
+            "apiName": "AkAddressableBankManager",
+            "fullName": "AK.Wwise.Unity.WwiseAddressables.AkAddressableBankManager",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-public-source-declaration",
+            "sourceRefs": [
+              "wwise-addressables-manager"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [
+          {
+            "name": "AK.Wwise.Unity.Addressables",
+            "basis": "official-asmdef-name",
+            "scope": "runtime-managed-wrapper",
+            "sourceRefs": [
+              "wwise-addressables-assembly"
+            ],
+            "binaryBytesVerified": false
+          },
+          {
+            "name": "AK.Wwise.Unity.API",
+            "basis": "official-asmdef-reference",
+            "scope": "referenced-core-API-assembly-not-directly-inspected",
+            "sourceRefs": [
+              "wwise-addressables-assembly"
+            ],
+            "binaryBytesVerified": false
+          },
+          {
+            "name": "AK.Wwise.Unity.ProjectDB",
+            "basis": "official-asmdef-reference",
+            "scope": "referenced-companion-assembly-not-directly-inspected",
+            "sourceRefs": [
+              "wwise-addressables-assembly"
+            ],
+            "binaryBytesVerified": false
+          }
+        ],
+        "assemblyTypeBindings": [
+          {
+            "typeFullName": "AK.Wwise.Unity.WwiseAddressables.AkAddressableBankManager",
+            "assemblyName": "AK.Wwise.Unity.Addressables",
+            "basis": "official-fixed-source-asmdef-directory-scope-reference-not-compiled-proof",
+            "sourceRefs": [
+              "wwise-addressables-manager",
+              "wwise-addressables-assembly"
+            ],
+            "targetBytesVerified": false
+          }
+        ],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "CRIWARE.Unity",
+        "displayName": "CRIWARE Unity Plugin",
+        "generation": "Current CriWare namespace documentation and older unqualified API documentation are distinct observations",
+        "officialSourceRefs": [
+          "cri-current-player",
+          "cri-current-source",
+          "cri-manual-namespace",
+          "cri-player",
+          "cri-source",
+          "cri-product"
+        ],
+        "assemblyEvidenceStatus": "unknown",
+        "versionHints": [
+          {
+            "value": "2026-07-17",
+            "kind": "current-namespaced-doc-update-date",
+            "sourceRefs": [
+              "cri-manual-namespace"
+            ],
+            "note": "A documentation date, not a package version.",
+            "targetVersionConfirmed": false
+          },
+          {
+            "value": "2021-10-26",
+            "kind": "legacy-unqualified-doc-update-date",
+            "sourceRefs": [
+              "cri-player",
+              "cri-source"
+            ],
+            "note": "Keep legacy forms separate; not a package version.",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://www.criware.com/en/products/",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Managed assembly names and package semantic version remain unknown."
+        ],
+        "boundaries": [
+          "ADX/Atom, Mana/Sofdec, File System and native CRI binaries require separate component/platform rights and identity."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "CriAtomExPlayer",
+            "fullName": "CriWare.CriAtomExPlayer",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "cri-current-player",
+              "cri-manual-namespace"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "CriAtomSource",
+            "fullName": "CriWare.CriAtomSource",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "cri-current-source",
+              "cri-manual-namespace"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "Live2D.Cubism",
+        "displayName": "Live2D Cubism SDK for Unity",
+        "generation": "Public Unity Components plus separately licensed native Cubism Core",
+        "officialSourceRefs": [
+          "live2d-model",
+          "live2d-motion",
+          "live2d-assembly",
+          "live2d-readme",
+          "live2d-official-download"
+        ],
+        "assemblyEvidenceStatus": "observed-names-not-target-binary-identity",
+        "versionHints": [
+          {
+            "value": "Cubism 5.3 features",
+            "kind": "README compatibility line",
+            "sourceRefs": [
+              "live2d-readme"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          },
+          {
+            "value": "release/5-r.1-beta.3",
+            "kind": "observed-repository-tag",
+            "sourceRefs": [
+              "live2d-tags"
+            ],
+            "note": "Observed metadata only; not selected as a current stable version.",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://www.live2d.com/en/sdk/download/unity/",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Exact Unity SDK/Core pairing is not established from the component source alone."
+        ],
+        "boundaries": [
+          "The public Core C# shim is not the proprietary unmanaged Cubism Core implementation; model/motion data remains application content."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "CubismModel",
+            "fullName": "Live2D.Cubism.Core.CubismModel",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-public-source-declaration",
+            "sourceRefs": [
+              "live2d-model"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "CubismMotionController",
+            "fullName": "Live2D.Cubism.Framework.Motion.CubismMotionController",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-public-source-declaration",
+            "sourceRefs": [
+              "live2d-motion"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [
+          {
+            "name": "Live2D.Cubism",
+            "basis": "official-asmdef-name",
+            "scope": "runtime-managed-wrapper",
+            "sourceRefs": [
+              "live2d-assembly"
+            ],
+            "binaryBytesVerified": false
+          }
+        ],
+        "assemblyTypeBindings": [
+          {
+            "typeFullName": "Live2D.Cubism.Core.CubismModel",
+            "assemblyName": "Live2D.Cubism",
+            "basis": "official-fixed-source-asmdef-directory-scope-reference-not-compiled-proof",
+            "sourceRefs": [
+              "live2d-model",
+              "live2d-assembly"
+            ],
+            "targetBytesVerified": false
+          },
+          {
+            "typeFullName": "Live2D.Cubism.Framework.Motion.CubismMotionController",
+            "assemblyName": "Live2D.Cubism",
+            "basis": "official-fixed-source-asmdef-directory-scope-reference-not-compiled-proof",
+            "sourceRefs": [
+              "live2d-motion",
+              "live2d-assembly"
+            ],
+            "targetBytesVerified": false
+          }
+        ],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "Tasharen.NGUI",
+        "displayName": "NGUI: Next-Gen UI kit",
+        "generation": "Legacy NGUI; separate from Unity UGUI/TMP",
+        "officialSourceRefs": [
+          "ngui-widget",
+          "ngui-root",
+          "ngui-product"
+        ],
+        "assemblyEvidenceStatus": "unknown",
+        "versionHints": [
+          {
+            "value": "3.7.2",
+            "kind": "official-API-header-version",
+            "sourceRefs": [
+              "ngui-widget",
+              "ngui-root"
+            ],
+            "note": "Historical documentation snapshot; not a claim about the latest store release.",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://www.tasharen.com/?page_id=140",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "No fixed assembly name is proved; Unity source import layouts may compile into project/default assemblies.",
+          "Latest commercial package revision unknown."
+        ],
+        "boundaries": [
+          "UIWidget/UIRoot names alone are weak identity clues; custom widgets, generated atlases and project UI content remain owned by the project."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "UIWidget",
+            "fullName": "UIWidget",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-global-class-reference",
+            "sourceRefs": [
+              "ngui-widget"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "UIRoot",
+            "fullName": "UIRoot",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-global-class-reference",
+            "sourceRefs": [
+              "ngui-root"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "Rewired",
+        "displayName": "Rewired",
+        "generation": "Rewired input framework; managed API reference explicitly names its core assembly",
+        "officialSourceRefs": [
+          "rewired-input",
+          "rewired-player",
+          "rewired-product"
+        ],
+        "assemblyEvidenceStatus": "observed-names-not-target-binary-identity",
+        "versionHints": [
+          {
+            "value": "1.0.0+20d1932ee9c49d9b6496f76a0835fd9b82311ad2",
+            "kind": "API-reference-assembly-version",
+            "sourceRefs": [
+              "rewired-input"
+            ],
+            "note": "Not the Unity Asset Store package version; do not select an exact package from this constant alone.",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://guavaman.com/projects/rewired/",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Exact commercial package release and native platform companion versions unknown."
+        ],
+        "boundaries": [
+          "Rewired_Core.dll API evidence does not certify every platform extension or game-owned action maps."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "ReInput",
+            "fullName": "Rewired.ReInput",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "rewired-input"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "Player",
+            "fullName": "Rewired.Player",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "rewired-player"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [
+          {
+            "name": "Rewired_Core",
+            "basis": "official-API-Assembly-field",
+            "scope": "runtime-managed-wrapper",
+            "sourceRefs": [
+              "rewired-input",
+              "rewired-player"
+            ],
+            "binaryBytesVerified": false
+          }
+        ],
+        "assemblyTypeBindings": [
+          {
+            "typeFullName": "Rewired.ReInput",
+            "assemblyName": "Rewired_Core",
+            "basis": "official-API-Assembly-field",
+            "sourceRefs": [
+              "rewired-input"
+            ],
+            "targetBytesVerified": false
+          },
+          {
+            "typeFullName": "Rewired.Player",
+            "assemblyName": "Rewired_Core",
+            "basis": "official-API-Assembly-field",
+            "sourceRefs": [
+              "rewired-player"
+            ],
+            "targetBytesVerified": false
+          }
+        ],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "Moodkie.EasySave",
+        "displayName": "Easy Save",
+        "generation": "Easy Save 3 API; Easy Save 2 is separately documented and not interchangeable",
+        "officialSourceRefs": [
+          "easysave-es3",
+          "easysave-es3settings",
+          "easysave-buy"
+        ],
+        "assemblyEvidenceStatus": "unknown",
+        "versionHints": [
+          {
+            "value": "Easy Save 3",
+            "kind": "documented-product-generation",
+            "sourceRefs": [
+              "easysave-es3",
+              "easysave-es3settings"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://moodkie.com/easy-save/",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Exact managed assembly, explicitly qualified namespace and patch version are unknown from the official pages."
+        ],
+        "boundaries": [
+          "Application save types, ES3 generated custom serializers and actual save files are not the generic library payload."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "ES3",
+            "fullName": null,
+            "evidenceStatus": "api-name-confirmed-qualified-identity-unknown",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "easysave-es3"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "ES3Settings",
+            "fullName": null,
+            "evidenceStatus": "api-name-confirmed-qualified-identity-unknown",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "easysave-es3settings"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "Sirenix.OdinInspector",
+        "displayName": "Odin Inspector",
+        "generation": "Inspector/Editor/Attributes, distinct from open Odin Serializer",
+        "officialSourceRefs": [
+          "odin-showif-declaration",
+          "odin-editor-declaration"
+        ],
+        "assemblyEvidenceStatus": "observed-names-not-target-binary-identity",
+        "versionHints": [
+          {
+            "value": "3.3.1.2",
+            "kind": "API-page-displayed-version",
+            "sourceRefs": [
+              "odin-editor-declaration"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          },
+          {
+            "value": "Odin 4.0",
+            "kind": "site-promotion-line",
+            "sourceRefs": [
+              "odin-showif",
+              "odin-editor"
+            ],
+            "note": "Marketing line; not the inspected API snapshot version.",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://odininspector.com/",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Exact installed edition/patch and runtime component subset remain target-specific."
+        ],
+        "boundaries": [
+          "Do not map Odin Serializer to all of Odin Inspector; Editor/conditional attribute availability is profile dependent."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "ShowIfAttribute",
+            "fullName": "Sirenix.OdinInspector.ShowIfAttribute",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "odin-showif-declaration"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "OdinEditor",
+            "fullName": "Sirenix.OdinInspector.Editor.OdinEditor",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "odin-editor-declaration"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [
+          {
+            "name": "Sirenix.OdinInspector.Attributes",
+            "basis": "official-API-Assembly-field",
+            "scope": "attributes; Conditional UNITY_EDITOR appears in declaration",
+            "sourceRefs": [
+              "odin-showif-declaration"
+            ],
+            "binaryBytesVerified": false
+          },
+          {
+            "name": "Sirenix.OdinInspector.Editor",
+            "basis": "official-API-Assembly-field",
+            "scope": "Editor-only tooling",
+            "sourceRefs": [
+              "odin-editor-declaration"
+            ],
+            "binaryBytesVerified": false
+          }
+        ],
+        "assemblyTypeBindings": [
+          {
+            "typeFullName": "Sirenix.OdinInspector.ShowIfAttribute",
+            "assemblyName": "Sirenix.OdinInspector.Attributes",
+            "basis": "official-API-Assembly-field",
+            "sourceRefs": [
+              "odin-showif-declaration"
+            ],
+            "targetBytesVerified": false
+          },
+          {
+            "typeFullName": "Sirenix.OdinInspector.Editor.OdinEditor",
+            "assemblyName": "Sirenix.OdinInspector.Editor",
+            "basis": "official-API-Assembly-field",
+            "sourceRefs": [
+              "odin-editor-declaration"
+            ],
+            "targetBytesVerified": false
+          }
+        ],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "RootMotion.FinalIK",
+        "displayName": "Final IK",
+        "generation": "Final IK with FullBodyBipedIK and VRIK, separate from PuppetMaster",
+        "officialSourceRefs": [
+          "finalik-fullbody",
+          "finalik-vrik",
+          "finalik-official-home",
+          "finalik-index"
+        ],
+        "assemblyEvidenceStatus": "unknown",
+        "versionHints": [
+          {
+            "value": "1.1",
+            "kind": "legacy-product-documentation-header",
+            "sourceRefs": [
+              "finalik-current-product"
+            ],
+            "note": "The old documentation says Current release:1.1; do not call it the latest package release.",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://root-motion.com/",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Exact managed assembly name and current paid package version unknown."
+        ],
+        "boundaries": [
+          "Custom IK rigs, character configuration and game wrappers are not public Final IK source; do not absorb PuppetMaster because the vendor is shared."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "FullBodyBipedIK",
+            "fullName": "RootMotion.FinalIK.FullBodyBipedIK",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "finalik-fullbody"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "VRIK",
+            "fullName": "RootMotion.FinalIK.VRIK",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "finalik-vrik"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "AronGranberg.Astar",
+        "displayName": "A* Pathfinding Project",
+        "generation": "Free/Pro capability split; current documentation generation 5.x",
+        "officialSourceRefs": [
+          "astar-seeker",
+          "astar-aipath",
+          "astar-main"
+        ],
+        "assemblyEvidenceStatus": "unknown",
+        "versionHints": [
+          {
+            "value": "5.4.7",
+            "kind": "official-API-header-version",
+            "sourceRefs": [
+              "astar-seeker",
+              "astar-aipath"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://arongranberg.com/astar/",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Exact assembly name and fully qualified names were not proved by the selected readable pages; API simple names are confirmed.",
+          "Free versus Pro payload contents and specific version rights require separate inspection."
+        ],
+        "boundaries": [
+          "Path graphs, project movement controllers and game-specific navigation data remain project content."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "Seeker",
+            "fullName": null,
+            "evidenceStatus": "api-name-confirmed-qualified-identity-unknown",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "astar-seeker"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "AIPath",
+            "fullName": null,
+            "evidenceStatus": "api-name-confirmed-qualified-identity-unknown",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "astar-aipath"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "Demigiant.DOTweenPro",
+        "displayName": "DOTween Pro",
+        "generation": "Paid extension bundled with DOTween; not equivalent to the free DOTween runtime",
+        "officialSourceRefs": [
+          "dotween-pro",
+          "dotween-pro-api",
+          "dotween-support"
+        ],
+        "assemblyEvidenceStatus": "unknown",
+        "versionHints": [
+          {
+            "value": "1.0.000",
+            "kind": "documented-historical-upgrade-threshold",
+            "sourceRefs": [
+              "dotween-pro"
+            ],
+            "note": "Not the observed current package version.",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://dotween.demigiant.com/pro.php",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Exact Pro assembly identity and qualified component names remain unknown; support documents optional ASMDEF generation rather than one universal identity."
+        ],
+        "boundaries": [
+          "Official page explicitly requires a special license/one-time fee. Free DOTween license/assembly does not cover Pro source.",
+          "Generated tween configuration and user animation component settings remain project-owned."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "DOTweenAnimation",
+            "fullName": null,
+            "evidenceStatus": "api-name-confirmed-qualified-identity-unknown",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "dotween-pro",
+              "dotween-pro-api"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "DOTweenPath",
+            "fullName": null,
+            "evidenceStatus": "api-name-confirmed-qualified-identity-unknown",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "dotween-pro"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "I2.Localization",
+        "displayName": "I2 Localization",
+        "generation": "Commercial localization plugin; official manual explicitly explains I2.Loc namespace",
+        "officialSourceRefs": [
+          "i2-script-api",
+          "i2-localize-component",
+          "i2-buying",
+          "i2-product"
+        ],
+        "assemblyEvidenceStatus": "unknown",
+        "versionHints": [],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://www.inter-illusion.com/assets/I2LocalizationManual/BuyingI2Localization.html",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Exact managed assembly name and package release unknown."
+        ],
+        "boundaries": [
+          "Languages, translated strings, Google sheet data and project localization terms are not vendor SDK code."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "LocalizationManager",
+            "fullName": "I2.Loc.LocalizationManager",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "i2-script-api"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "Localize",
+            "fullName": "I2.Loc.Localize",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "i2-localize-component",
+              "i2-script-api"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "Naninovel",
+        "displayName": "Naninovel",
+        "generation": "Official guide stable v1.21 and preview v1.22 are different documentation lines",
+        "officialSourceRefs": [
+          "naninovel-services",
+          "naninovel-docs-services",
+          "naninovel-docs-integration",
+          "naninovel-product"
+        ],
+        "assemblyEvidenceStatus": "unknown",
+        "versionHints": [
+          {
+            "value": "v1.21",
+            "kind": "stable-guide-navigation",
+            "sourceRefs": [
+              "naninovel-services"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          },
+          {
+            "value": "v1.22-preview",
+            "kind": "preview-guide-navigation",
+            "sourceRefs": [
+              "naninovel-services"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://naninovel.com/",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Exact runtime/editor assembly names and target engine patch unknown; guessed old DocFX API URLs returned 404."
+        ],
+        "boundaries": [
+          "Scenario scripts, project custom commands, localized text, generated script assets and story content remain application-owned."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "Engine",
+            "fullName": "Naninovel.Engine",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-CSharp-usage-with-namespace-import",
+            "sourceRefs": [
+              "naninovel-docs-services",
+              "naninovel-docs-integration"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "IScriptPlayer",
+            "fullName": "Naninovel.IScriptPlayer",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-CSharp-usage-with-namespace-import",
+            "sourceRefs": [
+              "naninovel-docs-services"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "Unity.LevelPlay",
+        "displayName": "Unity LevelPlay / legacy ironSource",
+        "generation": "Unity Ads Mediation package 8.x/9.x; preserve legacy IronSource API generation separately",
+        "officialSourceRefs": [
+          "levelplay-registry",
+          "levelplay-rewarded",
+          "levelplay-ad-types",
+          "levelplay-official",
+          "levelplay-legacy"
+        ],
+        "assemblyEvidenceStatus": "unknown",
+        "versionHints": [
+          {
+            "value": "9.3.2",
+            "kind": "official-registry-latest-tag",
+            "sourceRefs": [
+              "levelplay-registry"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          },
+          {
+            "value": "8.0.0 and 1.0.0",
+            "kind": "versions-observed-in-registry",
+            "sourceRefs": [
+              "levelplay-registry"
+            ],
+            "note": "Historical registry entries, not automatically compatible API generations.",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [
+          "com.unity.services.levelplay"
+        ],
+        "acquisition": {
+          "officialEntryUrl": "https://docs.unity.com/grow/levelplay/sdk/unity",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Exact managed namespace/assembly for the selected API generation not proved; guessed DocFX namespace URLs returned 404.",
+          "Legacy IronSource/IronSourceEvents types are not independently certified by redirected new docs in this probe."
+        ],
+        "boundaries": [
+          "Ads Mediation managed wrapper, mediation adapters and Android/iOS native SDKs require distinct identities and rights; do not call services."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "LevelPlayRewardedAd",
+            "fullName": null,
+            "evidenceStatus": "api-name-confirmed-qualified-identity-unknown",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "levelplay-rewarded"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "LevelPlayAdInfo",
+            "fullName": null,
+            "evidenceStatus": "api-name-confirmed-qualified-identity-unknown",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "levelplay-ad-types"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "AppLovin.MAX",
+        "displayName": "AppLovin MAX Unity plugin",
+        "generation": "Managed MAX Unity wrapper and platform/adapter SDKs are distinct components",
+        "officialSourceRefs": [
+          "max-class",
+          "max-callbacks",
+          "max-assembly",
+          "max-tags",
+          "max-official-docs"
+        ],
+        "assemblyEvidenceStatus": "observed-names-not-target-binary-identity",
+        "versionHints": [
+          {
+            "value": "release_8_6_6",
+            "kind": "official-repository-tag-at-inspected-commit",
+            "sourceRefs": [
+              "max-tags"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          },
+          {
+            "value": "release_8_6_5",
+            "kind": "official-repository-tag",
+            "sourceRefs": [
+              "max-tags"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://developers.applovin.com/en/max/unity/overview/integration/",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Native Android/iOS SDK and mediation adapter versions cannot be inferred from the Unity wrapper tag."
+        ],
+        "boundaries": [
+          "Ad unit IDs, application credentials, consent/user data and network adapters are not generic public wrapper source."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "MaxSdk",
+            "fullName": "MaxSdk",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-public-global-source-declaration",
+            "sourceRefs": [
+              "max-class"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "MaxSdkCallbacks",
+            "fullName": "MaxSdkCallbacks",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-public-global-source-declaration",
+            "sourceRefs": [
+              "max-callbacks"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [
+          {
+            "name": "MaxSdk.Scripts",
+            "basis": "official-asmdef-name",
+            "scope": "runtime-managed-wrapper",
+            "sourceRefs": [
+              "max-assembly"
+            ],
+            "binaryBytesVerified": false
+          }
+        ],
+        "assemblyTypeBindings": [
+          {
+            "typeFullName": "MaxSdk",
+            "assemblyName": "MaxSdk.Scripts",
+            "basis": "official-fixed-source-asmdef-directory-scope-reference-not-compiled-proof",
+            "sourceRefs": [
+              "max-class",
+              "max-assembly"
+            ],
+            "targetBytesVerified": false
+          },
+          {
+            "typeFullName": "MaxSdkCallbacks",
+            "assemblyName": "MaxSdk.Scripts",
+            "basis": "official-fixed-source-asmdef-directory-scope-reference-not-compiled-proof",
+            "sourceRefs": [
+              "max-callbacks",
+              "max-assembly"
+            ],
+            "targetBytesVerified": false
+          }
+        ],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "AppsFlyer.Unity",
+        "displayName": "AppsFlyer Unity plugin",
+        "generation": "AppsFlyer managed bridge plus separate iOS/Android native SDKs",
+        "officialSourceRefs": [
+          "appsflyer-class",
+          "appsflyer-interface",
+          "appsflyer-assembly",
+          "appsflyer-package",
+          "appsflyer-official-docs"
+        ],
+        "assemblyEvidenceStatus": "observed-names-not-target-binary-identity",
+        "versionHints": [
+          {
+            "value": "7.0.3",
+            "kind": "official-public-package-manifest",
+            "sourceRefs": [
+              "appsflyer-package"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [
+          "appsflyer-unity-plugin"
+        ],
+        "acquisition": {
+          "officialEntryUrl": "https://dev.appsflyer.com/hc/docs/unity-plugin",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Exact native SDK components/platform profile still require target evidence."
+        ],
+        "boundaries": [
+          "Callbacks implemented by the game and analytics keys/data are application-owned; do not execute online attribution calls."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "AppsFlyer",
+            "fullName": "AppsFlyerSDK.AppsFlyer",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-public-source-declaration",
+            "sourceRefs": [
+              "appsflyer-class"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "IAppsFlyerConversionData",
+            "fullName": "AppsFlyerSDK.IAppsFlyerConversionData",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-public-source-declaration",
+            "sourceRefs": [
+              "appsflyer-interface"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [
+          {
+            "name": "AppsFlyer",
+            "basis": "official-asmdef-name",
+            "scope": "runtime-managed-wrapper",
+            "sourceRefs": [
+              "appsflyer-assembly"
+            ],
+            "binaryBytesVerified": false
+          }
+        ],
+        "assemblyTypeBindings": [
+          {
+            "typeFullName": "AppsFlyerSDK.AppsFlyer",
+            "assemblyName": "AppsFlyer",
+            "basis": "official-fixed-source-asmdef-directory-scope-reference-not-compiled-proof",
+            "sourceRefs": [
+              "appsflyer-class",
+              "appsflyer-assembly"
+            ],
+            "targetBytesVerified": false
+          },
+          {
+            "typeFullName": "AppsFlyerSDK.IAppsFlyerConversionData",
+            "assemblyName": "AppsFlyer",
+            "basis": "official-fixed-source-asmdef-directory-scope-reference-not-compiled-proof",
+            "sourceRefs": [
+              "appsflyer-interface",
+              "appsflyer-assembly"
+            ],
+            "targetBytesVerified": false
+          }
+        ],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "Valve.SteamVR",
+        "displayName": "SteamVR Unity Plugin",
+        "generation": "SteamVR 2.x action-based API; older controller APIs are a separate generation",
+        "officialSourceRefs": [
+          "steamvr-input",
+          "steamvr-pose",
+          "steamvr-assembly",
+          "steamvr-tags"
+        ],
+        "assemblyEvidenceStatus": "observed-names-not-target-binary-identity",
+        "versionHints": [
+          {
+            "value": "2.8.5b",
+            "kind": "official-repository-tag",
+            "sourceRefs": [
+              "steamvr-tags"
+            ],
+            "note": "Preserve beta suffix; not stable 2.8.5.",
+            "targetVersionConfirmed": false
+          },
+          {
+            "value": "2.8.3b2",
+            "kind": "official-repository-tag",
+            "sourceRefs": [
+              "steamvr-tags"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://github.com/ValveSoftware/steamvr_unity_plugin",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Chosen native OpenVR component and exact target plugin version remain unknown."
+        ],
+        "boundaries": [
+          "SteamVR_Actions/generated input classes, action manifests and game bindings are application-generated; do not attribute all Valve.VR-derived application code to the generic runtime."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "SteamVR_Input",
+            "fullName": "Valve.VR.SteamVR_Input",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-public-source-declaration",
+            "sourceRefs": [
+              "steamvr-input"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "SteamVR_Behaviour_Pose",
+            "fullName": "Valve.VR.SteamVR_Behaviour_Pose",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-public-source-declaration",
+            "sourceRefs": [
+              "steamvr-pose"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [
+          {
+            "name": "SteamVR",
+            "basis": "official-asmdef-name",
+            "scope": "runtime-managed-wrapper",
+            "sourceRefs": [
+              "steamvr-assembly"
+            ],
+            "binaryBytesVerified": false
+          }
+        ],
+        "assemblyTypeBindings": [
+          {
+            "typeFullName": "Valve.VR.SteamVR_Input",
+            "assemblyName": "SteamVR",
+            "basis": "official-fixed-source-asmdef-directory-scope-reference-not-compiled-proof",
+            "sourceRefs": [
+              "steamvr-input",
+              "steamvr-assembly"
+            ],
+            "targetBytesVerified": false
+          },
+          {
+            "typeFullName": "Valve.VR.SteamVR_Behaviour_Pose",
+            "assemblyName": "SteamVR",
+            "basis": "official-fixed-source-asmdef-directory-scope-reference-not-compiled-proof",
+            "sourceRefs": [
+              "steamvr-pose",
+              "steamvr-assembly"
+            ],
+            "targetBytesVerified": false
+          }
+        ],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "Meta.XR.Core",
+        "displayName": "Meta XR Core SDK / Oculus Integration lineage",
+        "generation": "Legacy OVR-prefixed APIs persist; API documentation v74 is not proof of every current package",
+        "officialSourceRefs": [
+          "meta-ovrmanager",
+          "meta-ovrcamerarig",
+          "meta-core-registry"
+        ],
+        "assemblyEvidenceStatus": "unknown",
+        "versionHints": [
+          {
+            "value": "v74",
+            "kind": "official-API-reference-line",
+            "sourceRefs": [
+              "meta-ovrmanager",
+              "meta-ovrcamerarig"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          },
+          {
+            "value": "207.0.1",
+            "kind": "official-Meta-registry-latest-tag",
+            "sourceRefs": [
+              "meta-core-registry"
+            ],
+            "note": "Not inferred to have the same class/assembly profile as v74.",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [
+          "com.meta.xr.sdk.core"
+        ],
+        "acquisition": {
+          "officialEntryUrl": "https://developers.meta.com/horizon/reference/unity/v74/class_o_v_r_manager",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Core managed assembly identity and exact namespace qualification are not independently shown by the selected class pages.",
+          "Movement/Interaction/Platform/Audio and native OVRPlugin are separate components, not all proven by Core API names."
+        ],
+        "boundaries": [
+          "Meta sample/project assemblies such as ComprehensiveDemoRuntime and Meta.XR.Movement are not automatically Core SDK assemblies."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "OVRManager",
+            "fullName": null,
+            "evidenceStatus": "api-name-confirmed-qualified-identity-unknown",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "meta-ovrmanager"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "OVRCameraRig",
+            "fullName": null,
+            "evidenceStatus": "api-name-confirmed-qualified-identity-unknown",
+            "basis": "official-api-documentation",
+            "sourceRefs": [
+              "meta-ovrcamerarig"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "Spine.Runtimes",
+        "displayName": "Spine spine-csharp / spine-unity",
+        "generation": "Keep runtime/editor export generations aligned; current fixed source is 4.3 line",
+        "officialSourceRefs": [
+          "spine-skeleton",
+          "spine-animation",
+          "spine-csharp-assembly",
+          "spine-unity-assembly",
+          "spine-package",
+          "spine-unity-entry"
+        ],
+        "assemblyEvidenceStatus": "observed-names-not-target-binary-identity",
+        "versionHints": [
+          {
+            "value": "4.3.115",
+            "kind": "official-public-package-manifest",
+            "sourceRefs": [
+              "spine-package"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          },
+          {
+            "value": "4.2.120",
+            "packageId": "com.esotericsoftware.spine.spine-unity",
+            "kind": "official-component-manifest-not-whole-sdk-version",
+            "sourceRefs": [
+              "spine42-package"
+            ],
+            "sourceRef": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+            "targetVersionConfirmed": false
+          },
+          {
+            "value": "4.2.37",
+            "packageId": "com.esotericsoftware.spine.spine-csharp",
+            "kind": "official-component-manifest-not-whole-sdk-version",
+            "sourceRefs": [
+              "spine42-csharp-package"
+            ],
+            "sourceRef": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [
+          "com.esotericsoftware.spine.spine-unity"
+        ],
+        "acquisition": {
+          "officialEntryUrl": "https://esotericsoftware.com/spine-unity",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Existing target 3.x/4.0/4.1/4.2 versions cannot be equated to this 4.3 source."
+        ],
+        "boundaries": [
+          "Official documentation says a Spine license is required to integrate runtimes. Public readability does not grant blanket remirroring.",
+          "Game skeleton, atlas, animation and generated content are project assets."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "Skeleton",
+            "fullName": "Spine.Skeleton",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-public-source-declaration",
+            "sourceRefs": [
+              "spine-skeleton"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "SkeletonAnimation",
+            "fullName": "Spine.Unity.SkeletonAnimation",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-public-source-declaration",
+            "sourceRefs": [
+              "spine-animation"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [
+          {
+            "name": "spine-csharp",
+            "basis": "official-asmdef-name",
+            "scope": "runtime-managed-wrapper",
+            "sourceRefs": [
+              "spine-csharp-assembly"
+            ],
+            "binaryBytesVerified": false
+          },
+          {
+            "name": "spine-unity",
+            "basis": "official-asmdef-name",
+            "scope": "runtime-managed-wrapper",
+            "sourceRefs": [
+              "spine-unity-assembly"
+            ],
+            "binaryBytesVerified": false
+          }
+        ],
+        "assemblyTypeBindings": [
+          {
+            "typeFullName": "Spine.Skeleton",
+            "assemblyName": "spine-csharp",
+            "basis": "official-fixed-source-asmdef-directory-scope-reference-not-compiled-proof",
+            "sourceRefs": [
+              "spine-skeleton",
+              "spine-csharp-assembly"
+            ],
+            "targetBytesVerified": false
+          },
+          {
+            "typeFullName": "Spine.Unity.SkeletonAnimation",
+            "assemblyName": "spine-unity",
+            "basis": "official-fixed-source-asmdef-directory-scope-reference-not-compiled-proof",
+            "sourceRefs": [
+              "spine-animation",
+              "spine-unity-assembly"
+            ],
+            "targetBytesVerified": false
+          }
+        ],
+        "targetVersionConfirmed": false,
+        "componentObservations": [
+          {
+            "packageId": "com.esotericsoftware.spine.spine-unity",
+            "version": "4.2.120",
+            "unity": "2018.3",
+            "manifestObservationRef": "spine42-package",
+            "declaredDependencies": {
+              "com.unity.ugui": "1.0.0",
+              "com.unity.modules.animation": "1.0.0",
+              "com.unity.modules.physics": "1.0.0",
+              "com.unity.modules.physics2d": "1.0.0",
+              "com.esotericsoftware.spine.spine-csharp": "4.2.0"
+            },
+            "sourceRef": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+            "sourceUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-unity/Assets/Spine/package.json",
+            "manifestSha256": "66e055f7e71b771a8e3c983b1f918f252bfc8759d411a0e5eac1232c01970ba6",
+            "sourcePath": "spine-unity/Assets/Spine",
+            "versionBasis": "fixed-official-component-package-json",
+            "targetVersionConfirmed": false,
+            "profileVerified": false,
+            "completeClosure": false
+          },
+          {
+            "packageId": "com.esotericsoftware.spine.spine-csharp",
+            "version": "4.2.37",
+            "unity": "2018.3",
+            "manifestObservationRef": "spine42-csharp-package",
+            "declaredDependencies": {},
+            "sourceRef": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+            "sourceUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-csharp/src/package.json",
+            "manifestSha256": "adbfa161eebd6502a84db1692bbea754091fed4fb814c65d13bf228567e415ef",
+            "sourcePath": "spine-csharp/src",
+            "versionBasis": "fixed-official-component-package-json",
+            "targetVersionConfirmed": false,
+            "profileVerified": false,
+            "completeClosure": false
+          }
+        ],
+        "componentDependencyObservation": "spine-unity declares com.esotericsoftware.spine.spine-csharp=4.2.0, while the same fixed tree component manifest says4.2.37. Both observations are preserved; no resolution, compatibility or dependency-closure result is claimed."
+      },
+      {
+        "familyId": "Facepunch.Steamworks",
+        "displayName": "Facepunch.Steamworks",
+        "generation": "Managed platform-specific wrapper; distinct from Steamworks.NET and Valve native SDK",
+        "officialSourceRefs": [
+          "facepunch-client",
+          "facepunch-friends",
+          "facepunch-win64-project",
+          "facepunch-posix-project",
+          "facepunch-tags",
+          "facepunch-official-entry"
+        ],
+        "assemblyEvidenceStatus": "observed-names-not-target-binary-identity",
+        "versionHints": [
+          {
+            "value": "v2.1.0",
+            "kind": "official-repository-tag",
+            "sourceRefs": [
+              "facepunch-tags"
+            ],
+            "note": null,
+            "targetVersionConfirmed": false
+          },
+          {
+            "value": "v2.0-alpha.2",
+            "kind": "official-repository-tag",
+            "sourceRefs": [
+              "facepunch-tags"
+            ],
+            "note": "Preserve prerelease state.",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [],
+        "acquisition": {
+          "officialEntryUrl": "https://wiki.facepunch.com/steamworks/",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Type declarations inspected at HEAD commit are not automatically the tagged v2.1.0 source snapshot; pin each selected version separately.",
+          "Native Steamworks SDK rights/profile are not cleared by the wrapper identity."
+        ],
+        "boundaries": [
+          "Steamworks namespace is shared by multiple wrappers; actual assembly/implementation evidence must distinguish them."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "SteamClient",
+            "fullName": "Steamworks.SteamClient",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-public-source-declaration",
+            "sourceRefs": [
+              "facepunch-client"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "SteamFriends",
+            "fullName": "Steamworks.SteamFriends",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-public-source-declaration",
+            "sourceRefs": [
+              "facepunch-friends"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [
+          {
+            "name": "Facepunch.Steamworks.Win64",
+            "basis": "official-csproj-AssemblyName",
+            "scope": "runtime-managed-wrapper",
+            "sourceRefs": [
+              "facepunch-win64-project"
+            ],
+            "binaryBytesVerified": false
+          },
+          {
+            "name": "Facepunch.Steamworks.Posix",
+            "basis": "official-csproj-AssemblyName",
+            "scope": "runtime-managed-wrapper",
+            "sourceRefs": [
+              "facepunch-posix-project"
+            ],
+            "binaryBytesVerified": false
+          }
+        ],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      },
+      {
+        "familyId": "PrimeTween",
+        "displayName": "PrimeTween",
+        "generation": "PrimeTween managed runtime; public repository has documentation/benchmarks and does not imply redistributable package source",
+        "officialSourceRefs": [
+          "prime-readme",
+          "prime-benchmark-asm",
+          "prime-benchmark-manifest",
+          "prime-license"
+        ],
+        "assemblyEvidenceStatus": "observed-names-not-target-binary-identity",
+        "versionHints": [
+          {
+            "value": "1.5.0",
+            "kind": "official-benchmark-manifest-dependency",
+            "sourceRefs": [
+              "prime-benchmark-manifest"
+            ],
+            "note": "Proves this official consumer requests it, not target source equality.",
+            "targetVersionConfirmed": false
+          }
+        ],
+        "observedDistributionIds": [
+          "com.kyrylokuzyk.primetween"
+        ],
+        "acquisition": {
+          "officialEntryUrl": "https://github.com/KyryloKuzyk/PrimeTween",
+          "mode": "official-entry-or-user-owned-installation",
+          "downloadPerformed": false,
+          "licensing": "Use vendor acquisition and entitlement/terms; this evidence does not grant redistribution rights"
+        },
+        "unknowns": [
+          "Runtime package bytes/version-specific declarations were not downloaded or authenticated in this source-only task."
+        ],
+        "boundaries": [
+          "Correct owner is KyryloKuzyk, not stale KyrylKuzyk.",
+          "Inspected LICENSE forbids distributing source/tgz inside derivative products and directs dependent templates/libraries to NPM installation; internal use permissions do not authorize a Public mirror."
+        ],
+        "redistributionReview": "not-a-per-version-component-license-clearance",
+        "mirrorAllowedByThisReport": false,
+        "automaticNativeExclusionAuthorized": false,
+        "typeFeatures": [
+          {
+            "apiName": "Tween",
+            "fullName": "PrimeTween.Tween",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-CSharp-usage-with-namespace-import",
+            "sourceRefs": [
+              "prime-readme"
+            ],
+            "note": null
+          },
+          {
+            "apiName": "Sequence",
+            "fullName": "PrimeTween.Sequence",
+            "evidenceStatus": "qualified-type-confirmed",
+            "basis": "official-CSharp-usage-with-namespace-import",
+            "sourceRefs": [
+              "prime-readme"
+            ],
+            "note": null
+          }
+        ],
+        "assemblyObservations": [
+          {
+            "name": "PrimeTween.Runtime",
+            "basis": "same-vendor-official-consumer-asmdef-reference",
+            "scope": "runtime assembly reference, not directly inspected package asmdef",
+            "sourceRefs": [
+              "prime-benchmark-asm"
+            ],
+            "binaryBytesVerified": false
+          }
+        ],
+        "assemblyTypeBindings": [],
+        "targetVersionConfirmed": false
+      }
+    ],
+    "sources": [
+      {
+        "id": "appsflyer-assembly",
+        "url": "https://raw.githubusercontent.com/AppsFlyerSDK/appsflyer-unity-plugin/8756adde2fa8a88c22dc1ec9d11222d501ee8583/Assets/AppsFlyer/AppsFlyer.asmdef",
+        "finalUrl": "https://raw.githubusercontent.com/AppsFlyerSDK/appsflyer-unity-plugin/8756adde2fa8a88c22dc1ec9d11222d501ee8583/Assets/AppsFlyer/AppsFlyer.asmdef",
+        "sha256": "374447a4ff5abaa35f130fc8be1a34df45875d1b2fa578b116a8be93c1d82261",
+        "retrievedAt": "2026-10-18T04:27:10.297461+00:00",
+        "repository": "https://github.com/AppsFlyerSDK/appsflyer-unity-plugin",
+        "commit": "8756adde2fa8a88c22dc1ec9d11222d501ee8583",
+        "path": "Assets/AppsFlyer/AppsFlyer.asmdef",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "appsflyer-class",
+        "url": "https://raw.githubusercontent.com/AppsFlyerSDK/appsflyer-unity-plugin/8756adde2fa8a88c22dc1ec9d11222d501ee8583/Assets/AppsFlyer/AppsFlyer.cs",
+        "finalUrl": "https://raw.githubusercontent.com/AppsFlyerSDK/appsflyer-unity-plugin/8756adde2fa8a88c22dc1ec9d11222d501ee8583/Assets/AppsFlyer/AppsFlyer.cs",
+        "sha256": "01357c2407799bb8cb4114486bc610aabe476319434424afefb6314bcbde043e",
+        "retrievedAt": "2026-10-18T04:27:09.825784+00:00",
+        "repository": "https://github.com/AppsFlyerSDK/appsflyer-unity-plugin",
+        "commit": "8756adde2fa8a88c22dc1ec9d11222d501ee8583",
+        "path": "Assets/AppsFlyer/AppsFlyer.cs",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "appsflyer-interface",
+        "url": "https://raw.githubusercontent.com/AppsFlyerSDK/appsflyer-unity-plugin/8756adde2fa8a88c22dc1ec9d11222d501ee8583/Assets/AppsFlyer/IAppsFlyerConversionData.cs",
+        "finalUrl": "https://raw.githubusercontent.com/AppsFlyerSDK/appsflyer-unity-plugin/8756adde2fa8a88c22dc1ec9d11222d501ee8583/Assets/AppsFlyer/IAppsFlyerConversionData.cs",
+        "sha256": "d432be323bc2425fa14781b372f18ca58d920ec8a0e9f6f525111678d4c768cb",
+        "retrievedAt": "2026-10-18T04:27:10.203070+00:00",
+        "repository": "https://github.com/AppsFlyerSDK/appsflyer-unity-plugin",
+        "commit": "8756adde2fa8a88c22dc1ec9d11222d501ee8583",
+        "path": "Assets/AppsFlyer/IAppsFlyerConversionData.cs",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "appsflyer-official-docs",
+        "url": "https://dev.appsflyer.com/hc/docs/unity-plugin",
+        "finalUrl": "https://dev.appsflyer.com/hc/docs/unity-plugin",
+        "sha256": "2e30baf04fb93687c41958c4acbbfeb04d017a099b9ff0249c906cdd4f1512c0",
+        "retrievedAt": "2026-10-18T04:29:13.401338+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "appsflyer-package",
+        "url": "https://raw.githubusercontent.com/AppsFlyerSDK/appsflyer-unity-plugin/8756adde2fa8a88c22dc1ec9d11222d501ee8583/Assets/AppsFlyer/package.json",
+        "finalUrl": "https://raw.githubusercontent.com/AppsFlyerSDK/appsflyer-unity-plugin/8756adde2fa8a88c22dc1ec9d11222d501ee8583/Assets/AppsFlyer/package.json",
+        "sha256": "fc1b51e388ea7b878916aba72e74aa2cebbf16836b7c6b8c31a750bbdefaa03b",
+        "retrievedAt": "2026-10-18T04:27:10.421983+00:00",
+        "repository": "https://github.com/AppsFlyerSDK/appsflyer-unity-plugin",
+        "commit": "8756adde2fa8a88c22dc1ec9d11222d501ee8583",
+        "path": "Assets/AppsFlyer/package.json",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "astar-aipath",
+        "url": "https://arongranberg.com/astar/documentation/stable/aipath.html",
+        "finalUrl": "https://arongranberg.com/astar/documentation/stable/aipath.html",
+        "sha256": "74713b35dc4dd3520d0d5a1e496c27060ed55f2b155f0e9cf6e82b0cad18fc9e",
+        "retrievedAt": "2026-10-18T04:24:44.167759+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "astar-main",
+        "url": "https://arongranberg.com/astar/",
+        "finalUrl": "https://arongranberg.com/astar/",
+        "sha256": "8d63863563650897675258f64993271ff74e537f7c920f6930d72968d95056e8",
+        "retrievedAt": "2026-10-18T04:29:13.222208+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "astar-seeker",
+        "url": "https://arongranberg.com/astar/documentation/stable/seeker.html",
+        "finalUrl": "https://arongranberg.com/astar/documentation/stable/seeker.html",
+        "sha256": "0e06763cf7e48cb1d53e5b726369a26cbd4871e6efc9cd45938f86f7d1d6f92f",
+        "retrievedAt": "2026-10-18T04:24:43.922400+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "cri-current-player",
+        "url": "https://game.criware.jp/manual/unity_plugin_en/latest/contents/classCriWare_1_1CriAtomExPlayer.html",
+        "finalUrl": "https://game.criware.jp/manual/unity_plugin_en/latest/contents/classCriWare_1_1CriAtomExPlayer.html",
+        "sha256": "452386857b63394313c1463b420f76a3a3b801c20615c390c19648d8f24a4158",
+        "retrievedAt": "2026-10-18T04:31:10.729433+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "cri-current-source",
+        "url": "https://game.criware.jp/manual/unity_plugin_en/latest/contents/classCriWare_1_1CriAtomSource.html",
+        "finalUrl": "https://game.criware.jp/manual/unity_plugin_en/latest/contents/classCriWare_1_1CriAtomSource.html",
+        "sha256": "14640c396e16130c77f25b5975cb74bb337e737e1977c3c52b72a8da5fccf3a0",
+        "retrievedAt": "2026-10-18T04:31:10.733037+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "cri-manual-namespace",
+        "url": "https://game.criware.jp/manual/unity_plugin_en/latest/contents/namespaceCriWare.html",
+        "finalUrl": "https://game.criware.jp/manual/unity_plugin_en/latest/contents/namespaceCriWare.html",
+        "sha256": "ae1df5884f95646ad0b6b5afe45c84364a69f858c8b612beb651e739cc06b4c2",
+        "retrievedAt": "2026-10-18T04:30:26.679632+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "cri-player",
+        "url": "https://game.criware.jp/manual/unity_plugin_en/latest/contents/classCriAtomExPlayer.html",
+        "finalUrl": "https://game.criware.jp/manual/unity_plugin_en/latest/contents/classCriAtomExPlayer.html",
+        "sha256": "1ce36ef4a99ec33c2d48262affb3330ff45eedc941b3e72bbf01c27f0de8af51",
+        "retrievedAt": "2026-10-18T04:24:40.072180+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "cri-product",
+        "url": "https://www.criware.com/en/products/",
+        "finalUrl": "https://game.criware.com/criware-products",
+        "sha256": "605ad9f0650b2d11adc5d4f9819b001d89554f9e11a053d92ff0fa77fd125124",
+        "retrievedAt": "2026-10-18T04:26:05.367843+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "cri-source",
+        "url": "https://game.criware.jp/manual/unity_plugin_en/latest/contents/classCriAtomSource.html",
+        "finalUrl": "https://game.criware.jp/manual/unity_plugin_en/latest/contents/classCriAtomSource.html",
+        "sha256": "13118eaee77eb6e5cd4554b4a37b71b6f88afa984fa9f06e7134da2c5d325243",
+        "retrievedAt": "2026-10-18T04:24:40.080377+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "dotween-pro",
+        "url": "https://dotween.demigiant.com/pro.php",
+        "finalUrl": "https://dotween.demigiant.com/pro.php",
+        "sha256": "9b28054f8250bf2e80bb0ef1c083ef4412b0be2d2df0173c554442dabf7f3a8b",
+        "retrievedAt": "2026-10-18T04:24:45.566122+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "dotween-pro-api",
+        "url": "https://dotween.demigiant.com/documentation.php",
+        "finalUrl": "https://dotween.demigiant.com/documentation.php",
+        "sha256": "18529c33f6dc1243c84c53ef8c252c6931043b864d680c45578d234c730b9657",
+        "retrievedAt": "2026-10-18T04:24:45.746779+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "dotween-support",
+        "url": "https://dotween.demigiant.com/support.php",
+        "finalUrl": "https://dotween.demigiant.com/support.php",
+        "sha256": "ca1de363cf282e4cdd9543194121f38368b48fc7e9d034ec587295e2cba35432",
+        "retrievedAt": "2026-10-18T04:31:59.154115+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "easysave-buy",
+        "url": "https://moodkie.com/easy-save/",
+        "finalUrl": "https://moodkie.com/easy-save-unity/",
+        "sha256": "f34e766c2276baa0bd688fffd6b71b7386c5c34d80160a69b86f93541c5e6ffd",
+        "retrievedAt": "2026-10-18T04:29:13.224729+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "easysave-es3",
+        "url": "https://docs.moodkie.com/easy-save-3/es3-api/es3-class/",
+        "finalUrl": "https://docs.moodkie.com/easy-save-3/es3-api/es3-class/",
+        "sha256": "50da8f84a50074265c8ef83f98e07ef5265e9b049da7f8c509186dc0c47ba32d",
+        "retrievedAt": "2026-10-18T04:24:42.199055+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "easysave-es3settings",
+        "url": "https://docs.moodkie.com/easy-save-3/es3-api/es3-classes/es3settings/",
+        "finalUrl": "https://docs.moodkie.com/easy-save-3/es3-api/es3settings-class/",
+        "sha256": "6d203f1b7995a919c4d2ef7b52dbb7374423a054809285a2dac1608f9f91ef70",
+        "retrievedAt": "2026-10-18T04:26:02.389289+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "facepunch-client",
+        "url": "https://raw.githubusercontent.com/Facepunch/Facepunch.Steamworks/a9ab9a18208bd2532933e46a35860296d7dda688/Facepunch.Steamworks/SteamClient.cs",
+        "finalUrl": "https://raw.githubusercontent.com/Facepunch/Facepunch.Steamworks/a9ab9a18208bd2532933e46a35860296d7dda688/Facepunch.Steamworks/SteamClient.cs",
+        "sha256": "ad0aea5c53d88a71d2a1832ccde8d938d145f5749e95ce6c36f7a15279ffd0ff",
+        "retrievedAt": "2026-10-18T04:27:11.716628+00:00",
+        "repository": "https://github.com/Facepunch/Facepunch.Steamworks",
+        "commit": "a9ab9a18208bd2532933e46a35860296d7dda688",
+        "path": "Facepunch.Steamworks/SteamClient.cs",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "facepunch-friends",
+        "url": "https://raw.githubusercontent.com/Facepunch/Facepunch.Steamworks/a9ab9a18208bd2532933e46a35860296d7dda688/Facepunch.Steamworks/SteamFriends.cs",
+        "finalUrl": "https://raw.githubusercontent.com/Facepunch/Facepunch.Steamworks/a9ab9a18208bd2532933e46a35860296d7dda688/Facepunch.Steamworks/SteamFriends.cs",
+        "sha256": "9223f50508ff74dc866bc60c07faec3b0160f32d95c9b7a975669b86d9679f36",
+        "retrievedAt": "2026-10-18T04:27:12.011810+00:00",
+        "repository": "https://github.com/Facepunch/Facepunch.Steamworks",
+        "commit": "a9ab9a18208bd2532933e46a35860296d7dda688",
+        "path": "Facepunch.Steamworks/SteamFriends.cs",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "facepunch-official-entry",
+        "url": "https://wiki.facepunch.com/steamworks/",
+        "finalUrl": "https://wiki.facepunch.com/steamworks/",
+        "sha256": "f493310ce38497948578699c102dd08f42b347cb89b597106b09b2fd64994409",
+        "retrievedAt": "2026-10-18T04:31:12.592793+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "facepunch-posix-project",
+        "url": "https://raw.githubusercontent.com/Facepunch/Facepunch.Steamworks/a9ab9a18208bd2532933e46a35860296d7dda688/Facepunch.Steamworks/Facepunch.Steamworks.Posix.csproj",
+        "finalUrl": "https://raw.githubusercontent.com/Facepunch/Facepunch.Steamworks/a9ab9a18208bd2532933e46a35860296d7dda688/Facepunch.Steamworks/Facepunch.Steamworks.Posix.csproj",
+        "sha256": "2477bfe62421d6439ee9d84118685cf358505d6967bc72ef5ffac159a807b6ce",
+        "retrievedAt": "2026-10-18T04:27:12.800374+00:00",
+        "repository": "https://github.com/Facepunch/Facepunch.Steamworks",
+        "commit": "a9ab9a18208bd2532933e46a35860296d7dda688",
+        "path": "Facepunch.Steamworks/Facepunch.Steamworks.Posix.csproj",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "facepunch-tags",
+        "url": "https://api.github.com/repos/Facepunch/Facepunch.Steamworks/tags?per_page=5",
+        "sha256": "a7f33489e3e66af27bfe6cef28d61c01fef12807b03f1033f5e8dfec9940cd63",
+        "retrievedAt": "2026-10-18T04:31:55.415211+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "facepunch-win64-project",
+        "url": "https://raw.githubusercontent.com/Facepunch/Facepunch.Steamworks/a9ab9a18208bd2532933e46a35860296d7dda688/Facepunch.Steamworks/Facepunch.Steamworks.Win64.csproj",
+        "finalUrl": "https://raw.githubusercontent.com/Facepunch/Facepunch.Steamworks/a9ab9a18208bd2532933e46a35860296d7dda688/Facepunch.Steamworks/Facepunch.Steamworks.Win64.csproj",
+        "sha256": "e018c0789399adebf33bf1ae25c3f6bb45de4fee3b57a99b1be1969c228d5599",
+        "retrievedAt": "2026-10-18T04:27:12.328813+00:00",
+        "repository": "https://github.com/Facepunch/Facepunch.Steamworks",
+        "commit": "a9ab9a18208bd2532933e46a35860296d7dda688",
+        "path": "Facepunch.Steamworks/Facepunch.Steamworks.Win64.csproj",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "finalik-current-product",
+        "url": "https://root-motion.com/final-ik/",
+        "finalUrl": "https://root-motion.com/documentation/final-ik/",
+        "sha256": "c46b5074cd25a062ac12132e3f8113b7f0e7617f1c476e9641fc6bd31892ed15",
+        "retrievedAt": "2026-10-18T04:30:25.653930+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "finalik-fullbody",
+        "url": "https://www.root-motion.com/finalikdox/html/class_root_motion_1_1_final_i_k_1_1_full_body_biped_i_k.html",
+        "finalUrl": "https://www.root-motion.com/finalikdox/html/class_root_motion_1_1_final_i_k_1_1_full_body_biped_i_k.html",
+        "sha256": "93bb5f2bf8112a00002fa4609681316681075c6ca515d6a0a1cb6e10a4a234ea",
+        "retrievedAt": "2026-10-18T04:24:43.679677+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "finalik-index",
+        "url": "https://www.root-motion.com/finalikdox/html/index.html",
+        "finalUrl": "https://www.root-motion.com/finalikdox/html/index.html",
+        "sha256": "a1789af8ee5ddd48c63e0b9eed292b7da56126ab397d49d73b54e73ab2df9382",
+        "retrievedAt": "2026-10-18T04:28:11.783194+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "finalik-official-home",
+        "url": "https://root-motion.com/",
+        "finalUrl": "https://root-motion.com/",
+        "sha256": "88df18e98171e8d4d4e578f8f039b7d509b9e42431d42739bcb195fdd6357d55",
+        "retrievedAt": "2026-10-18T04:30:25.653421+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "finalik-vrik",
+        "url": "https://www.root-motion.com/finalikdox/html/class_root_motion_1_1_final_i_k_1_1_v_r_i_k.html",
+        "finalUrl": "https://www.root-motion.com/finalikdox/html/class_root_motion_1_1_final_i_k_1_1_v_r_i_k.html",
+        "sha256": "8d7de1387783d123d2396a21eac7cd12eb80797628f254976eda24f8608d145a",
+        "retrievedAt": "2026-10-18T04:24:43.856577+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "fusion-manual-object",
+        "url": "https://doc.photonengine.com/fusion/current/manual/network-object",
+        "finalUrl": "https://doc.photonengine.com/fusion/v2/manual/network-object",
+        "sha256": "7fca22d57cc9f0a8b08a4c2d3a8a9b7748f8eec7e4787220347f80b439fb30a2",
+        "retrievedAt": "2026-10-18T04:26:00.973170+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "fusion-manual-runner",
+        "url": "https://doc.photonengine.com/fusion/current/manual/network-runner",
+        "finalUrl": "https://doc.photonengine.com/fusion/v2/manual/network-runner",
+        "sha256": "4f3c8c301db19c3bf16a18caab83f19a41d2b52e2b448ce37c4fc8616379d4fe",
+        "retrievedAt": "2026-10-18T04:26:00.971110+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "fusion-network-behaviour",
+        "url": "https://doc.photonengine.com/fusion/current/manual/network-behaviour",
+        "finalUrl": "https://doc.photonengine.com/fusion/v2/manual/network-behaviour",
+        "sha256": "19f2601f8fd72c48f357c088409458ee9f3d5a7fc4fb4b6a262f541d1c53b551",
+        "retrievedAt": "2026-10-18T04:29:12.486382+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "i2-buying",
+        "url": "https://www.inter-illusion.com/assets/I2LocalizationManual/BuyingI2Localization.html",
+        "finalUrl": "https://www.inter-illusion.com/assets/I2LocalizationManual/BuyingI2Localization.html",
+        "sha256": "303876bb4aa827b1572ede29e30911760cb29c58dcb58b996bf3ed89332a0dfd",
+        "retrievedAt": "2026-10-18T04:30:25.652476+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "i2-localize-component",
+        "url": "https://www.inter-illusion.com/assets/I2LocalizationManual/LocalizeComponent.html",
+        "finalUrl": "https://www.inter-illusion.com/assets/I2LocalizationManual/LocalizeComponent.html",
+        "sha256": "b6931e81cb1de2803ca4f10eaf100cd10821245674f341bd85846c28e2fd845b",
+        "retrievedAt": "2026-10-18T04:30:25.651447+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "i2-product",
+        "url": "https://www.inter-illusion.com/tools/i2-localization",
+        "finalUrl": "https://www.inter-illusion.com/tools/i2-localization",
+        "sha256": "0cde45eb752d32d755c24de3329ef0df4e25b1d3d6002d93692d54f3a9a3873e",
+        "retrievedAt": "2026-10-18T04:26:06.257300+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "i2-script-api",
+        "url": "https://www.inter-illusion.com/assets/I2LocalizationManual/CommonlyusedScriptAPIs.html",
+        "finalUrl": "https://www.inter-illusion.com/assets/I2LocalizationManual/CommonlyusedScriptAPIs.html",
+        "sha256": "b7187dd68f8aa334c13d329e670bfce684fc59aa710e1e1d1e58073eea18fab7",
+        "retrievedAt": "2026-10-18T04:30:25.647823+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "levelplay-ad-types",
+        "url": "https://docs.unity.com/grow/levelplay/sdk/unity/rewarded-ad-integration-package",
+        "finalUrl": "https://docs.unity.com/en-us/grow/levelplay/sdk/unity/rewarded-ad-integration-package",
+        "sha256": "ee13180475a7291cccdf5b152ebaec659e13bfd60b8ed5d828aae729fba17baa",
+        "retrievedAt": "2026-10-18T04:29:11.972061+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "levelplay-legacy",
+        "url": "https://developers.is.com/ironsource-mobile/unity/unity-plugin/",
+        "finalUrl": "https://docs.unity.com/en-us/grow/levelplay/sdk/unity/package-integration",
+        "sha256": "b5cd2fe73dca4a1aaa1bfe5a90275d1f29c187ed352cfbb28098981a28685fb4",
+        "retrievedAt": "2026-10-18T04:29:11.989978+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "levelplay-official",
+        "url": "https://docs.unity.com/grow/levelplay/sdk/unity",
+        "finalUrl": "https://docs.unity.com/en-us/grow/levelplay/sdk/unity",
+        "sha256": "0f24cb48c1cbac36a14759f6993e9ba7e67ff6e0474ebb5115737df948133243",
+        "retrievedAt": "2026-10-18T04:26:03.748829+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "levelplay-registry",
+        "url": "https://packages.unity.com/com.unity.services.levelplay",
+        "finalUrl": "https://packages.unity.com/com.unity.services.levelplay",
+        "sha256": "cd074b874e93f1e60645902c45b462a6e0786c6065c50b1ed2647b5da4c79b1c",
+        "retrievedAt": "2026-10-18T04:30:26.607370+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "levelplay-rewarded",
+        "url": "https://docs.unity.com/grow/levelplay/sdk/unity/rewarded-ad-integration-package",
+        "finalUrl": "https://docs.unity.com/en-us/grow/levelplay/sdk/unity/rewarded-ad-integration-package",
+        "sha256": "ee13180475a7291cccdf5b152ebaec659e13bfd60b8ed5d828aae729fba17baa",
+        "retrievedAt": "2026-10-18T04:28:04.003650+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "live2d-assembly",
+        "url": "https://raw.githubusercontent.com/Live2D/CubismUnityComponents/5b378410225b4c78688f6da7a012adb1dc1cd24f/Assets/Live2D/Cubism/Live2D.Cubism.asmdef",
+        "finalUrl": "https://raw.githubusercontent.com/Live2D/CubismUnityComponents/5b378410225b4c78688f6da7a012adb1dc1cd24f/Assets/Live2D/Cubism/Live2D.Cubism.asmdef",
+        "sha256": "6f192235391f70a12d0d68e4066b633d602f494227764eea67ee9d11deb921b2",
+        "retrievedAt": "2026-10-18T04:27:08.703778+00:00",
+        "repository": "https://github.com/Live2D/CubismUnityComponents",
+        "commit": "5b378410225b4c78688f6da7a012adb1dc1cd24f",
+        "path": "Assets/Live2D/Cubism/Live2D.Cubism.asmdef",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "live2d-model",
+        "url": "https://raw.githubusercontent.com/Live2D/CubismUnityComponents/5b378410225b4c78688f6da7a012adb1dc1cd24f/Assets/Live2D/Cubism/Core/CubismModel.cs",
+        "finalUrl": "https://raw.githubusercontent.com/Live2D/CubismUnityComponents/5b378410225b4c78688f6da7a012adb1dc1cd24f/Assets/Live2D/Cubism/Core/CubismModel.cs",
+        "sha256": "9f91fb4936c94ab8f0cbaf6d961403b57a1a26041b9060262bd9399607644f35",
+        "retrievedAt": "2026-10-18T04:27:08.698670+00:00",
+        "repository": "https://github.com/Live2D/CubismUnityComponents",
+        "commit": "5b378410225b4c78688f6da7a012adb1dc1cd24f",
+        "path": "Assets/Live2D/Cubism/Core/CubismModel.cs",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "live2d-motion",
+        "url": "https://raw.githubusercontent.com/Live2D/CubismUnityComponents/5b378410225b4c78688f6da7a012adb1dc1cd24f/Assets/Live2D/Cubism/Framework/Motion/CubismMotionController.cs",
+        "finalUrl": "https://raw.githubusercontent.com/Live2D/CubismUnityComponents/5b378410225b4c78688f6da7a012adb1dc1cd24f/Assets/Live2D/Cubism/Framework/Motion/CubismMotionController.cs",
+        "sha256": "f2de7033031d955655bee0872a3cd0c95d1df49c829d0b6be521659b67b12daf",
+        "retrievedAt": "2026-10-18T04:27:08.701238+00:00",
+        "repository": "https://github.com/Live2D/CubismUnityComponents",
+        "commit": "5b378410225b4c78688f6da7a012adb1dc1cd24f",
+        "path": "Assets/Live2D/Cubism/Framework/Motion/CubismMotionController.cs",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "live2d-official-download",
+        "url": "https://www.live2d.com/en/sdk/download/unity/",
+        "finalUrl": "https://www.live2d.com/en/sdk/download/unity/",
+        "sha256": "2e406694b5d3efea56976b5ade0a73690c754f9f689da84ceb16082769e04dd5",
+        "retrievedAt": "2026-10-18T04:28:10.113868+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "live2d-readme",
+        "url": "https://raw.githubusercontent.com/Live2D/CubismUnityComponents/5b378410225b4c78688f6da7a012adb1dc1cd24f/README.md",
+        "finalUrl": "https://raw.githubusercontent.com/Live2D/CubismUnityComponents/5b378410225b4c78688f6da7a012adb1dc1cd24f/README.md",
+        "sha256": "f3090cfa98aed534e8c544c59cc6dff15c93858d495b23a9f0317c6b8ee6a546",
+        "retrievedAt": "2026-10-18T04:27:08.836813+00:00",
+        "repository": "https://github.com/Live2D/CubismUnityComponents",
+        "commit": "5b378410225b4c78688f6da7a012adb1dc1cd24f",
+        "path": "README.md",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "live2d-tags",
+        "url": "https://api.github.com/repos/Live2D/CubismUnityComponents/tags?per_page=5",
+        "sha256": "abb10719b34e74c958abccabe5e823e29a29498f67c6e5ade96757aed6cd921f",
+        "retrievedAt": "2026-10-18T04:31:56.790325+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "max-assembly",
+        "url": "https://raw.githubusercontent.com/AppLovin/AppLovin-MAX-Unity-Plugin/6141709246d09922a9b2f622623dbd2f3a9d0e46/DemoApp/Assets/MaxSdk/Scripts/MaxSdk.Scripts.asmdef",
+        "finalUrl": "https://raw.githubusercontent.com/AppLovin/AppLovin-MAX-Unity-Plugin/6141709246d09922a9b2f622623dbd2f3a9d0e46/DemoApp/Assets/MaxSdk/Scripts/MaxSdk.Scripts.asmdef",
+        "sha256": "760d51e7f809f939315b7e37a1986795b45eb8e50e95b9940e115c09d4863fba",
+        "retrievedAt": "2026-10-18T04:27:09.793487+00:00",
+        "repository": "https://github.com/AppLovin/AppLovin-MAX-Unity-Plugin",
+        "commit": "6141709246d09922a9b2f622623dbd2f3a9d0e46",
+        "path": "DemoApp/Assets/MaxSdk/Scripts/MaxSdk.Scripts.asmdef",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "max-callbacks",
+        "url": "https://raw.githubusercontent.com/AppLovin/AppLovin-MAX-Unity-Plugin/6141709246d09922a9b2f622623dbd2f3a9d0e46/DemoApp/Assets/MaxSdk/Scripts/MaxSdkCallbacks.cs",
+        "finalUrl": "https://raw.githubusercontent.com/AppLovin/AppLovin-MAX-Unity-Plugin/6141709246d09922a9b2f622623dbd2f3a9d0e46/DemoApp/Assets/MaxSdk/Scripts/MaxSdkCallbacks.cs",
+        "sha256": "1370d59b72ff758716895ba86e03bdf15137c54aa9b420b3e88bd080b9d929c1",
+        "retrievedAt": "2026-10-18T04:27:08.904293+00:00",
+        "repository": "https://github.com/AppLovin/AppLovin-MAX-Unity-Plugin",
+        "commit": "6141709246d09922a9b2f622623dbd2f3a9d0e46",
+        "path": "DemoApp/Assets/MaxSdk/Scripts/MaxSdkCallbacks.cs",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "max-class",
+        "url": "https://raw.githubusercontent.com/AppLovin/AppLovin-MAX-Unity-Plugin/6141709246d09922a9b2f622623dbd2f3a9d0e46/DemoApp/Assets/MaxSdk/Scripts/MaxSdk.cs",
+        "finalUrl": "https://raw.githubusercontent.com/AppLovin/AppLovin-MAX-Unity-Plugin/6141709246d09922a9b2f622623dbd2f3a9d0e46/DemoApp/Assets/MaxSdk/Scripts/MaxSdk.cs",
+        "sha256": "4bee3ca6516bf549a40134d85ac412005ac85dac2042830e8fd7234967a903e5",
+        "retrievedAt": "2026-10-18T04:27:08.888128+00:00",
+        "repository": "https://github.com/AppLovin/AppLovin-MAX-Unity-Plugin",
+        "commit": "6141709246d09922a9b2f622623dbd2f3a9d0e46",
+        "path": "DemoApp/Assets/MaxSdk/Scripts/MaxSdk.cs",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "max-official-docs",
+        "url": "https://developers.applovin.com/en/max/unity/overview/integration/",
+        "finalUrl": "https://support.applovin.com:443/en/max/unity/overview/integration",
+        "sha256": "9ac43f23ee19aa163d01556193a11f84e2a4e55e20db90df76fcf1796924f003",
+        "retrievedAt": "2026-10-18T04:29:13.478544+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "max-tags",
+        "url": "https://api.github.com/repos/AppLovin/AppLovin-MAX-Unity-Plugin/tags?per_page=5",
+        "sha256": "4e28975d8d844fb786166ab0e98c193770e7b82031b0c28e5ba0e04ad057cd6e",
+        "retrievedAt": "2026-10-18T04:31:57.452523+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "meta-core-registry",
+        "url": "https://npm.developer.oculus.com/com.meta.xr.sdk.core",
+        "finalUrl": "https://npm.developer.oculus.com/com.meta.xr.sdk.core",
+        "sha256": "570d7e5d0706dac8857a3ac6e814f0ee983f95146990ca1f4c46d83d313a1c3e",
+        "retrievedAt": "2026-10-18T04:26:04.004831+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "meta-ovrcamerarig",
+        "url": "https://developers.meta.com/horizon/reference/unity/v74/class_o_v_r_camera_rig",
+        "finalUrl": "https://developers.meta.com/vr/reference/unity/v74/class_o_v_r_camera_rig/",
+        "sha256": "b3e76afec6a3146afabbdac534a5288a9b6b5edba0d5591e0357e18aad7ba180",
+        "retrievedAt": "2026-10-18T04:24:46.749245+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "meta-ovrmanager",
+        "url": "https://developers.meta.com/horizon/reference/unity/v74/class_o_v_r_manager",
+        "finalUrl": "https://developers.meta.com/vr/reference/unity/v74/class_o_v_r_manager/",
+        "sha256": "e97e447e91cee621f262672764185cd9c22f0b64795515d8c0a3ddf86ea42cdb",
+        "retrievedAt": "2026-10-18T04:24:46.707192+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "naninovel-docs-integration",
+        "url": "https://raw.githubusercontent.com/naninovel/docs/ddb06452c16a06c4bcee279f9cbfb05ac8c2b204/docs/en/guide/integration-options.md",
+        "finalUrl": "https://raw.githubusercontent.com/naninovel/docs/ddb06452c16a06c4bcee279f9cbfb05ac8c2b204/docs/en/guide/integration-options.md",
+        "sha256": "3f9ad6f8ff46dd6d6f9945a72958c08c6d81a937423a2421a719c1b2c27ef89a",
+        "retrievedAt": "2026-10-18T04:29:10.972212+00:00",
+        "repository": "https://github.com/naninovel/docs",
+        "commit": "ddb06452c16a06c4bcee279f9cbfb05ac8c2b204",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "naninovel-docs-services",
+        "url": "https://raw.githubusercontent.com/naninovel/docs/ddb06452c16a06c4bcee279f9cbfb05ac8c2b204/docs/en/guide/engine-services.md",
+        "finalUrl": "https://raw.githubusercontent.com/naninovel/docs/ddb06452c16a06c4bcee279f9cbfb05ac8c2b204/docs/en/guide/engine-services.md",
+        "sha256": "92f5692d02d579f68bb2b368d6d55b8507094767ee2800215071677181b9719c",
+        "retrievedAt": "2026-10-18T04:29:10.970701+00:00",
+        "repository": "https://github.com/naninovel/docs",
+        "commit": "ddb06452c16a06c4bcee279f9cbfb05ac8c2b204",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "naninovel-product",
+        "url": "https://naninovel.com/",
+        "finalUrl": "https://naninovel.com/",
+        "sha256": "9b9daef314863107bdd93dc7da55881317f87fe53b5892ac17491129d39b5d92",
+        "retrievedAt": "2026-10-18T04:26:06.333216+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "naninovel-services",
+        "url": "https://naninovel.com/guide/engine-services",
+        "finalUrl": "https://naninovel.com/guide/engine-services",
+        "sha256": "44db2fac8a49fb16779617d5b7cea1b1cd5a738ab24f4ec6a4dccaed6d13f67d",
+        "retrievedAt": "2026-10-18T04:26:03.224356+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "ngui-product",
+        "url": "https://www.tasharen.com/?page_id=140",
+        "finalUrl": "https://www.tasharen.com/?page_id=140",
+        "sha256": "906e07369a1d939f153d5ce6cac90da417e3de11816f9013f92e55ba76d5e56d",
+        "retrievedAt": "2026-10-18T04:26:05.929742+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "ngui-root",
+        "url": "https://www.tasharen.com/ngui/docs/class_u_i_root.html",
+        "finalUrl": "https://www.tasharen.com/ngui/docs/class_u_i_root.html",
+        "sha256": "c5999b7def0ae5c9f3412438e09921b721ceb09b2533464b02ec703befda11c9",
+        "retrievedAt": "2026-10-18T04:24:40.668675+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "ngui-widget",
+        "url": "https://www.tasharen.com/ngui/docs/class_u_i_widget.html",
+        "finalUrl": "https://www.tasharen.com/ngui/docs/class_u_i_widget.html",
+        "sha256": "7d896fcc4279e7673c02d62bf09d5297c99e6837b143efb930c91e96f7324380",
+        "retrievedAt": "2026-10-18T04:24:40.137290+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "odin-editor",
+        "url": "https://odininspector.com/documentation/sirenix.odininspector.editor.odineditor",
+        "finalUrl": "https://odininspector.com/documentation/sirenix.odininspector.editor.odineditor",
+        "sha256": "633fb7327d69c97e794ccb3a8d9a5f9992b107b01181b6dcf1df2ba15d4196ce",
+        "retrievedAt": "2026-10-18T04:24:43.388820+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "odin-editor-declaration",
+        "url": "https://odininspector.com/documentation/sirenix.odininspector.editor.odineditor",
+        "finalUrl": "https://odininspector.com/documentation/sirenix.odininspector.editor.odineditor",
+        "sha256": "97717f0e8d14c55fbd61b4622a58c676042560ffb953b3b853e1f31a3a4dd218",
+        "retrievedAt": "2026-10-18T04:26:04.145801+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "odin-showif",
+        "url": "https://odininspector.com/documentation/sirenix.odininspector.showifattribute",
+        "finalUrl": "https://odininspector.com/documentation/sirenix.odininspector.showifattribute",
+        "sha256": "59cfef59fde85d4e2177412a6f630b28945eaafa204578ef783523d7b790cd21",
+        "retrievedAt": "2026-10-18T04:24:43.369838+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "odin-showif-declaration",
+        "url": "https://odininspector.com/documentation/sirenix.odininspector.showifattribute",
+        "finalUrl": "https://odininspector.com/documentation/sirenix.odininspector.showifattribute",
+        "sha256": "66ef7cd0dfb842cdcd4b21bab21bb3b3a0575acf6b8c810dfc2abf94878914cc",
+        "retrievedAt": "2026-10-18T04:26:04.019057+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "photon-products",
+        "url": "https://www.photonengine.com/en-US/Photon",
+        "finalUrl": "https://www.photonengine.com/",
+        "sha256": "7f8af1e0668d9fd3147c1e8a861c90ea2359e0cbf5f3bc0ea25884e1861344c3",
+        "retrievedAt": "2026-10-18T04:26:04.154530+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "prime-benchmark-asm",
+        "url": "https://raw.githubusercontent.com/KyryloKuzyk/PrimeTween/b44132aea155df09852241b382e9ffd7f4ccf8e6/Benchmarks/Assets/asmdef.asmdef",
+        "finalUrl": "https://raw.githubusercontent.com/KyryloKuzyk/PrimeTween/b44132aea155df09852241b382e9ffd7f4ccf8e6/Benchmarks/Assets/asmdef.asmdef",
+        "sha256": "1b1b538c417a3bac8a8fe29228364375c5f0fb475222e4724c0d02cf74dc7002",
+        "retrievedAt": "2026-10-18T04:29:10.969172+00:00",
+        "repository": "https://github.com/KyryloKuzyk/PrimeTween",
+        "commit": "b44132aea155df09852241b382e9ffd7f4ccf8e6",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "prime-benchmark-manifest",
+        "url": "https://raw.githubusercontent.com/KyryloKuzyk/PrimeTween/b44132aea155df09852241b382e9ffd7f4ccf8e6/Benchmarks/Packages/manifest.json",
+        "finalUrl": "https://raw.githubusercontent.com/KyryloKuzyk/PrimeTween/b44132aea155df09852241b382e9ffd7f4ccf8e6/Benchmarks/Packages/manifest.json",
+        "sha256": "945c012e3edb7ac77a797e310a5101af05429ca476f2037bbe9b22b265d0afb5",
+        "retrievedAt": "2026-10-18T04:29:10.969685+00:00",
+        "repository": "https://github.com/KyryloKuzyk/PrimeTween",
+        "commit": "b44132aea155df09852241b382e9ffd7f4ccf8e6",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "prime-license",
+        "url": "https://raw.githubusercontent.com/KyryloKuzyk/PrimeTween/b44132aea155df09852241b382e9ffd7f4ccf8e6/LICENSE",
+        "finalUrl": "https://raw.githubusercontent.com/KyryloKuzyk/PrimeTween/b44132aea155df09852241b382e9ffd7f4ccf8e6/LICENSE",
+        "sha256": "a4fbbbcdeacb854acb542ccb0942c22df2575f52befcd2de8a24126b37b01114",
+        "retrievedAt": "2026-10-18T04:31:12.118422+00:00",
+        "repository": "https://github.com/KyryloKuzyk/PrimeTween",
+        "commit": "b44132aea155df09852241b382e9ffd7f4ccf8e6",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "prime-readme",
+        "url": "https://raw.githubusercontent.com/KyryloKuzyk/PrimeTween/b44132aea155df09852241b382e9ffd7f4ccf8e6/README.md",
+        "finalUrl": "https://raw.githubusercontent.com/KyryloKuzyk/PrimeTween/b44132aea155df09852241b382e9ffd7f4ccf8e6/README.md",
+        "sha256": "af0420a358d7fde96de1e279a9d3f404f43eb02d1f250095b1d223a06332ca2f",
+        "retrievedAt": "2026-10-18T04:29:10.966581+00:00",
+        "repository": "https://github.com/KyryloKuzyk/PrimeTween",
+        "commit": "b44132aea155df09852241b382e9ffd7f4ccf8e6",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "pun-initial-setup",
+        "url": "https://doc.photonengine.com/pun/current/getting-started/initial-setup",
+        "finalUrl": "https://doc.photonengine.com/pun/current/getting-started/initial-setup",
+        "sha256": "6bf21aca8ff9db4af71d5533f9554bf1e00e05d32315e7c6c23195ad3c1a6758",
+        "retrievedAt": "2026-10-18T04:28:09.152223+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "pun-manual",
+        "url": "https://doc.photonengine.com/pun/current/getting-started/pun-intro",
+        "finalUrl": "https://doc.photonengine.com/pun/current/getting-started/pun-intro",
+        "sha256": "1a2a5d97f0212d87f79f1882eb55ef66776bbae70773179c0c78afbc5057f523",
+        "retrievedAt": "2026-10-18T04:26:00.968563+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "pun-tutorial",
+        "url": "https://doc.photonengine.com/pun/current/demos-and-tutorials/pun-basics-tutorial/lobby",
+        "finalUrl": "https://doc.photonengine.com/pun/current/demos-and-tutorials/pun-basics-tutorial/lobby",
+        "sha256": "941dc966f83f449d81a82ccaf266b9feae7c5f96c168a19c8d514d9723b7aa76",
+        "retrievedAt": "2026-10-18T04:28:07.977863+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "realtime-lobby",
+        "url": "https://doc.photonengine.com/realtime/current/lobby-and-matchmaking/matchmaking-and-lobby",
+        "finalUrl": "https://doc.photonengine.com/realtime/v5/matchmaking/matchmaking-and-lobby",
+        "sha256": "77850112aa04ffa73a656a69083f9515b99475988cd98668ee6b42c272c51e2d",
+        "retrievedAt": "2026-10-18T04:26:01.147643+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "rewired-input",
+        "url": "https://guavaman.com/projects/rewired/docs/api-reference/html/T_Rewired_ReInput.htm",
+        "finalUrl": "https://guavaman.com/projects/rewired/docs/api-reference/html/T_Rewired_ReInput.htm",
+        "sha256": "dc8cbc6a9f03f7345ed818ca95d46d82b36e38a9b2afca1c593f7fa9f3c10a83",
+        "retrievedAt": "2026-10-18T04:24:41.805587+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "rewired-player",
+        "url": "https://guavaman.com/projects/rewired/docs/api-reference/html/T_Rewired_Player.htm",
+        "finalUrl": "https://guavaman.com/projects/rewired/docs/api-reference/html/T_Rewired_Player.htm",
+        "sha256": "0cd4fba97d2988ad3e52a62f32308917655d9f4588b70f521de7e3a14782fa8e",
+        "retrievedAt": "2026-10-18T04:24:41.973564+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "rewired-product",
+        "url": "https://guavaman.com/projects/rewired/",
+        "finalUrl": "https://guavaman.com/projects/rewired/",
+        "sha256": "8bcd8d905fd4d3d6c14e94e4b8a8b94393bb307106d1e635a1d0a45c8b538488",
+        "retrievedAt": "2026-10-18T04:26:04.245127+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "spine-animation",
+        "url": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/fc2ae27725c886d886fd88d9621c3e665c234615/spine-unity/Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs",
+        "finalUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/fc2ae27725c886d886fd88d9621c3e665c234615/spine-unity/Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs",
+        "sha256": "8faec5647dd52d22b75c5b2d75d1e96c2d30e03166b05cc134a4e5c0455cc9d3",
+        "retrievedAt": "2026-10-18T04:27:11.153632+00:00",
+        "repository": "https://github.com/EsotericSoftware/spine-runtimes",
+        "commit": "fc2ae27725c886d886fd88d9621c3e665c234615",
+        "path": "spine-unity/Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "spine-csharp-assembly",
+        "url": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/fc2ae27725c886d886fd88d9621c3e665c234615/spine-csharp/src/spine-csharp.asmdef",
+        "finalUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/fc2ae27725c886d886fd88d9621c3e665c234615/spine-csharp/src/spine-csharp.asmdef",
+        "sha256": "c0d52b23af44df76c073152a1f3685759bbdbd1eca6716eb30b8b02ab6802a54",
+        "retrievedAt": "2026-10-18T04:27:11.404128+00:00",
+        "repository": "https://github.com/EsotericSoftware/spine-runtimes",
+        "commit": "fc2ae27725c886d886fd88d9621c3e665c234615",
+        "path": "spine-csharp/src/spine-csharp.asmdef",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "spine-package",
+        "url": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/fc2ae27725c886d886fd88d9621c3e665c234615/spine-unity/Assets/Spine/package.json",
+        "finalUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/fc2ae27725c886d886fd88d9621c3e665c234615/spine-unity/Assets/Spine/package.json",
+        "sha256": "f03514a854ffc7e8d4d9d2753a053bc830391fb34fed7038ca93c8eb97630004",
+        "retrievedAt": "2026-10-18T04:27:11.703838+00:00",
+        "repository": "https://github.com/EsotericSoftware/spine-runtimes",
+        "commit": "fc2ae27725c886d886fd88d9621c3e665c234615",
+        "path": "spine-unity/Assets/Spine/package.json",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "spine-skeleton",
+        "url": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/fc2ae27725c886d886fd88d9621c3e665c234615/spine-csharp/src/Skeleton.cs",
+        "finalUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/fc2ae27725c886d886fd88d9621c3e665c234615/spine-csharp/src/Skeleton.cs",
+        "sha256": "2b0b70d27a9c629ad07838646c57dbf822392fb15ddaf40528cd5d7934041328",
+        "retrievedAt": "2026-10-18T04:27:10.984719+00:00",
+        "repository": "https://github.com/EsotericSoftware/spine-runtimes",
+        "commit": "fc2ae27725c886d886fd88d9621c3e665c234615",
+        "path": "spine-csharp/src/Skeleton.cs",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "spine-unity-assembly",
+        "url": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/fc2ae27725c886d886fd88d9621c3e665c234615/spine-unity/Assets/Spine/Runtime/spine-unity.asmdef",
+        "finalUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/fc2ae27725c886d886fd88d9621c3e665c234615/spine-unity/Assets/Spine/Runtime/spine-unity.asmdef",
+        "sha256": "5496a038b6a35dd7637374f3dd88c6093bb85a70d50badcfce3d6ab8dbed0442",
+        "retrievedAt": "2026-10-18T04:27:11.550512+00:00",
+        "repository": "https://github.com/EsotericSoftware/spine-runtimes",
+        "commit": "fc2ae27725c886d886fd88d9621c3e665c234615",
+        "path": "spine-unity/Assets/Spine/Runtime/spine-unity.asmdef",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "spine-unity-entry",
+        "url": "https://esotericsoftware.com/spine-unity",
+        "finalUrl": "https://esotericsoftware.com/spine-unity",
+        "sha256": "0e0cc5512a428d47f84e6d662ec42a5f29e7912616ab260135990cf9d9ec580d",
+        "retrievedAt": "2026-10-18T04:31:12.555258+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "steamvr-assembly",
+        "url": "https://raw.githubusercontent.com/ValveSoftware/steamvr_unity_plugin/056c82369d78f253af8cefcae9b289efd69bd960/Assets/SteamVR/SteamVR.asmdef",
+        "finalUrl": "https://raw.githubusercontent.com/ValveSoftware/steamvr_unity_plugin/056c82369d78f253af8cefcae9b289efd69bd960/Assets/SteamVR/SteamVR.asmdef",
+        "sha256": "6014320c33b92f6d8aaefff85a86ae94e64f55f9b730766113d1d99f2cf846da",
+        "retrievedAt": "2026-10-18T04:27:10.712591+00:00",
+        "repository": "https://github.com/ValveSoftware/steamvr_unity_plugin",
+        "commit": "056c82369d78f253af8cefcae9b289efd69bd960",
+        "path": "Assets/SteamVR/SteamVR.asmdef",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "steamvr-input",
+        "url": "https://raw.githubusercontent.com/ValveSoftware/steamvr_unity_plugin/056c82369d78f253af8cefcae9b289efd69bd960/Assets/SteamVR/Input/SteamVR_Input.cs",
+        "finalUrl": "https://raw.githubusercontent.com/ValveSoftware/steamvr_unity_plugin/056c82369d78f253af8cefcae9b289efd69bd960/Assets/SteamVR/Input/SteamVR_Input.cs",
+        "sha256": "df5cd241ba863cb6e04dbb5e7354f20ce30d17d42e938b31a791615566cf2aba",
+        "retrievedAt": "2026-10-18T04:27:10.516041+00:00",
+        "repository": "https://github.com/ValveSoftware/steamvr_unity_plugin",
+        "commit": "056c82369d78f253af8cefcae9b289efd69bd960",
+        "path": "Assets/SteamVR/Input/SteamVR_Input.cs",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "steamvr-pose",
+        "url": "https://raw.githubusercontent.com/ValveSoftware/steamvr_unity_plugin/056c82369d78f253af8cefcae9b289efd69bd960/Assets/SteamVR/Input/SteamVR_Behaviour_Pose.cs",
+        "finalUrl": "https://raw.githubusercontent.com/ValveSoftware/steamvr_unity_plugin/056c82369d78f253af8cefcae9b289efd69bd960/Assets/SteamVR/Input/SteamVR_Behaviour_Pose.cs",
+        "sha256": "c22d79e60940cf5ea1c894e948a8163e47c42fabfa2c8764c6c73267d4c1b93b",
+        "retrievedAt": "2026-10-18T04:27:10.634443+00:00",
+        "repository": "https://github.com/ValveSoftware/steamvr_unity_plugin",
+        "commit": "056c82369d78f253af8cefcae9b289efd69bd960",
+        "path": "Assets/SteamVR/Input/SteamVR_Behaviour_Pose.cs",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "steamvr-tags",
+        "url": "https://api.github.com/repos/ValveSoftware/steamvr_unity_plugin/tags?per_page=5",
+        "sha256": "c804c856d7e9917ed901d056c68396055949c23189effd0c7bd35e32c633d0fc",
+        "retrievedAt": "2026-10-18T04:31:56.157036+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "wwise-addressables-assembly",
+        "url": "https://raw.githubusercontent.com/audiokinetic/WwiseUnityAddressables/6bb82ee6025e73b48236a9ba106d3a8060137b8c/Runtime/AK.Wwise.Unity.Addressables.asmdef",
+        "finalUrl": "https://raw.githubusercontent.com/audiokinetic/WwiseUnityAddressables/6bb82ee6025e73b48236a9ba106d3a8060137b8c/Runtime/AK.Wwise.Unity.Addressables.asmdef",
+        "sha256": "bab761bf19af44e0413bc62126fcdc68191019d437326e9fd388332ef7a3dbcd",
+        "retrievedAt": "2026-10-18T04:27:12.841959+00:00",
+        "repository": "https://github.com/audiokinetic/WwiseUnityAddressables",
+        "commit": "6bb82ee6025e73b48236a9ba106d3a8060137b8c",
+        "path": "Runtime/AK.Wwise.Unity.Addressables.asmdef",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "wwise-addressables-manager",
+        "url": "https://raw.githubusercontent.com/audiokinetic/WwiseUnityAddressables/6bb82ee6025e73b48236a9ba106d3a8060137b8c/Runtime/AkAddressableBankManager.cs",
+        "finalUrl": "https://raw.githubusercontent.com/audiokinetic/WwiseUnityAddressables/6bb82ee6025e73b48236a9ba106d3a8060137b8c/Runtime/AkAddressableBankManager.cs",
+        "sha256": "1de4d6a53d3459091574f6ba04a9e99517c20c192ea086f8c2b3b9d82d6f8454",
+        "retrievedAt": "2026-10-18T04:27:12.830284+00:00",
+        "repository": "https://github.com/audiokinetic/WwiseUnityAddressables",
+        "commit": "6bb82ee6025e73b48236a9ba106d3a8060137b8c",
+        "path": "Runtime/AkAddressableBankManager.cs",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "wwise-addressables-package",
+        "url": "https://raw.githubusercontent.com/audiokinetic/WwiseUnityAddressables/6bb82ee6025e73b48236a9ba106d3a8060137b8c/package.json",
+        "finalUrl": "https://raw.githubusercontent.com/audiokinetic/WwiseUnityAddressables/6bb82ee6025e73b48236a9ba106d3a8060137b8c/package.json",
+        "sha256": "128018b50c8c434713807c45ee3a07e34979bbe901f06d48171b8371beb45ad6",
+        "retrievedAt": "2026-10-18T04:27:12.841959+00:00",
+        "repository": "https://github.com/audiokinetic/WwiseUnityAddressables",
+        "commit": "6bb82ee6025e73b48236a9ba106d3a8060137b8c",
+        "path": "package.json",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "wwise-bank",
+        "url": "https://www.audiokinetic.com/en/library/edge/?source=Unity&id=class_ak_bank.html",
+        "finalUrl": "https://www.audiokinetic.com/en/public-library/2025.1.11_9262/?source=Unity&id=class_ak_bank.html",
+        "sha256": "43cd14ce4307bf3d70a3847d51f7f483d605850454f0390eeadfd6d6d96cd537",
+        "retrievedAt": "2026-10-18T04:24:40.064487+00:00",
+        "semanticStatus": "selected-official-content-read"
+      },
+      {
+        "id": "spine42-package",
+        "url": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-unity/Assets/Spine/package.json",
+        "finalUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-unity/Assets/Spine/package.json",
+        "sha256": "66e055f7e71b771a8e3c983b1f918f252bfc8759d411a0e5eac1232c01970ba6",
+        "retrievedAt": "2026-10-18T04:45:25.387431+00:00",
+        "commit": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+        "semanticStatus": "official-content-read-only-as-observed"
+      },
+      {
+        "id": "spine42-csharp-package",
+        "url": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-csharp/src/package.json",
+        "finalUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-csharp/src/package.json",
+        "sha256": "adbfa161eebd6502a84db1692bbea754091fed4fb814c65d13bf228567e415ef",
+        "retrievedAt": "2026-10-18T04:46:31.442472+00:00",
+        "commit": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+        "semanticStatus": "official-content-read-only-as-observed"
+      },
+      {
+        "id": "spine42-csharp-asm",
+        "url": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-csharp/src/spine-csharp.asmdef",
+        "finalUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-csharp/src/spine-csharp.asmdef",
+        "sha256": "c0d52b23af44df76c073152a1f3685759bbdbd1eca6716eb30b8b02ab6802a54",
+        "retrievedAt": "2026-10-18T04:45:25.392519+00:00",
+        "commit": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+        "semanticStatus": "official-content-read-only-as-observed"
+      },
+      {
+        "id": "spine42-unity-asm",
+        "url": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-unity/Assets/Spine/Runtime/spine-unity.asmdef",
+        "finalUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-unity/Assets/Spine/Runtime/spine-unity.asmdef",
+        "sha256": "5496a038b6a35dd7637374f3dd88c6093bb85a70d50badcfce3d6ab8dbed0442",
+        "retrievedAt": "2026-10-18T04:45:25.395432+00:00",
+        "commit": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+        "semanticStatus": "official-content-read-only-as-observed"
+      },
+      {
+        "id": "spine42-skeleton",
+        "url": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-csharp/src/Skeleton.cs",
+        "finalUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-csharp/src/Skeleton.cs",
+        "sha256": "90e117de3600de7556d7ca482108d0043168b7e399822276c1d9b5263ef802a6",
+        "retrievedAt": "2026-10-18T04:45:25.407246+00:00",
+        "commit": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+        "semanticStatus": "official-content-read-only-as-observed"
+      },
+      {
+        "id": "spine42-animation",
+        "url": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-unity/Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs",
+        "finalUrl": "https://raw.githubusercontent.com/EsotericSoftware/spine-runtimes/e7dc1435fa4a0083ab431f1b28e083c14a1f5c68/spine-unity/Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs",
+        "sha256": "152dd22509877eb6dc88340d96f4b374f1a6a81d979efe666c46f45782dad160",
+        "retrievedAt": "2026-10-18T04:45:25.478612+00:00",
+        "commit": "e7dc1435fa4a0083ab431f1b28e083c14a1f5c68",
+        "semanticStatus": "official-content-read-only-as-observed"
+      }
+    ]
+  },
   "enumerationMeaning": "Complete current common whitelist, not an ecosystem enumeration",
   "snapshots": [
     {
       "source": "common-packages.json",
       "scopeVersion": "R4",
-      "configuredPackageFamilies": 48,
-      "discoveredAt": "2026-10-17T21:40:14.973733Z",
-      "configuredCompanionEntries": 4
+      "configuredPackageFamilies": 92,
+      "configuredCompanionEntries": 19,
+      "discoveredAt": "2026-10-18T05:10:01.185349Z"
     }
   ],
   "completeEnumeration": true,
-  "frontier": [
-    {
-      "packageId": "com.unity.mathematics",
-      "specification": "1.2.1",
-      "discoveredBy": "com.unity.splines",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.imgui",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.splines",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.settings-manager",
-      "specification": "1.0.3",
-      "discoveredBy": "com.unity.splines",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.imgui",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.postprocessing",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.physics",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.postprocessing",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.ugui",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.2d.tilemap.extras",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.2d.tilemap",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.2d.tilemap.extras",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.tilemap",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.2d.tilemap.extras",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.modules.jsonserialize",
-      "specification": "1.0.0",
-      "discoveredBy": "com.unity.2d.tilemap.extras",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.shadergraph",
-      "specification": "10.10.1",
-      "discoveredBy": "com.unity.visualeffectgraph",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "specification": "10.10.1",
-      "discoveredBy": "com.unity.visualeffectgraph",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.shadergraph",
-      "specification": "14.0.12",
-      "discoveredBy": "com.unity.visualeffectgraph",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "specification": "14.0.12",
-      "discoveredBy": "com.unity.visualeffectgraph",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.shadergraph",
-      "specification": "17.0.4",
-      "discoveredBy": "com.unity.visualeffectgraph",
-      "status": "explicit-consumer-gap-if-needed"
-    },
-    {
-      "packageId": "com.unity.render-pipelines.core",
-      "specification": "17.0.4",
-      "discoveredBy": "com.unity.visualeffectgraph",
-      "status": "explicit-consumer-gap-if-needed"
-    }
-  ],
+  "frontier": [],
   "coverage": "coverage.json",
   "packages": [
+    {
+      "id": "AppLovin.MAX.Unity",
+      "path": "packages/AppLovin.MAX.Unity.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "AppsFlyer.Unity",
+      "path": "packages/AppsFlyer.Unity.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "AronGranberg.Astar",
+      "path": "packages/AronGranberg.Astar.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "Audiokinetic.Wwise",
+      "path": "packages/Audiokinetic.Wwise.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "CRIWARE.Unity",
+      "path": "packages/CRIWARE.Unity.json",
+      "metadataStatus": "reference-only"
+    },
     {
       "id": "DOTween",
       "path": "packages/DOTween.json",
       "metadataStatus": "complete"
     },
     {
+      "id": "Demigiant.DOTweenPro",
+      "path": "packages/Demigiant.DOTweenPro.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "FMOD.Unity.Integration",
+      "path": "packages/FMOD.Unity.Integration.json",
+      "metadataStatus": "complete"
+    },
+    {
       "id": "Facepunch.Steamworks",
       "path": "packages/Facepunch.Steamworks.json",
-      "metadataStatus": "reference-only"
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "FairyGUI",
+      "path": "packages/FairyGUI.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Firebase.Unity",
+      "path": "packages/Firebase.Unity.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "FishNet",
+      "path": "packages/FishNet.json",
+      "metadataStatus": "complete"
     },
     {
       "id": "Google.Protobuf",
       "path": "packages/Google.Protobuf.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "GoogleMobileAds.Unity",
+      "path": "packages/GoogleMobileAds.Unity.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Grpc.Core",
+      "path": "packages/Grpc.Core.json",
       "metadataStatus": "complete"
     },
     {
@@ -2142,8 +5165,78 @@
       "metadataStatus": "complete"
     },
     {
+      "id": "I2.Localization",
+      "path": "packages/I2.Localization.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "Ink.Runtime.Source",
+      "path": "packages/Ink.Runtime.Source.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Ink.Unity",
+      "path": "packages/Ink.Unity.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "LeanTween",
+      "path": "packages/LeanTween.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "LitJSON",
+      "path": "packages/LitJSON.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "LiteNetLib",
+      "path": "packages/LiteNetLib.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Live2D.Cubism.Unity",
+      "path": "packages/Live2D.Cubism.Unity.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Meta.XR.Core",
+      "path": "packages/Meta.XR.Core.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "path": "packages/Microsoft.Bcl.AsyncInterfaces.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "path": "packages/Microsoft.Extensions.DependencyInjection.Abstractions.json",
+      "metadataStatus": "complete"
+    },
+    {
       "id": "Microsoft.Extensions.Logging.Abstractions",
       "path": "packages/Microsoft.Extensions.Logging.Abstractions.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Moodkie.EasySave",
+      "path": "packages/Moodkie.EasySave.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "Naninovel",
+      "path": "packages/Naninovel.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "NativeWebSocket",
+      "path": "packages/NativeWebSocket.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "NavMeshComponents",
+      "path": "packages/NavMeshComponents.json",
       "metadataStatus": "complete"
     },
     {
@@ -2157,8 +5250,48 @@
       "metadataStatus": "reference-only"
     },
     {
+      "id": "Odin.Serializer",
+      "path": "packages/Odin.Serializer.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Photon.Fusion",
+      "path": "packages/Photon.Fusion.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "Photon.PUN",
+      "path": "packages/Photon.PUN.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "Photon.Realtime",
+      "path": "packages/Photon.Realtime.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "PlayFab.Unity",
+      "path": "packages/PlayFab.Unity.json",
+      "metadataStatus": "complete"
+    },
+    {
       "id": "PrimeTween",
       "path": "packages/PrimeTween.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "Rewired",
+      "path": "packages/Rewired.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "RootMotion.FinalIK",
+      "path": "packages/RootMotion.FinalIK.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "Sirenix.OdinInspector",
+      "path": "packages/Sirenix.OdinInspector.json",
       "metadataStatus": "reference-only"
     },
     {
@@ -2167,8 +5300,28 @@
       "metadataStatus": "reference-only"
     },
     {
+      "id": "SteamVR.Unity",
+      "path": "packages/SteamVR.Unity.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Steamworks.NET",
+      "path": "packages/Steamworks.NET.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "System.Buffers",
+      "path": "packages/System.Buffers.json",
+      "metadataStatus": "complete"
+    },
+    {
       "id": "System.Diagnostics.DiagnosticSource",
       "path": "packages/System.Diagnostics.DiagnosticSource.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "System.Memory",
+      "path": "packages/System.Memory.json",
       "metadataStatus": "complete"
     },
     {
@@ -2177,9 +5330,44 @@
       "metadataStatus": "complete"
     },
     {
+      "id": "Tasharen.NGUI",
+      "path": "packages/Tasharen.NGUI.json",
+      "metadataStatus": "reference-only"
+    },
+    {
       "id": "Tekly.Unresolved",
       "path": "packages/Tekly.Unresolved.json",
       "metadataStatus": "reference-only"
+    },
+    {
+      "id": "Valve.SteamVR",
+      "path": "packages/Valve.SteamVR.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "XLua",
+      "path": "packages/XLua.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "YarnSpinner.Runtime.Source",
+      "path": "packages/YarnSpinner.Runtime.Source.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "YooAsset",
+      "path": "packages/YooAsset.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "ZString",
+      "path": "packages/ZString.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Zenject",
+      "path": "packages/Zenject.json",
+      "metadataStatus": "complete"
     },
     {
       "id": "com.Tivadar.Best.HTTP",
@@ -2194,6 +5382,11 @@
     {
       "id": "com.annulusgames.lit-motion.animation",
       "path": "packages/com.annulusgames.lit-motion.animation.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.code-philosophy.hybridclr",
+      "path": "packages/com.code-philosophy.hybridclr.json",
       "metadataStatus": "complete"
     },
     {
@@ -2217,6 +5410,16 @@
       "metadataStatus": "complete"
     },
     {
+      "id": "com.kyrylokuzyk.primetween",
+      "path": "packages/com.kyrylokuzyk.primetween.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.meta.xr.sdk.core",
+      "path": "packages/com.meta.xr.sdk.core.json",
+      "metadataStatus": "complete"
+    },
+    {
       "id": "com.mirrornetworking.mirror",
       "path": "packages/com.mirrornetworking.mirror.json",
       "metadataStatus": "complete"
@@ -2232,6 +5435,11 @@
       "metadataStatus": "complete"
     },
     {
+      "id": "com.tencent.puerts.core",
+      "path": "packages/com.tencent.puerts.core.json",
+      "metadataStatus": "complete"
+    },
+    {
       "id": "com.unity.2d.animation",
       "path": "packages/com.unity.2d.animation.json",
       "metadataStatus": "complete"
@@ -2239,6 +5447,11 @@
     {
       "id": "com.unity.2d.common",
       "path": "packages/com.unity.2d.common.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.2d.pixel-perfect",
+      "path": "packages/com.unity.2d.pixel-perfect.json",
       "metadataStatus": "complete"
     },
     {
@@ -2252,6 +5465,11 @@
       "metadataStatus": "complete"
     },
     {
+      "id": "com.unity.2d.tilemap",
+      "path": "packages/com.unity.2d.tilemap.json",
+      "metadataStatus": "reference-only"
+    },
+    {
       "id": "com.unity.2d.tilemap.extras",
       "path": "packages/com.unity.2d.tilemap.extras.json",
       "metadataStatus": "complete"
@@ -2259,6 +5477,11 @@
     {
       "id": "com.unity.addressables",
       "path": "packages/com.unity.addressables.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.ads",
+      "path": "packages/com.unity.ads.json",
       "metadataStatus": "complete"
     },
     {
@@ -2317,6 +5540,11 @@
       "metadataStatus": "reference-only"
     },
     {
+      "id": "com.unity.modules.androidjni",
+      "path": "packages/com.unity.modules.androidjni.json",
+      "metadataStatus": "reference-only"
+    },
+    {
       "id": "com.unity.modules.animation",
       "path": "packages/com.unity.modules.animation.json",
       "metadataStatus": "reference-only"
@@ -2329,6 +5557,11 @@
     {
       "id": "com.unity.modules.audio",
       "path": "packages/com.unity.modules.audio.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "com.unity.modules.director",
+      "path": "packages/com.unity.modules.director.json",
       "metadataStatus": "reference-only"
     },
     {
@@ -2362,6 +5595,11 @@
       "metadataStatus": "reference-only"
     },
     {
+      "id": "com.unity.modules.screencapture",
+      "path": "packages/com.unity.modules.screencapture.json",
+      "metadataStatus": "reference-only"
+    },
+    {
       "id": "com.unity.modules.terrain",
       "path": "packages/com.unity.modules.terrain.json",
       "metadataStatus": "reference-only"
@@ -2379,6 +5617,11 @@
     {
       "id": "com.unity.modules.uielements",
       "path": "packages/com.unity.modules.uielements.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "com.unity.modules.unityanalytics",
+      "path": "packages/com.unity.modules.unityanalytics.json",
       "metadataStatus": "reference-only"
     },
     {
@@ -2407,8 +5650,18 @@
       "metadataStatus": "reference-only"
     },
     {
+      "id": "com.unity.netcode",
+      "path": "packages/com.unity.netcode.json",
+      "metadataStatus": "complete"
+    },
+    {
       "id": "com.unity.netcode.gameobjects",
       "path": "packages/com.unity.netcode.gameobjects.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.nuget.mono-cecil",
+      "path": "packages/com.unity.nuget.mono-cecil.json",
       "metadataStatus": "complete"
     },
     {
@@ -2432,6 +5685,11 @@
       "metadataStatus": "complete"
     },
     {
+      "id": "com.unity.purchasing",
+      "path": "packages/com.unity.purchasing.json",
+      "metadataStatus": "complete"
+    },
+    {
       "id": "com.unity.render-pipelines.core",
       "path": "packages/com.unity.render-pipelines.core.json",
       "metadataStatus": "complete"
@@ -2452,8 +5710,43 @@
       "metadataStatus": "complete"
     },
     {
+      "id": "com.unity.scriptablebuildpipeline",
+      "path": "packages/com.unity.scriptablebuildpipeline.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.searcher",
+      "path": "packages/com.unity.searcher.json",
+      "metadataStatus": "complete"
+    },
+    {
       "id": "com.unity.serialization",
       "path": "packages/com.unity.serialization.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.services.authentication",
+      "path": "packages/com.unity.services.authentication.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.services.core",
+      "path": "packages/com.unity.services.core.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.services.levelplay",
+      "path": "packages/com.unity.services.levelplay.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.services.multiplayer",
+      "path": "packages/com.unity.services.multiplayer.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.settings-manager",
+      "path": "packages/com.unity.settings-manager.json",
       "metadataStatus": "complete"
     },
     {
@@ -2492,6 +5785,61 @@
       "metadataStatus": "complete"
     },
     {
+      "id": "com.unity.xr.arcore",
+      "path": "packages/com.unity.xr.arcore.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.xr.arfoundation",
+      "path": "packages/com.unity.xr.arfoundation.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.xr.arkit",
+      "path": "packages/com.unity.xr.arkit.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.xr.arsubsystems",
+      "path": "packages/com.unity.xr.arsubsystems.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.xr.core-utils",
+      "path": "packages/com.unity.xr.core-utils.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.xr.hands",
+      "path": "packages/com.unity.xr.hands.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.xr.interaction.toolkit",
+      "path": "packages/com.unity.xr.interaction.toolkit.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.xr.legacyinputhelpers",
+      "path": "packages/com.unity.xr.legacyinputhelpers.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.xr.management",
+      "path": "packages/com.unity.xr.management.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "com.unity.xr.openxr",
+      "path": "packages/com.unity.xr.openxr.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "dev.yarnspinner.unity",
+      "path": "packages/dev.yarnspinner.unity.json",
+      "metadataStatus": "complete"
+    },
+    {
       "id": "io.sentry.unity",
       "path": "packages/io.sentry.unity.json",
       "metadataStatus": "complete"
@@ -2502,8 +5850,23 @@
       "metadataStatus": "complete"
     },
     {
+      "id": "protobuf-net",
+      "path": "packages/protobuf-net.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "protobuf-net.Core",
+      "path": "packages/protobuf-net.Core.json",
+      "metadataStatus": "complete"
+    },
+    {
       "id": "unity.builtin.core-module",
       "path": "packages/unity.builtin.core-module.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "unity.builtin.legacy-engine-module",
+      "path": "packages/unity.builtin.legacy-engine-module.json",
       "metadataStatus": "reference-only"
     },
     {
@@ -2524,9 +5887,9 @@
   ],
   "bundles": [
     {
-      "path": "lookup-0000-bd62854c2811e3b5b85becf3.json.gz",
-      "sha256": "bd62854c2811e3b5b85becf3dc6efa3e93c8d7357ae8627bfaca0644012a6f2f",
-      "size": 1355036
+      "path": "lookup-0000-e5bc67533889d511ebf7d4de.json.gz",
+      "sha256": "e5bc67533889d511ebf7d4de5ef36025ec51218fbfa3a5bd1055e257f73d097b",
+      "size": 1385772
     }
   ]
 }

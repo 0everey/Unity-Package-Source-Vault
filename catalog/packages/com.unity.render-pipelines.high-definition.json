@@ -7,24 +7,65 @@
       "kind": "registry",
       "url": "https://packages.unity.com",
       "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.high-definition",
-      "fetchedAt": "2026-10-17T19:26:52.315479Z"
+      "fetchedAt": "2026-10-18T04:58:58.120645Z"
     },
     {
       "kind": "official-package-manifest",
       "url": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53/Packages/com.unity.render-pipelines.high-definition/package.json",
       "sha256": "08134799f5c51ccaf2889616d9865313386becc6fc921060b6099900d09d8723",
-      "fetchedAt": "2026-10-17T19:26:53.641758Z"
+      "fetchedAt": "2026-10-18T04:58:58.689746Z"
     },
     {
       "kind": "official-package-manifest",
       "url": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3/Packages/com.unity.render-pipelines.high-definition/package.json",
       "sha256": "383804c2ae298c73b0340d1d91a684d5ded391449638003b6e3d5770c3ce5192",
-      "fetchedAt": "2026-10-17T19:26:54.182848Z"
+      "fetchedAt": "2026-10-18T04:58:59.273403Z"
+    },
+    {
+      "kind": "official-package-manifest",
+      "url": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/6034ecf6489af2ac1d543f9de25a76b8e91a78cb/Packages/com.unity.render-pipelines.high-definition/package.json",
+      "sha256": "bcd548b609b19c6d3e7e65c9c75fe903eb49953ab4c1f3ebed892172c6bd78f3",
+      "fetchedAt": "2026-10-18T04:58:59.791830Z"
     }
   ],
   "adapter": "registry",
   "registry": "https://packages.unity.com",
   "versions": [
+    {
+      "version": "4.6.0-preview",
+      "variantId": "registry-packages.unity.com-a1ae29aff7d5ab14",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "529ebad8bdc2c75e2b90d30f210e71f2dab0adba",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.render-pipelines.high-definition/-/com.unity.render-pipelines.high-definition-4.6.0-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2559b01010453cde994b9cab52ba2cbeffafb330",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.shadergraph": "4.6.0-preview",
+        "com.unity.postprocessing": "2.1.2",
+        "com.unity.render-pipelines.core": "4.6.0-preview"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.render-pipelines.high-definition/4.6.0-preview",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "2559b01010453cde994b9cab52ba2cbeffafb330"
+        }
+      }
+    },
     {
       "version": "10.10.1",
       "variantId": "registry-packages.unity.com-52955fd09b51525c",
@@ -3446,6 +3487,45 @@
       "collectedAt": "2026-10-17T19:45:05.660270Z"
     },
     {
+      "version": "12.1.16",
+      "variantId": "unity-editor-source-6034ecf6489a",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics/tree/6034ecf6489af2ac1d543f9de25a76b8e91a78cb/Packages/com.unity.render-pipelines.high-definition",
+      "sourceRef": "6034ecf6489af2ac1d543f9de25a76b8e91a78cb",
+      "downloadUrl": null,
+      "disposition": "official-fetch-only",
+      "fetchStatus": "reference-only",
+      "artifact": null,
+      "fingerprint": null,
+      "versionStatus": "stable",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.4",
+        "com.unity.burst": "1.8.9",
+        "com.unity.modules.video": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.terrain": "1.0.0",
+        "com.unity.render-pipelines.core": "12.1.16",
+        "com.unity.shadergraph": "12.1.16",
+        "com.unity.visualeffectgraph": "12.1.16",
+        "com.unity.render-pipelines.high-definition-config": "12.1.16"
+      },
+      "unity": "2021.3",
+      "license": {
+        "expression": null,
+        "evidenceUrl": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/6034ecf6489af2ac1d543f9de25a76b8e91a78cb/Packages/com.unity.render-pipelines.high-definition/package.json",
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "official-manifest-reference-no-payload-grant"
+      },
+      "acquisition": {
+        "kind": "unity-editor-bundled-package",
+        "sourcePath": "Packages/com.unity.render-pipelines.high-definition",
+        "manifestSha256": "bcd548b609b19c6d3e7e65c9c75fe903eb49953ab4c1f3ebed892172c6bd78f3",
+        "installationUrl": "https://unity.com/download",
+        "reason": "Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"
+      }
+    },
+    {
       "version": "14.0.12",
       "variantId": "unity-editor-source-03ca85dffdde",
       "sourceUrl": "https://github.com/Unity-Technologies/Graphics/tree/03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3/Packages/com.unity.render-pipelines.high-definition",
@@ -3482,7 +3562,9 @@
         "manifestSha256": "383804c2ae298c73b0340d1d91a684d5ded391449638003b6e3d5770c3ce5192",
         "installationUrl": "https://unity.com/download",
         "reason": "Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"
-      }
+      },
+      "upstreamListed": true,
+      "metadataRefreshedAt": "2026-10-18T04:58:59.805974Z"
     },
     {
       "version": "17.0.4",
@@ -3518,32 +3600,40 @@
         "manifestSha256": "08134799f5c51ccaf2889616d9865313386becc6fc921060b6099900d09d8723",
         "installationUrl": "https://unity.com/download",
         "reason": "Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"
-      }
+      },
+      "upstreamListed": true,
+      "metadataRefreshedAt": "2026-10-18T04:58:59.805974Z"
     }
   ],
   "metadataStatus": "complete",
   "distTags": {
     "latest": "10.10.1"
   },
-  "availableUpstreamVersionCount": 3,
+  "availableUpstreamVersionCount": 5,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
-    "maxCommonVersions": 3,
+    "maxCommonVersions": 5,
+    "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records",
     "preferredVersions": [
+      "10.10.1",
+      "14.0.12",
       "17.0.4",
-      "14.0.12"
+      "12.1.16",
+      "4.6.0-preview"
     ],
     "legacyMajor": null,
-    "selectionMode": "common",
+    "selectionMode": "fixed-common",
     "retainVerifiedLegacy": false,
     "commonArchiveFallback": true
   },
   "explicitVersionRequests": [],
   "selectedVersions": [
     "10.10.1",
+    "12.1.16",
     "14.0.12",
-    "17.0.4"
+    "17.0.4",
+    "4.6.0-preview"
   ],
   "targetVersions": [],
   "missingTargetVersions": [],
@@ -3560,14 +3650,26 @@
       "sourceRef": "03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3",
       "path": "Packages/com.unity.render-pipelines.high-definition/package.json",
       "version": "14.0.12"
+    },
+    {
+      "repository": "Unity-Technologies/Graphics",
+      "sourceRef": "6034ecf6489af2ac1d543f9de25a76b8e91a78cb",
+      "path": "Packages/com.unity.render-pipelines.high-definition/package.json",
+      "version": "12.1.16"
     }
   ],
   "category": "rendering",
-  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "versionPolicy": "Finite common selection; default two versions, package budget 5; explicit exceptions retain immutable prior records",
   "family": "common-rendering",
   "preferredVersions": [
+    "10.10.1",
+    "14.0.12",
     "17.0.4",
-    "14.0.12"
+    "12.1.16",
+    "4.6.0-preview"
   ],
-  "commonArchiveFallback": true
+  "commonArchiveFallback": true,
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 5,
+  "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
 }

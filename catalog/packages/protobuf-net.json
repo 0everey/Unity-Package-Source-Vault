@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "1.0",
+  "id": "protobuf-net",
+  "displayName": "protobuf-net",
+  "adapter": "nuget",
+  "sources": [
+    {
+      "kind": "nuget",
+      "url": "https://api.nuget.org/v3-flatcontainer/protobuf-net/index.json",
+      "fetchedAt": "2026-10-18T04:59:03.286286Z"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.4.8",
+      "variantId": "nuget",
+      "sourceUrl": "https://www.nuget.org/packages/protobuf-net/2.4.8",
+      "sourceRef": null,
+      "downloadUrl": "https://api.nuget.org/v3-flatcontainer/protobuf-net/2.4.8/protobuf-net.2.4.8.nupkg",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-nuspec"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    },
+    {
+      "version": "3.2.56",
+      "variantId": "nuget",
+      "sourceUrl": "https://www.nuget.org/packages/protobuf-net/3.2.56",
+      "sourceRef": null,
+      "downloadUrl": "https://api.nuget.org/v3-flatcontainer/protobuf-net/3.2.56/protobuf-net.3.2.56.nupkg",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-nuspec"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "2.4.8",
+      "3.2.56"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "2.4.8",
+    "3.2.56"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "serialization",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-serialization",
+  "preferredVersions": [
+    "2.4.8",
+    "3.2.56"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

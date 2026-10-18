@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.tencent.puerts.core",
+  "displayName": "com.tencent.puerts.core",
+  "adapter": "github",
+  "repository": "Tencent/puerts",
+  "sources": [
+    {
+      "kind": "explicit-immutable-git-pins",
+      "url": "https://github.com/Tencent/puerts",
+      "fetchedAt": "2026-10-18T04:59:02.175344Z",
+      "completeEnumeration": false
+    }
+  ],
+  "versions": [
+    {
+      "version": "3.0.3",
+      "variantId": "git-0ac7d2f1943e",
+      "sourceUrl": "https://github.com/Tencent/puerts",
+      "sourceRef": "0ac7d2f1943e0f7bca9860ceab592ab390e6719b",
+      "sourcePath": "unity/upms/core",
+      "sourceTag": null,
+      "versionBasis": "actual-unity-component-package-json-not-unreal-monorepo-tag",
+      "downloadUrl": "https://codeload.github.com/Tencent/puerts/tar.gz/0ac7d2f1943e0f7bca9860ceab592ab390e6719b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "componentScope": {
+        "sourcePath": "unity/upms/core",
+        "metadata": {
+          "path": "unity/upms/core/package.json",
+          "sha256": "a9ff32243a0c6a65a67af4e43ddc9080bd5ed72f19b31389e14fa7cf3fb00958",
+          "name": "com.tencent.puerts.core",
+          "version": "3.0.3"
+        },
+        "archiveScope": "complete-original-repository-archive",
+        "targetComponentEquivalenceVerified": false
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 1,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "3.0.3"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "3.0.3"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "hot-update",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "gitPins": [
+    {
+      "version": "3.0.3",
+      "sourceRef": "0ac7d2f1943e0f7bca9860ceab592ab390e6719b",
+      "sourcePath": "unity/upms/core",
+      "componentMetadata": {
+        "path": "unity/upms/core/package.json",
+        "sha256": "a9ff32243a0c6a65a67af4e43ddc9080bd5ed72f19b31389e14fa7cf3fb00958",
+        "name": "com.tencent.puerts.core",
+        "version": "3.0.3"
+      },
+      "versionBasis": "actual-unity-component-package-json-not-unreal-monorepo-tag"
+    }
+  ],
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-hot-update",
+  "preferredVersions": [
+    "3.0.3"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

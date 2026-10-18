@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0",
+  "id": "FishNet",
+  "displayName": "FishNet",
+  "adapter": "github",
+  "repository": "FirstGearGames/FishNet",
+  "sources": [
+    {
+      "kind": "explicit-immutable-git-pins",
+      "url": "https://github.com/FirstGearGames/FishNet",
+      "fetchedAt": "2026-10-18T04:59:02.167074Z",
+      "completeEnumeration": false
+    }
+  ],
+  "versions": [
+    {
+      "version": "4.7.3",
+      "variantId": "git-73f30cf2425d",
+      "sourceUrl": "https://github.com/FirstGearGames/FishNet",
+      "sourceRef": "73f30cf2425dc808a4f463f0a233d386010810b3",
+      "sourcePath": null,
+      "sourceTag": "4.7.3",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/FirstGearGames/FishNet/tar.gz/73f30cf2425dc808a4f463f0a233d386010810b3",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    },
+    {
+      "version": "4.7.4",
+      "variantId": "git-a3627529c187",
+      "sourceUrl": "https://github.com/FirstGearGames/FishNet",
+      "sourceRef": "a3627529c1875ebe6313c2fc9e2326cbd5d76719",
+      "sourcePath": null,
+      "sourceTag": "4.7.4",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/FirstGearGames/FishNet/tar.gz/a3627529c1875ebe6313c2fc9e2326cbd5d76719",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "4.7.3",
+      "4.7.4"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "4.7.3",
+    "4.7.4"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "networking",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "gitPins": [
+    {
+      "version": "4.7.3",
+      "sourceRef": "73f30cf2425dc808a4f463f0a233d386010810b3",
+      "sourceTag": "4.7.3",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    },
+    {
+      "version": "4.7.4",
+      "sourceRef": "a3627529c1875ebe6313c2fc9e2326cbd5d76719",
+      "sourceTag": "4.7.4",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    }
+  ],
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-networking",
+  "preferredVersions": [
+    "4.7.3",
+    "4.7.4"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

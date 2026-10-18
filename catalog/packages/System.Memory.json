@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "1.0",
+  "id": "System.Memory",
+  "displayName": "System.Memory",
+  "adapter": "nuget",
+  "sources": [
+    {
+      "kind": "nuget",
+      "url": "https://api.nuget.org/v3-flatcontainer/system.memory/index.json",
+      "fetchedAt": "2026-10-18T04:59:03.524318Z"
+    }
+  ],
+  "versions": [
+    {
+      "version": "4.5.4",
+      "variantId": "nuget",
+      "sourceUrl": "https://www.nuget.org/packages/System.Memory/4.5.4",
+      "sourceRef": null,
+      "downloadUrl": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.4/system.memory.4.5.4.nupkg",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-nuspec"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    },
+    {
+      "version": "4.5.5",
+      "variantId": "nuget",
+      "sourceUrl": "https://www.nuget.org/packages/System.Memory/4.5.5",
+      "sourceRef": null,
+      "downloadUrl": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.5/system.memory.4.5.5.nupkg",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-nuspec"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "4.5.4",
+      "4.5.5"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "parent-constrained",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "4.5.4",
+    "4.5.5"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "parent-dependency",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "dependencyRole": "companion-not-root-family",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-parent-dependency",
+  "preferredVersions": [
+    "4.5.4",
+    "4.5.5"
+  ],
+  "selectionMode": "parent-constrained",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

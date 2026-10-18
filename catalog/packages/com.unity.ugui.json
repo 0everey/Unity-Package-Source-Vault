@@ -7,18 +7,43 @@
       "kind": "registry",
       "url": "https://packages.unity.com",
       "metadataUrl": "https://packages.unity.com/com.unity.ugui",
-      "fetchedAt": "2026-10-17T19:26:52.274030Z"
+      "fetchedAt": "2026-10-18T05:06:00.614711Z"
     },
     {
       "kind": "official-package-manifest",
       "url": "https://raw.githubusercontent.com/Unity-Technologies/uGUI/58c0ead281dc1cf042e8831606850413524971bb/com.unity.ugui/package.json",
       "sha256": "ff122ab4596d6aa74abd64cc3905f8e6a46fda5af29830e15df604f3f00b6e85",
-      "fetchedAt": "2026-10-17T19:26:52.741574Z"
+      "fetchedAt": "2026-10-18T05:06:01.223527Z"
     }
   ],
   "adapter": "registry",
   "registry": "https://packages.unity.com",
   "versions": [
+    {
+      "version": "1.0.0",
+      "variantId": "official-editor-document-reference",
+      "sourceUrl": "https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/index.html",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "disposition": "official-fetch-only",
+      "fetchStatus": "reference-only",
+      "artifact": null,
+      "fingerprint": null,
+      "dependencies": {},
+      "acquisition": {
+        "kind": "matching-unity-editor-core-package",
+        "installationUrl": "https://unity.com/download",
+        "reason": "Core package version binds selected Editor; identical version label does not certify cross-Editor bytes",
+        "profileVerified": false
+      },
+      "license": {
+        "expression": null,
+        "evidenceUrl": "https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/index.html",
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "official-editor-reference-no-payload-grant"
+      }
+    },
     {
       "version": "2.0.0",
       "variantId": "unity-editor-source-58c0ead281dc",
@@ -48,28 +73,33 @@
         "manifestSha256": "ff122ab4596d6aa74abd64cc3905f8e6a46fda5af29830e15df604f3f00b6e85",
         "installationUrl": "https://unity.com/download",
         "reason": "Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"
-      }
+      },
+      "upstreamListed": true,
+      "metadataRefreshedAt": "2026-10-18T05:06:01.256972Z"
     }
   ],
   "metadataStatus": "complete",
   "distTags": {
     "latest": "3.0.0-exp.4"
   },
-  "availableUpstreamVersionCount": 1,
+  "availableUpstreamVersionCount": 2,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
     "maxCommonVersions": 3,
+    "budgetReason": null,
     "preferredVersions": [
+      "1.0.0",
       "2.0.0"
     ],
     "legacyMajor": null,
-    "selectionMode": "common",
+    "selectionMode": "fixed-common",
     "retainVerifiedLegacy": false,
     "commonArchiveFallback": false
   },
   "explicitVersionRequests": [],
   "selectedVersions": [
+    "1.0.0",
     "2.0.0"
   ],
   "targetVersions": [],
@@ -83,10 +113,39 @@
       "version": "2.0.0"
     }
   ],
+  "documentReferences": [
+    {
+      "version": "1.0.0",
+      "variantId": "official-editor-document-reference",
+      "sourceUrl": "https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/index.html",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "disposition": "official-fetch-only",
+      "fetchStatus": "reference-only",
+      "artifact": null,
+      "fingerprint": null,
+      "dependencies": {},
+      "acquisition": {
+        "kind": "matching-unity-editor-core-package",
+        "installationUrl": "https://unity.com/download",
+        "reason": "Core package version binds selected Editor; identical version label does not certify cross-Editor bytes",
+        "profileVerified": false
+      },
+      "license": {
+        "expression": null,
+        "evidenceUrl": "https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/index.html",
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "official-editor-reference-no-payload-grant"
+      }
+    }
+  ],
   "category": "ui",
-  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
   "family": "common-ui",
   "preferredVersions": [
+    "1.0.0",
     "2.0.0"
-  ]
+  ],
+  "selectionMode": "fixed-common"
 }

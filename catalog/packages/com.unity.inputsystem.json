@@ -7,12 +7,45 @@
       "kind": "registry",
       "url": "https://packages.unity.com",
       "metadataUrl": "https://packages.unity.com/com.unity.inputsystem",
-      "fetchedAt": "2026-10-17T19:27:01.396844Z"
+      "fetchedAt": "2026-10-18T04:58:58.181026Z"
     }
   ],
   "adapter": "registry",
   "registry": "https://packages.unity.com",
   "versions": [
+    {
+      "version": "1.8.1",
+      "variantId": "registry-packages.unity.com-ff9511008e2850fa",
+      "sourceUrl": "https://github.com/Unity-Technologies/InputSystem.git",
+      "sourceRef": "4412578426d34b7b2a0ef17db295e39e7e26b2fa",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.inputsystem/-/com.unity.inputsystem-1.8.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "4e7a2600d63ce61a1061d33a81ac627f4961df7a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.inputsystem/1.8.1",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "4e7a2600d63ce61a1061d33a81ac627f4961df7a"
+        }
+      }
+    },
     {
       "version": "1.12.0",
       "variantId": "registry-packages.unity.com-068f4b2fb91df634",
@@ -5267,31 +5300,40 @@
   "distTags": {
     "latest": "1.20.1"
   },
-  "availableUpstreamVersionCount": 2,
+  "availableUpstreamVersionCount": 3,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
     "maxCommonVersions": 3,
+    "budgetReason": "XRI3.0.8 declared parent line, keep both existing records",
     "preferredVersions": [
-      "1.12.0"
+      "1.12.0",
+      "1.20.1",
+      "1.8.1"
     ],
     "legacyMajor": null,
-    "selectionMode": "common",
+    "selectionMode": "fixed-common",
     "retainVerifiedLegacy": false,
     "commonArchiveFallback": false
   },
   "explicitVersionRequests": [],
   "selectedVersions": [
     "1.12.0",
-    "1.20.1"
+    "1.20.1",
+    "1.8.1"
   ],
   "targetVersions": [],
   "missingTargetVersions": [],
   "missingPreferredVersions": [],
   "category": "input",
-  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
   "family": "common-input",
   "preferredVersions": [
-    "1.12.0"
-  ]
+    "1.12.0",
+    "1.20.1",
+    "1.8.1"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "budgetReason": "XRI3.0.8 declared parent line, keep both existing records"
 }

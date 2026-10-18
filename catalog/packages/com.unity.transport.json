@@ -7,12 +7,82 @@
       "kind": "registry",
       "url": "https://packages.unity.com",
       "metadataUrl": "https://packages.unity.com/com.unity.transport",
-      "fetchedAt": "2026-10-17T19:26:54.718805Z"
+      "fetchedAt": "2026-10-18T04:58:59.820343Z"
     }
   ],
   "adapter": "registry",
   "registry": "https://packages.unity.com",
   "versions": [
+    {
+      "version": "1.4.0",
+      "variantId": "registry-packages.unity.com-21544f1cdb036eed",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.transport.git",
+      "sourceRef": "4a6bba09bd32ed2fa840f331651875d68e73cadc",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-1.4.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "0fc371b61622fb45014024037b989d821bd4691d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.6.6",
+        "com.unity.collections": "1.2.4",
+        "com.unity.mathematics": "1.2.6"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.transport/1.4.0",
+      "deprecated": null,
+      "unity": "2020.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "0fc371b61622fb45014024037b989d821bd4691d"
+        }
+      }
+    },
+    {
+      "version": "2.5.1",
+      "variantId": "registry-packages.unity.com-080a4bc24e8c1622",
+      "sourceUrl": "https://packages.unity.com/com.unity.transport",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.transport/-/com.unity.transport-2.5.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9dd554c2c47e3d32c3133bb985962675f0696388",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.burst": "1.8.12",
+        "com.unity.collections": "2.2.1",
+        "com.unity.mathematics": "1.3.1"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.transport/2.5.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "9dd554c2c47e3d32c3133bb985962675f0696388"
+        }
+      }
+    },
     {
       "version": "2.7.3",
       "variantId": "registry-packages.unity.com-33d3e6bd525536e1",
@@ -1779,19 +1849,27 @@
   "distTags": {
     "latest": "2.7.4"
   },
-  "availableUpstreamVersionCount": 2,
+  "availableUpstreamVersionCount": 4,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
-    "maxCommonVersions": 3,
-    "preferredVersions": [],
+    "maxCommonVersions": 4,
+    "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records",
+    "preferredVersions": [
+      "2.7.3",
+      "2.7.4",
+      "1.4.0",
+      "2.5.1"
+    ],
     "legacyMajor": null,
-    "selectionMode": "common",
+    "selectionMode": "fixed-common",
     "retainVerifiedLegacy": false,
     "commonArchiveFallback": false
   },
   "explicitVersionRequests": [],
   "selectedVersions": [
+    "1.4.0",
+    "2.5.1",
     "2.7.3",
     "2.7.4"
   ],
@@ -1799,6 +1877,15 @@
   "missingTargetVersions": [],
   "missingPreferredVersions": [],
   "category": "networking",
-  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
-  "family": "common-networking"
+  "versionPolicy": "Finite common selection; default two versions, package budget 4; explicit exceptions retain immutable prior records",
+  "family": "common-networking",
+  "preferredVersions": [
+    "2.7.3",
+    "2.7.4",
+    "1.4.0",
+    "2.5.1"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 4,
+  "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
 }

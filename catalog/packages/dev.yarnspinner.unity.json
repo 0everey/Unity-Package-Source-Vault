@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0",
+  "id": "dev.yarnspinner.unity",
+  "displayName": "dev.yarnspinner.unity",
+  "adapter": "github",
+  "repository": "YarnSpinnerTool/YarnSpinner-Unity",
+  "sources": [
+    {
+      "kind": "explicit-immutable-git-pins",
+      "url": "https://github.com/YarnSpinnerTool/YarnSpinner-Unity",
+      "fetchedAt": "2026-10-18T04:59:02.172152Z",
+      "completeEnumeration": false
+    }
+  ],
+  "versions": [
+    {
+      "version": "3.2.7",
+      "variantId": "git-4c0c8ef55129",
+      "sourceUrl": "https://github.com/YarnSpinnerTool/YarnSpinner-Unity",
+      "sourceRef": "4c0c8ef55129c1c93fd3d3419536ca0cc533335f",
+      "sourcePath": null,
+      "sourceTag": "v3.2.7",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/YarnSpinnerTool/YarnSpinner-Unity/tar.gz/4c0c8ef55129c1c93fd3d3419536ca0cc533335f",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    },
+    {
+      "version": "3.2.8",
+      "variantId": "git-bfc5b6a2e8bc",
+      "sourceUrl": "https://github.com/YarnSpinnerTool/YarnSpinner-Unity",
+      "sourceRef": "bfc5b6a2e8bc8978e777caeea3a827a0d408cc7d",
+      "sourcePath": null,
+      "sourceTag": "v3.2.8",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/YarnSpinnerTool/YarnSpinner-Unity/tar.gz/bfc5b6a2e8bc8978e777caeea3a827a0d408cc7d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "3.2.7",
+      "3.2.8"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "3.2.7",
+    "3.2.8"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "dialogue",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "gitPins": [
+    {
+      "version": "3.2.7",
+      "sourceRef": "4c0c8ef55129c1c93fd3d3419536ca0cc533335f",
+      "sourceTag": "v3.2.7",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    },
+    {
+      "version": "3.2.8",
+      "sourceRef": "bfc5b6a2e8bc8978e777caeea3a827a0d408cc7d",
+      "sourceTag": "v3.2.8",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    }
+  ],
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-dialogue",
+  "preferredVersions": [
+    "3.2.7",
+    "3.2.8"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

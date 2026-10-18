@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0",
+  "id": "unity.builtin.legacy-engine-module",
+  "displayName": "Unity 5.6 monolithic UnityEngine reference",
+  "sources": [
+    {
+      "kind": "unity-builtin-reference",
+      "url": "https://docs.unity3d.com/560/Documentation/Manual/UsingDLL.html"
+    }
+  ],
+  "versions": [
+    {
+      "version": "unknown",
+      "moduleVersion": "unknown",
+      "unityVersion": "unknown",
+      "referenceUnityVersions": [
+        "5.6"
+      ],
+      "variantId": "unity-builtin-reference",
+      "disposition": "builtin-reference",
+      "sourceUrl": "https://docs.unity3d.com/560/Documentation/Manual/UsingDLL.html",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "artifact": null,
+      "fetchStatus": "reference-only",
+      "dependencies": {},
+      "license": {
+        "expression": "Unity-Engine-License",
+        "evidenceUrl": "https://unity.com/legal/terms-of-service/software",
+        "sha256": null,
+        "components": [],
+        "redistribution": "no-payload-reference-only"
+      },
+      "provider": {
+        "kind": "unity-builtin-module",
+        "assemblyName": "UnityEngine",
+        "referenceStatus": "reference-pending",
+        "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+        "manualUrl": "https://docs.unity3d.com/560/Documentation/Manual/UsingDLL.html",
+        "apiFeatures": [
+          {
+            "typeFullName": "UnityEngine.GameObject",
+            "url": "https://docs.unity3d.com/560/Documentation/ScriptReference/GameObject.html"
+          },
+          {
+            "typeFullName": "UnityEngine.Transform",
+            "url": "https://docs.unity3d.com/560/Documentation/ScriptReference/Transform.html"
+          }
+        ],
+        "memberFeatures": [],
+        "recognitionMode": "finite-api-types",
+        "namespaceScopes": [
+          "UnityEngine"
+        ],
+        "rulesSha256": "bc8bfc70119a30dfd9c8a1fee77a628d6b64ef8e16ed037777ae93fa169f16c2",
+        "profileVerified": false
+      },
+      "fingerprint": {
+        "files": [],
+        "assemblies": [
+          {
+            "name": "UnityEngine",
+            "version": "0.0.0.0"
+          }
+        ],
+        "types": [
+          "UnityEngine.GameObject",
+          "UnityEngine.Transform"
+        ],
+        "typeDeclarations": [
+          {
+            "fullName": "UnityEngine.GameObject",
+            "assemblyIdentity": {
+              "name": "UnityEngine"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          },
+          {
+            "fullName": "UnityEngine.Transform",
+            "assemblyIdentity": {
+              "name": "UnityEngine"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          }
+        ],
+        "namespaces": [
+          "UnityEngine"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"
+      }
+    }
+  ],
+  "adapter": "reference",
+  "family": "unity-builtin",
+  "metadataStatus": "reference-only",
+  "selectedVersions": []
+}

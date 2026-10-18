@@ -7,12 +7,109 @@
       "kind": "registry",
       "url": "https://packages.unity.com",
       "metadataUrl": "https://packages.unity.com/com.unity.textmeshpro",
-      "fetchedAt": "2026-10-17T19:26:56.016642Z"
+      "fetchedAt": "2026-10-18T04:58:58.137690Z"
     }
   ],
   "adapter": "registry",
   "registry": "https://packages.unity.com",
   "versions": [
+    {
+      "version": "1.4.1",
+      "variantId": "registry-packages.unity.com-a25a2a308e2498da",
+      "sourceUrl": "https://gitlab.cds.internal.unity3d.com/upm-packages/text/com.unity.textmeshpro.git",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.textmeshpro/-/com.unity.textmeshpro-1.4.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "6403bc5d5c11511a8987ffeab98c35871c544dd0",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.textmeshpro/1.4.1",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "6403bc5d5c11511a8987ffeab98c35871c544dd0"
+        }
+      }
+    },
+    {
+      "version": "2.1.6",
+      "variantId": "registry-packages.unity.com-434a2d1ecef773fb",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git",
+      "sourceRef": "529e8925f4873e5db1e13a4120e235971b264480",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.textmeshpro/-/com.unity.textmeshpro-2.1.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "2dc57a515920ea3c6b143315a3d1864a53840beb",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.textmeshpro/2.1.6",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "2dc57a515920ea3c6b143315a3d1864a53840beb"
+        }
+      }
+    },
+    {
+      "version": "3.0.6",
+      "variantId": "registry-packages.unity.com-52c161a9dd14635f",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git",
+      "sourceRef": "01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.textmeshpro/-/com.unity.textmeshpro-3.0.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "9ca25bf0911887317d54264000b2e4a2bc6a08c8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.textmeshpro/3.0.6",
+      "deprecated": null,
+      "unity": "2020.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "9ca25bf0911887317d54264000b2e4a2bc6a08c8"
+        }
+      }
+    },
     {
       "version": "3.0.8",
       "variantId": "registry-packages.unity.com-03c6fad10a7b820d",
@@ -1366,19 +1463,29 @@
   "distTags": {
     "latest": "3.2.0-pre.15"
   },
-  "availableUpstreamVersionCount": 2,
+  "availableUpstreamVersionCount": 5,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
-    "maxCommonVersions": 3,
-    "preferredVersions": [],
+    "maxCommonVersions": 5,
+    "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records",
+    "preferredVersions": [
+      "3.0.8",
+      "3.0.9",
+      "1.4.1",
+      "2.1.6",
+      "3.0.6"
+    ],
     "legacyMajor": null,
-    "selectionMode": "common",
+    "selectionMode": "fixed-common",
     "retainVerifiedLegacy": false,
     "commonArchiveFallback": false
   },
   "explicitVersionRequests": [],
   "selectedVersions": [
+    "1.4.1",
+    "2.1.6",
+    "3.0.6",
     "3.0.8",
     "3.0.9"
   ],
@@ -1387,6 +1494,16 @@
   "missingPreferredVersions": [],
   "category": "ui",
   "integrationNote": "Unity 6 UGUI may already supply TMP; do not install duplicate assemblies",
-  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
-  "family": "common-ui"
+  "versionPolicy": "Finite common selection; default two versions, package budget 5; explicit exceptions retain immutable prior records",
+  "family": "common-ui",
+  "preferredVersions": [
+    "3.0.8",
+    "3.0.9",
+    "1.4.1",
+    "2.1.6",
+    "3.0.6"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 5,
+  "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
 }

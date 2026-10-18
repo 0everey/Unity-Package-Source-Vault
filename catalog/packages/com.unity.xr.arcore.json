@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.xr.arcore",
+  "displayName": "com.unity.xr.arcore",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.arcore",
+      "fetchedAt": "2026-10-18T04:59:01.783373Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "5.1.6",
+      "variantId": "registry-packages.unity.com-9a8c7c14e5bb240a",
+      "sourceUrl": "https://packages.unity.com/com.unity.xr.arcore",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.xr.arcore/-/com.unity.xr.arcore-5.1.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "561647217d8111fb60fe44e31720359a84ec3b57",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.core-utils": "2.1.0",
+        "com.unity.xr.management": "4.0.1",
+        "com.unity.xr.arfoundation": "5.1.6",
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.arcore/5.1.6",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "561647217d8111fb60fe44e31720359a84ec3b57"
+        }
+      }
+    },
+    {
+      "version": "6.6.2",
+      "variantId": "registry-packages.unity.com-4659125716c89945",
+      "sourceUrl": "https://packages.unity.com/com.unity.xr.arcore",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.xr.arcore/-/com.unity.xr.arcore-6.6.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "48fb51f3ca765f713448eaab00e13e6808f370e1",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.xr.core-utils": "2.6.0",
+        "com.unity.xr.management": "4.4.0",
+        "com.unity.xr.arfoundation": "6.6.2",
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.arcore/6.6.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "48fb51f3ca765f713448eaab00e13e6808f370e1"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "6.7.0-pre.1"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "5.1.6",
+      "6.6.2"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "5.1.6",
+    "6.6.2"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "ar",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-ar",
+  "preferredVersions": [
+    "5.1.6",
+    "6.6.2"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3
+}

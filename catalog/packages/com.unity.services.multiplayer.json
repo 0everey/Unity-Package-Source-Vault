@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.services.multiplayer",
+  "displayName": "com.unity.services.multiplayer",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.services.multiplayer",
+      "fetchedAt": "2026-10-18T04:59:00.460023Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "1.1.4",
+      "variantId": "registry-packages.unity.com-903975ec34723c3d",
+      "sourceUrl": "https://packages.unity.com/com.unity.services.multiplayer",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.services.multiplayer/-/com.unity.services.multiplayer-1.1.4.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "1719b68380e6b0284d55e89a508ce55bd307711d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.transport": "2.5.0",
+        "com.unity.collections": "2.2.1",
+        "com.unity.services.qos": "1.3.0",
+        "com.unity.services.core": "1.13.0",
+        "com.unity.services.wire": "1.4.0",
+        "com.unity.services.deployment": "1.3.0",
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.services.authentication": "3.3.3"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.services.multiplayer/1.1.4",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "1719b68380e6b0284d55e89a508ce55bd307711d"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.4.1"
+  },
+  "availableUpstreamVersionCount": 1,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "1.1.4"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "1.1.4"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "services",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-services",
+  "preferredVersions": [
+    "1.1.4"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3
+}

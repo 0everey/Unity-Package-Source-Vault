@@ -95,3 +95,11 @@ uvault classify --inventory <原DECLARATIONS.json> --profile <原profile.json> -
 最后在 ReMaker 自己的工作区写回执：采用的 export/classification SHA、Core 输入身份、原／新 selection SHA、各动作声明数、保留业务 alias、找源／差分未闭、实际 writer 及验证结果。没有同输入前后计时就不写固定加速倍数。减少插件派工也不计作新增游戏逻辑恢复。
 
 实际输入对照和采集状态以交付回执为准。声明去向守恒不证明 selection 已减少；使用更新目录重判后，仍需独立记录实际采用与工作变化。
+
+## R7 接回增量
+
+见 [R7-ADDITIONS.md](R7-ADDITIONS.md)。原六按需包已由本次明确覆盖决定激活，四个内置候选已有有限官方规则；Director 保 public instance，ScreenCapture 保 public static，不全局降低识别门槛。旧 UnityEngine 只处理已登记 GameObject／Transform。
+
+`knownFamilies`、`familyHints`、`missingVersionRequests` 经 matches／lock／export 保留；缺版来自实际 manifest／lock，不能用程序集版本或最近版本补齐。官方商用 API 线索保留未知全名、程序集和精确版本，分类器加找源工作项但保持 nativeAction／业务 alias。新规则内容进入 cache 绑定。源快照、Git 子路径、组件版本与归档整体各自保身份；Spine 两组件和其未满足的原依赖不可合成一个已闭合 SDK。
+
+13 项目 metadata 诊断只衡量所观察集合，完整 Runtime 分母仍未知；它不证明安装、编译或实际游戏恢复概率。原 writer 的 prepare／census／selection 接线和采用回执仍为 integration-pending。

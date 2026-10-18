@@ -35,6 +35,9 @@ def resolve(matches: dict, selections: list[dict] | None = None) -> dict:
         result["namedPending"]=deepcopy(matches["namedPending"])
     if "nugetDependencyCandidates" in matches:
         result["nugetDependencyCandidates"] = deepcopy(matches["nugetDependencyCandidates"])
+    from .family_identity import CONTEXT_FIELDS,preserve_context
+    for key in CONTEXT_FIELDS:
+        if key in matches:result[key]=deepcopy(matches[key])
     observed: set[str] = set()
     for match in matches.get("matches", []):
         package_id = match.get("packageId")
@@ -71,7 +74,7 @@ def resolve(matches: dict, selections: list[dict] | None = None) -> dict:
         candidate = candidates[chosen]
         library = {key: deepcopy(candidate.get(key)) for key in (
             "packageId", "version", "variantId", "artifact", "license", "sourceUrl",
-            "sourceRef", "downloadUrl", "disposition", "fingerprint", "sdkBundle", "nuget")}
+            "sourceRef", "sourcePath", "sourceTag", "versionBasis", "componentScope", "downloadUrl", "disposition", "fingerprint", "sdkBundle", "nuget")}
         library.update({"status": match.get("status", "candidate"),
                         "evidence": deepcopy(match.get("evidence", [])),
                         "conflicts": deepcopy(match.get("conflicts", [])),
@@ -86,4 +89,4 @@ def resolve(matches: dict, selections: list[dict] | None = None) -> dict:
                                 for item in result["unknown"])
     from .named_identity import preserve_pending
     from .alternatives import preserve_conflicts
-    return preserve_conflicts(preserve_pending(result))
+    return preserve_context(preserve_conflicts(preserve_pending(result)))

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.xr.openxr",
+  "displayName": "com.unity.xr.openxr",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.openxr",
+      "fetchedAt": "2026-10-18T04:59:01.206290Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "1.14.3",
+      "variantId": "registry-packages.unity.com-7959521b64bbf73c",
+      "sourceUrl": "https://packages.unity.com/com.unity.xr.openxr",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.xr.openxr/-/com.unity.xr.openxr-1.14.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "3903c1059bcf18e6a894f8aa2076f2a8267716bd",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.inputsystem": "1.6.3",
+        "com.unity.xr.core-utils": "2.3.0",
+        "com.unity.xr.management": "4.4.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.openxr/1.14.3",
+      "deprecated": null,
+      "unity": "2021.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "3903c1059bcf18e6a894f8aa2076f2a8267716bd"
+        }
+      }
+    },
+    {
+      "version": "1.17.1",
+      "variantId": "registry-packages.unity.com-1f42b3fed3b3330a",
+      "sourceUrl": "https://packages.unity.com/com.unity.xr.openxr",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.xr.openxr/-/com.unity.xr.openxr-1.17.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "58837b2992e0aed54ab5302ff677e8efcbb88bdf",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.inputsystem": "1.6.3",
+        "com.unity.xr.core-utils": "2.3.0",
+        "com.unity.xr.management": "4.4.0",
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.openxr/1.17.1",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "58837b2992e0aed54ab5302ff677e8efcbb88bdf"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "1.19.0-pre.2"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "1.14.3",
+      "1.17.1"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "1.14.3",
+    "1.17.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "xr",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-xr",
+  "preferredVersions": [
+    "1.14.3",
+    "1.17.1"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3
+}

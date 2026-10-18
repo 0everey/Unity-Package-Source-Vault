@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.modules.androidjni",
+  "displayName": "UnityEngine.AndroidJNIModule",
+  "sources": [
+    {
+      "kind": "unity-builtin-reference",
+      "url": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.androidjni.html"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "moduleVersion": "1.0.0",
+      "unityVersion": "unknown",
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "variantId": "unity-builtin-reference",
+      "disposition": "builtin-reference",
+      "sourceUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.androidjni.html",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "artifact": null,
+      "fetchStatus": "reference-only",
+      "dependencies": {},
+      "license": {
+        "expression": "Unity-Engine-License",
+        "evidenceUrl": "https://unity.com/legal/terms-of-service/software",
+        "sha256": null,
+        "components": [],
+        "redistribution": "no-payload-reference-only"
+      },
+      "provider": {
+        "kind": "unity-builtin-module",
+        "assemblyName": "UnityEngine.AndroidJNIModule",
+        "referenceStatus": "reference-pending",
+        "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+        "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.androidjni.html",
+        "apiFeatures": [
+          {
+            "typeFullName": "UnityEngine.AndroidJNI",
+            "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/a322ce5f78a82cf7ea211857a45338136ed7a22f/Modules/AndroidJNI/AndroidJNI.bindings.cs"
+          },
+          {
+            "typeFullName": "UnityEngine.AndroidJavaObject",
+            "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/a322ce5f78a82cf7ea211857a45338136ed7a22f/Modules/AndroidJNI/AndroidJava.cs"
+          }
+        ],
+        "memberFeatures": [],
+        "recognitionMode": "multiple-api-types",
+        "namespaceScopes": [
+          "UnityEngine"
+        ],
+        "rulesSha256": "bc8bfc70119a30dfd9c8a1fee77a628d6b64ef8e16ed037777ae93fa169f16c2",
+        "profileVerified": false
+      },
+      "fingerprint": {
+        "files": [],
+        "assemblies": [
+          {
+            "name": "UnityEngine.AndroidJNIModule",
+            "version": "0.0.0.0"
+          }
+        ],
+        "types": [
+          "UnityEngine.AndroidJNI",
+          "UnityEngine.AndroidJavaObject"
+        ],
+        "typeDeclarations": [
+          {
+            "fullName": "UnityEngine.AndroidJNI",
+            "assemblyIdentity": {
+              "name": "UnityEngine.AndroidJNIModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          },
+          {
+            "fullName": "UnityEngine.AndroidJavaObject",
+            "assemblyIdentity": {
+              "name": "UnityEngine.AndroidJNIModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          }
+        ],
+        "namespaces": [
+          "UnityEngine"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"
+      }
+    }
+  ],
+  "adapter": "reference",
+  "family": "unity-builtin",
+  "metadataStatus": "reference-only",
+  "selectedVersions": []
+}

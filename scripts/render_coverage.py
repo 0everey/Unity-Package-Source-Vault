@@ -13,7 +13,7 @@ references=len(queue['packages'])-common-companions-builtin
 lines=["# Common package coverage ("+queue.get('requirementRevision','R4')+")","",
        f"Current denominator: {common} common root families, {companions} parent-constrained companion entries, {builtin} builtin module providers and {references} commercial/Editor/restricted/unresolved reference entries.",
        "The whitelist is complete for this scope; it is not a Unity ecosystem census.",
-       "Two common versions per family, at most three for justified gaps/legacy; fewer available versions remain explicit.","",
+       "Normally two versions within a default budget of three; named per-package legacy/dependency exceptions allow four or five and retain previous immutable evidence. Fewer available versions remain explicit.","",
        f"Generated: {report['generatedAt']}. Registered {report['registeredPackages']}/{report['discoveredPackages']} entries; "
        f"{report['listedVersions']} version records; {report['completedSelectedVersionTasks']}/{report['selectedVersionTasks']} archive tasks collected; "
        f"{report['publishedVersionRecords']} published version/variant records with anonymous remote hash verification.","",
@@ -51,4 +51,9 @@ lines += ["## R6 dependency and demand boundaries", "",
           "Unity and NuGet Newtonsoft remain alternative distributions. resolve/export report a conflict when both are selected, including old locks; explicitly choosing one preserves the unselected evidence and all other unresolved facts.", "",
           "On-demand candidates (no selected version or collection): "+", ".join(p['id'] for p in queue.get('onDemandCandidates',[]))+".",
           "Unverified provider candidates (inactive): "+", ".join(p['providerHint'] for p in queue.get('providerRuleCandidates',[]))+".", ""]
+lines += ["## R7 explicit activation and family references", "",
+          "Activated former demand candidates: "+", ".join(p['id'] for p in queue.get('activatedDemandCandidates',[]))+".",
+          "Activated finite provider rules: "+", ".join(p['providerHint'] for p in queue.get('activatedProviderCandidates',[]))+".",
+          "Official family clues keep exact version/target bytes and missing full names/assemblies unknown. They add acquisition work without removing native eligibility. Four singleton exceptions are finite; old UnityEngine only routes its registered GameObject/Transform types.",
+          "[R7 additions](R7-ADDITIONS.md) lists the finite expansion and diagnostic comparison. Registration, acquisition, legal redistribution, target equality and real game use are separate results.", ""]
 (root/'docs/COVERAGE.md').write_text('\n'.join(lines),encoding='utf-8')

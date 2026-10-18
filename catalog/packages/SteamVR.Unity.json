@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "1.0",
+  "id": "SteamVR.Unity",
+  "displayName": "SteamVR.Unity",
+  "adapter": "github",
+  "repository": "ValveSoftware/steamvr_unity_plugin",
+  "sources": [
+    {
+      "kind": "explicit-immutable-git-pins",
+      "url": "https://github.com/ValveSoftware/steamvr_unity_plugin",
+      "fetchedAt": "2026-10-18T04:59:02.174342Z",
+      "completeEnumeration": false
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.8.3b2",
+      "variantId": "git-7e64e2cbc68d",
+      "sourceUrl": "https://github.com/ValveSoftware/steamvr_unity_plugin",
+      "sourceRef": "7e64e2cbc68d346a7771ce585dcd493387f868f7",
+      "sourcePath": null,
+      "sourceTag": "2.8.3b2",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/ValveSoftware/steamvr_unity_plugin/tar.gz/7e64e2cbc68d346a7771ce585dcd493387f868f7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease"
+    },
+    {
+      "version": "2.8.5b",
+      "variantId": "git-eaa6fea7060c",
+      "sourceUrl": "https://github.com/ValveSoftware/steamvr_unity_plugin",
+      "sourceRef": "eaa6fea7060c60926578e94af6bab526ac15f694",
+      "sourcePath": null,
+      "sourceTag": "2.8.5b",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/ValveSoftware/steamvr_unity_plugin/tar.gz/eaa6fea7060c60926578e94af6bab526ac15f694",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease"
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "2.8.3b2",
+      "2.8.5b"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "2.8.3b2",
+    "2.8.5b"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "xr",
+  "componentBundle": "sdk-managed-components",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "gitPins": [
+    {
+      "version": "2.8.3b2",
+      "sourceRef": "7e64e2cbc68d346a7771ce585dcd493387f868f7",
+      "sourceTag": "2.8.3b2",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "versionStatus": "prerelease"
+    },
+    {
+      "version": "2.8.5b",
+      "sourceRef": "eaa6fea7060c60926578e94af6bab526ac15f694",
+      "sourceTag": "2.8.5b",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "versionStatus": "prerelease"
+    }
+  ],
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-xr",
+  "preferredVersions": [
+    "2.8.3b2",
+    "2.8.5b"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

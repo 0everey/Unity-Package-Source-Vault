@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.modules.director",
+  "displayName": "UnityEngine.DirectorModule",
+  "sources": [
+    {
+      "kind": "unity-builtin-reference",
+      "url": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.director.html"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "moduleVersion": "1.0.0",
+      "unityVersion": "unknown",
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "variantId": "unity-builtin-reference",
+      "disposition": "builtin-reference",
+      "sourceUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.director.html",
+      "sourceRef": null,
+      "downloadUrl": null,
+      "artifact": null,
+      "fetchStatus": "reference-only",
+      "dependencies": {},
+      "license": {
+        "expression": "Unity-Engine-License",
+        "evidenceUrl": "https://unity.com/legal/terms-of-service/software",
+        "sha256": null,
+        "components": [],
+        "redistribution": "no-payload-reference-only"
+      },
+      "provider": {
+        "kind": "unity-builtin-module",
+        "assemblyName": "UnityEngine.DirectorModule",
+        "referenceStatus": "reference-pending",
+        "installationUrl": "https://docs.unity3d.com/hub/manual/InstallEditors.html",
+        "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.director.html",
+        "apiFeatures": [],
+        "memberFeatures": [
+          {
+            "typeFullName": "UnityEngine.Playables.PlayableDirector",
+            "name": "Play",
+            "returnType": "System.Void",
+            "parameterTypes": [],
+            "static": false,
+            "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/a322ce5f78a82cf7ea211857a45338136ed7a22f/Modules/Director/ScriptBindings/PlayableDirector.bindings.cs"
+          },
+          {
+            "typeFullName": "UnityEngine.Playables.PlayableDirector",
+            "name": "Stop",
+            "returnType": "System.Void",
+            "parameterTypes": [],
+            "static": false,
+            "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/a322ce5f78a82cf7ea211857a45338136ed7a22f/Modules/Director/ScriptBindings/PlayableDirector.bindings.cs"
+          }
+        ],
+        "recognitionMode": "single-type-two-public-members",
+        "namespaceScopes": [
+          "UnityEngine.Playables.PlayableDirector"
+        ],
+        "rulesSha256": "bc8bfc70119a30dfd9c8a1fee77a628d6b64ef8e16ed037777ae93fa169f16c2",
+        "profileVerified": false
+      },
+      "fingerprint": {
+        "files": [],
+        "assemblies": [
+          {
+            "name": "UnityEngine.DirectorModule",
+            "version": "0.0.0.0"
+          }
+        ],
+        "types": [
+          "UnityEngine.Playables.PlayableDirector"
+        ],
+        "typeDeclarations": [
+          {
+            "fullName": "UnityEngine.Playables.PlayableDirector",
+            "assemblyIdentity": {
+              "name": "UnityEngine.DirectorModule"
+            },
+            "ownershipVerified": true,
+            "profileVerified": false
+          }
+        ],
+        "namespaces": [
+          "UnityEngine.Playables.PlayableDirector"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "official-module-api-reference-features-not-target-byte-equality"
+      }
+    }
+  ],
+  "adapter": "reference",
+  "family": "unity-builtin",
+  "metadataStatus": "reference-only",
+  "selectedVersions": []
+}

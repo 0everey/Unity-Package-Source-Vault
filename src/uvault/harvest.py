@@ -190,6 +190,8 @@ def coverage(queue):
             "requirementRevision":queue.get("requirementRevision","R4"),"compatibilitySets":queue.get("compatibilitySets",[]),
             "nugetDependencyCandidates":queue.get("nugetDependencyCandidates",{}),
             "onDemandCandidates":queue.get("onDemandCandidates",[]),"providerRuleCandidates":queue.get("providerRuleCandidates",[]),
+            "activatedDemandCandidates":queue.get("activatedDemandCandidates",[]),"coverageDecision":queue.get("coverageDecision",{}),
+            "activatedProviderCandidates":queue.get("activatedProviderCandidates",[]),
             "registeredPackages": metadata.get("complete", 0) + metadata.get("reference-only", 0),
             "metadataStatusCounts": metadata, "listedVersions": listed, "selectedVersionTasks": selected,
             "completedSelectedVersionTasks": completed, "pendingSelectedVersionTasks": selected - completed,
@@ -489,6 +491,11 @@ def collect_version(package, version, *, publish=None):
         from .inventory import fingerprint_archive
         fingerprint = fingerprint_archive(data, archive_format)
         record["fingerprint"] = fingerprint
+        component=(record.get("componentScope") or {}).get("metadata")
+        if component:
+            observed=next((f for f in fingerprint["files"] if f["path"]==component["path"]),None)
+            if not observed or observed["sha256"]!=component["sha256"]:
+                raise ValueError("Pinned component package metadata differs from the original archive")
         if record.get("nuget"):
             from .nuget import assets
             record["nuget"]["assets"] = assets(fingerprint["files"])
@@ -502,7 +509,16 @@ def collect_version(package, version, *, publish=None):
                 "scope":"SDK bundled assembly versions; never substitute similarly named System packages","profileVerified":False}
             record["sdkBundle"]["metadataStatus"]="decoded-sdk-assemblies" if record["sdkBundle"]["assemblies"] else "managed-metadata-unavailable"
             record["sdkBundle"]["unparsedDlls"]=[{"path":item["path"],"status":item.get("metadataStatus"),"reason":item.get("metadataError")}
-                                               for item in fingerprint.get("managedMetadata",[]) if item.get("metadataStatus") not in ("managed","native")]
+                                                 for item in fingerprint.get("managedMetadata",[]) if item.get("metadataStatus") not in ("managed","native")]
+        elif package.get("componentBundle")=="sdk-managed-components":
+            record["sdkBundle"]={"packageId":package["id"],"version":record["version"],"archiveSha256":_sha(data),
+                "assemblies":[{"path":item["path"],"sha256":item["sha256"],"assemblyIdentity":copy.deepcopy(item["assemblyIdentity"]),
+                               "basis":"actual-sdk-archive-offline-managed-metadata"}
+                              for item in fingerprint.get("managedMetadata",[]) if item.get("metadataStatus")=="managed"],
+                "scope":"Actual bundled managed identities only; no inference of native SDK versions or interchangeable dependencies","profileVerified":False}
+            record["sdkBundle"]["metadataStatus"]="decoded-managed-identities" if record["sdkBundle"]["assemblies"] else "no-decoded-managed-dll-identities"
+            record["sdkBundle"]["unparsedDlls"]=[{"path":item["path"],"status":item.get("metadataStatus"),"reason":item.get("metadataError")}
+                                                 for item in fingerprint.get("managedMetadata",[]) if item.get("metadataStatus")!="managed"]
         names = [item["path"] for item in fingerprint.get("files", [])]
         has_sources = any(name.lower().endswith(".cs") for name in names)
         has_binary = bool(rights["binaryComponents"])

@@ -37,10 +37,15 @@ def save_index(root, queue, bundle=False):
     queue["compatibilitySets"]=compatibility_sets(queue)
     from .nuget import dependency_candidates
     queue["nugetDependencyCandidates"] = dependency_candidates(queue)
+    from .family_identity import reference_catalog
+    family_references=reference_catalog()
     index={"schemaVersion":"1.0","catalogCommit":"pending", "scope":queue.get("scope"), "scopeVersion":queue.get("scopeVersion"),
            "requirementRevision":queue.get("requirementRevision","R4"),"compatibilitySetDefinitions":queue.get("compatibilitySetDefinitions",[]),"compatibilitySets":queue["compatibilitySets"],
            "nugetDependencyCandidates":queue["nugetDependencyCandidates"],
            "onDemandCandidates":queue.get("onDemandCandidates",[]), "providerRuleCandidates":queue.get("providerRuleCandidates",[]),
+           "activatedDemandCandidates":queue.get("activatedDemandCandidates",[]),"coverageDecision":queue.get("coverageDecision",{}),
+           "activatedProviderCandidates":queue.get("activatedProviderCandidates",[]),
+           "familyReferences":family_references,
            "enumerationMeaning":queue.get("enumerationMeaning"),
            "snapshots":queue.get("snapshots",[]),"completeEnumeration":queue.get("completeEnumeration",False),
            "frontier":queue.get("frontier",[]),"coverage":"coverage.json",

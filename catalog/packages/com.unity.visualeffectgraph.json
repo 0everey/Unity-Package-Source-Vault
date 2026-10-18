@@ -7,24 +7,61 @@
       "kind": "registry",
       "url": "https://packages.unity.com",
       "metadataUrl": "https://packages.unity.com/com.unity.visualeffectgraph",
-      "fetchedAt": "2026-10-17T21:40:28.893120Z"
+      "fetchedAt": "2026-10-18T04:59:00.007593Z"
     },
     {
       "kind": "official-package-manifest",
       "url": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3/Packages/com.unity.visualeffectgraph/package.json",
       "sha256": "9455bf37245c3347e7abcfbf886830a06515e3e94514adc9aa8d95ec5baf41d5",
-      "fetchedAt": "2026-10-17T21:40:29.448319Z"
+      "fetchedAt": "2026-10-18T04:59:00.610331Z"
     },
     {
       "kind": "official-package-manifest",
       "url": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53/Packages/com.unity.visualeffectgraph/package.json",
       "sha256": "1050e1fdf5700f9b54211b91eb1c36dd0193fce6e061c7abd0514c32d75e473d",
-      "fetchedAt": "2026-10-17T21:40:29.963050Z"
+      "fetchedAt": "2026-10-18T04:59:01.232177Z"
+    },
+    {
+      "kind": "official-package-manifest",
+      "url": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/6034ecf6489af2ac1d543f9de25a76b8e91a78cb/Packages/com.unity.visualeffectgraph/package.json",
+      "sha256": "fbeaae1c259e2cf3762a3385e180aef564ead07b10c0dc931154d97c4bcb66cb",
+      "fetchedAt": "2026-10-18T04:59:02.137951Z"
     }
   ],
   "adapter": "registry",
   "registry": "https://packages.unity.com",
   "versions": [
+    {
+      "version": "4.8.0-preview",
+      "variantId": "registry-packages.unity.com-8d3b8f137dac8d3d",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/ScriptableRenderLoop.git",
+      "sourceRef": "2af273f1d8ddb6e0b8a77363916782df7e4990be",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.visualeffectgraph/-/com.unity.visualeffectgraph-4.8.0-preview.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "ff073ecb8e28088bf1fab48383cf00920170ab64",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "metadataUrl": "https://packages.unity.com/com.unity.visualeffectgraph/4.8.0-preview",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "ff073ecb8e28088bf1fab48383cf00920170ab64"
+        }
+      }
+    },
     {
       "version": "10.10.1",
       "variantId": "registry-packages.unity.com-bc6b4eca9a96b4cf",
@@ -3195,6 +3232,37 @@
       "collectedAt": "2026-10-17T21:44:31.170699Z"
     },
     {
+      "version": "12.1.16",
+      "variantId": "unity-editor-source-6034ecf6489a",
+      "sourceUrl": "https://github.com/Unity-Technologies/Graphics/tree/6034ecf6489af2ac1d543f9de25a76b8e91a78cb/Packages/com.unity.visualeffectgraph",
+      "sourceRef": "6034ecf6489af2ac1d543f9de25a76b8e91a78cb",
+      "downloadUrl": null,
+      "disposition": "official-fetch-only",
+      "fetchStatus": "reference-only",
+      "artifact": null,
+      "fingerprint": null,
+      "versionStatus": "stable",
+      "dependencies": {
+        "com.unity.shadergraph": "12.1.16",
+        "com.unity.render-pipelines.core": "12.1.16"
+      },
+      "unity": "2021.3",
+      "license": {
+        "expression": null,
+        "evidenceUrl": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/6034ecf6489af2ac1d543f9de25a76b8e91a78cb/Packages/com.unity.visualeffectgraph/package.json",
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "official-manifest-reference-no-payload-grant"
+      },
+      "acquisition": {
+        "kind": "unity-editor-bundled-package",
+        "sourcePath": "Packages/com.unity.visualeffectgraph",
+        "manifestSha256": "fbeaae1c259e2cf3762a3385e180aef564ead07b10c0dc931154d97c4bcb66cb",
+        "installationUrl": "https://unity.com/download",
+        "reason": "Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"
+      }
+    },
+    {
       "version": "14.0.12",
       "variantId": "unity-editor-source-03ca85dffdde",
       "sourceUrl": "https://github.com/Unity-Technologies/Graphics/tree/03ca85dffdde4b7bc1d6870074e6f5ff9f0352a3/Packages/com.unity.visualeffectgraph",
@@ -3223,7 +3291,9 @@
         "manifestSha256": "9455bf37245c3347e7abcfbf886830a06515e3e94514adc9aa8d95ec5baf41d5",
         "installationUrl": "https://unity.com/download",
         "reason": "Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"
-      }
+      },
+      "upstreamListed": true,
+      "metadataRefreshedAt": "2026-10-18T04:59:02.150541Z"
     },
     {
       "version": "17.0.4",
@@ -3254,21 +3324,27 @@
         "manifestSha256": "1050e1fdf5700f9b54211b91eb1c36dd0193fce6e061c7abd0514c32d75e473d",
         "installationUrl": "https://unity.com/download",
         "reason": "Official public registry has no downloadable archive for this Editor-bundled version; obtain through the matching Unity Editor or pinned official source path"
-      }
+      },
+      "upstreamListed": true,
+      "metadataRefreshedAt": "2026-10-18T04:59:02.150541Z"
     }
   ],
   "metadataStatus": "complete",
   "distTags": {
     "latest": "10.10.1"
   },
-  "availableUpstreamVersionCount": 3,
+  "availableUpstreamVersionCount": 5,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
-    "maxCommonVersions": 3,
+    "maxCommonVersions": 5,
+    "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records",
     "preferredVersions": [
+      "10.10.1",
       "14.0.12",
-      "17.0.4"
+      "17.0.4",
+      "12.1.16",
+      "4.8.0-preview"
     ],
     "legacyMajor": null,
     "selectionMode": "fixed-common",
@@ -3278,8 +3354,10 @@
   "explicitVersionRequests": [],
   "selectedVersions": [
     "10.10.1",
+    "12.1.16",
     "14.0.12",
-    "17.0.4"
+    "17.0.4",
+    "4.8.0-preview"
   ],
   "targetVersions": [],
   "missingTargetVersions": [],
@@ -3296,11 +3374,28 @@
       "sourceRef": "feb4de2d9a93a4ae10d287d3a6d7003d08ea3e53",
       "path": "Packages/com.unity.visualeffectgraph/package.json",
       "version": "17.0.4"
+    },
+    {
+      "repository": "Unity-Technologies/Graphics",
+      "sourceRef": "6034ecf6489af2ac1d543f9de25a76b8e91a78cb",
+      "path": "Packages/com.unity.visualeffectgraph/package.json",
+      "version": "12.1.16"
     }
   ],
   "category": "rendering",
   "integrationNote": "Bind SRP/Shader Graph versions; engine VFXModule is not this package.",
   "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
-  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
-  "family": "common-rendering"
+  "versionPolicy": "Finite common selection; default two versions, package budget 5; explicit exceptions retain immutable prior records",
+  "family": "common-rendering",
+  "preferredVersions": [
+    "10.10.1",
+    "14.0.12",
+    "17.0.4",
+    "12.1.16",
+    "4.8.0-preview"
+  ],
+  "selectionMode": "fixed-common",
+  "commonArchiveFallback": true,
+  "maxCommonVersions": 5,
+  "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
 }

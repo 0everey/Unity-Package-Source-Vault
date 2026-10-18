@@ -7,12 +7,44 @@
       "kind": "registry",
       "url": "https://package.openupm.com",
       "metadataUrl": "https://package.openupm.com/jp.hadashikick.vcontainer",
-      "fetchedAt": "2026-10-17T19:26:56.884247Z"
+      "fetchedAt": "2026-10-18T04:58:59.921132Z"
     }
   ],
   "adapter": "registry",
   "registry": "https://package.openupm.com",
   "versions": [
+    {
+      "version": "1.16.8",
+      "variantId": "registry-package.openupm.com-29f30216254e9478",
+      "sourceUrl": "https://package.openupm.com/jp.hadashikick.vcontainer",
+      "sourceRef": "5e6f5cc14b6dc8b94251bf6c0d6c37025a6ecf77",
+      "downloadUrl": "https://package.openupm.com/jp.hadashikick.vcontainer/-/jp.hadashikick.vcontainer-1.16.8.tgz",
+      "upstreamIntegrity": "sha512-SGiEnB66EWjMeK7b1+ae0way4GnRh1cklRFj2h+WkbDv2KTbBlqStRU3KdOy2Hv/qtDk+S4R+QX5sghbC0GkQw==",
+      "upstreamShasum": "94276e73bc7c306734ad8eb1c0c71e6da6ab04b7",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": "MIT",
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://package.openupm.com/jp.hadashikick.vcontainer/1.16.8",
+      "deprecated": null,
+      "unity": "2018.4",
+      "upstream": {
+        "registry": "https://package.openupm.com",
+        "dist": {
+          "integrity": "sha512-SGiEnB66EWjMeK7b1+ae0way4GnRh1cklRFj2h+WkbDv2KTbBlqStRU3KdOy2Hv/qtDk+S4R+QX5sghbC0GkQw==",
+          "shasum": "94276e73bc7c306734ad8eb1c0c71e6da6ab04b7"
+        }
+      }
+    },
     {
       "version": "1.18.0",
       "variantId": "registry-package.openupm.com-399721c6f6323687",
@@ -1326,19 +1358,25 @@
     "latest": "1.19.0",
     "patch@1.6.3": "1.6.3"
   },
-  "availableUpstreamVersionCount": 2,
+  "availableUpstreamVersionCount": 3,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
     "maxCommonVersions": 3,
-    "preferredVersions": [],
+    "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records",
+    "preferredVersions": [
+      "1.18.0",
+      "1.19.0",
+      "1.16.8"
+    ],
     "legacyMajor": null,
-    "selectionMode": "common",
+    "selectionMode": "fixed-common",
     "retainVerifiedLegacy": false,
     "commonArchiveFallback": false
   },
   "explicitVersionRequests": [],
   "selectedVersions": [
+    "1.16.8",
     "1.18.0",
     "1.19.0"
   ],
@@ -1346,9 +1384,17 @@
   "missingTargetVersions": [],
   "missingPreferredVersions": [],
   "category": "dependency-injection",
-  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
   "definitionUrl": "https://raw.githubusercontent.com/openupm/openupm/de21083bda3ca4644d094da696ddc9e66b09f28e/data/packages/jp.hadashikick.vcontainer.yml",
   "definitionBlobSha": "eb7072452edea2c8433f38dc91a2816ed03e5980",
   "sourceSnapshot": "de21083bda3ca4644d094da696ddc9e66b09f28e",
-  "family": "common-dependency-injection"
+  "family": "common-dependency-injection",
+  "preferredVersions": [
+    "1.18.0",
+    "1.19.0",
+    "1.16.8"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
 }

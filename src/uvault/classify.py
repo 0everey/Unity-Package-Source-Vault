@@ -283,14 +283,18 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
                "catalogSha256": _hash(catalog), "profileSha256": _hash(profile)}
     classifier_sha = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     builtin_identity = rules_identity()
+    from .family_identity import detect_inventory,rules_identity as family_rules_identity
+    family_rules=family_rules_identity()
     cache_key = _hash(dict(binding, classifierSha256=classifier_sha, inventorySha256=_hash(inventory),
                            matchesSha256=_hash(matches), decisionsSha256=_hash(decisions),
                            builtinRules=builtin_identity,
                            namedOriginRules=named_rules_identity(),
+                           officialFamilyRules=family_rules,
                            restoration={"ids": sorted(restore_ids), "reason": restore_reason}))
     accepted = _decisions(decisions, binding, by_id)
     index, weak = _catalog_index(catalog, matches)
     builtin_proofs = detect_providers(inventory, profile=profile)
+    family_clues=detect_inventory(inventory)
     named_rules=pending_rules()
     rows, rows_by_id = [], {}
     for declaration in declarations:
@@ -303,7 +307,7 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
         named=match_pending(assembly=assembly["name"],type_name=declaration["typeFullName"],rules=named_rules)
         # A package-level known body/source conflict has no safe member-level
         # exclusion until its differences have been localized by the writer.
-        match_modified = any("modified-or-incomplete" in str(c.get("kind", "")) for candidate in strong for c in candidate["conflicts"])
+        match_modified = any(str(c.get("kind", "")).startswith("modified-or-") for candidate in strong for c in candidate["conflicts"])
         protected = category in PROTECTED or modified or match_modified or bool(named)
         if modified or match_modified:
             category = "modified"
@@ -321,6 +325,9 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
                "profileVerified": False, "nativeAction": "recover-native", "skipNativeRecovery": False,
                "reuseStatus": "not-adopted", "isRecovered": False, "nextQueue": "native-recovery",
                "reason": "protected-business-difference-or-unknown" if protected else "insufficient-scoped-library-evidence"}
+        if family_clues.get(declaration["id"]):
+            row["familyReferences"]=copy.deepcopy(family_clues[declaration["id"]])
+            row["familyReferenceUsage"]="source-investigation-only-no-native-exclusion-or-adoption-authority"
         if named:
             row.update(namedPending=copy.deepcopy(named),reason="named-origin-and-modification-unresolved")
             row["evidence"].append({"kind":"named-origin-and-modification-unresolved","families":copy.deepcopy(named)})
@@ -463,7 +470,7 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
         raise ValueError("Classification failed original declaration conservation")
     common = {"schemaVersion": "1.0", "binding": binding, "cacheKey": cache_key,
               "integrationStatus": "integration-pending"}
-    library = [copy.deepcopy(row) for row in rows if row["nativeAction"] == "defer-library-resolution" or row.get("restoredToNative") or row.get("namedPending")]
+    library = [copy.deepcopy(row) for row in rows if row["nativeAction"] == "defer-library-resolution" or row.get("restoredToNative") or row.get("namedPending") or row.get("familyReferences")]
     generated = [copy.deepcopy(row) for row in rows if row["nativeAction"] == "regenerate"]
     native = [row for row in rows if row["nativeAction"] == "recover-native"]
     native_ids = {row["id"] for row in native}
@@ -505,9 +512,11 @@ def classify(inventory, catalog, matches=None, profile=None, decisions=None, res
                                                                 if row["nativeAction"] == "provider-reference" and (row.get("provider") or {}).get("kind") == "unity-builtin-module").items())),
                "externalAliasResolutionRequired": bool(external_aliases),
                "namedPendingDeclarationCount":sum(bool(row.get("namedPending")) for row in rows),
+               "officialFamilyClueDeclarationCount":sum(bool(row.get("familyReferences")) for row in rows),
                "conservation": {"input": len(by_id), "routed": len(rows), "missing": [], "duplicate": []}}
     return {"classification": {**common, "classifierSha256": classifier_sha, "profile": copy.deepcopy(profile),
                                 "builtinRules": builtin_identity,
+                                "officialFamilyRules":family_rules,
                                 "completeScope": copy.deepcopy(inventory["completeScope"]),
                                 "sourceRefs": copy.deepcopy(inventory.get("sourceRefs", [])),
                                 "items": rows, "externalAliases": external_aliases, "adoptionStatus": "pending"},

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "ruleVersion": "r5-builtin-provider-2",
+  "ruleVersion": "r7-finite-provider-3",
   "referenceUnityVersions": [
     "2022.3",
     "6000.x"
@@ -515,6 +515,151 @@
           "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/ImageConversion.LoadImage.html"
         }
       ]
+    },
+    {
+      "id": "com.unity.modules.androidjni",
+      "displayName": "UnityEngine.AndroidJNIModule",
+      "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.AndroidJNIModule",
+      "namespaceScopes": [
+        "UnityEngine"
+      ],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.androidjni.html",
+      "apiFeatures": [
+        {
+          "typeFullName": "UnityEngine.AndroidJNI",
+          "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/a322ce5f78a82cf7ea211857a45338136ed7a22f/Modules/AndroidJNI/AndroidJNI.bindings.cs"
+        },
+        {
+          "typeFullName": "UnityEngine.AndroidJavaObject",
+          "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/a322ce5f78a82cf7ea211857a45338136ed7a22f/Modules/AndroidJNI/AndroidJava.cs"
+        }
+      ],
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ]
+    },
+    {
+      "id": "com.unity.modules.unityanalytics",
+      "displayName": "UnityEngine.UnityAnalyticsModule",
+      "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.UnityAnalyticsModule",
+      "namespaceScopes": [
+        "UnityEngine.Analytics"
+      ],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.unityanalytics.html",
+      "apiFeatures": [
+        {
+          "typeFullName": "UnityEngine.Analytics.Analytics",
+          "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/a322ce5f78a82cf7ea211857a45338136ed7a22f/Modules/UnityAnalytics/Public/UnityAnalytics.bindings.cs"
+        },
+        {
+          "typeFullName": "UnityEngine.Analytics.AnalyticsSessionInfo",
+          "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/a322ce5f78a82cf7ea211857a45338136ed7a22f/Modules/UnityAnalytics/Public/AnalyticsSessionInfo.bindings.cs"
+        }
+      ],
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ]
+    },
+    {
+      "id": "com.unity.modules.director",
+      "displayName": "UnityEngine.DirectorModule",
+      "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.DirectorModule",
+      "namespaceScopes": [
+        "UnityEngine.Playables.PlayableDirector"
+      ],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.director.html",
+      "apiFeatures": [],
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "recognitionMode": "single-type-two-public-members",
+      "exactType": "UnityEngine.Playables.PlayableDirector",
+      "memberFeatures": [
+        {
+          "typeFullName": "UnityEngine.Playables.PlayableDirector",
+          "name": "Play",
+          "returnType": "System.Void",
+          "parameterTypes": [],
+          "static": false,
+          "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/a322ce5f78a82cf7ea211857a45338136ed7a22f/Modules/Director/ScriptBindings/PlayableDirector.bindings.cs"
+        },
+        {
+          "typeFullName": "UnityEngine.Playables.PlayableDirector",
+          "name": "Stop",
+          "returnType": "System.Void",
+          "parameterTypes": [],
+          "static": false,
+          "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/a322ce5f78a82cf7ea211857a45338136ed7a22f/Modules/Director/ScriptBindings/PlayableDirector.bindings.cs"
+        }
+      ]
+    },
+    {
+      "id": "com.unity.modules.screencapture",
+      "displayName": "UnityEngine.ScreenCaptureModule",
+      "moduleVersion": "1.0.0",
+      "assemblyName": "UnityEngine.ScreenCaptureModule",
+      "namespaceScopes": [
+        "UnityEngine.ScreenCapture"
+      ],
+      "manualUrl": "https://docs.unity3d.com/2022.3/Documentation/Manual/com.unity.modules.screencapture.html",
+      "apiFeatures": [],
+      "referenceUnityVersions": [
+        "2022.3",
+        "6000.x"
+      ],
+      "recognitionMode": "single-type-two-public-members",
+      "exactType": "UnityEngine.ScreenCapture",
+      "memberFeatures": [
+        {
+          "typeFullName": "UnityEngine.ScreenCapture",
+          "name": "CaptureScreenshot",
+          "returnType": "System.Void",
+          "parameterTypes": [
+            "System.String"
+          ],
+          "static": true,
+          "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/a322ce5f78a82cf7ea211857a45338136ed7a22f/Modules/ScreenCapture/ScriptBindings/ScreenCapture.bindings.cs"
+        },
+        {
+          "typeFullName": "UnityEngine.ScreenCapture",
+          "name": "CaptureScreenshotAsTexture",
+          "returnType": "UnityEngine.Texture2D",
+          "parameterTypes": [],
+          "static": true,
+          "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/a322ce5f78a82cf7ea211857a45338136ed7a22f/Modules/ScreenCapture/ScriptBindings/ScreenCapture.bindings.cs"
+        }
+      ]
+    },
+    {
+      "id": "unity.builtin.legacy-engine-module",
+      "displayName": "Unity 5.6 monolithic UnityEngine reference",
+      "moduleVersion": "unknown",
+      "assemblyName": "UnityEngine",
+      "namespaceScopes": [
+        "UnityEngine"
+      ],
+      "manualUrl": "https://docs.unity3d.com/560/Documentation/Manual/UsingDLL.html",
+      "apiFeatures": [
+        {
+          "typeFullName": "UnityEngine.GameObject",
+          "url": "https://docs.unity3d.com/560/Documentation/ScriptReference/GameObject.html"
+        },
+        {
+          "typeFullName": "UnityEngine.Transform",
+          "url": "https://docs.unity3d.com/560/Documentation/ScriptReference/Transform.html"
+        }
+      ],
+      "recognitionMode": "finite-api-types",
+      "referenceUnityVersions": [
+        "5.6"
+      ],
+      "scopeNote": "Only the two registered exact types and their members; no entire assembly or namespace exclusion; target installation/identity/profile pending"
     }
   ]
 }

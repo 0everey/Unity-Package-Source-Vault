@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0",
+  "id": "YarnSpinner.Runtime.Source",
+  "displayName": "YarnSpinner.Runtime.Source",
+  "adapter": "github",
+  "repository": "YarnSpinnerTool/YarnSpinner",
+  "sources": [
+    {
+      "kind": "explicit-immutable-git-pins",
+      "url": "https://github.com/YarnSpinnerTool/YarnSpinner",
+      "fetchedAt": "2026-10-18T04:59:02.171136Z",
+      "completeEnumeration": false
+    }
+  ],
+  "versions": [
+    {
+      "version": "3.2.1",
+      "variantId": "git-3a5b7343f715",
+      "sourceUrl": "https://github.com/YarnSpinnerTool/YarnSpinner",
+      "sourceRef": "3a5b7343f715e4e9a3705fa4224e7fa510b92f1c",
+      "sourcePath": null,
+      "sourceTag": "v3.2.1",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/YarnSpinnerTool/YarnSpinner/tar.gz/3a5b7343f715e4e9a3705fa4224e7fa510b92f1c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    },
+    {
+      "version": "3.2.2",
+      "variantId": "git-5b3a4ff2d24e",
+      "sourceUrl": "https://github.com/YarnSpinnerTool/YarnSpinner",
+      "sourceRef": "5b3a4ff2d24e4f727e3f90fee5d8ce637474c305",
+      "sourcePath": null,
+      "sourceTag": "v3.2.2",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/YarnSpinnerTool/YarnSpinner/tar.gz/5b3a4ff2d24e4f727e3f90fee5d8ce637474c305",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "3.2.1",
+      "3.2.2"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "parent-constrained",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "3.2.1",
+    "3.2.2"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "parent-dependency",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "dependencyRole": "companion-not-root-family",
+  "gitPins": [
+    {
+      "version": "3.2.1",
+      "sourceRef": "3a5b7343f715e4e9a3705fa4224e7fa510b92f1c",
+      "sourceTag": "v3.2.1",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    },
+    {
+      "version": "3.2.2",
+      "sourceRef": "5b3a4ff2d24e4f727e3f90fee5d8ce637474c305",
+      "sourceTag": "v3.2.2",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    }
+  ],
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-parent-dependency",
+  "preferredVersions": [
+    "3.2.1",
+    "3.2.2"
+  ],
+  "selectionMode": "parent-constrained",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

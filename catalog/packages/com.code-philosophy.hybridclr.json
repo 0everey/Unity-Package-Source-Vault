@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.code-philosophy.hybridclr",
+  "displayName": "com.code-philosophy.hybridclr",
+  "adapter": "github",
+  "repository": "focus-creative-games/hybridclr_unity",
+  "sources": [
+    {
+      "kind": "explicit-immutable-git-pins",
+      "url": "https://github.com/focus-creative-games/hybridclr_unity",
+      "fetchedAt": "2026-10-18T04:59:02.158754Z",
+      "completeEnumeration": false
+    }
+  ],
+  "versions": [
+    {
+      "version": "8.15.0",
+      "variantId": "git-d17a727fac8a",
+      "sourceUrl": "https://github.com/focus-creative-games/hybridclr_unity",
+      "sourceRef": "d17a727fac8a56186c35294ec285362902f4a04d",
+      "sourcePath": null,
+      "sourceTag": "v8.15.0",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/focus-creative-games/hybridclr_unity/tar.gz/d17a727fac8a56186c35294ec285362902f4a04d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    },
+    {
+      "version": "9.0.3",
+      "variantId": "git-6cadd24d101f",
+      "sourceUrl": "https://github.com/focus-creative-games/hybridclr_unity",
+      "sourceRef": "6cadd24d101f4cbd00cd80190106f6621132d24d",
+      "sourcePath": null,
+      "sourceTag": "v9.0.3",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/focus-creative-games/hybridclr_unity/tar.gz/6cadd24d101f4cbd00cd80190106f6621132d24d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "8.15.0",
+      "9.0.3"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "8.15.0",
+    "9.0.3"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "hot-update",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "gitPins": [
+    {
+      "version": "8.15.0",
+      "sourceRef": "d17a727fac8a56186c35294ec285362902f4a04d",
+      "sourceTag": "v8.15.0",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    },
+    {
+      "version": "9.0.3",
+      "sourceRef": "6cadd24d101f4cbd00cd80190106f6621132d24d",
+      "sourceTag": "v9.0.3",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    }
+  ],
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-hot-update",
+  "preferredVersions": [
+    "8.15.0",
+    "9.0.3"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

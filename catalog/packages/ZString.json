@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0",
+  "id": "ZString",
+  "displayName": "ZString",
+  "adapter": "github",
+  "repository": "Cysharp/ZString",
+  "sources": [
+    {
+      "kind": "explicit-immutable-git-pins",
+      "url": "https://github.com/Cysharp/ZString",
+      "fetchedAt": "2026-10-18T04:59:02.166552Z",
+      "completeEnumeration": false
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.5.1",
+      "variantId": "git-7629cf7ca880",
+      "sourceUrl": "https://github.com/Cysharp/ZString",
+      "sourceRef": "7629cf7ca8801fb25104b641fc0ac0457849d7c9",
+      "sourcePath": null,
+      "sourceTag": "2.5.1",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/Cysharp/ZString/tar.gz/7629cf7ca8801fb25104b641fc0ac0457849d7c9",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    },
+    {
+      "version": "2.6.0",
+      "variantId": "git-3156134075b8",
+      "sourceUrl": "https://github.com/Cysharp/ZString",
+      "sourceRef": "3156134075b89a162fe95350a2e92a4c85ccca59",
+      "sourcePath": null,
+      "sourceTag": "2.6.0",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/Cysharp/ZString/tar.gz/3156134075b89a162fe95350a2e92a4c85ccca59",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable"
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "2.5.1",
+      "2.6.0"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "2.5.1",
+    "2.6.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "strings",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "gitPins": [
+    {
+      "version": "2.5.1",
+      "sourceRef": "7629cf7ca8801fb25104b641fc0ac0457849d7c9",
+      "sourceTag": "2.5.1",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    },
+    {
+      "version": "2.6.0",
+      "sourceRef": "3156134075b89a162fe95350a2e92a4c85ccca59",
+      "sourceTag": "2.6.0",
+      "versionBasis": "official-repository-tag-not-target-equivalence"
+    }
+  ],
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-strings",
+  "preferredVersions": [
+    "2.5.1",
+    "2.6.0"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

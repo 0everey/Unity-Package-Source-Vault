@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.searcher",
+  "displayName": "com.unity.searcher",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.searcher",
+      "fetchedAt": "2026-10-18T04:59:02.747156Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "4.9.1",
+      "variantId": "registry-packages.unity.com-8cfe4e4d87d6132d",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git",
+      "sourceRef": "9e68a2a9ba29bd6783bc91d15ff82bbd459f2163",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.searcher/-/com.unity.searcher-4.9.1.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "eb6ead789efdc34c55020fb72762d8ee033c6666",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.searcher/4.9.1",
+      "deprecated": null,
+      "unity": "2019.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "eb6ead789efdc34c55020fb72762d8ee033c6666"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "4.9.5"
+  },
+  "availableUpstreamVersionCount": 1,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "4.9.1"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "parent-constrained",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "4.9.1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "parent-dependency",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "dependencyRole": "companion-not-root-family",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-parent-dependency",
+  "preferredVersions": [
+    "4.9.1"
+  ],
+  "selectionMode": "parent-constrained",
+  "maxCommonVersions": 3
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.xr.arfoundation",
+  "displayName": "com.unity.xr.arfoundation",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.arfoundation",
+      "fetchedAt": "2026-10-18T04:59:01.515018Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "5.1.6",
+      "variantId": "registry-packages.unity.com-e3ab449b3f327b66",
+      "sourceUrl": "https://packages.unity.com/com.unity.xr.arfoundation",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.xr.arfoundation/-/com.unity.xr.arfoundation-5.1.6.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f442ec1f087dce9e8aa028a4d32bf9554da96b6c",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.inputsystem": "1.3.0",
+        "com.unity.mathematics": "1.2.5",
+        "com.unity.xr.core-utils": "2.2.1",
+        "com.unity.xr.management": "4.0.1",
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0",
+        "com.unity.modules.unityanalytics": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.arfoundation/5.1.6",
+      "deprecated": null,
+      "unity": "2021.2",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "f442ec1f087dce9e8aa028a4d32bf9554da96b6c"
+        }
+      }
+    },
+    {
+      "version": "6.6.2",
+      "variantId": "registry-packages.unity.com-3284ec6bca292312",
+      "sourceUrl": "https://packages.unity.com/com.unity.xr.arfoundation",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.xr.arfoundation/-/com.unity.xr.arfoundation-6.6.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "d57b0b4d336a489e593dafce40536fe5b2c7cc2e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.ugui": "2.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.inputsystem": "1.6.3",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.xr.core-utils": "2.6.0",
+        "com.unity.xr.management": "4.4.0",
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0",
+        "com.unity.modules.unityanalytics": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.xr.arfoundation/6.6.2",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "d57b0b4d336a489e593dafce40536fe5b2c7cc2e"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "6.7.0-pre.1"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "5.1.6",
+      "6.6.2"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "5.1.6",
+    "6.6.2"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "ar",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-ar",
+  "preferredVersions": [
+    "5.1.6",
+    "6.6.2"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.unity.settings-manager",
+  "displayName": "com.unity.settings-manager",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://packages.unity.com",
+      "metadataUrl": "https://packages.unity.com/com.unity.settings-manager",
+      "fetchedAt": "2026-10-18T04:59:02.181805Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://packages.unity.com",
+  "versions": [
+    {
+      "version": "1.0.3",
+      "variantId": "registry-packages.unity.com-559e18d929f7a876",
+      "sourceUrl": "https://github.com/Unity-Technologies/com.unity.settings-manager.git",
+      "sourceRef": "473664ccba1496294b741cf169740a5d54b3d0b6",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.settings-manager/-/com.unity.settings-manager-1.0.3.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "59cbe0e443a51c5752c74323dcae91119bac1ba6",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.settings-manager/1.0.3",
+      "deprecated": null,
+      "unity": "2018.3",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "59cbe0e443a51c5752c74323dcae91119bac1ba6"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "2.1.1"
+  },
+  "availableUpstreamVersionCount": 1,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "1.0.3"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "parent-constrained",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "1.0.3"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "parent-dependency",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "dependencyRole": "companion-not-root-family",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-parent-dependency",
+  "preferredVersions": [
+    "1.0.3"
+  ],
+  "selectionMode": "parent-constrained",
+  "maxCommonVersions": 3
+}

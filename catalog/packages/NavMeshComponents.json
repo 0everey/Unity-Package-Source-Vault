@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0",
+  "id": "NavMeshComponents",
+  "displayName": "NavMeshComponents",
+  "adapter": "github",
+  "repository": "Unity-Technologies/NavMeshComponents",
+  "sources": [
+    {
+      "kind": "explicit-immutable-git-pins",
+      "url": "https://github.com/Unity-Technologies/NavMeshComponents",
+      "fetchedAt": "2026-10-18T04:59:02.163430Z",
+      "completeEnumeration": false
+    }
+  ],
+  "versions": [
+    {
+      "version": "2018.3.0f2",
+      "variantId": "git-d29a5f3e8f16",
+      "sourceUrl": "https://github.com/Unity-Technologies/NavMeshComponents",
+      "sourceRef": "d29a5f3e8f163620e658a3d8ae641f0ffe319e93",
+      "sourcePath": "Assets/NavMeshComponents",
+      "sourceTag": "2018.3.0f2",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/Unity-Technologies/NavMeshComponents/tar.gz/d29a5f3e8f163620e658a3d8ae641f0ffe319e93",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "componentScope": {
+        "sourcePath": "Assets/NavMeshComponents",
+        "archiveScope": "complete-original-repository-archive",
+        "targetComponentEquivalenceVerified": false
+      }
+    },
+    {
+      "version": "2019.4.0f1",
+      "variantId": "git-f173ee3cce45",
+      "sourceUrl": "https://github.com/Unity-Technologies/NavMeshComponents",
+      "sourceRef": "f173ee3cce45dc00ab4aa7f5c0016b6b5cb7477b",
+      "sourcePath": "Assets/NavMeshComponents",
+      "sourceTag": "2019.4.0f1",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "downloadUrl": "https://codeload.github.com/Unity-Technologies/NavMeshComponents/tar.gz/f173ee3cce45dc00ab4aa7f5c0016b6b5cb7477b",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "prerelease",
+      "componentScope": {
+        "sourcePath": "Assets/NavMeshComponents",
+        "archiveScope": "complete-original-repository-archive",
+        "targetComponentEquivalenceVerified": false
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "2018.3.0f2",
+      "2019.4.0f1"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "2018.3.0f2",
+    "2019.4.0f1"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "navigation",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "gitPins": [
+    {
+      "version": "2018.3.0f2",
+      "sourceRef": "d29a5f3e8f163620e658a3d8ae641f0ffe319e93",
+      "sourceTag": "2018.3.0f2",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "sourcePath": "Assets/NavMeshComponents"
+    },
+    {
+      "version": "2019.4.0f1",
+      "sourceRef": "f173ee3cce45dc00ab4aa7f5c0016b6b5cb7477b",
+      "sourceTag": "2019.4.0f1",
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "sourcePath": "Assets/NavMeshComponents"
+    }
+  ],
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-navigation",
+  "preferredVersions": [
+    "2018.3.0f2",
+    "2019.4.0f1"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "registry": "https://packages.unity.com"
+}

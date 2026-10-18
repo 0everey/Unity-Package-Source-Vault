@@ -7,12 +7,89 @@
       "kind": "registry",
       "url": "https://packages.unity.com",
       "metadataUrl": "https://packages.unity.com/com.unity.addressables",
-      "fetchedAt": "2026-10-17T19:26:54.466201Z"
+      "fetchedAt": "2026-10-18T04:58:58.237820Z"
     }
   ],
   "adapter": "registry",
   "registry": "https://packages.unity.com",
   "versions": [
+    {
+      "version": "1.19.11",
+      "variantId": "registry-packages.unity.com-e0ae5215b9c755af",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/Addressables.git",
+      "sourceRef": "461277c23420bea0d6e57f13919a4f40b7efca75",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.addressables/-/com.unity.addressables-1.19.11.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "e737754867f453030daab332d3a4485e5209c68e",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.scriptablebuildpipeline": "1.19.3",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.addressables/1.19.11",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "e737754867f453030daab332d3a4485e5209c68e"
+        }
+      }
+    },
+    {
+      "version": "1.25.0",
+      "variantId": "registry-packages.unity.com-32df6463716134c0",
+      "sourceUrl": "https://packages.unity.com/com.unity.addressables",
+      "sourceRef": null,
+      "downloadUrl": "https://download.packages.unity.com/com.unity.addressables/-/com.unity.addressables-1.25.0.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "f2e7e14b0cbb4b84592f432b27c3f323e354d33a",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.test-framework": "1.1.33",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.scriptablebuildpipeline": "1.22.4",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.addressables/1.25.0",
+      "deprecated": null,
+      "unity": "2019.4",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "f2e7e14b0cbb4b84592f432b27c3f323e354d33a"
+        }
+      }
+    },
     {
       "version": "2.6.0",
       "variantId": "registry-packages.unity.com-7b748c5317ba6a59",
@@ -5233,21 +5310,27 @@
   "distTags": {
     "latest": "4.1.1"
   },
-  "availableUpstreamVersionCount": 2,
+  "availableUpstreamVersionCount": 4,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
-    "maxCommonVersions": 3,
+    "maxCommonVersions": 4,
+    "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records",
     "preferredVersions": [
-      "2.6.0"
+      "2.6.0",
+      "2.11.2",
+      "1.19.11",
+      "1.25.0"
     ],
     "legacyMajor": null,
-    "selectionMode": "common",
+    "selectionMode": "fixed-common",
     "retainVerifiedLegacy": false,
     "commonArchiveFallback": false
   },
   "explicitVersionRequests": [],
   "selectedVersions": [
+    "1.19.11",
+    "1.25.0",
     "2.11.2",
     "2.6.0"
   ],
@@ -5255,9 +5338,15 @@
   "missingTargetVersions": [],
   "missingPreferredVersions": [],
   "category": "assets",
-  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
+  "versionPolicy": "Finite common selection; default two versions, package budget 4; explicit exceptions retain immutable prior records",
   "family": "common-assets",
   "preferredVersions": [
-    "2.6.0"
-  ]
+    "2.6.0",
+    "2.11.2",
+    "1.19.11",
+    "1.25.0"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 4,
+  "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
 }

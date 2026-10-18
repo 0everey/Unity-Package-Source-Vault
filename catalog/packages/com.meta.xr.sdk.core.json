@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.meta.xr.sdk.core",
+  "displayName": "com.meta.xr.sdk.core",
+  "sources": [
+    {
+      "kind": "registry",
+      "url": "https://npm.developer.oculus.com",
+      "metadataUrl": "https://npm.developer.oculus.com/com.meta.xr.sdk.core",
+      "fetchedAt": "2026-10-18T04:59:03.367181Z"
+    }
+  ],
+  "adapter": "registry",
+  "registry": "https://npm.developer.oculus.com",
+  "versions": [
+    {
+      "version": "74.0.0",
+      "variantId": "registry-npm.developer.oculus.com-f6f551098c4c9818",
+      "sourceUrl": "https://npm.developer.oculus.com/com.meta.xr.sdk.core",
+      "sourceRef": null,
+      "downloadUrl": "https://npm.developer.oculus.com/com.meta.xr.sdk.core/-/com.meta.xr.sdk.core-74.0.0.tgz",
+      "upstreamIntegrity": "sha512-vwC+ofTrKxXR9UEjk9WQfYp9Z0Xj9UzgB2MsLSMZtbCTN+31Oizo6Fdd3fOP0oTDX04Dn+6AM/GII6s9vMLyTw==",
+      "upstreamShasum": "7f102b06061ff2d8333a215e16579089b6154274",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://npm.developer.oculus.com/com.meta.xr.sdk.core/74.0.0",
+      "deprecated": null,
+      "unity": "2022.3",
+      "upstream": {
+        "registry": "https://npm.developer.oculus.com",
+        "dist": {
+          "integrity": "sha512-vwC+ofTrKxXR9UEjk9WQfYp9Z0Xj9UzgB2MsLSMZtbCTN+31Oizo6Fdd3fOP0oTDX04Dn+6AM/GII6s9vMLyTw==",
+          "shasum": "7f102b06061ff2d8333a215e16579089b6154274"
+        }
+      }
+    },
+    {
+      "version": "207.0.1",
+      "variantId": "registry-npm.developer.oculus.com-bfa68600c7030950",
+      "sourceUrl": "https://npm.developer.oculus.com/com.meta.xr.sdk.core",
+      "sourceRef": null,
+      "downloadUrl": "https://npm.developer.oculus.com/com.meta.xr.sdk.core/-/com.meta.xr.sdk.core-207.0.1.tgz",
+      "upstreamIntegrity": "sha512-u8qeoFtvWInV9h/5e/nmnoUEWx6rOzgc1teOIfxGVUzlIcvHesS1p4W9Pv5aAJAbk8y6D3Wa6W7bfwgeXn42Zg==",
+      "upstreamShasum": "4c2eac90db2d4ee089b2230ab8fb213b2521584d",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.xr.hands": "1.7.2"
+      },
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://npm.developer.oculus.com/com.meta.xr.sdk.core/207.0.1",
+      "deprecated": null,
+      "unity": "6000.0",
+      "upstream": {
+        "registry": "https://npm.developer.oculus.com",
+        "dist": {
+          "integrity": "sha512-u8qeoFtvWInV9h/5e/nmnoUEWx6rOzgc1teOIfxGVUzlIcvHesS1p4W9Pv5aAJAbk8y6D3Wa6W7bfwgeXn42Zg==",
+          "shasum": "4c2eac90db2d4ee089b2230ab8fb213b2521584d"
+        }
+      }
+    }
+  ],
+  "metadataStatus": "complete",
+  "distTags": {
+    "latest": "207.0.1"
+  },
+  "availableUpstreamVersionCount": 2,
+  "curatedPolicy": {
+    "scopeVersion": "R4",
+    "versionCount": 2,
+    "maxCommonVersions": 3,
+    "budgetReason": null,
+    "preferredVersions": [
+      "74.0.0",
+      "207.0.1"
+    ],
+    "legacyMajor": null,
+    "selectionMode": "fixed-common",
+    "retainVerifiedLegacy": false,
+    "commonArchiveFallback": false
+  },
+  "explicitVersionRequests": [],
+  "selectedVersions": [
+    "207.0.1",
+    "74.0.0"
+  ],
+  "targetVersions": [],
+  "missingTargetVersions": [],
+  "missingPreferredVersions": [],
+  "category": "xr",
+  "componentBundle": "sdk-managed-components",
+  "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred",
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-xr",
+  "preferredVersions": [
+    "74.0.0",
+    "207.0.1"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3
+}

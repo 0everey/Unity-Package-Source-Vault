@@ -7,12 +7,43 @@
       "kind": "registry",
       "url": "https://packages.unity.com",
       "metadataUrl": "https://packages.unity.com/com.unity.postprocessing",
-      "fetchedAt": "2026-10-17T21:40:28.849483Z"
+      "fetchedAt": "2026-10-18T04:59:00.536639Z"
     }
   ],
   "adapter": "registry",
   "registry": "https://packages.unity.com",
   "versions": [
+    {
+      "version": "2.1.2",
+      "variantId": "registry-packages.unity.com-4401e195ab7c2385",
+      "sourceUrl": "ssh://git@github.com/Unity-Technologies/PostProcessing.git",
+      "sourceRef": "bf46ec0c63f1581ca9e0917a95bac20ce7bc733b",
+      "downloadUrl": "https://download.packages.unity.com/com.unity.postprocessing/-/com.unity.postprocessing-2.1.2.tgz",
+      "upstreamIntegrity": null,
+      "upstreamShasum": "47f79b0dd779fd60463e97723b221c72fd95f9f8",
+      "disposition": "license-unresolved",
+      "license": {
+        "expression": null,
+        "evidenceUrl": null,
+        "sha256": null,
+        "components": [],
+        "reviewStatus": "pending-per-version-archive"
+      },
+      "dependencies": {},
+      "artifact": null,
+      "fingerprint": null,
+      "fetchStatus": "pending",
+      "versionStatus": "stable",
+      "metadataUrl": "https://packages.unity.com/com.unity.postprocessing/2.1.2",
+      "deprecated": null,
+      "unity": "2018.1",
+      "upstream": {
+        "registry": "https://packages.unity.com",
+        "dist": {
+          "shasum": "47f79b0dd779fd60463e97723b221c72fd95f9f8"
+        }
+      }
+    },
     {
       "version": "3.5.3",
       "variantId": "registry-packages.unity.com-40d4d63655ea7deb",
@@ -1204,14 +1235,16 @@
   "distTags": {
     "latest": "3.5.4"
   },
-  "availableUpstreamVersionCount": 2,
+  "availableUpstreamVersionCount": 3,
   "curatedPolicy": {
     "scopeVersion": "R4",
     "versionCount": 2,
     "maxCommonVersions": 3,
+    "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records",
     "preferredVersions": [
       "3.5.3",
-      "3.5.4"
+      "3.5.4",
+      "2.1.2"
     ],
     "legacyMajor": null,
     "selectionMode": "fixed-common",
@@ -1220,6 +1253,7 @@
   },
   "explicitVersionRequests": [],
   "selectedVersions": [
+    "2.1.2",
     "3.5.3",
     "3.5.4"
   ],
@@ -1229,6 +1263,14 @@
   "category": "legacy-rendering",
   "integrationNote": "Legacy Built-in rendering; no automatic URP/HDRP installation.",
   "coverageBasis": "R6 general common coverage; no current-game requirement inferred",
-  "versionPolicy": "R4: two common versions; at most three including a justified gap/legacy",
-  "family": "common-legacy-rendering"
+  "versionPolicy": "Finite common selection; default two versions, package budget 3; explicit exceptions retain immutable prior records",
+  "family": "common-legacy-rendering",
+  "preferredVersions": [
+    "3.5.3",
+    "3.5.4",
+    "2.1.2"
+  ],
+  "selectionMode": "fixed-common",
+  "maxCommonVersions": 3,
+  "budgetReason": "R7 observed legacy/modern project and declared parent lines; retain all pre-R7 immutable selected records"
 }
