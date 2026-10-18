@@ -16,7 +16,7 @@
     {
       "version": "4.9.1",
       "variantId": "registry-packages.unity.com-8cfe4e4d87d6132d",
-      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git",
+      "sourceUrl": "https://github.cds.internal.unity3d.com/unity/com.unity.searcher",
       "sourceRef": "9e68a2a9ba29bd6783bc91d15ff82bbd459f2163",
       "downloadUrl": "https://download.packages.unity.com/com.unity.searcher/-/com.unity.searcher-4.9.1.tgz",
       "upstreamIntegrity": null,
@@ -24,15 +24,221 @@
       "disposition": "license-unresolved",
       "license": {
         "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "evidenceUrl": "https://download.packages.unity.com/com.unity.searcher/-/com.unity.searcher-4.9.1.tgz#package/LICENSE.md",
+        "sha256": "6cfa2239c508e4b2f5b4773a4df01a303405593c21f8ffab586f7674f173c2f7",
+        "text": "**Unity Companion Package License v1.0 (\"_License_\")**\r\n\r\nCopyright © 2019 Unity Technologies ApS (\"**_Unity_**\")\r\n\r\nUnity hereby grants to you a worldwide, non-exclusive, no-charge, and royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute the software that is made available with this License (\"**_Software_**\"), subject to the following terms and conditions:\r\n\r\n1. *Unity Companion Use Only*. Exercise of the license granted herein is limited to exercise for the creation, use, and/or distribution of applications, software, or other content pursuant to a valid Unity development engine software license (\"**_Engine License_**\"). That means while use of the Software is not limited to use in the software licensed under the Engine License, the Software may not be used for any purpose other than the creation, use, and/or distribution of Engine License-dependent applications, software, or other content. No other exercise of the license granted herein is permitted.\r\n\r\n1. *No Modification of Engine License*. Neither this License nor any exercise of the license granted herein modifies the Engine License in any way.\r\n\r\n1. *Ownership & Grant Back to You*. \r\n\r\n    3.1. You own your content. In this License, \"derivative works\" means derivatives of the Software itself--works derived only from the Software by you under this License (for example, modifying the code of the Software itself to improve its efficacy); “derivative works” of the Software do not include, for example, games, apps, or content that you create using the Software. You keep all right, title, and interest to your own content.\r\n\r\n    3.2. Unity owns its content. While you keep all right, title, and interest to your own content per the above, as between Unity and you, Unity will own all right, title, and interest to all intellectual property rights (including patent, trademark, and copyright) in the Software and derivative works of the Software, and you hereby assign and agree to assign all such rights in those derivative works to Unity. \r\n\r\n    3.3. You have a license to those derivative works. Subject to this License, Unity grants to you the same worldwide, non-exclusive, no-charge, and royalty-free copyright license to derivative works of the Software you create as is granted to you for the Software under this License.\r\n\r\n1. *Trademarks*. You are not granted any right or license under this License to use any trademarks, service marks, trade names, products names, or branding of Unity or its affiliates (\"**_Trademarks_**\"). Descriptive uses of Trademarks are permitted; see, for example, Unity’s Branding Usage Guidelines at [https://unity3d.com/public-relations/brand](https://unity3d.com/public-relations/brand).\r\n\r\n1. *Notices & Third-Party Rights*. This License, including the copyright notice above, must be provided in all substantial portions of the Software and derivative works thereof (or, if that is impracticable, in any other location where such notices are customarily placed). Further, if the Software is accompanied by a Unity \"third-party notices\" or similar file, you acknowledge and agree that software identified in that file is governed by those separate license terms.\r\n\r\n1. *DISCLAIMER, LIMITATION OF LIABILITY*. THE SOFTWARE AND ANY DERIVATIVE WORKS THEREOF IS PROVIDED ON AN \"AS IS\" BASIS, AND IS PROVIDED WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND/OR NONINFRINGEMENT. IN NO EVENT SHALL ANY COPYRIGHT HOLDER OR AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES (WHETHER DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL, INCLUDING PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, LOSS OF USE, DATA, OR PROFITS, AND BUSINESS INTERRUPTION), OR OTHER LIABILITY WHATSOEVER, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM OR OUT OF, OR IN CONNECTION WITH, THE SOFTWARE OR ANY DERIVATIVE WORKS THEREOF OR THE USE OF OR OTHER DEALINGS IN SAME, EVEN WHERE ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\r\n\r\n1. *USE IS ACCEPTANCE and License Versions*. Your receipt and use of the Software constitutes your acceptance of this License and its terms and conditions. Software released by Unity under this License may be modified or updated and the License with it; upon any such modification or update, you will comply with the terms of the updated License for any use of any of the Software under the updated License. \r\n\r\n1. *Use in Compliance with Law and Termination*. Your exercise of the license granted herein will at all times be in compliance with applicable law and will not infringe any proprietary rights (including intellectual property rights); this License will terminate immediately on any breach by you of this License.\r\n\r\n1. *Severability*. If any provision of this License is held to be unenforceable or invalid, that provision will be enforced to the maximum extent possible and the other provisions will remain in full force and effect.\r\n\r\n1. *Governing Law and Venue*. This License is governed by and construed in accordance with the laws of Denmark, except for its conflict of laws rules; the United Nations Convention on Contracts for the International Sale of Goods will not apply. If you reside (or your principal place of business is) within the United States, you and Unity agree to submit to the personal and exclusive jurisdiction of and venue in the state and federal courts located in San Francisco County, California concerning any dispute arising out of this License (\"**_Dispute_**\"). If you reside (or your principal place of business is) outside the United States, you and Unity agree to submit to the personal and exclusive jurisdiction of and venue in the courts located in Copenhagen, Denmark concerning any Dispute.",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": null,
+            "sha256": "6cfa2239c508e4b2f5b4773a4df01a303405593c21f8ffab586f7674f173c2f7",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.searcher/-/com.unity.searcher-4.9.1.tgz#package/LICENSE.md",
+            "text": "**Unity Companion Package License v1.0 (\"_License_\")**\r\n\r\nCopyright © 2019 Unity Technologies ApS (\"**_Unity_**\")\r\n\r\nUnity hereby grants to you a worldwide, non-exclusive, no-charge, and royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute the software that is made available with this License (\"**_Software_**\"), subject to the following terms and conditions:\r\n\r\n1. *Unity Companion Use Only*. Exercise of the license granted herein is limited to exercise for the creation, use, and/or distribution of applications, software, or other content pursuant to a valid Unity development engine software license (\"**_Engine License_**\"). That means while use of the Software is not limited to use in the software licensed under the Engine License, the Software may not be used for any purpose other than the creation, use, and/or distribution of Engine License-dependent applications, software, or other content. No other exercise of the license granted herein is permitted.\r\n\r\n1. *No Modification of Engine License*. Neither this License nor any exercise of the license granted herein modifies the Engine License in any way.\r\n\r\n1. *Ownership & Grant Back to You*. \r\n\r\n    3.1. You own your content. In this License, \"derivative works\" means derivatives of the Software itself--works derived only from the Software by you under this License (for example, modifying the code of the Software itself to improve its efficacy); “derivative works” of the Software do not include, for example, games, apps, or content that you create using the Software. You keep all right, title, and interest to your own content.\r\n\r\n    3.2. Unity owns its content. While you keep all right, title, and interest to your own content per the above, as between Unity and you, Unity will own all right, title, and interest to all intellectual property rights (including patent, trademark, and copyright) in the Software and derivative works of the Software, and you hereby assign and agree to assign all such rights in those derivative works to Unity. \r\n\r\n    3.3. You have a license to those derivative works. Subject to this License, Unity grants to you the same worldwide, non-exclusive, no-charge, and royalty-free copyright license to derivative works of the Software you create as is granted to you for the Software under this License.\r\n\r\n1. *Trademarks*. You are not granted any right or license under this License to use any trademarks, service marks, trade names, products names, or branding of Unity or its affiliates (\"**_Trademarks_**\"). Descriptive uses of Trademarks are permitted; see, for example, Unity’s Branding Usage Guidelines at [https://unity3d.com/public-relations/brand](https://unity3d.com/public-relations/brand).\r\n\r\n1. *Notices & Third-Party Rights*. This License, including the copyright notice above, must be provided in all substantial portions of the Software and derivative works thereof (or, if that is impracticable, in any other location where such notices are customarily placed). Further, if the Software is accompanied by a Unity \"third-party notices\" or similar file, you acknowledge and agree that software identified in that file is governed by those separate license terms.\r\n\r\n1. *DISCLAIMER, LIMITATION OF LIABILITY*. THE SOFTWARE AND ANY DERIVATIVE WORKS THEREOF IS PROVIDED ON AN \"AS IS\" BASIS, AND IS PROVIDED WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND/OR NONINFRINGEMENT. IN NO EVENT SHALL ANY COPYRIGHT HOLDER OR AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES (WHETHER DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL, INCLUDING PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, LOSS OF USE, DATA, OR PROFITS, AND BUSINESS INTERRUPTION), OR OTHER LIABILITY WHATSOEVER, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM OR OUT OF, OR IN CONNECTION WITH, THE SOFTWARE OR ANY DERIVATIVE WORKS THEREOF OR THE USE OF OR OTHER DEALINGS IN SAME, EVEN WHERE ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\r\n\r\n1. *USE IS ACCEPTANCE and License Versions*. Your receipt and use of the Software constitutes your acceptance of this License and its terms and conditions. Software released by Unity under this License may be modified or updated and the License with it; upon any such modification or update, you will comply with the terms of the updated License for any use of any of the Software under the updated License. \r\n\r\n1. *Use in Compliance with Law and Termination*. Your exercise of the license granted herein will at all times be in compliance with applicable law and will not infringe any proprietary rights (including intellectual property rights); this License will terminate immediately on any breach by you of this License.\r\n\r\n1. *Severability*. If any provision of this License is held to be unenforceable or invalid, that provision will be enforced to the maximum extent possible and the other provisions will remain in full force and effect.\r\n\r\n1. *Governing Law and Venue*. This License is governed by and construed in accordance with the laws of Denmark, except for its conflict of laws rules; the United Nations Convention on Contracts for the International Sale of Goods will not apply. If you reside (or your principal place of business is) within the United States, you and Unity agree to submit to the personal and exclusive jurisdiction of and venue in the state and federal courts located in San Francisco County, California concerning any dispute arising out of this License (\"**_Dispute_**\"). If you reside (or your principal place of business is) outside the United States, you and Unity agree to submit to the personal and exclusive jurisdiction of and venue in the courts located in Copenhagen, Denmark concerning any Dispute."
+          },
+          {
+            "path": "LICENSE.md.meta",
+            "expression": null,
+            "sha256": "43cbee2cc94c6cab1168eb6c2466786342ca9278c63bef88d434752d4204c8bb",
+            "evidenceUrl": "https://download.packages.unity.com/com.unity.searcher/-/com.unity.searcher-4.9.1.tgz#package/LICENSE.md.meta",
+            "text": "fileFormatVersion: 2\r\nguid: 200891d0445794843bffcc351163c84c\r\nTextScriptImporter:\r\n  externalObjects: {}\r\n  userData: \r\n  assetBundleName: \r\n  assetBundleVariant: \r\n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:36:25.146094Z",
+        "decisionBasis": [
+          "One or more component license texts are unrecognized or restricted"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
+      "artifact": {
+        "sha256": "90727179ba448d61f2f74263108334fbda694d6513517f26f900addb3f1f207b",
+        "size": 1069560,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://download.packages.unity.com/com.unity.searcher/-/com.unity.searcher-4.9.1.tgz",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "444b46405f7e06fd02f7be42b0ec1dc4cea35c875ea6105a427ac4b8f785a8f1",
+        "artifactSha256": "90727179ba448d61f2f74263108334fbda694d6513517f26f900addb3f1f207b",
+        "artifactSize": 1069560,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "UnityEditor.Searcher",
+          "UnityEditor.Searcher.Tests"
+        ],
+        "types": [
+          "UnityEditor.Searcher.ISearcherAdapter",
+          "UnityEditor.Searcher.ItemExpanderState",
+          "UnityEditor.Searcher.Searcher",
+          "UnityEditor.Searcher.Searcher+AnalyticsEvent",
+          "UnityEditor.Searcher.Searcher+AnalyticsEvent+EventType",
+          "UnityEditor.Searcher.SearcherAdapter",
+          "UnityEditor.Searcher.SearcherControl",
+          "UnityEditor.Searcher.SearcherDatabase",
+          "UnityEditor.Searcher.SearcherDatabase+Result",
+          "UnityEditor.Searcher.SearcherDatabaseBase",
+          "UnityEditor.Searcher.SearcherExampleComponent",
+          "UnityEditor.Searcher.SearcherExampleComponentEditor",
+          "UnityEditor.Searcher.SearcherExampleHostWindow",
+          "UnityEditor.Searcher.SearcherExampleWindow",
+          "UnityEditor.Searcher.SearcherHighlighter",
+          "UnityEditor.Searcher.SearcherItem",
+          "UnityEditor.Searcher.SearcherTreeUtility",
+          "UnityEditor.Searcher.SearcherWindow",
+          "UnityEditor.Searcher.SearcherWindow+Alignment",
+          "UnityEditor.Searcher.SearcherWindow+Alignment+Horizontal",
+          "UnityEditor.Searcher.SearcherWindow+Alignment+Vertical",
+          "UnityEditor.Searcher.Tests.Is",
+          "UnityEditor.Searcher.Tests.MatchTests",
+          "UnityEditor.Searcher.Tests.SearcherItemCollectionEquivalentConstraint",
+          "UnityEditor.Searcher.Tests.SearcherTests",
+          "UnityEditor.Searcher.Tests.SearcherTestsBase",
+          "UnityEditor.Searcher.Tests.SearcherTreeUtilityTests"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "Unity.Searcher.Editor",
+            "path": "Editor/Unity.Searcher.Editor.asmdef",
+            "guid": "4988cf9794f41d64c884876ab6574b89",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEditor.Searcher.ISearcherAdapter",
+              "UnityEditor.Searcher.ItemExpanderState",
+              "UnityEditor.Searcher.Searcher",
+              "UnityEditor.Searcher.Searcher+AnalyticsEvent",
+              "UnityEditor.Searcher.Searcher+AnalyticsEvent+EventType",
+              "UnityEditor.Searcher.SearcherAdapter",
+              "UnityEditor.Searcher.SearcherControl",
+              "UnityEditor.Searcher.SearcherDatabase",
+              "UnityEditor.Searcher.SearcherDatabase+Result",
+              "UnityEditor.Searcher.SearcherDatabaseBase",
+              "UnityEditor.Searcher.SearcherHighlighter",
+              "UnityEditor.Searcher.SearcherItem",
+              "UnityEditor.Searcher.SearcherTreeUtility",
+              "UnityEditor.Searcher.SearcherWindow",
+              "UnityEditor.Searcher.SearcherWindow+Alignment",
+              "UnityEditor.Searcher.SearcherWindow+Alignment+Horizontal",
+              "UnityEditor.Searcher.SearcherWindow+Alignment+Vertical"
+            ]
+          },
+          {
+            "name": "Unity.Searcher.EditorSamples",
+            "path": "Samples~/Editor/Unity.Searcher.EditorSamples.asmdef",
+            "guid": "063bfb68d4787a54baa498ab07afabff",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [
+              "Unity.Searcher.Editor",
+              "Unity.Searcher.ScriptsSamples"
+            ],
+            "profileIssues": [
+              "unknown-platform"
+            ],
+            "types": [
+              "UnityEditor.Searcher.SearcherExampleComponentEditor",
+              "UnityEditor.Searcher.SearcherExampleHostWindow",
+              "UnityEditor.Searcher.SearcherExampleWindow"
+            ]
+          },
+          {
+            "name": "Unity.Searcher.EditorTests",
+            "path": "Tests/Editor/Unity.Searcher.EditorTests.asmdef",
+            "guid": "432b70115e987f44abb984cfe7de384f",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": null,
+            "includePlatforms": [
+              "Editor"
+            ],
+            "excludePlatforms": [],
+            "defineConstraints": [
+              "UNITY_INCLUDE_TESTS"
+            ],
+            "versionDefines": [],
+            "references": [
+              "Unity.Searcher.Editor",
+              "Unity.Searcher.EditorSamples"
+            ],
+            "profileIssues": [
+              "unknown-platform",
+              "unknown-define-constraint"
+            ],
+            "types": [
+              "UnityEditor.Searcher.Tests.Is",
+              "UnityEditor.Searcher.Tests.MatchTests",
+              "UnityEditor.Searcher.Tests.SearcherItemCollectionEquivalentConstraint",
+              "UnityEditor.Searcher.Tests.SearcherTests",
+              "UnityEditor.Searcher.Tests.SearcherTestsBase",
+              "UnityEditor.Searcher.Tests.SearcherTreeUtilityTests"
+            ]
+          },
+          {
+            "name": "Unity.Searcher.ScriptsSamples",
+            "path": "Samples~/Scripts/Unity.Searcher.ScriptsSamples.asmdef",
+            "guid": "c201884b714f6b5478c3e1e9315f08a1",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "active": true,
+            "includePlatforms": [],
+            "excludePlatforms": [],
+            "defineConstraints": [],
+            "versionDefines": [],
+            "references": [],
+            "profileIssues": [],
+            "types": [
+              "UnityEditor.Searcher.SearcherExampleComponent"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/90727179ba448d61f2f74263108334fbda694d6513517f26f900addb3f1f207b-595fb35e69ff.json.gz",
+          "sha256": "a3aad2d9f682adbf8c2320dbb4f1ede1d836942b4d56c707ac5c39f6a5ba3ba2",
+          "size": 7622,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 119,
+        "sourceFileCount": 17,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 2,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "collected",
       "versionStatus": "stable",
       "metadataUrl": "https://packages.unity.com/com.unity.searcher/4.9.1",
       "deprecated": null,
@@ -42,7 +248,13 @@
         "dist": {
           "shasum": "eb6ead789efdc34c55020fb72762d8ee033c6666"
         }
-      }
+      },
+      "packageId": "com.unity.searcher",
+      "sourceRefEvidence": {
+        "kind": "archive-package-json",
+        "sha256": "1997159d1b5c9ce5436f7b41375cbd0ed808d9f28a09f9dfa641166c29b31c9f"
+      },
+      "collectedAt": "2026-10-18T05:36:25.180048Z"
     }
   ],
   "metadataStatus": "complete",
