@@ -5,9 +5,10 @@
 完整 Runtime 消费者清点未取得，因此每项目及汇总的完整 Runtime 分母、比例均为 null。模板默认模块、Editor/Test 声明和未知消费者不冒实际运行依赖。
 
 - 基线：`6d2e090768da3e294ae9f61f37a7e7690857236a`。
-- R7 目录快照：`9d3454b870c451eb85b5f85caa2dae7fb074be15`。
+- R7 目录快照：`78317f743add445c2dc476393f1127dd32b6ecbe`。
 - 输入文件 SHA256：`7db1c3ed9346af5bd6a848ed351065ca29f19caae74f2213dd74a88f88909763`；前后输入内容相同。
-- [逐项原始结果](coverage-panel-r7-comparison.json)；[固定公开输入及来源 URL/SHA](../sources/coverage-panel-r7.json)。
+- [修正后逐项原始结果](verification/r7-panel-final.json)；[固定公开输入及来源 URL/SHA](../sources/coverage-panel-r7.json)。
+- [9d 冻结测量原件](coverage-panel-r7-comparison.json)保留；随后许可／嵌入来源修正没有改变下列统计。
 
 ## 同输入前后结果
 
