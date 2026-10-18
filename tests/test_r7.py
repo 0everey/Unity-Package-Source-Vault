@@ -55,6 +55,7 @@ class R7Tests(unittest.TestCase):
         seed={'id':'example','repository':'Owner/Example','gitPins':[]}
         for label,status in [('Unity/R11','vendor-tag-unassessed'),('Release2.45','vendor-tag-unassessed'),
                              ('release_8_6_5','vendor-tag-unassessed'),('1.2.0','stable'),('v1.2.0-beta.1','prerelease'),
+                             ('1.2.0-beta.2+sha.123','prerelease'),('v1.2.0+sha.123','stable'),
                              ('source-abc','snapshot')]:
             seed['gitPins']=[{'version':label,'sourceRef':'a'*40}]
             self.assertEqual(sources.pinned_git_package(seed)['versions'][0]['versionStatus'],status)

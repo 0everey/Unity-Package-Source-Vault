@@ -551,7 +551,7 @@
         "binaryFingerprints": []
       },
       "fetchStatus": "collected",
-      "versionStatus": "prerelease",
+      "versionStatus": "vendor-tag-unassessed",
       "packageId": "Live2D.Cubism.Unity",
       "sdkBundle": {
         "packageId": "Live2D.Cubism.Unity",
@@ -1105,7 +1105,7 @@
         "binaryFingerprints": []
       },
       "fetchStatus": "collected",
-      "versionStatus": "prerelease",
+      "versionStatus": "stable",
       "packageId": "Live2D.Cubism.Unity",
       "sdkBundle": {
         "packageId": "Live2D.Cubism.Unity",
@@ -1117,7 +1117,17 @@
         "metadataStatus": "no-decoded-managed-dll-identities",
         "unparsedDlls": []
       },
-      "collectedAt": "2026-10-18T05:33:37.670119Z"
+      "collectedAt": "2026-10-18T05:33:37.670119Z",
+      "versionStatusEvidence": {
+        "kind": "official-github-release-metadata",
+        "url": "https://api.github.com/repos/Live2D/CubismUnityComponents/releases/tags/Unity%2FR12",
+        "prerelease": false,
+        "draft": false,
+        "publishedAt": "2019-06-10T10:02:24Z",
+        "observationBasis": "official-response-independently-read-by-function-review",
+        "httpStatus": 200,
+        "targetVersionConfirmed": false
+      }
     },
     {
       "version": "5-r.5",
@@ -1929,7 +1939,18 @@
       "version": "Unity/R12",
       "sourceRef": "86e5b07702f74d00b4ab52b7d6c15ba3464b8b85",
       "sourceTag": "Unity/R12",
-      "versionBasis": "official-repository-tag-not-target-equivalence"
+      "versionBasis": "official-repository-tag-not-target-equivalence",
+      "versionStatus": "stable",
+      "versionStatusEvidence": {
+        "kind": "official-github-release-metadata",
+        "url": "https://api.github.com/repos/Live2D/CubismUnityComponents/releases/tags/Unity%2FR12",
+        "prerelease": false,
+        "draft": false,
+        "publishedAt": "2019-06-10T10:02:24Z",
+        "observationBasis": "official-response-independently-read-by-function-review",
+        "httpStatus": 200,
+        "targetVersionConfirmed": false
+      }
     },
     {
       "version": "5-r.5",

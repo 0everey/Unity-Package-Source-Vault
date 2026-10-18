@@ -264,7 +264,7 @@ def _pinned_version_status(pin):
     if pin.get("versionStatus"):return pin["versionStatus"]
     version=pin["version"]
     if version.startswith("source-"):return "snapshot"
-    if not re.fullmatch(r"[vV]?\d+(?:\.\d+){1,3}(?:[-+][0-9A-Za-z.-]+)?",version):
+    if not re.fullmatch(r"[vV]?\d+(?:\.\d+){1,3}(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?",version):
         return "vendor-tag-unassessed"
     return "prerelease" if _is_prerelease(version) else "stable"
 

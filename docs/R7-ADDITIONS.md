@@ -70,9 +70,37 @@ forks, Git/file specs, exact versions, acquisition and reference-only records re
 separate. Runtime consumers are unproved: complete-runtime ratios stay null.
 Sample fractions are not market/game coverage or compilation/runtime success.
 
-During implementation the suite reached 213 tests passing with one skipped;
-final validation and remote acquisition results must be read with their fixed
-commit/evidence. ReMaker adoption remains `integration-pending`: forward
+The suite reached 219 tests passing with one skipped. The installed wheel also
+loaded all 23 family rules, 28 builtin rules, 111 active configuration entries
+and the component module outside the checkout; its temporary environment was
+removed. Frozen CLI and panel evidence bind their own explicit snapshots.
+ReMaker adoption remains `integration-pending`: forward
 [the original-writer handoff](REMAKER-WRITER-START-HERE.md); this repository does
 not write the original project or run its games. Permitted payloads live remotely;
 temporary acquisition/use directories are cleaned and no local mirror is kept.
+
+## Actual collection
+
+[Collector 39100901581](https://github.com/0everey/Unity-Package-Source-Vault/actions/runs/39100901581)
+completed successfully: all 138 new archive tasks were acquired, bringing the
+catalog to 234/235 completed tasks and 285 version/variant records. The only
+remaining archive failure is the prior Burst 1.8.20 object above the 512 MiB
+in-memory limit. It is not replaced by a nearby version.
+
+Twenty published variant records represent 17 distinct original archive hashes
+and nine package IDs. The five new permitted archives are Ink runtime 1.1.1 and
+1.2.1, NavMeshComponents 2018.3.0f2 and 2019.4.0f1, and Yarn runtime 3.2.1.
+Publication includes per-version rights and anonymous remote hash verification.
+Other collected archives retain their own official-fetch-only or unresolved
+rights; acquisition never upgrades redistribution permission.
+
+SDK metadata records actual bundled DLL identities: for example Google Mobile
+Ads has ten per selected archive, MAX seventeen and Facepunch twelve. Entries
+with no decoded managed DLLs say so; a source wrapper is not a complete native
+SDK. Sentry's prior independent component evidence remains unchanged.
+
+Unrecognized vendor tag syntax is `vendor-tag-unassessed`, not automatically
+prerelease. Live2D Unity/R12 retains independently observed official stable
+release metadata, while R11 remains unassessed. SteamVR beta and modern Live2D
+explicit statuses remain as evidenced. Eight new records were annotated without
+changing original archives, licenses, fingerprints, SDK identities or old records.
