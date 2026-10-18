@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-18T05:37:09.043759Z",
+  "generatedAt": "2026-10-18T05:37:25.112470Z",
   "sourceSnapshots": [
     {
       "source": "common-packages.json",
@@ -3152,6 +3152,465 @@
         "installed": false,
         "compiled": false,
         "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "protobuf-net",
+          "version": "2.4.8",
+          "variantId": "nuget",
+          "archiveSha256": "b046464a060cff4a5a2a281ce61069bf6ec31bc7b681b5c5710567e2af8745e8",
+          "nuspecSha256": "3a5de0bd03698aa46505a6a2aea565dbd80272e98b7c8cc6b1c493ab8cd2c4f1"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Reflection.Emit",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Reflection.Emit.Lightweight",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Reflection.TypeExtensions",
+                "version": "4.4.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.ServiceModel.Primitives",
+                "version": "4.5.3",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Xml.XmlSerializer",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/protobuf-net.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "adf489bbfbbc4733707baad7c50599d8e63f7f2a47f22036aa56438c1c6f92ed",
+            "size": 294400
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Reflection.Emit",
+            "version": "4.3.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Reflection.Emit.Lightweight",
+            "version": "4.3.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Reflection.TypeExtensions",
+            "version": "4.4.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.ServiceModel.Primitives",
+            "version": "4.5.3",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Xml.XmlSerializer",
+            "version": "4.3.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "protobuf-net",
+          "version": "2.4.8",
+          "variantId": "nuget",
+          "archiveSha256": "b046464a060cff4a5a2a281ce61069bf6ec31bc7b681b5c5710567e2af8745e8",
+          "nuspecSha256": "3a5de0bd03698aa46505a6a2aea565dbd80272e98b7c8cc6b1c493ab8cd2c4f1"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "explicit-compatible-fallback-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Reflection.Emit",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Reflection.Emit.Lightweight",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Reflection.TypeExtensions",
+                "version": "4.4.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.ServiceModel.Primitives",
+                "version": "4.5.3",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Xml.XmlSerializer",
+                "version": "4.3.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/protobuf-net.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "adf489bbfbbc4733707baad7c50599d8e63f7f2a47f22036aa56438c1c6f92ed",
+            "size": 294400
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Reflection.Emit",
+            "version": "4.3.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Reflection.Emit.Lightweight",
+            "version": "4.3.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Reflection.TypeExtensions",
+            "version": "4.4.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.ServiceModel.Primitives",
+            "version": "4.5.3",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Xml.XmlSerializer",
+            "version": "4.3.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "protobuf-net",
+          "version": "3.2.56",
+          "variantId": "nuget",
+          "archiveSha256": "2a3c111f21b07e54038d56ae753f8d8d19df1a11dbe02a427e7f611d58b123e1",
+          "nuspecSha256": "b5f83421eadc4f8e9eb7f27c3b640d168514035d77bcc13f60688753ac03ef1b"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "protobuf-net.Core",
+                "version": "3.2.56",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Reflection.Emit",
+                "version": "4.7.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Reflection.Emit.Lightweight",
+                "version": "4.7.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/protobuf-net.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "d47568cb1ff7ad152e6bab5f964e7f8a0b6c4b67572f366142e1d87053af4daf",
+            "size": 280576
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "protobuf-net.Core",
+            "version": "3.2.56",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "3.2.56",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Reflection.Emit",
+            "version": "4.7.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Reflection.Emit.Lightweight",
+            "version": "4.7.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "protobuf-net",
+          "version": "3.2.56",
+          "variantId": "nuget",
+          "archiveSha256": "2a3c111f21b07e54038d56ae753f8d8d19df1a11dbe02a427e7f611d58b123e1",
+          "nuspecSha256": "b5f83421eadc4f8e9eb7f27c3b640d168514035d77bcc13f60688753ac03ef1b"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.1",
+            "dependencies": [
+              {
+                "id": "protobuf-net.Core",
+                "version": "3.2.56",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.1/protobuf-net.dll",
+            "targetFramework": "netstandard2.1",
+            "kind": "lib",
+            "sha256": "2ef7a474e0c25cb1e4af3da8673a28fb0716f580002576a913eaf44087d605ea",
+            "size": 281088
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "protobuf-net.Core",
+            "version": "3.2.56",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.1",
+            "catalogEvaluations": [
+              {
+                "version": "3.2.56",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "protobuf-net.Core",
+          "version": "3.2.56",
+          "variantId": "nuget",
+          "archiveSha256": "355bcbade0afbef9d2fecd2cc8be7f2f7991a577acc0fec4ef50ba58ff5fd837",
+          "nuspecSha256": "6f65a26510081645fd50d003ed8902ba714154f966e96444963ac0777d88cbd8"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Collections.Immutable",
+                "version": "7.0.0",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Memory",
+                "version": "4.5.5",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/protobuf-net.Core.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "c785cd15e1b4c45235671ad5c5c1cbb35783a2fedc9350aa37dd5d1a22b3fdbf",
+            "size": 292864
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Collections.Immutable",
+            "version": "7.0.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Memory",
+            "version": "4.5.5",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.4",
+                "variantId": "nuget",
+                "satisfiesRange": false
+              },
+              {
+                "version": "4.5.5",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "protobuf-net.Core",
+          "version": "3.2.56",
+          "variantId": "nuget",
+          "archiveSha256": "355bcbade0afbef9d2fecd2cc8be7f2f7991a577acc0fec4ef50ba58ff5fd837",
+          "nuspecSha256": "6f65a26510081645fd50d003ed8902ba714154f966e96444963ac0777d88cbd8"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.1",
+            "dependencies": [
+              {
+                "id": "System.Collections.Immutable",
+                "version": "7.0.0",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.1/protobuf-net.Core.dll",
+            "targetFramework": "netstandard2.1",
+            "kind": "lib",
+            "sha256": "8f2c189b4c8f979be4ac509208b2b0071853340563042dc0226f57f6d23e1701",
+            "size": 292352
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Collections.Immutable",
+            "version": "7.0.0",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.1",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
       }
     ]
   },
@@ -3293,23 +3752,22 @@
   },
   "listedVersions": 285,
   "selectedVersionTasks": 235,
-  "completedSelectedVersionTasks": 225,
-  "pendingSelectedVersionTasks": 10,
-  "fetchedVersionRecords": 225,
+  "completedSelectedVersionTasks": 234,
+  "pendingSelectedVersionTasks": 1,
+  "fetchedVersionRecords": 234,
   "publishedVersionRecords": 20,
   "remoteReadbackVerifiedVersionRecords": 20,
   "dispositionCounts": {
-    "official-fetch-only": 212,
-    "license-unresolved": 45,
+    "official-fetch-only": 220,
+    "license-unresolved": 37,
     "mirror-allowed": 20,
     "builtin-reference": 28
   },
   "fetchStatusCounts": {
-    "collected": 205,
+    "collected": 214,
     "published": 20,
     "reference-only": 50,
-    "fetch-failed": 1,
-    "pending": 9
+    "fetch-failed": 1
   },
   "discoveryFrontier": [],
   "pendingPackageIds": [],
