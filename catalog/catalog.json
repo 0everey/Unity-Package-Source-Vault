@@ -3513,7 +3513,7 @@
   ],
   "familyReferences": {
     "ruleVersion": "r7-official-family-clues-1",
-    "rulesSha256": "ae78103d555d8f0214a23857d89fe1f46d66d1d804befe14c9085447bcef5111",
+    "rulesSha256": "d3aa9fb37e36fb5f15511dbdbe0c9a50516ccca9867e1ebc5f7aa9d80f00396d",
     "references": [
       {
         "familyId": "Photon.PUN",
@@ -6364,15 +6364,45 @@
     {
       "source": "common-packages.json",
       "scopeVersion": "R4",
-      "configuredPackageFamilies": 92,
+      "configuredPackageFamilies": 98,
       "configuredCompanionEntries": 19,
-      "discoveredAt": "2026-10-18T05:16:47.979949Z"
+      "discoveredAt": "2026-10-18T11:09:01.061140Z"
     }
   ],
   "completeEnumeration": true,
   "frontier": [],
   "coverage": "coverage.json",
   "packages": [
+    {
+      "id": "Amplify.Bloom",
+      "path": "packages/Amplify.Bloom.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Amplify.Color",
+      "path": "packages/Amplify.Color.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Amplify.Impostors",
+      "path": "packages/Amplify.Impostors.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "Amplify.Motion",
+      "path": "packages/Amplify.Motion.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Amplify.Occlusion",
+      "path": "packages/Amplify.Occlusion.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Amplify.ShaderEditor",
+      "path": "packages/Amplify.ShaderEditor.json",
+      "metadataStatus": "reference-only"
+    },
     {
       "id": "AppLovin.MAX.Unity",
       "path": "packages/AppLovin.MAX.Unity.json",
@@ -6394,6 +6424,16 @@
       "metadataStatus": "reference-only"
     },
     {
+      "id": "AwesomeTechnologies.VegetationStudioPro",
+      "path": "packages/AwesomeTechnologies.VegetationStudioPro.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "Bakery.Lightmapper",
+      "path": "packages/Bakery.Lightmapper.json",
+      "metadataStatus": "reference-only"
+    },
+    {
       "id": "CRIWARE.Unity",
       "path": "packages/CRIWARE.Unity.json",
       "metadataStatus": "reference-only"
@@ -6406,6 +6446,26 @@
     {
       "id": "Demigiant.DOTweenPro",
       "path": "packages/Demigiant.DOTweenPro.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "Doozy.UI",
+      "path": "packages/Doozy.UI.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "Dreamteck.Splines",
+      "path": "packages/Dreamteck.Splines.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "Dreamteck.Utilities",
+      "path": "packages/Dreamteck.Utilities.json",
+      "metadataStatus": "complete"
+    },
+    {
+      "id": "EasyRoads3D",
+      "path": "packages/EasyRoads3D.json",
       "metadataStatus": "reference-only"
     },
     {
@@ -6424,6 +6484,11 @@
       "metadataStatus": "complete"
     },
     {
+      "id": "Febucci.TextAnimator",
+      "path": "packages/Febucci.TextAnimator.json",
+      "metadataStatus": "reference-only"
+    },
+    {
       "id": "Firebase.Unity",
       "path": "packages/Firebase.Unity.json",
       "metadataStatus": "complete"
@@ -6432,6 +6497,11 @@
       "id": "FishNet",
       "path": "packages/FishNet.json",
       "metadataStatus": "complete"
+    },
+    {
+      "id": "GPUInstancer",
+      "path": "packages/GPUInstancer.json",
+      "metadataStatus": "reference-only"
     },
     {
       "id": "Google.Protobuf",
@@ -6464,6 +6534,11 @@
       "metadataStatus": "complete"
     },
     {
+      "id": "HutongGames.PlayMaker",
+      "path": "packages/HutongGames.PlayMaker.json",
+      "metadataStatus": "reference-only"
+    },
+    {
       "id": "I2.Localization",
       "path": "packages/I2.Localization.json",
       "metadataStatus": "reference-only"
@@ -6477,6 +6552,11 @@
       "id": "Ink.Unity",
       "path": "packages/Ink.Unity.json",
       "metadataStatus": "complete"
+    },
+    {
+      "id": "Kybernetik.Animancer",
+      "path": "packages/Kybernetik.Animancer.json",
+      "metadataStatus": "reference-only"
     },
     {
       "id": "LeanTween",
@@ -6524,6 +6604,21 @@
       "metadataStatus": "reference-only"
     },
     {
+      "id": "MoreMountains.CorgiEngine",
+      "path": "packages/MoreMountains.CorgiEngine.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "MoreMountains.Feel",
+      "path": "packages/MoreMountains.Feel.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "MoreMountains.TopDownEngine",
+      "path": "packages/MoreMountains.TopDownEngine.json",
+      "metadataStatus": "reference-only"
+    },
+    {
       "id": "Naninovel",
       "path": "packages/Naninovel.json",
       "metadataStatus": "reference-only"
@@ -6554,6 +6649,21 @@
       "metadataStatus": "complete"
     },
     {
+      "id": "Opsive.BehaviorDesigner",
+      "path": "packages/Opsive.BehaviorDesigner.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "Opsive.UltimateCharacterController",
+      "path": "packages/Opsive.UltimateCharacterController.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "ParadoxNotion.NodeCanvas",
+      "path": "packages/ParadoxNotion.NodeCanvas.json",
+      "metadataStatus": "reference-only"
+    },
+    {
       "id": "Photon.Fusion",
       "path": "packages/Photon.Fusion.json",
       "metadataStatus": "reference-only"
@@ -6569,6 +6679,11 @@
       "metadataStatus": "reference-only"
     },
     {
+      "id": "PixelCrushers.DialogueSystem",
+      "path": "packages/PixelCrushers.DialogueSystem.json",
+      "metadataStatus": "reference-only"
+    },
+    {
       "id": "PlayFab.Unity",
       "path": "packages/PlayFab.Unity.json",
       "metadataStatus": "complete"
@@ -6576,6 +6691,16 @@
     {
       "id": "PrimeTween",
       "path": "packages/PrimeTween.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "ProceduralWorlds.Gaia",
+      "path": "packages/ProceduralWorlds.Gaia.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "RenderHeads.AVProVideo",
+      "path": "packages/RenderHeads.AVProVideo.json",
       "metadataStatus": "reference-only"
     },
     {
@@ -6607,6 +6732,16 @@
       "id": "Steamworks.NET",
       "path": "packages/Steamworks.NET.json",
       "metadataStatus": "complete"
+    },
+    {
+      "id": "StompyRobot.SRDebugger",
+      "path": "packages/StompyRobot.SRDebugger.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "SuperScrollView",
+      "path": "packages/SuperScrollView.json",
+      "metadataStatus": "reference-only"
     },
     {
       "id": "System.Buffers",
@@ -6641,6 +6776,11 @@
     {
       "id": "Valve.SteamVR",
       "path": "packages/Valve.SteamVR.json",
+      "metadataStatus": "reference-only"
+    },
+    {
+      "id": "VirtualMethod.Obi",
+      "path": "packages/VirtualMethod.Obi.json",
       "metadataStatus": "reference-only"
     },
     {
@@ -7186,9 +7326,9 @@
   ],
   "bundles": [
     {
-      "path": "lookup-0000-1e3561a93ce3a66020976a5d.json.gz",
-      "sha256": "1e3561a93ce3a66020976a5dc7c9eda4a14b453dd84fe135bc2db35282b122db",
-      "size": 3339797
+      "path": "lookup-0000-4320b3fe8f4aa1fff1785c46.json.gz",
+      "sha256": "4320b3fe8f4aa1fff1785c463e7d733cad3d2b67246e4224f1f3f7a84102a916",
+      "size": 3365873
     }
   ]
 }

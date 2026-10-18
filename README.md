@@ -5,7 +5,9 @@ source retrieval. Permitted original archives live in GitHub Releases; Git
 contains tools, provenance, fingerprints and version-specific rights records.
 No permanent local package mirror or payload cache is created.
 
-R7 expands the finite list to 92 root package entries, 19 direct companion
+The [vendor increment](docs/VENDOR-PACKAGES-20261018.md) adds 22 commercial acquisition entries and six pinned original source snapshots, bringing the catalog to 190 entries. Three permitted archives are stored in Releases with anonymous SHA-256 readback. Restricted originals remain explicit acquisition gaps.
+
+The R7 baseline expands the finite list to 92 root package entries, 19 direct companion
 entries, 28 built-in provider references and 23 commercial, Editor or restricted
 reference entries. These are distribution IDs, not independent SDKs or a game
 coverage probability. Packages normally keep two versions within a budget of

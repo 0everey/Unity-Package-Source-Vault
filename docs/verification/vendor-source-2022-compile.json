@@ -1,0 +1,42 @@
+{
+  "editor": "2022.3.45f1",
+  "passed": true,
+  "scope": "Editor script compilation only, two isolated public-source plugins in one blank project",
+  "packages": [
+    {
+      "packageId": "Amplify.Color",
+      "sourceRef": "6d82f8c064fa614f01216fcf5f1d8ab8387450e8",
+      "sourcePath": "Assets/AmplifyColor",
+      "archiveSha256": "8f306296d80af72a783e61fa6a1f25d95a4e16b524389118279e0b54c0ceba12",
+      "sourceFilesCompared": 32,
+      "sourceCodeUnmodified": true
+    },
+    {
+      "packageId": "Amplify.Occlusion",
+      "sourceRef": "dd6316f2da651cc5266698cd87f65c70f7d82504",
+      "sourcePath": "Assets/AmplifyOcclusion",
+      "archiveSha256": "cd8414f0fd06db9027b7359d07d2402bc91e19336ae48ad7dcb368b5ccb74737",
+      "sourceFilesCompared": 7,
+      "sourceCodeUnmodified": true
+    }
+  ],
+  "requiredBuiltinModules": {
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.physics2d": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.modules.assetbundle": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.unitywebrequesttexture": "1.0.0",
+    "com.unity.modules.vr": "1.0.0",
+    "com.unity.modules.xr": "1.0.0"
+  },
+  "limitations": [
+    "No rendering output, shader visual quality, Player build or target-project validation was performed.",
+    "These are older official MIT snapshots; they are not the current commercial Amplify Shader Editor or Amplify Impostors."
+  ]
+}

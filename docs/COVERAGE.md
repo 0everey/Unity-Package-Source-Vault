@@ -1,10 +1,10 @@
 # Common package coverage (R7)
 
-Current denominator: 92 common root families, 19 parent-constrained companion entries, 28 builtin module providers and 23 commercial/Editor/restricted/unresolved reference entries.
+Current denominator: 98 common root families, 19 parent-constrained companion entries, 28 builtin module providers and 45 commercial/Editor/restricted/unresolved reference entries.
 The whitelist is complete for this scope; it is not a Unity ecosystem census.
 Normally two versions within a default budget of three; named per-package legacy/dependency exceptions allow four or five and retain previous immutable evidence. Fewer available versions remain explicit.
 
-Generated: 2026-10-18T06:13:30.007870Z. Registered 162/162 entries; 285 version records; 234/235 archive tasks collected; 20 published version/variant records with anonymous remote hash verification.
+Generated: 2026-10-18T11:12:13.957017Z. Registered 190/190 entries; 291 version records; 240/241 archive tasks collected; 23 published version/variant records with anonymous remote hash verification.
 
 `reference-only` means no archive was acquired. Newer Editor-bundled rendering/UI versions link pinned official manifests/source paths and the matching Editor installation route.
 `collected` means bytes were reviewed/fingerprinted then released locally; only published objects are held by this vault remotely.
@@ -12,27 +12,43 @@ Generated: 2026-10-18T06:13:30.007870Z. Registered 162/162 entries; 285 version 
 
 | Package | Versions and actual state |
 | --- | --- |
+| Amplify.Bloom | [source-c66d459dc402: collected, license-unresolved](https://codeload.github.com/AmplifyCreations/AmplifyBloom/tar.gz/c66d459dc4025202ef75798c8ad5e7cafe25261d) |
+| Amplify.Color | [source-6d82f8c064fa: published, mirror-allowed](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-8f/8f306296d80af72a783e61fa6a1f25d95a4e16b524389118279e0b54c0ceba12.tar.gz) |
+| Amplify.Impostors | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
+| Amplify.Motion | [source-e658d333be17: collected, official-fetch-only](https://codeload.github.com/AmplifyCreations/AmplifyMotion/tar.gz/e658d333be1717cd85eb9a235aa34e8216674c86) |
+| Amplify.Occlusion | [source-dd6316f2da65: published, mirror-allowed](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-cd/cd8414f0fd06db9027b7359d07d2402bc91e19336ae48ad7dcb368b5ccb74737.tar.gz) |
+| Amplify.ShaderEditor | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
 | AppLovin.MAX.Unity | [release_8_6_5: collected, official-fetch-only](https://codeload.github.com/AppLovin/AppLovin-MAX-Unity-Plugin/tar.gz/20d126864d3b907ce563ebc849f7f550233301c9); [release_8_6_6: collected, official-fetch-only](https://codeload.github.com/AppLovin/AppLovin-MAX-Unity-Plugin/tar.gz/6141709246d09922a9b2f622623dbd2f3a9d0e46) |
 | AppsFlyer.Unity | [6.18.1: collected, official-fetch-only](https://codeload.github.com/AppsFlyerSDK/appsflyer-unity-plugin/tar.gz/8adb2350ad1076de02a8acf63e2048efa07cf9ba); [7.0.3: collected, official-fetch-only](https://codeload.github.com/AppsFlyerSDK/appsflyer-unity-plugin/tar.gz/071edaadf588269e673ecf9913fe573f1e125e58) |
 | AronGranberg.Astar | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
 | Audiokinetic.Wwise | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
+| AwesomeTechnologies.VegetationStudioPro | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
+| Bakery.Lightmapper | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
 | CRIWARE.Unity | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
 | DOTween | [v1.2.785: collected, official-fetch-only](https://codeload.github.com/Demigiant/dotween/tar.gz/b3922c0cc665e8cce02785d7e3f2e824dcceeb51); [v1.2.815: collected, official-fetch-only](https://codeload.github.com/Demigiant/dotween/tar.gz/75120f0903bae224e63b77b81ed6e1d022011a6d) |
 | Demigiant.DOTweenPro | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
+| Doozy.UI | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
+| Dreamteck.Splines | [source-119cc0041b44: published, mirror-allowed](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-da/daeb9b40c1502d879c0d6db2a065c25034c0d66f000c8977d5a660710007e0bb.tar.gz) |
+| Dreamteck.Utilities | [source-b486e4d7ca89: collected, license-unresolved](https://codeload.github.com/Dreamteck/utilities/tar.gz/b486e4d7ca897497af39bafc0a63927fac0e598f) |
+| EasyRoads3D | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
 | FMOD.Unity.Integration | [source-da38d508a55f: collected, license-unresolved](https://codeload.github.com/fmod/fmod-for-unity/tar.gz/da38d508a55f50e9d002d69619ac0f92276dd991) |
 | Facepunch.Steamworks | [2.1.0: collected, official-fetch-only](https://codeload.github.com/Facepunch/Facepunch.Steamworks/tar.gz/fd50e3ba713156aa822c581118689fd34a90af45) |
 | FairyGUI | [2.3.0: collected, official-fetch-only](https://codeload.github.com/fairygui/FairyGUI-unity/tar.gz/e0612f745685aaf7f5ce9cd72c375ddab11c8b51); [2.3.1: collected, official-fetch-only](https://codeload.github.com/fairygui/FairyGUI-unity/tar.gz/e04e0ca1c1339200fe442f0b885a8cef7e12bc72) |
+| Febucci.TextAnimator | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
 | Firebase.Unity | [13.17.0: collected, license-unresolved](https://codeload.github.com/firebase/firebase-unity-sdk/tar.gz/0c4be5e058479705f90e89789e4b2c8505abf7aa); [14.0.0: collected, license-unresolved](https://codeload.github.com/firebase/firebase-unity-sdk/tar.gz/adccc54c017af37099afb77623a75f067f71f882) |
 | FishNet | [4.7.3: collected, official-fetch-only](https://codeload.github.com/FirstGearGames/FishNet/tar.gz/73f30cf2425dc808a4f463f0a233d386010810b3); [4.7.4: collected, official-fetch-only](https://codeload.github.com/FirstGearGames/FishNet/tar.gz/a3627529c1875ebe6313c2fc9e2326cbd5d76719) |
+| GPUInstancer | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
 | Google.Protobuf | [3.31.0: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/google.protobuf/3.31.0/google.protobuf.3.31.0.nupkg); [3.36.2: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/google.protobuf/3.36.2/google.protobuf.3.36.2.nupkg) |
 | GoogleMobileAds.Unity | [11.5.0: collected, official-fetch-only](https://codeload.github.com/googleads/googleads-mobile-unity/tar.gz/12a1edb48e7000e6b3531ada4bcbe23bae761065); [11.6.0: collected, official-fetch-only](https://codeload.github.com/googleads/googleads-mobile-unity/tar.gz/8ea7b043986dd7221b001023c85d569fff810666) |
 | Grpc.Core | [2.46.6: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/grpc.core/2.46.6/grpc.core.2.46.6.nupkg) |
 | Grpc.Core.Api | [2.83.0: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/grpc.core.api/2.83.0/grpc.core.api.2.83.0.nupkg); [2.84.0: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/grpc.core.api/2.84.0/grpc.core.api.2.84.0.nupkg) |
 | Grpc.Net.Client | [2.83.0: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/grpc.net.client/2.83.0/grpc.net.client.2.83.0.nupkg); [2.84.0: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/grpc.net.client/2.84.0/grpc.net.client.2.84.0.nupkg) |
 | Grpc.Net.Common | [2.83.0: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/grpc.net.common/2.83.0/grpc.net.common.2.83.0.nupkg); [2.84.0: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/grpc.net.common/2.84.0/grpc.net.common.2.84.0.nupkg) |
+| HutongGames.PlayMaker | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
 | I2.Localization | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
 | Ink.Runtime.Source | [1.1.1: published, mirror-allowed](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-39/39702d7b10c689f43c0eb13cfb7c4829a68764426b34e89d3f3a7efcfb836dad.tar.gz); [1.2.1: published, mirror-allowed](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-9f/9f4bc577d2e8fbbc809eba2f3f28a7fbfe92eeb520ecea59be08319fc3bd61cd.tar.gz) |
 | Ink.Unity | [1.1.8: collected, license-unresolved](https://codeload.github.com/inkle/ink-unity-integration/tar.gz/5668568eeb72be39f740b1f9f3933a85cf436f23); [1.2.0: collected, license-unresolved](https://codeload.github.com/inkle/ink-unity-integration/tar.gz/700f6e8c90ead4738102622bc9701d216d4f4e9e) |
+| Kybernetik.Animancer | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
 | LeanTween | [Release2.44: collected, license-unresolved](https://codeload.github.com/dentedpixel/LeanTween/tar.gz/63c0e91fee378518b1442a19ce54cd36a0fc6f9d); [Release2.45: collected, license-unresolved](https://codeload.github.com/dentedpixel/LeanTween/tar.gz/87aa32b1c6fd19eba8cdf7dde7db26f315846d1f) |
 | LitJSON | [0.14.0: collected, license-unresolved](https://codeload.github.com/LitJSON/litjson/tar.gz/087029d842691720f991fd8befc8d08c4aec6064); [0.14.1: collected, license-unresolved](https://codeload.github.com/LitJSON/litjson/tar.gz/f358392d709fdc3667fe195151256d8aef3d7408) |
 | LiteNetLib | [1.1.0: collected, official-fetch-only](https://codeload.github.com/RevenantX/LiteNetLib/tar.gz/b66441b7167a1068a15cd72444ef2de0668ff640); [1.2.0: collected, official-fetch-only](https://codeload.github.com/RevenantX/LiteNetLib/tar.gz/07c089a22639ba64a414eb5816e4bd805cc5a684) |
@@ -42,23 +58,34 @@ Generated: 2026-10-18T06:13:30.007870Z. Registered 162/162 entries; 285 version 
 | Microsoft.Extensions.DependencyInjection.Abstractions | [8.0.0: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg); [8.0.1: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg) |
 | Microsoft.Extensions.Logging.Abstractions | [8.0.0: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg); [8.0.1: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.abstractions/8.0.1/microsoft.extensions.logging.abstractions.8.0.1.nupkg) |
 | Moodkie.EasySave | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
+| MoreMountains.CorgiEngine | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
+| MoreMountains.Feel | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
+| MoreMountains.TopDownEngine | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
 | Naninovel | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
 | NativeWebSocket | [2.0.5: collected, license-unresolved](https://codeload.github.com/endel/NativeWebSocket/tar.gz/16b5faab16aeece6aa4c5dced47e67745872e9d9); [2.0.7: collected, license-unresolved](https://codeload.github.com/endel/NativeWebSocket/tar.gz/d516a8b378e233514ba0096c4502679cfaf67e5d) |
 | NavMeshComponents | [2018.3.0f2: published, mirror-allowed](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-9f/9fb3833b93d94c4ac664a0031c4635cec5b7ca9d0a0611406f32bb3058e6ef33.tar.gz); [2019.4.0f1: published, mirror-allowed](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-59/599b59ee9fff1a2e4cabd557c378fe2afde75986b81e9fa11bc91df46bc0e547.tar.gz) |
 | Newtonsoft.Json | [13.0.3: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg); [13.0.4: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/newtonsoft.json/13.0.4/newtonsoft.json.13.0.4.nupkg) |
 | OOI.Unresolved | Named origin/version/modification unresolved. Same public name or explicit selection cannot authorize replacement. Preserve native recovery eligibility. |
 | Odin.Serializer | [1.1.0.0: collected, official-fetch-only](https://codeload.github.com/TeamSirenix/odin-serializer/tar.gz/994b98cf1185529c3e014fa3b5136fa52527c627); [1.1.1.0: collected, official-fetch-only](https://codeload.github.com/TeamSirenix/odin-serializer/tar.gz/36ff4dff0dcf2acb77e154d89cf4d9367049e236) |
+| Opsive.BehaviorDesigner | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
+| Opsive.UltimateCharacterController | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
+| ParadoxNotion.NodeCanvas | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
 | Photon.Fusion | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
 | Photon.PUN | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
 | Photon.Realtime | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
+| PixelCrushers.DialogueSystem | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
 | PlayFab.Unity | [2.242.260805: collected, official-fetch-only](https://codeload.github.com/PlayFab/UnitySDK/tar.gz/d9c3ae9aa2f4138c74674f3d9e4175d0a56a66f5); [2.244.260922: collected, official-fetch-only](https://codeload.github.com/PlayFab/UnitySDK/tar.gz/2ea2d33859210d5c2d64740e3394c1103a71048c) |
 | PrimeTween | Source redistribution restrictions; official acquisition reference only |
+| ProceduralWorlds.Gaia | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
+| RenderHeads.AVProVideo | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
 | Rewired | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
 | RootMotion.FinalIK | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
 | Sirenix.OdinInspector | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
 | Spine.Runtimes | Runtime license conditions need individual confirmation; no automatic public payload mirror |
 | SteamVR.Unity | [2.8.3b2: collected, official-fetch-only](https://codeload.github.com/ValveSoftware/steamvr_unity_plugin/tar.gz/7e64e2cbc68d346a7771ce585dcd493387f868f7); [2.8.5b: collected, official-fetch-only](https://codeload.github.com/ValveSoftware/steamvr_unity_plugin/tar.gz/eaa6fea7060c60926578e94af6bab526ac15f694) |
 | Steamworks.NET | [20.2.0: collected, official-fetch-only](https://codeload.github.com/rlabrecque/Steamworks.NET/tar.gz/a3fe8091f7237eef3f38becc3faa29b2dc6f9ce9); [2025.164.1: collected, official-fetch-only](https://codeload.github.com/rlabrecque/Steamworks.NET/tar.gz/c21a8f0e31c56ae8707130967faf491f7dd7c0d8) |
+| StompyRobot.SRDebugger | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
+| SuperScrollView | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
 | System.Buffers | [4.5.1: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/system.buffers/4.5.1/system.buffers.4.5.1.nupkg) |
 | System.Diagnostics.DiagnosticSource | [6.0.1: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/system.diagnostics.diagnosticsource/6.0.1/system.diagnostics.diagnosticsource.6.0.1.nupkg); [8.0.1: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/system.diagnostics.diagnosticsource/8.0.1/system.diagnostics.diagnosticsource.8.0.1.nupkg) |
 | System.Memory | [4.5.4: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/system.memory/4.5.4/system.memory.4.5.4.nupkg); [4.5.5: collected, official-fetch-only](https://api.nuget.org/v3-flatcontainer/system.memory/4.5.5/system.memory.4.5.5.nupkg) |
@@ -66,6 +93,7 @@ Generated: 2026-10-18T06:13:30.007870Z. Registered 162/162 entries; 285 version 
 | Tasharen.NGUI | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
 | Tekly.Unresolved | Named origin/version/modification unresolved. Same public name or explicit selection cannot authorize replacement. Preserve native recovery eligibility. |
 | Valve.SteamVR | Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved |
+| VirtualMethod.Obi | Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog. |
 | XLua | [2.1.15: collected, official-fetch-only](https://codeload.github.com/Tencent/xLua/tar.gz/841ea8ecbfe8955e974d9346d91be9c6bdde9758); [2.1.16: collected, official-fetch-only](https://codeload.github.com/Tencent/xLua/tar.gz/e961a93675468fb402acbe34e42d4f559c89fc46) |
 | YarnSpinner.Runtime.Source | [3.2.1: published, mirror-allowed](https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-85/857c879dc4d68face8339a0c07c3c589a74d5a2c92947e0b76b8629ce7e06a8a.tar.gz); [3.2.2: collected, official-fetch-only](https://codeload.github.com/YarnSpinnerTool/YarnSpinner/tar.gz/5b3a4ff2d24e4f727e3f90fee5d8ce637474c305) |
 | YooAsset | [2.3.19: collected, license-unresolved](https://codeload.github.com/tuyoogame/YooAsset/tar.gz/5df594f7dc2383735796d8816d636a9b82976ea2); [3.0.6: collected, license-unresolved](https://codeload.github.com/tuyoogame/YooAsset/tar.gz/3b4cfb36cc2e81b9558ab74d65fee2cf2eac2804) |

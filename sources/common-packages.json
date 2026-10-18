@@ -1882,6 +1882,152 @@
       "dependencyRole": "companion-not-root-family",
       "maxCommonVersions": 3,
       "coverageBasis": "R7 explicit user coverage decision; no target implementation equivalence or runtime installation inferred"
+    },
+    {
+      "id": "Amplify.Color",
+      "adapter": "github",
+      "repository": "AmplifyCreations/AmplifyColor",
+      "category": "rendering",
+      "gitPins": [
+        {
+          "version": "source-6d82f8c064fa",
+          "sourceRef": "6d82f8c064fa614f01216fcf5f1d8ab8387450e8",
+          "versionBasis": "official-immutable-source-snapshot-not-a-product-semantic-version",
+          "integrationConstraints": [
+            "Unity 2022 compatibility, render pipeline, native binaries and target-project integration require separate validation.",
+            "Explicit older official MIT snapshot before unrelated Unity Asset Store publishing tools were added; newer plugin changes are not implied."
+          ],
+          "sourcePath": "Assets/AmplifyColor"
+        }
+      ],
+      "preferredVersions": [
+        "source-6d82f8c064fa"
+      ],
+      "selectionMode": "fixed-common",
+      "versionCount": 1,
+      "maxCommonVersions": 3,
+      "coverageBasis": "User-requested vendor-package expansion; original source snapshots and restricted products retain separate acquisition states"
+    },
+    {
+      "id": "Amplify.Occlusion",
+      "adapter": "github",
+      "repository": "AmplifyCreations/AmplifyOcclusion",
+      "category": "rendering",
+      "gitPins": [
+        {
+          "version": "source-dd6316f2da65",
+          "sourceRef": "dd6316f2da651cc5266698cd87f65c70f7d82504",
+          "versionBasis": "official-immutable-source-snapshot-not-a-product-semantic-version",
+          "integrationConstraints": [
+            "Unity 2022 compatibility, render pipeline, native binaries and target-project integration require separate validation.",
+            "Explicit older official MIT snapshot before unrelated Unity Asset Store publishing tools were added; newer plugin changes are not implied."
+          ],
+          "sourcePath": "Assets/AmplifyOcclusion"
+        }
+      ],
+      "preferredVersions": [
+        "source-dd6316f2da65"
+      ],
+      "selectionMode": "fixed-common",
+      "versionCount": 1,
+      "maxCommonVersions": 3,
+      "coverageBasis": "User-requested vendor-package expansion; original source snapshots and restricted products retain separate acquisition states"
+    },
+    {
+      "id": "Amplify.Bloom",
+      "adapter": "github",
+      "repository": "AmplifyCreations/AmplifyBloom",
+      "category": "rendering",
+      "gitPins": [
+        {
+          "version": "source-c66d459dc402",
+          "sourceRef": "c66d459dc4025202ef75798c8ad5e7cafe25261d",
+          "versionBasis": "official-immutable-source-snapshot-not-a-product-semantic-version",
+          "integrationConstraints": [
+            "Unity 2022 compatibility, render pipeline, native binaries and target-project integration require separate validation."
+          ],
+          "sourcePath": "Assets/AmplifyBloom"
+        }
+      ],
+      "preferredVersions": [
+        "source-c66d459dc402"
+      ],
+      "selectionMode": "fixed-common",
+      "versionCount": 1,
+      "maxCommonVersions": 3,
+      "coverageBasis": "User-requested vendor-package expansion; original source snapshots and restricted products retain separate acquisition states"
+    },
+    {
+      "id": "Amplify.Motion",
+      "adapter": "github",
+      "repository": "AmplifyCreations/AmplifyMotion",
+      "category": "rendering",
+      "gitPins": [
+        {
+          "version": "source-e658d333be17",
+          "sourceRef": "e658d333be1717cd85eb9a235aa34e8216674c86",
+          "versionBasis": "official-immutable-source-snapshot-not-a-product-semantic-version",
+          "integrationConstraints": [
+            "Unity 2022 compatibility, render pipeline, native binaries and target-project integration require separate validation."
+          ],
+          "sourcePath": "Assets/AmplifyMotion"
+        }
+      ],
+      "preferredVersions": [
+        "source-e658d333be17"
+      ],
+      "selectionMode": "fixed-common",
+      "versionCount": 1,
+      "maxCommonVersions": 3,
+      "coverageBasis": "User-requested vendor-package expansion; original source snapshots and restricted products retain separate acquisition states"
+    },
+    {
+      "id": "Dreamteck.Splines",
+      "adapter": "github",
+      "repository": "Dreamteck/splines",
+      "category": "splines",
+      "gitPins": [
+        {
+          "version": "source-119cc0041b44",
+          "sourceRef": "119cc0041b448b430b498ca7e72357e30d0a3103",
+          "versionBasis": "official-immutable-source-snapshot-not-a-product-semantic-version",
+          "integrationConstraints": [
+            "Unity 2022 compatibility, render pipeline, native binaries and target-project integration require separate validation.",
+            "Utilities is a git submodule pinned to b486e4d7ca897497af39bafc0a63927fac0e598f; the parent archive is not complete without that exact companion."
+          ],
+          "sourcePath": "Assets/Dreamteck/Splines"
+        }
+      ],
+      "preferredVersions": [
+        "source-119cc0041b44"
+      ],
+      "selectionMode": "fixed-common",
+      "versionCount": 1,
+      "maxCommonVersions": 3,
+      "coverageBasis": "User-requested vendor-package expansion; original source snapshots and restricted products retain separate acquisition states"
+    },
+    {
+      "id": "Dreamteck.Utilities",
+      "adapter": "github",
+      "repository": "Dreamteck/utilities",
+      "category": "splines",
+      "gitPins": [
+        {
+          "version": "source-b486e4d7ca89",
+          "sourceRef": "b486e4d7ca897497af39bafc0a63927fac0e598f",
+          "versionBasis": "official-immutable-source-snapshot-not-a-product-semantic-version",
+          "integrationConstraints": [
+            "Unity 2022 compatibility, render pipeline, native binaries and target-project integration require separate validation."
+          ]
+        }
+      ],
+      "preferredVersions": [
+        "source-b486e4d7ca89"
+      ],
+      "selectionMode": "fixed-common",
+      "versionCount": 1,
+      "maxCommonVersions": 3,
+      "coverageBasis": "User-requested vendor-package expansion; original source snapshots and restricted products retain separate acquisition states"
     }
   ],
   "references": [
@@ -2371,6 +2517,336 @@
       "disposition": "official-fetch-only",
       "versions": [],
       "reason": "Installed official API/type family evidence and acquisition route; exact package/version/target bytes unresolved"
+    },
+    {
+      "id": "PixelCrushers.DialogueSystem",
+      "displayName": "Dialogue System for Unity",
+      "family": "commercial-reference",
+      "sourceUrl": "https://www.pixelcrushers.com/dialogue-system/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://www.pixelcrushers.com/dialogue-system/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "Kybernetik.Animancer",
+      "displayName": "Animancer",
+      "family": "commercial-reference",
+      "sourceUrl": "https://kybernetik.com.au/animancer/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://kybernetik.com.au/animancer/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "HutongGames.PlayMaker",
+      "displayName": "PlayMaker",
+      "family": "commercial-reference",
+      "sourceUrl": "https://hutonggames.com/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://hutonggames.com/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "ParadoxNotion.NodeCanvas",
+      "displayName": "NodeCanvas",
+      "family": "commercial-reference",
+      "sourceUrl": "https://nodecanvas.paradoxnotion.com/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://nodecanvas.paradoxnotion.com/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "Opsive.BehaviorDesigner",
+      "displayName": "Behavior Designer",
+      "family": "commercial-reference",
+      "sourceUrl": "https://opsive.com/assets/behavior-designer/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://opsive.com/assets/behavior-designer/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "Amplify.Impostors",
+      "displayName": "Amplify Impostors",
+      "family": "commercial-reference",
+      "sourceUrl": "https://amplify.pt/unity/amplify-impostors/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://amplify.pt/unity/amplify-impostors/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "StompyRobot.SRDebugger",
+      "displayName": "SRDebugger",
+      "family": "commercial-reference",
+      "sourceUrl": "https://www.stompyrobot.uk/tools/srdebugger/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://www.stompyrobot.uk/tools/srdebugger/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "Amplify.ShaderEditor",
+      "displayName": "Amplify Shader Editor",
+      "family": "commercial-reference",
+      "sourceUrl": "https://amplify.pt/unity/amplify-shader-editor/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://amplify.pt/unity/amplify-shader-editor/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "Bakery.Lightmapper",
+      "displayName": "Bakery GPU Lightmapper",
+      "family": "commercial-reference",
+      "sourceUrl": "https://geom.io/bakery/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://geom.io/bakery/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "GPUInstancer",
+      "displayName": "GPU Instancer",
+      "family": "commercial-reference",
+      "sourceUrl": "https://www.gurbu.com/gpu-instancer",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://www.gurbu.com/gpu-instancer"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "EasyRoads3D",
+      "displayName": "EasyRoads3D",
+      "family": "commercial-reference",
+      "sourceUrl": "https://www.easyroads3d.com/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://www.easyroads3d.com/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "AwesomeTechnologies.VegetationStudioPro",
+      "displayName": "Vegetation Studio Pro",
+      "family": "commercial-reference",
+      "sourceUrl": "https://www.awesometech.no/index.php/home/vegetation-studio/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://www.awesometech.no/index.php/home/vegetation-studio/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "VirtualMethod.Obi",
+      "displayName": "Obi",
+      "family": "commercial-reference",
+      "sourceUrl": "https://obi.virtualmethodstudio.com/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://obi.virtualmethodstudio.com/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "MoreMountains.CorgiEngine",
+      "displayName": "Corgi Engine",
+      "family": "commercial-reference",
+      "sourceUrl": "https://corgi-engine.moremountains.com/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://corgi-engine.moremountains.com/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "Opsive.UltimateCharacterController",
+      "displayName": "Ultimate Character Controller",
+      "family": "commercial-reference",
+      "sourceUrl": "https://opsive.com/assets/ultimate-character-controller/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://opsive.com/assets/ultimate-character-controller/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "MoreMountains.TopDownEngine",
+      "displayName": "TopDown Engine",
+      "family": "commercial-reference",
+      "sourceUrl": "https://topdown-engine.moremountains.com/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://topdown-engine.moremountains.com/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "MoreMountains.Feel",
+      "displayName": "Feel",
+      "family": "commercial-reference",
+      "sourceUrl": "https://feel.moremountains.com/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://feel.moremountains.com/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "Febucci.TextAnimator",
+      "displayName": "Text Animator",
+      "family": "commercial-reference",
+      "sourceUrl": "https://www.febucci.com/text-animator-unity/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://www.febucci.com/text-animator-unity/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "SuperScrollView",
+      "displayName": "Super ScrollView",
+      "family": "commercial-reference",
+      "sourceUrl": "https://assetstore.unity.com/packages/tools/gui/super-scrollview-86572",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://assetstore.unity.com/packages/tools/gui/super-scrollview-86572"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "RenderHeads.AVProVideo",
+      "displayName": "AVPro Video",
+      "family": "commercial-reference",
+      "sourceUrl": "https://www.renderheads.com/products/avpro-video/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://www.renderheads.com/products/avpro-video/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "Doozy.UI",
+      "displayName": "Doozy UI",
+      "family": "commercial-reference",
+      "sourceUrl": "https://doozyui.com/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://doozyui.com/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
+    },
+    {
+      "id": "ProceduralWorlds.Gaia",
+      "displayName": "Gaia",
+      "family": "commercial-reference",
+      "sourceUrl": "https://www.procedural-worlds.com/products/indie/gaia/",
+      "disposition": "user-provided-only",
+      "versions": [],
+      "reason": "Official product acquisition entry only. No original commercial package/version or redistribution grant is available in this public catalog.",
+      "acquisition": {
+        "kind": "licensed-user-supplied",
+        "officialUrl": "https://www.procedural-worlds.com/products/indie/gaia/"
+      },
+      "identityStatus": "product-name-and-official-entry-only",
+      "profileVerified": false
     }
   ],
   "requirementRevision": "R7",
