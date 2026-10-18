@@ -289,6 +289,264 @@
     "parents": [
       {
         "parent": {
+          "packageId": "FishNet",
+          "version": "4.7.3",
+          "variantId": "git-73f30cf2425d",
+          "archiveSha256": "b45794ea1a326d7dc5e57045b04ba9b3d70c85a69db11827912ba8efe9c1e4bb",
+          "nuspecSha256": "9c120071b38240b2cf274e81543cb4bf2757f8d215d97297709e5c160480c13d"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "assets": [],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "FishNet",
+          "version": "4.7.3",
+          "variantId": "git-73f30cf2425d",
+          "archiveSha256": "b45794ea1a326d7dc5e57045b04ba9b3d70c85a69db11827912ba8efe9c1e4bb",
+          "nuspecSha256": "9c120071b38240b2cf274e81543cb4bf2757f8d215d97297709e5c160480c13d"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "explicit-compatible-fallback-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "assets": [],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "FishNet",
+          "version": "4.7.4",
+          "variantId": "git-a3627529c187",
+          "archiveSha256": "a9a57c0f7e634e3e2856fa9060468a240fa336eb0af59e6f71e22d73422b8ecc",
+          "nuspecSha256": "9c120071b38240b2cf274e81543cb4bf2757f8d215d97297709e5c160480c13d"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "assets": [],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "FishNet",
+          "version": "4.7.4",
+          "variantId": "git-a3627529c187",
+          "archiveSha256": "a9a57c0f7e634e3e2856fa9060468a240fa336eb0af59e6f71e22d73422b8ecc",
+          "nuspecSha256": "9c120071b38240b2cf274e81543cb4bf2757f8d215d97297709e5c160480c13d"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "explicit-compatible-fallback-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "assets": [],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Grpc.Core",
+          "version": "2.46.6",
+          "variantId": "nuget",
+          "archiveSha256": "ffc1e3222ef60cc347f163021dc8a71263707475ae75995cdececade1115ded3",
+          "nuspecSha256": "653a5fcf6ed922110e6345bbe7984272d7644c209dc6dbf6c6d72e53ec729884"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "Grpc.Core.Api",
+                "version": "2.46.6",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Memory",
+                "version": "4.5.3",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Grpc.Core.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "801311a9bee0f8332bfe306b696f0a2dd800f3fd474d3a8415da6db5610e5189",
+            "size": 484632
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "Grpc.Core.Api",
+            "version": "2.46.6",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "2.83.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              },
+              {
+                "version": "2.84.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Memory",
+            "version": "4.5.3",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.4",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              },
+              {
+                "version": "4.5.5",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Grpc.Core",
+          "version": "2.46.6",
+          "variantId": "nuget",
+          "archiveSha256": "ffc1e3222ef60cc347f163021dc8a71263707475ae75995cdececade1115ded3",
+          "nuspecSha256": "653a5fcf6ed922110e6345bbe7984272d7644c209dc6dbf6c6d72e53ec729884"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "explicit-compatible-fallback-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "Grpc.Core.Api",
+                "version": "2.46.6",
+                "exclude": "Build,Analyzers"
+              },
+              {
+                "id": "System.Memory",
+                "version": "4.5.3",
+                "exclude": "Build,Analyzers"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/Grpc.Core.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "801311a9bee0f8332bfe306b696f0a2dd800f3fd474d3a8415da6db5610e5189",
+            "size": 484632
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "Grpc.Core.Api",
+            "version": "2.46.6",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "2.83.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              },
+              {
+                "version": "2.84.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Memory",
+            "version": "4.5.3",
+            "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.4",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              },
+              {
+                "version": "4.5.5",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
           "packageId": "Grpc.Core.Api",
           "version": "2.83.0",
           "variantId": "nuget",
@@ -5887,9 +6145,9 @@
   ],
   "bundles": [
     {
-      "path": "lookup-0000-1b3a5f5e54ebc149010f0f46.json.gz",
-      "sha256": "1b3a5f5e54ebc149010f0f46bec18d10ddf143ff65126bfee546077ce759374e",
-      "size": 1495655
+      "path": "lookup-0000-40cc02437fb9b2ff1f830885.json.gz",
+      "sha256": "40cc02437fb9b2ff1f8308852ce777755e38c4b56f0349240c68c6fca3881c3b",
+      "size": 1589134
     }
   ]
 }

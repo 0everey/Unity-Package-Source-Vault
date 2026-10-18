@@ -22,17 +22,643 @@
       "sourceTag": "v1.1.1",
       "versionBasis": "official-repository-tag-not-target-equivalence",
       "downloadUrl": "https://codeload.github.com/inkle/ink/tar.gz/4c8ede85b1f92e60112aae4f3ddd7f06bd328ca8",
-      "disposition": "license-unresolved",
+      "disposition": "mirror-allowed",
       "license": {
-        "expression": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "MIT",
+        "evidenceUrl": "https://codeload.github.com/inkle/ink/tar.gz/4c8ede85b1f92e60112aae4f3ddd7f06bd328ca8#ink-4c8ede85b1f92e60112aae4f3ddd7f06bd328ca8/LICENSE.txt",
+        "sha256": "b7d9f13be2040188af8fa5054b50ad773633e5f0902207c38317fab5268939c2",
+        "text": "MIT License\n\nCopyright (c) 2017 inkle Ltd.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "components": [
+          {
+            "path": "LICENSE.txt",
+            "expression": "MIT",
+            "sha256": "b7d9f13be2040188af8fa5054b50ad773633e5f0902207c38317fab5268939c2",
+            "evidenceUrl": "https://codeload.github.com/inkle/ink/tar.gz/4c8ede85b1f92e60112aae4f3ddd7f06bd328ca8#ink-4c8ede85b1f92e60112aae4f3ddd7f06bd328ca8/LICENSE.txt",
+            "text": "MIT License\n\nCopyright (c) 2017 inkle Ltd.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:33:23.389178Z",
+        "decisionBasis": [
+          "Recognized permissive root grant; all detected license documents reviewed; no detected native SDK components"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "39702d7b10c689f43c0eb13cfb7c4829a68764426b34e89d3f3a7efcfb836dad",
+        "size": 380783,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-39/39702d7b10c689f43c0eb13cfb7c4829a68764426b34e89d3f3a7efcfb836dad.tar.gz",
+        "verifiedRemote": true,
+        "assetId": "RA_kwDOVNoTL84m5a_S",
+        "releaseTag": "objects-39",
+        "licenseUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-39/39702d7b10c689f43c0eb13cfb7c4829a68764426b34e89d3f3a7efcfb836dad.license-0a34fd180999135b.json",
+        "licenseSha256": "0a34fd180999135be038d7a62e0e724d35094a34dd40edbb36d262e0ea74c547",
+        "licenseAssetId": "RA_kwDOVNoTL84m5a_r"
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "1585f9bd5e19cdff650a694e879b3d8494177a3a1b08a2114cc7a86a231f4b4a",
+        "artifactSha256": "39702d7b10c689f43c0eb13cfb7c4829a68764426b34e89d3f3a7efcfb836dad",
+        "artifactSize": 380783,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "Ink",
+          "Ink.Parsed",
+          "Ink.Runtime",
+          "Tests"
+        ],
+        "types": [
+          "Ink.CharacterRange",
+          "Ink.CharacterSet",
+          "Ink.CommandLineInput",
+          "Ink.CommandLinePlayer",
+          "Ink.CommandLineTool",
+          "Ink.CommandLineTool+Options",
+          "Ink.CommentEliminator",
+          "Ink.Compiler",
+          "Ink.Compiler+CommandLineInputResult",
+          "Ink.Compiler+DebugSourceRange",
+          "Ink.Compiler+Options",
+          "Ink.DefaultFileHandler",
+          "Ink.ErrorType",
+          "Ink.IFileHandler",
+          "Ink.IPlugin",
+          "Ink.InkParser",
+          "Ink.InkParser+CustomFlags",
+          "Ink.InkParser+FlowDecl",
+          "Ink.InkParser+InfixOperator",
+          "Ink.InkParser+NameWithMetadata",
+          "Ink.InkParser+StatementLevel",
+          "Ink.InkStringConversionExtensions",
+          "Ink.Parsed.AuthorWarning",
+          "Ink.Parsed.BinaryExpression",
+          "Ink.Parsed.Choice",
+          "Ink.Parsed.Conditional",
+          "Ink.Parsed.ConditionalSingleBranch",
+          "Ink.Parsed.ConstantDeclaration",
+          "Ink.Parsed.ContentList",
+          "Ink.Parsed.Divert",
+          "Ink.Parsed.DivertTarget",
+          "Ink.Parsed.Expression",
+          "Ink.Parsed.ExternalDeclaration",
+          "Ink.Parsed.FlowBase",
+          "Ink.Parsed.FlowBase+Argument",
+          "Ink.Parsed.FlowBase+VariableResolveResult",
+          "Ink.Parsed.FlowLevel",
+          "Ink.Parsed.FunctionCall",
+          "Ink.Parsed.Gather",
+          "Ink.Parsed.Glue",
+          "Ink.Parsed.INamedContent",
+          "Ink.Parsed.IWeavePoint",
+          "Ink.Parsed.Identifier",
+          "Ink.Parsed.IncDecExpression",
+          "Ink.Parsed.IncludedFile",
+          "Ink.Parsed.Knot",
+          "Ink.Parsed.LegacyTag",
+          "Ink.Parsed.List",
+          "Ink.Parsed.ListDefinition",
+          "Ink.Parsed.ListElementDefinition",
+          "Ink.Parsed.MultipleConditionExpression",
+          "Ink.Parsed.Number",
+          "Ink.Parsed.Object",
+          "Ink.Parsed.Object+bool",
+          "Ink.Parsed.Path",
+          "Ink.Parsed.Return",
+          "Ink.Parsed.Sequence",
+          "Ink.Parsed.Sequence+SequenceDivertToResolve",
+          "Ink.Parsed.SequenceType",
+          "Ink.Parsed.Stitch",
+          "Ink.Parsed.Story",
+          "Ink.Parsed.Story+SymbolType",
+          "Ink.Parsed.StringExpression",
+          "Ink.Parsed.Tag",
+          "Ink.Parsed.Text",
+          "Ink.Parsed.TunnelOnwards",
+          "Ink.Parsed.UnaryExpression",
+          "Ink.Parsed.VariableAssignment",
+          "Ink.Parsed.VariableReference",
+          "Ink.Parsed.Weave",
+          "Ink.Parsed.Weave+GatherPointToResolve",
+          "Ink.Parsed.Weave+void",
+          "Ink.Parsed.Wrap",
+          "Ink.PluginManager",
+          "Ink.Runtime.BoolValue",
+          "Ink.Runtime.CallStack",
+          "Ink.Runtime.CallStack+Element",
+          "Ink.Runtime.CallStack+Thread",
+          "Ink.Runtime.Choice",
+          "Ink.Runtime.ChoicePoint",
+          "Ink.Runtime.Container",
+          "Ink.Runtime.Container+CountFlags",
+          "Ink.Runtime.ControlCommand",
+          "Ink.Runtime.ControlCommand+CommandType",
+          "Ink.Runtime.DebugMetadata",
+          "Ink.Runtime.Divert",
+          "Ink.Runtime.DivertTargetValue",
+          "Ink.Runtime.FloatValue",
+          "Ink.Runtime.Flow",
+          "Ink.Runtime.Glue",
+          "Ink.Runtime.INamedContent",
+          "Ink.Runtime.InkList",
+          "Ink.Runtime.InkListItem",
+          "Ink.Runtime.IntValue",
+          "Ink.Runtime.Json",
+          "Ink.Runtime.ListDefinition",
+          "Ink.Runtime.ListDefinitionsOrigin",
+          "Ink.Runtime.ListValue",
+          "Ink.Runtime.NativeFunctionCall",
+          "Ink.Runtime.NativeFunctionCall+object",
+          "Ink.Runtime.Object",
+          "Ink.Runtime.Path",
+          "Ink.Runtime.Path+Component",
+          "Ink.Runtime.Pointer",
+          "Ink.Runtime.ProfileNode",
+          "Ink.Runtime.Profiler",
+          "Ink.Runtime.Profiler+StepDetails",
+          "Ink.Runtime.PushPopType",
+          "Ink.Runtime.SearchResult",
+          "Ink.Runtime.SimpleJson",
+          "Ink.Runtime.SimpleJson+Reader",
+          "Ink.Runtime.SimpleJson+Writer",
+          "Ink.Runtime.SimpleJson+Writer+State",
+          "Ink.Runtime.SimpleJson+Writer+StateElement",
+          "Ink.Runtime.StatePatch",
+          "Ink.Runtime.Story",
+          "Ink.Runtime.Story+ExternalFunctionDef",
+          "Ink.Runtime.Story+OutputStateChange",
+          "Ink.Runtime.Story+object",
+          "Ink.Runtime.Story+void",
+          "Ink.Runtime.StoryException",
+          "Ink.Runtime.StoryState",
+          "Ink.Runtime.StringExt",
+          "Ink.Runtime.StringValue",
+          "Ink.Runtime.Tag",
+          "Ink.Runtime.Value",
+          "Ink.Runtime.ValueType",
+          "Ink.Runtime.VariableAssignment",
+          "Ink.Runtime.VariablePointerValue",
+          "Ink.Runtime.VariableReference",
+          "Ink.Runtime.VariablesState",
+          "Ink.Runtime.VariablesState+void",
+          "Ink.Runtime.Void",
+          "Ink.Stats",
+          "Ink.StringParser",
+          "Ink.StringParser+ParseSuccessStruct",
+          "Ink.StringParser+T",
+          "Ink.StringParser+object",
+          "Ink.StringParser+void",
+          "Ink.StringParserState",
+          "Ink.StringParserState+Element",
+          "Ink.void",
+          "InkTestBed",
+          "Tests.TestMode",
+          "Tests.Tests",
+          "Tests.Tests+TestWarningException"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "InkTestBed/InkTestBed.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/CharacterRange.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/CharacterSet.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/CommandLineInput.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/Compiler.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/FileHandler.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/CommentEliminator.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_AuthorWarning.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_CharacterRanges.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Choices.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_CommandLineInput.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Conditional.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Content.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Divert.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Expressions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Include.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Knot.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Logic.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Sequences.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Statements.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Tags.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Whitespace.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkStringConversionExtensions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/AuthorWarning.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Choice.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Conditional.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/ConditionalSingleBranch.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/ConstantDeclaration.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/ContentList.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Divert.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/DivertTarget.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Expression.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/ExternalDeclaration.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/FlowBase.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/FlowLevel.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/FunctionCall.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Gather.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/INamedContent.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/IWeavePoint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Identifier.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/IncludedFile.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Knot.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/List.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/ListDefinition.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Number.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Object.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Path.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Return.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Sequence.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Stitch.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Story.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/StringExpression.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Tag.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Text.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/TunnelOnwards.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/VariableAssignment.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/VariableReference.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Weave.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Wrap.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/Plugins/Plugin.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/Plugins/PluginManager.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/Stats.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/StringParser/StringParser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/StringParser/StringParserState.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/CallStack.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Choice.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/ChoicePoint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Container.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/ControlCommand.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/DebugMetadata.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Divert.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Error.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Flow.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Glue.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/INamedContent.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/InkList.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/JsonSerialisation.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/ListDefinition.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/ListDefinitionsOrigin.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/NativeFunctionCall.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Object.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Path.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Pointer.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Profiler.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/PushPop.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/SearchResult.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/SimpleJson.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/StatePatch.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Story.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/StoryException.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/StoryState.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/StringJoinExtension.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Tag.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Value.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/VariableAssignment.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/VariableReference.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/VariablesState.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Void.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "inklecate/CommandLinePlayer.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "inklecate/CommandLineTool.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/Tests.cs"
+          }
+        ],
+        "assemblies": [],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/39702d7b10c689f43c0eb13cfb7c4829a68764426b34e89d3f3a7efcfb836dad-595fb35e69ff.json.gz",
+          "sha256": "0d3b3236f897b3ac1f3da010aa58de184b82b1709375a070fcc7032b654e11ee",
+          "size": 9929,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 146,
+        "sourceFileCount": 102,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 0,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "published",
+      "versionStatus": "stable",
+      "packageId": "Ink.Runtime.Source",
+      "collectedAt": "2026-10-18T05:33:23.478149Z",
+      "publicationStatus": "verified"
     },
     {
       "version": "1.2.1",
@@ -43,17 +669,643 @@
       "sourceTag": "v1.2.1",
       "versionBasis": "official-repository-tag-not-target-equivalence",
       "downloadUrl": "https://codeload.github.com/inkle/ink/tar.gz/35c63e52f1d36060930dc7ed3cfba38ea224b528",
-      "disposition": "license-unresolved",
+      "disposition": "mirror-allowed",
       "license": {
-        "expression": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "MIT",
+        "evidenceUrl": "https://codeload.github.com/inkle/ink/tar.gz/35c63e52f1d36060930dc7ed3cfba38ea224b528#ink-35c63e52f1d36060930dc7ed3cfba38ea224b528/LICENSE.txt",
+        "sha256": "8ade0ddc1c3ede9acaf6febf2742400aa0dff808f35b202962fe073a184e8d4a",
+        "text": "MIT License\n\nCopyright (c) 2025 inkle Ltd.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "components": [
+          {
+            "path": "LICENSE.txt",
+            "expression": "MIT",
+            "sha256": "8ade0ddc1c3ede9acaf6febf2742400aa0dff808f35b202962fe073a184e8d4a",
+            "evidenceUrl": "https://codeload.github.com/inkle/ink/tar.gz/35c63e52f1d36060930dc7ed3cfba38ea224b528#ink-35c63e52f1d36060930dc7ed3cfba38ea224b528/LICENSE.txt",
+            "text": "MIT License\n\nCopyright (c) 2025 inkle Ltd.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:33:27.537133Z",
+        "decisionBasis": [
+          "Recognized permissive root grant; all detected license documents reviewed; no detected native SDK components"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "9f4bc577d2e8fbbc809eba2f3f28a7fbfe92eeb520ecea59be08319fc3bd61cd",
+        "size": 471483,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-9f/9f4bc577d2e8fbbc809eba2f3f28a7fbfe92eeb520ecea59be08319fc3bd61cd.tar.gz",
+        "verifiedRemote": true,
+        "assetId": "RA_kwDOVNoTL84m5bA4",
+        "releaseTag": "objects-9f",
+        "licenseUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-9f/9f4bc577d2e8fbbc809eba2f3f28a7fbfe92eeb520ecea59be08319fc3bd61cd.license-37495661b8b0bfcc.json",
+        "licenseSha256": "37495661b8b0bfccc8eefe5c01479a8add2f09dab79f6339dbd0ff43c0e4a9dd",
+        "licenseAssetId": "RA_kwDOVNoTL84m5bBf"
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "7b4bd4657bee5872d94a5a5b87b45acb0b6a5a8e0f1308237bc90e323bacd558",
+        "artifactSha256": "9f4bc577d2e8fbbc809eba2f3f28a7fbfe92eeb520ecea59be08319fc3bd61cd",
+        "artifactSize": 471483,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "Ink",
+          "Ink.Parsed",
+          "Ink.Runtime",
+          "Tests"
+        ],
+        "types": [
+          "Ink.CharacterRange",
+          "Ink.CharacterSet",
+          "Ink.CommandLineInput",
+          "Ink.CommandLinePlayer",
+          "Ink.CommandLineTool",
+          "Ink.CommandLineTool+Options",
+          "Ink.CommentEliminator",
+          "Ink.Compiler",
+          "Ink.Compiler+CommandLineInputResult",
+          "Ink.Compiler+DebugSourceRange",
+          "Ink.Compiler+Options",
+          "Ink.DefaultFileHandler",
+          "Ink.ErrorType",
+          "Ink.IFileHandler",
+          "Ink.IPlugin",
+          "Ink.InkParser",
+          "Ink.InkParser+CustomFlags",
+          "Ink.InkParser+FlowDecl",
+          "Ink.InkParser+InfixOperator",
+          "Ink.InkParser+NameWithMetadata",
+          "Ink.InkParser+StatementLevel",
+          "Ink.InkStringConversionExtensions",
+          "Ink.Parsed.AuthorWarning",
+          "Ink.Parsed.BinaryExpression",
+          "Ink.Parsed.Choice",
+          "Ink.Parsed.Conditional",
+          "Ink.Parsed.ConditionalSingleBranch",
+          "Ink.Parsed.ConstantDeclaration",
+          "Ink.Parsed.ContentList",
+          "Ink.Parsed.Divert",
+          "Ink.Parsed.DivertTarget",
+          "Ink.Parsed.Expression",
+          "Ink.Parsed.ExternalDeclaration",
+          "Ink.Parsed.FlowBase",
+          "Ink.Parsed.FlowBase+Argument",
+          "Ink.Parsed.FlowBase+VariableResolveResult",
+          "Ink.Parsed.FlowLevel",
+          "Ink.Parsed.FunctionCall",
+          "Ink.Parsed.Gather",
+          "Ink.Parsed.Glue",
+          "Ink.Parsed.INamedContent",
+          "Ink.Parsed.IWeavePoint",
+          "Ink.Parsed.Identifier",
+          "Ink.Parsed.IncDecExpression",
+          "Ink.Parsed.IncludedFile",
+          "Ink.Parsed.Knot",
+          "Ink.Parsed.LegacyTag",
+          "Ink.Parsed.List",
+          "Ink.Parsed.ListDefinition",
+          "Ink.Parsed.ListElementDefinition",
+          "Ink.Parsed.MultipleConditionExpression",
+          "Ink.Parsed.Number",
+          "Ink.Parsed.Object",
+          "Ink.Parsed.Object+bool",
+          "Ink.Parsed.Path",
+          "Ink.Parsed.Return",
+          "Ink.Parsed.Sequence",
+          "Ink.Parsed.Sequence+SequenceDivertToResolve",
+          "Ink.Parsed.SequenceType",
+          "Ink.Parsed.Stitch",
+          "Ink.Parsed.Story",
+          "Ink.Parsed.Story+SymbolType",
+          "Ink.Parsed.StringExpression",
+          "Ink.Parsed.Tag",
+          "Ink.Parsed.Text",
+          "Ink.Parsed.TunnelOnwards",
+          "Ink.Parsed.UnaryExpression",
+          "Ink.Parsed.VariableAssignment",
+          "Ink.Parsed.VariableReference",
+          "Ink.Parsed.Weave",
+          "Ink.Parsed.Weave+GatherPointToResolve",
+          "Ink.Parsed.Weave+void",
+          "Ink.Parsed.Wrap",
+          "Ink.PluginManager",
+          "Ink.Runtime.BoolValue",
+          "Ink.Runtime.CallStack",
+          "Ink.Runtime.CallStack+Element",
+          "Ink.Runtime.CallStack+Thread",
+          "Ink.Runtime.Choice",
+          "Ink.Runtime.ChoicePoint",
+          "Ink.Runtime.Container",
+          "Ink.Runtime.Container+CountFlags",
+          "Ink.Runtime.ControlCommand",
+          "Ink.Runtime.ControlCommand+CommandType",
+          "Ink.Runtime.DebugMetadata",
+          "Ink.Runtime.Divert",
+          "Ink.Runtime.DivertTargetValue",
+          "Ink.Runtime.FloatValue",
+          "Ink.Runtime.Flow",
+          "Ink.Runtime.Glue",
+          "Ink.Runtime.INamedContent",
+          "Ink.Runtime.InkList",
+          "Ink.Runtime.InkListItem",
+          "Ink.Runtime.IntValue",
+          "Ink.Runtime.Json",
+          "Ink.Runtime.ListDefinition",
+          "Ink.Runtime.ListDefinitionsOrigin",
+          "Ink.Runtime.ListValue",
+          "Ink.Runtime.NativeFunctionCall",
+          "Ink.Runtime.NativeFunctionCall+object",
+          "Ink.Runtime.Object",
+          "Ink.Runtime.Path",
+          "Ink.Runtime.Path+Component",
+          "Ink.Runtime.Pointer",
+          "Ink.Runtime.ProfileNode",
+          "Ink.Runtime.Profiler",
+          "Ink.Runtime.Profiler+StepDetails",
+          "Ink.Runtime.PushPopType",
+          "Ink.Runtime.SearchResult",
+          "Ink.Runtime.SimpleJson",
+          "Ink.Runtime.SimpleJson+Reader",
+          "Ink.Runtime.SimpleJson+Writer",
+          "Ink.Runtime.SimpleJson+Writer+State",
+          "Ink.Runtime.SimpleJson+Writer+StateElement",
+          "Ink.Runtime.StatePatch",
+          "Ink.Runtime.Story",
+          "Ink.Runtime.Story+ExternalFunctionDef",
+          "Ink.Runtime.Story+OutputStateChange",
+          "Ink.Runtime.Story+object",
+          "Ink.Runtime.Story+void",
+          "Ink.Runtime.StoryException",
+          "Ink.Runtime.StoryState",
+          "Ink.Runtime.StringExt",
+          "Ink.Runtime.StringValue",
+          "Ink.Runtime.Tag",
+          "Ink.Runtime.Value",
+          "Ink.Runtime.ValueType",
+          "Ink.Runtime.VariableAssignment",
+          "Ink.Runtime.VariablePointerValue",
+          "Ink.Runtime.VariableReference",
+          "Ink.Runtime.VariablesState",
+          "Ink.Runtime.VariablesState+void",
+          "Ink.Runtime.Void",
+          "Ink.Stats",
+          "Ink.StringParser",
+          "Ink.StringParser+ParseSuccessStruct",
+          "Ink.StringParser+T",
+          "Ink.StringParser+object",
+          "Ink.StringParser+void",
+          "Ink.StringParserState",
+          "Ink.StringParserState+Element",
+          "Ink.void",
+          "InkTestBed",
+          "Tests.TestMode",
+          "Tests.Tests",
+          "Tests.Tests+TestWarningException"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "InkTestBed/InkTestBed.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/CharacterRange.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/CharacterSet.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/CommandLineInput.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/Compiler.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/FileHandler.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/CommentEliminator.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_AuthorWarning.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_CharacterRanges.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Choices.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_CommandLineInput.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Conditional.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Content.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Divert.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Expressions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Include.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Knot.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Logic.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Sequences.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Statements.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Tags.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkParser/InkParser_Whitespace.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/InkStringConversionExtensions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/AuthorWarning.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Choice.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Conditional.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/ConditionalSingleBranch.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/ConstantDeclaration.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/ContentList.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Divert.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/DivertTarget.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Expression.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/ExternalDeclaration.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/FlowBase.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/FlowLevel.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/FunctionCall.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Gather.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/INamedContent.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/IWeavePoint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Identifier.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/IncludedFile.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Knot.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/List.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/ListDefinition.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Number.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Object.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Path.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Return.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Sequence.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Stitch.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Story.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/StringExpression.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Tag.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Text.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/TunnelOnwards.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/VariableAssignment.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/VariableReference.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Weave.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/ParsedHierarchy/Wrap.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/Plugins/Plugin.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/Plugins/PluginManager.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/Stats.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/StringParser/StringParser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "compiler/StringParser/StringParserState.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/CallStack.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Choice.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/ChoicePoint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Container.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/ControlCommand.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/DebugMetadata.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Divert.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Error.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Flow.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Glue.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/INamedContent.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/InkList.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/JsonSerialisation.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/ListDefinition.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/ListDefinitionsOrigin.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/NativeFunctionCall.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Object.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Path.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Pointer.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Profiler.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/PushPop.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/SearchResult.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/SimpleJson.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/StatePatch.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Story.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/StoryException.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/StoryState.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/StringJoinExtension.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Tag.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Value.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/VariableAssignment.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/VariableReference.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/VariablesState.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "ink-engine-runtime/Void.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "inklecate/CommandLinePlayer.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "inklecate/CommandLineTool.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "tests/Tests.cs"
+          }
+        ],
+        "assemblies": [],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/9f4bc577d2e8fbbc809eba2f3f28a7fbfe92eeb520ecea59be08319fc3bd61cd-595fb35e69ff.json.gz",
+          "sha256": "eaab84d397e7e0d89c0ef15cdcf93a516d9c0eabbeef9677a90f519b714eb1a2",
+          "size": 9983,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 147,
+        "sourceFileCount": 102,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 0,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "published",
+      "versionStatus": "stable",
+      "packageId": "Ink.Runtime.Source",
+      "collectedAt": "2026-10-18T05:33:27.627788Z",
+      "publicationStatus": "verified"
     }
   ],
   "metadataStatus": "complete",
