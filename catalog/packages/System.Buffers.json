@@ -17,19 +17,469 @@
       "sourceUrl": "https://www.nuget.org/packages/System.Buffers/4.5.1",
       "sourceRef": null,
       "downloadUrl": "https://api.nuget.org/v3-flatcontainer/system.buffers/4.5.1/system.buffers.4.5.1.nupkg",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-nuspec"
+        "expression": "MIT",
+        "evidenceUrl": "https://api.nuget.org/v3-flatcontainer/system.buffers/4.5.1/system.buffers.4.5.1.nupkg#LICENSE.TXT",
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b",
+        "text": "The MIT License (MIT)\r\n\r\nCopyright (c) .NET Foundation and Contributors\r\n\r\nAll rights reserved.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n",
+        "components": [
+          {
+            "path": "LICENSE.TXT",
+            "expression": "MIT",
+            "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b",
+            "evidenceUrl": "https://api.nuget.org/v3-flatcontainer/system.buffers/4.5.1/system.buffers.4.5.1.nupkg#LICENSE.TXT",
+            "text": "The MIT License (MIT)\r\n\r\nCopyright (c) .NET Foundation and Contributors\r\n\r\nAll rights reserved.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n"
+          },
+          {
+            "path": "lib/net461/System.Buffers.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "lib/netstandard1.1/System.Buffers.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "lib/netstandard2.0/System.Buffers.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "ref/net45/System.Buffers.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "ref/netstandard1.1/System.Buffers.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "ref/netstandard2.0/System.Buffers.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:34:26.793804Z",
+        "decisionBasis": [
+          "Native/SDK components require their own redistribution evidence"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "c30b3dd2c7e2f4cee4b823d692fd42118309b42ab1f5007f923d329a5b0d6b12",
+        "size": 93737,
+        "format": "nupkg",
+        "kind": "binary-only",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.buffers/4.5.1/system.buffers.4.5.1.nupkg",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types",
+          "managedMetadata": {
+            "name": "uvault.managed-index",
+            "version": "1",
+            "reader": "System.Reflection.Metadata/PEReader",
+            "available": true,
+            "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+          }
+        },
+        "sourceSetSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "artifactSha256": "c30b3dd2c7e2f4cee4b823d692fd42118309b42ab1f5007f923d329a5b0d6b12",
+        "artifactSize": 93737,
+        "artifactFormat": "nupkg",
+        "namespaces": [
+          "FxResources.System.Buffers",
+          "System",
+          "System.Buffers",
+          "System.Runtime.CompilerServices"
+        ],
+        "types": [
+          "FxResources.System.Buffers.SR",
+          "System.Buffers.ArrayPoolEventSource",
+          "System.Buffers.ArrayPoolEventSource+BufferAllocatedReason",
+          "System.Buffers.ArrayPool`1",
+          "System.Buffers.DefaultArrayPool`1",
+          "System.Buffers.DefaultArrayPool`1+Bucket",
+          "System.Buffers.Utilities",
+          "System.Runtime.CompilerServices.__BlockReflectionAttribute",
+          "System.SR"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "System.Buffers",
+            "scope": {
+              "name": "System.Buffers",
+              "version": "4.0.3.0",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "lib/net461/System.Buffers.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "FxResources.System.Buffers.SR",
+              "System.Buffers.ArrayPoolEventSource",
+              "System.Buffers.ArrayPoolEventSource+BufferAllocatedReason",
+              "System.Buffers.ArrayPool`1",
+              "System.Buffers.DefaultArrayPool`1",
+              "System.Buffers.DefaultArrayPool`1+Bucket",
+              "System.Buffers.Utilities",
+              "System.SR"
+            ]
+          },
+          {
+            "name": "System.Buffers",
+            "scope": {
+              "name": "System.Buffers",
+              "version": "4.0.3.0",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "lib/netstandard1.1/System.Buffers.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "FxResources.System.Buffers.SR",
+              "System.Buffers.ArrayPoolEventSource",
+              "System.Buffers.ArrayPoolEventSource+BufferAllocatedReason",
+              "System.Buffers.ArrayPool`1",
+              "System.Buffers.DefaultArrayPool`1",
+              "System.Buffers.DefaultArrayPool`1+Bucket",
+              "System.Buffers.Utilities",
+              "System.Runtime.CompilerServices.__BlockReflectionAttribute",
+              "System.SR"
+            ]
+          },
+          {
+            "name": "System.Buffers",
+            "scope": {
+              "name": "System.Buffers",
+              "version": "4.0.3.0",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "lib/netstandard2.0/System.Buffers.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "FxResources.System.Buffers.SR",
+              "System.Buffers.ArrayPoolEventSource",
+              "System.Buffers.ArrayPoolEventSource+BufferAllocatedReason",
+              "System.Buffers.ArrayPool`1",
+              "System.Buffers.DefaultArrayPool`1",
+              "System.Buffers.DefaultArrayPool`1+Bucket",
+              "System.Buffers.Utilities",
+              "System.Runtime.CompilerServices.__BlockReflectionAttribute",
+              "System.SR"
+            ]
+          },
+          {
+            "name": "System.Buffers",
+            "scope": {
+              "name": "System.Buffers",
+              "version": "4.0.3.0",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "ref/net45/System.Buffers.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "System.Buffers.ArrayPool`1"
+            ]
+          },
+          {
+            "name": "System.Buffers",
+            "scope": {
+              "name": "System.Buffers",
+              "version": "4.0.2.0",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "ref/netstandard1.1/System.Buffers.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "System.Buffers.ArrayPool`1",
+              "System.Runtime.CompilerServices.__BlockReflectionAttribute"
+            ]
+          },
+          {
+            "name": "System.Buffers",
+            "scope": {
+              "name": "System.Buffers",
+              "version": "4.0.2.0",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "ref/netstandard2.0/System.Buffers.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "System.Buffers.ArrayPool`1",
+              "System.Runtime.CompilerServices.__BlockReflectionAttribute"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/c30b3dd2c7e2f4cee4b823d692fd42118309b42ab1f5007f923d329a5b0d6b12-603581728bbb.json.gz",
+          "sha256": "c41e243a1a17fd6d552ddfc7e579b430d8070c290c6e98b86566c9257d96a120",
+          "size": 4537,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types",
+            "managedMetadata": {
+              "name": "uvault.managed-index",
+              "version": "1",
+              "reader": "System.Reflection.Metadata/PEReader",
+              "available": true,
+              "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+            }
+          }
+        },
+        "fileCount": 25,
+        "sourceFileCount": 0,
+        "sourceSetNonEmpty": false,
+        "conditionalSourceCount": 0,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": [
+          {
+            "path": "lib/net461/System.Buffers.dll",
+            "sha256": "accccfbe45d9f08ffeed9916e37b33e98c65be012cfff6e7fa7b67210ce1fefb",
+            "size": 20856,
+            "dummyDll": false
+          },
+          {
+            "path": "lib/netstandard1.1/System.Buffers.dll",
+            "sha256": "423200010a7684763451473a4fb206dfa074fc8249676621ef9d9a13417d364d",
+            "size": 20864,
+            "dummyDll": false
+          },
+          {
+            "path": "lib/netstandard2.0/System.Buffers.dll",
+            "sha256": "c65fff603b283dc966d1a8b730c11d5e5e750e8021bd24640612f6cc3f2c6fb7",
+            "size": 21376,
+            "dummyDll": false
+          },
+          {
+            "path": "ref/net45/System.Buffers.dll",
+            "sha256": "6f80d131c025f960c5ad1e224fb73677abb83198d759ecbdecc115650b356f09",
+            "size": 14720,
+            "dummyDll": false
+          },
+          {
+            "path": "ref/netstandard1.1/System.Buffers.dll",
+            "sha256": "e81f72e4e08a552261c219b41b75e28fde1e9496a198b49b3a31d1c7e11c2f8f",
+            "size": 14712,
+            "dummyDll": false
+          },
+          {
+            "path": "ref/netstandard2.0/System.Buffers.dll",
+            "sha256": "f51c83610ab74f2605349a27665f65e3cf726f0ded25fce6779879ad9b26e1a2",
+            "size": 14720,
+            "dummyDll": false
+          }
+        ]
+      },
+      "fetchStatus": "collected",
+      "versionStatus": "stable",
+      "packageId": "System.Buffers",
+      "nuget": {
+        "declaredLicense": null,
+        "repository": {},
+        "dependencies": [
+          {
+            "id": "System.Diagnostics.Debug",
+            "version": "4.3.0",
+            "exclude": "Compile"
+          },
+          {
+            "id": "System.Diagnostics.Tracing",
+            "version": "4.3.0",
+            "exclude": "Compile"
+          },
+          {
+            "id": "System.Resources.ResourceManager",
+            "version": "4.3.0",
+            "exclude": "Compile"
+          },
+          {
+            "id": "System.Runtime",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Threading",
+            "version": "4.3.0",
+            "exclude": "Compile"
+          }
+        ],
+        "targetFrameworks": [
+          ".NETCoreApp2.0",
+          ".NETFramework4.5",
+          ".NETFramework4.6.1",
+          ".NETPortable4.5-Profile111",
+          ".NETStandard1.1",
+          ".NETStandard2.0",
+          "UAP10.0.16299",
+          "Windows8.0",
+          "WindowsPhoneApp8.1"
+        ],
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETFramework4.5",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETFramework4.6.1",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETCoreApp2.0",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETStandard1.1",
+            "dependencies": [
+              {
+                "id": "System.Diagnostics.Debug",
+                "version": "4.3.0",
+                "exclude": "Compile"
+              },
+              {
+                "id": "System.Diagnostics.Tracing",
+                "version": "4.3.0",
+                "exclude": "Compile"
+              },
+              {
+                "id": "System.Resources.ResourceManager",
+                "version": "4.3.0",
+                "exclude": "Compile"
+              },
+              {
+                "id": "System.Runtime",
+                "version": "4.3.0"
+              },
+              {
+                "id": "System.Threading",
+                "version": "4.3.0",
+                "exclude": "Compile"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETPortable4.5-Profile111",
+            "dependencies": []
+          },
+          {
+            "targetFramework": "UAP10.0.16299",
+            "dependencies": []
+          },
+          {
+            "targetFramework": "Windows8.0",
+            "dependencies": []
+          },
+          {
+            "targetFramework": "WindowsPhoneApp8.1",
+            "dependencies": []
+          }
+        ],
+        "nuspecSha256": "353a5c2810bfb22de50b87616f426d4d2c8aac2040802c68e2caadedbfe66b8e",
+        "nuspecPath": "System.Buffers.nuspec",
+        "assets": [
+          {
+            "path": "lib/net461/System.Buffers.dll",
+            "targetFramework": "net461",
+            "kind": "lib",
+            "sha256": "accccfbe45d9f08ffeed9916e37b33e98c65be012cfff6e7fa7b67210ce1fefb",
+            "size": 20856
+          },
+          {
+            "path": "lib/netstandard1.1/System.Buffers.dll",
+            "targetFramework": "netstandard1.1",
+            "kind": "lib",
+            "sha256": "423200010a7684763451473a4fb206dfa074fc8249676621ef9d9a13417d364d",
+            "size": 20864
+          },
+          {
+            "path": "lib/netstandard2.0/System.Buffers.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "c65fff603b283dc966d1a8b730c11d5e5e750e8021bd24640612f6cc3f2c6fb7",
+            "size": 21376
+          },
+          {
+            "path": "ref/net45/System.Buffers.dll",
+            "targetFramework": "net45",
+            "kind": "ref",
+            "sha256": "6f80d131c025f960c5ad1e224fb73677abb83198d759ecbdecc115650b356f09",
+            "size": 14720
+          },
+          {
+            "path": "ref/netstandard1.1/System.Buffers.dll",
+            "targetFramework": "netstandard1.1",
+            "kind": "ref",
+            "sha256": "e81f72e4e08a552261c219b41b75e28fde1e9496a198b49b3a31d1c7e11c2f8f",
+            "size": 14712
+          },
+          {
+            "path": "ref/netstandard2.0/System.Buffers.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "ref",
+            "sha256": "f51c83610ab74f2605349a27665f65e3cf726f0ded25fce6779879ad9b26e1a2",
+            "size": 14720
+          }
+        ],
+        "archiveSha256": "c30b3dd2c7e2f4cee4b823d692fd42118309b42ab1f5007f923d329a5b0d6b12"
+      },
+      "collectedAt": "2026-10-18T05:34:26.920045Z"
     }
   ],
   "metadataStatus": "complete",

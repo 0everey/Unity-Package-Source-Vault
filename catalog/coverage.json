@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-18T05:34:16.418844Z",
+  "generatedAt": "2026-10-18T05:34:37.927794Z",
   "sourceSnapshots": [
     {
       "source": "common-packages.json",
@@ -2227,6 +2227,164 @@
       },
       {
         "parent": {
+          "packageId": "Steamworks.NET",
+          "version": "20.2.0",
+          "variantId": "git-a3fe8091f723",
+          "archiveSha256": "46c0fa6282d64e2d8a66633c7633eab77feecd560feb373f8f2191376e846175",
+          "nuspecSha256": "b134b6b4ce9106cd715a4d0cedf50a97e07d9e7740e1f12164e621f1fa698dd9"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "framework-group-unavailable",
+        "dependencyGroups": [],
+        "assets": [],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Steamworks.NET",
+          "version": "20.2.0",
+          "variantId": "git-a3fe8091f723",
+          "archiveSha256": "46c0fa6282d64e2d8a66633c7633eab77feecd560feb373f8f2191376e846175",
+          "nuspecSha256": "b134b6b4ce9106cd715a4d0cedf50a97e07d9e7740e1f12164e621f1fa698dd9"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": "netstandard2.1",
+            "dependencies": []
+          }
+        ],
+        "assets": [],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Steamworks.NET",
+          "version": "2025.164.1",
+          "variantId": "git-c21a8f0e31c5",
+          "archiveSha256": "d713131cb981c23c4ac35f825d5c86a7203db311bc3fcea53f7444b458fadb53",
+          "nuspecSha256": "b134b6b4ce9106cd715a4d0cedf50a97e07d9e7740e1f12164e621f1fa698dd9"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "framework-group-unavailable",
+        "dependencyGroups": [],
+        "assets": [],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "Steamworks.NET",
+          "version": "2025.164.1",
+          "variantId": "git-c21a8f0e31c5",
+          "archiveSha256": "d713131cb981c23c4ac35f825d5c86a7203db311bc3fcea53f7444b458fadb53",
+          "nuspecSha256": "b134b6b4ce9106cd715a4d0cedf50a97e07d9e7740e1f12164e621f1fa698dd9"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": "netstandard2.1",
+            "dependencies": []
+          }
+        ],
+        "assets": [],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "System.Buffers",
+          "version": "4.5.1",
+          "variantId": "nuget",
+          "archiveSha256": "c30b3dd2c7e2f4cee4b823d692fd42118309b42ab1f5007f923d329a5b0d6b12",
+          "nuspecSha256": "353a5c2810bfb22de50b87616f426d4d2c8aac2040802c68e2caadedbfe66b8e"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/System.Buffers.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "c65fff603b283dc966d1a8b730c11d5e5e750e8021bd24640612f6cc3f2c6fb7",
+            "size": 21376
+          },
+          {
+            "path": "ref/netstandard2.0/System.Buffers.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "ref",
+            "sha256": "f51c83610ab74f2605349a27665f65e3cf726f0ded25fce6779879ad9b26e1a2",
+            "size": 14720
+          }
+        ],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "System.Buffers",
+          "version": "4.5.1",
+          "variantId": "nuget",
+          "archiveSha256": "c30b3dd2c7e2f4cee4b823d692fd42118309b42ab1f5007f923d329a5b0d6b12",
+          "nuspecSha256": "353a5c2810bfb22de50b87616f426d4d2c8aac2040802c68e2caadedbfe66b8e"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "explicit-compatible-fallback-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": []
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/System.Buffers.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "c65fff603b283dc966d1a8b730c11d5e5e750e8021bd24640612f6cc3f2c6fb7",
+            "size": 21376
+          },
+          {
+            "path": "ref/netstandard2.0/System.Buffers.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "ref",
+            "sha256": "f51c83610ab74f2605349a27665f65e3cf726f0ded25fce6779879ad9b26e1a2",
+            "size": 14720
+          }
+        ],
+        "dependencies": [],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
           "packageId": "System.Diagnostics.DiagnosticSource",
           "version": "6.0.1",
           "variantId": "nuget",
@@ -2520,6 +2678,330 @@
             "id": "System.Runtime.CompilerServices.Unsafe",
             "version": "6.0.0",
             "exclude": "Build,Analyzers",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "6.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "System.Memory",
+          "version": "4.5.4",
+          "variantId": "nuget",
+          "archiveSha256": "dec0847f33b8823e4260672d97d657411461c00ada3107ec7bbcb32a845eeb91",
+          "nuspecSha256": "b58115244a5d8817c65017d55b2d3a4ede57feb1a0f55ab4a70493a23460ea89"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Numerics.Vectors",
+                "version": "4.4.0"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/System.Memory.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "d2e3949fcf3a3b3a20bb9a568a4da582d9a90d64f34c0bdc07c9029bfe8f1858",
+            "size": 141688
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.1",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Numerics.Vectors",
+            "version": "4.4.0",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "6.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "System.Memory",
+          "version": "4.5.4",
+          "variantId": "nuget",
+          "archiveSha256": "dec0847f33b8823e4260672d97d657411461c00ada3107ec7bbcb32a845eeb91",
+          "nuspecSha256": "b58115244a5d8817c65017d55b2d3a4ede57feb1a0f55ab4a70493a23460ea89"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "explicit-compatible-fallback-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Numerics.Vectors",
+                "version": "4.4.0"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/System.Memory.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "d2e3949fcf3a3b3a20bb9a568a4da582d9a90d64f34c0bdc07c9029bfe8f1858",
+            "size": 141688
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.1",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Numerics.Vectors",
+            "version": "4.4.0",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "6.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "System.Memory",
+          "version": "4.5.5",
+          "variantId": "nuget",
+          "archiveSha256": "10f43da352a29fb2b3188e4edd4dcf5100194c8b526e4f61fe2e2b5623775a22",
+          "nuspecSha256": "745bfa574a0fe397559dad595fd0b73a38d7dde40703bb8f0f1eba82edf99aa7"
+        },
+        "requestedFramework": "netstandard2.0",
+        "status": "declared-framework-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Numerics.Vectors",
+                "version": "4.4.0"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/System.Memory.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "11590d8bb3b12f29f4202b3ef8593229a5cd6debb61e76cba9ac5493a82ee382",
+            "size": 142752
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.1",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Numerics.Vectors",
+            "version": "4.4.0",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "6.0.0",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          }
+        ],
+        "profileVerified": false,
+        "installed": false,
+        "compiled": false,
+        "completeClosure": false
+      },
+      {
+        "parent": {
+          "packageId": "System.Memory",
+          "version": "4.5.5",
+          "variantId": "nuget",
+          "archiveSha256": "10f43da352a29fb2b3188e4edd4dcf5100194c8b526e4f61fe2e2b5623775a22",
+          "nuspecSha256": "745bfa574a0fe397559dad595fd0b73a38d7dde40703bb8f0f1eba82edf99aa7"
+        },
+        "requestedFramework": "netstandard2.1",
+        "status": "explicit-compatible-fallback-candidate",
+        "dependencyGroups": [
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Numerics.Vectors",
+                "version": "4.4.0"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          }
+        ],
+        "assets": [
+          {
+            "path": "lib/netstandard2.0/System.Memory.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "11590d8bb3b12f29f4202b3ef8593229a5cd6debb61e76cba9ac5493a82ee382",
+            "size": 142752
+          }
+        ],
+        "dependencies": [
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [
+              {
+                "version": "4.5.1",
+                "variantId": "nuget",
+                "satisfiesRange": true
+              }
+            ],
+            "status": "catalog-range-candidates-only",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Numerics.Vectors",
+            "version": "4.4.0",
+            "declaringFramework": ".NETStandard2.0",
+            "catalogEvaluations": [],
+            "status": "named-dependency-gap",
+            "automaticSubstitution": false
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3",
             "declaringFramework": ".NETStandard2.0",
             "catalogEvaluations": [
               {
@@ -2739,21 +3221,21 @@
   },
   "listedVersions": 285,
   "selectedVersionTasks": 235,
-  "completedSelectedVersionTasks": 136,
-  "pendingSelectedVersionTasks": 99,
-  "fetchedVersionRecords": 136,
-  "publishedVersionRecords": 19,
-  "remoteReadbackVerifiedVersionRecords": 19,
+  "completedSelectedVersionTasks": 146,
+  "pendingSelectedVersionTasks": 89,
+  "fetchedVersionRecords": 146,
+  "publishedVersionRecords": 20,
+  "remoteReadbackVerifiedVersionRecords": 20,
   "dispositionCounts": {
-    "official-fetch-only": 141,
-    "license-unresolved": 117,
-    "mirror-allowed": 19,
+    "official-fetch-only": 150,
+    "license-unresolved": 107,
+    "mirror-allowed": 20,
     "builtin-reference": 28
   },
   "fetchStatusCounts": {
-    "collected": 117,
-    "published": 19,
-    "pending": 98,
+    "collected": 126,
+    "published": 20,
+    "pending": 88,
     "reference-only": 50,
     "fetch-failed": 1
   },

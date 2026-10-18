@@ -17,19 +17,923 @@
       "sourceUrl": "https://www.nuget.org/packages/System.Memory/4.5.4",
       "sourceRef": null,
       "downloadUrl": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.4/system.memory.4.5.4.nupkg",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-nuspec"
+        "expression": "MIT",
+        "evidenceUrl": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.4/system.memory.4.5.4.nupkg#LICENSE.TXT",
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b",
+        "text": "The MIT License (MIT)\r\n\r\nCopyright (c) .NET Foundation and Contributors\r\n\r\nAll rights reserved.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n",
+        "components": [
+          {
+            "path": "LICENSE.TXT",
+            "expression": "MIT",
+            "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b",
+            "evidenceUrl": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.4/system.memory.4.5.4.nupkg#LICENSE.TXT",
+            "text": "The MIT License (MIT)\r\n\r\nCopyright (c) .NET Foundation and Contributors\r\n\r\nAll rights reserved.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n"
+          },
+          {
+            "path": "lib/net461/System.Memory.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "lib/netstandard1.1/System.Memory.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "lib/netstandard2.0/System.Memory.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:34:26.958094Z",
+        "decisionBasis": [
+          "Native/SDK components require their own redistribution evidence"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "dec0847f33b8823e4260672d97d657411461c00ada3107ec7bbcb32a845eeb91",
+        "size": 205467,
+        "format": "nupkg",
+        "kind": "binary-only",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.4/system.memory.4.5.4.nupkg",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types",
+          "managedMetadata": {
+            "name": "uvault.managed-index",
+            "version": "1",
+            "reader": "System.Reflection.Metadata/PEReader",
+            "available": true,
+            "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+          }
+        },
+        "sourceSetSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "artifactSha256": "dec0847f33b8823e4260672d97d657411461c00ada3107ec7bbcb32a845eeb91",
+        "artifactSize": 205467,
+        "artifactFormat": "nupkg",
+        "namespaces": [
+          "FxResources.System.Memory",
+          "Microsoft.CodeAnalysis",
+          "System",
+          "System.Buffers",
+          "System.Buffers.Binary",
+          "System.Buffers.Text",
+          "System.Numerics.Hashing",
+          "System.Runtime.CompilerServices",
+          "System.Runtime.InteropServices"
+        ],
+        "types": [
+          "<PrivateImplementationDetails>",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=15",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=240",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=256",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=28",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=336",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=42",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=48",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=52",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=64",
+          "FxResources.System.Memory.SR",
+          "Microsoft.CodeAnalysis.EmbeddedAttribute",
+          "System.Buffers.ArrayMemoryPool`1",
+          "System.Buffers.ArrayMemoryPool`1+ArrayMemoryPoolBuffer",
+          "System.Buffers.Binary.BinaryPrimitives",
+          "System.Buffers.BuffersExtensions",
+          "System.Buffers.IBufferWriter`1",
+          "System.Buffers.IMemoryOwner`1",
+          "System.Buffers.IPinnable",
+          "System.Buffers.MemoryHandle",
+          "System.Buffers.MemoryManager`1",
+          "System.Buffers.MemoryPool`1",
+          "System.Buffers.OperationStatus",
+          "System.Buffers.ReadOnlySequence",
+          "System.Buffers.ReadOnlySequenceDebugView`1",
+          "System.Buffers.ReadOnlySequenceDebugView`1+ReadOnlySequenceDebugViewSegments",
+          "System.Buffers.ReadOnlySequenceSegment`1",
+          "System.Buffers.ReadOnlySequence`1",
+          "System.Buffers.ReadOnlySequence`1+Enumerator",
+          "System.Buffers.ReadOnlySequence`1+SequenceType",
+          "System.Buffers.StandardFormat",
+          "System.Buffers.Text.Base64",
+          "System.Buffers.Text.FormattingHelpers",
+          "System.Buffers.Text.FormattingHelpers+HexCasing",
+          "System.Buffers.Text.ParserHelpers",
+          "System.Buffers.Text.Utf8Constants",
+          "System.Buffers.Text.Utf8Formatter",
+          "System.Buffers.Text.Utf8Formatter+DecomposedGuid",
+          "System.Buffers.Text.Utf8Parser",
+          "System.Buffers.Text.Utf8Parser+ComponentParseResult",
+          "System.Buffers.Text.Utf8Parser+ParseNumberOptions",
+          "System.Buffers.Text.Utf8Parser+TimeSpanSplitter",
+          "System.DecimalDecCalc",
+          "System.ExceptionArgument",
+          "System.MemoryDebugView`1",
+          "System.MemoryExtensions",
+          "System.Memory`1",
+          "System.MutableDecimal",
+          "System.NUInt",
+          "System.NotImplemented",
+          "System.Number",
+          "System.Number+DoubleHelper",
+          "System.NumberBuffer",
+          "System.Numerics.Hashing.HashHelpers",
+          "System.Pinnable`1",
+          "System.ReadOnlyMemory`1",
+          "System.ReadOnlySpan`1",
+          "System.ReadOnlySpan`1+Enumerator",
+          "System.Runtime.CompilerServices.IsByRefLikeAttribute",
+          "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+          "System.Runtime.CompilerServices.__BlockReflectionAttribute",
+          "System.Runtime.InteropServices.MemoryMarshal",
+          "System.Runtime.InteropServices.MemoryMarshal+<ToEnumerable>d__3`1",
+          "System.Runtime.InteropServices.SequenceMarshal",
+          "System.SR",
+          "System.SequencePosition",
+          "System.SpanDebugView`1",
+          "System.SpanHelpers",
+          "System.SpanHelpers+ComparerComparable`2",
+          "System.SpanHelpers+PerTypeValues`1",
+          "System.SpanHelpers+Reg16",
+          "System.SpanHelpers+Reg32",
+          "System.SpanHelpers+Reg64",
+          "System.Span`1",
+          "System.Span`1+Enumerator",
+          "System.ThrowHelper"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "System.Memory",
+            "scope": {
+              "name": "System.Memory",
+              "version": "4.0.1.1",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "lib/net461/System.Memory.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "<PrivateImplementationDetails>",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=15",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=240",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=256",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=28",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=336",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=42",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=48",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=52",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=64",
+              "FxResources.System.Memory.SR",
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Buffers.ArrayMemoryPool`1",
+              "System.Buffers.ArrayMemoryPool`1+ArrayMemoryPoolBuffer",
+              "System.Buffers.Binary.BinaryPrimitives",
+              "System.Buffers.BuffersExtensions",
+              "System.Buffers.IBufferWriter`1",
+              "System.Buffers.IMemoryOwner`1",
+              "System.Buffers.IPinnable",
+              "System.Buffers.MemoryHandle",
+              "System.Buffers.MemoryManager`1",
+              "System.Buffers.MemoryPool`1",
+              "System.Buffers.OperationStatus",
+              "System.Buffers.ReadOnlySequence",
+              "System.Buffers.ReadOnlySequenceDebugView`1",
+              "System.Buffers.ReadOnlySequenceDebugView`1+ReadOnlySequenceDebugViewSegments",
+              "System.Buffers.ReadOnlySequenceSegment`1",
+              "System.Buffers.ReadOnlySequence`1",
+              "System.Buffers.ReadOnlySequence`1+Enumerator",
+              "System.Buffers.ReadOnlySequence`1+SequenceType",
+              "System.Buffers.StandardFormat",
+              "System.Buffers.Text.Base64",
+              "System.Buffers.Text.FormattingHelpers",
+              "System.Buffers.Text.FormattingHelpers+HexCasing",
+              "System.Buffers.Text.ParserHelpers",
+              "System.Buffers.Text.Utf8Constants",
+              "System.Buffers.Text.Utf8Formatter",
+              "System.Buffers.Text.Utf8Formatter+DecomposedGuid",
+              "System.Buffers.Text.Utf8Parser",
+              "System.Buffers.Text.Utf8Parser+ComponentParseResult",
+              "System.Buffers.Text.Utf8Parser+ParseNumberOptions",
+              "System.Buffers.Text.Utf8Parser+TimeSpanSplitter",
+              "System.DecimalDecCalc",
+              "System.ExceptionArgument",
+              "System.MemoryDebugView`1",
+              "System.MemoryExtensions",
+              "System.Memory`1",
+              "System.MutableDecimal",
+              "System.NUInt",
+              "System.NotImplemented",
+              "System.Number",
+              "System.Number+DoubleHelper",
+              "System.NumberBuffer",
+              "System.Numerics.Hashing.HashHelpers",
+              "System.Pinnable`1",
+              "System.ReadOnlyMemory`1",
+              "System.ReadOnlySpan`1",
+              "System.ReadOnlySpan`1+Enumerator",
+              "System.Runtime.CompilerServices.IsByRefLikeAttribute",
+              "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+              "System.Runtime.InteropServices.MemoryMarshal",
+              "System.Runtime.InteropServices.MemoryMarshal+<ToEnumerable>d__3`1",
+              "System.Runtime.InteropServices.SequenceMarshal",
+              "System.SR",
+              "System.SequencePosition",
+              "System.SpanDebugView`1",
+              "System.SpanHelpers",
+              "System.SpanHelpers+ComparerComparable`2",
+              "System.SpanHelpers+PerTypeValues`1",
+              "System.SpanHelpers+Reg16",
+              "System.SpanHelpers+Reg32",
+              "System.SpanHelpers+Reg64",
+              "System.Span`1",
+              "System.Span`1+Enumerator",
+              "System.ThrowHelper"
+            ]
+          },
+          {
+            "name": "System.Memory",
+            "scope": {
+              "name": "System.Memory",
+              "version": "4.0.1.1",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "lib/netstandard1.1/System.Memory.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "<PrivateImplementationDetails>",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=15",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=240",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=256",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=28",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=336",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=42",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=48",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=52",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=64",
+              "FxResources.System.Memory.SR",
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Buffers.ArrayMemoryPool`1",
+              "System.Buffers.ArrayMemoryPool`1+ArrayMemoryPoolBuffer",
+              "System.Buffers.Binary.BinaryPrimitives",
+              "System.Buffers.BuffersExtensions",
+              "System.Buffers.IBufferWriter`1",
+              "System.Buffers.IMemoryOwner`1",
+              "System.Buffers.IPinnable",
+              "System.Buffers.MemoryHandle",
+              "System.Buffers.MemoryManager`1",
+              "System.Buffers.MemoryPool`1",
+              "System.Buffers.OperationStatus",
+              "System.Buffers.ReadOnlySequence",
+              "System.Buffers.ReadOnlySequenceDebugView`1",
+              "System.Buffers.ReadOnlySequenceDebugView`1+ReadOnlySequenceDebugViewSegments",
+              "System.Buffers.ReadOnlySequenceSegment`1",
+              "System.Buffers.ReadOnlySequence`1",
+              "System.Buffers.ReadOnlySequence`1+Enumerator",
+              "System.Buffers.ReadOnlySequence`1+SequenceType",
+              "System.Buffers.StandardFormat",
+              "System.Buffers.Text.Base64",
+              "System.Buffers.Text.FormattingHelpers",
+              "System.Buffers.Text.FormattingHelpers+HexCasing",
+              "System.Buffers.Text.ParserHelpers",
+              "System.Buffers.Text.Utf8Constants",
+              "System.Buffers.Text.Utf8Formatter",
+              "System.Buffers.Text.Utf8Formatter+DecomposedGuid",
+              "System.Buffers.Text.Utf8Parser",
+              "System.Buffers.Text.Utf8Parser+ComponentParseResult",
+              "System.Buffers.Text.Utf8Parser+ParseNumberOptions",
+              "System.Buffers.Text.Utf8Parser+TimeSpanSplitter",
+              "System.DecimalDecCalc",
+              "System.ExceptionArgument",
+              "System.MemoryDebugView`1",
+              "System.MemoryExtensions",
+              "System.Memory`1",
+              "System.MutableDecimal",
+              "System.NUInt",
+              "System.NotImplemented",
+              "System.Number",
+              "System.Number+DoubleHelper",
+              "System.NumberBuffer",
+              "System.Numerics.Hashing.HashHelpers",
+              "System.Pinnable`1",
+              "System.ReadOnlyMemory`1",
+              "System.ReadOnlySpan`1",
+              "System.ReadOnlySpan`1+Enumerator",
+              "System.Runtime.CompilerServices.IsByRefLikeAttribute",
+              "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+              "System.Runtime.CompilerServices.__BlockReflectionAttribute",
+              "System.Runtime.InteropServices.MemoryMarshal",
+              "System.Runtime.InteropServices.MemoryMarshal+<ToEnumerable>d__3`1",
+              "System.Runtime.InteropServices.SequenceMarshal",
+              "System.SR",
+              "System.SequencePosition",
+              "System.SpanDebugView`1",
+              "System.SpanHelpers",
+              "System.SpanHelpers+ComparerComparable`2",
+              "System.SpanHelpers+PerTypeValues`1",
+              "System.SpanHelpers+Reg16",
+              "System.SpanHelpers+Reg32",
+              "System.SpanHelpers+Reg64",
+              "System.Span`1",
+              "System.Span`1+Enumerator",
+              "System.ThrowHelper"
+            ]
+          },
+          {
+            "name": "System.Memory",
+            "scope": {
+              "name": "System.Memory",
+              "version": "4.0.1.1",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "lib/netstandard2.0/System.Memory.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "<PrivateImplementationDetails>",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=15",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=240",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=256",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=28",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=336",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=42",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=48",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=52",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=64",
+              "FxResources.System.Memory.SR",
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Buffers.ArrayMemoryPool`1",
+              "System.Buffers.ArrayMemoryPool`1+ArrayMemoryPoolBuffer",
+              "System.Buffers.Binary.BinaryPrimitives",
+              "System.Buffers.BuffersExtensions",
+              "System.Buffers.IBufferWriter`1",
+              "System.Buffers.IMemoryOwner`1",
+              "System.Buffers.IPinnable",
+              "System.Buffers.MemoryHandle",
+              "System.Buffers.MemoryManager`1",
+              "System.Buffers.MemoryPool`1",
+              "System.Buffers.OperationStatus",
+              "System.Buffers.ReadOnlySequence",
+              "System.Buffers.ReadOnlySequenceDebugView`1",
+              "System.Buffers.ReadOnlySequenceDebugView`1+ReadOnlySequenceDebugViewSegments",
+              "System.Buffers.ReadOnlySequenceSegment`1",
+              "System.Buffers.ReadOnlySequence`1",
+              "System.Buffers.ReadOnlySequence`1+Enumerator",
+              "System.Buffers.ReadOnlySequence`1+SequenceType",
+              "System.Buffers.StandardFormat",
+              "System.Buffers.Text.Base64",
+              "System.Buffers.Text.FormattingHelpers",
+              "System.Buffers.Text.FormattingHelpers+HexCasing",
+              "System.Buffers.Text.ParserHelpers",
+              "System.Buffers.Text.Utf8Constants",
+              "System.Buffers.Text.Utf8Formatter",
+              "System.Buffers.Text.Utf8Formatter+DecomposedGuid",
+              "System.Buffers.Text.Utf8Parser",
+              "System.Buffers.Text.Utf8Parser+ComponentParseResult",
+              "System.Buffers.Text.Utf8Parser+ParseNumberOptions",
+              "System.Buffers.Text.Utf8Parser+TimeSpanSplitter",
+              "System.DecimalDecCalc",
+              "System.ExceptionArgument",
+              "System.MemoryDebugView`1",
+              "System.MemoryExtensions",
+              "System.Memory`1",
+              "System.MutableDecimal",
+              "System.NUInt",
+              "System.NotImplemented",
+              "System.Number",
+              "System.Number+DoubleHelper",
+              "System.NumberBuffer",
+              "System.Numerics.Hashing.HashHelpers",
+              "System.Pinnable`1",
+              "System.ReadOnlyMemory`1",
+              "System.ReadOnlySpan`1",
+              "System.ReadOnlySpan`1+Enumerator",
+              "System.Runtime.CompilerServices.IsByRefLikeAttribute",
+              "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+              "System.Runtime.CompilerServices.__BlockReflectionAttribute",
+              "System.Runtime.InteropServices.MemoryMarshal",
+              "System.Runtime.InteropServices.MemoryMarshal+<ToEnumerable>d__3`1",
+              "System.Runtime.InteropServices.SequenceMarshal",
+              "System.SR",
+              "System.SequencePosition",
+              "System.SpanDebugView`1",
+              "System.SpanHelpers",
+              "System.SpanHelpers+ComparerComparable`2",
+              "System.SpanHelpers+PerTypeValues`1",
+              "System.SpanHelpers+Reg16",
+              "System.SpanHelpers+Reg32",
+              "System.SpanHelpers+Reg64",
+              "System.Span`1",
+              "System.Span`1+Enumerator",
+              "System.ThrowHelper"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/dec0847f33b8823e4260672d97d657411461c00ada3107ec7bbcb32a845eeb91-603581728bbb.json.gz",
+          "sha256": "6988afbfd235c14e0b2c157f193bf2cd6b6a0b01f11ddfa4bde8e99ef3e8f8ef",
+          "size": 136192,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types",
+            "managedMetadata": {
+              "name": "uvault.managed-index",
+              "version": "1",
+              "reader": "System.Reflection.Metadata/PEReader",
+              "available": true,
+              "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+            }
+          }
+        },
+        "fileCount": 17,
+        "sourceFileCount": 0,
+        "sourceSetNonEmpty": false,
+        "conditionalSourceCount": 0,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": [
+          {
+            "path": "lib/net461/System.Memory.dll",
+            "sha256": "8e76318e8b06692abf7dab1169d27d15557f7f0a34d36af6463eff0fe21213c7",
+            "size": 141184,
+            "dummyDll": false
+          },
+          {
+            "path": "lib/netstandard1.1/System.Memory.dll",
+            "sha256": "3cb4f4f803c41b22c97ec61f752f93efc7be9328f8ceaa9ab0f36d3c5b563ef7",
+            "size": 137088,
+            "dummyDll": false
+          },
+          {
+            "path": "lib/netstandard2.0/System.Memory.dll",
+            "sha256": "d2e3949fcf3a3b3a20bb9a568a4da582d9a90d64f34c0bdc07c9029bfe8f1858",
+            "size": 141688,
+            "dummyDll": false
+          }
+        ]
+      },
+      "fetchStatus": "collected",
+      "versionStatus": "stable",
+      "packageId": "System.Memory",
+      "nuget": {
+        "declaredLicense": null,
+        "repository": {},
+        "dependencies": [
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Numerics.Vectors",
+            "version": "4.5.0"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Diagnostics.Debug",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Globalization",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Reflection",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Resources.ResourceManager",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Runtime",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Runtime.Extensions",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Runtime.InteropServices",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Numerics.Vectors",
+            "version": "4.4.0"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          }
+        ],
+        "targetFrameworks": [
+          ".NETCoreApp2.0",
+          ".NETCoreApp2.1",
+          ".NETFramework4.5",
+          ".NETFramework4.6.1",
+          ".NETPortable4.5-Profile111",
+          ".NETStandard1.1",
+          ".NETStandard2.0",
+          "MonoAndroid1.0",
+          "MonoTouch1.0",
+          "UAP10.0.16299",
+          "Windows8.0",
+          "WindowsPhoneApp8.1",
+          "Xamarin.Mac2.0",
+          "Xamarin.TVOS1.0",
+          "Xamarin.WatchOS1.0",
+          "Xamarin.iOS1.0"
+        ],
+        "dependencyGroups": [
+          {
+            "targetFramework": "MonoAndroid1.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "MonoTouch1.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETFramework4.5",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETFramework4.6.1",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Numerics.Vectors",
+                "version": "4.5.0"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETCoreApp2.0",
+            "dependencies": [
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETCoreApp2.1",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETStandard1.1",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Diagnostics.Debug",
+                "version": "4.3.0"
+              },
+              {
+                "id": "System.Globalization",
+                "version": "4.3.0"
+              },
+              {
+                "id": "System.Reflection",
+                "version": "4.3.0"
+              },
+              {
+                "id": "System.Resources.ResourceManager",
+                "version": "4.3.0"
+              },
+              {
+                "id": "System.Runtime",
+                "version": "4.3.0"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              },
+              {
+                "id": "System.Runtime.Extensions",
+                "version": "4.3.0"
+              },
+              {
+                "id": "System.Runtime.InteropServices",
+                "version": "4.3.0"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Numerics.Vectors",
+                "version": "4.4.0"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETPortable4.5-Profile111",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "UAP10.0.16299",
+            "dependencies": [
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "Windows8.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "WindowsPhoneApp8.1",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "Xamarin.iOS1.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "Xamarin.Mac2.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "Xamarin.TVOS1.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "Xamarin.WatchOS1.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          }
+        ],
+        "nuspecSha256": "b58115244a5d8817c65017d55b2d3a4ede57feb1a0f55ab4a70493a23460ea89",
+        "nuspecPath": "System.Memory.nuspec",
+        "assets": [
+          {
+            "path": "lib/net461/System.Memory.dll",
+            "targetFramework": "net461",
+            "kind": "lib",
+            "sha256": "8e76318e8b06692abf7dab1169d27d15557f7f0a34d36af6463eff0fe21213c7",
+            "size": 141184
+          },
+          {
+            "path": "lib/netstandard1.1/System.Memory.dll",
+            "targetFramework": "netstandard1.1",
+            "kind": "lib",
+            "sha256": "3cb4f4f803c41b22c97ec61f752f93efc7be9328f8ceaa9ab0f36d3c5b563ef7",
+            "size": 137088
+          },
+          {
+            "path": "lib/netstandard2.0/System.Memory.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "d2e3949fcf3a3b3a20bb9a568a4da582d9a90d64f34c0bdc07c9029bfe8f1858",
+            "size": 141688
+          }
+        ],
+        "archiveSha256": "dec0847f33b8823e4260672d97d657411461c00ada3107ec7bbcb32a845eeb91"
+      },
+      "collectedAt": "2026-10-18T05:34:27.098832Z"
     },
     {
       "version": "4.5.5",
@@ -37,19 +941,923 @@
       "sourceUrl": "https://www.nuget.org/packages/System.Memory/4.5.5",
       "sourceRef": null,
       "downloadUrl": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.5/system.memory.4.5.5.nupkg",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "evidenceUrl": null,
-        "sha256": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-nuspec"
+        "expression": "MIT",
+        "evidenceUrl": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.5/system.memory.4.5.5.nupkg#LICENSE.TXT",
+        "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b",
+        "text": "The MIT License (MIT)\r\n\r\nCopyright (c) .NET Foundation and Contributors\r\n\r\nAll rights reserved.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n",
+        "components": [
+          {
+            "path": "LICENSE.TXT",
+            "expression": "MIT",
+            "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b",
+            "evidenceUrl": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.5/system.memory.4.5.5.nupkg#LICENSE.TXT",
+            "text": "The MIT License (MIT)\r\n\r\nCopyright (c) .NET Foundation and Contributors\r\n\r\nAll rights reserved.\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n"
+          },
+          {
+            "path": "lib/net461/System.Memory.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "lib/netstandard1.1/System.Memory.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          },
+          {
+            "path": "lib/netstandard2.0/System.Memory.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:34:27.159461Z",
+        "decisionBasis": [
+          "Native/SDK components require their own redistribution evidence"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "10f43da352a29fb2b3188e4edd4dcf5100194c8b526e4f61fe2e2b5623775a22",
+        "size": 208978,
+        "format": "nupkg",
+        "kind": "binary-only",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.5/system.memory.4.5.5.nupkg",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types",
+          "managedMetadata": {
+            "name": "uvault.managed-index",
+            "version": "1",
+            "reader": "System.Reflection.Metadata/PEReader",
+            "available": true,
+            "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+          }
+        },
+        "sourceSetSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "artifactSha256": "10f43da352a29fb2b3188e4edd4dcf5100194c8b526e4f61fe2e2b5623775a22",
+        "artifactSize": 208978,
+        "artifactFormat": "nupkg",
+        "namespaces": [
+          "FxResources.System.Memory",
+          "Microsoft.CodeAnalysis",
+          "System",
+          "System.Buffers",
+          "System.Buffers.Binary",
+          "System.Buffers.Text",
+          "System.Numerics.Hashing",
+          "System.Runtime.CompilerServices",
+          "System.Runtime.InteropServices"
+        ],
+        "types": [
+          "<PrivateImplementationDetails>",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=15",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=240",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=256",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=28",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=336",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=42",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=48",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=52",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=64",
+          "FxResources.System.Memory.SR",
+          "Microsoft.CodeAnalysis.EmbeddedAttribute",
+          "System.Buffers.ArrayMemoryPool`1",
+          "System.Buffers.ArrayMemoryPool`1+ArrayMemoryPoolBuffer",
+          "System.Buffers.Binary.BinaryPrimitives",
+          "System.Buffers.BuffersExtensions",
+          "System.Buffers.IBufferWriter`1",
+          "System.Buffers.IMemoryOwner`1",
+          "System.Buffers.IPinnable",
+          "System.Buffers.MemoryHandle",
+          "System.Buffers.MemoryManager`1",
+          "System.Buffers.MemoryPool`1",
+          "System.Buffers.OperationStatus",
+          "System.Buffers.ReadOnlySequence",
+          "System.Buffers.ReadOnlySequenceDebugView`1",
+          "System.Buffers.ReadOnlySequenceDebugView`1+ReadOnlySequenceDebugViewSegments",
+          "System.Buffers.ReadOnlySequenceSegment`1",
+          "System.Buffers.ReadOnlySequence`1",
+          "System.Buffers.ReadOnlySequence`1+Enumerator",
+          "System.Buffers.ReadOnlySequence`1+SequenceType",
+          "System.Buffers.StandardFormat",
+          "System.Buffers.Text.Base64",
+          "System.Buffers.Text.FormattingHelpers",
+          "System.Buffers.Text.FormattingHelpers+HexCasing",
+          "System.Buffers.Text.ParserHelpers",
+          "System.Buffers.Text.Utf8Constants",
+          "System.Buffers.Text.Utf8Formatter",
+          "System.Buffers.Text.Utf8Formatter+DecomposedGuid",
+          "System.Buffers.Text.Utf8Parser",
+          "System.Buffers.Text.Utf8Parser+ComponentParseResult",
+          "System.Buffers.Text.Utf8Parser+ParseNumberOptions",
+          "System.Buffers.Text.Utf8Parser+TimeSpanSplitter",
+          "System.DecimalDecCalc",
+          "System.ExceptionArgument",
+          "System.MemoryDebugView`1",
+          "System.MemoryExtensions",
+          "System.Memory`1",
+          "System.MutableDecimal",
+          "System.NUInt",
+          "System.NotImplemented",
+          "System.Number",
+          "System.Number+DoubleHelper",
+          "System.NumberBuffer",
+          "System.Numerics.Hashing.HashHelpers",
+          "System.Pinnable`1",
+          "System.ReadOnlyMemory`1",
+          "System.ReadOnlySpan`1",
+          "System.ReadOnlySpan`1+Enumerator",
+          "System.Runtime.CompilerServices.IsByRefLikeAttribute",
+          "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+          "System.Runtime.CompilerServices.__BlockReflectionAttribute",
+          "System.Runtime.InteropServices.MemoryMarshal",
+          "System.Runtime.InteropServices.MemoryMarshal+<ToEnumerable>d__3`1",
+          "System.Runtime.InteropServices.SequenceMarshal",
+          "System.SR",
+          "System.SequencePosition",
+          "System.SpanDebugView`1",
+          "System.SpanHelpers",
+          "System.SpanHelpers+ComparerComparable`2",
+          "System.SpanHelpers+PerTypeValues`1",
+          "System.SpanHelpers+Reg16",
+          "System.SpanHelpers+Reg32",
+          "System.SpanHelpers+Reg64",
+          "System.Span`1",
+          "System.Span`1+Enumerator",
+          "System.ThrowHelper"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [],
+        "assemblies": [
+          {
+            "name": "System.Memory",
+            "scope": {
+              "name": "System.Memory",
+              "version": "4.0.1.2",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "lib/net461/System.Memory.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "<PrivateImplementationDetails>",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=15",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=240",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=256",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=28",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=336",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=42",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=48",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=52",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=64",
+              "FxResources.System.Memory.SR",
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Buffers.ArrayMemoryPool`1",
+              "System.Buffers.ArrayMemoryPool`1+ArrayMemoryPoolBuffer",
+              "System.Buffers.Binary.BinaryPrimitives",
+              "System.Buffers.BuffersExtensions",
+              "System.Buffers.IBufferWriter`1",
+              "System.Buffers.IMemoryOwner`1",
+              "System.Buffers.IPinnable",
+              "System.Buffers.MemoryHandle",
+              "System.Buffers.MemoryManager`1",
+              "System.Buffers.MemoryPool`1",
+              "System.Buffers.OperationStatus",
+              "System.Buffers.ReadOnlySequence",
+              "System.Buffers.ReadOnlySequenceDebugView`1",
+              "System.Buffers.ReadOnlySequenceDebugView`1+ReadOnlySequenceDebugViewSegments",
+              "System.Buffers.ReadOnlySequenceSegment`1",
+              "System.Buffers.ReadOnlySequence`1",
+              "System.Buffers.ReadOnlySequence`1+Enumerator",
+              "System.Buffers.ReadOnlySequence`1+SequenceType",
+              "System.Buffers.StandardFormat",
+              "System.Buffers.Text.Base64",
+              "System.Buffers.Text.FormattingHelpers",
+              "System.Buffers.Text.FormattingHelpers+HexCasing",
+              "System.Buffers.Text.ParserHelpers",
+              "System.Buffers.Text.Utf8Constants",
+              "System.Buffers.Text.Utf8Formatter",
+              "System.Buffers.Text.Utf8Formatter+DecomposedGuid",
+              "System.Buffers.Text.Utf8Parser",
+              "System.Buffers.Text.Utf8Parser+ComponentParseResult",
+              "System.Buffers.Text.Utf8Parser+ParseNumberOptions",
+              "System.Buffers.Text.Utf8Parser+TimeSpanSplitter",
+              "System.DecimalDecCalc",
+              "System.ExceptionArgument",
+              "System.MemoryDebugView`1",
+              "System.MemoryExtensions",
+              "System.Memory`1",
+              "System.MutableDecimal",
+              "System.NUInt",
+              "System.NotImplemented",
+              "System.Number",
+              "System.Number+DoubleHelper",
+              "System.NumberBuffer",
+              "System.Numerics.Hashing.HashHelpers",
+              "System.Pinnable`1",
+              "System.ReadOnlyMemory`1",
+              "System.ReadOnlySpan`1",
+              "System.ReadOnlySpan`1+Enumerator",
+              "System.Runtime.CompilerServices.IsByRefLikeAttribute",
+              "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+              "System.Runtime.InteropServices.MemoryMarshal",
+              "System.Runtime.InteropServices.MemoryMarshal+<ToEnumerable>d__3`1",
+              "System.Runtime.InteropServices.SequenceMarshal",
+              "System.SR",
+              "System.SequencePosition",
+              "System.SpanDebugView`1",
+              "System.SpanHelpers",
+              "System.SpanHelpers+ComparerComparable`2",
+              "System.SpanHelpers+PerTypeValues`1",
+              "System.SpanHelpers+Reg16",
+              "System.SpanHelpers+Reg32",
+              "System.SpanHelpers+Reg64",
+              "System.Span`1",
+              "System.Span`1+Enumerator",
+              "System.ThrowHelper"
+            ]
+          },
+          {
+            "name": "System.Memory",
+            "scope": {
+              "name": "System.Memory",
+              "version": "4.0.1.2",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "lib/netstandard1.1/System.Memory.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "<PrivateImplementationDetails>",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=15",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=240",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=256",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=28",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=336",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=42",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=48",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=52",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=64",
+              "FxResources.System.Memory.SR",
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Buffers.ArrayMemoryPool`1",
+              "System.Buffers.ArrayMemoryPool`1+ArrayMemoryPoolBuffer",
+              "System.Buffers.Binary.BinaryPrimitives",
+              "System.Buffers.BuffersExtensions",
+              "System.Buffers.IBufferWriter`1",
+              "System.Buffers.IMemoryOwner`1",
+              "System.Buffers.IPinnable",
+              "System.Buffers.MemoryHandle",
+              "System.Buffers.MemoryManager`1",
+              "System.Buffers.MemoryPool`1",
+              "System.Buffers.OperationStatus",
+              "System.Buffers.ReadOnlySequence",
+              "System.Buffers.ReadOnlySequenceDebugView`1",
+              "System.Buffers.ReadOnlySequenceDebugView`1+ReadOnlySequenceDebugViewSegments",
+              "System.Buffers.ReadOnlySequenceSegment`1",
+              "System.Buffers.ReadOnlySequence`1",
+              "System.Buffers.ReadOnlySequence`1+Enumerator",
+              "System.Buffers.ReadOnlySequence`1+SequenceType",
+              "System.Buffers.StandardFormat",
+              "System.Buffers.Text.Base64",
+              "System.Buffers.Text.FormattingHelpers",
+              "System.Buffers.Text.FormattingHelpers+HexCasing",
+              "System.Buffers.Text.ParserHelpers",
+              "System.Buffers.Text.Utf8Constants",
+              "System.Buffers.Text.Utf8Formatter",
+              "System.Buffers.Text.Utf8Formatter+DecomposedGuid",
+              "System.Buffers.Text.Utf8Parser",
+              "System.Buffers.Text.Utf8Parser+ComponentParseResult",
+              "System.Buffers.Text.Utf8Parser+ParseNumberOptions",
+              "System.Buffers.Text.Utf8Parser+TimeSpanSplitter",
+              "System.DecimalDecCalc",
+              "System.ExceptionArgument",
+              "System.MemoryDebugView`1",
+              "System.MemoryExtensions",
+              "System.Memory`1",
+              "System.MutableDecimal",
+              "System.NUInt",
+              "System.NotImplemented",
+              "System.Number",
+              "System.Number+DoubleHelper",
+              "System.NumberBuffer",
+              "System.Numerics.Hashing.HashHelpers",
+              "System.Pinnable`1",
+              "System.ReadOnlyMemory`1",
+              "System.ReadOnlySpan`1",
+              "System.ReadOnlySpan`1+Enumerator",
+              "System.Runtime.CompilerServices.IsByRefLikeAttribute",
+              "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+              "System.Runtime.CompilerServices.__BlockReflectionAttribute",
+              "System.Runtime.InteropServices.MemoryMarshal",
+              "System.Runtime.InteropServices.MemoryMarshal+<ToEnumerable>d__3`1",
+              "System.Runtime.InteropServices.SequenceMarshal",
+              "System.SR",
+              "System.SequencePosition",
+              "System.SpanDebugView`1",
+              "System.SpanHelpers",
+              "System.SpanHelpers+ComparerComparable`2",
+              "System.SpanHelpers+PerTypeValues`1",
+              "System.SpanHelpers+Reg16",
+              "System.SpanHelpers+Reg32",
+              "System.SpanHelpers+Reg64",
+              "System.Span`1",
+              "System.Span`1+Enumerator",
+              "System.ThrowHelper"
+            ]
+          },
+          {
+            "name": "System.Memory",
+            "scope": {
+              "name": "System.Memory",
+              "version": "4.0.1.2",
+              "culture": "neutral",
+              "publicKeyToken": "cc7b13ffcd2ddd51"
+            },
+            "path": "lib/netstandard2.0/System.Memory.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "<PrivateImplementationDetails>",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=15",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=240",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=256",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=28",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=336",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=42",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=48",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=52",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=64",
+              "FxResources.System.Memory.SR",
+              "Microsoft.CodeAnalysis.EmbeddedAttribute",
+              "System.Buffers.ArrayMemoryPool`1",
+              "System.Buffers.ArrayMemoryPool`1+ArrayMemoryPoolBuffer",
+              "System.Buffers.Binary.BinaryPrimitives",
+              "System.Buffers.BuffersExtensions",
+              "System.Buffers.IBufferWriter`1",
+              "System.Buffers.IMemoryOwner`1",
+              "System.Buffers.IPinnable",
+              "System.Buffers.MemoryHandle",
+              "System.Buffers.MemoryManager`1",
+              "System.Buffers.MemoryPool`1",
+              "System.Buffers.OperationStatus",
+              "System.Buffers.ReadOnlySequence",
+              "System.Buffers.ReadOnlySequenceDebugView`1",
+              "System.Buffers.ReadOnlySequenceDebugView`1+ReadOnlySequenceDebugViewSegments",
+              "System.Buffers.ReadOnlySequenceSegment`1",
+              "System.Buffers.ReadOnlySequence`1",
+              "System.Buffers.ReadOnlySequence`1+Enumerator",
+              "System.Buffers.ReadOnlySequence`1+SequenceType",
+              "System.Buffers.StandardFormat",
+              "System.Buffers.Text.Base64",
+              "System.Buffers.Text.FormattingHelpers",
+              "System.Buffers.Text.FormattingHelpers+HexCasing",
+              "System.Buffers.Text.ParserHelpers",
+              "System.Buffers.Text.Utf8Constants",
+              "System.Buffers.Text.Utf8Formatter",
+              "System.Buffers.Text.Utf8Formatter+DecomposedGuid",
+              "System.Buffers.Text.Utf8Parser",
+              "System.Buffers.Text.Utf8Parser+ComponentParseResult",
+              "System.Buffers.Text.Utf8Parser+ParseNumberOptions",
+              "System.Buffers.Text.Utf8Parser+TimeSpanSplitter",
+              "System.DecimalDecCalc",
+              "System.ExceptionArgument",
+              "System.MemoryDebugView`1",
+              "System.MemoryExtensions",
+              "System.Memory`1",
+              "System.MutableDecimal",
+              "System.NUInt",
+              "System.NotImplemented",
+              "System.Number",
+              "System.Number+DoubleHelper",
+              "System.NumberBuffer",
+              "System.Numerics.Hashing.HashHelpers",
+              "System.Pinnable`1",
+              "System.ReadOnlyMemory`1",
+              "System.ReadOnlySpan`1",
+              "System.ReadOnlySpan`1+Enumerator",
+              "System.Runtime.CompilerServices.IsByRefLikeAttribute",
+              "System.Runtime.CompilerServices.IsReadOnlyAttribute",
+              "System.Runtime.CompilerServices.__BlockReflectionAttribute",
+              "System.Runtime.InteropServices.MemoryMarshal",
+              "System.Runtime.InteropServices.MemoryMarshal+<ToEnumerable>d__3`1",
+              "System.Runtime.InteropServices.SequenceMarshal",
+              "System.SR",
+              "System.SequencePosition",
+              "System.SpanDebugView`1",
+              "System.SpanHelpers",
+              "System.SpanHelpers+ComparerComparable`2",
+              "System.SpanHelpers+PerTypeValues`1",
+              "System.SpanHelpers+Reg16",
+              "System.SpanHelpers+Reg32",
+              "System.SpanHelpers+Reg64",
+              "System.Span`1",
+              "System.Span`1+Enumerator",
+              "System.ThrowHelper"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/10f43da352a29fb2b3188e4edd4dcf5100194c8b526e4f61fe2e2b5623775a22-603581728bbb.json.gz",
+          "sha256": "fe34459eba37dc22135aade0a298a48f3b662279a06ebd1e2a09f05046df375f",
+          "size": 136194,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types",
+            "managedMetadata": {
+              "name": "uvault.managed-index",
+              "version": "1",
+              "reader": "System.Reflection.Metadata/PEReader",
+              "available": true,
+              "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+            }
+          }
+        },
+        "fileCount": 17,
+        "sourceFileCount": 0,
+        "sourceSetNonEmpty": false,
+        "conditionalSourceCount": 0,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": [
+          {
+            "path": "lib/net461/System.Memory.dll",
+            "sha256": "bf3fb84664f4097f1a8a9bc71a51dcf8cf1a905d4080a4d290da1730866e856f",
+            "size": 142240,
+            "dummyDll": false
+          },
+          {
+            "path": "lib/netstandard1.1/System.Memory.dll",
+            "sha256": "06ea95f8388a6b031acb2449fd5663d9d26d720ae13df80c800805f896734430",
+            "size": 138144,
+            "dummyDll": false
+          },
+          {
+            "path": "lib/netstandard2.0/System.Memory.dll",
+            "sha256": "11590d8bb3b12f29f4202b3ef8593229a5cd6debb61e76cba9ac5493a82ee382",
+            "size": 142752,
+            "dummyDll": false
+          }
+        ]
+      },
+      "fetchStatus": "collected",
+      "versionStatus": "stable",
+      "packageId": "System.Memory",
+      "nuget": {
+        "declaredLicense": null,
+        "repository": {},
+        "dependencies": [
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Numerics.Vectors",
+            "version": "4.5.0"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Diagnostics.Debug",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Globalization",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Reflection",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Resources.ResourceManager",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Runtime",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Runtime.Extensions",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Runtime.InteropServices",
+            "version": "4.3.0"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Numerics.Vectors",
+            "version": "4.4.0"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          },
+          {
+            "id": "System.Buffers",
+            "version": "4.5.1"
+          },
+          {
+            "id": "System.Runtime.CompilerServices.Unsafe",
+            "version": "4.5.3"
+          }
+        ],
+        "targetFrameworks": [
+          ".NETCoreApp2.0",
+          ".NETCoreApp2.1",
+          ".NETFramework4.5",
+          ".NETFramework4.6.1",
+          ".NETPortable4.5-Profile111",
+          ".NETStandard1.1",
+          ".NETStandard2.0",
+          "MonoAndroid1.0",
+          "MonoTouch1.0",
+          "UAP10.0.16299",
+          "Windows8.0",
+          "WindowsPhoneApp8.1",
+          "Xamarin.Mac2.0",
+          "Xamarin.TVOS1.0",
+          "Xamarin.WatchOS1.0",
+          "Xamarin.iOS1.0"
+        ],
+        "dependencyGroups": [
+          {
+            "targetFramework": "MonoAndroid1.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "MonoTouch1.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETFramework4.5",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETFramework4.6.1",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Numerics.Vectors",
+                "version": "4.5.0"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETCoreApp2.0",
+            "dependencies": [
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETCoreApp2.1",
+            "dependencies": []
+          },
+          {
+            "targetFramework": ".NETStandard1.1",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Diagnostics.Debug",
+                "version": "4.3.0"
+              },
+              {
+                "id": "System.Globalization",
+                "version": "4.3.0"
+              },
+              {
+                "id": "System.Reflection",
+                "version": "4.3.0"
+              },
+              {
+                "id": "System.Resources.ResourceManager",
+                "version": "4.3.0"
+              },
+              {
+                "id": "System.Runtime",
+                "version": "4.3.0"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              },
+              {
+                "id": "System.Runtime.Extensions",
+                "version": "4.3.0"
+              },
+              {
+                "id": "System.Runtime.InteropServices",
+                "version": "4.3.0"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETStandard2.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Numerics.Vectors",
+                "version": "4.4.0"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": ".NETPortable4.5-Profile111",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "UAP10.0.16299",
+            "dependencies": [
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "Windows8.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "WindowsPhoneApp8.1",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "Xamarin.iOS1.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "Xamarin.Mac2.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "Xamarin.TVOS1.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          },
+          {
+            "targetFramework": "Xamarin.WatchOS1.0",
+            "dependencies": [
+              {
+                "id": "System.Buffers",
+                "version": "4.5.1"
+              },
+              {
+                "id": "System.Runtime.CompilerServices.Unsafe",
+                "version": "4.5.3"
+              }
+            ]
+          }
+        ],
+        "nuspecSha256": "745bfa574a0fe397559dad595fd0b73a38d7dde40703bb8f0f1eba82edf99aa7",
+        "nuspecPath": "System.Memory.nuspec",
+        "assets": [
+          {
+            "path": "lib/net461/System.Memory.dll",
+            "targetFramework": "net461",
+            "kind": "lib",
+            "sha256": "bf3fb84664f4097f1a8a9bc71a51dcf8cf1a905d4080a4d290da1730866e856f",
+            "size": 142240
+          },
+          {
+            "path": "lib/netstandard1.1/System.Memory.dll",
+            "targetFramework": "netstandard1.1",
+            "kind": "lib",
+            "sha256": "06ea95f8388a6b031acb2449fd5663d9d26d720ae13df80c800805f896734430",
+            "size": 138144
+          },
+          {
+            "path": "lib/netstandard2.0/System.Memory.dll",
+            "targetFramework": "netstandard2.0",
+            "kind": "lib",
+            "sha256": "11590d8bb3b12f29f4202b3ef8593229a5cd6debb61e76cba9ac5493a82ee382",
+            "size": 142752
+          }
+        ],
+        "archiveSha256": "10f43da352a29fb2b3188e4edd4dcf5100194c8b526e4f61fe2e2b5623775a22"
+      },
+      "collectedAt": "2026-10-18T05:34:27.316305Z"
     }
   ],
   "metadataStatus": "complete",

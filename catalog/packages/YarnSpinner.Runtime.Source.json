@@ -22,17 +22,969 @@
       "sourceTag": "v3.2.1",
       "versionBasis": "official-repository-tag-not-target-equivalence",
       "downloadUrl": "https://codeload.github.com/YarnSpinnerTool/YarnSpinner/tar.gz/3a5b7343f715e4e9a3705fa4224e7fa510b92f1c",
-      "disposition": "license-unresolved",
+      "disposition": "mirror-allowed",
       "license": {
-        "expression": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "MIT",
+        "evidenceUrl": "https://codeload.github.com/YarnSpinnerTool/YarnSpinner/tar.gz/3a5b7343f715e4e9a3705fa4224e7fa510b92f1c#YarnSpinner-3a5b7343f715e4e9a3705fa4224e7fa510b92f1c/LICENSE.md",
+        "sha256": "11ccf106992986cf9ca496c0d9c7038ceba5460678465d29e81f9e41dae491eb",
+        "text": "The MIT License (MIT)\n\nCopyright (c) Yarn Spinner Pty. Ltd., Secret Lab Pty. Ltd., and Yarn Spinner contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": "MIT",
+            "sha256": "11ccf106992986cf9ca496c0d9c7038ceba5460678465d29e81f9e41dae491eb",
+            "evidenceUrl": "https://codeload.github.com/YarnSpinnerTool/YarnSpinner/tar.gz/3a5b7343f715e4e9a3705fa4224e7fa510b92f1c#YarnSpinner-3a5b7343f715e4e9a3705fa4224e7fa510b92f1c/LICENSE.md",
+            "text": "The MIT License (MIT)\n\nCopyright (c) Yarn Spinner Pty. Ltd., Secret Lab Pty. Ltd., and Yarn Spinner contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:34:32.522384Z",
+        "decisionBasis": [
+          "Recognized permissive root grant; all detected license documents reviewed; no detected native SDK components"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "857c879dc4d68face8339a0c07c3c589a74d5a2c92947e0b76b8629ce7e06a8a",
+        "size": 2530679,
+        "format": "tar.gz",
+        "kind": "source",
+        "url": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-85/857c879dc4d68face8339a0c07c3c589a74d5a2c92947e0b76b8629ce7e06a8a.tar.gz",
+        "verifiedRemote": true,
+        "assetId": "RA_kwDOVNoTL84m5beS",
+        "releaseTag": "objects-85",
+        "licenseUrl": "https://github.com/0everey/Unity-Package-Source-Vault/releases/download/objects-85/857c879dc4d68face8339a0c07c3c589a74d5a2c92947e0b76b8629ce7e06a8a.license-9b4427c3a3b8cd64.json",
+        "licenseSha256": "9b4427c3a3b8cd646e7e9e6d638bc86507487f8a9485e7b46b638557da02229d",
+        "licenseAssetId": "RA_kwDOVNoTL84m5beo"
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types"
+        },
+        "sourceSetSha256": "3c3ab609e88c53be81663a485b57935d892b6eb799867168cdb04337699e7fab",
+        "artifactSha256": "857c879dc4d68face8339a0c07c3c589a74d5a2c92947e0b76b8629ce7e06a8a",
+        "artifactSize": 2530679,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "CLDRPlurals",
+          "System.Diagnostics.CodeAnalysis",
+          "TypeChecker",
+          "Yarn",
+          "Yarn.Analysis",
+          "Yarn.Compiler",
+          "Yarn.Compiler.Upgrader",
+          "Yarn.Markup",
+          "Yarn.Saliency",
+          "Yarn.Utility",
+          "YarnSpinner.Diagnostics",
+          "YarnSpinner.Tests"
+        ],
+        "types": [
+          "CLDRPlurals.NumberHelpers",
+          "CLDRPlurals.NumberPlurals",
+          "CLDRPlurals.PluralCase",
+          "ILineTagGenerator",
+          "ILineTagGenerator+LineTagContext",
+          "ILineTagGenerator+LineTaggingException",
+          "ILineTagGenerator+TagAbortBehaviour",
+          "System.Diagnostics.CodeAnalysis.AllowNullAttribute",
+          "System.Diagnostics.CodeAnalysis.DisallowNullAttribute",
+          "System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute",
+          "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
+          "System.Diagnostics.CodeAnalysis.MaybeNullAttribute",
+          "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
+          "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
+          "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
+          "System.Diagnostics.CodeAnalysis.NotNullAttribute",
+          "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
+          "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
+          "TypeChecker.ConjunctionConstraint",
+          "TypeChecker.DisjunctionConstraint",
+          "TypeChecker.EnumerablesExtension",
+          "TypeChecker.FailureContext",
+          "TypeChecker.FalseConstraint",
+          "TypeChecker.ITypeExtensions",
+          "TypeChecker.Solver",
+          "TypeChecker.Substitution",
+          "TypeChecker.TrueConstraint",
+          "TypeChecker.TypeConstraint",
+          "TypeChecker.TypeConvertibleConstraint",
+          "TypeChecker.TypeEqualityConstraint",
+          "TypeChecker.TypeHasMemberConstraint",
+          "TypeChecker.TypeHasNameConstraint",
+          "TypeChecker.TypeVariable",
+          "Yarn.Analysis.CompiledProgramAnalyser",
+          "Yarn.Analysis.Context",
+          "Yarn.Analysis.Diagnosis",
+          "Yarn.Analysis.Diagnosis+Severity",
+          "Yarn.Analysis.UnusedVariableChecker",
+          "Yarn.Analysis.VariableLister",
+          "Yarn.AnyType",
+          "Yarn.BooleanType",
+          "Yarn.Command",
+          "Yarn.Compiler.BasicBlock",
+          "Yarn.Compiler.BasicBlock+AnyNodeDestination",
+          "Yarn.Compiler.BasicBlock+BlockDestination",
+          "Yarn.Compiler.BasicBlock+CommandElement",
+          "Yarn.Compiler.BasicBlock+Condition",
+          "Yarn.Compiler.BasicBlock+Destination",
+          "Yarn.Compiler.BasicBlock+LineElement",
+          "Yarn.Compiler.BasicBlock+NodeDestination",
+          "Yarn.Compiler.BasicBlock+OptionDestination",
+          "Yarn.Compiler.BasicBlock+OptionsElement",
+          "Yarn.Compiler.BasicBlock+OptionsElement+Option",
+          "Yarn.Compiler.BasicBlock+PlayerVisibleContentElement",
+          "Yarn.Compiler.CodeGenerationVisitor",
+          "Yarn.Compiler.CompilationJob",
+          "Yarn.Compiler.CompilationJob+File",
+          "Yarn.Compiler.CompilationJob+Type",
+          "Yarn.Compiler.CompilationResult",
+          "Yarn.Compiler.Compiler",
+          "Yarn.Compiler.Compiler+Options",
+          "Yarn.Compiler.ContentIdentifierType",
+          "Yarn.Compiler.Declaration",
+          "Yarn.Compiler.DeclarationBuilder",
+          "Yarn.Compiler.DescriptiveLineTagGenerator",
+          "Yarn.Compiler.Diagnostic",
+          "Yarn.Compiler.Diagnostic+DiagnosticSeverity",
+          "Yarn.Compiler.DiagnosticDescriptor",
+          "Yarn.Compiler.DiagnosticDescriptor+DiagnosticDescriptor0",
+          "Yarn.Compiler.DiagnosticDescriptor+DiagnosticDescriptor1",
+          "Yarn.Compiler.DiagnosticDescriptor+DiagnosticDescriptor2",
+          "Yarn.Compiler.DiagnosticDescriptor+DiagnosticDescriptor3",
+          "Yarn.Compiler.DiagnosticDescriptor+DiagnosticDescriptor4",
+          "Yarn.Compiler.DiagnosticsGeneratorVisitor",
+          "Yarn.Compiler.EnumTypeBuilder",
+          "Yarn.Compiler.ErrorUtility",
+          "Yarn.Compiler.FileCompilationResult",
+          "Yarn.Compiler.FileCompiler",
+          "Yarn.Compiler.FileCompiler+CompilationContext",
+          "Yarn.Compiler.FileParseResult",
+          "Yarn.Compiler.FunctionTypeBuilder",
+          "Yarn.Compiler.GraphingNode",
+          "Yarn.Compiler.ICodeEmitter",
+          "Yarn.Compiler.ISourceInput",
+          "Yarn.Compiler.ITypedContext",
+          "Yarn.Compiler.IYarnSpinnerParserListener",
+          "Yarn.Compiler.IYarnSpinnerParserVisitor",
+          "Yarn.Compiler.IndentAwareLexer",
+          "Yarn.Compiler.IndentAwareLexer+LexerWarning",
+          "Yarn.Compiler.InstructionCollectionExtensions",
+          "Yarn.Compiler.InterruptableListener",
+          "Yarn.Compiler.JumpGraphListener",
+          "Yarn.Compiler.JumpInfo",
+          "Yarn.Compiler.JumpType",
+          "Yarn.Compiler.LastLineBeforeOptionsVisitor",
+          "Yarn.Compiler.LiteralValueVisitor",
+          "Yarn.Compiler.NodeCompilationResult",
+          "Yarn.Compiler.NodeDebugInfo",
+          "Yarn.Compiler.NodeDebugInfo+LineInfo",
+          "Yarn.Compiler.NodeGroupCompiler",
+          "Yarn.Compiler.NodeGroupVisitor",
+          "Yarn.Compiler.NodeMetadata",
+          "Yarn.Compiler.NodeMetadataVisitor",
+          "Yarn.Compiler.NodeTrackingVisitor",
+          "Yarn.Compiler.OptionInfo",
+          "Yarn.Compiler.ParseTreeWalker",
+          "Yarn.Compiler.ParserContextExtensions",
+          "Yarn.Compiler.ParserContextExtensions+ContentConditionType",
+          "Yarn.Compiler.ParserRuleContextExtension",
+          "Yarn.Compiler.Position",
+          "Yarn.Compiler.PreviewFeatureVisitor",
+          "Yarn.Compiler.Project",
+          "Yarn.Compiler.Project+CompilerOptionsData",
+          "Yarn.Compiler.Project+LocalizationInfo",
+          "Yarn.Compiler.ProjectDebugInfo",
+          "Yarn.Compiler.RandomLineTagGenerator",
+          "Yarn.Compiler.Range",
+          "Yarn.Compiler.SmartVariableCompiler",
+          "Yarn.Compiler.SourceGenerationContext",
+          "Yarn.Compiler.StringInfo",
+          "Yarn.Compiler.StringOrListOfStringsConverter",
+          "Yarn.Compiler.StringTableGeneratorVisitor",
+          "Yarn.Compiler.StringTableManager",
+          "Yarn.Compiler.StructuredCommandParser",
+          "Yarn.Compiler.StructuredCommandParser+ParseResult",
+          "Yarn.Compiler.StyleWarningsVisitor",
+          "Yarn.Compiler.SyntaxValidationListener",
+          "Yarn.Compiler.SyntaxValidationListener+AnyErrorsDetectedErrorListener",
+          "Yarn.Compiler.SyntaxValidationListener+StatementType",
+          "Yarn.Compiler.TypeCheckerListener",
+          "Yarn.Compiler.Upgrader.ILanguageUpgrader",
+          "Yarn.Compiler.Upgrader.LanguageUpgrader",
+          "Yarn.Compiler.Upgrader.TextReplacement",
+          "Yarn.Compiler.Upgrader.UpgradeJob",
+          "Yarn.Compiler.Upgrader.UpgradeResult",
+          "Yarn.Compiler.Upgrader.UpgradeResult+OutputFile",
+          "Yarn.Compiler.Upgrader.UpgradeType",
+          "Yarn.Compiler.Utility",
+          "Yarn.Compiler.Utility+UntaggedLineListener",
+          "Yarn.Compiler.YarnErrorListener",
+          "Yarn.Compiler.YarnSpinnerLexer",
+          "Yarn.Compiler.YarnSpinnerParser",
+          "Yarn.Compiler.YarnSpinnerParser+BodyContext",
+          "Yarn.Compiler.YarnSpinnerParser+Call_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Command_formatted_textContext",
+          "Yarn.Compiler.YarnSpinnerParser+Command_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Declare_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+DetourToExpressionContext",
+          "Yarn.Compiler.YarnSpinnerParser+DetourToNodeNameContext",
+          "Yarn.Compiler.YarnSpinnerParser+DialogueContext",
+          "Yarn.Compiler.YarnSpinnerParser+Else_clauseContext",
+          "Yarn.Compiler.YarnSpinnerParser+Else_if_clauseContext",
+          "Yarn.Compiler.YarnSpinnerParser+Enum_case_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Enum_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpAddSubContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpAndOrXorContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpComparisonContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpEqualityContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpMultDivModContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpNegativeContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpNotContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpParensContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpValueContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpressionContext",
+          "Yarn.Compiler.YarnSpinnerParser+File_hashtagContext",
+          "Yarn.Compiler.YarnSpinnerParser+Function_callContext",
+          "Yarn.Compiler.YarnSpinnerParser+HashtagContext",
+          "Yarn.Compiler.YarnSpinnerParser+HeaderContext",
+          "Yarn.Compiler.YarnSpinnerParser+Header_when_expressionContext",
+          "Yarn.Compiler.YarnSpinnerParser+ILiteralContext",
+          "Yarn.Compiler.YarnSpinnerParser+If_clauseContext",
+          "Yarn.Compiler.YarnSpinnerParser+If_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+JumpToExpressionContext",
+          "Yarn.Compiler.YarnSpinnerParser+JumpToNodeNameContext",
+          "Yarn.Compiler.YarnSpinnerParser+Jump_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+LineConditionContext",
+          "Yarn.Compiler.YarnSpinnerParser+LineOnceConditionContext",
+          "Yarn.Compiler.YarnSpinnerParser+Line_conditionContext",
+          "Yarn.Compiler.YarnSpinnerParser+Line_formatted_textContext",
+          "Yarn.Compiler.YarnSpinnerParser+Line_group_itemContext",
+          "Yarn.Compiler.YarnSpinnerParser+Line_group_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Line_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+NodeContext",
+          "Yarn.Compiler.YarnSpinnerParser+Once_alternate_clauseContext",
+          "Yarn.Compiler.YarnSpinnerParser+Once_primary_clauseContext",
+          "Yarn.Compiler.YarnSpinnerParser+Once_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Return_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Set_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Shortcut_optionContext",
+          "Yarn.Compiler.YarnSpinnerParser+Shortcut_option_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+StatementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Structured_commandContext",
+          "Yarn.Compiler.YarnSpinnerParser+Structured_command_valueContext",
+          "Yarn.Compiler.YarnSpinnerParser+Title_headerContext",
+          "Yarn.Compiler.YarnSpinnerParser+TypeMemberReferenceContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueFalseContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueFuncContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueNumberContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueStringContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueTrueContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueTypeMemberReferenceContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueVarContext",
+          "Yarn.Compiler.YarnSpinnerParser+VariableContext",
+          "Yarn.Compiler.YarnSpinnerParser+When_headerContext",
+          "Yarn.Compiler.YarnSpinnerParserBaseListener",
+          "Yarn.Compiler.YarnSpinnerParserBaseVisitor",
+          "Yarn.Compiler.YarnSpinnerTestPlanLexer",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+ActionJumpToNodeContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+ActionSelectContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+ActionSetBoolContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+ActionSetContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+ActionSetNumberContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+ActionSetSaliencyModeContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+CommandExpectedContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+HashtagContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+LineExpectedContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+LineWithAnyTextExpectedContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+LineWithSpecificTextExpectedContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+OptionExpectedContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+RunContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+StepContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+StopExpectedContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+TestplanContext",
+          "Yarn.ConstantTypeProperty",
+          "Yarn.Dialogue",
+          "Yarn.Dialogue+StandardLibrary",
+          "Yarn.Dialogue+StandardLibrary+float",
+          "Yarn.Dialogue+StandardLibrary+object",
+          "Yarn.Dialogue+StandardLibrary+string",
+          "Yarn.Dialogue+string",
+          "Yarn.DialogueException",
+          "Yarn.EnumBase",
+          "Yarn.EnumType",
+          "Yarn.ErrorType",
+          "Yarn.FunctionType",
+          "Yarn.Header",
+          "Yarn.ICodeDumpHelper",
+          "Yarn.IMarkupParser",
+          "Yarn.ISmartVariableEvaluator",
+          "Yarn.IType",
+          "Yarn.ITypeMember",
+          "Yarn.IVariableAccess",
+          "Yarn.IVariableStorage",
+          "Yarn.IYarnValue",
+          "Yarn.Instruction",
+          "Yarn.Instruction+InstructionTypeOneofCase",
+          "Yarn.Instruction+Types",
+          "Yarn.Instruction+Types+AddOptionInstruction",
+          "Yarn.Instruction+Types+AddSaliencyCandidateFromNodeInstruction",
+          "Yarn.Instruction+Types+AddSaliencyCandidateInstruction",
+          "Yarn.Instruction+Types+CallFunctionInstruction",
+          "Yarn.Instruction+Types+DetourToNodeInstruction",
+          "Yarn.Instruction+Types+JumpIfFalseInstruction",
+          "Yarn.Instruction+Types+JumpToInstruction",
+          "Yarn.Instruction+Types+PeekAndDetourToNode",
+          "Yarn.Instruction+Types+PeekAndJumpInstruction",
+          "Yarn.Instruction+Types+PeekAndRunNodeInstruction",
+          "Yarn.Instruction+Types+PopInstruction",
+          "Yarn.Instruction+Types+PushBoolInstruction",
+          "Yarn.Instruction+Types+PushFloatInstruction",
+          "Yarn.Instruction+Types+PushStringInstruction",
+          "Yarn.Instruction+Types+PushVariableInstruction",
+          "Yarn.Instruction+Types+ReturnInstruction",
+          "Yarn.Instruction+Types+RunCommandInstruction",
+          "Yarn.Instruction+Types+RunLineInstruction",
+          "Yarn.Instruction+Types+RunNodeInstruction",
+          "Yarn.Instruction+Types+SelectSaliencyCandidateInstruction",
+          "Yarn.Instruction+Types+ShowOptionsInstruction",
+          "Yarn.Instruction+Types+StopInstruction",
+          "Yarn.Instruction+Types+StoreVariableInstruction",
+          "Yarn.InstructionV1",
+          "Yarn.InstructionV1+Types",
+          "Yarn.InstructionV1+Types+OpCode",
+          "Yarn.Library",
+          "Yarn.Line",
+          "Yarn.Markup.BuiltInMarkupReplacer",
+          "Yarn.Markup.IAttributeMarkerProcessor",
+          "Yarn.Markup.LineParser",
+          "Yarn.Markup.LineParser+LexerMode",
+          "Yarn.Markup.LineParser+LexerToken",
+          "Yarn.Markup.LineParser+LexerTokenTypes",
+          "Yarn.Markup.LineParser+MarkupDiagnostic",
+          "Yarn.Markup.LineParser+MarkupTextNode",
+          "Yarn.Markup.LineParser+MarkupTreeNode",
+          "Yarn.Markup.LineParser+TokenStream",
+          "Yarn.Markup.MarkupAttribute",
+          "Yarn.Markup.MarkupAttributeMarker",
+          "Yarn.Markup.MarkupParseException",
+          "Yarn.Markup.MarkupParseResult",
+          "Yarn.Markup.MarkupProperty",
+          "Yarn.Markup.MarkupValue",
+          "Yarn.Markup.MarkupValueType",
+          "Yarn.Markup.ReplacementMarkerResult",
+          "Yarn.Markup.TagType",
+          "Yarn.MemoryVariableStore",
+          "Yarn.Node",
+          "Yarn.NumberType",
+          "Yarn.Operand",
+          "Yarn.Operand+ValueOneofCase",
+          "Yarn.Operator",
+          "Yarn.OptionSet",
+          "Yarn.OptionSet+Option",
+          "Yarn.PendingOption",
+          "Yarn.Program",
+          "Yarn.Saliency.BestLeastRecentlyViewedSaliencyStrategy",
+          "Yarn.Saliency.BestSaliencyStrategy",
+          "Yarn.Saliency.ContentSaliencyContentType",
+          "Yarn.Saliency.ContentSaliencyOption",
+          "Yarn.Saliency.EnumerableRandomExtension",
+          "Yarn.Saliency.FirstSaliencyStrategy",
+          "Yarn.Saliency.IContentSaliencyStrategy",
+          "Yarn.Saliency.RandomBestLeastRecentlyViewedSaliencyStrategy",
+          "Yarn.SmartVariableEvaluationVirtualMachine",
+          "Yarn.StringType",
+          "Yarn.TypeBase",
+          "Yarn.TypeUtil",
+          "Yarn.Types",
+          "Yarn.Utility.CRC32",
+          "Yarn.Value",
+          "Yarn.VariableKind",
+          "Yarn.VirtualMachine",
+          "Yarn.VirtualMachine+ExecutionState",
+          "Yarn.VirtualMachine+State",
+          "Yarn.VirtualMachine+State+CallSite",
+          "Yarn.YarnSpinnerReflection",
+          "Yarn.void",
+          "YarnSpinner.Diagnostics.DiagnosticExample",
+          "YarnSpinner.Diagnostics.DiagnosticFrontMatter",
+          "YarnSpinner.Diagnostics.DiagnosticFrontMatter+Severity",
+          "YarnSpinner.Diagnostics.DiagnosticFrontMatter+Source",
+          "YarnSpinner.Diagnostics.Generator",
+          "YarnSpinner.Diagnostics.MarkdownExtensions",
+          "YarnSpinner.Tests.BBCodeChevronReplacer",
+          "YarnSpinner.Tests.BasicNodeInfo",
+          "YarnSpinner.Tests.BasicNodeInfo+Header",
+          "YarnSpinner.Tests.BasicNodeInfo+Link",
+          "YarnSpinner.Tests.BasicNodeInfo+Link+Type",
+          "YarnSpinner.Tests.BasicNodeParser",
+          "YarnSpinner.Tests.DebugMemoryVariableStore",
+          "YarnSpinner.Tests.DialogueTests",
+          "YarnSpinner.Tests.ErrorHandlingTests",
+          "YarnSpinner.Tests.GeneratedDiagnosticTests",
+          "YarnSpinner.Tests.IgnoreUntilFactAttribute",
+          "YarnSpinner.Tests.LanguageTests",
+          "YarnSpinner.Tests.LanguageTests+OptionSet",
+          "YarnSpinner.Tests.LanguageTests+int",
+          "YarnSpinner.Tests.MarkerUppercaseReplacer",
+          "YarnSpinner.Tests.MarkupTests",
+          "YarnSpinner.Tests.ProjectFileTests",
+          "YarnSpinner.Tests.ProjectTests",
+          "YarnSpinner.Tests.SaliencyTests",
+          "YarnSpinner.Tests.SmartVariableTests",
+          "YarnSpinner.Tests.SmartVariableTests+FakeVariableStorage",
+          "YarnSpinner.Tests.SmartVariableTests+int",
+          "YarnSpinner.Tests.StepType",
+          "YarnSpinner.Tests.TagTests",
+          "YarnSpinner.Tests.TestBase",
+          "YarnSpinner.Tests.TestBase+bool",
+          "YarnSpinner.Tests.TestBase+string",
+          "YarnSpinner.Tests.TestPlan",
+          "YarnSpinner.Tests.TestPlan+ActionJumpToNodeStep",
+          "YarnSpinner.Tests.TestPlan+ActionSelectStep",
+          "YarnSpinner.Tests.TestPlan+ActionSetSaliencyStep",
+          "YarnSpinner.Tests.TestPlan+ActionSetVariableStep",
+          "YarnSpinner.Tests.TestPlan+ActionStep",
+          "YarnSpinner.Tests.TestPlan+ExpectCommandStep",
+          "YarnSpinner.Tests.TestPlan+ExpectContentStep",
+          "YarnSpinner.Tests.TestPlan+ExpectLineStep",
+          "YarnSpinner.Tests.TestPlan+ExpectOptionStep",
+          "YarnSpinner.Tests.TestPlan+ExpectStop",
+          "YarnSpinner.Tests.TestPlan+Run",
+          "YarnSpinner.Tests.TestPlan+Step",
+          "YarnSpinner.Tests.TestPlanBuilder",
+          "YarnSpinner.Tests.TextCoordinateConverter",
+          "YarnSpinner.Tests.TypeTests",
+          "YarnSpinner.Tests.TypeTests+AbstractTypeConstraint",
+          "YarnSpinner.Tests.TypeTests+TestEnum",
+          "YarnSpinner.Tests.UpgraderTests"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Analysis/BasicBlock.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Analysis/InstructionCollectionExtensions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/AssemblyInfo.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Builders/DeclarationBuilder.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Builders/EnumTypeBuilder.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Builders/FunctionTypeBuilder.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/CompilationJob.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/CompilationResult.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Compiler.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/DebugInfo.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Declaration.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/DiagnosticDescriptor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/ErrorListener.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/FileCompiler.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/FileParseResult.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Grammars/YarnSpinnerLexer.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Grammars/YarnSpinnerParser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Grammars/YarnSpinnerParserBaseListener.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Grammars/YarnSpinnerParserBaseVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Grammars/YarnSpinnerParserExpression.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Grammars/YarnSpinnerParserListener.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Grammars/YarnSpinnerParserVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/ICodeEmitter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/IndentAwareLexer.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/JumpGraphListener.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/LineTaggers/DescriptiveLineTagGenerator.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/LineTaggers/ILineTagGenerator.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/LineTaggers/RandomLineTagGenerator.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/NodeGroupCompiler.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/NodeMetadata.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Project.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/SmartVariableCompiler.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/StringInfo.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/StringTableManager.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/StructuredCommandParser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/SyntaxValidationListener.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeCheckerListener.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/ConjunctionConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/DisjunctionConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/EnumerablesExtension.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/FalseConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/TrueConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/TypeConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/TypeConvertibleConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/TypeEqualityConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/TypeHasMemberConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/TypeHasNameConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Solver.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Substitution.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Terms/ITypeExtensions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Terms/TypeVariable.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Upgrader/ILanguageUpgrader.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Upgrader/LanguageUpgrader.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Upgrader/UpgradeType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Utility.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/CodeGenerationVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/DiagnosticsGeneratorVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/LastLineBeforeOptionsVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/LiteralValueVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/NodeGroupVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/NodeMetadataVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/NodeTrackingVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/PreviewFeatureVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/StringTableGeneratorVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/StyleWarningsVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Diagnostics/DiagnosticExample.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Diagnostics/DiagnosticFrontMatter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Diagnostics/Generator.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Diagnostics/MarkdownExtensions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/DialogueTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/ErrorHandlingTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/GeneratedDialogueTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/GlobalSuppressions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/LanguageTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/MarkupTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/ProjectFileTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/ProjectTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/SaliencyTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/SmartVariableTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/TagTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/TestBase.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/TestPlan.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/TestPlan/YarnSpinnerTestPlanLexer.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/TestPlan/YarnSpinnerTestPlanParser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/TypeTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/UpgraderTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Analyser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/AssemblyInfo.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/CRC32.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Dialogue.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/DialogueException.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/GlobalSuppressions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Library.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/NullableAttributes.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/NumberPlurals.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Program.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Saliency/BestLeastRecentlyViewedSaliencyStrategy.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Saliency/BestSaliencyStrategy.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Saliency/ContentSaliencyOption.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Saliency/FirstSaliencyStrategy.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Saliency/IContentSaliencyStrategy.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Saliency/RandomBestLeastRecentlyViewedSaliencyStrategy.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/SmartVariableEvaluationVirtualMachine.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/AnyType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/BooleanType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/EnumType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/ErrorType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/FunctionType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/IType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/NumberType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/StringType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/TypeBase.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/TypeUtil.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/Types.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Value.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/VirtualMachine.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/YarnSpinner.Markup/IAttributeMarkerProcessor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/YarnSpinner.Markup/LineParser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/YarnSpinner.Markup/MarkupParseException.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/YarnSpinner.Markup/MarkupParseResult.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/YarnSpinner.Markup/MarkupValueType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/YarnSpinner.Markup/TagType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/YarnSpinner.cs"
+          }
+        ],
+        "assemblies": [],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/857c879dc4d68face8339a0c07c3c589a74d5a2c92947e0b76b8629ce7e06a8a-595fb35e69ff.json.gz",
+          "sha256": "378fc78b9944a92ab76ce6e7705bf2fa48b8d65d1f3d9bb79935bc67a0d36469",
+          "size": 25287,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types"
+          }
+        },
+        "fileCount": 377,
+        "sourceFileCount": 123,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 4,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": []
+      },
+      "fetchStatus": "published",
+      "versionStatus": "stable",
+      "packageId": "YarnSpinner.Runtime.Source",
+      "collectedAt": "2026-10-18T05:34:32.738131Z",
+      "publicationStatus": "verified"
     },
     {
       "version": "3.2.2",
@@ -43,17 +995,1775 @@
       "sourceTag": "v3.2.2",
       "versionBasis": "official-repository-tag-not-target-equivalence",
       "downloadUrl": "https://codeload.github.com/YarnSpinnerTool/YarnSpinner/tar.gz/5b3a4ff2d24e4f727e3f90fee5d8ce637474c305",
-      "disposition": "license-unresolved",
+      "disposition": "official-fetch-only",
       "license": {
-        "expression": null,
-        "components": [],
-        "reviewStatus": "pending-per-version-archive"
+        "expression": "MIT",
+        "evidenceUrl": "https://codeload.github.com/YarnSpinnerTool/YarnSpinner/tar.gz/5b3a4ff2d24e4f727e3f90fee5d8ce637474c305#YarnSpinner-5b3a4ff2d24e4f727e3f90fee5d8ce637474c305/LICENSE.md",
+        "sha256": "11ccf106992986cf9ca496c0d9c7038ceba5460678465d29e81f9e41dae491eb",
+        "text": "The MIT License (MIT)\n\nCopyright (c) Yarn Spinner Pty. Ltd., Secret Lab Pty. Ltd., and Yarn Spinner contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+        "components": [
+          {
+            "path": "LICENSE.md",
+            "expression": "MIT",
+            "sha256": "11ccf106992986cf9ca496c0d9c7038ceba5460678465d29e81f9e41dae491eb",
+            "evidenceUrl": "https://codeload.github.com/YarnSpinnerTool/YarnSpinner/tar.gz/5b3a4ff2d24e4f727e3f90fee5d8ce637474c305#YarnSpinner-5b3a4ff2d24e4f727e3f90fee5d8ce637474c305/LICENSE.md",
+            "text": "The MIT License (MIT)\n\nCopyright (c) Yarn Spinner Pty. Ltd., Secret Lab Pty. Ltd., and Yarn Spinner contributors.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+          },
+          {
+            "path": "YarnSpinner/Dependencies/Google.Protobuf.dll",
+            "expression": null,
+            "sha256": null,
+            "reviewStatus": "native-component-rights-unresolved",
+            "detection": "binary-extension",
+            "reason": "Wrapper/root license does not by itself establish this bundled binary's origin and redistribution rights; managed/native classification requires separate review"
+          }
+        ],
+        "notices": [],
+        "reviewStatus": "archive-text-reviewed",
+        "reviewAlgorithm": "archive-rights-v3-binary-layout",
+        "reviewedAt": "2026-10-18T05:34:36.756344Z",
+        "decisionBasis": [
+          "Native/SDK components require their own redistribution evidence"
+        ]
       },
       "dependencies": {},
-      "artifact": null,
-      "fingerprint": null,
-      "fetchStatus": "pending",
-      "versionStatus": "stable"
+      "artifact": {
+        "sha256": "8e80efc19806e74148dfcd971177933cfcfa8b387b98264eb8c48e92a1efc374",
+        "size": 2720022,
+        "format": "tar.gz",
+        "kind": "mixed-source-binary",
+        "url": "https://codeload.github.com/YarnSpinnerTool/YarnSpinner/tar.gz/5b3a4ff2d24e4f727e3f90fee5d8ce637474c305",
+        "verifiedRemote": false
+      },
+      "fingerprint": {
+        "fingerprintProducer": {
+          "name": "uvault.inventory",
+          "version": "2",
+          "assemblyModel": "context-aware-scoped-types",
+          "managedMetadata": {
+            "name": "uvault.managed-index",
+            "version": "1",
+            "reader": "System.Reflection.Metadata/PEReader",
+            "available": true,
+            "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+          }
+        },
+        "sourceSetSha256": "e4ae146ccdd504a30111bf397ab3979a377a6044988c40d396821e0a3b7f83c6",
+        "artifactSha256": "8e80efc19806e74148dfcd971177933cfcfa8b387b98264eb8c48e92a1efc374",
+        "artifactSize": 2720022,
+        "artifactFormat": "tar.gz",
+        "namespaces": [
+          "CLDRPlurals",
+          "Google.Protobuf",
+          "Google.Protobuf.Collections",
+          "Google.Protobuf.Compatibility",
+          "Google.Protobuf.Compiler",
+          "Google.Protobuf.Reflection",
+          "Google.Protobuf.WellKnownTypes",
+          "System.Diagnostics.CodeAnalysis",
+          "TypeChecker",
+          "Yarn",
+          "Yarn.Analysis",
+          "Yarn.Compiler",
+          "Yarn.Compiler.Upgrader",
+          "Yarn.Markup",
+          "Yarn.Saliency",
+          "Yarn.Utility",
+          "YarnSpinner.Diagnostics",
+          "YarnSpinner.Tests"
+        ],
+        "types": [
+          "<PrivateImplementationDetails>",
+          "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=44",
+          "CLDRPlurals.NumberHelpers",
+          "CLDRPlurals.NumberPlurals",
+          "CLDRPlurals.PluralCase",
+          "Google.Protobuf.ByteArray",
+          "Google.Protobuf.ByteString",
+          "Google.Protobuf.ByteString+ByteStringDebugView",
+          "Google.Protobuf.ByteStringAsync",
+          "Google.Protobuf.ByteStringAsync+<FromStreamAsyncCore>d__0",
+          "Google.Protobuf.CodedInputStream",
+          "Google.Protobuf.CodedOutputStream",
+          "Google.Protobuf.CodedOutputStream+OutOfSpaceException",
+          "Google.Protobuf.Collections.Lists",
+          "Google.Protobuf.Collections.MapField`2",
+          "Google.Protobuf.Collections.MapField`2+<>c",
+          "Google.Protobuf.Collections.MapField`2+<>c__DisplayClass7_0",
+          "Google.Protobuf.Collections.MapField`2+Codec",
+          "Google.Protobuf.Collections.MapField`2+DictionaryEnumerator",
+          "Google.Protobuf.Collections.MapField`2+MapFieldDebugView",
+          "Google.Protobuf.Collections.MapField`2+MapView`1",
+          "Google.Protobuf.Collections.ProtobufEqualityComparers",
+          "Google.Protobuf.Collections.ProtobufEqualityComparers+BitwiseDoubleEqualityComparerImpl",
+          "Google.Protobuf.Collections.ProtobufEqualityComparers+BitwiseNullableDoubleEqualityComparerImpl",
+          "Google.Protobuf.Collections.ProtobufEqualityComparers+BitwiseNullableSingleEqualityComparerImpl",
+          "Google.Protobuf.Collections.ProtobufEqualityComparers+BitwiseSingleEqualityComparerImpl",
+          "Google.Protobuf.Collections.RepeatedField`1",
+          "Google.Protobuf.Collections.RepeatedField`1+<GetEnumerator>d__29",
+          "Google.Protobuf.Collections.RepeatedField`1+RepeatedFieldDebugView",
+          "Google.Protobuf.Compatibility.PropertyInfoExtensions",
+          "Google.Protobuf.Compatibility.TypeExtensions",
+          "Google.Protobuf.Compiler.CodeGeneratorRequest",
+          "Google.Protobuf.Compiler.CodeGeneratorRequest+<>c",
+          "Google.Protobuf.Compiler.CodeGeneratorResponse",
+          "Google.Protobuf.Compiler.CodeGeneratorResponse+<>c",
+          "Google.Protobuf.Compiler.CodeGeneratorResponse+Types",
+          "Google.Protobuf.Compiler.CodeGeneratorResponse+Types+Feature",
+          "Google.Protobuf.Compiler.CodeGeneratorResponse+Types+File",
+          "Google.Protobuf.Compiler.CodeGeneratorResponse+Types+File+<>c",
+          "Google.Protobuf.Compiler.PluginReflection",
+          "Google.Protobuf.Compiler.Version",
+          "Google.Protobuf.Compiler.Version+<>c",
+          "Google.Protobuf.Extension",
+          "Google.Protobuf.ExtensionRegistry",
+          "Google.Protobuf.ExtensionRegistry+<>c",
+          "Google.Protobuf.ExtensionRegistry+ExtensionComparer",
+          "Google.Protobuf.ExtensionSet",
+          "Google.Protobuf.ExtensionSet`1",
+          "Google.Protobuf.ExtensionSet`1+<>c",
+          "Google.Protobuf.ExtensionValue`1",
+          "Google.Protobuf.Extension`2",
+          "Google.Protobuf.FieldCodec",
+          "Google.Protobuf.FieldCodec+<>c",
+          "Google.Protobuf.FieldCodec+<>c__32`1",
+          "Google.Protobuf.FieldCodec+<>c__33`1",
+          "Google.Protobuf.FieldCodec+<>c__34`1",
+          "Google.Protobuf.FieldCodec+<>c__35`1",
+          "Google.Protobuf.FieldCodec+<>c__DisplayClass31_0`1",
+          "Google.Protobuf.FieldCodec+<>c__DisplayClass32_0`1",
+          "Google.Protobuf.FieldCodec+<>c__DisplayClass33_0`1",
+          "Google.Protobuf.FieldCodec+<>c__DisplayClass34_0`1",
+          "Google.Protobuf.FieldCodec+<>c__DisplayClass35_0`1",
+          "Google.Protobuf.FieldCodec+WrapperCodecs",
+          "Google.Protobuf.FieldCodec+WrapperCodecs+<>c__DisplayClass3_0`1",
+          "Google.Protobuf.FieldCodec`1",
+          "Google.Protobuf.FieldCodec`1+<>c",
+          "Google.Protobuf.FieldCodec`1+<>c__DisplayClass38_0",
+          "Google.Protobuf.FieldCodec`1+<>c__DisplayClass39_0",
+          "Google.Protobuf.FieldCodec`1+InputMerger",
+          "Google.Protobuf.FieldCodec`1+ValuesMerger",
+          "Google.Protobuf.FieldMaskTree",
+          "Google.Protobuf.FieldMaskTree+Node",
+          "Google.Protobuf.FrameworkPortability",
+          "Google.Protobuf.IBufferMessage",
+          "Google.Protobuf.ICustomDiagnosticMessage",
+          "Google.Protobuf.IDeepCloneable`1",
+          "Google.Protobuf.IExtendableMessage`1",
+          "Google.Protobuf.IExtensionValue",
+          "Google.Protobuf.IMessage",
+          "Google.Protobuf.IMessage`1",
+          "Google.Protobuf.InvalidJsonException",
+          "Google.Protobuf.InvalidProtocolBufferException",
+          "Google.Protobuf.JsonFormatter",
+          "Google.Protobuf.JsonFormatter+OriginalEnumValueHelper",
+          "Google.Protobuf.JsonFormatter+OriginalEnumValueHelper+<>c",
+          "Google.Protobuf.JsonFormatter+Settings",
+          "Google.Protobuf.JsonParser",
+          "Google.Protobuf.JsonParser+<>c",
+          "Google.Protobuf.JsonParser+Settings",
+          "Google.Protobuf.JsonToken",
+          "Google.Protobuf.JsonToken+TokenType",
+          "Google.Protobuf.JsonTokenizer",
+          "Google.Protobuf.JsonTokenizer+JsonReplayTokenizer",
+          "Google.Protobuf.JsonTokenizer+JsonTextTokenizer",
+          "Google.Protobuf.JsonTokenizer+JsonTextTokenizer+ContainerType",
+          "Google.Protobuf.JsonTokenizer+JsonTextTokenizer+PushBackReader",
+          "Google.Protobuf.JsonTokenizer+JsonTextTokenizer+State",
+          "Google.Protobuf.JsonTokenizer+JsonTextTokenizer+StringBuilderCache",
+          "Google.Protobuf.LimitedInputStream",
+          "Google.Protobuf.MessageExtensions",
+          "Google.Protobuf.MessageExtensions+<>c__DisplayClass14_0",
+          "Google.Protobuf.MessageParser",
+          "Google.Protobuf.MessageParser`1",
+          "Google.Protobuf.MessageParser`1+<>c__DisplayClass2_0",
+          "Google.Protobuf.ObjectIntPair`1",
+          "Google.Protobuf.ParseContext",
+          "Google.Protobuf.ParserInternalState",
+          "Google.Protobuf.ParsingPrimitives",
+          "Google.Protobuf.ParsingPrimitivesMessages",
+          "Google.Protobuf.ParsingPrimitivesWrappers",
+          "Google.Protobuf.ProtoPreconditions",
+          "Google.Protobuf.Reflection.CSharpFeatures",
+          "Google.Protobuf.Reflection.CSharpFeatures+<>c",
+          "Google.Protobuf.Reflection.CSharpFeaturesExtensions",
+          "Google.Protobuf.Reflection.CSharpFeaturesReflection",
+          "Google.Protobuf.Reflection.CustomOptions",
+          "Google.Protobuf.Reflection.CustomOptions+<>c__19`1",
+          "Google.Protobuf.Reflection.CustomOptions+CustomOptionsDebugView",
+          "Google.Protobuf.Reflection.DescriptorBase",
+          "Google.Protobuf.Reflection.DescriptorDeclaration",
+          "Google.Protobuf.Reflection.DescriptorPool",
+          "Google.Protobuf.Reflection.DescriptorPool+EnumValueByNameDescriptorKey",
+          "Google.Protobuf.Reflection.DescriptorProto",
+          "Google.Protobuf.Reflection.DescriptorProto+<>c",
+          "Google.Protobuf.Reflection.DescriptorProto+Types",
+          "Google.Protobuf.Reflection.DescriptorProto+Types+ExtensionRange",
+          "Google.Protobuf.Reflection.DescriptorProto+Types+ExtensionRange+<>c",
+          "Google.Protobuf.Reflection.DescriptorProto+Types+ReservedRange",
+          "Google.Protobuf.Reflection.DescriptorProto+Types+ReservedRange+<>c",
+          "Google.Protobuf.Reflection.DescriptorReflection",
+          "Google.Protobuf.Reflection.DescriptorUtil",
+          "Google.Protobuf.Reflection.DescriptorUtil+IndexedConverter`2",
+          "Google.Protobuf.Reflection.DescriptorValidationException",
+          "Google.Protobuf.Reflection.Edition",
+          "Google.Protobuf.Reflection.EnumDescriptor",
+          "Google.Protobuf.Reflection.EnumDescriptor+<>c__DisplayClass0_0",
+          "Google.Protobuf.Reflection.EnumDescriptorProto",
+          "Google.Protobuf.Reflection.EnumDescriptorProto+<>c",
+          "Google.Protobuf.Reflection.EnumDescriptorProto+Types",
+          "Google.Protobuf.Reflection.EnumDescriptorProto+Types+EnumReservedRange",
+          "Google.Protobuf.Reflection.EnumDescriptorProto+Types+EnumReservedRange+<>c",
+          "Google.Protobuf.Reflection.EnumOptions",
+          "Google.Protobuf.Reflection.EnumOptions+<>c",
+          "Google.Protobuf.Reflection.EnumValueDescriptor",
+          "Google.Protobuf.Reflection.EnumValueDescriptorProto",
+          "Google.Protobuf.Reflection.EnumValueDescriptorProto+<>c",
+          "Google.Protobuf.Reflection.EnumValueOptions",
+          "Google.Protobuf.Reflection.EnumValueOptions+<>c",
+          "Google.Protobuf.Reflection.ExtensionAccessor",
+          "Google.Protobuf.Reflection.ExtensionCollection",
+          "Google.Protobuf.Reflection.ExtensionCollection+<>c",
+          "Google.Protobuf.Reflection.ExtensionCollection+<>c__DisplayClass2_0",
+          "Google.Protobuf.Reflection.ExtensionCollection+<>c__DisplayClass3_0",
+          "Google.Protobuf.Reflection.ExtensionCollection+ExtensionCollectionDebugView",
+          "Google.Protobuf.Reflection.ExtensionRangeOptions",
+          "Google.Protobuf.Reflection.ExtensionRangeOptions+<>c",
+          "Google.Protobuf.Reflection.ExtensionRangeOptions+Types",
+          "Google.Protobuf.Reflection.ExtensionRangeOptions+Types+Declaration",
+          "Google.Protobuf.Reflection.ExtensionRangeOptions+Types+Declaration+<>c",
+          "Google.Protobuf.Reflection.ExtensionRangeOptions+Types+VerificationState",
+          "Google.Protobuf.Reflection.FeatureSet",
+          "Google.Protobuf.Reflection.FeatureSet+<>c",
+          "Google.Protobuf.Reflection.FeatureSet+Types",
+          "Google.Protobuf.Reflection.FeatureSet+Types+EnforceNamingStyle",
+          "Google.Protobuf.Reflection.FeatureSet+Types+EnumType",
+          "Google.Protobuf.Reflection.FeatureSet+Types+FieldPresence",
+          "Google.Protobuf.Reflection.FeatureSet+Types+JsonFormat",
+          "Google.Protobuf.Reflection.FeatureSet+Types+MessageEncoding",
+          "Google.Protobuf.Reflection.FeatureSet+Types+RepeatedFieldEncoding",
+          "Google.Protobuf.Reflection.FeatureSet+Types+Utf8Validation",
+          "Google.Protobuf.Reflection.FeatureSet+Types+VisibilityFeature",
+          "Google.Protobuf.Reflection.FeatureSet+Types+VisibilityFeature+<>c",
+          "Google.Protobuf.Reflection.FeatureSet+Types+VisibilityFeature+Types",
+          "Google.Protobuf.Reflection.FeatureSet+Types+VisibilityFeature+Types+DefaultSymbolVisibility",
+          "Google.Protobuf.Reflection.FeatureSetDefaults",
+          "Google.Protobuf.Reflection.FeatureSetDefaults+<>c",
+          "Google.Protobuf.Reflection.FeatureSetDefaults+Types",
+          "Google.Protobuf.Reflection.FeatureSetDefaults+Types+FeatureSetEditionDefault",
+          "Google.Protobuf.Reflection.FeatureSetDefaults+Types+FeatureSetEditionDefault+<>c",
+          "Google.Protobuf.Reflection.FeatureSetDescriptor",
+          "Google.Protobuf.Reflection.FeatureSetDescriptor+<>c",
+          "Google.Protobuf.Reflection.FeatureSetDescriptor+<>c__DisplayClass2_0",
+          "Google.Protobuf.Reflection.FeatureSetDescriptor+<>c__DisplayClass2_1",
+          "Google.Protobuf.Reflection.FieldAccessorBase",
+          "Google.Protobuf.Reflection.FieldDescriptor",
+          "Google.Protobuf.Reflection.FieldDescriptorProto",
+          "Google.Protobuf.Reflection.FieldDescriptorProto+<>c",
+          "Google.Protobuf.Reflection.FieldDescriptorProto+Types",
+          "Google.Protobuf.Reflection.FieldDescriptorProto+Types+Label",
+          "Google.Protobuf.Reflection.FieldDescriptorProto+Types+Type",
+          "Google.Protobuf.Reflection.FieldOptions",
+          "Google.Protobuf.Reflection.FieldOptions+<>c",
+          "Google.Protobuf.Reflection.FieldOptions+Types",
+          "Google.Protobuf.Reflection.FieldOptions+Types+CType",
+          "Google.Protobuf.Reflection.FieldOptions+Types+EditionDefault",
+          "Google.Protobuf.Reflection.FieldOptions+Types+EditionDefault+<>c",
+          "Google.Protobuf.Reflection.FieldOptions+Types+FeatureSupport",
+          "Google.Protobuf.Reflection.FieldOptions+Types+FeatureSupport+<>c",
+          "Google.Protobuf.Reflection.FieldOptions+Types+JSType",
+          "Google.Protobuf.Reflection.FieldOptions+Types+OptionRetention",
+          "Google.Protobuf.Reflection.FieldOptions+Types+OptionTargetType",
+          "Google.Protobuf.Reflection.FieldType",
+          "Google.Protobuf.Reflection.FileDescriptor",
+          "Google.Protobuf.Reflection.FileDescriptor+<>c",
+          "Google.Protobuf.Reflection.FileDescriptor+<>c__DisplayClass2_0",
+          "Google.Protobuf.Reflection.FileDescriptorProto",
+          "Google.Protobuf.Reflection.FileDescriptorProto+<>c",
+          "Google.Protobuf.Reflection.FileDescriptorSet",
+          "Google.Protobuf.Reflection.FileDescriptorSet+<>c",
+          "Google.Protobuf.Reflection.FileOptions",
+          "Google.Protobuf.Reflection.FileOptions+<>c",
+          "Google.Protobuf.Reflection.FileOptions+Types",
+          "Google.Protobuf.Reflection.FileOptions+Types+OptimizeMode",
+          "Google.Protobuf.Reflection.GeneratedClrTypeInfo",
+          "Google.Protobuf.Reflection.GeneratedCodeInfo",
+          "Google.Protobuf.Reflection.GeneratedCodeInfo+<>c",
+          "Google.Protobuf.Reflection.GeneratedCodeInfo+Types",
+          "Google.Protobuf.Reflection.GeneratedCodeInfo+Types+Annotation",
+          "Google.Protobuf.Reflection.GeneratedCodeInfo+Types+Annotation+<>c",
+          "Google.Protobuf.Reflection.GeneratedCodeInfo+Types+Annotation+Types",
+          "Google.Protobuf.Reflection.GeneratedCodeInfo+Types+Annotation+Types+Semantic",
+          "Google.Protobuf.Reflection.IDescriptor",
+          "Google.Protobuf.Reflection.IFieldAccessor",
+          "Google.Protobuf.Reflection.MapFieldAccessor",
+          "Google.Protobuf.Reflection.MessageDescriptor",
+          "Google.Protobuf.Reflection.MessageDescriptor+<>c",
+          "Google.Protobuf.Reflection.MessageDescriptor+<>c__DisplayClass5_0",
+          "Google.Protobuf.Reflection.MessageDescriptor+FieldCollection",
+          "Google.Protobuf.Reflection.MessageDescriptor+FieldCollection+FieldCollectionDebugView",
+          "Google.Protobuf.Reflection.MessageOptions",
+          "Google.Protobuf.Reflection.MessageOptions+<>c",
+          "Google.Protobuf.Reflection.MethodDescriptor",
+          "Google.Protobuf.Reflection.MethodDescriptorProto",
+          "Google.Protobuf.Reflection.MethodDescriptorProto+<>c",
+          "Google.Protobuf.Reflection.MethodOptions",
+          "Google.Protobuf.Reflection.MethodOptions+<>c",
+          "Google.Protobuf.Reflection.MethodOptions+Types",
+          "Google.Protobuf.Reflection.MethodOptions+Types+IdempotencyLevel",
+          "Google.Protobuf.Reflection.OneofAccessor",
+          "Google.Protobuf.Reflection.OneofAccessor+<>c__DisplayClass4_0",
+          "Google.Protobuf.Reflection.OneofDescriptor",
+          "Google.Protobuf.Reflection.OneofDescriptor+<>c__DisplayClass3_0",
+          "Google.Protobuf.Reflection.OneofDescriptorProto",
+          "Google.Protobuf.Reflection.OneofDescriptorProto+<>c",
+          "Google.Protobuf.Reflection.OneofOptions",
+          "Google.Protobuf.Reflection.OneofOptions+<>c",
+          "Google.Protobuf.Reflection.OriginalNameAttribute",
+          "Google.Protobuf.Reflection.PackageDescriptor",
+          "Google.Protobuf.Reflection.ReflectionUtil",
+          "Google.Protobuf.Reflection.ReflectionUtil+ExtensionReflectionHelper`2",
+          "Google.Protobuf.Reflection.ReflectionUtil+ExtensionSetReflector`1",
+          "Google.Protobuf.Reflection.ReflectionUtil+ExtensionSetReflector`1+<>c__DisplayClass0_0",
+          "Google.Protobuf.Reflection.ReflectionUtil+IExtensionReflectionHelper",
+          "Google.Protobuf.Reflection.ReflectionUtil+IExtensionSetReflector",
+          "Google.Protobuf.Reflection.ReflectionUtil+IReflectionHelper",
+          "Google.Protobuf.Reflection.ReflectionUtil+ReflectionHelper`2",
+          "Google.Protobuf.Reflection.ReflectionUtil+ReflectionHelper`2+<>c__DisplayClass0_0",
+          "Google.Protobuf.Reflection.ReflectionUtil+ReflectionHelper`2+<>c__DisplayClass0_1",
+          "Google.Protobuf.Reflection.ReflectionUtil+ReflectionHelper`2+<>c__DisplayClass1_0",
+          "Google.Protobuf.Reflection.ReflectionUtil+ReflectionHelper`2+<>c__DisplayClass2_0",
+          "Google.Protobuf.Reflection.ReflectionUtil+ReflectionHelper`2+<>c__DisplayClass3_0",
+          "Google.Protobuf.Reflection.ReflectionUtil+ReflectionHelper`2+<>c__DisplayClass4_0",
+          "Google.Protobuf.Reflection.ReflectionUtil+SampleEnum",
+          "Google.Protobuf.Reflection.RepeatedFieldAccessor",
+          "Google.Protobuf.Reflection.ServiceDescriptor",
+          "Google.Protobuf.Reflection.ServiceDescriptor+<>c__DisplayClass0_0",
+          "Google.Protobuf.Reflection.ServiceDescriptorProto",
+          "Google.Protobuf.Reflection.ServiceDescriptorProto+<>c",
+          "Google.Protobuf.Reflection.ServiceOptions",
+          "Google.Protobuf.Reflection.ServiceOptions+<>c",
+          "Google.Protobuf.Reflection.SingleFieldAccessor",
+          "Google.Protobuf.Reflection.SingleFieldAccessor+<>c",
+          "Google.Protobuf.Reflection.SingleFieldAccessor+<>c__DisplayClass3_0",
+          "Google.Protobuf.Reflection.SingleFieldAccessor+<>c__DisplayClass3_1",
+          "Google.Protobuf.Reflection.SingleFieldAccessor+<>c__DisplayClass3_2",
+          "Google.Protobuf.Reflection.SourceCodeInfo",
+          "Google.Protobuf.Reflection.SourceCodeInfo+<>c",
+          "Google.Protobuf.Reflection.SourceCodeInfo+Types",
+          "Google.Protobuf.Reflection.SourceCodeInfo+Types+Location",
+          "Google.Protobuf.Reflection.SourceCodeInfo+Types+Location+<>c",
+          "Google.Protobuf.Reflection.SymbolVisibility",
+          "Google.Protobuf.Reflection.Syntax",
+          "Google.Protobuf.Reflection.TypeRegistry",
+          "Google.Protobuf.Reflection.TypeRegistry+<>c",
+          "Google.Protobuf.Reflection.TypeRegistry+Builder",
+          "Google.Protobuf.Reflection.TypeRegistry+TypeRegistryDebugView",
+          "Google.Protobuf.Reflection.UninterpretedOption",
+          "Google.Protobuf.Reflection.UninterpretedOption+<>c",
+          "Google.Protobuf.Reflection.UninterpretedOption+Types",
+          "Google.Protobuf.Reflection.UninterpretedOption+Types+NamePart",
+          "Google.Protobuf.Reflection.UninterpretedOption+Types+NamePart+<>c",
+          "Google.Protobuf.RepeatedExtensionValue`1",
+          "Google.Protobuf.RepeatedExtension`2",
+          "Google.Protobuf.RepeatedFieldExtensions",
+          "Google.Protobuf.SegmentedBufferHelper",
+          "Google.Protobuf.UnknownField",
+          "Google.Protobuf.UnknownFieldSet",
+          "Google.Protobuf.UnknownFieldSet+UnknownFieldSetDebugView",
+          "Google.Protobuf.UnsafeByteOperations",
+          "Google.Protobuf.UnsafeCollectionOperations",
+          "Google.Protobuf.ValueReader`1",
+          "Google.Protobuf.ValueWriter`1",
+          "Google.Protobuf.WellKnownTypes.Any",
+          "Google.Protobuf.WellKnownTypes.Any+<>c",
+          "Google.Protobuf.WellKnownTypes.AnyReflection",
+          "Google.Protobuf.WellKnownTypes.Api",
+          "Google.Protobuf.WellKnownTypes.Api+<>c",
+          "Google.Protobuf.WellKnownTypes.ApiReflection",
+          "Google.Protobuf.WellKnownTypes.BoolValue",
+          "Google.Protobuf.WellKnownTypes.BoolValue+<>c",
+          "Google.Protobuf.WellKnownTypes.BytesValue",
+          "Google.Protobuf.WellKnownTypes.BytesValue+<>c",
+          "Google.Protobuf.WellKnownTypes.DoubleValue",
+          "Google.Protobuf.WellKnownTypes.DoubleValue+<>c",
+          "Google.Protobuf.WellKnownTypes.Duration",
+          "Google.Protobuf.WellKnownTypes.Duration+<>c",
+          "Google.Protobuf.WellKnownTypes.DurationReflection",
+          "Google.Protobuf.WellKnownTypes.Empty",
+          "Google.Protobuf.WellKnownTypes.Empty+<>c",
+          "Google.Protobuf.WellKnownTypes.EmptyReflection",
+          "Google.Protobuf.WellKnownTypes.Enum",
+          "Google.Protobuf.WellKnownTypes.Enum+<>c",
+          "Google.Protobuf.WellKnownTypes.EnumValue",
+          "Google.Protobuf.WellKnownTypes.EnumValue+<>c",
+          "Google.Protobuf.WellKnownTypes.Field",
+          "Google.Protobuf.WellKnownTypes.Field+<>c",
+          "Google.Protobuf.WellKnownTypes.Field+Types",
+          "Google.Protobuf.WellKnownTypes.Field+Types+Cardinality",
+          "Google.Protobuf.WellKnownTypes.Field+Types+Kind",
+          "Google.Protobuf.WellKnownTypes.FieldMask",
+          "Google.Protobuf.WellKnownTypes.FieldMask+<>c",
+          "Google.Protobuf.WellKnownTypes.FieldMask+MergeOptions",
+          "Google.Protobuf.WellKnownTypes.FieldMaskReflection",
+          "Google.Protobuf.WellKnownTypes.FloatValue",
+          "Google.Protobuf.WellKnownTypes.FloatValue+<>c",
+          "Google.Protobuf.WellKnownTypes.Int32Value",
+          "Google.Protobuf.WellKnownTypes.Int32Value+<>c",
+          "Google.Protobuf.WellKnownTypes.Int64Value",
+          "Google.Protobuf.WellKnownTypes.Int64Value+<>c",
+          "Google.Protobuf.WellKnownTypes.ListValue",
+          "Google.Protobuf.WellKnownTypes.ListValue+<>c",
+          "Google.Protobuf.WellKnownTypes.Method",
+          "Google.Protobuf.WellKnownTypes.Method+<>c",
+          "Google.Protobuf.WellKnownTypes.Mixin",
+          "Google.Protobuf.WellKnownTypes.Mixin+<>c",
+          "Google.Protobuf.WellKnownTypes.NullValue",
+          "Google.Protobuf.WellKnownTypes.Option",
+          "Google.Protobuf.WellKnownTypes.Option+<>c",
+          "Google.Protobuf.WellKnownTypes.SourceContext",
+          "Google.Protobuf.WellKnownTypes.SourceContext+<>c",
+          "Google.Protobuf.WellKnownTypes.SourceContextReflection",
+          "Google.Protobuf.WellKnownTypes.StringValue",
+          "Google.Protobuf.WellKnownTypes.StringValue+<>c",
+          "Google.Protobuf.WellKnownTypes.Struct",
+          "Google.Protobuf.WellKnownTypes.Struct+<>c",
+          "Google.Protobuf.WellKnownTypes.StructReflection",
+          "Google.Protobuf.WellKnownTypes.Syntax",
+          "Google.Protobuf.WellKnownTypes.TimeExtensions",
+          "Google.Protobuf.WellKnownTypes.Timestamp",
+          "Google.Protobuf.WellKnownTypes.Timestamp+<>c",
+          "Google.Protobuf.WellKnownTypes.TimestampReflection",
+          "Google.Protobuf.WellKnownTypes.Type",
+          "Google.Protobuf.WellKnownTypes.Type+<>c",
+          "Google.Protobuf.WellKnownTypes.TypeReflection",
+          "Google.Protobuf.WellKnownTypes.UInt32Value",
+          "Google.Protobuf.WellKnownTypes.UInt32Value+<>c",
+          "Google.Protobuf.WellKnownTypes.UInt64Value",
+          "Google.Protobuf.WellKnownTypes.UInt64Value+<>c",
+          "Google.Protobuf.WellKnownTypes.Value",
+          "Google.Protobuf.WellKnownTypes.Value+<>c",
+          "Google.Protobuf.WellKnownTypes.Value+KindOneofCase",
+          "Google.Protobuf.WellKnownTypes.WrappersReflection",
+          "Google.Protobuf.WireFormat",
+          "Google.Protobuf.WireFormat+WireType",
+          "Google.Protobuf.WriteBufferHelper",
+          "Google.Protobuf.WriteContext",
+          "Google.Protobuf.WriterInternalState",
+          "Google.Protobuf.WritingPrimitives",
+          "Google.Protobuf.WritingPrimitivesMessages",
+          "ILineTagGenerator",
+          "ILineTagGenerator+LineTagContext",
+          "ILineTagGenerator+LineTaggingException",
+          "ILineTagGenerator+TagAbortBehaviour",
+          "System.Diagnostics.CodeAnalysis.AllowNullAttribute",
+          "System.Diagnostics.CodeAnalysis.DisallowNullAttribute",
+          "System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute",
+          "System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute",
+          "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+          "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute",
+          "System.Diagnostics.CodeAnalysis.MaybeNullAttribute",
+          "System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute",
+          "System.Diagnostics.CodeAnalysis.MemberNotNullAttribute",
+          "System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute",
+          "System.Diagnostics.CodeAnalysis.NotNullAttribute",
+          "System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute",
+          "System.Diagnostics.CodeAnalysis.NotNullWhenAttribute",
+          "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
+          "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute",
+          "TypeChecker.ConjunctionConstraint",
+          "TypeChecker.DisjunctionConstraint",
+          "TypeChecker.EnumerablesExtension",
+          "TypeChecker.FailureContext",
+          "TypeChecker.FalseConstraint",
+          "TypeChecker.ITypeExtensions",
+          "TypeChecker.Solver",
+          "TypeChecker.Substitution",
+          "TypeChecker.TrueConstraint",
+          "TypeChecker.TypeConstraint",
+          "TypeChecker.TypeConvertibleConstraint",
+          "TypeChecker.TypeEqualityConstraint",
+          "TypeChecker.TypeHasMemberConstraint",
+          "TypeChecker.TypeHasNameConstraint",
+          "TypeChecker.TypeVariable",
+          "Yarn.Analysis.CompiledProgramAnalyser",
+          "Yarn.Analysis.Context",
+          "Yarn.Analysis.Diagnosis",
+          "Yarn.Analysis.Diagnosis+Severity",
+          "Yarn.Analysis.UnusedVariableChecker",
+          "Yarn.Analysis.VariableLister",
+          "Yarn.AnyType",
+          "Yarn.BooleanType",
+          "Yarn.Command",
+          "Yarn.Compiler.BasicBlock",
+          "Yarn.Compiler.BasicBlock+AnyNodeDestination",
+          "Yarn.Compiler.BasicBlock+BlockDestination",
+          "Yarn.Compiler.BasicBlock+CommandElement",
+          "Yarn.Compiler.BasicBlock+Condition",
+          "Yarn.Compiler.BasicBlock+Destination",
+          "Yarn.Compiler.BasicBlock+LineElement",
+          "Yarn.Compiler.BasicBlock+NodeDestination",
+          "Yarn.Compiler.BasicBlock+OptionDestination",
+          "Yarn.Compiler.BasicBlock+OptionsElement",
+          "Yarn.Compiler.BasicBlock+OptionsElement+Option",
+          "Yarn.Compiler.BasicBlock+PlayerVisibleContentElement",
+          "Yarn.Compiler.CodeGenerationVisitor",
+          "Yarn.Compiler.CompilationJob",
+          "Yarn.Compiler.CompilationJob+File",
+          "Yarn.Compiler.CompilationJob+Type",
+          "Yarn.Compiler.CompilationResult",
+          "Yarn.Compiler.Compiler",
+          "Yarn.Compiler.Compiler+Options",
+          "Yarn.Compiler.ContentIdentifierType",
+          "Yarn.Compiler.Declaration",
+          "Yarn.Compiler.DeclarationBuilder",
+          "Yarn.Compiler.DescriptiveLineTagGenerator",
+          "Yarn.Compiler.Diagnostic",
+          "Yarn.Compiler.Diagnostic+DiagnosticSeverity",
+          "Yarn.Compiler.DiagnosticDescriptor",
+          "Yarn.Compiler.DiagnosticDescriptor+DiagnosticDescriptor0",
+          "Yarn.Compiler.DiagnosticDescriptor+DiagnosticDescriptor1",
+          "Yarn.Compiler.DiagnosticDescriptor+DiagnosticDescriptor2",
+          "Yarn.Compiler.DiagnosticDescriptor+DiagnosticDescriptor3",
+          "Yarn.Compiler.DiagnosticDescriptor+DiagnosticDescriptor4",
+          "Yarn.Compiler.DiagnosticsGeneratorVisitor",
+          "Yarn.Compiler.EnumTypeBuilder",
+          "Yarn.Compiler.ErrorUtility",
+          "Yarn.Compiler.FileCompilationResult",
+          "Yarn.Compiler.FileCompiler",
+          "Yarn.Compiler.FileCompiler+CompilationContext",
+          "Yarn.Compiler.FileParseResult",
+          "Yarn.Compiler.FunctionTypeBuilder",
+          "Yarn.Compiler.GraphingNode",
+          "Yarn.Compiler.ICodeEmitter",
+          "Yarn.Compiler.ISourceInput",
+          "Yarn.Compiler.ITypedContext",
+          "Yarn.Compiler.IYarnSpinnerParserListener",
+          "Yarn.Compiler.IYarnSpinnerParserVisitor",
+          "Yarn.Compiler.IndentAwareLexer",
+          "Yarn.Compiler.IndentAwareLexer+LexerWarning",
+          "Yarn.Compiler.InstructionCollectionExtensions",
+          "Yarn.Compiler.InterruptableListener",
+          "Yarn.Compiler.JumpGraphListener",
+          "Yarn.Compiler.JumpInfo",
+          "Yarn.Compiler.JumpType",
+          "Yarn.Compiler.LastLineBeforeOptionsVisitor",
+          "Yarn.Compiler.LiteralValueVisitor",
+          "Yarn.Compiler.NodeCompilationResult",
+          "Yarn.Compiler.NodeDebugInfo",
+          "Yarn.Compiler.NodeDebugInfo+LineInfo",
+          "Yarn.Compiler.NodeGroupCompiler",
+          "Yarn.Compiler.NodeGroupVisitor",
+          "Yarn.Compiler.NodeMetadata",
+          "Yarn.Compiler.NodeMetadataVisitor",
+          "Yarn.Compiler.NodeTrackingVisitor",
+          "Yarn.Compiler.OptionInfo",
+          "Yarn.Compiler.ParseTreeWalker",
+          "Yarn.Compiler.ParserContextExtensions",
+          "Yarn.Compiler.ParserContextExtensions+ContentConditionType",
+          "Yarn.Compiler.ParserRuleContextExtension",
+          "Yarn.Compiler.Position",
+          "Yarn.Compiler.PreviewFeatureVisitor",
+          "Yarn.Compiler.Project",
+          "Yarn.Compiler.Project+CompilerOptionsData",
+          "Yarn.Compiler.Project+LocalizationInfo",
+          "Yarn.Compiler.ProjectDebugInfo",
+          "Yarn.Compiler.RandomLineTagGenerator",
+          "Yarn.Compiler.Range",
+          "Yarn.Compiler.SmartVariableCompiler",
+          "Yarn.Compiler.SourceGenerationContext",
+          "Yarn.Compiler.StringInfo",
+          "Yarn.Compiler.StringOrListOfStringsConverter",
+          "Yarn.Compiler.StringTableGeneratorVisitor",
+          "Yarn.Compiler.StringTableManager",
+          "Yarn.Compiler.StructuredCommandParser",
+          "Yarn.Compiler.StructuredCommandParser+ParseResult",
+          "Yarn.Compiler.StyleWarningsVisitor",
+          "Yarn.Compiler.SyntaxValidationListener",
+          "Yarn.Compiler.SyntaxValidationListener+AnyErrorsDetectedErrorListener",
+          "Yarn.Compiler.SyntaxValidationListener+StatementType",
+          "Yarn.Compiler.TypeCheckerListener",
+          "Yarn.Compiler.Upgrader.ILanguageUpgrader",
+          "Yarn.Compiler.Upgrader.LanguageUpgrader",
+          "Yarn.Compiler.Upgrader.TextReplacement",
+          "Yarn.Compiler.Upgrader.UpgradeJob",
+          "Yarn.Compiler.Upgrader.UpgradeResult",
+          "Yarn.Compiler.Upgrader.UpgradeResult+OutputFile",
+          "Yarn.Compiler.Upgrader.UpgradeType",
+          "Yarn.Compiler.Utility",
+          "Yarn.Compiler.Utility+UntaggedLineListener",
+          "Yarn.Compiler.YarnErrorListener",
+          "Yarn.Compiler.YarnSpinnerLexer",
+          "Yarn.Compiler.YarnSpinnerParser",
+          "Yarn.Compiler.YarnSpinnerParser+BodyContext",
+          "Yarn.Compiler.YarnSpinnerParser+Call_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Command_formatted_textContext",
+          "Yarn.Compiler.YarnSpinnerParser+Command_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Declare_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+DetourToExpressionContext",
+          "Yarn.Compiler.YarnSpinnerParser+DetourToNodeNameContext",
+          "Yarn.Compiler.YarnSpinnerParser+DialogueContext",
+          "Yarn.Compiler.YarnSpinnerParser+Else_clauseContext",
+          "Yarn.Compiler.YarnSpinnerParser+Else_if_clauseContext",
+          "Yarn.Compiler.YarnSpinnerParser+Enum_case_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Enum_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpAddSubContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpAndOrXorContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpComparisonContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpEqualityContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpMultDivModContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpNegativeContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpNotContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpParensContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpValueContext",
+          "Yarn.Compiler.YarnSpinnerParser+ExpressionContext",
+          "Yarn.Compiler.YarnSpinnerParser+File_hashtagContext",
+          "Yarn.Compiler.YarnSpinnerParser+Function_callContext",
+          "Yarn.Compiler.YarnSpinnerParser+HashtagContext",
+          "Yarn.Compiler.YarnSpinnerParser+HeaderContext",
+          "Yarn.Compiler.YarnSpinnerParser+Header_when_expressionContext",
+          "Yarn.Compiler.YarnSpinnerParser+ILiteralContext",
+          "Yarn.Compiler.YarnSpinnerParser+If_clauseContext",
+          "Yarn.Compiler.YarnSpinnerParser+If_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+JumpToExpressionContext",
+          "Yarn.Compiler.YarnSpinnerParser+JumpToNodeNameContext",
+          "Yarn.Compiler.YarnSpinnerParser+Jump_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+LineConditionContext",
+          "Yarn.Compiler.YarnSpinnerParser+LineOnceConditionContext",
+          "Yarn.Compiler.YarnSpinnerParser+Line_conditionContext",
+          "Yarn.Compiler.YarnSpinnerParser+Line_formatted_textContext",
+          "Yarn.Compiler.YarnSpinnerParser+Line_group_itemContext",
+          "Yarn.Compiler.YarnSpinnerParser+Line_group_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Line_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+NodeContext",
+          "Yarn.Compiler.YarnSpinnerParser+Once_alternate_clauseContext",
+          "Yarn.Compiler.YarnSpinnerParser+Once_primary_clauseContext",
+          "Yarn.Compiler.YarnSpinnerParser+Once_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Return_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Set_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Shortcut_optionContext",
+          "Yarn.Compiler.YarnSpinnerParser+Shortcut_option_statementContext",
+          "Yarn.Compiler.YarnSpinnerParser+StatementContext",
+          "Yarn.Compiler.YarnSpinnerParser+Structured_commandContext",
+          "Yarn.Compiler.YarnSpinnerParser+Structured_command_valueContext",
+          "Yarn.Compiler.YarnSpinnerParser+Title_headerContext",
+          "Yarn.Compiler.YarnSpinnerParser+TypeMemberReferenceContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueFalseContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueFuncContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueNumberContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueStringContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueTrueContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueTypeMemberReferenceContext",
+          "Yarn.Compiler.YarnSpinnerParser+ValueVarContext",
+          "Yarn.Compiler.YarnSpinnerParser+VariableContext",
+          "Yarn.Compiler.YarnSpinnerParser+When_headerContext",
+          "Yarn.Compiler.YarnSpinnerParserBaseListener",
+          "Yarn.Compiler.YarnSpinnerParserBaseVisitor",
+          "Yarn.Compiler.YarnSpinnerTestPlanLexer",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+ActionJumpToNodeContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+ActionSelectContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+ActionSetBoolContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+ActionSetContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+ActionSetNumberContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+ActionSetSaliencyModeContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+CommandExpectedContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+HashtagContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+LineExpectedContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+LineWithAnyTextExpectedContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+LineWithSpecificTextExpectedContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+OptionExpectedContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+RunContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+StepContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+StopExpectedContext",
+          "Yarn.Compiler.YarnSpinnerTestPlanParser+TestplanContext",
+          "Yarn.ConstantTypeProperty",
+          "Yarn.Dialogue",
+          "Yarn.Dialogue+StandardLibrary",
+          "Yarn.Dialogue+StandardLibrary+float",
+          "Yarn.Dialogue+StandardLibrary+object",
+          "Yarn.Dialogue+StandardLibrary+string",
+          "Yarn.Dialogue+string",
+          "Yarn.DialogueException",
+          "Yarn.EnumBase",
+          "Yarn.EnumType",
+          "Yarn.ErrorType",
+          "Yarn.FunctionType",
+          "Yarn.Header",
+          "Yarn.ICodeDumpHelper",
+          "Yarn.IMarkupParser",
+          "Yarn.ISmartVariableEvaluator",
+          "Yarn.IType",
+          "Yarn.ITypeMember",
+          "Yarn.IVariableAccess",
+          "Yarn.IVariableStorage",
+          "Yarn.IYarnValue",
+          "Yarn.Instruction",
+          "Yarn.Instruction+InstructionTypeOneofCase",
+          "Yarn.Instruction+Types",
+          "Yarn.Instruction+Types+AddOptionInstruction",
+          "Yarn.Instruction+Types+AddSaliencyCandidateFromNodeInstruction",
+          "Yarn.Instruction+Types+AddSaliencyCandidateInstruction",
+          "Yarn.Instruction+Types+CallFunctionInstruction",
+          "Yarn.Instruction+Types+DetourToNodeInstruction",
+          "Yarn.Instruction+Types+JumpIfFalseInstruction",
+          "Yarn.Instruction+Types+JumpToInstruction",
+          "Yarn.Instruction+Types+PeekAndDetourToNode",
+          "Yarn.Instruction+Types+PeekAndJumpInstruction",
+          "Yarn.Instruction+Types+PeekAndRunNodeInstruction",
+          "Yarn.Instruction+Types+PopInstruction",
+          "Yarn.Instruction+Types+PushBoolInstruction",
+          "Yarn.Instruction+Types+PushFloatInstruction",
+          "Yarn.Instruction+Types+PushStringInstruction",
+          "Yarn.Instruction+Types+PushVariableInstruction",
+          "Yarn.Instruction+Types+ReturnInstruction",
+          "Yarn.Instruction+Types+RunCommandInstruction",
+          "Yarn.Instruction+Types+RunLineInstruction",
+          "Yarn.Instruction+Types+RunNodeInstruction",
+          "Yarn.Instruction+Types+SelectSaliencyCandidateInstruction",
+          "Yarn.Instruction+Types+ShowOptionsInstruction",
+          "Yarn.Instruction+Types+StopInstruction",
+          "Yarn.Instruction+Types+StoreVariableInstruction",
+          "Yarn.InstructionV1",
+          "Yarn.InstructionV1+Types",
+          "Yarn.InstructionV1+Types+OpCode",
+          "Yarn.Library",
+          "Yarn.Line",
+          "Yarn.Markup.BuiltInMarkupReplacer",
+          "Yarn.Markup.IAttributeMarkerProcessor",
+          "Yarn.Markup.LineParser",
+          "Yarn.Markup.LineParser+LexerMode",
+          "Yarn.Markup.LineParser+LexerToken",
+          "Yarn.Markup.LineParser+LexerTokenTypes",
+          "Yarn.Markup.LineParser+MarkupDiagnostic",
+          "Yarn.Markup.LineParser+MarkupTextNode",
+          "Yarn.Markup.LineParser+MarkupTreeNode",
+          "Yarn.Markup.LineParser+TokenStream",
+          "Yarn.Markup.MarkupAttribute",
+          "Yarn.Markup.MarkupAttributeMarker",
+          "Yarn.Markup.MarkupParseException",
+          "Yarn.Markup.MarkupParseResult",
+          "Yarn.Markup.MarkupProperty",
+          "Yarn.Markup.MarkupValue",
+          "Yarn.Markup.MarkupValueType",
+          "Yarn.Markup.ReplacementMarkerResult",
+          "Yarn.Markup.TagType",
+          "Yarn.MemoryVariableStore",
+          "Yarn.Node",
+          "Yarn.NumberType",
+          "Yarn.Operand",
+          "Yarn.Operand+ValueOneofCase",
+          "Yarn.Operator",
+          "Yarn.OptionSet",
+          "Yarn.OptionSet+Option",
+          "Yarn.PendingOption",
+          "Yarn.Program",
+          "Yarn.Saliency.BestLeastRecentlyViewedSaliencyStrategy",
+          "Yarn.Saliency.BestSaliencyStrategy",
+          "Yarn.Saliency.ContentSaliencyContentType",
+          "Yarn.Saliency.ContentSaliencyOption",
+          "Yarn.Saliency.EnumerableRandomExtension",
+          "Yarn.Saliency.FirstSaliencyStrategy",
+          "Yarn.Saliency.IContentSaliencyStrategy",
+          "Yarn.Saliency.RandomBestLeastRecentlyViewedSaliencyStrategy",
+          "Yarn.SmartVariableEvaluationVirtualMachine",
+          "Yarn.StringType",
+          "Yarn.TypeBase",
+          "Yarn.TypeUtil",
+          "Yarn.Types",
+          "Yarn.Utility.CRC32",
+          "Yarn.Value",
+          "Yarn.VariableKind",
+          "Yarn.VirtualMachine",
+          "Yarn.VirtualMachine+ExecutionState",
+          "Yarn.VirtualMachine+State",
+          "Yarn.VirtualMachine+State+CallSite",
+          "Yarn.YarnSpinnerReflection",
+          "Yarn.void",
+          "YarnSpinner.Diagnostics.DiagnosticExample",
+          "YarnSpinner.Diagnostics.DiagnosticFrontMatter",
+          "YarnSpinner.Diagnostics.DiagnosticFrontMatter+Severity",
+          "YarnSpinner.Diagnostics.DiagnosticFrontMatter+Source",
+          "YarnSpinner.Diagnostics.Generator",
+          "YarnSpinner.Diagnostics.MarkdownExtensions",
+          "YarnSpinner.Tests.BBCodeChevronReplacer",
+          "YarnSpinner.Tests.BasicNodeInfo",
+          "YarnSpinner.Tests.BasicNodeInfo+Header",
+          "YarnSpinner.Tests.BasicNodeInfo+Link",
+          "YarnSpinner.Tests.BasicNodeInfo+Link+Type",
+          "YarnSpinner.Tests.BasicNodeParser",
+          "YarnSpinner.Tests.DebugMemoryVariableStore",
+          "YarnSpinner.Tests.DialogueTests",
+          "YarnSpinner.Tests.ErrorHandlingTests",
+          "YarnSpinner.Tests.GeneratedDiagnosticTests",
+          "YarnSpinner.Tests.IgnoreUntilFactAttribute",
+          "YarnSpinner.Tests.LanguageTests",
+          "YarnSpinner.Tests.LanguageTests+OptionSet",
+          "YarnSpinner.Tests.LanguageTests+int",
+          "YarnSpinner.Tests.MarkerUppercaseReplacer",
+          "YarnSpinner.Tests.MarkupTests",
+          "YarnSpinner.Tests.ProjectFileTests",
+          "YarnSpinner.Tests.ProjectTests",
+          "YarnSpinner.Tests.SaliencyTests",
+          "YarnSpinner.Tests.SmartVariableTests",
+          "YarnSpinner.Tests.SmartVariableTests+FakeVariableStorage",
+          "YarnSpinner.Tests.SmartVariableTests+int",
+          "YarnSpinner.Tests.StepType",
+          "YarnSpinner.Tests.TagTests",
+          "YarnSpinner.Tests.TestBase",
+          "YarnSpinner.Tests.TestBase+bool",
+          "YarnSpinner.Tests.TestBase+string",
+          "YarnSpinner.Tests.TestPlan",
+          "YarnSpinner.Tests.TestPlan+ActionJumpToNodeStep",
+          "YarnSpinner.Tests.TestPlan+ActionSelectStep",
+          "YarnSpinner.Tests.TestPlan+ActionSetSaliencyStep",
+          "YarnSpinner.Tests.TestPlan+ActionSetVariableStep",
+          "YarnSpinner.Tests.TestPlan+ActionStep",
+          "YarnSpinner.Tests.TestPlan+ExpectCommandStep",
+          "YarnSpinner.Tests.TestPlan+ExpectContentStep",
+          "YarnSpinner.Tests.TestPlan+ExpectLineStep",
+          "YarnSpinner.Tests.TestPlan+ExpectOptionStep",
+          "YarnSpinner.Tests.TestPlan+ExpectStop",
+          "YarnSpinner.Tests.TestPlan+Run",
+          "YarnSpinner.Tests.TestPlan+Step",
+          "YarnSpinner.Tests.TestPlanBuilder",
+          "YarnSpinner.Tests.TextCoordinateConverter",
+          "YarnSpinner.Tests.TypeTests",
+          "YarnSpinner.Tests.TypeTests+AbstractTypeConstraint",
+          "YarnSpinner.Tests.TypeTests+TestEnum",
+          "YarnSpinner.Tests.UpgraderTests"
+        ],
+        "profileVerified": false,
+        "declarationBasis": "lexical-all-source-branches-not-a-CSharp-parser",
+        "diagnostics": [
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Analysis/BasicBlock.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Analysis/InstructionCollectionExtensions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/AssemblyInfo.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Builders/DeclarationBuilder.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Builders/EnumTypeBuilder.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Builders/FunctionTypeBuilder.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/CompilationJob.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/CompilationResult.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Compiler.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/DebugInfo.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Declaration.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/DiagnosticDescriptor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/ErrorListener.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/FileCompiler.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/FileParseResult.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Grammars/YarnSpinnerLexer.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Grammars/YarnSpinnerParser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Grammars/YarnSpinnerParserBaseListener.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Grammars/YarnSpinnerParserBaseVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Grammars/YarnSpinnerParserExpression.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Grammars/YarnSpinnerParserListener.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Grammars/YarnSpinnerParserVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/ICodeEmitter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/IndentAwareLexer.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/JumpGraphListener.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/LineTaggers/DescriptiveLineTagGenerator.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/LineTaggers/ILineTagGenerator.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/LineTaggers/RandomLineTagGenerator.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/NodeGroupCompiler.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/NodeMetadata.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Project.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/SmartVariableCompiler.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/StringInfo.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/StringTableManager.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/StructuredCommandParser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/SyntaxValidationListener.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeCheckerListener.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/ConjunctionConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/DisjunctionConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/EnumerablesExtension.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/FalseConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/TrueConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/TypeConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/TypeConvertibleConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/TypeEqualityConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/TypeHasMemberConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Constraints/TypeHasNameConstraint.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Solver.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Substitution.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Terms/ITypeExtensions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/TypeSolver/Terms/TypeVariable.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Upgrader/ILanguageUpgrader.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Upgrader/LanguageUpgrader.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Upgrader/UpgradeType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Utility.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/CodeGenerationVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/DiagnosticsGeneratorVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/LastLineBeforeOptionsVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/LiteralValueVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/NodeGroupVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/NodeMetadataVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/NodeTrackingVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/PreviewFeatureVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/StringTableGeneratorVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Compiler/Visitors/StyleWarningsVisitor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Diagnostics/DiagnosticExample.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Diagnostics/DiagnosticFrontMatter.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Diagnostics/Generator.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Diagnostics/MarkdownExtensions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/DialogueTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/ErrorHandlingTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/GeneratedDialogueTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/GlobalSuppressions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/LanguageTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/MarkupTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/ProjectFileTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/ProjectTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/SaliencyTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/SmartVariableTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/TagTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/TestBase.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/TestPlan.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/TestPlan/YarnSpinnerTestPlanLexer.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/TestPlan/YarnSpinnerTestPlanParser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/TypeTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner.Tests/UpgraderTests.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Analyser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/AssemblyInfo.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/CRC32.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Dialogue.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/DialogueException.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/GlobalSuppressions.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Library.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/NullableAttributes.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/NumberPlurals.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Program.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Saliency/BestLeastRecentlyViewedSaliencyStrategy.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Saliency/BestSaliencyStrategy.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Saliency/ContentSaliencyOption.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Saliency/FirstSaliencyStrategy.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Saliency/IContentSaliencyStrategy.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Saliency/RandomBestLeastRecentlyViewedSaliencyStrategy.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/SmartVariableEvaluationVirtualMachine.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/AnyType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/BooleanType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/EnumType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/ErrorType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/FunctionType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/IType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/NumberType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/StringType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/TypeBase.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/TypeUtil.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Types/Types.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/Value.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/VirtualMachine.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/YarnSpinner.Markup/IAttributeMarkerProcessor.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/YarnSpinner.Markup/LineParser.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/YarnSpinner.Markup/MarkupParseException.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/YarnSpinner.Markup/MarkupParseResult.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/YarnSpinner.Markup/MarkupValueType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/YarnSpinner.Markup/TagType.cs"
+          },
+          {
+            "kind": "non-unity-build-context-default-unverified",
+            "path": "YarnSpinner/YarnSpinner.cs"
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "Google.Protobuf",
+            "scope": {
+              "name": "Google.Protobuf",
+              "version": "3.35.1.0",
+              "culture": "neutral",
+              "publicKeyToken": "a7d26565bac4d604"
+            },
+            "path": "YarnSpinner/Dependencies/Google.Protobuf.dll",
+            "ownershipVerified": true,
+            "profileVerified": false,
+            "metadataOnly": true,
+            "dummyDll": false,
+            "types": [
+              "<PrivateImplementationDetails>",
+              "<PrivateImplementationDetails>+__StaticArrayInitTypeSize=44",
+              "Google.Protobuf.ByteArray",
+              "Google.Protobuf.ByteString",
+              "Google.Protobuf.ByteString+ByteStringDebugView",
+              "Google.Protobuf.ByteStringAsync",
+              "Google.Protobuf.ByteStringAsync+<FromStreamAsyncCore>d__0",
+              "Google.Protobuf.CodedInputStream",
+              "Google.Protobuf.CodedOutputStream",
+              "Google.Protobuf.CodedOutputStream+OutOfSpaceException",
+              "Google.Protobuf.Collections.Lists",
+              "Google.Protobuf.Collections.MapField`2",
+              "Google.Protobuf.Collections.MapField`2+<>c",
+              "Google.Protobuf.Collections.MapField`2+<>c__DisplayClass7_0",
+              "Google.Protobuf.Collections.MapField`2+Codec",
+              "Google.Protobuf.Collections.MapField`2+DictionaryEnumerator",
+              "Google.Protobuf.Collections.MapField`2+MapFieldDebugView",
+              "Google.Protobuf.Collections.MapField`2+MapView`1",
+              "Google.Protobuf.Collections.ProtobufEqualityComparers",
+              "Google.Protobuf.Collections.ProtobufEqualityComparers+BitwiseDoubleEqualityComparerImpl",
+              "Google.Protobuf.Collections.ProtobufEqualityComparers+BitwiseNullableDoubleEqualityComparerImpl",
+              "Google.Protobuf.Collections.ProtobufEqualityComparers+BitwiseNullableSingleEqualityComparerImpl",
+              "Google.Protobuf.Collections.ProtobufEqualityComparers+BitwiseSingleEqualityComparerImpl",
+              "Google.Protobuf.Collections.RepeatedField`1",
+              "Google.Protobuf.Collections.RepeatedField`1+<GetEnumerator>d__29",
+              "Google.Protobuf.Collections.RepeatedField`1+RepeatedFieldDebugView",
+              "Google.Protobuf.Compatibility.PropertyInfoExtensions",
+              "Google.Protobuf.Compatibility.TypeExtensions",
+              "Google.Protobuf.Compiler.CodeGeneratorRequest",
+              "Google.Protobuf.Compiler.CodeGeneratorRequest+<>c",
+              "Google.Protobuf.Compiler.CodeGeneratorResponse",
+              "Google.Protobuf.Compiler.CodeGeneratorResponse+<>c",
+              "Google.Protobuf.Compiler.CodeGeneratorResponse+Types",
+              "Google.Protobuf.Compiler.CodeGeneratorResponse+Types+Feature",
+              "Google.Protobuf.Compiler.CodeGeneratorResponse+Types+File",
+              "Google.Protobuf.Compiler.CodeGeneratorResponse+Types+File+<>c",
+              "Google.Protobuf.Compiler.PluginReflection",
+              "Google.Protobuf.Compiler.Version",
+              "Google.Protobuf.Compiler.Version+<>c",
+              "Google.Protobuf.Extension",
+              "Google.Protobuf.ExtensionRegistry",
+              "Google.Protobuf.ExtensionRegistry+<>c",
+              "Google.Protobuf.ExtensionRegistry+ExtensionComparer",
+              "Google.Protobuf.ExtensionSet",
+              "Google.Protobuf.ExtensionSet`1",
+              "Google.Protobuf.ExtensionSet`1+<>c",
+              "Google.Protobuf.ExtensionValue`1",
+              "Google.Protobuf.Extension`2",
+              "Google.Protobuf.FieldCodec",
+              "Google.Protobuf.FieldCodec+<>c",
+              "Google.Protobuf.FieldCodec+<>c__32`1",
+              "Google.Protobuf.FieldCodec+<>c__33`1",
+              "Google.Protobuf.FieldCodec+<>c__34`1",
+              "Google.Protobuf.FieldCodec+<>c__35`1",
+              "Google.Protobuf.FieldCodec+<>c__DisplayClass31_0`1",
+              "Google.Protobuf.FieldCodec+<>c__DisplayClass32_0`1",
+              "Google.Protobuf.FieldCodec+<>c__DisplayClass33_0`1",
+              "Google.Protobuf.FieldCodec+<>c__DisplayClass34_0`1",
+              "Google.Protobuf.FieldCodec+<>c__DisplayClass35_0`1",
+              "Google.Protobuf.FieldCodec+WrapperCodecs",
+              "Google.Protobuf.FieldCodec+WrapperCodecs+<>c__DisplayClass3_0`1",
+              "Google.Protobuf.FieldCodec`1",
+              "Google.Protobuf.FieldCodec`1+<>c",
+              "Google.Protobuf.FieldCodec`1+<>c__DisplayClass38_0",
+              "Google.Protobuf.FieldCodec`1+<>c__DisplayClass39_0",
+              "Google.Protobuf.FieldCodec`1+InputMerger",
+              "Google.Protobuf.FieldCodec`1+ValuesMerger",
+              "Google.Protobuf.FieldMaskTree",
+              "Google.Protobuf.FieldMaskTree+Node",
+              "Google.Protobuf.FrameworkPortability",
+              "Google.Protobuf.IBufferMessage",
+              "Google.Protobuf.ICustomDiagnosticMessage",
+              "Google.Protobuf.IDeepCloneable`1",
+              "Google.Protobuf.IExtendableMessage`1",
+              "Google.Protobuf.IExtensionValue",
+              "Google.Protobuf.IMessage",
+              "Google.Protobuf.IMessage`1",
+              "Google.Protobuf.InvalidJsonException",
+              "Google.Protobuf.InvalidProtocolBufferException",
+              "Google.Protobuf.JsonFormatter",
+              "Google.Protobuf.JsonFormatter+OriginalEnumValueHelper",
+              "Google.Protobuf.JsonFormatter+OriginalEnumValueHelper+<>c",
+              "Google.Protobuf.JsonFormatter+Settings",
+              "Google.Protobuf.JsonParser",
+              "Google.Protobuf.JsonParser+<>c",
+              "Google.Protobuf.JsonParser+Settings",
+              "Google.Protobuf.JsonToken",
+              "Google.Protobuf.JsonToken+TokenType",
+              "Google.Protobuf.JsonTokenizer",
+              "Google.Protobuf.JsonTokenizer+JsonReplayTokenizer",
+              "Google.Protobuf.JsonTokenizer+JsonTextTokenizer",
+              "Google.Protobuf.JsonTokenizer+JsonTextTokenizer+ContainerType",
+              "Google.Protobuf.JsonTokenizer+JsonTextTokenizer+PushBackReader",
+              "Google.Protobuf.JsonTokenizer+JsonTextTokenizer+State",
+              "Google.Protobuf.JsonTokenizer+JsonTextTokenizer+StringBuilderCache",
+              "Google.Protobuf.LimitedInputStream",
+              "Google.Protobuf.MessageExtensions",
+              "Google.Protobuf.MessageExtensions+<>c__DisplayClass14_0",
+              "Google.Protobuf.MessageParser",
+              "Google.Protobuf.MessageParser`1",
+              "Google.Protobuf.MessageParser`1+<>c__DisplayClass2_0",
+              "Google.Protobuf.ObjectIntPair`1",
+              "Google.Protobuf.ParseContext",
+              "Google.Protobuf.ParserInternalState",
+              "Google.Protobuf.ParsingPrimitives",
+              "Google.Protobuf.ParsingPrimitivesMessages",
+              "Google.Protobuf.ParsingPrimitivesWrappers",
+              "Google.Protobuf.ProtoPreconditions",
+              "Google.Protobuf.Reflection.CSharpFeatures",
+              "Google.Protobuf.Reflection.CSharpFeatures+<>c",
+              "Google.Protobuf.Reflection.CSharpFeaturesExtensions",
+              "Google.Protobuf.Reflection.CSharpFeaturesReflection",
+              "Google.Protobuf.Reflection.CustomOptions",
+              "Google.Protobuf.Reflection.CustomOptions+<>c__19`1",
+              "Google.Protobuf.Reflection.CustomOptions+CustomOptionsDebugView",
+              "Google.Protobuf.Reflection.DescriptorBase",
+              "Google.Protobuf.Reflection.DescriptorDeclaration",
+              "Google.Protobuf.Reflection.DescriptorPool",
+              "Google.Protobuf.Reflection.DescriptorPool+EnumValueByNameDescriptorKey",
+              "Google.Protobuf.Reflection.DescriptorProto",
+              "Google.Protobuf.Reflection.DescriptorProto+<>c",
+              "Google.Protobuf.Reflection.DescriptorProto+Types",
+              "Google.Protobuf.Reflection.DescriptorProto+Types+ExtensionRange",
+              "Google.Protobuf.Reflection.DescriptorProto+Types+ExtensionRange+<>c",
+              "Google.Protobuf.Reflection.DescriptorProto+Types+ReservedRange",
+              "Google.Protobuf.Reflection.DescriptorProto+Types+ReservedRange+<>c",
+              "Google.Protobuf.Reflection.DescriptorReflection",
+              "Google.Protobuf.Reflection.DescriptorUtil",
+              "Google.Protobuf.Reflection.DescriptorUtil+IndexedConverter`2",
+              "Google.Protobuf.Reflection.DescriptorValidationException",
+              "Google.Protobuf.Reflection.Edition",
+              "Google.Protobuf.Reflection.EnumDescriptor",
+              "Google.Protobuf.Reflection.EnumDescriptor+<>c__DisplayClass0_0",
+              "Google.Protobuf.Reflection.EnumDescriptorProto",
+              "Google.Protobuf.Reflection.EnumDescriptorProto+<>c",
+              "Google.Protobuf.Reflection.EnumDescriptorProto+Types",
+              "Google.Protobuf.Reflection.EnumDescriptorProto+Types+EnumReservedRange",
+              "Google.Protobuf.Reflection.EnumDescriptorProto+Types+EnumReservedRange+<>c",
+              "Google.Protobuf.Reflection.EnumOptions",
+              "Google.Protobuf.Reflection.EnumOptions+<>c",
+              "Google.Protobuf.Reflection.EnumValueDescriptor",
+              "Google.Protobuf.Reflection.EnumValueDescriptorProto",
+              "Google.Protobuf.Reflection.EnumValueDescriptorProto+<>c",
+              "Google.Protobuf.Reflection.EnumValueOptions",
+              "Google.Protobuf.Reflection.EnumValueOptions+<>c",
+              "Google.Protobuf.Reflection.ExtensionAccessor",
+              "Google.Protobuf.Reflection.ExtensionCollection",
+              "Google.Protobuf.Reflection.ExtensionCollection+<>c",
+              "Google.Protobuf.Reflection.ExtensionCollection+<>c__DisplayClass2_0",
+              "Google.Protobuf.Reflection.ExtensionCollection+<>c__DisplayClass3_0",
+              "Google.Protobuf.Reflection.ExtensionCollection+ExtensionCollectionDebugView",
+              "Google.Protobuf.Reflection.ExtensionRangeOptions",
+              "Google.Protobuf.Reflection.ExtensionRangeOptions+<>c",
+              "Google.Protobuf.Reflection.ExtensionRangeOptions+Types",
+              "Google.Protobuf.Reflection.ExtensionRangeOptions+Types+Declaration",
+              "Google.Protobuf.Reflection.ExtensionRangeOptions+Types+Declaration+<>c",
+              "Google.Protobuf.Reflection.ExtensionRangeOptions+Types+VerificationState",
+              "Google.Protobuf.Reflection.FeatureSet",
+              "Google.Protobuf.Reflection.FeatureSet+<>c",
+              "Google.Protobuf.Reflection.FeatureSet+Types",
+              "Google.Protobuf.Reflection.FeatureSet+Types+EnforceNamingStyle",
+              "Google.Protobuf.Reflection.FeatureSet+Types+EnumType",
+              "Google.Protobuf.Reflection.FeatureSet+Types+FieldPresence",
+              "Google.Protobuf.Reflection.FeatureSet+Types+JsonFormat",
+              "Google.Protobuf.Reflection.FeatureSet+Types+MessageEncoding",
+              "Google.Protobuf.Reflection.FeatureSet+Types+RepeatedFieldEncoding",
+              "Google.Protobuf.Reflection.FeatureSet+Types+Utf8Validation",
+              "Google.Protobuf.Reflection.FeatureSet+Types+VisibilityFeature",
+              "Google.Protobuf.Reflection.FeatureSet+Types+VisibilityFeature+<>c",
+              "Google.Protobuf.Reflection.FeatureSet+Types+VisibilityFeature+Types",
+              "Google.Protobuf.Reflection.FeatureSet+Types+VisibilityFeature+Types+DefaultSymbolVisibility",
+              "Google.Protobuf.Reflection.FeatureSetDefaults",
+              "Google.Protobuf.Reflection.FeatureSetDefaults+<>c",
+              "Google.Protobuf.Reflection.FeatureSetDefaults+Types",
+              "Google.Protobuf.Reflection.FeatureSetDefaults+Types+FeatureSetEditionDefault",
+              "Google.Protobuf.Reflection.FeatureSetDefaults+Types+FeatureSetEditionDefault+<>c",
+              "Google.Protobuf.Reflection.FeatureSetDescriptor",
+              "Google.Protobuf.Reflection.FeatureSetDescriptor+<>c",
+              "Google.Protobuf.Reflection.FeatureSetDescriptor+<>c__DisplayClass2_0",
+              "Google.Protobuf.Reflection.FeatureSetDescriptor+<>c__DisplayClass2_1",
+              "Google.Protobuf.Reflection.FieldAccessorBase",
+              "Google.Protobuf.Reflection.FieldDescriptor",
+              "Google.Protobuf.Reflection.FieldDescriptorProto",
+              "Google.Protobuf.Reflection.FieldDescriptorProto+<>c",
+              "Google.Protobuf.Reflection.FieldDescriptorProto+Types",
+              "Google.Protobuf.Reflection.FieldDescriptorProto+Types+Label",
+              "Google.Protobuf.Reflection.FieldDescriptorProto+Types+Type",
+              "Google.Protobuf.Reflection.FieldOptions",
+              "Google.Protobuf.Reflection.FieldOptions+<>c",
+              "Google.Protobuf.Reflection.FieldOptions+Types",
+              "Google.Protobuf.Reflection.FieldOptions+Types+CType",
+              "Google.Protobuf.Reflection.FieldOptions+Types+EditionDefault",
+              "Google.Protobuf.Reflection.FieldOptions+Types+EditionDefault+<>c",
+              "Google.Protobuf.Reflection.FieldOptions+Types+FeatureSupport",
+              "Google.Protobuf.Reflection.FieldOptions+Types+FeatureSupport+<>c",
+              "Google.Protobuf.Reflection.FieldOptions+Types+JSType",
+              "Google.Protobuf.Reflection.FieldOptions+Types+OptionRetention",
+              "Google.Protobuf.Reflection.FieldOptions+Types+OptionTargetType",
+              "Google.Protobuf.Reflection.FieldType",
+              "Google.Protobuf.Reflection.FileDescriptor",
+              "Google.Protobuf.Reflection.FileDescriptor+<>c",
+              "Google.Protobuf.Reflection.FileDescriptor+<>c__DisplayClass2_0",
+              "Google.Protobuf.Reflection.FileDescriptorProto",
+              "Google.Protobuf.Reflection.FileDescriptorProto+<>c",
+              "Google.Protobuf.Reflection.FileDescriptorSet",
+              "Google.Protobuf.Reflection.FileDescriptorSet+<>c",
+              "Google.Protobuf.Reflection.FileOptions",
+              "Google.Protobuf.Reflection.FileOptions+<>c",
+              "Google.Protobuf.Reflection.FileOptions+Types",
+              "Google.Protobuf.Reflection.FileOptions+Types+OptimizeMode",
+              "Google.Protobuf.Reflection.GeneratedClrTypeInfo",
+              "Google.Protobuf.Reflection.GeneratedCodeInfo",
+              "Google.Protobuf.Reflection.GeneratedCodeInfo+<>c",
+              "Google.Protobuf.Reflection.GeneratedCodeInfo+Types",
+              "Google.Protobuf.Reflection.GeneratedCodeInfo+Types+Annotation",
+              "Google.Protobuf.Reflection.GeneratedCodeInfo+Types+Annotation+<>c",
+              "Google.Protobuf.Reflection.GeneratedCodeInfo+Types+Annotation+Types",
+              "Google.Protobuf.Reflection.GeneratedCodeInfo+Types+Annotation+Types+Semantic",
+              "Google.Protobuf.Reflection.IDescriptor",
+              "Google.Protobuf.Reflection.IFieldAccessor",
+              "Google.Protobuf.Reflection.MapFieldAccessor",
+              "Google.Protobuf.Reflection.MessageDescriptor",
+              "Google.Protobuf.Reflection.MessageDescriptor+<>c",
+              "Google.Protobuf.Reflection.MessageDescriptor+<>c__DisplayClass5_0",
+              "Google.Protobuf.Reflection.MessageDescriptor+FieldCollection",
+              "Google.Protobuf.Reflection.MessageDescriptor+FieldCollection+FieldCollectionDebugView",
+              "Google.Protobuf.Reflection.MessageOptions",
+              "Google.Protobuf.Reflection.MessageOptions+<>c",
+              "Google.Protobuf.Reflection.MethodDescriptor",
+              "Google.Protobuf.Reflection.MethodDescriptorProto",
+              "Google.Protobuf.Reflection.MethodDescriptorProto+<>c",
+              "Google.Protobuf.Reflection.MethodOptions",
+              "Google.Protobuf.Reflection.MethodOptions+<>c",
+              "Google.Protobuf.Reflection.MethodOptions+Types",
+              "Google.Protobuf.Reflection.MethodOptions+Types+IdempotencyLevel",
+              "Google.Protobuf.Reflection.OneofAccessor",
+              "Google.Protobuf.Reflection.OneofAccessor+<>c__DisplayClass4_0",
+              "Google.Protobuf.Reflection.OneofDescriptor",
+              "Google.Protobuf.Reflection.OneofDescriptor+<>c__DisplayClass3_0",
+              "Google.Protobuf.Reflection.OneofDescriptorProto",
+              "Google.Protobuf.Reflection.OneofDescriptorProto+<>c",
+              "Google.Protobuf.Reflection.OneofOptions",
+              "Google.Protobuf.Reflection.OneofOptions+<>c",
+              "Google.Protobuf.Reflection.OriginalNameAttribute",
+              "Google.Protobuf.Reflection.PackageDescriptor",
+              "Google.Protobuf.Reflection.ReflectionUtil",
+              "Google.Protobuf.Reflection.ReflectionUtil+ExtensionReflectionHelper`2",
+              "Google.Protobuf.Reflection.ReflectionUtil+ExtensionSetReflector`1",
+              "Google.Protobuf.Reflection.ReflectionUtil+ExtensionSetReflector`1+<>c__DisplayClass0_0",
+              "Google.Protobuf.Reflection.ReflectionUtil+IExtensionReflectionHelper",
+              "Google.Protobuf.Reflection.ReflectionUtil+IExtensionSetReflector",
+              "Google.Protobuf.Reflection.ReflectionUtil+IReflectionHelper",
+              "Google.Protobuf.Reflection.ReflectionUtil+ReflectionHelper`2",
+              "Google.Protobuf.Reflection.ReflectionUtil+ReflectionHelper`2+<>c__DisplayClass0_0",
+              "Google.Protobuf.Reflection.ReflectionUtil+ReflectionHelper`2+<>c__DisplayClass0_1",
+              "Google.Protobuf.Reflection.ReflectionUtil+ReflectionHelper`2+<>c__DisplayClass1_0",
+              "Google.Protobuf.Reflection.ReflectionUtil+ReflectionHelper`2+<>c__DisplayClass2_0",
+              "Google.Protobuf.Reflection.ReflectionUtil+ReflectionHelper`2+<>c__DisplayClass3_0",
+              "Google.Protobuf.Reflection.ReflectionUtil+ReflectionHelper`2+<>c__DisplayClass4_0",
+              "Google.Protobuf.Reflection.ReflectionUtil+SampleEnum",
+              "Google.Protobuf.Reflection.RepeatedFieldAccessor",
+              "Google.Protobuf.Reflection.ServiceDescriptor",
+              "Google.Protobuf.Reflection.ServiceDescriptor+<>c__DisplayClass0_0",
+              "Google.Protobuf.Reflection.ServiceDescriptorProto",
+              "Google.Protobuf.Reflection.ServiceDescriptorProto+<>c",
+              "Google.Protobuf.Reflection.ServiceOptions",
+              "Google.Protobuf.Reflection.ServiceOptions+<>c",
+              "Google.Protobuf.Reflection.SingleFieldAccessor",
+              "Google.Protobuf.Reflection.SingleFieldAccessor+<>c",
+              "Google.Protobuf.Reflection.SingleFieldAccessor+<>c__DisplayClass3_0",
+              "Google.Protobuf.Reflection.SingleFieldAccessor+<>c__DisplayClass3_1",
+              "Google.Protobuf.Reflection.SingleFieldAccessor+<>c__DisplayClass3_2",
+              "Google.Protobuf.Reflection.SourceCodeInfo",
+              "Google.Protobuf.Reflection.SourceCodeInfo+<>c",
+              "Google.Protobuf.Reflection.SourceCodeInfo+Types",
+              "Google.Protobuf.Reflection.SourceCodeInfo+Types+Location",
+              "Google.Protobuf.Reflection.SourceCodeInfo+Types+Location+<>c",
+              "Google.Protobuf.Reflection.SymbolVisibility",
+              "Google.Protobuf.Reflection.Syntax",
+              "Google.Protobuf.Reflection.TypeRegistry",
+              "Google.Protobuf.Reflection.TypeRegistry+<>c",
+              "Google.Protobuf.Reflection.TypeRegistry+Builder",
+              "Google.Protobuf.Reflection.TypeRegistry+TypeRegistryDebugView",
+              "Google.Protobuf.Reflection.UninterpretedOption",
+              "Google.Protobuf.Reflection.UninterpretedOption+<>c",
+              "Google.Protobuf.Reflection.UninterpretedOption+Types",
+              "Google.Protobuf.Reflection.UninterpretedOption+Types+NamePart",
+              "Google.Protobuf.Reflection.UninterpretedOption+Types+NamePart+<>c",
+              "Google.Protobuf.RepeatedExtensionValue`1",
+              "Google.Protobuf.RepeatedExtension`2",
+              "Google.Protobuf.RepeatedFieldExtensions",
+              "Google.Protobuf.SegmentedBufferHelper",
+              "Google.Protobuf.UnknownField",
+              "Google.Protobuf.UnknownFieldSet",
+              "Google.Protobuf.UnknownFieldSet+UnknownFieldSetDebugView",
+              "Google.Protobuf.UnsafeByteOperations",
+              "Google.Protobuf.UnsafeCollectionOperations",
+              "Google.Protobuf.ValueReader`1",
+              "Google.Protobuf.ValueWriter`1",
+              "Google.Protobuf.WellKnownTypes.Any",
+              "Google.Protobuf.WellKnownTypes.Any+<>c",
+              "Google.Protobuf.WellKnownTypes.AnyReflection",
+              "Google.Protobuf.WellKnownTypes.Api",
+              "Google.Protobuf.WellKnownTypes.Api+<>c",
+              "Google.Protobuf.WellKnownTypes.ApiReflection",
+              "Google.Protobuf.WellKnownTypes.BoolValue",
+              "Google.Protobuf.WellKnownTypes.BoolValue+<>c",
+              "Google.Protobuf.WellKnownTypes.BytesValue",
+              "Google.Protobuf.WellKnownTypes.BytesValue+<>c",
+              "Google.Protobuf.WellKnownTypes.DoubleValue",
+              "Google.Protobuf.WellKnownTypes.DoubleValue+<>c",
+              "Google.Protobuf.WellKnownTypes.Duration",
+              "Google.Protobuf.WellKnownTypes.Duration+<>c",
+              "Google.Protobuf.WellKnownTypes.DurationReflection",
+              "Google.Protobuf.WellKnownTypes.Empty",
+              "Google.Protobuf.WellKnownTypes.Empty+<>c",
+              "Google.Protobuf.WellKnownTypes.EmptyReflection",
+              "Google.Protobuf.WellKnownTypes.Enum",
+              "Google.Protobuf.WellKnownTypes.Enum+<>c",
+              "Google.Protobuf.WellKnownTypes.EnumValue",
+              "Google.Protobuf.WellKnownTypes.EnumValue+<>c",
+              "Google.Protobuf.WellKnownTypes.Field",
+              "Google.Protobuf.WellKnownTypes.Field+<>c",
+              "Google.Protobuf.WellKnownTypes.Field+Types",
+              "Google.Protobuf.WellKnownTypes.Field+Types+Cardinality",
+              "Google.Protobuf.WellKnownTypes.Field+Types+Kind",
+              "Google.Protobuf.WellKnownTypes.FieldMask",
+              "Google.Protobuf.WellKnownTypes.FieldMask+<>c",
+              "Google.Protobuf.WellKnownTypes.FieldMask+MergeOptions",
+              "Google.Protobuf.WellKnownTypes.FieldMaskReflection",
+              "Google.Protobuf.WellKnownTypes.FloatValue",
+              "Google.Protobuf.WellKnownTypes.FloatValue+<>c",
+              "Google.Protobuf.WellKnownTypes.Int32Value",
+              "Google.Protobuf.WellKnownTypes.Int32Value+<>c",
+              "Google.Protobuf.WellKnownTypes.Int64Value",
+              "Google.Protobuf.WellKnownTypes.Int64Value+<>c",
+              "Google.Protobuf.WellKnownTypes.ListValue",
+              "Google.Protobuf.WellKnownTypes.ListValue+<>c",
+              "Google.Protobuf.WellKnownTypes.Method",
+              "Google.Protobuf.WellKnownTypes.Method+<>c",
+              "Google.Protobuf.WellKnownTypes.Mixin",
+              "Google.Protobuf.WellKnownTypes.Mixin+<>c",
+              "Google.Protobuf.WellKnownTypes.NullValue",
+              "Google.Protobuf.WellKnownTypes.Option",
+              "Google.Protobuf.WellKnownTypes.Option+<>c",
+              "Google.Protobuf.WellKnownTypes.SourceContext",
+              "Google.Protobuf.WellKnownTypes.SourceContext+<>c",
+              "Google.Protobuf.WellKnownTypes.SourceContextReflection",
+              "Google.Protobuf.WellKnownTypes.StringValue",
+              "Google.Protobuf.WellKnownTypes.StringValue+<>c",
+              "Google.Protobuf.WellKnownTypes.Struct",
+              "Google.Protobuf.WellKnownTypes.Struct+<>c",
+              "Google.Protobuf.WellKnownTypes.StructReflection",
+              "Google.Protobuf.WellKnownTypes.Syntax",
+              "Google.Protobuf.WellKnownTypes.TimeExtensions",
+              "Google.Protobuf.WellKnownTypes.Timestamp",
+              "Google.Protobuf.WellKnownTypes.Timestamp+<>c",
+              "Google.Protobuf.WellKnownTypes.TimestampReflection",
+              "Google.Protobuf.WellKnownTypes.Type",
+              "Google.Protobuf.WellKnownTypes.Type+<>c",
+              "Google.Protobuf.WellKnownTypes.TypeReflection",
+              "Google.Protobuf.WellKnownTypes.UInt32Value",
+              "Google.Protobuf.WellKnownTypes.UInt32Value+<>c",
+              "Google.Protobuf.WellKnownTypes.UInt64Value",
+              "Google.Protobuf.WellKnownTypes.UInt64Value+<>c",
+              "Google.Protobuf.WellKnownTypes.Value",
+              "Google.Protobuf.WellKnownTypes.Value+<>c",
+              "Google.Protobuf.WellKnownTypes.Value+KindOneofCase",
+              "Google.Protobuf.WellKnownTypes.WrappersReflection",
+              "Google.Protobuf.WireFormat",
+              "Google.Protobuf.WireFormat+WireType",
+              "Google.Protobuf.WriteBufferHelper",
+              "Google.Protobuf.WriteContext",
+              "Google.Protobuf.WriterInternalState",
+              "Google.Protobuf.WritingPrimitives",
+              "Google.Protobuf.WritingPrimitivesMessages",
+              "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes",
+              "System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute",
+              "System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute",
+              "System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute"
+            ]
+          }
+        ],
+        "fingerprintStorageVersion": "1",
+        "fileManifestRef": {
+          "path": "fingerprints/8e80efc19806e74148dfcd971177933cfcfa8b387b98264eb8c48e92a1efc374-603581728bbb.json.gz",
+          "sha256": "0ed8f625601e2176f5b0f48503f4a9c7ab32d4cb70ac90d8e9f806e3aa1e545e",
+          "size": 189591,
+          "producer": {
+            "name": "uvault.inventory",
+            "version": "2",
+            "assemblyModel": "context-aware-scoped-types",
+            "managedMetadata": {
+              "name": "uvault.managed-index",
+              "version": "1",
+              "reader": "System.Reflection.Metadata/PEReader",
+              "available": true,
+              "adapterSha256": "0ff17d9869184596f4be45d8ef730e3f8310f4737feb5a7385e16f479381cce5"
+            }
+          }
+        },
+        "fileCount": 378,
+        "sourceFileCount": 123,
+        "sourceSetNonEmpty": true,
+        "conditionalSourceCount": 4,
+        "scopedTypeBasis": "explicit-verified-ownership-only; lexical declarations retain their original profile status",
+        "binaryFingerprints": [
+          {
+            "path": "YarnSpinner/Dependencies/Google.Protobuf.dll",
+            "sha256": "5c26cb0e1cde21b8a97125789a0f2666e1d44ed4191280f9968fd2084786331c",
+            "size": 490496,
+            "dummyDll": false
+          }
+        ]
+      },
+      "fetchStatus": "collected",
+      "versionStatus": "stable",
+      "packageId": "YarnSpinner.Runtime.Source",
+      "collectedAt": "2026-10-18T05:34:37.127158Z"
     }
   ],
   "metadataStatus": "complete",
